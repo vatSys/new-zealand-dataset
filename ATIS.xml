@@ -1,121 +1,44 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ATIS>
  <Frequencies>
-    <Frequency Airport="AYGA" Frequency="134.0" />
-    <Frequency Airport="AYMD" Frequency="127.8" />
-    <Frequency Airport="AYMH" Frequency="128.4" />
-    <Frequency Airport="AYNZ" Frequency="128.6" />
-    <Frequency Airport="AYPY" Frequency="128.0" />
-    <Frequency Airport="AYTK" Frequency="128.0" />
-    <Frequency Airport="AYWK" Frequency="128.2" />
-    <Frequency Airport="NFFN" Frequency="127.9" />
-    <Frequency Airport="NFNA" Frequency="128.5" />
-    <Frequency Airport="NVVV" Frequency="126.4" />
-    <Frequency Airport="NWWM" Frequency="126.6" />
-    <Frequency Airport="NWWW" Frequency="126.2" />
-    <Frequency Airport="PKWA" Frequency="119.5" />
-    <Frequency Airport="YAMB" Frequency="123.3" />
-    <Frequency Airport="YBAF" Frequency="120.9" />
-    <Frequency Airport="YBAS" Frequency="123.0" />
-    <Frequency Airport="YBBN" Frequency="125.5" />
-    <Frequency Airport="YBCG" Frequency="134.5" />
-    <Frequency Airport="YBCS" Frequency="131.1" />
-    <Frequency Airport="YBHM" Frequency="128.35" />
-    <Frequency Airport="YBMK" Frequency="128.0" />
-    <Frequency Airport="YBOK" Frequency="124.3" />
-    <Frequency Airport="YBRK" Frequency="128.5" />
-    <Frequency Airport="YBRM" Frequency="133.05" />
-    <Frequency Airport="YBSU" Frequency="119.8" />
-    <Frequency Airport="YBTL" Frequency="133.5" />
-    <Frequency Airport="YCFS" Frequency="130.3" />
-    <Frequency Airport="YGIG" Frequency="134.0" />
-    <Frequency Airport="YMAV" Frequency="118.2" />
-    <Frequency Airport="YMAY" Frequency="133.85" />
-    <Frequency Airport="YMEN" Frequency="119.8" />
-    <Frequency Airport="YMES" Frequency="125.4" />
-    <Frequency Airport="YMHB" Frequency="128.45" />
-    <Frequency Airport="YMLT" Frequency="134.75" />
-    <Frequency Airport="YMMB" Frequency="120.9" />
-    <Frequency Airport="YMML" Frequency="118.0" />
-    <Frequency Airport="YPAD" Frequency="134.5" />
-    <Frequency Airport="YPDN" Frequency="128.25" />
-    <Frequency Airport="YPEA" Frequency="134.0" />
-    <Frequency Airport="YPED" Frequency="126.25" />
-    <Frequency Airport="YPJT" Frequency="128.65" />
-    <Frequency Airport="YPKA" Frequency="134.55" />
-    <Frequency Airport="YPPF" Frequency="120.9" />
-    <Frequency Airport="YPPH" Frequency="123.8" />
-    <Frequency Airport="YPTN" Frequency="124.0" />
-    <Frequency Airport="YPWR" Frequency="134.0" />
-    <Frequency Airport="YSBK" Frequency="120.9" />
-    <Frequency Airport="YSCB" Frequency="127.45" />
-    <Frequency Airport="YSCN" Frequency="125.1" />
-    <Frequency Airport="YSNW" Frequency="125.65" />
-    <Frequency Airport="YSRI" Frequency="126.3" />
-    <Frequency Airport="YSSY" Frequency="126.25" />
-    <Frequency Airport="YSTW" Frequency="123.8" />
-    <Frequency Airport="YWLM" Frequency="134.45" />
+    <Frequency Airport="NZAA" Frequency="127.800" />
+	<Frequency Airport="NZWN" Frequency="126.900" />
+	<Frequency Airport="NZCH" Frequency="127.200" />
+	<Frequency Airport="NZDN" Frequency="126.450" />
+	<Frequency Airport="NZGS" Frequency="126.400" />
+	<Frequency Airport="NZHN" Frequency="128.650" />
+	<Frequency Airport="NZNP" Frequency="127.050" />
+	<Frequency Airport="NZNR" Frequency="121.800" />
+	<Frequency Airport="NZNS" Frequency="129.100" />
+	<Frequency Airport="NZNV" Frequency="127.000" />
+	<Frequency Airport="NZOH" Frequency="135.000" />
+	<Frequency Airport="NZPM" Frequency="129.700" />
+	<Frequency Airport="NZQN" Frequency="126.400" />
+	<Frequency Airport="NZRO" Frequency="128.800" />
+	<Frequency Airport="NZTG" Frequency="126.600" />
+	<Frequency Airport="NZWB" Frequency="126.050" />
+	<Frequency Airport="NZWP" Frequency="128.300" />
   </Frequencies>
   <Translations>
-    <Translation String="AYGA" Spoken="Goroka" />
-    <Translation String="AYMD" Spoken="Madang" />
-    <Translation String="AYMH" Spoken="Mount Hagen" />
-    <Translation String="AYNZ" Spoken="Nadzab" />
-    <Translation String="AYPY" Spoken="Port Moresby" />
-    <Translation String="AYTK" Spoken="Tokua" />
-    <Translation String="AYWK" Spoken="Wewak" />
-    <Translation String="NFFN" Spoken="Nadi" />
-    <Translation String="NFNA" Spoken="Nausori" />
-    <Translation String="NVVV" Spoken="Port Villa" />
-    <Translation String="NWWM" Spoken="Magenta" />
-    <Translation String="NWWW" Spoken="Noumea" />
-    <Translation String="PKWA" Spoken="Bucholz" />
-    <Translation String="YAMB" Spoken="Amberley" />
-    <Translation String="YBAF" Spoken="Archer" />
-    <Translation String="YBAS" Spoken="Alice" />
-    <Translation String="YBBN" Spoken="Brisbane" />
-    <Translation String="YBCG" Spoken="Gold Coast" />
-    <Translation String="YBCS" Spoken="Cairns" />
-    <Translation String="YBHM" Spoken="Hamilton Island" />
-    <Translation String="YBMK" Spoken="Mackay" />
-    <Translation String="YBOK" Spoken="Oakey" />
-    <Translation String="YBRK" Spoken="Rocky" />
-    <Translation String="YBRM" Spoken="Broome" />
-    <Translation String="YBSU" Spoken="Sunshine Coast" />
-    <Translation String="YBTL" Spoken="Townsville" />
-    <Translation String="YCFS" Spoken="Coffs Harbour" />
-    <Translation String="YGIG" Spoken="GinGin" />
-    <Translation String="YMAV" Spoken="Avalon" />
-    <Translation String="YMAY" Spoken="Albury" />
-    <Translation String="YMEN" Spoken="Essendon" />
-    <Translation String="YMES" Spoken="East Sale" />
-    <Translation String="YMHB" Spoken="Hobart" />
-    <Translation String="YMLT" Spoken="Launy" />
-    <Translation String="YMMB" Spoken="Moorabbin" />
-    <Translation String="YMML" Spoken="Melbourne" />
-    <Translation String="YPAD" Spoken="Adelaide" />
-    <Translation String="YPDN" Spoken="Darwin" />
-    <Translation String="YPEA" Spoken="Pearce" />
-    <Translation String="YPED" Spoken="Edinburgh" />
-    <Translation String="YPJT" Spoken="Jandakot" />
-    <Translation String="YPKA" Spoken="Karratha" />
-    <Translation String="YPPF" Spoken="Parafield" />
-    <Translation String="YPPH" Spoken="Perth" />
-    <Translation String="YPTN" Spoken="Tindal" />
-    <Translation String="YPWR" Spoken="Woomera" />
-    <Translation String="YSBK" Spoken="Bankstown" />
-    <Translation String="YSCB" Spoken="Canberra" />
-    <Translation String="YSCN" Spoken="Camden" />
-    <Translation String="YSNW" Spoken="Nowra" />
-    <Translation String="YSRI" Spoken="Richmond" />
-    <Translation String="YSSY" Spoken="Sydney" />
-    <Translation String="YSTW" Spoken="Tamworth" />
-    <Translation String="YWLM" Spoken="Willy" />
-	
-	<Translation String="YMMM" Spoken="Melbourne" />
-	<Translation String="YBBB" Spoken="Brisbane" />
+    <Translation String="NZAA" Spoken="Auckland" />
+    <Translation String="NZWP" Spoken="Whenuapai" />
+    <Translation String="NZHN" Spoken="Hamilton" />
+    <Translation String="NZTG" Spoken="Tauranga" />
+    <Translation String="NZRO" Spoken="Rotorua" />
+    <Translation String="NZGS" Spoken="Gisborne" />
+    <Translation String="NZNP" Spoken="New Plymouth" />
+    <Translation String="NZNR" Spoken="Napier" />
+    <Translation String="NZOH" Spoken="Ohakea" />
+    <Translation String="NZPM" Spoken="Palmerston North" />
+    <Translation String="NZWN" Spoken="Wellington" />
+    <Translation String="NZWB" Spoken="Woodbourne" />
+    <Translation String="NZNS" Spoken="Nelson" />
+    <Translation String="NZCH" Spoken="Christchurch" />
+    <Translation String="NZDN" Spoken="Dunedin" />
+    <Translation String="NZQN" Spoken="Queenstown" />
+    <Translation String="NZNV" Spoken="Invercargill" />
 
-    <Translation String="ATIS" Spoken="terminal information" />
+    <Translation String="ATIS" Spoken="information" />
 
     <Translation String="A" Spoken="alpha" />
     <Translation String="B" Spoken="bravo" />
@@ -153,6 +76,7 @@
     <Translation String="INST" Spoken="instrument" />
     <Translation String="INSTR" Spoken="instrument" />
     <Translation String="ILS" Spoken="I L S" />
+	<Translation String="ILSDME" Spoken="I L S D M E" />
     <Translation String="NDB" Spoken="N D B" />
     <Translation String="VOR" Spoken="V O R" />
     <Translation String="GLS" Spoken="G L S" />
@@ -195,7 +119,8 @@
     <Translation String="LGT" Spoken="light" />
     <Translation String="OTLED" Spoken="OTLEDD" />
     <Translation String="DEG" Spoken="degrees" />
-    <Translation String="NAVBL" Spoken="not available" /> 
+    <Translation String="NAVBL" Spoken="not available" />
+    <Translation String="SFC" Spoken="Surface" />	
 
     <Translation String="RWY" Spoken="runway" />
     <Translation String="RWYS" Spoken="runways" />
@@ -241,6 +166,7 @@
 
 	<Translation String="CAVOK" Spoken="ˈkævˈoʊˈkeɪ" Alphabet="IPA" FallbackSpoken="kuv-okay"/>
 	<Translation String="NSC" Spoken="nil significant cloud" />
+	<Translation String="NCD" Spoken="nil cloud detected" />
     <Translation Regex="\+([A-Z]+)" Spoken="heavy $1" />
     <Translation Regex="\-([A-Z]+)" Spoken="light $1" />
     <Translation String="MI" Spoken="shallow" />
@@ -278,26 +204,33 @@
     <Translation String="TSRA" Spoken="thunderstorms and rain" />
     <Translation String="TSRAGS" Spoken="thunderstorms and rain with hail" />
     <Translation String="TCU" Spoken="towering cumulus" />
+	<Translation String="COND" Spoken="condition" /> 
 
     <Translation String="TMP" Spoken="temperature" />
 
     <Translation String="QNH" Spoken="Q-N-H" />
+	
+	<Translation String="DP" Spoken="dew point" />
+	
+	<!--<Translation String="2 THOUSAND FT WIND" Spoken="TWO THOUSAND FOOT WIND" /> -->
 
     <Translation String="SIGMET" Spoken="sɪɢɱɛt" Alphabet="IPA" FallbackSpoken="sygmet" />
 
   </Translations>
   <Editor>
-    <Input name="APCH" NameIsSpoken="false" InputType="Edit" />
+	<Input name="ISSUED AT" value=". ZULU" NameIsSpoken="true" InputType="Edit" />
+    <Input name="EXPECT" value=". APCH" NameIsSpoken="true" InputType="Edit" />
     <Input name="RWY" NameIsSpoken="true" InputType="Edit" />
-    <Input name="SFC COND" NameIsSpoken="false" InputType="Edit" />
-    <Input name="OPR INFO" NameIsSpoken="false" InputType="Edit" />
-    <Input name="WIND" NameIsSpoken="true" InputType="Edit" />
+    <Input name="RWY COND" NameIsSpoken="true" InputType="Edit" />
+    <Input name="SFC WIND" NameIsSpoken="true" InputType="Edit" />
     <Input name="VIS" NameIsSpoken="true" InputType="Edit" NumbersSpokenGrouped="true" />
-    <Input name="WX" NameIsSpoken="false" InputType="Edit" />
-    <Input name="CLD" NameIsSpoken="true" InputType="Edit" NumbersSpokenGrouped="true" />
+    <!--<Input name="WX" NameIsSpoken="false" InputType="Edit" /> -->
+    <Input name="CLD" NameIsSpoken="false" InputType="Edit" NumbersSpokenGrouped="true" />
     <Input name="TMP" NameIsSpoken="true" InputType="Edit" />
-    <Input name="QNH" NameIsSpoken="true" InputType="Edit" />
-    <Input name="SIGWX" NameIsSpoken="false" InputType="Edit" NumbersSpokenGrouped="true" />
-    <Input name="OFCW_NOTIFY" value="ground or approach" InputType="Edit" />
+	<Input name="DP" NameIsSpoken="true" InputType="Edit" />
+	<Input name="QNH" NameIsSpoken="true" InputType="Edit" />
+    <!--<Input name="SIGWX" NameIsSpoken="true" InputType="Edit" NumbersSpokenGrouped="true" /> -->
+	<Input name="2 THOUSAND FT WIND" NameIsSpoken="true" InputType="Edit" />
+     <Input name="OFCW_NOTIFY" value="ATC" InputType="Edit" />
   </Editor>
 </ATIS>

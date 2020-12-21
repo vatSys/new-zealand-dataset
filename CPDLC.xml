@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Messages>
   <Category name="QUICK_OPTIONS">
-    <Message Response="WU">CLIMB TO AND MAINTAIN [LEVEL]</Message>
-    <Message Response="WU">DESCEND TO AND MAINTAIN [LEVEL]</Message>
-    <Message Response="WU">PROCEED DIRECT TO [POSITION]</Message>
+    <Message Response="WU">CLIMB TO [LEVEL]</Message>
+    <Message Response="WU">DESCEND TO [LEVEL]</Message>
+    <Message Response="WU">CLEARED DIRECT [POSITION]</Message>
     <Message Response="WU">MAINTAIN [SPEED] OR GREATER</Message>
     <Message Response="WU">MAINTAIN [SPEED] OR LESS</Message>
     <Message Response="WU">CONTACT [UNIT] [FREQUENCY]</Message>
@@ -14,23 +14,23 @@
     <Message Response="AN">CAN YOU ACCEPT [LEVEL] AT [POSITION]</Message>
     <Message Response="AN">CAN YOU ACCEPT [LEVEL] AT [TIME]</Message>
     <Message Response="WU">MAINTAIN [LEVEL]</Message>
-    <Message Response="WU">CLIMB TO AND MAINTAIN [LEVEL]</Message>
-    <Message Response="WU">AT [TIME] CLIMB TO AND MAINTAIN [LEVEL]</Message>
-    <Message Response="WU">AT [POSITION] CLIMB TO AND MAINTAIN [LEVEL]</Message>
-    <Message Response="WU">DESCEND TO AND MAINTAIN [LEVEL]</Message>
-    <Message Response="WU">AT [TIME] DESCEND TO AND MAINTAIN [LEVEL]</Message>
-    <Message Response="WU">AT [POSITION] DESCEND TO AND MAINTAIN [LEVEL]</Message>
+    <Message Response="WU">CLIMB TO [LEVEL]</Message>
+    <Message Response="WU">AT [TIME] CLIMB TO [LEVEL]</Message>
+    <Message Response="WU">AT [POSITION] CLIMB TO [LEVEL]</Message>
+    <Message Response="WU">DESCEND TO [LEVEL] [QNH]</Message>
+    <Message Response="WU">AT [TIME] DESCEND TO [LEVEL]</Message>
+    <Message Response="WU">AT [POSITION] DESCEND TO [LEVEL]</Message>
     <Message Response="WU">CLIMB TO REACH [LEVEL] BY [TIME]</Message>
     <Message Response="WU">CLIMB TO REACH [LEVEL] BY [POSITION]</Message>
     <Message Response="WU">DESCEND TO REACH [LEVEL] BY [TIME]</Message>
     <Message Response="WU">DESCEND TO REACH [LEVEL] BY [POSITION]</Message>
-    <Message Response="R">REACH [LEVEL] BY [TIME]</Message>
-    <Message Response="R">REACH [LEVEL] BY [POSITION]</Message>
+    <Message Response="R">REQUIREMENT REACH [LEVEL] BY [TIME]</Message>
+    <Message Response="R">REQUIREMENT REACH [LEVEL] BY [POSITION]</Message>
     <Message Response="WU">MAINTAIN BLOCK [LEVEL] TO [LEVEL]</Message>
-    <Message Response="WU">CLIMB TO AND MAINTAIN BLOCK [LEVEL] TO [LEVEL]</Message>
-    <Message Response="WU">DESCEND TO AND MAINTAIN BLOCK [LEVEL] TO [LEVEL]</Message>
-    <Message Response="R">LEAVE CONTROL AREA DESCENDING</Message>
-    <Message Response="R">CRUISE CLIMB NOT AVAILABLE IN AUSTRALIAN ADMINISTERED AIRSPACE</Message>
+    <Message Response="WU">CLIMB TO  BLOCK [LEVEL] TO [LEVEL]</Message>
+    <Message Response="WU">DESCEND TO  BLOCK [LEVEL] TO [LEVEL]</Message>
+    <Message Response="R">LEAVE CONTROLLED AIRSPACE DESCENDING</Message>
+    <Message Response="R">CRUISE CLIMB NOT AVAILABLE IN NEW ZEALAND ADMINISTRED AIRSPACE</Message>
     <Message Response="WU">CRUISE [LEVEL]</Message>
     <Message Response="WU">CRUISE CLIMB TO [LEVEL]</Message>
     <Message Response="WU">CRUISE CLIMB ABOVE [LEVEL]</Message>
@@ -62,7 +62,7 @@
     <Message Response="WU">CROSS [POSITION] AT [LEVEL]</Message>
     <Message Response="WU">CROSS [POSITION] AT OR ABOVE [LEVEL]</Message>
     <Message Response="WU">CROSS [POSITION] AT OR BELOW [LEVEL]</Message>
-    <Message Response="WU">CROSS [POSITION] AT AND MAINTAIN [LEVEL]</Message>
+    <Message Response="WU">CROSS [POSITION] AT  [LEVEL]</Message>
     <Message Response="WU">CROSS [POSITION] BETWEEN [LEVEL] AND [LEVEL]</Message>
     <Message Response="WU">CROSS [POSITION] AT [TIME]</Message>
     <Message Response="WU">CROSS [POSITION] AT OR BEFORE [TIME]</Message>
@@ -74,20 +74,20 @@
     <Message Response="WU">CROSS [POSITION] AT [TIME] AT [LEVEL]</Message>
     <Message Response="WU">CROSS [POSITION] AT OR BEFORE [TIME] AT [LEVEL]</Message>
     <Message Response="WU">CROSS [POSITION] AT OR AFTER [TIME] AT [LEVEL]</Message>
-    <Message Response="WU">CROSS [POSITION] AT AND MAINTAIN [LEVEL] AT [SPEED]</Message>
-    <Message Response="WU">AT [TIME] CROSS [POSITION] AT AND MAINTAIN [LEVEL]</Message>
-    <Message Response="WU">AT [TIME] CROSS [POSITION] AT AND MAINTAIN [LEVEL] AT [SPEED]</Message>
+    <Message Response="WU">CROSS [POSITION] AT  [LEVEL] AT [SPEED]</Message>
+    <Message Response="WU">AT [TIME] CROSS [POSITION] AT  [LEVEL]</Message>
+    <Message Response="WU">AT [TIME] CROSS [POSITION] AT  [LEVEL] AT [SPEED]</Message>
     <Message Response="R">EXPECT TO CROSS [POSITION] AT [LEVEL]</Message>
     <Message Response="R">EXPECT TO CROSS [POSITION] AT OR ABOVE [LEVEL]</Message>
     <Message Response="R">EXPECT TO CROSS [POSITION] AT OR BELOW [LEVEL]</Message>
-    <Message Response="R">EXPECT TO CROSS [POSITION] AT AND MAINTAIN [LEVEL]</Message>
+    <Message Response="R">EXPECT TO CROSS [POSITION] AT  [LEVEL]</Message>
   </Category>
   <Category name="Divert">
     <Message Response="NE">WHEN CAN YOU ACCEPT [DISTANCE] [DIRECTION] OFFSET</Message>
     <Message Response="WU">OFFSET [DISTANCE] [DIRECTION] OF ROUTE</Message>
     <Message Response="WU">AT [POSITION] OFFSET [DISTANCE] [DIRECTION] OF ROUTE</Message>
     <Message Response="WU">AT [TIME] OFFSET [DISTANCE] [DIRECTION] OF ROUTE</Message>
-    <Message Response="WU">PROCEED BACK ON ROUTE</Message>
+    <Message Response="WU">CLEARED BACK ON ROUTE</Message>
     <Message Response="WU">REJOIN ROUTE BY [POSITION]</Message>
     <Message Response="WU">REJOIN ROUTE BY [TIME]</Message>
     <Message Response="WU">RESUME OWN NAVIGATION</Message>
@@ -95,11 +95,11 @@
     <Message Response="R">EXPECT BACK ON ROUTE BY [TIME]</Message>
   </Category>
   <Category name="Route">
-    <Message Response="WU">PROCEED DIRECT TO [POSITION]</Message>
-    <Message Response="WU">WHEN ABLE PROCEED DIRECT TO [POSITION]</Message>
-    <Message Response="WU">AT [TIME] PROCEED DIRECT TO [POSITION]</Message>
-    <Message Response="WU">AT [POSITION] PROCEED DIRECT TO [POSITION]</Message>
-    <Message Response="WU">AT [LEVEL] PROCEED DIRECT TO [POSITION]</Message>
+    <Message Response="WU">CLEARED DIRECT TO [POSITION]</Message>
+    <Message Response="WU">WHEN ABLE CLEARED DIRECT TO [POSITION]</Message>
+    <Message Response="WU">AT [TIME] CLEARED DIRECT TO [POSITION]</Message>
+    <Message Response="WU">AT [POSITION] CLEARED DIRECT TO [POSITION]</Message>
+    <Message Response="WU">AT [LEVEL] CLEARED DIRECT TO [POSITION]</Message>
     <Message Response="WU">CLEARED TO [POSITION] VIA [ROUTE]</Message>
     <Message Response="WU">CLEARED [ROUTE]</Message>
     <Message Response="WU">CLEARED [STAR] [TEXT]</Message>
@@ -124,14 +124,13 @@
   </Category>
 
   <Category name="PDC" AutoloadElements="true" SendViaTM="true">
-    <Message Response="NE">PDC [TIMESTAMP]</Message>
-    <Message Response="NE">[CALLSIGN] [ATYPE] [ADEP] [ETD]</Message>
-    <Message Response="NE">CLEARED TO [ADES] VIA [SID] DEP [TEXT]</Message>
-    <Message Response="NE">ROUTE [ROUTE]</Message>
-    <Message Response="NE">CLIMB VIA SID TO [LEVEL]</Message>
-    <Message Response="NE">DEP FREQ [FREQUENCY]</Message>
-    <Message Response="NE">SQUAWK [SSR]</Message>
-	<Message Response="NE">PDC READBACK FREQ [FREQUENCY]</Message>
+    <Message Response="NE">[CALLSIGN] </Message>
+    <Message Response="NE"> CLEARED [TIMESTAMP] [ADES] </Message>
+    <Message Response="NE"> PDC DCL1 CLEARED TO [ADES] OFF [RUNWAY] VIA [SID] </Message>
+	<Message Response="NE"> SQUAWK [SSR] </Message>
+    <Message Response="NE"> NEXT FREQ [FREQUENCY] </Message>
+	<Message Response="NE"> ATIS [CODE] </Message>
+	<Message Response="NE"> TRANSITION:SEE SID ROUTE:[ROUTE] ALT:[ALT] </Message>
   </Category>
   <Category name="Speed">
     <Message Response="WU">MAINTAIN [SPEED]</Message>
