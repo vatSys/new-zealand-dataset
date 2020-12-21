@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="MSA_LABEL" Priority="3" Center="-2380.8+13390.1">
+    <Label HasLeader="False" Alignment="Center" VerticalAlignment="Middle">
+<Point Name="24">-371134.124+1744647.874</Point>
+<Point Name="27">-370555.965+1743624.493</Point>
+<Point Name="28">-365751.127+1743205.994</Point>
+<Point Name="34">-371143.604+1750513.373</Point>
+<Point Name="36"> -370852.701+1751448.715</Point>
+<Point Name="28">-365932.097+1750611.337</Point>
+<Point Name="26">-363830.318+1743814.704</Point>
+<Point Name="28">-364041.176+1742349.735</Point>
+<Point Name="29">-373611.865+1751938.825</Point>
+<Point Name="36">-374915.398+1750253.991</Point>
+<Point Name="35">-380808.461+1751330.759</Point>
+<Point Name="56">-374807.305+1754446.964</Point>
+<Point Name="56">-372220.012+1753634.580</Point>
+<Point Name="40">-381719.672+1755813.176</Point>
+<Point Name="40">-375204.493+1762227.295</Point>
+<Point Name="05">-382253.357+1765517.549</Point>
+<Point Name="70">-382952.674+1772237.974</Point>
+<Point Name="60">-382222.696+1774530.944</Point>
+<Point Name="50">-385214.075+1774312.839</Point>
+<Point Name="100">-384749.811+1764313.407</Point>
+<Point Name="80">-392020.736+1762750.123</Point>
+<Point Name="80">-394620.890+1763113.654</Point>
+<Point Name="40">-392408.140+1744533.884</Point>
+<Point Name="113">-391237.234+1754202.013</Point>
+<Point Name="60">-385004.332+1754337.467</Point>
+<Point Name="103">-392001.315+1740814.358</Point>
+<Point Name="30">-394539.112+1750329.556</Point>
+<Point Name="80">-395833.568+1760352.570</Point>
+<Point Name="60">-402904.929+1755138.690</Point>
+<Point Name="73">-405223.547+1752057.164</Point>
+<Point Name="20">-401733.493+1751856.954</Point>
+<Point Name="30">-410347.786+1745140.050</Point>
+<Point Name="50">-411540.446+1750110.535</Point>
+<Point Name="47">-352454.339+1734323.222</Point>
+<Point Name="63">-410402.017+1740342.786</Point>
+<Point Name="43">-410626.341+1733501.096</Point>
+<Point Name="79">-412321.102+1733104.451</Point>
+<Point Name="70">-414743.809+1740101.979</Point>
+<Point Name="116">-422121.115+1732346.565</Point>
+<Point Name="98">-420442.417+1725332.106</Point>
+<Point Name="83">-413006.587+1723515.004</Point>
+<Point Name="58">-413804.935+1715824.922</Point>
+<Point Name="58">-412805.862+1730931.582</Point>
+<Point Name="30">-430110.643+1725738.851</Point>
+<Point Name="56">-425546.362+1723910.722</Point>
+<Point Name="84">-425045.051+1721117.171</Point>
+<Point Name="76">-431343.421+1715447.823</Point>
+<Point Name="100">-425503.699+1711454.671</Point>
+<Point Name="98">-433518.694+1711928.594</Point>
+<Point Name="54">-432527.605+1715416.022</Point>
+<Point Name="21">-431653.656+1722305.742</Point>
+<Point Name="19">-434000.946+1715710.055</Point>
+<Point Name="84">-440020.218+1710331.711</Point>
+<Point Name="100">-435624.849+1702657.384</Point>
+<Point Name="19">-441519.643+1710927.670</Point>
+<Point Name="160">-435034.530+1695258.427</Point>
+<Point Name="160">-434158.795+1700006.854</Point>
+<Point Name="98">-442353.136+1694909.081</Point>
+<Point Name="87">-444446.982+1702153.688</Point>
+<Point Name="20">-445757.090+1704440.485</Point>
+<Point Name="98">-445521.198+1692801.885</Point>
+<Point Name="98">-451407.563+1684804.863</Point>
+<Point Name="114">-441511.132+1683249.585</Point>
+<Point Name="40">-453859.536+1702745.808</Point>
+<Point Name="72">-454424.303+1692718.651</Point>
+<Point Name="36">-460539.529+1694120.791</Point>
+<Point Name="40">-455511.896+1690916.216</Point>
+<Point Name="46">-454733.598+1682826.718</Point>
+    </Label>
+  </Map>
+</Maps>

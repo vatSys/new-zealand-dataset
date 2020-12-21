@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Profile Name="Australia" FullName="Eurocat Australia (YMMM/YBBB)">
-	<Version AIRAC="2009" Revision="b" PublishDate="20200822" UpdateURL="http://vatsys.sawbe.com/downloads/data/Australia" />
+<Profile Name="New Zealand" FullName="Lockheed Martin SkyLine NZZC">
+	<Version AIRAC="2009" Revision="x0917.1" PublishDate="20200813" UpdateURL="" />
 	<Servers>
 		<VATSIMStatus url="http://status.vatsim.net/" />
 		<GRIB url="http://sawbe.com/GRIB/" />

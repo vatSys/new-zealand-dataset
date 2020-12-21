@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="WN_16_STAR" Priority="2" CustomColourName="DrawProc" Centre="-411902.600+1744827.000">
+	<Line>
+		TPAPA/
+		BRUDA/
+		HUWIT/
+		WITBY
+	</Line>
+	<Line>
+		SIMZI/
+		KABUS/
+		RUSKI/
+		HUWIT
+	</Line>
+	<Line>
+		AVPOD/
+		HUWIT
+	</Line>
+	<Line>
+		WARDS/
+		OMDOX/
+		PHNIX/
+		HUWIT
+	</Line>
+	<Line>
+		DOGAD/
+		WN406/
+		LADIT/
+		HECTA/
+		PAHWA/
+		WITBY
+	</Line>
+	<Line>
+		ATSUN/
+		CHATS/
+		ONOKI/
+		PAHWA
+	</Line>
+	<Line>
+		GULUT/
+		SIMZI
+	</Line>
+	<Line>
+		TANEN/
+		SIMZI
+	</Line>
+	<Line>
+		GOPLU/
+		SIMZI
+	</Line>
+  </Map>
+</Maps>
