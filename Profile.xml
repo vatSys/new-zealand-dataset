@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Profile Name="New Zealand" FullName="Lockheed Martin SkyLine NZZC">
-	<Version AIRAC="2009" Revision="x0917.1" PublishDate="20200813" UpdateURL="https://vatsys.sawbe.com/downloads/data/New%20Zealand/" />
+	<Version AIRAC="2013" Revision="x1221.0" PublishDate="20201221" UpdateURL="" />
 	<Servers>
+		<VATSIMStatus url="http://status.vatsim.net/" />
 		<VATSIMStatus url="https://status.vatsim.net/" />
 		<GRIB url="http://sawbe.com/GRIB/" />
 		<G2G url="antifaff.vatsys.sawbe.com" port="64738" />
