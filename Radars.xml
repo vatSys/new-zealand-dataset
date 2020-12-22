@@ -1,95 +1,122 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Radars>
   <Radar Name="Auckland Primary" Type="PRI" Elevation="30" MaxRange="80">
-	<Lat>-37.015769</Lat>
-	<Long>174.8078</Long>
+    <Lat>-37.015769</Lat>
+    <Long>174.8078</Long>
   </Radar>
+
   <Radar Name="Hawkins Hill Primary" Type="PRI" Elevation="1591" MaxRange="80">
-	<Lat>-41.3299</Lat>
-	<Long>174.725572</Long>
+    <Lat>-41.3299</Lat>
+    <Long>174.725572</Long>
   </Radar>
+
   <Radar Name="Christchurch Primary" Type="PRI" Elevation="123" MaxRange="80">
-	<Lat>-43.5041</Lat>
-	<Long>172.5146</Long>
+    <Lat>-43.5041</Lat>
+    <Long>172.5146</Long>
   </Radar>
+
   <Radar Name="Rua o te Whenua Secondary" Type="SSR_ModeC" Elevation="1490" MaxRange="230">
-	<Lat>-36.92428</Lat>
-	<Long>174.5534</Long>
+    <Lat>-36.92428</Lat>
+    <Long>174.5534</Long>
   </Radar>
+
   <Radar Name="Te Weraiti Secondary" Type="SSR_ModeC" Elevation="2144" MaxRange="230">
-	<Lat>-37.83828</Lat>
-	<Long>175.9122</Long>
+    <Lat>-37.83828</Lat>
+    <Long>175.9122</Long>
   </Radar>
+
   <Radar Name="Balance Secondary" Type="SSR_ModeC" Elevation="1640" MaxRange="230">
-	<Lat>-40.4004</Lat>
-	<Long>175.7325</Long>
+    <Lat>-40.4004</Lat>
+    <Long>175.7325</Long>
   </Radar>
+
   <Radar Name="Hawkins Hill Secondary" Type="SSR_ModeC" Elevation="1591" MaxRange="230">
-	<Lat>-41.3299</Lat>
-	<Long>174.725572</Long>
+    <Lat>-41.3299</Lat>
+    <Long>174.725572</Long>
   </Radar>
+
   <Radar Name="Mount Robertson Secondary" Type="SSR_ModeC" Elevation="3395" MaxRange="230">
-	<Lat>-41.34827</Lat>
-	<Long>174.0223</Long>
+    <Lat>-41.34827</Lat>
+    <Long>174.0223</Long>
   </Radar>
+
   <Radar Name="Cass Peak Secondary" Type="SSR_ModeC" Elevation="1751" MaxRange="230">
-	<Lat>-43.63582</Lat>
-	<Long>172.6237</Long>
+    <Lat>-43.63582</Lat>
+    <Long>172.6237</Long>
   </Radar>
+
   <Radar Name="Cardrona MLAT" Type="SSR_ModeC" Elevation="6125" MaxRange="50">
-	<Lat>-44.85698</Lat>
-	<Long>168.9447</Long>
+    <Lat>-44.85698</Lat>
+    <Long>168.9447</Long>
   </Radar>  
+
   <Radar Name="Coronet Peak MLAT" Type="SSR_ModeC" Elevation="5272" MaxRange="50">
-	<Lat>-44.91658</Lat>
-	<Long>168.7391</Long>
+    <Lat>-44.91658</Lat>
+    <Long>168.7391</Long>
   </Radar>
+
   <Radar Name="Mount Nicholas MLAT" Type="SSR_ModeC" Elevation="2047" MaxRange="50">
-	<Lat>-45.091294</Lat>
-	<Long>168.426997</Long>
+    <Lat>-45.091294</Lat>
+    <Long>168.426997</Long>
   </Radar>
+
   <Radar Name="Obelisk MLAT" Type="SSR_ModeC" Elevation="5508" MaxRange="50">
-	<Lat>-45.321886</Lat>
-	<Long>169.206572</Long>
+    <Lat>-45.321886</Lat>
+    <Long>169.206572</Long>
   </Radar>
+
   <Radar Name="Rua o te Whenua ADSB" Type="ADSB" Elevation="1490" MaxRange="256">
-	<Lat>-36.92428</Lat>
-	<Long>174.5534</Long>
+    <Lat>-36.92428</Lat>
+    <Long>174.5534</Long>
   </Radar>
+
   <Radar Name="Te Weraiti ADSB" Type="ADSB" Elevation="2144" MaxRange="256">
-	<Lat>-37.83828</Lat>
-	<Long>175.9122</Long>
+    <Lat>-37.83828</Lat>
+    <Long>175.9122</Long>
   </Radar>
+
   <Radar Name="Balance ADSB" Type="ADSB" Elevation="1640" MaxRange="256">
-	<Lat>-40.4004</Lat>
-	<Long>175.7325</Long>
+    <Lat>-40.4004</Lat>
+    <Long>175.7325</Long>
   </Radar>
+
   <Radar Name="Hawkins Hill ADSB" Type="ADSB" Elevation="1591" MaxRange="256">
-	<Lat>-41.3299</Lat>
-	<Long>174.725572</Long>
+    <Lat>-41.3299</Lat>
+    <Long>174.725572</Long>
   </Radar>
+
   <Radar Name="Mount Robertson ADSB" Type="ADSB" Elevation="3395" MaxRange="256">
-	<Lat>-41.34827</Lat>
-	<Long>174.0223</Long>
+    <Lat>-41.34827</Lat>
+    <Long>174.0223</Long>
   </Radar> 
+
   <Radar Name="Christchurch ADSB" Type="ADSB" Elevation="123" MaxRange="256">
-	<Lat>-43.5041</Lat>
-	<Long>172.514614</Long>
+    <Lat>-43.5041</Lat>
+    <Long>172.514614</Long>
   </Radar>
+
   <Radar Name="WELLINGTON SMC" Type="SMR" Elevation="1" MaxRange="4">
-	<Lat>-41.32722222</Lat>
-	<Long>174.80527778</Long>
+    <Lat>-41.32722222</Lat>
+    <Long>174.80527778</Long>
   </Radar>
+
   <Radar Name="AUCKLAND SMC" Type="SMR" Elevation="1" MaxRange="4">
-	<Lat>-37.00567</Lat>
-	<Long>174.790307</Long>
+    <Lat>-37.00567</Lat>
+    <Long>174.790307</Long>
   </Radar>
+
   <Radar Name="CHRISTCHURCH SMC" Type="SMR" Elevation="123" MaxRange="4">
-	<Lat>-43.485931</Lat>
-	<Long>172.537858</Long>
+    <Lat>-43.485931</Lat>
+    <Long>172.537858</Long>
   </Radar>
+
   <Radar Name="QUEENSTOWN SMC" Type="SMR" Elevation="1160" MaxRange="4">
-	<Lat>-45.023403</Lat>
-	<Long>168.748966</Long>
-  </Radar>  
+    <Lat>-45.023403</Lat>
+    <Long>168.748966</Long>
+  </Radar> 
+
+  <Radar Name="TAUPO SMC" Type="SMR" Elevation="103" MaxRange="4">
+    <Lat>-384422.999</Lat>
+    <Long>1760503.998</Long>
+  </Radar>
 </Radars>
