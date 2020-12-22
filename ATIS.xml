@@ -222,12 +222,12 @@
     <Input name="EXPECT" value=". APCH" NameIsSpoken="true" InputType="Edit" />
     <Input name="RWY" NameIsSpoken="true" InputType="Edit" />
     <Input name="RWY COND" NameIsSpoken="true" InputType="Edit" />
-    <Input name="SFC WIND" NameIsSpoken="true" InputType="Edit" />
+    <Input name="SFC WIND" NameIsSpoken="true" InputType="Edit" METARField="Wind" />
     <Input name="VIS" NameIsSpoken="true" InputType="Edit" NumbersSpokenGrouped="true" />
     <!--<Input name="WX" NameIsSpoken="false" InputType="Edit" /> -->
     <Input name="CLD" NameIsSpoken="false" InputType="Edit" NumbersSpokenGrouped="true" />
     <Input name="TMP" NameIsSpoken="true" InputType="Edit" />
-	<Input name="DP" NameIsSpoken="true" InputType="Edit" />
+	<Input name="DP" NameIsSpoken="true" InputType="Edit" METARField="DewPoint" />
 	<Input name="QNH" NameIsSpoken="true" InputType="Edit" />
     <!--<Input name="SIGWX" NameIsSpoken="true" InputType="Edit" NumbersSpokenGrouped="true" /> -->
 	<Input name="2 THOUSAND FT WIND" NameIsSpoken="true" InputType="Edit" />
