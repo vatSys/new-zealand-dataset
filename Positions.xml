@@ -7,15 +7,15 @@
     </Sectors>
     <Maps>
       <Map Name="_NZ/COAST" />
-	  <Map Name="_NZ/SCT_BOUNDARIES" />
-	  <Map Name="_NZ/ALL_RWY" />
-	  <Map Name="_NZ/CTA" />
-	  <Map Name="_NZ/CTR" />
-	  <Map Name="_NZ/ALL_AIRPORTS" />
-	  <Map Name="_NZ/FIX" />
-	  <Map Name="_NZ/NDB" />
-	  <Map Name="_NZ/VOR" />
-   </Maps>
+      <Map Name="_NZ/SCT_BOUNDARIES" />
+      <Map Name="_NZ/ALL_RWY" />
+      <Map Name="_NZ/CTA" />
+      <Map Name="_NZ/CTR" />
+      <Map Name="_NZ/ALL_AIRPORTS" />
+      <Map Name="_NZ/FIX" />
+      <Map Name="_NZ/NDB" />
+      <Map Name="_NZ/VOR" />
+    </Maps>
     <Strips Mode="State" Sort="Time">
       <Window Type="State" State="Jurisdiction" Visible="true" />
       <Window Type="State" State="Announced" Visible="true" />
@@ -27,25 +27,25 @@
     <ControllerInfo>
       <Line>Christchurch Control</Line>
       <Line>Service for NZZC FIR https://www.vatnz.net/pilots/atc-sector-map/</Line>
-	  <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+	    <Line>Charts- www.vatnz.net/airspace/airports/</Line>
     </ControllerInfo>
   </Position>
   <Position Name="Oceanic Radar" Type="ASD" DefaultCenter="-370020.413+1744725.105" DefaultRange="600" MagneticVariation="-21">
     <Sectors>
       <Sector Name="OCR" />
-	  <Sector Name="RAN" />
+	    <Sector Name="RAN" />
       <Sector Name="BAY" />
     </Sectors>
     <Maps>
       <Map Name="_NZ/COAST" />
-	  <Map Name="_NZ/SCT_BOUNDARIES" />
-	  <Map Name="_NZ/ALL_RWY" />
-	  <Map Name="_NZ/CTA" />
-	  <Map Name="_NZ/CTR" />
-	  <Map Name="_NZ/ALL_AIRPORTS" />
-	  <Map Name="_NZ/FIX" />
-	  <Map Name="_NZ/NDB" />
-	  <Map Name="_NZ/VOR" />
+      <Map Name="_NZ/SCT_BOUNDARIES" />
+      <Map Name="_NZ/ALL_RWY" />
+      <Map Name="_NZ/CTA" />
+      <Map Name="_NZ/CTR" />
+      <Map Name="_NZ/ALL_AIRPORTS" />
+      <Map Name="_NZ/FIX" />
+      <Map Name="_NZ/NDB" />
+      <Map Name="_NZ/VOR" />
     </Maps>
     <Strips Mode="State" Sort="Time">
       <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -67,14 +67,14 @@
     </Sectors>
     <Maps>
       <Map Name="_NZ/COAST" />
-	  <Map Name="_NZ/SCT_BOUNDARIES" />
-	  <Map Name="_NZ/ALL_RWY" />
-	  <Map Name="_NZ/CTA" />
-	  <Map Name="_NZ/CTR" />
-	  <Map Name="_NZ/ALL_AIRPORTS" />
-	  <Map Name="_NZ/FIX" />
-	  <Map Name="_NZ/NDB" />
-	  <Map Name="_NZ/VOR" />
+      <Map Name="_NZ/SCT_BOUNDARIES" />
+      <Map Name="_NZ/ALL_RWY" />
+      <Map Name="_NZ/CTA" />
+      <Map Name="_NZ/CTR" />
+      <Map Name="_NZ/ALL_AIRPORTS" />
+      <Map Name="_NZ/FIX" />
+      <Map Name="_NZ/NDB" />
+      <Map Name="_NZ/VOR" />
     </Maps>
     <Strips Mode="State" Sort="Time">
       <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -87,7 +87,7 @@
     <ControllerInfo>
       <Line>Bay Approach</Line>
       <Line>Service for NZZC FIR https://www.vatnz.net/pilots/atc-sector-map/</Line>
-	  <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+	    <Line>Charts- www.vatnz.net/airspace/airports/</Line>
     </ControllerInfo>
   </Position>
   <Position Name="Ohakea Area" Type="ASD" DefaultCenter="-401412.905+1760432.935" DefaultRange="350" MagneticVariation="-21">
@@ -96,14 +96,14 @@
     </Sectors>
     <Maps>
       <Map Name="_NZ/COAST" />
-	  <Map Name="_NZ/SCT_BOUNDARIES" />
-	  <Map Name="_NZ/ALL_RWY" />
-	  <Map Name="_NZ/CTA" />
-	  <Map Name="_NZ/CTR" />
-	  <Map Name="_NZ/ALL_AIRPORTS" />
-	  <Map Name="_NZ/FIX" />
-	  <Map Name="_NZ/NDB" />
-	  <Map Name="_NZ/VOR" />
+      <Map Name="_NZ/SCT_BOUNDARIES" />
+      <Map Name="_NZ/ALL_RWY" />
+      <Map Name="_NZ/CTA" />
+      <Map Name="_NZ/CTR" />
+      <Map Name="_NZ/ALL_AIRPORTS" />
+      <Map Name="_NZ/FIX" />
+      <Map Name="_NZ/NDB" />
+      <Map Name="_NZ/VOR" />
     </Maps>
     <Strips Mode="State" Sort="Time">
       <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -125,14 +125,14 @@
     </Sectors>
     <Maps>
       <Map Name="_NZ/COAST" />
-	  <Map Name="_NZ/SCT_BOUNDARIES" />
-	  <Map Name="_NZ/ALL_RWY" />
-	  <Map Name="_NZ/CTA" />
-	  <Map Name="_NZ/CTR" />
-	  <Map Name="_NZ/ALL_AIRPORTS" />
-	  <Map Name="_NZ/FIX" />
-	  <Map Name="_NZ/NDB" />
-	  <Map Name="_NZ/VOR" />
+      <Map Name="_NZ/SCT_BOUNDARIES" />
+      <Map Name="_NZ/ALL_RWY" />
+      <Map Name="_NZ/CTA" />
+      <Map Name="_NZ/CTR" />
+      <Map Name="_NZ/ALL_AIRPORTS" />
+      <Map Name="_NZ/FIX" />
+      <Map Name="_NZ/NDB" />
+      <Map Name="_NZ/VOR" />
     </Maps>
     <Strips Mode="State" Sort="Time">
       <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -145,7 +145,7 @@
     <ControllerInfo>
       <Line>Christchurch Control</Line>
       <Line>Service for NZZC FIR https://www.vatnz.net/pilots/atc-sector-map/</Line>
-	  <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+	    <Line>Charts- www.vatnz.net/airspace/airports/</Line>
     </ControllerInfo>
   </Position>
   <Position Name="Area South" Type="ASD" DefaultCenter="-440008.132+1702657.686" DefaultRange="600" MagneticVariation="-21">
@@ -154,14 +154,14 @@
     </Sectors>
     <Maps>
       <Map Name="_NZ/COAST" />
-	  <Map Name="_NZ/SCT_BOUNDARIES" />
-	  <Map Name="_NZ/ALL_RWY" />
-	  <Map Name="_NZ/CTA" />
-	  <Map Name="_NZ/CTR" />
-	  <Map Name="_NZ/ALL_AIRPORTS" />
-	  <Map Name="_NZ/FIX" />
-	  <Map Name="_NZ/NDB" />
-	  <Map Name="_NZ/VOR" />
+      <Map Name="_NZ/SCT_BOUNDARIES" />
+      <Map Name="_NZ/ALL_RWY" />
+      <Map Name="_NZ/CTA" />
+      <Map Name="_NZ/CTR" />
+      <Map Name="_NZ/ALL_AIRPORTS" />
+      <Map Name="_NZ/FIX" />
+      <Map Name="_NZ/NDB" />
+      <Map Name="_NZ/VOR" />
     </Maps>
     <Strips Mode="State" Sort="Time">
       <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -183,14 +183,14 @@
     </Sectors>
     <Maps>
       <Map Name="_NZ/COAST" />
-	  <Map Name="_NZ/SCT_BOUNDARIES" />
-	  <Map Name="_NZ/ALL_RWY" />
-	  <Map Name="_NZ/CTA" />
-	  <Map Name="_NZ/CTR" />
-	  <Map Name="_NZ/ALL_AIRPORTS" />
-	  <Map Name="_NZ/FIX" />
-	  <Map Name="_NZ/NDB" />
-	  <Map Name="_NZ/VOR" />
+      <Map Name="_NZ/SCT_BOUNDARIES" />
+      <Map Name="_NZ/ALL_RWY" />
+      <Map Name="_NZ/CTA" />
+      <Map Name="_NZ/CTR" />
+      <Map Name="_NZ/ALL_AIRPORTS" />
+      <Map Name="_NZ/FIX" />
+      <Map Name="_NZ/NDB" />
+      <Map Name="_NZ/VOR" />
     </Maps>
     <ATIS>
       <Editor Airport="NZAA" Frequency="127.800" />
@@ -215,14 +215,14 @@
     </Sectors>
     <Maps>
       <Map Name="_NZ/COAST" />
-	  <Map Name="_NZ/SCT_BOUNDARIES" />
-	  <Map Name="_NZ/ALL_RWY" />
-	  <Map Name="_NZ/CTA" />
-	  <Map Name="_NZ/CTR" />
-	  <Map Name="_NZ/ALL_AIRPORTS" />
-	  <Map Name="_NZ/FIX" />
-	  <Map Name="_NZ/NDB" />
-	  <Map Name="_NZ/VOR" />
+      <Map Name="_NZ/SCT_BOUNDARIES" />
+      <Map Name="_NZ/ALL_RWY" />
+      <Map Name="_NZ/CTA" />
+      <Map Name="_NZ/CTR" />
+      <Map Name="_NZ/ALL_AIRPORTS" />
+      <Map Name="_NZ/FIX" />
+      <Map Name="_NZ/NDB" />
+      <Map Name="_NZ/VOR" />
     </Maps>
     <ATIS>
       <Editor Airport="NZWN" Frequency="126.900" />
@@ -248,14 +248,14 @@
     </Sectors>
     <Maps>
       <Map Name="_NZ/COAST" />
-	  <Map Name="_NZ/SCT_BOUNDARIES" />
-	  <Map Name="_NZ/ALL_RWY" />
-	  <Map Name="_NZ/CTA" />
-	  <Map Name="_NZ/CTR" />
-	  <Map Name="_NZ/ALL_AIRPORTS" />
-	  <Map Name="_NZ/FIX" />
-	  <Map Name="_NZ/NDB" />
-	  <Map Name="_NZ/VOR" />
+      <Map Name="_NZ/SCT_BOUNDARIES" />
+      <Map Name="_NZ/ALL_RWY" />
+      <Map Name="_NZ/CTA" />
+      <Map Name="_NZ/CTR" />
+      <Map Name="_NZ/ALL_AIRPORTS" />
+      <Map Name="_NZ/FIX" />
+      <Map Name="_NZ/NDB" />
+      <Map Name="_NZ/VOR" />
     </Maps>
     <ATIS>
       <Editor Airport="NZCH" Frequency="127.200" />
@@ -278,14 +278,14 @@
     </Sectors>
     <Maps>
       <Map Name="_NZ/COAST" />
-	  <Map Name="_NZ/SCT_BOUNDARIES" />
-	  <Map Name="_NZ/ALL_RWY" />
-	  <Map Name="_NZ/CTA" />
-	  <Map Name="_NZ/CTR" />
-	  <Map Name="_NZ/ALL_AIRPORTS" />
-	  <Map Name="_NZ/FIX" />
-	  <Map Name="_NZ/NDB" />
-	  <Map Name="_NZ/VOR" />
+      <Map Name="_NZ/SCT_BOUNDARIES" />
+      <Map Name="_NZ/ALL_RWY" />
+      <Map Name="_NZ/CTA" />
+      <Map Name="_NZ/CTR" />
+      <Map Name="_NZ/ALL_AIRPORTS" />
+      <Map Name="_NZ/FIX" />
+      <Map Name="_NZ/NDB" />
+      <Map Name="_NZ/VOR" />
     </Maps>
     <ATIS>
       <Editor Airport="NZQN" Frequency="126.400" />
@@ -308,14 +308,14 @@
     </Sectors>
     <Maps>
       <Map Name="_NZ/COAST" />
-	  <Map Name="_NZ/SCT_BOUNDARIES" />
-	  <Map Name="_NZ/ALL_RWY" />
-	  <Map Name="_NZ/CTA" />
-	  <Map Name="_NZ/CTR" />
-	  <Map Name="_NZ/ALL_AIRPORTS" />
-	  <Map Name="_NZ/FIX" />
-	  <Map Name="_NZ/NDB" />
-	  <Map Name="_NZ/VOR" />
+      <Map Name="_NZ/SCT_BOUNDARIES" />
+      <Map Name="_NZ/ALL_RWY" />
+      <Map Name="_NZ/CTA" />
+      <Map Name="_NZ/CTR" />
+      <Map Name="_NZ/ALL_AIRPORTS" />
+      <Map Name="_NZ/FIX" />
+      <Map Name="_NZ/NDB" />
+      <Map Name="_NZ/VOR" />
     </Maps>
     <ATIS>
       <Editor Airport="NZHN" Frequency="126.650" />
@@ -338,14 +338,14 @@
     </Sectors>
     <Maps>
       <Map Name="_NZ/COAST" />
-	  <Map Name="_NZ/SCT_BOUNDARIES" />
-	  <Map Name="_NZ/ALL_RWY" />
-	  <Map Name="_NZ/CTA" />
-	  <Map Name="_NZ/CTR" />
-	  <Map Name="_NZ/ALL_AIRPORTS" />
-	  <Map Name="_NZ/FIX" />
-	  <Map Name="_NZ/NDB" />
-	  <Map Name="_NZ/VOR" />
+      <Map Name="_NZ/SCT_BOUNDARIES" />
+      <Map Name="_NZ/ALL_RWY" />
+      <Map Name="_NZ/CTA" />
+      <Map Name="_NZ/CTR" />
+      <Map Name="_NZ/ALL_AIRPORTS" />
+      <Map Name="_NZ/FIX" />
+      <Map Name="_NZ/NDB" />
+      <Map Name="_NZ/VOR" />
     </Maps>
     <ATIS>
       <Editor Airport="NZOH" Frequency="135.000" />
