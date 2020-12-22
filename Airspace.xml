@@ -2519,31 +2519,6 @@
     
   </SystemRunways>
   <Airways>
-    <Airway Name="A1">
-      CH/
-      SELKA
-    </Airway>
-    <Airway Name="A100">
-      RIDLA
-    </Airway>
-    <Airway Name="A16">
-      AP
-    </Airway>
-    <Airway Name="A202">
-      CH
-    </Airway>
-    <Airway Name="A229">
-      RO
-    </Airway>
-    <Airway Name="A27">
-      SADEM
-    </Airway>
-    <Airway Name="A311">
-      RO
-    </Airway>
-    <Airway Name="A32">
-      CV
-    </Airway>
     <Airway Name="A338">
       HELGE/
       PEHRR/
@@ -2553,224 +2528,39 @@
       SALAG/
       AA
     </Airway>
-    <Airway Name="A360">
-      RD
-    </Airway>
-    <Airway Name="A368">
-      RD
-    </Airway>
-    <Airway Name="A461">
-      CH
-    </Airway>
     <Airway Name="A464">
       UPLAR/
       AA
-    </Airway>
-    <Airway Name="A470">
-      AMURI
-    </Airway>
-    <Airway Name="A493">
-      TU
-    </Airway>
-    <Airway Name="A511">
-      AFTON
-    </Airway>
-    <Airway Name="A554">
-      AFTON
-    </Airway>
-    <Airway Name="A555">
-      KELSO
-    </Airway>
-    <Airway Name="A573">
-      BIKOT
-    </Airway>
-    <Airway Name="A577">
-      MI
     </Airway>
     <Airway Name="A578">
       AA/
       KALAG
     </Airway>
-    <Airway Name="A579">
-      NOBAR
-    </Airway>
     <Airway Name="A580">
       AA/
       AGREX
     </Airway>
-    <Airway Name="A583">
-      CH
-    </Airway>
-    <Airway Name="A585">
-      GUKON
-    </Airway>
     <Airway Name="A597">
       AA/
-      DUGAN/
-      HN
-    </Airway>
-    <Airway Name="A598">
-      HN
-    </Airway>
-    <Airway Name="A723">
-      PERAS
-    </Airway>
-    <Airway Name="A816">
-      NR
-    </Airway>
-    <Airway Name="A817">
-      RO
-    </Airway>
-    <Airway Name="A842">
-      SW
-    </Airway>
-    <Airway Name="A930">
-      SF
-    </Airway>
-    <Airway Name="A939">
-      SF
-    </Airway>
-    <Airway Name="AK11">
-      KIDAL
-    </Airway>
-    <Airway Name="AR10">
-      QN
-    </Airway>
-    <Airway Name="B151">
-      RO
-    </Airway>
-    <Airway Name="B152">
-      DOMON
-    </Airway>
-    <Airway Name="B2">
-      HN
-    </Airway>
-    <Airway Name="B20">
-      AP
+      DUGAN
     </Airway>
     <Airway Name="B200">
       AKLOM
     </Airway>
-    <Airway Name="B326">
-      HN
-    </Airway>
-    <Airway Name="B330">
-      CH
-    </Airway>
     <Airway Name="B333">
       SALAG
-    </Airway>
-    <Airway Name="B450">
-      NOBAR
-    </Airway>
-    <Airway Name="B452">
-      HN
-    </Airway>
-    <Airway Name="B473">
-      WP
-    </Airway>
-    <Airway Name="B474">
-      NOBAR
-    </Airway>
-    <Airway Name="B484">
-      BE
     </Airway>
     <Airway Name="B575">
       AA/
       OKTUB/
       SELKA
     </Airway>
-    <Airway Name="B580">
-      NOBAR
-    </Airway>
-    <Airway Name="B598">
-      HN
-    </Airway>
-    <Airway Name="B703">
-      SW
-    </Airway>
-    <Airway Name="B711">
-      GOSPA
-    </Airway>
-    <Airway Name="B927">
-      SW
-    </Airway>
-    <Airway Name="B933">
-      OMARU
-    </Airway>
-    <Airway Name="BD1T">
-      SW
-    </Airway>
-    <Airway Name="BD2T">
-      SW
-    </Airway>
-    <Airway Name="BD3T">
-      SW
-    </Airway>
-    <Airway Name="BD4T">
-      SW/
-      SF
-    </Airway>
-    <Airway Name="BD5T">
-      SW
-    </Airway>
-    <Airway Name="BD6T">
-      SW
-    </Airway>
-    <Airway Name="FK1T">
-      SF
-    </Airway>
-    <Airway Name="FK3T">
-      SF
-    </Airway>
-    <Airway Name="G101">
-      SW
-    </Airway>
-    <Airway Name="G167">
-      GOSPA
-    </Airway>
-    <Airway Name="G212">
-      OMARU
-    </Airway>
-    <Airway Name="G218">
-      HN
-    </Airway>
-    <Airway Name="G23">
-      SADEM
-    </Airway>
-    <Airway Name="G234">
-      RD
-    </Airway>
-    <Airway Name="G3">
-      TU
-    </Airway>
-    <Airway Name="G338">
-      HN
-    </Airway>
-    <Airway Name="G342">
-      HN
-    </Airway>
     <Airway Name="G347">
       AA/
       TARIB
     </Airway>
-    <Airway Name="G369">
-      SW
-    </Airway>
-    <Airway Name="G437">
-      ELBOW
-    </Airway>
     <Airway Name="G457">
       SELKA
-    </Airway>
-    <Airway Name="G459">
-      WP
-    </Airway>
-    <Airway Name="G476">
-      RIDLA
-    </Airway>
-    <Airway Name="G581">
-      CH
     </Airway>
     <Airway Name="G591">
       AA/
@@ -2788,33 +2578,6 @@
     <Airway Name="G599">
       AA/
       OLBEX
-    </Airway>
-    <Airway Name="G659">
-      GS
-    </Airway>
-    <Airway Name="G663">
-      GS
-    </Airway>
-    <Airway Name="G712">
-      RD
-    </Airway>
-    <Airway Name="G723">
-      TU
-    </Airway>
-    <Airway Name="G823">
-      RIDLA
-    </Airway>
-    <Airway Name="G835">
-      RIDLA
-    </Airway>
-    <Airway Name="G853">
-      CV
-    </Airway>
-    <Airway Name="G86">
-      CH
-    </Airway>
-    <Airway Name="G920">
-      TUSOK
     </Airway>
     <Airway Name="H103">
       RIDLA/
@@ -2900,14 +2663,12 @@
       POKOM/
       SY
     </Airway>
-    <Airway Name="H18">
-      BROOK
-    </Airway>
     <Airway Name="H182">
       OH/
       RUGVI/
       UGIPO/
       ARETI/
+      TM/
       DABKA/
       LEGER/
       PEPPE/
@@ -2919,6 +2680,7 @@
       NP/
       VAMSU/
       IDLOK/
+      TM/
       AP/
       DOGMO/
       ELMER/
@@ -2987,11 +2749,9 @@
       WU/
       TENUR/
       ADRAD/
+      TM/
       IBAMU/
       RO
-    </Airway>
-    <Airway Name="H25">
-      HN
     </Airway>
     <Airway Name="H252">
       NS/
@@ -3073,6 +2833,7 @@
     </Airway>
     <Airway Name="H325">
       PM/
+      TM/
       POURO/
       DROPT/
       HN
@@ -3098,9 +2859,6 @@
     <Airway Name="H342">
       WB/
       OMDOX
-    </Airway>
-    <Airway Name="H345">
-      DUKES
     </Airway>
     <Airway Name="H352">
       PM/
@@ -3266,69 +3024,11 @@
       OTAKI/
       PM
     </Airway>
-    <Airway Name="IN2T">
-      SF
-    </Airway>
-    <Airway Name="IN3T">
-      SF
-    </Airway>
-    <Airway Name="J103">
-      ARROW
-    </Airway>
-    <Airway Name="J117">
-      TU
-    </Airway>
-    <Airway Name="J153">
-      BLUNT
-    </Airway>
-    <Airway Name="J168">
-      TU
-    </Airway>
-    <Airway Name="J185">
-      TU
-    </Airway>
-    <Airway Name="J20">
-      QUAIL
-    </Airway>
-    <Airway Name="J215">
-      TU
-    </Airway>
-    <Airway Name="J218">
-      TU
-    </Airway>
-    <Airway Name="J251">
-      WR
-    </Airway>
-    <Airway Name="J52">
-      QUAIL
-    </Airway>
-    <Airway Name="J533">
-      QN
-    </Airway>
-    <Airway Name="J93">
-      SNAPA
-    </Airway>
-    <Airway Name="KA08">
-      KIDAL
-    </Airway>
-    <Airway Name="L158">
-      SF/
-      NR
-    </Airway>
-    <Airway Name="L169">
-      TU
-    </Airway>
-    <Airway Name="L29">
-      TU
-    </Airway>
     <Airway Name="L326">
       UPLAR/
       MOTKO/
       KIDAL/
       CH
-    </Airway>
-    <Airway Name="L433">
-      NV
     </Airway>
     <Airway Name="L503">
       KABKA/
@@ -3341,70 +3041,20 @@
       CH/
       MOLGI/
       KABIN/
-      EKODA/
-      MILLA
+      EKODA
     </Airway>
     <Airway Name="L513">
       UNTET/
       VELMO/
       AA
     </Airway>
-    <Airway Name="L516">
-      MOXET
-    </Airway>
     <Airway Name="L521">
       LUNBI/
       AA
     </Airway>
-    <Airway Name="L524">
-      KAKIP
-    </Airway>
-    <Airway Name="L612">
-      HAWKE
-    </Airway>
-    <Airway Name="L620">
-      MANGO
-    </Airway>
-    <Airway Name="L642">
-      CH
-    </Airway>
-    <Airway Name="L736">
-      TOTRA
-    </Airway>
-    <Airway Name="L759">
-      MIPAK
-    </Airway>
-    <Airway Name="L875">
-      MOXET
-    </Airway>
-    <Airway Name="L897">
-      HK
-    </Airway>
-    <Airway Name="L980">
-      MANGO
-    </Airway>
-    <Airway Name="L995">
-      AKINA
-    </Airway>
-    <Airway Name="M130">
-      DOMON
-    </Airway>
-    <Airway Name="M169">
-      ORAKA
-    </Airway>
-    <Airway Name="M189">
-      HAWKE
-    </Airway>
-    <Airway Name="M424">
-      SUPRA
-    </Airway>
     <Airway Name="M625">
-      MILLA/
       GOPLU/
       WN
-    </Airway>
-    <Airway Name="M626">
-      KAKIP
     </Airway>
     <Airway Name="M636">
       TANEN/
@@ -3418,39 +3068,6 @@
       MADOK/
       KABIN
     </Airway>
-    <Airway Name="M750">
-      MAMOD
-    </Airway>
-    <Airway Name="M771">
-      CH
-    </Airway>
-    <Airway Name="M864">
-      TU
-    </Airway>
-    <Airway Name="M881">
-      NIPIR
-    </Airway>
-    <Airway Name="M996">
-      TOTRA
-    </Airway>
-    <Airway Name="MK07">
-      KIDAL
-    </Airway>
-    <Airway Name="N133">
-      AKINA
-    </Airway>
-    <Airway Name="N138">
-      ORAKA
-    </Airway>
-    <Airway Name="N222">
-      OMARU
-    </Airway>
-    <Airway Name="N616">
-      TOTRA
-    </Airway>
-    <Airway Name="N640">
-      WINCH
-    </Airway>
     <Airway Name="N750">
       VANDA/
       CH
@@ -3463,52 +3080,13 @@
       AA/
       MADEP
     </Airway>
-    <Airway Name="N780A">
-      LAKES
-    </Airway>
-    <Airway Name="N782A">
-      LAKES
-    </Airway>
-    <Airway Name="N806A">
-      LAKES
-    </Airway>
-    <Airway Name="N818A">
-      LAKES
-    </Airway>
-    <Airway Name="N869">
-      RO/
-      TU
-    </Airway>
-    <Airway Name="NAM1T">
-      LEDOR
-    </Airway>
-    <Airway Name="NAM2T">
-      LEDOR/
-      SW
-    </Airway>
-    <Airway Name="NAM3T">
-      LEDOR/
-      SW
-    </Airway>
-    <Airway Name="NAM4T">
-      LEDOR/
-      SW/
-      SF
-    </Airway>
-    <Airway Name="P160">
-      SW
-    </Airway>
-    <Airway Name="P312">
-      NV
-    </Airway>
     <Airway Name="P640">
       HELGE
     </Airway>
     <Airway Name="P753">
       QN/
       ADKOS/
-      BEBOB/
-      MILLA
+      BEBOB
     </Airway>
     <Airway Name="P766">
       ADKOS/
@@ -3518,12 +3096,6 @@
       QN/
       LIBLA/
       MADOK
-    </Airway>
-    <Airway Name="P901">
-      CH
-    </Airway>
-    <Airway Name="P92">
-      GOSTI
     </Airway>
     <Airway Name="Q100">
       WB/
@@ -3565,21 +3137,12 @@
       VELGA/
       NP
     </Airway>
-    <Airway Name="Q146">
-      BLUNT
-    </Airway>
-    <Airway Name="Q15">
-      HOOKS
-    </Airway>
     <Airway Name="Q152">
       NS/
       EGUSA/
       NOVTU/
       AVKEX/
       WITBY
-    </Airway>
-    <Airway Name="Q168">
-      WR
     </Airway>
     <Airway Name="Q169">
       AVKEX/
@@ -3673,9 +3236,6 @@
       BROOK/
       AA
     </Airway>
-    <Airway Name="Q281">
-      MI
-    </Airway>
     <Airway Name="Q287">
       WB/
       AVPOD/
@@ -3702,9 +3262,6 @@
       BELEE/
       AVOCA/
       CH
-    </Airway>
-    <Airway Name="Q311">
-      MI
     </Airway>
     <Airway Name="Q335">
       PEDPO/
@@ -3763,7 +3320,8 @@
       NS/
       SNAPA/
       IGUTA/
-      MEVAX
+      MEVAX/
+      TM
     </Airway>
     <Airway Name="Q462">
       TU/
@@ -3773,9 +3331,6 @@
       WB/
       IPMIR/
       AVKEX
-    </Airway>
-    <Airway Name="Q473">
-      HAWKE
     </Airway>
     <Airway Name="Q497">
       GOTNO/
@@ -3917,9 +3472,6 @@
       LIMVU/
       KAPTI
     </Airway>
-    <Airway Name="Q73">
-      WELLS
-    </Airway>
     <Airway Name="Q731">
       PP/
       URDAL
@@ -3999,9 +3551,6 @@
       AGEDU/
       OKTUB
     </Airway>
-    <Airway Name="Q920">
-      MI
-    </Airway>
     <Airway Name="Q947">
       IDSEM/
       OKTUB
@@ -4010,70 +3559,12 @@
       DABAS/
       OKTUB
     </Airway>
-    <Airway Name="R11">
-      TU/
-      TUSOK
-    </Airway>
-    <Airway Name="R19">
-      AKINA
-    </Airway>
-    <Airway Name="R217">
-      ELDAK
-    </Airway>
-    <Airway Name="R301">
-      GENDA
-    </Airway>
     <Airway Name="R327">
       GS/
       IBESO
     </Airway>
-    <Airway Name="R366">
-      GOSPA
-    </Airway>
-    <Airway Name="R450">
-      HN
-    </Airway>
-    <Airway Name="R480">
-      SF/
-      NR
-    </Airway>
-    <Airway Name="R493">
-      RD
-    </Airway>
-    <Airway Name="R496">
-      RO
-    </Airway>
-    <Airway Name="R497">
-      RO
-    </Airway>
-    <Airway Name="R564">
-      MANGA
-    </Airway>
-    <Airway Name="R58">
-      TU
-    </Airway>
     <Airway Name="R599">
-      HN/
       DUGAN
-    </Airway>
-    <Airway Name="R805">
-      TU
-    </Airway>
-    <Airway Name="T11">
-      VIPOX
-    </Airway>
-    <Airway Name="T217">
-      GOSTI
-    </Airway>
-    <Airway Name="T272">
-      MI
-    </Airway>
-    <Airway Name="T287">
-      MI
-    </Airway>
-    <Airway Name="T29">
-      WR/
-      VIPOX
     </Airway>
     <Airway Name="T34">
       TPAPA/
@@ -4085,176 +3576,9 @@
       NUTRA/
       AA
     </Airway>
-    <Airway Name="T63">
-      VIPOX
-    </Airway>
-    <Airway Name="T631">
-      RO
-    </Airway>
-    <Airway Name="T657">
-      BE
-    </Airway>
     <Airway Name="T92">
       NS/
       ELKIG
-    </Airway>
-    <Airway Name="T932">
-      NV
-    </Airway>
-    <Airway Name="UA511">
-      AFTON
-    </Airway>
-    <Airway Name="UA554">
-      AFTON
-    </Airway>
-    <Airway Name="UA727">
-      NV
-    </Airway>
-    <Airway Name="UG652">
-      TU
-    </Airway>
-    <Airway Name="UG653">
-      TU
-    </Airway>
-    <Airway Name="UG654">
-      TU
-    </Airway>
-    <Airway Name="UL303">
-      NV
-    </Airway>
-    <Airway Name="UL433">
-      NV
-    </Airway>
-    <Airway Name="UL442">
-      NV
-    </Airway>
-    <Airway Name="UL445">
-      NV
-    </Airway>
-    <Airway Name="UL540">
-      BUTIN
-    </Airway>
-    <Airway Name="UL566">
-      TAKMI
-    </Airway>
-    <Airway Name="UL612">
-      HAWKE
-    </Airway>
-    <Airway Name="UL995">
-      AKINA
-    </Airway>
-    <Airway Name="UM189">
-      HAWKE
-    </Airway>
-    <Airway Name="UM306">
-      NV
-    </Airway>
-    <Airway Name="UM308">
-      NV
-    </Airway>
-    <Airway Name="UM311">
-      NV
-    </Airway>
-    <Airway Name="UM315">
-      NV
-    </Airway>
-    <Airway Name="UM424">
-      SUPRA
-    </Airway>
-    <Airway Name="UM601">
-      SADEM
-    </Airway>
-    <Airway Name="UM654">
-      MADOK
-    </Airway>
-    <Airway Name="UM657">
-      BUTIN
-    </Airway>
-    <Airway Name="UM731">
-      ORBEL
-    </Airway>
-    <Airway Name="UM999">
-      GS
-    </Airway>
-    <Airway Name="UN133">
-      AKINA
-    </Airway>
-    <Airway Name="UN556">
-      NV
-    </Airway>
-    <Airway Name="UN855">
-      SADEM
-    </Airway>
-    <Airway Name="UN857">
-      BIDEV
-    </Airway>
-    <Airway Name="UP312">
-      NV
-    </Airway>
-    <Airway Name="UP323">
-      TAKMI
-    </Airway>
-    <Airway Name="UP676">
-      NV
-    </Airway>
-    <Airway Name="UT587">
-      SF
-    </Airway>
-    <Airway Name="UT588">
-      SF
-    </Airway>
-    <Airway Name="UT912">
-      NV
-    </Airway>
-    <Airway Name="UT932">
-      NV
-    </Airway>
-    <Airway Name="UT941">
-      BIGUL
-    </Airway>
-    <Airway Name="UT946">
-      NV
-    </Airway>
-    <Airway Name="UW22">
-      AA
-    </Airway>
-    <Airway Name="UW23">
-      SF
-    </Airway>
-    <Airway Name="UW25">
-      SF
-    </Airway>
-    <Airway Name="UW28">
-      SF
-    </Airway>
-    <Airway Name="UW30">
-      AA
-    </Airway>
-    <Airway Name="UW31">
-      AA
-    </Airway>
-    <Airway Name="UW51">
-      SF
-    </Airway>
-    <Airway Name="UZ14">
-      TOMAS
-    </Airway>
-    <Airway Name="UZ21">
-      TOMAS
-    </Airway>
-    <Airway Name="UZ32">
-      MADOK
-    </Airway>
-    <Airway Name="UZ44">
-      TOMAS
-    </Airway>
-    <Airway Name="V1">
-      JAMIE/
-      LAKES
-    </Airway>
-    <Airway Name="V11">
-      SURFA/
-      HN
     </Airway>
     <Airway Name="V112">
       OH/
@@ -4267,47 +3591,10 @@
       MAYOR/
       TG
     </Airway>
-    <Airway Name="V129">
-      HAWKE
-    </Airway>
-    <Airway Name="V13">
-      KAMDO/
-      LAKES
-    </Airway>
-    <Airway Name="V136">
-      AUBRY
-    </Airway>
-    <Airway Name="V139">
-      EWOOD
-    </Airway>
-    <Airway Name="V165">
-      VALEY
-    </Airway>
-    <Airway Name="V180">
-      JACKS
-    </Airway>
-    <Airway Name="V190">
-      PEAKS
-    </Airway>
-    <Airway Name="V193">
-      PINES
-    </Airway>
-    <Airway Name="V234">
-      STONY
-    </Airway>
     <Airway Name="V242">
       PM/
       LIMPA/
       DOGAD
-    </Airway>
-    <Airway Name="V25">
-      ARROW
-    </Airway>
-    <Airway Name="V269">
-      JACKS
-    </Airway>
-    <Airway Name="V28">
-      MASKU
     </Airway>
     <Airway Name="V306">
       WN/
@@ -4316,24 +3603,9 @@
       GOOSE/
       ATBUB
     </Airway>
-    <Airway Name="V31">
-      SURFA
-    </Airway>
-    <Airway Name="V313">
-      COOKS
-    </Airway>
     <Airway Name="V317">
       WI/
       LENGU
-    </Airway>
-    <Airway Name="V327">
-      HAWKE
-    </Airway>
-    <Airway Name="V342">
-      YARRO
-    </Airway>
-    <Airway Name="V366">
-      QUAIL
     </Airway>
     <Airway Name="V443">
       SY/
@@ -4343,43 +3615,10 @@
       OH/
       ABTOL
     </Airway>
-    <Airway Name="V5">
-      HN
-    </Airway>
-    <Airway Name="V56">
-      ROCKY
-    </Airway>
-    <Airway Name="V6">
-      KT
-    </Airway>
-    <Airway Name="V674">
-      BIKOT
-    </Airway>
-    <Airway Name="V7">
-      HN
-    </Airway>
-    <Airway Name="V717">
-      NIPIR
-    </Airway>
-    <Airway Name="V74">
-      CHARR
-    </Airway>
-    <Airway Name="V876">
-      NIPIR
-    </Airway>
-    <Airway Name="V9">
-      KT
-    </Airway>
     <Airway Name="W104">
       NV/
       ATHOL/
       QN
-    </Airway>
-    <Airway Name="W11">
-      KI
-    </Airway>
-    <Airway Name="W111">
-      RD
     </Airway>
     <Airway Name="W115">
       AA/
@@ -4391,73 +3630,22 @@
       DABIN/
       CH
     </Airway>
-    <Airway Name="W125">
-      DOMON
-    </Airway>
     <Airway Name="W143">
       WS/
       DAMIL/
       HK
     </Airway>
-    <Airway Name="W147">
-      TU
-    </Airway>
     <Airway Name="W166">
-      NS
-    </Airway>
-    <Airway Name="W17">
-      HL
+      NS/
+      TM
     </Airway>
     <Airway Name="W180">
       KT/
       WP
     </Airway>
-    <Airway Name="W20">
-      TOMAS/
-      SF
-    </Airway>
-    <Airway Name="W21">
-      SF
-    </Airway>
-    <Airway Name="W213">
-      NS
-    </Airway>
-    <Airway Name="W214">
-      NS
-    </Airway>
-    <Airway Name="W22">
-      AA
-    </Airway>
     <Airway Name="W220">
       FOXTN/
       WU
-    </Airway>
-    <Airway Name="W224">
-      DOMON
-    </Airway>
-    <Airway Name="W226">
-      DOMON
-    </Airway>
-    <Airway Name="W227">
-      DOMON
-    </Airway>
-    <Airway Name="W23">
-      SF
-    </Airway>
-    <Airway Name="W25">
-      SF
-    </Airway>
-    <Airway Name="W274">
-      RIDGE
-    </Airway>
-    <Airway Name="W28">
-      SF
-    </Airway>
-    <Airway Name="W281">
-      DAMIL
-    </Airway>
-    <Airway Name="W287">
-      TOMAS
     </Airway>
     <Airway Name="W291">
       QN/
@@ -4468,95 +3656,18 @@
       HODDE/
       CH
     </Airway>
-    <Airway Name="W292">
-      WP
-    </Airway>
-    <Airway Name="W30">
-      AA
-    </Airway>
-    <Airway Name="W31">
-      AA
-    </Airway>
-    <Airway Name="W325">
-      HOBBS
-    </Airway>
-    <Airway Name="W33">
-      NR
-    </Airway>
     <Airway Name="W353">
       HK/
       NS
-    </Airway>
-    <Airway Name="W356">
-      CV
-    </Airway>
-    <Airway Name="W36">
-      SF
-    </Airway>
-    <Airway Name="W369">
-      CV
-    </Airway>
-    <Airway Name="W401">
-      KK/
-      ALFA
-    </Airway>
-    <Airway Name="W43">
-      NR
-    </Airway>
-    <Airway Name="W462">
-      BROAD
-    </Airway>
-    <Airway Name="W463">
-      CV
-    </Airway>
-    <Airway Name="W51">
-      SF
-    </Airway>
-    <Airway Name="W552">
-      LOVTA
-    </Airway>
-    <Airway Name="W605">
-      WP
-    </Airway>
-    <Airway Name="W644">
-      CV
-    </Airway>
-    <Airway Name="W651">
-      KK
-    </Airway>
-    <Airway Name="W7">
-      HL/
-      KI
-    </Airway>
-    <Airway Name="W778">
-      HOOKS
-    </Airway>
-    <Airway Name="W80">
-      BE
-    </Airway>
-    <Airway Name="W806">
-      CV
-    </Airway>
-    <Airway Name="W830">
-      CV
-    </Airway>
-    <Airway Name="W853">
-      ORBEL
     </Airway>
     <Airway Name="Y109">
       DOPKI/
       ODOWD
     </Airway>
-    <Airway Name="Y110">
-      TAIKI
-    </Airway>
     <Airway Name="Y111">
       BELEE/
       SAMEN/
       WARDS
-    </Airway>
-    <Airway Name="Y12">
-      ARIKA
     </Airway>
     <Airway Name="Y123">
       FOXTN/
@@ -4573,17 +3684,10 @@
       ENBUG/
       OPABI
     </Airway>
-    <Airway Name="Y14">
-      ARIKA/
-      SELKA
-    </Airway>
     <Airway Name="Y153">
       TIMJO/
       DOPKI/
       CH
-    </Airway>
-    <Airway Name="Y16">
-      CV
     </Airway>
     <Airway Name="Y175">
       CH/
@@ -4593,9 +3697,6 @@
       AKAVI/
       OMKUN/
       OPABI
-    </Airway>
-    <Airway Name="Y195">
-      GLENN
     </Airway>
     <Airway Name="Y198">
       AKAVI/
@@ -4667,9 +3768,6 @@
       KAPAI/
       AA
     </Airway>
-    <Airway Name="Y340">
-      HAWKE
-    </Airway>
     <Airway Name="Y341">
       BIVER/
       SEBRU
@@ -4702,9 +3800,6 @@
       LADIS/
       CH
     </Airway>
-    <Airway Name="Y491">
-      HAWKE
-    </Airway>
     <Airway Name="Y496">
       BELEE/
       UPNIX/
@@ -4725,9 +3820,6 @@
       SILVO/
       TPAPA
     </Airway>
-    <Airway Name="Y512">
-      ELDAK
-    </Airway>
     <Airway Name="Y523">
       RIVTA/
       GULOV
@@ -4742,9 +3834,6 @@
       UGIPO/
       LENTU
     </Airway>
-    <Airway Name="Y53">
-      STORK
-    </Airway>
     <Airway Name="Y533">
       DOPKI/
       GRETA
@@ -4754,9 +3843,6 @@
       PARRA/
       INTOX/
       RO
-    </Airway>
-    <Airway Name="Y544">
-      RIDGE
     </Airway>
     <Airway Name="Y545">
       LADIS/
@@ -4874,12 +3960,6 @@
       TPAPA/
       WN
     </Airway>
-    <Airway Name="Y746">
-      BUDEN
-    </Airway>
-    <Airway Name="Y759">
-      MAMOD
-    </Airway>
     <Airway Name="Y762">
       LEDOR/
       TPAPA
@@ -4964,30 +4044,18 @@
       ARIKA/
       RO
     </Airway>
-    <Airway Name="Z156">
-      BIKOT
-    </Airway>
     <Airway Name="Z187">
       AKAVI/
       WAPOU
-    </Airway>
-    <Airway Name="Z2">
-      PP
     </Airway>
     <Airway Name="Z258">
       WAPOU/
       ATNUV/
       NP
     </Airway>
-    <Airway Name="Z51">
-      CONOR
-    </Airway>
     <Airway Name="Z515">
       NUKTO/
       MANGA
-    </Airway>
-    <Airway Name="Z56">
-      CV
     </Airway>
     <Airway Name="Z630">
       MANGA/
@@ -4997,12 +4065,6 @@
       RILEY/
       ERVAX/
       CH
-    </Airway>
-    <Airway Name="Z90">
-      MAKEE
-    </Airway>
-    <Airway Name="Z93">
-      MAKEE
     </Airway>
     
   </Airways>
