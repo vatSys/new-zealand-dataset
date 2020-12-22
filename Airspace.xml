@@ -2520,8 +2520,8 @@
   </SystemRunways>
   <Airways>
     <Airway Name="A1">
-      SELKA/
-      CH
+      CH/
+      SELKA
     </Airway>
     <Airway Name="A100">
       RIDLA
@@ -2545,9 +2545,9 @@
       CV
     </Airway>
     <Airway Name="A338">
-      CH/
       HELGE/
-      PEHRR
+      PEHRR/
+      CH
     </Airway>
     <Airway Name="A346">
       SALAG/
@@ -2563,8 +2563,8 @@
       CH
     </Airway>
     <Airway Name="A464">
-      AA/
-      UPLAR
+      UPLAR/
+      AA
     </Airway>
     <Airway Name="A470">
       AMURI
@@ -2606,8 +2606,8 @@
     </Airway>
     <Airway Name="A597">
       AA/
-      HN/
-      DUGAN
+      DUGAN/
+      HN
     </Airway>
     <Airway Name="A598">
       HN
@@ -2774,16 +2774,16 @@
     </Airway>
     <Airway Name="G591">
       AA/
+      KYPRA/
       UKAPA/
-      KT/
       PERAS/
-      ELNOS/
-      KYPRA
+      KT/
+      ELNOS
     </Airway>
     <Airway Name="G594">
       AA/
-      AKLOM/
-      KENNE
+      KENNE/
+      AKLOM
     </Airway>
     <Airway Name="G599">
       AA/
@@ -2828,11 +2828,11 @@
     </Airway>
     <Airway Name="H110">
       CH/
+      PORAM/
       RUREL/
-      GUNEL/
       BISEB/
-      NS/
-      PORAM
+      GUNEL/
+      NS
     </Airway>
     <Airway Name="H114">
       HN/
@@ -2864,10 +2864,10 @@
       TU
     </Airway>
     <Airway Name="H133">
-      WN/
       NS/
       LUBSI/
-      WB
+      WB/
+      WN
     </Airway>
     <Airway Name="H140">
       KT/
@@ -2904,12 +2904,12 @@
       BROOK
     </Airway>
     <Airway Name="H182">
+      OH/
+      RUGVI/
       UGIPO/
       ARETI/
-      OH/
-      LEGER/
-      RUGVI/
       DABKA/
+      LEGER/
       PEPPE/
       IGABI/
       AA/
@@ -2929,11 +2929,11 @@
       RD
     </Airway>
     <Airway Name="H201">
-      OPAPA/
       KAPTI/
       SAKBA/
       PM/
-      RIDLA
+      RIDLA/
+      OPAPA
     </Airway>
     <Airway Name="H205">
       RUGVI/
@@ -2985,10 +2985,10 @@
     </Airway>
     <Airway Name="H247">
       WU/
-      IBAMU/
-      RO/
       TENUR/
-      ADRAD
+      ADRAD/
+      IBAMU/
+      RO
     </Airway>
     <Airway Name="H25">
       HN
@@ -3074,8 +3074,8 @@
     <Airway Name="H325">
       PM/
       POURO/
-      HN/
-      DROPT
+      DROPT/
+      HN
     </Airway>
     <Airway Name="H328">
       GS/
@@ -3119,13 +3119,13 @@
       RO
     </Airway>
     <Airway Name="H372">
-      ESKER/
+      NR/
       MOKER/
       MOOSE/
-      ELAGA/
-      NR/
       LUXAS/
+      ELAGA/
       RO/
+      ESKER/
       TULMI/
       AA
     </Airway>
@@ -3208,9 +3208,9 @@
       BOLOX
     </Airway>
     <Airway Name="H467">
-      BINIT/
+      PP/
       KAMET/
-      GS/
+      BINIT/
       FOXTN/
       PM/
       YARRO/
@@ -3218,7 +3218,7 @@
       DOMON/
       GOTNO/
       HAWKE/
-      PP
+      GS
     </Airway>
     <Airway Name="H479">
       NP/
@@ -3312,8 +3312,8 @@
       KIDAL
     </Airway>
     <Airway Name="L158">
-      NR/
-      SF
+      SF/
+      NR
     </Airway>
     <Airway Name="L169">
       TU
@@ -3335,18 +3335,18 @@
       CH
     </Airway>
     <Airway Name="L508">
-      MILLA/
+      NOKAK/
+      OLBAD/
+      OKTOM/
       CH/
       MOLGI/
       KABIN/
       EKODA/
-      NOKAK/
-      OKTOM/
-      OLBAD
+      MILLA
     </Airway>
     <Airway Name="L513">
-      VELMO/
       UNTET/
+      VELMO/
       AA
     </Airway>
     <Airway Name="L516">
@@ -3487,8 +3487,8 @@
       SW
     </Airway>
     <Airway Name="NAM3T">
-      SW/
-      LEDOR
+      LEDOR/
+      SW
     </Airway>
     <Airway Name="NAM4T">
       LEDOR/
@@ -3505,10 +3505,10 @@
       HELGE
     </Airway>
     <Airway Name="P753">
-      MILLA/
       QN/
+      ADKOS/
       BEBOB/
-      ADKOS
+      MILLA
     </Airway>
     <Airway Name="P766">
       ADKOS/
@@ -3526,10 +3526,10 @@
       GOSTI
     </Airway>
     <Airway Name="Q100">
-      WN/
       WB/
       LUTKA/
-      IGMUL
+      IGMUL/
+      WN
     </Airway>
     <Airway Name="Q101">
       MAHIA/
@@ -3538,28 +3538,28 @@
       WK
     </Airway>
     <Airway Name="Q102">
-      OPABI/
       RUGVI/
       LENTU/
       ADRAD/
-      OMBUB
+      OMBUB/
+      OPABI
     </Airway>
     <Airway Name="Q120">
-      PORUT/
-      BE
+      BE/
+      PORUT
     </Airway>
     <Airway Name="Q126">
-      HN/
       OPABI/
       LIKTU/
       UPTIK/
-      DABKA
+      DABKA/
+      HN
     </Airway>
     <Airway Name="Q136">
-      DOSTU/
       AA/
       BOVRU/
-      BETKI
+      BETKI/
+      DOSTU
     </Airway>
     <Airway Name="Q137">
       VELGA/
@@ -3572,11 +3572,11 @@
       HOOKS
     </Airway>
     <Airway Name="Q152">
-      WITBY/
       NS/
       EGUSA/
       NOVTU/
-      AVKEX
+      AVKEX/
+      WITBY
     </Airway>
     <Airway Name="Q168">
       WR
@@ -3666,12 +3666,12 @@
       DOSTU
     </Airway>
     <Airway Name="Q277">
-      BROOK/
+      OPABI/
+      POKOM/
       DAVEE/
       WI/
-      POKOM/
-      AA/
-      OPABI
+      BROOK/
+      AA
     </Airway>
     <Airway Name="Q281">
       MI
@@ -3952,10 +3952,10 @@
     </Airway>
     <Airway Name="Q789">
       SURFY/
+      GILET/
       LIBKO/
-      HOOKS/
       UPLIN/
-      GILET
+      HOOKS
     </Airway>
     <Airway Name="Q797">
       KK/
@@ -3963,10 +3963,10 @@
     </Airway>
     <Airway Name="Q800">
       ATBUB/
+      VENAM/
       GURBO/
-      RIDLA/
       IRMIX/
-      VENAM
+      RIDLA
     </Airway>
     <Airway Name="Q821">
       WS/
@@ -3980,11 +3980,11 @@
       ATVOX
     </Airway>
     <Airway Name="Q852">
-      TU/
       SW/
       MIPAK/
       OMARU/
-      DOPOP
+      DOPOP/
+      TU
     </Airway>
     <Airway Name="Q854">
       CH/
@@ -4003,16 +4003,16 @@
       MI
     </Airway>
     <Airway Name="Q947">
-      OKTUB/
-      IDSEM
+      IDSEM/
+      OKTUB
     </Airway>
     <Airway Name="Q983">
-      OKTUB/
-      DABAS
+      DABAS/
+      OKTUB
     </Airway>
     <Airway Name="R11">
-      TUSOK/
-      TU
+      TU/
+      TUSOK
     </Airway>
     <Airway Name="R19">
       AKINA
@@ -4053,8 +4053,8 @@
       TU
     </Airway>
     <Airway Name="R599">
-      DUGAN/
-      HN
+      HN/
+      DUGAN
     </Airway>
     <Airway Name="R805">
       TU
@@ -4080,10 +4080,10 @@
       ELKIG
     </Airway>
     <Airway Name="T46">
-      AA/
       MIDUB/
       ELKIG/
-      NUTRA
+      NUTRA/
+      AA
     </Airway>
     <Airway Name="T63">
       VIPOX
@@ -4249,8 +4249,8 @@
       TOMAS
     </Airway>
     <Airway Name="V1">
-      LAKES/
-      JAMIE
+      JAMIE/
+      LAKES
     </Airway>
     <Airway Name="V11">
       SURFA/
@@ -4263,9 +4263,9 @@
       WN
     </Airway>
     <Airway Name="V122">
-      TG/
       AA/
-      MAYOR
+      MAYOR/
+      TG
     </Airway>
     <Airway Name="V129">
       HAWKE
@@ -4310,11 +4310,11 @@
       MASKU
     </Airway>
     <Airway Name="V306">
-      ATBUB/
       WN/
       SABDA/
       ONOLA/
-      GOOSE
+      GOOSE/
+      ATBUB
     </Airway>
     <Airway Name="V31">
       SURFA
@@ -4323,8 +4323,8 @@
       COOKS
     </Airway>
     <Airway Name="V317">
-      LENGU/
-      WI
+      WI/
+      LENGU
     </Airway>
     <Airway Name="V327">
       HAWKE
@@ -4340,8 +4340,8 @@
       EMRAG
     </Airway>
     <Airway Name="V468">
-      ABTOL/
-      OH
+      OH/
+      ABTOL
     </Airway>
     <Airway Name="V5">
       HN
@@ -4372,8 +4372,8 @@
     </Airway>
     <Airway Name="W104">
       NV/
-      QN/
-      ATHOL
+      ATHOL/
+      QN
     </Airway>
     <Airway Name="W11">
       KI
@@ -4387,8 +4387,8 @@
     </Airway>
     <Airway Name="W118">
       NV/
-      DABIN/
       KELSO/
+      DABIN/
       CH
     </Airway>
     <Airway Name="W125">
@@ -4396,8 +4396,8 @@
     </Airway>
     <Airway Name="W143">
       WS/
-      HK/
-      DAMIL
+      DAMIL/
+      HK
     </Airway>
     <Airway Name="W147">
       TU
@@ -4413,8 +4413,8 @@
       WP
     </Airway>
     <Airway Name="W20">
-      SF/
-      TOMAS
+      TOMAS/
+      SF
     </Airway>
     <Airway Name="W21">
       SF
@@ -4429,8 +4429,8 @@
       AA
     </Airway>
     <Airway Name="W220">
-      WU/
-      FOXTN
+      FOXTN/
+      WU
     </Airway>
     <Airway Name="W224">
       DOMON
@@ -4460,13 +4460,13 @@
       TOMAS
     </Airway>
     <Airway Name="W291">
-      CH/
       QN/
       KALDI/
       MELOK/
       BEGMU/
       GUPUT/
-      HODDE
+      HODDE/
+      CH
     </Airway>
     <Airway Name="W292">
       WP
@@ -4525,8 +4525,8 @@
       KK
     </Airway>
     <Airway Name="W7">
-      KI/
-      HL
+      HL/
+      KI
     </Airway>
     <Airway Name="W778">
       HOOKS
@@ -4551,9 +4551,9 @@
       TAIKI
     </Airway>
     <Airway Name="Y111">
-      WARDS/
       BELEE/
-      SAMEN
+      SAMEN/
+      WARDS
     </Airway>
     <Airway Name="Y12">
       ARIKA
@@ -4568,10 +4568,10 @@
       LIBLA
     </Airway>
     <Airway Name="Y127">
-      ENBUG/
-      OPABI/
+      WN/
       RUSIL/
-      WN
+      ENBUG/
+      OPABI
     </Airway>
     <Airway Name="Y14">
       ARIKA/
@@ -4651,8 +4651,8 @@
       CH
     </Airway>
     <Airway Name="Y295">
-      PP/
-      AGSOP
+      AGSOP/
+      PP
     </Airway>
     <Airway Name="Y311">
       OMKUN/
@@ -4717,8 +4717,8 @@
     <Airway Name="Y505">
       OH/
       PARRA/
-      TG/
-      OROPI
+      OROPI/
+      TG
     </Airway>
     <Airway Name="Y506">
       KARRL/
@@ -4811,11 +4811,11 @@
       PM
     </Airway>
     <Airway Name="Y655">
-      POKOM/
       LOVTA/
       SEBRU/
       OMKUN/
-      LEBOX
+      LEBOX/
+      POKOM
     </Airway>
     <Airway Name="Y666">
       LAKES/
@@ -4891,10 +4891,10 @@
       ABTOL
     </Airway>
     <Airway Name="Y781">
-      BISEB/
       PORAM/
       RIVTA/
-      MILON
+      MILON/
+      BISEB
     </Airway>
     <Airway Name="Y805">
       LUBSI/
@@ -4905,12 +4905,12 @@
       MIPAK
     </Airway>
     <Airway Name="Y819">
-      AGSOP/
-      ODOWD/
       CH/
+      ODOWD/
       GOGUK/
       SAMEN/
-      ELPIT
+      ELPIT/
+      AGSOP
     </Airway>
     <Airway Name="Y820">
       ABTOL/
