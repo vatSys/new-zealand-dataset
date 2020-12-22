@@ -139,4 +139,9 @@
     <Lat>-375159.980</Lat>
     <Long>1751955.402</Long>
   </Radar>
+
+  <Radar Name="Palmerston North SMC" Type="SMR" Elevation="172" MaxRange="4">
+    <Lat>-401913.999</Lat>
+    <Long>1753701.000</Long>
+  </Radar>
 </Radars>
