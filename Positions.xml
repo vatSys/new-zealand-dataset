@@ -459,4 +459,21 @@
       <Map Name="_NZ/ASMGCS_NZDN_TWY" />
     </Maps>
   </Position>
+  <Position Name="NZNR" Type="ASMGCS" ASMGCSAirport="NZNR" DefaultCenter="-392808.331+1765130.370" DefaultRange="2" MagneticVariation="0">
+    <Maps>
+      <Map Name="_NZ/ASMGCS_NZNR_RWY" />
+      <Map Name="_NZ/ASMGCS_NZNR_APR" />
+      <Map Name="_NZ/ASMGCS_NZNR_BLD" />
+      <Map Name="_NZ/ASMGCS_NZNR_TWY" />
+    </Maps>
+  </Position>
+  <Position Name="NZGS" Type="ASMGCS" ASMGCSAirport="NZGS" DefaultCenter="-383958.905+1775858.973" DefaultRange="2" MagneticVariation="0">
+    <Maps>
+      <Map Name="_NZ/ASMGCS_NZGS_RWY" />
+      <Map Name="_NZ/ASMGCS_NZGS_APR" />
+      <Map Name="_NZ/ASMGCS_NZGS_BLD" />
+      <Map Name="_NZ/ASMGCS_NZGS_TWY" />
+    </Maps>
+  </Position>
 </Positions>
+

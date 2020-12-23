@@ -154,4 +154,14 @@
     <Lat>-45.926681</Lat>
     <Long>170.200712</Long>
   </Radar>
+
+  <Radar Name="Napier SMC" Type="SMR" Elevation="6" MaxRange="4">
+    <Lat>-39.467245</Lat>
+    <Long>176.869768</Long>
+  </Radar>
+
+  <Radar Name="Gisbourne SMC" Type="SMR" Elevation="15" MaxRange="4">
+    <Lat>-38.661958</Lat>
+    <Long>177.979129</Long>
+  </Radar>
 </Radars>
