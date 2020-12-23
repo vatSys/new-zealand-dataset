@@ -77,12 +77,13 @@
     <Translation String="INSTR" Spoken="instrument" />
     <Translation String="ILS" Spoken="I L S" />
 	<Translation String="ILSDME" Spoken="I L S D M E" />
+	<Translation String="CAT" Spoken="category" />	
     <Translation String="NDB" Spoken="N D B" />
     <Translation String="VOR" Spoken="V O R" />
     <Translation String="GLS" Spoken="G L S" />
     <Translation String="DME" Spoken="D M E" />
     <Translation String="RNP" Spoken="R N P" />
-    <Translation String="RNAV" Spoken="ɑ&#x02D0;næv&#x02D0;" Alphabet="IPA" FallbackSpoken="are-navv" />
+    <Translation String="RNAV" Spoken="ɑ&#x02D0;næv&#x02D0;" Alphabet="IPA" FallbackSpoken="are-navv" />	
     <Translation String="OPR" Spoken="operational" />
     <Translation String="EXP" Spoken="expect" />
     <Translation String="EIA" Spoken="expect instrument approach" />
@@ -120,7 +121,23 @@
     <Translation String="OTLED" Spoken="OTLEDD" />
     <Translation String="DEG" Spoken="degrees" />
     <Translation String="NAVBL" Spoken="not available" />
-    <Translation String="SFC" Spoken="Surface" />	
+    <Translation String="SFC" Spoken="surface" />
+	<Translation String="CTN" Spoken="caution" />	
+	<Translation String="DTHR" Spoken="displaced threshold" />	
+	<Translation String="LEN" Spoken="length" />	
+	<Translation String="LDA" Spoken="landing distance available" />	
+	<Translation String="WIP" Spoken="work in progress" />
+	<Translation String="NOTAM" Spoken="notam" />
+	<Translation String="DEL" Spoken="delivery" />
+	<Translation String="GND" Spoken="ground" />	
+	<Translation String="TWR" Spoken="tower" />	
+	<Translation String="CTC" Spoken="contact" />
+	<Translation String="CTR" Spoken="control" />
+	<Translation String="OBS" Spoken="observed" />
+	<Translation String="REP" Spoken="reported" />
+	<Translation String="FNA" Spoken="final approach" />
+	<Translation String="LVP" Spoken="low visibility procedures" />
+	<Translation String="REF" Spoken="refer" />	
 
     <Translation String="RWY" Spoken="runway" />
     <Translation String="RWYS" Spoken="runways" />
@@ -157,12 +174,15 @@
     <Translation String="OVC" Spoken="overcast" />
 
     <Translation String="VIS" Spoken="visibility" />
-    <Translation String="RED" Spoken="reduced" />
+    <Translation String="RED" Spoken="reducing" />
     <Translation Regex="[0]{0,3}(\d+)M" Spoken="$1 meters" />
 	<Translation String="10KM" Spoken="1 0 kilometres" />
     <Translation Regex="[0]{0,1}(\d+)KM" Spoken="$1 kilometres" />
-    <Translation String="RVR" Spoken="runway visual range" />
+    <Translation String="RVR" Spoken="rvr" />
     <Translation String="GT" Spoken="greater than" />
+	<Translation String="TDZ" Spoken="touchdown" />	
+	<Translation String="MID" Spoken="mid point" />	
+	<Translation String="END" Spoken="stop end" />	
 
 	<Translation String="CAVOK" Spoken="ˈkævˈoʊˈkeɪ" Alphabet="IPA" FallbackSpoken="kuv-okay"/>
 	<Translation String="NSC" Spoken="nil significant cloud" />
@@ -205,6 +225,8 @@
     <Translation String="TSRAGS" Spoken="thunderstorms and rain with hail" />
     <Translation String="TCU" Spoken="towering cumulus" />
 	<Translation String="COND" Spoken="condition" /> 
+	<Translation String="CONDS" Spoken="conditions" />
+	<Translation String="WS" Spoken="windshear" />	
 
     <Translation String="TMP" Spoken="temperature" />
 
@@ -212,7 +234,7 @@
 	
 	<Translation String="DP" Spoken="dew point" />
 	
-	<!--<Translation String="2 THOUSAND FT WIND" Spoken="TWO THOUSAND FOOT WIND" /> -->
+
 
     <Translation String="SIGMET" Spoken="sɪɢɱɛt" Alphabet="IPA" FallbackSpoken="sygmet" />
 
@@ -224,12 +246,10 @@
     <Input name="RWY COND" NameIsSpoken="true" InputType="Edit" />
     <Input name="SFC WIND" NameIsSpoken="true" InputType="Edit" METARField="Wind" />
     <Input name="VIS" NameIsSpoken="true" InputType="Edit" NumbersSpokenGrouped="true" />
-    <!--<Input name="WX" NameIsSpoken="false" InputType="Edit" /> -->
-    <Input name="CLD" NameIsSpoken="false" InputType="Edit" NumbersSpokenGrouped="true" />
+    <Input name="CLD" NameIsSpoken="true" InputType="Edit" NumbersSpokenGrouped="true" />
     <Input name="TMP" NameIsSpoken="true" InputType="Edit" />
 	<Input name="DP" NameIsSpoken="true" InputType="Edit" METARField="DewPoint" />
 	<Input name="QNH" NameIsSpoken="true" InputType="Edit" />
-    <!--<Input name="SIGWX" NameIsSpoken="true" InputType="Edit" NumbersSpokenGrouped="true" /> -->
 	<Input name="2 THOUSAND FT WIND" NameIsSpoken="true" InputType="Edit" />
      <Input name="OFCW_NOTIFY" value="ATC" InputType="Edit" />
   </Editor>
