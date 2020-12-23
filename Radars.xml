@@ -115,33 +115,38 @@
     <Long>168.748966</Long>
   </Radar> 
 
-  <Radar Name="TAUPO SMC" Type="SMR" Elevation="1345" MaxRange="4">
-    <Lat>-384422.999</Lat>
-    <Long>1760503.998</Long>
+  <Radar Name="Taupo SMC" Type="SMR" Elevation="1345" MaxRange="4">
+    <Lat>-38.7408</Lat>
+    <Long>176.0839</Long>
   </Radar>
 
   <Radar Name="Whenuapai SMC" Type="SMR" Elevation="93" MaxRange="4">
-    <Lat>-364716.001</Lat>
-    <Long>1743749.001</Long>
+    <Lat>-36.789376</Lat>
+    <Long>174.628794</Long>
   </Radar>
 
   <Radar Name="Woodbourne/Blenheim SMC" Type="SMR" Elevation="100" MaxRange="4">
-    <Lat>-413105.999</Lat>
-    <Long>1735213.001</Long>
+    <Lat>-41.515619</Lat>
+    <Long>173.87023</Long>
   </Radar>
 
   <Radar Name="Ohakea SMC" Type="SMR" Elevation="154" MaxRange="4">
-    <Lat>-401221.740</Lat>
-    <Long>1752316.109</Long>
+    <Lat>-40.203444</Lat>
+    <Long>175.386244</Long>
   </Radar>
 
-  <Radar Name="HAMILTON SMC" Type="SMR" Elevation="162" MaxRange="4">
-    <Lat>-375159.980</Lat>
-    <Long>1751955.402</Long>
+  <Radar Name="Hamilton SMC" Type="SMR" Elevation="162" MaxRange="4">
+    <Lat>-37.864215</Lat>
+    <Long>175.330179</Long>
   </Radar>
 
   <Radar Name="Palmerston North SMC" Type="SMR" Elevation="172" MaxRange="4">
-    <Lat>-401913.999</Lat>
-    <Long>1753701.000</Long>
+    <Lat>-40.321243</Lat>
+    <Long>175.616868</Long>
+  </Radar>
+
+  <Radar Name="Invercargill SMC" Type="SMR" Elevation="5" MaxRange="4">
+    <Lat>-46.415368</Lat>
+    <Long>168.317599</Long>
   </Radar>
 </Radars>

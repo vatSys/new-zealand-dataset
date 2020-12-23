@@ -443,4 +443,12 @@
       <Map Name="_NZ/ASMGCS_NZPM_TWY" />
     </Maps>
   </Position>
+  <Position Name="NZNV" Type="ASMGCS" ASMGCSAirport="NZNV" DefaultCenter="-462510.787+1681854.107" DefaultRange="2" MagneticVariation="0">
+    <Maps>
+      <Map Name="_NZ/ASMGCS_NZNV_RWY" />
+      <Map Name="_NZ/ASMGCS_NZNV_APR" />
+      <Map Name="_NZ/ASMGCS_NZNV_BLD" />
+      <Map Name="_NZ/ASMGCS_NZNV_TWY" />
+    </Maps>
+  </Position>
 </Positions>
