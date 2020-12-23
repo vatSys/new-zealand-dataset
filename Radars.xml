@@ -149,4 +149,9 @@
     <Lat>-46.415368</Lat>
     <Long>168.317599</Long>
   </Radar>
+
+  <Radar Name="Dunedin SMC" Type="SMR" Elevation="4" MaxRange="4">
+    <Lat>-45.926681</Lat>
+    <Long>170.200712</Long>
+  </Radar>
 </Radars>

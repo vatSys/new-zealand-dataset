@@ -451,4 +451,12 @@
       <Map Name="_NZ/ASMGCS_NZNV_TWY" />
     </Maps>
   </Position>
+  <Position Name="NZDN" Type="ASMGCS" ASMGCSAirport="NZDN" DefaultCenter="-455559.037+1701222.927" DefaultRange="2" MagneticVariation="0">
+    <Maps>
+      <Map Name="_NZ/ASMGCS_NZDN_RWY" />
+      <Map Name="_NZ/ASMGCS_NZDN_APR" />
+      <Map Name="_NZ/ASMGCS_NZDN_BLD" />
+      <Map Name="_NZ/ASMGCS_NZDN_TWY" />
+    </Maps>
+  </Position>
 </Positions>
