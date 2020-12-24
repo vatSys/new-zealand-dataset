@@ -164,4 +164,24 @@
     <Lat>-38.661958</Lat>
     <Long>177.979129</Long>
   </Radar>
+
+  <Radar Name="Tauranga SMC" Type="SMR" Elevation="13" MaxRange="4">
+    <Lat>-37.672350</Lat>
+    <Long>176.198281</Long>
+  </Radar>
+
+  <Radar Name="Rotovegas SMC" Type="SMR" Elevation="938" MaxRange="4">
+    <Lat>-38.108015</Lat>
+    <Long>176.316841</Long>
+  </Radar>
+
+  <Radar Name="New Plymouth SMC" Type="SMR" Elevation="97" MaxRange="4">
+    <Lat>-39.008145</Lat>
+    <Long>174.180163</Long>
+  </Radar>
+
+  <Radar Name="Nelson SMC" Type="SMR" Elevation="17" MaxRange="4">
+    <Lat>-41.297243</Lat>
+    <Long>173.224844</Long>
+  </Radar>
 </Radars>
