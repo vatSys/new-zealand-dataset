@@ -106,7 +106,8 @@
     <Message Response="WU">CLEARED TO DEVIATE UP TO [DISTANCE] [DIRECTION] OF ROUTE</Message>
     <Message Response="WU">AT [POSITION] CLEARED [ROUTE]</Message>
     <Message Response="WU">AT [POSITION] CLEARED [STAR] [TEXT]</Message>
-    <Message Response="WU">HOLD AT [POSITION] MAINTAIN [LEVEL] INBOUND TRACK [DEGREES] [DIRECTION] TURN LEG TIME [TIME]</Message>
+    <Message Response="WU">HOLD AT [POSITION] MAINTAIN [LEVEL] INBOUND TRACK [DEGREES]</Message>
+	  <Message Response="WU">[DIRECTION] TURN LEG TIME [TIME]</Message>
     <Message Response="WU">HOLD AT [POSITION] AS PUBLISHED MAINTAIN [LEVEL]</Message>
     <Message Response="WU">TURN [DIRECTION] HEADING [DEGREES]</Message>
     <Message Response="WU">TURN [DIRECTION] GROUND TRACK [DEGREES]</Message>
@@ -127,10 +128,11 @@
     <Message Response="NE">[CALLSIGN] </Message>
     <Message Response="NE"> CLEARED [TIMESTAMP] [ADES] </Message>
     <Message Response="NE"> PDC DCL1 CLEARED TO [ADES] OFF [RUNWAY] VIA [SID] </Message>
-	<Message Response="NE"> SQUAWK [SSR] </Message>
+	  <Message Response="NE"> SQUAWK [SSR] </Message>
     <Message Response="NE"> NEXT FREQ [FREQUENCY] </Message>
-	<Message Response="NE"> ATIS [CODE] </Message>
-	<Message Response="NE"> TRANSITION:SEE SID ROUTE:[ROUTE] ALT:[ALT] </Message>
+    <Message Response="NE"> ATIS [CODE] </Message>
+    <Message Response="NE"> TRANSITION:SEE SID ROUTE:[ROUTE]</Message>
+    <Message Response="NE"> ALT:[ALT]</Message>
   </Category>
   <Category name="Speed">
     <Message Response="WU">MAINTAIN [SPEED]</Message>
