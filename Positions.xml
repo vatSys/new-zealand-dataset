@@ -180,6 +180,8 @@
   <Position Name="Auckland ACU" Type="ASD" DefaultCenter="-370020.413+1744725.105" DefaultRange="160" MagneticVariation="-21">
     <Sectors>
       <Sector Name="ATMA" />
+	  <Sector Name="AARR" />
+	  <Sector Name="ADEP" />
     </Sectors>
     <Maps>
       <Map Name="_NZ/COAST" />
@@ -212,6 +214,7 @@
   <Position Name="Wellington ACU" Type="ASD" DefaultCenter="-411937.999+1744819.001" DefaultRange="130" MagneticVariation="-21">
     <Sectors>
       <Sector Name="WTMA" />
+	  <Sector Name="WDEP" />
     </Sectors>
     <Maps>
       <Map Name="_NZ/COAST" />
@@ -245,6 +248,7 @@
   <Position Name="Christchurch ACU" Type="ASD" DefaultCenter="-432909.351+1723216.287" DefaultRange="140" MagneticVariation="-21">
     <Sectors>
       <Sector Name="CTMA" />
+	  <Sector Name="CDEP" />
     </Sectors>
     <Maps>
       <Map Name="_NZ/COAST" />
