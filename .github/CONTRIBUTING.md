@@ -10,7 +10,7 @@
         - [Pull Request Guidelines](#pull-request-guidelines)
 
 
-Welcome to the VATNZ Dataset repository. Thank you for offering your help to maintain our Sector Files. This document details the correct processes to follow in order to add your own code to the project.
+Welcome to the VATNZ Dataset repository. Thank you for offering your help to maintain the New Zealand Dataset. This document details the correct processes to follow in order to add your own code to the project.
 
 #### Contributor License Agreement
 
