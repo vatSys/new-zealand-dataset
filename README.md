@@ -18,5 +18,5 @@ A changelog is maintained [and provided here](.github/CHANGELOG.md). Update noti
 
 ## Contributing
 
-A contribution guide will be written in due course and referenced here. You should contact either Cam or Tom in the first instance for instructions on how to contribute. 
+A contribution guide has been written and is available in [./github/CONTRIBUTING.md](.github/CONTRIBUTING.md). All members who wish to make contributions to the Dataset are to adhere to these guidelines, otherwise their changes may be revoked.
 
