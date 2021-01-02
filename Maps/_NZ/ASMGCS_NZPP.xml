@@ -6,7 +6,6 @@
     </Infill>
   </Map>
   <Map Type="Ground_BLD" Name="ASMGCS_NZPP_BLD" Priority="0" Center="-405416.999+1745921.001">
-    <Map Type="" Name="BLD" Priority="x" Center="x">
     <Infill Name="B1">
       <Point>-405355.92+1745908.06/-405356.14+1745908.44/-405355.56+1745909.13/-405355.33+1745908.81/-405355.11+1745908.5/-405355.72+1745907.81/-405355.92+1745908.06</Point>
     </Infill>
