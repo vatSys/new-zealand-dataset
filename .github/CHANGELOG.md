@@ -58,3 +58,7 @@ No recorded changes.
 3. Addition of `<Localhost>` entry in `Profile.xml`, allowing the usage of vatSys as a FR24 viewer. Thanks to Tom and Cam.
 
 4. Separated Radar and Aerodrome Ground Views into categories. Radar views are now categorised by ACU/Enroute and Aerodrome Ground Views are categorised by Class of Airspace (C/D/G). Thanks to Cam and Tom
+
+5. Separated Ground Layouts into categories. This allows display items to be more easily accessible. Thanks to Cam. 
+
+6. NZAA/WN/CH/ Taxiway Letter Markings. Thanks to Cam and Alek. 
