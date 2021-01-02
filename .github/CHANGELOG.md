@@ -55,4 +55,6 @@ No recorded changes.
 
 2. Addition of NZPP ASMGCS. Added the associated `RADARS.xml` and `Positions.xml` entries. Thanks to Tom.
 
-3. Addition of `<Localhost>` entry in `Profile.xml`, allowing the usage of vatSys as a FR24 viewer.
+3. Addition of `<Localhost>` entry in `Profile.xml`, allowing the usage of vatSys as a FR24 viewer. Thanks to Tom and Cam.
+
+4. Separated Radar and Aerodrome Ground Views into categories. Radar views are now categorised by ACU/Enroute and Aerodrome Ground Views are categorised by Class of Airspace (C/D/G). Thanks to Cam and Tom
