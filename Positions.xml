@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Group Name="Enroute">
   <Position Name="Taranaki" Type="ASD" DefaultCenter="-4119.379+17448.190" DefaultRange="500" MagneticVariation="-21">
     <Sectors>
       <Sector Name="NAK" />
@@ -177,342 +178,357 @@
 	  <Line>Charts- www.vatnz.net/airspace/airports/</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Auckland ACU" Type="ASD" DefaultCenter="-370020.413+1744725.105" DefaultRange="160" MagneticVariation="-21">
-    <Sectors>
-      <Sector Name="ATMA" />
-    </Sectors>
-    <Maps>
-      <Map Name="_NZ/COAST" />
-      <Map Name="_NZ/SCT_BOUNDARIES" />
-      <Map Name="_NZ/ALL_RWY" />
-      <Map Name="_NZ/CTA" />
-      <Map Name="_NZ/CTR" />
-      <Map Name="_NZ/ALL_AIRPORTS" />
-      <Map Name="_NZ/FIX" />
-      <Map Name="_NZ/NDB" />
-      <Map Name="_NZ/VOR" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="NZAA" Frequency="127.800" />
-      <Window Airport="NZAA" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="NZAA" Visible="true" />
-      <Window Type="ADEP" Beacon="NZWP" Visible="true" />
-    </Strips>
-    <ArrivalLists>
-      <Airport Name="NZAA" />
-	  <Airport Name="NZWP" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Auckland Approach</Line>
-      <Line>Charts- www.vatnz.net/airspace/airport/NZAA</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="Wellington ACU" Type="ASD" DefaultCenter="-411937.999+1744819.001" DefaultRange="130" MagneticVariation="-21">
-    <Sectors>
-      <Sector Name="WTMA" />
-    </Sectors>
-    <Maps>
-      <Map Name="_NZ/COAST" />
-      <Map Name="_NZ/SCT_BOUNDARIES" />
-      <Map Name="_NZ/ALL_RWY" />
-      <Map Name="_NZ/CTA" />
-      <Map Name="_NZ/CTR" />
-      <Map Name="_NZ/ALL_AIRPORTS" />
-      <Map Name="_NZ/FIX" />
-      <Map Name="_NZ/NDB" />
-      <Map Name="_NZ/VOR" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="NZWN" Frequency="126.900" />
-      <Window Airport="NZWN" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="NZWN" Visible="true" />
-      <Window Type="ADEP" Beacon="NZWB" Visible="true" />
-    </Strips>
-    <ArrivalLists>
-      <Airport Name="NZWN" />
-	  <Airport Name="NZWB" />
-	  
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Wellington Approach</Line>
-      <Line>Charts- www.vatnz.net/airspace/airport/NZWN</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="Christchurch ACU" Type="ASD" DefaultCenter="-432909.351+1723216.287" DefaultRange="140" MagneticVariation="-21">
-    <Sectors>
-      <Sector Name="CTMA" />
-    </Sectors>
-    <Maps>
-      <Map Name="_NZ/COAST" />
-      <Map Name="_NZ/SCT_BOUNDARIES" />
-      <Map Name="_NZ/ALL_RWY" />
-      <Map Name="_NZ/CTA" />
-      <Map Name="_NZ/CTR" />
-      <Map Name="_NZ/ALL_AIRPORTS" />
-      <Map Name="_NZ/FIX" />
-      <Map Name="_NZ/NDB" />
-      <Map Name="_NZ/VOR" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="NZCH" Frequency="127.200" />
-      <Window Airport="NZCH" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="NZCH" Visible="true" />
-    </Strips>
-    <ArrivalLists>
-      <Airport Name="NZCH" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Christchurch Approach</Line>
-      <Line>Charts- www.vatnz.net/airspace/airport/NZCH</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="Queenstown ACU" Type="ASD" DefaultCenter="-450124.250+1684456.277" DefaultRange="160" MagneticVariation="-21">
-    <Sectors>
-      <Sector Name="QTMA" />
-    </Sectors>
-    <Maps>
-      <Map Name="_NZ/COAST" />
-      <Map Name="_NZ/SCT_BOUNDARIES" />
-      <Map Name="_NZ/ALL_RWY" />
-      <Map Name="_NZ/CTA" />
-      <Map Name="_NZ/CTR" />
-      <Map Name="_NZ/ALL_AIRPORTS" />
-      <Map Name="_NZ/FIX" />
-      <Map Name="_NZ/NDB" />
-      <Map Name="_NZ/VOR" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="NZQN" Frequency="126.400" />
-      <Window Airport="NZQN" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="NZQN" Visible="true" />
-    </Strips>
-    <ArrivalLists>
-      <Airport Name="NZQN" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Queenstown Approach</Line>
-      <Line>Charts- www.vatnz.net/airspace/airport/NZQN</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="Hamilton ACU" Type="ASD" DefaultCenter="-375159.980+1751955.402" DefaultRange="120" MagneticVariation="-21">
-    <Sectors>
-      <Sector Name="HTMA" />
-    </Sectors>
-    <Maps>
-      <Map Name="_NZ/COAST" />
-      <Map Name="_NZ/SCT_BOUNDARIES" />
-      <Map Name="_NZ/ALL_RWY" />
-      <Map Name="_NZ/CTA" />
-      <Map Name="_NZ/CTR" />
-      <Map Name="_NZ/ALL_AIRPORTS" />
-      <Map Name="_NZ/FIX" />
-      <Map Name="_NZ/NDB" />
-      <Map Name="_NZ/VOR" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="NZHN" Frequency="126.650" />
-      <Window Airport="NZHN" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="NZHN" Visible="true" />
-    </Strips>
-    <ArrivalLists>
-      <Airport Name="NZHN" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Bay Approach</Line>
-      <Line>Charts- www.vatnz.net/airspace/airport/NZHN</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="Ohakea ACU" Type="ASD" DefaultCenter="-401229.628+1752314.936" DefaultRange="120" MagneticVariation="-21">
-    <Sectors>
-      <Sector Name="OTMA" />
-    </Sectors>
-    <Maps>
-      <Map Name="_NZ/COAST" />
-      <Map Name="_NZ/SCT_BOUNDARIES" />
-      <Map Name="_NZ/ALL_RWY" />
-      <Map Name="_NZ/CTA" />
-      <Map Name="_NZ/CTR" />
-      <Map Name="_NZ/ALL_AIRPORTS" />
-      <Map Name="_NZ/FIX" />
-      <Map Name="_NZ/NDB" />
-      <Map Name="_NZ/VOR" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="NZOH" Frequency="135.000" />
-      <Window Airport="NZOH" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="NZOH" Visible="true" />
-	  <Window Type="ADEP" Beacon="NZPM" Visible="true" />
-    </Strips>
-    <ArrivalLists>
-      <Airport Name="NZOH" />
-	  <Airport Name="NZPM" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Ohakea Approach</Line>
-      <Line>Charts- www.vatnz.net/airspace/airports/</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="NZQN" Type="ASMGCS" ASMGCSAirport="NZQN" DefaultCenter="-450121.64+1684425.88" DefaultRange="2" MagneticVariation="338">
-    <Maps>
-      <Map Name="_NZ/ASMGCS_NZQN_RWY" />
-      <Map Name="_NZ/ASMGCS_NZQN_TWY" />
-      <Map Name="_NZ/ASMGCS_NZQN_BLD" />
-    </Maps>
-  </Position>
-  <Position Name="NZAA" Type="ASMGCS" ASMGCSAirport="NZAA" DefaultCenter="-370024.5+1744726.31" DefaultRange="3" MagneticVariation="199">
-    <Maps>
-      <Map Name="_NZ/ASMGCS_NZAA_RWY" />
-      <Map Name="_NZ/ASMGCS_NZAA_APR" />
-      <Map Name="_NZ/ASMGCS_NZAA_BLD" />
-      <Map Name="_NZ/ASMGCS_NZAA_TWY" />
-    </Maps>
-  </Position>
-  <Position Name="NZWN" Type="ASMGCS" ASMGCSAirport="NZWN" DefaultCenter="-411937.999+1744819.001" DefaultRange="2" MagneticVariation="267">
-    <Maps>
-      <Map Name="_NZ/ASMGCS_NZWN_RWY" />
-      <Map Name="_NZ/ASMGCS_NZWN_APR" />
-      <Map Name="_NZ/ASMGCS_NZWN_BLD" />
-      <Map Name="_NZ/ASMGCS_NZWN_TWY" />
-    </Maps>
-  </Position>
-  <Position Name="NZCH" Type="ASMGCS" ASMGCSAirport="NZCH" DefaultCenter="-432909.351+1723216.287" DefaultRange="2" MagneticVariation="48">
-    <Maps>
-      <Map Name="_NZ/ASMGCS_NZCH_RWY" />
-      <Map Name="_NZ/ASMGCS_NZCH_APR" />
-      <Map Name="_NZ/ASMGCS_NZCH_BLD" />
-      <Map Name="_NZ/ASMGCS_NZCH_TWY" />
-    </Maps>
-  </Position>
-  <Position Name="NZOH" Type="ASMGCS" ASMGCSAirport="NZOH" DefaultCenter="-401221.740+1752316.109" DefaultRange="2" MagneticVariation="-21">
-    <Maps>
-      <Map Name="_NZ/ASMGCS_NZOH_RWY" />
-      <Map Name="_NZ/ASMGCS_NZOH_APR" />
-      <Map Name="_NZ/ASMGCS_NZOH_BLD" />
-      <Map Name="_NZ/ASMGCS_NZOH_TWY" />
-    </Maps>
-  </Position>
-  <Position Name="NZWP" Type="ASMGCS" ASMGCSAirport="NZWP" DefaultCenter="-364716.001+1743749.001" DefaultRange="2" MagneticVariation="37.5">
-    <Maps>
-      <Map Name="_NZ/ASMGCS_NZWP_RWY" />
-      <Map Name="_NZ/ASMGCS_NZWP_APR" />
-      <Map Name="_NZ/ASMGCS_NZWP_BLD" />
-      <Map Name="_NZ/ASMGCS_NZWP_TWY" />
-    </Maps>
-  </Position>
-  <Position Name="NZWB" Type="ASMGCS" ASMGCSAirport="NZWB" DefaultCenter="-413105.999+1735213.001" DefaultRange="2" MagneticVariation="5">
-    <Maps>
-      <Map Name="_NZ/ASMGCS_NZWB_RWY" />
-      <Map Name="_NZ/ASMGCS_NZWB_APR" />
-      <Map Name="_NZ/ASMGCS_NZWB_BLD" />
-      <Map Name="_NZ/ASMGCS_NZWB_TWY" />
-    </Maps>
-  </Position>
-  <Position Name="NZHN" Type="ASMGCS" ASMGCSAirport="NZHN" DefaultCenter="-375159.980+1751955.402" DefaultRange="2" MagneticVariation="0">
-    <Maps>
-      <Map Name="_NZ/ASMGCS_NZHN_RWY" />
-      <Map Name="_NZ/ASMGCS_NZHN_APR" />
-      <Map Name="_NZ/ASMGCS_NZHN_BLD" />
-      <Map Name="_NZ/ASMGCS_NZHN_TWY" />
-    </Maps>
-  </Position>
-  <Position Name="NZAP" Type="ASMGCS" ASMGCSAirport="NZAP" DefaultCenter="-384422.999+1760503.998" DefaultRange="2" MagneticVariation="0">
-    <Maps>
-      <Map Name="_NZ/ASMGCS_NZAP_RWY" />
-      <Map Name="_NZ/ASMGCS_NZAP_APR" />
-      <Map Name="_NZ/ASMGCS_NZAP_BLD" />
-      <Map Name="_NZ/ASMGCS_NZAP_TWY" />
-    </Maps>
-  </Position>
-  <Position Name="NZPM" Type="ASMGCS" ASMGCSAirport="NZPM" DefaultCenter="-401913.999+1753701.000" DefaultRange="2" MagneticVariation="0">
-    <Maps>
-      <Map Name="_NZ/ASMGCS_NZPM_RWY" />
-      <Map Name="_NZ/ASMGCS_NZPM_APR" />
-      <Map Name="_NZ/ASMGCS_NZPM_BLD" />
-      <Map Name="_NZ/ASMGCS_NZPM_TWY" />
-    </Maps>
-  </Position>
-  <Position Name="NZNV" Type="ASMGCS" ASMGCSAirport="NZNV" DefaultCenter="-462510.787+1681854.107" DefaultRange="2" MagneticVariation="0">
-    <Maps>
-      <Map Name="_NZ/ASMGCS_NZNV_RWY" />
-      <Map Name="_NZ/ASMGCS_NZNV_APR" />
-      <Map Name="_NZ/ASMGCS_NZNV_BLD" />
-      <Map Name="_NZ/ASMGCS_NZNV_TWY" />
-    </Maps>
-  </Position>
-  <Position Name="NZDN" Type="ASMGCS" ASMGCSAirport="NZDN" DefaultCenter="-455559.037+1701222.927" DefaultRange="2" MagneticVariation="0">
-    <Maps>
-      <Map Name="_NZ/ASMGCS_NZDN_RWY" />
-      <Map Name="_NZ/ASMGCS_NZDN_APR" />
-      <Map Name="_NZ/ASMGCS_NZDN_BLD" />
-      <Map Name="_NZ/ASMGCS_NZDN_TWY" />
-    </Maps>
-  </Position>
-  <Position Name="NZNR" Type="ASMGCS" ASMGCSAirport="NZNR" DefaultCenter="-392808.331+1765130.370" DefaultRange="2" MagneticVariation="0">
-    <Maps>
-      <Map Name="_NZ/ASMGCS_NZNR_RWY" />
-      <Map Name="_NZ/ASMGCS_NZNR_APR" />
-      <Map Name="_NZ/ASMGCS_NZNR_BLD" />
-      <Map Name="_NZ/ASMGCS_NZNR_TWY" />
-    </Maps>
-  </Position>
-  <Position Name="NZGS" Type="ASMGCS" ASMGCSAirport="NZGS" DefaultCenter="-383958.905+1775858.973" DefaultRange="2" MagneticVariation="0">
-    <Maps>
-      <Map Name="_NZ/ASMGCS_NZGS_RWY" />
-      <Map Name="_NZ/ASMGCS_NZGS_APR" />
-      <Map Name="_NZ/ASMGCS_NZGS_BLD" />
-      <Map Name="_NZ/ASMGCS_NZGS_TWY" />
-    </Maps>
-  </Position>
-  <Position Name="NZTG" Type="ASMGCS" ASMGCSAirport="NZTG" DefaultCenter="-374018.998+1761146.000" DefaultRange="2" MagneticVariation="0">
-    <Maps>
-      <Map Name="_NZ/ASMGCS_NZTG_RWY" />
-      <Map Name="_NZ/ASMGCS_NZTG_APR" />
-      <Map Name="_NZ/ASMGCS_NZTG_BLD" />
-      <Map Name="_NZ/ASMGCS_NZTG_TWY" />
-    </Maps>
-  </Position>
-  <Position Name="NZRO" Type="ASMGCS" ASMGCSAirport="NZRO" DefaultCenter="-380633.001+1761901.999" DefaultRange="2" MagneticVariation="0">
-    <Maps>
-      <Map Name="_NZ/ASMGCS_NZRO_RWY" />
-      <Map Name="_NZ/ASMGCS_NZRO_APR" />
-      <Map Name="_NZ/ASMGCS_NZRO_BLD" />
-      <Map Name="_NZ/ASMGCS_NZRO_TWY" />
-    </Maps>
-  </Position>
-  <Position Name="NZNP" Type="ASMGCS" ASMGCSAirport="NZNP" DefaultCenter="-390017.806+1741029.359" DefaultRange="2" MagneticVariation="0">
-    <Maps>
-      <Map Name="_NZ/ASMGCS_NZNP_RWY" />
-      <Map Name="_NZ/ASMGCS_NZNP_APR" />
-      <Map Name="_NZ/ASMGCS_NZNP_BLD" />
-      <Map Name="_NZ/ASMGCS_NZNP_TWY" />
-    </Maps>
-  </Position>
-  <Position Name="NZNS" Type="ASMGCS" ASMGCSAirport="NZNS" DefaultCenter="-411740.650+1731320.116" DefaultRange="2" MagneticVariation="0">
-    <Maps>
-      <Map Name="_NZ/ASMGCS_NZNS_RWY" />
-      <Map Name="_NZ/ASMGCS_NZNS_APR" />
-      <Map Name="_NZ/ASMGCS_NZNS_BLD" />
-      <Map Name="_NZ/ASMGCS_NZNS_TWY" />
-    </Maps>
-  </Position>
-  <Position Name="NZPP" Type="ASMGCS" ASMGCSAirport="NZPP" DefaultCenter="-405416.999+1745921.001" DefaultRange="2" MagneticVariation="0">
-    <Maps>
-      <Map Name="_NZ/ASMGCS_NZPP_RWY" />
-      <Map Name="_NZ/ASMGCS_NZPP_APR" />
-      <Map Name="_NZ/ASMGCS_NZPP_BLD" />
-      <Map Name="_NZ/ASMGCS_NZPP_TWY" />
-    </Maps>
-  </Position>
+  </Group>
+  <Group Name="ACU">
+    <Position Name="Auckland ACU" Type="ASD" DefaultCenter="-370020.413+1744725.105" DefaultRange="160" MagneticVariation="-21">
+      <Sectors>
+        <Sector Name="ATMA" />
+      <Sector Name="AARR" />
+      <Sector Name="ADEP" />
+      </Sectors>
+      <Maps>
+        <Map Name="_NZ/COAST" />
+        <Map Name="_NZ/SCT_BOUNDARIES" />
+        <Map Name="_NZ/ALL_RWY" />
+        <Map Name="_NZ/CTA" />
+        <Map Name="_NZ/CTR" />
+        <Map Name="_NZ/ALL_AIRPORTS" />
+        <Map Name="_NZ/FIX" />
+        <Map Name="_NZ/NDB" />
+        <Map Name="_NZ/VOR" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="NZAA" Frequency="127.800" />
+        <Window Airport="NZAA" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="NZAA" Visible="true" />
+        <Window Type="ADEP" Beacon="NZWP" Visible="true" />
+      </Strips>
+      <ArrivalLists>
+        <Airport Name="NZAA" />
+      <Airport Name="NZWP" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Auckland Approach</Line>
+        <Line>Charts- www.vatnz.net/airspace/airport/NZAA</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Wellington ACU" Type="ASD" DefaultCenter="-411937.999+1744819.001" DefaultRange="130" MagneticVariation="-21">
+      <Sectors>
+        <Sector Name="WTMA" />
+      <Sector Name="WDEP" />
+      </Sectors>
+      <Maps>
+        <Map Name="_NZ/COAST" />
+        <Map Name="_NZ/SCT_BOUNDARIES" />
+        <Map Name="_NZ/ALL_RWY" />
+        <Map Name="_NZ/CTA" />
+        <Map Name="_NZ/CTR" />
+        <Map Name="_NZ/ALL_AIRPORTS" />
+        <Map Name="_NZ/FIX" />
+        <Map Name="_NZ/NDB" />
+        <Map Name="_NZ/VOR" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="NZWN" Frequency="126.900" />
+        <Window Airport="NZWN" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="NZWN" Visible="true" />
+        <Window Type="ADEP" Beacon="NZWB" Visible="true" />
+      </Strips>
+      <ArrivalLists>
+        <Airport Name="NZWN" />
+      <Airport Name="NZWB" />
+      
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Wellington Approach</Line>
+        <Line>Charts- www.vatnz.net/airspace/airport/NZWN</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Christchurch ACU" Type="ASD" DefaultCenter="-432909.351+1723216.287" DefaultRange="140" MagneticVariation="-21">
+      <Sectors>
+        <Sector Name="CTMA" />
+      <Sector Name="CDEP" />
+      </Sectors>
+      <Maps>
+        <Map Name="_NZ/COAST" />
+        <Map Name="_NZ/SCT_BOUNDARIES" />
+        <Map Name="_NZ/ALL_RWY" />
+        <Map Name="_NZ/CTA" />
+        <Map Name="_NZ/CTR" />
+        <Map Name="_NZ/ALL_AIRPORTS" />
+        <Map Name="_NZ/FIX" />
+        <Map Name="_NZ/NDB" />
+        <Map Name="_NZ/VOR" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="NZCH" Frequency="127.200" />
+        <Window Airport="NZCH" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="NZCH" Visible="true" />
+      </Strips>
+      <ArrivalLists>
+        <Airport Name="NZCH" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Christchurch Approach</Line>
+        <Line>Charts- www.vatnz.net/airspace/airport/NZCH</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Queenstown ACU" Type="ASD" DefaultCenter="-450124.250+1684456.277" DefaultRange="160" MagneticVariation="-21">
+      <Sectors>
+        <Sector Name="QTMA" />
+      </Sectors>
+      <Maps>
+        <Map Name="_NZ/COAST" />
+        <Map Name="_NZ/SCT_BOUNDARIES" />
+        <Map Name="_NZ/ALL_RWY" />
+        <Map Name="_NZ/CTA" />
+        <Map Name="_NZ/CTR" />
+        <Map Name="_NZ/ALL_AIRPORTS" />
+        <Map Name="_NZ/FIX" />
+        <Map Name="_NZ/NDB" />
+        <Map Name="_NZ/VOR" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="NZQN" Frequency="126.400" />
+        <Window Airport="NZQN" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="NZQN" Visible="true" />
+      </Strips>
+      <ArrivalLists>
+        <Airport Name="NZQN" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Queenstown Approach</Line>
+        <Line>Charts- www.vatnz.net/airspace/airport/NZQN</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Hamilton ACU" Type="ASD" DefaultCenter="-375159.980+1751955.402" DefaultRange="120" MagneticVariation="-21">
+      <Sectors>
+        <Sector Name="HTMA" />
+      </Sectors>
+      <Maps>
+        <Map Name="_NZ/COAST" />
+        <Map Name="_NZ/SCT_BOUNDARIES" />
+        <Map Name="_NZ/ALL_RWY" />
+        <Map Name="_NZ/CTA" />
+        <Map Name="_NZ/CTR" />
+        <Map Name="_NZ/ALL_AIRPORTS" />
+        <Map Name="_NZ/FIX" />
+        <Map Name="_NZ/NDB" />
+        <Map Name="_NZ/VOR" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="NZHN" Frequency="126.650" />
+        <Window Airport="NZHN" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="NZHN" Visible="true" />
+      </Strips>
+      <ArrivalLists>
+        <Airport Name="NZHN" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Bay Approach</Line>
+        <Line>Charts- www.vatnz.net/airspace/airport/NZHN</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Ohakea ACU" Type="ASD" DefaultCenter="-401229.628+1752314.936" DefaultRange="120" MagneticVariation="-21">
+      <Sectors>
+        <Sector Name="OTMA" />
+      </Sectors>
+      <Maps>
+        <Map Name="_NZ/COAST" />
+        <Map Name="_NZ/SCT_BOUNDARIES" />
+        <Map Name="_NZ/ALL_RWY" />
+        <Map Name="_NZ/CTA" />
+        <Map Name="_NZ/CTR" />
+        <Map Name="_NZ/ALL_AIRPORTS" />
+        <Map Name="_NZ/FIX" />
+        <Map Name="_NZ/NDB" />
+        <Map Name="_NZ/VOR" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="NZOH" Frequency="135.000" />
+        <Window Airport="NZOH" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="NZOH" Visible="true" />
+      <Window Type="ADEP" Beacon="NZPM" Visible="true" />
+      </Strips>
+      <ArrivalLists>
+        <Airport Name="NZOH" />
+      <Airport Name="NZPM" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Ohakea Approach</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+      </ControllerInfo>
+    </Position>
+  </Group>
+
+  <Group Name="Class C">
+    <Position Name="NZCH" Type="ASMGCS" ASMGCSAirport="NZCH" DefaultCenter="-432909.351+1723216.287" DefaultRange="2" MagneticVariation="48">
+      <Maps>
+        <Map Name="_NZ/ASMGCS_NZCH_RWY" />
+        <Map Name="_NZ/ASMGCS_NZCH_APR" />
+        <Map Name="_NZ/ASMGCS_NZCH_BLD" />
+        <Map Name="_NZ/ASMGCS_NZCH_TWY" />
+      </Maps>
+    </Position>
+    <Position Name="NZWN" Type="ASMGCS" ASMGCSAirport="NZWN" DefaultCenter="-411937.999+1744819.001" DefaultRange="2" MagneticVariation="267">
+      <Maps>
+        <Map Name="_NZ/ASMGCS_NZWN_RWY" />
+        <Map Name="_NZ/ASMGCS_NZWN_APR" />
+        <Map Name="_NZ/ASMGCS_NZWN_BLD" />
+        <Map Name="_NZ/ASMGCS_NZWN_TWY" />
+      </Maps>
+    </Position>
+    <Position Name="NZAA" Type="ASMGCS" ASMGCSAirport="NZAA" DefaultCenter="-370024.5+1744726.31" DefaultRange="3" MagneticVariation="199">
+      <Maps>
+        <Map Name="_NZ/ASMGCS_NZAA_RWY" />
+        <Map Name="_NZ/ASMGCS_NZAA_APR" />
+        <Map Name="_NZ/ASMGCS_NZAA_BLD" />
+        <Map Name="_NZ/ASMGCS_NZAA_TWY" />
+      </Maps>
+    </Position>
+    <Position Name="NZQN" Type="ASMGCS" ASMGCSAirport="NZQN" DefaultCenter="-450121.64+1684425.88" DefaultRange="2" MagneticVariation="338">
+      <Maps>
+        <Map Name="_NZ/ASMGCS_NZQN_RWY" />
+        <Map Name="_NZ/ASMGCS_NZQN_TWY" />
+        <Map Name="_NZ/ASMGCS_NZQN_BLD" />
+      </Maps>
+    </Position>
+  </Group>
+  <Group Name="Class D">
+    <Position Name="NZWP" Type="ASMGCS" ASMGCSAirport="NZWP" DefaultCenter="-364716.001+1743749.001" DefaultRange="2" MagneticVariation="37.5">
+      <Maps>
+        <Map Name="_NZ/ASMGCS_NZWP_RWY" />
+        <Map Name="_NZ/ASMGCS_NZWP_APR" />
+        <Map Name="_NZ/ASMGCS_NZWP_BLD" />
+        <Map Name="_NZ/ASMGCS_NZWP_TWY" />
+      </Maps>
+    </Position>
+    <Position Name="NZHN" Type="ASMGCS" ASMGCSAirport="NZHN" DefaultCenter="-375159.980+1751955.402" DefaultRange="2" MagneticVariation="0">
+      <Maps>
+        <Map Name="_NZ/ASMGCS_NZHN_RWY" />
+        <Map Name="_NZ/ASMGCS_NZHN_APR" />
+        <Map Name="_NZ/ASMGCS_NZHN_BLD" />
+        <Map Name="_NZ/ASMGCS_NZHN_TWY" />
+      </Maps>
+    </Position>
+    <Position Name="NZPM" Type="ASMGCS" ASMGCSAirport="NZPM" DefaultCenter="-401913.999+1753701.000" DefaultRange="2" MagneticVariation="0">
+      <Maps>
+        <Map Name="_NZ/ASMGCS_NZPM_RWY" />
+        <Map Name="_NZ/ASMGCS_NZPM_APR" />
+        <Map Name="_NZ/ASMGCS_NZPM_BLD" />
+        <Map Name="_NZ/ASMGCS_NZPM_TWY" />
+      </Maps>
+    </Position>
+    <Position Name="NZOH" Type="ASMGCS" ASMGCSAirport="NZOH" DefaultCenter="-401221.740+1752316.109" DefaultRange="2" MagneticVariation="-21">
+      <Maps>
+        <Map Name="_NZ/ASMGCS_NZOH_RWY" />
+        <Map Name="_NZ/ASMGCS_NZOH_APR" />
+        <Map Name="_NZ/ASMGCS_NZOH_BLD" />
+        <Map Name="_NZ/ASMGCS_NZOH_TWY" />
+      </Maps>
+    </Position>
+    <Position Name="NZWB" Type="ASMGCS" ASMGCSAirport="NZWB" DefaultCenter="-413105.999+1735213.001" DefaultRange="2" MagneticVariation="5">
+      <Maps>
+        <Map Name="_NZ/ASMGCS_NZWB_RWY" />
+        <Map Name="_NZ/ASMGCS_NZWB_APR" />
+        <Map Name="_NZ/ASMGCS_NZWB_BLD" />
+        <Map Name="_NZ/ASMGCS_NZWB_TWY" />
+      </Maps>
+    </Position>
+    <Position Name="NZAP" Type="ASMGCS" ASMGCSAirport="NZAP" DefaultCenter="-384422.999+1760503.998" DefaultRange="2" MagneticVariation="0">
+      <Maps>
+        <Map Name="_NZ/ASMGCS_NZAP_RWY" />
+        <Map Name="_NZ/ASMGCS_NZAP_APR" />
+        <Map Name="_NZ/ASMGCS_NZAP_BLD" />
+        <Map Name="_NZ/ASMGCS_NZAP_TWY" />
+      </Maps>
+    </Position>
+    <Position Name="NZNV" Type="ASMGCS" ASMGCSAirport="NZNV" DefaultCenter="-462510.787+1681854.107" DefaultRange="2" MagneticVariation="0">
+      <Maps>
+        <Map Name="_NZ/ASMGCS_NZNV_RWY" />
+        <Map Name="_NZ/ASMGCS_NZNV_APR" />
+        <Map Name="_NZ/ASMGCS_NZNV_BLD" />
+        <Map Name="_NZ/ASMGCS_NZNV_TWY" />
+      </Maps>
+    </Position>
+    <Position Name="NZDN" Type="ASMGCS" ASMGCSAirport="NZDN" DefaultCenter="-455559.037+1701222.927" DefaultRange="2" MagneticVariation="0">
+      <Maps>
+        <Map Name="_NZ/ASMGCS_NZDN_RWY" />
+        <Map Name="_NZ/ASMGCS_NZDN_APR" />
+        <Map Name="_NZ/ASMGCS_NZDN_BLD" />
+        <Map Name="_NZ/ASMGCS_NZDN_TWY" />
+      </Maps>
+    </Position>
+    <Position Name="NZNR" Type="ASMGCS" ASMGCSAirport="NZNR" DefaultCenter="-392808.331+1765130.370" DefaultRange="2" MagneticVariation="0">
+      <Maps>
+        <Map Name="_NZ/ASMGCS_NZNR_RWY" />
+        <Map Name="_NZ/ASMGCS_NZNR_APR" />
+        <Map Name="_NZ/ASMGCS_NZNR_BLD" />
+        <Map Name="_NZ/ASMGCS_NZNR_TWY" />
+      </Maps>
+    </Position>
+    <Position Name="NZGS" Type="ASMGCS" ASMGCSAirport="NZGS" DefaultCenter="-383958.905+1775858.973" DefaultRange="2" MagneticVariation="0">
+      <Maps>
+        <Map Name="_NZ/ASMGCS_NZGS_RWY" />
+        <Map Name="_NZ/ASMGCS_NZGS_APR" />
+        <Map Name="_NZ/ASMGCS_NZGS_BLD" />
+        <Map Name="_NZ/ASMGCS_NZGS_TWY" />
+      </Maps>
+    </Position>
+    <Position Name="NZTG" Type="ASMGCS" ASMGCSAirport="NZTG" DefaultCenter="-374018.998+1761146.000" DefaultRange="2" MagneticVariation="0">
+      <Maps>
+        <Map Name="_NZ/ASMGCS_NZTG_RWY" />
+        <Map Name="_NZ/ASMGCS_NZTG_APR" />
+        <Map Name="_NZ/ASMGCS_NZTG_BLD" />
+        <Map Name="_NZ/ASMGCS_NZTG_TWY" />
+      </Maps>
+    </Position>  
+    <Position Name="NZRO" Type="ASMGCS" ASMGCSAirport="NZRO" DefaultCenter="-380633.001+1761901.999" DefaultRange="2" MagneticVariation="0">
+      <Maps>
+        <Map Name="_NZ/ASMGCS_NZRO_RWY" />
+        <Map Name="_NZ/ASMGCS_NZRO_APR" />
+        <Map Name="_NZ/ASMGCS_NZRO_BLD" />
+        <Map Name="_NZ/ASMGCS_NZRO_TWY" />
+      </Maps>
+    </Position>
+    <Position Name="NZNS" Type="ASMGCS" ASMGCSAirport="NZNS" DefaultCenter="-411740.650+1731320.116" DefaultRange="2" MagneticVariation="0">
+      <Maps>
+        <Map Name="_NZ/ASMGCS_NZNS_RWY" />
+        <Map Name="_NZ/ASMGCS_NZNS_APR" />
+        <Map Name="_NZ/ASMGCS_NZNS_BLD" />
+        <Map Name="_NZ/ASMGCS_NZNS_TWY" />
+      </Maps>
+    </Position>
+    <Position Name="NZNP" Type="ASMGCS" ASMGCSAirport="NZNP" DefaultCenter="-390017.806+1741029.359" DefaultRange="2" MagneticVariation="0">
+      <Maps>
+        <Map Name="_NZ/ASMGCS_NZNP_RWY" />
+        <Map Name="_NZ/ASMGCS_NZNP_APR" />
+        <Map Name="_NZ/ASMGCS_NZNP_BLD" />
+        <Map Name="_NZ/ASMGCS_NZNP_TWY" />
+      </Maps>
+    </Position>
+  </Group>
+
+  <Group Name="Class G">
+    <Position Name="NZPP" Type="ASMGCS" ASMGCSAirport="NZPP" DefaultCenter="-405416.999+1745921.001" DefaultRange="2" MagneticVariation="0">
+      <Maps>
+        <Map Name="_NZ/ASMGCS_NZPP_RWY" />
+        <Map Name="_NZ/ASMGCS_NZPP_APR" />
+        <Map Name="_NZ/ASMGCS_NZPP_BLD" />
+        <Map Name="_NZ/ASMGCS_NZPP_TWY" />
+      </Maps>
+    </Position>
+  </Group>
 </Positions>
