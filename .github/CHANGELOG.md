@@ -51,4 +51,6 @@ No recorded changes.
 
 ### Revision A (Initial)
 
-1. Change to `README.md` to link to [CONTRIBUTING.md](CONTRIBUTING.md).
+1. Change to `README.md` to link to [CONTRIBUTING.md](CONTRIBUTING.md). Thanks to Tom.
+
+2. Addition of NZPP ASMGCS. Added the associated `RADARS.xml` and `Positions.xml` entries. Thanks to Tom.

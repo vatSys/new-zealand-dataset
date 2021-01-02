@@ -511,4 +511,12 @@
       <Map Name="_NZ/ASMGCS_NZNS_TWY" />
     </Maps>
   </Position>
+  <Position Name="NZPP" Type="ASMGCS" ASMGCSAirport="NZPP" DefaultCenter="-405416.999+1745921.001" DefaultRange="2" MagneticVariation="0">
+    <Maps>
+      <Map Name="_NZ/ASMGCS_NZPP_RWY" />
+      <Map Name="_NZ/ASMGCS_NZPP_APR" />
+      <Map Name="_NZ/ASMGCS_NZPP_BLD" />
+      <Map Name="_NZ/ASMGCS_NZPP_TWY" />
+    </Maps>
+  </Position>
 </Positions>
