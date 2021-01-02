@@ -54,3 +54,5 @@ No recorded changes.
 1. Change to `README.md` to link to [CONTRIBUTING.md](CONTRIBUTING.md). Thanks to Tom.
 
 2. Addition of NZPP ASMGCS. Added the associated `RADARS.xml` and `Positions.xml` entries. Thanks to Tom.
+
+3. Addition of `<Localhost>` entry in `Profile.xml`, allowing the usage of vatSys as a FR24 viewer.
