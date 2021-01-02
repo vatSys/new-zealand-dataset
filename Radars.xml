@@ -184,4 +184,9 @@
     <Lat>-41.297243</Lat>
     <Long>173.224844</Long>
   </Radar>
+
+  <Radar Name="Paraparaumu SMC" Type="SMR" Elevation="19" MaxRange="4">
+    <Lat>-40.901701</Lat>
+    <Long>174.986028</Long>
+  </Radar>
 </Radars>
