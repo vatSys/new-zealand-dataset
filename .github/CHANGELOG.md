@@ -3,11 +3,13 @@
 - [AIRAC 2013](#airac-2013)        
     - [Revision A (Initial)](#revision-a-initial)        
     - [Revision B](#revision-b)        
-    - [Revision C](#revision-c)
-    - [Revision D](#revision-d)
-    - [Revision E](#revision-e)
-- [AIRAC 2014](#airac-2014)
-    - [Revision A (Initial)](#revision-a-initial-1)
+    - [Revision C](#revision-c)        
+    - [Revision D](#revision-d)        
+    - [Revision E](#revision-e)    
+- [AIRAC 2014](#airac-2014)        
+    - [Revision A (Initial)](#revision-a-initial-1)    
+- [Next Release (To Be Confirmed)](#next-release-to-be-confirmed)        
+    - [Revision A (Initial)](#revision-a-initial-2)
 
 ## AIRAC 2013
     
@@ -44,3 +46,9 @@ No recorded changes.
 1. Ownership parameters of ACU positions. All TMA positions owned by default. Thanks to Zain.
 
 2. Initial release of [GitHub Contribution Guidelines](CONTRIBUTING.md).
+
+## Next Release (To Be Confirmed)
+
+### Revision A (Initial)
+
+1. Change to `README.md` to link to [CONTRIBUTING.md](CONTRIBUTING.md).
