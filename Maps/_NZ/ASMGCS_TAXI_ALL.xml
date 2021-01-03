@@ -4,7 +4,32 @@
     <Label HasLeader="False" Alignment="Center" VerticalAlignment="Middle">
       <!--Example <Point Name="A">-2738.6753+15242.788</Point>-->
 	  
-      <Point Name="A">-41.328971+174.807991</Point>
+      <!-- NZWN -->
+        <Point Name="A">-41.325089+174.808282</Point>
+        <Point Name="34">-41.336761+174.806263</Point>
+        <Point Name="16">-41.316617+174.807537</Point>
+        <Point Name="A1">-41.317694+174.808216</Point>	
+        <Point Name="A2">-41.318925+174.808082</Point>	
+        <Point Name="A3">-41.321691+174.807893</Point>	
+        <Point Name="A4">-41.324101+174.807735</Point>	
+        <Point Name="A5">-41.326842+174.807538</Point>	
+        <Point Name="A6">-41.328240+174.807419</Point>	
+        <Point Name="A7">-41.329635+174.807290</Point>	
+        <Point Name="A8">-41.331232+174.807266</Point>	
+        <Point Name="A9">-41.332861+174.807191</Point>	
+        <Point Name="A10">-41.335168+174.807043</Point>	
+        <Point Name="A11">-41.335680+174.807036</Point>	
+        <Point Name="A">-41.333534+174.807741</Point>	
+        <Point Name="M4">-41.325160+174.806329</Point>	
+        <Point Name="M3">-41.326797+174.806228</Point>	
+        <Point Name="B5">-41.327166+174.808630</Point>	
+        <Point Name="B6">-41.328282+174.808565</Point>	
+        <Point Name="B7">-41.329685+174.808463</Point>	
+        <Point Name="B8">-41.331022+174.808382</Point>	
+        <Point Name="B9">-41.331563+174.808349</Point>	
+        <Point Name="B10">-41.332336+174.808332</Point>	
+        <Point Name="Western Apron">-41.326655+174.805295</Point>
+      <!-- NZWN END -->
 	  
     </Label>
   </Map>
