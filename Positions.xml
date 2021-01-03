@@ -400,6 +400,7 @@
     <Position Name="NZQN" Type="ASMGCS" ASMGCSAirport="NZQN" DefaultCenter="-450121.64+1684425.88" DefaultRange="2" MagneticVariation="338">
       <Maps>
         <Map Name="_NZ/ASMGCS_NZQN_RWY" />
+        <Map Name="_NZ/ASMGCS_NZQN_APR" />
         <Map Name="_NZ/ASMGCS_NZQN_TWY" />
         <Map Name="_NZ/ASMGCS_NZQN_BLD" />
       </Maps>
