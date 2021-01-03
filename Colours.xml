@@ -451,4 +451,13 @@
     <G>235</G>
     <B>0</B>
   </Colour>
+
+  <!-- ASMGCS Labels-->
+  <Colour id="GroundOther">
+    <Use>A-SMGCS Information / Other</Use>
+    <Name>Cream</Name>
+    <R>150</R>
+    <G>150</G>
+    <B>150</B>
+  </Colour>
 </Colours>
