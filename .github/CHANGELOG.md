@@ -51,12 +51,22 @@ No recorded changes.
 
 ### Revision A (Initial)
 
-1. Change to `README.md` to link to [CONTRIBUTING.md](CONTRIBUTING.md). Thanks to Tom.
+#### ASMGCS Fixes
 
-2. Addition of NZPP and NZNE ASMGCS views. Added the associated `RADARS.xml` and `Positions.xml` entries. Thanks to Alek and Tom.
+* Addition of NZPP and NZNE ASMGCS views. Added the associated `RADARS.xml` and `Positions.xml` entries. Thanks to Alek and Tom.
 
-3. Addition of `<Localhost>` entry in `Profile.xml`, allowing the usage of vatSys as a FR24 viewer. Thanks to Tom and Cam.
+* Separated Radar and Aerodrome Ground Views into categories within the Positions tab. Radar views are now categorised by ACU/Enroute and Aerodrome Ground Views are categorised by Class of Airspace (C/D/G). Thanks to Cam and Tom.
 
-4. Separated Radar and Aerodrome Ground Views into categories. Radar views are now categorised by ACU/Enroute and Aerodrome Ground Views are categorised by Class of Airspace (C/D/G). Thanks to Cam and Tom
+* NZQN - ASMGCS Files reworked. Thanks to Cam and Tom.
 
-5. NZQN ASMGCS Files reworked. Thanks to Cam and Tom.
+* NZWN - Taxiway, Runway and Apron labels added. Thanks to Alek and Tom.
+
+#### Other Changes
+
+* Addition of `<Localhost>` entry in `Profile.xml`, allowing the usage of vatSys as a FR24 viewer. Thanks to Tom and Cam.
+
+#### Usability Changes
+
+* Change to `README.md` to link to [CONTRIBUTING.md](CONTRIBUTING.md). Thanks to Tom.
+
+* Updated Map file structure to for easier navigation. `_NZ/` folder deleted, with files moved to `Maps/`. ASMGCS files moved to individual folders, sorted by ICAO code.
