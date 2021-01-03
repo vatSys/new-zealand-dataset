@@ -529,5 +529,13 @@
         <Map Name="_NZ/ASMGCS_NZPP_TWY" />
       </Maps>
     </Position>
+    <Position Name="NZNE" Type="ASMGCS" ASMGCSAirport="NZNE" DefaultCenter="-36.656667+174.655278" DefaultRange="2" MagneticVariation="0">
+      <Maps>
+        <Map Name="_NZ/ASMGCS_NZNE_RWY" />
+        <Map Name="_NZ/ASMGCS_NZNE_APR" />
+        <Map Name="_NZ/ASMGCS_NZNE_BLD" />
+        <Map Name="_NZ/ASMGCS_NZNE_TWY" />
+      </Maps>
+    </Position>
   </Group>
 </Positions>

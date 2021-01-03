@@ -189,4 +189,9 @@
     <Lat>-40.901701</Lat>
     <Long>174.986028</Long>
   </Radar>
+
+  <Radar Name="North Shore SMC" Type="SMR" Elevation="212" MaxRange="4">
+    <Lat>-36.655749</Lat>
+    <Long>174.655828</Long>
+  </Radar>
 </Radars>
