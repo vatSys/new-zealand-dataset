@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="Ground_INF" Name="ASMGCS_TAXI_ALL" Priority="0" Center="-41.328971+174.807991">
+    <Label HasLeader="False" Alignment="Center" VerticalAlignment="Middle">
+      <!--Example <Point Name="A">-2738.6753+15242.788</Point>-->
+	  
+      <Point Name="A">-41.328971+174.807991</Point>
+	  
+    </Label>
+  </Map>
+</Maps>
