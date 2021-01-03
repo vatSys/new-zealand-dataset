@@ -8,7 +8,7 @@
     - [Revision E](#revision-e)    
 - [AIRAC 2014](#airac-2014)        
     - [Revision A (Initial)](#revision-a-initial-1)    
-- [Next Release (To Be Confirmed)](#next-release-to-be-confirmed)        
+- [AIRAC 2101)](#airac-2101)        
     - [Revision A (Initial)](#revision-a-initial-2)
 
 ## AIRAC 2013
@@ -47,13 +47,13 @@ No recorded changes.
 
 2. Initial release of [GitHub Contribution Guidelines](CONTRIBUTING.md).
 
-## Next Release (To Be Confirmed)
+## AIRAC 2101
 
 ### Revision A (Initial)
 
 1. Change to `README.md` to link to [CONTRIBUTING.md](CONTRIBUTING.md). Thanks to Tom.
 
-2. Addition of NZPP ASMGCS. Added the associated `RADARS.xml` and `Positions.xml` entries. Thanks to Tom.
+2. Addition of NZPP and NZNE ASMGCS views. Added the associated `RADARS.xml` and `Positions.xml` entries. Thanks to Alek and Tom.
 
 3. Addition of `<Localhost>` entry in `Profile.xml`, allowing the usage of vatSys as a FR24 viewer. Thanks to Tom and Cam.
 
