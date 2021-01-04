@@ -173,7 +173,36 @@
         <Point Name="C">-37.865353+175.330846</Point>
         <Point Name="D">-37.866556+175.329179</Point>
       <!-- NZHN END -->
-      
+
+      <!-- NZPM -->
+        <Point Name="25">-40.319812+175.626399</Point>
+        <Point Name="07">-40.319867+175.602311</Point>
+        <Point Name="GR/25">-40.321336+175.621950</Point>
+        <Point Name="GR/07">-40.321351+175.615668</Point>
+
+        <Point Name="E">-40.320681+175.606131</Point>
+        <Point Name="E1">-40.320521+175.606115</Point>
+        <Point Name="D">-40.321545+175.614239</Point>
+        <Point Name="D1">-40.320525+175.613484</Point>
+        <Point Name="D2">-40.320964+175.613590</Point>
+        <Point Name="H">-40.322353+175.617436</Point>
+        <Point Name="H1">-40.322366+175.614289</Point>
+        <Point Name="H2">-40.322366+175.614686</Point>
+        <Point Name="H3">-40.322366+175.615444</Point>
+        <Point Name="C1">-40.320529+175.619562</Point>
+        <Point Name="C2">-40.320970+175.619556</Point>
+        <Point Name="C3">-40.321754+175.619558</Point>
+        <Point Name="B1">-40.320631+175.623070</Point>
+        <Point Name="B2">-40.321026+175.623070</Point>
+        <Point Name="B3">-40.321770+175.622414</Point>
+        
+        <Point Name="APRON">-40.322824+175.621153</Point>
+        <Point Name="FREIGHT">-40.324316+175.619527</Point>
+        <Point Name="MASSEY">-40.322901+175.613340</Point>
+        <Point Name="ENG">-40.324873+175.617842</Point>
+
+      <!-- NZPM END -->
+
     </Label>
 </Map>
 </Maps>
