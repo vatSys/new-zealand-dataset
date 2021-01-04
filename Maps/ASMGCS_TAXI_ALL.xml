@@ -116,6 +116,35 @@
 	<Point Name="GCH Aviation">-432957.350+1723137.592</Point>
 	<Point Name="ANZ">-432849.638+1723249.916</Point>
 <!-- NZCH END -->
+<!-- NZQN -->
+	<Point Name="23">-450058.752+1684533.977</Point>
+	<Point Name="05">-450113.145+1684400.996</Point>
+	<Point Name="14">-450101.189+1684426.747</Point>
+	<Point Name="32">-450130.043+1684440.654</Point>
+	  
+	<Point Name="A">-450105.840+1684507.949</Point>
+	<Point Name="C">-450113.256+1684435.696</Point>
+	<Point Name="Y">-450124.125+1684432.352</Point>
+	<Point Name="B">-450120.132+1684433.572</Point>
+	  
+	<Point Name="DOM">-450116.309+1684423.345</Point>
+	<Point Name="INTL">-450119.884+1684428.766</Point>
+	  
+	<Point Name="A4">-450111.996+1684426.898</Point>
+	<Point Name="A3">-450112.256+1684424.493</Point>
+	<Point Name="A5">-450107.223+1684452.199</Point>
+	<Point Name="A6">-450101.722+1684525.448</Point>
+	<Point Name="B1">-450104.609+1684426.059</Point>
+	<Point Name="C5">-450103.443+1684429.904</Point>
+	<Point Name="C4">-450105.700+1684431.859</Point>
+	<Point Name="C3">-450109.692+1684433.882</Point>
+	<Point Name="B4">-450111.258+1684433.220</Point>
+	<Point Name="C2">-450116.684+1684436.103</Point>
+	<Point Name="C1">-450117.465+1684432.777</Point>
+	<Point Name="B2">-450111.881+1684429.958</Point>
+	<Point Name="B3">-450129.021+1684438.882</Point>
+	<Point Name="Y6">-450123.437+1684436.038</Point>
+<!-- NZQN END -->
     </Label>
 </Map>
 </Maps>
