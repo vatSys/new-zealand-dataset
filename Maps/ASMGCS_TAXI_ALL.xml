@@ -200,8 +200,38 @@
         <Point Name="FREIGHT">-40.324316+175.619527</Point>
         <Point Name="MASSEY">-40.322901+175.613340</Point>
         <Point Name="ENG">-40.324873+175.617842</Point>
-
       <!-- NZPM END -->
+
+      <!-- NZOH -->
+        <Point Name="27">-40.209570+175.400560</Point>
+        <Point Name="09">-40.201927+175.371522</Point>
+        <Point Name="33">-40.218280+175.390761</Point>
+        <Point Name="15">-40.197586+175.385516</Point>
+        <Point Name="GR/09">-40.201557+175.374764</Point>
+        <Point Name="GR/27">-40.203018+175.380267</Point>
+
+        <Point Name="C">-40.201533+175.373615</Point>
+        <Point Name="D">-40.203666+175.381731</Point>
+        <Point Name="A">-40.203517+175.384013</Point>
+        <Point Name="A">-40.206287+175.394464</Point>
+        <Point Name="B1">-40.199088+175.386817</Point>
+        <Point Name="B">-40.201132+175.388538</Point>
+        <Point Name="B2">-40.202905+175.387767</Point>
+        <Point Name="E">-40.199426+175.384465</Point>
+        <Point Name="F (CLSD)">-40.198664+175.384264</Point>
+
+        <Point Name="TWY B CLSD">-40.207959+175.390151</Point>
+        <Point Name="STH OF 09/27">-40.208290+175.390235</Point>
+        <Point Name="14 SQN">-40.199284+175.376634</Point>
+        <Point Name="42 SQN">-40.199697+175.378196</Point>
+        <Point Name="VFH">-40.199356+175.380602</Point>
+        <Point Name="TERM">-40.198430+175.382148</Point>
+        <Point Name="NORTHERN APR">-40.200753+175.378289</Point>
+        <Point Name="3 SQN APR">-40.202678+175.390528</Point>
+        <Point Name="5 SQN APR">-40.204724+175.392471</Point>
+        
+        <Point Name=""></Point>
+      <!-- NZOH END -->
 
     </Label>
 </Map>
