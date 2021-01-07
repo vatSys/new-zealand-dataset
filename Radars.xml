@@ -198,4 +198,5 @@
   <Radar Name="Ardmore SMC" Type="SMR" Elevation="109" MaxRange="4">
     <Lat>-37.030263</Lat>
     <Long>174.972677</Long>
+  </Radar>
 </Radars>
