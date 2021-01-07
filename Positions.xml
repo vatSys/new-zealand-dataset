@@ -537,5 +537,13 @@
         <Map Name="NZNE/ASMGCS_NZNE_TWY" />
       </Maps>
     </Position>
+    <Position Name="NZAR" Type="ASMGCS" ASMGCSAirport="NZAR" DefaultCenter="-370147.000+1745823.000" DefaultRange="2" MagneticVariation="0">
+      <Maps>
+        <Map Name="NZAR/ASMGCS_NZAR_RWY" />
+        <Map Name="NZAR/ASMGCS_NZAR_APR" />
+        <Map Name="NZAR/ASMGCS_NZAR_BLD" />
+        <Map Name="NZAR/ASMGCS_NZAR_TWY" />
+      </Maps>
+    </Position>
   </Group>
 </Positions>

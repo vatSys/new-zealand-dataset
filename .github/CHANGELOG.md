@@ -53,13 +53,13 @@ No recorded changes.
 
 #### ASMGCS Fixes
 
-* Addition of NZPP and NZNE ASMGCS views. Added the associated `RADARS.xml` and `Positions.xml` entries. Thanks to Alek and Tom.
+* Addition of NZPP, NZNE and NZAR ASMGCS views. Added the associated `RADARS.xml` and `Positions.xml` entries. Thanks to Alek and Tom.
 
 * Separated Radar and Aerodrome Ground Views into categories within the Positions tab. Radar views are now categorised by ACU/Enroute and Aerodrome Ground Views are categorised by Class of Airspace (C/D/G). Thanks to Cam and Tom.
 
 * NZQN - ASMGCS Files reworked. Thanks to Cam and Tom.
 
-* NZWN - Taxiway, Runway and Apron labels added. Thanks to Alek and Tom.
+* The following ASMGCS Taxiway, Runway and Apron labels have been added - NZAA, NZWN, NZCH, NZWN, NZHN, NZOH, NZPM, NZWB and NZWP. Thanks to Cam, Alek and Tom.
 
 #### Other Changes
 
