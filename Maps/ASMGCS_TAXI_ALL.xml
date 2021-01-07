@@ -263,6 +263,29 @@
         <Point Name="5 SQN">-36.789152+174.626608</Point>
       <!-- NZWP END -->
 
+      <!-- NZWB -->
+        <Point Name="06">-41.518389+173.859802</Point>
+        <Point Name="24">-41.517368+173.878797</Point>
+        <Point Name="GR/06">-41.516968+173.860998</Point>
+        <Point Name="GR/24">-41.516094+173.877432</Point>
+        <Point Name="GR/01">-41.514382+173.863822</Point>
+        <Point Name="GR/28">-41.519456+173.874707</Point>
+        
+        <Point Name="A1">-41.517230+173.868389</Point>
+        <Point Name="A2">-41.515732+173.868247</Point>
+        <Point Name="B1">-41.518140+173.876635</Point>
+        
+        <Point Name="TERMINAL">-41.514081+173.867852</Point>
+        <Point Name="MIL APR">-41.515258+173.870289</Point>
+        <Point Name="MIL APR">-41.514457+173.874427</Point>
+        <Point Name="AIR MOVES">-41.514589+173.870556</Point>
+        <Point Name="AIRBUS HANGARS">-41.513992+173.873376</Point>
+        <Point Name="LTS">-41.512909+173.875355</Point>
+        <Point Name="NMIT">-41.513376+173.876082</Point>
+
+      <!-- NZWB END -->
+        <Point Name=""></Point>
+
     </Label>
-</Map>
+  </Map>
 </Maps>
