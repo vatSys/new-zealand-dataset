@@ -284,8 +284,61 @@
         <Point Name="NMIT">-41.513376+173.876082</Point>
 
       <!-- NZWB END -->
-        <Point Name=""></Point>
 
+      <!-- NZAR -->
+        <Point Name="03">-37.035609+174.968443</Point>
+        <Point Name="21">-37.026059+174.980566</Point>
+        <Point Name="GR/07">-37.028994+174.969320</Point>
+        <Point Name="GR/25">-37.028994+174.975993</Point>
+        <Point Name="GR/21">-37.028603+174.975683</Point>
+        <Point Name="GR/03">-37.031650+174.971821</Point>
+
+        <Point Name="A">-37.030620+174.976778</Point>
+        <Point Name="A1">-37.031316+174.975297</Point>
+        <Point Name="A2">-37.031912+174.974547</Point>
+        <Point Name="A3">-37.032508+174.973964</Point>
+        <Point Name="A4">-37.032892+174.973424</Point>
+        <Point Name="A5">-37.033039+174.973088</Point>
+        <Point Name="A6">-37.034048+174.971880</Point>
+        <Point Name="A7">-37.035878+174.969648</Point>
+        <Point Name="B">-37.033027+174.972473</Point>
+        <Point Name="C">-37.033333+174.972080</Point>
+        <Point Name="D">-37.033765+174.971541</Point>
+        <Point Name="E">-37.035377+174.969488</Point>
+        <Point Name="G">-37.032109+174.970973</Point>
+        <Point Name="G">-37.029130+174.968280</Point>
+        <Point Name="H">-37.031561+174.971137</Point>
+        <Point Name="H">-37.029248+174.969043</Point>
+        <Point Name="J">-37.028183+174.968308</Point>
+        <Point Name="J">-37.028183+174.973191</Point>
+        <Point Name="J">-37.028183+174.979205</Point>
+        <Point Name="K">-37.027814+174.973960</Point>
+        <Point Name="L">-37.027814+174.975709</Point>
+        <Point Name="M">-37.031579+174.970023</Point>
+        <Point Name="N">-37.027600+174.973420</Point>
+        <Point Name="N">-37.027600+174.975177</Point>
+        <Point Name="O">-37.028717+174.979030</Point>
+        <Point Name="P">-37.027038+174.980754</Point>
+        <Point Name="Q">-37.029384+174.980689</Point>
+        <Point Name="R">-37.029446+174.978362</Point>
+        <Point Name="S">-37.029609+174.977059</Point>
+        <Point Name="S">-37.032442+174.973473</Point>
+        <Point Name="S">-37.034839+174.970436</Point>
+        <Point Name="U">-37.029667+174.980066</Point>
+        <Point Name="V">-37.029941+174.979508</Point>
+        <Point Name="W1">-37.031315+174.970594</Point>
+        <Point Name="W2">-37.030677+174.970019</Point>
+        <Point Name="W3">-37.030029+174.969427</Point>
+
+        <Point Name="AREA W/ OF G">-37.028036+174.965540</Point>
+        <Point Name="CLSD PERM">-37.028313+174.965540</Point>
+
+
+        <Point Name="W. APR">-37.030777+174.967882</Point>
+        <Point Name="S.E. APR">-37.031540+174.978019</Point>
+      <!-- NZAR END -->
+
+        <Point Name=""></Point>
     </Label>
   </Map>
 </Maps>
