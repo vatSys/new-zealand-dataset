@@ -407,7 +407,7 @@
     </Position>
   </Group>
   <Group Name="Class D">
-    <Position Name="NZWP" Type="ASMGCS" ASMGCSAirport="NZWP" DefaultCenter="-364716.001+1743749.001" DefaultRange="2" MagneticVariation="37.5">
+    <Position Name="NZWP" Type="ASMGCS" ASMGCSAirport="NZWP" DefaultCenter="-364716.001+1743749.001" DefaultRange="2" MagneticVariation="37">
       <Maps>
         <Map Name="NZWP/ASMGCS_NZWP_RWY" />
         <Map Name="NZWP/ASMGCS_NZWP_APR" />

@@ -209,6 +209,7 @@
         <Point Name="15">-40.197586+175.385516</Point>
         <Point Name="GR/09">-40.201557+175.374764</Point>
         <Point Name="GR/27">-40.203018+175.380267</Point>
+        <Point Name="Southfield">-40.207255+175.381001</Point>
 
         <Point Name="C">-40.201533+175.373615</Point>
         <Point Name="D">-40.203666+175.381731</Point>
@@ -219,6 +220,9 @@
         <Point Name="B2">-40.202905+175.387767</Point>
         <Point Name="E">-40.199426+175.384465</Point>
         <Point Name="F (CLSD)">-40.198664+175.384264</Point>
+        <Point Name="A1">-40.208513+175.399841</Point>
+        <Point Name="A2">-40.207639+175.396595</Point>
+        <Point Name="A3">-40.205784+175.389703</Point>
 
         <Point Name="TWY B CLSD">-40.207959+175.390151</Point>
         <Point Name="STH OF 09/27">-40.208290+175.390235</Point>
@@ -229,10 +233,59 @@
         <Point Name="NORTHERN APR">-40.200753+175.378289</Point>
         <Point Name="3 SQN APR">-40.202678+175.390528</Point>
         <Point Name="5 SQN APR">-40.204724+175.392471</Point>
-        
-        <Point Name=""></Point>
       <!-- NZOH END -->
 
+      <!-- NZWP -->
+        <Point Name="03">-36.796663+174.620133</Point>
+        <Point Name="21">-36.784714+174.639836</Point>
+        <Point Name="26">-36.785804+174.641786</Point>
+        <Point Name="08">-36.783734+174.622896</Point>
+        <Point Name="GR/08">-36.783154+174.626055</Point>
+        <Point Name="GR/26">-36.784124+174.634493</Point>
+
+        <Point Name="A">-36.793967+174.622926</Point>
+        <Point Name="A">-36.790744+174.628232</Point>
+        <Point Name="A">-36.787660+174.633076</Point>
+        <Point Name="A1">-36.795349+174.620749</Point>
+        <Point Name="A2">-36.793114+174.624953</Point>
+        <Point Name="A3">-36.791113+174.628196</Point>
+        <Point Name="HOLD 4">-36.785940+174.635890</Point>
+        <Point Name="B">-36.788430+174.628418</Point>
+        <Point Name="D">-36.788638+174.630094</Point>
+        <Point Name="F">-36.791034+174.632322</Point>
+        <Point Name="H">-36.784666+174.624846</Point>
+        <Point Name="I">-36.782965+174.623563</Point>
+        <Point Name="J">-36.782817+174.624634</Point>
+        
+        <Point Name="6 SQN">-36.792645+174.622683</Point>
+        <Point Name="AIR MOVES">-36.792248+174.623852</Point>
+        <Point Name="40 SQN">-36.790958+174.625849</Point>
+        <Point Name="5 SQN">-36.789152+174.626608</Point>
+      <!-- NZWP END -->
+
+      <!-- NZWB -->
+        <Point Name="06">-41.518389+173.859802</Point>
+        <Point Name="24">-41.517368+173.878797</Point>
+        <Point Name="GR/06">-41.516968+173.860998</Point>
+        <Point Name="GR/24">-41.516094+173.877432</Point>
+        <Point Name="GR/01">-41.514382+173.863822</Point>
+        <Point Name="GR/28">-41.519456+173.874707</Point>
+        
+        <Point Name="A1">-41.517230+173.868389</Point>
+        <Point Name="A2">-41.515732+173.868247</Point>
+        <Point Name="B1">-41.518140+173.876635</Point>
+        
+        <Point Name="TERMINAL">-41.514081+173.867852</Point>
+        <Point Name="MIL APR">-41.515258+173.870289</Point>
+        <Point Name="MIL APR">-41.514457+173.874427</Point>
+        <Point Name="AIR MOVES">-41.514589+173.870556</Point>
+        <Point Name="AIRBUS HANGARS">-41.513992+173.873376</Point>
+        <Point Name="LTS">-41.512909+173.875355</Point>
+        <Point Name="NMIT">-41.513376+173.876082</Point>
+
+      <!-- NZWB END -->
+        <Point Name=""></Point>
+
     </Label>
-</Map>
+  </Map>
 </Maps>
