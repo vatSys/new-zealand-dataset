@@ -438,6 +438,34 @@
         <Point Name="F1">-39.464414+176.866755</Point>
       <!-- NZNR END -->
 
+      <!-- NZNS -->
+        <Point Name="02">-41.301708+173.218597</Point>
+        <Point Name="20">-41.292008+173.229720</Point>
+        <Point Name="GR/02">-41.296252+173.219084</Point>
+        <Point Name="GR/20">-41.292382+173.223665</Point>
+        <Point Name="GR/06">-41.296144+173.217392</Point>
+        <Point Name="GR/24">-41.295570+173.223422</Point>
+        
+        <Point Name="A">-41.300444+173.222222</Point>
+        <Point Name="A">-41.296835+173.225599</Point>
+        <Point Name="A">-41.294651+173.228852</Point>
+        <Point Name="A1">-41.301814+173.219879</Point>
+        <Point Name="GR/A2">-41.300789+173.221015</Point>
+        <Point Name="A3">-41.297569+173.224632</Point>
+        <Point Name="GR/A4">-41.295076+173.227445</Point>
+        <Point Name="A5">-41.292923+173.230008</Point>
+        <Point Name="B1">-41.295170+173.228961</Point>
+        <Point Name="B">-41.295357+173.230231</Point>
+        <Point Name="C1">-41.294169+173.229735</Point>
+        <Point Name="GR/W1">-41.296567+173.223104</Point>
+        <Point Name="GR/W2">-41.294160+173.225850</Point>
+        
+        <Point Name="TERMINAL">-41.299254+173.224418</Point>
+        <Point Name="AIR NZ MAINT">-41.298850+173.226929</Point>
+        <Point Name="NAC">-41.295967+173.229133</Point>
+
+      <!-- NZNS END-->
+
         <Point Name=""></Point>
     </Label>
   </Map>
