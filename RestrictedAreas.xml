@@ -723,6 +723,66 @@
   <!-- END RESTRICTED AIRSPACE -->
 
   <!-- MILITARY OPERATING AREAS -->
+    <RestrictedArea Type="Restricted" Name="M102 Bay of Islands" AltitudeFloor="0" AltitudeCeiling="0" DAIWEnabled="true"
+                    LinePattern="None">
+      <Area>
+        -343000.000+1745000.000/
+        -350000.000+1745000.000/
+        -350000.000+1741500.000/
+        -343000.000+1741500.000/
+        -343000.000+1745000.000
+      </Area>
+      <Activations>
+        <Activation H24="false" />
+      </Activations>
+    </RestrictedArea>
+
+    <RestrictedArea Type="Restricted" Name="M103 South Head" AltitudeFloor="0" AltitudeCeiling="0" DAIWEnabled="true"
+                    LinePattern="None">
+      <Area>
+        -36.427500+174.160556/
+        -36.428259+174.171347/
+        -36.430513+174.181810/
+        -36.434195+174.191629/
+        -36.439191+174.200506/
+        -36.445351+174.208170/
+        -36.452488+174.214389/
+        -36.460385+174.218975/
+        -36.468802+174.221786/
+        -36.477484+174.222738/
+        -36.486167+174.221800/
+        -36.494587+174.219000/
+        -36.502488+174.214424/
+        -36.509630+174.208210/
+        -36.515796+174.200545/
+        -36.520797+174.191664/
+        -36.524483+174.181836/
+        -36.526740+174.171360/
+        -36.527500+174.160556/
+        -36.526740+174.149751/
+        -36.524483+174.139275/
+        -36.520797+174.129447/
+        -36.515796+174.120566/
+        -36.509630+174.112902/
+        -36.502488+174.106687/
+        -36.494587+174.102111/
+        -36.486167+174.099311/
+        -36.477484+174.098373/
+        -36.468802+174.099325/
+        -36.460385+174.102136/
+        -36.452488+174.106722/
+        -36.445351+174.112941/
+        -36.439191+174.120605/
+        -36.434195+174.129482/
+        -36.430513+174.139301/
+        -36.428259+174.149765/
+        -36.427500+174.160556
+      </Area>
+      <Activations>
+        <Activation H24="false" />
+      </Activations>
+    </RestrictedArea>
+
     <RestrictedArea Type="Restricted" Name="M107 WHENUAPAI" AltitudeFloor="0" AltitudeCeiling="2500" DAIWEnabled="true"
                     LinePattern="Solid">
       <Area>
@@ -805,6 +865,7 @@
         <Activation H24="true" Start="0000" End="0000"/>
       </Activations>
     </RestrictedArea>
+
     <RestrictedArea Type="Restricted" Name="M201 ARDMORE" AltitudeFloor="0" AltitudeCeiling="2300" DAIWEnabled="true"
                     LinePattern="Solid">
       <Area>
@@ -824,6 +885,7 @@
         <Activation H24="true" Start="0000" End="0000"/>
       </Activations>
     </RestrictedArea>
+
     <RestrictedArea Type="Restricted" Name="M300 RANGIPO DESERT" AltitudeFloor="0" AltitudeCeiling="13000"
                     DAIWEnabled="true" LinePattern="Solid">
       <Area>
@@ -844,6 +906,7 @@
         <Activation H24="true" Start="0000" End="0000"/>
       </Activations>
     </RestrictedArea>
+
     <RestrictedArea Type="Restricted" Name="M301 MOAWHANGO" AltitudeFloor="0" AltitudeCeiling="13000" DAIWEnabled="true"
                     LinePattern="Solid">
       <Area>
@@ -875,6 +938,7 @@
         <Activation H24="true" Start="0000" End="0000"/>
       </Activations>
     </RestrictedArea>
+
     <RestrictedArea Type="Restricted" Name="M302 TARANAKI BIGHT" AltitudeFloor="0" AltitudeCeiling="9000"
                     DAIWEnabled="true" LinePattern="Solid">
       <Area>
@@ -1065,6 +1129,7 @@
         <Activation H24="true" Start="0000" End="0000"/>
       </Activations>
     </RestrictedArea>
+
     <RestrictedArea Type="Restricted" Name="M309 OHAKEA" AltitudeFloor="0" AltitudeCeiling="1500" DAIWEnabled="true"
                     LinePattern="Solid">
       <Area>
@@ -1094,6 +1159,7 @@
         <Activation H24="true" Start="0000" End="0000"/>
       </Activations>
     </RestrictedArea>
+
     <RestrictedArea Type="Restricted" Name="M310 LINTON CAMP" AltitudeFloor="0" AltitudeCeiling="1200"
                     DAIWEnabled="true" LinePattern="Solid">
       <Area>
@@ -1110,6 +1176,7 @@
         <Activation H24="true" Start="0000" End="0000"/>
       </Activations>
     </RestrictedArea>
+
     <RestrictedArea Type="Restricted" Name="M311 BULLS" AltitudeFloor="1500" AltitudeCeiling="2500" DAIWEnabled="true"
                     LinePattern="Solid">
       <Area>
@@ -1192,6 +1259,7 @@
         <Activation H24="true" Start="0000" End="0000"/>
       </Activations>
     </RestrictedArea>
+
     <RestrictedArea Type="Restricted" Name="M312 MANAWATU COAST" AltitudeFloor="1500" AltitudeCeiling="7000"
                     DAIWEnabled="true" LinePattern="Solid">
       <Area>
@@ -1293,6 +1361,7 @@
         <Activation H24="true" Start="0000" End="0000"/>
       </Activations>
     </RestrictedArea>
+
     <RestrictedArea Type="Restricted" Name="M800 GLENTUNNEL" AltitudeFloor="0" AltitudeCeiling="3500" DAIWEnabled="true"
                     LinePattern="Solid">
       <Area>
@@ -1375,6 +1444,7 @@
         <Activation H24="true" Start="0000" End="0000"/>
       </Activations>
     </RestrictedArea>
+
     <RestrictedArea Type="Restricted" Name="M901 BURNHAM CAMP" AltitudeFloor="0" AltitudeCeiling="1300"
                     DAIWEnabled="true" LinePattern="Solid">
       <Area>
