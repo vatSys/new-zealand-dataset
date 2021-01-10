@@ -723,7 +723,7 @@
   <!-- END RESTRICTED AIRSPACE -->
 
   <!-- MILITARY OPERATING AREAS -->
-    <RestrictedArea Type="Restricted" Name="M102 Bay of Islands" AltitudeFloor="0" AltitudeCeiling="0" DAIWEnabled="true"
+    <RestrictedArea Type="Restricted" Name="M102 BAY OF ISLANDS" AltitudeFloor="0" AltitudeCeiling="0" DAIWEnabled="true"
                     LinePattern="None">
       <Area>
         -343000.000+1745000.000/
@@ -737,7 +737,7 @@
       </Activations>
     </RestrictedArea>
 
-    <RestrictedArea Type="Restricted" Name="M103 South Head" AltitudeFloor="0" AltitudeCeiling="0" DAIWEnabled="true"
+    <RestrictedArea Type="Restricted" Name="M103 SOUTH HEAD" AltitudeFloor="0" AltitudeCeiling="0" DAIWEnabled="true"
                     LinePattern="None">
       <Area>
         -36.427500+174.160556/
@@ -777,6 +777,23 @@
         -36.430513+174.139301/
         -36.428259+174.149765/
         -36.427500+174.160556
+      </Area>
+      <Activations>
+        <Activation H24="false" />
+      </Activations>
+    </RestrictedArea>
+
+    <RestrictedArea Type="Restricted" Name="M106 KAIPARA" AltitudeFloor="0" AltitudeCeiling="0" DAIWEnabled="true"
+                    LinePattern="None">
+      <Area>
+        -362102.800+1741807.800/
+        -363237.400+1742050.200/
+        -363653.000+1741633.800/
+        -363800.000+1740900.000/
+        -363300.000+1735800.000/
+        -362005.900+1740100.400/
+        -361838.900+1740946.200/
+        -362102.800+1741807.800
       </Area>
       <Activations>
         <Activation H24="false" />
@@ -883,6 +900,78 @@
       </Area>
       <Activations>
         <Activation H24="true" Start="0000" End="0000"/>
+      </Activations>
+    </RestrictedArea>
+
+    <RestrictedArea Type="Restricted" Name="M204 CUVIER ISLAND" AltitudeFloor="0" AltitudeCeiling="0" DAIWEnabled="true"
+                    LinePattern="None">
+      <Area>
+        -355000.000+1762500.000/
+        -362000.000+1762500.000/
+        -362000.000+1755000.000/
+        -355000.000+1755000.000/
+        -355000.000+1762500.000
+      </Area>
+      <Activations>
+        <Activation H24="false" />
+      </Activations>
+    </RestrictedArea>
+
+    <RestrictedArea Type="Restricted" Name="M205 BOP(A)" AltitudeFloor="0" AltitudeCeiling="0" DAIWEnabled="true"
+                    LinePattern="None">
+      <Area>
+        -352000.000+1771730.000/
+        -362000.000+1771730.000/
+        -362000.000+1762500.000/
+        -355000.000+1762500.000/
+        -355000.000+1755000.000/
+        -352000.000+1762500.000/
+        -352000.000+1771730.000
+      </Area>
+      <Activations>
+        <Activation H24="false" />
+      </Activations>
+    </RestrictedArea>
+
+    <RestrictedArea Type="Restricted" Name="M206 BOP(B)" AltitudeFloor="0" AltitudeCeiling="0" DAIWEnabled="true"
+                    LinePattern="None">
+      <Area>
+        -352000.000+1781000.000/
+        -362000.000+1781000.000/
+        -362000.000+1771730.000/
+        -352000.000+1771730.000/
+        -352000.000+1781000.000
+      </Area>
+      <Activations>
+        <Activation H24="false" />
+      </Activations>
+    </RestrictedArea>
+
+    <RestrictedArea Type="Restricted" Name="M207 BOP(C)" AltitudeFloor="0" AltitudeCeiling="0" DAIWEnabled="true"
+                    LinePattern="None">
+      <Area>
+        -362000.000+1771730.000/
+        -372000.000+1771730.000/
+        -372020.000+1762500.000/
+        -362000.000+1762500.000/
+        -362000.000+1771730.000
+      </Area>
+      <Activations>
+        <Activation H24="false" />
+      </Activations>
+    </RestrictedArea>
+
+    <RestrictedArea Type="Restricted" Name="M208 BOP(D)" AltitudeFloor="0" AltitudeCeiling="0" DAIWEnabled="true"
+                    LinePattern="None">
+      <Area>
+        -362000.000+1781000.000/
+        -372000.000+1781000.000/
+        -372000.000+1771730.000/
+        -362000.000+1771730.000/
+        -362000.000+1781000.000
+      </Area>
+      <Activations>
+        <Activation H24="false" />
       </Activations>
     </RestrictedArea>
 
@@ -1041,6 +1130,59 @@
         -391748.700+1754015.701/
         -391719.702+1754216.700/
         -391743.699+1754353.699
+      </Area>
+      <Activations>
+        <Activation H24="false" />
+      </Activations>
+    </RestrictedArea>
+
+    <RestrictedArea Type="Restricted" Name="M304 WAIOURU EAST" AltitudeFloor="0" AltitudeCeiling="0" DAIWEnabled="true"
+                    LinePattern="None">
+      <Area>
+        -391532.700+1755619.700/
+        -391610.700+1755852.700/
+        -391710.700+1760015.700/
+        -391710.700+1755830.700/
+        -392113.700+1755830.700/
+        -392115.700+1760155.700/
+        -392448.700+1760029.700/
+        -393003.700+1755403.700/
+        -393113.700+1755200.700/
+        -393016.700+1755000.700/
+        -393117.700+1754204.700/
+        -392833.700+1754105.700/
+        -392803.700+1754115.700/
+        -392753.700+1754110.700/
+        -392503.700+1754155.700/
+        -392328.700+1754315.700/
+        -392253.700+1754320.700/
+        -391913.700+1754430.700/
+        -391833.700+1754512.700/
+        -391715.700+1754506.700/
+        -391736.700+1755147.700/
+        -391651.700+1755535.700/
+        -391532.700+1755619.700
+      </Area>
+      <Activations>
+        <Activation H24="false" />
+      </Activations>
+    </RestrictedArea>
+
+    <RestrictedArea Type="Restricted" Name="M305 KARIOI FOREST" AltitudeFloor="0" AltitudeCeiling="0" DAIWEnabled="true"
+                    LinePattern="None">
+      <Area>
+        -391858.700+1753715.700/
+        -391953.700+1753840.700/
+        -392153.700+1753955.700/
+        -392153.700+1754050.700/
+        -392313.700+1754115.700/
+        -392348.700+1754116.600/
+        -392614.200+1753859.100/
+        -392709.000+1753951.600/
+        -392756.500+1753932.200/
+        -392805.500+1753522.300/
+        -392653.800+1753054.700/
+        -391858.700+1753715.700
       </Area>
       <Activations>
         <Activation H24="false" />
@@ -1359,6 +1501,20 @@
       </Area>
       <Activations>
         <Activation H24="true" Start="0000" End="0000"/>
+      </Activations>
+    </RestrictedArea>
+
+    <RestrictedArea Type="Restricted" Name="M504 WAIRARAPA COAST" AltitudeFloor="0" AltitudeCeiling="0" DAIWEnabled="true"
+                    LinePattern="None">
+      <Area>
+        -402549.900+1780211.000/
+        -410203.900+1771850.100/
+        -404244.500+1765027.500/
+        -400617.700+1773351.500/
+        -402549.900+1780211.000
+      </Area>
+      <Activations>
+        <Activation H24="false" />
       </Activations>
     </RestrictedArea>
 

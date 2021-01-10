@@ -65,6 +65,8 @@ No recorded changes.
 
 * Addition of `<Localhost>` entry in `Profile.xml`, allowing the usage of vatSys as a FR24 viewer. Thanks to Tom and Cam.
 
+* Addition of the following Military Operating Areas (MOAs) - M106, M204, M205, M206, M207, M208, M304, M305 and M504. Thanks to Tom.
+
 #### Usability Changes
 
 * Change to `README.md` to link to [CONTRIBUTING.md](CONTRIBUTING.md). Thanks to Tom.
