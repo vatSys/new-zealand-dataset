@@ -413,7 +413,30 @@
         <Point Name="D2">-39.004164+174.179730</Point>
         
         <Point Name="GA">-39.009764+174.181026</Point>
+        <Point Name="APRON">-39.009311+174.178721</Point>
+        <Point Name="TAAT">-39.010328+174.176359</Point>
+        <Point Name="HNZ">-39.011068+174.174.021</Point>
       <!-- NZNP END -->
+
+      <!-- NZNR -->
+        <Point Name="34">-39.478354+176.866253</Point>
+        <Point Name="16">-39.461545+176.868051</Point>
+        <Point Name="25">-39.464334+176.872059</Point>
+        <Point Name="GR/07">-39.464586+176.857029</Point>
+        <Point Name="GR/16">-39.467280+176.868971</Point>
+        <Point Name="GR/34">-39.473428+176.868273</Point>
+
+        <Point Name="A">-39.465477+176.871283</Point>
+        <Point Name="A1">-39.465029+176.871266</Point>
+        <Point Name="B">-39.466740+176.870205</Point>
+        <Point Name="B1">-39.466643+176.868696</Point>
+        <Point Name="B2">-39.466711+176.869776</Point>
+        <Point Name="C1">-39.473707+176.868809</Point>
+        <Point Name="C2">-39.473756+176.867891</Point>
+        <Point Name="D1">-39.464366+176.870029</Point>
+        <Point Name="E1">-39.464383+176.868942</Point>
+        <Point Name="F1">-39.464414+176.866755</Point>
+      <!-- NZNR END -->
 
         <Point Name=""></Point>
     </Label>
