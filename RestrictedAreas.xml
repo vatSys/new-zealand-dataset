@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RestrictedAreas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Areas>
+
+  <!-- RESTRICTED AIRSPACE -->
     <RestrictedArea Type="Restricted" Name="R100 MARSDEN POINT" AltitudeFloor="0" AltitudeCeiling="3500"
                     DAIWEnabled="true" LinePattern="Dotted">
       <Area>
@@ -718,6 +720,9 @@
         <Activation H24="true" Start="0000" End="0000"/>
       </Activations>
     </RestrictedArea>
+  <!-- END RESTRICTED AIRSPACE -->
+
+  <!-- MILITARY OPERATING AREAS -->
     <RestrictedArea Type="Restricted" Name="M107 WHENUAPAI" AltitudeFloor="0" AltitudeCeiling="2500" DAIWEnabled="true"
                     LinePattern="Solid">
       <Area>
@@ -957,6 +962,27 @@
         <Activation H24="false" Start="1800" End="0800"/>
       </Activations>
     </RestrictedArea>
+
+    <RestrictedArea Type="Restricted" Name="M303 DESERT" AltitudeFloor="13000" AltitudeCeiling="13500" DAIWEnabled="false" LinePattern="Solid">
+      <Area>
+        -391743.699+1754353.699/
+        -391838.700+1754352.997/  
+        -392313.697+1754140.697/
+        -392313.697+1754115.698/
+        -392153.701+1754050.700/
+        -392153.698+1753955.699/
+        -392153.698+1753840.697/
+        -391858.698+1753715.701/
+        -391733.698+1753850.701/
+        -391748.700+1754015.701/
+        -391719.702+1754216.700/
+        -391743.699+1754353.699
+      </Area>
+      <Activations>
+        <Activation H24="false" />
+      </Activations>
+    </RestrictedArea>
+
     <RestrictedArea Type="Restricted" Name="M306 RAUMAI" AltitudeFloor="0" AltitudeCeiling="7000" DAIWEnabled="true"
                     LinePattern="Solid">
       <Area>
@@ -1364,6 +1390,9 @@
         <Activation H24="true" Start="0000" End="0000"/>
       </Activations>
     </RestrictedArea>
+  <!-- END MILITARY OPERATING AREAS -->
+
+  <!-- DANGER AREAS -->
     <RestrictedArea Type="Danger" Name="D130 WHANGAPARAOA HEAD" AltitudeFloor="0" AltitudeCeiling="1200"
                     DAIWEnabled="false" LinePattern="Broken">
       <Area>
@@ -1378,5 +1407,6 @@
         <Activation H24="true" Start="0000" End="0000"/>
       </Activations>
     </RestrictedArea>
+  <!-- END DANGER AREAS -->
   </Areas>
 </RestrictedAreas>
