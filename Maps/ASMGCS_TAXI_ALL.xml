@@ -355,6 +355,30 @@
         <Point Name="MAINLAND">-45.922836+170.202848</Point>
       <!-- NZDN END -->
 
+      <!-- NZGS -->
+        <Point Name="32">-38.670034+177.979201</Point>
+        <Point Name="14">-38.657932+177.974830</Point>
+        <Point Name="GR/03">-38.666236+177.971654</Point>
+        <Point Name="GR/21">-38.658889+177.982086</Point>
+        <Point Name="GR/09">-38.659524+177.969807</Point>
+        <Point Name="GR/27">-38.664089+177.982712</Point>
+        <Point Name="GR/14">-38.658091+177.978373</Point>
+        <Point Name="GR/32">-38.665355+177.981043</Point>
+        
+        <Point Name="A1">-38.3663439+177.982487</Point>
+        <Point Name="B1">-38.663524+177.979177</Point>
+        <Point Name="B2">-38.663805+177.977851</Point>
+        <Point Name="B3">-38.663044+177.981326</Point>
+        <Point Name="C1">-38.661191+177.980400</Point>
+        <Point Name="D1">-38.659909+177.981886</Point>
+        <Point Name="E1">-38.658807+177.976531</Point>
+        <Point Name="E2">-38.658542+177.977833</Point>
+        <Point Name="F1">-38.660718+177.973335</Point>
+        <Point Name="G1">-38.664132+177.974643</Point>
+        
+        <Point Name="TERM">-38.662114+177.982426</Point>
+      <!-- NZGS END -->
+
         <Point Name=""></Point>
     </Label>
   </Map>
