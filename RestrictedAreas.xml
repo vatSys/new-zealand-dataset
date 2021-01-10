@@ -1029,7 +1029,7 @@
     </RestrictedArea>
 
     <RestrictedArea Type="Restricted" Name="M302 TARANAKI BIGHT" AltitudeFloor="0" AltitudeCeiling="9000"
-                    DAIWEnabled="true" LinePattern="Solid">
+                    DAIWEnabled="true" LinePattern="None">
       <Area>
         -400547.700+1750146.200/
         -400614.023+1750132.698/
@@ -1190,7 +1190,7 @@
     </RestrictedArea>
 
     <RestrictedArea Type="Restricted" Name="M306 RAUMAI" AltitudeFloor="0" AltitudeCeiling="7000" DAIWEnabled="true"
-                    LinePattern="Solid">
+                    LinePattern="None">
       <Area>
         -400815.823+1751329.400/
         -400816.711+1751356.301/
@@ -1268,7 +1268,7 @@
         -400815.823+1751329.400
       </Area>
       <Activations>
-        <Activation H24="true" Start="0000" End="0000"/>
+        <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
 
@@ -1320,7 +1320,7 @@
     </RestrictedArea>
 
     <RestrictedArea Type="Restricted" Name="M311 BULLS" AltitudeFloor="1500" AltitudeCeiling="2500" DAIWEnabled="true"
-                    LinePattern="Solid">
+                    LinePattern="None">
       <Area>
         -400834.423+1752331.100/
         -400835.311+1752358.003/
@@ -1403,7 +1403,7 @@
     </RestrictedArea>
 
     <RestrictedArea Type="Restricted" Name="M312 MANAWATU COAST" AltitudeFloor="1500" AltitudeCeiling="7000"
-                    DAIWEnabled="true" LinePattern="Solid">
+                    DAIWEnabled="true" LinePattern="None">
       <Area>
         -400131.200+1752200.300/
         -400505.400+1752229.600/
