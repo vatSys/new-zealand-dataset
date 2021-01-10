@@ -59,7 +59,7 @@ No recorded changes.
 
 * NZQN - ASMGCS Files reworked. Thanks to Cam and Tom.
 
-* The following ASMGCS Taxiway, Runway and Apron labels have been added - NZAA, NZWN, NZCH, NZWN, NZHN, NZOH, NZPM, NZWB and NZWP. Thanks to Cam, Alek and Tom.
+* The following ASMGCS Taxiway, Runway and Apron labels have been added - NZAA, NZWN, NZCH, NZWN, NZHN, NZOH, NZPM, NZWB, NZAR and NZWP. Thanks to Cam, Alek and Tom.
 
 #### Other Changes
 
