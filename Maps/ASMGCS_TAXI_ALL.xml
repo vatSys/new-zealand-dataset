@@ -379,6 +379,22 @@
         <Point Name="TERM">-38.662114+177.982426</Point>
       <!-- NZGS END -->
 
+      <!-- NZNE -->
+        <Point Name="21">-36.653845+174.658835</Point>
+        <Point Name="03">-36.658910+174.652050</Point>
+        <Point Name="09">-36.655677+174.653296</Point>
+        <Point Name="27">-36.657073+174.659718</Point>
+
+        <Point Name="A1">-36.657310+174.653414</Point>
+        <Point Name="A2">-36.658263+174.652395</Point>
+        <Point Name="A3">-36.659064+174.652354</Point>
+        <Point Name="B1">-36.656326+174.654074</Point>
+        <Point Name="B2">-36.655603+174.654976</Point>
+        <Point Name="C1">-36.654369+174.657069</Point>
+        <Point Name="C2">-36.653971+174.657867</Point>
+        <Point Name="C3">-36.654062+174.659359</Point>
+      <!-- NZNE END -->
+
         <Point Name=""></Point>
     </Label>
   </Map>
