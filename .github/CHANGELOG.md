@@ -59,11 +59,13 @@ No recorded changes.
 
 * NZQN - ASMGCS Files reworked. Thanks to Cam and Tom.
 
-* The following ASMGCS Taxiway, Runway and Apron labels have been added - NZAA, NZWN, NZCH, NZWN, NZHN, NZOH, NZPM, NZWB, NZAR and NZWP. Thanks to Cam, Alek and Tom.
+* The following ASMGCS Taxiway, Runway and Apron labels have been added - AA, AR, CH, DN, GS, HN, NE, NP, NR, NS, NV, OH, PM, QN, WB, WN and WP. Thanks to Cam, Alek and Tom.
 
 #### Other Changes
 
 * Addition of `<Localhost>` entry in `Profile.xml`, allowing the usage of vatSys as a FR24 viewer. Thanks to Tom and Cam.
+
+* Addition of the following Military Operating Areas (MOAs) - M106, M204, M205, M206, M207, M208, M304, M305 and M504. Thanks to Tom.
 
 #### Usability Changes
 
