@@ -1068,7 +1068,7 @@
         <Activation H24="true" Start="0000" End="0000"/>
       </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="M310 LINTON CAMP" AltitudeFloor="0" AltitudeCeiling="1500"
+    <RestrictedArea Type="Restricted" Name="M310 LINTON CAMP" AltitudeFloor="0" AltitudeCeiling="1200"
                     DAIWEnabled="true" LinePattern="Solid">
       <Area>
         -402331.800+1753522.700/
