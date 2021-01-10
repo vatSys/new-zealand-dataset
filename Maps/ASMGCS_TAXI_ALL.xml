@@ -466,6 +466,24 @@
 
       <!-- NZNS END-->
 
+      <!-- NZNV -->
+        <Point Name="22">-46.410096+168.327914</Point>
+        <Point Name="04">-46.419463+168.299056</Point>
+        <Point Name="GR/22">-46.413134+168.323274</Point>
+        <Point Name="GR/04">-46.415701+168.315307</Point>
+        <Point Name="GR/12">-46.412838+168.315130</Point>
+        <Point Name="GR/30">-46.417550+168.320703</Point>
+        
+        <Point Name="A1">-46.414357+168.320858</Point>
+        <Point Name="A2">-46.413558+168.320320</Point>
+        <Point Name="GR/B">-46.413485+168.323617</Point>
+        <Point Name="GR/D">-46.415404+168.313875</Point>
+        <Point Name="GR/E2">-46.415608+168.319035</Point>
+        <Point Name="GR/E1">-46.417350+168.321278</Point>
+        <Point Name=""></Point>
+
+      <!-- NZNV END -->
+
         <Point Name=""></Point>
     </Label>
   </Map>
