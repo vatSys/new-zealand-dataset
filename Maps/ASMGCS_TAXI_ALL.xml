@@ -338,6 +338,23 @@
         <Point Name="S.E. APR">-37.031540+174.978019</Point>
       <!-- NZAR END -->
 
+      <!-- NZDN -->
+        <Point Name="21">-45.923861+170.208671</Point>
+        <Point Name="03">-45.934259+170.186664</Point>
+        
+        <Point Name="A1">-45.925950+170.200802</Point>
+        <Point Name="A2">-45.925341+170.200197</Point>
+        <Point Name="B">-45.925210+170.201263</Point>
+        <Point Name="B1">-45.925513+170.201016</Point>
+        <Point Name="B2">-45.924934+170.201057</Point>
+        <Point Name="C">-45.924857+170.200411</Point>
+        <Point Name="C1">-45.924166+170.201851</Point>
+        <Point Name="C2">-45.923690+170.202842</Point>
+
+        <Point Name="TERM">-45.924039+170.199554</Point>
+        <Point Name="MAINLAND">-45.922836+170.202848</Point>
+      <!-- NZDN END -->
+
         <Point Name=""></Point>
     </Label>
   </Map>
