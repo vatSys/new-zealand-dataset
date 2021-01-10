@@ -1664,6 +1664,462 @@
         <Activation H24="true" Start="0000" End="0000"/>
       </Activations>
     </RestrictedArea>
+
+    <RestrictedArea Type="Danger" Name="D121 ONETAUNGA BAY" AltitudeFloor="0" AltitudeCeiling="1500" DAIWEnabled="true"
+                    LinePattern="Dotted">
+      <Area>
+        -36.818278+174.697222/
+        -36.818346+174.698198/
+        -36.818549+174.699145/
+        -36.818881+174.700033/
+        -36.819331+174.700836/
+        -36.819885+174.701528/
+        -36.820528+174.702090/
+        -36.821239+174.702505/
+        -36.821996+174.702758/
+        -36.822778+174.702844/
+        -36.823559+174.702758/
+        -36.824317+174.702505/
+        -36.825028+174.702091/
+        -36.825670+174.701529/
+        -36.826225+174.700836/
+        -36.826675+174.700033/
+        -36.827006+174.699145/
+        -36.827209+174.698198/
+        -36.827278+174.697222/
+        -36.827209+174.696246/
+        -36.827006+174.695299/
+        -36.826675+174.694411/
+        -36.826225+174.693609/
+        -36.825670+174.692916/
+        -36.825028+174.692354/
+        -36.824317+174.691940/
+        -36.823559+174.691686/
+        -36.822778+174.691601/
+        -36.821996+174.691686/
+        -36.821239+174.691940/
+        -36.820528+174.692354/
+        -36.819885+174.692916/
+        -36.819331+174.693609/
+        -36.818881+174.694412/
+        -36.818549+174.695300/
+        -36.818346+174.696246/
+        -36.818278+174.697222
+      </Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000"/>
+      </Activations>
+    </RestrictedArea>
+
+    <RestrictedArea Type="Danger" Name="D121 TIRITIRI MATANGI" AltitudeFloor="0" AltitudeCeiling="1000" DAIWEnabled="true"
+                    LinePattern="Dotted">
+      <Area>
+        -35.287722+173.964444/
+        -35.287791+173.965402/
+        -35.287994+173.966330/
+        -35.288325+173.967201/
+        -35.288775+173.967988/
+        -35.289330+173.968668/
+        -35.289972+173.969219/
+        -35.290683+173.969625/
+        -35.291441+173.969874/
+        -35.292222+173.969958/
+        -35.293004+173.969874/
+        -35.293761+173.969625/
+        -35.294472+173.969219/
+        -35.295115+173.968668/
+        -35.295669+173.967988/
+        -35.296119+173.967201/
+        -35.296451+173.966330/
+        -35.296654+173.965402/
+        -35.296722+173.964444/
+        -35.296654+173.963487/
+        -35.296451+173.962559/
+        -35.296119+173.961688/
+        -35.295669+173.960900/
+        -35.295115+173.960221/
+        -35.294472+173.959670/
+        -35.293761+173.959264/
+        -35.293004+173.959015/
+        -35.292222+173.958931/
+        -35.291441+173.959015/
+        -35.290683+173.959264/
+        -35.289972+173.959670/
+        -35.289330+173.960221/
+        -35.288775+173.960901/
+        -35.288325+173.961688/
+        -35.287994+173.962559/
+        -35.287791+173.963487/
+        -35.287722+173.964444        
+      </Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000"/>
+      </Activations>
+    </RestrictedArea>
+
+    <RestrictedArea Type="Danger" Name="D235 DRURY AIRFIELD (GLIDING)" AltitudeFloor="0" AltitudeCeiling="2500" DAIWEnabled="true"
+                    LinePattern="Dotted">
+      <Area>
+        -37.091944+174.975500/
+        -37.092013+174.976480/
+        -37.092216+174.977429/
+        -37.092547+174.978321/
+        -37.092997+174.979126/
+        -37.093552+174.979822/
+        -37.094194+174.980386/
+        -37.094905+174.980801/
+        -37.095663+174.981056/
+        -37.096444+174.981142/
+        -37.097226+174.981056/
+        -37.097983+174.980802/
+        -37.098694+174.980386/
+        -37.099337+174.979822/
+        -37.099892+174.979127/
+        -37.100342+174.978321/
+        -37.100673+174.977430/
+        -37.100876+174.976480/
+        -37.100944+174.975500/
+        -37.100876+174.974520/
+        -37.100673+174.973570/
+        -37.100342+174.972679/
+        -37.099892+174.971873/
+        -37.099337+174.971178/
+        -37.098694+174.970614/
+        -37.097983+174.970198/
+        -37.097226+174.969944/
+        -37.096444+174.969858/
+        -37.095663+174.969944/
+        -37.094905+174.970199/
+        -37.094194+174.970614/
+        -37.093552+174.971178/
+        -37.092997+174.971874/
+        -37.092547+174.972679/
+        -37.092216+174.973571/
+        -37.092013+174.974520/
+        -37.091944+174.975500   
+      </Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000"/>
+      </Activations>
+    </RestrictedArea>
+
+    <RestrictedArea Type="Danger" Name="D323 TARERE FOREST" AltitudeFloor="0" AltitudeCeiling="2600" DAIWEnabled="true"
+                    LinePattern="Dotted">
+      <Area>
+        -39.545472+174.568500/
+        -39.617694+174.525722/
+        -39.594917+174.442944/
+        -39.582972+174.449889/
+        -39.532694+174.469056/
+        -39.529083+174.501000/
+        -39.545472+174.568500
+      </Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000"/>
+      </Activations>
+    </RestrictedArea>
+
+    <RestrictedArea Type="Danger" Name="D522 MANGAHAO" AltitudeFloor="0" AltitudeCeiling="2500" DAIWEnabled="true"
+                    LinePattern="Dotted">
+      <Area>
+        -40.445750+175.813556/
+        -40.491111+175.764444/
+        -40.486167+175.728250/
+        -40.466750+175.683111/
+        -40.444667+175.691806/
+        -40.436139+175.705861/
+        -40.429000+175.788222/
+        -40.445750+175.813556
+      </Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000"/>
+      </Activations>
+    </RestrictedArea>
+
+    <RestrictedArea Type="Danger" Name="D621 TRENTHAM" AltitudeFloor="0" AltitudeCeiling="1500" DAIWEnabled="true"
+                    LinePattern="Dotted">
+      <Area>
+        -41.143472+175.045775/
+        -41.150781+175.052808/
+        -41.164044+175.040128/
+        -41.159378+175.038117/
+        -41.155400+175.038964/
+        -41.147636+175.036767/
+        -41.146608+175.036117/
+        -41.146131+175.036789/
+        -41.146456+175.038894/
+        -41.143472+175.045775
+      </Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000"/>
+      </Activations>
+    </RestrictedArea>
+
+    <RestrictedArea Type="Danger" Name="D626 BIG BUSH" AltitudeFloor="0" AltitudeCeiling="5500" DAIWEnabled="true"
+                    LinePattern="Dotted">
+      <Area>
+        -41.672278+172.876194/
+        -41.785306+172.893806/
+        -41.723861+172.776750/
+        -41.733750+172.711833/
+        -41.685111+172.767583/
+        -41.674694+172.793500/
+        -41.672278+172.876194
+      </Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000"/>
+      </Activations>
+    </RestrictedArea>
+
+    <RestrictedArea Type="Danger" Name="D711 WAI-ITI CREEK" AltitudeFloor="0" AltitudeCeiling="3000" DAIWEnabled="true"
+                    LinePattern="Dotted">
+      <Area>
+        -42.395583+171.823972/
+        -42.438944+171.792444/
+        -42.397361+171.689667/
+        -42.354750+171.722167/
+        -42.395583+171.823972
+      </Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000"/>
+      </Activations>
+    </RestrictedArea>
+
+    <RestrictedArea Type="Danger" Name="D718 TOTARA FLAT" AltitudeFloor="0" AltitudeCeiling="6000" DAIWEnabled="true"
+                    LinePattern="Dotted">
+      <Area>
+        -42.300917+171.673778/
+        -42.347500+171.681167/
+        -42.371139+171.640917/
+        -42.359056+171.588500/
+        -42.314250+171.590000/
+        -42.300917+171.673778
+      </Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000"/>
+      </Activations>
+    </RestrictedArea>
+
+    <RestrictedArea Type="Danger" Name="D719 MACKLEY" AltitudeFloor="0" AltitudeCeiling="5000" DAIWEnabled="true"
+                    LinePattern="Dotted">
+      <Area>
+        -41.745194+171.987611/
+        -41.834556+171.969667/
+        -41.821333+171.873556/
+        -41.787444+171.865250/
+        -41.752917+171.926222/
+        -41.745194+171.987611
+      </Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000"/>
+      </Activations>
+    </RestrictedArea>
+
+    <RestrictedArea Type="Danger" Name="D721 PAPAROA FOREST" AltitudeFloor="0" AltitudeCeiling="3500" DAIWEnabled="true"
+                    LinePattern="Dotted">
+      <Area>
+        -42.203583+171.556333/
+        -42.221667+171.554639/
+        -42.317556+171.538861/
+        -42.346000+171.435194/
+        -42.288000+171.402778/
+        -42.239917+171.438389/
+        -42.196611+171.464000/
+        -42.203583+171.556333
+      </Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000"/>
+      </Activations>
+    </RestrictedArea>
+
+    <RestrictedArea Type="Danger" Name="D726 EYRE FOREST" AltitudeFloor="0" AltitudeCeiling="4500" DAIWEnabled="true"
+                    LinePattern="Dotted">
+      <Area>
+        -45.504000+168.298333/
+        -45.504547+168.307253/
+        -45.506170+168.315902/
+        -45.508820+168.324018/
+        -45.512418+168.331355/
+        -45.516853+168.337691/
+        -45.521991+168.342831/
+        -45.527677+168.346621/
+        -45.533737+168.348945/
+        -45.539988+168.349732/
+        -45.546240+168.348956/
+        -45.552303+168.346643/
+        -45.557991+168.342860/
+        -45.563134+168.337723/
+        -45.567573+168.331388/
+        -45.571174+168.324047/
+        -45.573828+168.315923/
+        -45.575453+168.307264/
+        -45.576000+168.298333/
+        -45.575453+168.289402/
+        -45.573828+168.280743/
+        -45.571174+168.272620/
+        -45.567573+168.265279/
+        -45.563134+168.258944/
+        -45.557991+168.253807/
+        -45.552303+168.250024/
+        -45.546240+168.247710/
+        -45.539988+168.246935/
+        -45.533737+168.247721/
+        -45.527677+168.250045/
+        -45.521991+168.253835/
+        -45.516853+168.258976/
+        -45.512418+168.265311/
+        -45.508820+168.272648/
+        -45.506170+168.280765/
+        -45.504547+168.289414/
+        -45.504000+168.298333
+      </Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000"/>
+      </Activations>
+    </RestrictedArea>
+
+    <RestrictedArea Type="Danger" Name="D727 KAWHAKA" AltitudeFloor="0" AltitudeCeiling="6500" DAIWEnabled="true"
+                    LinePattern="Dotted">
+      <Area>
+        -42.762444+171.287750/
+        -42.772944+171.310750/
+        -42.803333+171.345861/
+        -42.848306+171.314750/
+        -42.831667+171.270972/
+        -42.812500+171.243806/
+        -42.786028+171.216611/
+        -42.760250+171.240889/
+        -42.762444+171.287750
+      </Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000"/>
+      </Activations>
+    </RestrictedArea>
+
+    <RestrictedArea Type="Danger" Name="D820 MARUIA" AltitudeFloor="0" AltitudeCeiling="6500" DAIWEnabled="true"
+                    LinePattern="Dotted">
+      <Area>
+        -42.149139+172.334306/
+        -42.192472+172.342361/
+        -42.244972+172.334861/
+        -42.260250+172.220417/
+        -42.133306+172.238194/
+        -42.149139+172.334306
+      </Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000"/>
+      </Activations>
+    </RestrictedArea>
+
+    <RestrictedArea Type="Danger" Name="D821 MATAKITAKI" AltitudeFloor="0" AltitudeCeiling="4500" DAIWEnabled="true"
+                    LinePattern="Dotted">
+      <Area>
+        -41.964972+172.516806/
+        -42.002472+172.508472/
+        -41.998306+172.436806/
+        -41.979139+172.421806/
+        -41.957472+172.438472/
+        -41.955806+172.460139/
+        -41.964972+172.516806
+      </Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000"/>
+      </Activations>
+    </RestrictedArea>
+
+    <RestrictedArea Type="Danger" Name="D822 RETREAT CREEK" AltitudeFloor="0" AltitudeCeiling="5000" DAIWEnabled="true"
+                    LinePattern="Dotted">
+      <Area>
+        -42.941306+172.401056/
+        -42.987167+172.379500/
+        -42.988333+172.276444/
+        -42.938083+172.272583/
+        -42.941306+172.401056
+      </Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000"/>
+      </Activations>
+    </RestrictedArea>
+
+    <RestrictedArea Type="Danger" Name="D823 AHAURA RIVER" AltitudeFloor="0" AltitudeCeiling="3500" DAIWEnabled="true"
+                    LinePattern="Dotted">
+      <Area>
+        -42.512361+172.023056/
+        -42.589389+172.066361/
+        -42.604167+171.960583/
+        -42.590778+171.886833/
+        -42.563111+171.882639/
+        -42.497361+171.949444/
+        -42.512361+172.023056
+      </Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000"/>
+      </Activations>
+    </RestrictedArea>
+
+    <RestrictedArea Type="Danger" Name="D827 WEST MELTON" AltitudeFloor="0" AltitudeCeiling="1350" DAIWEnabled="true"
+                    LinePattern="Dotted">
+      <Area>
+        -43.466667+172.369778/
+        -43.489667+172.365111/
+        -43.491278+172.364111/
+        -43.489833+172.354611/
+        -43.486667+172.355444/
+        -43.485167+172.350111/
+        -43.482333+172.345778/
+        -43.466833+172.343278/
+        -43.466667+172.369778
+      </Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000"/>
+      </Activations>
+    </RestrictedArea>
+
+    <RestrictedArea Type="Danger" Name="D921 MIDDLEMARCH" AltitudeFloor="0" AltitudeCeiling="8700" DAIWEnabled="true"
+                    LinePattern="Dotted">
+      <Area>
+        -45.510833+169.926000/
+        -45.533139+169.938972/
+        -45.619167+169.928306/
+        -45.638472+169.804056/
+        -45.566889+169.770556/
+        -45.529278+169.821139/
+        -45.510833+169.926000
+      </Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000"/>
+      </Activations>
+    </RestrictedArea>
+
+    <RestrictedArea Type="Danger" Name="D925 WAITATI" AltitudeFloor="0" AltitudeCeiling="2000" DAIWEnabled="true"
+                    LinePattern="Dotted">
+      <Area>
+        -45.762833+170.541750/
+        -45.771167+170.536750/
+        -45.766444+170.518417/
+        -45.758111+170.523417/
+        -45.762833+170.541750
+      </Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000"/>
+      </Activations>
+    </RestrictedArea>
+
+    <RestrictedArea Type="Danger" Name="D926 PUKAKI" AltitudeFloor="0" AltitudeCeiling="12500" DAIWEnabled="true"
+                    LinePattern="Dotted">
+      <Area>
+        -43.903750+170.378472/
+        -43.921556+170.330500/
+        -43.948139+170.252194/
+        -43.904639+170.232806/
+        -43.881472+170.332194/
+        -43.903750+170.378472
+      </Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000"/>
+      </Activations>
+    </RestrictedArea>
+    
   <!-- END DANGER AREAS -->
   </Areas>
 </RestrictedAreas>
