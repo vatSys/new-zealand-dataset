@@ -395,6 +395,26 @@
         <Point Name="C3">-36.654062+174.659359</Point>
       <!-- NZNE END -->
 
+      <!-- NZNP -->
+        <Point Name="05">-39.010698+174.169177</Point>
+        <Point Name="23">-39.005452+174.184478</Point>
+        <Point Name="GR/05">-39.011153+174.169770</Point>
+        <Point Name="GR/23">-39.007460+174.180415</Point>
+        <Point Name="GR/14">-39.000575+174.178719</Point>
+        <Point Name="GR/32">-39.010133+174.184104</Point>
+        
+        <Point Name="A1">-39.008805+174.178461</Point>
+        <Point Name="B1">-39.010265+174.173595</Point>
+        <Point Name="B2">-39.009918+174.175769</Point>
+        <Point Name="C1">-39.007671+174.181184</Point>
+        <Point Name="C2">-39.008320+174.182230</Point>
+        <Point Name="C3">-39.010724+174.183393</Point>
+        <Point Name="D1">-39.006084+174.180459</Point>
+        <Point Name="D2">-39.004164+174.179730</Point>
+        
+        <Point Name="GA">-39.009764+174.181026</Point>
+      <!-- NZNP END -->
+
         <Point Name=""></Point>
     </Label>
   </Map>
