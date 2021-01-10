@@ -1518,6 +1518,37 @@
       </Activations>
     </RestrictedArea>
 
+    <RestrictedArea Type="Restricted" Name="M507 East Coast" AltitudeFloor="9500" AltitudeCeiling="10000" DAIWEnabled="true"
+                    LinePattern="None">
+      <Area>
+        -39.960167+177.429194/
+        -40.096346+177.458242/
+        -40.234348+177.465404/
+        -40.372302+177.456786/
+        -40.509156+177.432357/
+        -40.643858+177.392210/
+        -40.775368+177.336559/
+        -40.902664+177.265746/
+        -41.024752+177.180237/
+        -41.140670+177.080626/
+        -41.249502+176.967625/
+        -41.350383+176.842067/
+        -41.442506+176.704899/
+        -41.443000+176.703389/
+        -41.292417+175.869556/
+        -41.216306+175.461361/
+        -40.973278+175.633500/
+        -40.694944+175.855167/
+        -40.625444+175.927972/
+        -40.274222+176.149056/
+        -40.095917+176.358806/
+        -39.960167+177.429194
+      </Area>
+      <Activations>
+        <Activation H24="false" />
+      </Activations>
+    </RestrictedArea>
+
     <RestrictedArea Type="Restricted" Name="M800 GLENTUNNEL" AltitudeFloor="0" AltitudeCeiling="3500" DAIWEnabled="true"
                     LinePattern="Solid">
       <Area>
