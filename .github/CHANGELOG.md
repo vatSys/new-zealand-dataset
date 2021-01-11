@@ -8,11 +8,16 @@
     - [Revision E](#revision-e)    
 - [AIRAC 2014](#airac-2014)        
     - [Revision A (Initial)](#revision-a-initial-1)    
-- [AIRAC 2101)](#airac-2101)        
+- [AIRAC 2101](#airac-2101)        
     - [Revision A (Initial)](#revision-a-initial-2)
+        - [ASMGCS Fixes](#asmgcs-fixes)
+        - [Airspace Additions](#airspace-additions)
+        - [Other Changes](#other-changes)
+        - [Usability Changes](#usability-changes)
+
 
 ## AIRAC 2013
-    
+
 ### Revision A (Initial)
 
 Initial release of the NZ vatSys profile. 
@@ -61,11 +66,15 @@ No recorded changes.
 
 * The following ASMGCS Taxiway, Runway and Apron labels have been added - AA, AR, CH, DN, GS, HN, NE, NP, NR, NS, NV, OH, PM, QN, WB, WN and WP. Thanks to Cam, Alek and Tom.
 
+#### Airspace Additions
+
+* Addition of the following Military Operating Areas (MOAs) - M106, M204, M205, M206, M207, M208, M304, M305, M504 and M507. Thanks to Tom.
+
+* Addition of the following permanent Danger Areas - 121, 125, 130, 235, 323, 522, 621, 626, 711, 718, 719, 721, 726, 727, 820, 821, 822, 823, 827, 921, 925 and 926. Thanks to Tom.
+
 #### Other Changes
 
 * Addition of `<Localhost>` entry in `Profile.xml`, allowing the usage of vatSys as a FR24 viewer. Thanks to Tom and Cam.
-
-* Addition of the following Military Operating Areas (MOAs) - M106, M204, M205, M206, M207, M208, M304, M305 and M504. Thanks to Tom.
 
 #### Usability Changes
 
