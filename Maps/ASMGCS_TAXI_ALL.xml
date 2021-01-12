@@ -506,6 +506,18 @@
         <Point Name="NTHN APR">-40.899080+174.985584</Point>
       <!-- NZPP END -->
 
+      <!-- NZRO -->
+        <Point Name="36">-38.116955+176.310567</Point>
+        <Point Name="18">-38.098824+176.321270</Point>
+        <Point Name="GR/36">-38.107642+176.316665</Point>
+        <Point Name="GR18">-38.102301+176.319855</Point>
+        
+        <Point Name="D">-38.110551+176.315351</Point>
+        <Point Name="C">-38.109247+176.316075</Point>
+
+        <Point Name="TERM">-38.109802+176.317140</Point>
+      <!-- NZRO END-->
+
         <Point Name=""></Point>
     </Label>
   </Map>
