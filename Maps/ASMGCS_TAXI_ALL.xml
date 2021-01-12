@@ -480,9 +480,31 @@
         <Point Name="GR/D">-46.415404+168.313875</Point>
         <Point Name="GR/E2">-46.415608+168.319035</Point>
         <Point Name="GR/E1">-46.417350+168.321278</Point>
-        <Point Name=""></Point>
-
       <!-- NZNV END -->
+
+      <!-- NZPP -->
+        <Point Name="34">-40.912063+174.987906</Point>
+        <Point Name="16">-40.898018+174.987906</Point>
+        <Point Name="GR/34">-40.906769+174.988988</Point>
+        <Point Name="GR/16">-40.902432+174.988988</Point>
+        
+        <Point Name="GR/A">-40.907619+174.986935</Point>
+        <Point Name="GR/A">-40.903273+174.986935</Point>
+        <Point Name="GR/A1">-40.910375+174.986990</Point>
+        <Point Name="GR/A2">-40.906896+174.987120</Point>
+        <Point Name="GR/A3">-40.904667+174.987120</Point>
+        <Point Name="B">-40.901247+174.987054</Point>
+        <Point Name="C">-40.899855+174.986681</Point>
+        <Point Name="D">-40.900520+174.986212</Point>
+        <Point Name="GR/E">-40.899215+174.986977</Point>
+        <Point Name="F">-40.901360+174.988776</Point>
+        <Point Name="GR/G">-40.904012+174.989458</Point>
+        <Point Name="H">-40.905592+174.990114</Point>
+
+
+        <Point Name="TERM">-40.901049+174.984720</Point>
+        <Point Name="NTHN APR">-40.899080+174.985584</Point>
+      <!-- NZPP END -->
 
         <Point Name=""></Point>
     </Label>
