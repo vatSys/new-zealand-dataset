@@ -555,6 +555,29 @@
 
       <!-- NZTG ENG -->
 
+      <!-- NZAP -->
+        <Point Name="35">-38.747322+176.082664</Point>
+        <Point Name="17">-38.734076+176.087184</Point>
+        <Point Name="GR/28">-38.744121+176.082147</Point>
+        <Point Name="GR/10">-38.741146+176.076335</Point>
+        
+        <Point Name="A">-38.737028+176.085362</Point>
+        <Point Name="A1">-38.734828+176.086149</Point>
+        <Point Name="B">-38.739786+176.084062</Point>
+        <Point Name="B1">-38.739838+176.084311</Point>
+        <Point Name="C">-38.740756+176.084090</Point>
+        <Point Name="D">-38.741570+176.083153</Point>
+        <Point Name="D1">-38.741671+176.083637</Point>
+        <Point Name="E">-38.742592+176.083293</Point>
+        <Point Name="E">-38.745080+176.082461</Point>
+        <Point Name="E1">-38.746396+176.082233</Point>
+        <Point Name="F">-38.743846+176.080653</Point>
+        <Point Name="F">-38.741924+176.076958</Point>
+        
+        <Point Name="APRON">-38.739441+176.083712</Point>
+
+      <!-- NZAP END -->
+
         <Point Name=""></Point>
     </Label>
   </Map>
