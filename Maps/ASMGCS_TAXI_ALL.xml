@@ -480,9 +480,105 @@
         <Point Name="GR/D">-46.415404+168.313875</Point>
         <Point Name="GR/E2">-46.415608+168.319035</Point>
         <Point Name="GR/E1">-46.417350+168.321278</Point>
-        <Point Name=""></Point>
-
       <!-- NZNV END -->
+
+      <!-- NZPP -->
+        <Point Name="34">-40.912063+174.987906</Point>
+        <Point Name="16">-40.898018+174.987906</Point>
+        <Point Name="GR/34">-40.906769+174.988988</Point>
+        <Point Name="GR/16">-40.902432+174.988988</Point>
+        
+        <Point Name="GR/A">-40.907619+174.986935</Point>
+        <Point Name="GR/A">-40.903273+174.986935</Point>
+        <Point Name="GR/A1">-40.910375+174.986990</Point>
+        <Point Name="GR/A2">-40.906896+174.987120</Point>
+        <Point Name="GR/A3">-40.904667+174.987120</Point>
+        <Point Name="B">-40.901247+174.987054</Point>
+        <Point Name="C">-40.899855+174.986681</Point>
+        <Point Name="D">-40.900520+174.986212</Point>
+        <Point Name="GR/E">-40.899215+174.986977</Point>
+        <Point Name="F">-40.901360+174.988776</Point>
+        <Point Name="GR/G">-40.904012+174.989458</Point>
+        <Point Name="H">-40.905592+174.990114</Point>
+
+
+        <Point Name="TERM">-40.901049+174.984720</Point>
+        <Point Name="NTHN APR">-40.899080+174.985584</Point>
+      <!-- NZPP END -->
+
+      <!-- NZRO -->
+        <Point Name="36">-38.116955+176.310567</Point>
+        <Point Name="18">-38.098824+176.321270</Point>
+        <Point Name="GR/36">-38.107642+176.316665</Point>
+        <Point Name="GR18">-38.102301+176.319855</Point>
+        
+        <Point Name="D">-38.110551+176.315351</Point>
+        <Point Name="C">-38.109247+176.316075</Point>
+
+        <Point Name="TERM">-38.109802+176.317140</Point>
+      <!-- NZRO END-->
+
+      <!-- NZTG -->
+        <Point Name="25">-37.673870+176.209887</Point>
+        <Point Name="07">-37.672742+176.187563</Point>
+
+        <Point Name="GR/25">-37.672530+176.203937</Point>
+        <Point Name="GR/07">-37.672108+176.195495</Point>
+        <Point Name="GR/G">-37.671783+176.195230</Point>
+        <Point Name="GR/F">-37.672246+176.203985</Point>
+
+        <Point Name="GR/34">-37.676864+176.194015</Point>
+        <Point Name="GR/16">-37.670577+176.194710</Point>
+
+        <Point Name="GR/22">-37.668774+176.193611</Point>
+        <Point Name="GR/04">-37.671351+176.187962</Point>
+        
+        <Point Name="A3">-37.671971+176.197637</Point>
+        <Point Name="A1">-37.672456+176.197598</Point>
+
+        
+        <Point Name="E">-37.671904+176.199240</Point>
+        <Point Name="E">-37.672116+176.203086</Point>
+        <Point Name="E1">-37.672868+176.205913</Point>
+        <Point Name="E2">-37.672234+176.205784</Point>
+        
+        <Point Name="W">-37.671741+176.196085</Point>
+        <Point Name="W">-37.671564+176.192599</Point>
+        <Point Name="W1">-37.672094+176.190663</Point>
+        <Point Name="W2">-37.671535+176.190713</Point>
+        <Point Name="W3">-37.671654+176.194189</Point>
+        <Point Name="W4">-37.671686+176.194895</Point>
+
+        <Point Name="X1">-37.673041+176.194012</Point>
+        <Point Name="X2">-37.673087+176.194972</Point>
+        
+        <Point Name="APRON">-37.671496+176.197190</Point>
+        <Point Name="AERO CLUB">-37.671507+176.202246</Point>
+
+      <!-- NZTG ENG -->
+
+      <!-- NZAP -->
+        <Point Name="35">-38.747322+176.082664</Point>
+        <Point Name="17">-38.734076+176.087184</Point>
+        <Point Name="GR/28">-38.744121+176.082147</Point>
+        <Point Name="GR/10">-38.741146+176.076335</Point>
+        
+        <Point Name="A">-38.737028+176.085362</Point>
+        <Point Name="A1">-38.734828+176.086149</Point>
+        <Point Name="B">-38.739786+176.084062</Point>
+        <Point Name="B1">-38.739838+176.084311</Point>
+        <Point Name="C">-38.740756+176.084090</Point>
+        <Point Name="D">-38.741570+176.083153</Point>
+        <Point Name="D1">-38.741671+176.083637</Point>
+        <Point Name="E">-38.742592+176.083293</Point>
+        <Point Name="E">-38.745080+176.082461</Point>
+        <Point Name="E1">-38.746396+176.082233</Point>
+        <Point Name="F">-38.743846+176.080653</Point>
+        <Point Name="F">-38.741924+176.076958</Point>
+        
+        <Point Name="APRON">-38.739441+176.083712</Point>
+
+      <!-- NZAP END -->
 
         <Point Name=""></Point>
     </Label>
