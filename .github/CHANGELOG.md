@@ -62,9 +62,9 @@ No recorded changes.
 
 * Separated Radar and Aerodrome Ground Views into categories within the Positions tab. Radar views are now categorised by ACU/Enroute and Aerodrome Ground Views are categorised by Class of Airspace (C/D/G). Thanks to Cam and Tom.
 
-* NZQN - ASMGCS Files reworked. Thanks to Cam and Tom.
+* Updating of NZQN ASMGCS views. Thanks to Cam and Tom.
 
-* The following ASMGCS Taxiway, Runway and Apron labels have been added - AA, AR, CH, DN, GS, HN, NE, NP, NR, NS, NV, OH, PM, QN, WB, WN and WP. Thanks to Cam, Alek and Tom.
+* The following ASMGCS Taxiway, Runway and Apron labels have been added - AA, AP, AR, CH, DN, GS, HN, NE, NP, NR, NS, NV, OH, PM, PP, QN, RO, TG, WB, WN and WP. Thanks to Cam, Alek and Tom.
 
 #### Airspace Additions
 
