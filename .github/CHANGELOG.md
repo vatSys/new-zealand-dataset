@@ -10,7 +10,7 @@
     - [Revision A (Initial)](#revision-a-initial-1)    
 - [AIRAC 2101](#airac-2101)        
     - [Revision A (Initial)](#revision-a-initial-2)
-        - [ASMGCS Fixes](#asmgcs-fixes)
+        - [ASMGCS](#asmgcs)
         - [Airspace Additions](#airspace-additions)
         - [Other Changes](#other-changes)
         - [Usability Changes](#usability-changes)
@@ -56,7 +56,7 @@ No recorded changes.
 
 ### Revision A (Initial)
 
-#### ASMGCS Fixes
+#### ASMGCS 
 
 * Addition of NZPP, NZNE and NZAR ASMGCS views. Added the associated `RADARS.xml` and `Positions.xml` entries. Thanks to Alek and Tom.
 
@@ -72,6 +72,8 @@ No recorded changes.
 
 * Addition of the following permanent Danger Areas - 121, 125, 130, 235, 323, 522, 621, 626, 711, 718, 719, 721, 726, 727, 820, 821, 822, 823, 827, 921, 925 and 926. Thanks to Tom.
 
+* Addition of STAR overlays for AA, AP, CH, DN, GS, HN, OH, PM, QN, WB, WN and WP. Thanks to Tom.
+
 #### Other Changes
 
 * Addition of `<Localhost>` entry in `Profile.xml`, allowing the usage of vatSys as a FR24 viewer. Thanks to Tom and Cam.
@@ -80,4 +82,4 @@ No recorded changes.
 
 * Change to `README.md` to link to [CONTRIBUTING.md](CONTRIBUTING.md). Thanks to Tom.
 
-* Updated Map file structure to for easier navigation. `_NZ/` folder deleted, with files moved to `Maps/`. ASMGCS files moved to individual folders, sorted by ICAO code.
+* Updated Map file structure to for easier navigation. `_NZ/` folder deleted, with files moved to `Maps/`. ASMGCS files moved to individual folders, sorted by ICAO code. Thanks to Tom.
