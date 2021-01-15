@@ -3,9 +3,9 @@
   <Colour id="Custom">
 		<Use>Custom colour to draw SID/STARs</Use>
 		<Name>DrawProc</Name>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
+		<R>150</R>
+		<G>150</G>
+		<B>150</B>
   </Colour>
   <Colour id="Custom">
 		<Use>Custom colour for Restricted/Military airspace</Use>

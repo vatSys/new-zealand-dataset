@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>  
+	<Map Type="System" Name="RWY 21 STARs" Priority="2" CustomColourName="DrawProc" Centre="-364716.001+1743749.001">
+		<Line>
+			LUNBI/
+			ARADI/
+			PEBLU/
+		</Line> 
+		<Line>
+			VELMO/
+			ARADI/
+			VASBO/
+			OMLEN
+		</Line>
+		<Line>
+			VASBO/
+			RUTLO/
+			BAYES
+		</Line>
+		<Line>
+			UPLAR/
+			BASIV/
+			SALAG
+		</Line>
+		<Line>
+			ELNOS/
+			BASIV/
+			DUGAN
+		</Line>
+		<Line>
+			BASIV/
+			RUTLO
+		</Line>
+		<Line>
+			AA/
+			GUTLA/
+			EMSAK/
+			BAYES/
+			LUPRU
+		</Line>
+		<Line>
+			BAYES/
+			EXOPI/
+			KALAG
+		</Line>
+		<Line>
+			AGREX/
+			EXOPI/
+			TARIB
+		</Line>
+		<Line>
+			SELKA/
+			EXOPI/
+			AKLOM
+		</Line>
+		<Line>
+			EXOPI/
+			OLBEX
+		</Line>
+  </Map>
+
+	  <Map Type="System" Name="RWY 03 STARs" Priority="2" CustomColourName="DrawProc" Centre="-364716.001+1743749.001">
+		<Line>
+			LUNBI/
+			ARADI/
+			PEBLU
+		</Line>
+		<Line>
+			VELMO/
+			ARADI/
+			WYTAK/
+			OMLEN
+		</Line>
+		<Line>
+			UPLAR/
+			BASIV/
+			SALAG
+		</Line>
+		<Line>
+			ELNOS/
+			BASIV/
+			DUGAN
+		</Line>   
+		<Line>
+			AA/
+			GUTLA/
+			OMKOL/
+			WYTAK/
+			VASBO/
+			RUTLO/
+			LUPRU
+		</Line>
+		<Line>
+			RUTLO/
+			EXOPI/
+			KALAG
+		</Line>
+		<Line>
+			AGREX/
+			EXOPI/
+			TARIB
+		</Line>
+		<Line>
+			SELKA/
+			EXOPI/
+			AKLOM
+		</Line>
+		<Line>
+			EXOPI/
+			OLBEX
+		</Line>
+		<Line>
+			BASIV/
+			WYTAK
+		</Line>                                      
+  </Map>
+</Maps>
+
+<!-- 
+		<Line>
+		
+		</Line>
+-->
+
+<!-- 
+  
+  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-401221.740+1752316.109">
+		<Line>
+		
+		</Line>      
+  </Map>
+
+
+-->
