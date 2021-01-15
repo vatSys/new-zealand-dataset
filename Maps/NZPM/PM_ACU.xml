@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>  
+	<Map Type="System" Name="RWY 25 STARs" Priority="2" CustomColourName="DrawProc" Centre="-401913.999+1753701.000">
+		<Line>
+			IDLUR/
+			TUTSI/
+			UPNUK/
+			LEKED
+		</Line>
+		<Line>
+			APITI/
+			TUTSI
+		</Line>
+		<Line>
+			VIROL/
+			KEVEL/
+			ANPUG/
+			RINRI/
+			MIBUS/
+		</Line>
+		<Line>
+			RINRI/
+			AVGUV/
+			UPRIX/
+			SAKBA
+		</Line>
+		<Line>
+			BINIT/
+			UPRIX
+		</Line>
+		<Line>
+			IDLUR/
+			IGPAX/
+			APITI
+		</Line>
+		<Line>
+			IGPAX/
+			OVRUN/
+			BIDEK
+		</Line>
+		<Line>
+			UVUSI/
+			IRMIX
+		</Line>
+		<Line>
+			MIBUS/
+			LUNBA/
+			OLMUX
+		</Line>
+		<Line>
+			SAKBA/
+			RINRI/
+			LUNBA
+		</Line>
+		<Line>
+			BINIT/
+			RINRI
+		</Line>
+		<Line>
+			LEKED/
+			GUTNI/
+			LUNBA/
+			RINRI/
+			SAKBA/
+			RINRI/
+			BINIT
+		</Line>
+		<Line>
+			MIBUS/
+			LUNBA
+		</Line>
+		<Line>
+			OKEVO/
+			NIKIP/
+			AVGUV
+		</Line>
+  </Map>
+
+  <Map Type="System" Name="RWY 07 STARs" Priority="2" CustomColourName="DrawProc" Centre="-401913.999+1753701.000">
+		<Line>
+			MIBUS/
+			GUTNI/
+			RINRI/
+			SAKBA/
+			RINRI/
+			BINIT
+		</Line>
+		<Line>
+			IDLUR/
+			BUVLI/
+			NIRUB/
+			BUVLI/
+			APITI
+		</Line>     
+		<Line>
+			VIROL/
+			KEVEL/
+			ANPUG/
+			RINRI/
+			AKNIN/
+			UDODI/
+			IRMIX
+		</Line>   
+		<Line>
+			IDLUR/
+			TUTSI/
+			APITI/
+			TUTSI/
+			LEKED/
+			OLMUX/
+			AKNIN/
+			REPIM/
+			OKEVO
+		</Line>  
+  </Map>
+</Maps>
+
+<!-- 
+		<Line>
+		
+		</Line>
+-->
+
+<!-- 
+  
+  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-401913.999+1753701.000">
+		<Line>
+		
+		</Line>      
+  </Map>
+
+
+-->
