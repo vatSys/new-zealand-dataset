@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>  
+	<Map Type="System" Name="RWY 07 STARs" Priority="2" CustomColourName="DrawProc" Centre="-374018.998+1761146.000"> 
+		<Line>
+			BIKOT/
+			BERPI/
+			RUSTA/
+			KIMAR/
+			APUNO/
+			URBUX
+		</Line>
+		<Line>
+			OLDON/
+			BATAT/
+			MORTA/
+			TODAN/
+			PIBOV
+		</Line>
+		<Line>
+			FALLS/
+			VIDOB/
+			MORTA/
+			OROPI/
+			MORTA/
+			GOBUK
+		</Line>
+  </Map>
+
+	<Map Type="System" Name="RWY 25 STARs" Priority="2" CustomColourName="DrawProc" Centre="-374018.998+1761146.000">
+		<Line>
+			BIKOT/
+			BERPI/
+			RUSTA/
+			KIMAR/
+			APUNO/
+			URBUX
+		</Line>
+		<Line>
+			RUSTA/
+			UBSET
+		</Line>
+		<Line>
+			OLDON/
+			LINPI/
+			TODAN/
+			PIBOV/
+			TODAN/
+			GOBUK
+		</Line>
+		<Line>
+			OROPI/
+			TODAN/
+			FALLS
+		</Line>
+  </Map>
+</Maps>
+
+<!-- 
+		<Line>
+		
+		</Line>
+-->
+
+<!-- 
+  
+  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-374018.998+1761146.000">
+		<Line>
+		
+		</Line>      
+  </Map>
+
+
+-->
