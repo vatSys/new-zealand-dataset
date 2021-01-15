@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>  
+	<Map Type="System" Name="RWY 27 STARs" Priority="2" CustomColourName="DrawProc" Centre="-401221.740+1752316.109">
+		<Line>
+			IDLUR/
+			MOSDO/
+			ENDIX/
+		</Line>
+		<Line>
+			BINIT/
+			UPRIX/
+			AVGUV/
+			TERIL/
+			LUXUL
+		</Line>       
+  </Map>  
+
+	<Map Type="System" Name="RWY 09 STARs" Priority="2" CustomColourName="DrawProc" Centre="-401221.740+1752316.109">
+		<Line>
+			IDLUR/
+			BOBIT/
+		</Line> 
+		<Line>
+			BINIT/
+			DOTGO
+		</Line>    
+  </Map>
+</Maps>
+
+<!-- 
+		<Line>
+		
+		</Line>
+-->
+
+<!-- 
+  
+  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-401221.740+1752316.109">
+		<Line>
+		
+		</Line>      
+  </Map>
+
+
+-->

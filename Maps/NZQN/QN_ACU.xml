@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>  
+	<Map Type="System" Name="RWY 05 STARs" Priority="2" CustomColourName="DrawProc" Centre="-450124.250+1684456.277">
+		<Line>
+			ELRUV/
+      EKVOX/
+      KASLU/
+      MABGA/
+      GOSPA/
+      AVGER/
+      IBABU
+		</Line>
+		<Line>
+			GOSPA/
+			ENKUV/
+			SUNGU
+		</Line>
+		<Line>
+			LIBLA/
+			AKBOB/
+			DULIG/
+			UBDAM/
+			IGNET/
+			BEVKO/
+			ADKOS
+		</Line>
+		<Line>
+			DOVOT/
+			POPON/
+			UBDAM/
+			LADIP/
+			AVGER
+		</Line>
+  </Map>
+
+  <Map Type="System" Name="RWY 23 STARs" Priority="2" CustomColourName="DrawProc" Centre="-450124.250+1684456.277">
+		<Line>
+			ELRUV/
+			PAMPU/
+			EKVOX/
+			ATKIL
+		</Line>   
+		<Line>
+			SUNGU/
+			ENKUV/
+			GOSPA/
+			MABGA/
+			UGPED
+		</Line> 
+		<Line>
+			LIBLA/
+			AKBOB/
+			DULIG/
+			UBDAM/
+			IGNET/
+			BEVKO/
+			ADKOS
+		</Line>
+		<Line>
+			DOVOT/
+			POPON/
+			UBDAM/
+			LADIP/
+			GOSPA
+		</Line>           
+  </Map>
+</Maps>
+
+<!-- 
+		<Line>
+		
+		</Line>
+-->
+
+<!-- 
+  
+  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-401221.740+1752316.109">
+		<Line>
+		
+		</Line>      
+  </Map>
+
+
+-->
