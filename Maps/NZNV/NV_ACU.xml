@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>  
+	<Map Type="System" Name="RWY 04 STARs" Priority="2" CustomColourName="DrawProc" Centre="-462510.787+1681854.107"> 
+		<Line>
+			PEXED/
+			LUXER/
+			ESNUP/
+			MIMIV/
+			NV423/
+			ANOPA/
+			SUNGU/
+			ANOPA/
+			INTUS
+		</Line>
+		<Line>
+			DUKOP/
+			UKETA/
+			BIDKU/
+			AKPIN
+		</Line>
+		<Line>
+			BIDKU/
+			VIKIP/
+			DOTLU/
+			EGAMU/
+			AMVIX
+		</Line>               
+  </Map>
+
+	<Map Type="System" Name="RWY 22 STARs" Priority="2" CustomColourName="DrawProc" Centre="-462510.787+1681854.107">
+		<Line>
+			SUNGU/
+			ANOPA/
+			PEXED
+		</Line>
+		<Line>
+			INTUS/
+			ANOPA/
+			MOMPI/
+			LALEV
+		</Line>
+		<Line>
+			DUKOP/
+			UKETA/
+			VENIR/
+			BIDKU/
+			AKPIN
+		</Line>
+		<Line>
+			BIDKU/
+			MASGO/
+			DUNAX
+		</Line>
+		<Line>
+			AMVIX/
+			DOTLU
+		</Line>                          
+  </Map>
+</Maps>
+
+<!-- 
+		<Line>
+		
+		</Line>
+-->
+
+<!-- 
+  
+  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-462510.787+1681854.107">
+		<Line>
+		
+		</Line>      
+  </Map>
+
+
+-->

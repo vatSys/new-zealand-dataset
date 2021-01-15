@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>  
+	<Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-411740.650+1731320.116">
+		<Line>
+				CONOR/
+				MIBEV
+		</Line>  
+		<Line>
+			BISEB/
+			SURID/
+			QUAIL/
+			RISMO/
+			GUNEL/
+			ISDEM/
+			LERTI/
+			VATKU/
+			LUBSI
+		</Line>
+		<Line>
+			ESNED/
+			BEPNI/
+			KAPUA/
+			MUKRA/
+			KAPUA/
+			KUNVO
+		</Line>
+		<Line>
+			DALKI/
+			GUSDU/
+			RILDO/
+			ATRES/
+			GUDKI
+		</Line>  
+		<Line>
+			LUBSI/
+			NS/
+			GUDKI/
+			BEPNI
+		</Line> 
+  </Map>
+
+	<Map Type="System" Name="RWY 20 STARs" Priority="2" CustomColourName="DrawProc" Centre="-411740.650+1731320.116">
+		<Line>
+			KAPUA/
+			IRNUX/
+			DUGOL/
+			NS/
+			CONOR
+		</Line>
+		<Line>
+			GUNEL/
+			NS/
+			LUBSI
+		</Line>
+		<Line>
+			MUKRA/
+			KAPUA
+		</Line>
+		<Line>
+			ELMAX/
+			OSTAS/
+			KUNVO
+		</Line>
+		<Line>
+			DALKI/
+			GUSDU/
+			RILDO/
+			LIKMA
+		</Line>             
+  </Map>
+</Maps>
+
+<!-- 
+		<Line>
+		
+		</Line>
+-->
+
+<!-- 
+  
+  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-411740.650+1731320.116">
+		<Line>
+		
+		</Line>      
+  </Map>
+
+
+-->

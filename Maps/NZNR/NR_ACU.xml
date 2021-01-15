@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>  
+	<Map Type="System" Name="RWY 16 STARs" Priority="2" CustomColourName="DrawProc" Centre="-392808.331+1765130.370">
+		<Line>
+			GENDA/
+			OKURA/
+			ELBOW/
+			BERRY/
+			MOKER
+		</Line> 
+		<Line>
+			ELBOW/
+			PINES/
+			YARRO/
+			PINES/
+			ADGIN/
+			PINES/
+			OPAPA
+		</Line>
+		<Line>
+			ADGIN/
+			PANIA/
+			NR
+		</Line>        
+		<Line>
+			PANIA/
+			NANUA
+		</Line>   
+  </Map>
+
+	<Map Type="System" Name="RWY 34 STARs" Priority="2" CustomColourName="DrawProc" Centre="-392808.331+1765130.370">
+		<Line>
+			GENDA/
+			PINES/
+			ELAND/
+			MOKER
+		</Line>
+		<Line>
+			PINES/
+			OHITI/
+			YARRO/
+			OHITI/
+			ADGIN
+		</Line>
+		<Line>
+			OPAPA/
+			AKINA
+		</Line>         
+  </Map>
+</Maps>
+
+<!-- 
+		<Line>
+		
+		</Line>
+-->
+
+<!-- 
+  
+  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-392808.331+1765130.370">
+		<Line>
+		
+		</Line>      
+  </Map>
+
+
+-->

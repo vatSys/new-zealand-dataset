@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>  
+	<Map Type="System" Name="RWY 05 STARs" Priority="2" CustomColourName="DrawProc" Centre="-390017.806+1741029.359">
+		<Line>
+			VAMSU/
+			ISPAG/
+			VISAD/
+			VARMA
+		</Line>
+		<Line>
+			VISAD/
+			DOVAT/
+			INGLE/
+			TUIHU/
+			IGDOT
+		</Line>
+		<Line>
+			INGLE/
+			ANDOM/
+			MANGA/
+			ANDOM/
+			SELTA
+		</Line>
+		<Line>
+			VELGA/
+			MUMOX/
+			RUPNU/
+			MUMOX/
+			NUTMI/
+			BEMLI/
+			VARMA
+		</Line>
+		<Line>
+			DOBBO/
+			BOKUL/
+			PEXUR/
+			VARMA
+		</Line>
+		<Line>
+			PEXUR/
+			BOKUL/
+			ATRUG/
+			HARVO
+		</Line>
+		<Line>
+			BOKUL/
+			LATIG/
+			UPDAL
+		</Line>
+		<Line>
+			NP/
+			BOKUL
+		</Line>        
+  </Map>
+
+  <Map Type="System" Name="RWY 23 STARs" Priority="2" CustomColourName="DrawProc" Centre="-390017.806+1741029.359">
+		<Line>
+			VELGA/
+			MUMOX/
+			RUPNU/
+			MUMOX/
+			NUTMI/
+			VARMA/
+			LATIG/
+			PEXUR/
+		</Line>
+		<Line>
+			LATIG/
+			RITGI/
+			SUBRA/
+		</Line>
+		<Line>
+			DOBBO/
+			IPNAB/
+			OLMOT/
+			SUBRA/
+			UPDAL/
+			VANSA/
+			TUIHU/
+			SELTA/
+		</Line>
+		<Line>
+			VAMSU/
+			ISPAG/
+			UPDAL/
+			ATRUG/
+			HARVO
+		</Line>
+		<Line>
+			SELTA/
+			ANDOM/
+			VANSA/
+			LIGDO/
+			NP
+		</Line>
+		<Line>
+			UPDAL/
+			VANSA/
+			TUIHU/
+			MANGA/
+			TUIHU/
+			IGDOT
+		</Line>
+		<Line>
+			NP/
+			RITGI
+		</Line>
+  </Map>
+</Maps>
+
+<!-- 
+		<Line>
+		
+		</Line>
+-->
+
+<!-- 
+  
+  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-390017.806+1741029.359">
+		<Line>
+		
+		</Line>      
+  </Map>
+
+
+-->

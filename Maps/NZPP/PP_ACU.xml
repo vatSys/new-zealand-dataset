@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>  
+	<Map Type="System" Name="RWY 16 STARs" Priority="2" CustomColourName="DrawProc" Centre="-405416.999+1745921.001"> 
+		<Line>
+			TPAPA/
+			FIRST/
+			XEDES/
+			ENBAR/
+			PP401/
+			AVKEX/
+		</Line>
+		<Line>
+			AGSOP/
+			GUDSA/
+			ENBAR
+		</Line>
+		<Line>
+			KAPTI/
+			NOKIX/
+			KAMET/
+			NOKIX/
+			PP
+		</Line>  
+  </Map>
+
+	<Map Type="System" Name="RWY 34 STARs" Priority="2" CustomColourName="DrawProc" Centre="-405416.999+1745921.001">
+		<Line>
+			TPAPA/
+			FIRST/
+			VEKDA/
+			AKADU/
+			PP401/
+			AVKEX
+		</Line>
+		<Line>
+			AKADU/
+			NILID/
+			PP
+		</Line>
+		<Line>
+			KAPTI/
+			NILID/
+			KAMET
+		</Line>
+		<Line>
+			AGSOP/
+			DABGU
+		</Line>
+  </Map>
+</Maps>
+
+<!-- 
+		<Line>
+		
+		</Line>
+-->
+
+<!-- 
+  
+  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-405416.999+1745921.001">
+		<Line>
+		
+		</Line>      
+  </Map>
+
+
+-->

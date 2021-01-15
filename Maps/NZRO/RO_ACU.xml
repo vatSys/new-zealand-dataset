@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>  
+	<Map Type="System" Name="RWY 18 STARs" Priority="2" CustomColourName="DrawProc" Centre="-380633.001+1761901.999">
+		<Line>
+			OKERE/
+			ABTUV/
+			LUMSO/
+			ABTUV/
+			ELAGA
+		</Line>
+		<Line>
+			ESKER/
+			LEDAK/
+			LALAN
+		</Line>
+		<Line>
+			INTOX/
+			ORAKA/
+			TOTRA
+		</Line>
+		<Line>
+			ORAKA/
+			DUBAB/
+			ISGIT/
+			DUBAB/
+			LEDAK/
+			REEVE/
+			OKERE
+		</Line> 
+		<Line>
+			GOBUK/
+			LEDAK/
+			NIKOR
+		</Line>      
+  </Map>
+
+	<Map Type="System" Name="RWY 36 STARs" Priority="2" CustomColourName="DrawProc" Centre="-380633.001+1761901.999">  
+		<Line>
+			TOTRA/
+			ORAKA/
+			DUBAB/
+			GOBUK/
+			DUBAB/
+			REEVE/
+			OKERE
+		</Line> 
+		<Line>
+			IBAMU/
+			TOTRA/
+			KILAL/
+			INTOX
+		</Line>
+		<Line>
+			TOTRA/
+			SURKA/
+			ISGIT/
+			SURKA/
+			ELAGA/
+			SURKA/
+			LUMSO
+		</Line>
+		<Line>
+			TOTRA/
+			ORAKA/
+			LALAN/
+			ESKER
+		</Line>                     
+  </Map>
+</Maps>
+
+<!-- 
+		<Line>
+		
+		</Line>
+-->
+
+<!-- 
+  
+  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-380633.001+1761901.999">
+		<Line>
+		
+		</Line>      
+  </Map>
+
+
+-->
