@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>  
+	<Map Type="System" Name="RWY 03 STARs" Priority="2" CustomColourName="DrawProc" Centre="-455559.037+1701222.927">
+		<Line>
+			ADKOS/
+			AKBUM/
+			GOGES/
+			MOXET/
+			BASOS/
+			SUNGU/
+			BASOS/
+			ATRAG/
+			MIMEG/
+			BOKAV/
+			LIBLA
+		</Line>
+		<Line>
+			BASOS/
+			VELBI/
+			ANGOT/
+			KAKAX/
+			DAGNU/
+			OTKIS/
+			AKLAR
+		</Line>
+		<Line>
+			EPDAB/
+			ALBOX/
+			MANOP/
+			AKLAR/
+			ELNEK/
+			DABCA
+		</Line>
+		<Line>
+			AKLAR/
+			BIPUV/
+			ANBIG/
+			RELEK/
+			ADBAD/
+			IPKUG/
+			MIPAK
+		</Line>
+  </Map>
+	  
+	<Map Type="System" Name="RWY 21 STARs" Priority="2" CustomColourName="DrawProc" Centre="-455559.037+1701222.927">
+		<Line>
+			AKLAR/
+			BIPUV/
+			LOSKO/
+			AKDAS/
+			BIGAR/
+			ESKAT
+		</Line>
+		<Line>
+			LIBLA/
+			BOKAV/
+			MIMEG/
+			ATRAG/
+			BASOS/
+			MOXET/
+			GOGES/
+			AKBUM/
+			ADKOS
+		</Line>
+		<Line>
+			SUNGU/
+			BASOS/
+			VELBI/
+			ANGOT/
+			EMTOX/
+			ADBAD/
+			BIGAR/
+			ESKAT
+		</Line>
+		<Line>
+			EPDAB/
+			ALBOX/
+			MANOP/
+			BIPUV/
+			DABCA/
+			BIPUV/
+			LOSKO/
+			AKDAS
+		</Line>
+		<Line>
+			MIPAK/
+			IPKUG/
+			ADBAD/
+			ESKAT
+		</Line>
+  </Map>
+</Maps>
+
+<!-- 
+		<Line>
+		
+		</Line>
+-->
+
+<!-- 
+  
+  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-455559.037+1701222.927">
+		<Line>
+		
+		</Line>      
+  </Map>
+
+
+-->

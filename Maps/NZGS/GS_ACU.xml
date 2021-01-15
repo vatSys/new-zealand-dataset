@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>  
+	<Map Type="System" Name="RWY 32 STARs" Priority="2" CustomColourName="DrawProc" Centre="-383958.905+1775858.973">
+		<Line>
+			OTOKO/
+			UKLIP/
+			WARIK/
+		</Line>
+		<Line>
+			CREEK/
+			UKLIP/
+			ELMER/
+		</Line>
+		<Line>
+			HAWKE/
+			UKLIP
+		</Line>
+		<Line>
+			COOKS/
+			KOPUA/
+			GS
+		</Line>	
+  </Map>  
+
+	<Map Type="System" Name="RWY 14 STARs" Priority="2" CustomColourName="DrawProc" Centre="-383958.905+1775858.973">
+		<Line>
+			DOGMO/
+			ELMER/
+			EWOOD
+		</Line>
+		<Line>
+			GOTNO/
+			HAWKE/
+			EWOOD/
+			XEPEP
+		</Line>
+		<Line>
+			KOPUA/
+			XEPEP/
+			GS
+		</Line>
+  </Map>
+</Maps>
+
+<!-- 
+		<Line>
+		
+		</Line>
+-->
+
+<!-- 
+  
+  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-383958.905+1775858.973">
+		<Line>
+		
+		</Line>      
+  </Map>
+
+
+-->

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>  
+	<Map Type="System" Name="RWY 24 STARs" Priority="2" CustomColourName="DrawProc" Centre="-413105.999+1735213.001">
+		<Line>
+			LUBSI/
+			VASLU/
+			SUPEN/
+			IPMIR
+		</Line>
+		<Line>
+			SUPEN/
+			LUTKA/
+			AVPOD
+		</Line>
+		<Line>
+			LUTKA/
+			IGMUL/
+			LUTKA/
+			JAMIE/
+			ELPIT/
+			JAMIE/
+			OMDOX
+		</Line>
+  </Map>
+	  
+	<Map Type="System" Name="RWY 06 STARs" Priority="2" CustomColourName="DrawProc" Centre="-413105.999+1735213.001">
+		<Line>
+			LUBSI/
+			VASLU/
+			SUPEN/
+			IPMIR
+		</Line>
+		<Line>
+			SUPEN/
+			LUTKA/
+			AVPOD
+		</Line>
+		<Line>
+			LUTKA/
+			IGMUL/
+			LUTKA/
+			JAMIE/
+			ELPIT/
+			JAMIE/
+			OMDOX
+		</Line>	
+		<Line>
+			WB/
+			LUTKA
+		</Line>	
+  </Map>
+</Maps>
+
+<!-- 
+		<Line>
+		
+		</Line>
+-->
+
+<!-- 
+  
+  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-413105.999+1735213.001">
+		<Line>
+		
+		</Line>      
+  </Map>
+
+
+-->

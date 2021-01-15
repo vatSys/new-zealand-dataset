@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>  
+	<Map Type="System" Name="RWY 18L STARs" Priority="2" CustomColourName="DrawProc" Centre="-375159.980+1751955.402">
+		<Line>
+			ATPUL/
+			TAYLA/
+			CHESE/
+			ADBET/
+			YOGIT/
+			POKOM/
+			YOGIT/
+			BOLOG/
+			DADUK/
+			BOLOG/
+			DABKA
+		</Line>
+		<Line>
+			LAKES/
+			VATNA/
+			TAYLA/
+			ATPUL
+		</Line>
+		<Line>
+			VATNA/
+			ADBET/
+			YOGIT/
+			POKOM/
+			YOGIT/
+			BOLOG/
+			DADUK/
+			BOLOG/
+			DABKA
+		</Line>
+		<Line>
+			TAYLA/
+			THROW/
+			NILUS/
+			VATNA/
+			NILUS/
+			KICKE/
+			KEVID/
+			PASSE/
+			BUDEN
+		</Line>
+		<Line>
+			TAYLA/
+			THROW/
+			NILUS/
+			OLDON/
+			NILUS/
+			KICKE/
+			HN/
+			KICKE/
+			GODOK
+		</Line>
+		<Line>
+			KARBA/
+			PASSE/
+			DROPT
+		</Line>
+		<Line>
+			OLDON/
+			TONID/
+			NILUS/
+		</Line>
+  </Map>
+
+  <Map Type="System" Name="RWY 36R STARs" Priority="2" CustomColourName="DrawProc" Centre="-375159.980+1751955.402">
+		<Line>
+			LAKES/
+			YOGIT/
+			POKOM/
+		</Line>  
+		<Line>
+			ATPUL/
+			CHESE/
+			TAYLA/
+			CHESE/
+			YOGIT
+		</Line>
+		<Line>
+			YOGIT/
+			DAIRY/
+			BUDEN/
+			BEBER/
+			DADUK/
+			BEBER/
+			DABKA
+		</Line>
+		<Line>
+			YOGIT/
+			BOLOG/
+			GUNDA/
+			MELEP/
+			BEBER
+		</Line>
+		<Line>
+			OLDON/
+			KICKE/
+			HN/
+			KICKE/
+			GODOK
+		</Line>
+		<Line>
+			KICKE/
+			PASSE/
+			SUBTO/
+			KARBA
+		</Line>
+		<Line>
+			BUDEN/
+			DROPT
+		</Line>
+		<Line>
+			DROPT/
+			GUNDA/
+			EGORI/
+			KICKE
+		</Line>
+  </Map>
+</Maps>
+
+<!-- 
+		<Line>
+		
+		</Line>
+-->
+
+<!-- 
+  
+  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-375159.980+1751955.402">
+		<Line>
+		
+		</Line>      
+  </Map>
+
+
+-->

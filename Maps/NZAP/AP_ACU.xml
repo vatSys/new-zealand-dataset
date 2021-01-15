@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>  
+	<Map Type="System" Name="STARs (Both RWYs)" Priority="2" CustomColourName="DrawProc" Centre="-384422.999+1760503.998">
+		<Line>
+			GOSTI/
+			GUSAG/
+			GUMAN/
+			ISGIT/
+			GUMAN/
+		</Line>
+		<Line>
+			KALGO/
+			GUSAG/
+			EMSAR/
+			MEXIS/
+			GUSAG
+		</Line>
+		<Line>
+			MEXIS/
+			SULFA/
+			AKABA
+		</Line>
+  </Map>
+</Maps>
+
+<!-- 
+		<Line>
+		
+		</Line>
+-->
+
+<!-- 
+  
+  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-384422.999+1760503.998">
+		<Line>
+		
+		</Line>      
+  </Map>
+
+
+-->
