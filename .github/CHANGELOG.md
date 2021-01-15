@@ -72,7 +72,9 @@ No recorded changes.
 
 * Addition of the following permanent Danger Areas - 121, 125, 130, 235, 323, 522, 621, 626, 711, 718, 719, 721, 726, 727, 820, 821, 822, 823, 827, 921, 925 and 926. Thanks to Tom.
 
-* Addition of STAR overlays for AA, AP, CH, DN, GS, HN, OH, PM, QN, WB, WN and WP. Thanks to Tom.
+* Addition of STAR overlays for AA, AP, AR, CH, DN, GS, HN, NE, NP, NR, NS, NV, OH, PM, PP, QN, RO, TG, WB, WN and WP. Thanks to Tom.
+
+* Withdrawal of Miranda (RD) NDB, and replacement with waypoint MERAS. ATS Routes, and Auckland NOBAR arrivals updated. H491 and H195 have been withdrawn. 
 
 #### Other Changes
 

@@ -2618,7 +2618,7 @@
       PIBOV/
       TG/
       NOBAR/
-      RD
+      MERAS
     </Airway>
     <Airway Name="H131">
       SW/
@@ -2656,7 +2656,7 @@
     </Airway>
     <Airway Name="H167">
       AA/
-      RD/
+      MERAS/
       RO
     </Airway>
     <Airway Name="H173">
@@ -2685,10 +2685,6 @@
       DOGMO/
       ELMER/
       GS
-    </Airway>
-    <Airway Name="H195">
-      SY/
-      RD
     </Airway>
     <Airway Name="H201">
       KAPTI/
@@ -2985,7 +2981,7 @@
       DADUK/
       HN/
       ATPUL/
-      RD
+      MERAS
     </Airway>
     <Airway Name="H480">
       RO/
@@ -3001,13 +2997,6 @@
       RUGVI/
       WU/
       MEVAX
-    </Airway>
-    <Airway Name="H491">
-      WI/
-      RD/
-      WAIHI/
-      PIKAV/
-      TG
     </Airway>
     <Airway Name="H499">
       WN/
@@ -6561,7 +6550,6 @@
     <Point Name="AF017" Type="Fix">-3649.623+17458.133</Point>
     <Point Name="AF018" Type="Fix">-3652.352+17501.711</Point>
     <Point Name="KKNB" Type="Fix">-3515.722+17354.666</Point>
-    <Point Name="RDNB" Type="Fix">-3711.628+17517.918</Point>
     <Point Name="RF001" Type="Fix">-3653.962+17445.107</Point>
     <Point Name="RF002" Type="Fix">-3654.416+17444.214</Point>
     <Point Name="RF003" Type="Fix">-3658.568+17439.746</Point>
@@ -7594,11 +7582,11 @@
         </STAR>
     
         <STAR Name="NOBA6B"  Airport="NZAA" Runways="05R">
-          <Route>NOBAR RDNB AA503 WINB GITUK LENGU</Route>
+          <Route>NOBAR MERAS AA503 WINB GITUK LENGU</Route>
         </STAR>
     
         <STAR Name="NOBA6D"  Airport="NZAA" Runways="05R">
-          <Route>NOBAR RDNB AA503 WINB STEAL ATAMA</Route>
+          <Route>NOBAR MERAS AA503 WINB STEAL ATAMA</Route>
         </STAR>
     
         <STAR Name="PEPE4B"  Airport="NZAA" Runways="05R">
