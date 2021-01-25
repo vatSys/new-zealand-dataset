@@ -5,17 +5,8 @@
       <Rules>
         <Departure Values="NZAA">
           <Rules>
-            <Runway Values="05R">
-              <AssignSector Order="AA" />
-            </Runway>
-            <Runway Values="23L">
-              <AssignSector Order="AA" />
-            </Runway>
-            <Route Values="LIMES, KARRL, KAPAI, TULMI, LAKES">
-              <AssignSector Order="AA" />
-            </Route>
             <Default>
-              <AssignSector Order="AA"/>
+              <AssignSector Order="ADEP, ATMA, AARR"/>
             </Default>
           </Rules>
         </Departure>
@@ -25,17 +16,19 @@
       <Rules>
         <Departure Values="NZWN">
           <Rules>
-            <Runway Values="16">
-              <AssignSector Order="WN" />
-            </Runway>
-            <Runway Values="34">
-              <AssignSector Order="WN" />
-            </Runway>
-            <Route Values="RUSIL, SABDA, KAPTI, KAMET">
-              <AssignSector Order="WN" />
-            </Route>
             <Default>
-              <AssignSector Order="WN"/>
+              <AssignSector Order="WDEP, WTMA"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="NZCH_DEPS">
+      <Rules>
+        <Departure Values="NZCH">
+          <Rules>
+            <Default>
+              <AssignSector Order="CDEP, CTMA"/>
             </Default>
           </Rules>
         </Departure>
