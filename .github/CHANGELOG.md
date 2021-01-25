@@ -80,6 +80,8 @@ No recorded changes.
 
 * Addition of `<Localhost>` entry in `Profile.xml`, allowing the usage of vatSys as a FR24 viewer. Thanks to Tom and Cam.
 
+* Bug fixed where activation of flight plans do not show up as activated on the APP / ENR controller's scope. Thanks to Zain.
+
 #### Usability Changes
 
 * Change to `README.md` to link to [CONTRIBUTING.md](CONTRIBUTING.md). Thanks to Tom.
