@@ -29,6 +29,7 @@
         <Line>Christchurch Control</Line>
         <Line>Service for NZZC FIR https://www.vatnz.net/pilots/atc-sector-map/</Line>
         <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Oceanic Radar" Type="ASD" DefaultCenter="-370020.413+1744725.105" DefaultRange="600" MagneticVariation="-21">
@@ -59,7 +60,8 @@
       <ControllerInfo>
         <Line>Auckland Control</Line>
         <Line>Service for NZZC FIR https://www.vatnz.net/pilots/atc-sector-map/</Line>
-      <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Bay" Type="ASD" DefaultCenter="-380633.001+1761901.999" DefaultRange="300" MagneticVariation="-21">
@@ -89,6 +91,7 @@
         <Line>Bay Approach</Line>
         <Line>Service for NZZC FIR https://www.vatnz.net/pilots/atc-sector-map/</Line>
         <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Ohakea Area" Type="ASD" DefaultCenter="-401412.905+1760432.935" DefaultRange="350" MagneticVariation="-21">
@@ -117,7 +120,8 @@
       <ControllerInfo>
         <Line>Ohakea Control</Line>
         <Line>Service for NZZC FIR https://www.vatnz.net/pilots/atc-sector-map/</Line>
-      <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Kaikoura" Type="ASD" DefaultCenter="-422530.000+1733619.000" DefaultRange="300" MagneticVariation="-21">
@@ -147,6 +151,7 @@
         <Line>Christchurch Control</Line>
         <Line>Service for NZZC FIR https://www.vatnz.net/pilots/atc-sector-map/</Line>
         <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Area South" Type="ASD" DefaultCenter="-440008.132+1702657.686" DefaultRange="600" MagneticVariation="-21">
@@ -175,7 +180,8 @@
       <ControllerInfo>
         <Line>Christchurch Control</Line>
         <Line>Service for NZZC FIR https://www.vatnz.net/pilots/atc-sector-map/</Line>
-      <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
   </Group>
@@ -212,6 +218,7 @@
       <ControllerInfo>
         <Line>Auckland Approach</Line>
         <Line>Charts- www.vatnz.net/airspace/airport/NZAA</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Wellington ACU" Type="ASD" DefaultCenter="-411937.999+1744819.001" DefaultRange="130" MagneticVariation="-21">
@@ -246,6 +253,7 @@
       <ControllerInfo>
         <Line>Wellington Approach</Line>
         <Line>Charts- www.vatnz.net/airspace/airport/NZWN</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Christchurch ACU" Type="ASD" DefaultCenter="-432909.351+1723216.287" DefaultRange="140" MagneticVariation="-21">
@@ -277,6 +285,7 @@
       <ControllerInfo>
         <Line>Christchurch Approach</Line>
         <Line>Charts- www.vatnz.net/airspace/airport/NZCH</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Queenstown ACU" Type="ASD" DefaultCenter="-450124.250+1684456.277" DefaultRange="160" MagneticVariation="-21">
@@ -307,6 +316,7 @@
       <ControllerInfo>
         <Line>Queenstown Approach</Line>
         <Line>Charts- www.vatnz.net/airspace/airport/NZQN</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Hamilton ACU" Type="ASD" DefaultCenter="-375159.980+1751955.402" DefaultRange="120" MagneticVariation="-21">
@@ -337,6 +347,7 @@
       <ControllerInfo>
         <Line>Bay Approach</Line>
         <Line>Charts- www.vatnz.net/airspace/airport/NZHN</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Ohakea ACU" Type="ASD" DefaultCenter="-401229.628+1752314.936" DefaultRange="120" MagneticVariation="-21">
@@ -364,11 +375,12 @@
       </Strips>
       <ArrivalLists>
         <Airport Name="NZOH" />
-      <Airport Name="NZPM" />
+        <Airport Name="NZPM" />
       </ArrivalLists>
       <ControllerInfo>
         <Line>Ohakea Approach</Line>
         <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
   </Group>
