@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="ALL_RWY" Priority="1" Centre="-37.673333+144.843333">
+  <Map Type="System" Name="Runways" Priority="1" Centre="-37.673333+144.843333">
     <!--NZAA-->
     <Runway Name="05R/23L">
       <Threshold Name="05R" Position="-370102.265+1744601.474" ExtendedCentrelineTrack="251" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
@@ -92,44 +92,4 @@
 	  <Threshold Name="22" Position="-462437.547+1681936.372" ExtendedCentrelineTrack="060" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
 	</Runway>
   </Map>
-  <Map Type="System" Name="FIX_NAME" Priority="2" Centre="-37.673333+144.843333">
-    <Label HasLeader="false" LabelOrientation="N" Alignment="Center" VerticalAlignment="Top">
-		<Point>ADKOS</Point>
-		<Point>BEBOB</Point>
-		<Point>DADLU</Point>
-		<Point>MADOK</Point>
-		<Point>EKODA</Point>
-		<Point>LIBLA</Point>
-		<Point>KABIN</Point>
-		<Point>VANDA</Point>
-		<Point>KABKA</Point>
-		<Point>GOPLU</Point>
-		<Point>TANEN</Point>
-		<Point>GULUT</Point>
-		<Point>MOTKO</Point>
-		<Point>VELMO</Point>
-		<Point>PEBLU</Point>
-		<Point>LUNBI</Point>
-		<Point>MADEP</Point>
-		<Point>UPLAR</Point>
-		<Point>SALAG</Point>
-		<Point>ELNOS</Point>
-		<Point>DUGAN</Point>
-		<Point>KALAG</Point>
-		<Point>AGREX</Point>
-		<Point>TARIB</Point>
-		<Point>SELKA</Point>
-		<Point>AGEDU</Point>
-		<Point>IDSEM</Point>
-		<Point>DABAS</Point>
-		<Point>AKLOM</Point>
-		<Point>OLBEX</Point>
-		<Point>IBESO</Point>
-		<Point>GOKAG</Point>
-		<Point>NOKAK</Point>
-		<Point>ATABU</Point>
-		<Point>LALAP</Point>
-		<Point>HELGE</Point>
-    </Label>
-</Map>
 </Maps>

@@ -7,15 +7,13 @@
         <Sector Name="OHA" />
       </Sectors>
       <Maps>
-        <Map Name="COAST" />
-        <Map Name="SCT_BOUNDARIES" />
-        <Map Name="ALL_RWY" />
-        <Map Name="CTA" />
-        <Map Name="CTR" />
-        <Map Name="AIRPORTS" />
-        <Map Name="FIX" />
-        <Map Name="NDB" />
-        <Map Name="VOR" />
+        <Map Name="Coast" />
+        <Map Name="Runways" />
+        <Map Name="Airspace/CTA" />
+        <Map Name="Airspace/CTR" />
+        <Map Name="Navaids/FIX" />
+        <Map Name="Navaids/NDB" />
+        <Map Name="Navaids/VOR" />
       </Maps>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -39,15 +37,13 @@
         <Sector Name="BAY" />
       </Sectors>
       <Maps>
-        <Map Name="COAST" />
-        <Map Name="SCT_BOUNDARIES" />
-        <Map Name="ALL_RWY" />
-        <Map Name="CTA" />
-        <Map Name="CTR" />
-        <Map Name="AIRPORTS" />
-        <Map Name="FIX" />
-        <Map Name="NDB" />
-        <Map Name="VOR" />
+        <Map Name="Coast" />
+        <Map Name="Runways" />
+        <Map Name="Airspace/CTA" />
+        <Map Name="Airspace/CTR" />
+        <Map Name="Navaids/FIX" />
+        <Map Name="Navaids/NDB" />
+        <Map Name="Navaids/VOR" />
       </Maps>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -69,15 +65,13 @@
         <Sector Name="BAY" />
       </Sectors>
       <Maps>
-        <Map Name="COAST" />
-        <Map Name="SCT_BOUNDARIES" />
-        <Map Name="ALL_RWY" />
-        <Map Name="CTA" />
-        <Map Name="CTR" />
-        <Map Name="AIRPORTS" />
-        <Map Name="FIX" />
-        <Map Name="NDB" />
-        <Map Name="VOR" />
+        <Map Name="Coast" />
+        <Map Name="Runways" />
+        <Map Name="Airspace/CTA" />
+        <Map Name="Airspace/CTR" />
+        <Map Name="Navaids/FIX" />
+        <Map Name="Navaids/NDB" />
+        <Map Name="Navaids/VOR" />
       </Maps>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -99,15 +93,13 @@
         <Sector Name="OHA" />
       </Sectors>
       <Maps>
-        <Map Name="COAST" />
-        <Map Name="SCT_BOUNDARIES" />
-        <Map Name="ALL_RWY" />
-        <Map Name="CTA" />
-        <Map Name="CTR" />
-        <Map Name="AIRPORTS" />
-        <Map Name="FIX" />
-        <Map Name="NDB" />
-        <Map Name="VOR" />
+        <Map Name="Coast" />
+        <Map Name="Runways" />
+        <Map Name="Airspace/CTA" />
+        <Map Name="Airspace/CTR" />
+        <Map Name="Navaids/FIX" />
+        <Map Name="Navaids/NDB" />
+        <Map Name="Navaids/VOR" />
       </Maps>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -129,15 +121,13 @@
         <Sector Name="KAI" />
       </Sectors>
       <Maps>
-        <Map Name="COAST" />
-        <Map Name="SCT_BOUNDARIES" />
-        <Map Name="ALL_RWY" />
-        <Map Name="CTA" />
-        <Map Name="CTR" />
-        <Map Name="AIRPORTS" />
-        <Map Name="FIX" />
-        <Map Name="NDB" />
-        <Map Name="VOR" />
+        <Map Name="Coast" />
+        <Map Name="Runways" />
+        <Map Name="Airspace/CTA" />
+        <Map Name="Airspace/CTR" />
+        <Map Name="Navaids/FIX" />
+        <Map Name="Navaids/NDB" />
+        <Map Name="Navaids/VOR" />
       </Maps>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -159,15 +149,13 @@
         <Sector Name="STH" />
       </Sectors>
       <Maps>
-        <Map Name="COAST" />
-        <Map Name="SCT_BOUNDARIES" />
-        <Map Name="ALL_RWY" />
-        <Map Name="CTA" />
-        <Map Name="CTR" />
-        <Map Name="AIRPORTS" />
-        <Map Name="FIX" />
-        <Map Name="NDB" />
-        <Map Name="VOR" />
+        <Map Name="Coast" />
+        <Map Name="Runways" />
+        <Map Name="Airspace/CTA" />
+        <Map Name="Airspace/CTR" />
+        <Map Name="Navaids/FIX" />
+        <Map Name="Navaids/NDB" />
+        <Map Name="Navaids/VOR" />
       </Maps>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -193,15 +181,13 @@
       <Sector Name="ADEP" />
       </Sectors>
       <Maps>
-        <Map Name="COAST" />
-        <Map Name="SCT_BOUNDARIES" />
-        <Map Name="ALL_RWY" />
-        <Map Name="CTA" />
-        <Map Name="CTR" />
-        <Map Name="AIRPORTS" />
-        <Map Name="FIX" />
-        <Map Name="NDB" />
-        <Map Name="VOR" />
+        <Map Name="Coast" />
+        <Map Name="Runways" />
+        <Map Name="Airspace/CTA" />
+        <Map Name="Airspace/CTR" />
+        <Map Name="Navaids/FIX" />
+        <Map Name="Navaids/NDB" />
+        <Map Name="Navaids/VOR" />
       </Maps>
       <ATIS>
         <Editor Airport="NZAA" Frequency="127.800" />
@@ -227,15 +213,13 @@
       <Sector Name="WDEP" />
       </Sectors>
       <Maps>
-        <Map Name="COAST" />
-        <Map Name="SCT_BOUNDARIES" />
-        <Map Name="ALL_RWY" />
-        <Map Name="CTA" />
-        <Map Name="CTR" />
-        <Map Name="AIRPORTS" />
-        <Map Name="FIX" />
-        <Map Name="NDB" />
-        <Map Name="VOR" />
+        <Map Name="Coast" />
+        <Map Name="Runways" />
+        <Map Name="Airspace/CTA" />
+        <Map Name="Airspace/CTR" />
+        <Map Name="Navaids/FIX" />
+        <Map Name="Navaids/NDB" />
+        <Map Name="Navaids/VOR" />
       </Maps>
       <ATIS>
         <Editor Airport="NZWN" Frequency="126.900" />
@@ -262,15 +246,13 @@
       <Sector Name="CDEP" />
       </Sectors>
       <Maps>
-        <Map Name="COAST" />
-        <Map Name="SCT_BOUNDARIES" />
-        <Map Name="ALL_RWY" />
-        <Map Name="CTA" />
-        <Map Name="CTR" />
-        <Map Name="AIRPORTS" />
-        <Map Name="FIX" />
-        <Map Name="NDB" />
-        <Map Name="VOR" />
+        <Map Name="Coast" />
+        <Map Name="Runways" />
+        <Map Name="Airspace/CTA" />
+        <Map Name="Airspace/CTR" />
+        <Map Name="Navaids/FIX" />
+        <Map Name="Navaids/NDB" />
+        <Map Name="Navaids/VOR" />
       </Maps>
       <ATIS>
         <Editor Airport="NZCH" Frequency="127.200" />
@@ -293,15 +275,13 @@
         <Sector Name="QTMA" />
       </Sectors>
       <Maps>
-        <Map Name="COAST" />
-        <Map Name="SCT_BOUNDARIES" />
-        <Map Name="ALL_RWY" />
-        <Map Name="CTA" />
-        <Map Name="CTR" />
-        <Map Name="AIRPORTS" />
-        <Map Name="FIX" />
-        <Map Name="NDB" />
-        <Map Name="VOR" />
+        <Map Name="Coast" />
+        <Map Name="Runways" />
+        <Map Name="Airspace/CTA" />
+        <Map Name="Airspace/CTR" />
+        <Map Name="Navaids/FIX" />
+        <Map Name="Navaids/NDB" />
+        <Map Name="Navaids/VOR" />
       </Maps>
       <ATIS>
         <Editor Airport="NZQN" Frequency="126.400" />
@@ -324,15 +304,13 @@
         <Sector Name="HTMA" />
       </Sectors>
       <Maps>
-        <Map Name="COAST" />
-        <Map Name="SCT_BOUNDARIES" />
-        <Map Name="ALL_RWY" />
-        <Map Name="CTA" />
-        <Map Name="CTR" />
-        <Map Name="AIRPORTS" />
-        <Map Name="FIX" />
-        <Map Name="NDB" />
-        <Map Name="VOR" />
+        <Map Name="Coast" />
+        <Map Name="Runways" />
+        <Map Name="Airspace/CTA" />
+        <Map Name="Airspace/CTR" />
+        <Map Name="Navaids/FIX" />
+        <Map Name="Navaids/NDB" />
+        <Map Name="Navaids/VOR" />
       </Maps>
       <ATIS>
         <Editor Airport="NZHN" Frequency="126.650" />
@@ -355,15 +333,13 @@
         <Sector Name="OTMA" />
       </Sectors>
       <Maps>
-        <Map Name="COAST" />
-        <Map Name="SCT_BOUNDARIES" />
-        <Map Name="ALL_RWY" />
-        <Map Name="CTA" />
-        <Map Name="CTR" />
-        <Map Name="AIRPORTS" />
-        <Map Name="FIX" />
-        <Map Name="NDB" />
-        <Map Name="VOR" />
+        <Map Name="Coast" />
+        <Map Name="Runways" />
+        <Map Name="Airspace/CTA" />
+        <Map Name="Airspace/CTR" />
+        <Map Name="Navaids/FIX" />
+        <Map Name="Navaids/NDB" />
+        <Map Name="Navaids/VOR" />
       </Maps>
       <ATIS>
         <Editor Airport="NZOH" Frequency="135.000" />

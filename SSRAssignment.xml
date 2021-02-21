@@ -15,30 +15,30 @@
     <Rule FlightRule="V"/>
     <Codes Start="3401" End="3477"/>
 		<Rule Sector="WN" />
-	<Codes Start="0301" End="0377"/>
+	  <Codes Start="0301" End="0377"/>
 		<Rule Sector="AA" />
-	<Codes Start="3501" End="3577"/>
+	  <Codes Start="3501" End="3577"/>
   </Bin>
     <!-- Military Flights -->
   <Bin>
     <Rule Remarks="(\/|\b)(RAAF|MILITARY|USAF|RAF|RAN|ARMY|RNZAF|ORI|STATE|HER|BOE|KIW|VSOA)\b"/>
-	<Rule Callsign="(BOE|KIW|POS|ORI|HER|)" />
+	  <Rule Callsign="(BOE|KIW|POS|ORI|HER|)" />
     <Codes Start="6001" End="6477"/>
   </Bin>
   <!-- Domestic Flights -->
   <Bin>
     <Rule Departure="NZ\w{2}" Destination="NZ\w{2}"/>
     <Codes Start="5001" End="5077"/>
-	<Codes Start="5101" End="5177"/>
-	<Codes Start="5201" End="5277"/>
-	<Codes Start="5301" End="5377"/>
-	<Codes Start="5401" End="5477"/>
-	<Codes Start="5501" End="5557"/>
-	<Codes Start="5634" End="5677"/>
-	<Codes Start="5701" End="5752"/>
+    <Codes Start="5101" End="5177"/>
+    <Codes Start="5201" End="5277"/>
+    <Codes Start="5301" End="5377"/>
+    <Codes Start="5401" End="5477"/>
+    <Codes Start="5501" End="5557"/>
+    <Codes Start="5634" End="5677"/>
+    <Codes Start="5701" End="5752"/>
   </Bin>
   <!-- International/Transit Flights -->
   <Bin>
-	<Codes Start="0201" End="0277"/>
+	  <Codes Start="0201" End="0277"/>
   </Bin>
 </SSRAssignment>
