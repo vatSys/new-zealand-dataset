@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Name="ALL_AIRPORTS" Type="System" Priority="1">
+  <Map Name="Aerodromes" Type="System" Priority="1">
     <Symbol Type="HollowStar">
       <Point>-370020.413+1744725.105</Point>
       <Point>-384422.999+1760503.998</Point>
@@ -41,9 +41,9 @@
       <Point>-354605.999+1742154.000</Point>
       <Point>-414416.839+1713451.439</Point>
       <Point>-395743.999+1750131.001</Point>
+      <Point>-444024.000+1675524.000</Point>
     </Symbol>
-  </Map>
-  <Map Name="ALL_AIRPORT_NAMES" Type="System" Priority="1">
+
     <Label HasLeader="true">
       <Point Name="NZAA - AUCKLAND">-370020.413+1744725.105</Point>
       <Point Name="NZAP - TAUPO">-384422.999+1760503.998</Point>
@@ -61,6 +61,7 @@
       <Point Name="NZMC - MOUNT COOK">-434553.999+1700759.999</Point>
       <Point Name="NZMO - MANAPORI/TE ANAU">-453158.999+1673900.000</Point>
       <Point Name="NZMS - MASTERTON">-405823.999+1753801.000</Point>
+      <Point Name="NZMF - MILFORD SOUND">-444024.000+1675524.000</Point>
       <Point Name="NZNP - NEW PLYMOUTH">-390017.806+1741029.359</Point>
       <Point Name="NZNR - NAPIER">-392808.331+1765130.370</Point>
       <Point Name="NZNE - NORTH SHORE">-36.656667+174.655278</Point>

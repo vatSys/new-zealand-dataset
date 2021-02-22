@@ -87,3 +87,18 @@ No recorded changes.
 * Change to `README.md` to link to [CONTRIBUTING.md](CONTRIBUTING.md). Thanks to Tom.
 
 * Updated Map file structure to for easier navigation. `_NZ/` folder deleted, with files moved to `Maps/`. ASMGCS files moved to individual folders, sorted by ICAO code. Thanks to Tom.
+
+## AIRAC 2102
+
+### Revision A (Initial)
+
+* Added NZMF in `AIRPORTS.xml`
+
+* Changed the file structure for our Maps, making it more logical and better organised. All referenced links have been updated.
+
+* Made the coastline a little bit darker, in order to better distinguish between the coastline and airspace boundaries.
+
+* Changed the colours of VORs and NDBs. The symbols are now also accurate.
+
+* Changed what Map layers are viewable by default in both Enroute and ACU views. Views should no longer be as cluttered.
+

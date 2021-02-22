@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0"?>
 <Maps>
-  <Map Type="System" Name="COAST" Priority="3">
+  <Map Type="System" Name="Coast" Priority="3" CustomColourName="Coast">
     <Line Name="Coastline">-550256.852+1584556.689/-550302.126+1584606.193</Line>
     <Line Name="Coastline">-550302.126+1584606.193/-550302.126+1584611.466</Line>
     <Line Name="Coastline">-550302.126+1584611.466/-550256.852+1584620.969</Line>

@@ -1,2 +1,5 @@
 
 .DS_Store
+plugins/vStripsPlugin.dll
+Maps/NZMF/AFIS.xml
+Maps/NZPP/AFIS.xml

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="MSA_LABEL" Priority="3" Center="-2380.8+13390.1">
+  <Map Type="System" Name="MSA Label" Priority="3" Center="-2380.8+13390.1">
     <Label HasLeader="False" Alignment="Center" VerticalAlignment="Middle">
       <Point Name="24">-371134.124+1744647.874</Point>
       <Point Name="27">-370555.965+1743624.493</Point>
