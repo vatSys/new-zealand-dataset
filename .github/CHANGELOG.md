@@ -102,3 +102,6 @@ No recorded changes.
 
 * Changed what Map layers are viewable by default in both Enroute and ACU views. Views should no longer be as cluttered.
 
+### Revision B (Initial)
+
+* Dataset did not update due to an error that I made. This should fix it.
