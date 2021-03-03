@@ -102,6 +102,10 @@ No recorded changes.
 
 * Changed what Map layers are viewable by default in both Enroute and ACU views. Views should no longer be as cluttered.
 
-### Revision B (Initial)
+### Revision B
 
 * Dataset did not update due to an error that I made. This should fix it.
+
+### Revision C
+
+* VatSys build 0.1.7732.21010 caused some arrival list, and button colours to go out of kilter. Fixed.
