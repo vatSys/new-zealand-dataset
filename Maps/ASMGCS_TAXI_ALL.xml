@@ -580,6 +580,11 @@
 
       <!-- NZAP END -->
 
+      <!-- NZWU -->
+        <Point Name="11">-39.959507+175.017594</Point>
+        <Point Name="29">-39.967358+175.031214</Point>
+      <!-- NZWU END -->
+
         <Point Name=""></Point>
     </Label>
   </Map>
