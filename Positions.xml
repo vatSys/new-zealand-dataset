@@ -533,5 +533,13 @@
         <Map Name="NZAR/ASMGCS_NZAR_TWY" />
       </Maps>
     </Position>
+    <Position Name="NZWU" Type="ASMGCS" ASMGCSAirport="NZWU" DefaultCenter="-395743.999+1750131.001" DefaultRange="2" MagneticVariation="0">
+      <Maps>
+        <Map Name="NZWU/ASMGCS_NZWU_RWY" />
+        <Map Name="NZWU/ASMGCS_NZWU_APR" />
+        <Map Name="NZWU/ASMGCS_NZWU_BLD" />
+        <Map Name="NZWU/ASMGCS_NZWU_TWY" />
+      </Maps>
+    </Position>
   </Group>
 </Positions>

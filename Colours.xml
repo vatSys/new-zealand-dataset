@@ -461,6 +461,51 @@
     <B>150</B>
   </Colour>
 
+  <!-- Colours added due to changes in the vatSys application -->
+
+  <Colour id="ListSeparator">
+    <Use>List Separator Bar</Use>
+    <Name>GreenGrey</Name>
+    <R>30</R>
+    <G>30</G>
+    <B>30</B>
+  </Colour>
+  <Colour id="ListSeparatorSelected">
+    <Use>List Separator Bar Selected</Use>
+    <Name>GreenGrey</Name>
+    <R>60</R>
+    <G>71</G>
+    <B>71</B>
+  </Colour>
+  <Colour id="WindowButtonDepressed">
+    <Use>Depressed Window Button Background</Use>
+    <Name>GreenGrey</Name>
+    <R>60</R>
+    <G>71</G>
+    <B>71</B>
+  </Colour>
+  <Colour id="WindowButtonSelected">
+    <Use>Selected Window Button Background</Use>
+    <Name>DarkBlue</Name>
+    <R>30</R>
+    <G>30</G>
+    <B>30</B>
+  </Colour>
+  <Colour id="WindowEmergency">
+    <Use>Emergency Indications in Windows</Use>
+    <Name>DarkRed</Name>
+    <R>209</R>
+    <G>46</G>
+    <B>46</B>
+  </Colour>
+  <Colour id="WindowWarning">
+    <Use>Warning Indications in Windows</Use>
+    <Name>BrightYellow</Name>
+    <R>255</R>
+    <G>255</G>
+    <B>0</B>
+  </Colour>
+
   <!-- MBZ Test -->
   <Colour id="Custom">
     <Use>Outline of MBZ Airspace</Use>

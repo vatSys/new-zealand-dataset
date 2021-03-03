@@ -199,4 +199,9 @@
     <Lat>-37.030263</Lat>
     <Long>174.972677</Long>
   </Radar>
+
+  <Radar Name="Whanganui SMC" Type="SMR" Elevation="27" MaxRange="4">
+    <Lat>-39.962187</Lat>
+    <Long>175.024001</Long>
+  </Radar>
 </Radars>
