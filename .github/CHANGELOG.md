@@ -109,3 +109,7 @@ No recorded changes.
 ### Revision C
 
 * VatSys build 0.1.7732.21010 caused some arrival list, and button colours to go out of kilter. Fixed.
+
+### Revision D
+
+* vatSys build 0.1.7735.27676 adds support for custom button select, window border colours and tick styles. Changes have been made so this fals in like with the NZ Dataset.
