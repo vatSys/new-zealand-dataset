@@ -7,4 +7,5 @@
   <LATCValues>15, 22, 29, 38, 45, 61, 72, 89, 115, 165</LATCValues>
   <FilterGroundTracks>NZAA,NZWN,NZCH,NZQN</FilterGroundTracks>
   <PDCAirports>NZAA,NZWN,NZCH</PDCAirports>
+  <MenuCheckMark Style="Traditional" />
 </Misc>

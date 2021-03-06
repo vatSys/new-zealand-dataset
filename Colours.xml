@@ -487,9 +487,9 @@
   <Colour id="WindowButtonSelected">
     <Use>Selected Window Button Background</Use>
     <Name>DarkBlue</Name>
-    <R>30</R>
-    <G>30</G>
-    <B>30</B>
+    <R>110</R>
+    <G>110</G>
+    <B>110</B>
   </Colour>
   <Colour id="WindowEmergency">
     <Use>Emergency Indications in Windows</Use>
@@ -504,6 +504,14 @@
     <R>255</R>
     <G>255</G>
     <B>0</B>
+  </Colour>
+
+  <Colour id="WindowBorder">
+    <Use>All Window Borders</Use>
+    <Name>Grey</Name>
+    <R>110</R>
+    <G>110</G>
+    <B>110</B>
   </Colour>
 
   <!-- MBZ Test -->
