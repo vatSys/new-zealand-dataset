@@ -65,6 +65,8 @@
     <Long>169.206572</Long>
   </Radar>
 
+  <!-- Start ADS-B Sites -->
+
   <Radar Name="Rua o te Whenua ADSB" Type="ADSB" Elevation="1490" MaxRange="256">
     <Lat>-36.92428</Lat>
     <Long>174.5534</Long>
@@ -75,7 +77,7 @@
     <Long>175.9122</Long>
   </Radar>
 
-  <Radar Name="Balance ADSB" Type="ADSB" Elevation="1640" MaxRange="256">
+  <Radar Name="Ballance ADSB" Type="ADSB" Elevation="1640" MaxRange="256">
     <Lat>-40.4004</Lat>
     <Long>175.7325</Long>
   </Radar>
@@ -90,10 +92,37 @@
     <Long>174.0223</Long>
   </Radar> 
 
-  <Radar Name="Christchurch ADSB" Type="ADSB" Elevation="123" MaxRange="256">
+  <Radar Name="Christchurch Tower ADSB" Type="ADSB" Elevation="123" MaxRange="256">
     <Lat>-43.5041</Lat>
     <Long>172.514614</Long>
   </Radar>
+
+  <Radar Name="Cass Peak ADSB" Type="ADSB" Elevation="1751" MaxRange="230">
+    <Lat>-43.63582</Lat>
+    <Long>172.6237</Long>
+  </Radar>
+
+  <Radar Name="Cardrona ADSB" Type="ADSB" Elevation="6125" MaxRange="50">
+    <Lat>-44.85698</Lat>
+    <Long>168.9447</Long>
+  </Radar> 
+
+  <Radar Name="Coronet Peak ADSB" Type="ADSB" Elevation="5272" MaxRange="50">
+    <Lat>-44.91658</Lat>
+    <Long>168.7391</Long>
+  </Radar>
+
+  <Radar Name="Mount Nicholas ADSB" Type="ADSB" Elevation="2047" MaxRange="50">
+    <Lat>-45.091294</Lat>
+    <Long>168.426997</Long>
+  </Radar>
+
+  <Radar Name="Obelisk ADSB" Type="ADSB" Elevation="5508" MaxRange="50">
+    <Lat>-45.321886</Lat>
+    <Long>169.206572</Long>
+  </Radar>
+  
+  <!-- Start SMC Sites -->
 
   <Radar Name="WELLINGTON SMC" Type="SMR" Elevation="1" MaxRange="4">
     <Lat>-41.32722222</Lat>

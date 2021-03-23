@@ -91,8 +91,8 @@
   <Sector FullName="Palmerston North Tower" Frequency="120.600" Callsign="NZPM_TWR" Name="TPM" />
   
   <Sector FullName="Queenstown Tower" Frequency="118.100" Callsign="NZQN_TWR" Name="TQN" />
-  <Sector FullName="Queenstown Ground" Frequency="121.900" Callsign="NZQN_GND" Name="GQN" />
-  <Sector FullName="Queenstown Delivery" Frequency="128.300" Callsign="NZQN_DEL" Name="DQN" />
+  <Sector FullName="Queenstown Ground" Frequency="128.300" Callsign="NZQN_GND" Name="GQN" /> <!-- Events only -->
+  <Sector FullName="Queenstown Delivery" Frequency="121.900" Callsign="NZQN_DEL" Name="DQN" />
   
   <Sector FullName="Rotorua Tower" Frequency="121.200" Callsign="NZRO_TWR" Name="TRO" />
   

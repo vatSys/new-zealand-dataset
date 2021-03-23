@@ -1,4 +1,4 @@
-#VATNZ AIRAC Changelog
+# VATNZ AIRAC Changelog
 
 - [AIRAC 2013](#airac-2013)        
     - [Revision A (Initial)](#revision-a-initial)        
@@ -14,6 +14,13 @@
         - [Airspace Additions](#airspace-additions)
         - [Other Changes](#other-changes)
         - [Usability Changes](#usability-changes)
+- [AIRAC 2102](#airac-2102)
+        - [Revision A (Initial)](#revision-a-intial)
+        - [Revision B](#revision-b)
+        - [Revision C](#revision-c)
+        - [Revision D](#revision-d)
+- [AIRAC 2103](#airac-2103)
+        - [Revision A (Initial)](#revision-a-initial)
 
 
 ## AIRAC 2013
@@ -68,13 +75,13 @@ No recorded changes.
 
 #### Airspace Additions
 
-* Addition of the following Military Operating Areas (MOAs) - M106, M204, M205, M206, M207, M208, M304, M305, M504 and M507. Thanks to Tom.
+* Addition of the following Military Operating Areas (MOAs) - M106, M204, M205, M206, M207, M208, M304, M305, M504 and M507.
 
-* Addition of the following permanent Danger Areas - 121, 125, 130, 235, 323, 522, 621, 626, 711, 718, 719, 721, 726, 727, 820, 821, 822, 823, 827, 921, 925 and 926. Thanks to Tom.
+* Addition of the following permanent Danger Areas - 121, 125, 130, 235, 323, 522, 621, 626, 711, 718, 719, 721, 726, 727, 820, 821, 822, 823, 827, 921, 925 and 926.
 
-* Addition of STAR overlays for AA, AP, AR, CH, DN, GS, HN, NE, NP, NR, NS, NV, OH, PM, PP, QN, RO, TG, WB, WN and WP. Thanks to Tom.
+* Addition of STAR overlays for AA, AP, AR, CH, DN, GS, HN, NE, NP, NR, NS, NV, OH, PM, PP, QN, RO, TG, WB, WN and WP.
 
-* Withdrawal of Miranda (RD) NDB, and replacement with waypoint MERAS. ATS Routes, and Auckland NOBAR arrivals updated. H491 and H195 have been withdrawn. 
+* Withdrawal of Miranda (RD) NDB, and replacement with waypoint MERAS. ATS Routes, and Auckland NOBAR arrivals updated. H491 and H195 have been withdrawn.
 
 #### Other Changes
 
@@ -113,3 +120,11 @@ No recorded changes.
 ### Revision D
 
 * vatSys build 0.1.7735.27676 adds support for custom button select, window border colours and tick styles. Changes have been made so this fals in like with the NZ Dataset.
+
+## AIRAC 2103
+
+### Revision A (Initial)
+
+* Change of Queenstown Ground and Delivery frequencies.
+
+* Addition of various ADS-B radar sites, to bring our coverage further into line with the real-world system.
