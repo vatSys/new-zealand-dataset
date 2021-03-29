@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Name="FIX" Type="System" Priority="1">
+  <Map Name="Fixes" Type="System" Priority="1">
     <Symbol Type="HollowTriangle">
       <Point>BEBOB</Point>
       <Point>DADLU</Point>
@@ -139,7 +139,7 @@
       <Point>PEDBA</Point>
     </Symbol>
   </Map>
-  <Map Name="VOR" Type="System" Priority="1" CustomColourName="VOR">
+  <Map Name="VOR DME Stations" Type="System" Priority="1">
     <Symbol Type="HollowTriangle">
       <Point>AA</Point>
       <Point>CH</Point>
@@ -160,7 +160,7 @@
       <Point>WP</Point>
     </Symbol>
   </Map>
-  <Map Name="NDB" Type="System" Priority="1" CustomColourName="NDB">
+  <Map Name="NDB Stations" Type="System" Priority="1">
     <Symbol Type="HollowTriangle">
       <Point>AP</Point>
       <Point>BE</Point>
@@ -186,6 +186,56 @@
       <Point>WU</Point>
     </Symbol>
   </Map>
+
+  <Map Name="VOR DME Labels" Type="System" Priority="1">
+    <Label HasLeader="false">
+      <Point Name="AA">AA</Point>
+      <Point Name="CH">CH</Point>
+      <Point Name="DN">DN</Point>
+      <Point Name="HN">HN</Point>
+      <Point Name="NF">NF</Point>
+      <Point Name="NP">NP</Point>
+      <Point Name="NR">NR</Point>
+      <Point Name="NS">NS</Point>
+      <Point Name="NV">NV</Point>
+      <Point Name="OH">OH</Point>
+      <Point Name="PM">PM</Point>
+      <Point Name="PM">QN</Point>
+      <Point Name="RO">RO</Point>
+      <Point Name="SW">SW</Point>
+      <Point Name="WB">WB</Point>
+      <Point Name="WN">WN</Point>
+      <Point Name="WP">WP</Point>
+    </Label>
+  </Map>
+
+  <Map Name="NDB Labels" Type="System" Priority="1">
+    <Label HasLeader="false">
+      <Point Name="AP">AP</Point>
+      <Point Name="BE">BE</Point>
+      <Point Name="HK">HK</Point>
+      <Point Name="HL">HL</Point>
+      <Point Name="KI">KI</Point>
+      <Point Name="KK">KK</Point>
+      <Point Name="KT">KT</Point>
+      <Point Name="LX">LX</Point>
+      <Point Name="MI">MI</Point>
+      <Point Name="MO">MO</Point>
+      <Point Name="NL">NL</Point>
+      <Point Name="PP">PP</Point>
+      <Point Name="SF">SF</Point>
+      <Point Name="SY">SY</Point>
+      <Point Name="TG">TG</Point>
+      <Point Name="TM">TM</Point>
+      <Point Name="TU">TU</Point>
+      <Point Name="WI">WI</Point>
+      <Point Name="WK">WK</Point>
+      <Point Name="WR">WR</Point>
+      <Point Name="WS">WS</Point>
+      <Point Name="WU">WU</Point>
+    </Label>
+  </Map>
+
   <Map Type="System" Name="Oceanic Fixes" Priority="2" Centre="-37.673333+144.843333">
     <Label HasLeader="false" LabelOrientation="N" Alignment="Center" VerticalAlignment="Top">
 			<Point>ADKOS</Point>

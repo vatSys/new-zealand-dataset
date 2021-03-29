@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Name="Aerodromes" Type="System" Priority="1">
-    <Symbol Type="HollowStar">
+    <Symbol Type="HollowTriangle">
       <Point>-370020.413+1744725.105</Point>
       <Point>-384422.999+1760503.998</Point>
       <Point>-370147.000+1745823.000</Point>
@@ -43,49 +43,52 @@
       <Point>-395743.999+1750131.001</Point>
       <Point>-444024.000+1675524.000</Point>
     </Symbol>
+  </Map>
 
-    <Label HasLeader="true">
-      <Point Name="NZAA - AUCKLAND">-370020.413+1744725.105</Point>
-      <Point Name="NZAP - TAUPO">-384422.999+1760503.998</Point>
-      <Point Name="NZAR - ARDMORE">-370147.000+1745823.000</Point>
-      <Point Name="NZCH - CHRISTCHURCH">-432909.351+1723216.287</Point>
-      <Point Name="NZDN - DUNEDIN">-455559.037+1701222.927</Point>
-      <Point Name="NZGS - GISBORNE">-383958.905+1775858.973</Point>
-      <Point Name="NZGT - GLENTANNER">-435423.999+1700742.000</Point>
-      <Point Name="NZHK - HOKITIKA">-424250.684+1705914.691</Point>
-      <Point Name="NZHN - HAMILTON">-375159.980+1751955.402</Point>
-      <Point Name="NZHS - HASTINGS">-393848.001+1764600.998</Point>
-      <Point Name="NZKK - KERIKERI">-351546.001+1735442.998</Point>
-      <Point Name="NZKT - KAITAIA">-350412.000+1731707.001</Point>
-      <Point Name="NZLX - ALEXANDRA">-451242.001+1692223.999</Point>
-      <Point Name="NZMC - MOUNT COOK">-434553.999+1700759.999</Point>
-      <Point Name="NZMO - MANAPORI/TE ANAU">-453158.999+1673900.000</Point>
-      <Point Name="NZMS - MASTERTON">-405823.999+1753801.000</Point>
-      <Point Name="NZMF - MILFORD SOUND">-444024.000+1675524.000</Point>
-      <Point Name="NZNP - NEW PLYMOUTH">-390017.806+1741029.359</Point>
-      <Point Name="NZNR - NAPIER">-392808.331+1765130.370</Point>
-      <Point Name="NZNE - NORTH SHORE">-36.656667+174.655278</Point>
-      <Point Name="NZNS - NELSON">-411740.650+1731320.116</Point>
-      <Point Name="NZNV - INVERCARGILL">-462510.787+1681854.107</Point>
-      <Point Name="NZOH - OHAKEA">-401221.740+1752316.109</Point>
-      <Point Name="NZOU - OAMARU">-445746.646+1710510.251</Point>
-      <Point Name="NZPM - PALMERSTON NORTH">-401913.999+1753701.000</Point>
-      <Point Name="NZPP - PARAPARAUMU">-405416.999+1745921.001</Point>
-      <Point Name="NZQN - QUEENSTOWN">-450124.250+1684456.277</Point>
-      <Point Name="NZRO - ROTORUA">-380633.001+1761901.999</Point>
-      <Point Name="NZRU - WAIOURU">-392647.000+1753929.999</Point>
-      <Point Name="NZTG - TAURANGA">-374018.998+1761146.000</Point>
-      <Point Name="NZTU - TIMARU">-441824.494+1711334.778</Point>
-      <Point Name="NZUK - PUKAKI">-441406.000+1700705.999</Point>
-      <Point Name="NZWB - WOODBOURNE">-413105.999+1735213.001</Point>
-      <Point Name="NZWF - WANAKA">-444330.999+1691435.000</Point>
-      <Point Name="NZWK - WHAKATANE">-375514.002+1765451.001</Point>
-      <Point Name="NZWN - WELLINGTON">-411937.999+1744819.001</Point>
-      <Point Name="NZWO - WAIROA">-390024.998+1772424.001</Point>
-      <Point Name="NZWP - WHENUAPAI">-364716.001+1743749.001</Point>
-      <Point Name="NZWR - WHANGAREI">-354605.999+1742154.000</Point>
-      <Point Name="NZWS - WESTPORT">-414416.839+1713451.439</Point>
-      <Point Name="NZWU - WHANGANUI">-395743.999+1750131.001</Point>
+
+  <Map Name="Aerodrome Labels" Type="System" Priority="1">
+    <Label HasLeader="false" hasLeader="false">
+      <Point Name="AA">-370020.413+1744725.105</Point>
+      <Point Name="AP">-384422.999+1760503.998</Point>
+      <Point Name="AR">-370147.000+1745823.000</Point>
+      <Point Name="CH">-432909.351+1723216.287</Point>
+      <Point Name="DN">-455559.037+1701222.927</Point>
+      <Point Name="GS">-383958.905+1775858.973</Point>
+      <Point Name="GT">-435423.999+1700742.000</Point>
+      <Point Name="HK">-424250.684+1705914.691</Point>
+      <Point Name="HN">-375159.980+1751955.402</Point>
+      <Point Name="HS">-393848.001+1764600.998</Point>
+      <Point Name="KK">-351546.001+1735442.998</Point>
+      <Point Name="KT">-350412.000+1731707.001</Point>
+      <Point Name="LX">-451242.001+1692223.999</Point>
+      <Point Name="MC">-434553.999+1700759.999</Point>
+      <Point Name="MO">-453158.999+1673900.000</Point>
+      <Point Name="MS">-405823.999+1753801.000</Point>
+      <Point Name="MF">-444024.000+1675524.000</Point>
+      <Point Name="NP">-390017.806+1741029.359</Point>
+      <Point Name="NR">-392808.331+1765130.370</Point>
+      <Point Name="NE">-36.656667+174.655278</Point>
+      <Point Name="NS">-411740.650+1731320.116</Point>
+      <Point Name="NV">-462510.787+1681854.107</Point>
+      <Point Name="OH">-401221.740+1752316.109</Point>
+      <Point Name="OU">-445746.646+1710510.251</Point>
+      <Point Name="PM">-401913.999+1753701.000</Point>
+      <Point Name="PP">-405416.999+1745921.001</Point>
+      <Point Name="QN">-450124.250+1684456.277</Point>
+      <Point Name="RO">-380633.001+1761901.999</Point>
+      <Point Name="RU">-392647.000+1753929.999</Point>
+      <Point Name="TG">-374018.998+1761146.000</Point>
+      <Point Name="TU">-441824.494+1711334.778</Point>
+      <Point Name="UK">-441406.000+1700705.999</Point>
+      <Point Name="WB">-413105.999+1735213.001</Point>
+      <Point Name="WF">-444330.999+1691435.000</Point>
+      <Point Name="WK">-375514.002+1765451.001</Point>
+      <Point Name="WN">-411937.999+1744819.001</Point>
+      <Point Name="WO">-390024.998+1772424.001</Point>
+      <Point Name="WP">-364716.001+1743749.001</Point>
+      <Point Name="WR">-354605.999+1742154.000</Point>
+      <Point Name="WS">-414416.839+1713451.439</Point>
+      <Point Name="WU">-395743.999+1750131.001</Point>
     </Label>
   </Map>
 </Maps>
