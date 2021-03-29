@@ -140,7 +140,7 @@
     </Symbol>
   </Map>
   <Map Name="VOR" Type="System" Priority="1" CustomColourName="VOR">
-    <Symbol Type="Hexagon">
+    <Symbol Type="HollowTriangle">
       <Point>AA</Point>
       <Point>CH</Point>
       <Point>DN</Point>
@@ -161,7 +161,7 @@
     </Symbol>
   </Map>
   <Map Name="NDB" Type="System" Priority="1" CustomColourName="NDB">
-    <Symbol Type="DotFillCircle">
+    <Symbol Type="HollowTriangle">
       <Point>AP</Point>
       <Point>BE</Point>
       <Point>HK</Point>
