@@ -195,9 +195,9 @@
   <Colour id="ASDBackground">
     <Use>ASD Backgrounds</Use>
     <Name>MidGrey</Name>
-    <R>0</R>
-    <G>0</G>
-    <B>0</B>
+    <R>4</R>
+    <G>4</G>
+    <B>4</B>
   </Colour>
   <Colour id="CPDLCSendButton">
     <Use>CPDLC Hot-Send Button</Use>
@@ -209,9 +209,9 @@
   <Colour id="GroundBackground">
     <Use>A-SMGCS Background</Use>
     <Name>Grey</Name>
-    <R>0</R>
-    <G>0</G>
-    <B>0</B>
+    <R>4</R>
+    <G>4</G>
+    <B>4</B>
   </Colour>
   <Colour id="Jurisdiction">
     <Use>Jurisdiction</Use>
