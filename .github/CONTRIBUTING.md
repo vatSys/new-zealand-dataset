@@ -1,68 +1,68 @@
-# Welcome
+# VATNZ Dataset Contribution Guidelines
 
+  - [**1. Introduction**](#1-introduction)
+    - [1.1 Contributor License Agreement](#11-contributor-license-agreement)
+  - [**2. Contributing**](#2-contributing)
+    - [2.1 General Overview](#21-general-overview) 
+    - [2.2 Issue Tracking](#22-issue-tracking)
+      - [2.2.1 Opening a new Issue](#221-opening-a-new-issue)
+    - [2.3 Forking the Repo](#23-forking-the-repo)
+    - [2.4 Submitting a Pull Request](#24-submitting-a-pull-request)
+    - [2.4.1 Guidelines](#241-guidelines)<!-- /TOC -->
 
-- [Contributor License Agreement](#contributor-license-agreement)    
-- [Contributing](#contributing)        
-    - [Contributing to the Dataset](#contributing-to-the-dataset)        
-    - [Testing the Dataset, and your changes](#testing-the-dataset-and-your-changes)        
-    - [Issue Tracking](#issue-tracking)        
-    - [Pull Requests](#pull-requests)            
-        - [Pull Request Guidelines](#pull-request-guidelines)
+<!-- End TOC -->
 
+## 1. Introduction
 
-Welcome to the VATNZ Dataset repository. Thank you for offering your help to maintain the New Zealand Dataset. This document details the correct processes to follow in order to add your own code to the project.
+Welcome to the GitHub repository for the New Zealand Dataset. Thank you for taking an interest in maintaining our Dataset. This document details the correct processes to followin order to add your own code to the project.
 
-#### Contributor License Agreement
+This document assumes you have some knowledge about how git works, and how GitHub works specifically. You should be comfortable with forking repositories, committing code to that repository, and then creating pull requests.
 
-By submitting code as an individual, you agree that VATNZ can use your ammendments, fixes, patches, changes modifications and submissions in the production of the New Zealand Dataset; and that the ownership of your submissions transfers to VATNZ in their entirety.
+### 1.1 Contributor License Agreement
 
-## Contributing
+By submitting code to this project you agree that VATNZ can use your ammendments, fixes, patches, changes or modifications in the production of the New Zealand Dataset; and that ownership of your submissions transfers to VATNZ in their entirety.
 
-### Contributing to the Dataset
+## 2. Contributing
 
-If you're comfortable with contributing to Open Source projects on GitHub please ensure you read our expectations for issue tracking, feature proposals and merge requests.
+### 2.1 General Overview
 
-**Please avoid** adding AIRAC related commits until you've seen an issue raised for them. If an AIP Bulletin is released, the Controller Operations Director or a delegated individual will review it and raise an issue for the work to be completed.
+The Dataset repo follows GitHub best practice, with changes being made outside of the master repository and merged via pull request. This ensures adequate compartmentalisation of different development versions, with only the stable current release ever being present in the master branch. 
 
-### Testing the Dataset, and your changes
+The Dataset repo currently has a few different branches -
+- `master` - the master release repository for the project
+- `airac-wip` - where changes for the next AIRAC release are staged. This is the active development branch.
+- `position-rewrite` - part of a larger optimization of backend positions, in addition to the addition of Tower control zones.
 
-At the moment, the only way you can test your changes is by pointing the vatSys Profile to the development version. This can easily be done with [GitHub Desktop](https://desktop.github.com/) or the CLI. By pointing the vatSys Profile selector to the `Profile.xml ` of your development version.
+### 2.2 Issue Tracking
 
-### Issue Tracking
+Our repository uses the built-in GitHub Issues system to monitor changes made to our Dataset. This ensures that every commit made can be adequately traced. 
 
-If you require support with the Dataset or vatSys, please utilise the #vatsys-discussion channel in the VATNZ Discord server. Issues specifically regarding the features and functions of vatSys should be directed to the VATNZ Training Team. The GitHub Issue Tracker is for feature requests and bugs concerning the NZ Dataset itself.
+Users of the Dataset are more than welcome to open an Issue for a feature or issue they want to be addressed. 
 
-When submitting an issue, there's a few guidelines that we request you follow.
+#### 2.2.1 Opening a new Issue
 
-* **Search the Issue Tracker** before you submit an issue, as it may already be present. [The Issue Tracker can be found here](https://github.com/vatSys/new-zealand-dataset/issues).
+When opening a new issue, we ask that you follow these very simple guidelines -
 
-* When opening an issue, please provide as much information as you can to ensure that others are able to act upon the requests or bug report. If you are raising an issue for a bug you have encountered, you should also include how to replicate the bug.
+- **Search the Issue Tracker before you submit an issue**, as it may already be present. 
+- **Provide as much information as you can**. If this is a request, then should be providing references to the changes. 
+- **If you are filing a bug report**, please provide the current build number of your vatSys client and your `error_log.txt`. This can be found in your `User\Documents\vatSys Files\` directory.
 
-### Pull Requests
+### 2.3 Forking the Repo
 
-We welcome pull requests with fixes and improvements to the NZ Dataset. The features that are free and not assigned to somebody will be marked as "up-for-grabs" in the Issue Tracker, but other improvements are also welcome - please ensure you follow the pull work-flow below. This work-flow is designed to be simple, but also ensure consistency from **all** members.
+As stated above, we do not allow direct commits to the `master` branch. All changes are to made to the `airac-wip` branch, where it can be evaluated by the Operations Director prior to release.
 
-1. Fork the project.
+When forking the repo, we ask that you fork the `master` branch, as this will be the most stable platform for you to work from. 
 
-2. Commit your changes to your forked Repo.
+### 2.4 Submitting a Pull Request
 
-3. **Add your changes to the CHANGELOG.md file**. This can be found in [NEW-ZEALAND-DATASET/.github/CHANGELOG.md](CHANGELOG.md).
+#### 2.4.1 Guidelines 
 
-4. Push the commit(s) to your fork.
+Submitting your Pull Request is no different from submitting any other PR. Ensure that you are submitting a PR from your repo to the `airac-wip` branch of our repo. 
 
-5. Submit a Pull Request (PR) to the master Repo. **See below for PR formatting rules**.
+- The title of the PR should reference the Issue number of the problem you're solving. It should be succint and accurate. 
+- You should use action words within your title. Using words such as `Fixes` or `Closes` will automatically close the Issue apon merge and their usage is desirable. 
+- Throughout your development of the issue, you should have been updating the original Issue the best you can. Before you submit your PR, you should include a summary of testing you've carried out to ensure that the issue has been rectified. This should include screenshots if applicable.
+  
+**Example of a good Pull Request title**
 
-6. Be prepared to answer any questions about your PR when it is reviewed for acceptance.
-
-#### Pull Request Guidelines
-
-* The PR title should describe the change that has been made. 
-
-* The PR description should confirm what changes have been made and how you know they're correct (through testing).
-
-* Include any relevant screenshots to prove the changes work.
-
-* Ensure you link any relevant issues in the merge request, remembering that you can link to the issue using a hash and the issue ID, eg #22.
-
-* When you've submitted a PR, comment on the Issue referencing the pull request in the same method as before, eg #pr-id.
-
+`(Fixes #67) Removal of Miranda (RD) NDB, replaced with waypoint MERAS.`
