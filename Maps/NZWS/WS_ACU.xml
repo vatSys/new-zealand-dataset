@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="04 STARs" Priority="1" CustomColourName="DrawProc" Centre="-41.740281+171.572586">
+    <Line>
+      <!--Rwy04 AKSE1E-->
+      AKSEM/AREDU/KAKOM/AVMAK
+    </Line>
+    <Line>
+      <!--Rwy04 DAMI1E-->
+      DAMIL/BURKI
+    </Line>
+    <Line>
+      <!--Rwy04 ESDA1E-->
+      ESDAK/WS401/WS406/AVMAK
+    </Line>
+    <Line>
+      <!--Rwy04 KAKE1E-->
+      KAKET/GUNOM
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>AVMAK</Point>
+      <Point>BURKI</Point>
+      <Point>GUNOM</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>AKSEM</Point>
+      <Point>AREDU</Point>
+      <Point>KAKOM</Point>
+      <Point>DAMIL</Point>
+      <Point>ESDAK</Point>
+      <Point>WS401</Point>
+      <Point>WS406</Point>
+      <Point>KAKET</Point>
+    </Symbol>
+    <Label>
+      <Point>AKSEM</Point>
+      <Point>DAMIL</Point>
+      <Point>ESDAK</Point>
+      <Point>KAKET</Point>
+      <Point>AVMAK</Point>
+      <Point>BURKI</Point>
+      <Point>GUNOM</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="04 GNSS" Priority="0" Center="-41.740281+171.572586" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle">
+      <Point>WS404</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>AVMAK</Point>
+      <Point>GUNOM</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross" />
+    <Symbol Type="SolidTriangle">
+      <Point>BURKI</Point>
+    </Symbol>
+    <Line>BURKI/WS404/WS04T</Line>
+    <Line>AVMAK/BURKI</Line>
+    <Line>GUNOM/BURKI</Line>
+  </Map>
+  <Map Type="System" Name="04 GNSS Labels" Priority="1" Center="-41.740281+171.572586" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>AVMAK</Point>
+      <Point>GUNOM</Point>
+      <Point>BURKI</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="22 STARs" Priority="1" CustomColourName="DrawProc" Centre="-41.733933+171.585442">
+    <Line>
+      <!--Rwy22 AKSE1F-->
+      AKSEM/WS501/PILUP
+    </Line>
+    <Line>
+      <!--Rwy22 DAMI1F-->
+      DAMIL/ANSIS
+    </Line>
+    <Line>
+      <!--Rwy22 ESDA1F-->
+      ESDAK/WS501
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>PILUP</Point>
+      <Point>ANSIS</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>AKSEM</Point>
+      <Point>WS501</Point>
+      <Point>DAMIL</Point>
+      <Point>ESDAK</Point>
+    </Symbol>
+    <Label>
+      <Point>AKSEM</Point>
+      <Point>DAMIL</Point>
+      <Point>ESDAK</Point>
+      <Point>PILUP</Point>
+      <Point>ANSIS</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="22 GNSS" Priority="0" Center="-41.733933+171.585442" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle">
+      <Point>WS411</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>ANSIS</Point>
+      <Point>PILUP</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross" />
+    <Symbol Type="SolidTriangle">
+      <Point>WS408</Point>
+    </Symbol>
+    <Line>WS408/WS411/WS22T</Line>
+    <Line>ANSIS/WS408</Line>
+    <Line>PILUP/WS408</Line>
+  </Map>
+  <Map Type="System" Name="22 GNSS Labels" Priority="1" Center="-41.733933+171.585442" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>ANSIS</Point>
+      <Point>PILUP</Point>
+      <Point>WS408</Point>
+    </Label>
+  </Map>
+</Maps>

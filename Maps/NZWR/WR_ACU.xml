@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="06 GNSS" Priority="0" Center="-35.769875+174.357825" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle">
+      <Point>WR601</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="MalteseCross">
+      <Point>ADKES</Point>
+      <Point>DUDAP</Point>
+      <Point>MONSU</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>OMANA</Point>
+      <Point>BIRAX</Point>
+    </Symbol>
+    <Line>OMANA/ADKES/WR601/WR06T</Line>
+    <Line>SF NDB/DUDAP/WR431</Line>
+    <Line>BIRAX/MONSU/WR983</Line>
+  </Map>
+  <Map Type="System" Name="06 GNSS Labels" Priority="1" Center="-35.769875+174.357825" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>ADKES</Point>
+      <Point>DUDAP</Point>
+      <Point>MONSU</Point>
+      <Point>OMANA</Point>
+      <Point>BIRAX</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="24 GNSS" Priority="0" Center="-35.768372+174.369817" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="MalteseCross">
+      <Point>DUDAP</Point>
+      <Point>MONSU</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>BIRAX</Point>
+    </Symbol>
+    <Line>SF NDB/DUDAP/WR431</Line>
+    <Line>BIRAX/MONSU/WR983</Line>
+  </Map>
+  <Map Type="System" Name="24 GNSS Labels" Priority="1" Center="-35.768372+174.369817" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>DUDAP</Point>
+      <Point>MONSU</Point>
+      <Point>BIRAX</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="14 GNSS" Priority="0" Center="-35.769653+174.359085" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="MalteseCross">
+      <Point>DUDAP</Point>
+      <Point>MONSU</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>BIRAX</Point>
+    </Symbol>
+    <Line>SF NDB/DUDAP/WR431</Line>
+    <Line>BIRAX/MONSU/WR983</Line>
+  </Map>
+  <Map Type="System" Name="14 GNSS Labels" Priority="1" Center="-35.769653+174.359085" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>DUDAP</Point>
+      <Point>MONSU</Point>
+      <Point>BIRAX</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="32 GNSS" Priority="0" Center="-35.773643+174.360977" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="MalteseCross">
+      <Point>DUDAP</Point>
+      <Point>MONSU</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>BIRAX</Point>
+    </Symbol>
+    <Line>SF NDB/DUDAP/WR431</Line>
+    <Line>BIRAX/MONSU/WR983</Line>
+  </Map>
+  <Map Type="System" Name="32 GNSS Labels" Priority="1" Center="-35.773643+174.360977" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>DUDAP</Point>
+      <Point>MONSU</Point>
+      <Point>BIRAX</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="WR VFR" Priority="1" CustomColourName="DrawProc" Centre="-35.768333+174.365000">
+    <Symbol Type="HollowSquare">
+      <Point>BREAMTAIL HEAD</Point>
+      <Point>CAPE RODNEY</Point>
+      <Point>HOLE IN THE ROCK</Point>
+      <Point>LOOKOUT HILL</Point>
+      <Point>MANGAWHAI HEADS</Point>
+      <Point>MAUNGATUROTO</Point>
+      <Point>ONE TREE POINT</Point>
+      <Point>PAIHIA WATERFRONT</Point>
+      <Point>PORTLAND</Point>
+      <Point>PUKETONA QUARRY</Point>
+      <Point>TAPEKA POINT</Point>
+      <Point>WARKWORTH</Point>
+      <Point>WELLSFORD</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>BREAMTAIL HEAD</Point>
+      <Point>CAPE RODNEY</Point>
+      <Point>HOLE IN THE ROCK</Point>
+      <Point>LOOKOUT HILL</Point>
+      <Point>MANGAWHAI HEADS</Point>
+      <Point>MAUNGATUROTO</Point>
+      <Point>ONE TREE POINT</Point>
+      <Point>PAIHIA WATERFRONT</Point>
+      <Point>PORTLAND</Point>
+      <Point>PUKETONA QUARRY</Point>
+      <Point>TAPEKA POINT</Point>
+      <Point>WARKWORTH</Point>
+      <Point>WELLSFORD</Point>
+    </Label>
+  </Map>
+</Maps>

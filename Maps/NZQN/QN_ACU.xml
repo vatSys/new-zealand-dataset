@@ -1,84 +1,779 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Maps>  
-	<Map Type="System" Name="RWY 05 STARs" Priority="2" CustomColourName="DrawProc" Centre="-450124.250+1684456.277">
-		<Line>
-			ELRUV/
-      EKVOX/
-      KASLU/
-      MABGA/
-      GOSPA/
-      AVGER/
-      IBABU
-		</Line>
-		<Line>
-			GOSPA/
-			ENKUV/
-			SUNGU
-		</Line>
-		<Line>
-			LIBLA/
-			AKBOB/
-			DULIG/
-			UBDAM/
-			IGNET/
-			BEVKO/
-			ADKOS
-		</Line>
-		<Line>
-			DOVOT/
-			POPON/
-			UBDAM/
-			LADIP/
-			AVGER
-		</Line>
+<Maps>
+  <Map Type="System" Name="05 SIDs" Priority="1" CustomColourName="DrawProc" Centre="-45.016544+168.757728">
+    <Line>
+      <!--Rwy05 ANPO3A-->
+      -45.016544+168.757728/QN843/QN846/QN849/QN852/LEMAK/QN861/METUX/ANPOV
+    </Line>
+    <Line>
+      <!--Rwy05 ANPO3A.SAVLA-->
+      ANPOV/AKMAD/NONAN/SAVLA
+    </Line>
+    <Line>
+      <!--Rwy05 ANPO3A.TIMJO-->
+      ANPOV/ATVOR/TIMJO
+    </Line>
+    <Line>
+      <!--Rwy05 DOVM1A-->
+      -45.016544+168.757728/QN605/QN615/QN621/DOVMA/QN678/QN682/QN686/QN690/QN737/BUGSA/QN878/QN882
+    </Line>
+    <Line>
+      <!--Rwy05 DOVM1A.ADLUP-->
+      QN882/REDOL/BASOS/ADLUP
+    </Line>
+    <Line>
+      <!--Rwy05 DOVM1A.SUNGU-->
+      QN882/SUNGU
+    </Line>
+    <Line>
+      <!--Rwy05 EPDE3C-->
+      -45.016544+168.757728/QN VOR/AGTAM/EPDEX
+    </Line>
+    <Line>
+      <!--Rwy05 EPDE3C.SAVLA-->
+      EPDEX/AKMAD
+    </Line>
+    <Line>
+      <!--Rwy05 EPDE3C.TIMJO-->
+      EPDEX/ATVOR
+    </Line>
+    <Line>
+      <!--Rwy05 EPDE3P-->
+      -45.016544+168.757728/GIXEL/EPDEX
+    </Line>
+    <Line>
+      <!--Rwy05 EPDE3P.SAVLA-->
+    </Line>
+    <Line>
+      <!--Rwy05 EPDE3P.TIMJO-->
+    </Line>
+    <Line>
+      <!--Rwy05 IPNO3A-->
+      LEMAK/QN862/QN864/QN866/IPNOR
+    </Line>
+    <Line>
+      <!--Rwy05 IPNO3A.ADKOS-->
+      IPNOR/ENRAT/ADKOS
+    </Line>
+    <Line>
+      <!--Rwy05 IPNO3A.LIBLA-->
+      IPNOR/BIKOS/LIBLA
+    </Line>
+    <Line>
+      <!--Rwy05 IPNO4C-->
+      -45.016544+168.757728/ISLON/LUXIS/MEBKA/IBVUK/IPNOR
+    </Line>
+    <Line>
+      <!--Rwy05 IPNO4C.ADKOS-->
+    </Line>
+    <Line>
+      <!--Rwy05 IPNO4C.LIBLA-->
+    </Line>
+    <Line>
+      <!--Rwy05 SUNG4P-->
+      MEBKA/SUNGU
+    </Line>
+    <Line>
+      <!--Rwy05 SUNG4P.ADLUP-->
+      SUNGU/BASOS
+    </Line>
+    <Symbol Type="Circle">
+      <Point>QN VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>QN843</Point>
+      <Point>QN846</Point>
+      <Point>QN849</Point>
+      <Point>QN852</Point>
+      <Point>LEMAK</Point>
+      <Point>QN861</Point>
+      <Point>METUX</Point>
+      <Point>ANPOV</Point>
+      <Point>AKMAD</Point>
+      <Point>NONAN</Point>
+      <Point>SAVLA</Point>
+      <Point>ATVOR</Point>
+      <Point>TIMJO</Point>
+      <Point>QN605</Point>
+      <Point>QN615</Point>
+      <Point>QN621</Point>
+      <Point>DOVMA</Point>
+      <Point>QN678</Point>
+      <Point>QN682</Point>
+      <Point>QN686</Point>
+      <Point>QN690</Point>
+      <Point>QN737</Point>
+      <Point>BUGSA</Point>
+      <Point>QN878</Point>
+      <Point>QN882</Point>
+      <Point>REDOL</Point>
+      <Point>BASOS</Point>
+      <Point>ADLUP</Point>
+      <Point>SUNGU</Point>
+      <Point>AGTAM</Point>
+      <Point>EPDEX</Point>
+      <Point>GIXEL</Point>
+      <Point>QN862</Point>
+      <Point>QN864</Point>
+      <Point>QN866</Point>
+      <Point>IPNOR</Point>
+      <Point>ENRAT</Point>
+      <Point>ADKOS</Point>
+      <Point>BIKOS</Point>
+      <Point>LIBLA</Point>
+      <Point>ISLON</Point>
+      <Point>LUXIS</Point>
+      <Point>MEBKA</Point>
+      <Point>IBVUK</Point>
+    </Symbol>
+    <Label>
+      <Point>ANPOV</Point>
+      <Point>QN882</Point>
+      <Point>EPDEX</Point>
+      <Point>IPNOR</Point>
+      <Point>SUNGU</Point>
+      <Point>SAVLA</Point>
+      <Point>TIMJO</Point>
+      <Point>ADLUP</Point>
+      <Point>ADKOS</Point>
+      <Point>LIBLA</Point>
+    </Label>
   </Map>
-
-  <Map Type="System" Name="RWY 23 STARs" Priority="2" CustomColourName="DrawProc" Centre="-450124.250+1684456.277">
-		<Line>
-			ELRUV/
-			PAMPU/
-			EKVOX/
-			ATKIL
-		</Line>   
-		<Line>
-			SUNGU/
-			ENKUV/
-			GOSPA/
-			MABGA/
-			UGPED
-		</Line> 
-		<Line>
-			LIBLA/
-			AKBOB/
-			DULIG/
-			UBDAM/
-			IGNET/
-			BEVKO/
-			ADKOS
-		</Line>
-		<Line>
-			DOVOT/
-			POPON/
-			UBDAM/
-			LADIP/
-			GOSPA
-		</Line>           
+  <Map Type="System" Name="05 STARs" Priority="1" CustomColourName="DrawProc" Centre="-45.020000+168.735689">
+    <Line>
+      <!--Rwy05 ELRU2A-->
+      ELRUV/EKVOX/KASLU/MABGA/GOSPA/AVGER/IBABU
+    </Line>
+    <Line>
+      <!--Rwy05 SUNG3A-->
+      SUNGU/ENKUV/GOSPA
+    </Line>
+    <Line>
+      <!--Rwy05 UBDA3A.ADKOS-->
+      ADKOS/BEVKO/IGNET/UBDAM
+    </Line>
+    <Line>
+      <!--Rwy05 UBDA3A.DOVOT-->
+      DOVOT/POPON/UBDAM
+    </Line>
+    <Line>
+      <!--Rwy05 UBDA3A.LIBLA-->
+      LIBLA/AKBOB/DULIG/UBDAM
+    </Line>
+    <Line>
+      <!--Rwy05 UBDA3A-->
+      UBDAM/LADIP/AVGER
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>IBABU</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>ELRUV</Point>
+      <Point>EKVOX</Point>
+      <Point>KASLU</Point>
+      <Point>MABGA</Point>
+      <Point>GOSPA</Point>
+      <Point>AVGER</Point>
+      <Point>SUNGU</Point>
+      <Point>ENKUV</Point>
+      <Point>ADKOS</Point>
+      <Point>BEVKO</Point>
+      <Point>IGNET</Point>
+      <Point>UBDAM</Point>
+      <Point>DOVOT</Point>
+      <Point>POPON</Point>
+      <Point>LIBLA</Point>
+      <Point>AKBOB</Point>
+      <Point>DULIG</Point>
+      <Point>LADIP</Point>
+    </Symbol>
+    <Label>
+      <Point>ELRUV</Point>
+      <Point>SUNGU</Point>
+      <Point>UBDAM</Point>
+      <Point>ADKOS</Point>
+      <Point>DOVOT</Point>
+      <Point>LIBLA</Point>
+      <Point>IBABU</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="05 GNSS" Priority="0" Center="-45.020000+168.735689" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle">
+      <Point>QN529</Point>
+      <Point>LETPO</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="MalteseCross">
+      <Point>GUSAS</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>IBABU</Point>
+    </Symbol>
+    <Line>IBABU/QN529/LETPO/GUSAS/QN581</Line>
+  </Map>
+  <Map Type="System" Name="05 GNSS Labels" Priority="1" Center="-45.020000+168.735689" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>GUSAS</Point>
+      <Point>IBABU</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="05 RNP" Priority="0" Center="-45.020000+168.735689" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle">
+      <Point>QN577</Point>
+      <Point>QN573</Point>
+      <Point>QN571</Point>
+      <Point>QN565</Point>
+      <Point>OMUBO</Point>
+      <Point>QN555</Point>
+      <Point>QN550</Point>
+      <Point>QN545</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="MalteseCross">
+      <Point>MOPGA</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>IBABU</Point>
+    </Symbol>
+    <Line>IBABU/QN577/QN573/QN571/QN565/MOPGA/OMUBO/QN555/QN550/QN545/QN05T</Line>
+  </Map>
+  <Map Type="System" Name="05 RNP Labels" Priority="1" Center="-45.020000+168.735689" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>MOPGA</Point>
+      <Point>IBABU</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="23 SIDs" Priority="1" CustomColourName="DrawProc" Centre="-45.020000+168.735689">
+    <Line>
+      <!--Rwy23 ANPO3B-->
+      -45.020000+168.735689/QN727/KABAP/NOLUV/QN732/RUXAK/QN737/BUGSA/DUGAK/QN817/ENKUV/METUX/ANPOV
+    </Line>
+    <Line>
+      <!--Rwy23 ANPO3B.SAVLA-->
+      ANPOV/AKMAD/NONAN/SAVLA
+    </Line>
+    <Line>
+      <!--Rwy23 ANPO3B.TIMJO-->
+      ANPOV/ATVOR/TIMJO
+    </Line>
+    <Line>
+      <!--Rwy23 ANPO3D-->
+      -45.020000+168.735689/ENKUV/OLREK/TULVU/VAPLI/AVDEK/DULUL/ANPOV
+    </Line>
+    <Line>
+      <!--Rwy23 ANPO3D.SAVLA-->
+    </Line>
+    <Line>
+      <!--Rwy23 ANPO3D.TIMJO-->
+      ANPOV/EPDEX/ATVOR
+    </Line>
+    <Line>
+      <!--Rwy23 ANPO3F-->
+    </Line>
+    <Line>
+      <!--Rwy23 ANPO3F.SAVLA-->
+    </Line>
+    <Line>
+      <!--Rwy23 ANPO3F.TIMJO-->
+    </Line>
+    <Line>
+      <!--Rwy23 ANPO3S-->
+      -45.020000+168.735689/DULUL
+    </Line>
+    <Line>
+      <!--Rwy23 ANPO3S.SAVLA-->
+    </Line>
+    <Line>
+      <!--Rwy23 ANPO3S.TIMJO-->
+    </Line>
+    <Line>
+      <!--Rwy23 IPNO3B-->
+      DUGAK/VAPLI/IPNOR
+    </Line>
+    <Line>
+      <!--Rwy23 IPNO3B.ADKOS-->
+      IPNOR/ENRAT/ADKOS
+    </Line>
+    <Line>
+      <!--Rwy23 IPNO3B.LIBLA-->
+      IPNOR/BIKOS/LIBLA
+    </Line>
+    <Line>
+      <!--Rwy23 IPNO4D-->
+    </Line>
+    <Line>
+      <!--Rwy23 IPNO4D.ADKOS-->
+    </Line>
+    <Line>
+      <!--Rwy23 IPNO4D.LIBLA-->
+    </Line>
+    <Line>
+      <!--Rwy23 REDO1B-->
+      -45.020000+168.735689/QN602/UPTIN/DUGET/GOLEG/PIPOG/QN628/QN632/ASULA/QN648/TUMTA/BUGSA/QN878/QN882
+    </Line>
+    <Line>
+      <!--Rwy23 REDO1B.ADLUP-->
+      QN882/REDOL/BASOS/ADLUP
+    </Line>
+    <Line>
+      <!--Rwy23 REDO1B.SUNGU-->
+      QN882/SUNGU
+    </Line>
+    <Line>
+      <!--Rwy23 SUNG3Q-->
+      VAPLI/IBVUK/SUNGU
+    </Line>
+    <Line>
+      <!--Rwy23 SUNG3Q.ADLUP-->
+      SUNGU/BASOS
+    </Line>
+    <Line>
+      <!--Rwy23 SUNG4S-->
+      -45.020000+168.735689/ISLON/LUXIS/MEBKA/SUNGU
+    </Line>
+    <Line>
+      <!--Rwy23 SUNG4S.ADLUP-->
+    </Line>
+    <Line>
+      <!--Rwy23 SUNG3U-->
+    </Line>
+    <Line>
+      <!--Rwy23 SUNG3U.ADLUP-->
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>QN727</Point>
+      <Point>KABAP</Point>
+      <Point>NOLUV</Point>
+      <Point>QN732</Point>
+      <Point>RUXAK</Point>
+      <Point>QN737</Point>
+      <Point>BUGSA</Point>
+      <Point>DUGAK</Point>
+      <Point>QN817</Point>
+      <Point>ENKUV</Point>
+      <Point>METUX</Point>
+      <Point>ANPOV</Point>
+      <Point>AKMAD</Point>
+      <Point>NONAN</Point>
+      <Point>SAVLA</Point>
+      <Point>ATVOR</Point>
+      <Point>TIMJO</Point>
+      <Point>OLREK</Point>
+      <Point>TULVU</Point>
+      <Point>VAPLI</Point>
+      <Point>AVDEK</Point>
+      <Point>DULUL</Point>
+      <Point>EPDEX</Point>
+      <Point>IPNOR</Point>
+      <Point>ENRAT</Point>
+      <Point>ADKOS</Point>
+      <Point>BIKOS</Point>
+      <Point>LIBLA</Point>
+      <Point>QN602</Point>
+      <Point>UPTIN</Point>
+      <Point>DUGET</Point>
+      <Point>GOLEG</Point>
+      <Point>PIPOG</Point>
+      <Point>QN628</Point>
+      <Point>QN632</Point>
+      <Point>ASULA</Point>
+      <Point>QN648</Point>
+      <Point>TUMTA</Point>
+      <Point>QN878</Point>
+      <Point>QN882</Point>
+      <Point>REDOL</Point>
+      <Point>BASOS</Point>
+      <Point>ADLUP</Point>
+      <Point>SUNGU</Point>
+      <Point>IBVUK</Point>
+      <Point>ISLON</Point>
+      <Point>LUXIS</Point>
+      <Point>MEBKA</Point>
+    </Symbol>
+    <Label>
+      <Point>ANPOV</Point>
+      <Point>IPNOR</Point>
+      <Point>QN882</Point>
+      <Point>SUNGU</Point>
+      <Point>SAVLA</Point>
+      <Point>TIMJO</Point>
+      <Point>ADKOS</Point>
+      <Point>LIBLA</Point>
+      <Point>ADLUP</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="23 STARs" Priority="1" CustomColourName="DrawProc" Centre="-45.016544+168.757728">
+    <Line>
+      <!--Rwy23 ELRU4B-->
+      ELRUV/PAMPU/EKVOX/ATKIL
+    </Line>
+    <Line>
+      <!--Rwy23 SUNG4B-->
+      SUNGU/ENKUV/GOSPA/MABGA/UGPED
+    </Line>
+    <Line>
+      <!--Rwy23 UBDA4B.ADKOS-->
+      ADKOS/BEVKO/IGNET/UBDAM
+    </Line>
+    <Line>
+      <!--Rwy23 UBDA4B.DOVOT-->
+      DOVOT/POPON/UBDAM
+    </Line>
+    <Line>
+      <!--Rwy23 UBDA4B.LIBLA-->
+      LIBLA/AKBOB/DULIG/UBDAM
+    </Line>
+    <Line>
+      <!--Rwy23 UBDA4B-->
+      UBDAM/LADIP/GOSPA
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>ATKIL</Point>
+      <Point>UGPED</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>ELRUV</Point>
+      <Point>PAMPU</Point>
+      <Point>EKVOX</Point>
+      <Point>SUNGU</Point>
+      <Point>ENKUV</Point>
+      <Point>GOSPA</Point>
+      <Point>MABGA</Point>
+      <Point>ADKOS</Point>
+      <Point>BEVKO</Point>
+      <Point>IGNET</Point>
+      <Point>UBDAM</Point>
+      <Point>DOVOT</Point>
+      <Point>POPON</Point>
+      <Point>LIBLA</Point>
+      <Point>AKBOB</Point>
+      <Point>DULIG</Point>
+      <Point>LADIP</Point>
+    </Symbol>
+    <Label>
+      <Point>ELRUV</Point>
+      <Point>SUNGU</Point>
+      <Point>UBDAM</Point>
+      <Point>ADKOS</Point>
+      <Point>DOVOT</Point>
+      <Point>LIBLA</Point>
+      <Point>ATKIL</Point>
+      <Point>UGPED</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="23 GNSS" Priority="0" Center="-45.016544+168.757728" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle">
+      <Point>QN780</Point>
+      <Point>ONADU</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>ATKIL</Point>
+      <Point>UGPED</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>IKABA</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>GIVAK</Point>
+    </Symbol>
+    <Line>GIVAK/IKABA/QN603</Line>
+    <Line>ATKIL/QN780/ONADU/GIVAK</Line>
+    <Line>UGPED/ONADU</Line>
+  </Map>
+  <Map Type="System" Name="23 GNSS Labels" Priority="1" Center="-45.016544+168.757728" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>ATKIL</Point>
+      <Point>UGPED</Point>
+      <Point>IKABA</Point>
+      <Point>GIVAK</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="23 RNP" Priority="0" Center="-45.016544+168.757728" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle">
+      <Point>QN760</Point>
+      <Point>QN755</Point>
+      <Point>QN745</Point>
+      <Point>QN741</Point>
+      <Point>QN735</Point>
+      <Point>QN731</Point>
+      <Point>QN725</Point>
+      <Point>QN780</Point>
+      <Point>QN775</Point>
+      <Point>QN770</Point>
+      <Point>QN779</Point>
+      <Point>QN774</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>ATKIL</Point>
+      <Point>UGPED</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>LARAV</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>ATVUP</Point>
+    </Symbol>
+    <Line>ATVUP/QN760/QN755/LARAV/QN745/QN741/QN735/QN731/QN725/QN23T</Line>
+    <Line>ATKIL/QN780/QN775/QN770/ATVUP</Line>
+    <Line>UGPED/QN779/QN774/ATVUP</Line>
+  </Map>
+  <Map Type="System" Name="23 RNP Labels" Priority="1" Center="-45.016544+168.757728" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>ATKIL</Point>
+      <Point>UGPED</Point>
+      <Point>LARAV</Point>
+      <Point>ATVUP</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="QN VFR" Priority="1" CustomColourName="DrawProc" Centre="-45.021236+168.739247">
+    <Symbol Type="HollowSquare">
+      <Point>ADA</Point>
+      <Point>ADELAIDE</Point>
+      <Point>AFTON BURN SADDLE</Point>
+      <Point>ALABASTER</Point>
+      <Point>BANNOCKBURN</Point>
+      <Point>BAYONET PEAK</Point>
+      <Point>BEN LOMOND</Point>
+      <Point>BILLY BURN</Point>
+      <Point>BLACK GORGE</Point>
+      <Point>BOBS COVE</Point>
+      <Point>BUNGY BRIDGE</Point>
+      <Point>CARDRONA TOWNSHIP</Point>
+      <Point>CHASM</Point>
+      <Point>CLINTON FORKS</Point>
+      <Point>CLYDE DAM</Point>
+      <Point>COALPIT SADDLE</Point>
+      <Point>COLLINS BAY</Point>
+      <Point>CORONET PEAK</Point>
+      <Point>CREIGHTON SADDLE</Point>
+      <Point>CROWN SADDLE</Point>
+      <Point>DALE POINT</Point>
+      <Point>DEER PARK</Point>
+      <Point>DEVILS STAIRCASE</Point>
+      <Point>DONNE</Point>
+      <Point>DOUBLE CONE</Point>
+      <Point>DUMPLING</Point>
+      <Point>EASTERN RIDGE</Point>
+      <Point>ELFIN BAY</Point>
+      <Point>FLOOD BURN</Point>
+      <Point>FRASER DAM</Point>
+      <Point>GERTRUDE</Point>
+      <Point>GULLIVER</Point>
+      <Point>GULLY</Point>
+      <Point>HALFWAY BAY</Point>
+      <Point>HIDDEN FALLS</Point>
+      <Point>HIDDEN ISLAND</Point>
+      <Point>HIDDEN LAKES</Point>
+      <Point>HOLLYFORD STRIP</Point>
+      <Point>HOMER</Point>
+      <Point>JANE PEAK</Point>
+      <Point>JARDINES</Point>
+      <Point>KAIPO SADDLE</Point>
+      <Point>KAY CREEK</Point>
+      <Point>KNOBS FLAT</Point>
+      <Point>LAKE DISPUTE</Point>
+      <Point>LAKE GUNN</Point>
+      <Point>LAKE HAYES</Point>
+      <Point>LAKE ICEBERG</Point>
+      <Point>LAKE LUNA</Point>
+      <Point>LAKE MORETON</Point>
+      <Point>LAKE SYLVAN</Point>
+      <Point>MACETOWN</Point>
+      <Point>MARTINS BAY</Point>
+      <Point>MATUKITUKI RIVER MOUTH</Point>
+      <Point>MCKERROW ISLAND</Point>
+      <Point>MOKE LAKE</Point>
+      <Point>MONKEY FLAT</Point>
+      <Point>MOONLIGHT</Point>
+      <Point>MOUNT ALFRED</Point>
+      <Point>MOUNT ASPIRING HOMESTEAD</Point>
+      <Point>MOUNT BARKER</Point>
+      <Point>MOUNT EARNSLAW</Point>
+      <Point>MOUNT LARKINS</Point>
+      <Point>MOUNT NIC STATION</Point>
+      <Point>MOUNT TUTOKO</Point>
+      <Point>MT POSEIDON</Point>
+      <Point>PEMBROKE JUNCTION</Point>
+      <Point>PIG ISLAND</Point>
+      <Point>QUARTZ KNOLL</Point>
+      <Point>QUEENSBERRY</Point>
+      <Point>QUEENSTOWN HILL</Point>
+      <Point>RAT POINT</Point>
+      <Point>ROARING MEG</Point>
+      <Point>SHORELINE</Point>
+      <Point>SKIPPERS BRIDGE</Point>
+      <Point>SKIPPERS SADDLE</Point>
+      <Point>SOHO RIVER</Point>
+      <Point>SOUTH MAVORA LAKE</Point>
+      <Point>ST ANNE POINT</Point>
+      <Point>STREAM</Point>
+      <Point>SUNSHINE BAY</Point>
+      <Point>TARRAS</Point>
+      <Point>TE ANAU DOWNS</Point>
+      <Point>TIMARU RIVER MOUTH</Point>
+      <Point>TOLLGATE</Point>
+      <Point>TRANSIT BEACH</Point>
+      <Point>TREBLE CONE SKI FIELD</Point>
+      <Point>TUCKER BEACH</Point>
+      <Point>TUTOKO FLATS</Point>
+      <Point>VICTORIA</Point>
+      <Point>WALTER PEAK</Point>
+      <Point>WILMOT</Point>
+      <Point>WYE CREEK</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>ADA</Point>
+      <Point>ADELAIDE</Point>
+      <Point>AFTON BURN SADDLE</Point>
+      <Point>ALABASTER</Point>
+      <Point>BANNOCKBURN</Point>
+      <Point>BAYONET PEAK</Point>
+      <Point>BEN LOMOND</Point>
+      <Point>BILLY BURN</Point>
+      <Point>BLACK GORGE</Point>
+      <Point>BOBS COVE</Point>
+      <Point>BUNGY BRIDGE</Point>
+      <Point>CARDRONA TOWNSHIP</Point>
+      <Point>CHASM</Point>
+      <Point>CLINTON FORKS</Point>
+      <Point>CLYDE DAM</Point>
+      <Point>COALPIT SADDLE</Point>
+      <Point>COLLINS BAY</Point>
+      <Point>CORONET PEAK</Point>
+      <Point>CREIGHTON SADDLE</Point>
+      <Point>CROWN SADDLE</Point>
+      <Point>DALE POINT</Point>
+      <Point>DEER PARK</Point>
+      <Point>DEVILS STAIRCASE</Point>
+      <Point>DONNE</Point>
+      <Point>DOUBLE CONE</Point>
+      <Point>DUMPLING</Point>
+      <Point>EASTERN RIDGE</Point>
+      <Point>ELFIN BAY</Point>
+      <Point>FLOOD BURN</Point>
+      <Point>FRASER DAM</Point>
+      <Point>GERTRUDE</Point>
+      <Point>GULLIVER</Point>
+      <Point>GULLY</Point>
+      <Point>HALFWAY BAY</Point>
+      <Point>HIDDEN FALLS</Point>
+      <Point>HIDDEN ISLAND</Point>
+      <Point>HIDDEN LAKES</Point>
+      <Point>HOLLYFORD STRIP</Point>
+      <Point>HOMER</Point>
+      <Point>JANE PEAK</Point>
+      <Point>JARDINES</Point>
+      <Point>KAIPO SADDLE</Point>
+      <Point>KAY CREEK</Point>
+      <Point>KNOBS FLAT</Point>
+      <Point>LAKE DISPUTE</Point>
+      <Point>LAKE GUNN</Point>
+      <Point>LAKE HAYES</Point>
+      <Point>LAKE ICEBERG</Point>
+      <Point>LAKE LUNA</Point>
+      <Point>LAKE MORETON</Point>
+      <Point>LAKE SYLVAN</Point>
+      <Point>MACETOWN</Point>
+      <Point>MARTINS BAY</Point>
+      <Point>MATUKITUKI RIVER MOUTH</Point>
+      <Point>MCKERROW ISLAND</Point>
+      <Point>MOKE LAKE</Point>
+      <Point>MONKEY FLAT</Point>
+      <Point>MOONLIGHT</Point>
+      <Point>MOUNT ALFRED</Point>
+      <Point>MOUNT ASPIRING HOMESTEAD</Point>
+      <Point>MOUNT BARKER</Point>
+      <Point>MOUNT EARNSLAW</Point>
+      <Point>MOUNT LARKINS</Point>
+      <Point>MOUNT NIC STATION</Point>
+      <Point>MOUNT TUTOKO</Point>
+      <Point>MT POSEIDON</Point>
+      <Point>PEMBROKE JUNCTION</Point>
+      <Point>PIG ISLAND</Point>
+      <Point>QUARTZ KNOLL</Point>
+      <Point>QUEENSBERRY</Point>
+      <Point>QUEENSTOWN HILL</Point>
+      <Point>RAT POINT</Point>
+      <Point>ROARING MEG</Point>
+      <Point>SHORELINE</Point>
+      <Point>SKIPPERS BRIDGE</Point>
+      <Point>SKIPPERS SADDLE</Point>
+      <Point>SOHO RIVER</Point>
+      <Point>SOUTH MAVORA LAKE</Point>
+      <Point>ST ANNE POINT</Point>
+      <Point>STREAM</Point>
+      <Point>SUNSHINE BAY</Point>
+      <Point>TARRAS</Point>
+      <Point>TE ANAU DOWNS</Point>
+      <Point>TIMARU RIVER MOUTH</Point>
+      <Point>TOLLGATE</Point>
+      <Point>TRANSIT BEACH</Point>
+      <Point>TREBLE CONE SKI FIELD</Point>
+      <Point>TUCKER BEACH</Point>
+      <Point>TUTOKO FLATS</Point>
+      <Point>VICTORIA</Point>
+      <Point>WALTER PEAK</Point>
+      <Point>WILMOT</Point>
+      <Point>WYE CREEK</Point>
+    </Label>
+    <Label HasLeader="True" LabelOrientation="NW">
+      <Point Name="AFTON ARR">MOUNT NIC STATION</Point>
+      <Point Name="DEVILS STAIR DEP">TOLLGATE</Point>
+      <Point Name="GIBBSTON ARR">ROARING MEG</Point>
+      <Point Name="MOKE LAKE DEP">SUNSHINE BAY</Point>
+      <Point Name="MOONLIGHT ARR">MOONLIGHT</Point>
+      <Point Name="SKIP SAD DEP">TUCKER BEACH</Point>
+      <Point Name="SOHO RIVER DEP">LAKE HAYES</Point>
+      <Point Name="VICTORIA DEP">BUNGY BRIDGE</Point>
+    </Label>
+    <Label HasLeader="True" LabelOrientation="SE">
+      <Point Name="GULLY DEP">TOLLGATE</Point>
+      <Point Name="MT NIC ARR">MOUNT NIC STATION</Point>
+      <Point Name="RAT PNT DEP">SUNSHINE BAY</Point>
+    </Label>
+    <!--AFTON ARR-->
+    <Line Pattern="Dotted">
+      MOUNT NIC STATION/AFTON BURN SADDLE/STREAM/WALTER PEAK/GULLY
+    </Line>
+    <!--DEVILS STAIR DEP-->
+    <Line Pattern="Dotted">
+      TOLLGATE/WYE CREEK/DEVILS STAIRCASE
+    </Line>
+    <!--GIBBSTON ARR-->
+    <Line Pattern="Dotted">
+      ROARING MEG/VICTORIA/-45.023593+168.956785
+    </Line>
+    <!--GULLY DEP-->
+    <Line Pattern="Dotted">
+      TOLLGATE/SHORELINE/HIDDEN ISLAND/GULLY
+    </Line>
+    <!--MOKE LAKE DEP-->
+    <Line Pattern="Dotted">
+      SUNSHINE BAY/MOKE LAKE
+    </Line>
+    <!--MOONLIGHT ARR-->
+    <Line Pattern="Dotted">
+      MOONLIGHT/TUCKER BEACH
+    </Line>
+    <!--MT NIC ARR-->
+    <Line Pattern="Dotted">
+      MOUNT NIC STATION/STREAM/WALTER PEAK/GULLY/HIDDEN ISLAND/TOLLGATE
+    </Line>
+    <!--RAT PNT DEP-->
+    <Line Pattern="Dotted">
+      SUNSHINE BAY/RAT POINT
+    </Line>
+    <!--SKIP SAD DEP-->
+    <Line Pattern="Dotted">
+      TUCKER BEACH/SKIPPERS SADDLE
+    </Line>
+    <!--SOHO RIVER DEP-->
+    <Line Pattern="Dotted">
+      LAKE HAYES/SOHO RIVER
+    </Line>
+    <!--VICTORIA DEP-->
+    <Line Pattern="Dotted">
+      BUNGY BRIDGE/VICTORIA
+    </Line>
   </Map>
 </Maps>
-
-<!-- 
-		<Line>
-		
-		</Line>
--->
-
-<!-- 
-  
-  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-401221.740+1752316.109">
-		<Line>
-		
-		</Line>      
-  </Map>
-
-
--->

@@ -1,86 +1,537 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Maps>  
-	<Map Type="System" Name="RWY 18 STARs" Priority="2" CustomColourName="DrawProc" Centre="-380633.001+1761901.999">
-		<Line>
-			OKERE/
-			ABTUV/
-			LUMSO/
-			ABTUV/
-			ELAGA
-		</Line>
-		<Line>
-			ESKER/
-			LEDAK/
-			LALAN
-		</Line>
-		<Line>
-			INTOX/
-			ORAKA/
-			TOTRA
-		</Line>
-		<Line>
-			ORAKA/
-			DUBAB/
-			ISGIT/
-			DUBAB/
-			LEDAK/
-			REEVE/
-			OKERE
-		</Line> 
-		<Line>
-			GOBUK/
-			LEDAK/
-			NIKOR
-		</Line>      
+<Maps>
+  <Map Type="System" Name="18 SIDs" Priority="1" CustomColourName="DrawProc" Centre="-38.115486+176.311436">
+    <Line>
+      <!--Rwy18 ORAK2P-->
+      -38.115486+176.311436/MADRO/TOTRA/ORAKA
+    </Line>
+    <Line>
+      <!--Rwy18 ORAK2P.FALLS-->
+      ORAKA/FALLS
+    </Line>
+    <Line>
+      <!--Rwy18 ORAK2P.GOBUK-->
+      ORAKA/GOBUK
+    </Line>
+    <Line>
+      <!--Rwy18 ORAK2P.KAMLA-->
+      ORAKA/KAMLA
+    </Line>
+    <Line>
+      <!--Rwy18 TOTR3P-->
+    </Line>
+    <Line>
+      <!--Rwy18 TOTR3P.AKMAG-->
+      TOTRA/SURKA/SABID/AKMAD
+    </Line>
+    <Line>
+      <!--Rwy18 TOTR3P.IBAMU-->
+      TOTRA/IBAMU
+    </Line>
+    <Line>
+      <!--Rwy18 TOTR3P.ISGIT-->
+      TOTRA/ISGIT
+    </Line>
+    <Line>
+      <!--Rwy18 TOTR3P.LUMSO-->
+      SURKA/LUMSO
+    </Line>
+    <Line>
+      <!--Rwy18 TOTR3P.SUDAM-->
+      ISGIT/SUDAM
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>MADRO</Point>
+      <Point>TOTRA</Point>
+      <Point>ORAKA</Point>
+      <Point>FALLS</Point>
+      <Point>GOBUK</Point>
+      <Point>KAMLA</Point>
+      <Point>SURKA</Point>
+      <Point>SABID</Point>
+      <Point>AKMAD</Point>
+      <Point>IBAMU</Point>
+      <Point>ISGIT</Point>
+      <Point>LUMSO</Point>
+      <Point>SUDAM</Point>
+    </Symbol>
+    <Label>
+      <Point>ORAKA</Point>
+      <Point>TOTRA</Point>
+      <Point>FALLS</Point>
+      <Point>GOBUK</Point>
+      <Point>KAMLA</Point>
+      <Point>AKMAD</Point>
+      <Point>IBAMU</Point>
+      <Point>ISGIT</Point>
+      <Point>LUMSO</Point>
+      <Point>SUDAM</Point>
+    </Label>
   </Map>
-
-	<Map Type="System" Name="RWY 36 STARs" Priority="2" CustomColourName="DrawProc" Centre="-380633.001+1761901.999">  
-		<Line>
-			TOTRA/
-			ORAKA/
-			DUBAB/
-			GOBUK/
-			DUBAB/
-			REEVE/
-			OKERE
-		</Line> 
-		<Line>
-			IBAMU/
-			TOTRA/
-			KILAL/
-			INTOX
-		</Line>
-		<Line>
-			TOTRA/
-			SURKA/
-			ISGIT/
-			SURKA/
-			ELAGA/
-			SURKA/
-			LUMSO
-		</Line>
-		<Line>
-			TOTRA/
-			ORAKA/
-			LALAN/
-			ESKER
-		</Line>                     
+  <Map Type="System" Name="18 STARs" Priority="1" CustomColourName="DrawProc" Centre="-38.100444+176.320344">
+    <Line>
+      <!--Rwy18 ABTU1A.ELAGA-->
+      ELAGA/ABTUV
+    </Line>
+    <Line>
+      <!--Rwy18 ABTU1A.LUMSO-->
+      LUMSO/ABTUV
+    </Line>
+    <Line>
+      <!--Rwy18 ABTU1A-->
+      ABTUV/OKERE
+    </Line>
+    <Line>
+      <!--Rwy18 LEDA2A.ESKER-->
+      ESKER/LEDAK
+    </Line>
+    <Line>
+      <!--Rwy18 LEDA2A.INTOX-->
+      INTOX/ORAKA/DUBAB/LEDAK
+    </Line>
+    <Line>
+      <!--Rwy18 LEDA2A.ISGIT-->
+      ISGIT/DUBAB
+    </Line>
+    <Line>
+      <!--Rwy18 LEDA2A.LALAN-->
+      LALAN/LEDAK
+    </Line>
+    <Line>
+      <!--Rwy18 LEDA2A.TOTRA-->
+      TOTRA/ORAKA
+    </Line>
+    <Line>
+      <!--Rwy18 LEDA2A-->
+      LEDAK/REEVE/OKERE
+    </Line>
+    <Line>
+      <!--Rwy18 LEDA3C.ESKER-->
+    </Line>
+    <Line>
+      <!--Rwy18 LEDA3C.GOBUK-->
+      GOBUK/LEDAK
+    </Line>
+    <Line>
+      <!--Rwy18 LEDA3C.INTOX-->
+    </Line>
+    <Line>
+      <!--Rwy18 LEDA3C.ISGIT-->
+    </Line>
+    <Line>
+      <!--Rwy18 LEDA3C.LALAN-->
+    </Line>
+    <Line>
+      <!--Rwy18 LEDA3C-->
+      LEDAK/NIKOR
+    </Line>
+    <Line>
+      <!--Rwy18 REVE1A-->
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>OKERE</Point>
+      <Point>NIKOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>ELAGA</Point>
+      <Point>ABTUV</Point>
+      <Point>LUMSO</Point>
+      <Point>ESKER</Point>
+      <Point>LEDAK</Point>
+      <Point>INTOX</Point>
+      <Point>ORAKA</Point>
+      <Point>DUBAB</Point>
+      <Point>ISGIT</Point>
+      <Point>LALAN</Point>
+      <Point>TOTRA</Point>
+      <Point>REEVE</Point>
+      <Point>GOBUK</Point>
+    </Symbol>
+    <Label>
+      <Point>ABTUV</Point>
+      <Point>LEDAK</Point>
+      <Point>REEVE</Point>
+      <Point>ELAGA</Point>
+      <Point>LUMSO</Point>
+      <Point>ESKER</Point>
+      <Point>INTOX</Point>
+      <Point>ISGIT</Point>
+      <Point>LALAN</Point>
+      <Point>TOTRA</Point>
+      <Point>GOBUK</Point>
+      <Point>OKERE</Point>
+      <Point>NIKOR</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="18 GNSS" Priority="0" Center="-38.100444+176.320344" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle">
+      <Point>-38.125194+176.293947</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>OKERE</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>-38.172367+176.219978</Point>
+      <Point>ELKOB</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>TOTRA</Point>
+      <Point>NIKOR</Point>
+    </Symbol>
+    <Line>TOTRA/-38.172367+176.219978/-38.125194+176.293947/OKERE</Line>
+    <Line>NIKOR/ELKOB/RO18T</Line>
+    <Line>OKERE/NIKOR</Line>
+  </Map>
+  <Map Type="System" Name="18 GNSS Labels" Priority="1" Center="-38.100444+176.320344" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>OKERE</Point>
+      <Point>ELKOB</Point>
+      <Point>TOTRA</Point>
+      <Point>NIKOR</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="18 RNP" Priority="0" Center="-38.100444+176.320344" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle">
+      <Point>RO185</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="MalteseCross">
+      <Point>RO186</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>OKERE</Point>
+    </Symbol>
+    <Line>OKERE/RO186/RO185/RO18T</Line>
+  </Map>
+  <Map Type="System" Name="18 RNP Labels" Priority="1" Center="-38.100444+176.320344" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>RO186</Point>
+      <Point>OKERE</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="36 SIDs" Priority="1" CustomColourName="DrawProc" Centre="-38.100444+176.320344">
+    <Line>
+      <!--Rwy36 DOLS2R-->
+      -38.100444+176.320344/NIKOR/DOLSO
+    </Line>
+    <Line>
+      <!--Rwy36 DOLS2R.AKMAG-->
+      DOLSO/NUMTU/SABID/AKMAG
+    </Line>
+    <Line>
+      <!--Rwy36 DOLS2R.IBAMU-->
+      NUMTU/IBAMU
+    </Line>
+    <Line>
+      <!--Rwy36 DOLS2R.ISGIT-->
+      NUMTU/ISGIT
+    </Line>
+    <Line>
+      <!--Rwy36 DOLS2R.LUMSO-->
+      DOLSO/LUMSO
+    </Line>
+    <Line>
+      <!--Rwy36 DOLS2R.SUDAM-->
+      SABID/SUDAM
+    </Line>
+    <Line>
+      <!--Rwy36 NIKO2R-->
+    </Line>
+    <Line>
+      <!--Rwy36 NIKO2R.FALLS-->
+      NIKOR/FALLS
+    </Line>
+    <Line>
+      <!--Rwy36 NIKO2R.GOBUK-->
+      NIKOR/GOBUK
+    </Line>
+    <Line>
+      <!--Rwy36 NIKO2R.KAMLA-->
+      GOBUK/KAMLA
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>NIKOR</Point>
+      <Point>DOLSO</Point>
+      <Point>NUMTU</Point>
+      <Point>SABID</Point>
+      <Point>AKMAG</Point>
+      <Point>IBAMU</Point>
+      <Point>ISGIT</Point>
+      <Point>LUMSO</Point>
+      <Point>SUDAM</Point>
+      <Point>FALLS</Point>
+      <Point>GOBUK</Point>
+      <Point>KAMLA</Point>
+    </Symbol>
+    <Label>
+      <Point>DOLSO</Point>
+      <Point>NIKOR</Point>
+      <Point>AKMAG</Point>
+      <Point>IBAMU</Point>
+      <Point>ISGIT</Point>
+      <Point>LUMSO</Point>
+      <Point>SUDAM</Point>
+      <Point>FALLS</Point>
+      <Point>GOBUK</Point>
+      <Point>KAMLA</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="36 STARs" Priority="1" CustomColourName="DrawProc" Centre="-38.115486+176.311436">
+    <Line>
+      <!--Rwy36 DUBA1B.GOBUK-->
+      GOBUK/DUBAB
+    </Line>
+    <Line>
+      <!--Rwy36 DUBA1B.OKERE-->
+      OKERE/REEVE/DUBAB
+    </Line>
+    <Line>
+      <!--Rwy36 DUBA1B-->
+      DUBAB/ORAKA/TOTRA
+    </Line>
+    <Line>
+      <!--Rwy36 IBAM1B-->
+      IBAMU/TOTRA
+    </Line>
+    <Line>
+      <!--Rwy36 INTO1B-->
+      INTOX/KILAL/TOTRA
+    </Line>
+    <Line>
+      <!--Rwy36 LALA1B.ESKER-->
+      ESKER/LALAN
+    </Line>
+    <Line>
+      <!--Rwy36 LALA1B-->
+      LALAN/ORAKA
+    </Line>
+    <Line>
+      <!--Rwy36 SURK2B.ELAGA-->
+      ELAGA/SURKA
+    </Line>
+    <Line>
+      <!--Rwy36 SURK2B.ISGIT-->
+      ISGIT/SURKA
+    </Line>
+    <Line>
+      <!--Rwy36 SURK2B.LUMSO-->
+      LUMSO/SURKA
+    </Line>
+    <Line>
+      <!--Rwy36 SURK2B-->
+      SURKA/TOTRA
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>TOTRA</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>GOBUK</Point>
+      <Point>DUBAB</Point>
+      <Point>OKERE</Point>
+      <Point>REEVE</Point>
+      <Point>ORAKA</Point>
+      <Point>IBAMU</Point>
+      <Point>INTOX</Point>
+      <Point>KILAL</Point>
+      <Point>ESKER</Point>
+      <Point>LALAN</Point>
+      <Point>ELAGA</Point>
+      <Point>SURKA</Point>
+      <Point>ISGIT</Point>
+      <Point>LUMSO</Point>
+    </Symbol>
+    <Label>
+      <Point>DUBAB</Point>
+      <Point>IBAMU</Point>
+      <Point>INTOX</Point>
+      <Point>LALAN</Point>
+      <Point>SURKA</Point>
+      <Point>GOBUK</Point>
+      <Point>OKERE</Point>
+      <Point>ESKER</Point>
+      <Point>ELAGA</Point>
+      <Point>ISGIT</Point>
+      <Point>LUMSO</Point>
+      <Point>TOTRA</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="36 GNSS" Priority="0" Center="-38.115486+176.311436" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle">
+      <Point>-38.125194+176.293947</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="MalteseCross">
+      <Point>-38.172367+176.219978</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>TOTRA</Point>
+    </Symbol>
+    <Line>TOTRA/-38.172367+176.219978/-38.125194+176.293947/OKERE</Line>
+  </Map>
+  <Map Type="System" Name="36 GNSS Labels" Priority="1" Center="-38.115486+176.311436" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>TOTRA</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="36 RNP" Priority="0" Center="-38.115486+176.311436" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle">
+      <Point>ADKAG</Point>
+      <Point>RO366</Point>
+      <Point>RO364</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="MalteseCross">
+      <Point>SEKBU</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>TOTRA</Point>
+    </Symbol>
+    <Line>TOTRA/ADKAG/SEKBU/RO366/RO364/RO36T</Line>
+  </Map>
+  <Map Type="System" Name="36 RNP Labels" Priority="1" Center="-38.115486+176.311436" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>SEKBU</Point>
+      <Point>TOTRA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="RO VFR" Priority="1" CustomColourName="DrawProc" Centre="-38.109167+176.317222">
+    <Symbol Type="HollowSquare">
+      <Point>ATHENREE</Point>
+      <Point>BEACH MOTOR CAMP</Point>
+      <Point>BLUE GUM BAY</Point>
+      <Point>BOAT HARBOUR</Point>
+      <Point>CAMBRIDGE</Point>
+      <Point>EAST JUNCTION</Point>
+      <Point>GREEN LAKE</Point>
+      <Point>HAMURANA</Point>
+      <Point>HAPARANGI</Point>
+      <Point>HATEPE</Point>
+      <Point>HAUTAPU</Point>
+      <Point>HINEHOPU</Point>
+      <Point>HINUERA</Point>
+      <Point>HUKA FALLS</Point>
+      <Point>HUNTERS CREEK</Point>
+      <Point>KAHAROA</Point>
+      <Point>KAINGAROA</Point>
+      <Point>KARANGAHAPE</Point>
+      <Point>KAREWA ISLAND</Point>
+      <Point>KATIKATI</Point>
+      <Point>KAWAHA POINT</Point>
+      <Point>KAWERAU VILLAGE</Point>
+      <Point>KIHIKIHI</Point>
+      <Point>KINLOCH</Point>
+      <Point>LAKE ROTOKAWA</Point>
+      <Point>LAKE ROTOKAWAU</Point>
+      <Point>MAKETU</Point>
+      <Point>MAMAKU</Point>
+      <Point>MANAWARU</Point>
+      <Point>MATANGI</Point>
+      <Point>MOKOIA ISLAND</Point>
+      <Point>MORRINSVILLE</Point>
+      <Point>MOTUTAIKO ISLAND</Point>
+      <Point>MOUNT BALDY</Point>
+      <Point>MOUNT HARBOUR ENTRANCE</Point>
+      <Point>MOUNT RURU</Point>
+      <Point>MOUNT TARAWERA</Point>
+      <Point>MOUNT TAUHARA</Point>
+      <Point>MYSTERY CREEK</Point>
+      <Point>NGAKURU</Point>
+      <Point>NGONGOTAHA</Point>
+      <Point>OHAUPO</Point>
+      <Point>OMOKOROA</Point>
+      <Point>OXIDATION PONDS</Point>
+      <Point>PUKEPOTO</Point>
+      <Point>RACECOURSE</Point>
+      <Point>RANGATIRA POINT</Point>
+      <Point>RUAHIHI</Point>
+      <Point>SANDFLY HILL</Point>
+      <Point>SCOTSMANS VALLEY</Point>
+      <Point>SOUTHERN DAM</Point>
+      <Point>SPORTS GROUND</Point>
+      <Point>ST PETERS SCHOOL</Point>
+      <Point>TE AWAMUTU</Point>
+      <Point>TE POI</Point>
+      <Point>TE PUKE</Point>
+      <Point>TE PUNA</Point>
+      <Point>TIRAU</Point>
+      <Point>TOKOROA</Point>
+      <Point>TUNNEL</Point>
+      <Point>WAIPA SAWMILL</Point>
+      <Point>WAIRAKEI</Point>
+      <Point>WAIRANGO</Point>
+      <Point>WAITOA</Point>
+      <Point>WELCOME BAY</Point>
+      <Point>WHAKAIPO BAY</Point>
+      <Point>WHITE CLIFFS</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>ATHENREE</Point>
+      <Point>BEACH MOTOR CAMP</Point>
+      <Point>BLUE GUM BAY</Point>
+      <Point>BOAT HARBOUR</Point>
+      <Point>CAMBRIDGE</Point>
+      <Point>EAST JUNCTION</Point>
+      <Point>GREEN LAKE</Point>
+      <Point>HAMURANA</Point>
+      <Point>HAPARANGI</Point>
+      <Point>HATEPE</Point>
+      <Point>HAUTAPU</Point>
+      <Point>HINEHOPU</Point>
+      <Point>HINUERA</Point>
+      <Point>HUKA FALLS</Point>
+      <Point>HUNTERS CREEK</Point>
+      <Point>KAHAROA</Point>
+      <Point>KAINGAROA</Point>
+      <Point>KARANGAHAPE</Point>
+      <Point>KAREWA ISLAND</Point>
+      <Point>KATIKATI</Point>
+      <Point>KAWAHA POINT</Point>
+      <Point>KAWERAU VILLAGE</Point>
+      <Point>KIHIKIHI</Point>
+      <Point>KINLOCH</Point>
+      <Point>LAKE ROTOKAWA</Point>
+      <Point>LAKE ROTOKAWAU</Point>
+      <Point>MAKETU</Point>
+      <Point>MAMAKU</Point>
+      <Point>MANAWARU</Point>
+      <Point>MATANGI</Point>
+      <Point>MOKOIA ISLAND</Point>
+      <Point>MORRINSVILLE</Point>
+      <Point>MOTUTAIKO ISLAND</Point>
+      <Point>MOUNT BALDY</Point>
+      <Point>MOUNT HARBOUR ENTRANCE</Point>
+      <Point>MOUNT RURU</Point>
+      <Point>MOUNT TARAWERA</Point>
+      <Point>MOUNT TAUHARA</Point>
+      <Point>MYSTERY CREEK</Point>
+      <Point>NGAKURU</Point>
+      <Point>NGONGOTAHA</Point>
+      <Point>OHAUPO</Point>
+      <Point>OMOKOROA</Point>
+      <Point>OXIDATION PONDS</Point>
+      <Point>PUKEPOTO</Point>
+      <Point>RACECOURSE</Point>
+      <Point>RANGATIRA POINT</Point>
+      <Point>RUAHIHI</Point>
+      <Point>SANDFLY HILL</Point>
+      <Point>SCOTSMANS VALLEY</Point>
+      <Point>SOUTHERN DAM</Point>
+      <Point>SPORTS GROUND</Point>
+      <Point>ST PETERS SCHOOL</Point>
+      <Point>TE AWAMUTU</Point>
+      <Point>TE POI</Point>
+      <Point>TE PUKE</Point>
+      <Point>TE PUNA</Point>
+      <Point>TIRAU</Point>
+      <Point>TOKOROA</Point>
+      <Point>TUNNEL</Point>
+      <Point>WAIPA SAWMILL</Point>
+      <Point>WAIRAKEI</Point>
+      <Point>WAIRANGO</Point>
+      <Point>WAITOA</Point>
+      <Point>WELCOME BAY</Point>
+      <Point>WHAKAIPO BAY</Point>
+      <Point>WHITE CLIFFS</Point>
+    </Label>
   </Map>
 </Maps>
-
-<!-- 
-		<Line>
-		
-		</Line>
--->
-
-<!-- 
-  
-  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-380633.001+1761901.999">
-		<Line>
-		
-		</Line>      
-  </Map>
-
-
--->

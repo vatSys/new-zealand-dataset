@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="16 GNSS" Priority="0" Center="-36.320661+174.555944" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle">
+      <Point>SEMKI</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="MalteseCross">
+      <Point>BAMEX</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>APABO</Point>
+    </Symbol>
+    <Line>APABO/BAMEX/SEMKI/SL16T</Line>
+  </Map>
+  <Map Type="System" Name="16 GNSS Labels" Priority="1" Center="-36.320661+174.555944" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>BAMEX</Point>
+      <Point>APABO</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="SL VFR" Priority="1" CustomColourName="DrawProc" Centre="-36.325000+174.555556">
+    <Symbol Type="HollowSquare">
+      <Point>AVONDALE RACECOURSE</Point>
+      <Point>BLOCKHOUSE BAY</Point>
+      <Point>BREAMTAIL HEAD</Point>
+      <Point>BROOKBY</Point>
+      <Point>CAPE RODNEY</Point>
+      <Point>CLARKS BEACH</Point>
+      <Point>CLENDON PARK</Point>
+      <Point>CLEVEDON</Point>
+      <Point>CORNWALLIS</Point>
+      <Point>HELENSVILLE</Point>
+      <Point>HINGAIA BRIDGE</Point>
+      <Point>HOWICK</Point>
+      <Point>KARAKA</Point>
+      <Point>KAWAKAWA BAY</Point>
+      <Point>KINGSEAT</Point>
+      <Point>LAKE PUPUKE</Point>
+      <Point>LOOKOUT HILL</Point>
+      <Point>LPG TERMINAL</Point>
+      <Point>MANGAWHAI HEADS</Point>
+      <Point>MANGERE BRIDGE</Point>
+      <Point>MANGERE TOWN</Point>
+      <Point>MANUKAU HEADS</Point>
+      <Point>MAUNGATUROTO</Point>
+      <Point>MCLAUGHLINS MOUNTAIN</Point>
+      <Point>MUSICK POINT</Point>
+      <Point>NESS VALLEY</Point>
+      <Point>NORTH HEAD</Point>
+      <Point>OKURA RIVER MOUTH</Point>
+      <Point>ONE TREE HILL</Point>
+      <Point>ONE TREE POINT</Point>
+      <Point>OREWA</Point>
+      <Point>PAKURANGA TOWN</Point>
+      <Point>PANMURE</Point>
+      <Point>PAPAKURA</Point>
+      <Point>POINT CHEVALIER</Point>
+      <Point>PORTLAND</Point>
+      <Point>PUKETUTU ISLAND</Point>
+      <Point>RED HILL</Point>
+      <Point>SEAGROVE</Point>
+      <Point>ST HELIERS</Point>
+      <Point>TE ATATU</Point>
+      <Point>WAIMAUKU</Point>
+      <Point>WAIROA RIVER MOUTH</Point>
+      <Point>WAITAKERE</Point>
+      <Point>WARKWORTH</Point>
+      <Point>WATERWORKS</Point>
+      <Point>WELLSFORD</Point>
+      <Point>WEYMOUTH</Point>
+      <Point>WHITFORD TOWN</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>AVONDALE RACECOURSE</Point>
+      <Point>BLOCKHOUSE BAY</Point>
+      <Point>BREAMTAIL HEAD</Point>
+      <Point>BROOKBY</Point>
+      <Point>CAPE RODNEY</Point>
+      <Point>CLARKS BEACH</Point>
+      <Point>CLENDON PARK</Point>
+      <Point>CLEVEDON</Point>
+      <Point>CORNWALLIS</Point>
+      <Point>HELENSVILLE</Point>
+      <Point>HINGAIA BRIDGE</Point>
+      <Point>HOWICK</Point>
+      <Point>KARAKA</Point>
+      <Point>KAWAKAWA BAY</Point>
+      <Point>KINGSEAT</Point>
+      <Point>LAKE PUPUKE</Point>
+      <Point>LOOKOUT HILL</Point>
+      <Point>LPG TERMINAL</Point>
+      <Point>MANGAWHAI HEADS</Point>
+      <Point>MANGERE BRIDGE</Point>
+      <Point>MANGERE TOWN</Point>
+      <Point>MANUKAU HEADS</Point>
+      <Point>MAUNGATUROTO</Point>
+      <Point>MCLAUGHLINS MOUNTAIN</Point>
+      <Point>MUSICK POINT</Point>
+      <Point>NESS VALLEY</Point>
+      <Point>NORTH HEAD</Point>
+      <Point>OKURA RIVER MOUTH</Point>
+      <Point>ONE TREE HILL</Point>
+      <Point>ONE TREE POINT</Point>
+      <Point>OREWA</Point>
+      <Point>PAKURANGA TOWN</Point>
+      <Point>PANMURE</Point>
+      <Point>PAPAKURA</Point>
+      <Point>POINT CHEVALIER</Point>
+      <Point>PORTLAND</Point>
+      <Point>PUKETUTU ISLAND</Point>
+      <Point>RED HILL</Point>
+      <Point>SEAGROVE</Point>
+      <Point>ST HELIERS</Point>
+      <Point>TE ATATU</Point>
+      <Point>WAIMAUKU</Point>
+      <Point>WAIROA RIVER MOUTH</Point>
+      <Point>WAITAKERE</Point>
+      <Point>WARKWORTH</Point>
+      <Point>WATERWORKS</Point>
+      <Point>WELLSFORD</Point>
+      <Point>WEYMOUTH</Point>
+      <Point>WHITFORD TOWN</Point>
+    </Label>
+  </Map>
+</Maps>

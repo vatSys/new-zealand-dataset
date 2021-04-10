@@ -1,88 +1,562 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Maps>  
-	<Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-411740.650+1731320.116">
-		<Line>
-				CONOR/
-				MIBEV
-		</Line>  
-		<Line>
-			BISEB/
-			SURID/
-			QUAIL/
-			RISMO/
-			GUNEL/
-			ISDEM/
-			LERTI/
-			VATKU/
-			LUBSI
-		</Line>
-		<Line>
-			ESNED/
-			BEPNI/
-			KAPUA/
-			MUKRA/
-			KAPUA/
-			KUNVO
-		</Line>
-		<Line>
-			DALKI/
-			GUSDU/
-			RILDO/
-			ATRES/
-			GUDKI
-		</Line>  
-		<Line>
-			LUBSI/
-			NS/
-			GUDKI/
-			BEPNI
-		</Line> 
+<Maps>
+  <Map Type="System" Name="02 SIDs" Priority="1" CustomColourName="DrawProc" Centre="-41.292228+173.229461">
+    <Line>
+      <!--Rwy02 DUMI1P-->
+      -41.292228+173.229461/-41.255556+173.258889/RIKRU/DUMIK
+    </Line>
+    <Line>
+      <!--Rwy02 IDNE2P-->
+      -41.255556+173.258889/SALIR/DAZSA/IDNIM
+    </Line>
+    <Line>
+      <!--Rwy02 IDNE2P.BISEB-->
+      IDNIM/NESTA/BISEB
+    </Line>
+    <Line>
+      <!--Rwy02 IDNE2P.CONOR-->
+      IDNIM/CONOR
+    </Line>
+    <Line>
+      <!--Rwy02 IDNE2P.NESTA-->
+    </Line>
+    <Line>
+      <!--Rwy02 LEMU2P-->
+      -41.292228+173.229461/GUSMI/LEMUT
+    </Line>
+    <Line>
+      <!--Rwy02 LEMU2P.DALKI-->
+      LEMUT/SEBGI/DALKI
+    </Line>
+    <Line>
+      <!--Rwy02 LEMU2P.SNAPA-->
+      LEMUT/SNAPA
+    </Line>
+    <Line>
+      <!--Rwy02 LUSR2P-->
+      -41.292228+173.229461/-41.199817+173.288815/PUDIG/IKITO/LUSRA
+    </Line>
+    <Line>
+      <!--Rwy02 LUSR2R-->
+      LEMUT/VENDO/TUPGU/LUSRA
+    </Line>
+    <Line>
+      <!--Rwy02 YANKE1-->
+      -41.292228+173.229461/-41.282642+173.239848/-41.280647+173.224508/-41.308636+173.210345
+    </Line>
+    <Line>
+      <!--Rwy02 ZULU2-->
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>RIKRU</Point>
+      <Point>DUMIK</Point>
+      <Point>SALIR</Point>
+      <Point>DAZSA</Point>
+      <Point>IDNIM</Point>
+      <Point>NESTA</Point>
+      <Point>BISEB</Point>
+      <Point>CONOR</Point>
+      <Point>GUSMI</Point>
+      <Point>LEMUT</Point>
+      <Point>SEBGI</Point>
+      <Point>DALKI</Point>
+      <Point>SNAPA</Point>
+      <Point>PUDIG</Point>
+      <Point>IKITO</Point>
+      <Point>LUSRA</Point>
+      <Point>VENDO</Point>
+      <Point>TUPGU</Point>
+    </Symbol>
+    <Label>
+      <Point>DUMIK</Point>
+      <Point>IDNIM</Point>
+      <Point>LEMUT</Point>
+      <Point>LUSRA</Point>
+      <Point>BISEB</Point>
+      <Point>CONOR</Point>
+      <Point>NESTA</Point>
+      <Point>DALKI</Point>
+      <Point>SNAPA</Point>
+    </Label>
   </Map>
-
-	<Map Type="System" Name="RWY 20 STARs" Priority="2" CustomColourName="DrawProc" Centre="-411740.650+1731320.116">
-		<Line>
-			KAPUA/
-			IRNUX/
-			DUGOL/
-			NS/
-			CONOR
-		</Line>
-		<Line>
-			GUNEL/
-			NS/
-			LUBSI
-		</Line>
-		<Line>
-			MUKRA/
-			KAPUA
-		</Line>
-		<Line>
-			ELMAX/
-			OSTAS/
-			KUNVO
-		</Line>
-		<Line>
-			DALKI/
-			GUSDU/
-			RILDO/
-			LIKMA
-		</Line>             
+  <Map Type="System" Name="02 STARs" Priority="1" CustomColourName="DrawProc" Centre="-41.301397+173.218922">
+    <Line>
+      <!--Rwy02 BISE2A-->
+      BISEB/SURID/QUAIL
+    </Line>
+    <Line>
+      <!--Rwy02 CONO1A-->
+      CONOR/KEVUT/MIBEV
+    </Line>
+    <Line>
+      <!--Rwy02 GUSD2A.DALKI-->
+      DALKI/GUSDU
+    </Line>
+    <Line>
+      <!--Rwy02 GUSD2A-->
+      GUSDU/RILDO/ATRES/GUDKI/BEPNI/ESNED
+    </Line>
+    <Line>
+      <!--Rwy02 KAPU2A.KUNVO-->
+      KUNVO/KAPUA
+    </Line>
+    <Line>
+      <!--Rwy02 KAPU2A.MUKRA-->
+      MUKRA/KAPUA
+    </Line>
+    <Line>
+      <!--Rwy02 KAPU2A-->
+      KAPUA/GUDKI
+    </Line>
+    <Line>
+      <!--Rwy02 LUBS2A-->
+      LUBSI/NS VOR/GUDKI
+    </Line>
+    <Line>
+      <!--Rwy02 LUBS3C-->
+      LUBSI/VATKU/LERTI/ISDEM/GUNEL/RISMO/QUAIL
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>QUAIL</Point>
+      <Point>MIBEV</Point>
+      <Point>ESNED</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>NS VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>BISEB</Point>
+      <Point>SURID</Point>
+      <Point>CONOR</Point>
+      <Point>KEVUT</Point>
+      <Point>DALKI</Point>
+      <Point>GUSDU</Point>
+      <Point>RILDO</Point>
+      <Point>ATRES</Point>
+      <Point>GUDKI</Point>
+      <Point>BEPNI</Point>
+      <Point>KUNVO</Point>
+      <Point>KAPUA</Point>
+      <Point>MUKRA</Point>
+      <Point>LUBSI</Point>
+      <Point>VATKU</Point>
+      <Point>LERTI</Point>
+      <Point>ISDEM</Point>
+      <Point>GUNEL</Point>
+      <Point>RISMO</Point>
+    </Symbol>
+    <Label>
+      <Point>BISEB</Point>
+      <Point>CONOR</Point>
+      <Point>GUSDU</Point>
+      <Point>KAPUA</Point>
+      <Point>LUBSI</Point>
+      <Point>DALKI</Point>
+      <Point>KUNVO</Point>
+      <Point>MUKRA</Point>
+      <Point>QUAIL</Point>
+      <Point>MIBEV</Point>
+      <Point>ESNED</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="02 GNSS" Priority="0" Center="-41.301397+173.218922" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>KAPUA</Point>
+      <Point>LIKMA</Point>
+      <Point>MIBEV</Point>
+      <Point>QUAIL</Point>
+      <Point>ESNED</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>NOPEM</Point>
+      <Point>PATRU</Point>
+      <Point>ISLOP</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>ELMAX</Point>
+      <Point>OTLIT</Point>
+      <Point>TUMGO</Point>
+    </Symbol>
+    <Line>ELMAX/NOPEM/ORUBA</Line>
+    <Line>KAPUA/ELMAX</Line>
+    <Line>LIKMA/ELMAX</Line>
+    <Line>OTLIT/ISLOP/PATRU/NS02T</Line>
+    <Line>MIBEV/OTLIT</Line>
+    <Line>QUAIL/OTLIT</Line>
+    <Line>TUMGO/ISLOP</Line>
+    <Line>ESNED/TUMGO</Line>
+  </Map>
+  <Map Type="System" Name="02 GNSS Labels" Priority="1" Center="-41.301397+173.218922" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>KAPUA</Point>
+      <Point>LIKMA</Point>
+      <Point>MIBEV</Point>
+      <Point>QUAIL</Point>
+      <Point>ESNED</Point>
+      <Point>NOPEM</Point>
+      <Point>PATRU</Point>
+      <Point>ISLOP</Point>
+      <Point>ELMAX</Point>
+      <Point>OTLIT</Point>
+      <Point>TUMGO</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="20 SIDs" Priority="1" CustomColourName="DrawProc" Centre="-41.301397+173.218922">
+    <Line>
+      <!--Rwy20 BISE1Q-->
+      -41.301397+173.218922/POTIR/ANITU/BISEB
+    </Line>
+    <Line>
+      <!--Rwy20 CONO1Q-->
+      ANITU/CONOR
+    </Line>
+    <Line>
+      <!--Rwy20 DUMI2Q-->
+      -41.301397+173.218922/-41.325556+173.190278/-41.320000+173.152778/ANPAR/DUMIK
+    </Line>
+    <Line>
+      <!--Rwy20 LUSR2Q-->
+      POTIR/-41.365000+173.093056/-41.396944+173.109444/PUDIG/IKITO/LUSRA
+    </Line>
+    <Line>
+      <!--Rwy20 LUSR2S-->
+      POTIR/-41.384722+173.098056/OMUKO/SADVA/VINUL/VEGRI/ESBEX/LUSRA
+    </Line>
+    <Line>
+      <!--Rwy20 LUSR3U-->
+      -41.384722+173.098056/EGINO/VEMSI/MERUT/PUDIG
+    </Line>
+    <Line>
+      <!--Rwy20 NEST1Q-->
+      ANITU/NESTA
+    </Line>
+    <Line>
+      <!--Rwy20 PAVN2Q-->
+      ANPAR/SAGVU/PAVNI
+    </Line>
+    <Line>
+      <!--Rwy20 PAVN2Q.BIVER-->
+      PAVNI/BIVER
+    </Line>
+    <Line>
+      <!--Rwy20 PAVN2Q.DUGUP-->
+      PAVNI/DUGUP
+    </Line>
+    <Line>
+      <!--Rwy20 PAVN2Q.SNAPA-->
+      PAVNI/PIPIG/SNAPA
+    </Line>
+    <Line>
+      <!--Rwy20 VICTO2-->
+      -41.301397+173.218922/NS VOR
+    </Line>
+    <Line>
+      <!--Rwy20 XRAY2-->
+      -41.301397+173.218922/-41.360138+173.147452
+    </Line>
+    <Symbol Type="Circle">
+      <Point>NS VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>POTIR</Point>
+      <Point>ANITU</Point>
+      <Point>BISEB</Point>
+      <Point>CONOR</Point>
+      <Point>ANPAR</Point>
+      <Point>DUMIK</Point>
+      <Point>PUDIG</Point>
+      <Point>IKITO</Point>
+      <Point>LUSRA</Point>
+      <Point>OMUKO</Point>
+      <Point>SADVA</Point>
+      <Point>VINUL</Point>
+      <Point>VEGRI</Point>
+      <Point>ESBEX</Point>
+      <Point>EGINO</Point>
+      <Point>VEMSI</Point>
+      <Point>MERUT</Point>
+      <Point>NESTA</Point>
+      <Point>SAGVU</Point>
+      <Point>PAVNI</Point>
+      <Point>BIVER</Point>
+      <Point>DUGUP</Point>
+      <Point>PIPIG</Point>
+      <Point>SNAPA</Point>
+    </Symbol>
+    <Label>
+      <Point>BISEB</Point>
+      <Point>CONOR</Point>
+      <Point>DUMIK</Point>
+      <Point>LUSRA</Point>
+      <Point>NESTA</Point>
+      <Point>PAVNI</Point>
+      <Point>NS VOR</Point>
+      <Point>BIVER</Point>
+      <Point>DUGUP</Point>
+      <Point>SNAPA</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="20 STARs" Priority="1" CustomColourName="DrawProc" Centre="-41.292228+173.229461">
+    <Line>
+      <!--Rwy20 CONO1B-->
+      CONOR/NS VOR/DUGOL/IRNUX/KAPUA
+    </Line>
+    <Line>
+      <!--Rwy20 GUNE1B-->
+      GUNEL/NS VOR
+    </Line>
+    <Line>
+      <!--Rwy20 GUSD1B.DALKI-->
+      DALKI/GUSDU
+    </Line>
+    <Line>
+      <!--Rwy20 GUSD1B-->
+      GUSDU/RILDO/LIKMA
+    </Line>
+    <Line>
+      <!--Rwy20 KUNV1B-->
+      KUNVO/OSTAS/ELMAX
+    </Line>
+    <Line>
+      <!--Rwy20 LUBS1B-->
+      LUBSI/NS VOR
+    </Line>
+    <Line>
+      <!--Rwy20 MUKR1B-->
+      MUKRA/KAPUA
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>KAPUA</Point>
+      <Point>LIKMA</Point>
+      <Point>ELMAX</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>NS VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>CONOR</Point>
+      <Point>DUGOL</Point>
+      <Point>IRNUX</Point>
+      <Point>GUNEL</Point>
+      <Point>DALKI</Point>
+      <Point>GUSDU</Point>
+      <Point>RILDO</Point>
+      <Point>KUNVO</Point>
+      <Point>OSTAS</Point>
+      <Point>LUBSI</Point>
+      <Point>MUKRA</Point>
+    </Symbol>
+    <Label>
+      <Point>CONOR</Point>
+      <Point>GUNEL</Point>
+      <Point>GUSDU</Point>
+      <Point>KUNVO</Point>
+      <Point>LUBSI</Point>
+      <Point>MUKRA</Point>
+      <Point>DALKI</Point>
+      <Point>KAPUA</Point>
+      <Point>LIKMA</Point>
+      <Point>ELMAX</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="20 GNSS" Priority="0" Center="-41.292228+173.229461" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>KAPUA</Point>
+      <Point>LIKMA</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>NOPEM</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>ELMAX</Point>
+    </Symbol>
+    <Line>ELMAX/NOPEM/ORUBA</Line>
+    <Line>KAPUA/ELMAX</Line>
+    <Line>LIKMA/ELMAX</Line>
+  </Map>
+  <Map Type="System" Name="20 GNSS Labels" Priority="1" Center="-41.292228+173.229461" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>KAPUA</Point>
+      <Point>LIKMA</Point>
+      <Point>NOPEM</Point>
+      <Point>ELMAX</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="06 GNSS" Priority="0" Center="-41.296364+173.216141" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>KAPUA</Point>
+      <Point>LIKMA</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>NOPEM</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>ELMAX</Point>
+    </Symbol>
+    <Line>ELMAX/NOPEM/ORUBA</Line>
+    <Line>KAPUA/ELMAX</Line>
+    <Line>LIKMA/ELMAX</Line>
+  </Map>
+  <Map Type="System" Name="06 GNSS Labels" Priority="1" Center="-41.296364+173.216141" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>KAPUA</Point>
+      <Point>LIKMA</Point>
+      <Point>NOPEM</Point>
+      <Point>ELMAX</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="24 GNSS" Priority="0" Center="-41.295631+173.224106" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>KAPUA</Point>
+      <Point>LIKMA</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>NOPEM</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>ELMAX</Point>
+    </Symbol>
+    <Line>ELMAX/NOPEM/ORUBA</Line>
+    <Line>KAPUA/ELMAX</Line>
+    <Line>LIKMA/ELMAX</Line>
+  </Map>
+  <Map Type="System" Name="24 GNSS Labels" Priority="1" Center="-41.295631+173.224106" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>KAPUA</Point>
+      <Point>LIKMA</Point>
+      <Point>NOPEM</Point>
+      <Point>ELMAX</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="NS VFR" Priority="1" CustomColourName="DrawProc" Centre="-41.298333+173.221111">
+    <Symbol Type="HollowSquare">
+      <Point>ADELE ISLAND</Point>
+      <Point>AWATERE RIVER MOUTH</Point>
+      <Point>BOULDER</Point>
+      <Point>BRANFORD</Point>
+      <Point>BRIGHTWATER</Point>
+      <Point>CAPE SOUCIS</Point>
+      <Point>CHIP MILL</Point>
+      <Point>DASHWOOD PASS</Point>
+      <Point>DIP FLAT</Point>
+      <Point>DOMES</Point>
+      <Point>DOVEDALE</Point>
+      <Point>GOAT HILL</Point>
+      <Point>GOLDEN MILL</Point>
+      <Point>JACKETTS ISLAND</Point>
+      <Point>JENKINS HILL</Point>
+      <Point>KAITUNA BRIDGE</Point>
+      <Point>KINA</Point>
+      <Point>MAITAI SADDLE</Point>
+      <Point>MAPUA</Point>
+      <Point>MATAI DAM</Point>
+      <Point>MOLESWORTH STATION</Point>
+      <Point>MOTUEKA</Point>
+      <Point>OKARAMIO</Point>
+      <Point>PEPIN ISLAND</Point>
+      <Point>PONDS</Point>
+      <Point>RABBIT ISLAND BRIDGE</Point>
+      <Point>RAINBOW SKIFIELD</Point>
+      <Point>RARANGI</Point>
+      <Point>REDWOODS VALLEY</Point>
+      <Point>RUNUNDER POINT</Point>
+      <Point>SAWMILL</Point>
+      <Point>SEDDON</Point>
+      <Point>SPRING CREEK</Point>
+      <Point>TAPAWERA</Point>
+      <Point>TAYLOR DAM</Point>
+      <Point>TAYLOR PASS</Point>
+      <Point>THE DIVERSION</Point>
+      <Point>THE NED</Point>
+      <Point>THE RIDGE</Point>
+      <Point>TUAMARINA BRIDGE</Point>
+      <Point>UPPER MOUTERE</Point>
+      <Point>WAIHOPAI BRIDGE</Point>
+      <Point>WAIRAU BAR</Point>
+      <Point>WAKEFIELD</Point>
+      <Point>WATERTANK</Point>
+      <Point>WHANGAMOA SADDLE</Point>
+      <Point>WHITE BLUFFS</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>ADELE ISLAND</Point>
+      <Point>AWATERE RIVER MOUTH</Point>
+      <Point>BOULDER</Point>
+      <Point>BRANFORD</Point>
+      <Point>BRIGHTWATER</Point>
+      <Point>CAPE SOUCIS</Point>
+      <Point>CHIP MILL</Point>
+      <Point>DASHWOOD PASS</Point>
+      <Point>DIP FLAT</Point>
+      <Point>DOMES</Point>
+      <Point>DOVEDALE</Point>
+      <Point>GOAT HILL</Point>
+      <Point>GOLDEN MILL</Point>
+      <Point>JACKETTS ISLAND</Point>
+      <Point>JENKINS HILL</Point>
+      <Point>KAITUNA BRIDGE</Point>
+      <Point>KINA</Point>
+      <Point>MAITAI SADDLE</Point>
+      <Point>MAPUA</Point>
+      <Point>MATAI DAM</Point>
+      <Point>MOLESWORTH STATION</Point>
+      <Point>MOTUEKA</Point>
+      <Point>OKARAMIO</Point>
+      <Point>PEPIN ISLAND</Point>
+      <Point>PONDS</Point>
+      <Point>RABBIT ISLAND BRIDGE</Point>
+      <Point>RAINBOW SKIFIELD</Point>
+      <Point>RARANGI</Point>
+      <Point>REDWOODS VALLEY</Point>
+      <Point>RUNUNDER POINT</Point>
+      <Point>SAWMILL</Point>
+      <Point>SEDDON</Point>
+      <Point>SPRING CREEK</Point>
+      <Point>TAPAWERA</Point>
+      <Point>TAYLOR DAM</Point>
+      <Point>TAYLOR PASS</Point>
+      <Point>THE DIVERSION</Point>
+      <Point>THE NED</Point>
+      <Point>THE RIDGE</Point>
+      <Point>TUAMARINA BRIDGE</Point>
+      <Point>UPPER MOUTERE</Point>
+      <Point>WAIHOPAI BRIDGE</Point>
+      <Point>WAIRAU BAR</Point>
+      <Point>WAKEFIELD</Point>
+      <Point>WATERTANK</Point>
+      <Point>WHANGAMOA SADDLE</Point>
+      <Point>WHITE BLUFFS</Point>
+    </Label>
+    <Label HasLeader="True" LabelOrientation="NW">
+      <Point Name="BAY_DEP">MAPUA</Point>
+      <Point Name="BOULDER">BOULDER</Point>
+      <Point Name="BRANFORD-02_DEP">BRANFORD</Point>
+      <Point Name="BRIDGE_DEP">RABBIT ISLAND BRIDGE</Point>
+      <Point Name="BRIGHTWATER_DEP">BRIGHTWATER</Point>
+    </Label>
+    <!--BAY_DEP-->
+    <Line Pattern="Dotted">
+      MAPUA
+    </Line>
+    <!--BOULDER-->
+    <Line Pattern="Dotted">
+      BOULDER
+    </Line>
+    <!--BRANFORD-02_DEP-->
+    <Line Pattern="Dotted">
+      BRANFORD
+    </Line>
+    <!--BRIDGE_DEP-->
+    <Line Pattern="Dotted">
+      RABBIT ISLAND BRIDGE
+    </Line>
+    <!--BRIGHTWATER_DEP-->
+    <Line Pattern="Dotted">
+      BRIGHTWATER
+    </Line>
   </Map>
 </Maps>
-
-<!-- 
-		<Line>
-		
-		</Line>
--->
-
-<!-- 
-  
-  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-411740.650+1731320.116">
-		<Line>
-		
-		</Line>      
-  </Map>
-
-
--->

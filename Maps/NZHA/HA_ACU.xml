@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="32 GNSS" Priority="0" Center="-39.557828+174.269719" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>NUKTO</Point>
+      <Point>UPVOK</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>HA906</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>WAPOU</Point>
+    </Symbol>
+    <Line>WAPOU/HA906/HA32T</Line>
+    <Line>NUKTO/WAPOU</Line>
+    <Line>UPVOK/WAPOU</Line>
+  </Map>
+  <Map Type="System" Name="32 GNSS Labels" Priority="1" Center="-39.557828+174.269719" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>NUKTO</Point>
+      <Point>UPVOK</Point>
+      <Point>HA906</Point>
+      <Point>WAPOU</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="HA VFR" Priority="1" CustomColourName="DrawProc" Centre="-39.553333+174.266944">
+    <Symbol Type="HollowSquare">
+      <Point>BELL BLOCK OVERPASS</Point>
+      <Point>EGMONT VILLAGE</Point>
+      <Point>FORDELL</Point>
+      <Point>GERMAN HILL</Point>
+      <Point>KAI IWI</Point>
+      <Point>LEPPERTON</Point>
+      <Point>OAKURA</Point>
+      <Point>RAETIHI</Point>
+      <Point>SUGAR LOAF ISLAND</Point>
+      <Point>TIKORANGI</Point>
+      <Point>URENUI</Point>
+      <Point>WAITARA VALLEY PLANT</Point>
+      <Point>WHANGAEHU RIVER MOUTH</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>BELL BLOCK OVERPASS</Point>
+      <Point>EGMONT VILLAGE</Point>
+      <Point>FORDELL</Point>
+      <Point>GERMAN HILL</Point>
+      <Point>KAI IWI</Point>
+      <Point>LEPPERTON</Point>
+      <Point>OAKURA</Point>
+      <Point>RAETIHI</Point>
+      <Point>SUGAR LOAF ISLAND</Point>
+      <Point>TIKORANGI</Point>
+      <Point>URENUI</Point>
+      <Point>WAITARA VALLEY PLANT</Point>
+      <Point>WHANGAEHU RIVER MOUTH</Point>
+    </Label>
+  </Map>
+</Maps>
