@@ -7,6 +7,34 @@
     <G>150</G>
     <B>150</B>
   </Colour>
+
+  <!-- Custom Procedure Colours -->
+
+  <Colour id="Custom">
+    <Use>Aerodrome IFR Departure Procedures</Use>
+    <Name>ProcDep</Name>
+    <R>75</R>
+    <G>75</G>
+    <B>75</B>
+  </Colour>
+
+  <Colour id="Custom">
+    <Use>Aerodrome IFR Arrival Procedures</Use>
+    <Name>ProcArr</Name>
+    <R>88</R>
+    <G>88</G>
+    <B>88</B>
+  </Colour>
+
+  <Colour id="Custom">
+    <Use>Aerodrome IFR Departure Procedures</Use>
+    <Name>VFRPoint</Name>
+    <R>31</R>
+    <G>77</G>
+    <B>101</B>
+  </Colour>
+
+
   <Colour id="Custom">
     <Use>Custom colour for Restricted/Military airspace</Use>
     <Name>RESTR_MIL</Name>
@@ -192,12 +220,14 @@
     <G>90</G>
     <B>90</B>
   </Colour>
+
+
   <Colour id="ASDBackground">
     <Use>ASD Backgrounds</Use>
-    <Name>MidGrey</Name>
-    <R>4</R>
-    <G>4</G>
-    <B>4</B>
+    <Name>Grey</Name>
+    <R>0</R>
+    <G>0</G>
+    <B>0</B>
   </Colour>
   <Colour id="CPDLCSendButton">
     <Use>CPDLC Hot-Send Button</Use>
@@ -209,9 +239,9 @@
   <Colour id="GroundBackground">
     <Use>A-SMGCS Background</Use>
     <Name>Grey</Name>
-    <R>4</R>
-    <G>4</G>
-    <B>4</B>
+    <R>0</R>
+    <G>0</G>
+    <B>0</B>
   </Colour>
   <Colour id="Jurisdiction">
     <Use>Jurisdiction</Use>
@@ -343,8 +373,8 @@
     <Use>Restricted/Danger Areas</Use>
     <Name>Red</Name>
     <R>255</R>
-    <G>50</G>
-    <B>50</B>
+    <G>59</G>
+    <B>20</B>
   </Colour>
   <Colour id="UserMap">
     <Use>Custom Maps and Text</Use>
@@ -356,9 +386,16 @@
   <Colour id="PrimaryMap">
     <Use>System Maps</Use>
     <Name>DarkGrey</Name>
-    <R>34</R>
-    <G>42</G>
-    <B>44</B>
+    <R>42</R>
+    <G>50</G>
+    <B>52</B>
+  </Colour>
+  <Colour id="SecondaryMap">
+    <Use>Alternative System Map</Use>
+    <Name>BlueGrey</Name>
+    <R>42</R>
+    <G>50</G>
+    <B>52</B>
   </Colour>
   <Colour id="Infill">
     <Use>Filled Area Map</Use>
@@ -366,13 +403,6 @@
     <R>0</R>
     <G>0</G>
     <B>0</B>
-  </Colour>
-  <Colour id="SecondaryMap">
-    <Use>Alternative System Map</Use>
-    <Name>BlueGrey</Name>
-    <R>34</R>
-    <G>42</G>
-    <B>44</B>
   </Colour>
   <Colour id="GroundRunway">
     <Use>A-SMGCS Runway</Use>
@@ -526,24 +556,24 @@
   <Colour id="Custom">
     <Use>VORs on ASD</Use>
     <Name>VOR</Name>
-    <R>118</R>
-    <G>118</G>
-    <B>118</B>
+    <R>42</R>
+    <G>50</G>
+    <B>52</B>
   </Colour>
 
   <Colour id="Custom">
     <Use>NDBs on ASD</Use>
     <Name>NDB</Name>
-    <R>118</R>
-    <G>118</G>
-    <B>118</B>
+    <R>42</R>
+    <G>50</G>
+    <B>52</B>
   </Colour>
 
   <Colour id="Custom">
     <Use>Darker Coast to better distinguish between the Coast and Airspace borders.</Use>
     <Name>Coast</Name>
-    <R>25</R>
-    <G>30</G>
-    <B>31</B>
+    <R>21</R>
+    <G>25</G>
+    <B>25</B>
   </Colour>
 </Colours>
