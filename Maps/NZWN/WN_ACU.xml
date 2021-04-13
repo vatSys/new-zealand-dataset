@@ -1,97 +1,97 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="16 SIDs" Priority="1" CustomColourName="DrawProc" Centre="-41.334939+174.806358">
-    <Line>
+  <Map Type="System2" Name="16 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-41.334939+174.806358">
+    <Line Pattern="Dotted">
       <!--Rwy16 DOGB1Q-->
       -41.334939+174.806358/TAXUP/TAPAB/RUSPI/MATVU/DOGBI
     </Line>
-    <Line>
+    <Line Pattern="Dotted">
       <!--Rwy16 DOGB1Q.GOPLU-->
       DOGBI/GOPLU
     </Line>
-    <Line>
+    <Line Pattern="Dotted">
       <!--Rwy16 DOGB1Q.GULUT-->
       DOGBI/GULUT
     </Line>
-    <Line>
+    <Line Pattern="Dotted">
       <!--Rwy16 DOGB1Q.KABKA-->
       DOGBI/KABKA
     </Line>
-    <Line>
+    <Line Pattern="Dotted">
       <!--Rwy16 DOGB1Q.TANEN-->
       DOGBI/TANEN
     </Line>
-    <Line>
+    <Line Pattern="Dotted">
       <!--Rwy16 DOGB1Q.VANDA-->
       DOGBI/VANDA
     </Line>
-    <Line>
+    <Line Pattern="Dotted">
       <!--Rwy16 KADN2Q-->
       -41.334939+174.806358/-41.391944+174.806111/REVNA/-41.494167+174.962778/-41.490278+175.026389/-41.451389+175.035278/ADLAK/KADNU
     </Line>
-    <Line>
+    <Line Pattern="Dotted">
       <!--Rwy16 KADN2Q.KAMET-->
       KADNU/OSALA/KAMET
     </Line>
-    <Line>
+    <Line Pattern="Dotted">
       <!--Rwy16 KADN2Q.KAPTI-->
       OSALA/KAPTI
     </Line>
-    <Line>
+    <Line Pattern="Dotted">
       <!--Rwy16 KADN2Q.NIMOS-->
       KADNU/NIMOS
     </Line>
-    <Line>
+    <Line Pattern="Dotted">
       <!--Rwy16 KADN2Q.PP-->
       OSALA/PP NDB
     </Line>
-    <Line>
+    <Line Pattern="Dotted">
       <!--Rwy16 KADN2Q.RUSIL-->
       KADNU/RUSIL
     </Line>
-    <Line>
+    <Line Pattern="Dotted">
       <!--Rwy16 MESE2Q-->
       -41.334939+174.806358/-41.376944+174.802222/MESEL
     </Line>
-    <Line>
+    <Line Pattern="Dotted">
       <!--Rwy16 MESE2Q.IGMUL-->
       MESEL/DAPVA/IGMUL
     </Line>
-    <Line>
+    <Line Pattern="Dotted">
       <!--Rwy16 MESE2Q.LUBSI-->
       MESEL/ISLUG/TAKMI/LUBSI
     </Line>
-    <Line>
+    <Line Pattern="Dotted">
       <!--Rwy16 MESE2Q.SABDA-->
       MESEL/SABDA
     </Line>
-    <Line>
+    <Line Pattern="Dotted">
       <!--Rwy16 NZWN4A-->
       -41.334939+174.806358/-41.482778+174.800278
     </Line>
-    <Line>
+    <Line Pattern="Dotted">
       <!--Rwy16 REVN2Q-->
     </Line>
-    <Line>
+    <Line Pattern="Dotted">
       <!--Rwy16 REVN2Q.ATSUN-->
       REVNA/-41.494167+174.962778/ATSUN
     </Line>
     <Line>
       <!--Rwy16 TAXU5Q-->
     </Line>
-    <Line>
+    <Line Pattern="Dotted">
       <!--Rwy16 TAXU5Q.KAMDO-->
       TAXUP/KAMDO
     </Line>
-    <Line>
+    <Line Pattern="Dotted">
       <!--Rwy16 TAXU5Q.KAMET-->
       TAXUP/-41.491667+174.739167/-41.461111+174.713611/BAXAN/KAMET
     </Line>
-    <Line>
+    <Line Pattern="Dotted">
       <!--Rwy16 TAXU5Q.RUSIL-->
       BAXAN/RUSIL
     </Line>
-    <Line>
+    <Line Pattern="Dotted">
       <!--Rwy16 TAXU5Q.SABDA-->
       TAXUP/SABDA
     </Line>
@@ -151,7 +151,7 @@
       <Point>KAMDO</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="16 STARs" Priority="1" CustomColourName="DrawProc" Centre="-41.318622+174.807458">
+  <Map Type="System" Name="16 STARs" Priority="1" CustomColourName="ProcArr" Centre="-41.318622+174.807458">
     <Line>
       <!--Rwy16 ATSU5B-->
       ATSUN/CHATS/ONOKI/PAHWA/WITBY
@@ -256,7 +256,7 @@
       <Point>DORBU</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="16 GNSS" Priority="0" Center="-41.318622+174.807458" CustomColourName="DrawProc">
+  <Map Type="System" Name="16 GNSS" Priority="0" Center="-41.318622+174.807458" CustomColourName="ProcArr">
     <Symbol Type="HollowTriangle">
       <Point>CANES</Point>
     </Symbol>
@@ -269,13 +269,13 @@
     </Symbol>
     <Line>WITBY/CANES/OLBIN/WN16T</Line>
   </Map>
-  <Map Type="System" Name="16 GNSS Labels" Priority="1" Center="-41.318622+174.807458" CustomColourName="DrawProc">
+  <Map Type="System" Name="16 GNSS Labels" Priority="1" Center="-41.318622+174.807458" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>OLBIN</Point>
       <Point>WITBY</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="16 RNP" Priority="0" Center="-41.318622+174.807458" CustomColourName="DrawProc">
+  <Map Type="System" Name="16 RNP" Priority="0" Center="-41.318622+174.807458" CustomColourName="ProcArr">
     <Symbol Type="HollowTriangle">
       <Point>WN509</Point>
       <Point>WN513</Point>
@@ -294,7 +294,7 @@
     <Line>DORBU/WN509/WN416</Line>
     <Line>HUWIT/WN513/WN416</Line>
   </Map>
-  <Map Type="System" Name="16 RNP Labels" Priority="1" Center="-41.318622+174.807458" CustomColourName="DrawProc">
+  <Map Type="System" Name="16 RNP Labels" Priority="1" Center="-41.318622+174.807458" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>DORBU</Point>
       <Point>HUWIT</Point>
@@ -302,7 +302,7 @@
       <Point>WN416</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="34 SIDs" Priority="1" CustomColourName="DrawProc" Centre="-41.318622+174.807458">
+  <Map Type="System" Name="34 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-41.318622+174.807458">
     <Line>
       <!--Rwy34 ISNI4P-->
       -41.318622+174.807458/-41.239722+174.815000/ISNIP
@@ -506,7 +506,7 @@
       <Point>VANDA</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="34 STARs" Priority="1" CustomColourName="DrawProc" Centre="-41.334939+174.806358">
+  <Map Type="System" Name="34 STARs" Priority="1" CustomColourName="ProcArr" Centre="-41.334939+174.806358">
     <Line>
       <!--Rwy34 ATSU3A-->
       ATSUN/DONNY/RONGO/UMAGA
@@ -617,7 +617,7 @@
       <Point>RIPPA</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="34 GNSS" Priority="0" Center="-41.334939+174.806358" CustomColourName="DrawProc">
+  <Map Type="System" Name="34 GNSS" Priority="0" Center="-41.334939+174.806358" CustomColourName="ProcArr">
     <Symbol Type="HollowTriangle">
       <Point>BUTIN</Point>
       <Point>WN402</Point>
@@ -633,13 +633,13 @@
     <Line>UMAGA/BUTIN/WN402/ROZAN/WN34T</Line>
     <Line>ROZAN/WN403/WN34T</Line>
   </Map>
-  <Map Type="System" Name="34 GNSS Labels" Priority="1" Center="-41.334939+174.806358" CustomColourName="DrawProc">
+  <Map Type="System" Name="34 GNSS Labels" Priority="1" Center="-41.334939+174.806358" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>ROZAN</Point>
       <Point>UMAGA</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="34 RNP" Priority="0" Center="-41.334939+174.806358" CustomColourName="DrawProc">
+  <Map Type="System" Name="34 RNP" Priority="0" Center="-41.334939+174.806358" CustomColourName="ProcArr">
     <Symbol Type="HollowTriangle">
       <Point>WN508</Point>
       <Point>WN514</Point>
@@ -661,7 +661,7 @@
     <Line>MEEDA/WN514/WN423/WN412</Line>
     <Line>RIPPA/WN411/WN506/WN412</Line>
   </Map>
-  <Map Type="System" Name="34 RNP Labels" Priority="1" Center="-41.334939+174.806358" CustomColourName="DrawProc">
+  <Map Type="System" Name="34 RNP Labels" Priority="1" Center="-41.334939+174.806358" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>MEEDA</Point>
       <Point>RIPPA</Point>
@@ -669,7 +669,7 @@
       <Point>WN412</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="WN VFR" Priority="1" CustomColourName="DrawProc" Centre="-41.327222+174.805278">
+  <Map Type="System2" Name="WN VFR" Priority="1" CustomColourName="VFRPoint" Centre="-41.327222+174.805278">
     <Symbol Type="HollowSquare">
       <Point>AVALON</Point>
       <Point>AWATERE RIVER MOUTH</Point>
