@@ -1,138 +1,897 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Maps>  
-	<Map Type="System" Name="RWY 18L STARs" Priority="2" CustomColourName="DrawProc" Centre="-375159.980+1751955.402">
-		<Line>
-			ATPUL/
-			TAYLA/
-			CHESE/
-			ADBET/
-			YOGIT/
-			POKOM/
-			YOGIT/
-			BOLOG/
-			DADUK/
-			BOLOG/
-			DABKA
-		</Line>
-		<Line>
-			LAKES/
-			VATNA/
-			TAYLA/
-			ATPUL
-		</Line>
-		<Line>
-			VATNA/
-			ADBET/
-			YOGIT/
-			POKOM/
-			YOGIT/
-			BOLOG/
-			DADUK/
-			BOLOG/
-			DABKA
-		</Line>
-		<Line>
-			TAYLA/
-			THROW/
-			NILUS/
-			VATNA/
-			NILUS/
-			KICKE/
-			KEVID/
-			PASSE/
-			BUDEN
-		</Line>
-		<Line>
-			TAYLA/
-			THROW/
-			NILUS/
-			OLDON/
-			NILUS/
-			KICKE/
-			HN/
-			KICKE/
-			GODOK
-		</Line>
-		<Line>
-			KARBA/
-			PASSE/
-			DROPT
-		</Line>
-		<Line>
-			OLDON/
-			TONID/
-			NILUS/
-		</Line>
+<Maps>
+  <Map Type="System2" Name="18L SIDs" Priority="1" CustomColourName="ProcDep" Centre="-37.873650+175.329706">
+    <Line Pattern="Dashed">
+      <!--Rwy18L BUDEN3-->
+      -37.873650+175.329706/BUDEN
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L GOMU1P-->
+      -37.873650+175.329706/MUGIL/GOMUD
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L GOMU1P.ATOLI-->
+      GOMUD/ATOLI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L GOMU1P.ATPUL-->
+      GOMUD/RIBDA/ATPUL
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L GOMU1P.POKOM-->
+      GOMUD/POKOM
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L GOMU1P.SCARY-->
+      GOMUD/SCARY
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L GOMU1P.SKEPY-->
+      RIBDA/SKEPY
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L GOMU1R-->
+      -37.873650+175.329706/GUNDA/GOMUD
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L GOMU1R.ATOLI-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L GOMU1R.ATPUL-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L GOMU1R.POKOM-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L GOMU1R.SCARY-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L GOMU1R.SKEPY-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L GOMU1T-->
+      -37.873650+175.329706/RUMET/MUGIL
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L GOMU1T.ATOLI-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L GOMU1T.ATPUL-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L GOMU1T.POKOM-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L GOMU1T.SCARY-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L GOMU1T.SKEPY-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L GUND3R-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L GUND3R.DABKA-->
+      GUNDA/DABKA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L GUND3R.DADUK-->
+      GUNDA/DADUK
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L GUND3R.DROPT-->
+      GUNDA/DROPT
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L MUGI3P-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L MUGI3P.DABKA-->
+      MUGIL/DABKA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L MUGI3P.DADUK-->
+      MUGIL/DADUK
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L MUGI3P.DROPT-->
+      MUGIL/DROPT
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L RUME1T-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L RUME1T.DABKA-->
+      RUMET/DABKA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L RUME1T.DADUK-->
+      RUMET/DADUK
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L RUME1T.DROPT-->
+      RUMET/DROPT
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L SAPE3P-->
+      MUGIL/RUMET/SAPEG
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L SAPE3P.GODOK-->
+      SAPEG/GODOK
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L SAPE3P.KARBA-->
+      SAPEG/KARBA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L SAPE3P.MIKER-->
+      SAPEG/MIKER
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L SAPE3P.OLDON-->
+      SAPEG/OLDON
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L SAPE3R-->
+      GUNDA/SAPEG
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L SAPE3R.GODOK-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L SAPE3R.KARBA-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L SAPE3R.MIKER-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L SAPE3R.OLDON-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L SAPE3T-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L SAPE3T.GODOK-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L SAPE3T.KARBA-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L SAPE3T.MIKER-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L SAPE3T.OLDON-->
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>BUDEN</Point>
+      <Point>MUGIL</Point>
+      <Point>GOMUD</Point>
+      <Point>ATOLI</Point>
+      <Point>RIBDA</Point>
+      <Point>ATPUL</Point>
+      <Point>POKOM</Point>
+      <Point>SCARY</Point>
+      <Point>SKEPY</Point>
+      <Point>GUNDA</Point>
+      <Point>RUMET</Point>
+      <Point>DABKA</Point>
+      <Point>DADUK</Point>
+      <Point>DROPT</Point>
+      <Point>SAPEG</Point>
+      <Point>GODOK</Point>
+      <Point>KARBA</Point>
+      <Point>MIKER</Point>
+      <Point>OLDON</Point>
+    </Symbol>
+    <Label>
+      <Point>BUDEN</Point>
+      <Point>GOMUD</Point>
+      <Point>GUNDA</Point>
+      <Point>MUGIL</Point>
+      <Point>RUMET</Point>
+      <Point>SAPEG</Point>
+      <Point>ATOLI</Point>
+      <Point>ATPUL</Point>
+      <Point>POKOM</Point>
+      <Point>SCARY</Point>
+      <Point>SKEPY</Point>
+      <Point>DABKA</Point>
+      <Point>DADUK</Point>
+      <Point>DROPT</Point>
+      <Point>GODOK</Point>
+      <Point>KARBA</Point>
+      <Point>MIKER</Point>
+      <Point>OLDON</Point>
+    </Label>
   </Map>
-
-  <Map Type="System" Name="RWY 36R STARs" Priority="2" CustomColourName="DrawProc" Centre="-375159.980+1751955.402">
-		<Line>
-			LAKES/
-			YOGIT/
-			POKOM/
-		</Line>  
-		<Line>
-			ATPUL/
-			CHESE/
-			TAYLA/
-			CHESE/
-			YOGIT
-		</Line>
-		<Line>
-			YOGIT/
-			DAIRY/
-			BUDEN/
-			BEBER/
-			DADUK/
-			BEBER/
-			DABKA
-		</Line>
-		<Line>
-			YOGIT/
-			BOLOG/
-			GUNDA/
-			MELEP/
-			BEBER
-		</Line>
-		<Line>
-			OLDON/
-			KICKE/
-			HN/
-			KICKE/
-			GODOK
-		</Line>
-		<Line>
-			KICKE/
-			PASSE/
-			SUBTO/
-			KARBA
-		</Line>
-		<Line>
-			BUDEN/
-			DROPT
-		</Line>
-		<Line>
-			DROPT/
-			GUNDA/
-			EGORI/
-			KICKE
-		</Line>
+  <Map Type="System2" Name="18L STARs" Priority="1" CustomColourName="ProcArr" Centre="-37.855806+175.336172">
+    <Line>
+      <!--Rwy18L ATPU1A-->
+      ATPUL/TAYLA
+    </Line>
+    <Line>
+      <!--Rwy18L ATPU2C-->
+      TAYLA/VATNA
+    </Line>
+    <Line>
+      <!--Rwy18L BUDE1A-->
+      BUDEN/PASSE/KEVID/KICKE/NILUS/THROW/TAYLA
+    </Line>
+    <Line>
+      <!--Rwy18L BUDE2C-->
+      NILUS/VATNA
+    </Line>
+    <Line>
+      <!--Rwy18L KICK1A.DROPT-->
+      DROPT/PASSE/KEVID/KICKE
+    </Line>
+    <Line>
+      <!--Rwy18L KICK1A.GODOK-->
+      GODOK/KICKE
+    </Line>
+    <Line>
+      <!--Rwy18L KICK1A.HN-->
+      HN VOR/KICKE
+    </Line>
+    <Line>
+      <!--Rwy18L KICK1A.KARBA-->
+      KARBA/PASSE
+    </Line>
+    <Line>
+      <!--Rwy18L KICK1A-->
+    </Line>
+    <Line>
+      <!--Rwy18L KICK2C.DROPT-->
+    </Line>
+    <Line>
+      <!--Rwy18L KICK2C.GODOK-->
+    </Line>
+    <Line>
+      <!--Rwy18L KICK2C.HN-->
+    </Line>
+    <Line>
+      <!--Rwy18L KICK2C.KARBA-->
+    </Line>
+    <Line>
+      <!--Rwy18L KICK2C-->
+    </Line>
+    <Line>
+      <!--Rwy18L LAKE2C-->
+      LAKES/VATNA
+    </Line>
+    <Line>
+      <!--Rwy18L OLDO2A-->
+      OLDON/NILUS
+    </Line>
+    <Line>
+      <!--Rwy18L OLDO3C-->
+      OLDON/TONID/NILUS
+    </Line>
+    <Line>
+      <!--Rwy18L YOGI1A.DABKA-->
+      DABKA/BOLOG/EKASO/YOGIT
+    </Line>
+    <Line>
+      <!--Rwy18L YOGI1A.DADUK-->
+      DADUK/BOLOG
+    </Line>
+    <Line>
+      <!--Rwy18L YOGI1A.POKOM-->
+      POKOM/YOGIT
+    </Line>
+    <Line>
+      <!--Rwy18L YOGI1A-->
+      YOGIT/ADBET/CHESE/TAYLA
+    </Line>
+    <Line>
+      <!--Rwy18L YOGI2C.DABKA-->
+      EKASO/ATPUL
+    </Line>
+    <Line>
+      <!--Rwy18L YOGI2C.DADUK-->
+    </Line>
+    <Line>
+      <!--Rwy18L YOGI2C.POKOM-->
+      POKOM/ATPUL
+    </Line>
+    <Line>
+      <!--Rwy18L YOGI2C-->
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>TAYLA</Point>
+      <Point>VATNA</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>HN VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>ATPUL</Point>
+      <Point>BUDEN</Point>
+      <Point>PASSE</Point>
+      <Point>KEVID</Point>
+      <Point>KICKE</Point>
+      <Point>NILUS</Point>
+      <Point>THROW</Point>
+      <Point>DROPT</Point>
+      <Point>GODOK</Point>
+      <Point>KARBA</Point>
+      <Point>LAKES</Point>
+      <Point>OLDON</Point>
+      <Point>TONID</Point>
+      <Point>DABKA</Point>
+      <Point>BOLOG</Point>
+      <Point>EKASO</Point>
+      <Point>YOGIT</Point>
+      <Point>DADUK</Point>
+      <Point>POKOM</Point>
+      <Point>ADBET</Point>
+      <Point>CHESE</Point>
+    </Symbol>
+    <Label>
+      <Point>ATPUL</Point>
+      <Point>BUDEN</Point>
+      <Point>KICKE</Point>
+      <Point>LAKES</Point>
+      <Point>OLDON</Point>
+      <Point>YOGIT</Point>
+      <Point>DROPT</Point>
+      <Point>GODOK</Point>
+      <Point>HN VOR</Point>
+      <Point>KARBA</Point>
+      <Point>DABKA</Point>
+      <Point>DADUK</Point>
+      <Point>POKOM</Point>
+      <Point>TAYLA</Point>
+      <Point>VATNA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="18L RNP" Priority="1" Center="-37.855806+175.336172" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="MalteseCross">
+      <Point>LAXOD</Point>
+      <Point>ISPOT</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>TAYLA</Point>
+      <Point>VATNA</Point>
+    </Symbol>
+    <Line>TAYLA/LAXOD/HN18L</Line>
+    <Line>VATNA/ISPOT/HN18L</Line>
+  </Map>
+  <Map Type="System" Name="18L RNP Labels" Priority="1" Center="-37.855806+175.336172" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>LAXOD</Point>
+      <Point>ISPOT</Point>
+      <Point>TAYLA</Point>
+      <Point>VATNA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="36R SIDs" Priority="1" CustomColourName="ProcDep" Centre="-37.855806+175.336172">
+    <Line Pattern="Dashed">
+      <!--Rwy36R AGUL2Q-->
+      -37.855806+175.336172/AGULA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R AGUL2Q.ATPUL-->
+      AGULA/ATPUL
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R AGUL2Q.SKEPY-->
+      AGULA/SKEPY
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R BEKA3Q-->
+      AGULA/BEKAK
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R BEKA3Q.ATOLI-->
+      BEKAK/ATOLI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R BEKA3Q.DABKA-->
+      BEKAK/AGETO/METEN/DABKA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R BEKA3Q.DADUK-->
+      METEN/DADUK
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R BEKA3Q.POKOM-->
+      AGETO/POKOM
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R BEKA3Q.SCARY-->
+      BEKAK/SCARY
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R BEKA3S-->
+      -37.855806+175.336172/VATNA/BEKAK
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R BEKA3S.ATOLI-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R BEKA3S.DABKA-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R BEKA3S.DADUK-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R BEKA3S.POKOM-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R BEKA3S.SCARY-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R BEKA3U-->
+      -37.855806+175.336172/BIDKO/AGULA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R BEKA3U.ATOLI-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R BEKA3U.DABKA-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R BEKA3U.DADUK-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R BEKA3U.POKOM-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R BEKA3U.SCARY-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R BIDK2U-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R BIDK2U.ATPUL-->
+      BIDKO/ATPUL
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R BIDK2U.SKEPY-->
+      BIDKO/SKEPY
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R TAYLA2-->
+      -37.855806+175.336172/TAYLA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R TEPO4Q-->
+      AGULA/BIDKO/TEPOX
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R TEPO4Q.DROPT-->
+      TEPOX/KAPLO/SAPEG/BILOK/DROPT
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R TEPO4Q.GODOK-->
+      TEPOX/GODOK
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R TEPO4Q.KARBA-->
+      KAPLO/KARBA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R TEPO4Q.MIKER-->
+      KAPLO/MIKER
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R TEPO4Q.OLDON-->
+      TEPOX/OLDON
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R TEPO4S-->
+      VATNA/TEPOX
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R TEPO4S.DROPT-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R TEPO4S.GODOK-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R TEPO4S.KARBA-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R TEPO4S.MIKER-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R TEPO4S.OLDON-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R TEPO4U-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R TEPO4U.DROPT-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R TEPO4U.GODOK-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R TEPO4U.KARBA-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R TEPO4U.MIKER-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R TEPO4U.OLDON-->
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>AGULA</Point>
+      <Point>ATPUL</Point>
+      <Point>SKEPY</Point>
+      <Point>BEKAK</Point>
+      <Point>ATOLI</Point>
+      <Point>AGETO</Point>
+      <Point>METEN</Point>
+      <Point>DABKA</Point>
+      <Point>DADUK</Point>
+      <Point>POKOM</Point>
+      <Point>SCARY</Point>
+      <Point>VATNA</Point>
+      <Point>BIDKO</Point>
+      <Point>TAYLA</Point>
+      <Point>TEPOX</Point>
+      <Point>KAPLO</Point>
+      <Point>SAPEG</Point>
+      <Point>BILOK</Point>
+      <Point>DROPT</Point>
+      <Point>GODOK</Point>
+      <Point>KARBA</Point>
+      <Point>MIKER</Point>
+      <Point>OLDON</Point>
+    </Symbol>
+    <Label>
+      <Point>AGULA</Point>
+      <Point>BEKAK</Point>
+      <Point>BIDKO</Point>
+      <Point>TAYLA</Point>
+      <Point>TEPOX</Point>
+      <Point>ATPUL</Point>
+      <Point>SKEPY</Point>
+      <Point>ATOLI</Point>
+      <Point>DABKA</Point>
+      <Point>DADUK</Point>
+      <Point>POKOM</Point>
+      <Point>SCARY</Point>
+      <Point>DROPT</Point>
+      <Point>GODOK</Point>
+      <Point>KARBA</Point>
+      <Point>MIKER</Point>
+      <Point>OLDON</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="36R STARs" Priority="1" CustomColourName="ProcArr" Centre="-37.873650+175.329706">
+    <Line>
+      <!--Rwy36R BEBE1B.DABKA-->
+      DABKA/BEBER
+    </Line>
+    <Line>
+      <!--Rwy36R BEBE1B.DADUK-->
+      DADUK/BEBER
+    </Line>
+    <Line>
+      <!--Rwy36R BEBE1B-->
+      BEBER/BUDEN
+    </Line>
+    <Line>
+      <!--Rwy36R BEBE1D.DABKA-->
+    </Line>
+    <Line>
+      <!--Rwy36R BEBE1D.DADUK-->
+    </Line>
+    <Line>
+      <!--Rwy36R BEBE1D-->
+      BEBER/MELEP/GUNDA
+    </Line>
+    <Line>
+      <!--Rwy36R DROP1B-->
+      DROPT/BUDEN
+    </Line>
+    <Line>
+      <!--Rwy36R DROP1D-->
+      DROPT/GUNDA
+    </Line>
+    <Line>
+      <!--Rwy36R KARB1B-->
+      KARBA/SUBTO/PASSE/BUDEN
+    </Line>
+    <Line>
+      <!--Rwy36R KARB1D-->
+      PASSE/GUNDA
+    </Line>
+    <Line>
+      <!--Rwy36R KICK1B.GODOK-->
+      GODOK/KICKE
+    </Line>
+    <Line>
+      <!--Rwy36R KICK1B.HN-->
+      HN VOR/KICKE
+    </Line>
+    <Line>
+      <!--Rwy36R KICK1B.OLDON-->
+      OLDON/KICKE
+    </Line>
+    <Line>
+      <!--Rwy36R KICK1B-->
+      KICKE/PASSE
+    </Line>
+    <Line>
+      <!--Rwy36R KICK1D.GODOK-->
+    </Line>
+    <Line>
+      <!--Rwy36R KICK1D.HN-->
+    </Line>
+    <Line>
+      <!--Rwy36R KICK1D.OLDON-->
+    </Line>
+    <Line>
+      <!--Rwy36R KICK1D-->
+      KICKE/EGORI/GUNDA
+    </Line>
+    <Line>
+      <!--Rwy36R YOGI1B.ATPUL-->
+      ATPUL/CHESE/YOGIT
+    </Line>
+    <Line>
+      <!--Rwy36R YOGI1B.LAKES-->
+      LAKES/YOGIT
+    </Line>
+    <Line>
+      <!--Rwy36R YOGI1B.POKOM-->
+      POKOM/YOGIT
+    </Line>
+    <Line>
+      <!--Rwy36R YOGI1B.TAYLA-->
+      TAYLA/CHESE
+    </Line>
+    <Line>
+      <!--Rwy36R YOGI1B-->
+      YOGIT/DAIRY/BUDEN
+    </Line>
+    <Line>
+      <!--Rwy36R YOGI1D.ATPUL-->
+    </Line>
+    <Line>
+      <!--Rwy36R YOGI1D.LAKES-->
+    </Line>
+    <Line>
+      <!--Rwy36R YOGI1D.POKOM-->
+    </Line>
+    <Line>
+      <!--Rwy36R YOGI1D.TAYLA-->
+    </Line>
+    <Line>
+      <!--Rwy36R YOGI1D-->
+      YOGIT/BOLOG/GUNDA
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>BUDEN</Point>
+      <Point>GUNDA</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>HN VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>DABKA</Point>
+      <Point>BEBER</Point>
+      <Point>DADUK</Point>
+      <Point>MELEP</Point>
+      <Point>DROPT</Point>
+      <Point>KARBA</Point>
+      <Point>SUBTO</Point>
+      <Point>PASSE</Point>
+      <Point>GODOK</Point>
+      <Point>KICKE</Point>
+      <Point>OLDON</Point>
+      <Point>EGORI</Point>
+      <Point>ATPUL</Point>
+      <Point>CHESE</Point>
+      <Point>YOGIT</Point>
+      <Point>LAKES</Point>
+      <Point>POKOM</Point>
+      <Point>TAYLA</Point>
+      <Point>DAIRY</Point>
+      <Point>BOLOG</Point>
+    </Symbol>
+    <Label>
+      <Point>BEBER</Point>
+      <Point>DROPT</Point>
+      <Point>KARBA</Point>
+      <Point>KICKE</Point>
+      <Point>YOGIT</Point>
+      <Point>DABKA</Point>
+      <Point>DADUK</Point>
+      <Point>GODOK</Point>
+      <Point>HN VOR</Point>
+      <Point>OLDON</Point>
+      <Point>ATPUL</Point>
+      <Point>LAKES</Point>
+      <Point>POKOM</Point>
+      <Point>TAYLA</Point>
+      <Point>BUDEN</Point>
+      <Point>GUNDA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="36R GNSS" Priority="1" Center="-37.873650+175.329706" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="MalteseCross">
+      <Point>NITAK</Point>
+      <Point>IKERI</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>BUDEN</Point>
+      <Point>GUNDA</Point>
+    </Symbol>
+    <Line>BUDEN/NITAK/HN36R</Line>
+    <Line>GUNDA/IKERI/HN36R</Line>
+  </Map>
+  <Map Type="System" Name="36R GNSS Labels" Priority="1" Center="-37.873650+175.329706" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>NITAK</Point>
+      <Point>IKERI</Point>
+      <Point>BUDEN</Point>
+      <Point>GUNDA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-37.866389+175.335278">
+    <Symbol Type="HollowSquare">
+      <Point>ATHENREE</Point>
+      <Point>BEACH MOTOR CAMP</Point>
+      <Point>BLUE GUM BAY</Point>
+      <Point>CABLEWAY</Point>
+      <Point>CAMBRIDGE</Point>
+      <Point>DRURY</Point>
+      <Point>EAST JUNCTION</Point>
+      <Point>GLENBROOK</Point>
+      <Point>GORDONTON</Point>
+      <Point>GREEN SHED</Point>
+      <Point>HAMILTON LAKE</Point>
+      <Point>HAMURANA</Point>
+      <Point>HAPARANGI</Point>
+      <Point>HAUTAPU</Point>
+      <Point>HINUERA</Point>
+      <Point>HOROTIU</Point>
+      <Point>HOTEL DU VIN</Point>
+      <Point>HUNTERS CREEK</Point>
+      <Point>HUNTLY</Point>
+      <Point>HUNUA</Point>
+      <Point>KAHAROA</Point>
+      <Point>KAREWA ISLAND</Point>
+      <Point>KATIKATI</Point>
+      <Point>KAWAHA POINT</Point>
+      <Point>KIHIKIHI</Point>
+      <Point>LAKE WAIKARE</Point>
+      <Point>MAMAKU</Point>
+      <Point>MANAWARU</Point>
+      <Point>MARAMARUA</Point>
+      <Point>MATANGI</Point>
+      <Point>MEREMERE</Point>
+      <Point>MOKOIA ISLAND</Point>
+      <Point>MORRINSVILLE</Point>
+      <Point>MOUNT BALDY</Point>
+      <Point>MOUNT HARBOUR ENTRANCE</Point>
+      <Point>MOUNT RURU</Point>
+      <Point>MYSTERY CREEK</Point>
+      <Point>NGAHINAPOURI</Point>
+      <Point>NGAKURU</Point>
+      <Point>NGATEA</Point>
+      <Point>NGONGOTAHA</Point>
+      <Point>OHAUPO</Point>
+      <Point>OMOKOROA</Point>
+      <Point>OXIDATION PONDS</Point>
+      <Point>PAEROA</Point>
+      <Point>PIRONGIA</Point>
+      <Point>QUARRY LAKE</Point>
+      <Point>RACECOURSE</Point>
+      <Point>RUAHIHI</Point>
+      <Point>RUKUHIA</Point>
+      <Point>SCOTSMANS VALLEY</Point>
+      <Point>SHOWGROUNDS</Point>
+      <Point>SPORTS GROUND</Point>
+      <Point>ST PETERS SCHOOL</Point>
+      <Point>TAIHIKI RIVER ESTUARY</Point>
+      <Point>TE AWAMUTU</Point>
+      <Point>TE POI</Point>
+      <Point>TE PUKE</Point>
+      <Point>TE PUNA</Point>
+      <Point>TE RAPA</Point>
+      <Point>TEMPLE VIEW</Point>
+      <Point>TIRAU</Point>
+      <Point>TOKOROA</Point>
+      <Point>TUNNEL</Point>
+      <Point>WAIPA SAWMILL</Point>
+      <Point>WAITOA</Point>
+      <Point>WELCOME BAY</Point>
+      <Point>WHANGAMATA</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>ATHENREE</Point>
+      <Point>BEACH MOTOR CAMP</Point>
+      <Point>BLUE GUM BAY</Point>
+      <Point>CABLEWAY</Point>
+      <Point>CAMBRIDGE</Point>
+      <Point>DRURY</Point>
+      <Point>EAST JUNCTION</Point>
+      <Point>GLENBROOK</Point>
+      <Point>GORDONTON</Point>
+      <Point>GREEN SHED</Point>
+      <Point>HAMILTON LAKE</Point>
+      <Point>HAMURANA</Point>
+      <Point>HAPARANGI</Point>
+      <Point>HAUTAPU</Point>
+      <Point>HINUERA</Point>
+      <Point>HOROTIU</Point>
+      <Point>HOTEL DU VIN</Point>
+      <Point>HUNTERS CREEK</Point>
+      <Point>HUNTLY</Point>
+      <Point>HUNUA</Point>
+      <Point>KAHAROA</Point>
+      <Point>KAREWA ISLAND</Point>
+      <Point>KATIKATI</Point>
+      <Point>KAWAHA POINT</Point>
+      <Point>KIHIKIHI</Point>
+      <Point>LAKE WAIKARE</Point>
+      <Point>MAMAKU</Point>
+      <Point>MANAWARU</Point>
+      <Point>MARAMARUA</Point>
+      <Point>MATANGI</Point>
+      <Point>MEREMERE</Point>
+      <Point>MOKOIA ISLAND</Point>
+      <Point>MORRINSVILLE</Point>
+      <Point>MOUNT BALDY</Point>
+      <Point>MOUNT HARBOUR ENTRANCE</Point>
+      <Point>MOUNT RURU</Point>
+      <Point>MYSTERY CREEK</Point>
+      <Point>NGAHINAPOURI</Point>
+      <Point>NGAKURU</Point>
+      <Point>NGATEA</Point>
+      <Point>NGONGOTAHA</Point>
+      <Point>OHAUPO</Point>
+      <Point>OMOKOROA</Point>
+      <Point>OXIDATION PONDS</Point>
+      <Point>PAEROA</Point>
+      <Point>PIRONGIA</Point>
+      <Point>QUARRY LAKE</Point>
+      <Point>RACECOURSE</Point>
+      <Point>RUAHIHI</Point>
+      <Point>RUKUHIA</Point>
+      <Point>SCOTSMANS VALLEY</Point>
+      <Point>SHOWGROUNDS</Point>
+      <Point>SPORTS GROUND</Point>
+      <Point>ST PETERS SCHOOL</Point>
+      <Point>TAIHIKI RIVER ESTUARY</Point>
+      <Point>TE AWAMUTU</Point>
+      <Point>TE POI</Point>
+      <Point>TE PUKE</Point>
+      <Point>TE PUNA</Point>
+      <Point>TE RAPA</Point>
+      <Point>TEMPLE VIEW</Point>
+      <Point>TIRAU</Point>
+      <Point>TOKOROA</Point>
+      <Point>TUNNEL</Point>
+      <Point>WAIPA SAWMILL</Point>
+      <Point>WAITOA</Point>
+      <Point>WELCOME BAY</Point>
+      <Point>WHANGAMATA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="VFRProc" Priority="1" CustomColourName="VFRPoint" Centre="-37.866389+175.335278">
+    <Label HasLeader="True" LabelOrientation="NW">
+      <Point Name="EAST_ARR">HAUTAPU</Point>
+      <Point Name="WEST_ARR">TEMPLE VIEW</Point>
+    </Label>
+    <!--EAST_ARR-->
+    <Line Pattern="Dotted">
+      HAUTAPU/MYSTERY CREEK
+    </Line>
+    <!--WEST_ARR-->
+    <Line Pattern="Dotted">
+      TEMPLE VIEW/RUKUHIA
+    </Line>
   </Map>
 </Maps>
-
-<!-- 
-		<Line>
-		
-		</Line>
--->
-
-<!-- 
-  
-  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-375159.980+1751955.402">
-		<Line>
-		
-		</Line>      
-  </Map>
-
-
--->

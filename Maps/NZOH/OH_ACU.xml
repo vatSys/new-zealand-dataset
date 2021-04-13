@@ -1,45 +1,317 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Maps>  
-	<Map Type="System" Name="RWY 27 STARs" Priority="2" CustomColourName="DrawProc" Centre="-401221.740+1752316.109">
-		<Line>
-			IDLUR/
-			MOSDO/
-			ENDIX/
-		</Line>
-		<Line>
-			BINIT/
-			UPRIX/
-			AVGUV/
-			TERIL/
-			LUXUL
-		</Line>       
-  </Map>  
-
-	<Map Type="System" Name="RWY 09 STARs" Priority="2" CustomColourName="DrawProc" Centre="-401221.740+1752316.109">
-		<Line>
-			IDLUR/
-			BOBIT/
-		</Line> 
-		<Line>
-			BINIT/
-			DOTGO
-		</Line>    
+<Maps>
+  <Map Type="System2" Name="09 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-40.209369+175.399756">
+    <Line Pattern="Dashed">
+      <!--Rwy09 DANP2Q-->
+      -40.209369+175.399756/DANPO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy09 DANP2Q.ABTOL-->
+      DANPO/SOTVO/ABTOL
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy09 DANP2Q.ENTIM-->
+      DANPO/NUNGI/IGNUT/PONER/ENTIM
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy09 DANP2Q.ESMUK-->
+      SOTVO/ESMUK
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy09 DANP2Q.PORIG-->
+      SOTVO/PORIG
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>DANPO</Point>
+      <Point>SOTVO</Point>
+      <Point>ABTOL</Point>
+      <Point>NUNGI</Point>
+      <Point>IGNUT</Point>
+      <Point>PONER</Point>
+      <Point>ENTIM</Point>
+      <Point>ESMUK</Point>
+      <Point>PORIG</Point>
+    </Symbol>
+    <Label>
+      <Point>DANPO</Point>
+      <Point>ABTOL</Point>
+      <Point>ENTIM</Point>
+      <Point>ESMUK</Point>
+      <Point>PORIG</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="09 STARs" Priority="1" CustomColourName="ProcArr" Centre="-40.202656+175.374253">
+    <Line>
+      <!--Rwy09 BINI1H-->
+      BINIT/DOTGO
+    </Line>
+    <Line>
+      <!--Rwy09 IDLU1H-->
+      IDLUR/BOBIT
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>DOTGO</Point>
+      <Point>BOBIT</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>BINIT</Point>
+      <Point>IDLUR</Point>
+    </Symbol>
+    <Label>
+      <Point>BINIT</Point>
+      <Point>IDLUR</Point>
+      <Point>DOTGO</Point>
+      <Point>BOBIT</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="09 GNSS" Priority="1" Center="-40.202656+175.374253" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>BOBIT</Point>
+      <Point>DOTGO</Point>
+      <Point>LELUK</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>NIVOD</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>NUTGO</Point>
+    </Symbol>
+    <Line>NUTGO/NIVOD/OH09T</Line>
+    <Line>BOBIT/NUTGO</Line>
+    <Line>DOTGO/NUTGO</Line>
+    <Line>LELUK/NUTGO</Line>
+  </Map>
+  <Map Type="System" Name="09 GNSS Labels" Priority="1" Center="-40.202656+175.374253" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>BOBIT</Point>
+      <Point>DOTGO</Point>
+      <Point>LELUK</Point>
+      <Point>NIVOD</Point>
+      <Point>NUTGO</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="27 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-40.202656+175.374253">
+    <Line Pattern="Dashed">
+      <!--Rwy27 ENGO2P-->
+      -40.202656+175.374253/ENGOK
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy27 ENGO2P.ABTOL-->
+      ENGOK/IDSEN/ABTOL
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy27 ENGO2P.ENTIM-->
+      ENGOK/SANUB/AGUPI/ENTIM
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy27 ENGO2P.ESMUK-->
+      IDSEN/ESMUK
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy27 ENGO2P.PORIG-->
+      IDSEN/PORIG
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>ENGOK</Point>
+      <Point>IDSEN</Point>
+      <Point>ABTOL</Point>
+      <Point>SANUB</Point>
+      <Point>AGUPI</Point>
+      <Point>ENTIM</Point>
+      <Point>ESMUK</Point>
+      <Point>PORIG</Point>
+    </Symbol>
+    <Label>
+      <Point>ENGOK</Point>
+      <Point>ABTOL</Point>
+      <Point>ENTIM</Point>
+      <Point>ESMUK</Point>
+      <Point>PORIG</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="27 STARs" Priority="1" CustomColourName="ProcArr" Centre="-40.209369+175.399756">
+    <Line>
+      <!--Rwy27 BINI1G-->
+      BINIT/UPRIX/AVGUV/TERIL/LUXUL
+    </Line>
+    <Line>
+      <!--Rwy27 IDLU1G-->
+      IDLUR/MOSDO/ENDIX
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>LUXUL</Point>
+      <Point>ENDIX</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>BINIT</Point>
+      <Point>UPRIX</Point>
+      <Point>AVGUV</Point>
+      <Point>TERIL</Point>
+      <Point>IDLUR</Point>
+      <Point>MOSDO</Point>
+    </Symbol>
+    <Label>
+      <Point>BINIT</Point>
+      <Point>IDLUR</Point>
+      <Point>LUXUL</Point>
+      <Point>ENDIX</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="27 GNSS" Priority="1" Center="-40.209369+175.399756" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="MalteseCross">
+      <Point>PEDBA</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>SAKOG</Point>
+      <Point>LUXUL</Point>
+    </Symbol>
+    <Line>SAKOG/PEDBA/OH27T</Line>
+    <Line>LUXUL/PEDBA</Line>
+  </Map>
+  <Map Type="System" Name="27 GNSS Labels" Priority="1" Center="-40.209369+175.399756" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>PEDBA</Point>
+      <Point>SAKOG</Point>
+      <Point>LUXUL</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="15 GNSS" Priority="1" Center="-40.199731+175.386006" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>ADKIS</Point>
+      <Point>BOBIT</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>DOXIN</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>GUPIL</Point>
+    </Symbol>
+    <Line>GUPIL/DOXIN/OH15T</Line>
+    <Line>ADKIS/GUPIL</Line>
+    <Line>BOBIT/GUPIL</Line>
+  </Map>
+  <Map Type="System" Name="15 GNSS Labels" Priority="1" Center="-40.199731+175.386006" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>ADKIS</Point>
+      <Point>BOBIT</Point>
+      <Point>DOXIN</Point>
+      <Point>GUPIL</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="33 GNSS" Priority="1" Center="-40.217264+175.390464" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>NOBED</Point>
+      <Point>VARNO</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>VELSU</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>SOSLA</Point>
+    </Symbol>
+    <Line>SOSLA/VELSU/OH33T</Line>
+    <Line>NOBED/SOSLA</Line>
+    <Line>VARNO/SOSLA</Line>
+  </Map>
+  <Map Type="System" Name="33 GNSS Labels" Priority="1" Center="-40.217264+175.390464" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>NOBED</Point>
+      <Point>VARNO</Point>
+      <Point>VELSU</Point>
+      <Point>SOSLA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-40.206667+175.386944">
+    <Symbol Type="HollowSquare">
+      <Point>AOKAUTERE</Point>
+      <Point>ASHHURST</Point>
+      <Point>BENNETTS HILL</Point>
+      <Point>BUNNYTHORPE SUBSTATION</Point>
+      <Point>CHELTENHAM</Point>
+      <Point>COLYTON</Point>
+      <Point>FEILDING</Point>
+      <Point>FORDELL</Point>
+      <Point>HALCOMBE</Point>
+      <Point>HIMATANGI BEACH</Point>
+      <Point>HIWINUI</Point>
+      <Point>HOKIO BEACH</Point>
+      <Point>HUNTERVILLE</Point>
+      <Point>KAI IWI</Point>
+      <Point>KARIOI AERODROME</Point>
+      <Point>LEVIN</Point>
+      <Point>LONGBURN</Point>
+      <Point>MANAWATU RIVER MOUTH</Point>
+      <Point>MANFEILD</Point>
+      <Point>MARTON</Point>
+      <Point>MARTON RESERVOIR</Point>
+      <Point>MOUNT HECTOR</Point>
+      <Point>MOUNT THOMPSON</Point>
+      <Point>OHAKUNE</Point>
+      <Point>OTAKI BEACH</Point>
+      <Point>PAHIATUA</Point>
+      <Point>PAPANUI JUNCTION</Point>
+      <Point>PEKAPEKA PONDS</Point>
+      <Point>PINNACLE</Point>
+      <Point>RAETIHI</Point>
+      <Point>RANGIOTU</Point>
+      <Point>RAUMAI</Point>
+      <Point>TAIHAPE</Point>
+      <Point>TANGIMOANA</Point>
+      <Point>TE ARAKURA</Point>
+      <Point>THE PONDS</Point>
+      <Point>TIMBER MILL</Point>
+      <Point>TOKOMARU</Point>
+      <Point>UNIVERSITY</Point>
+      <Point>WHANGAEHU RIVER MOUTH</Point>
+      <Point>WOODVILLE</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>AOKAUTERE</Point>
+      <Point>ASHHURST</Point>
+      <Point>BENNETTS HILL</Point>
+      <Point>BUNNYTHORPE SUBSTATION</Point>
+      <Point>CHELTENHAM</Point>
+      <Point>COLYTON</Point>
+      <Point>FEILDING</Point>
+      <Point>FORDELL</Point>
+      <Point>HALCOMBE</Point>
+      <Point>HIMATANGI BEACH</Point>
+      <Point>HIWINUI</Point>
+      <Point>HOKIO BEACH</Point>
+      <Point>HUNTERVILLE</Point>
+      <Point>KAI IWI</Point>
+      <Point>KARIOI AERODROME</Point>
+      <Point>LEVIN</Point>
+      <Point>LONGBURN</Point>
+      <Point>MANAWATU RIVER MOUTH</Point>
+      <Point>MANFEILD</Point>
+      <Point>MARTON</Point>
+      <Point>MARTON RESERVOIR</Point>
+      <Point>MOUNT HECTOR</Point>
+      <Point>MOUNT THOMPSON</Point>
+      <Point>OHAKUNE</Point>
+      <Point>OTAKI BEACH</Point>
+      <Point>PAHIATUA</Point>
+      <Point>PAPANUI JUNCTION</Point>
+      <Point>PEKAPEKA PONDS</Point>
+      <Point>PINNACLE</Point>
+      <Point>RAETIHI</Point>
+      <Point>RANGIOTU</Point>
+      <Point>RAUMAI</Point>
+      <Point>TAIHAPE</Point>
+      <Point>TANGIMOANA</Point>
+      <Point>TE ARAKURA</Point>
+      <Point>THE PONDS</Point>
+      <Point>TIMBER MILL</Point>
+      <Point>TOKOMARU</Point>
+      <Point>UNIVERSITY</Point>
+      <Point>WHANGAEHU RIVER MOUTH</Point>
+      <Point>WOODVILLE</Point>
+    </Label>
   </Map>
 </Maps>
-
-<!-- 
-		<Line>
-		
-		</Line>
--->
-
-<!-- 
-  
-  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-401221.740+1752316.109">
-		<Line>
-		
-		</Line>      
-  </Map>
-
-
--->

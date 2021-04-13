@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-	<Map Name="ENR SECTORS" Type="System2" Priority="2">
+	<Map Name="Enroute Sectors" Type="System2" Priority="2">
 		<Line Name="STH">
 			-412356.600+1702324.300/
 			-415914.000+1713635.000/
@@ -242,8 +242,9 @@
 			-373901.672+1742010.933/
 			-373907.036+1742014.886
 		</Line>
+	</Map>
 
-
+	<Map Name="Enroute Sector Labels" Type="System2" Priority="2">
 		<Label HasLeader="false">
 			<Point Name="126.0">-38.035710+174.528750</Point>
 			<Point Name="123.9">-37.014513+172.045351</Point>

@@ -1,264 +1,1416 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="RWY 05R STARs" Priority="2" CustomColourName="DrawProc" Centre="-370020.413+1744725.105">
-  	<Line>
-    	DUGAN/
-      BASIV/
-      ELNOS
-		</Line>
-		<Line>
-      SALAG/
-      BASIV/
-      UPLAR
-		</Line>
-		<Line>
-      BASIV/
-      BIGUL/
-      XMOND/
-      ORUKI/
-      LENGU
-		</Line>
-		<Line>
-      LUNBI/
-      ARADI/
-      PEBLU
-		</Line>
-		<Line>
-      VELMO/
-      ARADI/
-      JABBA/
-      AA514/
-      ZOCCA/
-      AA506/
-      LENGU
-		</Line>
-		<Line>
-    	DAVEE/
-      WINB/
-      GITUK/
-      LENGU
-		</Line>
-		<Line>
-      PEPPE/
-      IGABI/
-      WINB
-		</Line>
-		<Line>
-      SCARY/
-      IGABI
-		</Line>
-		<Line>
-      NOBAR/
-      MERAS/
-      WINB/
-      AA503
-		</Line>
-		<Line>
-      WINB/
-      STEAL/
-      ATAMA
-		</Line>
-		<Line>
-      KALAG/
-      EXOPI/
-      AGREX/
-		</Line>
-		<Line>
-      TARIB/
-      EXOPI/
-      OKTUB/
-      SELKA/
-		</Line>
-		<Line>
-      AGEDU/
-      OKTUB/
-      IDSEM
-		</Line>
-		<Line>
-      DABAS/
-      OKTUB
-		</Line>
-		<Line>
-      AKLOM/
-      EXOPI/
-      OLBEX/
-		</Line>
-		<Line>
-      EXOPI/
-      DIPPU/
-      ANKIL/
-      LOSGA/
-      AKBAM/
-      LENGU
-		</Line>
-		<Line>
-      PERAS/
-      UKAPA/
-      KKNB
-		</Line>
-		<Line>
-      SF/
-      UKAPA/
-      SHILI/
-      AKBAM
-		</Line>
-		<Line>
-      DAVEE/
-      AA507/
-      STEAL
-		</Line>
-		<Line>
-      UKAPA/
-      MUDEE/
-      UDUMO
-		</Line>
+  <Map Type="System2" Name="05R SIDs" Priority="1" CustomColourName="ProcDep" Centre="-37.006656+174.805742">
+    <Line Pattern="Dashed">
+      <!--Rwy05R AKEL1Q-->
+      -37.006656+174.805742/EMRAG/POLIS/IDEMA/BROOK/AKELA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R AKEL1Q.GULUT-->
+      AKELA/GULUT
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R AKEL1Q.PEBLU-->
+      AKELA/PEBLU
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R AKEL1Q.VELMO-->
+      AKELA/VELMO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R AVDA1Q-->
+      -37.006656+174.805742/-36.986944+174.856944/DOVON/AVDAT
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R AVDA1Q.BOVRU-->
+      AVDAT/BOVRU
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R AVDA1Q.KAWAU-->
+      AVDAT/KAWAU
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R AVDA1Q.PUHOI-->
+      AVDAT/PUHOI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R BATO3Q-->
+      EMRAG/XELAN/URBIG/BATOS
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R BATO3Q.MADEP-->
+      BATOS/BOGUN/MADEP
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R BATO3Q.UPLAR-->
+      BATOS/TAPAT/UPLAR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R BELR1Q-->
+      XELAN/BELRA/DADLA/SALAG
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R BROK2Q-->
+      -37.006656+174.805742/-36.988056+174.856389/BROOK
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R BROK2Q.KAPAI-->
+      BROOK/KAPAI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R BROK2Q.KARRL-->
+      BROOK/LIMES/KARRL
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R EMRA1B-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R KADM1Q-->
+      XELAN/KADMA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R KADM1Q.DUGAN-->
+      KADMA/DUGAN
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R KADM1Q.ELNOS-->
+      KADMA/ELNOS
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R NZAA3A-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R PAGL3Q-->
+      -37.006656+174.805742/ADKUM/MADVI/VINOD/PAGLA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R PAGL3Q.KAPAI-->
+      PAGLA/KAPAI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R PAGL3Q.KARRL-->
+      PAGLA/LIMES
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R PAGL3Q.NUTRA-->
+      PAGLA/IPDIN/NUTRA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R PAGL3Q.PEBLU-->
+      PAGLA/LESDI/PEBLU
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R PAGL3Q.VELMO-->
+      LESDI/VELMO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R POLI2Q-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R POLI2Q.KAPAI-->
+      POLIS/KAPAI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R POLI2Q.KARRL-->
+      POLIS/LIMES
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R POLI2Q.LAKES-->
+      POLIS/LAKES
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R POLI2Q.TULMI-->
+      POLIS/TULMI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R RAXI1Q-->
+      EMRAG/RAXIN
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R RAXI1Q.AGREX-->
+      RAXIN/AGREX
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R RAXI1Q.KALAG-->
+      RAXIN/KALAG
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R RAXI1Q.SELKA-->
+      RAXIN/SELKA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R RAXI1Q.TARIB-->
+      RAXIN/TARIB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R REKI3Q-->
+      -37.006656+174.805742/-36.991111+174.855000/VINOD/-37.118611+174.868889/BUDLU/REKIS
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R REKI3Q.KAPAI-->
+      REKIS/KAPAI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R REKI3Q.KARRL-->
+      REKIS/LIMES
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R REKI3Q.LAKES-->
+      REKIS/LAKES
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R REKI3Q.NUTRA-->
+      REKIS/IPDIN
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R REKI3Q.TULMI-->
+      REKIS/TULMI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R SATL1Q-->
+      EMRAG/SATLA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R SATL1Q.AGEDU-->
+      SATLA/AGEDU
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R SATL1Q.AKLOM-->
+      SATLA/AKLOM
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R SATL1Q.DABAS-->
+      SATLA/DABAS
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R SATL1Q.IDSEM-->
+      SATLA/IDSEM
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R SATL1Q.OLBEX-->
+      SATLA/OLBEX
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>EMRAG</Point>
+      <Point>POLIS</Point>
+      <Point>IDEMA</Point>
+      <Point>BROOK</Point>
+      <Point>AKELA</Point>
+      <Point>GULUT</Point>
+      <Point>PEBLU</Point>
+      <Point>VELMO</Point>
+      <Point>DOVON</Point>
+      <Point>AVDAT</Point>
+      <Point>BOVRU</Point>
+      <Point>KAWAU</Point>
+      <Point>PUHOI</Point>
+      <Point>XELAN</Point>
+      <Point>URBIG</Point>
+      <Point>BATOS</Point>
+      <Point>BOGUN</Point>
+      <Point>MADEP</Point>
+      <Point>TAPAT</Point>
+      <Point>UPLAR</Point>
+      <Point>BELRA</Point>
+      <Point>DADLA</Point>
+      <Point>SALAG</Point>
+      <Point>KAPAI</Point>
+      <Point>LIMES</Point>
+      <Point>KARRL</Point>
+      <Point>KADMA</Point>
+      <Point>DUGAN</Point>
+      <Point>ELNOS</Point>
+      <Point>ADKUM</Point>
+      <Point>MADVI</Point>
+      <Point>VINOD</Point>
+      <Point>PAGLA</Point>
+      <Point>IPDIN</Point>
+      <Point>NUTRA</Point>
+      <Point>LESDI</Point>
+      <Point>LAKES</Point>
+      <Point>TULMI</Point>
+      <Point>RAXIN</Point>
+      <Point>AGREX</Point>
+      <Point>KALAG</Point>
+      <Point>SELKA</Point>
+      <Point>TARIB</Point>
+      <Point>BUDLU</Point>
+      <Point>REKIS</Point>
+      <Point>SATLA</Point>
+      <Point>AGEDU</Point>
+      <Point>AKLOM</Point>
+      <Point>DABAS</Point>
+      <Point>IDSEM</Point>
+      <Point>OLBEX</Point>
+    </Symbol>
+    <Label>
+      <Point>AKELA</Point>
+      <Point>AVDAT</Point>
+      <Point>BATOS</Point>
+      <Point>SALAG</Point>
+      <Point>BROOK</Point>
+      <Point>EMRAG</Point>
+      <Point>KADMA</Point>
+      <Point>PAGLA</Point>
+      <Point>POLIS</Point>
+      <Point>RAXIN</Point>
+      <Point>REKIS</Point>
+      <Point>SATLA</Point>
+      <Point>GULUT</Point>
+      <Point>PEBLU</Point>
+      <Point>VELMO</Point>
+      <Point>BOVRU</Point>
+      <Point>KAWAU</Point>
+      <Point>PUHOI</Point>
+      <Point>MADEP</Point>
+      <Point>UPLAR</Point>
+      <Point>KAPAI</Point>
+      <Point>KARRL</Point>
+      <Point>DUGAN</Point>
+      <Point>ELNOS</Point>
+      <Point>NUTRA</Point>
+      <Point>LAKES</Point>
+      <Point>TULMI</Point>
+      <Point>AGREX</Point>
+      <Point>KALAG</Point>
+      <Point>SELKA</Point>
+      <Point>TARIB</Point>
+      <Point>AGEDU</Point>
+      <Point>AKLOM</Point>
+      <Point>DABAS</Point>
+      <Point>IDSEM</Point>
+      <Point>OLBEX</Point>
+    </Label>
   </Map>
-
-  <Map Type="System" Name="RWY 23L STARs" Priority="2" CustomColourName="DrawProc" Centre="-370020.413+1744725.105">
-		<Line>
-			KKNB/
-			SFNB/
-			APABO/
-			PERAS
-		</Line>
-		<Line>
-			APABO/
-			OMAHA/
-			AA423/
-			VIBAG/
-			EMRAG
-		</Line>
-		<Line>
-			OMAHA/
-			AA424/
-			AA406/
-			AA405/
-			NOKIT
-		</Line>
-		<Line>
-			ELNOS/
-			BASIV/
-			SALAG
-		</Line>
-		<Line>
-			UPLAR/
-			BASIV/
-			BONKO/
-			DOMRI
-		</Line>
-		<Line>
-			LUNBI/
-			ARADI/
-			PEBLU
-		</Line>
-		<Line>
-			VELMO/
-			ARADI/
-			GEWNY/
-			DOMRI/
-			LOSGA/
-			VIBAG
-		</Line>
-		<Line>
-			BASIV/
-			PAKVI/
-			BAYES/
-			VIBAG
-		</Line>
-		<Line>
-			ANSER/
-			ELBOP/
-			ESNAX
-		</Line>
-		<Line>
-			DAVEE/
-			OSAKU/
-			ANSER/
-			ZORBA/
-			SABAV/
-			EMRAG
-		</Line>
-		<Line>
-			PEPPE/
-			ONISU/
-			UPTIB/
-			KETOB/
-			SABAV
-		</Line>
-		<Line>
-			HN/
-			SKEPY/
-			AA415/
-			SABAV
-		</Line>
-		<Line>
-			NOBAR/
-			SAMII/
-			TEVUC/
-			EMRAG
-		</Line>
-		<Line>
-			PEBLU/
-			TAZEY/
-			VELMO
-		</Line>
-		<Line>
-			TAZEY/
-			ZORBA/
-			ANSER/
-		</Line>
-		<Line>
-			AKLOM/
-			EAGIL/
-			AA421/
-			AA425/
-			AA420/
-			EMRAG/
-			AA419/
-			AA426/
-			AA416/
-			FOKRE/
-			OLBEX
-		</Line>
-		<Line>
-			DUGAN/
-			EXOPI/
-			KALAG/
-		</Line>
-		<Line>
-			AGREX/
-			EXOPI/
-			TARIB
-		</Line>
-		<Line>
-			SELKA/
-			OKTUB/
-			AGEDU
-		</Line>
-		<Line>
-			IDSEM/
-			OKTUB/
-			DABAS
-		</Line>
-		<Line>
-			EXOPI/
-			AA417/
-			STORK/
-			AA418/
-			EMRAG
-		</Line>
+  <Map Type="System2" Name="05R STARs" Priority="1" CustomColourName="ProcArr" Centre="-37.016317+174.770783">
+    <Line>
+      <!--Rwy05R ARAD7B.LUNBI-->
+      LUNBI/ARADI
+    </Line>
+    <Line>
+      <!--Rwy05R ARAD7B.PEBLU-->
+      PEBLU/ARADI
+    </Line>
+    <Line>
+      <!--Rwy05R ARAD7B.VELMO-->
+      VELMO/ARADI
+    </Line>
+    <Line>
+      <!--Rwy05R ARAD7B-->
+      ARADI/JABBA/AA514/ZOCCA/AA506/LENGU
+    </Line>
+    <Line>
+      <!--Rwy05R BASI8B.DUGAN-->
+      DUGAN/BASIV
+    </Line>
+    <Line>
+      <!--Rwy05R BASI8B.ELNOS-->
+      ELNOS/BASIV
+    </Line>
+    <Line>
+      <!--Rwy05R BASI8B.SALAG-->
+      SALAG/BASIV
+    </Line>
+    <Line>
+      <!--Rwy05R BASI8B.UPLAR-->
+      UPLAR/BASIV
+    </Line>
+    <Line>
+      <!--Rwy05R BASI8B-->
+      BASIV/BIGUL/XMOND/ORUKI/LENGU
+    </Line>
+    <Line>
+      <!--Rwy05R DAVE5B-->
+      DAVEE/WI NDB/GITUK/LENGU
+    </Line>
+    <Line>
+      <!--Rwy05R DAVE5D-->
+      DAVEE/AA507/STEAL/ATAMA
+    </Line>
+    <Line>
+      <!--Rwy05R EXOP9B.AGEDU-->
+      AGEDU/OKTUB/EXOPI
+    </Line>
+    <Line>
+      <!--Rwy05R EXOP9B.AGREX-->
+      AGREX/EXOPI
+    </Line>
+    <Line>
+      <!--Rwy05R EXOP9B.AKLOM-->
+      AKLOM/EXOPI
+    </Line>
+    <Line>
+      <!--Rwy05R EXOP9B.DABAS-->
+      DABAS/OKTUB
+    </Line>
+    <Line>
+      <!--Rwy05R EXOP9B.IDSEM-->
+      IDSEM/OKTUB
+    </Line>
+    <Line>
+      <!--Rwy05R EXOP9B.KALAG-->
+      KALAG/EXOPI
+    </Line>
+    <Line>
+      <!--Rwy05R EXOP9B.OLBEX-->
+      OLBEX/EXOPI
+    </Line>
+    <Line>
+      <!--Rwy05R EXOP9B.SELKA-->
+      SELKA/OKTUB
+    </Line>
+    <Line>
+      <!--Rwy05R EXOP9B.TARIB-->
+      TARIB/EXOPI
+    </Line>
+    <Line>
+      <!--Rwy05R EXOP9B-->
+      EXOPI/DIPPU/ANKIL/LOSGA/AKBAM/LENGU
+    </Line>
+    <Line>
+      <!--Rwy05R EXOP6D.AGEDU-->
+    </Line>
+    <Line>
+      <!--Rwy05R EXOP6D.AGREX-->
+    </Line>
+    <Line>
+      <!--Rwy05R EXOP6D.AKLOM-->
+    </Line>
+    <Line>
+      <!--Rwy05R EXOP6D.DABAS-->
+    </Line>
+    <Line>
+      <!--Rwy05R EXOP6D.IDSEM-->
+    </Line>
+    <Line>
+      <!--Rwy05R EXOP6D.KALAG-->
+    </Line>
+    <Line>
+      <!--Rwy05R EXOP6D.OLBEX-->
+    </Line>
+    <Line>
+      <!--Rwy05R EXOP6D.SELKA-->
+    </Line>
+    <Line>
+      <!--Rwy05R EXOP6D.TARIB-->
+    </Line>
+    <Line>
+      <!--Rwy05R EXOP6D-->
+      ANKIL/VIRIS
+    </Line>
+    <Line>
+      <!--Rwy05R NOBA7B-->
+      NOBAR/MERAS/AA503/WI NDB
+    </Line>
+    <Line>
+      <!--Rwy05R NOBA7D-->
+      WI NDB/STEAL
+    </Line>
+    <Line>
+      <!--Rwy05R PEPE4B-->
+      PEPPE/IGABI/WI NDB
+    </Line>
+    <Line>
+      <!--Rwy05R PEPE7D-->
+    </Line>
+    <Line>
+      <!--Rwy05R SCAR1B.HN-->
+      HN VOR/SCARY
+    </Line>
+    <Line>
+      <!--Rwy05R SCAR1B-->
+      SCARY/IGABI
+    </Line>
+    <Line>
+      <!--Rwy05R SCAR1D.HN-->
+    </Line>
+    <Line>
+      <!--Rwy05R SCAR1D-->
+    </Line>
+    <Line>
+      <!--Rwy05R UKAP2B.KK-->
+      KK NDB/UKAPA
+    </Line>
+    <Line>
+      <!--Rwy05R UKAP2B.PERAS-->
+      PERAS/UKAPA
+    </Line>
+    <Line>
+      <!--Rwy05R UKAP2B.SF-->
+      SF NDB/UKAPA
+    </Line>
+    <Line>
+      <!--Rwy05R UKAP2B-->
+      UKAPA/SHILI/AKBAM
+    </Line>
+    <Line>
+      <!--Rwy05R UKAP1D.KK-->
+    </Line>
+    <Line>
+      <!--Rwy05R UKAP1D.PERAS-->
+    </Line>
+    <Line>
+      <!--Rwy05R UKAP1D.SF-->
+    </Line>
+    <Line>
+      <!--Rwy05R UKAP1D-->
+      SHILI/MUDEE/UDUMO
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>LENGU</Point>
+      <Point>ATAMA</Point>
+      <Point>VIRIS</Point>
+      <Point>UDUMO</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>WI NDB</Point>
+      <Point>HN VOR</Point>
+      <Point>KK NDB</Point>
+      <Point>SF NDB</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>LUNBI</Point>
+      <Point>ARADI</Point>
+      <Point>PEBLU</Point>
+      <Point>VELMO</Point>
+      <Point>JABBA</Point>
+      <Point>AA514</Point>
+      <Point>ZOCCA</Point>
+      <Point>AA506</Point>
+      <Point>DUGAN</Point>
+      <Point>BASIV</Point>
+      <Point>ELNOS</Point>
+      <Point>SALAG</Point>
+      <Point>UPLAR</Point>
+      <Point>BIGUL</Point>
+      <Point>XMOND</Point>
+      <Point>ORUKI</Point>
+      <Point>DAVEE</Point>
+      <Point>GITUK</Point>
+      <Point>AA507</Point>
+      <Point>STEAL</Point>
+      <Point>AGEDU</Point>
+      <Point>OKTUB</Point>
+      <Point>EXOPI</Point>
+      <Point>AGREX</Point>
+      <Point>AKLOM</Point>
+      <Point>DABAS</Point>
+      <Point>IDSEM</Point>
+      <Point>KALAG</Point>
+      <Point>OLBEX</Point>
+      <Point>SELKA</Point>
+      <Point>TARIB</Point>
+      <Point>DIPPU</Point>
+      <Point>ANKIL</Point>
+      <Point>LOSGA</Point>
+      <Point>AKBAM</Point>
+      <Point>NOBAR</Point>
+      <Point>MERAS</Point>
+      <Point>AA503</Point>
+      <Point>PEPPE</Point>
+      <Point>IGABI</Point>
+      <Point>SCARY</Point>
+      <Point>UKAPA</Point>
+      <Point>PERAS</Point>
+      <Point>SHILI</Point>
+      <Point>MUDEE</Point>
+    </Symbol>
+    <Label>
+      <Point>ARADI</Point>
+      <Point>BASIV</Point>
+      <Point>DAVEE</Point>
+      <Point>EXOPI</Point>
+      <Point>NOBAR</Point>
+      <Point>PEPPE</Point>
+      <Point>SCARY</Point>
+      <Point>UKAPA</Point>
+      <Point>LUNBI</Point>
+      <Point>PEBLU</Point>
+      <Point>VELMO</Point>
+      <Point>DUGAN</Point>
+      <Point>ELNOS</Point>
+      <Point>SALAG</Point>
+      <Point>UPLAR</Point>
+      <Point>AGEDU</Point>
+      <Point>AGREX</Point>
+      <Point>AKLOM</Point>
+      <Point>DABAS</Point>
+      <Point>IDSEM</Point>
+      <Point>KALAG</Point>
+      <Point>OLBEX</Point>
+      <Point>SELKA</Point>
+      <Point>TARIB</Point>
+      <Point>HN VOR</Point>
+      <Point>KK NDB</Point>
+      <Point>PERAS</Point>
+      <Point>SF NDB</Point>
+      <Point>LENGU</Point>
+      <Point>ATAMA</Point>
+      <Point>VIRIS</Point>
+      <Point>UDUMO</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="05R GNSS" Priority="1" Center="-37.016317+174.770783" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle">
+      <Point>UGRUS</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>LENGU</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>FF05R</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle" />
+    <Line>LENGU/UGRUS/FF05R/AA05R</Line>
+  </Map>
+  <Map Type="System" Name="05R GNSS Labels" Priority="1" Center="-37.016317+174.770783" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>LENGU</Point>
+      <Point>FF05R</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="05R RNP" Priority="1" Center="-37.016317+174.770783" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle">
+      <Point>SADOS</Point>
+      <Point>QUINA</Point>
+      <Point>NIPAS</Point>
+      <Point>IBOKI</Point>
+      <Point>AA509</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="MalteseCross">
+      <Point>LAMEL</Point>
+      <Point>PORAR</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>VIRIS</Point>
+      <Point>ATAMA</Point>
+    </Symbol>
+    <Line>VIRIS/SADOS/QUINA/NIPAS/LAMEL/IBOKI/AA05R</Line>
+    <Line>ATAMA/PORAR/AA509/AA05R</Line>
+  </Map>
+  <Map Type="System" Name="05R RNP Labels" Priority="1" Center="-37.016317+174.770783" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>LAMEL</Point>
+      <Point>PORAR</Point>
+      <Point>VIRIS</Point>
+      <Point>ATAMA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="23L SIDs" Priority="1" CustomColourName="ProcDep" Centre="-37.016317+174.770783">
+    <Line Pattern="Dashed">
+      <!--Rwy23L BELR1P-->
+      -37.016317+174.770783/LENGU/WYTAK/BELRA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L BELR1P.DUGAN-->
+      BELRA/DUGAN
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L BELR1P.ELNOS-->
+      BELRA/ELNOS
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L BELR1P.SALAG-->
+      BELRA/DADLA/SALAG
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L ELSA1P-->
+      -37.016317+174.770783/-37.031667+174.709444/PEEHA/ELSAB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L ELSA1P.BOVRU-->
+      ELSAB/BOVRU
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L ELSA1P.KOPPA-->
+      ELSAB/KOPPA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L ELSA1P.KYPRA-->
+      ELSAB/KYPRA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L ELSA1P.OTATA-->
+      ELSAB/OTATA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L ELSA1P.WP-->
+      ELSAB/WP VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L FIRT1P-->
+      LENGU/MAGLO/BROOK/FIRTH
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L FIRT1P.AGEDU-->
+      FIRTH/AGEDU
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L FIRT1P.AKLOM-->
+      FIRTH/AKLOM
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L FIRT1P.DABAS-->
+      FIRTH/DABAS
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L FIRT1P.IDSEM-->
+      FIRTH/IDSEM
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L FIRT1P.OLBEX-->
+      FIRTH/OLBEX
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L LENG1A-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L LENG3P-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L LENG3P.NUTRA-->
+      LENGU/ENSAX/IPDIN/NUTRA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L LENG3P.WP-->
+      LENGU/WYTAK/WP VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L LEVR1P-->
+      -37.016317+174.770783/IRSIP/LEVRA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L LEVR1P.KAPAI-->
+      LEVRA/KAPAI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L LEVR1P.KARRL-->
+      KAPAI/KARRL
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L LEVR1P.LAKES-->
+      LEVRA/GULED/OSAKU/LAKES
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L LEVR1P.TULMI-->
+      LAKES/TULMI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L MEMO1P-->
+      WYTAK/MEMOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L MEMO1P.AGREX-->
+      MEMOR/AGREX
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L MEMO1P.KALAG-->
+      MEMOR/KALAG
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L MEMO1P.SELKA-->
+      MEMOR/SELKA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L MEMO1P.TARIB-->
+      MEMOR/TARIB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L NZAA3B-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L OSRA1P-->
+      LENGU/OSRAP
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L OSRA1P.GULUT-->
+      OSRAP/POSUX/GULUT
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L OSRA1P.MADEP-->
+      OSRAP/BOGUN/MADEP
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L OSRA1P.PEBLU-->
+      OSRAP/PEBLU
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L OSRA1P.UPLAR-->
+      OSRAP/BATOS/TAPAT/UPLAR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L OSRA1P.VELMO-->
+      POSUX/VELMO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L STEA1P-->
+      -37.031667+174.709444/STEAL
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L STEA1P.KARRL-->
+      STEAL/LIMES/KARRL
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L STEA1P.LAKES-->
+      STEAL/LAMOG/ONISU/OVSIT/LAKES
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L STEA1P.NUTRA-->
+      STEAL/IPDIN
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L STEA1P.TULMI-->
+      OVSIT/TULMI
+    </Line>
+    <Symbol Type="Circle">
+      <Point>WP VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>LENGU</Point>
+      <Point>WYTAK</Point>
+      <Point>BELRA</Point>
+      <Point>DUGAN</Point>
+      <Point>ELNOS</Point>
+      <Point>DADLA</Point>
+      <Point>SALAG</Point>
+      <Point>PEEHA</Point>
+      <Point>ELSAB</Point>
+      <Point>BOVRU</Point>
+      <Point>KOPPA</Point>
+      <Point>KYPRA</Point>
+      <Point>OTATA</Point>
+      <Point>MAGLO</Point>
+      <Point>BROOK</Point>
+      <Point>FIRTH</Point>
+      <Point>AGEDU</Point>
+      <Point>AKLOM</Point>
+      <Point>DABAS</Point>
+      <Point>IDSEM</Point>
+      <Point>OLBEX</Point>
+      <Point>ENSAX</Point>
+      <Point>IPDIN</Point>
+      <Point>NUTRA</Point>
+      <Point>IRSIP</Point>
+      <Point>LEVRA</Point>
+      <Point>KAPAI</Point>
+      <Point>KARRL</Point>
+      <Point>GULED</Point>
+      <Point>OSAKU</Point>
+      <Point>LAKES</Point>
+      <Point>TULMI</Point>
+      <Point>MEMOR</Point>
+      <Point>AGREX</Point>
+      <Point>KALAG</Point>
+      <Point>SELKA</Point>
+      <Point>TARIB</Point>
+      <Point>OSRAP</Point>
+      <Point>POSUX</Point>
+      <Point>GULUT</Point>
+      <Point>BOGUN</Point>
+      <Point>MADEP</Point>
+      <Point>PEBLU</Point>
+      <Point>BATOS</Point>
+      <Point>TAPAT</Point>
+      <Point>UPLAR</Point>
+      <Point>VELMO</Point>
+      <Point>STEAL</Point>
+      <Point>LIMES</Point>
+      <Point>LAMOG</Point>
+      <Point>ONISU</Point>
+      <Point>OVSIT</Point>
+    </Symbol>
+    <Label>
+      <Point>BELRA</Point>
+      <Point>ELSAB</Point>
+      <Point>FIRTH</Point>
+      <Point>LENGU</Point>
+      <Point>LEVRA</Point>
+      <Point>MEMOR</Point>
+      <Point>OSRAP</Point>
+      <Point>STEAL</Point>
+      <Point>DUGAN</Point>
+      <Point>ELNOS</Point>
+      <Point>SALAG</Point>
+      <Point>BOVRU</Point>
+      <Point>KOPPA</Point>
+      <Point>KYPRA</Point>
+      <Point>OTATA</Point>
+      <Point>WP VOR</Point>
+      <Point>AGEDU</Point>
+      <Point>AKLOM</Point>
+      <Point>DABAS</Point>
+      <Point>IDSEM</Point>
+      <Point>OLBEX</Point>
+      <Point>NUTRA</Point>
+      <Point>KAPAI</Point>
+      <Point>KARRL</Point>
+      <Point>LAKES</Point>
+      <Point>TULMI</Point>
+      <Point>AGREX</Point>
+      <Point>KALAG</Point>
+      <Point>SELKA</Point>
+      <Point>TARIB</Point>
+      <Point>GULUT</Point>
+      <Point>MADEP</Point>
+      <Point>PEBLU</Point>
+      <Point>UPLAR</Point>
+      <Point>VELMO</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="23L STARs" Priority="1" CustomColourName="ProcArr" Centre="-37.006656+174.805742">
+    <Line>
+      <!--Rwy23L APAB2A.KK-->
+      KK NDB/SF NDB/APABO
+    </Line>
+    <Line>
+      <!--Rwy23L APAB2A.PERAS-->
+      PERAS/APABO
+    </Line>
+    <Line>
+      <!--Rwy23L APAB2A-->
+      APABO/OMAHA/AA423/VIBAG/EMRAG
+    </Line>
+    <Line>
+      <!--Rwy23L APAB2C.KK-->
+    </Line>
+    <Line>
+      <!--Rwy23L APAB2C.PERAS-->
+    </Line>
+    <Line>
+      <!--Rwy23L APAB2C-->
+      OMAHA/AA424/AA406/AA405/NOKIT
+    </Line>
+    <Line>
+      <!--Rwy23L ARAD8A.LUNBI-->
+      LUNBI/ARADI
+    </Line>
+    <Line>
+      <!--Rwy23L ARAD8A.PEBLU-->
+      PEBLU/ARADI
+    </Line>
+    <Line>
+      <!--Rwy23L ARAD8A.VELMO-->
+      VELMO/ARADI
+    </Line>
+    <Line>
+      <!--Rwy23L ARAD8A-->
+      ARADI/GEWNY/DOMRI/LOSGA/VIBAG
+    </Line>
+    <Line>
+      <!--Rwy23L ARAD6C.LUNBI-->
+    </Line>
+    <Line>
+      <!--Rwy23L ARAD6C.PEBLU-->
+    </Line>
+    <Line>
+      <!--Rwy23L ARAD6C.VELMO-->
+    </Line>
+    <Line>
+      <!--Rwy23L ARAD6C-->
+      DOMRI/KIDAG
+    </Line>
+    <Line>
+      <!--Rwy23L ARAD3E.LUNBI-->
+    </Line>
+    <Line>
+      <!--Rwy23L ARAD3E.PEBLU-->
+    </Line>
+    <Line>
+      <!--Rwy23L ARAD3E.VELMO-->
+    </Line>
+    <Line>
+      <!--Rwy23L ARAD3E-->
+      DOMRI/VABTI
+    </Line>
+    <Line>
+      <!--Rwy23L BASI9A.ELNOS-->
+      ELNOS/BASIV
+    </Line>
+    <Line>
+      <!--Rwy23L BASI9A.SALAG-->
+      SALAG/BASIV
+    </Line>
+    <Line>
+      <!--Rwy23L BASI9A.UPLAR-->
+      UPLAR/BASIV
+    </Line>
+    <Line>
+      <!--Rwy23L BASI9A-->
+      BASIV/BONKO/DOMRI
+    </Line>
+    <Line>
+      <!--Rwy23L BASI7C.ELNOS-->
+    </Line>
+    <Line>
+      <!--Rwy23L BASI7C.SALAG-->
+    </Line>
+    <Line>
+      <!--Rwy23L BASI7C.UPLAR-->
+    </Line>
+    <Line>
+      <!--Rwy23L BASI7C-->
+    </Line>
+    <Line>
+      <!--Rwy23L BASI4E.ELNOS-->
+    </Line>
+    <Line>
+      <!--Rwy23L BASI4E.PEBLU-->
+      PEBLU/BASIV
+    </Line>
+    <Line>
+      <!--Rwy23L BASI4E.VELMO-->
+      VELMO/BASIV
+    </Line>
+    <Line>
+      <!--Rwy23L BASI4E-->
+    </Line>
+    <Line>
+      <!--Rwy23L BASI1N.ELNOS-->
+    </Line>
+    <Line>
+      <!--Rwy23L BASI1N.SALAG-->
+    </Line>
+    <Line>
+      <!--Rwy23L BASI1N.UPLAR-->
+    </Line>
+    <Line>
+      <!--Rwy23L BASI1N-->
+      BASIV/PAKVI/BAYES/VIBAG
+    </Line>
+    <Line>
+      <!--Rwy23L DAVE6A-->
+      DAVEE/OSAKU/ANSER/ZORBA/SABAV/EMRAG
+    </Line>
+    <Line>
+      <!--Rwy23L DAVE7C-->
+      ANSER/ELBOP/ESNAX
+    </Line>
+    <Line>
+      <!--Rwy23L DAVE3E-->
+    </Line>
+    <Line>
+      <!--Rwy23L EAGI1A.AKLOM-->
+      AKLOM/EAGIL
+    </Line>
+    <Line>
+      <!--Rwy23L EAGI1A-->
+      EAGIL/AA421/AA425/AA420/EMRAG
+    </Line>
+    <Line>
+      <!--Rwy23L EXOP7A.AGEDU-->
+      AGEDU/OKTUB/EXOPI
+    </Line>
+    <Line>
+      <!--Rwy23L EXOP7A.AGREX-->
+      AGREX/EXOPI
+    </Line>
+    <Line>
+      <!--Rwy23L EXOP7A.DABAS-->
+      DABAS/OKTUB
+    </Line>
+    <Line>
+      <!--Rwy23L EXOP7A.DUGAN-->
+      DUGAN/EXOPI
+    </Line>
+    <Line>
+      <!--Rwy23L EXOP7A.IDSEM-->
+      IDSEM/OKTUB
+    </Line>
+    <Line>
+      <!--Rwy23L EXOP7A.KALAG-->
+      KALAG/EXOPI
+    </Line>
+    <Line>
+      <!--Rwy23L EXOP7A.SELKA-->
+      SELKA/OKTUB
+    </Line>
+    <Line>
+      <!--Rwy23L EXOP7A.TARIB-->
+      TARIB/EXOPI
+    </Line>
+    <Line>
+      <!--Rwy23L EXOP7A-->
+      EXOPI/AA417/STORK/AA418/EMRAG
+    </Line>
+    <Line>
+      <!--Rwy23L FOKR1A.OLBEX-->
+      OLBEX/FOKRE
+    </Line>
+    <Line>
+      <!--Rwy23L FOKR1A-->
+      FOKRE/AA416/AA426/AA419/EMRAG
+    </Line>
+    <Line>
+      <!--Rwy23L NOBA6A-->
+      NOBAR/SAMII/TEVUC/EMRAG
+    </Line>
+    <Line>
+      <!--Rwy23L NOBA1E-->
+    </Line>
+    <Line>
+      <!--Rwy23L PEPE5A-->
+      PEPPE/ONISU/UPTIB/KETOB/SABAV
+    </Line>
+    <Line>
+      <!--Rwy23L PEPE9C-->
+      PEPPE/ANSER
+    </Line>
+    <Line>
+      <!--Rwy23L PEPE2E-->
+    </Line>
+    <Line>
+      <!--Rwy23L SKEP1A.HN-->
+      HN VOR/SKEPY
+    </Line>
+    <Line>
+      <!--Rwy23L SKEP1A-->
+      SKEPY/AA415/SABAV
+    </Line>
+    <Line>
+      <!--Rwy23L TAZE2E-->
+      TAZEY/ZORBA
+    </Line>
+    <Line>
+      <!--Rwy23L TAZE1N.PEBLU-->
+      PEBLU/TAZEY
+    </Line>
+    <Line>
+      <!--Rwy23L TAZE1N.VELMO-->
+      VELMO/TAZEY
+    </Line>
+    <Line>
+      <!--Rwy23L TAZE1N-->
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>EMRAG</Point>
+      <Point>NOKIT</Point>
+      <Point>KIDAG</Point>
+      <Point>VABTI</Point>
+      <Point>ESNAX</Point>
+      <Point>ZORBA</Point>
+      <Point>TEVUC</Point>
+      <Point>KETOB</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>KK NDB</Point>
+      <Point>SF NDB</Point>
+      <Point>HN VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>APABO</Point>
+      <Point>PERAS</Point>
+      <Point>OMAHA</Point>
+      <Point>AA423</Point>
+      <Point>VIBAG</Point>
+      <Point>AA424</Point>
+      <Point>AA406</Point>
+      <Point>AA405</Point>
+      <Point>LUNBI</Point>
+      <Point>ARADI</Point>
+      <Point>PEBLU</Point>
+      <Point>VELMO</Point>
+      <Point>GEWNY</Point>
+      <Point>DOMRI</Point>
+      <Point>LOSGA</Point>
+      <Point>ELNOS</Point>
+      <Point>BASIV</Point>
+      <Point>SALAG</Point>
+      <Point>UPLAR</Point>
+      <Point>BONKO</Point>
+      <Point>PAKVI</Point>
+      <Point>BAYES</Point>
+      <Point>DAVEE</Point>
+      <Point>OSAKU</Point>
+      <Point>ANSER</Point>
+      <Point>SABAV</Point>
+      <Point>ELBOP</Point>
+      <Point>AKLOM</Point>
+      <Point>EAGIL</Point>
+      <Point>AA421</Point>
+      <Point>AA425</Point>
+      <Point>AA420</Point>
+      <Point>AGEDU</Point>
+      <Point>OKTUB</Point>
+      <Point>EXOPI</Point>
+      <Point>AGREX</Point>
+      <Point>DABAS</Point>
+      <Point>DUGAN</Point>
+      <Point>IDSEM</Point>
+      <Point>KALAG</Point>
+      <Point>SELKA</Point>
+      <Point>TARIB</Point>
+      <Point>AA417</Point>
+      <Point>STORK</Point>
+      <Point>AA418</Point>
+      <Point>OLBEX</Point>
+      <Point>FOKRE</Point>
+      <Point>AA416</Point>
+      <Point>AA426</Point>
+      <Point>AA419</Point>
+      <Point>NOBAR</Point>
+      <Point>SAMII</Point>
+      <Point>PEPPE</Point>
+      <Point>ONISU</Point>
+      <Point>UPTIB</Point>
+      <Point>SKEPY</Point>
+      <Point>AA415</Point>
+      <Point>TAZEY</Point>
+    </Symbol>
+    <Label>
+      <Point>APABO</Point>
+      <Point>ARADI</Point>
+      <Point>BASIV</Point>
+      <Point>DAVEE</Point>
+      <Point>EAGIL</Point>
+      <Point>EXOPI</Point>
+      <Point>FOKRE</Point>
+      <Point>NOBAR</Point>
+      <Point>PEPPE</Point>
+      <Point>SKEPY</Point>
+      <Point>TAZEY</Point>
+      <Point>KK NDB</Point>
+      <Point>PERAS</Point>
+      <Point>LUNBI</Point>
+      <Point>PEBLU</Point>
+      <Point>VELMO</Point>
+      <Point>ELNOS</Point>
+      <Point>SALAG</Point>
+      <Point>UPLAR</Point>
+      <Point>AKLOM</Point>
+      <Point>AGEDU</Point>
+      <Point>AGREX</Point>
+      <Point>DABAS</Point>
+      <Point>DUGAN</Point>
+      <Point>IDSEM</Point>
+      <Point>KALAG</Point>
+      <Point>SELKA</Point>
+      <Point>TARIB</Point>
+      <Point>OLBEX</Point>
+      <Point>HN VOR</Point>
+      <Point>EMRAG</Point>
+      <Point>NOKIT</Point>
+      <Point>KIDAG</Point>
+      <Point>VABTI</Point>
+      <Point>ESNAX</Point>
+      <Point>ZORBA</Point>
+      <Point>TEVUC</Point>
+      <Point>KETOB</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="23L GNSS" Priority="1" Center="-37.006656+174.805742" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle">
+      <Point>ORESO</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>EMRAG</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>FF23L</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle" />
+    <Line>EMRAG/ORESO/FF23L/AA23L</Line>
+  </Map>
+  <Map Type="System" Name="23L GNSS Labels" Priority="1" Center="-37.006656+174.805742" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>EMRAG</Point>
+      <Point>FF23L</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="23L RNP" Priority="1" Center="-37.006656+174.805742" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle">
+      <Point>BUBKU</Point>
+      <Point>AA412</Point>
+      <Point>AA407</Point>
+      <Point>AA411</Point>
+      <Point>AA521</Point>
+      <Point>AA428</Point>
+      <Point>AA516</Point>
+      <Point>AA513</Point>
+      <Point>LOSGA</Point>
+      <Point>LAGUT</Point>
+      <Point>GOBOB</Point>
+      <Point>ESMON</Point>
+      <Point>AKROV</Point>
+      <Point>AA409</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>KETOB</Point>
+      <Point>ZORBA</Point>
+      <Point>TEVUC</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>TEGIK</Point>
+      <Point>TUSLO</Point>
+      <Point>DUNAD</Point>
+      <Point>NOKAM</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>AA427</Point>
+      <Point>VABTI</Point>
+      <Point>SUBUN</Point>
+      <Point>KIDAG</Point>
+      <Point>ESNAX</Point>
+    </Symbol>
+    <Line>AA427/BUBKU/AA412/TEGIK/AA23L</Line>
+    <Line>KETOB/AA407/AA427</Line>
+    <Line>ZORBA/AA411/AA407</Line>
+    <Line>VABTI/AA521/AA428/AA516/TUSLO/AA23L</Line>
+    <Line>TEVUC/SUBUN/AA513/AA412</Line>
+    <Line>KIDAG/LOSGA/LAGUT/GOBOB/ESMON/AKROV/DUNAD/AA23L</Line>
+    <Line>ESNAX/NOKAM/AA409/AA23L</Line>
+  </Map>
+  <Map Type="System" Name="23L RNP Labels" Priority="1" Center="-37.006656+174.805742" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>KETOB</Point>
+      <Point>ZORBA</Point>
+      <Point>TEVUC</Point>
+      <Point>TEGIK</Point>
+      <Point>TUSLO</Point>
+      <Point>DUNAD</Point>
+      <Point>NOKAM</Point>
+      <Point>AA427</Point>
+      <Point>VABTI</Point>
+      <Point>SUBUN</Point>
+      <Point>KIDAG</Point>
+      <Point>ESNAX</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-37.008056+174.791667">
+    <Symbol Type="HollowSquare">
+      <Point>AVONDALE RACECOURSE</Point>
+      <Point>BLOCKHOUSE BAY</Point>
+      <Point>BROOKBY</Point>
+      <Point>CABLEWAY</Point>
+      <Point>CAPE RODNEY</Point>
+      <Point>CLARKS BEACH</Point>
+      <Point>CLENDON PARK</Point>
+      <Point>CLEVEDON</Point>
+      <Point>CORNWALLIS</Point>
+      <Point>COROMANDEL TOWN</Point>
+      <Point>DRURY</Point>
+      <Point>GLENBROOK</Point>
+      <Point>GORDONTON</Point>
+      <Point>GREEN SHED</Point>
+      <Point>HELENSVILLE</Point>
+      <Point>HINGAIA BRIDGE</Point>
+      <Point>HOROTIU</Point>
+      <Point>HOTEL DU VIN</Point>
+      <Point>HOWICK</Point>
+      <Point>HUNTLY</Point>
+      <Point>HUNUA</Point>
+      <Point>KARAKA</Point>
+      <Point>KAWAKAWA BAY</Point>
+      <Point>KINGSEAT</Point>
+      <Point>LAKE PUPUKE</Point>
+      <Point>LAKE WAIKARE</Point>
+      <Point>LPG TERMINAL</Point>
+      <Point>MANGERE BRIDGE</Point>
+      <Point>MANGERE TOWN</Point>
+      <Point>MANUKAU HEADS</Point>
+      <Point>MARAMARUA</Point>
+      <Point>MCLAUGHLINS MOUNTAIN</Point>
+      <Point>MEREMERE</Point>
+      <Point>MUSICK POINT</Point>
+      <Point>NESS VALLEY</Point>
+      <Point>NGATEA</Point>
+      <Point>NORTH HEAD</Point>
+      <Point>OKURA RIVER MOUTH</Point>
+      <Point>ONE TREE HILL</Point>
+      <Point>OREWA</Point>
+      <Point>PAEROA</Point>
+      <Point>PAKURANGA TOWN</Point>
+      <Point>PANMURE</Point>
+      <Point>PAPAKURA</Point>
+      <Point>POINT CHEVALIER</Point>
+      <Point>PUKETUTU ISLAND</Point>
+      <Point>QUARRY LAKE</Point>
+      <Point>RED HILL</Point>
+      <Point>SEAGROVE</Point>
+      <Point>ST HELIERS</Point>
+      <Point>TAIHIKI RIVER ESTUARY</Point>
+      <Point>TAPU</Point>
+      <Point>TE ATATU</Point>
+      <Point>WAIMAUKU</Point>
+      <Point>WAIROA RIVER MOUTH</Point>
+      <Point>WAITAKERE</Point>
+      <Point>WARKWORTH</Point>
+      <Point>WATERWORKS</Point>
+      <Point>WELLSFORD</Point>
+      <Point>WEYMOUTH</Point>
+      <Point>WHITFORD TOWN</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>AVONDALE RACECOURSE</Point>
+      <Point>BLOCKHOUSE BAY</Point>
+      <Point>BROOKBY</Point>
+      <Point>CABLEWAY</Point>
+      <Point>CAPE RODNEY</Point>
+      <Point>CLARKS BEACH</Point>
+      <Point>CLENDON PARK</Point>
+      <Point>CLEVEDON</Point>
+      <Point>CORNWALLIS</Point>
+      <Point>COROMANDEL TOWN</Point>
+      <Point>DRURY</Point>
+      <Point>GLENBROOK</Point>
+      <Point>GORDONTON</Point>
+      <Point>GREEN SHED</Point>
+      <Point>HELENSVILLE</Point>
+      <Point>HINGAIA BRIDGE</Point>
+      <Point>HOROTIU</Point>
+      <Point>HOTEL DU VIN</Point>
+      <Point>HOWICK</Point>
+      <Point>HUNTLY</Point>
+      <Point>HUNUA</Point>
+      <Point>KARAKA</Point>
+      <Point>KAWAKAWA BAY</Point>
+      <Point>KINGSEAT</Point>
+      <Point>LAKE PUPUKE</Point>
+      <Point>LAKE WAIKARE</Point>
+      <Point>LPG TERMINAL</Point>
+      <Point>MANGERE BRIDGE</Point>
+      <Point>MANGERE TOWN</Point>
+      <Point>MANUKAU HEADS</Point>
+      <Point>MARAMARUA</Point>
+      <Point>MCLAUGHLINS MOUNTAIN</Point>
+      <Point>MEREMERE</Point>
+      <Point>MUSICK POINT</Point>
+      <Point>NESS VALLEY</Point>
+      <Point>NGATEA</Point>
+      <Point>NORTH HEAD</Point>
+      <Point>OKURA RIVER MOUTH</Point>
+      <Point>ONE TREE HILL</Point>
+      <Point>OREWA</Point>
+      <Point>PAEROA</Point>
+      <Point>PAKURANGA TOWN</Point>
+      <Point>PANMURE</Point>
+      <Point>PAPAKURA</Point>
+      <Point>POINT CHEVALIER</Point>
+      <Point>PUKETUTU ISLAND</Point>
+      <Point>QUARRY LAKE</Point>
+      <Point>RED HILL</Point>
+      <Point>SEAGROVE</Point>
+      <Point>ST HELIERS</Point>
+      <Point>TAIHIKI RIVER ESTUARY</Point>
+      <Point>TAPU</Point>
+      <Point>TE ATATU</Point>
+      <Point>WAIMAUKU</Point>
+      <Point>WAIROA RIVER MOUTH</Point>
+      <Point>WAITAKERE</Point>
+      <Point>WARKWORTH</Point>
+      <Point>WATERWORKS</Point>
+      <Point>WELLSFORD</Point>
+      <Point>WEYMOUTH</Point>
+      <Point>WHITFORD TOWN</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="VFRProc" Priority="1" CustomColourName="VFRPoint" Centre="-37.008056+174.791667">
+    <Label HasLeader="True" LabelOrientation="NW">
+      <Point Name="MANGERE_BRG">MANGERE BRIDGE</Point>
+    </Label>
+    <!--MANGERE_BRG-->
+    <Line Pattern="Dotted">
+      MANGERE BRIDGE/MANGERE TOWN
+    </Line>
   </Map>
 </Maps>
-
-<!-- 
-		<Line>
-		
-		</Line>
--->
-
-<!-- 
-<Map Type="System" Name="RWY 34 SIDs" Priority="2" CustomColourName="DrawProc" Centre="-411902.600+1744827.000">
-	
-</Map>
-
--->
