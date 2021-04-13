@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="11 STARs" Priority="1" CustomColourName="DrawProc" Centre="-39.959772+175.018042">
+    <Line>
+      <!--Rwy11 TENU1M-->
+      TENUR/BUPKA
+    </Line>
+    <Line>
+      <!--Rwy11 VIRO1M-->
+      VIROL/AVLOR
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>BUPKA</Point>
+      <Point>AVLOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>TENUR</Point>
+      <Point>VIROL</Point>
+    </Symbol>
+    <Label>
+      <Point>TENUR</Point>
+      <Point>VIROL</Point>
+      <Point>BUPKA</Point>
+      <Point>AVLOR</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="11 GNSS" Priority="0" Center="-39.959772+175.018042" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>AVLOR</Point>
+      <Point>BUPKA</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>-39.914692+174.940081</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>DUDED</Point>
+    </Symbol>
+    <Line>DUDED/-39.914692+174.940081/WU11T</Line>
+    <Line>AVLOR/DUDED</Line>
+    <Line>BUPKA/DUDED</Line>
+  </Map>
+  <Map Type="System" Name="11 GNSS Labels" Priority="1" Center="-39.959772+175.018042" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>AVLOR</Point>
+      <Point>BUPKA</Point>
+      <Point>DUDED</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="29 STARs" Priority="1" CustomColourName="DrawProc" Centre="-39.967169+175.030853">
+    <Line>
+      <!--Rwy29 TENU1L-->
+      TENUR/ADGAT
+    </Line>
+    <Line>
+      <!--Rwy29 VIRO1L-->
+      VIROL/BELVO
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>ADGAT</Point>
+      <Point>BELVO</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>TENUR</Point>
+      <Point>VIROL</Point>
+    </Symbol>
+    <Label>
+      <Point>TENUR</Point>
+      <Point>VIROL</Point>
+      <Point>ADGAT</Point>
+      <Point>BELVO</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="29 GNSS" Priority="0" Center="-39.967169+175.030853" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>ADGAT</Point>
+      <Point>BELVO</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>BUSBI</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>BASEP</Point>
+    </Symbol>
+    <Line>BASEP/BUSBI/WU29T</Line>
+    <Line>ADGAT/BASEP</Line>
+    <Line>BELVO/BASEP</Line>
+  </Map>
+  <Map Type="System" Name="29 GNSS Labels" Priority="1" Center="-39.967169+175.030853" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>ADGAT</Point>
+      <Point>BELVO</Point>
+      <Point>BUSBI</Point>
+      <Point>BASEP</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="WU VFR" Priority="1" CustomColourName="DrawProc" Centre="-39.962222+175.025278">
+    <Symbol Type="HollowSquare">
+      <Point>AOKAUTERE</Point>
+      <Point>ASHHURST</Point>
+      <Point>BUNNYTHORPE SUBSTATION</Point>
+      <Point>CHELTENHAM</Point>
+      <Point>COLYTON</Point>
+      <Point>FEILDING</Point>
+      <Point>FORDELL</Point>
+      <Point>HALCOMBE</Point>
+      <Point>HAUHUNGATAHI</Point>
+      <Point>HIMATANGI BEACH</Point>
+      <Point>HIWINUI</Point>
+      <Point>HOKIO BEACH</Point>
+      <Point>HUNTERVILLE</Point>
+      <Point>KAI IWI</Point>
+      <Point>KARIOI AERODROME</Point>
+      <Point>LEVIN</Point>
+      <Point>LONGBURN</Point>
+      <Point>MANAWATU RIVER MOUTH</Point>
+      <Point>MANFEILD</Point>
+      <Point>MARTON</Point>
+      <Point>MARTON RESERVOIR</Point>
+      <Point>MOUNT THOMPSON</Point>
+      <Point>OHAKUNE</Point>
+      <Point>OTAKI BEACH</Point>
+      <Point>PAHIATUA</Point>
+      <Point>PAPANUI JUNCTION</Point>
+      <Point>RAETIHI</Point>
+      <Point>RANGIOTU</Point>
+      <Point>RAUMAI</Point>
+      <Point>TAIHAPE</Point>
+      <Point>TANGIMOANA</Point>
+      <Point>TE ARAKURA</Point>
+      <Point>TOKOMARU</Point>
+      <Point>UNIVERSITY</Point>
+      <Point>WHAKAPAPA SKIFIELD</Point>
+      <Point>WHANGAEHU RIVER MOUTH</Point>
+      <Point>WOODVILLE</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>AOKAUTERE</Point>
+      <Point>ASHHURST</Point>
+      <Point>BUNNYTHORPE SUBSTATION</Point>
+      <Point>CHELTENHAM</Point>
+      <Point>COLYTON</Point>
+      <Point>FEILDING</Point>
+      <Point>FORDELL</Point>
+      <Point>HALCOMBE</Point>
+      <Point>HAUHUNGATAHI</Point>
+      <Point>HIMATANGI BEACH</Point>
+      <Point>HIWINUI</Point>
+      <Point>HOKIO BEACH</Point>
+      <Point>HUNTERVILLE</Point>
+      <Point>KAI IWI</Point>
+      <Point>KARIOI AERODROME</Point>
+      <Point>LEVIN</Point>
+      <Point>LONGBURN</Point>
+      <Point>MANAWATU RIVER MOUTH</Point>
+      <Point>MANFEILD</Point>
+      <Point>MARTON</Point>
+      <Point>MARTON RESERVOIR</Point>
+      <Point>MOUNT THOMPSON</Point>
+      <Point>OHAKUNE</Point>
+      <Point>OTAKI BEACH</Point>
+      <Point>PAHIATUA</Point>
+      <Point>PAPANUI JUNCTION</Point>
+      <Point>RAETIHI</Point>
+      <Point>RANGIOTU</Point>
+      <Point>RAUMAI</Point>
+      <Point>TAIHAPE</Point>
+      <Point>TANGIMOANA</Point>
+      <Point>TE ARAKURA</Point>
+      <Point>TOKOMARU</Point>
+      <Point>UNIVERSITY</Point>
+      <Point>WHAKAPAPA SKIFIELD</Point>
+      <Point>WHANGAEHU RIVER MOUTH</Point>
+      <Point>WOODVILLE</Point>
+    </Label>
+  </Map>
+</Maps>

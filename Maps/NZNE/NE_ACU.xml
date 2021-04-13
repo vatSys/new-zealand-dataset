@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="03 STARs" Priority="1" CustomColourName="DrawProc" Centre="-36.658144+174.653108">
+    <Line>
+      <!--Rwy03 SF1B-->
+      SF NDB/PANGO
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>PANGO</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>SF NDB</Point>
+    </Symbol>
+    <Label>
+      <Point>SF NDB</Point>
+      <Point>PANGO</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="03 GNSS" Priority="0" Center="-36.658144+174.653108" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle">
+      <Point>-36.667425+174.640756</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>PANGO</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>RIKDI</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>LIBKO</Point>
+    </Symbol>
+    <Line>LIBKO/RIKDI/-36.667425+174.640756/NE03T</Line>
+    <Line>PANGO/LIBKO</Line>
+  </Map>
+  <Map Type="System" Name="03 GNSS Labels" Priority="1" Center="-36.658144+174.653108" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>PANGO</Point>
+      <Point>RIKDI</Point>
+      <Point>LIBKO</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="21 STARs" Priority="1" CustomColourName="DrawProc" Centre="-36.654272+174.658264">
+    <Line>
+      <!--Rwy21 DOST1A-->
+      DOSTU/SUNEL/UPLIN
+    </Line>
+    <Line>
+      <!--Rwy21 SF1A-->
+      SF NDB/BOLOR
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>UPLIN</Point>
+      <Point>BOLOR</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>SF NDB</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>DOSTU</Point>
+      <Point>SUNEL</Point>
+    </Symbol>
+    <Label>
+      <Point>DOSTU</Point>
+      <Point>SF NDB</Point>
+      <Point>UPLIN</Point>
+      <Point>BOLOR</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="21 GNSS" Priority="0" Center="-36.654272+174.658264" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>BOLOR</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>-36.597019+174.734392</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>UPLIN</Point>
+    </Symbol>
+    <Line>UPLIN/-36.597019+174.734392/NE21T</Line>
+    <Line>BOLOR/UPLIN</Line>
+  </Map>
+  <Map Type="System" Name="21 GNSS Labels" Priority="1" Center="-36.654272+174.658264" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>BOLOR</Point>
+      <Point>UPLIN</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="NE VFR" Priority="1" CustomColourName="DrawProc" Centre="-36.656667+174.655278">
+    <Symbol Type="HollowSquare">
+      <Point>AVONDALE RACECOURSE</Point>
+      <Point>BLOCKHOUSE BAY</Point>
+      <Point>BREAMTAIL HEAD</Point>
+      <Point>BROOKBY</Point>
+      <Point>CABLEWAY</Point>
+      <Point>CAPE RODNEY</Point>
+      <Point>CLARKS BEACH</Point>
+      <Point>CLENDON PARK</Point>
+      <Point>CLEVEDON</Point>
+      <Point>CORNWALLIS</Point>
+      <Point>COROMANDEL TOWN</Point>
+      <Point>DRURY</Point>
+      <Point>GLENBROOK</Point>
+      <Point>GREEN SHED</Point>
+      <Point>HELENSVILLE</Point>
+      <Point>HINGAIA BRIDGE</Point>
+      <Point>HOTEL DU VIN</Point>
+      <Point>HOWICK</Point>
+      <Point>HUNUA</Point>
+      <Point>KARAKA</Point>
+      <Point>KAWAKAWA BAY</Point>
+      <Point>KINGSEAT</Point>
+      <Point>LAKE PUPUKE</Point>
+      <Point>LPG TERMINAL</Point>
+      <Point>MANGAWHAI HEADS</Point>
+      <Point>MANGERE BRIDGE</Point>
+      <Point>MANGERE TOWN</Point>
+      <Point>MANUKAU HEADS</Point>
+      <Point>MARAMARUA</Point>
+      <Point>MAUNGATUROTO</Point>
+      <Point>MCLAUGHLINS MOUNTAIN</Point>
+      <Point>MEREMERE</Point>
+      <Point>MUSICK POINT</Point>
+      <Point>NESS VALLEY</Point>
+      <Point>NORTH HEAD</Point>
+      <Point>OKURA RIVER MOUTH</Point>
+      <Point>ONE TREE HILL</Point>
+      <Point>OREWA</Point>
+      <Point>PAKURANGA TOWN</Point>
+      <Point>PANMURE</Point>
+      <Point>PAPAKURA</Point>
+      <Point>POINT CHEVALIER</Point>
+      <Point>PUKETUTU ISLAND</Point>
+      <Point>QUARRY LAKE</Point>
+      <Point>RED HILL</Point>
+      <Point>SEAGROVE</Point>
+      <Point>ST HELIERS</Point>
+      <Point>TAIHIKI RIVER ESTUARY</Point>
+      <Point>TAPU</Point>
+      <Point>TE ATATU</Point>
+      <Point>WAIMAUKU</Point>
+      <Point>WAIROA RIVER MOUTH</Point>
+      <Point>WAITAKERE</Point>
+      <Point>WARKWORTH</Point>
+      <Point>WATERWORKS</Point>
+      <Point>WELLSFORD</Point>
+      <Point>WEYMOUTH</Point>
+      <Point>WHITFORD TOWN</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>AVONDALE RACECOURSE</Point>
+      <Point>BLOCKHOUSE BAY</Point>
+      <Point>BREAMTAIL HEAD</Point>
+      <Point>BROOKBY</Point>
+      <Point>CABLEWAY</Point>
+      <Point>CAPE RODNEY</Point>
+      <Point>CLARKS BEACH</Point>
+      <Point>CLENDON PARK</Point>
+      <Point>CLEVEDON</Point>
+      <Point>CORNWALLIS</Point>
+      <Point>COROMANDEL TOWN</Point>
+      <Point>DRURY</Point>
+      <Point>GLENBROOK</Point>
+      <Point>GREEN SHED</Point>
+      <Point>HELENSVILLE</Point>
+      <Point>HINGAIA BRIDGE</Point>
+      <Point>HOTEL DU VIN</Point>
+      <Point>HOWICK</Point>
+      <Point>HUNUA</Point>
+      <Point>KARAKA</Point>
+      <Point>KAWAKAWA BAY</Point>
+      <Point>KINGSEAT</Point>
+      <Point>LAKE PUPUKE</Point>
+      <Point>LPG TERMINAL</Point>
+      <Point>MANGAWHAI HEADS</Point>
+      <Point>MANGERE BRIDGE</Point>
+      <Point>MANGERE TOWN</Point>
+      <Point>MANUKAU HEADS</Point>
+      <Point>MARAMARUA</Point>
+      <Point>MAUNGATUROTO</Point>
+      <Point>MCLAUGHLINS MOUNTAIN</Point>
+      <Point>MEREMERE</Point>
+      <Point>MUSICK POINT</Point>
+      <Point>NESS VALLEY</Point>
+      <Point>NORTH HEAD</Point>
+      <Point>OKURA RIVER MOUTH</Point>
+      <Point>ONE TREE HILL</Point>
+      <Point>OREWA</Point>
+      <Point>PAKURANGA TOWN</Point>
+      <Point>PANMURE</Point>
+      <Point>PAPAKURA</Point>
+      <Point>POINT CHEVALIER</Point>
+      <Point>PUKETUTU ISLAND</Point>
+      <Point>QUARRY LAKE</Point>
+      <Point>RED HILL</Point>
+      <Point>SEAGROVE</Point>
+      <Point>ST HELIERS</Point>
+      <Point>TAIHIKI RIVER ESTUARY</Point>
+      <Point>TAPU</Point>
+      <Point>TE ATATU</Point>
+      <Point>WAIMAUKU</Point>
+      <Point>WAIROA RIVER MOUTH</Point>
+      <Point>WAITAKERE</Point>
+      <Point>WARKWORTH</Point>
+      <Point>WATERWORKS</Point>
+      <Point>WELLSFORD</Point>
+      <Point>WEYMOUTH</Point>
+      <Point>WHITFORD TOWN</Point>
+    </Label>
+  </Map>
+</Maps>

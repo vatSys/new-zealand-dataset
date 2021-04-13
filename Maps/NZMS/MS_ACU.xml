@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="06 SIDs" Priority="1" CustomColourName="DrawProc" Centre="-40.973622+175.640547">
+    <Line>
+      <!--Rwy06 LADI3B-->
+      -40.973622+175.640547/OLNOL/-40.941667+175.746389/-40.916667+175.758611/-40.889444+175.749167/-40.870000+175.725278/-40.865556+175.693056/-40.878056+175.651111/LADIT
+    </Line>
+    <Line>
+      <!--Rwy06 MAMO5B-->
+      -40.878056+175.651111/MAMOD
+    </Line>
+    <Line>
+      <!--Rwy06 MAMO5B.PP-->
+      MAMOD/PP NDB
+    </Line>
+    <Line>
+      <!--Rwy06 MAMO5B.WITBY-->
+      MAMOD/WITBY
+    </Line>
+    <Line>
+      <!--Rwy06 MAMO5B.WN-->
+      MAMOD/WN VOR
+    </Line>
+    <Line>
+      <!--Rwy06 URDA4B-->
+      -40.973622+175.640547/SADUN/URDAL
+    </Line>
+    <Line>
+      <!--Rwy06 URDA4B.KAMET-->
+      URDAL/KAMET
+    </Line>
+    <Line>
+      <!--Rwy06 URDA4B.PM-->
+      URDAL/OKEVO/PM VOR
+    </Line>
+    <Line>
+      <!--Rwy06 URDA4B.PP-->
+      URDAL/PP NDB
+    </Line>
+    <Line>
+      <!--Rwy06 URDA4B.WEBER-->
+      URDAL/WEBER
+    </Line>
+    <Symbol Type="Circle">
+      <Point>PP NDB</Point>
+      <Point>WN VOR</Point>
+      <Point>PM VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>OLNOL</Point>
+      <Point>LADIT</Point>
+      <Point>MAMOD</Point>
+      <Point>WITBY</Point>
+      <Point>SADUN</Point>
+      <Point>URDAL</Point>
+      <Point>KAMET</Point>
+      <Point>OKEVO</Point>
+      <Point>WEBER</Point>
+    </Symbol>
+    <Label>
+      <Point>LADIT</Point>
+      <Point>MAMOD</Point>
+      <Point>URDAL</Point>
+      <Point>PP NDB</Point>
+      <Point>WITBY</Point>
+      <Point>WN VOR</Point>
+      <Point>KAMET</Point>
+      <Point>PM VOR</Point>
+      <Point>WEBER</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="06 GNSS" Priority="0" Center="-40.975867+175.627550" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle">
+      <Point>MS818</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>MAMOD</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>MS488</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>MS603</Point>
+    </Symbol>
+    <Line>MAMOD/MS603/MS488/MS818/MS06T</Line>
+  </Map>
+  <Map Type="System" Name="06 GNSS Labels" Priority="1" Center="-40.975867+175.627550" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>MAMOD</Point>
+      <Point>MS488</Point>
+      <Point>MS603</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="24 SIDs" Priority="1" CustomColourName="DrawProc" Centre="-40.975867+175.627550">
+    <Line>
+      <!--Rwy24 LADI3A-->
+      -40.975867+175.627550/NIPIR/LADIT
+    </Line>
+    <Line>
+      <!--Rwy24 MAMO6A-->
+      NIPIR/MAMOD
+    </Line>
+    <Line>
+      <!--Rwy24 MAMO6A.PP-->
+      MAMOD/PP NDB
+    </Line>
+    <Line>
+      <!--Rwy24 MAMO6A.WITBY-->
+      MAMOD/WITBY
+    </Line>
+    <Line>
+      <!--Rwy24 MAMO6A.WN-->
+      MAMOD/WN VOR
+    </Line>
+    <Line>
+      <!--Rwy24 URDA4A-->
+      NIPIR/-40.004444+175.518333/-41.031944+175.503333/-41.070278+175.515278/-41.088056+175.543333/-41.092778+175.583611/-41.081111+175.620556/SADUN/URDAL
+    </Line>
+    <Line>
+      <!--Rwy24 URDA4A.KAMET-->
+      URDAL/KAMET
+    </Line>
+    <Line>
+      <!--Rwy24 URDA4A.PM-->
+      URDAL/OKEVO/PM VOR
+    </Line>
+    <Line>
+      <!--Rwy24 URDA4A.PP-->
+      URDAL/PP NDB
+    </Line>
+    <Line>
+      <!--Rwy24 URDA4A.WEBER-->
+      URDAL/WEBER
+    </Line>
+    <Symbol Type="Circle">
+      <Point>PP NDB</Point>
+      <Point>WN VOR</Point>
+      <Point>PM VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>NIPIR</Point>
+      <Point>LADIT</Point>
+      <Point>MAMOD</Point>
+      <Point>WITBY</Point>
+      <Point>SADUN</Point>
+      <Point>URDAL</Point>
+      <Point>KAMET</Point>
+      <Point>OKEVO</Point>
+      <Point>WEBER</Point>
+    </Symbol>
+    <Label>
+      <Point>LADIT</Point>
+      <Point>MAMOD</Point>
+      <Point>URDAL</Point>
+      <Point>PP NDB</Point>
+      <Point>WITBY</Point>
+      <Point>WN VOR</Point>
+      <Point>KAMET</Point>
+      <Point>PM VOR</Point>
+      <Point>WEBER</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="24 GNSS" Priority="0" Center="-40.973622+175.640547" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle">
+      <Point>MS572</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>ATVOX</Point>
+      <Point>URDAL</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>MS402</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>SADUN</Point>
+    </Symbol>
+    <Line>SADUN/MS402/MS572/MS24T</Line>
+    <Line>ATVOX/SADUN</Line>
+    <Line>URDAL/SADUN</Line>
+  </Map>
+  <Map Type="System" Name="24 GNSS Labels" Priority="1" Center="-40.973622+175.640547" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>ATVOX</Point>
+      <Point>URDAL</Point>
+      <Point>MS402</Point>
+      <Point>SADUN</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="MS VFR" Priority="1" CustomColourName="DrawProc" Centre="-40.973333+175.633611">
+    <Symbol Type="HollowSquare">
+      <Point>AOKAUTERE</Point>
+      <Point>ASHHURST</Point>
+      <Point>AVALON</Point>
+      <Point>BARING</Point>
+      <Point>BELMONT HILL</Point>
+      <Point>BENNETTS HILL</Point>
+      <Point>BUNNYTHORPE SUBSTATION</Point>
+      <Point>COLYTON</Point>
+      <Point>FEILDING</Point>
+      <Point>GRENADA</Point>
+      <Point>HALCOMBE</Point>
+      <Point>HARBOUR ENTRANCE</Point>
+      <Point>HAYWARDS</Point>
+      <Point>HIMATANGI BEACH</Point>
+      <Point>HIWINUI</Point>
+      <Point>HOKIO BEACH</Point>
+      <Point>ISLAND BAY</Point>
+      <Point>KARORI ROCK</Point>
+      <Point>LEVIN</Point>
+      <Point>LONGBURN</Point>
+      <Point>MAKARA PEAK</Point>
+      <Point>MANA ISLAND</Point>
+      <Point>MANAWATU RIVER MOUTH</Point>
+      <Point>MANFEILD</Point>
+      <Point>MOUNT CLIMIE</Point>
+      <Point>MOUNT HECTOR</Point>
+      <Point>MOUNT THOMPSON</Point>
+      <Point>MOUNT WAINUI</Point>
+      <Point>OBSERVATORY</Point>
+      <Point>OHAU POINT</Point>
+      <Point>OTAKI BEACH</Point>
+      <Point>PAEKAKARIKI</Point>
+      <Point>PAHIATUA</Point>
+      <Point>PAREMATA</Point>
+      <Point>PEKAPEKA PONDS</Point>
+      <Point>PENCARROW</Point>
+      <Point>PETONE WHARF</Point>
+      <Point>PINNACLE</Point>
+      <Point>PIPINUI POINT</Point>
+      <Point>POINT GORDON</Point>
+      <Point>POINT HOWARD</Point>
+      <Point>PUKERUA BAY</Point>
+      <Point>RANGIOTU</Point>
+      <Point>SINCLAIR HEAD</Point>
+      <Point>SOMES</Point>
+      <Point>TANGIMOANA</Point>
+      <Point>TE ARAKURA</Point>
+      <Point>TE MARUA</Point>
+      <Point>TERAWHITI</Point>
+      <Point>THE PONDS</Point>
+      <Point>TIMBER MILL</Point>
+      <Point>TOKOMARU</Point>
+      <Point>TURAKIRAE</Point>
+      <Point>UNIVERSITY</Point>
+      <Point>WARD ISLAND</Point>
+      <Point>WINDMILL</Point>
+      <Point>WOODVILLE</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>AOKAUTERE</Point>
+      <Point>ASHHURST</Point>
+      <Point>AVALON</Point>
+      <Point>BARING</Point>
+      <Point>BELMONT HILL</Point>
+      <Point>BENNETTS HILL</Point>
+      <Point>BUNNYTHORPE SUBSTATION</Point>
+      <Point>COLYTON</Point>
+      <Point>FEILDING</Point>
+      <Point>GRENADA</Point>
+      <Point>HALCOMBE</Point>
+      <Point>HARBOUR ENTRANCE</Point>
+      <Point>HAYWARDS</Point>
+      <Point>HIMATANGI BEACH</Point>
+      <Point>HIWINUI</Point>
+      <Point>HOKIO BEACH</Point>
+      <Point>ISLAND BAY</Point>
+      <Point>KARORI ROCK</Point>
+      <Point>LEVIN</Point>
+      <Point>LONGBURN</Point>
+      <Point>MAKARA PEAK</Point>
+      <Point>MANA ISLAND</Point>
+      <Point>MANAWATU RIVER MOUTH</Point>
+      <Point>MANFEILD</Point>
+      <Point>MOUNT CLIMIE</Point>
+      <Point>MOUNT HECTOR</Point>
+      <Point>MOUNT THOMPSON</Point>
+      <Point>MOUNT WAINUI</Point>
+      <Point>OBSERVATORY</Point>
+      <Point>OHAU POINT</Point>
+      <Point>OTAKI BEACH</Point>
+      <Point>PAEKAKARIKI</Point>
+      <Point>PAHIATUA</Point>
+      <Point>PAREMATA</Point>
+      <Point>PEKAPEKA PONDS</Point>
+      <Point>PENCARROW</Point>
+      <Point>PETONE WHARF</Point>
+      <Point>PINNACLE</Point>
+      <Point>PIPINUI POINT</Point>
+      <Point>POINT GORDON</Point>
+      <Point>POINT HOWARD</Point>
+      <Point>PUKERUA BAY</Point>
+      <Point>RANGIOTU</Point>
+      <Point>SINCLAIR HEAD</Point>
+      <Point>SOMES</Point>
+      <Point>TANGIMOANA</Point>
+      <Point>TE ARAKURA</Point>
+      <Point>TE MARUA</Point>
+      <Point>TERAWHITI</Point>
+      <Point>THE PONDS</Point>
+      <Point>TIMBER MILL</Point>
+      <Point>TOKOMARU</Point>
+      <Point>TURAKIRAE</Point>
+      <Point>UNIVERSITY</Point>
+      <Point>WARD ISLAND</Point>
+      <Point>WINDMILL</Point>
+      <Point>WOODVILLE</Point>
+    </Label>
+  </Map>
+</Maps>

@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="06 GNSS" Priority="0" Center="-36.241909+175.468536" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>LUVOG</Point>
+      <Point>VARSI</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>AVKIN</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>OMGET</Point>
+    </Symbol>
+    <Line>OMGET/AVKIN/GB678</Line>
+    <Line>LUVOG/OMGET</Line>
+    <Line>VARSI/OMGET</Line>
+  </Map>
+  <Map Type="System" Name="06 GNSS Labels" Priority="1" Center="-36.241909+175.468536" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>LUVOG</Point>
+      <Point>VARSI</Point>
+      <Point>AVKIN</Point>
+      <Point>OMGET</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="24 GNSS" Priority="0" Center="-36.240841+175.475342" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>LUVOG</Point>
+      <Point>VARSI</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>AVKIN</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>OMGET</Point>
+    </Symbol>
+    <Line>OMGET/AVKIN/GB678</Line>
+    <Line>LUVOG/OMGET</Line>
+    <Line>VARSI/OMGET</Line>
+  </Map>
+  <Map Type="System" Name="24 GNSS Labels" Priority="1" Center="-36.240841+175.475342" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>LUVOG</Point>
+      <Point>VARSI</Point>
+      <Point>AVKIN</Point>
+      <Point>OMGET</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="10 GNSS" Priority="0" Center="-36.238797+175.464031" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>LUVOG</Point>
+      <Point>VARSI</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>AVKIN</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>OMGET</Point>
+    </Symbol>
+    <Line>OMGET/AVKIN/GB678</Line>
+    <Line>LUVOG/OMGET</Line>
+    <Line>VARSI/OMGET</Line>
+  </Map>
+  <Map Type="System" Name="10 GNSS Labels" Priority="1" Center="-36.238797+175.464031" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>LUVOG</Point>
+      <Point>VARSI</Point>
+      <Point>AVKIN</Point>
+      <Point>OMGET</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="28 GNSS" Priority="0" Center="-36.243103+175.472969" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>LUVOG</Point>
+      <Point>VARSI</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>AVKIN</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>OMGET</Point>
+    </Symbol>
+    <Line>OMGET/AVKIN/GB678</Line>
+    <Line>LUVOG/OMGET</Line>
+    <Line>VARSI/OMGET</Line>
+  </Map>
+  <Map Type="System" Name="28 GNSS Labels" Priority="1" Center="-36.243103+175.472969" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>LUVOG</Point>
+      <Point>VARSI</Point>
+      <Point>AVKIN</Point>
+      <Point>OMGET</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="GB VFR" Priority="1" CustomColourName="DrawProc" Centre="-36.241389+175.471944">
+    <Symbol Type="HollowSquare">
+      <Point>BREAMTAIL HEAD</Point>
+      <Point>CAPE RODNEY</Point>
+      <Point>CLEVEDON</Point>
+      <Point>COROMANDEL TOWN</Point>
+      <Point>HOWICK</Point>
+      <Point>KAWAKAWA BAY</Point>
+      <Point>LAKE PUPUKE</Point>
+      <Point>MANGAWHAI HEADS</Point>
+      <Point>MUSICK POINT</Point>
+      <Point>NESS VALLEY</Point>
+      <Point>NORTH HEAD</Point>
+      <Point>OKURA RIVER MOUTH</Point>
+      <Point>OREWA</Point>
+      <Point>PAKURANGA TOWN</Point>
+      <Point>PANMURE</Point>
+      <Point>ST HELIERS</Point>
+      <Point>TAPU</Point>
+      <Point>WAIROA RIVER MOUTH</Point>
+      <Point>WARKWORTH</Point>
+      <Point>WELLSFORD</Point>
+      <Point>WHITFORD TOWN</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>BREAMTAIL HEAD</Point>
+      <Point>CAPE RODNEY</Point>
+      <Point>CLEVEDON</Point>
+      <Point>COROMANDEL TOWN</Point>
+      <Point>HOWICK</Point>
+      <Point>KAWAKAWA BAY</Point>
+      <Point>LAKE PUPUKE</Point>
+      <Point>MANGAWHAI HEADS</Point>
+      <Point>MUSICK POINT</Point>
+      <Point>NESS VALLEY</Point>
+      <Point>NORTH HEAD</Point>
+      <Point>OKURA RIVER MOUTH</Point>
+      <Point>OREWA</Point>
+      <Point>PAKURANGA TOWN</Point>
+      <Point>PANMURE</Point>
+      <Point>ST HELIERS</Point>
+      <Point>TAPU</Point>
+      <Point>WAIROA RIVER MOUTH</Point>
+      <Point>WARKWORTH</Point>
+      <Point>WELLSFORD</Point>
+      <Point>WHITFORD TOWN</Point>
+    </Label>
+  </Map>
+</Maps>

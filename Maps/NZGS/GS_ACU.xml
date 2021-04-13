@@ -1,60 +1,341 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Maps>  
-	<Map Type="System" Name="RWY 32 STARs" Priority="2" CustomColourName="DrawProc" Centre="-383958.905+1775858.973">
-		<Line>
-			OTOKO/
-			UKLIP/
-			WARIK/
-		</Line>
-		<Line>
-			CREEK/
-			UKLIP/
-			ELMER/
-		</Line>
-		<Line>
-			HAWKE/
-			UKLIP
-		</Line>
-		<Line>
-			COOKS/
-			KOPUA/
-			GS
-		</Line>	
-  </Map>  
-
-	<Map Type="System" Name="RWY 14 STARs" Priority="2" CustomColourName="DrawProc" Centre="-383958.905+1775858.973">
-		<Line>
-			DOGMO/
-			ELMER/
-			EWOOD
-		</Line>
-		<Line>
-			GOTNO/
-			HAWKE/
-			EWOOD/
-			XEPEP
-		</Line>
-		<Line>
-			KOPUA/
-			XEPEP/
-			GS
-		</Line>
+<Maps>
+  <Map Type="System" Name="14 SIDs" Priority="1" CustomColourName="DrawProc" Centre="-38.669686+177.979039">
+    <Line>
+      <!--Rwy14 GAN1-->
+      -38.669686+177.979039/-38.678162+177.982151
+    </Line>
+    <Line>
+      <!--Rwy14 NIC3-->
+    </Line>
+    <Line>
+      <!--Rwy14 NUH3-->
+    </Line>
+    <Line>
+      <!--Rwy14 POPAD1-->
+      -38.669686+177.979039/POPAD/-38.678162+177.982151
+    </Line>
+    <Line>
+      <!--Rwy14 POPAD1.COOKS-->
+      -38.678162+177.982151/COOKS
+    </Line>
+    <Line>
+      <!--Rwy14 POPAD1.CREEK-->
+      -38.678162+177.982151/ADLIB/CREEK
+    </Line>
+    <Line>
+      <!--Rwy14 POPAD1.ELMER-->
+      -38.678162+177.982151/ELMER
+    </Line>
+    <Line>
+      <!--Rwy14 POPAD1.HAWKE-->
+      -38.678162+177.982151/HAWKE
+    </Line>
+    <Line>
+      <!--Rwy14 POPAD1.OTOKO-->
+      ADLIB/EWOOD/OTOKO
+    </Line>
+    <Line>
+      <!--Rwy14 POPAD1.WARIK-->
+      EWOOD/WARIK
+    </Line>
+    <Line>
+      <!--Rwy14 TUN2-->
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>POPAD</Point>
+      <Point>COOKS</Point>
+      <Point>ADLIB</Point>
+      <Point>CREEK</Point>
+      <Point>ELMER</Point>
+      <Point>HAWKE</Point>
+      <Point>EWOOD</Point>
+      <Point>OTOKO</Point>
+      <Point>WARIK</Point>
+    </Symbol>
+    <Label>
+      <Point>COOKS</Point>
+      <Point>CREEK</Point>
+      <Point>ELMER</Point>
+      <Point>HAWKE</Point>
+      <Point>OTOKO</Point>
+      <Point>WARIK</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="14 STARs" Priority="1" CustomColourName="DrawProc" Centre="-38.658300+177.974975">
+    <Line>
+      <!--Rwy14 CREEK-->
+      DABIP/CREEK
+    </Line>
+    <Line>
+      <!--Rwy14 ELME1A-->
+      ELMER/EWOOD
+    </Line>
+    <Line>
+      <!--Rwy14 GS3A-->
+      GS VOR/XEPEP/EWOOD
+    </Line>
+    <Line>
+      <!--Rwy14 HAWK3A-->
+      HAWKE/EWOOD
+    </Line>
+    <Line>
+      <!--Rwy14 KOPU3A-->
+      KOPUA/XEPEP
+    </Line>
+    <Line>
+      <!--Rwy14 OTOKO-->
+      KEEPA/OTOKO
+    </Line>
+    <Line>
+      <!--Rwy14 WARIK-->
+      TG NDB/WARIK
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>CREEK</Point>
+      <Point>EWOOD</Point>
+      <Point>OTOKO</Point>
+      <Point>WARIK</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>GS VOR</Point>
+      <Point>TG NDB</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>DABIP</Point>
+      <Point>ELMER</Point>
+      <Point>XEPEP</Point>
+      <Point>HAWKE</Point>
+      <Point>KOPUA</Point>
+      <Point>KEEPA</Point>
+    </Symbol>
+    <Label>
+      <Point>DABIP</Point>
+      <Point>ELMER</Point>
+      <Point>GS VOR</Point>
+      <Point>HAWKE</Point>
+      <Point>KOPUA</Point>
+      <Point>KEEPA</Point>
+      <Point>TG NDB</Point>
+      <Point>CREEK</Point>
+      <Point>EWOOD</Point>
+      <Point>OTOKO</Point>
+      <Point>WARIK</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="14 GNSS" Priority="0" Center="-38.658300+177.974975" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>CREEK</Point>
+      <Point>EWOOD</Point>
+      <Point>OTOKO</Point>
+      <Point>WARIK</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>SALEK</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>RUGRU</Point>
+    </Symbol>
+    <Line>RUGRU/SALEK/GS14T</Line>
+    <Line>CREEK/RUGRU</Line>
+    <Line>EWOOD/RUGRU</Line>
+    <Line>OTOKO/RUGRU</Line>
+    <Line>WARIK/RUGRU</Line>
+  </Map>
+  <Map Type="System" Name="14 GNSS Labels" Priority="1" Center="-38.658300+177.974975" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>CREEK</Point>
+      <Point>EWOOD</Point>
+      <Point>OTOKO</Point>
+      <Point>WARIK</Point>
+      <Point>SALEK</Point>
+      <Point>RUGRU</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="32 SIDs" Priority="1" CustomColourName="DrawProc" Centre="-38.658300+177.974975">
+    <Line>
+      <!--Rwy32 CIT3-->
+      -38.658300+177.974975/-38.653182+177.973461/-38.652302+177.980511/GS VOR
+    </Line>
+    <Line>
+      <!--Rwy32 CRA3-->
+    </Line>
+    <Line>
+      <!--Rwy32 NODEX1-->
+      -38.658300+177.974975/NODEX
+    </Line>
+    <Line>
+      <!--Rwy32 NODEX1.COOKS-->
+      NODEX/COOKS
+    </Line>
+    <Line>
+      <!--Rwy32 NODEX1.CREEK-->
+      NODEX/CREEK
+    </Line>
+    <Line>
+      <!--Rwy32 NODEX1.ELMER-->
+      NODEX/MABRI/ELMER
+    </Line>
+    <Line>
+      <!--Rwy32 NODEX1.EWOOD-->
+      NODEX/EWOOD
+    </Line>
+    <Line>
+      <!--Rwy32 NODEX1.HAWKE-->
+      NODEX/HAWKE
+    </Line>
+    <Line>
+      <!--Rwy32 NODEX1.OTOKO-->
+      NODEX/OTOKO
+    </Line>
+    <Line>
+      <!--Rwy32 PUA3-->
+    </Line>
+    <Symbol Type="Circle">
+      <Point>GS VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>NODEX</Point>
+      <Point>COOKS</Point>
+      <Point>CREEK</Point>
+      <Point>MABRI</Point>
+      <Point>ELMER</Point>
+      <Point>EWOOD</Point>
+      <Point>HAWKE</Point>
+      <Point>OTOKO</Point>
+    </Symbol>
+    <Label>
+      <Point>GS VOR</Point>
+      <Point>NODEX</Point>
+      <Point>COOKS</Point>
+      <Point>CREEK</Point>
+      <Point>ELMER</Point>
+      <Point>EWOOD</Point>
+      <Point>HAWKE</Point>
+      <Point>OTOKO</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="32 STARs" Priority="1" CustomColourName="DrawProc" Centre="-38.669686+177.979039">
+    <Line>
+      <!--Rwy32 CREK2B-->
+      CREEK/UKLIP
+    </Line>
+    <Line>
+      <!--Rwy32 ELME2B-->
+      ELMER/UKLIP
+    </Line>
+    <Line>
+      <!--Rwy32 GS2B-->
+      GS VOR/KOPUA
+    </Line>
+    <Line>
+      <!--Rwy32 HAWK2B-->
+      HAWKE/UKLIP
+    </Line>
+    <Line>
+      <!--Rwy32 OTOK3B-->
+      OTOKO/UKLIP
+    </Line>
+    <Line>
+      <!--Rwy32 WARI3B-->
+      WARIK/UKLIP
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>UKLIP</Point>
+      <Point>KOPUA</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>GS VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>CREEK</Point>
+      <Point>ELMER</Point>
+      <Point>HAWKE</Point>
+      <Point>OTOKO</Point>
+      <Point>WARIK</Point>
+    </Symbol>
+    <Label>
+      <Point>CREEK</Point>
+      <Point>ELMER</Point>
+      <Point>GS VOR</Point>
+      <Point>HAWKE</Point>
+      <Point>OTOKO</Point>
+      <Point>WARIK</Point>
+      <Point>UKLIP</Point>
+      <Point>KOPUA</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="32 GNSS" Priority="0" Center="-38.669686+177.979039" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>COOKS</Point>
+      <Point>UKLIP</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>VESAV</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>KOPUA</Point>
+    </Symbol>
+    <Line>KOPUA/VESAV/GS32T</Line>
+    <Line>COOKS/KOPUA</Line>
+    <Line>UKLIP/KOPUA</Line>
+  </Map>
+  <Map Type="System" Name="32 GNSS Labels" Priority="1" Center="-38.669686+177.979039" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>COOKS</Point>
+      <Point>UKLIP</Point>
+      <Point>VESAV</Point>
+      <Point>KOPUA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="GS VFR" Priority="1" CustomColourName="DrawProc" Centre="-38.663333+177.978333">
+    <Symbol Type="HollowSquare">
+      <Point>BARTLETTS</Point>
+      <Point>GREYS BUSH</Point>
+      <Point>HOROTO</Point>
+      <Point>MAKORORI</Point>
+      <Point>MANUTUKE</Point>
+      <Point>MOHAKA RIVER MOUTH</Point>
+      <Point>MURIWAI</Point>
+      <Point>NUHAKA</Point>
+      <Point>ORMOND</Point>
+      <Point>PATUTAHI</Point>
+      <Point>TE KARAKA</Point>
+      <Point>THE DAMS</Point>
+      <Point>THE LAKE</Point>
+      <Point>THE MILL</Point>
+      <Point>THE OLD WORKS</Point>
+      <Point>THE ROUNDABOUT</Point>
+      <Point>THE TRIG</Point>
+      <Point>WAIMATA</Point>
+      <Point>WAINUI</Point>
+      <Point>WAIPAOA RIVER MOUTH</Point>
+      <Point>WHAKAPUNAKI</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>BARTLETTS</Point>
+      <Point>GREYS BUSH</Point>
+      <Point>HOROTO</Point>
+      <Point>MAKORORI</Point>
+      <Point>MANUTUKE</Point>
+      <Point>MOHAKA RIVER MOUTH</Point>
+      <Point>MURIWAI</Point>
+      <Point>NUHAKA</Point>
+      <Point>ORMOND</Point>
+      <Point>PATUTAHI</Point>
+      <Point>TE KARAKA</Point>
+      <Point>THE DAMS</Point>
+      <Point>THE LAKE</Point>
+      <Point>THE MILL</Point>
+      <Point>THE OLD WORKS</Point>
+      <Point>THE ROUNDABOUT</Point>
+      <Point>THE TRIG</Point>
+      <Point>WAIMATA</Point>
+      <Point>WAINUI</Point>
+      <Point>WAIPAOA RIVER MOUTH</Point>
+      <Point>WHAKAPUNAKI</Point>
+    </Label>
   </Map>
 </Maps>
-
-<!-- 
-		<Line>
-		
-		</Line>
--->
-
-<!-- 
-  
-  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-383958.905+1775858.973">
-		<Line>
-		
-		</Line>      
-  </Map>
-
-
--->

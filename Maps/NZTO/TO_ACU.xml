@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="13 GNSS" Priority="0" Center="-38.235425+175.891744" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>KARBA</Point>
+      <Point>LALAN</Point>
+      <Point>MIKER</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>-38.167164+175.830969</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>WAIPA</Point>
+    </Symbol>
+    <Line>WAIPA/-38.167164+175.830969/TO13T</Line>
+    <Line>KARBA/WAIPA</Line>
+    <Line>LALAN/WAIPA</Line>
+    <Line>MIKER/WAIPA</Line>
+  </Map>
+  <Map Type="System" Name="13 GNSS Labels" Priority="1" Center="-38.235425+175.891744" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>KARBA</Point>
+      <Point>LALAN</Point>
+      <Point>MIKER</Point>
+      <Point>WAIPA</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="31 GNSS" Priority="0" Center="-38.241714+175.897350" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>ARIKA</Point>
+      <Point>GOSTI</Point>
+      <Point>GUMAN</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>-38.309944+175.958236</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>AMURI</Point>
+    </Symbol>
+    <Line>AMURI/-38.309944+175.958236/TO31T</Line>
+    <Line>ARIKA/AMURI</Line>
+    <Line>GOSTI/AMURI</Line>
+    <Line>GUMAN/AMURI</Line>
+  </Map>
+  <Map Type="System" Name="31 GNSS Labels" Priority="1" Center="-38.241714+175.897350" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>ARIKA</Point>
+      <Point>GOSTI</Point>
+      <Point>GUMAN</Point>
+      <Point>AMURI</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="TO VFR" Priority="1" CustomColourName="DrawProc" Centre="-38.236667+175.892778">
+    <Symbol Type="HollowSquare">
+      <Point>ATHENREE</Point>
+      <Point>BEACH MOTOR CAMP</Point>
+      <Point>BLUE GUM BAY</Point>
+      <Point>BOAT HARBOUR</Point>
+      <Point>CAMBRIDGE</Point>
+      <Point>EAST JUNCTION</Point>
+      <Point>GORDONTON</Point>
+      <Point>GREEN LAKE</Point>
+      <Point>HAMILTON LAKE</Point>
+      <Point>HAMURANA</Point>
+      <Point>HAPARANGI</Point>
+      <Point>HATEPE</Point>
+      <Point>HAUTAPU</Point>
+      <Point>HINEHOPU</Point>
+      <Point>HINUERA</Point>
+      <Point>HOROTIU</Point>
+      <Point>HUKA FALLS</Point>
+      <Point>HUNTERS CREEK</Point>
+      <Point>KAHAROA</Point>
+      <Point>KAINGAROA</Point>
+      <Point>KARANGAHAPE</Point>
+      <Point>KAREWA ISLAND</Point>
+      <Point>KATIKATI</Point>
+      <Point>KAWAHA POINT</Point>
+      <Point>KAWERAU VILLAGE</Point>
+      <Point>KIHIKIHI</Point>
+      <Point>KINLOCH</Point>
+      <Point>LAKE ROTOKAWA</Point>
+      <Point>LAKE ROTOKAWAU</Point>
+      <Point>MAKETU</Point>
+      <Point>MAMAKU</Point>
+      <Point>MANAWARU</Point>
+      <Point>MATANGI</Point>
+      <Point>MISSION BAY</Point>
+      <Point>MOKOIA ISLAND</Point>
+      <Point>MORRINSVILLE</Point>
+      <Point>MOTUTAIKO ISLAND</Point>
+      <Point>MOUNT BALDY</Point>
+      <Point>MOUNT HARBOUR ENTRANCE</Point>
+      <Point>MOUNT RURU</Point>
+      <Point>MOUNT TARAWERA</Point>
+      <Point>MOUNT TAUHARA</Point>
+      <Point>MYSTERY CREEK</Point>
+      <Point>NGAHINAPOURI</Point>
+      <Point>NGAKURU</Point>
+      <Point>NGONGOTAHA</Point>
+      <Point>OHAUPO</Point>
+      <Point>OMOKOROA</Point>
+      <Point>OXIDATION PONDS</Point>
+      <Point>PIRONGIA</Point>
+      <Point>PUKEPOTO</Point>
+      <Point>RACECOURSE</Point>
+      <Point>RANGATIRA POINT</Point>
+      <Point>RUAHIHI</Point>
+      <Point>RUKUHIA</Point>
+      <Point>SANDFLY HILL</Point>
+      <Point>SCOTSMANS VALLEY</Point>
+      <Point>SHOWGROUNDS</Point>
+      <Point>SOUTHERN DAM</Point>
+      <Point>SPORTS GROUND</Point>
+      <Point>ST PETERS SCHOOL</Point>
+      <Point>TE AWAMUTU</Point>
+      <Point>TE POI</Point>
+      <Point>TE PUKE</Point>
+      <Point>TE PUNA</Point>
+      <Point>TE RAPA</Point>
+      <Point>TEMPLE VIEW</Point>
+      <Point>TIRAU</Point>
+      <Point>TOKOROA</Point>
+      <Point>TUNNEL</Point>
+      <Point>WAIPA SAWMILL</Point>
+      <Point>WAIRAKEI</Point>
+      <Point>WAIRANGO</Point>
+      <Point>WAITOA</Point>
+      <Point>WELCOME BAY</Point>
+      <Point>WHAKAIPO BAY</Point>
+      <Point>WHITE CLIFFS</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>ATHENREE</Point>
+      <Point>BEACH MOTOR CAMP</Point>
+      <Point>BLUE GUM BAY</Point>
+      <Point>BOAT HARBOUR</Point>
+      <Point>CAMBRIDGE</Point>
+      <Point>EAST JUNCTION</Point>
+      <Point>GORDONTON</Point>
+      <Point>GREEN LAKE</Point>
+      <Point>HAMILTON LAKE</Point>
+      <Point>HAMURANA</Point>
+      <Point>HAPARANGI</Point>
+      <Point>HATEPE</Point>
+      <Point>HAUTAPU</Point>
+      <Point>HINEHOPU</Point>
+      <Point>HINUERA</Point>
+      <Point>HOROTIU</Point>
+      <Point>HUKA FALLS</Point>
+      <Point>HUNTERS CREEK</Point>
+      <Point>KAHAROA</Point>
+      <Point>KAINGAROA</Point>
+      <Point>KARANGAHAPE</Point>
+      <Point>KAREWA ISLAND</Point>
+      <Point>KATIKATI</Point>
+      <Point>KAWAHA POINT</Point>
+      <Point>KAWERAU VILLAGE</Point>
+      <Point>KIHIKIHI</Point>
+      <Point>KINLOCH</Point>
+      <Point>LAKE ROTOKAWA</Point>
+      <Point>LAKE ROTOKAWAU</Point>
+      <Point>MAKETU</Point>
+      <Point>MAMAKU</Point>
+      <Point>MANAWARU</Point>
+      <Point>MATANGI</Point>
+      <Point>MISSION BAY</Point>
+      <Point>MOKOIA ISLAND</Point>
+      <Point>MORRINSVILLE</Point>
+      <Point>MOTUTAIKO ISLAND</Point>
+      <Point>MOUNT BALDY</Point>
+      <Point>MOUNT HARBOUR ENTRANCE</Point>
+      <Point>MOUNT RURU</Point>
+      <Point>MOUNT TARAWERA</Point>
+      <Point>MOUNT TAUHARA</Point>
+      <Point>MYSTERY CREEK</Point>
+      <Point>NGAHINAPOURI</Point>
+      <Point>NGAKURU</Point>
+      <Point>NGONGOTAHA</Point>
+      <Point>OHAUPO</Point>
+      <Point>OMOKOROA</Point>
+      <Point>OXIDATION PONDS</Point>
+      <Point>PIRONGIA</Point>
+      <Point>PUKEPOTO</Point>
+      <Point>RACECOURSE</Point>
+      <Point>RANGATIRA POINT</Point>
+      <Point>RUAHIHI</Point>
+      <Point>RUKUHIA</Point>
+      <Point>SANDFLY HILL</Point>
+      <Point>SCOTSMANS VALLEY</Point>
+      <Point>SHOWGROUNDS</Point>
+      <Point>SOUTHERN DAM</Point>
+      <Point>SPORTS GROUND</Point>
+      <Point>ST PETERS SCHOOL</Point>
+      <Point>TE AWAMUTU</Point>
+      <Point>TE POI</Point>
+      <Point>TE PUKE</Point>
+      <Point>TE PUNA</Point>
+      <Point>TE RAPA</Point>
+      <Point>TEMPLE VIEW</Point>
+      <Point>TIRAU</Point>
+      <Point>TOKOROA</Point>
+      <Point>TUNNEL</Point>
+      <Point>WAIPA SAWMILL</Point>
+      <Point>WAIRAKEI</Point>
+      <Point>WAIRANGO</Point>
+      <Point>WAITOA</Point>
+      <Point>WELCOME BAY</Point>
+      <Point>WHAKAIPO BAY</Point>
+      <Point>WHITE CLIFFS</Point>
+    </Label>
+  </Map>
+</Maps>

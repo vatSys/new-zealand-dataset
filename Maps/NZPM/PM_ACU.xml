@@ -1,133 +1,686 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Maps>  
-	<Map Type="System" Name="RWY 25 STARs" Priority="2" CustomColourName="DrawProc" Centre="-401913.999+1753701.000">
-		<Line>
-			IDLUR/
-			TUTSI/
-			UPNUK/
-			LEKED
-		</Line>
-		<Line>
-			APITI/
-			TUTSI
-		</Line>
-		<Line>
-			VIROL/
-			KEVEL/
-			ANPUG/
-			RINRI/
-			MIBUS/
-		</Line>
-		<Line>
-			RINRI/
-			AVGUV/
-			UPRIX/
-			SAKBA
-		</Line>
-		<Line>
-			BINIT/
-			UPRIX
-		</Line>
-		<Line>
-			IDLUR/
-			IGPAX/
-			APITI
-		</Line>
-		<Line>
-			IGPAX/
-			OVRUN/
-			BIDEK
-		</Line>
-		<Line>
-			UVUSI/
-			IRMIX
-		</Line>
-		<Line>
-			MIBUS/
-			LUNBA/
-			OLMUX
-		</Line>
-		<Line>
-			SAKBA/
-			RINRI/
-			LUNBA
-		</Line>
-		<Line>
-			BINIT/
-			RINRI
-		</Line>
-		<Line>
-			LEKED/
-			GUTNI/
-			LUNBA/
-			RINRI/
-			SAKBA/
-			RINRI/
-			BINIT
-		</Line>
-		<Line>
-			MIBUS/
-			LUNBA
-		</Line>
-		<Line>
-			OKEVO/
-			NIKIP/
-			AVGUV
-		</Line>
+<Maps>
+  <Map Type="System" Name="07 SIDs" Priority="1" CustomColourName="DrawProc" Centre="-40.319836+175.624669">
+    <Line>
+      <!--Rwy07 DADL2Q-->
+      -40.319836+175.624669/DADLI
+    </Line>
+    <Line>
+      <!--Rwy07 DADL2Q.APITI-->
+      DADLI/OVRUN/LULKO/APITI
+    </Line>
+    <Line>
+      <!--Rwy07 DADL2Q.IRMIX-->
+      DADLI/IRMIX
+    </Line>
+    <Line>
+      <!--Rwy07 DADL3S-->
+    </Line>
+    <Line>
+      <!--Rwy07 DADL3S.OMBUB-->
+      DADLI/ENRUL/RUGVI/ADRAD/OMBUB
+    </Line>
+    <Line>
+      <!--Rwy07 DADL3S.RUGVI-->
+    </Line>
+    <Line>
+      <!--Rwy07 DADL3T-->
+    </Line>
+    <Line>
+      <!--Rwy07 DADL3T.OMBUB-->
+      DADLI/LAPUN/DUKUT/GULBA/OMBUB
+    </Line>
+    <Line>
+      <!--Rwy07 RUXO3Q-->
+      -40.319836+175.624669/VEPUR/RUXOX
+    </Line>
+    <Line>
+      <!--Rwy07 RUXO3Q.ABTOL-->
+      RUXOX/ABTOL
+    </Line>
+    <Line>
+      <!--Rwy07 RUXO3Q.BINIT-->
+      RUXOX/BINIT
+    </Line>
+    <Line>
+      <!--Rwy07 RUXO3Q.LIMPA-->
+      RUXOX/LIMPA
+    </Line>
+    <Line>
+      <!--Rwy07 RUXO3Q.MIBUS-->
+      RUXOX/RINRI/MIBUS
+    </Line>
+    <Line>
+      <!--Rwy07 RUXO3Q.OKEVO-->
+      RUXOX/OKEVO
+    </Line>
+    <Line>
+      <!--Rwy07 RUXO3Q.SAKBA-->
+      RINRI/SAKBA
+    </Line>
+    <Line>
+      <!--Rwy07 RUXO3Q.VIROL-->
+      RINRI/ANPUG/KEVEL/VIROL
+    </Line>
+    <Line>
+      <!--Rwy07 RUXO4S-->
+    </Line>
+    <Line>
+      <!--Rwy07 RUXO4S.OMBUB-->
+      RUXOX/OLMUX/OH VOR/RUGVI
+    </Line>
+    <Line>
+      <!--Rwy07 RUXO4S.RUGVI-->
+    </Line>
+    <Line>
+      <!--Rwy07 TERO3Q-->
+      -40.319836+175.624669/-40.321389+175.716111/TEROT
+    </Line>
+    <Line>
+      <!--Rwy07 TERO3Q.OMBUB-->
+      TEROT/ENRUL
+    </Line>
+    <Line>
+      <!--Rwy07 TERO3Q.RUGVI-->
+    </Line>
+    <Line>
+      <!--Rwy07 TERO3S-->
+    </Line>
+    <Line>
+      <!--Rwy07 TERO3S.OMBUB-->
+      TEROT/LAPUN
+    </Line>
+    <Symbol Type="Circle">
+      <Point>OH VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>DADLI</Point>
+      <Point>OVRUN</Point>
+      <Point>LULKO</Point>
+      <Point>APITI</Point>
+      <Point>IRMIX</Point>
+      <Point>ENRUL</Point>
+      <Point>RUGVI</Point>
+      <Point>ADRAD</Point>
+      <Point>OMBUB</Point>
+      <Point>LAPUN</Point>
+      <Point>DUKUT</Point>
+      <Point>GULBA</Point>
+      <Point>VEPUR</Point>
+      <Point>RUXOX</Point>
+      <Point>ABTOL</Point>
+      <Point>BINIT</Point>
+      <Point>LIMPA</Point>
+      <Point>RINRI</Point>
+      <Point>MIBUS</Point>
+      <Point>OKEVO</Point>
+      <Point>SAKBA</Point>
+      <Point>ANPUG</Point>
+      <Point>KEVEL</Point>
+      <Point>VIROL</Point>
+      <Point>OLMUX</Point>
+      <Point>TEROT</Point>
+    </Symbol>
+    <Label>
+      <Point>DADLI</Point>
+      <Point>RUXOX</Point>
+      <Point>TEROT</Point>
+      <Point>APITI</Point>
+      <Point>IRMIX</Point>
+      <Point>OMBUB</Point>
+      <Point>RUGVI</Point>
+      <Point>ABTOL</Point>
+      <Point>BINIT</Point>
+      <Point>LIMPA</Point>
+      <Point>MIBUS</Point>
+      <Point>OKEVO</Point>
+      <Point>SAKBA</Point>
+      <Point>VIROL</Point>
+    </Label>
   </Map>
-
-  <Map Type="System" Name="RWY 07 STARs" Priority="2" CustomColourName="DrawProc" Centre="-401913.999+1753701.000">
-		<Line>
-			MIBUS/
-			GUTNI/
-			RINRI/
-			SAKBA/
-			RINRI/
-			BINIT
-		</Line>
-		<Line>
-			IDLUR/
-			BUVLI/
-			NIRUB/
-			BUVLI/
-			APITI
-		</Line>     
-		<Line>
-			VIROL/
-			KEVEL/
-			ANPUG/
-			RINRI/
-			AKNIN/
-			UDODI/
-			IRMIX
-		</Line>   
-		<Line>
-			IDLUR/
-			TUTSI/
-			APITI/
-			TUTSI/
-			LEKED/
-			OLMUX/
-			AKNIN/
-			REPIM/
-			OKEVO
-		</Line>  
+  <Map Type="System" Name="07 STARs" Priority="1" CustomColourName="DrawProc" Centre="-40.319864+175.604869">
+    <Line>
+      <!--Rwy07 BUVL1B.APITI-->
+      APITI/BUVLI
+    </Line>
+    <Line>
+      <!--Rwy07 BUVL1B.IDLUR-->
+      IDLUR/BUVLI
+    </Line>
+    <Line>
+      <!--Rwy07 BUVL1B-->
+      BUVLI/NIRUB
+    </Line>
+    <Line>
+      <!--Rwy07 IRMI1B-->
+      IRMIX/UDODI/AKNIN
+    </Line>
+    <Line>
+      <!--Rwy07 MIBU1B-->
+      MIBUS/GUTNI
+    </Line>
+    <Line>
+      <!--Rwy07 OKEV1B-->
+      OKEVO/REPIM/AKNIN
+    </Line>
+    <Line>
+      <!--Rwy07 RINR1B.BINIT-->
+      BINIT/RINRI
+    </Line>
+    <Line>
+      <!--Rwy07 RINR1B.SAKBA-->
+      SAKBA/RINRI
+    </Line>
+    <Line>
+      <!--Rwy07 RINR1B-->
+      RINRI/GUTNI
+    </Line>
+    <Line>
+      <!--Rwy07 TUTS1B.APITI-->
+      APITI/TUTSI
+    </Line>
+    <Line>
+      <!--Rwy07 TUTS1B.IDLUR-->
+      IDLUR/TUTSI
+    </Line>
+    <Line>
+      <!--Rwy07 TUTS1B-->
+      TUTSI/LEKED/OLMUX/AKNIN
+    </Line>
+    <Line>
+      <!--Rwy07 VIRO1B-->
+      VIROL/KEVEL/ANPUG/RINRI/AKNIN
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>NIRUB</Point>
+      <Point>AKNIN</Point>
+      <Point>GUTNI</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>APITI</Point>
+      <Point>BUVLI</Point>
+      <Point>IDLUR</Point>
+      <Point>IRMIX</Point>
+      <Point>UDODI</Point>
+      <Point>MIBUS</Point>
+      <Point>OKEVO</Point>
+      <Point>REPIM</Point>
+      <Point>BINIT</Point>
+      <Point>RINRI</Point>
+      <Point>SAKBA</Point>
+      <Point>TUTSI</Point>
+      <Point>LEKED</Point>
+      <Point>OLMUX</Point>
+      <Point>VIROL</Point>
+      <Point>KEVEL</Point>
+      <Point>ANPUG</Point>
+    </Symbol>
+    <Label>
+      <Point>BUVLI</Point>
+      <Point>IRMIX</Point>
+      <Point>MIBUS</Point>
+      <Point>OKEVO</Point>
+      <Point>RINRI</Point>
+      <Point>TUTSI</Point>
+      <Point>VIROL</Point>
+      <Point>APITI</Point>
+      <Point>IDLUR</Point>
+      <Point>BINIT</Point>
+      <Point>SAKBA</Point>
+      <Point>NIRUB</Point>
+      <Point>AKNIN</Point>
+      <Point>GUTNI</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="07 GNSS" Priority="0" Center="-40.319864+175.604869" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>AKNIN</Point>
+      <Point>NIRUB</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>LERSO</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>GUTNI</Point>
+    </Symbol>
+    <Line>GUTNI/LERSO/PM07T</Line>
+    <Line>AKNIN/GUTNI</Line>
+    <Line>NIRUB/GUTNI</Line>
+  </Map>
+  <Map Type="System" Name="07 GNSS Labels" Priority="1" Center="-40.319864+175.604869" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>AKNIN</Point>
+      <Point>NIRUB</Point>
+      <Point>LERSO</Point>
+      <Point>GUTNI</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="25 SIDs" Priority="1" CustomColourName="DrawProc" Centre="-40.319864+175.604869">
+    <Line>
+      <!--Rwy25 GUTN2P-->
+      -40.319864+175.604869/GUTNI/-40.381389+175.417500
+    </Line>
+    <Line>
+      <!--Rwy25 GUTN2P.ABTOL-->
+      -40.381389+175.417500/ABTOL
+    </Line>
+    <Line>
+      <!--Rwy25 GUTN2P.IRMIX-->
+      -40.381389+175.417500/TERIL/IVREP/IRMIX
+    </Line>
+    <Line>
+      <!--Rwy25 GUTN2P.LIMPA-->
+      -40.381389+175.417500/LIMPA
+    </Line>
+    <Line>
+      <!--Rwy25 GUTN2P.OKEVO-->
+      -40.381389+175.417500/OKEVO
+    </Line>
+    <Line>
+      <!--Rwy25 GUTN2R-->
+    </Line>
+    <Line>
+      <!--Rwy25 GUTN2R.APITI-->
+      GUTNI/APITI
+    </Line>
+    <Line>
+      <!--Rwy25 GUTN2R.OMBUB-->
+      GUTNI/RUGVI/OMBUB
+    </Line>
+    <Line>
+      <!--Rwy25 GUTN2R.RUGVI-->
+    </Line>
+    <Line>
+      <!--Rwy25 GUTN2T-->
+    </Line>
+    <Line>
+      <!--Rwy25 GUTN2T.APITI-->
+      GUTNI/-40.381389+175.417500/LULKO/APITI
+    </Line>
+    <Line>
+      <!--Rwy25 GUTN2T.OMBUB-->
+      GUTNI/ANPUG/BEDUL/DAGOM/OMBUB
+    </Line>
+    <Line>
+      <!--Rwy25 GUTN2U-->
+    </Line>
+    <Line>
+      <!--Rwy25 GUTN2U.BINIT-->
+      GUTNI/RINRI/BINIT
+    </Line>
+    <Line>
+      <!--Rwy25 GUTN2U.MIBUS-->
+      GUTNI/MIBUS
+    </Line>
+    <Line>
+      <!--Rwy25 GUTN2U.SAKBA-->
+      RINRI/SAKBA
+    </Line>
+    <Line>
+      <!--Rwy25 GUTN2U.VIROL-->
+      GUTNI/LUNBA/RINRI/ANPUG/KEVEL/VIROL
+    </Line>
+    <Line>
+      <!--Rwy25 NZPM2A-->
+      -40.319864+175.604869/-40.319444+175.506944
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>GUTNI</Point>
+      <Point>ABTOL</Point>
+      <Point>TERIL</Point>
+      <Point>IVREP</Point>
+      <Point>IRMIX</Point>
+      <Point>LIMPA</Point>
+      <Point>OKEVO</Point>
+      <Point>APITI</Point>
+      <Point>RUGVI</Point>
+      <Point>OMBUB</Point>
+      <Point>LULKO</Point>
+      <Point>ANPUG</Point>
+      <Point>BEDUL</Point>
+      <Point>DAGOM</Point>
+      <Point>RINRI</Point>
+      <Point>BINIT</Point>
+      <Point>MIBUS</Point>
+      <Point>SAKBA</Point>
+      <Point>LUNBA</Point>
+      <Point>KEVEL</Point>
+      <Point>VIROL</Point>
+    </Symbol>
+    <Label>
+      <Point>GUTNI</Point>
+      <Point>ABTOL</Point>
+      <Point>IRMIX</Point>
+      <Point>LIMPA</Point>
+      <Point>OKEVO</Point>
+      <Point>APITI</Point>
+      <Point>OMBUB</Point>
+      <Point>RUGVI</Point>
+      <Point>BINIT</Point>
+      <Point>MIBUS</Point>
+      <Point>SAKBA</Point>
+      <Point>VIROL</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="25 STARs" Priority="1" CustomColourName="DrawProc" Centre="-40.319836+175.624669">
+    <Line>
+      <!--Rwy25 APIT1A-->
+      APITI/TUTSI/UPNUK/LEKED
+    </Line>
+    <Line>
+      <!--Rwy25 AVGU1A.BINIT-->
+      BINIT/UPRIX/AVGUV
+    </Line>
+    <Line>
+      <!--Rwy25 AVGU1A.MIBUS-->
+      MIBUS/RINRI/AVGUV
+    </Line>
+    <Line>
+      <!--Rwy25 AVGU1A.SAKBA-->
+      SAKBA/UPRIX
+    </Line>
+    <Line>
+      <!--Rwy25 AVGU1A.VIROL-->
+      VIROL/KEVEL/ANPUG/RINRI
+    </Line>
+    <Line>
+      <!--Rwy25 AVGU1A-->
+      AVGUV/NIKIP
+    </Line>
+    <Line>
+      <!--Rwy25 IDLU2A-->
+      IDLUR/TUTSI
+    </Line>
+    <Line>
+      <!--Rwy25 IGPA1A.APITI-->
+      APITI/IGPAX
+    </Line>
+    <Line>
+      <!--Rwy25 IGPA1A.IDLUR-->
+      IDLUR/IGPAX
+    </Line>
+    <Line>
+      <!--Rwy25 IGPA1A-->
+      IGPAX/OVRUN/BIDEK
+    </Line>
+    <Line>
+      <!--Rwy25 IRMI1A-->
+      IRMIX/UVUSI
+    </Line>
+    <Line>
+      <!--Rwy25 LUNB1A.BINIT-->
+      BINIT/RINRI/LUNBA
+    </Line>
+    <Line>
+      <!--Rwy25 LUNB1A.MIBUS-->
+      MIBUS/LUNBA
+    </Line>
+    <Line>
+      <!--Rwy25 LUNB1A.SAKBA-->
+      SAKBA/RINRI
+    </Line>
+    <Line>
+      <!--Rwy25 LUNB1A.VIROL-->
+    </Line>
+    <Line>
+      <!--Rwy25 LUNB1A-->
+      LUNBA/OLMUX
+    </Line>
+    <Line>
+      <!--Rwy25 LUNB1E.BINIT-->
+    </Line>
+    <Line>
+      <!--Rwy25 LUNB1E.MIBUS-->
+    </Line>
+    <Line>
+      <!--Rwy25 LUNB1E.SAKBA-->
+    </Line>
+    <Line>
+      <!--Rwy25 LUNB1E-->
+      LUNBA/GUTNI/LEKED
+    </Line>
+    <Line>
+      <!--Rwy25 OKEV1A-->
+      OKEVO/NIKIP
+    </Line>
+    <Line>
+      <!--Rwy25 TUTS1E.APITI-->
+      APITI/TUTSI
+    </Line>
+    <Line>
+      <!--Rwy25 TUTS1E.IDLUR-->
+      IDLUR/TUTSI
+    </Line>
+    <Line>
+      <!--Rwy25 TUTS1E-->
+      TUTSI/LEKED
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>LEKED</Point>
+      <Point>NIKIP</Point>
+      <Point>BIDEK</Point>
+      <Point>UVUSI</Point>
+      <Point>OLMUX</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>APITI</Point>
+      <Point>TUTSI</Point>
+      <Point>UPNUK</Point>
+      <Point>BINIT</Point>
+      <Point>UPRIX</Point>
+      <Point>AVGUV</Point>
+      <Point>MIBUS</Point>
+      <Point>RINRI</Point>
+      <Point>SAKBA</Point>
+      <Point>VIROL</Point>
+      <Point>KEVEL</Point>
+      <Point>ANPUG</Point>
+      <Point>IDLUR</Point>
+      <Point>IGPAX</Point>
+      <Point>OVRUN</Point>
+      <Point>IRMIX</Point>
+      <Point>LUNBA</Point>
+      <Point>GUTNI</Point>
+      <Point>OKEVO</Point>
+    </Symbol>
+    <Label>
+      <Point>APITI</Point>
+      <Point>AVGUV</Point>
+      <Point>IDLUR</Point>
+      <Point>IGPAX</Point>
+      <Point>IRMIX</Point>
+      <Point>LUNBA</Point>
+      <Point>OKEVO</Point>
+      <Point>TUTSI</Point>
+      <Point>BINIT</Point>
+      <Point>MIBUS</Point>
+      <Point>SAKBA</Point>
+      <Point>VIROL</Point>
+      <Point>LEKED</Point>
+      <Point>NIKIP</Point>
+      <Point>BIDEK</Point>
+      <Point>UVUSI</Point>
+      <Point>OLMUX</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="25 GNSS" Priority="0" Center="-40.319836+175.624669" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>BIDEK</Point>
+      <Point>NIKIP</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>IVREP</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>UVUSI</Point>
+    </Symbol>
+    <Line>UVUSI/IVREP/PM25T</Line>
+    <Line>BIDEK/UVUSI</Line>
+    <Line>NIKIP/UVUSI</Line>
+  </Map>
+  <Map Type="System" Name="25 GNSS Labels" Priority="1" Center="-40.319836+175.624669" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>BIDEK</Point>
+      <Point>NIKIP</Point>
+      <Point>IVREP</Point>
+      <Point>UVUSI</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="25 RNP" Priority="0" Center="-40.319836+175.624669" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle">
+      <Point>PM482</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>LEKED</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>DANLU</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>SEKNI</Point>
+    </Symbol>
+    <Line>LEKED/SEKNI/DANLU/PM482/PM25T</Line>
+  </Map>
+  <Map Type="System" Name="25 RNP Labels" Priority="1" Center="-40.319836+175.624669" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>LEKED</Point>
+      <Point>DANLU</Point>
+      <Point>SEKNI</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="PM VFR" Priority="1" CustomColourName="DrawProc" Centre="-40.320556+175.616944">
+    <Symbol Type="HollowSquare">
+      <Point>AOKAUTERE</Point>
+      <Point>ASHHURST</Point>
+      <Point>BENNETTS HILL</Point>
+      <Point>BUNNYTHORPE SUBSTATION</Point>
+      <Point>CHELTENHAM</Point>
+      <Point>COLYTON</Point>
+      <Point>FEILDING</Point>
+      <Point>FORDELL</Point>
+      <Point>HALCOMBE</Point>
+      <Point>HIMATANGI BEACH</Point>
+      <Point>HIWINUI</Point>
+      <Point>HOKIO BEACH</Point>
+      <Point>HUNTERVILLE</Point>
+      <Point>KAI IWI</Point>
+      <Point>LEVIN</Point>
+      <Point>LONGBURN</Point>
+      <Point>MANAWATU RIVER MOUTH</Point>
+      <Point>MANFEILD</Point>
+      <Point>MARTON</Point>
+      <Point>MARTON RESERVOIR</Point>
+      <Point>MOUNT HECTOR</Point>
+      <Point>MOUNT THOMPSON</Point>
+      <Point>OTAKI BEACH</Point>
+      <Point>PAEKAKARIKI</Point>
+      <Point>PAHIATUA</Point>
+      <Point>PAPANUI JUNCTION</Point>
+      <Point>PEKAPEKA PONDS</Point>
+      <Point>PINNACLE</Point>
+      <Point>RANGIOTU</Point>
+      <Point>RAUMAI</Point>
+      <Point>TAIHAPE</Point>
+      <Point>TANGIMOANA</Point>
+      <Point>TE ARAKURA</Point>
+      <Point>THE PONDS</Point>
+      <Point>TIMBER MILL</Point>
+      <Point>TOKOMARU</Point>
+      <Point>UNIVERSITY</Point>
+      <Point>WHANGAEHU RIVER MOUTH</Point>
+      <Point>WOODVILLE</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>AOKAUTERE</Point>
+      <Point>ASHHURST</Point>
+      <Point>BENNETTS HILL</Point>
+      <Point>BUNNYTHORPE SUBSTATION</Point>
+      <Point>CHELTENHAM</Point>
+      <Point>COLYTON</Point>
+      <Point>FEILDING</Point>
+      <Point>FORDELL</Point>
+      <Point>HALCOMBE</Point>
+      <Point>HIMATANGI BEACH</Point>
+      <Point>HIWINUI</Point>
+      <Point>HOKIO BEACH</Point>
+      <Point>HUNTERVILLE</Point>
+      <Point>KAI IWI</Point>
+      <Point>LEVIN</Point>
+      <Point>LONGBURN</Point>
+      <Point>MANAWATU RIVER MOUTH</Point>
+      <Point>MANFEILD</Point>
+      <Point>MARTON</Point>
+      <Point>MARTON RESERVOIR</Point>
+      <Point>MOUNT HECTOR</Point>
+      <Point>MOUNT THOMPSON</Point>
+      <Point>OTAKI BEACH</Point>
+      <Point>PAEKAKARIKI</Point>
+      <Point>PAHIATUA</Point>
+      <Point>PAPANUI JUNCTION</Point>
+      <Point>PEKAPEKA PONDS</Point>
+      <Point>PINNACLE</Point>
+      <Point>RANGIOTU</Point>
+      <Point>RAUMAI</Point>
+      <Point>TAIHAPE</Point>
+      <Point>TANGIMOANA</Point>
+      <Point>TE ARAKURA</Point>
+      <Point>THE PONDS</Point>
+      <Point>TIMBER MILL</Point>
+      <Point>TOKOMARU</Point>
+      <Point>UNIVERSITY</Point>
+      <Point>WHANGAEHU RIVER MOUTH</Point>
+      <Point>WOODVILLE</Point>
+    </Label>
+    <Label HasLeader="True" LabelOrientation="NW">
+      <Point Name="07HIWINUI_DEP">HIWINUI</Point>
+      <Point Name="07LONGBURN_ARR">LONGBURN</Point>
+      <Point Name="07MANFEILD_ARR">MANFEILD</Point>
+      <Point Name="07UNI_DEP">UNIVERSITY</Point>
+      <Point Name="25HIWINUI_DEP">-40.306111+175.588889</Point>
+      <Point Name="25UNI_ARR">TOKOMARU</Point>
+    </Label>
+    <Label HasLeader="True" LabelOrientation="SE">
+      <Point Name="25HIWINUI_ARR">HIWINUI</Point>
+      <Point Name="25LONGBURN_DEP">LONGBURN</Point>
+      <Point Name="25MANFEILD_DEP">MANFEILD</Point>
+    </Label>
+    <!--07HIWINUI_DEP-->
+    <Line Pattern="Dotted">
+      HIWINUI
+    </Line>
+    <!--07LONGBURN_ARR-->
+    <Line Pattern="Dotted">
+      LONGBURN/-40.317778+175.592222
+    </Line>
+    <!--07MANFEILD_ARR-->
+    <Line Pattern="Dotted">
+      MANFEILD/TE ARAKURA/-40.317778+175.592222
+    </Line>
+    <!--07UNI_DEP-->
+    <Line Pattern="Dotted">
+      UNIVERSITY/TOKOMARU
+    </Line>
+    <!--25HIWINUI_ARR-->
+    <Line Pattern="Dotted">
+      HIWINUI/-40.317222+175.676389/-40.317778+175.645278
+    </Line>
+    <!--25HIWINUI_DEP-->
+    <Line Pattern="Dotted">
+      -40.306111+175.588889/HIWINUI
+    </Line>
+    <!--25LONGBURN_DEP-->
+    <Line Pattern="Dotted">
+      LONGBURN/RANGIOTU
+    </Line>
+    <!--25MANFEILD_DEP-->
+    <Line Pattern="Dotted">
+      MANFEILD
+    </Line>
+    <!--25UNI_ARR-->
+    <Line Pattern="Dotted">
+      TOKOMARU/UNIVERSITY/-40.317778+175.645278
+    </Line>
   </Map>
 </Maps>
-
-<!-- 
-		<Line>
-		
-		</Line>
--->
-
-<!-- 
-  
-  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-401913.999+1753701.000">
-		<Line>
-		
-		</Line>      
-  </Map>
-
-
--->

@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="16 STARs" Priority="1" CustomColourName="DrawProc" Centre="-39.007550+177.404069">
+    <Line>
+      <!--Rwy16 AGTI1A-->
+      DOMON/AGTID
+    </Line>
+    <Line>
+      <!--Rwy16 GURS1A.DOMON-->
+      DOMON/GURSU
+    </Line>
+    <Line>
+      <!--Rwy16 GURS1A.MARKS-->
+      MARKS/GURSU
+    </Line>
+    <Line>
+      <!--Rwy16 GURS1A-->
+      GURSU/AGTID
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>AGTID</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>DOMON</Point>
+      <Point>GURSU</Point>
+      <Point>MARKS</Point>
+    </Symbol>
+    <Label>
+      <Point>DOMON</Point>
+      <Point>GURSU</Point>
+      <Point>MARKS</Point>
+      <Point>AGTID</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="16 GNSS" Priority="0" Center="-39.007550+177.404069" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>AGTID</Point>
+      <Point>IKIMU</Point>
+      <Point>UPSUV</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>RITPU</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>AVMEB</Point>
+    </Symbol>
+    <Line>AVMEB/RITPU/WO16T</Line>
+    <Line>AGTID/AVMEB</Line>
+    <Line>IKIMU/AVMEB</Line>
+    <Line>UPSUV/AVMEB</Line>
+  </Map>
+  <Map Type="System" Name="16 GNSS Labels" Priority="1" Center="-39.007550+177.404069" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>AGTID</Point>
+      <Point>IKIMU</Point>
+      <Point>UPSUV</Point>
+      <Point>RITPU</Point>
+      <Point>AVMEB</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="34 SIDs" Priority="1" CustomColourName="DrawProc" Centre="-39.007550+177.404069">
+    <Line>
+      <!--Rwy34 DOMO1Q-->
+      -39.007550+177.404069/DOMON
+    </Line>
+    <Line>
+      <!--Rwy34 GOTN2Q-->
+      -39.007550+177.404069/GOTNO
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>DOMON</Point>
+      <Point>GOTNO</Point>
+    </Symbol>
+    <Label>
+      <Point>DOMON</Point>
+      <Point>GOTNO</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="34 GNSS" Priority="0" Center="-39.015750+177.404714" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle">
+      <Point>WO411</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>BURLY</Point>
+      <Point>OPOHO</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>WO422</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>MARKS</Point>
+    </Symbol>
+    <Line>MARKS/WO422/WO411/WO34T</Line>
+    <Line>BURLY/MARKS</Line>
+    <Line>OPOHO/MARKS</Line>
+  </Map>
+  <Map Type="System" Name="34 GNSS Labels" Priority="1" Center="-39.015750+177.404714" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>BURLY</Point>
+      <Point>OPOHO</Point>
+      <Point>WO422</Point>
+      <Point>MARKS</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="WO VFR" Priority="1" CustomColourName="DrawProc" Centre="-39.015339+177.404181">
+    <Symbol Type="HollowSquare">
+      <Point>AWATOTO</Point>
+      <Point>BARTLETTS</Point>
+      <Point>CLIVE</Point>
+      <Point>ESKDALE</Point>
+      <Point>FERNHILL</Point>
+      <Point>GREYS BUSH</Point>
+      <Point>HAUMOANA</Point>
+      <Point>HAVELOCK NORTH</Point>
+      <Point>HOROTO</Point>
+      <Point>MAKORORI</Point>
+      <Point>MANUTUKE</Point>
+      <Point>MOHAKA RIVER MOUTH</Point>
+      <Point>MURIWAI</Point>
+      <Point>NUHAKA</Point>
+      <Point>ORMOND</Point>
+      <Point>PATOKA</Point>
+      <Point>PATUTAHI</Point>
+      <Point>PORAITI</Point>
+      <Point>PUKETAPU</Point>
+      <Point>RIDGEMOUNT BLUFF</Point>
+      <Point>RISSINGTON</Point>
+      <Point>SEAPORT</Point>
+      <Point>TE KARAKA</Point>
+      <Point>TE POHUE</Point>
+      <Point>THE DAMS</Point>
+      <Point>THE LAKE</Point>
+      <Point>THE MILL</Point>
+      <Point>THE OLD WORKS</Point>
+      <Point>THE ROUNDABOUT</Point>
+      <Point>THE TRIG</Point>
+      <Point>TUTIRA</Point>
+      <Point>WAIMATA</Point>
+      <Point>WAINUI</Point>
+      <Point>WAIOHIKI</Point>
+      <Point>WAIPAOA RIVER MOUTH</Point>
+      <Point>WAIPATIKI BEACH</Point>
+      <Point>WHAKAPUNAKI</Point>
+      <Point>WHIRINAKI</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>AWATOTO</Point>
+      <Point>BARTLETTS</Point>
+      <Point>CLIVE</Point>
+      <Point>ESKDALE</Point>
+      <Point>FERNHILL</Point>
+      <Point>GREYS BUSH</Point>
+      <Point>HAUMOANA</Point>
+      <Point>HAVELOCK NORTH</Point>
+      <Point>HOROTO</Point>
+      <Point>MAKORORI</Point>
+      <Point>MANUTUKE</Point>
+      <Point>MOHAKA RIVER MOUTH</Point>
+      <Point>MURIWAI</Point>
+      <Point>NUHAKA</Point>
+      <Point>ORMOND</Point>
+      <Point>PATOKA</Point>
+      <Point>PATUTAHI</Point>
+      <Point>PORAITI</Point>
+      <Point>PUKETAPU</Point>
+      <Point>RIDGEMOUNT BLUFF</Point>
+      <Point>RISSINGTON</Point>
+      <Point>SEAPORT</Point>
+      <Point>TE KARAKA</Point>
+      <Point>TE POHUE</Point>
+      <Point>THE DAMS</Point>
+      <Point>THE LAKE</Point>
+      <Point>THE MILL</Point>
+      <Point>THE OLD WORKS</Point>
+      <Point>THE ROUNDABOUT</Point>
+      <Point>THE TRIG</Point>
+      <Point>TUTIRA</Point>
+      <Point>WAIMATA</Point>
+      <Point>WAINUI</Point>
+      <Point>WAIOHIKI</Point>
+      <Point>WAIPAOA RIVER MOUTH</Point>
+      <Point>WAIPATIKI BEACH</Point>
+      <Point>WHAKAPUNAKI</Point>
+      <Point>WHIRINAKI</Point>
+    </Label>
+  </Map>
+</Maps>

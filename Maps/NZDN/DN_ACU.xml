@@ -1,109 +1,415 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Maps>  
-	<Map Type="System" Name="RWY 03 STARs" Priority="2" CustomColourName="DrawProc" Centre="-455559.037+1701222.927">
-		<Line>
-			ADKOS/
-			AKBUM/
-			GOGES/
-			MOXET/
-			BASOS/
-			SUNGU/
-			BASOS/
-			ATRAG/
-			MIMEG/
-			BOKAV/
-			LIBLA
-		</Line>
-		<Line>
-			BASOS/
-			VELBI/
-			ANGOT/
-			KAKAX/
-			DAGNU/
-			OTKIS/
-			AKLAR
-		</Line>
-		<Line>
-			EPDAB/
-			ALBOX/
-			MANOP/
-			AKLAR/
-			ELNEK/
-			DABCA
-		</Line>
-		<Line>
-			AKLAR/
-			BIPUV/
-			ANBIG/
-			RELEK/
-			ADBAD/
-			IPKUG/
-			MIPAK
-		</Line>
+<Maps>
+  <Map Type="System" Name="03 SIDs" Priority="1" CustomColourName="DrawProc" Centre="-45.924378+170.207786">
+    <Line>
+      <!--Rwy03 AKPI3P-->
+      -45.924378+170.207786/DUKES/IVTOP/LEKOD/DABCA/AKPIN
+    </Line>
+    <Line>
+      <!--Rwy03 BASO3P-->
+      LEKOD/KADSU/ANGOT/BASOS
+    </Line>
+    <Line>
+      <!--Rwy03 BASO3P.ADKOS-->
+      BASOS/MOXET/AKBUM/ADKOS
+    </Line>
+    <Line>
+      <!--Rwy03 BASO3P.LIBLA-->
+      BASOS/ATRAG/BOKAV/LIBLA
+    </Line>
+    <Line>
+      <!--Rwy03 BASO3P.SUNGU-->
+      BASOS/SUNGU
+    </Line>
+    <Line>
+      <!--Rwy03 BIDE3P-->
+      DUKES/ESKAT/NOMUG/DOTVA/BIDEL
+    </Line>
+    <Line>
+      <!--Rwy03 BIDE2R-->
+      DUKES/ADNAV/RULOL/LUTSA/BIDEL
+    </Line>
+    <Line>
+      <!--Rwy03 SOUTH5-->
+      -45.924378+170.207786/-45.924167+170.207778/-45.899179+170.259498/-45.902440+170.283621/-45.915727+170.299094/-45.932825+170.298675/-45.945735+170.282548/-45.947508+170.276823/BE NDB
+    </Line>
+    <Line>
+      <!--Rwy03 SW8-->
+      -45.924167+170.207778/SW VOR
+    </Line>
+    <Symbol Type="Circle">
+      <Point>BE NDB</Point>
+      <Point>SW VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>DUKES</Point>
+      <Point>IVTOP</Point>
+      <Point>LEKOD</Point>
+      <Point>DABCA</Point>
+      <Point>AKPIN</Point>
+      <Point>KADSU</Point>
+      <Point>ANGOT</Point>
+      <Point>BASOS</Point>
+      <Point>MOXET</Point>
+      <Point>AKBUM</Point>
+      <Point>ADKOS</Point>
+      <Point>ATRAG</Point>
+      <Point>BOKAV</Point>
+      <Point>LIBLA</Point>
+      <Point>SUNGU</Point>
+      <Point>ESKAT</Point>
+      <Point>NOMUG</Point>
+      <Point>DOTVA</Point>
+      <Point>BIDEL</Point>
+      <Point>ADNAV</Point>
+      <Point>RULOL</Point>
+      <Point>LUTSA</Point>
+    </Symbol>
+    <Label>
+      <Point>AKPIN</Point>
+      <Point>BASOS</Point>
+      <Point>BIDEL</Point>
+      <Point>BE NDB</Point>
+      <Point>SW VOR</Point>
+      <Point>ADKOS</Point>
+      <Point>LIBLA</Point>
+      <Point>SUNGU</Point>
+    </Label>
   </Map>
-	  
-	<Map Type="System" Name="RWY 21 STARs" Priority="2" CustomColourName="DrawProc" Centre="-455559.037+1701222.927">
-		<Line>
-			AKLAR/
-			BIPUV/
-			LOSKO/
-			AKDAS/
-			BIGAR/
-			ESKAT
-		</Line>
-		<Line>
-			LIBLA/
-			BOKAV/
-			MIMEG/
-			ATRAG/
-			BASOS/
-			MOXET/
-			GOGES/
-			AKBUM/
-			ADKOS
-		</Line>
-		<Line>
-			SUNGU/
-			BASOS/
-			VELBI/
-			ANGOT/
-			EMTOX/
-			ADBAD/
-			BIGAR/
-			ESKAT
-		</Line>
-		<Line>
-			EPDAB/
-			ALBOX/
-			MANOP/
-			BIPUV/
-			DABCA/
-			BIPUV/
-			LOSKO/
-			AKDAS
-		</Line>
-		<Line>
-			MIPAK/
-			IPKUG/
-			ADBAD/
-			ESKAT
-		</Line>
+  <Map Type="System" Name="03 STARs" Priority="1" CustomColourName="DrawProc" Centre="-45.933925+170.187472">
+    <Line>
+      <!--Rwy03 BASO4A.ADKOS-->
+      ADKOS/AKBUM/GOGES/MOXET/BASOS
+    </Line>
+    <Line>
+      <!--Rwy03 BASO4A.LIBLA-->
+      LIBLA/BOKAV/MIMEG/ATRAG/BASOS
+    </Line>
+    <Line>
+      <!--Rwy03 BASO4A.SUNGU-->
+      SUNGU/BASOS
+    </Line>
+    <Line>
+      <!--Rwy03 BASO4A-->
+      BASOS/VELBI/ANGOT/KAKAX/DAGNU/OTKIS/AKLAR
+    </Line>
+    <Line>
+      <!--Rwy03 DABC2A-->
+      DABCA/ELNEK/AKLAR
+    </Line>
+    <Line>
+      <!--Rwy03 EPDA2A-->
+      EPDAB/ALBOX/MANOP/AKLAR
+    </Line>
+    <Line>
+      <!--Rwy03 MIPA3A-->
+      MIPAK/IPKUG/ADBAD/RELEK/ANBIG/BIPUV/AKLAR
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>AKLAR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>ADKOS</Point>
+      <Point>AKBUM</Point>
+      <Point>GOGES</Point>
+      <Point>MOXET</Point>
+      <Point>BASOS</Point>
+      <Point>LIBLA</Point>
+      <Point>BOKAV</Point>
+      <Point>MIMEG</Point>
+      <Point>ATRAG</Point>
+      <Point>SUNGU</Point>
+      <Point>VELBI</Point>
+      <Point>ANGOT</Point>
+      <Point>KAKAX</Point>
+      <Point>DAGNU</Point>
+      <Point>OTKIS</Point>
+      <Point>DABCA</Point>
+      <Point>ELNEK</Point>
+      <Point>EPDAB</Point>
+      <Point>ALBOX</Point>
+      <Point>MANOP</Point>
+      <Point>MIPAK</Point>
+      <Point>IPKUG</Point>
+      <Point>ADBAD</Point>
+      <Point>RELEK</Point>
+      <Point>ANBIG</Point>
+      <Point>BIPUV</Point>
+    </Symbol>
+    <Label>
+      <Point>BASOS</Point>
+      <Point>DABCA</Point>
+      <Point>EPDAB</Point>
+      <Point>MIPAK</Point>
+      <Point>ADKOS</Point>
+      <Point>LIBLA</Point>
+      <Point>SUNGU</Point>
+      <Point>AKLAR</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="03 GNSS" Priority="0" Center="-45.933925+170.187472" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle">
+      <Point>OVSED</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="MalteseCross">
+      <Point>AGESO</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>AKLAR</Point>
+    </Symbol>
+    <Line>AKLAR/OVSED/AGESO/DN03T</Line>
+  </Map>
+  <Map Type="System" Name="03 GNSS Labels" Priority="1" Center="-45.933925+170.187472" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>AGESO</Point>
+      <Point>AKLAR</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="21 SIDs" Priority="1" CustomColourName="DrawProc" Centre="-45.933925+170.187472">
+    <Line>
+      <!--Rwy21 AKPI2Q-->
+      -45.933925+170.187472/AKLAR/IDADO/AKPIN
+    </Line>
+    <Line>
+      <!--Rwy21 ALBO2Q-->
+      AKLAR/ALBOX
+    </Line>
+    <Line>
+      <!--Rwy21 BASO2Q-->
+      AKLAR/ANGOT/BASOS
+    </Line>
+    <Line>
+      <!--Rwy21 BASO2Q.ADKOS-->
+      BASOS/MOXET/AKBUM/ADKOS
+    </Line>
+    <Line>
+      <!--Rwy21 BASO2Q.LIBLA-->
+      BASOS/ATRAG/BOKAV/LIBLA
+    </Line>
+    <Line>
+      <!--Rwy21 BASO2Q.SUNGU-->
+      BASOS/SUNGU
+    </Line>
+    <Line>
+      <!--Rwy21 BE5A-->
+      -45.933925+170.187472/BE NDB/OREXI
+    </Line>
+    <Line>
+      <!--Rwy21 BE6B-->
+      BE NDB/PORUT
+    </Line>
+    <Line>
+      <!--Rwy21 BIDE3Q-->
+      -45.933925+170.187472/AGESO/OKAPO/ATGUB/TEBIV/NOMUG/DOTVA/BIDEL
+    </Line>
+    <Line>
+      <!--Rwy21 BIDE3S-->
+      AGESO/MANRA/ENDUR/IDLIK/PIBEX/RULOL/LUTSA/BIDEL
+    </Line>
+    <Line>
+      <!--Rwy21 OCEAN6-->
+    </Line>
+    <Line>
+      <!--Rwy21 OCEAN6.OREXI-->
+      BE NDB/OREXI
+    </Line>
+    <Line>
+      <!--Rwy21 OCEAN6.SW-->
+      BE NDB/SW VOR
+    </Line>
+    <Symbol Type="Circle">
+      <Point>BE NDB</Point>
+      <Point>SW VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>AKLAR</Point>
+      <Point>IDADO</Point>
+      <Point>AKPIN</Point>
+      <Point>ALBOX</Point>
+      <Point>ANGOT</Point>
+      <Point>BASOS</Point>
+      <Point>MOXET</Point>
+      <Point>AKBUM</Point>
+      <Point>ADKOS</Point>
+      <Point>ATRAG</Point>
+      <Point>BOKAV</Point>
+      <Point>LIBLA</Point>
+      <Point>SUNGU</Point>
+      <Point>OREXI</Point>
+      <Point>PORUT</Point>
+      <Point>AGESO</Point>
+      <Point>OKAPO</Point>
+      <Point>ATGUB</Point>
+      <Point>TEBIV</Point>
+      <Point>NOMUG</Point>
+      <Point>DOTVA</Point>
+      <Point>BIDEL</Point>
+      <Point>MANRA</Point>
+      <Point>ENDUR</Point>
+      <Point>IDLIK</Point>
+      <Point>PIBEX</Point>
+      <Point>RULOL</Point>
+      <Point>LUTSA</Point>
+    </Symbol>
+    <Label>
+      <Point>AKPIN</Point>
+      <Point>ALBOX</Point>
+      <Point>BASOS</Point>
+      <Point>OREXI</Point>
+      <Point>PORUT</Point>
+      <Point>BIDEL</Point>
+      <Point>BE NDB</Point>
+      <Point>ADKOS</Point>
+      <Point>LIBLA</Point>
+      <Point>SUNGU</Point>
+      <Point>SW VOR</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="21 STARs" Priority="1" CustomColourName="DrawProc" Centre="-45.924378+170.207786">
+    <Line>
+      <!--Rwy21 ALKA2B-->
+      AKLAR/BIPUV/LOSKO/AKDAS/BIGAR/ESKAT
+    </Line>
+    <Line>
+      <!--Rwy21 BASO3B.ADKOS-->
+      ADKOS/AKBUM/GOGES/MOXET/BASOS
+    </Line>
+    <Line>
+      <!--Rwy21 BASO3B.LIBLA-->
+      LIBLA/BOKAV/MIMEG/ATRAG/BASOS
+    </Line>
+    <Line>
+      <!--Rwy21 BASO3B.SUNGU-->
+      SUNGU/BASOS
+    </Line>
+    <Line>
+      <!--Rwy21 BASO3B-->
+      BASOS/VELBI/ANGOT/EMTOX/ADBAD/BIGAR
+    </Line>
+    <Line>
+      <!--Rwy21 DABC2B-->
+      DABCA/BIPUV
+    </Line>
+    <Line>
+      <!--Rwy21 EPDA2B-->
+      EPDAB/ALBOX/MANOP/BIPUV
+    </Line>
+    <Line>
+      <!--Rwy21 MIPA3B-->
+      MIPAK/IPKUG/ADBAD
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>ESKAT</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>AKLAR</Point>
+      <Point>BIPUV</Point>
+      <Point>LOSKO</Point>
+      <Point>AKDAS</Point>
+      <Point>BIGAR</Point>
+      <Point>ADKOS</Point>
+      <Point>AKBUM</Point>
+      <Point>GOGES</Point>
+      <Point>MOXET</Point>
+      <Point>BASOS</Point>
+      <Point>LIBLA</Point>
+      <Point>BOKAV</Point>
+      <Point>MIMEG</Point>
+      <Point>ATRAG</Point>
+      <Point>SUNGU</Point>
+      <Point>VELBI</Point>
+      <Point>ANGOT</Point>
+      <Point>EMTOX</Point>
+      <Point>ADBAD</Point>
+      <Point>DABCA</Point>
+      <Point>EPDAB</Point>
+      <Point>ALBOX</Point>
+      <Point>MANOP</Point>
+      <Point>MIPAK</Point>
+      <Point>IPKUG</Point>
+    </Symbol>
+    <Label>
+      <Point>AKLAR</Point>
+      <Point>BASOS</Point>
+      <Point>DABCA</Point>
+      <Point>EPDAB</Point>
+      <Point>MIPAK</Point>
+      <Point>ADKOS</Point>
+      <Point>LIBLA</Point>
+      <Point>SUNGU</Point>
+      <Point>ESKAT</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="21 GNSS" Priority="0" Center="-45.924378+170.207786" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle">
+      <Point>IDPON</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="MalteseCross">
+      <Point>BENRU</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>ESKAT</Point>
+    </Symbol>
+    <Line>ESKAT/IDPON/BENRU/DN21T</Line>
+  </Map>
+  <Map Type="System" Name="21 GNSS Labels" Priority="1" Center="-45.924378+170.207786" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>BENRU</Point>
+      <Point>ESKAT</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="DN VFR" Priority="1" CustomColourName="DrawProc" Centre="-45.928056+170.198333">
+    <Symbol Type="HollowSquare">
+      <Point>ALLANTON</Point>
+      <Point>BERWICK</Point>
+      <Point>BLACK HEAD</Point>
+      <Point>BRIGHTON</Point>
+      <Point>CLARKS JUNCTION</Point>
+      <Point>CLYDEVALE</Point>
+      <Point>HENLEY TOWN</Point>
+      <Point>LEE STREAM</Point>
+      <Point>LOOKOUT POINT</Point>
+      <Point>MILTON</Point>
+      <Point>MOUNT HYDE</Point>
+      <Point>MOUNT STUART WINDFARM</Point>
+      <Point>NORTHERN GAP</Point>
+      <Point>OUTRAM</Point>
+      <Point>PALMERSTON</Point>
+      <Point>PORT CHALMERS</Point>
+      <Point>TAIERI MOUTH</Point>
+      <Point>TOKO MOUTH</Point>
+      <Point>WAIHOLA</Point>
+      <Point>WAIPORI FALLS</Point>
+      <Point>WAITAHUNA</Point>
+      <Point>WAITATI</Point>
+      <Point>WOODSIDE</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>ALLANTON</Point>
+      <Point>BERWICK</Point>
+      <Point>BLACK HEAD</Point>
+      <Point>BRIGHTON</Point>
+      <Point>CLARKS JUNCTION</Point>
+      <Point>CLYDEVALE</Point>
+      <Point>HENLEY TOWN</Point>
+      <Point>LEE STREAM</Point>
+      <Point>LOOKOUT POINT</Point>
+      <Point>MILTON</Point>
+      <Point>MOUNT HYDE</Point>
+      <Point>MOUNT STUART WINDFARM</Point>
+      <Point>NORTHERN GAP</Point>
+      <Point>OUTRAM</Point>
+      <Point>PALMERSTON</Point>
+      <Point>PORT CHALMERS</Point>
+      <Point>TAIERI MOUTH</Point>
+      <Point>TOKO MOUTH</Point>
+      <Point>WAIHOLA</Point>
+      <Point>WAIPORI FALLS</Point>
+      <Point>WAITAHUNA</Point>
+      <Point>WAITATI</Point>
+      <Point>WOODSIDE</Point>
+    </Label>
   </Map>
 </Maps>
-
-<!-- 
-		<Line>
-		
-		</Line>
--->
-
-<!-- 
-  
-  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-455559.037+1701222.927">
-		<Line>
-		
-		</Line>      
-  </Map>
-
-
--->

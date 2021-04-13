@@ -1,76 +1,351 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Maps>  
-	<Map Type="System" Name="RWY 04 STARs" Priority="2" CustomColourName="DrawProc" Centre="-462510.787+1681854.107"> 
-		<Line>
-			PEXED/
-			LUXER/
-			ESNUP/
-			MIMIV/
-			NV423/
-			ANOPA/
-			SUNGU/
-			ANOPA/
-			INTUS
-		</Line>
-		<Line>
-			DUKOP/
-			UKETA/
-			BIDKU/
-			AKPIN
-		</Line>
-		<Line>
-			BIDKU/
-			VIKIP/
-			DOTLU/
-			EGAMU/
-			AMVIX
-		</Line>               
+<Maps>
+  <Map Type="System" Name="04 SIDs" Priority="1" CustomColourName="DrawProc" Centre="-46.411100+168.324744">
+    <Line>
+      <!--Rwy04 ADLU2P-->
+      -46.411100+168.324744/NV404/GURAD/KELSO/ADLUP
+    </Line>
+    <Line>
+      <!--Rwy04 AMVI2P-->
+      NV404/AMVIX
+    </Line>
+    <Line>
+      <!--Rwy04 ANOP2P-->
+      NV404/MOMPI/ANOPA/SUNGU
+    </Line>
+    <Line>
+      <!--Rwy04 EPDA2P-->
+      NV404/EPDAB
+    </Line>
+    <Line>
+      <!--Rwy04 INTU1P-->
+      NV404/INTUS
+    </Line>
+    <Line>
+      <!--Rwy04 PEXE1P-->
+      NV404/TUVDA/POTAB/PEXED
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>NV404</Point>
+      <Point>GURAD</Point>
+      <Point>KELSO</Point>
+      <Point>ADLUP</Point>
+      <Point>AMVIX</Point>
+      <Point>MOMPI</Point>
+      <Point>ANOPA</Point>
+      <Point>SUNGU</Point>
+      <Point>EPDAB</Point>
+      <Point>INTUS</Point>
+      <Point>TUVDA</Point>
+      <Point>POTAB</Point>
+      <Point>PEXED</Point>
+    </Symbol>
+    <Label>
+      <Point>ADLUP</Point>
+      <Point>AMVIX</Point>
+      <Point>SUNGU</Point>
+      <Point>EPDAB</Point>
+      <Point>INTUS</Point>
+      <Point>PEXED</Point>
+    </Label>
   </Map>
-
-	<Map Type="System" Name="RWY 22 STARs" Priority="2" CustomColourName="DrawProc" Centre="-462510.787+1681854.107">
-		<Line>
-			SUNGU/
-			ANOPA/
-			PEXED
-		</Line>
-		<Line>
-			INTUS/
-			ANOPA/
-			MOMPI/
-			LALEV
-		</Line>
-		<Line>
-			DUKOP/
-			UKETA/
-			VENIR/
-			BIDKU/
-			AKPIN
-		</Line>
-		<Line>
-			BIDKU/
-			MASGO/
-			DUNAX
-		</Line>
-		<Line>
-			AMVIX/
-			DOTLU
-		</Line>                          
+  <Map Type="System" Name="04 STARs" Priority="1" CustomColourName="DrawProc" Centre="-46.418411+168.302258">
+    <Line>
+      <!--Rwy04 AKPI3A-->
+      AKPIN/BIDKU/VIKIP/DOTLU/EGAMU
+    </Line>
+    <Line>
+      <!--Rwy04 AMVI1A-->
+      AMVIX/EGAMU
+    </Line>
+    <Line>
+      <!--Rwy04 ANOP4A.INTUS-->
+      INTUS/ANOPA
+    </Line>
+    <Line>
+      <!--Rwy04 ANOP4A.SUNGU-->
+      SUNGU/ANOPA
+    </Line>
+    <Line>
+      <!--Rwy04 ANOP4A-->
+      ANOPA/MIMIV/ESNUP
+    </Line>
+    <Line>
+      <!--Rwy04 DUKO4A-->
+      DUKOP/UKETA/BIDKU
+    </Line>
+    <Line>
+      <!--Rwy04 PEXE1A-->
+      PEXED/LUXER/ESNUP
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>EGAMU</Point>
+      <Point>ESNUP</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>AKPIN</Point>
+      <Point>BIDKU</Point>
+      <Point>VIKIP</Point>
+      <Point>DOTLU</Point>
+      <Point>AMVIX</Point>
+      <Point>INTUS</Point>
+      <Point>ANOPA</Point>
+      <Point>SUNGU</Point>
+      <Point>MIMIV</Point>
+      <Point>DUKOP</Point>
+      <Point>UKETA</Point>
+      <Point>PEXED</Point>
+      <Point>LUXER</Point>
+    </Symbol>
+    <Label>
+      <Point>AKPIN</Point>
+      <Point>AMVIX</Point>
+      <Point>ANOPA</Point>
+      <Point>DUKOP</Point>
+      <Point>PEXED</Point>
+      <Point>INTUS</Point>
+      <Point>SUNGU</Point>
+      <Point>EGAMU</Point>
+      <Point>ESNUP</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="04 GNSS" Priority="0" Center="-46.418411+168.302258" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="MalteseCross">
+      <Point>NILIB</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>KAGRU</Point>
+    </Symbol>
+    <Line>KAGRU/NILIB/NV04T</Line>
+  </Map>
+  <Map Type="System" Name="04 GNSS Labels" Priority="1" Center="-46.418411+168.302258" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>NILIB</Point>
+      <Point>KAGRU</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="22 SIDs" Priority="1" CustomColourName="DrawProc" Centre="-46.418411+168.302258">
+    <Line>
+      <!--Rwy22 ADLU2Q-->
+      -46.418411+168.302258/NV422/RUVGI/KELSO/ADLUP
+    </Line>
+    <Line>
+      <!--Rwy22 AMVI2Q-->
+      NV422/AMVIX
+    </Line>
+    <Line>
+      <!--Rwy22 ANOP2Q-->
+      RUVGI/NV423/ANOPA
+    </Line>
+    <Line>
+      <!--Rwy22 ANOP2Q.SUNGU-->
+      ANOPA/SUNGU
+    </Line>
+    <Line>
+      <!--Rwy22 EPDA4Q-->
+      NV422/BIDIS/EPDAB
+    </Line>
+    <Line>
+      <!--Rwy22 INTU1Q-->
+      RUVGI/INTUS
+    </Line>
+    <Line>
+      <!--Rwy22 PEXE1Q-->
+      NV422/PEXED
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>NV422</Point>
+      <Point>RUVGI</Point>
+      <Point>KELSO</Point>
+      <Point>ADLUP</Point>
+      <Point>AMVIX</Point>
+      <Point>NV423</Point>
+      <Point>ANOPA</Point>
+      <Point>SUNGU</Point>
+      <Point>BIDIS</Point>
+      <Point>EPDAB</Point>
+      <Point>INTUS</Point>
+      <Point>PEXED</Point>
+    </Symbol>
+    <Label>
+      <Point>ADLUP</Point>
+      <Point>AMVIX</Point>
+      <Point>ANOPA</Point>
+      <Point>EPDAB</Point>
+      <Point>INTUS</Point>
+      <Point>PEXED</Point>
+      <Point>SUNGU</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="22 STARs" Priority="1" CustomColourName="DrawProc" Centre="-46.411100+168.324744">
+    <Line>
+      <!--Rwy22 AKPI3B-->
+      AKPIN/BIDKU/MASGO/DUNAX
+    </Line>
+    <Line>
+      <!--Rwy22 AMVI2B-->
+      AMVIX/DOTLU
+    </Line>
+    <Line>
+      <!--Rwy22 ANOP5B.INTUS-->
+      INTUS/ANOPA
+    </Line>
+    <Line>
+      <!--Rwy22 ANOP5B.PEXED-->
+      PEXED/ANOPA
+    </Line>
+    <Line>
+      <!--Rwy22 ANOP5B.SUNGU-->
+      SUNGU/MOVSA/ANOPA
+    </Line>
+    <Line>
+      <!--Rwy22 ANOP5B-->
+      ANOPA/MOMPI/LALEV
+    </Line>
+    <Line>
+      <!--Rwy22 DUKO5B-->
+      DUKOP/UKETA/VENIR/BIDKU
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>DUNAX</Point>
+      <Point>DOTLU</Point>
+      <Point>LALEV</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>AKPIN</Point>
+      <Point>BIDKU</Point>
+      <Point>MASGO</Point>
+      <Point>AMVIX</Point>
+      <Point>INTUS</Point>
+      <Point>ANOPA</Point>
+      <Point>PEXED</Point>
+      <Point>SUNGU</Point>
+      <Point>MOVSA</Point>
+      <Point>MOMPI</Point>
+      <Point>DUKOP</Point>
+      <Point>UKETA</Point>
+      <Point>VENIR</Point>
+    </Symbol>
+    <Label>
+      <Point>AKPIN</Point>
+      <Point>AMVIX</Point>
+      <Point>ANOPA</Point>
+      <Point>DUKOP</Point>
+      <Point>INTUS</Point>
+      <Point>PEXED</Point>
+      <Point>SUNGU</Point>
+      <Point>DUNAX</Point>
+      <Point>DOTLU</Point>
+      <Point>LALEV</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="22 GNSS" Priority="0" Center="-46.411100+168.324744" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="MalteseCross">
+      <Point>PALTU</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>DUNAX</Point>
+    </Symbol>
+    <Line>DUNAX/PALTU/NV22T</Line>
+  </Map>
+  <Map Type="System" Name="22 GNSS Labels" Priority="1" Center="-46.411100+168.324744" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>PALTU</Point>
+      <Point>DUNAX</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="NV VFR" Priority="1" CustomColourName="DrawProc" Centre="-46.415000+168.320000">
+    <Symbol Type="HollowSquare">
+      <Point>AWARUA</Point>
+      <Point>BENCH ISLAND</Point>
+      <Point>BIG GLORY BAY</Point>
+      <Point>BIG LAGOON</Point>
+      <Point>BLUFF</Point>
+      <Point>BREAKSEA</Point>
+      <Point>BUSHY POINT</Point>
+      <Point>CODFISH</Point>
+      <Point>DACRE</Point>
+      <Point>DOUGHBOY BAY</Point>
+      <Point>EAST CAPE</Point>
+      <Point>EDENDALE</Point>
+      <Point>EDWARDS ISLAND</Point>
+      <Point>FRESHWATER RIVER</Point>
+      <Point>HEDGEHOPE</Point>
+      <Point>HIGH ROCK</Point>
+      <Point>HORSESHOE BAY</Point>
+      <Point>KENNINGTON</Point>
+      <Point>KEW</Point>
+      <Point>KOPEKA</Point>
+      <Point>LEE BAY</Point>
+      <Point>LITTLE HELLFIRE BEACH</Point>
+      <Point>MAKAREWA</Point>
+      <Point>MASON BAY</Point>
+      <Point>MOUNT ANGLEM</Point>
+      <Point>MT RAKEAHUA</Point>
+      <Point>MURRAY BEACH</Point>
+      <Point>NORTH BEACH</Point>
+      <Point>OMAUI ISLAND</Point>
+      <Point>ORETI JUNCTION</Point>
+      <Point>RIVERTON</Point>
+      <Point>RUGGED ISLANDS</Point>
+      <Point>SANDY POINT</Point>
+      <Point>SKI CLUB</Point>
+      <Point>SMOKY BEACH</Point>
+      <Point>THORNBURY</Point>
+      <Point>TIN RANGE</Point>
+      <Point>WAIMATUA</Point>
+      <Point>WALLACETOWN</Point>
+      <Point>WEST RUGGEDY BEACH</Point>
+      <Point>WINTON</Point>
+      <Point>WOODLANDS</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>AWARUA</Point>
+      <Point>BENCH ISLAND</Point>
+      <Point>BIG GLORY BAY</Point>
+      <Point>BIG LAGOON</Point>
+      <Point>BLUFF</Point>
+      <Point>BREAKSEA</Point>
+      <Point>BUSHY POINT</Point>
+      <Point>CODFISH</Point>
+      <Point>DACRE</Point>
+      <Point>DOUGHBOY BAY</Point>
+      <Point>EAST CAPE</Point>
+      <Point>EDENDALE</Point>
+      <Point>EDWARDS ISLAND</Point>
+      <Point>FRESHWATER RIVER</Point>
+      <Point>HEDGEHOPE</Point>
+      <Point>HIGH ROCK</Point>
+      <Point>HORSESHOE BAY</Point>
+      <Point>KENNINGTON</Point>
+      <Point>KEW</Point>
+      <Point>KOPEKA</Point>
+      <Point>LEE BAY</Point>
+      <Point>LITTLE HELLFIRE BEACH</Point>
+      <Point>MAKAREWA</Point>
+      <Point>MASON BAY</Point>
+      <Point>MOUNT ANGLEM</Point>
+      <Point>MT RAKEAHUA</Point>
+      <Point>MURRAY BEACH</Point>
+      <Point>NORTH BEACH</Point>
+      <Point>OMAUI ISLAND</Point>
+      <Point>ORETI JUNCTION</Point>
+      <Point>RIVERTON</Point>
+      <Point>RUGGED ISLANDS</Point>
+      <Point>SANDY POINT</Point>
+      <Point>SKI CLUB</Point>
+      <Point>SMOKY BEACH</Point>
+      <Point>THORNBURY</Point>
+      <Point>TIN RANGE</Point>
+      <Point>WAIMATUA</Point>
+      <Point>WALLACETOWN</Point>
+      <Point>WEST RUGGEDY BEACH</Point>
+      <Point>WINTON</Point>
+      <Point>WOODLANDS</Point>
+    </Label>
   </Map>
 </Maps>
-
-<!-- 
-		<Line>
-		
-		</Line>
--->
-
-<!-- 
-  
-  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-462510.787+1681854.107">
-		<Line>
-		
-		</Line>      
-  </Map>
-
-
--->

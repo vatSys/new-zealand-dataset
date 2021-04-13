@@ -1,312 +1,1298 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Maps>  
-  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-432909.351+1723216.287">
-		<Line>
-			KABKA/
-			BELEE/
-			VANDA
-		</Line>
-		<Line>
-			BELEE/
-			AVOCA/
-			BISUP/
-			CH414/
-			UBDAN
-		</Line>
-		<Line>
-			BISUP/
-			CH426/
-			CHARR/
-			IDUBU
-		</Line>
-		<Line>
-			CH414/
-			LEVGO
-		</Line>
-		<Line>
-			DOPKI/
-			HODDE/
-			CH621/
-			IDUBU/
-			CH506/
-			CH418/
-			ELDAK
-		</Line>
-		<Line>
-			LADIS/
-			AKAMO/
-			PEHRR
-		</Line>
-		<Line>
-			AKAMO/
-			CH419/
-			IDUBU
-		</Line>
-		<Line>
-			KIDAL/
-			CH413/
-			AVNOP/
-			CH412/
-			IGEGA
-		</Line>
-		<Line>
-			PEAKS/
-			BLUNT/
-			AVNOP/
-			ERVAX/
-			UBDAN/
-			ALBAD
-		</Line>
-		<Line>
-			MESIX/
-			KABGO/
-			GUKAM/
-			REPAP/
-			CH789/
-			LALAP
-		</Line>
-		<Line>
-			GUKAM/
-			ALBAD
-		</Line> 
-		<Line>
-			GUKAM/
-			BOLUB
-		</Line>
-		<Line>
-			MOLGI/
-			CH739/
-			DOVEM/
-			CH503/
-			CH416/
-			HODDE/
-			CH621/
-			IDUBU
-		</Line> 
+<Maps>
+  <Map Type="System" Name="02 SIDs" Priority="1" CustomColourName="DrawProc" Centre="-43.474989+172.548286">
+    <Line>
+      <!--Rwy02 BAVE6P-->
+      -43.474989+172.548286/RINKO/BAVEM
+    </Line>
+    <Line>
+      <!--Rwy02 BAVE6P.AVOCA-->
+      BAVEM/AVOCA
+    </Line>
+    <Line>
+      <!--Rwy02 BAVE6P.KABIN-->
+      BAVEM/ABAXO/KABIN
+    </Line>
+    <Line>
+      <!--Rwy02 BAVE6P.KABKA-->
+      BAVEM/VETEV/KABKA
+    </Line>
+    <Line>
+      <!--Rwy02 BAVE6P.KIDAL-->
+      BAVEM/KIDAL
+    </Line>
+    <Line>
+      <!--Rwy02 BAVE6P.MOLGI-->
+      ABAXO/MOLGI
+    </Line>
+    <Line>
+      <!--Rwy02 BAVE6P.VANDA-->
+      VETEV/VANDA
+    </Line>
+    <Line>
+      <!--Rwy02 GUTB1P-->
+      -43.474989+172.548286/GUTBU
+    </Line>
+    <Line>
+      <!--Rwy02 GUTB1P.GLENN-->
+      GUTBU/GLENN
+    </Line>
+    <Line>
+      <!--Rwy02 GUTB1P.GRETA-->
+      GUTBU/GRETA
+    </Line>
+    <Line>
+      <!--Rwy02 GUTB1P.LALAP-->
+      GUTBU/REPAP/CH789/LALAP
+    </Line>
+    <Line>
+      <!--Rwy02 GUTB1P.ODOWD-->
+      GUTBU/ODOWD
+    </Line>
+    <Line>
+      <!--Rwy02 GUTB1P.PORAM-->
+      GUTBU/PORAM
+    </Line>
+    <Line>
+      <!--Rwy02 MUKV1P-->
+      -43.474989+172.548286/OVLAM/ISGAN/DAMRU/MUKVO
+    </Line>
+    <Line>
+      <!--Rwy02 MUKV1P.ELDAK-->
+      MUKVO/ELDAK
+    </Line>
+    <Line>
+      <!--Rwy02 MUKV1P.GUPUT-->
+      MUKVO/GUPUT
+    </Line>
+    <Line>
+      <!--Rwy02 MUKV1P.IDARA-->
+      MUKVO/IDARA
+    </Line>
+    <Line>
+      <!--Rwy02 MUKV1P.PEHRR-->
+      MUKVO/PEHRR
+    </Line>
+    <Line>
+      <!--Rwy02 NZCH5A-->
+      -43.474989+172.548286/-43.423889+172.580556
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>RINKO</Point>
+      <Point>BAVEM</Point>
+      <Point>AVOCA</Point>
+      <Point>ABAXO</Point>
+      <Point>KABIN</Point>
+      <Point>VETEV</Point>
+      <Point>KABKA</Point>
+      <Point>KIDAL</Point>
+      <Point>MOLGI</Point>
+      <Point>VANDA</Point>
+      <Point>GUTBU</Point>
+      <Point>GLENN</Point>
+      <Point>GRETA</Point>
+      <Point>REPAP</Point>
+      <Point>CH789</Point>
+      <Point>LALAP</Point>
+      <Point>ODOWD</Point>
+      <Point>PORAM</Point>
+      <Point>OVLAM</Point>
+      <Point>ISGAN</Point>
+      <Point>DAMRU</Point>
+      <Point>MUKVO</Point>
+      <Point>ELDAK</Point>
+      <Point>GUPUT</Point>
+      <Point>IDARA</Point>
+      <Point>PEHRR</Point>
+    </Symbol>
+    <Label>
+      <Point>BAVEM</Point>
+      <Point>GUTBU</Point>
+      <Point>MUKVO</Point>
+      <Point>AVOCA</Point>
+      <Point>KABIN</Point>
+      <Point>KABKA</Point>
+      <Point>KIDAL</Point>
+      <Point>MOLGI</Point>
+      <Point>VANDA</Point>
+      <Point>GLENN</Point>
+      <Point>GRETA</Point>
+      <Point>LALAP</Point>
+      <Point>ODOWD</Point>
+      <Point>PORAM</Point>
+      <Point>ELDAK</Point>
+      <Point>GUPUT</Point>
+      <Point>IDARA</Point>
+      <Point>PEHRR</Point>
+    </Label>
   </Map>
-
-	<Map Type="System" Name="RWY 20 STARs" Priority="2" CustomColourName="DrawProc" Centre="-432909.351+1723216.287">
-		<Line>
-			KABKA/
-			BELEE/
-			VANDA
-		</Line>
-		<Line>
-			BELEE/
-			AVOCA/
-			RIVPI/
-			CH422/
-			OBDOR/
-			ODISI
-		</Line>  
-		<Line>
-			RIVPI/
-			CH511/
-			CH406/
-			BIDEV
-		</Line>      
-		<Line>
-			CH406/
-			SUSAL
-		</Line>
-		<Line>
-			DOPKI/
-			SADEM/
-			ELDAK
-		</Line>
-		<Line>
-			SADEM/ 
-			ERVAX/
-			BIDEV/
-			DIVSU/
-			MABAK/
-			CH408/
-			VEPLO/
-			LADIS
-		</Line>
-		<Line>
-			VEPLO/
-			PEHRR
-		</Line>   
-		<Line>
-			VEPLO/
-			BIXIX
-		</Line>
-		<Line>
-			KIDAL/
-			BOMTU/
-			IGEGA
-		</Line>
-		<Line>
-			BOMTU/
-			BLUNT/
-			PEAKS
-		</Line>
-		<Line>
-			BLUNT/
-			CH404/
-			ODISI
-		</Line>
-		<Line>
-			MESIX/
-			KABGO/
-			CH409/
-			ODISI/
-			VIKEX/
-			REPAP/
-			CH789/
-			LALAP
-		</Line>   
-		<Line>
-			MOLGI/
-			CH739/
-			DOVEM/
-			KAMGI/
-			POPIS/
-			CH407/
-			OBDOR/
-			ODISI
-		</Line>        
-		<Line>
-			POPIS/
-			RUMBI/
-			SUSAL
-		</Line>                                                           
+  <Map Type="System" Name="02 STARs" Priority="1" CustomColourName="DrawProc" Centre="-43.497631+172.522114">
+    <Line>
+      <!--Rwy02 AVOC6A-->
+      AVOCA/BISUP/CH414/UBDAN/ALBAD
+    </Line>
+    <Line>
+      <!--Rwy02 BELE5A.KABKA-->
+      KABKA/BELEE
+    </Line>
+    <Line>
+      <!--Rwy02 BELE5A.VANDA-->
+      VANDA/BELEE
+    </Line>
+    <Line>
+      <!--Rwy02 BELE5A-->
+      BELEE/AVOCA/CH426/CHARR/IDUBU
+    </Line>
+    <Line>
+      <!--Rwy02 BELE3E.KABKA-->
+    </Line>
+    <Line>
+      <!--Rwy02 BELE3E.VANDA-->
+    </Line>
+    <Line>
+      <!--Rwy02 BELE3E-->
+      CH414/LEVGO
+    </Line>
+    <Line>
+      <!--Rwy02 DOPK4A-->
+      DOPKI/HODDE/CH621/IDUBU
+    </Line>
+    <Line>
+      <!--Rwy02 ELDA3A-->
+      ELDAK/CH418/CH506/IDUBU
+    </Line>
+    <Line>
+      <!--Rwy02 IGEG6A-->
+      IGEGA/CH412/AVNOP/ERVAX/UBDAN
+    </Line>
+    <Line>
+      <!--Rwy02 IGEG2E-->
+    </Line>
+    <Line>
+      <!--Rwy02 KIDA5A-->
+    </Line>
+    <Line>
+      <!--Rwy02 KIDA2E-->
+      KIDAL/CH413/AVNOP
+    </Line>
+    <Line>
+      <!--Rwy02 LADI6A-->
+      LADIS/AKAMO/CH419/IDUBU
+    </Line>
+    <Line>
+      <!--Rwy02 MESI7A-->
+      MESIX/KABGO/GUKAM/GOMPI/ALBAD
+    </Line>
+    <Line>
+      <!--Rwy02 MESI1E-->
+      GUKAM/BOLUB
+    </Line>
+    <Line>
+      <!--Rwy02 MOLG4A-->
+      MOLGI/CH739/DOVEM/CH503/CH416/HODDE
+    </Line>
+    <Line>
+      <!--Rwy02 PEAK7A-->
+      PEAKS/BLUNT/AVNOP
+    </Line>
+    <Line>
+      <!--Rwy02 PEAK2E-->
+    </Line>
+    <Line>
+      <!--Rwy02 PEHR4A-->
+      PEHRR/AKAMO
+    </Line>
+    <Line>
+      <!--Rwy02 REPA3A.LALAP-->
+      LALAP/CH789/REPAP
+    </Line>
+    <Line>
+      <!--Rwy02 REPA3A-->
+      REPAP/GUKAM
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>ALBAD</Point>
+      <Point>IDUBU</Point>
+      <Point>LEVGO</Point>
+      <Point>UBDAN</Point>
+      <Point>ERVAX</Point>
+      <Point>GOMPI</Point>
+      <Point>BOLUB</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>AVOCA</Point>
+      <Point>BISUP</Point>
+      <Point>CH414</Point>
+      <Point>KABKA</Point>
+      <Point>BELEE</Point>
+      <Point>VANDA</Point>
+      <Point>CH426</Point>
+      <Point>CHARR</Point>
+      <Point>DOPKI</Point>
+      <Point>HODDE</Point>
+      <Point>CH621</Point>
+      <Point>ELDAK</Point>
+      <Point>CH418</Point>
+      <Point>CH506</Point>
+      <Point>IGEGA</Point>
+      <Point>CH412</Point>
+      <Point>AVNOP</Point>
+      <Point>KIDAL</Point>
+      <Point>CH413</Point>
+      <Point>LADIS</Point>
+      <Point>AKAMO</Point>
+      <Point>CH419</Point>
+      <Point>MESIX</Point>
+      <Point>KABGO</Point>
+      <Point>GUKAM</Point>
+      <Point>MOLGI</Point>
+      <Point>CH739</Point>
+      <Point>DOVEM</Point>
+      <Point>CH503</Point>
+      <Point>CH416</Point>
+      <Point>PEAKS</Point>
+      <Point>BLUNT</Point>
+      <Point>PEHRR</Point>
+      <Point>LALAP</Point>
+      <Point>CH789</Point>
+      <Point>REPAP</Point>
+    </Symbol>
+    <Label>
+      <Point>AVOCA</Point>
+      <Point>BELEE</Point>
+      <Point>DOPKI</Point>
+      <Point>ELDAK</Point>
+      <Point>IGEGA</Point>
+      <Point>KIDAL</Point>
+      <Point>LADIS</Point>
+      <Point>MESIX</Point>
+      <Point>MOLGI</Point>
+      <Point>PEAKS</Point>
+      <Point>PEHRR</Point>
+      <Point>REPAP</Point>
+      <Point>KABKA</Point>
+      <Point>VANDA</Point>
+      <Point>LALAP</Point>
+      <Point>ALBAD</Point>
+      <Point>IDUBU</Point>
+      <Point>LEVGO</Point>
+      <Point>UBDAN</Point>
+      <Point>ERVAX</Point>
+      <Point>GOMPI</Point>
+      <Point>BOLUB</Point>
+    </Label>
   </Map>
-
-  <Map Type="System" Name="RWY 11 STARs" Priority="2" CustomColourName="DrawProc" Centre="-432909.351+1723216.287">
-		<Line>
-			KABKA/
-			NURNI/
-			SAVKU/
-			AVOCA
-		</Line>
-		<Line>
-			SAVKU/
-			BLUNT/
-			IGEGA
-		</Line>
-		<Line>
-			PEAKS/
-			BLUNT/
-			TARUM/
-			IGLIS
-		</Line>
-		<Line>
-			VANDA/
-			POROS/
-			MOLGI
-		</Line>
-		<Line>
-			POROS/
-			REBUR/
-			HODDE/
-			ELDAK
-		</Line>
-		<Line>
-			ELDAK/
-			HODDE/
-			LADIS
-		</Line>
-		<Line>
-			HODDE/
-			AVDID
-		</Line>
-		<Line>
-			MESIX/
-			KABGO/
-			GUKAM/
-			LATIP/
-			PABRA/
-			AVDID
-		</Line>                      
+  <Map Type="System" Name="02 GNSS" Priority="0" Center="-43.497631+172.522114" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>GOMPI</Point>
+      <Point>IDUBU</Point>
+      <Point>UBDAN</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>DAKUR</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>ALBAD</Point>
+    </Symbol>
+    <Line>ALBAD/DAKUR/CH02T</Line>
+    <Line>GOMPI/ALBAD</Line>
+    <Line>IDUBU/ALBAD</Line>
+    <Line>UBDAN/ALBAD</Line>
   </Map>
-
-	<Map Type="System" Name="RWY 29 STARs" Priority="2" CustomColourName="DrawProc" Centre="-432909.351+1723216.287">
-		<Line>
-			KABKA/
-			BELEE/
-			VANDA
-		</Line>
-		<Line>
-			BELEE/
-			AVOCA/
-			BISUP/
-			CHARR/
-			IDUBU/
-			SUPSO
-		</Line>
-		<Line>
-			DOPKI/
-			HODDE/
-			ELDAK
-		</Line>
-		<Line>
-			HODDE/
-			IDUBU/
-			SUPSO
-		</Line>
-		<Line>
-			IDUBU/
-			AKAMO/
-			LADIS
-		</Line>
-		<Line>
-			AKAMO/
-			PEHRR
-		</Line>
-		<Line>
-			KIDAL/
-			BLUNT/
-			IGEGA
-		</Line>
-		<Line>
-			PEAKS/
-			BLUNT/
-			NODEL/
-			ABVIM
-		</Line> 
-		<Line>
-			MESIX/
-			KABGO/
-			ABVIM
-		</Line>
-		<Line>
-			MOLGI/
-			CH739/
-			DOVEM/
-			CH429/
-			HODDE
-		</Line>
-		<Line>
-			LALAP/
-			CH789/
-			REPAP/
-			ABVIM
-		</Line>
-  </Map>  
+  <Map Type="System" Name="02 GNSS Labels" Priority="1" Center="-43.497631+172.522114" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>GOMPI</Point>
+      <Point>IDUBU</Point>
+      <Point>UBDAN</Point>
+      <Point>DAKUR</Point>
+      <Point>ALBAD</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="02 RNP" Priority="0" Center="-43.497631+172.522114" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle">
+      <Point>CH832</Point>
+      <Point>CH793</Point>
+      <Point>CH755</Point>
+      <Point>BEKTI</Point>
+      <Point>CH963</Point>
+      <Point>CH697</Point>
+      <Point>NISOM</Point>
+      <Point>CH846</Point>
+      <Point>CH801</Point>
+      <Point>CH878</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="MalteseCross">
+      <Point>PEBVI</Point>
+      <Point>SULMO</Point>
+      <Point>GUNLO</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>ERVAX</Point>
+      <Point>BOLUB</Point>
+      <Point>LEVGO</Point>
+    </Symbol>
+    <Line>ERVAX/CH832/CH793/CH755/PEBVI/BEKTI/CH02T</Line>
+    <Line>BOLUB/CH963/SULMO/CH697/NISOM/CH02T</Line>
+    <Line>LEVGO/CH846/CH801/CH878/GUNLO/CH02T</Line>
+  </Map>
+  <Map Type="System" Name="02 RNP Labels" Priority="1" Center="-43.497631+172.522114" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>PEBVI</Point>
+      <Point>SULMO</Point>
+      <Point>GUNLO</Point>
+      <Point>ERVAX</Point>
+      <Point>BOLUB</Point>
+      <Point>LEVGO</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="20 SIDs" Priority="1" CustomColourName="DrawProc" Centre="-43.497631+172.522114">
+    <Line>
+      <!--Rwy20 ATSA1Q-->
+      -43.497631+172.522114/ATSAT
+    </Line>
+    <Line>
+      <!--Rwy20 ATSA1Q.ELDAK-->
+      ATSAT/ELDAK
+    </Line>
+    <Line>
+      <!--Rwy20 ATSA1Q.GUPUT-->
+      ATSAT/GUPUT
+    </Line>
+    <Line>
+      <!--Rwy20 ATSA1Q.IDARA-->
+      ATSAT/IDARA
+    </Line>
+    <Line>
+      <!--Rwy20 ATSA1Q.PEHRR-->
+      ATSAT/PEHRR
+    </Line>
+    <Line>
+      <!--Rwy20 KADE6Q-->
+      -43.497631+172.522114/AGRAL/KADET
+    </Line>
+    <Line>
+      <!--Rwy20 KADE6Q.AVOCA-->
+      KADET/AVOCA
+    </Line>
+    <Line>
+      <!--Rwy20 KADE6Q.KABIN-->
+      KADET/ABAXO/KABIN
+    </Line>
+    <Line>
+      <!--Rwy20 KADE6Q.KABKA-->
+      KADET/VETEV/KABKA
+    </Line>
+    <Line>
+      <!--Rwy20 KADE6Q.KIDAL-->
+      KADET/KIDAL
+    </Line>
+    <Line>
+      <!--Rwy20 KADE6Q.MOLGI-->
+      ABAXO/MOLGI
+    </Line>
+    <Line>
+      <!--Rwy20 KADE6Q.VANDA-->
+      ABAXO/VANDA
+    </Line>
+    <Line>
+      <!--Rwy20 NZCH5B-->
+      -43.497631+172.522114/-43.534444+172.445556
+    </Line>
+    <Line>
+      <!--Rwy20 PEDM1Q-->
+      -43.497631+172.522114/MEBMU/ANULU/RUTOR/PEDMI
+    </Line>
+    <Line>
+      <!--Rwy20 PEDM1Q.GLENN-->
+      PEDMI/GLENN
+    </Line>
+    <Line>
+      <!--Rwy20 PEDM1Q.GRETA-->
+      PEDMI/GRETA
+    </Line>
+    <Line>
+      <!--Rwy20 PEDM1Q.LALAP-->
+      PEDMI/REPAP/CH789/LALAP
+    </Line>
+    <Line>
+      <!--Rwy20 PEDM1Q.ODOWD-->
+      PEDMI/ODOWD
+    </Line>
+    <Line>
+      <!--Rwy20 PEDM1Q.PORAM-->
+      PEDMI/PORAM
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>ATSAT</Point>
+      <Point>ELDAK</Point>
+      <Point>GUPUT</Point>
+      <Point>IDARA</Point>
+      <Point>PEHRR</Point>
+      <Point>AGRAL</Point>
+      <Point>KADET</Point>
+      <Point>AVOCA</Point>
+      <Point>ABAXO</Point>
+      <Point>KABIN</Point>
+      <Point>VETEV</Point>
+      <Point>KABKA</Point>
+      <Point>KIDAL</Point>
+      <Point>MOLGI</Point>
+      <Point>VANDA</Point>
+      <Point>MEBMU</Point>
+      <Point>ANULU</Point>
+      <Point>RUTOR</Point>
+      <Point>PEDMI</Point>
+      <Point>GLENN</Point>
+      <Point>GRETA</Point>
+      <Point>REPAP</Point>
+      <Point>CH789</Point>
+      <Point>LALAP</Point>
+      <Point>ODOWD</Point>
+      <Point>PORAM</Point>
+    </Symbol>
+    <Label>
+      <Point>ATSAT</Point>
+      <Point>KADET</Point>
+      <Point>PEDMI</Point>
+      <Point>ELDAK</Point>
+      <Point>GUPUT</Point>
+      <Point>IDARA</Point>
+      <Point>PEHRR</Point>
+      <Point>AVOCA</Point>
+      <Point>KABIN</Point>
+      <Point>KABKA</Point>
+      <Point>KIDAL</Point>
+      <Point>MOLGI</Point>
+      <Point>VANDA</Point>
+      <Point>GLENN</Point>
+      <Point>GRETA</Point>
+      <Point>LALAP</Point>
+      <Point>ODOWD</Point>
+      <Point>PORAM</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="20 STARs" Priority="1" CustomColourName="DrawProc" Centre="-43.474989+172.548286">
+    <Line>
+      <!--Rwy20 AVOC6B-->
+      AVOCA/RIVPI/CH422/OBDOR/ODISI
+    </Line>
+    <Line>
+      <!--Rwy20 BELE5B.KABKA-->
+      KABKA/BELEE
+    </Line>
+    <Line>
+      <!--Rwy20 BELE5B.VANDA-->
+      VANDA/BELEE
+    </Line>
+    <Line>
+      <!--Rwy20 BELE5B-->
+      BELEE/AVOCA/CH511/CH406/BIDEV/DIVSU
+    </Line>
+    <Line>
+      <!--Rwy20 BELE3F.KABKA-->
+    </Line>
+    <Line>
+      <!--Rwy20 BELE3F.VANDA-->
+    </Line>
+    <Line>
+      <!--Rwy20 BELE3F-->
+      RIVPI/CH511/SUSAL
+    </Line>
+    <Line>
+      <!--Rwy20 DOPK3B-->
+      DOPKI/SADEM/ERVAX/BIDEV
+    </Line>
+    <Line>
+      <!--Rwy20 DOPK2F-->
+    </Line>
+    <Line>
+      <!--Rwy20 ELDA3B-->
+      ELDAK/SADEM
+    </Line>
+    <Line>
+      <!--Rwy20 ELDA2F-->
+    </Line>
+    <Line>
+      <!--Rwy20 IGEG8B-->
+      IGEGA/BOMTU/BLUNT/CH404/ODISI
+    </Line>
+    <Line>
+      <!--Rwy20 KIDA7B-->
+      KIDAL/BOMTU
+    </Line>
+    <Line>
+      <!--Rwy20 LADI6B-->
+      LADIS/VEPLO/CH408/MABAK/DIVSU
+    </Line>
+    <Line>
+      <!--Rwy20 LADI2F-->
+      VEPLO/BIXIX
+    </Line>
+    <Line>
+      <!--Rwy20 MESI7B-->
+      MESIX/KABGO/CH409/ODISI
+    </Line>
+    <Line>
+      <!--Rwy20 MOLG6B-->
+      MOLGI/CH739/DOVEM/KAMGI/POPIS/CH407/OBDOR
+    </Line>
+    <Line>
+      <!--Rwy20 MOLG2F-->
+      POPIS/RUMBI/SUSAL
+    </Line>
+    <Line>
+      <!--Rwy20 PEAK8B-->
+      PEAKS/BLUNT
+    </Line>
+    <Line>
+      <!--Rwy20 PEHR4B-->
+      PEHRR/VEPLO
+    </Line>
+    <Line>
+      <!--Rwy20 PEHR2F-->
+    </Line>
+    <Line>
+      <!--Rwy20 REPA2B.LALAP-->
+      LALAP/CH789/REPAP
+    </Line>
+    <Line>
+      <!--Rwy20 REPA2B-->
+      REPAP/VIKEX/ODISI
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>ODISI</Point>
+      <Point>DIVSU</Point>
+      <Point>SUSAL</Point>
+      <Point>BIDEV</Point>
+      <Point>ERVAX</Point>
+      <Point>MABAK</Point>
+      <Point>BIXIX</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>AVOCA</Point>
+      <Point>RIVPI</Point>
+      <Point>CH422</Point>
+      <Point>OBDOR</Point>
+      <Point>KABKA</Point>
+      <Point>BELEE</Point>
+      <Point>VANDA</Point>
+      <Point>CH511</Point>
+      <Point>CH406</Point>
+      <Point>DOPKI</Point>
+      <Point>SADEM</Point>
+      <Point>ELDAK</Point>
+      <Point>IGEGA</Point>
+      <Point>BOMTU</Point>
+      <Point>BLUNT</Point>
+      <Point>CH404</Point>
+      <Point>KIDAL</Point>
+      <Point>LADIS</Point>
+      <Point>VEPLO</Point>
+      <Point>CH408</Point>
+      <Point>MESIX</Point>
+      <Point>KABGO</Point>
+      <Point>CH409</Point>
+      <Point>MOLGI</Point>
+      <Point>CH739</Point>
+      <Point>DOVEM</Point>
+      <Point>KAMGI</Point>
+      <Point>POPIS</Point>
+      <Point>CH407</Point>
+      <Point>RUMBI</Point>
+      <Point>PEAKS</Point>
+      <Point>PEHRR</Point>
+      <Point>LALAP</Point>
+      <Point>CH789</Point>
+      <Point>REPAP</Point>
+      <Point>VIKEX</Point>
+    </Symbol>
+    <Label>
+      <Point>AVOCA</Point>
+      <Point>BELEE</Point>
+      <Point>DOPKI</Point>
+      <Point>ELDAK</Point>
+      <Point>IGEGA</Point>
+      <Point>KIDAL</Point>
+      <Point>LADIS</Point>
+      <Point>MESIX</Point>
+      <Point>MOLGI</Point>
+      <Point>PEAKS</Point>
+      <Point>PEHRR</Point>
+      <Point>REPAP</Point>
+      <Point>KABKA</Point>
+      <Point>VANDA</Point>
+      <Point>LALAP</Point>
+      <Point>ODISI</Point>
+      <Point>DIVSU</Point>
+      <Point>SUSAL</Point>
+      <Point>BIDEV</Point>
+      <Point>ERVAX</Point>
+      <Point>MABAK</Point>
+      <Point>BIXIX</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="20 GNSS" Priority="0" Center="-43.474989+172.548286" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>BIDEV</Point>
+      <Point>MABAK</Point>
+      <Point>ODISI</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>LUKLO</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>DIVSU</Point>
+    </Symbol>
+    <Line>DIVSU/LUKLO/CH20T</Line>
+    <Line>BIDEV/DIVSU</Line>
+    <Line>MABAK/DIVSU</Line>
+    <Line>ODISI/DIVSU</Line>
+  </Map>
+  <Map Type="System" Name="20 GNSS Labels" Priority="1" Center="-43.474989+172.548286" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>BIDEV</Point>
+      <Point>MABAK</Point>
+      <Point>ODISI</Point>
+      <Point>LUKLO</Point>
+      <Point>DIVSU</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="20 RNP" Priority="0" Center="-43.474989+172.548286" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle">
+      <Point>CH827</Point>
+      <Point>CH428</Point>
+      <Point>CH989</Point>
+      <Point>CH931</Point>
+      <Point>CH634</Point>
+      <Point>CH928</Point>
+      <Point>CH946</Point>
+      <Point>CH813</Point>
+      <Point>CH653</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="MalteseCross">
+      <Point>RUSON</Point>
+      <Point>ENLAT</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>BIXIX</Point>
+      <Point>ERVAX</Point>
+      <Point>SUSAL</Point>
+    </Symbol>
+    <Line>BIXIX/CH827/CH428/RUSON/ENLAT/CH20T</Line>
+    <Line>ERVAX/CH989/CH931/CH634/CH928/ENLAT</Line>
+    <Line>SUSAL/CH946/CH813/CH653/CH928</Line>
+  </Map>
+  <Map Type="System" Name="20 RNP Labels" Priority="1" Center="-43.474989+172.548286" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>RUSON</Point>
+      <Point>ENLAT</Point>
+      <Point>BIXIX</Point>
+      <Point>ERVAX</Point>
+      <Point>SUSAL</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="11 SIDs" Priority="1" CustomColourName="DrawProc" Centre="-43.494381+172.540883">
+    <Line>
+      <!--Rwy11 ALBA2B-->
+      -43.494381+172.540883/-43.509722+172.567500/ALBAD
+    </Line>
+    <Line>
+      <!--Rwy11 DIVS2B-->
+      -43.494381+172.540883/LATIP/DIVSU
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>ALBAD</Point>
+      <Point>LATIP</Point>
+      <Point>DIVSU</Point>
+    </Symbol>
+    <Label>
+      <Point>ALBAD</Point>
+      <Point>DIVSU</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="11 STARs" Priority="1" CustomColourName="DrawProc" Centre="-43.484278+172.524414">
+    <Line>
+      <!--Rwy11 BLUN3F.AVOCA-->
+      AVOCA/SAVKU/BLUNT
+    </Line>
+    <Line>
+      <!--Rwy11 BLUN3F.IGEGA-->
+      IGEGA/BLUNT
+    </Line>
+    <Line>
+      <!--Rwy11 BLUN3F.KABKA-->
+      KABKA/NURNI/SAVKU
+    </Line>
+    <Line>
+      <!--Rwy11 BLUN3F.PEAKS-->
+      PEAKS/BLUNT
+    </Line>
+    <Line>
+      <!--Rwy11 BLUN3F-->
+      BLUNT/TARUM/IGLIS
+    </Line>
+    <Line>
+      <!--Rwy11 HODE2D.ELDAK-->
+      ELDAK/HODDE
+    </Line>
+    <Line>
+      <!--Rwy11 HODE2D.LADIS-->
+      LADIS/HODDE
+    </Line>
+    <Line>
+      <!--Rwy11 HODE2D.MOLGI-->
+      MOLGI/POROS/REBUR/HODDE
+    </Line>
+    <Line>
+      <!--Rwy11 HODE2D.VANDA-->
+      VANDA/POROS
+    </Line>
+    <Line>
+      <!--Rwy11 HODE2D-->
+      HODDE/AVDID
+    </Line>
+    <Line>
+      <!--Rwy11 MESI2D-->
+      MESIX/KABGO/GUKAM/LATIP/PABRA/AVDID
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>IGLIS</Point>
+      <Point>AVDID</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>AVOCA</Point>
+      <Point>SAVKU</Point>
+      <Point>BLUNT</Point>
+      <Point>IGEGA</Point>
+      <Point>KABKA</Point>
+      <Point>NURNI</Point>
+      <Point>PEAKS</Point>
+      <Point>TARUM</Point>
+      <Point>ELDAK</Point>
+      <Point>HODDE</Point>
+      <Point>LADIS</Point>
+      <Point>MOLGI</Point>
+      <Point>POROS</Point>
+      <Point>REBUR</Point>
+      <Point>VANDA</Point>
+      <Point>MESIX</Point>
+      <Point>KABGO</Point>
+      <Point>GUKAM</Point>
+      <Point>LATIP</Point>
+      <Point>PABRA</Point>
+    </Symbol>
+    <Label>
+      <Point>BLUNT</Point>
+      <Point>HODDE</Point>
+      <Point>MESIX</Point>
+      <Point>AVOCA</Point>
+      <Point>IGEGA</Point>
+      <Point>KABKA</Point>
+      <Point>PEAKS</Point>
+      <Point>ELDAK</Point>
+      <Point>LADIS</Point>
+      <Point>MOLGI</Point>
+      <Point>VANDA</Point>
+      <Point>IGLIS</Point>
+      <Point>AVDID</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="11 GNSS" Priority="0" Center="-43.484278+172.524414" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>AVDID</Point>
+      <Point>IGLIS</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>VENKI</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>BUSKU</Point>
+    </Symbol>
+    <Line>BUSKU/VENKI/CH11T</Line>
+    <Line>AVDID/BUSKU</Line>
+    <Line>IGLIS/BUSKU</Line>
+  </Map>
+  <Map Type="System" Name="11 GNSS Labels" Priority="1" Center="-43.484278+172.524414" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>AVDID</Point>
+      <Point>IGLIS</Point>
+      <Point>VENKI</Point>
+      <Point>BUSKU</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="29 SIDs" Priority="1" CustomColourName="DrawProc" Centre="-43.484278+172.524414">
+    <Line>
+      <!--Rwy29 KABO5R-->
+      -43.484278+172.524414/-43.482561+172.521363/NITEG/KABOD
+    </Line>
+    <Line>
+      <!--Rwy29 KABO5R.GLENN-->
+      KABOD/GLENN
+    </Line>
+    <Line>
+      <!--Rwy29 KABO5R.GRETA-->
+      KABOD/GRETA
+    </Line>
+    <Line>
+      <!--Rwy29 KABO5R.ODOWD-->
+      KABOD/ODOWD
+    </Line>
+    <Line>
+      <!--Rwy29 KABO5R.PORAM-->
+      KABOD/PORAM
+    </Line>
+    <Line>
+      <!--Rwy29 LUNT1R-->
+      NITEG/LUNTI
+    </Line>
+    <Line>
+      <!--Rwy29 LUNT1R.AVOCA-->
+      LUNTI/AVOCA
+    </Line>
+    <Line>
+      <!--Rwy29 LUNT1R.KABIN-->
+      LUNTI/ABAXO/KABIN
+    </Line>
+    <Line>
+      <!--Rwy29 LUNT1R.KABKA-->
+      LUNTI/VETEV/KABKA
+    </Line>
+    <Line>
+      <!--Rwy29 LUNT1R.KIDAL-->
+      LUNTI/KIDAL
+    </Line>
+    <Line>
+      <!--Rwy29 LUNT1R.MOLGI-->
+      ABAXO/MOLGI
+    </Line>
+    <Line>
+      <!--Rwy29 NZCH4C-->
+      -43.484278+172.524414/-43.448056+172.466667
+    </Line>
+    <Line>
+      <!--Rwy29 PALS1R-->
+      -43.482561+172.521363/IGPIK/PALSO
+    </Line>
+    <Line>
+      <!--Rwy29 PALS1R.ELDAK-->
+      PALSO/ELDAK
+    </Line>
+    <Line>
+      <!--Rwy29 PALS1R.GUPUT-->
+      PALSO/GUPUT
+    </Line>
+    <Line>
+      <!--Rwy29 PALS1R.IDARA-->
+      PALSO/MAGLA/IDARA
+    </Line>
+    <Line>
+      <!--Rwy29 PALS1R.PEHRR-->
+      MAGLA/PEHRR
+    </Line>
+    <Line>
+      <!--Rwy29 REPA2R-->
+      NITEG/DIVSU/REPAP
+    </Line>
+    <Line>
+      <!--Rwy29 REPA2R.LALAP-->
+      REPAP/CH789/LALAP
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>NITEG</Point>
+      <Point>KABOD</Point>
+      <Point>GLENN</Point>
+      <Point>GRETA</Point>
+      <Point>ODOWD</Point>
+      <Point>PORAM</Point>
+      <Point>LUNTI</Point>
+      <Point>AVOCA</Point>
+      <Point>ABAXO</Point>
+      <Point>KABIN</Point>
+      <Point>VETEV</Point>
+      <Point>KABKA</Point>
+      <Point>KIDAL</Point>
+      <Point>MOLGI</Point>
+      <Point>IGPIK</Point>
+      <Point>PALSO</Point>
+      <Point>ELDAK</Point>
+      <Point>GUPUT</Point>
+      <Point>MAGLA</Point>
+      <Point>IDARA</Point>
+      <Point>PEHRR</Point>
+      <Point>DIVSU</Point>
+      <Point>REPAP</Point>
+      <Point>CH789</Point>
+      <Point>LALAP</Point>
+    </Symbol>
+    <Label>
+      <Point>KABOD</Point>
+      <Point>LUNTI</Point>
+      <Point>PALSO</Point>
+      <Point>REPAP</Point>
+      <Point>GLENN</Point>
+      <Point>GRETA</Point>
+      <Point>ODOWD</Point>
+      <Point>PORAM</Point>
+      <Point>AVOCA</Point>
+      <Point>KABIN</Point>
+      <Point>KABKA</Point>
+      <Point>KIDAL</Point>
+      <Point>MOLGI</Point>
+      <Point>ELDAK</Point>
+      <Point>GUPUT</Point>
+      <Point>IDARA</Point>
+      <Point>PEHRR</Point>
+      <Point>LALAP</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="29 STARs" Priority="1" CustomColourName="DrawProc" Centre="-43.494381+172.540883">
+    <Line>
+      <!--Rwy29 AVOC5G-->
+      AVOCA/BISUP/CHARR/IDUBU/SUPSO
+    </Line>
+    <Line>
+      <!--Rwy29 BELE5G.KABKA-->
+      KABKA/BELEE
+    </Line>
+    <Line>
+      <!--Rwy29 BELE5G.VANDA-->
+      VANDA/BELEE
+    </Line>
+    <Line>
+      <!--Rwy29 BELE5G-->
+      BELEE/AVOCA
+    </Line>
+    <Line>
+      <!--Rwy29 DOPK4G-->
+      DOPKI/HODDE/IDUBU
+    </Line>
+    <Line>
+      <!--Rwy29 ELDA4G-->
+      ELDAK/HODDE
+    </Line>
+    <Line>
+      <!--Rwy29 IGEG4G-->
+      IGEGA/BLUNT/NODEL/ABVIM
+    </Line>
+    <Line>
+      <!--Rwy29 KIDA4G-->
+      KIDAL/BLUNT
+    </Line>
+    <Line>
+      <!--Rwy29 LADI3G-->
+      LADIS/AKAMO/IDUBU
+    </Line>
+    <Line>
+      <!--Rwy29 MESI3G-->
+      MESIX/KABGO/ABVIM
+    </Line>
+    <Line>
+      <!--Rwy29 MOLG4G-->
+      MOLGI/CH739/DOVEM/CH429/HODDE
+    </Line>
+    <Line>
+      <!--Rwy29 PEAK4G-->
+      PEAKS/BLUNT
+    </Line>
+    <Line>
+      <!--Rwy29 PEHR3G-->
+      PEHRR/AKAMO
+    </Line>
+    <Line>
+      <!--Rwy29 REPA2G.LALAP-->
+      LALAP/CH789/REPAP
+    </Line>
+    <Line>
+      <!--Rwy29 REPA2G-->
+      REPAP/ABVIM
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>SUPSO</Point>
+      <Point>ABVIM</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>AVOCA</Point>
+      <Point>BISUP</Point>
+      <Point>CHARR</Point>
+      <Point>IDUBU</Point>
+      <Point>KABKA</Point>
+      <Point>BELEE</Point>
+      <Point>VANDA</Point>
+      <Point>DOPKI</Point>
+      <Point>HODDE</Point>
+      <Point>ELDAK</Point>
+      <Point>IGEGA</Point>
+      <Point>BLUNT</Point>
+      <Point>NODEL</Point>
+      <Point>KIDAL</Point>
+      <Point>LADIS</Point>
+      <Point>AKAMO</Point>
+      <Point>MESIX</Point>
+      <Point>KABGO</Point>
+      <Point>MOLGI</Point>
+      <Point>CH739</Point>
+      <Point>DOVEM</Point>
+      <Point>CH429</Point>
+      <Point>PEAKS</Point>
+      <Point>PEHRR</Point>
+      <Point>LALAP</Point>
+      <Point>CH789</Point>
+      <Point>REPAP</Point>
+    </Symbol>
+    <Label>
+      <Point>AVOCA</Point>
+      <Point>BELEE</Point>
+      <Point>DOPKI</Point>
+      <Point>ELDAK</Point>
+      <Point>IGEGA</Point>
+      <Point>KIDAL</Point>
+      <Point>LADIS</Point>
+      <Point>MESIX</Point>
+      <Point>MOLGI</Point>
+      <Point>PEAKS</Point>
+      <Point>PEHRR</Point>
+      <Point>REPAP</Point>
+      <Point>KABKA</Point>
+      <Point>VANDA</Point>
+      <Point>LALAP</Point>
+      <Point>SUPSO</Point>
+      <Point>ABVIM</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="29 RNP" Priority="0" Center="-43.494381+172.540883" CustomColourName="DrawProc">
+    <Symbol Type="HollowTriangle">
+      <Point>CH437</Point>
+      <Point>CH917</Point>
+      <Point>CH434</Point>
+      <Point>CH438</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="MalteseCross">
+      <Point>UBLES</Point>
+      <Point>VEKMU</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>ABVIM</Point>
+      <Point>SUPSO</Point>
+    </Symbol>
+    <Line>ABVIM/CH437/UBLES/CH917/CH29T</Line>
+    <Line>SUPSO/CH434/VEKMU/CH438/CH917</Line>
+  </Map>
+  <Map Type="System" Name="29 RNP Labels" Priority="1" Center="-43.494381+172.540883" CustomColourName="DrawProc">
+    <Label HasLeader="true">
+      <Point>UBLES</Point>
+      <Point>VEKMU</Point>
+      <Point>ABVIM</Point>
+      <Point>SUPSO</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="CH VFR" Priority="1" CustomColourName="DrawProc" Centre="-43.489444+172.534444">
+    <Symbol Type="HollowSquare">
+      <Point>ADDINGTON RACECOURSE</Point>
+      <Point>AMBERLEY BEACH</Point>
+      <Point>ASHLEY</Point>
+      <Point>AYLESBURY</Point>
+      <Point>BELFAST</Point>
+      <Point>BRIDGE</Point>
+      <Point>BURNHAM CAMP</Point>
+      <Point>BURNT HILL</Point>
+      <Point>CHERTSEY</Point>
+      <Point>CORINGA</Point>
+      <Point>CUST</Point>
+      <Point>DUNSANDEL</Point>
+      <Point>FLAGS</Point>
+      <Point>JARVIS</Point>
+      <Point>JELLIE PARK</Point>
+      <Point>KIRWEE</Point>
+      <Point>LANDFILL</Point>
+      <Point>LINCOLN</Point>
+      <Point>LOCHEND</Point>
+      <Point>LYTTELTON</Point>
+      <Point>MAIRANGI LAKE</Point>
+      <Point>MANDEVILLE</Point>
+      <Point>MINERS</Point>
+      <Point>MOTUNAU ISLAND</Point>
+      <Point>NORTHLANDS MALL</Point>
+      <Point>POND</Point>
+      <Point>PRINCESS MARGARET</Point>
+      <Point>PYLONS</Point>
+      <Point>RICCARTON RACECOURSE</Point>
+      <Point>RIVER JUNCTION</Point>
+      <Point>RUSSLEY</Point>
+      <Point>SEFTON CHIPMILL</Point>
+      <Point>SELWYN HUTS</Point>
+      <Point>SOUTHBROOK</Point>
+      <Point>SOUTHSHORE PENINSULA</Point>
+      <Point>SPENCER PARK</Point>
+      <Point>SPRINGBANK</Point>
+      <Point>SPRINGSTON</Point>
+      <Point>SUGARLOAF</Point>
+      <Point>SWANNANOA</Point>
+      <Point>TAI TAPU</Point>
+      <Point>THE PIER</Point>
+      <Point>WAIMAIRI</Point>
+      <Point>WATCHTOWER</Point>
+      <Point>WEST JUNCTION</Point>
+      <Point>WIGRAM</Point>
+      <Point>YALDHURST</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>ADDINGTON RACECOURSE</Point>
+      <Point>AMBERLEY BEACH</Point>
+      <Point>ASHLEY</Point>
+      <Point>AYLESBURY</Point>
+      <Point>BELFAST</Point>
+      <Point>BRIDGE</Point>
+      <Point>BURNHAM CAMP</Point>
+      <Point>BURNT HILL</Point>
+      <Point>CHERTSEY</Point>
+      <Point>CORINGA</Point>
+      <Point>CUST</Point>
+      <Point>DUNSANDEL</Point>
+      <Point>FLAGS</Point>
+      <Point>JARVIS</Point>
+      <Point>JELLIE PARK</Point>
+      <Point>KIRWEE</Point>
+      <Point>LANDFILL</Point>
+      <Point>LINCOLN</Point>
+      <Point>LOCHEND</Point>
+      <Point>LYTTELTON</Point>
+      <Point>MAIRANGI LAKE</Point>
+      <Point>MANDEVILLE</Point>
+      <Point>MINERS</Point>
+      <Point>MOTUNAU ISLAND</Point>
+      <Point>NORTHLANDS MALL</Point>
+      <Point>POND</Point>
+      <Point>PRINCESS MARGARET</Point>
+      <Point>PYLONS</Point>
+      <Point>RICCARTON RACECOURSE</Point>
+      <Point>RIVER JUNCTION</Point>
+      <Point>RUSSLEY</Point>
+      <Point>SEFTON CHIPMILL</Point>
+      <Point>SELWYN HUTS</Point>
+      <Point>SOUTHBROOK</Point>
+      <Point>SOUTHSHORE PENINSULA</Point>
+      <Point>SPENCER PARK</Point>
+      <Point>SPRINGBANK</Point>
+      <Point>SPRINGSTON</Point>
+      <Point>SUGARLOAF</Point>
+      <Point>SWANNANOA</Point>
+      <Point>TAI TAPU</Point>
+      <Point>THE PIER</Point>
+      <Point>WAIMAIRI</Point>
+      <Point>WATCHTOWER</Point>
+      <Point>WEST JUNCTION</Point>
+      <Point>WIGRAM</Point>
+      <Point>YALDHURST</Point>
+    </Label>
+    <Label HasLeader="True" LabelOrientation="NW">
+      <Point Name="29BRIDGE-ARR">-43.366667+172.375000</Point>
+      <Point Name="29NORTHLANDS-ARR">WAIMAIRI</Point>
+      <Point Name="29WIGRAM-ARR">LINCOLN</Point>
+      <Point Name="ADDINGTON-ARR">TAI TAPU</Point>
+      <Point Name="CORINGA-ARR">POND</Point>
+      <Point Name="ESTUARY-DEP">-43.516667+172.541667</Point>
+      <Point Name="JELLIE-ARR">SOUTHSHORE PENINSULA</Point>
+      <Point Name="LINCOLN-DEP">RICCARTON RACECOURSE</Point>
+      <Point Name="MANDEVILLE-DEP">BRIDGE</Point>
+      <Point Name="MINERS-ARR">MINERS</Point>
+      <Point Name="MINERS-DEP">-43.491667+172.491667</Point>
+      <Point Name="NORTHLANDS-ARR">THE PIER</Point>
+      <Point Name="PIER-DEP">-43.483333+172.591667</Point>
+      <Point Name="PYLONS-ARR">SWANNANOA</Point>
+      <Point Name="SWANNANOA-DEP">PYLONS</Point>
+      <Point Name="TAITAPU-DEP">ADDINGTON RACECOURSE</Point>
+    </Label>
+    <Label HasLeader="True" LabelOrientation="SE">
+      <Point Name="POND-DEP">-43.491667+172.491667</Point>
+      <Point Name="RICCARTON-ARR">LINCOLN</Point>
+      <Point Name="WAIMAIRI-ARR">WAIMAIRI</Point>
+      <Point Name="WAIMAIRI-DEP">-43.483333+172.591667</Point>
+    </Label>
+    <!--29BRIDGE-ARR-->
+    <Line Pattern="Dotted">
+      -43.366667+172.375000/BRIDGE
+    </Line>
+    <!--29NORTHLANDS-ARR-->
+    <Line Pattern="Dotted">
+      WAIMAIRI/NORTHLANDS MALL
+    </Line>
+    <!--29WIGRAM-ARR-->
+    <Line Pattern="Dotted">
+      LINCOLN/WIGRAM
+    </Line>
+    <!--ADDINGTON-ARR-->
+    <Line Pattern="Dotted">
+      TAI TAPU/ADDINGTON RACECOURSE/JELLIE PARK
+    </Line>
+    <!--CORINGA-ARR-->
+    <Line Pattern="Dotted">
+      POND/CORINGA
+    </Line>
+    <!--ESTUARY-DEP-->
+    <Line Pattern="Dotted">
+      -43.516667+172.541667/SOUTHSHORE PENINSULA
+    </Line>
+    <!--JELLIE-ARR-->
+    <Line Pattern="Dotted">
+      SOUTHSHORE PENINSULA/JELLIE PARK
+    </Line>
+    <!--LINCOLN-DEP-->
+    <Line Pattern="Dotted">
+      RICCARTON RACECOURSE/WIGRAM/LINCOLN
+    </Line>
+    <!--MANDEVILLE-DEP-->
+    <Line Pattern="Dotted">
+      BRIDGE/MANDEVILLE
+    </Line>
+    <!--MINERS-ARR-->
+    <Line Pattern="Dotted">
+      MINERS/CORINGA
+    </Line>
+    <!--MINERS-DEP-->
+    <Line Pattern="Dotted">
+      -43.491667+172.491667/MINERS
+    </Line>
+    <!--NORTHLANDS-ARR-->
+    <Line Pattern="Dotted">
+      THE PIER/NORTHLANDS MALL
+    </Line>
+    <!--PIER-DEP-->
+    <Line Pattern="Dotted">
+      -43.483333+172.591667/NORTHLANDS MALL/THE PIER
+    </Line>
+    <!--POND-DEP-->
+    <Line Pattern="Dotted">
+      -43.491667+172.491667/POND/-43.441667+172.291667
+    </Line>
+    <!--PYLONS-ARR-->
+    <Line Pattern="Dotted">
+      SWANNANOA/PYLONS
+    </Line>
+    <!--RICCARTON-ARR-->
+    <Line Pattern="Dotted">
+      LINCOLN/RICCARTON RACECOURSE
+    </Line>
+    <!--SWANNANOA-DEP-->
+    <Line Pattern="Dotted">
+      PYLONS/SWANNANOA
+    </Line>
+    <!--TAITAPU-DEP-->
+    <Line Pattern="Dotted">
+      ADDINGTON RACECOURSE/TAI TAPU
+    </Line>
+    <!--WAIMAIRI-ARR-->
+    <Line Pattern="Dotted">
+      WAIMAIRI/NORTHLANDS MALL
+    </Line>
+    <!--WAIMAIRI-DEP-->
+    <Line Pattern="Dotted">
+      -43.483333+172.591667/NORTHLANDS MALL/WAIMAIRI
+    </Line>
+  </Map>
 </Maps>
-
-<!-- 
-		<Line>
-		
-		</Line>
--->
-
-<!-- 
-<Map Type="System" Name="RWY 34 SIDs" Priority="2" CustomColourName="DrawProc" Centre="-411902.600+1744827.000">
-	
-</Map>
-
--->
-
-<!-- 
-  
-  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-432909.351+1723216.287">
-		<Line>
-		
-		</Line>      
-  </Map>
-
-
--->
