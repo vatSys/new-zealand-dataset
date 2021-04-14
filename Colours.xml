@@ -572,8 +572,8 @@
   <Colour id="Custom">
     <Use>Darker Coast to better distinguish between the Coast and Airspace borders.</Use>
     <Name>Coast</Name>
-    <R>21</R>
-    <G>25</G>
-    <B>25</B>
+    <R>24</R>
+    <G>30</G>
+    <B>30</B>
   </Colour>
 </Colours>
