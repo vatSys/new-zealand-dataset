@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="01 GNSS" Priority="1" Center="-42.466089+171.187217" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle">
+      <Point>GM483</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>ELPAM</Point>
+      <Point>PAKSA</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>AGRIP</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>PAROA</Point>
+    </Symbol>
+    <Line>PAROA/AGRIP/GM483/GM01T</Line>
+    <Line>ELPAM/PAROA</Line>
+    <Line>PAKSA/PAROA</Line>
+  </Map>
+  <Map Type="System" Name="01 GNSS Labels" Priority="1" Center="-42.466089+171.187217" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>ELPAM</Point>
+      <Point>PAKSA</Point>
+      <Point>AGRIP</Point>
+      <Point>PAROA</Point>
+    </Label>
+  </Map>
+</Maps>

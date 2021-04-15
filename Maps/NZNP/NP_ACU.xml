@@ -1,126 +1,470 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Maps>  
-	<Map Type="System" Name="RWY 05 STARs" Priority="2" CustomColourName="DrawProc" Centre="-390017.806+1741029.359">
-		<Line>
-			VAMSU/
-			ISPAG/
-			VISAD/
-			VARMA
-		</Line>
-		<Line>
-			VISAD/
-			DOVAT/
-			INGLE/
-			TUIHU/
-			IGDOT
-		</Line>
-		<Line>
-			INGLE/
-			ANDOM/
-			MANGA/
-			ANDOM/
-			SELTA
-		</Line>
-		<Line>
-			VELGA/
-			MUMOX/
-			RUPNU/
-			MUMOX/
-			NUTMI/
-			BEMLI/
-			VARMA
-		</Line>
-		<Line>
-			DOBBO/
-			BOKUL/
-			PEXUR/
-			VARMA
-		</Line>
-		<Line>
-			PEXUR/
-			BOKUL/
-			ATRUG/
-			HARVO
-		</Line>
-		<Line>
-			BOKUL/
-			LATIG/
-			UPDAL
-		</Line>
-		<Line>
-			NP/
-			BOKUL
-		</Line>        
+<Maps>
+  <Map Type="System2" Name="05 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-39.005644+174.183889">
+    <Line Pattern="Dashed">
+      <!--Rwy05 HARV2P-->
+      -39.005644+174.183889/-38.850556+174.207500/IGDIL/ATRUG/HARVO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05 SAVL2P-->
+      -39.005644+174.183889/SAVLO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05 SAVL2P.DAPNO-->
+      SAVLO/INGLE/ENVAG/TOKES/DAPNO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05 SAVL2P.HARVO-->
+      SAVLO/UPDAL/OSTOG/MOPMI/HARVO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05 SAVL2P.IGDOT-->
+      SAVLO/TUIHU/IGDOT
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05 SAVL2P.MANGA-->
+      INGLE/ANDOM/MANGA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05 SAVL2P.TUIHU-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05 SAVL2P.VAMSU-->
+      SAVLO/ISPAG/VAMSU
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>IGDIL</Point>
+      <Point>ATRUG</Point>
+      <Point>HARVO</Point>
+      <Point>SAVLO</Point>
+      <Point>INGLE</Point>
+      <Point>ENVAG</Point>
+      <Point>TOKES</Point>
+      <Point>DAPNO</Point>
+      <Point>UPDAL</Point>
+      <Point>OSTOG</Point>
+      <Point>MOPMI</Point>
+      <Point>TUIHU</Point>
+      <Point>IGDOT</Point>
+      <Point>ANDOM</Point>
+      <Point>MANGA</Point>
+      <Point>ISPAG</Point>
+      <Point>VAMSU</Point>
+    </Symbol>
+    <Label>
+      <Point>HARVO</Point>
+      <Point>SAVLO</Point>
+      <Point>DAPNO</Point>
+      <Point>IGDOT</Point>
+      <Point>MANGA</Point>
+      <Point>VAMSU</Point>
+    </Label>
   </Map>
-
-  <Map Type="System" Name="RWY 23 STARs" Priority="2" CustomColourName="DrawProc" Centre="-390017.806+1741029.359">
-		<Line>
-			VELGA/
-			MUMOX/
-			RUPNU/
-			MUMOX/
-			NUTMI/
-			VARMA/
-			LATIG/
-			PEXUR/
-		</Line>
-		<Line>
-			LATIG/
-			RITGI/
-			SUBRA/
-		</Line>
-		<Line>
-			DOBBO/
-			IPNAB/
-			OLMOT/
-			SUBRA/
-			UPDAL/
-			VANSA/
-			TUIHU/
-			SELTA/
-		</Line>
-		<Line>
-			VAMSU/
-			ISPAG/
-			UPDAL/
-			ATRUG/
-			HARVO
-		</Line>
-		<Line>
-			SELTA/
-			ANDOM/
-			VANSA/
-			LIGDO/
-			NP
-		</Line>
-		<Line>
-			UPDAL/
-			VANSA/
-			TUIHU/
-			MANGA/
-			TUIHU/
-			IGDOT
-		</Line>
-		<Line>
-			NP/
-			RITGI
-		</Line>
+  <Map Type="System2" Name="05 STARs" Priority="1" CustomColourName="ProcArr" Centre="-39.010447+174.170067">
+    <Line>
+      <!--Rwy05 MUMO2A.RUPNU-->
+      RUPNU/MUMOX
+    </Line>
+    <Line>
+      <!--Rwy05 MUMO2A.VELGA-->
+      VELGA/MUMOX
+    </Line>
+    <Line>
+      <!--Rwy05 MUMO2A-->
+      MUMOX/NUTMI/BEMLI/VARMA
+    </Line>
+    <Line>
+      <!--Rwy05 PEXU2A.DOBBO-->
+      DOBBO/PEXUR
+    </Line>
+    <Line>
+      <!--Rwy05 PEXU2A.HARVO-->
+      HARVO/ATRUG/BOKUL/PEXUR
+    </Line>
+    <Line>
+      <!--Rwy05 PEXU2A.NP-->
+      NP VOR/BOKUL
+    </Line>
+    <Line>
+      <!--Rwy05 PEXU2A.UPDAL-->
+      UPDAL/LATIG/BOKUL
+    </Line>
+    <Line>
+      <!--Rwy05 PEXU2A-->
+      PEXUR/VARMA
+    </Line>
+    <Line>
+      <!--Rwy05 VISA2A.IGDOT-->
+      IGDOT/TUIHU/INGLE/DOVAT/VISAD
+    </Line>
+    <Line>
+      <!--Rwy05 VISA2A.MANGA-->
+      MANGA/ANDOM/INGLE
+    </Line>
+    <Line>
+      <!--Rwy05 VISA2A.SELTA-->
+      SELTA/ANDOM
+    </Line>
+    <Line>
+      <!--Rwy05 VISA2A.VAMSU-->
+      VAMSU/ISPAG/VISAD
+    </Line>
+    <Line>
+      <!--Rwy05 VISA2A-->
+      VISAD/VARMA
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>VARMA</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>NP VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>RUPNU</Point>
+      <Point>MUMOX</Point>
+      <Point>VELGA</Point>
+      <Point>NUTMI</Point>
+      <Point>BEMLI</Point>
+      <Point>DOBBO</Point>
+      <Point>PEXUR</Point>
+      <Point>HARVO</Point>
+      <Point>ATRUG</Point>
+      <Point>BOKUL</Point>
+      <Point>UPDAL</Point>
+      <Point>LATIG</Point>
+      <Point>IGDOT</Point>
+      <Point>TUIHU</Point>
+      <Point>INGLE</Point>
+      <Point>DOVAT</Point>
+      <Point>VISAD</Point>
+      <Point>MANGA</Point>
+      <Point>ANDOM</Point>
+      <Point>SELTA</Point>
+      <Point>VAMSU</Point>
+      <Point>ISPAG</Point>
+    </Symbol>
+    <Label>
+      <Point>MUMOX</Point>
+      <Point>PEXUR</Point>
+      <Point>VISAD</Point>
+      <Point>RUPNU</Point>
+      <Point>VELGA</Point>
+      <Point>DOBBO</Point>
+      <Point>HARVO</Point>
+      <Point>NP VOR</Point>
+      <Point>UPDAL</Point>
+      <Point>IGDOT</Point>
+      <Point>MANGA</Point>
+      <Point>SELTA</Point>
+      <Point>VAMSU</Point>
+      <Point>VARMA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="05 GNSS" Priority="1" Center="-39.010447+174.170067" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="MalteseCross">
+      <Point>LUTUX</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>VARMA</Point>
+    </Symbol>
+    <Line>VARMA/LUTUX/NP05T</Line>
+  </Map>
+  <Map Type="System" Name="05 GNSS Labels" Priority="1" Center="-39.010447+174.170067" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>LUTUX</Point>
+      <Point>VARMA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="23 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-39.010447+174.170067">
+    <Line Pattern="Dashed">
+      <!--Rwy23 GUSU1Q-->
+      -39.010447+174.170067/GUSUR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23 GUSU1Q.DAPNO-->
+      GUSUR/DOVAT/DAPNO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23 GUSU1Q.HARVO-->
+      GUSUR/LIGDO/VANSA/TOMEP/HARVO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23 GUSU1Q.IGDOT-->
+      DOVAT/INGLE/TUIHU/IGDOT
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23 GUSU1Q.MANGA-->
+      INGLE/ANDOM/MANGA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23 GUSU1Q.RUPNU-->
+      GUSUR/NUTMI/MUMOX/RUPNU
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23 GUSU1Q.SELTA-->
+      ANDOM/SELTA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23 GUSU1Q.VAMSU-->
+      VANSA/ISPAG/VAMSU
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23 GUSU1Q.VELGA-->
+      MUMOX/VELGA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23 HARV2Q-->
+      -39.010447+174.170067/-39.025278+174.115000/IDMAT/SEGMI/RUVMO/UBSUK/HARVO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23 LATI1Q-->
+      -39.010447+174.170067/VARMA/PEXUR/BOKUL/LATIG
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23 LATI1Q.HARVO-->
+      LATIG/ATRUG/HARVO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23 LATI1Q.IGDOT-->
+      LATIG/TUIHU
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23 LATI1Q.MANGA-->
+      TUIHU/MANGA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23 LATI1Q.SELTA-->
+      TUIHU/SELTA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23 LATI1Q.VAMSU-->
+      LATIG/VANSA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23 SOUTH5-->
+      -39.010447+174.170067/NP VOR
+    </Line>
+    <Symbol Type="Circle">
+      <Point>NP VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>GUSUR</Point>
+      <Point>DOVAT</Point>
+      <Point>DAPNO</Point>
+      <Point>LIGDO</Point>
+      <Point>VANSA</Point>
+      <Point>TOMEP</Point>
+      <Point>HARVO</Point>
+      <Point>INGLE</Point>
+      <Point>TUIHU</Point>
+      <Point>IGDOT</Point>
+      <Point>ANDOM</Point>
+      <Point>MANGA</Point>
+      <Point>NUTMI</Point>
+      <Point>MUMOX</Point>
+      <Point>RUPNU</Point>
+      <Point>SELTA</Point>
+      <Point>ISPAG</Point>
+      <Point>VAMSU</Point>
+      <Point>VELGA</Point>
+      <Point>IDMAT</Point>
+      <Point>SEGMI</Point>
+      <Point>RUVMO</Point>
+      <Point>UBSUK</Point>
+      <Point>VARMA</Point>
+      <Point>PEXUR</Point>
+      <Point>BOKUL</Point>
+      <Point>LATIG</Point>
+      <Point>ATRUG</Point>
+    </Symbol>
+    <Label>
+      <Point>GUSUR</Point>
+      <Point>HARVO</Point>
+      <Point>LATIG</Point>
+      <Point>NP VOR</Point>
+      <Point>DAPNO</Point>
+      <Point>IGDOT</Point>
+      <Point>MANGA</Point>
+      <Point>RUPNU</Point>
+      <Point>SELTA</Point>
+      <Point>VAMSU</Point>
+      <Point>VELGA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="23 STARs" Priority="1" CustomColourName="ProcArr" Centre="-39.005644+174.183889">
+    <Line>
+      <!--Rwy23 HARV2B-->
+      HARVO/ATRUG/UPDAL
+    </Line>
+    <Line>
+      <!--Rwy23 NP2.IGDOT-->
+      IGDOT/NP VOR
+    </Line>
+    <Line>
+      <!--Rwy23 NP2.RUPNU-->
+      RUPNU/NP VOR
+    </Line>
+    <Line>
+      <!--Rwy23 NP2.SELTA-->
+      SELTA/NP VOR
+    </Line>
+    <Line>
+      <!--Rwy23 NP2-->
+      NP VOR/-38.881839+174.324865
+    </Line>
+    <Line>
+      <!--Rwy23 SELT2B-->
+      SELTA/TUIHU/VANSA/UPDAL
+    </Line>
+    <Line>
+      <!--Rwy23 SUBR3B.DOBBO-->
+      DOBBO/IPNAB/OLMOT/SUBRA
+    </Line>
+    <Line>
+      <!--Rwy23 SUBR3B.NP-->
+      NP VOR/RITGI/SUBRA
+    </Line>
+    <Line>
+      <!--Rwy23 SUBR3B.PEXUR-->
+      PEXUR/LATIG/RITGI
+    </Line>
+    <Line>
+      <!--Rwy23 SUBR3B.RUPNU-->
+      RUPNU/MUMOX/NUTMI/VARMA/LATIG
+    </Line>
+    <Line>
+      <!--Rwy23 SUBR3B.VELGA-->
+      VELGA/MUMOX
+    </Line>
+    <Line>
+      <!--Rwy23 SUBR3B-->
+      SUBRA/UPDAL
+    </Line>
+    <Line>
+      <!--Rwy23 VAMS2B-->
+      VAMSU/ISPAG/UPDAL
+    </Line>
+    <Line>
+      <!--Rwy23 VANS2B.IGDOT-->
+      IGDOT/TUIHU/VANSA
+    </Line>
+    <Line>
+      <!--Rwy23 VANS2B.MANGA-->
+      MANGA/TUIHU
+    </Line>
+    <Line>
+      <!--Rwy23 VANS2B.NP-->
+      NP VOR/LIGDO/VANSA
+    </Line>
+    <Line>
+      <!--Rwy23 VANS2B.SELTA-->
+      SELTA/ANDOM/VANSA
+    </Line>
+    <Line>
+      <!--Rwy23 VANS2B-->
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>UPDAL</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>NP VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>HARVO</Point>
+      <Point>ATRUG</Point>
+      <Point>IGDOT</Point>
+      <Point>RUPNU</Point>
+      <Point>SELTA</Point>
+      <Point>TUIHU</Point>
+      <Point>VANSA</Point>
+      <Point>DOBBO</Point>
+      <Point>IPNAB</Point>
+      <Point>OLMOT</Point>
+      <Point>SUBRA</Point>
+      <Point>RITGI</Point>
+      <Point>PEXUR</Point>
+      <Point>LATIG</Point>
+      <Point>MUMOX</Point>
+      <Point>NUTMI</Point>
+      <Point>VARMA</Point>
+      <Point>VELGA</Point>
+      <Point>VAMSU</Point>
+      <Point>ISPAG</Point>
+      <Point>MANGA</Point>
+      <Point>LIGDO</Point>
+      <Point>ANDOM</Point>
+    </Symbol>
+    <Label>
+      <Point>HARVO</Point>
+      <Point>NP VOR</Point>
+      <Point>SELTA</Point>
+      <Point>SUBRA</Point>
+      <Point>VAMSU</Point>
+      <Point>VANSA</Point>
+      <Point>IGDOT</Point>
+      <Point>RUPNU</Point>
+      <Point>DOBBO</Point>
+      <Point>PEXUR</Point>
+      <Point>VELGA</Point>
+      <Point>MANGA</Point>
+      <Point>UPDAL</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="23 GNSS" Priority="1" Center="-39.005644+174.183889" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="MalteseCross">
+      <Point>DOVED</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>UPDAL</Point>
+    </Symbol>
+    <Line>UPDAL/DOVED/NP23T</Line>
+  </Map>
+  <Map Type="System" Name="23 GNSS Labels" Priority="1" Center="-39.005644+174.183889" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>DOVED</Point>
+      <Point>UPDAL</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-39.008611+174.179167">
+    <Symbol Type="HollowSquare">
+      <Point>BELL BLOCK OVERPASS</Point>
+      <Point>EGMONT VILLAGE</Point>
+      <Point>GERMAN HILL</Point>
+      <Point>LEPPERTON</Point>
+      <Point>OAKURA</Point>
+      <Point>SUGAR LOAF ISLAND</Point>
+      <Point>TIKORANGI</Point>
+      <Point>URENUI</Point>
+      <Point>WAITARA VALLEY PLANT</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>BELL BLOCK OVERPASS</Point>
+      <Point>EGMONT VILLAGE</Point>
+      <Point>GERMAN HILL</Point>
+      <Point>LEPPERTON</Point>
+      <Point>OAKURA</Point>
+      <Point>SUGAR LOAF ISLAND</Point>
+      <Point>TIKORANGI</Point>
+      <Point>URENUI</Point>
+      <Point>WAITARA VALLEY PLANT</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="VFRProc" Priority="1" CustomColourName="VFRPoint" Centre="-39.008611+174.179167">
+    <Label HasLeader="True" LabelOrientation="NW">
+      <Point Name="LEPPERTON_DEP">NP VOR</Point>
+      <Point Name="WAITARA-VLY_ARR">URENUI</Point>
+    </Label>
+    <!--LEPPERTON_DEP-->
+    <Line Pattern="Dotted">
+      NP VOR/LEPPERTON
+    </Line>
+    <!--WAITARA-VLY_ARR-->
+    <Line Pattern="Dotted">
+      URENUI/WAITARA VALLEY PLANT
+    </Line>
   </Map>
 </Maps>
-
-<!-- 
-		<Line>
-		
-		</Line>
--->
-
-<!-- 
-  
-  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-390017.806+1741029.359">
-		<Line>
-		
-		</Line>      
-  </Map>
-
-
--->

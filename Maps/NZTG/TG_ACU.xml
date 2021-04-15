@@ -1,73 +1,492 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Maps>  
-	<Map Type="System" Name="RWY 07 STARs" Priority="2" CustomColourName="DrawProc" Centre="-374018.998+1761146.000"> 
-		<Line>
-			BIKOT/
-			BERPI/
-			RUSTA/
-			KIMAR/
-			APUNO/
-			URBUX
-		</Line>
-		<Line>
-			OLDON/
-			BATAT/
-			MORTA/
-			TODAN/
-			PIBOV
-		</Line>
-		<Line>
-			FALLS/
-			VIDOB/
-			MORTA/
-			OROPI/
-			MORTA/
-			GOBUK
-		</Line>
+<Maps>
+  <Map Type="System2" Name="07 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-37.673806+176.209056">
+    <Line Pattern="Dashed">
+      <!--Rwy07 BELET3-->
+      -37.673806+176.209056/-37.677222+176.288889/BELET
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy07 TODA2P-->
+      -37.673806+176.209056/PATMO/TODAN
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy07 TODA2P.FALLS-->
+      TODAN/FALLS
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy07 TODA2P.GOBUK-->
+      TODAN/GOBUK
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy07 TODA2P.ODOLO-->
+      TODAN/ODOLO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy07 TODA2P.OLDON-->
+      TODAN/OLDON
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy07 TODA2P.PIBOV-->
+      TODAN/PIBOV
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy07 UBSE2P-->
+      PATMO/UBSET
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy07 UBSE2P.NOBAR-->
+      UBSET/NOBAR
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>BELET</Point>
+      <Point>PATMO</Point>
+      <Point>TODAN</Point>
+      <Point>FALLS</Point>
+      <Point>GOBUK</Point>
+      <Point>ODOLO</Point>
+      <Point>OLDON</Point>
+      <Point>PIBOV</Point>
+      <Point>UBSET</Point>
+      <Point>NOBAR</Point>
+    </Symbol>
+    <Label>
+      <Point>BELET</Point>
+      <Point>TODAN</Point>
+      <Point>UBSET</Point>
+      <Point>FALLS</Point>
+      <Point>GOBUK</Point>
+      <Point>ODOLO</Point>
+      <Point>OLDON</Point>
+      <Point>PIBOV</Point>
+      <Point>NOBAR</Point>
+    </Label>
   </Map>
-
-	<Map Type="System" Name="RWY 25 STARs" Priority="2" CustomColourName="DrawProc" Centre="-374018.998+1761146.000">
-		<Line>
-			BIKOT/
-			BERPI/
-			RUSTA/
-			KIMAR/
-			APUNO/
-			URBUX
-		</Line>
-		<Line>
-			RUSTA/
-			UBSET
-		</Line>
-		<Line>
-			OLDON/
-			LINPI/
-			TODAN/
-			PIBOV/
-			TODAN/
-			GOBUK
-		</Line>
-		<Line>
-			OROPI/
-			TODAN/
-			FALLS
-		</Line>
+  <Map Type="System2" Name="07 STARs" Priority="1" CustomColourName="ProcArr" Centre="-37.672750+176.188389">
+    <Line>
+      <!--Rwy07 BIKO1A-->
+      BIKOT/BERPI/RUSTA
+    </Line>
+    <Line>
+      <!--Rwy07 FALS1A-->
+      FALLS/VIDOB/MORTA
+    </Line>
+    <Line>
+      <!--Rwy07 GOBU1A-->
+      GOBUK/MORTA
+    </Line>
+    <Line>
+      <!--Rwy07 OLDO1A-->
+      OLDON/BATAT/MORTA
+    </Line>
+    <Line>
+      <!--Rwy07 OROP1A-->
+      OROPI/MORTA
+    </Line>
+    <Line>
+      <!--Rwy07 PIBO1A-->
+      PIBOV/TODAN/MORTA
+    </Line>
+    <Line>
+      <!--Rwy07 URBU1A-->
+      URBUX/APUNO/KIMAR/RUSTA
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>RUSTA</Point>
+      <Point>MORTA</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>BIKOT</Point>
+      <Point>BERPI</Point>
+      <Point>FALLS</Point>
+      <Point>VIDOB</Point>
+      <Point>GOBUK</Point>
+      <Point>OLDON</Point>
+      <Point>BATAT</Point>
+      <Point>OROPI</Point>
+      <Point>PIBOV</Point>
+      <Point>TODAN</Point>
+      <Point>URBUX</Point>
+      <Point>APUNO</Point>
+      <Point>KIMAR</Point>
+    </Symbol>
+    <Label>
+      <Point>BIKOT</Point>
+      <Point>FALLS</Point>
+      <Point>GOBUK</Point>
+      <Point>OLDON</Point>
+      <Point>OROPI</Point>
+      <Point>PIBOV</Point>
+      <Point>URBUX</Point>
+      <Point>RUSTA</Point>
+      <Point>MORTA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="07 GNSS" Priority="1" Center="-37.672750+176.188389" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>MORTA</Point>
+      <Point>RUSTA</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>RIPSA</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>TENIX</Point>
+    </Symbol>
+    <Line>TENIX/RIPSA/TG07T</Line>
+    <Line>MORTA/TENIX</Line>
+    <Line>RUSTA/TENIX</Line>
+  </Map>
+  <Map Type="System" Name="07 GNSS Labels" Priority="1" Center="-37.672750+176.188389" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>MORTA</Point>
+      <Point>RUSTA</Point>
+      <Point>RIPSA</Point>
+      <Point>TENIX</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="25 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-37.672750+176.188389">
+    <Line Pattern="Dashed">
+      <!--Rwy25 DOTAR3-->
+      -37.672750+176.188389/-37.668333+176.112778/DOTAR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy25 MORT2R-->
+      -37.672750+176.188389/TENIX/MORTA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy25 MORT2R.FALLS-->
+      MORTA/FALLS
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy25 MORT2R.GOBUK-->
+      MORTA/GOBUK
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy25 MORT2R.ODOLO-->
+      MORTA/ODOLO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy25 MORT2R.OLDON-->
+      MORTA/BATAT/OLDON
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy25 MORT2R.PIBOV-->
+      MORTA/TODAN/PIBOV
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy25 RUST2R-->
+      TENIX/RUSTA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy25 RUST2R.NOBAR-->
+      RUSTA/NOBAR
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>DOTAR</Point>
+      <Point>TENIX</Point>
+      <Point>MORTA</Point>
+      <Point>FALLS</Point>
+      <Point>GOBUK</Point>
+      <Point>ODOLO</Point>
+      <Point>BATAT</Point>
+      <Point>OLDON</Point>
+      <Point>TODAN</Point>
+      <Point>PIBOV</Point>
+      <Point>RUSTA</Point>
+      <Point>NOBAR</Point>
+    </Symbol>
+    <Label>
+      <Point>DOTAR</Point>
+      <Point>MORTA</Point>
+      <Point>RUSTA</Point>
+      <Point>FALLS</Point>
+      <Point>GOBUK</Point>
+      <Point>ODOLO</Point>
+      <Point>OLDON</Point>
+      <Point>PIBOV</Point>
+      <Point>NOBAR</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="25 STARs" Priority="1" CustomColourName="ProcArr" Centre="-37.673806+176.209056">
+    <Line>
+      <!--Rwy25 BIKO1B-->
+      BIKOT/BERPI/RUSTA/UBSET
+    </Line>
+    <Line>
+      <!--Rwy25 FALS1B-->
+      FALLS/RUMRA/TODAN
+    </Line>
+    <Line>
+      <!--Rwy25 GOBU1B-->
+      GOBUK/TODAN
+    </Line>
+    <Line>
+      <!--Rwy25 OLDO1B-->
+      OLDON/LINPI/TODAN
+    </Line>
+    <Line>
+      <!--Rwy25 OROP1B-->
+      OROPI/TODAN
+    </Line>
+    <Line>
+      <!--Rwy25 PIBO1B-->
+      PIBOV/TODAN
+    </Line>
+    <Line>
+      <!--Rwy25 URBU1B-->
+      URBUX/APUNO/KIMAR/RUSTA
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>UBSET</Point>
+      <Point>TODAN</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>BIKOT</Point>
+      <Point>BERPI</Point>
+      <Point>RUSTA</Point>
+      <Point>FALLS</Point>
+      <Point>RUMRA</Point>
+      <Point>GOBUK</Point>
+      <Point>OLDON</Point>
+      <Point>LINPI</Point>
+      <Point>OROPI</Point>
+      <Point>PIBOV</Point>
+      <Point>URBUX</Point>
+      <Point>APUNO</Point>
+      <Point>KIMAR</Point>
+    </Symbol>
+    <Label>
+      <Point>BIKOT</Point>
+      <Point>FALLS</Point>
+      <Point>GOBUK</Point>
+      <Point>OLDON</Point>
+      <Point>OROPI</Point>
+      <Point>PIBOV</Point>
+      <Point>URBUX</Point>
+      <Point>UBSET</Point>
+      <Point>TODAN</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="25 GNSS" Priority="1" Center="-37.673806+176.209056" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>TODAN</Point>
+      <Point>UBSET</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>UKDAS</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>PATMO</Point>
+    </Symbol>
+    <Line>PATMO/UKDAS/TG25T</Line>
+    <Line>TODAN/PATMO</Line>
+    <Line>UBSET/PATMO</Line>
+  </Map>
+  <Map Type="System" Name="25 GNSS Labels" Priority="1" Center="-37.673806+176.209056" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>TODAN</Point>
+      <Point>UBSET</Point>
+      <Point>UKDAS</Point>
+      <Point>PATMO</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-37.671944+176.196111">
+    <Symbol Type="HollowSquare">
+      <Point>ATHENREE</Point>
+      <Point>BEACH MOTOR CAMP</Point>
+      <Point>BLUE GUM BAY</Point>
+      <Point>CAMBRIDGE</Point>
+      <Point>EAST JUNCTION</Point>
+      <Point>GORDONTON</Point>
+      <Point>GREEN LAKE</Point>
+      <Point>HAMILTON LAKE</Point>
+      <Point>HAMURANA</Point>
+      <Point>HAPARANGI</Point>
+      <Point>HAUTAPU</Point>
+      <Point>HINEHOPU</Point>
+      <Point>HINUERA</Point>
+      <Point>HOROTIU</Point>
+      <Point>HUNTERS CREEK</Point>
+      <Point>HUNTLY</Point>
+      <Point>KAHAROA</Point>
+      <Point>KAINGAROA</Point>
+      <Point>KAREWA ISLAND</Point>
+      <Point>KATIKATI</Point>
+      <Point>KAWAHA POINT</Point>
+      <Point>KAWERAU VILLAGE</Point>
+      <Point>KIHIKIHI</Point>
+      <Point>LAKE ROTOKAWAU</Point>
+      <Point>LAKE WAIKARE</Point>
+      <Point>MAKETU</Point>
+      <Point>MAMAKU</Point>
+      <Point>MANAWARU</Point>
+      <Point>MATANGI</Point>
+      <Point>MOKOIA ISLAND</Point>
+      <Point>MORRINSVILLE</Point>
+      <Point>MOUNT BALDY</Point>
+      <Point>MOUNT HARBOUR ENTRANCE</Point>
+      <Point>MOUNT RURU</Point>
+      <Point>MOUNT TARAWERA</Point>
+      <Point>MYSTERY CREEK</Point>
+      <Point>NGAHINAPOURI</Point>
+      <Point>NGAKURU</Point>
+      <Point>NGATEA</Point>
+      <Point>NGONGOTAHA</Point>
+      <Point>OHAUPO</Point>
+      <Point>OMOKOROA</Point>
+      <Point>OXIDATION PONDS</Point>
+      <Point>PAEROA</Point>
+      <Point>PUKEPOTO</Point>
+      <Point>RACECOURSE</Point>
+      <Point>RUAHIHI</Point>
+      <Point>RUKUHIA</Point>
+      <Point>SCOTSMANS VALLEY</Point>
+      <Point>SHOWGROUNDS</Point>
+      <Point>SPORTS GROUND</Point>
+      <Point>ST PETERS SCHOOL</Point>
+      <Point>TE AWAMUTU</Point>
+      <Point>TE POI</Point>
+      <Point>TE PUKE</Point>
+      <Point>TE PUNA</Point>
+      <Point>TE RAPA</Point>
+      <Point>TEMPLE VIEW</Point>
+      <Point>TIRAU</Point>
+      <Point>TOKOROA</Point>
+      <Point>TUNNEL</Point>
+      <Point>WAIPA SAWMILL</Point>
+      <Point>WAITOA</Point>
+      <Point>WELCOME BAY</Point>
+      <Point>WHANGAMATA</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>ATHENREE</Point>
+      <Point>BEACH MOTOR CAMP</Point>
+      <Point>BLUE GUM BAY</Point>
+      <Point>CAMBRIDGE</Point>
+      <Point>EAST JUNCTION</Point>
+      <Point>GORDONTON</Point>
+      <Point>GREEN LAKE</Point>
+      <Point>HAMILTON LAKE</Point>
+      <Point>HAMURANA</Point>
+      <Point>HAPARANGI</Point>
+      <Point>HAUTAPU</Point>
+      <Point>HINEHOPU</Point>
+      <Point>HINUERA</Point>
+      <Point>HOROTIU</Point>
+      <Point>HUNTERS CREEK</Point>
+      <Point>HUNTLY</Point>
+      <Point>KAHAROA</Point>
+      <Point>KAINGAROA</Point>
+      <Point>KAREWA ISLAND</Point>
+      <Point>KATIKATI</Point>
+      <Point>KAWAHA POINT</Point>
+      <Point>KAWERAU VILLAGE</Point>
+      <Point>KIHIKIHI</Point>
+      <Point>LAKE ROTOKAWAU</Point>
+      <Point>LAKE WAIKARE</Point>
+      <Point>MAKETU</Point>
+      <Point>MAMAKU</Point>
+      <Point>MANAWARU</Point>
+      <Point>MATANGI</Point>
+      <Point>MOKOIA ISLAND</Point>
+      <Point>MORRINSVILLE</Point>
+      <Point>MOUNT BALDY</Point>
+      <Point>MOUNT HARBOUR ENTRANCE</Point>
+      <Point>MOUNT RURU</Point>
+      <Point>MOUNT TARAWERA</Point>
+      <Point>MYSTERY CREEK</Point>
+      <Point>NGAHINAPOURI</Point>
+      <Point>NGAKURU</Point>
+      <Point>NGATEA</Point>
+      <Point>NGONGOTAHA</Point>
+      <Point>OHAUPO</Point>
+      <Point>OMOKOROA</Point>
+      <Point>OXIDATION PONDS</Point>
+      <Point>PAEROA</Point>
+      <Point>PUKEPOTO</Point>
+      <Point>RACECOURSE</Point>
+      <Point>RUAHIHI</Point>
+      <Point>RUKUHIA</Point>
+      <Point>SCOTSMANS VALLEY</Point>
+      <Point>SHOWGROUNDS</Point>
+      <Point>SPORTS GROUND</Point>
+      <Point>ST PETERS SCHOOL</Point>
+      <Point>TE AWAMUTU</Point>
+      <Point>TE POI</Point>
+      <Point>TE PUKE</Point>
+      <Point>TE PUNA</Point>
+      <Point>TE RAPA</Point>
+      <Point>TEMPLE VIEW</Point>
+      <Point>TIRAU</Point>
+      <Point>TOKOROA</Point>
+      <Point>TUNNEL</Point>
+      <Point>WAIPA SAWMILL</Point>
+      <Point>WAITOA</Point>
+      <Point>WELCOME BAY</Point>
+      <Point>WHANGAMATA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="VFRProc" Priority="1" CustomColourName="VFRPoint" Centre="-37.671944+176.196111">
+    <Label HasLeader="True" LabelOrientation="NW">
+      <Point Name="07BALDY_DEP">-37.673611+176.232500</Point>
+      <Point Name="07NW_ARR">BLUE GUM BAY</Point>
+      <Point Name="25HOSPITAL_DEP">-37.671111+176.165556</Point>
+      <Point Name="25NW_ARR">-37.524722+176.056944</Point>
+      <Point Name="SE_ARR">MAKETU</Point>
+      <Point Name="SW_ARR">RUAHIHI</Point>
+      <Point Name="S_ARR">-37.801944+176.269167</Point>
+    </Label>
+    <Label HasLeader="True" LabelOrientation="SE">
+      <Point Name="07EAST_DEP">-37.673611+176.232500</Point>
+      <Point Name="07MAIN-BEACH_DEP">-37.673611+176.232500</Point>
+      <Point Name="25HUNT-CRK_DEP">-37.671111+176.165556</Point>
+      <Point Name="25TE-PUKE_DEP">-37.671111+176.165556</Point>
+    </Label>
+    <!--07BALDY_DEP-->
+    <Line Pattern="Dotted">
+      -37.673611+176.232500/MOUNT BALDY
+    </Line>
+    <!--07EAST_DEP-->
+    <Line Pattern="Dotted">
+      -37.673611+176.232500/-37.723611+176.367222
+    </Line>
+    <!--07MAIN-BEACH_DEP-->
+    <Line Pattern="Dotted">
+      -37.673611+176.232500/-37.660833+176.237500/-37.554167+176.081944
+    </Line>
+    <!--07NW_ARR-->
+    <Line Pattern="Dotted">
+      BLUE GUM BAY/HUNTERS CREEK
+    </Line>
+    <!--25HOSPITAL_DEP-->
+    <Line Pattern="Dotted">
+      -37.671111+176.165556/RACECOURSE
+    </Line>
+    <!--25HUNT-CRK_DEP-->
+    <Line Pattern="Dotted">
+      -37.671111+176.165556/HUNTERS CREEK
+    </Line>
+    <!--25NW_ARR-->
+    <Line Pattern="Dotted">
+      -37.524722+176.056944/-37.608889+176.137500/-37.618056+176.167778
+    </Line>
+    <!--25TE-PUKE_DEP-->
+    <Line Pattern="Dotted">
+      -37.671111+176.165556/-37.691111+176.159167/-37.708056+176.243611/TE PUKE
+    </Line>
+    <!--SE_ARR-->
+    <Line Pattern="Dotted">
+      MAKETU/MOUNT BALDY
+    </Line>
+    <!--SW_ARR-->
+    <Line Pattern="Dotted">
+      RUAHIHI/RACECOURSE
+    </Line>
+    <!--S_ARR-->
+    <Line Pattern="Dotted">
+      -37.801944+176.269167/-37.748333+176.173056
+    </Line>
   </Map>
 </Maps>
-
-<!-- 
-		<Line>
-		
-		</Line>
--->
-
-<!-- 
-  
-  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-374018.998+1761146.000">
-		<Line>
-		
-		</Line>      
-  </Map>
-
-
--->
