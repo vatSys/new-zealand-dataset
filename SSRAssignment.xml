@@ -11,6 +11,14 @@
     </Codes>
   </Bin>
 
+
+  <!-- Controlled AD ccts -->
+  <Bin>
+    <Rule FlightRule="V" />
+    <Rule Remarks="(circuits|cct|pattern)" />
+    <Codes>2200</Codes>
+  </Bin>
+
   <!-- VFR Flights -->
   <Bin>
     <Rule FlightRule="V"/>
