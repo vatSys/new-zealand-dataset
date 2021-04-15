@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="18 GNSS" Priority="1" Center="-44.961850+171.085172" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="MalteseCross">
+      <Point>-44.887389+171.137850</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>PAMOA</Point>
+    </Symbol>
+    <Line>PAMOA/-44.887389+171.137850/OU18T</Line>
+  </Map>
+  <Map Type="System" Name="18 GNSS Labels" Priority="1" Center="-44.961850+171.085172" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>PAMOA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="36 GNSS" Priority="1" Center="-44.972167+171.077861" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="MalteseCross">
+      <Point>-45.046594+171.025025</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>ORBEL</Point>
+    </Symbol>
+    <Line>ORBEL/-45.046594+171.025025/OU36T</Line>
+  </Map>
+  <Map Type="System" Name="36 GNSS Labels" Priority="1" Center="-44.972167+171.077861" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>ORBEL</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-44.970000+171.081667">
+    <Symbol Type="HollowSquare">
+      <Point>PALMERSTON</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>PALMERSTON</Point>
+    </Label>
+  </Map>
+</Maps>

@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="03 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-37.027044+174.979333">
+    <Line Pattern="Dashed">
+      <!--Rwy03 PATG2Q-->
+      -37.027044+174.979333/PATGA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy03 PATG2Q.SATLA-->
+      PATGA/URDOR/SATLA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy03 PATG2Q.SY-->
+      PATGA/SY NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy03 PATG2Q.UPLIN-->
+      PATGA/VIBAG/UPLIN
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy03 SY1Q-->
+      -37.027044+174.979333/-36.982500+175.081667/SY NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy03 SY1R-->
+      -37.027044+174.979333/HUNUA/SY NDB
+    </Line>
+    <Symbol Type="Circle">
+      <Point>SY NDB</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>PATGA</Point>
+      <Point>URDOR</Point>
+      <Point>SATLA</Point>
+      <Point>VIBAG</Point>
+      <Point>UPLIN</Point>
+      <Point>HUNUA</Point>
+    </Symbol>
+    <Label>
+      <Point>PATGA</Point>
+      <Point>SY NDB</Point>
+      <Point>SATLA</Point>
+      <Point>UPLIN</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="03 GNSS" Priority="1" Center="-37.034575+174.969758" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle">
+      <Point>UBKEL</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>GROVE</Point>
+      <Point>WI NDB</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>AR409</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>KINGS</Point>
+    </Symbol>
+    <Line>KINGS/UBKEL/AR409/AR03T</Line>
+    <Line>GROVE/KINGS</Line>
+    <Line>WI NDB/KINGS</Line>
+  </Map>
+  <Map Type="System" Name="03 GNSS Labels" Priority="1" Center="-37.034575+174.969758" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>GROVE</Point>
+      <Point>WI NDB</Point>
+      <Point>AR409</Point>
+      <Point>KINGS</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="21 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-37.034575+174.969758">
+    <Line Pattern="Dashed">
+      <!--Rwy21 ADNO2P-->
+      -37.034575+174.969758/ADNOG
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy21 ADNO2P.FIRTH-->
+      ADNOG/MOLNO/NOLEG/FIRTH
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy21 ADNO2P.SY-->
+      MOLNO/SY NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy21 ADNO2P.WI-->
+      ADNOG/WI NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy21 SY1P-->
+      -37.034575+174.969758/-37.105833+174.916944/SY NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy21 SY1R-->
+      -37.034575+174.969758/HUNUA/SY NDB
+    </Line>
+    <Symbol Type="Circle">
+      <Point>SY NDB</Point>
+      <Point>WI NDB</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>ADNOG</Point>
+      <Point>MOLNO</Point>
+      <Point>NOLEG</Point>
+      <Point>FIRTH</Point>
+      <Point>HUNUA</Point>
+    </Symbol>
+    <Label>
+      <Point>ADNOG</Point>
+      <Point>SY NDB</Point>
+      <Point>FIRTH</Point>
+      <Point>WI NDB</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="21 GNSS" Priority="1" Center="-37.027044+174.979333" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle">
+      <Point>SARVI</Point>
+      <Point>EMTUB</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>FIRTH</Point>
+      <Point>SATLA</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>AR401</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>EGURU</Point>
+      <Point>ORERE</Point>
+    </Symbol>
+    <Line>EGURU/SARVI/AR401/AR21T</Line>
+    <Line>FIRTH/EGURU</Line>
+    <Line>SATLA/EGURU</Line>
+    <Line>ORERE/EMTUB/AR401</Line>
+    <Line>FIRTH/ORERE</Line>
+    <Line>SATLA/ORERE</Line>
+  </Map>
+  <Map Type="System" Name="21 GNSS Labels" Priority="1" Center="-37.027044+174.979333" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>FIRTH</Point>
+      <Point>SATLA</Point>
+      <Point>AR401</Point>
+      <Point>EGURU</Point>
+      <Point>ORERE</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="07 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-37.029709+174.976700">
+    <Line Pattern="Dashed">
+      <!--Rwy07 SY1R-->
+      -37.029709+174.976700/HUNUA/SY NDB
+    </Line>
+    <Symbol Type="Circle">
+      <Point>SY NDB</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>HUNUA</Point>
+    </Symbol>
+    <Label>
+      <Point>SY NDB</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="25 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-37.029709+174.969955">
+    <Line Pattern="Dashed">
+      <!--Rwy25 SY1R-->
+      -37.029709+174.969955/HUNUA/SY NDB
+    </Line>
+    <Symbol Type="Circle">
+      <Point>SY NDB</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>HUNUA</Point>
+    </Symbol>
+    <Label>
+      <Point>SY NDB</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-37.029722+174.973333">
+    <Symbol Type="HollowSquare">
+      <Point>AVONDALE RACECOURSE</Point>
+      <Point>BLOCKHOUSE BAY</Point>
+      <Point>BROOKBY</Point>
+      <Point>CABLEWAY</Point>
+      <Point>CAPE RODNEY</Point>
+      <Point>CLARKS BEACH</Point>
+      <Point>CLENDON PARK</Point>
+      <Point>CLEVEDON</Point>
+      <Point>CORNWALLIS</Point>
+      <Point>COROMANDEL TOWN</Point>
+      <Point>DRURY</Point>
+      <Point>GLENBROOK</Point>
+      <Point>GORDONTON</Point>
+      <Point>GREEN SHED</Point>
+      <Point>HAMILTON LAKE</Point>
+      <Point>HELENSVILLE</Point>
+      <Point>HINGAIA BRIDGE</Point>
+      <Point>HOROTIU</Point>
+      <Point>HOTEL DU VIN</Point>
+      <Point>HOWICK</Point>
+      <Point>HUNTLY</Point>
+      <Point>HUNUA</Point>
+      <Point>KARAKA</Point>
+      <Point>KAWAKAWA BAY</Point>
+      <Point>KINGSEAT</Point>
+      <Point>LAKE PUPUKE</Point>
+      <Point>LAKE WAIKARE</Point>
+      <Point>LPG TERMINAL</Point>
+      <Point>MANGERE BRIDGE</Point>
+      <Point>MANGERE TOWN</Point>
+      <Point>MANUKAU HEADS</Point>
+      <Point>MARAMARUA</Point>
+      <Point>MCLAUGHLINS MOUNTAIN</Point>
+      <Point>MEREMERE</Point>
+      <Point>MORRINSVILLE</Point>
+      <Point>MUSICK POINT</Point>
+      <Point>NESS VALLEY</Point>
+      <Point>NGATEA</Point>
+      <Point>NORTH HEAD</Point>
+      <Point>OKURA RIVER MOUTH</Point>
+      <Point>ONE TREE HILL</Point>
+      <Point>OREWA</Point>
+      <Point>PAEROA</Point>
+      <Point>PAKURANGA TOWN</Point>
+      <Point>PANMURE</Point>
+      <Point>PAPAKURA</Point>
+      <Point>POINT CHEVALIER</Point>
+      <Point>PUKETUTU ISLAND</Point>
+      <Point>QUARRY LAKE</Point>
+      <Point>RED HILL</Point>
+      <Point>SEAGROVE</Point>
+      <Point>SHOWGROUNDS</Point>
+      <Point>ST HELIERS</Point>
+      <Point>TAIHIKI RIVER ESTUARY</Point>
+      <Point>TAPU</Point>
+      <Point>TE ATATU</Point>
+      <Point>TE RAPA</Point>
+      <Point>TEMPLE VIEW</Point>
+      <Point>WAIMAUKU</Point>
+      <Point>WAIROA RIVER MOUTH</Point>
+      <Point>WAITAKERE</Point>
+      <Point>WAITOA</Point>
+      <Point>WARKWORTH</Point>
+      <Point>WATERWORKS</Point>
+      <Point>WELLSFORD</Point>
+      <Point>WEYMOUTH</Point>
+      <Point>WHANGAMATA</Point>
+      <Point>WHITFORD TOWN</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>AVONDALE RACECOURSE</Point>
+      <Point>BLOCKHOUSE BAY</Point>
+      <Point>BROOKBY</Point>
+      <Point>CABLEWAY</Point>
+      <Point>CAPE RODNEY</Point>
+      <Point>CLARKS BEACH</Point>
+      <Point>CLENDON PARK</Point>
+      <Point>CLEVEDON</Point>
+      <Point>CORNWALLIS</Point>
+      <Point>COROMANDEL TOWN</Point>
+      <Point>DRURY</Point>
+      <Point>GLENBROOK</Point>
+      <Point>GORDONTON</Point>
+      <Point>GREEN SHED</Point>
+      <Point>HAMILTON LAKE</Point>
+      <Point>HELENSVILLE</Point>
+      <Point>HINGAIA BRIDGE</Point>
+      <Point>HOROTIU</Point>
+      <Point>HOTEL DU VIN</Point>
+      <Point>HOWICK</Point>
+      <Point>HUNTLY</Point>
+      <Point>HUNUA</Point>
+      <Point>KARAKA</Point>
+      <Point>KAWAKAWA BAY</Point>
+      <Point>KINGSEAT</Point>
+      <Point>LAKE PUPUKE</Point>
+      <Point>LAKE WAIKARE</Point>
+      <Point>LPG TERMINAL</Point>
+      <Point>MANGERE BRIDGE</Point>
+      <Point>MANGERE TOWN</Point>
+      <Point>MANUKAU HEADS</Point>
+      <Point>MARAMARUA</Point>
+      <Point>MCLAUGHLINS MOUNTAIN</Point>
+      <Point>MEREMERE</Point>
+      <Point>MORRINSVILLE</Point>
+      <Point>MUSICK POINT</Point>
+      <Point>NESS VALLEY</Point>
+      <Point>NGATEA</Point>
+      <Point>NORTH HEAD</Point>
+      <Point>OKURA RIVER MOUTH</Point>
+      <Point>ONE TREE HILL</Point>
+      <Point>OREWA</Point>
+      <Point>PAEROA</Point>
+      <Point>PAKURANGA TOWN</Point>
+      <Point>PANMURE</Point>
+      <Point>PAPAKURA</Point>
+      <Point>POINT CHEVALIER</Point>
+      <Point>PUKETUTU ISLAND</Point>
+      <Point>QUARRY LAKE</Point>
+      <Point>RED HILL</Point>
+      <Point>SEAGROVE</Point>
+      <Point>SHOWGROUNDS</Point>
+      <Point>ST HELIERS</Point>
+      <Point>TAIHIKI RIVER ESTUARY</Point>
+      <Point>TAPU</Point>
+      <Point>TE ATATU</Point>
+      <Point>TE RAPA</Point>
+      <Point>TEMPLE VIEW</Point>
+      <Point>WAIMAUKU</Point>
+      <Point>WAIROA RIVER MOUTH</Point>
+      <Point>WAITAKERE</Point>
+      <Point>WAITOA</Point>
+      <Point>WARKWORTH</Point>
+      <Point>WATERWORKS</Point>
+      <Point>WELLSFORD</Point>
+      <Point>WEYMOUTH</Point>
+      <Point>WHANGAMATA</Point>
+      <Point>WHITFORD TOWN</Point>
+    </Label>
+  </Map>
+</Maps>

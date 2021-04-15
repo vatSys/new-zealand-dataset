@@ -1,67 +1,339 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Maps>  
-	<Map Type="System" Name="RWY 16 STARs" Priority="2" CustomColourName="DrawProc" Centre="-392808.331+1765130.370">
-		<Line>
-			GENDA/
-			OKURA/
-			ELBOW/
-			BERRY/
-			MOKER
-		</Line> 
-		<Line>
-			ELBOW/
-			PINES/
-			YARRO/
-			PINES/
-			ADGIN/
-			PINES/
-			OPAPA
-		</Line>
-		<Line>
-			ADGIN/
-			PANIA/
-			NR
-		</Line>        
-		<Line>
-			PANIA/
-			NANUA
-		</Line>   
+<Maps>
+  <Map Type="System2" Name="07 STARs" Priority="1" CustomColourName="ProcArr" Centre="-39.464539+176.857611">
+    <Line>
+      <!--Rwy07 OPAP1C-->
+      OPAPA/NR VOR
+    </Line>
+    <Symbol Type="Circle">
+      <Point>NR VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>OPAPA</Point>
+    </Symbol>
+    <Label>
+      <Point>OPAPA</Point>
+    </Label>
   </Map>
-
-	<Map Type="System" Name="RWY 34 STARs" Priority="2" CustomColourName="DrawProc" Centre="-392808.331+1765130.370">
-		<Line>
-			GENDA/
-			PINES/
-			ELAND/
-			MOKER
-		</Line>
-		<Line>
-			PINES/
-			OHITI/
-			YARRO/
-			OHITI/
-			ADGIN
-		</Line>
-		<Line>
-			OPAPA/
-			AKINA
-		</Line>         
+  <Map Type="System2" Name="25 STARs" Priority="1" CustomColourName="ProcArr" Centre="-39.464353+176.871542">
+    <Line>
+      <!--Rwy25 OPAP1C-->
+      OPAPA/NR VOR
+    </Line>
+    <Symbol Type="Circle">
+      <Point>NR VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>OPAPA</Point>
+    </Symbol>
+    <Label>
+      <Point>OPAPA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="16 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-39.477694+176.866311">
+    <Line Pattern="Dashed">
+      <!--Rwy16 LEDIV2-->
+      -39.477694+176.866311/LEDIV
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 LEDIV2.GENDA-->
+      LEDIV/PINES/GENDA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 LEDIV2.MOOSE-->
+      GENDA/MOOSE
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 LEDIV2.NOSAM-->
+      LEDIV/NOSAM
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 LIM3-->
+      -39.477694+176.866311/-39.481111+176.865833/-39.483333+176.874444/NR VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 MIKE4-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 MOOSE1-->
+      LEDIV/ISNOS/SUPUK/MOOSE
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 NVBR3-->
+    </Line>
+    <Symbol Type="Circle">
+      <Point>NR VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>LEDIV</Point>
+      <Point>PINES</Point>
+      <Point>GENDA</Point>
+      <Point>MOOSE</Point>
+      <Point>NOSAM</Point>
+      <Point>ISNOS</Point>
+      <Point>SUPUK</Point>
+    </Symbol>
+    <Label>
+      <Point>LEDIV</Point>
+      <Point>NR VOR</Point>
+      <Point>MOOSE</Point>
+      <Point>GENDA</Point>
+      <Point>NOSAM</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="16 STARs" Priority="1" CustomColourName="ProcArr" Centre="-39.461989+176.868039">
+    <Line>
+      <!--Rwy16 ADGI1A-->
+      ADGIN/PANIA/NANUA
+    </Line>
+    <Line>
+      <!--Rwy16 GEND1A-->
+      GENDA/OKURA/ELBOW
+    </Line>
+    <Line>
+      <!--Rwy16 MOKE1A-->
+      MOKER/BERRY/ELBOW
+    </Line>
+    <Line>
+      <!--Rwy16 OPAP2A-->
+      OPAPA/PINES/ELBOW
+    </Line>
+    <Line>
+      <!--Rwy16 OPAP1C-->
+      OPAPA/NR VOR
+    </Line>
+    <Line>
+      <!--Rwy16 PANI1A-->
+    </Line>
+    <Line>
+      <!--Rwy16 YARO2A-->
+      YARRO/PINES
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>NANUA</Point>
+      <Point>ELBOW</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>NR VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>ADGIN</Point>
+      <Point>PANIA</Point>
+      <Point>GENDA</Point>
+      <Point>OKURA</Point>
+      <Point>MOKER</Point>
+      <Point>BERRY</Point>
+      <Point>OPAPA</Point>
+      <Point>PINES</Point>
+      <Point>YARRO</Point>
+    </Symbol>
+    <Label>
+      <Point>ADGIN</Point>
+      <Point>GENDA</Point>
+      <Point>MOKER</Point>
+      <Point>OPAPA</Point>
+      <Point>PANIA</Point>
+      <Point>YARRO</Point>
+      <Point>NANUA</Point>
+      <Point>ELBOW</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="16 GNSS" Priority="1" Center="-39.461989+176.868039" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle">
+      <Point>-39.449436+176.869419</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>ELBOW</Point>
+      <Point>NANUA</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>-39.378392+176.915156</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>AROPA</Point>
+    </Symbol>
+    <Line>AROPA/-39.378392+176.915156/-39.449436+176.869419/NR16T</Line>
+    <Line>ELBOW/AROPA</Line>
+    <Line>NANUA/AROPA</Line>
+  </Map>
+  <Map Type="System" Name="16 GNSS Labels" Priority="1" Center="-39.461989+176.868039" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>ELBOW</Point>
+      <Point>NANUA</Point>
+      <Point>AROPA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="34 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-39.461989+176.868039">
+    <Line Pattern="Dashed">
+      <!--Rwy34 LIM3-->
+      -39.461989+176.868039/-39.457500+176.868611/NR VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 MIKE4-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 NVBR4-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 OBLOX2-->
+      -39.461989+176.868039/OBLOX
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 OBLOX2.GENDA-->
+      OBLOX/GENDA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 OBLOX2.MOKER-->
+      OBLOX/MOKER
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 OBLOX2.NOSAM-->
+      OBLOX/POSOL/NOSAM
+    </Line>
+    <Symbol Type="Circle">
+      <Point>NR VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>OBLOX</Point>
+      <Point>GENDA</Point>
+      <Point>MOKER</Point>
+      <Point>POSOL</Point>
+      <Point>NOSAM</Point>
+    </Symbol>
+    <Label>
+      <Point>NR VOR</Point>
+      <Point>OBLOX</Point>
+      <Point>GENDA</Point>
+      <Point>MOKER</Point>
+      <Point>NOSAM</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="34 STARs" Priority="1" CustomColourName="ProcArr" Centre="-39.477694+176.866311">
+    <Line>
+      <!--Rwy34 ADGI1B-->
+      ADGIN/OHITI
+    </Line>
+    <Line>
+      <!--Rwy34 GEND2B-->
+      GENDA/OHITI
+    </Line>
+    <Line>
+      <!--Rwy34 MOKE1B-->
+      MOKER/ELAND/PINES/OHITI
+    </Line>
+    <Line>
+      <!--Rwy34 OPAP1B-->
+      OPAPA/AKINA
+    </Line>
+    <Line>
+      <!--Rwy34 OPAP1C-->
+      OPAPA/NR VOR
+    </Line>
+    <Line>
+      <!--Rwy34 YARO2B-->
+      YARRO/OHITI
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>OHITI</Point>
+      <Point>AKINA</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>NR VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>ADGIN</Point>
+      <Point>GENDA</Point>
+      <Point>MOKER</Point>
+      <Point>ELAND</Point>
+      <Point>PINES</Point>
+      <Point>OPAPA</Point>
+      <Point>YARRO</Point>
+    </Symbol>
+    <Label>
+      <Point>ADGIN</Point>
+      <Point>GENDA</Point>
+      <Point>MOKER</Point>
+      <Point>OPAPA</Point>
+      <Point>YARRO</Point>
+      <Point>OHITI</Point>
+      <Point>AKINA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="34 GNSS" Priority="1" Center="-39.477694+176.866311" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>MILLA</Point>
+      <Point>OHITI</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>-39.536822+176.859764</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>AKINA</Point>
+    </Symbol>
+    <Line>AKINA/-39.536822+176.859764/NR34T</Line>
+    <Line>MILLA/AKINA</Line>
+    <Line>OHITI/AKINA</Line>
+  </Map>
+  <Map Type="System" Name="34 GNSS Labels" Priority="1" Center="-39.477694+176.866311" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>MILLA</Point>
+      <Point>OHITI</Point>
+      <Point>AKINA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-39.465833+176.870000">
+    <Symbol Type="HollowSquare">
+      <Point>AWATOTO</Point>
+      <Point>CLIVE</Point>
+      <Point>ESKDALE</Point>
+      <Point>FERNHILL</Point>
+      <Point>GWAVAS</Point>
+      <Point>HAUMOANA</Point>
+      <Point>HAVELOCK NORTH</Point>
+      <Point>LAKE POUKAWA</Point>
+      <Point>MARAEKAKAHO</Point>
+      <Point>MOHAKA RIVER MOUTH</Point>
+      <Point>NUHAKA</Point>
+      <Point>PATOKA</Point>
+      <Point>PORAITI</Point>
+      <Point>PUKETAPU</Point>
+      <Point>RIDGEMOUNT BLUFF</Point>
+      <Point>RISSINGTON</Point>
+      <Point>SEAPORT</Point>
+      <Point>SOUTHERN DAM</Point>
+      <Point>TE POHUE</Point>
+      <Point>TUTIRA</Point>
+      <Point>WAIOHIKI</Point>
+      <Point>WAIPATIKI BEACH</Point>
+      <Point>WAIRANGO</Point>
+      <Point>WHIRINAKI</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>AWATOTO</Point>
+      <Point>CLIVE</Point>
+      <Point>ESKDALE</Point>
+      <Point>FERNHILL</Point>
+      <Point>GWAVAS</Point>
+      <Point>HAUMOANA</Point>
+      <Point>HAVELOCK NORTH</Point>
+      <Point>LAKE POUKAWA</Point>
+      <Point>MARAEKAKAHO</Point>
+      <Point>MOHAKA RIVER MOUTH</Point>
+      <Point>NUHAKA</Point>
+      <Point>PATOKA</Point>
+      <Point>PORAITI</Point>
+      <Point>PUKETAPU</Point>
+      <Point>RIDGEMOUNT BLUFF</Point>
+      <Point>RISSINGTON</Point>
+      <Point>SEAPORT</Point>
+      <Point>SOUTHERN DAM</Point>
+      <Point>TE POHUE</Point>
+      <Point>TUTIRA</Point>
+      <Point>WAIOHIKI</Point>
+      <Point>WAIPATIKI BEACH</Point>
+      <Point>WAIRANGO</Point>
+      <Point>WHIRINAKI</Point>
+    </Label>
   </Map>
 </Maps>
-
-<!-- 
-		<Line>
-		
-		</Line>
--->
-
-<!-- 
-  
-  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-392808.331+1765130.370">
-		<Line>
-		
-		</Line>      
-  </Map>
-
-
--->

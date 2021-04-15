@@ -1,67 +1,363 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Maps>  
-	<Map Type="System" Name="RWY 16 STARs" Priority="2" CustomColourName="DrawProc" Centre="-405416.999+1745921.001"> 
-		<Line>
-			TPAPA/
-			FIRST/
-			XEDES/
-			ENBAR/
-			PP401/
-			AVKEX/
-		</Line>
-		<Line>
-			AGSOP/
-			GUDSA/
-			ENBAR
-		</Line>
-		<Line>
-			KAPTI/
-			NOKIX/
-			KAMET/
-			NOKIX/
-			PP
-		</Line>  
+<Maps>
+  <Map Type="System2" Name="16 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-40.910642+174.987931">
+    <Line Pattern="Dashed">
+      <!--Rwy16 AGAXA3-->
+      -40.910642+174.987931/-40.928889+175.000000/AGAXA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 AGAXA3.AVKEX-->
+      AGAXA/FICAN/AVKEX
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 AGAXA3.KAMET-->
+      AGAXA/-40.958889+174.766389/KAMET
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 AGAXA3.KAPTI-->
+      -40.958889+174.766389/KAPTI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 AGAXA3.PP-->
+      -40.958889+174.766389/PP NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 AGAXA3.WITBY-->
+      AGAXA/WITBY
+    </Line>
+    <Symbol Type="Circle">
+      <Point>PP NDB</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>AGAXA</Point>
+      <Point>FICAN</Point>
+      <Point>AVKEX</Point>
+      <Point>KAMET</Point>
+      <Point>KAPTI</Point>
+      <Point>WITBY</Point>
+    </Symbol>
+    <Label>
+      <Point>AGAXA</Point>
+      <Point>AVKEX</Point>
+      <Point>KAMET</Point>
+      <Point>KAPTI</Point>
+      <Point>PP NDB</Point>
+      <Point>WITBY</Point>
+    </Label>
   </Map>
-
-	<Map Type="System" Name="RWY 34 STARs" Priority="2" CustomColourName="DrawProc" Centre="-405416.999+1745921.001">
-		<Line>
-			TPAPA/
-			FIRST/
-			VEKDA/
-			AKADU/
-			PP401/
-			AVKEX
-		</Line>
-		<Line>
-			AKADU/
-			NILID/
-			PP
-		</Line>
-		<Line>
-			KAPTI/
-			NILID/
-			KAMET
-		</Line>
-		<Line>
-			AGSOP/
-			DABGU
-		</Line>
+  <Map Type="System2" Name="16 STARs" Priority="1" CustomColourName="ProcArr" Centre="-40.901261+174.987925">
+    <Line>
+      <!--Rwy16 AGSO1H-->
+      AGSOP/GUDSA/ENBAR
+    </Line>
+    <Line>
+      <!--Rwy16 AVKE1H-->
+      AVKEX/PP401/ENBAR
+    </Line>
+    <Line>
+      <!--Rwy16 KAME1H-->
+      KAMET/NOKIX
+    </Line>
+    <Line>
+      <!--Rwy16 KAPT1H-->
+      KAPTI/NOKIX
+    </Line>
+    <Line>
+      <!--Rwy16 PP1H-->
+      PP NDB/NOKIX
+    </Line>
+    <Line>
+      <!--Rwy16 TPAP1H-->
+      TPAPA/FIRST/XEDES/ENBAR
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>ENBAR</Point>
+      <Point>NOKIX</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>PP NDB</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>AGSOP</Point>
+      <Point>GUDSA</Point>
+      <Point>AVKEX</Point>
+      <Point>PP401</Point>
+      <Point>KAMET</Point>
+      <Point>KAPTI</Point>
+      <Point>TPAPA</Point>
+      <Point>FIRST</Point>
+      <Point>XEDES</Point>
+    </Symbol>
+    <Label>
+      <Point>AGSOP</Point>
+      <Point>AVKEX</Point>
+      <Point>KAMET</Point>
+      <Point>KAPTI</Point>
+      <Point>PP NDB</Point>
+      <Point>TPAPA</Point>
+      <Point>ENBAR</Point>
+      <Point>NOKIX</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="16 GNSS" Priority="1" Center="-40.901261+174.987925" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle">
+      <Point>PP414</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>ENBAR</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>PP411</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>NOKIX</Point>
+    </Symbol>
+    <Line>NOKIX/PP411/PP414/PP16T</Line>
+    <Line>ENBAR/NOKIX</Line>
+  </Map>
+  <Map Type="System" Name="16 GNSS Labels" Priority="1" Center="-40.901261+174.987925" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>ENBAR</Point>
+      <Point>PP411</Point>
+      <Point>NOKIX</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="34 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-40.901261+174.987925">
+    <Line Pattern="Dashed">
+      <!--Rwy34 GUGAK4-->
+      -40.901261+174.987925/GUGAK
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 GUGAK4.AVKEX-->
+      GUGAK/-40.708611+174.938056/-40.735278+174.883611/BRUDA/AVKEX
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 GUGAK4.FICAN-->
+      -40.735278+174.883611/FICAN
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 GUGAK4.KAMET-->
+      GUGAK/KAMET
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 GUGAK4.KAPTI-->
+      GUGAK/KAPTI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 GUGAK4.PP-->
+      -40.735278+174.883611/PP NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 GUGAK4.WITBY-->
+      -40.735278+174.883611/WITBY
+    </Line>
+    <Symbol Type="Circle">
+      <Point>PP NDB</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>GUGAK</Point>
+      <Point>BRUDA</Point>
+      <Point>AVKEX</Point>
+      <Point>FICAN</Point>
+      <Point>KAMET</Point>
+      <Point>KAPTI</Point>
+      <Point>WITBY</Point>
+    </Symbol>
+    <Label>
+      <Point>GUGAK</Point>
+      <Point>AVKEX</Point>
+      <Point>FICAN</Point>
+      <Point>KAMET</Point>
+      <Point>KAPTI</Point>
+      <Point>PP NDB</Point>
+      <Point>WITBY</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="34 STARs" Priority="1" CustomColourName="ProcArr" Centre="-40.910642+174.987931">
+    <Line>
+      <!--Rwy34 AGSO1G-->
+      AGSOP/DABGU
+    </Line>
+    <Line>
+      <!--Rwy34 AVKE1G-->
+      AVKEX/PP401/AKADU/NILID
+    </Line>
+    <Line>
+      <!--Rwy34 KAME1G-->
+      KAMET/NOKIX/NILID
+    </Line>
+    <Line>
+      <!--Rwy34 PP1G-->
+      PP NDB/NILID
+    </Line>
+    <Line>
+      <!--Rwy34 TPAP1G-->
+      TPAPA/FIRST/VEKDA/AKADU
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>DABGU</Point>
+      <Point>NILID</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>PP NDB</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>AGSOP</Point>
+      <Point>AVKEX</Point>
+      <Point>PP401</Point>
+      <Point>AKADU</Point>
+      <Point>KAMET</Point>
+      <Point>NOKIX</Point>
+      <Point>TPAPA</Point>
+      <Point>FIRST</Point>
+      <Point>VEKDA</Point>
+    </Symbol>
+    <Label>
+      <Point>AGSOP</Point>
+      <Point>AVKEX</Point>
+      <Point>KAMET</Point>
+      <Point>PP NDB</Point>
+      <Point>TPAPA</Point>
+      <Point>DABGU</Point>
+      <Point>NILID</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="34 GNSS" Priority="1" Center="-40.910642+174.987931" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle">
+      <Point>PP421</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>DABGU</Point>
+      <Point>NILID</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>TAXEV</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>LEVBI</Point>
+    </Symbol>
+    <Line>LEVBI/TAXEV/PP421/PP34T</Line>
+    <Line>DABGU/LEVBI</Line>
+    <Line>NILID/LEVBI</Line>
+  </Map>
+  <Map Type="System" Name="34 GNSS Labels" Priority="1" Center="-40.910642+174.987931" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>DABGU</Point>
+      <Point>NILID</Point>
+      <Point>TAXEV</Point>
+      <Point>LEVBI</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-40.904722+174.989167">
+    <Symbol Type="HollowSquare">
+      <Point>AOKAUTERE</Point>
+      <Point>AVALON</Point>
+      <Point>BARING</Point>
+      <Point>BELMONT HILL</Point>
+      <Point>BENNETTS HILL</Point>
+      <Point>BUNNYTHORPE SUBSTATION</Point>
+      <Point>GRENADA</Point>
+      <Point>HARBOUR ENTRANCE</Point>
+      <Point>HAYWARDS</Point>
+      <Point>HIMATANGI BEACH</Point>
+      <Point>HOKIO BEACH</Point>
+      <Point>ISLAND BAY</Point>
+      <Point>KARORI ROCK</Point>
+      <Point>LEVIN</Point>
+      <Point>LONGBURN</Point>
+      <Point>MAKARA PEAK</Point>
+      <Point>MANA ISLAND</Point>
+      <Point>MANAWATU RIVER MOUTH</Point>
+      <Point>MANFEILD</Point>
+      <Point>MOUNT CLIMIE</Point>
+      <Point>MOUNT HECTOR</Point>
+      <Point>MOUNT THOMPSON</Point>
+      <Point>MOUNT WAINUI</Point>
+      <Point>OBSERVATORY</Point>
+      <Point>OHAU POINT</Point>
+      <Point>OTAKI BEACH</Point>
+      <Point>PAEKAKARIKI</Point>
+      <Point>PAHIATUA</Point>
+      <Point>PAREMATA</Point>
+      <Point>PEKAPEKA PONDS</Point>
+      <Point>PENCARROW</Point>
+      <Point>PETONE WHARF</Point>
+      <Point>PINNACLE</Point>
+      <Point>PIPINUI POINT</Point>
+      <Point>POINT GORDON</Point>
+      <Point>POINT HOWARD</Point>
+      <Point>PUKERUA BAY</Point>
+      <Point>RANGIOTU</Point>
+      <Point>RAUMAI</Point>
+      <Point>RUNUNDER POINT</Point>
+      <Point>SINCLAIR HEAD</Point>
+      <Point>SOMES</Point>
+      <Point>TANGIMOANA</Point>
+      <Point>TE ARAKURA</Point>
+      <Point>TE MARUA</Point>
+      <Point>TERAWHITI</Point>
+      <Point>THE PONDS</Point>
+      <Point>TIMBER MILL</Point>
+      <Point>TOKOMARU</Point>
+      <Point>TURAKIRAE</Point>
+      <Point>UNIVERSITY</Point>
+      <Point>WARD ISLAND</Point>
+      <Point>WINDMILL</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>AOKAUTERE</Point>
+      <Point>AVALON</Point>
+      <Point>BARING</Point>
+      <Point>BELMONT HILL</Point>
+      <Point>BENNETTS HILL</Point>
+      <Point>BUNNYTHORPE SUBSTATION</Point>
+      <Point>GRENADA</Point>
+      <Point>HARBOUR ENTRANCE</Point>
+      <Point>HAYWARDS</Point>
+      <Point>HIMATANGI BEACH</Point>
+      <Point>HOKIO BEACH</Point>
+      <Point>ISLAND BAY</Point>
+      <Point>KARORI ROCK</Point>
+      <Point>LEVIN</Point>
+      <Point>LONGBURN</Point>
+      <Point>MAKARA PEAK</Point>
+      <Point>MANA ISLAND</Point>
+      <Point>MANAWATU RIVER MOUTH</Point>
+      <Point>MANFEILD</Point>
+      <Point>MOUNT CLIMIE</Point>
+      <Point>MOUNT HECTOR</Point>
+      <Point>MOUNT THOMPSON</Point>
+      <Point>MOUNT WAINUI</Point>
+      <Point>OBSERVATORY</Point>
+      <Point>OHAU POINT</Point>
+      <Point>OTAKI BEACH</Point>
+      <Point>PAEKAKARIKI</Point>
+      <Point>PAHIATUA</Point>
+      <Point>PAREMATA</Point>
+      <Point>PEKAPEKA PONDS</Point>
+      <Point>PENCARROW</Point>
+      <Point>PETONE WHARF</Point>
+      <Point>PINNACLE</Point>
+      <Point>PIPINUI POINT</Point>
+      <Point>POINT GORDON</Point>
+      <Point>POINT HOWARD</Point>
+      <Point>PUKERUA BAY</Point>
+      <Point>RANGIOTU</Point>
+      <Point>RAUMAI</Point>
+      <Point>RUNUNDER POINT</Point>
+      <Point>SINCLAIR HEAD</Point>
+      <Point>SOMES</Point>
+      <Point>TANGIMOANA</Point>
+      <Point>TE ARAKURA</Point>
+      <Point>TE MARUA</Point>
+      <Point>TERAWHITI</Point>
+      <Point>THE PONDS</Point>
+      <Point>TIMBER MILL</Point>
+      <Point>TOKOMARU</Point>
+      <Point>TURAKIRAE</Point>
+      <Point>UNIVERSITY</Point>
+      <Point>WARD ISLAND</Point>
+      <Point>WINDMILL</Point>
+    </Label>
   </Map>
 </Maps>
-
-<!-- 
-		<Line>
-		
-		</Line>
--->
-
-<!-- 
-  
-  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-405416.999+1745921.001">
-		<Line>
-		
-		</Line>      
-  </Map>
-
-
--->

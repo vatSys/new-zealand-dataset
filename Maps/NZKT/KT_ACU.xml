@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="12 STARs" Priority="1" CustomColourName="ProcArr" Centre="-35.064536+173.281014">
+    <Line>
+      <!--Rwy12 RNAV.KAROA-->
+      KAROA/KT NDB
+    </Line>
+    <Line>
+      <!--Rwy12 RNAV.PERAS-->
+      PERAS/KT NDB
+    </Line>
+    <Line>
+      <!--Rwy12 RNAV.RUATO-->
+      RUATO/KT NDB
+    </Line>
+    <Line>
+      <!--Rwy12 RNAV-->
+      KT NDB/STEED
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>STEED</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>STEED</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>KT NDB</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>KAROA</Point>
+      <Point>PERAS</Point>
+      <Point>RUATO</Point>
+    </Symbol>
+    <Label>
+      <Point>KT NDB</Point>
+      <Point>KAROA</Point>
+      <Point>PERAS</Point>
+      <Point>RUATO</Point>
+      <Point>STEED</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="12 GNSS" Priority="1" Center="-35.064536+173.281014" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle">
+      <Point>-35.051364+173.268542</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="MalteseCross">
+      <Point>-34.985489+173.206236</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>STEED</Point>
+    </Symbol>
+    <Line>STEED/-34.985489+173.206236/-35.051364+173.268542/KT12T</Line>
+  </Map>
+  <Map Type="System" Name="12 GNSS Labels" Priority="1" Center="-35.064536+173.281014" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>STEED</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="30 STARs" Priority="1" CustomColourName="ProcArr" Centre="-35.074508+173.290461">
+    <Line>
+      <!--Rwy30 RNAV.KAROA-->
+      KAROA/PERIA
+    </Line>
+    <Line>
+      <!--Rwy30 RNAV.PERAS-->
+      PERAS/PERIA
+    </Line>
+    <Line>
+      <!--Rwy30 RNAV.RUATO-->
+      RUATO/PERIA
+    </Line>
+    <Line>
+      <!--Rwy30 RNAV-->
+      PERIA/-35.130614+173.490059
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>KAROA</Point>
+      <Point>PERIA</Point>
+      <Point>PERAS</Point>
+      <Point>RUATO</Point>
+    </Symbol>
+    <Label>
+      <Point>PERIA</Point>
+      <Point>KAROA</Point>
+      <Point>PERAS</Point>
+      <Point>RUATO</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="30 GNSS" Priority="1" Center="-35.074508+173.290461" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle">
+      <Point>-35.114650+173.348514</Point>
+      <Point>-35.084461+173.299894</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="MalteseCross" />
+    <Symbol Type="SolidTriangle">
+      <Point>PERIA</Point>
+    </Symbol>
+    <Line>PERIA/-35.114650+173.348514/-35.084461+173.299894/KT30T</Line>
+  </Map>
+  <Map Type="System" Name="30 GNSS Labels" Priority="1" Center="-35.074508+173.290461" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>PERIA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-35.070000+173.285278">
+    <Symbol Type="HollowSquare">
+      <Point>PAIHIA WATERFRONT</Point>
+      <Point>PUKETONA QUARRY</Point>
+      <Point>TAPEKA POINT</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>PAIHIA WATERFRONT</Point>
+      <Point>PUKETONA QUARRY</Point>
+      <Point>TAPEKA POINT</Point>
+    </Label>
+  </Map>
+</Maps>
