@@ -1,134 +1,611 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Maps>  
-	<Map Type="System" Name="RWY 21 STARs" Priority="2" CustomColourName="DrawProc" Centre="-364716.001+1743749.001">
-		<Line>
-			LUNBI/
-			ARADI/
-			PEBLU/
-		</Line> 
-		<Line>
-			VELMO/
-			ARADI/
-			VASBO/
-			OMLEN
-		</Line>
-		<Line>
-			VASBO/
-			RUTLO/
-			BAYES
-		</Line>
-		<Line>
-			UPLAR/
-			BASIV/
-			SALAG
-		</Line>
-		<Line>
-			ELNOS/
-			BASIV/
-			DUGAN
-		</Line>
-		<Line>
-			BASIV/
-			RUTLO
-		</Line>
-		<Line>
-			AA/
-			GUTLA/
-			EMSAK/
-			BAYES/
-			LUPRU
-		</Line>
-		<Line>
-			BAYES/
-			EXOPI/
-			KALAG
-		</Line>
-		<Line>
-			AGREX/
-			EXOPI/
-			TARIB
-		</Line>
-		<Line>
-			SELKA/
-			EXOPI/
-			AKLOM
-		</Line>
-		<Line>
-			EXOPI/
-			OLBEX
-		</Line>
+<Maps>
+  <Map Type="System2" Name="03 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-36.785153+174.639053">
+    <Line Pattern="Dashed">
+      <!--Rwy03 BAYE1A-->
+      -36.785153+174.639053/BAYES
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy03 BAYE1R-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy03 BAYE1R.AA-->
+      BAYES/AA VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy03 BAYE1R.LAKES-->
+      BAYES/LAKES
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy03 BAYE1R.OMLEN-->
+      BAYES/OMLEN
+    </Line>
+    <Symbol Type="Circle">
+      <Point>AA VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>BAYES</Point>
+      <Point>LAKES</Point>
+      <Point>OMLEN</Point>
+    </Symbol>
+    <Label>
+      <Point>BAYES</Point>
+      <Point>AA VOR</Point>
+      <Point>LAKES</Point>
+      <Point>OMLEN</Point>
+    </Label>
   </Map>
-
-	  <Map Type="System" Name="RWY 03 STARs" Priority="2" CustomColourName="DrawProc" Centre="-364716.001+1743749.001">
-		<Line>
-			LUNBI/
-			ARADI/
-			PEBLU
-		</Line>
-		<Line>
-			VELMO/
-			ARADI/
-			WYTAK/
-			OMLEN
-		</Line>
-		<Line>
-			UPLAR/
-			BASIV/
-			SALAG
-		</Line>
-		<Line>
-			ELNOS/
-			BASIV/
-			DUGAN
-		</Line>   
-		<Line>
-			AA/
-			GUTLA/
-			OMKOL/
-			WYTAK/
-			VASBO/
-			RUTLO/
-			LUPRU
-		</Line>
-		<Line>
-			RUTLO/
-			EXOPI/
-			KALAG
-		</Line>
-		<Line>
-			AGREX/
-			EXOPI/
-			TARIB
-		</Line>
-		<Line>
-			SELKA/
-			EXOPI/
-			AKLOM
-		</Line>
-		<Line>
-			EXOPI/
-			OLBEX
-		</Line>
-		<Line>
-			BASIV/
-			WYTAK
-		</Line>                                      
+  <Map Type="System2" Name="03 STARs" Priority="1" CustomColourName="ProcArr" Centre="-36.796181+174.620886">
+    <Line>
+      <!--Rwy03 AA1K-->
+      AA VOR/GUTLA/OMKOL/WYTAK
+    </Line>
+    <Line>
+      <!--Rwy03 ARAD2K.LUNBI-->
+      LUNBI/ARADI
+    </Line>
+    <Line>
+      <!--Rwy03 ARAD2K.PEBLU-->
+      PEBLU/ARADI
+    </Line>
+    <Line>
+      <!--Rwy03 ARAD2K.VELMO-->
+      VELMO/ARADI
+    </Line>
+    <Line>
+      <!--Rwy03 ARAD2K-->
+      ARADI/WYTAK
+    </Line>
+    <Line>
+      <!--Rwy03 BASI2K.DUGAN-->
+      DUGAN/BASIV
+    </Line>
+    <Line>
+      <!--Rwy03 BASI2K.ELNOS-->
+      ELNOS/BASIV
+    </Line>
+    <Line>
+      <!--Rwy03 BASI2K.SALAG-->
+      SALAG/BASIV
+    </Line>
+    <Line>
+      <!--Rwy03 BASI2K.UPLAR-->
+      UPLAR/BASIV
+    </Line>
+    <Line>
+      <!--Rwy03 BASI2K-->
+      BASIV/WYTAK
+    </Line>
+    <Line>
+      <!--Rwy03 EXOP1K.AGREX-->
+      AGREX/EXOPI
+    </Line>
+    <Line>
+      <!--Rwy03 EXOP1K.AKLOM-->
+      AKLOM/EXOPI
+    </Line>
+    <Line>
+      <!--Rwy03 EXOP1K.KALAG-->
+      KALAG/EXOPI
+    </Line>
+    <Line>
+      <!--Rwy03 EXOP1K.OLBEX-->
+      OLBEX/EXOPI
+    </Line>
+    <Line>
+      <!--Rwy03 EXOP1K.SELKA-->
+      SELKA/OKTUB/EXOPI
+    </Line>
+    <Line>
+      <!--Rwy03 EXOP1K.TARIB-->
+      TARIB/EXOPI
+    </Line>
+    <Line>
+      <!--Rwy03 EXOP1K-->
+      EXOPI/RUTLO/VASBO/WYTAK
+    </Line>
+    <Line>
+      <!--Rwy03 LUPR1K-->
+      LUPRU/RUTLO
+    </Line>
+    <Line>
+      <!--Rwy03 OMLE1K-->
+      OMLEN/WYTAK
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>WYTAK</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>AA VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>GUTLA</Point>
+      <Point>OMKOL</Point>
+      <Point>LUNBI</Point>
+      <Point>ARADI</Point>
+      <Point>PEBLU</Point>
+      <Point>VELMO</Point>
+      <Point>DUGAN</Point>
+      <Point>BASIV</Point>
+      <Point>ELNOS</Point>
+      <Point>SALAG</Point>
+      <Point>UPLAR</Point>
+      <Point>AGREX</Point>
+      <Point>EXOPI</Point>
+      <Point>AKLOM</Point>
+      <Point>KALAG</Point>
+      <Point>OLBEX</Point>
+      <Point>SELKA</Point>
+      <Point>OKTUB</Point>
+      <Point>TARIB</Point>
+      <Point>RUTLO</Point>
+      <Point>VASBO</Point>
+      <Point>LUPRU</Point>
+      <Point>OMLEN</Point>
+    </Symbol>
+    <Label>
+      <Point>AA VOR</Point>
+      <Point>ARADI</Point>
+      <Point>BASIV</Point>
+      <Point>EXOPI</Point>
+      <Point>LUPRU</Point>
+      <Point>OMLEN</Point>
+      <Point>LUNBI</Point>
+      <Point>PEBLU</Point>
+      <Point>VELMO</Point>
+      <Point>DUGAN</Point>
+      <Point>ELNOS</Point>
+      <Point>SALAG</Point>
+      <Point>UPLAR</Point>
+      <Point>AGREX</Point>
+      <Point>AKLOM</Point>
+      <Point>KALAG</Point>
+      <Point>OLBEX</Point>
+      <Point>SELKA</Point>
+      <Point>TARIB</Point>
+      <Point>WYTAK</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="03 GNSS" Priority="1" Center="-36.796181+174.620886" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="MalteseCross">
+      <Point>MESUD</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>WYTAK</Point>
+    </Symbol>
+    <Line>WYTAK/MESUD/WP03T</Line>
+  </Map>
+  <Map Type="System" Name="03 GNSS Labels" Priority="1" Center="-36.796181+174.620886" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>MESUD</Point>
+      <Point>WYTAK</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="21 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-36.796181+174.620886">
+    <Line Pattern="Dashed">
+      <!--Rwy21 WYTA1A-->
+      -36.796181+174.620886/WYTAK
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy21 WYTA1Q-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy21 WYTA1Q.AA-->
+      WYTAK/AA VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy21 WYTA1Q.KAPAI-->
+      WYTAK/KAPAI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy21 WYTA1Q.LIMES-->
+      WYTAK/LIMES
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy21 WYTA1Q.LUPRU-->
+      WYTAK/KANVI/RUTLO/LUPRU
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy21 WYTA1Q.OMLEN-->
+      WYTAK/OMLEN
+    </Line>
+    <Symbol Type="Circle">
+      <Point>AA VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>WYTAK</Point>
+      <Point>KAPAI</Point>
+      <Point>LIMES</Point>
+      <Point>KANVI</Point>
+      <Point>RUTLO</Point>
+      <Point>LUPRU</Point>
+      <Point>OMLEN</Point>
+    </Symbol>
+    <Label>
+      <Point>WYTAK</Point>
+      <Point>AA VOR</Point>
+      <Point>KAPAI</Point>
+      <Point>LIMES</Point>
+      <Point>LUPRU</Point>
+      <Point>OMLEN</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="21 STARs" Priority="1" CustomColourName="ProcArr" Centre="-36.785153+174.639053">
+    <Line>
+      <!--Rwy21 AA1J-->
+      AA VOR/GUTLA/EMSAK/BAYES
+    </Line>
+    <Line>
+      <!--Rwy21 ARAD1J.LUNBI-->
+      LUNBI/ARADI
+    </Line>
+    <Line>
+      <!--Rwy21 ARAD1J.PEBLU-->
+      PEBLU/ARADI
+    </Line>
+    <Line>
+      <!--Rwy21 ARAD1J.VELMO-->
+      VELMO/ARADI
+    </Line>
+    <Line>
+      <!--Rwy21 ARAD1J-->
+      ARADI/VASBO/RUTLO/BAYES
+    </Line>
+    <Line>
+      <!--Rwy21 BASI2J.DUGAN-->
+      DUGAN/BASIV
+    </Line>
+    <Line>
+      <!--Rwy21 BASI2J.ELNOS-->
+      ELNOS/BASIV
+    </Line>
+    <Line>
+      <!--Rwy21 BASI2J.SALAG-->
+      SALAG/BASIV
+    </Line>
+    <Line>
+      <!--Rwy21 BASI2J.UPLAR-->
+      UPLAR/BASIV
+    </Line>
+    <Line>
+      <!--Rwy21 BASI2J-->
+      BASIV/RUTLO
+    </Line>
+    <Line>
+      <!--Rwy21 EXOP2J.AGREX-->
+      AGREX/EXOPI
+    </Line>
+    <Line>
+      <!--Rwy21 EXOP2J.AKLOM-->
+      AKLOM/EXOPI
+    </Line>
+    <Line>
+      <!--Rwy21 EXOP2J.KALAG-->
+      KALAG/EXOPI
+    </Line>
+    <Line>
+      <!--Rwy21 EXOP2J.OLBEX-->
+      OLBEX/EXOPI
+    </Line>
+    <Line>
+      <!--Rwy21 EXOP2J.SELKA-->
+      SELKA/OKTUB/EXOPI
+    </Line>
+    <Line>
+      <!--Rwy21 EXOP2J.TARIB-->
+      TARIB/EXOPI
+    </Line>
+    <Line>
+      <!--Rwy21 EXOP2J-->
+      EXOPI/BAYES
+    </Line>
+    <Line>
+      <!--Rwy21 LUPR1J-->
+      LUPRU/BAYES
+    </Line>
+    <Line>
+      <!--Rwy21 OMLE1J-->
+      OMLEN/VASBO
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>BAYES</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>AA VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>GUTLA</Point>
+      <Point>EMSAK</Point>
+      <Point>LUNBI</Point>
+      <Point>ARADI</Point>
+      <Point>PEBLU</Point>
+      <Point>VELMO</Point>
+      <Point>VASBO</Point>
+      <Point>RUTLO</Point>
+      <Point>DUGAN</Point>
+      <Point>BASIV</Point>
+      <Point>ELNOS</Point>
+      <Point>SALAG</Point>
+      <Point>UPLAR</Point>
+      <Point>AGREX</Point>
+      <Point>EXOPI</Point>
+      <Point>AKLOM</Point>
+      <Point>KALAG</Point>
+      <Point>OLBEX</Point>
+      <Point>SELKA</Point>
+      <Point>OKTUB</Point>
+      <Point>TARIB</Point>
+      <Point>LUPRU</Point>
+      <Point>OMLEN</Point>
+    </Symbol>
+    <Label>
+      <Point>AA VOR</Point>
+      <Point>ARADI</Point>
+      <Point>BASIV</Point>
+      <Point>EXOPI</Point>
+      <Point>LUPRU</Point>
+      <Point>OMLEN</Point>
+      <Point>LUNBI</Point>
+      <Point>PEBLU</Point>
+      <Point>VELMO</Point>
+      <Point>DUGAN</Point>
+      <Point>ELNOS</Point>
+      <Point>SALAG</Point>
+      <Point>UPLAR</Point>
+      <Point>AGREX</Point>
+      <Point>AKLOM</Point>
+      <Point>KALAG</Point>
+      <Point>OLBEX</Point>
+      <Point>SELKA</Point>
+      <Point>TARIB</Point>
+      <Point>BAYES</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="21 GNSS" Priority="1" Center="-36.785153+174.639053" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="MalteseCross">
+      <Point>KIBIM</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>BAYES</Point>
+    </Symbol>
+    <Line>BAYES/KIBIM/WP21T</Line>
+  </Map>
+  <Map Type="System" Name="21 GNSS Labels" Priority="1" Center="-36.785153+174.639053" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>KIBIM</Point>
+      <Point>BAYES</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="08 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-36.785733+174.641011">
+    <Line Pattern="Dashed">
+      <!--Rwy08 BAYE1B-->
+      -36.785733+174.641011/-36.789167+174.694167/-36.706111+174.770833/BAYES
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>BAYES</Point>
+    </Symbol>
+    <Label>
+      <Point>BAYES</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="08 STARs" Priority="1" CustomColourName="ProcArr" Centre="-36.783758+174.623467">
+    <Line>
+      <!--Rwy08 AA1L-->
+      AA VOR/IGOLF
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>IGOLF</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>AA VOR</Point>
+    </Symbol>
+    <Label>
+      <Point>AA VOR</Point>
+      <Point>IGOLF</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="08 GNSS" Priority="1" Center="-36.783758+174.623467" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>HALEN</Point>
+      <Point>IGOLF</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>WP801</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>MAKEE</Point>
+    </Symbol>
+    <Line>MAKEE/WP801/WP08T</Line>
+    <Line>HALEN/MAKEE</Line>
+    <Line>IGOLF/MAKEE</Line>
+  </Map>
+  <Map Type="System" Name="08 GNSS Labels" Priority="1" Center="-36.783758+174.623467" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>HALEN</Point>
+      <Point>IGOLF</Point>
+      <Point>WP801</Point>
+      <Point>MAKEE</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="26 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-36.783758+174.623467">
+    <Line Pattern="Dashed">
+      <!--Rwy26 WYTA1B-->
+      -36.783758+174.623467/-36.788333+174.692500/-36.703611+174.772222/WYTAK
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>WYTAK</Point>
+    </Symbol>
+    <Label>
+      <Point>WYTAK</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="26 STARs" Priority="1" CustomColourName="ProcArr" Centre="-36.785733+174.641011">
+    <Line>
+      <!--Rwy26 AA1M-->
+      AA VOR/BAZEN
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>BAZEN</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>AA VOR</Point>
+    </Symbol>
+    <Label>
+      <Point>AA VOR</Point>
+      <Point>BAZEN</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="26 GNSS" Priority="1" Center="-36.785733+174.641011" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>ABUOY</Point>
+      <Point>BAZEN</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>WP601</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>FLAXX</Point>
+    </Symbol>
+    <Line>FLAXX/WP601/WP26T</Line>
+    <Line>ABUOY/FLAXX</Line>
+    <Line>BAZEN/FLAXX</Line>
+  </Map>
+  <Map Type="System" Name="26 GNSS Labels" Priority="1" Center="-36.785733+174.641011" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>ABUOY</Point>
+      <Point>BAZEN</Point>
+      <Point>WP601</Point>
+      <Point>FLAXX</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-36.787769+174.630258">
+    <Symbol Type="HollowSquare">
+      <Point>AVONDALE RACECOURSE</Point>
+      <Point>BLOCKHOUSE BAY</Point>
+      <Point>BREAMTAIL HEAD</Point>
+      <Point>BROOKBY</Point>
+      <Point>CABLEWAY</Point>
+      <Point>CAPE RODNEY</Point>
+      <Point>CLARKS BEACH</Point>
+      <Point>CLENDON PARK</Point>
+      <Point>CLEVEDON</Point>
+      <Point>CORNWALLIS</Point>
+      <Point>COROMANDEL TOWN</Point>
+      <Point>DRURY</Point>
+      <Point>GLENBROOK</Point>
+      <Point>GREEN SHED</Point>
+      <Point>HELENSVILLE</Point>
+      <Point>HINGAIA BRIDGE</Point>
+      <Point>HOTEL DU VIN</Point>
+      <Point>HOWICK</Point>
+      <Point>HUNUA</Point>
+      <Point>KARAKA</Point>
+      <Point>KAWAKAWA BAY</Point>
+      <Point>KINGSEAT</Point>
+      <Point>LAKE PUPUKE</Point>
+      <Point>LAKE WAIKARE</Point>
+      <Point>LPG TERMINAL</Point>
+      <Point>MANGAWHAI HEADS</Point>
+      <Point>MANGERE BRIDGE</Point>
+      <Point>MANGERE TOWN</Point>
+      <Point>MANUKAU HEADS</Point>
+      <Point>MARAMARUA</Point>
+      <Point>MAUNGATUROTO</Point>
+      <Point>MCLAUGHLINS MOUNTAIN</Point>
+      <Point>MEREMERE</Point>
+      <Point>MUSICK POINT</Point>
+      <Point>NESS VALLEY</Point>
+      <Point>NORTH HEAD</Point>
+      <Point>OKURA RIVER MOUTH</Point>
+      <Point>ONE TREE HILL</Point>
+      <Point>OREWA</Point>
+      <Point>PAKURANGA TOWN</Point>
+      <Point>PANMURE</Point>
+      <Point>PAPAKURA</Point>
+      <Point>POINT CHEVALIER</Point>
+      <Point>PUKETUTU ISLAND</Point>
+      <Point>QUARRY LAKE</Point>
+      <Point>RED HILL</Point>
+      <Point>SEAGROVE</Point>
+      <Point>ST HELIERS</Point>
+      <Point>TAIHIKI RIVER ESTUARY</Point>
+      <Point>TAPU</Point>
+      <Point>TE ATATU</Point>
+      <Point>WAIMAUKU</Point>
+      <Point>WAIROA RIVER MOUTH</Point>
+      <Point>WAITAKERE</Point>
+      <Point>WARKWORTH</Point>
+      <Point>WATERWORKS</Point>
+      <Point>WELLSFORD</Point>
+      <Point>WEYMOUTH</Point>
+      <Point>WHITFORD TOWN</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>AVONDALE RACECOURSE</Point>
+      <Point>BLOCKHOUSE BAY</Point>
+      <Point>BREAMTAIL HEAD</Point>
+      <Point>BROOKBY</Point>
+      <Point>CABLEWAY</Point>
+      <Point>CAPE RODNEY</Point>
+      <Point>CLARKS BEACH</Point>
+      <Point>CLENDON PARK</Point>
+      <Point>CLEVEDON</Point>
+      <Point>CORNWALLIS</Point>
+      <Point>COROMANDEL TOWN</Point>
+      <Point>DRURY</Point>
+      <Point>GLENBROOK</Point>
+      <Point>GREEN SHED</Point>
+      <Point>HELENSVILLE</Point>
+      <Point>HINGAIA BRIDGE</Point>
+      <Point>HOTEL DU VIN</Point>
+      <Point>HOWICK</Point>
+      <Point>HUNUA</Point>
+      <Point>KARAKA</Point>
+      <Point>KAWAKAWA BAY</Point>
+      <Point>KINGSEAT</Point>
+      <Point>LAKE PUPUKE</Point>
+      <Point>LAKE WAIKARE</Point>
+      <Point>LPG TERMINAL</Point>
+      <Point>MANGAWHAI HEADS</Point>
+      <Point>MANGERE BRIDGE</Point>
+      <Point>MANGERE TOWN</Point>
+      <Point>MANUKAU HEADS</Point>
+      <Point>MARAMARUA</Point>
+      <Point>MAUNGATUROTO</Point>
+      <Point>MCLAUGHLINS MOUNTAIN</Point>
+      <Point>MEREMERE</Point>
+      <Point>MUSICK POINT</Point>
+      <Point>NESS VALLEY</Point>
+      <Point>NORTH HEAD</Point>
+      <Point>OKURA RIVER MOUTH</Point>
+      <Point>ONE TREE HILL</Point>
+      <Point>OREWA</Point>
+      <Point>PAKURANGA TOWN</Point>
+      <Point>PANMURE</Point>
+      <Point>PAPAKURA</Point>
+      <Point>POINT CHEVALIER</Point>
+      <Point>PUKETUTU ISLAND</Point>
+      <Point>QUARRY LAKE</Point>
+      <Point>RED HILL</Point>
+      <Point>SEAGROVE</Point>
+      <Point>ST HELIERS</Point>
+      <Point>TAIHIKI RIVER ESTUARY</Point>
+      <Point>TAPU</Point>
+      <Point>TE ATATU</Point>
+      <Point>WAIMAUKU</Point>
+      <Point>WAIROA RIVER MOUTH</Point>
+      <Point>WAITAKERE</Point>
+      <Point>WARKWORTH</Point>
+      <Point>WATERWORKS</Point>
+      <Point>WELLSFORD</Point>
+      <Point>WEYMOUTH</Point>
+      <Point>WHITFORD TOWN</Point>
+    </Label>
   </Map>
 </Maps>
-
-<!-- 
-		<Line>
-		
-		</Line>
--->
-
-<!-- 
-  
-  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-401221.740+1752316.109">
-		<Line>
-		
-		</Line>      
-  </Map>
-
-
--->

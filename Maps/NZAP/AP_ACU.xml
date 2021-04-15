@@ -1,41 +1,279 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Maps>  
-	<Map Type="System" Name="STARs (Both RWYs)" Priority="2" CustomColourName="DrawProc" Centre="-384422.999+1760503.998">
-		<Line>
-			GOSTI/
-			GUSAG/
-			GUMAN/
-			ISGIT/
-			GUMAN/
-		</Line>
-		<Line>
-			KALGO/
-			GUSAG/
-			EMSAR/
-			MEXIS/
-			GUSAG
-		</Line>
-		<Line>
-			MEXIS/
-			SULFA/
-			AKABA
-		</Line>
+<Maps>
+  <Map Type="System2" Name="17 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-38.746789+176.082844">
+    <Line Pattern="Dashed">
+      <!--Rwy17 MINEK2-->
+      -38.746789+176.082844/-38.769722+176.067778/MINEK
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy17 MINEK2.AKNES-->
+      MINEK/AKNES
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy17 MINEK2.DOGMO-->
+      MINEK/RUNUP/DOGMO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy17 MINEK2.DUDUS-->
+      MINEK/PEBSO/DUDUS
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy17 MINEK2.ISGIT-->
+      PEBSO/ISGIT
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy17 MINEK2.KARBA-->
+      PEBSO/KARBA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy17 MINEK2.SULFA-->
+      MINEK/SULFA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy17 MINEK2.TAIKI-->
+      RUNUP/TAIKI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy17 MINEK2.TM-->
+      MINEK/TM NDB
+    </Line>
+    <Symbol Type="Circle">
+      <Point>TM NDB</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>MINEK</Point>
+      <Point>AKNES</Point>
+      <Point>RUNUP</Point>
+      <Point>DOGMO</Point>
+      <Point>PEBSO</Point>
+      <Point>DUDUS</Point>
+      <Point>ISGIT</Point>
+      <Point>KARBA</Point>
+      <Point>SULFA</Point>
+      <Point>TAIKI</Point>
+    </Symbol>
+    <Label>
+      <Point>MINEK</Point>
+      <Point>AKNES</Point>
+      <Point>DOGMO</Point>
+      <Point>DUDUS</Point>
+      <Point>ISGIT</Point>
+      <Point>KARBA</Point>
+      <Point>SULFA</Point>
+      <Point>TAIKI</Point>
+      <Point>TM NDB</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="17 STARs" Priority="1" CustomColourName="ProcArr" Centre="-38.734717+176.086950">
+    <Line>
+      <!--Rwy17 GOST2A-->
+      GOSTI/GUSAG/KALGO
+    </Line>
+    <Line>
+      <!--Rwy17 ISGI1A-->
+      ISGIT/GUMAN
+    </Line>
+    <Line>
+      <!--Rwy17 SULF2A-->
+      SULFA/MEXIS/GUSAG
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>KALGO</Point>
+      <Point>GUMAN</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>GOSTI</Point>
+      <Point>GUSAG</Point>
+      <Point>ISGIT</Point>
+      <Point>SULFA</Point>
+      <Point>MEXIS</Point>
+    </Symbol>
+    <Label>
+      <Point>GOSTI</Point>
+      <Point>ISGIT</Point>
+      <Point>SULFA</Point>
+      <Point>KALGO</Point>
+      <Point>GUMAN</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="17 GNSS" Priority="1" Center="-38.734717+176.086950" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle">
+      <Point>AP701</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>GUMAN</Point>
+      <Point>KALGO</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>OLSEK</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>AP706</Point>
+    </Symbol>
+    <Line>AP706/OLSEK/AP701/AP17T</Line>
+    <Line>GUMAN/AP706</Line>
+    <Line>KALGO/AP706</Line>
+  </Map>
+  <Map Type="System" Name="17 GNSS Labels" Priority="1" Center="-38.734717+176.086950" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>GUMAN</Point>
+      <Point>KALGO</Point>
+      <Point>OLSEK</Point>
+      <Point>AP706</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="35 STARs" Priority="1" CustomColourName="ProcArr" Centre="-38.746789+176.082844">
+    <Line>
+      <!--Rwy35 GOST2B-->
+      GOSTI/GUSAG/EMSAR
+    </Line>
+    <Line>
+      <!--Rwy35 GUMA1B-->
+      GUMAN/GUSAG
+    </Line>
+    <Line>
+      <!--Rwy35 SULF2B-->
+      SULFA/AKABA
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>EMSAR</Point>
+      <Point>AKABA</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>GOSTI</Point>
+      <Point>GUSAG</Point>
+      <Point>GUMAN</Point>
+      <Point>SULFA</Point>
+    </Symbol>
+    <Label>
+      <Point>GOSTI</Point>
+      <Point>GUMAN</Point>
+      <Point>SULFA</Point>
+      <Point>EMSAR</Point>
+      <Point>AKABA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="35 GNSS" Priority="1" Center="-38.746789+176.082844" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle">
+      <Point>AP501</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>AKABA</Point>
+      <Point>EMSAR</Point>
+      <Point>MASKU</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>UBLUT</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>AP506</Point>
+    </Symbol>
+    <Line>AP506/UBLUT/AP501/AP35T</Line>
+    <Line>AKABA/AP506</Line>
+    <Line>EMSAR/AP506</Line>
+    <Line>MASKU/AP506</Line>
+  </Map>
+  <Map Type="System" Name="35 GNSS Labels" Priority="1" Center="-38.746789+176.082844" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>AKABA</Point>
+      <Point>EMSAR</Point>
+      <Point>MASKU</Point>
+      <Point>UBLUT</Point>
+      <Point>AP506</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-38.739722+176.084444">
+    <Symbol Type="HollowSquare">
+      <Point>BOAT HARBOUR</Point>
+      <Point>GREEN LAKE</Point>
+      <Point>HAMURANA</Point>
+      <Point>HAPARANGI</Point>
+      <Point>HATEPE</Point>
+      <Point>HAUHUNGATAHI</Point>
+      <Point>HINEHOPU</Point>
+      <Point>HUKA FALLS</Point>
+      <Point>KAHAROA</Point>
+      <Point>KAINGAROA</Point>
+      <Point>KARANGAHAPE</Point>
+      <Point>KAWAHA POINT</Point>
+      <Point>KAWERAU VILLAGE</Point>
+      <Point>KETETAHI HOT SPRINGS</Point>
+      <Point>KINLOCH</Point>
+      <Point>LAKE ROTOAIRA</Point>
+      <Point>LAKE ROTOKAWA</Point>
+      <Point>LAKE ROTOKAWAU</Point>
+      <Point>LOWER TAMA LAKE</Point>
+      <Point>MAMAKU</Point>
+      <Point>MISSION BAY</Point>
+      <Point>MOKOIA ISLAND</Point>
+      <Point>MOTUTAIKO ISLAND</Point>
+      <Point>MOUNT TARAWERA</Point>
+      <Point>MOUNT TAUHARA</Point>
+      <Point>NGAKURU</Point>
+      <Point>NGONGOTAHA</Point>
+      <Point>PATOKA</Point>
+      <Point>PUKEPOTO</Point>
+      <Point>RANGATIRA POINT</Point>
+      <Point>SANDFLY HILL</Point>
+      <Point>SOUTHERN DAM</Point>
+      <Point>TE POHUE</Point>
+      <Point>TIRAU</Point>
+      <Point>TOKOROA</Point>
+      <Point>TUTIRA</Point>
+      <Point>UPPER TAMA LAKE</Point>
+      <Point>WAIPA SAWMILL</Point>
+      <Point>WAIRAKEI</Point>
+      <Point>WAIRANGO</Point>
+      <Point>WHAKAIPO BAY</Point>
+      <Point>WHAKAPAPA SKIFIELD</Point>
+      <Point>WHAKAPAPA VILLAGE</Point>
+      <Point>WHITE CLIFFS</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>BOAT HARBOUR</Point>
+      <Point>GREEN LAKE</Point>
+      <Point>HAMURANA</Point>
+      <Point>HAPARANGI</Point>
+      <Point>HATEPE</Point>
+      <Point>HAUHUNGATAHI</Point>
+      <Point>HINEHOPU</Point>
+      <Point>HUKA FALLS</Point>
+      <Point>KAHAROA</Point>
+      <Point>KAINGAROA</Point>
+      <Point>KARANGAHAPE</Point>
+      <Point>KAWAHA POINT</Point>
+      <Point>KAWERAU VILLAGE</Point>
+      <Point>KETETAHI HOT SPRINGS</Point>
+      <Point>KINLOCH</Point>
+      <Point>LAKE ROTOAIRA</Point>
+      <Point>LAKE ROTOKAWA</Point>
+      <Point>LAKE ROTOKAWAU</Point>
+      <Point>LOWER TAMA LAKE</Point>
+      <Point>MAMAKU</Point>
+      <Point>MISSION BAY</Point>
+      <Point>MOKOIA ISLAND</Point>
+      <Point>MOTUTAIKO ISLAND</Point>
+      <Point>MOUNT TARAWERA</Point>
+      <Point>MOUNT TAUHARA</Point>
+      <Point>NGAKURU</Point>
+      <Point>NGONGOTAHA</Point>
+      <Point>PATOKA</Point>
+      <Point>PUKEPOTO</Point>
+      <Point>RANGATIRA POINT</Point>
+      <Point>SANDFLY HILL</Point>
+      <Point>SOUTHERN DAM</Point>
+      <Point>TE POHUE</Point>
+      <Point>TIRAU</Point>
+      <Point>TOKOROA</Point>
+      <Point>TUTIRA</Point>
+      <Point>UPPER TAMA LAKE</Point>
+      <Point>WAIPA SAWMILL</Point>
+      <Point>WAIRAKEI</Point>
+      <Point>WAIRANGO</Point>
+      <Point>WHAKAIPO BAY</Point>
+      <Point>WHAKAPAPA SKIFIELD</Point>
+      <Point>WHAKAPAPA VILLAGE</Point>
+      <Point>WHITE CLIFFS</Point>
+    </Label>
   </Map>
 </Maps>
-
-<!-- 
-		<Line>
-		
-		</Line>
--->
-
-<!-- 
-  
-  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-384422.999+1760503.998">
-		<Line>
-		
-		</Line>      
-  </Map>
-
-
--->

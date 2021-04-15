@@ -8,10 +8,7 @@
       </Sectors>
       <Maps>
         <Map Name="Coast" />
-        <Map Name="Runways" />
-        <Map Name="Airspace/CTA" />
-        <Map Name="Airspace/CTR" />
-        <Map Name="Navaids/FIX" />
+        <Map Name="Airspace/Enroute Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
       </Maps>
@@ -38,10 +35,7 @@
       </Sectors>
       <Maps>
         <Map Name="Coast" />
-        <Map Name="Runways" />
-        <Map Name="Airspace/CTA" />
-        <Map Name="Airspace/CTR" />
-        <Map Name="Navaids/FIX" />
+        <Map Name="Airspace/Enroute Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
       </Maps>
@@ -66,10 +60,7 @@
       </Sectors>
       <Maps>
         <Map Name="Coast" />
-        <Map Name="Runways" />
-        <Map Name="Airspace/CTA" />
-        <Map Name="Airspace/CTR" />
-        <Map Name="Navaids/FIX" />
+        <Map Name="Airspace/Enroute Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
       </Maps>
@@ -94,10 +85,7 @@
       </Sectors>
       <Maps>
         <Map Name="Coast" />
-        <Map Name="Runways" />
-        <Map Name="Airspace/CTA" />
-        <Map Name="Airspace/CTR" />
-        <Map Name="Navaids/FIX" />
+        <Map Name="Airspace/Enroute Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
       </Maps>
@@ -122,10 +110,7 @@
       </Sectors>
       <Maps>
         <Map Name="Coast" />
-        <Map Name="Runways" />
-        <Map Name="Airspace/CTA" />
-        <Map Name="Airspace/CTR" />
-        <Map Name="Navaids/FIX" />
+        <Map Name="Airspace/Enroute Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
       </Maps>
@@ -150,10 +135,7 @@
       </Sectors>
       <Maps>
         <Map Name="Coast" />
-        <Map Name="Runways" />
-        <Map Name="Airspace/CTA" />
-        <Map Name="Airspace/CTR" />
-        <Map Name="Navaids/FIX" />
+        <Map Name="Airspace/Enroute Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
       </Maps>
@@ -177,15 +159,15 @@
     <Position Name="Auckland ACU" Type="ASD" DefaultCenter="-370020.413+1744725.105" DefaultRange="160" MagneticVariation="-21">
       <Sectors>
         <Sector Name="ATMA" />
-      <Sector Name="AARR" />
-      <Sector Name="ADEP" />
+        <Sector Name="AARR" />
+        <Sector Name="ADEP" />
       </Sectors>
       <Maps>
         <Map Name="Coast" />
         <Map Name="Runways" />
+        <Map Name="Airspace/Aerodromes" />
         <Map Name="Airspace/CTA" />
         <Map Name="Airspace/CTR" />
-        <Map Name="Navaids/FIX" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
       </Maps>
@@ -215,9 +197,9 @@
       <Maps>
         <Map Name="Coast" />
         <Map Name="Runways" />
+        <Map Name="Airspace/Aerodromes" />
         <Map Name="Airspace/CTA" />
         <Map Name="Airspace/CTR" />
-        <Map Name="Navaids/FIX" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
       </Maps>
@@ -248,9 +230,9 @@
       <Maps>
         <Map Name="Coast" />
         <Map Name="Runways" />
+        <Map Name="Airspace/Aerodromes" />
         <Map Name="Airspace/CTA" />
         <Map Name="Airspace/CTR" />
-        <Map Name="Navaids/FIX" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
       </Maps>
@@ -277,9 +259,9 @@
       <Maps>
         <Map Name="Coast" />
         <Map Name="Runways" />
+        <Map Name="Airspace/Aerodromes" />
         <Map Name="Airspace/CTA" />
         <Map Name="Airspace/CTR" />
-        <Map Name="Navaids/FIX" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
       </Maps>
@@ -306,9 +288,9 @@
       <Maps>
         <Map Name="Coast" />
         <Map Name="Runways" />
+        <Map Name="Airspace/Aerodromes" />
         <Map Name="Airspace/CTA" />
         <Map Name="Airspace/CTR" />
-        <Map Name="Navaids/FIX" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
       </Maps>
@@ -335,9 +317,9 @@
       <Maps>
         <Map Name="Coast" />
         <Map Name="Runways" />
+        <Map Name="Airspace/Aerodromes" />
         <Map Name="Airspace/CTA" />
         <Map Name="Airspace/CTR" />
-        <Map Name="Navaids/FIX" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
       </Maps>

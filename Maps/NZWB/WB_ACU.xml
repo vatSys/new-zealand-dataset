@@ -1,69 +1,442 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Maps>  
-	<Map Type="System" Name="RWY 24 STARs" Priority="2" CustomColourName="DrawProc" Centre="-413105.999+1735213.001">
-		<Line>
-			LUBSI/
-			VASLU/
-			SUPEN/
-			IPMIR
-		</Line>
-		<Line>
-			SUPEN/
-			LUTKA/
-			AVPOD
-		</Line>
-		<Line>
-			LUTKA/
-			IGMUL/
-			LUTKA/
-			JAMIE/
-			ELPIT/
-			JAMIE/
-			OMDOX
-		</Line>
+<Maps>
+  <Map Type="System2" Name="06 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-41.517417+173.877906">
+    <Line Pattern="Dashed">
+      <!--Rwy06 DOTU2Q-->
+      -41.517417+173.877906/-41.511111+173.990000/DOTUT
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy06 DOTU2Q.ELPIT-->
+      DOTUT/LAPOK/ELPIT
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy06 DOTU2Q.SULRI-->
+      DOTUT/SULRI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy06 LUBS1Q-->
+      -41.517417+173.877906/-41.513611+173.943889/VASLU/SEDSI/SADBO/LUBSI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy06 NZWB1A-->
+      -41.517417+173.877906/LUTKA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy06 SEDS2Q-->
+      -41.517417+173.877906/-41.514167+173.944167/VASLU
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy06 SEDS2Q.AVPOD-->
+      SEDSI/AVPOD
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy06 SEDS2Q.IPMIR-->
+      SEDSI/IPMIR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy06 VLY3-->
+      -41.517417+173.877906/MARLO
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>DOTUT</Point>
+      <Point>LAPOK</Point>
+      <Point>ELPIT</Point>
+      <Point>SULRI</Point>
+      <Point>VASLU</Point>
+      <Point>SEDSI</Point>
+      <Point>SADBO</Point>
+      <Point>LUBSI</Point>
+      <Point>LUTKA</Point>
+      <Point>AVPOD</Point>
+      <Point>IPMIR</Point>
+      <Point>MARLO</Point>
+    </Symbol>
+    <Label>
+      <Point>DOTUT</Point>
+      <Point>LUBSI</Point>
+      <Point>LUTKA</Point>
+      <Point>SEDSI</Point>
+      <Point>MARLO</Point>
+      <Point>ELPIT</Point>
+      <Point>SULRI</Point>
+      <Point>AVPOD</Point>
+      <Point>IPMIR</Point>
+    </Label>
   </Map>
-	  
-	<Map Type="System" Name="RWY 06 STARs" Priority="2" CustomColourName="DrawProc" Centre="-413105.999+1735213.001">
-		<Line>
-			LUBSI/
-			VASLU/
-			SUPEN/
-			IPMIR
-		</Line>
-		<Line>
-			SUPEN/
-			LUTKA/
-			AVPOD
-		</Line>
-		<Line>
-			LUTKA/
-			IGMUL/
-			LUTKA/
-			JAMIE/
-			ELPIT/
-			JAMIE/
-			OMDOX
-		</Line>	
-		<Line>
-			WB/
-			LUTKA
-		</Line>	
+  <Map Type="System2" Name="06 STARs" Priority="1" CustomColourName="ProcArr" Centre="-41.518322+173.860875">
+    <Line>
+      <!--Rwy06 AVPO1K-->
+      AVPOD/LUTKA
+    </Line>
+    <Line>
+      <!--Rwy06 AVPO1M-->
+      LUTKA/WB VOR
+    </Line>
+    <Line>
+      <!--Rwy06 IGMU1K-->
+      IGMUL/LUTKA
+    </Line>
+    <Line>
+      <!--Rwy06 IGMU1M-->
+    </Line>
+    <Line>
+      <!--Rwy06 JAMI2K.ELPIT-->
+      ELPIT/JAMIE
+    </Line>
+    <Line>
+      <!--Rwy06 JAMI2K.OMDOX-->
+      OMDOX/JAMIE
+    </Line>
+    <Line>
+      <!--Rwy06 JAMI2K-->
+      JAMIE/LUTKA
+    </Line>
+    <Line>
+      <!--Rwy06 JAMI2M.ELPIT-->
+    </Line>
+    <Line>
+      <!--Rwy06 JAMI2M.OMDOX-->
+    </Line>
+    <Line>
+      <!--Rwy06 JAMI2M-->
+    </Line>
+    <Line>
+      <!--Rwy06 SUPE2K.IPMIR-->
+      IPMIR/SUPEN
+    </Line>
+    <Line>
+      <!--Rwy06 SUPE2K.LUBSI-->
+      LUBSI/VASLU/SUPEN
+    </Line>
+    <Line>
+      <!--Rwy06 SUPE2K-->
+      SUPEN/LUTKA
+    </Line>
+    <Line>
+      <!--Rwy06 SUPE2M.IPMIR-->
+    </Line>
+    <Line>
+      <!--Rwy06 SUPE2M.LUBSI-->
+    </Line>
+    <Line>
+      <!--Rwy06 SUPE2M-->
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>LUTKA</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>WB VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>AVPOD</Point>
+      <Point>IGMUL</Point>
+      <Point>ELPIT</Point>
+      <Point>JAMIE</Point>
+      <Point>OMDOX</Point>
+      <Point>IPMIR</Point>
+      <Point>SUPEN</Point>
+      <Point>LUBSI</Point>
+      <Point>VASLU</Point>
+    </Symbol>
+    <Label>
+      <Point>AVPOD</Point>
+      <Point>IGMUL</Point>
+      <Point>JAMIE</Point>
+      <Point>SUPEN</Point>
+      <Point>ELPIT</Point>
+      <Point>OMDOX</Point>
+      <Point>IPMIR</Point>
+      <Point>LUBSI</Point>
+      <Point>LUTKA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="24 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-41.518322+173.860875">
+    <Line Pattern="Dashed">
+      <!--Rwy24 BODI2P-->
+      -41.518322+173.860875/ADBOM/-41.554167+173.782500/URGUN/BODIM
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy24 BODI2P.ELPIT-->
+      BODIM/ELPIT
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy24 BODI2P.SULRI-->
+      BODIM/DOTUT/SULRI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy24 SEDS2P-->
+      -41.518322+173.860875/-41.554167+173.782500/VASLU/SEDSI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy24 SEDS2P.AVPOD-->
+      SEDSI/AVPOD
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy24 SEDS2P.IPMIR-->
+      SEDSI/IPMIR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy24 SEDS2P.LUBSI-->
+      SEDSI/SADBO/LUBSI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy24 SPG3-->
+      -41.518322+173.860875/WB VOR/MARLO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy24 VINES3-->
+      -41.518322+173.860875/-41.522778+173.791667/-41.554167+173.782500/-41.511389+173.939722/MARLO
+    </Line>
+    <Symbol Type="Circle">
+      <Point>WB VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>ADBOM</Point>
+      <Point>URGUN</Point>
+      <Point>BODIM</Point>
+      <Point>ELPIT</Point>
+      <Point>DOTUT</Point>
+      <Point>SULRI</Point>
+      <Point>VASLU</Point>
+      <Point>SEDSI</Point>
+      <Point>AVPOD</Point>
+      <Point>IPMIR</Point>
+      <Point>SADBO</Point>
+      <Point>LUBSI</Point>
+      <Point>MARLO</Point>
+    </Symbol>
+    <Label>
+      <Point>BODIM</Point>
+      <Point>SEDSI</Point>
+      <Point>MARLO</Point>
+      <Point>ELPIT</Point>
+      <Point>SULRI</Point>
+      <Point>AVPOD</Point>
+      <Point>IPMIR</Point>
+      <Point>LUBSI</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="24 STARs" Priority="1" CustomColourName="ProcArr" Centre="-41.517417+173.877906">
+    <Line>
+      <!--Rwy24 AVPO1J-->
+      AVPOD/LUTKA
+    </Line>
+    <Line>
+      <!--Rwy24 IGMU1J-->
+      IGMUL/LUTKA
+    </Line>
+    <Line>
+      <!--Rwy24 JAMI2J.ELPIT-->
+      ELPIT/JAMIE
+    </Line>
+    <Line>
+      <!--Rwy24 JAMI2J.OMDOX-->
+      OMDOX/JAMIE
+    </Line>
+    <Line>
+      <!--Rwy24 JAMI2J-->
+      JAMIE/LUTKA
+    </Line>
+    <Line>
+      <!--Rwy24 SUPE2J.IPMIR-->
+      IPMIR/SUPEN
+    </Line>
+    <Line>
+      <!--Rwy24 SUPE2J.LUBSI-->
+      LUBSI/VASLU/SUPEN
+    </Line>
+    <Line>
+      <!--Rwy24 SUPE2J-->
+      SUPEN/LUTKA
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>LUTKA</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>AVPOD</Point>
+      <Point>IGMUL</Point>
+      <Point>ELPIT</Point>
+      <Point>JAMIE</Point>
+      <Point>OMDOX</Point>
+      <Point>IPMIR</Point>
+      <Point>SUPEN</Point>
+      <Point>LUBSI</Point>
+      <Point>VASLU</Point>
+    </Symbol>
+    <Label>
+      <Point>AVPOD</Point>
+      <Point>IGMUL</Point>
+      <Point>JAMIE</Point>
+      <Point>SUPEN</Point>
+      <Point>ELPIT</Point>
+      <Point>OMDOX</Point>
+      <Point>IPMIR</Point>
+      <Point>LUBSI</Point>
+      <Point>LUTKA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="24 GNSS" Priority="1" Center="-41.517417+173.877906" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle">
+      <Point>ELKUB</Point>
+      <Point>WB401</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>JAMIE</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>ENPIP</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>LUTKA</Point>
+    </Symbol>
+    <Line>LUTKA/ELKUB/ENPIP/WB401/WB24T</Line>
+    <Line>JAMIE/LUTKA</Line>
+  </Map>
+  <Map Type="System" Name="24 GNSS Labels" Priority="1" Center="-41.517417+173.877906" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>JAMIE</Point>
+      <Point>ENPIP</Point>
+      <Point>LUTKA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-41.518333+173.870278">
+    <Symbol Type="HollowSquare">
+      <Point>ADELE ISLAND</Point>
+      <Point>AWATERE RIVER MOUTH</Point>
+      <Point>BARING</Point>
+      <Point>BELMONT HILL</Point>
+      <Point>BOULDER</Point>
+      <Point>BRANFORD</Point>
+      <Point>BRIGHTWATER</Point>
+      <Point>CAPE SOUCIS</Point>
+      <Point>CHIP MILL</Point>
+      <Point>DASHWOOD PASS</Point>
+      <Point>DIP FLAT</Point>
+      <Point>DOMES</Point>
+      <Point>DOVEDALE</Point>
+      <Point>GOAT HILL</Point>
+      <Point>GOLDEN MILL</Point>
+      <Point>GRENADA</Point>
+      <Point>HARBOUR ENTRANCE</Point>
+      <Point>ISLAND BAY</Point>
+      <Point>JACKETTS ISLAND</Point>
+      <Point>JENKINS HILL</Point>
+      <Point>KAITUNA BRIDGE</Point>
+      <Point>KARORI ROCK</Point>
+      <Point>KINA</Point>
+      <Point>MAITAI SADDLE</Point>
+      <Point>MAKARA PEAK</Point>
+      <Point>MANA ISLAND</Point>
+      <Point>MAPUA</Point>
+      <Point>MATAI DAM</Point>
+      <Point>MOLESWORTH STATION</Point>
+      <Point>MOTUEKA</Point>
+      <Point>OBSERVATORY</Point>
+      <Point>OHAU POINT</Point>
+      <Point>OKARAMIO</Point>
+      <Point>PENCARROW</Point>
+      <Point>PEPIN ISLAND</Point>
+      <Point>PETONE WHARF</Point>
+      <Point>PIPINUI POINT</Point>
+      <Point>POINT GORDON</Point>
+      <Point>POINT HOWARD</Point>
+      <Point>PONDS</Point>
+      <Point>RABBIT ISLAND BRIDGE</Point>
+      <Point>RARANGI</Point>
+      <Point>REDWOODS VALLEY</Point>
+      <Point>RUNUNDER POINT</Point>
+      <Point>SAWMILL</Point>
+      <Point>SEDDON</Point>
+      <Point>SINCLAIR HEAD</Point>
+      <Point>SOMES</Point>
+      <Point>SPRING CREEK</Point>
+      <Point>TAPAWERA</Point>
+      <Point>TAYLOR DAM</Point>
+      <Point>TAYLOR PASS</Point>
+      <Point>TERAWHITI</Point>
+      <Point>THE DIVERSION</Point>
+      <Point>THE NED</Point>
+      <Point>THE RIDGE</Point>
+      <Point>TUAMARINA BRIDGE</Point>
+      <Point>TURAKIRAE</Point>
+      <Point>UPPER MOUTERE</Point>
+      <Point>WAIHOPAI BRIDGE</Point>
+      <Point>WAIRAU BAR</Point>
+      <Point>WAKEFIELD</Point>
+      <Point>WARD ISLAND</Point>
+      <Point>WATERTANK</Point>
+      <Point>WHANGAMOA SADDLE</Point>
+      <Point>WHITE BLUFFS</Point>
+      <Point>WINDMILL</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>ADELE ISLAND</Point>
+      <Point>AWATERE RIVER MOUTH</Point>
+      <Point>BARING</Point>
+      <Point>BELMONT HILL</Point>
+      <Point>BOULDER</Point>
+      <Point>BRANFORD</Point>
+      <Point>BRIGHTWATER</Point>
+      <Point>CAPE SOUCIS</Point>
+      <Point>CHIP MILL</Point>
+      <Point>DASHWOOD PASS</Point>
+      <Point>DIP FLAT</Point>
+      <Point>DOMES</Point>
+      <Point>DOVEDALE</Point>
+      <Point>GOAT HILL</Point>
+      <Point>GOLDEN MILL</Point>
+      <Point>GRENADA</Point>
+      <Point>HARBOUR ENTRANCE</Point>
+      <Point>ISLAND BAY</Point>
+      <Point>JACKETTS ISLAND</Point>
+      <Point>JENKINS HILL</Point>
+      <Point>KAITUNA BRIDGE</Point>
+      <Point>KARORI ROCK</Point>
+      <Point>KINA</Point>
+      <Point>MAITAI SADDLE</Point>
+      <Point>MAKARA PEAK</Point>
+      <Point>MANA ISLAND</Point>
+      <Point>MAPUA</Point>
+      <Point>MATAI DAM</Point>
+      <Point>MOLESWORTH STATION</Point>
+      <Point>MOTUEKA</Point>
+      <Point>OBSERVATORY</Point>
+      <Point>OHAU POINT</Point>
+      <Point>OKARAMIO</Point>
+      <Point>PENCARROW</Point>
+      <Point>PEPIN ISLAND</Point>
+      <Point>PETONE WHARF</Point>
+      <Point>PIPINUI POINT</Point>
+      <Point>POINT GORDON</Point>
+      <Point>POINT HOWARD</Point>
+      <Point>PONDS</Point>
+      <Point>RABBIT ISLAND BRIDGE</Point>
+      <Point>RARANGI</Point>
+      <Point>REDWOODS VALLEY</Point>
+      <Point>RUNUNDER POINT</Point>
+      <Point>SAWMILL</Point>
+      <Point>SEDDON</Point>
+      <Point>SINCLAIR HEAD</Point>
+      <Point>SOMES</Point>
+      <Point>SPRING CREEK</Point>
+      <Point>TAPAWERA</Point>
+      <Point>TAYLOR DAM</Point>
+      <Point>TAYLOR PASS</Point>
+      <Point>TERAWHITI</Point>
+      <Point>THE DIVERSION</Point>
+      <Point>THE NED</Point>
+      <Point>THE RIDGE</Point>
+      <Point>TUAMARINA BRIDGE</Point>
+      <Point>TURAKIRAE</Point>
+      <Point>UPPER MOUTERE</Point>
+      <Point>WAIHOPAI BRIDGE</Point>
+      <Point>WAIRAU BAR</Point>
+      <Point>WAKEFIELD</Point>
+      <Point>WARD ISLAND</Point>
+      <Point>WATERTANK</Point>
+      <Point>WHANGAMOA SADDLE</Point>
+      <Point>WHITE BLUFFS</Point>
+      <Point>WINDMILL</Point>
+    </Label>
   </Map>
 </Maps>
-
-<!-- 
-		<Line>
-		
-		</Line>
--->
-
-<!-- 
-  
-  <Map Type="System" Name="RWY 02 STARs" Priority="2" CustomColourName="DrawProc" Centre="-413105.999+1735213.001">
-		<Line>
-		
-		</Line>      
-  </Map>
-
-
--->

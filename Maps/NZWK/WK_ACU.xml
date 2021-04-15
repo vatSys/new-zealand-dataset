@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="09 STARs" Priority="1" CustomColourName="ProcArr" Centre="-37.919939+176.909972">
+    <Line>
+      <!--Rwy09 KEPA2A-->
+      KEEPA/WK406/LAVIS
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>LAVIS</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>KEEPA</Point>
+      <Point>WK406</Point>
+    </Symbol>
+    <Label>
+      <Point>KEEPA</Point>
+      <Point>LAVIS</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="09 GNSS" Priority="1" Center="-37.919939+176.909972" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>LAVIS</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>WK401</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>ELBEV</Point>
+    </Symbol>
+    <Line>ELBEV/WK401/WK09T</Line>
+    <Line>LAVIS/ELBEV</Line>
+  </Map>
+  <Map Type="System" Name="09 GNSS Labels" Priority="1" Center="-37.919939+176.909972" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>LAVIS</Point>
+      <Point>WK401</Point>
+      <Point>ELBEV</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="27 STARs" Priority="1" CustomColourName="ProcArr" Centre="-37.924317+176.923450">
+    <Line>
+      <!--Rwy27 KEPA2B-->
+      KEEPA/WK404/WK403/REGAT
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>REGAT</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>KEEPA</Point>
+      <Point>WK404</Point>
+      <Point>WK403</Point>
+    </Symbol>
+    <Label>
+      <Point>KEEPA</Point>
+      <Point>REGAT</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="27 GNSS" Priority="1" Center="-37.924317+176.923450" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>POTOP</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>WK402</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>REGAT</Point>
+    </Symbol>
+    <Line>REGAT/WK402/WK27T</Line>
+    <Line>POTOP/REGAT</Line>
+  </Map>
+  <Map Type="System" Name="27 GNSS Labels" Priority="1" Center="-37.924317+176.923450" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>POTOP</Point>
+      <Point>WK402</Point>
+      <Point>REGAT</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-37.920147+176.913217">
+    <Symbol Type="HollowSquare">
+      <Point>BEACH MOTOR CAMP</Point>
+      <Point>BLUE GUM BAY</Point>
+      <Point>EAST JUNCTION</Point>
+      <Point>GREEN LAKE</Point>
+      <Point>HAMURANA</Point>
+      <Point>HAPARANGI</Point>
+      <Point>HINEHOPU</Point>
+      <Point>HUNTERS CREEK</Point>
+      <Point>KAHAROA</Point>
+      <Point>KAINGAROA</Point>
+      <Point>KAREWA ISLAND</Point>
+      <Point>KAWAHA POINT</Point>
+      <Point>KAWERAU VILLAGE</Point>
+      <Point>LAKE ROTOKAWAU</Point>
+      <Point>MAKETU</Point>
+      <Point>MAMAKU</Point>
+      <Point>MOKOIA ISLAND</Point>
+      <Point>MOUNT BALDY</Point>
+      <Point>MOUNT HARBOUR ENTRANCE</Point>
+      <Point>MOUNT TARAWERA</Point>
+      <Point>NGAKURU</Point>
+      <Point>NGONGOTAHA</Point>
+      <Point>OMOKOROA</Point>
+      <Point>OXIDATION PONDS</Point>
+      <Point>PUKEPOTO</Point>
+      <Point>RACECOURSE</Point>
+      <Point>RUAHIHI</Point>
+      <Point>SPORTS GROUND</Point>
+      <Point>TE PUKE</Point>
+      <Point>TE PUNA</Point>
+      <Point>WAIPA SAWMILL</Point>
+      <Point>WELCOME BAY</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>BEACH MOTOR CAMP</Point>
+      <Point>BLUE GUM BAY</Point>
+      <Point>EAST JUNCTION</Point>
+      <Point>GREEN LAKE</Point>
+      <Point>HAMURANA</Point>
+      <Point>HAPARANGI</Point>
+      <Point>HINEHOPU</Point>
+      <Point>HUNTERS CREEK</Point>
+      <Point>KAHAROA</Point>
+      <Point>KAINGAROA</Point>
+      <Point>KAREWA ISLAND</Point>
+      <Point>KAWAHA POINT</Point>
+      <Point>KAWERAU VILLAGE</Point>
+      <Point>LAKE ROTOKAWAU</Point>
+      <Point>MAKETU</Point>
+      <Point>MAMAKU</Point>
+      <Point>MOKOIA ISLAND</Point>
+      <Point>MOUNT BALDY</Point>
+      <Point>MOUNT HARBOUR ENTRANCE</Point>
+      <Point>MOUNT TARAWERA</Point>
+      <Point>NGAKURU</Point>
+      <Point>NGONGOTAHA</Point>
+      <Point>OMOKOROA</Point>
+      <Point>OXIDATION PONDS</Point>
+      <Point>PUKEPOTO</Point>
+      <Point>RACECOURSE</Point>
+      <Point>RUAHIHI</Point>
+      <Point>SPORTS GROUND</Point>
+      <Point>TE PUKE</Point>
+      <Point>TE PUNA</Point>
+      <Point>WAIPA SAWMILL</Point>
+      <Point>WELCOME BAY</Point>
+    </Label>
+  </Map>
+</Maps>
