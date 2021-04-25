@@ -5,11 +5,11 @@
       <!--Rwy16 AGTI1A-->
       DOMON/AGTID
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy16 GURS1A.DOMON-->
       DOMON/GURSU
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy16 GURS1A.MARKS-->
       MARKS/GURSU
     </Line>
@@ -25,7 +25,7 @@
       <Point>GURSU</Point>
       <Point>MARKS</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>DOMON</Point>
       <Point>GURSU</Point>
       <Point>MARKS</Point>
@@ -45,12 +45,12 @@
     <Symbol Type="SolidTriangle">
       <Point>AVMEB</Point>
     </Symbol>
-    <Line>AVMEB/RITPU/WO16T</Line>
-    <Line>AGTID/AVMEB</Line>
-    <Line>IKIMU/AVMEB</Line>
-    <Line>UPSUV/AVMEB</Line>
+    <Line Pattern="Solid">AVMEB/RITPU/WO16T</Line>
+    <Line Pattern="Solid">AGTID/AVMEB</Line>
+    <Line Pattern="Solid">IKIMU/AVMEB</Line>
+    <Line Pattern="Solid">UPSUV/AVMEB</Line>
   </Map>
-  <Map Type="System" Name="16 GNSS Labels" Priority="1" Center="-39.007550+177.404069" CustomColourName="ProcArr">
+  <Map Type="System2" Name="16 GNSS Labels" Priority="1" Center="-39.007550+177.404069" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>AGTID</Point>
       <Point>IKIMU</Point>
@@ -72,7 +72,7 @@
       <Point>DOMON</Point>
       <Point>GOTNO</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>DOMON</Point>
       <Point>GOTNO</Point>
     </Label>
@@ -91,11 +91,11 @@
     <Symbol Type="SolidTriangle">
       <Point>MARKS</Point>
     </Symbol>
-    <Line>MARKS/WO422/WO411/WO34T</Line>
-    <Line>BURLY/MARKS</Line>
-    <Line>OPOHO/MARKS</Line>
+    <Line Pattern="Solid">MARKS/WO422/WO411/WO34T</Line>
+    <Line Pattern="Solid">BURLY/MARKS</Line>
+    <Line Pattern="Solid">OPOHO/MARKS</Line>
   </Map>
-  <Map Type="System" Name="34 GNSS Labels" Priority="1" Center="-39.015750+177.404714" CustomColourName="ProcArr">
+  <Map Type="System2" Name="34 GNSS Labels" Priority="1" Center="-39.015750+177.404714" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>BURLY</Point>
       <Point>OPOHO</Point>
@@ -144,7 +144,7 @@
       <Point>WHAKAPUNAKI</Point>
       <Point>WHIRINAKI</Point>
     </Symbol>
-    <Label HasLeader="True">
+    <Label HasLeader="true">
       <Point>AWATOTO</Point>
       <Point>BARTLETTS</Point>
       <Point>CLIVE</Point>

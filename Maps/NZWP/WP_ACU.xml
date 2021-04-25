@@ -28,7 +28,7 @@
       <Point>LAKES</Point>
       <Point>OMLEN</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>BAYES</Point>
       <Point>AA VOR</Point>
       <Point>LAKES</Point>
@@ -40,15 +40,15 @@
       <!--Rwy03 AA1K-->
       AA VOR/GUTLA/OMKOL/WYTAK
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy03 ARAD2K.LUNBI-->
       LUNBI/ARADI
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy03 ARAD2K.PEBLU-->
       PEBLU/ARADI
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy03 ARAD2K.VELMO-->
       VELMO/ARADI
     </Line>
@@ -56,19 +56,19 @@
       <!--Rwy03 ARAD2K-->
       ARADI/WYTAK
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy03 BASI2K.DUGAN-->
       DUGAN/BASIV
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy03 BASI2K.ELNOS-->
       ELNOS/BASIV
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy03 BASI2K.SALAG-->
       SALAG/BASIV
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy03 BASI2K.UPLAR-->
       UPLAR/BASIV
     </Line>
@@ -76,27 +76,27 @@
       <!--Rwy03 BASI2K-->
       BASIV/WYTAK
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy03 EXOP1K.AGREX-->
       AGREX/EXOPI
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy03 EXOP1K.AKLOM-->
       AKLOM/EXOPI
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy03 EXOP1K.KALAG-->
       KALAG/EXOPI
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy03 EXOP1K.OLBEX-->
       OLBEX/EXOPI
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy03 EXOP1K.SELKA-->
       SELKA/OKTUB/EXOPI
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy03 EXOP1K.TARIB-->
       TARIB/EXOPI
     </Line>
@@ -143,7 +143,7 @@
       <Point>LUPRU</Point>
       <Point>OMLEN</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>AA VOR</Point>
       <Point>ARADI</Point>
       <Point>BASIV</Point>
@@ -175,9 +175,9 @@
     <Symbol Type="SolidTriangle">
       <Point>WYTAK</Point>
     </Symbol>
-    <Line>WYTAK/MESUD/WP03T</Line>
+    <Line Pattern="Solid">WYTAK/MESUD/WP03T</Line>
   </Map>
-  <Map Type="System" Name="03 GNSS Labels" Priority="1" Center="-36.796181+174.620886" CustomColourName="ProcArr">
+  <Map Type="System2" Name="03 GNSS Labels" Priority="1" Center="-36.796181+174.620886" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>MESUD</Point>
       <Point>WYTAK</Point>
@@ -223,7 +223,7 @@
       <Point>LUPRU</Point>
       <Point>OMLEN</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>WYTAK</Point>
       <Point>AA VOR</Point>
       <Point>KAPAI</Point>
@@ -237,15 +237,15 @@
       <!--Rwy21 AA1J-->
       AA VOR/GUTLA/EMSAK/BAYES
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy21 ARAD1J.LUNBI-->
       LUNBI/ARADI
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy21 ARAD1J.PEBLU-->
       PEBLU/ARADI
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy21 ARAD1J.VELMO-->
       VELMO/ARADI
     </Line>
@@ -253,19 +253,19 @@
       <!--Rwy21 ARAD1J-->
       ARADI/VASBO/RUTLO/BAYES
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy21 BASI2J.DUGAN-->
       DUGAN/BASIV
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy21 BASI2J.ELNOS-->
       ELNOS/BASIV
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy21 BASI2J.SALAG-->
       SALAG/BASIV
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy21 BASI2J.UPLAR-->
       UPLAR/BASIV
     </Line>
@@ -273,27 +273,27 @@
       <!--Rwy21 BASI2J-->
       BASIV/RUTLO
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy21 EXOP2J.AGREX-->
       AGREX/EXOPI
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy21 EXOP2J.AKLOM-->
       AKLOM/EXOPI
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy21 EXOP2J.KALAG-->
       KALAG/EXOPI
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy21 EXOP2J.OLBEX-->
       OLBEX/EXOPI
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy21 EXOP2J.SELKA-->
       SELKA/OKTUB/EXOPI
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy21 EXOP2J.TARIB-->
       TARIB/EXOPI
     </Line>
@@ -340,7 +340,7 @@
       <Point>LUPRU</Point>
       <Point>OMLEN</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>AA VOR</Point>
       <Point>ARADI</Point>
       <Point>BASIV</Point>
@@ -372,9 +372,9 @@
     <Symbol Type="SolidTriangle">
       <Point>BAYES</Point>
     </Symbol>
-    <Line>BAYES/KIBIM/WP21T</Line>
+    <Line Pattern="Solid">BAYES/KIBIM/WP21T</Line>
   </Map>
-  <Map Type="System" Name="21 GNSS Labels" Priority="1" Center="-36.785153+174.639053" CustomColourName="ProcArr">
+  <Map Type="System2" Name="21 GNSS Labels" Priority="1" Center="-36.785153+174.639053" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>KIBIM</Point>
       <Point>BAYES</Point>
@@ -388,7 +388,7 @@
     <Symbol Type="HollowTriangle">
       <Point>BAYES</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>BAYES</Point>
     </Label>
   </Map>
@@ -403,7 +403,7 @@
     <Symbol Type="Circle">
       <Point>AA VOR</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>AA VOR</Point>
       <Point>IGOLF</Point>
     </Label>
@@ -420,11 +420,11 @@
     <Symbol Type="SolidTriangle">
       <Point>MAKEE</Point>
     </Symbol>
-    <Line>MAKEE/WP801/WP08T</Line>
-    <Line>HALEN/MAKEE</Line>
-    <Line>IGOLF/MAKEE</Line>
+    <Line Pattern="Solid">MAKEE/WP801/WP08T</Line>
+    <Line Pattern="Solid">HALEN/MAKEE</Line>
+    <Line Pattern="Solid">IGOLF/MAKEE</Line>
   </Map>
-  <Map Type="System" Name="08 GNSS Labels" Priority="1" Center="-36.783758+174.623467" CustomColourName="ProcArr">
+  <Map Type="System2" Name="08 GNSS Labels" Priority="1" Center="-36.783758+174.623467" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>HALEN</Point>
       <Point>IGOLF</Point>
@@ -440,7 +440,7 @@
     <Symbol Type="HollowTriangle">
       <Point>WYTAK</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>WYTAK</Point>
     </Label>
   </Map>
@@ -455,7 +455,7 @@
     <Symbol Type="Circle">
       <Point>AA VOR</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>AA VOR</Point>
       <Point>BAZEN</Point>
     </Label>
@@ -472,11 +472,11 @@
     <Symbol Type="SolidTriangle">
       <Point>FLAXX</Point>
     </Symbol>
-    <Line>FLAXX/WP601/WP26T</Line>
-    <Line>ABUOY/FLAXX</Line>
-    <Line>BAZEN/FLAXX</Line>
+    <Line Pattern="Solid">FLAXX/WP601/WP26T</Line>
+    <Line Pattern="Solid">ABUOY/FLAXX</Line>
+    <Line Pattern="Solid">BAZEN/FLAXX</Line>
   </Map>
-  <Map Type="System" Name="26 GNSS Labels" Priority="1" Center="-36.785733+174.641011" CustomColourName="ProcArr">
+  <Map Type="System2" Name="26 GNSS Labels" Priority="1" Center="-36.785733+174.641011" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>ABUOY</Point>
       <Point>BAZEN</Point>
@@ -546,7 +546,7 @@
       <Point>WEYMOUTH</Point>
       <Point>WHITFORD TOWN</Point>
     </Symbol>
-    <Label HasLeader="True">
+    <Label HasLeader="true">
       <Point>AVONDALE RACECOURSE</Point>
       <Point>BLOCKHOUSE BAY</Point>
       <Point>BREAMTAIL HEAD</Point>

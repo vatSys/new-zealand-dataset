@@ -543,7 +543,7 @@
       </Runway>
       <Runway Name="23" DataRunway="23">
         <SID Name="ANPO3B" />
-        <SID Name="ANPO3D" />
+        <SID Name="ANPO4D" />
         <SID Name="ANPO3F" />
         <SID Name="ANPO3S" />
         <SID Name="FKN7" Default="True" />
@@ -5910,7 +5910,7 @@ RILEY
     <SID Name="OSRA1P" Airport="NZAA" Runways="23L">
       <Route Runway="23L">LENGU/OSRAP</Route>
       <Transition Name="GULUT">POSUX/GULUT</Transition>
-      <Transition Name="MADEP">BOGUN/MADEP</Transition>
+      <Transition Name="MADEP">BATOS/BOGUN/MADEP</Transition>
       <Transition Name="PEBLU">PEBLU</Transition>
       <Transition Name="UPLAR">BATOS/TAPAT/UPLAR</Transition>
       <Transition Name="VELMO">POSUX/VELMO</Transition>
@@ -6607,7 +6607,7 @@ RILEY
       <Transition Name="SAVLA">AKMAD/NONAN/SAVLA</Transition>
       <Transition Name="TIMJO">ATVOR/TIMJO</Transition>
     </SID>
-    <SID Name="ANPO3D" Airport="NZQN" Runways="23">
+    <SID Name="ANPO4D" Airport="NZQN" Runways="23">
       <Route Runway="23">ENKUV/OLREK/TULVU/VAPLI/AVDEK/DULUL/ANPOV</Route>
       <Transition Name="SAVLA">AKMAD/NONAN/SAVLA</Transition>
       <Transition Name="TIMJO">EPDEX/ATVOR/TIMJO</Transition>

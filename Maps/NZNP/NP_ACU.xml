@@ -51,7 +51,7 @@
       <Point>ISPAG</Point>
       <Point>VAMSU</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>HARVO</Point>
       <Point>SAVLO</Point>
       <Point>DAPNO</Point>
@@ -61,11 +61,11 @@
     </Label>
   </Map>
   <Map Type="System2" Name="05 STARs" Priority="1" CustomColourName="ProcArr" Centre="-39.010447+174.170067">
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy05 MUMO2A.RUPNU-->
       RUPNU/MUMOX
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy05 MUMO2A.VELGA-->
       VELGA/MUMOX
     </Line>
@@ -73,19 +73,19 @@
       <!--Rwy05 MUMO2A-->
       MUMOX/NUTMI/BEMLI/VARMA
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy05 PEXU2A.DOBBO-->
       DOBBO/PEXUR
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy05 PEXU2A.HARVO-->
       HARVO/ATRUG/BOKUL/PEXUR
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy05 PEXU2A.NP-->
       NP VOR/BOKUL
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy05 PEXU2A.UPDAL-->
       UPDAL/LATIG/BOKUL
     </Line>
@@ -93,19 +93,19 @@
       <!--Rwy05 PEXU2A-->
       PEXUR/VARMA
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy05 VISA2A.IGDOT-->
       IGDOT/TUIHU/INGLE/DOVAT/VISAD
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy05 VISA2A.MANGA-->
       MANGA/ANDOM/INGLE
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy05 VISA2A.SELTA-->
       SELTA/ANDOM
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy05 VISA2A.VAMSU-->
       VAMSU/ISPAG/VISAD
     </Line>
@@ -143,7 +143,7 @@
       <Point>VAMSU</Point>
       <Point>ISPAG</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>MUMOX</Point>
       <Point>PEXUR</Point>
       <Point>VISAD</Point>
@@ -169,9 +169,9 @@
     <Symbol Type="SolidTriangle">
       <Point>VARMA</Point>
     </Symbol>
-    <Line>VARMA/LUTUX/NP05T</Line>
+    <Line Pattern="Solid">VARMA/LUTUX/NP05T</Line>
   </Map>
-  <Map Type="System" Name="05 GNSS Labels" Priority="1" Center="-39.010447+174.170067" CustomColourName="ProcArr">
+  <Map Type="System2" Name="05 GNSS Labels" Priority="1" Center="-39.010447+174.170067" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>LUTUX</Point>
       <Point>VARMA</Point>
@@ -279,7 +279,7 @@
       <Point>LATIG</Point>
       <Point>ATRUG</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>GUSUR</Point>
       <Point>HARVO</Point>
       <Point>LATIG</Point>
@@ -298,15 +298,15 @@
       <!--Rwy23 HARV2B-->
       HARVO/ATRUG/UPDAL
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy23 NP2.IGDOT-->
       IGDOT/NP VOR
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy23 NP2.RUPNU-->
       RUPNU/NP VOR
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy23 NP2.SELTA-->
       SELTA/NP VOR
     </Line>
@@ -318,23 +318,23 @@
       <!--Rwy23 SELT2B-->
       SELTA/TUIHU/VANSA/UPDAL
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy23 SUBR3B.DOBBO-->
       DOBBO/IPNAB/OLMOT/SUBRA
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy23 SUBR3B.NP-->
       NP VOR/RITGI/SUBRA
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy23 SUBR3B.PEXUR-->
       PEXUR/LATIG/RITGI
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy23 SUBR3B.RUPNU-->
       RUPNU/MUMOX/NUTMI/VARMA/LATIG
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy23 SUBR3B.VELGA-->
       VELGA/MUMOX
     </Line>
@@ -346,19 +346,19 @@
       <!--Rwy23 VAMS2B-->
       VAMSU/ISPAG/UPDAL
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy23 VANS2B.IGDOT-->
       IGDOT/TUIHU/VANSA
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy23 VANS2B.MANGA-->
       MANGA/TUIHU
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy23 VANS2B.NP-->
       NP VOR/LIGDO/VANSA
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy23 VANS2B.SELTA-->
       SELTA/ANDOM/VANSA
     </Line>
@@ -396,7 +396,7 @@
       <Point>LIGDO</Point>
       <Point>ANDOM</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>HARVO</Point>
       <Point>NP VOR</Point>
       <Point>SELTA</Point>
@@ -421,9 +421,9 @@
     <Symbol Type="SolidTriangle">
       <Point>UPDAL</Point>
     </Symbol>
-    <Line>UPDAL/DOVED/NP23T</Line>
+    <Line Pattern="Solid">UPDAL/DOVED/NP23T</Line>
   </Map>
-  <Map Type="System" Name="23 GNSS Labels" Priority="1" Center="-39.005644+174.183889" CustomColourName="ProcArr">
+  <Map Type="System2" Name="23 GNSS Labels" Priority="1" Center="-39.005644+174.183889" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>DOVED</Point>
       <Point>UPDAL</Point>
@@ -441,7 +441,7 @@
       <Point>URENUI</Point>
       <Point>WAITARA VALLEY PLANT</Point>
     </Symbol>
-    <Label HasLeader="True">
+    <Label HasLeader="true">
       <Point>BELL BLOCK OVERPASS</Point>
       <Point>EGMONT VILLAGE</Point>
       <Point>GERMAN HILL</Point>
@@ -454,7 +454,7 @@
     </Label>
   </Map>
   <Map Type="System2" Name="VFRProc" Priority="1" CustomColourName="VFRPoint" Centre="-39.008611+174.179167">
-    <Label HasLeader="True" LabelOrientation="NW">
+    <Label HasLeader="true" LabelOrientation="NW">
       <Point Name="LEPPERTON_DEP">NP VOR</Point>
       <Point Name="WAITARA-VLY_ARR">URENUI</Point>
     </Label>

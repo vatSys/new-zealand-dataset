@@ -11,9 +11,9 @@
     <Symbol Type="SolidTriangle">
       <Point>APABO</Point>
     </Symbol>
-    <Line>APABO/BAMEX/SEMKI/SL16T</Line>
+    <Line Pattern="Solid">APABO/BAMEX/SEMKI/SL16T</Line>
   </Map>
-  <Map Type="System" Name="16 GNSS Labels" Priority="1" Center="-36.320661+174.555944" CustomColourName="ProcArr">
+  <Map Type="System2" Name="16 GNSS Labels" Priority="1" Center="-36.320661+174.555944" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>BAMEX</Point>
       <Point>APABO</Point>
@@ -71,7 +71,7 @@
       <Point>WEYMOUTH</Point>
       <Point>WHITFORD TOWN</Point>
     </Symbol>
-    <Label HasLeader="True">
+    <Label HasLeader="true">
       <Point>AVONDALE RACECOURSE</Point>
       <Point>BLOCKHOUSE BAY</Point>
       <Point>BREAMTAIL HEAD</Point>

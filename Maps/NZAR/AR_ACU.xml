@@ -36,7 +36,7 @@
       <Point>UPLIN</Point>
       <Point>HUNUA</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>PATGA</Point>
       <Point>SY NDB</Point>
       <Point>SATLA</Point>
@@ -57,11 +57,11 @@
     <Symbol Type="SolidTriangle">
       <Point>KINGS</Point>
     </Symbol>
-    <Line>KINGS/UBKEL/AR409/AR03T</Line>
-    <Line>GROVE/KINGS</Line>
-    <Line>WI NDB/KINGS</Line>
+    <Line Pattern="Solid">KINGS/UBKEL/AR409/AR03T</Line>
+    <Line Pattern="Solid">GROVE/KINGS</Line>
+    <Line Pattern="Solid">WI NDB/KINGS</Line>
   </Map>
-  <Map Type="System" Name="03 GNSS Labels" Priority="1" Center="-37.034575+174.969758" CustomColourName="ProcArr">
+  <Map Type="System2" Name="03 GNSS Labels" Priority="1" Center="-37.034575+174.969758" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>GROVE</Point>
       <Point>WI NDB</Point>
@@ -105,7 +105,7 @@
       <Point>FIRTH</Point>
       <Point>HUNUA</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>ADNOG</Point>
       <Point>SY NDB</Point>
       <Point>FIRTH</Point>
@@ -128,14 +128,14 @@
       <Point>EGURU</Point>
       <Point>ORERE</Point>
     </Symbol>
-    <Line>EGURU/SARVI/AR401/AR21T</Line>
-    <Line>FIRTH/EGURU</Line>
-    <Line>SATLA/EGURU</Line>
-    <Line>ORERE/EMTUB/AR401</Line>
-    <Line>FIRTH/ORERE</Line>
-    <Line>SATLA/ORERE</Line>
+    <Line Pattern="Solid">EGURU/SARVI/AR401/AR21T</Line>
+    <Line Pattern="Solid">FIRTH/EGURU</Line>
+    <Line Pattern="Solid">SATLA/EGURU</Line>
+    <Line Pattern="Solid">ORERE/EMTUB/AR401</Line>
+    <Line Pattern="Solid">FIRTH/ORERE</Line>
+    <Line Pattern="Solid">SATLA/ORERE</Line>
   </Map>
-  <Map Type="System" Name="21 GNSS Labels" Priority="1" Center="-37.027044+174.979333" CustomColourName="ProcArr">
+  <Map Type="System2" Name="21 GNSS Labels" Priority="1" Center="-37.027044+174.979333" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>FIRTH</Point>
       <Point>SATLA</Point>
@@ -155,7 +155,7 @@
     <Symbol Type="HollowTriangle">
       <Point>HUNUA</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>SY NDB</Point>
     </Label>
   </Map>
@@ -170,7 +170,7 @@
     <Symbol Type="HollowTriangle">
       <Point>HUNUA</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>SY NDB</Point>
     </Label>
   </Map>
@@ -245,7 +245,7 @@
       <Point>WHANGAMATA</Point>
       <Point>WHITFORD TOWN</Point>
     </Symbol>
-    <Label HasLeader="True">
+    <Label HasLeader="true">
       <Point>AVONDALE RACECOURSE</Point>
       <Point>BLOCKHOUSE BAY</Point>
       <Point>BROOKBY</Point>

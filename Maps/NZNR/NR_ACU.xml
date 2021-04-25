@@ -11,7 +11,7 @@
     <Symbol Type="HollowTriangle">
       <Point>OPAPA</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>OPAPA</Point>
     </Label>
   </Map>
@@ -26,7 +26,7 @@
     <Symbol Type="HollowTriangle">
       <Point>OPAPA</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>OPAPA</Point>
     </Label>
   </Map>
@@ -73,7 +73,7 @@
       <Point>ISNOS</Point>
       <Point>SUPUK</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>LEDIV</Point>
       <Point>NR VOR</Point>
       <Point>MOOSE</Point>
@@ -127,7 +127,7 @@
       <Point>PINES</Point>
       <Point>YARRO</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>ADGIN</Point>
       <Point>GENDA</Point>
       <Point>MOKER</Point>
@@ -152,11 +152,11 @@
     <Symbol Type="SolidTriangle">
       <Point>AROPA</Point>
     </Symbol>
-    <Line>AROPA/-39.378392+176.915156/-39.449436+176.869419/NR16T</Line>
-    <Line>ELBOW/AROPA</Line>
-    <Line>NANUA/AROPA</Line>
+    <Line Pattern="Solid">AROPA/-39.378392+176.915156/-39.449436+176.869419/NR16T</Line>
+    <Line Pattern="Solid">ELBOW/AROPA</Line>
+    <Line Pattern="Solid">NANUA/AROPA</Line>
   </Map>
-  <Map Type="System" Name="16 GNSS Labels" Priority="1" Center="-39.461989+176.868039" CustomColourName="ProcArr">
+  <Map Type="System2" Name="16 GNSS Labels" Priority="1" Center="-39.461989+176.868039" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>ELBOW</Point>
       <Point>NANUA</Point>
@@ -200,7 +200,7 @@
       <Point>POSOL</Point>
       <Point>NOSAM</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>NR VOR</Point>
       <Point>OBLOX</Point>
       <Point>GENDA</Point>
@@ -249,7 +249,7 @@
       <Point>OPAPA</Point>
       <Point>YARRO</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>ADGIN</Point>
       <Point>GENDA</Point>
       <Point>MOKER</Point>
@@ -271,11 +271,11 @@
     <Symbol Type="SolidTriangle">
       <Point>AKINA</Point>
     </Symbol>
-    <Line>AKINA/-39.536822+176.859764/NR34T</Line>
-    <Line>MILLA/AKINA</Line>
-    <Line>OHITI/AKINA</Line>
+    <Line Pattern="Solid">AKINA/-39.536822+176.859764/NR34T</Line>
+    <Line Pattern="Solid">MILLA/AKINA</Line>
+    <Line Pattern="Solid">OHITI/AKINA</Line>
   </Map>
-  <Map Type="System" Name="34 GNSS Labels" Priority="1" Center="-39.477694+176.866311" CustomColourName="ProcArr">
+  <Map Type="System2" Name="34 GNSS Labels" Priority="1" Center="-39.477694+176.866311" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>MILLA</Point>
       <Point>OHITI</Point>
@@ -309,7 +309,7 @@
       <Point>WAIRANGO</Point>
       <Point>WHIRINAKI</Point>
     </Symbol>
-    <Label HasLeader="True">
+    <Label HasLeader="true">
       <Point>AWATOTO</Point>
       <Point>CLIVE</Point>
       <Point>ESKDALE</Point>

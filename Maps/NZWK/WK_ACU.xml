@@ -12,7 +12,7 @@
       <Point>KEEPA</Point>
       <Point>WK406</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>KEEPA</Point>
       <Point>LAVIS</Point>
     </Label>
@@ -28,10 +28,10 @@
     <Symbol Type="SolidTriangle">
       <Point>ELBEV</Point>
     </Symbol>
-    <Line>ELBEV/WK401/WK09T</Line>
-    <Line>LAVIS/ELBEV</Line>
+    <Line Pattern="Solid">ELBEV/WK401/WK09T</Line>
+    <Line Pattern="Solid">LAVIS/ELBEV</Line>
   </Map>
-  <Map Type="System" Name="09 GNSS Labels" Priority="1" Center="-37.919939+176.909972" CustomColourName="ProcArr">
+  <Map Type="System2" Name="09 GNSS Labels" Priority="1" Center="-37.919939+176.909972" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>LAVIS</Point>
       <Point>WK401</Point>
@@ -51,7 +51,7 @@
       <Point>WK404</Point>
       <Point>WK403</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>KEEPA</Point>
       <Point>REGAT</Point>
     </Label>
@@ -67,10 +67,10 @@
     <Symbol Type="SolidTriangle">
       <Point>REGAT</Point>
     </Symbol>
-    <Line>REGAT/WK402/WK27T</Line>
-    <Line>POTOP/REGAT</Line>
+    <Line Pattern="Solid">REGAT/WK402/WK27T</Line>
+    <Line Pattern="Solid">POTOP/REGAT</Line>
   </Map>
-  <Map Type="System" Name="27 GNSS Labels" Priority="1" Center="-37.924317+176.923450" CustomColourName="ProcArr">
+  <Map Type="System2" Name="27 GNSS Labels" Priority="1" Center="-37.924317+176.923450" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>POTOP</Point>
       <Point>WK402</Point>
@@ -112,7 +112,7 @@
       <Point>WAIPA SAWMILL</Point>
       <Point>WELCOME BAY</Point>
     </Symbol>
-    <Label HasLeader="True">
+    <Label HasLeader="true">
       <Point>BEACH MOTOR CAMP</Point>
       <Point>BLUE GUM BAY</Point>
       <Point>EAST JUNCTION</Point>

@@ -13,12 +13,12 @@
     <Symbol Type="SolidTriangle">
       <Point>WAIPA</Point>
     </Symbol>
-    <Line>WAIPA/-38.167164+175.830969/TO13T</Line>
-    <Line>KARBA/WAIPA</Line>
-    <Line>LALAN/WAIPA</Line>
-    <Line>MIKER/WAIPA</Line>
+    <Line Pattern="Solid">WAIPA/-38.167164+175.830969/TO13T</Line>
+    <Line Pattern="Solid">KARBA/WAIPA</Line>
+    <Line Pattern="Solid">LALAN/WAIPA</Line>
+    <Line Pattern="Solid">MIKER/WAIPA</Line>
   </Map>
-  <Map Type="System" Name="13 GNSS Labels" Priority="1" Center="-38.235425+175.891744" CustomColourName="ProcArr">
+  <Map Type="System2" Name="13 GNSS Labels" Priority="1" Center="-38.235425+175.891744" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>KARBA</Point>
       <Point>LALAN</Point>
@@ -39,12 +39,12 @@
     <Symbol Type="SolidTriangle">
       <Point>AMURI</Point>
     </Symbol>
-    <Line>AMURI/-38.309944+175.958236/TO31T</Line>
-    <Line>ARIKA/AMURI</Line>
-    <Line>GOSTI/AMURI</Line>
-    <Line>GUMAN/AMURI</Line>
+    <Line Pattern="Solid">AMURI/-38.309944+175.958236/TO31T</Line>
+    <Line Pattern="Solid">ARIKA/AMURI</Line>
+    <Line Pattern="Solid">GOSTI/AMURI</Line>
+    <Line Pattern="Solid">GUMAN/AMURI</Line>
   </Map>
-  <Map Type="System" Name="31 GNSS Labels" Priority="1" Center="-38.241714+175.897350" CustomColourName="ProcArr">
+  <Map Type="System2" Name="31 GNSS Labels" Priority="1" Center="-38.241714+175.897350" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>ARIKA</Point>
       <Point>GOSTI</Point>
@@ -132,7 +132,7 @@
       <Point>WHAKAIPO BAY</Point>
       <Point>WHITE CLIFFS</Point>
     </Symbol>
-    <Label HasLeader="True">
+    <Label HasLeader="true">
       <Point>ATHENREE</Point>
       <Point>BEACH MOTOR CAMP</Point>
       <Point>BLUE GUM BAY</Point>

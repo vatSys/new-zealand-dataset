@@ -11,9 +11,9 @@
     <Symbol Type="SolidTriangle">
       <Point>OTAHA</Point>
     </Symbol>
-    <Line>OTAHA/-35.171564+173.885264/-35.244333+173.907978/KK15T</Line>
+    <Line Pattern="Solid">OTAHA/-35.171564+173.885264/-35.244333+173.907978/KK15T</Line>
   </Map>
-  <Map Type="System" Name="15 GNSS Labels" Priority="1" Center="-35.252417+173.910506" CustomColourName="ProcArr">
+  <Map Type="System2" Name="15 GNSS Labels" Priority="1" Center="-35.252417+173.910506" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>OTAHA</Point>
     </Label>
@@ -29,9 +29,9 @@
     <Symbol Type="SolidTriangle">
       <Point>OPARE</Point>
     </Symbol>
-    <Line>OPARE/-35.343650+173.939047/-35.270886+173.916278/KK33T</Line>
+    <Line Pattern="Solid">OPARE/-35.343650+173.939047/-35.270886+173.916278/KK33T</Line>
   </Map>
-  <Map Type="System" Name="33 GNSS Labels" Priority="1" Center="-35.262803+173.913750" CustomColourName="ProcArr">
+  <Map Type="System2" Name="33 GNSS Labels" Priority="1" Center="-35.262803+173.913750" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>OPARE</Point>
     </Label>
@@ -46,7 +46,7 @@
       <Point>PUKETONA QUARRY</Point>
       <Point>TAPEKA POINT</Point>
     </Symbol>
-    <Label HasLeader="True">
+    <Label HasLeader="true">
       <Point>HOLE IN THE ROCK</Point>
       <Point>LOOKOUT HILL</Point>
       <Point>ONE TREE POINT</Point>

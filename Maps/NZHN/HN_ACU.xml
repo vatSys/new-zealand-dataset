@@ -184,7 +184,7 @@
       <Point>MIKER</Point>
       <Point>OLDON</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>BUDEN</Point>
       <Point>GOMUD</Point>
       <Point>GUNDA</Point>
@@ -222,35 +222,35 @@
       <!--Rwy18L BUDE2C-->
       NILUS/VATNA
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy18L KICK1A.DROPT-->
       DROPT/PASSE/KEVID/KICKE
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy18L KICK1A.GODOK-->
       GODOK/KICKE
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy18L KICK1A.HN-->
       HN VOR/KICKE
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy18L KICK1A.KARBA-->
       KARBA/PASSE
     </Line>
     <Line>
       <!--Rwy18L KICK1A-->
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy18L KICK2C.DROPT-->
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy18L KICK2C.GODOK-->
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy18L KICK2C.HN-->
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy18L KICK2C.KARBA-->
     </Line>
     <Line>
@@ -268,15 +268,15 @@
       <!--Rwy18L OLDO3C-->
       OLDON/TONID/NILUS
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy18L YOGI1A.DABKA-->
       DABKA/BOLOG/EKASO/YOGIT
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy18L YOGI1A.DADUK-->
       DADUK/BOLOG
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy18L YOGI1A.POKOM-->
       POKOM/YOGIT
     </Line>
@@ -284,14 +284,14 @@
       <!--Rwy18L YOGI1A-->
       YOGIT/ADBET/CHESE/TAYLA
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy18L YOGI2C.DABKA-->
       EKASO/ATPUL
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy18L YOGI2C.DADUK-->
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy18L YOGI2C.POKOM-->
       POKOM/ATPUL
     </Line>
@@ -328,7 +328,7 @@
       <Point>ADBET</Point>
       <Point>CHESE</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>ATPUL</Point>
       <Point>BUDEN</Point>
       <Point>KICKE</Point>
@@ -357,10 +357,10 @@
       <Point>TAYLA</Point>
       <Point>VATNA</Point>
     </Symbol>
-    <Line>TAYLA/LAXOD/HN18L</Line>
-    <Line>VATNA/ISPOT/HN18L</Line>
+    <Line Pattern="Solid">TAYLA/LAXOD/HN18L</Line>
+    <Line Pattern="Solid">VATNA/ISPOT/HN18L</Line>
   </Map>
-  <Map Type="System" Name="18L RNP Labels" Priority="1" Center="-37.855806+175.336172" CustomColourName="ProcArr">
+  <Map Type="System2" Name="18L RNP Labels" Priority="1" Center="-37.855806+175.336172" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>LAXOD</Point>
       <Point>ISPOT</Point>
@@ -544,7 +544,7 @@
       <Point>MIKER</Point>
       <Point>OLDON</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>AGULA</Point>
       <Point>BEKAK</Point>
       <Point>BIDKO</Point>
@@ -565,11 +565,11 @@
     </Label>
   </Map>
   <Map Type="System2" Name="36R STARs" Priority="1" CustomColourName="ProcArr" Centre="-37.873650+175.329706">
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy36R BEBE1B.DABKA-->
       DABKA/BEBER
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy36R BEBE1B.DADUK-->
       DADUK/BEBER
     </Line>
@@ -577,10 +577,10 @@
       <!--Rwy36R BEBE1B-->
       BEBER/BUDEN
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy36R BEBE1D.DABKA-->
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy36R BEBE1D.DADUK-->
     </Line>
     <Line>
@@ -603,15 +603,15 @@
       <!--Rwy36R KARB1D-->
       PASSE/GUNDA
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy36R KICK1B.GODOK-->
       GODOK/KICKE
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy36R KICK1B.HN-->
       HN VOR/KICKE
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy36R KICK1B.OLDON-->
       OLDON/KICKE
     </Line>
@@ -619,32 +619,32 @@
       <!--Rwy36R KICK1B-->
       KICKE/PASSE
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy36R KICK1D.GODOK-->
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy36R KICK1D.HN-->
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy36R KICK1D.OLDON-->
     </Line>
     <Line>
       <!--Rwy36R KICK1D-->
       KICKE/EGORI/GUNDA
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy36R YOGI1B.ATPUL-->
       ATPUL/CHESE/YOGIT
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy36R YOGI1B.LAKES-->
       LAKES/YOGIT
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy36R YOGI1B.POKOM-->
       POKOM/YOGIT
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy36R YOGI1B.TAYLA-->
       TAYLA/CHESE
     </Line>
@@ -652,16 +652,16 @@
       <!--Rwy36R YOGI1B-->
       YOGIT/DAIRY/BUDEN
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy36R YOGI1D.ATPUL-->
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy36R YOGI1D.LAKES-->
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy36R YOGI1D.POKOM-->
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy36R YOGI1D.TAYLA-->
     </Line>
     <Line>
@@ -697,7 +697,7 @@
       <Point>DAIRY</Point>
       <Point>BOLOG</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>BEBER</Point>
       <Point>DROPT</Point>
       <Point>KARBA</Point>
@@ -727,10 +727,10 @@
       <Point>BUDEN</Point>
       <Point>GUNDA</Point>
     </Symbol>
-    <Line>BUDEN/NITAK/HN36R</Line>
-    <Line>GUNDA/IKERI/HN36R</Line>
+    <Line Pattern="Solid">BUDEN/NITAK/HN36R</Line>
+    <Line Pattern="Solid">GUNDA/IKERI/HN36R</Line>
   </Map>
-  <Map Type="System" Name="36R GNSS Labels" Priority="1" Center="-37.873650+175.329706" CustomColourName="ProcArr">
+  <Map Type="System2" Name="36R GNSS Labels" Priority="1" Center="-37.873650+175.329706" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>NITAK</Point>
       <Point>IKERI</Point>
@@ -809,7 +809,7 @@
       <Point>WELCOME BAY</Point>
       <Point>WHANGAMATA</Point>
     </Symbol>
-    <Label HasLeader="True">
+    <Label HasLeader="true">
       <Point>ATHENREE</Point>
       <Point>BEACH MOTOR CAMP</Point>
       <Point>BLUE GUM BAY</Point>
@@ -881,7 +881,7 @@
     </Label>
   </Map>
   <Map Type="System2" Name="VFRProc" Priority="1" CustomColourName="VFRPoint" Centre="-37.866389+175.335278">
-    <Label HasLeader="True" LabelOrientation="NW">
+    <Label HasLeader="true" LabelOrientation="NW">
       <Point Name="EAST_ARR">HAUTAPU</Point>
       <Point Name="WEST_ARR">TEMPLE VIEW</Point>
     </Label>

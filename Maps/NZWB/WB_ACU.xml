@@ -51,7 +51,7 @@
       <Point>IPMIR</Point>
       <Point>MARLO</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>DOTUT</Point>
       <Point>LUBSI</Point>
       <Point>LUTKA</Point>
@@ -79,11 +79,11 @@
     <Line>
       <!--Rwy06 IGMU1M-->
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy06 JAMI2K.ELPIT-->
       ELPIT/JAMIE
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy06 JAMI2K.OMDOX-->
       OMDOX/JAMIE
     </Line>
@@ -91,20 +91,20 @@
       <!--Rwy06 JAMI2K-->
       JAMIE/LUTKA
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy06 JAMI2M.ELPIT-->
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy06 JAMI2M.OMDOX-->
     </Line>
     <Line>
       <!--Rwy06 JAMI2M-->
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy06 SUPE2K.IPMIR-->
       IPMIR/SUPEN
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy06 SUPE2K.LUBSI-->
       LUBSI/VASLU/SUPEN
     </Line>
@@ -112,10 +112,10 @@
       <!--Rwy06 SUPE2K-->
       SUPEN/LUTKA
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy06 SUPE2M.IPMIR-->
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy06 SUPE2M.LUBSI-->
     </Line>
     <Line>
@@ -138,7 +138,7 @@
       <Point>LUBSI</Point>
       <Point>VASLU</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>AVPOD</Point>
       <Point>IGMUL</Point>
       <Point>JAMIE</Point>
@@ -205,7 +205,7 @@
       <Point>LUBSI</Point>
       <Point>MARLO</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>BODIM</Point>
       <Point>SEDSI</Point>
       <Point>MARLO</Point>
@@ -225,11 +225,11 @@
       <!--Rwy24 IGMU1J-->
       IGMUL/LUTKA
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy24 JAMI2J.ELPIT-->
       ELPIT/JAMIE
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy24 JAMI2J.OMDOX-->
       OMDOX/JAMIE
     </Line>
@@ -237,11 +237,11 @@
       <!--Rwy24 JAMI2J-->
       JAMIE/LUTKA
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy24 SUPE2J.IPMIR-->
       IPMIR/SUPEN
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy24 SUPE2J.LUBSI-->
       LUBSI/VASLU/SUPEN
     </Line>
@@ -263,7 +263,7 @@
       <Point>LUBSI</Point>
       <Point>VASLU</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>AVPOD</Point>
       <Point>IGMUL</Point>
       <Point>JAMIE</Point>
@@ -289,10 +289,10 @@
     <Symbol Type="SolidTriangle">
       <Point>LUTKA</Point>
     </Symbol>
-    <Line>LUTKA/ELKUB/ENPIP/WB401/WB24T</Line>
-    <Line>JAMIE/LUTKA</Line>
+    <Line Pattern="Solid">LUTKA/ELKUB/ENPIP/WB401/WB24T</Line>
+    <Line Pattern="Solid">JAMIE/LUTKA</Line>
   </Map>
-  <Map Type="System" Name="24 GNSS Labels" Priority="1" Center="-41.517417+173.877906" CustomColourName="ProcArr">
+  <Map Type="System2" Name="24 GNSS Labels" Priority="1" Center="-41.517417+173.877906" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>JAMIE</Point>
       <Point>ENPIP</Point>
@@ -369,7 +369,7 @@
       <Point>WHITE BLUFFS</Point>
       <Point>WINDMILL</Point>
     </Symbol>
-    <Label HasLeader="True">
+    <Label HasLeader="true">
       <Point>ADELE ISLAND</Point>
       <Point>AWATERE RIVER MOUTH</Point>
       <Point>BARING</Point>
