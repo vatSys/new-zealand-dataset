@@ -32,7 +32,7 @@
       <Point>WS406</Point>
       <Point>KAKET</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>AKSEM</Point>
       <Point>DAMIL</Point>
       <Point>ESDAK</Point>
@@ -54,11 +54,11 @@
     <Symbol Type="SolidTriangle">
       <Point>BURKI</Point>
     </Symbol>
-    <Line>BURKI/WS404/WS04T</Line>
-    <Line>AVMAK/BURKI</Line>
-    <Line>GUNOM/BURKI</Line>
+    <Line Pattern="Solid">BURKI/WS404/WS04T</Line>
+    <Line Pattern="Solid">AVMAK/BURKI</Line>
+    <Line Pattern="Solid">GUNOM/BURKI</Line>
   </Map>
-  <Map Type="System" Name="04 GNSS Labels" Priority="1" Center="-41.740281+171.572586" CustomColourName="ProcArr">
+  <Map Type="System2" Name="04 GNSS Labels" Priority="1" Center="-41.740281+171.572586" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>AVMAK</Point>
       <Point>GUNOM</Point>
@@ -88,7 +88,7 @@
       <Point>DAMIL</Point>
       <Point>ESDAK</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>AKSEM</Point>
       <Point>DAMIL</Point>
       <Point>ESDAK</Point>
@@ -108,11 +108,11 @@
     <Symbol Type="SolidTriangle">
       <Point>WS408</Point>
     </Symbol>
-    <Line>WS408/WS411/WS22T</Line>
-    <Line>ANSIS/WS408</Line>
-    <Line>PILUP/WS408</Line>
+    <Line Pattern="Solid">WS408/WS411/WS22T</Line>
+    <Line Pattern="Solid">ANSIS/WS408</Line>
+    <Line Pattern="Solid">PILUP/WS408</Line>
   </Map>
-  <Map Type="System" Name="22 GNSS Labels" Priority="1" Center="-41.733933+171.585442" CustomColourName="ProcArr">
+  <Map Type="System2" Name="22 GNSS Labels" Priority="1" Center="-41.733933+171.585442" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>ANSIS</Point>
       <Point>PILUP</Point>

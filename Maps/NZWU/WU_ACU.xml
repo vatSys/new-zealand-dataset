@@ -17,7 +17,7 @@
       <Point>TENUR</Point>
       <Point>VIROL</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>TENUR</Point>
       <Point>VIROL</Point>
       <Point>BUPKA</Point>
@@ -36,11 +36,11 @@
     <Symbol Type="SolidTriangle">
       <Point>DUDED</Point>
     </Symbol>
-    <Line>DUDED/-39.914692+174.940081/WU11T</Line>
-    <Line>AVLOR/DUDED</Line>
-    <Line>BUPKA/DUDED</Line>
+    <Line Pattern="Solid">DUDED/-39.914692+174.940081/WU11T</Line>
+    <Line Pattern="Solid">AVLOR/DUDED</Line>
+    <Line Pattern="Solid">BUPKA/DUDED</Line>
   </Map>
-  <Map Type="System" Name="11 GNSS Labels" Priority="1" Center="-39.959772+175.018042" CustomColourName="ProcArr">
+  <Map Type="System2" Name="11 GNSS Labels" Priority="1" Center="-39.959772+175.018042" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>AVLOR</Point>
       <Point>BUPKA</Point>
@@ -64,7 +64,7 @@
       <Point>TENUR</Point>
       <Point>VIROL</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>TENUR</Point>
       <Point>VIROL</Point>
       <Point>ADGAT</Point>
@@ -83,11 +83,11 @@
     <Symbol Type="SolidTriangle">
       <Point>BASEP</Point>
     </Symbol>
-    <Line>BASEP/BUSBI/WU29T</Line>
-    <Line>ADGAT/BASEP</Line>
-    <Line>BELVO/BASEP</Line>
+    <Line Pattern="Solid">BASEP/BUSBI/WU29T</Line>
+    <Line Pattern="Solid">ADGAT/BASEP</Line>
+    <Line Pattern="Solid">BELVO/BASEP</Line>
   </Map>
-  <Map Type="System" Name="29 GNSS Labels" Priority="1" Center="-39.967169+175.030853" CustomColourName="ProcArr">
+  <Map Type="System2" Name="29 GNSS Labels" Priority="1" Center="-39.967169+175.030853" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>ADGAT</Point>
       <Point>BELVO</Point>
@@ -135,7 +135,7 @@
       <Point>WHANGAEHU RIVER MOUTH</Point>
       <Point>WOODVILLE</Point>
     </Symbol>
-    <Label HasLeader="True">
+    <Label HasLeader="true">
       <Point>AOKAUTERE</Point>
       <Point>ASHHURST</Point>
       <Point>BUNNYTHORPE SUBSTATION</Point>

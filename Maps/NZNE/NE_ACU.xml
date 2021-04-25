@@ -11,7 +11,7 @@
     <Symbol Type="Circle">
       <Point>SF NDB</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>SF NDB</Point>
       <Point>PANGO</Point>
     </Label>
@@ -29,10 +29,10 @@
     <Symbol Type="SolidTriangle">
       <Point>LIBKO</Point>
     </Symbol>
-    <Line>LIBKO/RIKDI/-36.667425+174.640756/NE03T</Line>
-    <Line>PANGO/LIBKO</Line>
+    <Line Pattern="Solid">LIBKO/RIKDI/-36.667425+174.640756/NE03T</Line>
+    <Line Pattern="Solid">PANGO/LIBKO</Line>
   </Map>
-  <Map Type="System" Name="03 GNSS Labels" Priority="1" Center="-36.658144+174.653108" CustomColourName="ProcArr">
+  <Map Type="System2" Name="03 GNSS Labels" Priority="1" Center="-36.658144+174.653108" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>PANGO</Point>
       <Point>RIKDI</Point>
@@ -59,7 +59,7 @@
       <Point>DOSTU</Point>
       <Point>SUNEL</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>DOSTU</Point>
       <Point>SF NDB</Point>
       <Point>UPLIN</Point>
@@ -77,10 +77,10 @@
     <Symbol Type="SolidTriangle">
       <Point>UPLIN</Point>
     </Symbol>
-    <Line>UPLIN/-36.597019+174.734392/NE21T</Line>
-    <Line>BOLOR/UPLIN</Line>
+    <Line Pattern="Solid">UPLIN/-36.597019+174.734392/NE21T</Line>
+    <Line Pattern="Solid">BOLOR/UPLIN</Line>
   </Map>
-  <Map Type="System" Name="21 GNSS Labels" Priority="1" Center="-36.654272+174.658264" CustomColourName="ProcArr">
+  <Map Type="System2" Name="21 GNSS Labels" Priority="1" Center="-36.654272+174.658264" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>BOLOR</Point>
       <Point>UPLIN</Point>
@@ -147,7 +147,7 @@
       <Point>WEYMOUTH</Point>
       <Point>WHITFORD TOWN</Point>
     </Symbol>
-    <Label HasLeader="True">
+    <Label HasLeader="true">
       <Point>AVONDALE RACECOURSE</Point>
       <Point>BLOCKHOUSE BAY</Point>
       <Point>BREAMTAIL HEAD</Point>

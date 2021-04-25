@@ -67,7 +67,7 @@
       <Point>VENDO</Point>
       <Point>TUPGU</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>DUMIK</Point>
       <Point>IDNIM</Point>
       <Point>LEMUT</Point>
@@ -88,7 +88,7 @@
       <!--Rwy02 CONO1A-->
       CONOR/KEVUT/MIBEV
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy02 GUSD2A.DALKI-->
       DALKI/GUSDU
     </Line>
@@ -96,11 +96,11 @@
       <!--Rwy02 GUSD2A-->
       GUSDU/RILDO/ATRES/GUDKI/BEPNI/ESNED
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy02 KAPU2A.KUNVO-->
       KUNVO/KAPUA
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy02 KAPU2A.MUKRA-->
       MUKRA/KAPUA
     </Line>
@@ -145,7 +145,7 @@
       <Point>GUNEL</Point>
       <Point>RISMO</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>BISEB</Point>
       <Point>CONOR</Point>
       <Point>GUSDU</Point>
@@ -178,16 +178,16 @@
       <Point>OTLIT</Point>
       <Point>TUMGO</Point>
     </Symbol>
-    <Line>ELMAX/NOPEM/ORUBA</Line>
-    <Line>KAPUA/ELMAX</Line>
-    <Line>LIKMA/ELMAX</Line>
-    <Line>OTLIT/ISLOP/PATRU/NS02T</Line>
-    <Line>MIBEV/OTLIT</Line>
-    <Line>QUAIL/OTLIT</Line>
-    <Line>TUMGO/ISLOP</Line>
-    <Line>ESNED/TUMGO</Line>
+    <Line Pattern="Solid">ELMAX/NOPEM/ORUBA</Line>
+    <Line Pattern="Solid">KAPUA/ELMAX</Line>
+    <Line Pattern="Solid">LIKMA/ELMAX</Line>
+    <Line Pattern="Solid">OTLIT/ISLOP/PATRU/NS02T</Line>
+    <Line Pattern="Solid">MIBEV/OTLIT</Line>
+    <Line Pattern="Solid">QUAIL/OTLIT</Line>
+    <Line Pattern="Solid">TUMGO/ISLOP</Line>
+    <Line Pattern="Solid">ESNED/TUMGO</Line>
   </Map>
-  <Map Type="System" Name="02 GNSS Labels" Priority="1" Center="-41.301397+173.218922" CustomColourName="ProcArr">
+  <Map Type="System2" Name="02 GNSS Labels" Priority="1" Center="-41.301397+173.218922" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>KAPUA</Point>
       <Point>LIKMA</Point>
@@ -284,7 +284,7 @@
       <Point>PIPIG</Point>
       <Point>SNAPA</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>BISEB</Point>
       <Point>CONOR</Point>
       <Point>DUMIK</Point>
@@ -306,7 +306,7 @@
       <!--Rwy20 GUNE1B-->
       GUNEL/NS VOR
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy20 GUSD1B.DALKI-->
       DALKI/GUSDU
     </Line>
@@ -347,7 +347,7 @@
       <Point>LUBSI</Point>
       <Point>MUKRA</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>CONOR</Point>
       <Point>GUNEL</Point>
       <Point>GUSDU</Point>
@@ -372,11 +372,11 @@
     <Symbol Type="SolidTriangle">
       <Point>ELMAX</Point>
     </Symbol>
-    <Line>ELMAX/NOPEM/ORUBA</Line>
-    <Line>KAPUA/ELMAX</Line>
-    <Line>LIKMA/ELMAX</Line>
+    <Line Pattern="Solid">ELMAX/NOPEM/ORUBA</Line>
+    <Line Pattern="Solid">KAPUA/ELMAX</Line>
+    <Line Pattern="Solid">LIKMA/ELMAX</Line>
   </Map>
-  <Map Type="System" Name="20 GNSS Labels" Priority="1" Center="-41.292228+173.229461" CustomColourName="ProcArr">
+  <Map Type="System2" Name="20 GNSS Labels" Priority="1" Center="-41.292228+173.229461" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>KAPUA</Point>
       <Point>LIKMA</Point>
@@ -396,11 +396,11 @@
     <Symbol Type="SolidTriangle">
       <Point>ELMAX</Point>
     </Symbol>
-    <Line>ELMAX/NOPEM/ORUBA</Line>
-    <Line>KAPUA/ELMAX</Line>
-    <Line>LIKMA/ELMAX</Line>
+    <Line Pattern="Solid">ELMAX/NOPEM/ORUBA</Line>
+    <Line Pattern="Solid">KAPUA/ELMAX</Line>
+    <Line Pattern="Solid">LIKMA/ELMAX</Line>
   </Map>
-  <Map Type="System" Name="06 GNSS Labels" Priority="1" Center="-41.296364+173.216141" CustomColourName="ProcArr">
+  <Map Type="System2" Name="06 GNSS Labels" Priority="1" Center="-41.296364+173.216141" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>KAPUA</Point>
       <Point>LIKMA</Point>
@@ -420,11 +420,11 @@
     <Symbol Type="SolidTriangle">
       <Point>ELMAX</Point>
     </Symbol>
-    <Line>ELMAX/NOPEM/ORUBA</Line>
-    <Line>KAPUA/ELMAX</Line>
-    <Line>LIKMA/ELMAX</Line>
+    <Line Pattern="Solid">ELMAX/NOPEM/ORUBA</Line>
+    <Line Pattern="Solid">KAPUA/ELMAX</Line>
+    <Line Pattern="Solid">LIKMA/ELMAX</Line>
   </Map>
-  <Map Type="System" Name="24 GNSS Labels" Priority="1" Center="-41.295631+173.224106" CustomColourName="ProcArr">
+  <Map Type="System2" Name="24 GNSS Labels" Priority="1" Center="-41.295631+173.224106" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>KAPUA</Point>
       <Point>LIKMA</Point>
@@ -482,7 +482,7 @@
       <Point>WHANGAMOA SADDLE</Point>
       <Point>WHITE BLUFFS</Point>
     </Symbol>
-    <Label HasLeader="True">
+    <Label HasLeader="true">
       <Point>ADELE ISLAND</Point>
       <Point>AWATERE RIVER MOUTH</Point>
       <Point>BOULDER</Point>
@@ -533,7 +533,7 @@
     </Label>
   </Map>
   <Map Type="System2" Name="VFRProc" Priority="1" CustomColourName="VFRPoint" Centre="-41.298333+173.221111">
-    <Label HasLeader="True" LabelOrientation="NW">
+    <Label HasLeader="true" LabelOrientation="NW">
       <Point Name="BAY_DEP">MAPUA</Point>
       <Point Name="BOULDER">BOULDER</Point>
       <Point Name="BRANFORD-02_DEP">BRANFORD</Point>

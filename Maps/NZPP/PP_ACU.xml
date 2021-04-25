@@ -36,7 +36,7 @@
       <Point>KAPTI</Point>
       <Point>WITBY</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>AGAXA</Point>
       <Point>AVKEX</Point>
       <Point>KAMET</Point>
@@ -88,7 +88,7 @@
       <Point>FIRST</Point>
       <Point>XEDES</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>AGSOP</Point>
       <Point>AVKEX</Point>
       <Point>KAMET</Point>
@@ -112,10 +112,10 @@
     <Symbol Type="SolidTriangle">
       <Point>NOKIX</Point>
     </Symbol>
-    <Line>NOKIX/PP411/PP414/PP16T</Line>
-    <Line>ENBAR/NOKIX</Line>
+    <Line Pattern="Solid">NOKIX/PP411/PP414/PP16T</Line>
+    <Line Pattern="Solid">ENBAR/NOKIX</Line>
   </Map>
-  <Map Type="System" Name="16 GNSS Labels" Priority="1" Center="-40.901261+174.987925" CustomColourName="ProcArr">
+  <Map Type="System2" Name="16 GNSS Labels" Priority="1" Center="-40.901261+174.987925" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>ENBAR</Point>
       <Point>PP411</Point>
@@ -163,7 +163,7 @@
       <Point>KAPTI</Point>
       <Point>WITBY</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>GUGAK</Point>
       <Point>AVKEX</Point>
       <Point>FICAN</Point>
@@ -212,7 +212,7 @@
       <Point>FIRST</Point>
       <Point>VEKDA</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>AGSOP</Point>
       <Point>AVKEX</Point>
       <Point>KAMET</Point>
@@ -236,11 +236,11 @@
     <Symbol Type="SolidTriangle">
       <Point>LEVBI</Point>
     </Symbol>
-    <Line>LEVBI/TAXEV/PP421/PP34T</Line>
-    <Line>DABGU/LEVBI</Line>
-    <Line>NILID/LEVBI</Line>
+    <Line Pattern="Solid">LEVBI/TAXEV/PP421/PP34T</Line>
+    <Line Pattern="Solid">DABGU/LEVBI</Line>
+    <Line Pattern="Solid">NILID/LEVBI</Line>
   </Map>
-  <Map Type="System" Name="34 GNSS Labels" Priority="1" Center="-40.910642+174.987931" CustomColourName="ProcArr">
+  <Map Type="System2" Name="34 GNSS Labels" Priority="1" Center="-40.910642+174.987931" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>DABGU</Point>
       <Point>NILID</Point>
@@ -304,7 +304,7 @@
       <Point>WARD ISLAND</Point>
       <Point>WINDMILL</Point>
     </Symbol>
-    <Label HasLeader="True">
+    <Label HasLeader="true">
       <Point>AOKAUTERE</Point>
       <Point>AVALON</Point>
       <Point>BARING</Point>

@@ -121,7 +121,7 @@
       <Point>OLMUX</Point>
       <Point>TEROT</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>DADLI</Point>
       <Point>RUXOX</Point>
       <Point>TEROT</Point>
@@ -139,11 +139,11 @@
     </Label>
   </Map>
   <Map Type="System2" Name="07 STARs" Priority="1" CustomColourName="ProcArr" Centre="-40.319864+175.604869">
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy07 BUVL1B.APITI-->
       APITI/BUVLI
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy07 BUVL1B.IDLUR-->
       IDLUR/BUVLI
     </Line>
@@ -163,11 +163,11 @@
       <!--Rwy07 OKEV1B-->
       OKEVO/REPIM/AKNIN
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy07 RINR1B.BINIT-->
       BINIT/RINRI
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy07 RINR1B.SAKBA-->
       SAKBA/RINRI
     </Line>
@@ -175,11 +175,11 @@
       <!--Rwy07 RINR1B-->
       RINRI/GUTNI
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy07 TUTS1B.APITI-->
       APITI/TUTSI
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy07 TUTS1B.IDLUR-->
       IDLUR/TUTSI
     </Line>
@@ -215,7 +215,7 @@
       <Point>KEVEL</Point>
       <Point>ANPUG</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>BUVLI</Point>
       <Point>IRMIX</Point>
       <Point>MIBUS</Point>
@@ -244,11 +244,11 @@
     <Symbol Type="SolidTriangle">
       <Point>GUTNI</Point>
     </Symbol>
-    <Line>GUTNI/LERSO/PM07T</Line>
-    <Line>AKNIN/GUTNI</Line>
-    <Line>NIRUB/GUTNI</Line>
+    <Line Pattern="Solid">GUTNI/LERSO/PM07T</Line>
+    <Line Pattern="Solid">AKNIN/GUTNI</Line>
+    <Line Pattern="Solid">NIRUB/GUTNI</Line>
   </Map>
-  <Map Type="System" Name="07 GNSS Labels" Priority="1" Center="-40.319864+175.604869" CustomColourName="ProcArr">
+  <Map Type="System2" Name="07 GNSS Labels" Priority="1" Center="-40.319864+175.604869" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>AKNIN</Point>
       <Point>NIRUB</Point>
@@ -348,7 +348,7 @@
       <Point>KEVEL</Point>
       <Point>VIROL</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>GUTNI</Point>
       <Point>ABTOL</Point>
       <Point>IRMIX</Point>
@@ -368,19 +368,19 @@
       <!--Rwy25 APIT1A-->
       APITI/TUTSI/UPNUK/LEKED
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy25 AVGU1A.BINIT-->
       BINIT/UPRIX/AVGUV
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy25 AVGU1A.MIBUS-->
       MIBUS/RINRI/AVGUV
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy25 AVGU1A.SAKBA-->
       SAKBA/UPRIX
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy25 AVGU1A.VIROL-->
       VIROL/KEVEL/ANPUG/RINRI
     </Line>
@@ -392,11 +392,11 @@
       <!--Rwy25 IDLU2A-->
       IDLUR/TUTSI
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy25 IGPA1A.APITI-->
       APITI/IGPAX
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy25 IGPA1A.IDLUR-->
       IDLUR/IGPAX
     </Line>
@@ -408,32 +408,32 @@
       <!--Rwy25 IRMI1A-->
       IRMIX/UVUSI
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy25 LUNB1A.BINIT-->
       BINIT/RINRI/LUNBA
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy25 LUNB1A.MIBUS-->
       MIBUS/LUNBA
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy25 LUNB1A.SAKBA-->
       SAKBA/RINRI
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy25 LUNB1A.VIROL-->
     </Line>
     <Line>
       <!--Rwy25 LUNB1A-->
       LUNBA/OLMUX
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy25 LUNB1E.BINIT-->
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy25 LUNB1E.MIBUS-->
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy25 LUNB1E.SAKBA-->
     </Line>
     <Line>
@@ -444,11 +444,11 @@
       <!--Rwy25 OKEV1A-->
       OKEVO/NIKIP
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy25 TUTS1E.APITI-->
       APITI/TUTSI
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy25 TUTS1E.IDLUR-->
       IDLUR/TUTSI
     </Line>
@@ -484,7 +484,7 @@
       <Point>GUTNI</Point>
       <Point>OKEVO</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>APITI</Point>
       <Point>AVGUV</Point>
       <Point>IDLUR</Point>
@@ -516,11 +516,11 @@
     <Symbol Type="SolidTriangle">
       <Point>UVUSI</Point>
     </Symbol>
-    <Line>UVUSI/IVREP/PM25T</Line>
-    <Line>BIDEK/UVUSI</Line>
-    <Line>NIKIP/UVUSI</Line>
+    <Line Pattern="Solid">UVUSI/IVREP/PM25T</Line>
+    <Line Pattern="Solid">BIDEK/UVUSI</Line>
+    <Line Pattern="Solid">NIKIP/UVUSI</Line>
   </Map>
-  <Map Type="System" Name="25 GNSS Labels" Priority="1" Center="-40.319836+175.624669" CustomColourName="ProcArr">
+  <Map Type="System2" Name="25 GNSS Labels" Priority="1" Center="-40.319836+175.624669" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>BIDEK</Point>
       <Point>NIKIP</Point>
@@ -541,9 +541,9 @@
     <Symbol Type="SolidTriangle">
       <Point>SEKNI</Point>
     </Symbol>
-    <Line>LEKED/SEKNI/DANLU/PM482/PM25T</Line>
+    <Line Pattern="Solid">LEKED/SEKNI/DANLU/PM482/PM25T</Line>
   </Map>
-  <Map Type="System" Name="25 RNP Labels" Priority="1" Center="-40.319836+175.624669" CustomColourName="ProcArr">
+  <Map Type="System2" Name="25 RNP Labels" Priority="1" Center="-40.319836+175.624669" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>LEKED</Point>
       <Point>DANLU</Point>
@@ -592,7 +592,7 @@
       <Point>WHANGAEHU RIVER MOUTH</Point>
       <Point>WOODVILLE</Point>
     </Symbol>
-    <Label HasLeader="True">
+    <Label HasLeader="true">
       <Point>AOKAUTERE</Point>
       <Point>ASHHURST</Point>
       <Point>BENNETTS HILL</Point>
@@ -635,7 +635,7 @@
     </Label>
   </Map>
   <Map Type="System2" Name="VFRProc" Priority="1" CustomColourName="VFRPoint" Centre="-40.320556+175.616944">
-    <Label HasLeader="True" LabelOrientation="NW">
+    <Label HasLeader="true" LabelOrientation="NW">
       <Point Name="07HIWINUI_DEP">HIWINUI</Point>
       <Point Name="07LONGBURN_ARR">LONGBURN</Point>
       <Point Name="07MANFEILD_ARR">MANFEILD</Point>
@@ -643,7 +643,7 @@
       <Point Name="25HIWINUI_DEP">-40.306111+175.588889</Point>
       <Point Name="25UNI_ARR">TOKOMARU</Point>
     </Label>
-    <Label HasLeader="True" LabelOrientation="SE">
+    <Label HasLeader="true" LabelOrientation="SE">
       <Point Name="25HIWINUI_ARR">HIWINUI</Point>
       <Point Name="25LONGBURN_DEP">LONGBURN</Point>
       <Point Name="25MANFEILD_DEP">MANFEILD</Point>

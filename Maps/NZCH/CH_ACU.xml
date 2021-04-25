@@ -105,7 +105,7 @@
       <Point>IDARA</Point>
       <Point>PEHRR</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>BAVEM</Point>
       <Point>GUTBU</Point>
       <Point>MUKVO</Point>
@@ -131,11 +131,11 @@
       <!--Rwy02 AVOC6A-->
       AVOCA/BISUP/CH414/UBDAN/ALBAD
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy02 BELE5A.KABKA-->
       KABKA/BELEE
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy02 BELE5A.VANDA-->
       VANDA/BELEE
     </Line>
@@ -143,10 +143,10 @@
       <!--Rwy02 BELE5A-->
       BELEE/AVOCA/CH426/CHARR/IDUBU
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy02 BELE3E.KABKA-->
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy02 BELE3E.VANDA-->
     </Line>
     <Line>
@@ -202,7 +202,7 @@
       <!--Rwy02 PEHR4A-->
       PEHRR/AKAMO
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy02 REPA3A.LALAP-->
       LALAP/CH789/REPAP
     </Line>
@@ -257,7 +257,7 @@
       <Point>CH789</Point>
       <Point>REPAP</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>AVOCA</Point>
       <Point>BELEE</Point>
       <Point>DOPKI</Point>
@@ -295,12 +295,12 @@
     <Symbol Type="SolidTriangle">
       <Point>ALBAD</Point>
     </Symbol>
-    <Line>ALBAD/DAKUR/CH02T</Line>
-    <Line>GOMPI/ALBAD</Line>
-    <Line>IDUBU/ALBAD</Line>
-    <Line>UBDAN/ALBAD</Line>
+    <Line Pattern="Solid">ALBAD/DAKUR/CH02T</Line>
+    <Line Pattern="Solid">GOMPI/ALBAD</Line>
+    <Line Pattern="Solid">IDUBU/ALBAD</Line>
+    <Line Pattern="Solid">UBDAN/ALBAD</Line>
   </Map>
-  <Map Type="System" Name="02 GNSS Labels" Priority="1" Center="-43.497631+172.522114" CustomColourName="ProcArr">
+  <Map Type="System2" Name="02 GNSS Labels" Priority="1" Center="-43.497631+172.522114" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>GOMPI</Point>
       <Point>IDUBU</Point>
@@ -333,11 +333,11 @@
       <Point>BOLUB</Point>
       <Point>LEVGO</Point>
     </Symbol>
-    <Line>ERVAX/CH832/CH793/CH755/PEBVI/BEKTI/CH02T</Line>
-    <Line>BOLUB/CH963/SULMO/CH697/NISOM/CH02T</Line>
-    <Line>LEVGO/CH846/CH801/CH878/GUNLO/CH02T</Line>
+    <Line Pattern="Solid">ERVAX/CH832/CH793/CH755/PEBVI/BEKTI/CH02T</Line>
+    <Line Pattern="Solid">BOLUB/CH963/SULMO/CH697/NISOM/CH02T</Line>
+    <Line Pattern="Solid">LEVGO/CH846/CH801/CH878/GUNLO/CH02T</Line>
   </Map>
-  <Map Type="System" Name="02 RNP Labels" Priority="1" Center="-43.497631+172.522114" CustomColourName="ProcArr">
+  <Map Type="System2" Name="02 RNP Labels" Priority="1" Center="-43.497631+172.522114" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>PEBVI</Point>
       <Point>SULMO</Point>
@@ -452,7 +452,7 @@
       <Point>ODOWD</Point>
       <Point>PORAM</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>ATSAT</Point>
       <Point>KADET</Point>
       <Point>PEDMI</Point>
@@ -478,11 +478,11 @@
       <!--Rwy20 AVOC6B-->
       AVOCA/RIVPI/CH422/OBDOR/ODISI
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy20 BELE5B.KABKA-->
       KABKA/BELEE
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy20 BELE5B.VANDA-->
       VANDA/BELEE
     </Line>
@@ -490,10 +490,10 @@
       <!--Rwy20 BELE5B-->
       BELEE/AVOCA/CH511/CH406/BIDEV/DIVSU
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy20 BELE3F.KABKA-->
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy20 BELE3F.VANDA-->
     </Line>
     <Line>
@@ -553,7 +553,7 @@
     <Line>
       <!--Rwy20 PEHR2F-->
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy20 REPA2B.LALAP-->
       LALAP/CH789/REPAP
     </Line>
@@ -608,7 +608,7 @@
       <Point>REPAP</Point>
       <Point>VIKEX</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>AVOCA</Point>
       <Point>BELEE</Point>
       <Point>DOPKI</Point>
@@ -646,12 +646,12 @@
     <Symbol Type="SolidTriangle">
       <Point>DIVSU</Point>
     </Symbol>
-    <Line>DIVSU/LUKLO/CH20T</Line>
-    <Line>BIDEV/DIVSU</Line>
-    <Line>MABAK/DIVSU</Line>
-    <Line>ODISI/DIVSU</Line>
+    <Line Pattern="Solid">DIVSU/LUKLO/CH20T</Line>
+    <Line Pattern="Solid">BIDEV/DIVSU</Line>
+    <Line Pattern="Solid">MABAK/DIVSU</Line>
+    <Line Pattern="Solid">ODISI/DIVSU</Line>
   </Map>
-  <Map Type="System" Name="20 GNSS Labels" Priority="1" Center="-43.474989+172.548286" CustomColourName="ProcArr">
+  <Map Type="System2" Name="20 GNSS Labels" Priority="1" Center="-43.474989+172.548286" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>BIDEV</Point>
       <Point>MABAK</Point>
@@ -682,11 +682,11 @@
       <Point>ERVAX</Point>
       <Point>SUSAL</Point>
     </Symbol>
-    <Line>BIXIX/CH827/CH428/RUSON/ENLAT/CH20T</Line>
-    <Line>ERVAX/CH989/CH931/CH634/CH928/ENLAT</Line>
-    <Line>SUSAL/CH946/CH813/CH653/CH928</Line>
+    <Line Pattern="Solid">BIXIX/CH827/CH428/RUSON/ENLAT/CH20T</Line>
+    <Line Pattern="Solid">ERVAX/CH989/CH931/CH634/CH928/ENLAT</Line>
+    <Line Pattern="Solid">SUSAL/CH946/CH813/CH653/CH928</Line>
   </Map>
-  <Map Type="System" Name="20 RNP Labels" Priority="1" Center="-43.474989+172.548286" CustomColourName="ProcArr">
+  <Map Type="System2" Name="20 RNP Labels" Priority="1" Center="-43.474989+172.548286" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>RUSON</Point>
       <Point>ENLAT</Point>
@@ -709,25 +709,25 @@
       <Point>LATIP</Point>
       <Point>DIVSU</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>ALBAD</Point>
       <Point>DIVSU</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="11 STARs" Priority="1" CustomColourName="ProcArr" Centre="-43.484278+172.524414">
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy11 BLUN3F.AVOCA-->
       AVOCA/SAVKU/BLUNT
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy11 BLUN3F.IGEGA-->
       IGEGA/BLUNT
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy11 BLUN3F.KABKA-->
       KABKA/NURNI/SAVKU
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy11 BLUN3F.PEAKS-->
       PEAKS/BLUNT
     </Line>
@@ -735,19 +735,19 @@
       <!--Rwy11 BLUN3F-->
       BLUNT/TARUM/IGLIS
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy11 HODE2D.ELDAK-->
       ELDAK/HODDE
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy11 HODE2D.LADIS-->
       LADIS/HODDE
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy11 HODE2D.MOLGI-->
       MOLGI/POROS/REBUR/HODDE
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy11 HODE2D.VANDA-->
       VANDA/POROS
     </Line>
@@ -785,7 +785,7 @@
       <Point>LATIP</Point>
       <Point>PABRA</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>BLUNT</Point>
       <Point>HODDE</Point>
       <Point>MESIX</Point>
@@ -813,11 +813,11 @@
     <Symbol Type="SolidTriangle">
       <Point>BUSKU</Point>
     </Symbol>
-    <Line>BUSKU/VENKI/CH11T</Line>
-    <Line>AVDID/BUSKU</Line>
-    <Line>IGLIS/BUSKU</Line>
+    <Line Pattern="Solid">BUSKU/VENKI/CH11T</Line>
+    <Line Pattern="Solid">AVDID/BUSKU</Line>
+    <Line Pattern="Solid">IGLIS/BUSKU</Line>
   </Map>
-  <Map Type="System" Name="11 GNSS Labels" Priority="1" Center="-43.484278+172.524414" CustomColourName="ProcArr">
+  <Map Type="System2" Name="11 GNSS Labels" Priority="1" Center="-43.484278+172.524414" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>AVDID</Point>
       <Point>IGLIS</Point>
@@ -929,7 +929,7 @@
       <Point>CH789</Point>
       <Point>LALAP</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>KABOD</Point>
       <Point>LUNTI</Point>
       <Point>PALSO</Point>
@@ -955,11 +955,11 @@
       <!--Rwy29 AVOC5G-->
       AVOCA/BISUP/CHARR/IDUBU/SUPSO
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy29 BELE5G.KABKA-->
       KABKA/BELEE
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy29 BELE5G.VANDA-->
       VANDA/BELEE
     </Line>
@@ -1003,7 +1003,7 @@
       <!--Rwy29 PEHR3G-->
       PEHRR/AKAMO
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy29 REPA2G.LALAP-->
       LALAP/CH789/REPAP
     </Line>
@@ -1044,7 +1044,7 @@
       <Point>CH789</Point>
       <Point>REPAP</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>AVOCA</Point>
       <Point>BELEE</Point>
       <Point>DOPKI</Point>
@@ -1080,10 +1080,10 @@
       <Point>ABVIM</Point>
       <Point>SUPSO</Point>
     </Symbol>
-    <Line>ABVIM/CH437/UBLES/CH917/CH29T</Line>
-    <Line>SUPSO/CH434/VEKMU/CH438/CH917</Line>
+    <Line Pattern="Solid">ABVIM/CH437/UBLES/CH917/CH29T</Line>
+    <Line Pattern="Solid">SUPSO/CH434/VEKMU/CH438/CH917</Line>
   </Map>
-  <Map Type="System" Name="29 RNP Labels" Priority="1" Center="-43.494381+172.540883" CustomColourName="ProcArr">
+  <Map Type="System2" Name="29 RNP Labels" Priority="1" Center="-43.494381+172.540883" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>UBLES</Point>
       <Point>VEKMU</Point>
@@ -1141,7 +1141,7 @@
       <Point>WIGRAM</Point>
       <Point>YALDHURST</Point>
     </Symbol>
-    <Label HasLeader="True">
+    <Label HasLeader="true">
       <Point>ADDINGTON RACECOURSE</Point>
       <Point>AMBERLEY BEACH</Point>
       <Point>ASHLEY</Point>
@@ -1192,7 +1192,7 @@
     </Label>
   </Map>
   <Map Type="System2" Name="VFRProc" Priority="1" CustomColourName="VFRPoint" Centre="-43.489444+172.534444">
-    <Label HasLeader="True" LabelOrientation="NW">
+    <Label HasLeader="true" LabelOrientation="NW">
       <Point Name="29BRIDGE-ARR">-43.366667+172.375000</Point>
       <Point Name="29NORTHLANDS-ARR">WAIMAIRI</Point>
       <Point Name="29WIGRAM-ARR">LINCOLN</Point>
@@ -1210,7 +1210,7 @@
       <Point Name="SWANNANOA-DEP">PYLONS</Point>
       <Point Name="TAITAPU-DEP">ADDINGTON RACECOURSE</Point>
     </Label>
-    <Label HasLeader="True" LabelOrientation="SE">
+    <Label HasLeader="true" LabelOrientation="SE">
       <Point Name="POND-DEP">-43.491667+172.491667</Point>
       <Point Name="RICCARTON-ARR">LINCOLN</Point>
       <Point Name="WAIMAIRI-ARR">WAIMAIRI</Point>

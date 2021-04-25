@@ -65,7 +65,7 @@
       <Point>RULOL</Point>
       <Point>LUTSA</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>AKPIN</Point>
       <Point>BASOS</Point>
       <Point>BIDEL</Point>
@@ -77,15 +77,15 @@
     </Label>
   </Map>
   <Map Type="System2" Name="03 STARs" Priority="1" CustomColourName="ProcArr" Centre="-45.933925+170.187472">
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy03 BASO4A.ADKOS-->
       ADKOS/AKBUM/GOGES/MOXET/BASOS
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy03 BASO4A.LIBLA-->
       LIBLA/BOKAV/MIMEG/ATRAG/BASOS
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy03 BASO4A.SUNGU-->
       SUNGU/BASOS
     </Line>
@@ -136,7 +136,7 @@
       <Point>ANBIG</Point>
       <Point>BIPUV</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>BASOS</Point>
       <Point>DABCA</Point>
       <Point>EPDAB</Point>
@@ -158,9 +158,9 @@
     <Symbol Type="SolidTriangle">
       <Point>AKLAR</Point>
     </Symbol>
-    <Line>AKLAR/OVSED/AGESO/DN03T</Line>
+    <Line Pattern="Solid">AKLAR/OVSED/AGESO/DN03T</Line>
   </Map>
-  <Map Type="System" Name="03 GNSS Labels" Priority="1" Center="-45.933925+170.187472" CustomColourName="ProcArr">
+  <Map Type="System2" Name="03 GNSS Labels" Priority="1" Center="-45.933925+170.187472" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>AGESO</Point>
       <Point>AKLAR</Point>
@@ -252,7 +252,7 @@
       <Point>RULOL</Point>
       <Point>LUTSA</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>AKPIN</Point>
       <Point>ALBOX</Point>
       <Point>BASOS</Point>
@@ -271,15 +271,15 @@
       <!--Rwy21 ALKA2B-->
       AKLAR/BIPUV/LOSKO/AKDAS/BIGAR/ESKAT
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy21 BASO3B.ADKOS-->
       ADKOS/AKBUM/GOGES/MOXET/BASOS
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy21 BASO3B.LIBLA-->
       LIBLA/BOKAV/MIMEG/ATRAG/BASOS
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy21 BASO3B.SUNGU-->
       SUNGU/BASOS
     </Line>
@@ -329,7 +329,7 @@
       <Point>MIPAK</Point>
       <Point>IPKUG</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>AKLAR</Point>
       <Point>BASOS</Point>
       <Point>DABCA</Point>
@@ -352,9 +352,9 @@
     <Symbol Type="SolidTriangle">
       <Point>ESKAT</Point>
     </Symbol>
-    <Line>ESKAT/IDPON/BENRU/DN21T</Line>
+    <Line Pattern="Solid">ESKAT/IDPON/BENRU/DN21T</Line>
   </Map>
-  <Map Type="System" Name="21 GNSS Labels" Priority="1" Center="-45.924378+170.207786" CustomColourName="ProcArr">
+  <Map Type="System2" Name="21 GNSS Labels" Priority="1" Center="-45.924378+170.207786" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>BENRU</Point>
       <Point>ESKAT</Point>
@@ -386,7 +386,7 @@
       <Point>WAITATI</Point>
       <Point>WOODSIDE</Point>
     </Symbol>
-    <Label HasLeader="True">
+    <Label HasLeader="true">
       <Point>ALLANTON</Point>
       <Point>BERWICK</Point>
       <Point>BLACK HEAD</Point>

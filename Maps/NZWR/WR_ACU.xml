@@ -14,11 +14,11 @@
       <Point>OMANA</Point>
       <Point>BIRAX</Point>
     </Symbol>
-    <Line>OMANA/ADKES/WR601/WR06T</Line>
-    <Line>SF NDB/DUDAP/WR431</Line>
-    <Line>BIRAX/MONSU/WR983</Line>
+    <Line Pattern="Solid">OMANA/ADKES/WR601/WR06T</Line>
+    <Line Pattern="Solid">SF NDB/DUDAP/WR431</Line>
+    <Line Pattern="Solid">BIRAX/MONSU/WR983</Line>
   </Map>
-  <Map Type="System" Name="06 GNSS Labels" Priority="1" Center="-35.769875+174.357825" CustomColourName="ProcArr">
+  <Map Type="System2" Name="06 GNSS Labels" Priority="1" Center="-35.769875+174.357825" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>ADKES</Point>
       <Point>DUDAP</Point>
@@ -37,10 +37,10 @@
     <Symbol Type="SolidTriangle">
       <Point>BIRAX</Point>
     </Symbol>
-    <Line>SF NDB/DUDAP/WR431</Line>
-    <Line>BIRAX/MONSU/WR983</Line>
+    <Line Pattern="Solid">SF NDB/DUDAP/WR431</Line>
+    <Line Pattern="Solid">BIRAX/MONSU/WR983</Line>
   </Map>
-  <Map Type="System" Name="24 GNSS Labels" Priority="1" Center="-35.768372+174.369817" CustomColourName="ProcArr">
+  <Map Type="System2" Name="24 GNSS Labels" Priority="1" Center="-35.768372+174.369817" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>DUDAP</Point>
       <Point>MONSU</Point>
@@ -57,10 +57,10 @@
     <Symbol Type="SolidTriangle">
       <Point>BIRAX</Point>
     </Symbol>
-    <Line>SF NDB/DUDAP/WR431</Line>
-    <Line>BIRAX/MONSU/WR983</Line>
+    <Line Pattern="Solid">SF NDB/DUDAP/WR431</Line>
+    <Line Pattern="Solid">BIRAX/MONSU/WR983</Line>
   </Map>
-  <Map Type="System" Name="14 GNSS Labels" Priority="1" Center="-35.769653+174.359085" CustomColourName="ProcArr">
+  <Map Type="System2" Name="14 GNSS Labels" Priority="1" Center="-35.769653+174.359085" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>DUDAP</Point>
       <Point>MONSU</Point>
@@ -77,10 +77,10 @@
     <Symbol Type="SolidTriangle">
       <Point>BIRAX</Point>
     </Symbol>
-    <Line>SF NDB/DUDAP/WR431</Line>
-    <Line>BIRAX/MONSU/WR983</Line>
+    <Line Pattern="Solid">SF NDB/DUDAP/WR431</Line>
+    <Line Pattern="Solid">BIRAX/MONSU/WR983</Line>
   </Map>
-  <Map Type="System" Name="32 GNSS Labels" Priority="1" Center="-35.773643+174.360977" CustomColourName="ProcArr">
+  <Map Type="System2" Name="32 GNSS Labels" Priority="1" Center="-35.773643+174.360977" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>DUDAP</Point>
       <Point>MONSU</Point>
@@ -103,7 +103,7 @@
       <Point>WARKWORTH</Point>
       <Point>WELLSFORD</Point>
     </Symbol>
-    <Label HasLeader="True">
+    <Label HasLeader="true">
       <Point>BREAMTAIL HEAD</Point>
       <Point>CAPE RODNEY</Point>
       <Point>HOLE IN THE ROCK</Point>

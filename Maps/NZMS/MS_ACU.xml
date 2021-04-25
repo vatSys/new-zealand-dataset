@@ -57,7 +57,7 @@
       <Point>OKEVO</Point>
       <Point>WEBER</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>LADIT</Point>
       <Point>MAMOD</Point>
       <Point>URDAL</Point>
@@ -82,9 +82,9 @@
     <Symbol Type="SolidTriangle">
       <Point>MS603</Point>
     </Symbol>
-    <Line>MAMOD/MS603/MS488/MS818/MS06T</Line>
+    <Line Pattern="Solid">MAMOD/MS603/MS488/MS818/MS06T</Line>
   </Map>
-  <Map Type="System" Name="06 GNSS Labels" Priority="1" Center="-40.975867+175.627550" CustomColourName="ProcArr">
+  <Map Type="System2" Name="06 GNSS Labels" Priority="1" Center="-40.975867+175.627550" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>MAMOD</Point>
       <Point>MS488</Point>
@@ -148,7 +148,7 @@
       <Point>OKEVO</Point>
       <Point>WEBER</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>LADIT</Point>
       <Point>MAMOD</Point>
       <Point>URDAL</Point>
@@ -174,11 +174,11 @@
     <Symbol Type="SolidTriangle">
       <Point>SADUN</Point>
     </Symbol>
-    <Line>SADUN/MS402/MS572/MS24T</Line>
-    <Line>ATVOX/SADUN</Line>
-    <Line>URDAL/SADUN</Line>
+    <Line Pattern="Solid">SADUN/MS402/MS572/MS24T</Line>
+    <Line Pattern="Solid">ATVOX/SADUN</Line>
+    <Line Pattern="Solid">URDAL/SADUN</Line>
   </Map>
-  <Map Type="System" Name="24 GNSS Labels" Priority="1" Center="-40.973622+175.640547" CustomColourName="ProcArr">
+  <Map Type="System2" Name="24 GNSS Labels" Priority="1" Center="-40.973622+175.640547" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>ATVOX</Point>
       <Point>URDAL</Point>
@@ -246,7 +246,7 @@
       <Point>WINDMILL</Point>
       <Point>WOODVILLE</Point>
     </Symbol>
-    <Label HasLeader="True">
+    <Label HasLeader="true">
       <Point>AOKAUTERE</Point>
       <Point>ASHHURST</Point>
       <Point>AVALON</Point>
