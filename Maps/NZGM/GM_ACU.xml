@@ -14,11 +14,11 @@
     <Symbol Type="SolidTriangle">
       <Point>PAROA</Point>
     </Symbol>
-    <Line>PAROA/AGRIP/GM483/GM01T</Line>
-    <Line>ELPAM/PAROA</Line>
-    <Line>PAKSA/PAROA</Line>
+    <Line Pattern="Solid">PAROA/AGRIP/GM483/GM01T</Line>
+    <Line Pattern="Solid">ELPAM/PAROA</Line>
+    <Line Pattern="Solid">PAKSA/PAROA</Line>
   </Map>
-  <Map Type="System" Name="01 GNSS Labels" Priority="1" Center="-42.466089+171.187217" CustomColourName="ProcArr">
+  <Map Type="System2" Name="01 GNSS Labels" Priority="1" Center="-42.466089+171.187217" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>ELPAM</Point>
       <Point>PAKSA</Point>

@@ -12,11 +12,11 @@
     <Symbol Type="SolidTriangle">
       <Point>OMGET</Point>
     </Symbol>
-    <Line>OMGET/AVKIN/GB678</Line>
-    <Line>LUVOG/OMGET</Line>
-    <Line>VARSI/OMGET</Line>
+    <Line Pattern="Solid">OMGET/AVKIN/GB678</Line>
+    <Line Pattern="Solid">LUVOG/OMGET</Line>
+    <Line Pattern="Solid">VARSI/OMGET</Line>
   </Map>
-  <Map Type="System" Name="06 GNSS Labels" Priority="1" Center="-36.241909+175.468536" CustomColourName="ProcArr">
+  <Map Type="System2" Name="06 GNSS Labels" Priority="1" Center="-36.241909+175.468536" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>LUVOG</Point>
       <Point>VARSI</Point>
@@ -36,11 +36,11 @@
     <Symbol Type="SolidTriangle">
       <Point>OMGET</Point>
     </Symbol>
-    <Line>OMGET/AVKIN/GB678</Line>
-    <Line>LUVOG/OMGET</Line>
-    <Line>VARSI/OMGET</Line>
+    <Line Pattern="Solid">OMGET/AVKIN/GB678</Line>
+    <Line Pattern="Solid">LUVOG/OMGET</Line>
+    <Line Pattern="Solid">VARSI/OMGET</Line>
   </Map>
-  <Map Type="System" Name="24 GNSS Labels" Priority="1" Center="-36.240841+175.475342" CustomColourName="ProcArr">
+  <Map Type="System2" Name="24 GNSS Labels" Priority="1" Center="-36.240841+175.475342" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>LUVOG</Point>
       <Point>VARSI</Point>
@@ -60,11 +60,11 @@
     <Symbol Type="SolidTriangle">
       <Point>OMGET</Point>
     </Symbol>
-    <Line>OMGET/AVKIN/GB678</Line>
-    <Line>LUVOG/OMGET</Line>
-    <Line>VARSI/OMGET</Line>
+    <Line Pattern="Solid">OMGET/AVKIN/GB678</Line>
+    <Line Pattern="Solid">LUVOG/OMGET</Line>
+    <Line Pattern="Solid">VARSI/OMGET</Line>
   </Map>
-  <Map Type="System" Name="10 GNSS Labels" Priority="1" Center="-36.238797+175.464031" CustomColourName="ProcArr">
+  <Map Type="System2" Name="10 GNSS Labels" Priority="1" Center="-36.238797+175.464031" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>LUVOG</Point>
       <Point>VARSI</Point>
@@ -84,11 +84,11 @@
     <Symbol Type="SolidTriangle">
       <Point>OMGET</Point>
     </Symbol>
-    <Line>OMGET/AVKIN/GB678</Line>
-    <Line>LUVOG/OMGET</Line>
-    <Line>VARSI/OMGET</Line>
+    <Line Pattern="Solid">OMGET/AVKIN/GB678</Line>
+    <Line Pattern="Solid">LUVOG/OMGET</Line>
+    <Line Pattern="Solid">VARSI/OMGET</Line>
   </Map>
-  <Map Type="System" Name="28 GNSS Labels" Priority="1" Center="-36.243103+175.472969" CustomColourName="ProcArr">
+  <Map Type="System2" Name="28 GNSS Labels" Priority="1" Center="-36.243103+175.472969" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>LUVOG</Point>
       <Point>VARSI</Point>
@@ -120,7 +120,7 @@
       <Point>WELLSFORD</Point>
       <Point>WHITFORD TOWN</Point>
     </Symbol>
-    <Label HasLeader="True">
+    <Label HasLeader="true">
       <Point>BREAMTAIL HEAD</Point>
       <Point>CAPE RODNEY</Point>
       <Point>CLEVEDON</Point>

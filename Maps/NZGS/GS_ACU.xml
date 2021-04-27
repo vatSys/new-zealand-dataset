@@ -53,7 +53,7 @@
       <Point>OTOKO</Point>
       <Point>WARIK</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>COOKS</Point>
       <Point>CREEK</Point>
       <Point>ELMER</Point>
@@ -109,7 +109,7 @@
       <Point>KOPUA</Point>
       <Point>KEEPA</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>DABIP</Point>
       <Point>ELMER</Point>
       <Point>GS VOR</Point>
@@ -137,13 +137,13 @@
     <Symbol Type="SolidTriangle">
       <Point>RUGRU</Point>
     </Symbol>
-    <Line>RUGRU/SALEK/GS14T</Line>
-    <Line>CREEK/RUGRU</Line>
-    <Line>EWOOD/RUGRU</Line>
-    <Line>OTOKO/RUGRU</Line>
-    <Line>WARIK/RUGRU</Line>
+    <Line Pattern="Solid">RUGRU/SALEK/GS14T</Line>
+    <Line Pattern="Solid">CREEK/RUGRU</Line>
+    <Line Pattern="Solid">EWOOD/RUGRU</Line>
+    <Line Pattern="Solid">OTOKO/RUGRU</Line>
+    <Line Pattern="Solid">WARIK/RUGRU</Line>
   </Map>
-  <Map Type="System" Name="14 GNSS Labels" Priority="1" Center="-38.658300+177.974975" CustomColourName="ProcArr">
+  <Map Type="System2" Name="14 GNSS Labels" Priority="1" Center="-38.658300+177.974975" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>CREEK</Point>
       <Point>EWOOD</Point>
@@ -205,7 +205,7 @@
       <Point>HAWKE</Point>
       <Point>OTOKO</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>GS VOR</Point>
       <Point>NODEX</Point>
       <Point>COOKS</Point>
@@ -255,7 +255,7 @@
       <Point>OTOKO</Point>
       <Point>WARIK</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>CREEK</Point>
       <Point>ELMER</Point>
       <Point>GS VOR</Point>
@@ -278,11 +278,11 @@
     <Symbol Type="SolidTriangle">
       <Point>KOPUA</Point>
     </Symbol>
-    <Line>KOPUA/VESAV/GS32T</Line>
-    <Line>COOKS/KOPUA</Line>
-    <Line>UKLIP/KOPUA</Line>
+    <Line Pattern="Solid">KOPUA/VESAV/GS32T</Line>
+    <Line Pattern="Solid">COOKS/KOPUA</Line>
+    <Line Pattern="Solid">UKLIP/KOPUA</Line>
   </Map>
-  <Map Type="System" Name="32 GNSS Labels" Priority="1" Center="-38.669686+177.979039" CustomColourName="ProcArr">
+  <Map Type="System2" Name="32 GNSS Labels" Priority="1" Center="-38.669686+177.979039" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>COOKS</Point>
       <Point>UKLIP</Point>
@@ -314,7 +314,7 @@
       <Point>WAIPAOA RIVER MOUTH</Point>
       <Point>WHAKAPUNAKI</Point>
     </Symbol>
-    <Label HasLeader="True">
+    <Label HasLeader="true">
       <Point>BARTLETTS</Point>
       <Point>GREYS BUSH</Point>
       <Point>HOROTO</Point>

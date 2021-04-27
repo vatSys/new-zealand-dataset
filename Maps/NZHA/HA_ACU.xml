@@ -12,11 +12,11 @@
     <Symbol Type="SolidTriangle">
       <Point>WAPOU</Point>
     </Symbol>
-    <Line>WAPOU/HA906/HA32T</Line>
-    <Line>NUKTO/WAPOU</Line>
-    <Line>UPVOK/WAPOU</Line>
+    <Line Pattern="Solid">WAPOU/HA906/HA32T</Line>
+    <Line Pattern="Solid">NUKTO/WAPOU</Line>
+    <Line Pattern="Solid">UPVOK/WAPOU</Line>
   </Map>
-  <Map Type="System" Name="32 GNSS Labels" Priority="1" Center="-39.557828+174.269719" CustomColourName="ProcArr">
+  <Map Type="System2" Name="32 GNSS Labels" Priority="1" Center="-39.557828+174.269719" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>NUKTO</Point>
       <Point>UPVOK</Point>
@@ -40,7 +40,7 @@
       <Point>WAITARA VALLEY PLANT</Point>
       <Point>WHANGAEHU RIVER MOUTH</Point>
     </Symbol>
-    <Label HasLeader="True">
+    <Label HasLeader="true">
       <Point>BELL BLOCK OVERPASS</Point>
       <Point>EGMONT VILLAGE</Point>
       <Point>FORDELL</Point>

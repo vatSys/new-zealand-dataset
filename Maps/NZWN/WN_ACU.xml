@@ -128,7 +128,7 @@
       <Point>KAMDO</Point>
       <Point>BAXAN</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>DOGBI</Point>
       <Point>KADNU</Point>
       <Point>MESEL</Point>
@@ -170,15 +170,15 @@
     <Line>
       <!--Rwy16 LADI6B-->
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy16 SIMZ3B.GOPLU-->
       GOPLU/SIMZI
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy16 SIMZ3B.GULUT-->
       GULUT/SIMZI
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy16 SIMZ3B.TANEN-->
       TANEN/SIMZI
     </Line>
@@ -186,13 +186,13 @@
       <!--Rwy16 SIMZ3B-->
       SIMZI/KABUS/RUSKI/HUWIT
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy16 SIMZ1D.GOPLU-->
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy16 SIMZ1D.GULUT-->
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy16 SIMZ1D.TANEN-->
     </Line>
     <Line>
@@ -240,7 +240,7 @@
       <Point>PHNIX</Point>
       <Point>OMDOX</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>ATSUN</Point>
       <Point>AVPOD</Point>
       <Point>DOGAD</Point>
@@ -267,9 +267,9 @@
     <Symbol Type="SolidTriangle">
       <Point>WITBY</Point>
     </Symbol>
-    <Line>WITBY/CANES/OLBIN/WN16T</Line>
+    <Line Pattern="Solid">WITBY/CANES/OLBIN/WN16T</Line>
   </Map>
-  <Map Type="System" Name="16 GNSS Labels" Priority="1" Center="-41.318622+174.807458" CustomColourName="ProcArr">
+  <Map Type="System2" Name="16 GNSS Labels" Priority="1" Center="-41.318622+174.807458" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>OLBIN</Point>
       <Point>WITBY</Point>
@@ -290,11 +290,11 @@
     <Symbol Type="SolidTriangle">
       <Point>WN416</Point>
     </Symbol>
-    <Line>WN416/RIDGE/WN16T</Line>
-    <Line>DORBU/WN509/WN416</Line>
-    <Line>HUWIT/WN513/WN416</Line>
+    <Line Pattern="Solid">WN416/RIDGE/WN16T</Line>
+    <Line Pattern="Solid">DORBU/WN509/WN416</Line>
+    <Line Pattern="Solid">HUWIT/WN513/WN416</Line>
   </Map>
-  <Map Type="System" Name="16 RNP Labels" Priority="1" Center="-41.318622+174.807458" CustomColourName="ProcArr">
+  <Map Type="System2" Name="16 RNP Labels" Priority="1" Center="-41.318622+174.807458" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>DORBU</Point>
       <Point>HUWIT</Point>
@@ -484,7 +484,7 @@
       <Point>VANDA</Point>
       <Point>LAXIV</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>ISNIP</Point>
       <Point>KALEM</Point>
       <Point>NL NDB</Point>
@@ -522,15 +522,15 @@
     <Line>
       <!--Rwy34 LADI6A-->
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy34 SIMZ6A.GOPLU-->
       GOPLU/SIMZI
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy34 SIMZ6A.GULUT-->
       GULUT/SIMZI
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy34 SIMZ6A.TANEN-->
       TANEN/SIMZI
     </Line>
@@ -538,13 +538,13 @@
       <!--Rwy34 SIMZ6A-->
       SIMZI/KRAKA/MEEDA
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy34 SIMZ2C.GOPLU-->
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy34 SIMZ2C.GULUT-->
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy34 SIMZ2C.TANEN-->
     </Line>
     <Line>
@@ -600,7 +600,7 @@
       <Point>OMDOX</Point>
       <Point>SALTI</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>ATSUN</Point>
       <Point>DOGAD</Point>
       <Point>IGMUL</Point>
@@ -630,10 +630,10 @@
     <Symbol Type="SolidTriangle">
       <Point>UMAGA</Point>
     </Symbol>
-    <Line>UMAGA/BUTIN/WN402/ROZAN/WN34T</Line>
-    <Line>ROZAN/WN403/WN34T</Line>
+    <Line Pattern="Solid">UMAGA/BUTIN/WN402/ROZAN/WN34T</Line>
+    <Line Pattern="Solid">ROZAN/WN403/WN34T</Line>
   </Map>
-  <Map Type="System" Name="34 GNSS Labels" Priority="1" Center="-41.334939+174.806358" CustomColourName="ProcArr">
+  <Map Type="System2" Name="34 GNSS Labels" Priority="1" Center="-41.334939+174.806358" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>ROZAN</Point>
       <Point>UMAGA</Point>
@@ -657,11 +657,11 @@
     <Symbol Type="SolidTriangle">
       <Point>WN412</Point>
     </Symbol>
-    <Line>WN412/WN508/SULAB/WN34T</Line>
-    <Line>MEEDA/WN514/WN423/WN412</Line>
-    <Line>RIPPA/WN411/WN506/WN412</Line>
+    <Line Pattern="Solid">WN412/WN508/SULAB/WN34T</Line>
+    <Line Pattern="Solid">MEEDA/WN514/WN423/WN412</Line>
+    <Line Pattern="Solid">RIPPA/WN411/WN506/WN412</Line>
   </Map>
-  <Map Type="System" Name="34 RNP Labels" Priority="1" Center="-41.334939+174.806358" CustomColourName="ProcArr">
+  <Map Type="System2" Name="34 RNP Labels" Priority="1" Center="-41.334939+174.806358" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>MEEDA</Point>
       <Point>RIPPA</Point>
@@ -730,7 +730,7 @@
       <Point>WHITE BLUFFS</Point>
       <Point>WINDMILL</Point>
     </Symbol>
-    <Label HasLeader="True">
+    <Label HasLeader="true">
       <Point>AVALON</Point>
       <Point>AWATERE RIVER MOUTH</Point>
       <Point>BARING</Point>
@@ -792,7 +792,7 @@
     </Label>
   </Map>
   <Map Type="System2" Name="VFRProc" Priority="1" CustomColourName="VFRPoint" Centre="-41.327222+174.805278">
-    <Label HasLeader="True" LabelOrientation="NW">
+    <Label HasLeader="true" LabelOrientation="NW">
       <Point Name="16-BARING-DEP">-41.341667+174.805000</Point>
       <Point Name="16-CITY-ARR">MAKARA PEAK</Point>
       <Point Name="16-EAST-ARR">-41.375000+174.966667</Point>
@@ -803,7 +803,7 @@
       <Point Name="34-EAST-ARR">-41.300000+174.966667</Point>
       <Point Name="34-OWHIRO-ARR">SINCLAIR HEAD</Point>
     </Label>
-    <Label HasLeader="True" LabelOrientation="SE">
+    <Label HasLeader="true" LabelOrientation="SE">
       <Point Name="16-EAST-DEP">-41.341667+174.805000</Point>
       <Point Name="34-CITY-DEP">-41.297500+174.807778</Point>
       <Point Name="34-EAST-DEP">-41.297500+174.807778</Point>

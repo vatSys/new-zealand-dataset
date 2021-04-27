@@ -417,14 +417,6 @@
         <Map Name="NZWB/ASMGCS_NZWB_TWY" />
       </Maps>
     </Position>
-    <Position Name="NZAP" Type="ASMGCS" ASMGCSAirport="NZAP" DefaultCenter="-384422.999+1760503.998" DefaultRange="2" MagneticVariation="0">
-      <Maps>
-        <Map Name="NZAP/ASMGCS_NZAP_RWY" />
-        <Map Name="NZAP/ASMGCS_NZAP_APR" />
-        <Map Name="NZAP/ASMGCS_NZAP_BLD" />
-        <Map Name="NZAP/ASMGCS_NZAP_TWY" />
-      </Maps>
-    </Position>
     <Position Name="NZNV" Type="ASMGCS" ASMGCSAirport="NZNV" DefaultCenter="-462510.787+1681854.107" DefaultRange="2" MagneticVariation="0">
       <Maps>
         <Map Name="NZNV/ASMGCS_NZNV_RWY" />
@@ -521,6 +513,14 @@
         <Map Name="NZWU/ASMGCS_NZWU_APR" />
         <Map Name="NZWU/ASMGCS_NZWU_BLD" />
         <Map Name="NZWU/ASMGCS_NZWU_TWY" />
+      </Maps>
+    </Position>
+    <Position Name="NZAP" Type="ASMGCS" ASMGCSAirport="NZAP" DefaultCenter="-384422.999+1760503.998" DefaultRange="2" MagneticVariation="0">
+      <Maps>
+        <Map Name="NZAP/ASMGCS_NZAP_RWY" />
+        <Map Name="NZAP/ASMGCS_NZAP_APR" />
+        <Map Name="NZAP/ASMGCS_NZAP_BLD" />
+        <Map Name="NZAP/ASMGCS_NZAP_TWY" />
       </Maps>
     </Position>
   </Group>

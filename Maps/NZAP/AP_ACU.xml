@@ -52,7 +52,7 @@
       <Point>SULFA</Point>
       <Point>TAIKI</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>MINEK</Point>
       <Point>AKNES</Point>
       <Point>DOGMO</Point>
@@ -88,7 +88,7 @@
       <Point>SULFA</Point>
       <Point>MEXIS</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>GOSTI</Point>
       <Point>ISGIT</Point>
       <Point>SULFA</Point>
@@ -110,11 +110,11 @@
     <Symbol Type="SolidTriangle">
       <Point>AP706</Point>
     </Symbol>
-    <Line>AP706/OLSEK/AP701/AP17T</Line>
-    <Line>GUMAN/AP706</Line>
-    <Line>KALGO/AP706</Line>
+    <Line Pattern="Solid">AP706/OLSEK/AP701/AP17T</Line>
+    <Line Pattern="Solid">GUMAN/AP706</Line>
+    <Line Pattern="Solid">KALGO/AP706</Line>
   </Map>
-  <Map Type="System" Name="17 GNSS Labels" Priority="1" Center="-38.734717+176.086950" CustomColourName="ProcArr">
+  <Map Type="System2" Name="17 GNSS Labels" Priority="1" Center="-38.734717+176.086950" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>GUMAN</Point>
       <Point>KALGO</Point>
@@ -145,7 +145,7 @@
       <Point>GUMAN</Point>
       <Point>SULFA</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>GOSTI</Point>
       <Point>GUMAN</Point>
       <Point>SULFA</Point>
@@ -168,12 +168,12 @@
     <Symbol Type="SolidTriangle">
       <Point>AP506</Point>
     </Symbol>
-    <Line>AP506/UBLUT/AP501/AP35T</Line>
-    <Line>AKABA/AP506</Line>
-    <Line>EMSAR/AP506</Line>
-    <Line>MASKU/AP506</Line>
+    <Line Pattern="Solid">AP506/UBLUT/AP501/AP35T</Line>
+    <Line Pattern="Solid">AKABA/AP506</Line>
+    <Line Pattern="Solid">EMSAR/AP506</Line>
+    <Line Pattern="Solid">MASKU/AP506</Line>
   </Map>
-  <Map Type="System" Name="35 GNSS Labels" Priority="1" Center="-38.746789+176.082844" CustomColourName="ProcArr">
+  <Map Type="System2" Name="35 GNSS Labels" Priority="1" Center="-38.746789+176.082844" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>AKABA</Point>
       <Point>EMSAR</Point>
@@ -229,7 +229,7 @@
       <Point>WHAKAPAPA VILLAGE</Point>
       <Point>WHITE CLIFFS</Point>
     </Symbol>
-    <Label HasLeader="True">
+    <Label HasLeader="true">
       <Point>BOAT HARBOUR</Point>
       <Point>GREEN LAKE</Point>
       <Point>HAMURANA</Point>

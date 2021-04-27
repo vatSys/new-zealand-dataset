@@ -195,38 +195,38 @@
       <Point>WN416</Point>
       <Point>WN412</Point>
     </Symbol>
-    <Line>AA427/BUBKU/AA412/TEGIK/AA23L</Line>
-    <Line>KETOB/AA407/AA427</Line>
-    <Line>ZORBA/AA411/AA407</Line>
-    <Line>VABTI/AA521/AA428/AA516/TUSLO/AA23L</Line>
-    <Line>TEVUC/SUBUN/AA513/AA412</Line>
-    <Line>VIRIS/SADOS/QUINA/NIPAS/LAMEL/IBOKI/AA05R</Line>
-    <Line>KIDAG/LOSGA/LAGUT/GOBOB/ESMON/AKROV/DUNAD/AA23L</Line>
-    <Line>ATAMA/PORAR/AA509/AA05R</Line>
-    <Line>ESNAX/NOKAM/AA409/AA23L</Line>
-    <Line>ERVAX/CH832/CH793/CH755/PEBVI/BEKTI/CH02T</Line>
-    <Line>BOLUB/CH963/SULMO/CH697/NISOM/CH02T</Line>
-    <Line>BIXIX/CH827/CH428/RUSON/ENLAT/CH20T</Line>
-    <Line>ABVIM/CH437/UBLES/CH917/CH29T</Line>
-    <Line>ERVAX/CH989/CH931/CH634/CH928/ENLAT</Line>
-    <Line>LEVGO/CH846/CH801/CH878/GUNLO/CH02T</Line>
-    <Line>SUSAL/CH946/CH813/CH653/CH928</Line>
-    <Line>SUPSO/CH434/VEKMU/CH438/CH917</Line>
-    <Line>TAYLA/LAXOD/HN18L</Line>
-    <Line>VATNA/ISPOT/HN18L</Line>
-    <Line>LEKED/SEKNI/DANLU/PM482/PM25T</Line>
-    <Line>IBABU/QN577/QN573/QN571/QN565/MOPGA/OMUBO/QN555/QN550/QN545/QN05T</Line>
-    <Line>ATVUP/QN760/QN755/LARAV/QN745/QN741/QN735/QN731/QN725/QN23T</Line>
-    <Line>ATKIL/QN780/QN775/QN770/ATVUP</Line>
-    <Line>UGPED/QN779/QN774/ATVUP</Line>
-    <Line>OKERE/RO186/RO185/RO18T</Line>
-    <Line>TOTRA/ADKAG/SEKBU/RO366/RO364/RO36T</Line>
-    <Line>WN416/RIDGE/WN16T</Line>
-    <Line>DORBU/WN509/WN416</Line>
-    <Line>HUWIT/WN513/WN416</Line>
-    <Line>WN412/WN508/SULAB/WN34T</Line>
-    <Line>MEEDA/WN514/WN423/WN412</Line>
-    <Line>RIPPA/WN411/WN506/WN412</Line>
+    <Line Pattern="Solid">AA427/BUBKU/AA412/TEGIK/AA23L</Line>
+    <Line Pattern="Solid">KETOB/AA407/AA427</Line>
+    <Line Pattern="Solid">ZORBA/AA411/AA407</Line>
+    <Line Pattern="Solid">VABTI/AA521/AA428/AA516/TUSLO/AA23L</Line>
+    <Line Pattern="Solid">TEVUC/SUBUN/AA513/AA412</Line>
+    <Line Pattern="Solid">VIRIS/SADOS/QUINA/NIPAS/LAMEL/IBOKI/AA05R</Line>
+    <Line Pattern="Solid">KIDAG/LOSGA/LAGUT/GOBOB/ESMON/AKROV/DUNAD/AA23L</Line>
+    <Line Pattern="Solid">ATAMA/PORAR/AA509/AA05R</Line>
+    <Line Pattern="Solid">ESNAX/NOKAM/AA409/AA23L</Line>
+    <Line Pattern="Solid">ERVAX/CH832/CH793/CH755/PEBVI/BEKTI/CH02T</Line>
+    <Line Pattern="Solid">BOLUB/CH963/SULMO/CH697/NISOM/CH02T</Line>
+    <Line Pattern="Solid">BIXIX/CH827/CH428/RUSON/ENLAT/CH20T</Line>
+    <Line Pattern="Solid">ABVIM/CH437/UBLES/CH917/CH29T</Line>
+    <Line Pattern="Solid">ERVAX/CH989/CH931/CH634/CH928/ENLAT</Line>
+    <Line Pattern="Solid">LEVGO/CH846/CH801/CH878/GUNLO/CH02T</Line>
+    <Line Pattern="Solid">SUSAL/CH946/CH813/CH653/CH928</Line>
+    <Line Pattern="Solid">SUPSO/CH434/VEKMU/CH438/CH917</Line>
+    <Line Pattern="Solid">TAYLA/LAXOD/HN18L</Line>
+    <Line Pattern="Solid">VATNA/ISPOT/HN18L</Line>
+    <Line Pattern="Solid">LEKED/SEKNI/DANLU/PM482/PM25T</Line>
+    <Line Pattern="Solid">IBABU/QN577/QN573/QN571/QN565/MOPGA/OMUBO/QN555/QN550/QN545/QN05T</Line>
+    <Line Pattern="Solid">ATVUP/QN760/QN755/LARAV/QN745/QN741/QN735/QN731/QN725/QN23T</Line>
+    <Line Pattern="Solid">ATKIL/QN780/QN775/QN770/ATVUP</Line>
+    <Line Pattern="Solid">UGPED/QN779/QN774/ATVUP</Line>
+    <Line Pattern="Solid">OKERE/RO186/RO185/RO18T</Line>
+    <Line Pattern="Solid">TOTRA/ADKAG/SEKBU/RO366/RO364/RO36T</Line>
+    <Line Pattern="Solid">WN416/RIDGE/WN16T</Line>
+    <Line Pattern="Solid">DORBU/WN509/WN416</Line>
+    <Line Pattern="Solid">HUWIT/WN513/WN416</Line>
+    <Line Pattern="Solid">WN412/WN508/SULAB/WN34T</Line>
+    <Line Pattern="Solid">MEEDA/WN514/WN423/WN412</Line>
+    <Line Pattern="Solid">RIPPA/WN411/WN506/WN412</Line>
   </Map>
   <Map Type="System2" Name="GNSS" Priority="1" Center="-42.0+172.0" CustomColourName="ProcArr">
     <Label HasLeader="true">
@@ -732,173 +732,173 @@
       <Point>DUDED</Point>
       <Point>BASEP</Point>
     </Symbol>
-    <Line>LENGU/UGRUS/FF05R/AA05R</Line>
-    <Line>EMRAG/ORESO/FF23L/AA23L</Line>
-    <Line>AP706/OLSEK/AP701/AP17T</Line>
-    <Line>GUMAN/AP706</Line>
-    <Line>KALGO/AP706</Line>
-    <Line>AP506/UBLUT/AP501/AP35T</Line>
-    <Line>AKABA/AP506</Line>
-    <Line>EMSAR/AP506</Line>
-    <Line>MASKU/AP506</Line>
-    <Line>KINGS/UBKEL/AR409/AR03T</Line>
-    <Line>GROVE/KINGS</Line>
-    <Line>WI NDB/KINGS</Line>
-    <Line>EGURU/SARVI/AR401/AR21T</Line>
-    <Line>FIRTH/EGURU</Line>
-    <Line>SATLA/EGURU</Line>
-    <Line>ORERE/EMTUB/AR401</Line>
-    <Line>FIRTH/ORERE</Line>
-    <Line>SATLA/ORERE</Line>
-    <Line>BUSKU/VENKI/CH11T</Line>
-    <Line>AVDID/BUSKU</Line>
-    <Line>IGLIS/BUSKU</Line>
-    <Line>ALBAD/DAKUR/CH02T</Line>
-    <Line>GOMPI/ALBAD</Line>
-    <Line>IDUBU/ALBAD</Line>
-    <Line>UBDAN/ALBAD</Line>
-    <Line>DIVSU/LUKLO/CH20T</Line>
-    <Line>BIDEV/DIVSU</Line>
-    <Line>MABAK/DIVSU</Line>
-    <Line>ODISI/DIVSU</Line>
-    <Line>AKLAR/OVSED/AGESO/DN03T</Line>
-    <Line>ESKAT/IDPON/BENRU/DN21T</Line>
-    <Line>OMGET/AVKIN/GB678</Line>
-    <Line>LUVOG/OMGET</Line>
-    <Line>VARSI/OMGET</Line>
-    <Line>PAROA/AGRIP/GM483/GM01T</Line>
-    <Line>ELPAM/PAROA</Line>
-    <Line>PAKSA/PAROA</Line>
-    <Line>RUGRU/SALEK/GS14T</Line>
-    <Line>CREEK/RUGRU</Line>
-    <Line>EWOOD/RUGRU</Line>
-    <Line>OTOKO/RUGRU</Line>
-    <Line>WARIK/RUGRU</Line>
-    <Line>KOPUA/VESAV/GS32T</Line>
-    <Line>COOKS/KOPUA</Line>
-    <Line>UKLIP/KOPUA</Line>
-    <Line>WAPOU/HA906/HA32T</Line>
-    <Line>NUKTO/WAPOU</Line>
-    <Line>UPVOK/WAPOU</Line>
-    <Line>KARVO/HK406/HK03T</Line>
-    <Line>MAKOS/HK407/HK21T</Line>
-    <Line>BUDEN/NITAK/HN36R</Line>
-    <Line>GUNDA/IKERI/HN36R</Line>
-    <Line>OTAHA/-35.171564+173.885264/-35.244333+173.907978/KK15T</Line>
-    <Line>OPARE/-35.343650+173.939047/-35.270886+173.916278/KK33T</Line>
-    <Line>STEED/-34.985489+173.206236/-35.051364+173.268542/KT12T</Line>
-    <Line>PERIA/-35.114650+173.348514/-35.084461+173.299894/KT30T</Line>
-    <Line>MAMOD/MS603/MS488/MS818/MS06T</Line>
-    <Line>SADUN/MS402/MS572/MS24T</Line>
-    <Line>ATVOX/SADUN</Line>
-    <Line>URDAL/SADUN</Line>
-    <Line>LIBKO/RIKDI/-36.667425+174.640756/NE03T</Line>
-    <Line>PANGO/LIBKO</Line>
-    <Line>UPLIN/-36.597019+174.734392/NE21T</Line>
-    <Line>BOLOR/UPLIN</Line>
-    <Line>VARMA/LUTUX/NP05T</Line>
-    <Line>UPDAL/DOVED/NP23T</Line>
-    <Line>AROPA/-39.378392+176.915156/-39.449436+176.869419/NR16T</Line>
-    <Line>ELBOW/AROPA</Line>
-    <Line>NANUA/AROPA</Line>
-    <Line>AKINA/-39.536822+176.859764/NR34T</Line>
-    <Line>MILLA/AKINA</Line>
-    <Line>OHITI/AKINA</Line>
-    <Line>ELMAX/NOPEM/ORUBA</Line>
-    <Line>KAPUA/ELMAX</Line>
-    <Line>LIKMA/ELMAX</Line>
-    <Line>OTLIT/ISLOP/PATRU/NS02T</Line>
-    <Line>MIBEV/OTLIT</Line>
-    <Line>QUAIL/OTLIT</Line>
-    <Line>TUMGO/ISLOP</Line>
-    <Line>ESNED/TUMGO</Line>
-    <Line>KAGRU/NILIB/NV04T</Line>
-    <Line>DUNAX/PALTU/NV22T</Line>
-    <Line>NUTGO/NIVOD/OH09T</Line>
-    <Line>BOBIT/NUTGO</Line>
-    <Line>DOTGO/NUTGO</Line>
-    <Line>LELUK/NUTGO</Line>
-    <Line>GUPIL/DOXIN/OH15T</Line>
-    <Line>ADKIS/GUPIL</Line>
-    <Line>BOBIT/GUPIL</Line>
-    <Line>SOSLA/VELSU/OH33T</Line>
-    <Line>NOBED/SOSLA</Line>
-    <Line>VARNO/SOSLA</Line>
-    <Line>SAKOG/PEDBA/OH27T</Line>
-    <Line>LUXUL/PEDBA</Line>
-    <Line>PAMOA/-44.887389+171.137850/OU18T</Line>
-    <Line>ORBEL/-45.046594+171.025025/OU36T</Line>
-    <Line>GUTNI/LERSO/PM07T</Line>
-    <Line>AKNIN/GUTNI</Line>
-    <Line>NIRUB/GUTNI</Line>
-    <Line>UVUSI/IVREP/PM25T</Line>
-    <Line>BIDEK/UVUSI</Line>
-    <Line>NIKIP/UVUSI</Line>
-    <Line>NOKIX/PP411/PP414/PP16T</Line>
-    <Line>ENBAR/NOKIX</Line>
-    <Line>LEVBI/TAXEV/PP421/PP34T</Line>
-    <Line>DABGU/LEVBI</Line>
-    <Line>NILID/LEVBI</Line>
-    <Line>IBABU/QN529/LETPO/GUSAS/QN581</Line>
-    <Line>GIVAK/IKABA/QN603</Line>
-    <Line>ATKIL/QN780/ONADU/GIVAK</Line>
-    <Line>UGPED/ONADU</Line>
-    <Line>TOTRA/-38.172367+176.219978/-38.125194+176.293947/OKERE</Line>
-    <Line>NIKOR/ELKOB/RO18T</Line>
-    <Line>OKERE/NIKOR</Line>
-    <Line>APABO/BAMEX/SEMKI/SL16T</Line>
-    <Line>TENIX/RIPSA/TG07T</Line>
-    <Line>MORTA/TENIX</Line>
-    <Line>RUSTA/TENIX</Line>
-    <Line>PATMO/UKDAS/TG25T</Line>
-    <Line>TODAN/PATMO</Line>
-    <Line>UBSET/PATMO</Line>
-    <Line>WAIPA/-38.167164+175.830969/TO13T</Line>
-    <Line>KARBA/WAIPA</Line>
-    <Line>LALAN/WAIPA</Line>
-    <Line>MIKER/WAIPA</Line>
-    <Line>AMURI/-38.309944+175.958236/TO31T</Line>
-    <Line>ARIKA/AMURI</Line>
-    <Line>GOSTI/AMURI</Line>
-    <Line>GUMAN/AMURI</Line>
-    <Line>LUTKA/ELKUB/ENPIP/WB401/WB24T</Line>
-    <Line>JAMIE/LUTKA</Line>
-    <Line>ELBEV/WK401/WK09T</Line>
-    <Line>LAVIS/ELBEV</Line>
-    <Line>REGAT/WK402/WK27T</Line>
-    <Line>POTOP/REGAT</Line>
-    <Line>UMAGA/BUTIN/WN402/ROZAN/WN34T</Line>
-    <Line>WITBY/CANES/OLBIN/WN16T</Line>
-    <Line>ROZAN/WN403/WN34T</Line>
-    <Line>AVMEB/RITPU/WO16T</Line>
-    <Line>AGTID/AVMEB</Line>
-    <Line>IKIMU/AVMEB</Line>
-    <Line>UPSUV/AVMEB</Line>
-    <Line>MARKS/WO422/WO411/WO34T</Line>
-    <Line>BURLY/MARKS</Line>
-    <Line>OPOHO/MARKS</Line>
-    <Line>WYTAK/MESUD/WP03T</Line>
-    <Line>MAKEE/WP801/WP08T</Line>
-    <Line>HALEN/MAKEE</Line>
-    <Line>IGOLF/MAKEE</Line>
-    <Line>BAYES/KIBIM/WP21T</Line>
-    <Line>FLAXX/WP601/WP26T</Line>
-    <Line>ABUOY/FLAXX</Line>
-    <Line>BAZEN/FLAXX</Line>
-    <Line>OMANA/ADKES/WR601/WR06T</Line>
-    <Line>SF NDB/DUDAP/WR431</Line>
-    <Line>BIRAX/MONSU/WR983</Line>
-    <Line>BURKI/WS404/WS04T</Line>
-    <Line>AVMAK/BURKI</Line>
-    <Line>GUNOM/BURKI</Line>
-    <Line>WS408/WS411/WS22T</Line>
-    <Line>ANSIS/WS408</Line>
-    <Line>PILUP/WS408</Line>
-    <Line>DUDED/-39.914692+174.940081/WU11T</Line>
-    <Line>AVLOR/DUDED</Line>
-    <Line>BUPKA/DUDED</Line>
-    <Line>BASEP/BUSBI/WU29T</Line>
-    <Line>ADGAT/BASEP</Line>
-    <Line>BELVO/BASEP</Line>
+    <Line Pattern="Solid">LENGU/UGRUS/FF05R/AA05R</Line>
+    <Line Pattern="Solid">EMRAG/ORESO/FF23L/AA23L</Line>
+    <Line Pattern="Solid">AP706/OLSEK/AP701/AP17T</Line>
+    <Line Pattern="Solid">GUMAN/AP706</Line>
+    <Line Pattern="Solid">KALGO/AP706</Line>
+    <Line Pattern="Solid">AP506/UBLUT/AP501/AP35T</Line>
+    <Line Pattern="Solid">AKABA/AP506</Line>
+    <Line Pattern="Solid">EMSAR/AP506</Line>
+    <Line Pattern="Solid">MASKU/AP506</Line>
+    <Line Pattern="Solid">KINGS/UBKEL/AR409/AR03T</Line>
+    <Line Pattern="Solid">GROVE/KINGS</Line>
+    <Line Pattern="Solid">WI NDB/KINGS</Line>
+    <Line Pattern="Solid">EGURU/SARVI/AR401/AR21T</Line>
+    <Line Pattern="Solid">FIRTH/EGURU</Line>
+    <Line Pattern="Solid">SATLA/EGURU</Line>
+    <Line Pattern="Solid">ORERE/EMTUB/AR401</Line>
+    <Line Pattern="Solid">FIRTH/ORERE</Line>
+    <Line Pattern="Solid">SATLA/ORERE</Line>
+    <Line Pattern="Solid">BUSKU/VENKI/CH11T</Line>
+    <Line Pattern="Solid">AVDID/BUSKU</Line>
+    <Line Pattern="Solid">IGLIS/BUSKU</Line>
+    <Line Pattern="Solid">ALBAD/DAKUR/CH02T</Line>
+    <Line Pattern="Solid">GOMPI/ALBAD</Line>
+    <Line Pattern="Solid">IDUBU/ALBAD</Line>
+    <Line Pattern="Solid">UBDAN/ALBAD</Line>
+    <Line Pattern="Solid">DIVSU/LUKLO/CH20T</Line>
+    <Line Pattern="Solid">BIDEV/DIVSU</Line>
+    <Line Pattern="Solid">MABAK/DIVSU</Line>
+    <Line Pattern="Solid">ODISI/DIVSU</Line>
+    <Line Pattern="Solid">AKLAR/OVSED/AGESO/DN03T</Line>
+    <Line Pattern="Solid">ESKAT/IDPON/BENRU/DN21T</Line>
+    <Line Pattern="Solid">OMGET/AVKIN/GB678</Line>
+    <Line Pattern="Solid">LUVOG/OMGET</Line>
+    <Line Pattern="Solid">VARSI/OMGET</Line>
+    <Line Pattern="Solid">PAROA/AGRIP/GM483/GM01T</Line>
+    <Line Pattern="Solid">ELPAM/PAROA</Line>
+    <Line Pattern="Solid">PAKSA/PAROA</Line>
+    <Line Pattern="Solid">RUGRU/SALEK/GS14T</Line>
+    <Line Pattern="Solid">CREEK/RUGRU</Line>
+    <Line Pattern="Solid">EWOOD/RUGRU</Line>
+    <Line Pattern="Solid">OTOKO/RUGRU</Line>
+    <Line Pattern="Solid">WARIK/RUGRU</Line>
+    <Line Pattern="Solid">KOPUA/VESAV/GS32T</Line>
+    <Line Pattern="Solid">COOKS/KOPUA</Line>
+    <Line Pattern="Solid">UKLIP/KOPUA</Line>
+    <Line Pattern="Solid">WAPOU/HA906/HA32T</Line>
+    <Line Pattern="Solid">NUKTO/WAPOU</Line>
+    <Line Pattern="Solid">UPVOK/WAPOU</Line>
+    <Line Pattern="Solid">KARVO/HK406/HK03T</Line>
+    <Line Pattern="Solid">MAKOS/HK407/HK21T</Line>
+    <Line Pattern="Solid">BUDEN/NITAK/HN36R</Line>
+    <Line Pattern="Solid">GUNDA/IKERI/HN36R</Line>
+    <Line Pattern="Solid">OTAHA/-35.171564+173.885264/-35.244333+173.907978/KK15T</Line>
+    <Line Pattern="Solid">OPARE/-35.343650+173.939047/-35.270886+173.916278/KK33T</Line>
+    <Line Pattern="Solid">STEED/-34.985489+173.206236/-35.051364+173.268542/KT12T</Line>
+    <Line Pattern="Solid">PERIA/-35.114650+173.348514/-35.084461+173.299894/KT30T</Line>
+    <Line Pattern="Solid">MAMOD/MS603/MS488/MS818/MS06T</Line>
+    <Line Pattern="Solid">SADUN/MS402/MS572/MS24T</Line>
+    <Line Pattern="Solid">ATVOX/SADUN</Line>
+    <Line Pattern="Solid">URDAL/SADUN</Line>
+    <Line Pattern="Solid">LIBKO/RIKDI/-36.667425+174.640756/NE03T</Line>
+    <Line Pattern="Solid">PANGO/LIBKO</Line>
+    <Line Pattern="Solid">UPLIN/-36.597019+174.734392/NE21T</Line>
+    <Line Pattern="Solid">BOLOR/UPLIN</Line>
+    <Line Pattern="Solid">VARMA/LUTUX/NP05T</Line>
+    <Line Pattern="Solid">UPDAL/DOVED/NP23T</Line>
+    <Line Pattern="Solid">AROPA/-39.378392+176.915156/-39.449436+176.869419/NR16T</Line>
+    <Line Pattern="Solid">ELBOW/AROPA</Line>
+    <Line Pattern="Solid">NANUA/AROPA</Line>
+    <Line Pattern="Solid">AKINA/-39.536822+176.859764/NR34T</Line>
+    <Line Pattern="Solid">MILLA/AKINA</Line>
+    <Line Pattern="Solid">OHITI/AKINA</Line>
+    <Line Pattern="Solid">ELMAX/NOPEM/ORUBA</Line>
+    <Line Pattern="Solid">KAPUA/ELMAX</Line>
+    <Line Pattern="Solid">LIKMA/ELMAX</Line>
+    <Line Pattern="Solid">OTLIT/ISLOP/PATRU/NS02T</Line>
+    <Line Pattern="Solid">MIBEV/OTLIT</Line>
+    <Line Pattern="Solid">QUAIL/OTLIT</Line>
+    <Line Pattern="Solid">TUMGO/ISLOP</Line>
+    <Line Pattern="Solid">ESNED/TUMGO</Line>
+    <Line Pattern="Solid">KAGRU/NILIB/NV04T</Line>
+    <Line Pattern="Solid">DUNAX/PALTU/NV22T</Line>
+    <Line Pattern="Solid">NUTGO/NIVOD/OH09T</Line>
+    <Line Pattern="Solid">BOBIT/NUTGO</Line>
+    <Line Pattern="Solid">DOTGO/NUTGO</Line>
+    <Line Pattern="Solid">LELUK/NUTGO</Line>
+    <Line Pattern="Solid">GUPIL/DOXIN/OH15T</Line>
+    <Line Pattern="Solid">ADKIS/GUPIL</Line>
+    <Line Pattern="Solid">BOBIT/GUPIL</Line>
+    <Line Pattern="Solid">SOSLA/VELSU/OH33T</Line>
+    <Line Pattern="Solid">NOBED/SOSLA</Line>
+    <Line Pattern="Solid">VARNO/SOSLA</Line>
+    <Line Pattern="Solid">SAKOG/PEDBA/OH27T</Line>
+    <Line Pattern="Solid">LUXUL/PEDBA</Line>
+    <Line Pattern="Solid">PAMOA/-44.887389+171.137850/OU18T</Line>
+    <Line Pattern="Solid">ORBEL/-45.046594+171.025025/OU36T</Line>
+    <Line Pattern="Solid">GUTNI/LERSO/PM07T</Line>
+    <Line Pattern="Solid">AKNIN/GUTNI</Line>
+    <Line Pattern="Solid">NIRUB/GUTNI</Line>
+    <Line Pattern="Solid">UVUSI/IVREP/PM25T</Line>
+    <Line Pattern="Solid">BIDEK/UVUSI</Line>
+    <Line Pattern="Solid">NIKIP/UVUSI</Line>
+    <Line Pattern="Solid">NOKIX/PP411/PP414/PP16T</Line>
+    <Line Pattern="Solid">ENBAR/NOKIX</Line>
+    <Line Pattern="Solid">LEVBI/TAXEV/PP421/PP34T</Line>
+    <Line Pattern="Solid">DABGU/LEVBI</Line>
+    <Line Pattern="Solid">NILID/LEVBI</Line>
+    <Line Pattern="Solid">IBABU/QN529/LETPO/GUSAS/QN581</Line>
+    <Line Pattern="Solid">GIVAK/IKABA/QN603</Line>
+    <Line Pattern="Solid">ATKIL/QN780/ONADU/GIVAK</Line>
+    <Line Pattern="Solid">UGPED/ONADU</Line>
+    <Line Pattern="Solid">TOTRA/-38.172367+176.219978/-38.125194+176.293947/OKERE</Line>
+    <Line Pattern="Solid">NIKOR/ELKOB/RO18T</Line>
+    <Line Pattern="Solid">OKERE/NIKOR</Line>
+    <Line Pattern="Solid">APABO/BAMEX/SEMKI/SL16T</Line>
+    <Line Pattern="Solid">TENIX/RIPSA/TG07T</Line>
+    <Line Pattern="Solid">MORTA/TENIX</Line>
+    <Line Pattern="Solid">RUSTA/TENIX</Line>
+    <Line Pattern="Solid">PATMO/UKDAS/TG25T</Line>
+    <Line Pattern="Solid">TODAN/PATMO</Line>
+    <Line Pattern="Solid">UBSET/PATMO</Line>
+    <Line Pattern="Solid">WAIPA/-38.167164+175.830969/TO13T</Line>
+    <Line Pattern="Solid">KARBA/WAIPA</Line>
+    <Line Pattern="Solid">LALAN/WAIPA</Line>
+    <Line Pattern="Solid">MIKER/WAIPA</Line>
+    <Line Pattern="Solid">AMURI/-38.309944+175.958236/TO31T</Line>
+    <Line Pattern="Solid">ARIKA/AMURI</Line>
+    <Line Pattern="Solid">GOSTI/AMURI</Line>
+    <Line Pattern="Solid">GUMAN/AMURI</Line>
+    <Line Pattern="Solid">LUTKA/ELKUB/ENPIP/WB401/WB24T</Line>
+    <Line Pattern="Solid">JAMIE/LUTKA</Line>
+    <Line Pattern="Solid">ELBEV/WK401/WK09T</Line>
+    <Line Pattern="Solid">LAVIS/ELBEV</Line>
+    <Line Pattern="Solid">REGAT/WK402/WK27T</Line>
+    <Line Pattern="Solid">POTOP/REGAT</Line>
+    <Line Pattern="Solid">UMAGA/BUTIN/WN402/ROZAN/WN34T</Line>
+    <Line Pattern="Solid">WITBY/CANES/OLBIN/WN16T</Line>
+    <Line Pattern="Solid">ROZAN/WN403/WN34T</Line>
+    <Line Pattern="Solid">AVMEB/RITPU/WO16T</Line>
+    <Line Pattern="Solid">AGTID/AVMEB</Line>
+    <Line Pattern="Solid">IKIMU/AVMEB</Line>
+    <Line Pattern="Solid">UPSUV/AVMEB</Line>
+    <Line Pattern="Solid">MARKS/WO422/WO411/WO34T</Line>
+    <Line Pattern="Solid">BURLY/MARKS</Line>
+    <Line Pattern="Solid">OPOHO/MARKS</Line>
+    <Line Pattern="Solid">WYTAK/MESUD/WP03T</Line>
+    <Line Pattern="Solid">MAKEE/WP801/WP08T</Line>
+    <Line Pattern="Solid">HALEN/MAKEE</Line>
+    <Line Pattern="Solid">IGOLF/MAKEE</Line>
+    <Line Pattern="Solid">BAYES/KIBIM/WP21T</Line>
+    <Line Pattern="Solid">FLAXX/WP601/WP26T</Line>
+    <Line Pattern="Solid">ABUOY/FLAXX</Line>
+    <Line Pattern="Solid">BAZEN/FLAXX</Line>
+    <Line Pattern="Solid">OMANA/ADKES/WR601/WR06T</Line>
+    <Line Pattern="Solid">SF NDB/DUDAP/WR431</Line>
+    <Line Pattern="Solid">BIRAX/MONSU/WR983</Line>
+    <Line Pattern="Solid">BURKI/WS404/WS04T</Line>
+    <Line Pattern="Solid">AVMAK/BURKI</Line>
+    <Line Pattern="Solid">GUNOM/BURKI</Line>
+    <Line Pattern="Solid">WS408/WS411/WS22T</Line>
+    <Line Pattern="Solid">ANSIS/WS408</Line>
+    <Line Pattern="Solid">PILUP/WS408</Line>
+    <Line Pattern="Solid">DUDED/-39.914692+174.940081/WU11T</Line>
+    <Line Pattern="Solid">AVLOR/DUDED</Line>
+    <Line Pattern="Solid">BUPKA/DUDED</Line>
+    <Line Pattern="Solid">BASEP/BUSBI/WU29T</Line>
+    <Line Pattern="Solid">ADGAT/BASEP</Line>
+    <Line Pattern="Solid">BELVO/BASEP</Line>
   </Map>
 </Maps>

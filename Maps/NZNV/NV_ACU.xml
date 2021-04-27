@@ -40,7 +40,7 @@
       <Point>POTAB</Point>
       <Point>PEXED</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>ADLUP</Point>
       <Point>AMVIX</Point>
       <Point>SUNGU</Point>
@@ -58,11 +58,11 @@
       <!--Rwy04 AMVI1A-->
       AMVIX/EGAMU
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy04 ANOP4A.INTUS-->
       INTUS/ANOPA
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy04 ANOP4A.SUNGU-->
       SUNGU/ANOPA
     </Line>
@@ -97,7 +97,7 @@
       <Point>PEXED</Point>
       <Point>LUXER</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>AKPIN</Point>
       <Point>AMVIX</Point>
       <Point>ANOPA</Point>
@@ -118,9 +118,9 @@
     <Symbol Type="SolidTriangle">
       <Point>KAGRU</Point>
     </Symbol>
-    <Line>KAGRU/NILIB/NV04T</Line>
+    <Line Pattern="Solid">KAGRU/NILIB/NV04T</Line>
   </Map>
-  <Map Type="System" Name="04 GNSS Labels" Priority="1" Center="-46.418411+168.302258" CustomColourName="ProcArr">
+  <Map Type="System2" Name="04 GNSS Labels" Priority="1" Center="-46.418411+168.302258" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>NILIB</Point>
       <Point>KAGRU</Point>
@@ -169,7 +169,7 @@
       <Point>INTUS</Point>
       <Point>PEXED</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>ADLUP</Point>
       <Point>AMVIX</Point>
       <Point>ANOPA</Point>
@@ -188,15 +188,15 @@
       <!--Rwy22 AMVI2B-->
       AMVIX/DOTLU
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy22 ANOP5B.INTUS-->
       INTUS/ANOPA
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy22 ANOP5B.PEXED-->
       PEXED/ANOPA
     </Line>
-    <Line>
+    <Line Pattern="Solid">
       <!--Rwy22 ANOP5B.SUNGU-->
       SUNGU/MOVSA/ANOPA
     </Line>
@@ -228,7 +228,7 @@
       <Point>UKETA</Point>
       <Point>VENIR</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>AKPIN</Point>
       <Point>AMVIX</Point>
       <Point>ANOPA</Point>
@@ -250,9 +250,9 @@
     <Symbol Type="SolidTriangle">
       <Point>DUNAX</Point>
     </Symbol>
-    <Line>DUNAX/PALTU/NV22T</Line>
+    <Line Pattern="Solid">DUNAX/PALTU/NV22T</Line>
   </Map>
-  <Map Type="System" Name="22 GNSS Labels" Priority="1" Center="-46.411100+168.324744" CustomColourName="ProcArr">
+  <Map Type="System2" Name="22 GNSS Labels" Priority="1" Center="-46.411100+168.324744" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>PALTU</Point>
       <Point>DUNAX</Point>
@@ -303,7 +303,7 @@
       <Point>WINTON</Point>
       <Point>WOODLANDS</Point>
     </Symbol>
-    <Label HasLeader="True">
+    <Label HasLeader="true">
       <Point>AWARUA</Point>
       <Point>BENCH ISLAND</Point>
       <Point>BIG GLORY BAY</Point>

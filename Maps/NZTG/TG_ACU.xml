@@ -49,7 +49,7 @@
       <Point>UBSET</Point>
       <Point>NOBAR</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>BELET</Point>
       <Point>TODAN</Point>
       <Point>UBSET</Point>
@@ -109,7 +109,7 @@
       <Point>APUNO</Point>
       <Point>KIMAR</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>BIKOT</Point>
       <Point>FALLS</Point>
       <Point>GOBUK</Point>
@@ -133,11 +133,11 @@
     <Symbol Type="SolidTriangle">
       <Point>TENIX</Point>
     </Symbol>
-    <Line>TENIX/RIPSA/TG07T</Line>
-    <Line>MORTA/TENIX</Line>
-    <Line>RUSTA/TENIX</Line>
+    <Line Pattern="Solid">TENIX/RIPSA/TG07T</Line>
+    <Line Pattern="Solid">MORTA/TENIX</Line>
+    <Line Pattern="Solid">RUSTA/TENIX</Line>
   </Map>
-  <Map Type="System" Name="07 GNSS Labels" Priority="1" Center="-37.672750+176.188389" CustomColourName="ProcArr">
+  <Map Type="System2" Name="07 GNSS Labels" Priority="1" Center="-37.672750+176.188389" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>MORTA</Point>
       <Point>RUSTA</Point>
@@ -196,7 +196,7 @@
       <Point>RUSTA</Point>
       <Point>NOBAR</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>DOTAR</Point>
       <Point>MORTA</Point>
       <Point>RUSTA</Point>
@@ -256,7 +256,7 @@
       <Point>APUNO</Point>
       <Point>KIMAR</Point>
     </Symbol>
-    <Label>
+    <Label HasLeader="true">
       <Point>BIKOT</Point>
       <Point>FALLS</Point>
       <Point>GOBUK</Point>
@@ -280,11 +280,11 @@
     <Symbol Type="SolidTriangle">
       <Point>PATMO</Point>
     </Symbol>
-    <Line>PATMO/UKDAS/TG25T</Line>
-    <Line>TODAN/PATMO</Line>
-    <Line>UBSET/PATMO</Line>
+    <Line Pattern="Solid">PATMO/UKDAS/TG25T</Line>
+    <Line Pattern="Solid">TODAN/PATMO</Line>
+    <Line Pattern="Solid">UBSET/PATMO</Line>
   </Map>
-  <Map Type="System" Name="25 GNSS Labels" Priority="1" Center="-37.673806+176.209056" CustomColourName="ProcArr">
+  <Map Type="System2" Name="25 GNSS Labels" Priority="1" Center="-37.673806+176.209056" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>TODAN</Point>
       <Point>UBSET</Point>
@@ -360,7 +360,7 @@
       <Point>WELCOME BAY</Point>
       <Point>WHANGAMATA</Point>
     </Symbol>
-    <Label HasLeader="True">
+    <Label HasLeader="true">
       <Point>ATHENREE</Point>
       <Point>BEACH MOTOR CAMP</Point>
       <Point>BLUE GUM BAY</Point>
@@ -429,7 +429,7 @@
     </Label>
   </Map>
   <Map Type="System2" Name="VFRProc" Priority="1" CustomColourName="VFRPoint" Centre="-37.671944+176.196111">
-    <Label HasLeader="True" LabelOrientation="NW">
+    <Label HasLeader="true" LabelOrientation="NW">
       <Point Name="07BALDY_DEP">-37.673611+176.232500</Point>
       <Point Name="07NW_ARR">BLUE GUM BAY</Point>
       <Point Name="25HOSPITAL_DEP">-37.671111+176.165556</Point>
@@ -438,7 +438,7 @@
       <Point Name="SW_ARR">RUAHIHI</Point>
       <Point Name="S_ARR">-37.801944+176.269167</Point>
     </Label>
-    <Label HasLeader="True" LabelOrientation="SE">
+    <Label HasLeader="true" LabelOrientation="SE">
       <Point Name="07EAST_DEP">-37.673611+176.232500</Point>
       <Point Name="07MAIN-BEACH_DEP">-37.673611+176.232500</Point>
       <Point Name="25HUNT-CRK_DEP">-37.671111+176.165556</Point>
