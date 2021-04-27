@@ -524,4 +524,58 @@
       </Maps>
     </Position>
   </Group>
+
+  <Group Name="FIS">
+    <Position Name="Paraparaumu FIS" Type="ASD" DefaultCenter="-405417.000+1745921.000" DefaultRange="70" MagneticVariation="-21">
+      <Sectors>
+        <Sector Name="PPFIS" />
+      </Sectors>
+      <Maps>
+        <Map Name="Coast" />
+        <Map Name="Runways" />
+        <Map Name="Airspace/Aerodromes" />
+        <Map Name="Airspace/CTA" />
+        <Map Name="Airspace/CTR" />
+        <Map Name="Navaids/NDB" />
+        <Map Name="Navaids/VOR" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="NZPP" Visible="true" />
+      </Strips>
+      <ArrivalLists>
+        <Airport Name="NZPP" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Paraparaumu Flight Service</Line>
+        <Line>Information Station - no traffic control available.</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
+    </Position>
+
+    <Position Name="Milford Sound FIS" Type="ASD" DefaultCenter="-444024.000+1675524.000" DefaultRange="100" MagneticVariation="-21">
+      <Sectors>
+        <Sector Name="MFFIS" />
+      </Sectors>
+      <Maps>
+        <Map Name="Coast" />
+        <Map Name="Runways" />
+        <Map Name="Airspace/Aerodromes" />
+        <Map Name="Airspace/CTA" />
+        <Map Name="Airspace/CTR" />
+        <Map Name="Navaids/NDB" />
+        <Map Name="Navaids/VOR" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="NZMF" Visible="true" />
+      </Strips>
+      <ArrivalLists>
+        <Airport Name="NZMF" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Milford Flight Service</Line>
+        <Line>Information Station - no traffic control available.</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
+    </Position>
+  </Group>
 </Positions>

@@ -60,6 +60,15 @@
   <Sector FullName="Wellington Approach" Frequency="122.300" Callsign="NZWN_DEP" Name="WDEP">
     <Volumes>WTMA</Volumes>
   </Sector>
+
+  <Sector FullName="Paraparaumu FIS" Frequency="118.300" Callsign="NZPP_TWR" Name="PPFIS">
+    <Volumes>PPFIS</Volumes>
+  </Sector>
+
+  <Sector FullName="Milford Sound FIS" Frequency="118.200" Callsign="NZMF_TWR" Name="MFFIS">
+    <Volumes>MFFIS</Volumes> 
+  </Sector>
+
   <Sector FullName="Auckland Delivery" Frequency="128.200" Callsign="NZAA_DEL" Name="DAA" />
   <Sector FullName="Auckland Ground" Frequency="121.900" Callsign="NZAA_GND" Name="GAA" />
   <Sector FullName="Auckland Tower" Frequency="118.700" Callsign="NZAA_TWR" Name="TAA" />
@@ -72,7 +81,6 @@
   <Sector FullName="Gisborne Tower" Frequency="127.300" Callsign="NZGS_TWR" Name="TGS" />
   <Sector FullName="Hamilton Tower" Frequency="122.900" Callsign="NZHN_TWR" Name="THN" />
   <Sector FullName="Invercargill Tower" Frequency="118.500" Callsign="NZNV_TWR" Name="TNV" />
-  <Sector FullName="Milford Tower" Frequency="118.200" Callsign="NZMF_TWR" Name="DummyName" />
   <Sector FullName="Napier Tower" Frequency="124.800" Callsign="NZNR_TWR" Name="TNR" />
   <Sector FullName="Nelson Tower" Frequency="127.400" Callsign="NZNS_TWR" Name="TNS" />
   <Sector FullName="New Plymouth Tower" Frequency="124.700" Callsign="NZNP_TWR" Name="TNP" />
