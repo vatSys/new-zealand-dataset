@@ -75,8 +75,6 @@
   <Sector FullName="Christchurch Delivery" Frequency="128.200" Callsign="NZCH_DEL" Name="DCH" />
   <Sector FullName="Christchurch Ground" Frequency="121.900" Callsign="NZCH_GND" Name="GCH" />
   <Sector FullName="Christchurch Tower" Frequency="118.400" Callsign="NZCH_TWR" Name="TCH" />
-  <Sector FullName="Dunedin Delivery" Frequency="128.400" Callsign="NZDN_DEL" Name="DummyName" />
-  <Sector FullName="Dunedin Ground" Frequency="128.500" Callsign="NZDN_GND" Name="DummyName" />
   <Sector FullName="Dunedin Tower" Frequency="120.700" Callsign="NZDN_TWR" Name="TDN" />
   <Sector FullName="Gisborne Tower" Frequency="127.300" Callsign="NZGS_TWR" Name="TGS" />
   <Sector FullName="Hamilton Tower" Frequency="122.900" Callsign="NZHN_TWR" Name="THN" />
