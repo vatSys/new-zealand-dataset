@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="12 STARs" Priority="1" CustomColourName="ProcArr" Centre="-35.064536+173.281014">
+  <Map Type="System2" Name="12 STARs" Priority="1" CustomColourName="ProcArr" Center="-35.064536+173.281014">
     <Line Pattern="Solid">
       <!--Rwy12 RNAV.KAROA-->
       KAROA/KT NDB
@@ -57,7 +57,7 @@
       <Point>STEED</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="30 STARs" Priority="1" CustomColourName="ProcArr" Centre="-35.074508+173.290461">
+  <Map Type="System2" Name="30 STARs" Priority="1" CustomColourName="ProcArr" Center="-35.074508+173.290461">
     <Line Pattern="Solid">
       <!--Rwy30 RNAV.KAROA-->
       KAROA/PERIA
@@ -104,16 +104,16 @@
       <Point>PERIA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-35.070000+173.285278">
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-35.070000+173.285278">
     <Symbol Type="HollowSquare">
-      <Point>PAIHIA WATERFRONT</Point>
-      <Point>PUKETONA QUARRY</Point>
-      <Point>TAPEKA POINT</Point>
+      <Point Name="PAIHIA WATERFRONT">-351651.600+1740533.000</Point>
+      <Point Name="PUKETONA QUARRY">-351803.000+1735904.000</Point>
+      <Point Name="TAPEKA POINT">-351430.800+1740710.900</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>PAIHIA WATERFRONT</Point>
-      <Point>PUKETONA QUARRY</Point>
-      <Point>TAPEKA POINT</Point>
+      <Point Name="PAIHIA WATERFRONT">-351651.600+1740533.000</Point>
+      <Point Name="PUKETONA QUARRY">-351803.000+1735904.000</Point>
+      <Point Name="TAPEKA POINT">-351430.800+1740710.900</Point>
     </Label>
   </Map>
 </Maps>

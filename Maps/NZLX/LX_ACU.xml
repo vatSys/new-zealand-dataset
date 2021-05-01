@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="01 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.209167+169.372058">
+    <Line Pattern="Dashed">
+      <!--Rwy01 LUGDU2-->
+      -45.209167+169.372058/LUGDU
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy01 LUGDU2.BE-->
+      LUGDU/PORUT/BE NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy01 LUGDU2.NV-->
+      PORUT/NV VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy01 LUGDU2.PORUT-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy01 LUGDU2.QN-->
+      PORUT/QN VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy01 LUGDU2.SW-->
+      PORUT/SW VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy01 LUGDU2.TOMID-->
+      LUGDU/TOMID
+    </Line>
+    <Symbol Type="Circle">
+      <Point>BE NDB</Point>
+      <Point>NV VOR</Point>
+      <Point>QN VOR</Point>
+      <Point>SW VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>LUGDU</Point>
+      <Point>PORUT</Point>
+      <Point>TOMID</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>LUGDU</Point>
+      <Point>BE NDB</Point>
+      <Point>NV VOR</Point>
+      <Point>PORUT</Point>
+      <Point>QN VOR</Point>
+      <Point>SW VOR</Point>
+      <Point>TOMID</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="01 GNSS" Priority="1" Center="-45.213739+169.368483" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>BESMO</Point>
+      <Point>KAKIT</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>PORUT</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>LUGDU</Point>
+    </Symbol>
+    <Line Pattern="Solid">LUGDU/PORUT/LX407</Line>
+    <Line Pattern="Solid">BESMO/LUGDU</Line>
+    <Line Pattern="Solid">KAKIT/LUGDU</Line>
+  </Map>
+  <Map Type="System2" Name="01 GNSS Labels" Priority="1" Center="-45.213739+169.368483" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>BESMO</Point>
+      <Point>KAKIT</Point>
+      <Point>PORUT</Point>
+      <Point>LUGDU</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="19 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.213739+169.368483">
+    <Line Pattern="Dashed">
+      <!--Rwy19 LUGDU2-->
+      -45.213739+169.368483/LUGDU
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy19 LUGDU2.BE-->
+      LUGDU/PORUT/BE NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy19 LUGDU2.NV-->
+      PORUT/NV VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy19 LUGDU2.PORUT-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy19 LUGDU2.QN-->
+      PORUT/QN VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy19 LUGDU2.SW-->
+      PORUT/SW VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy19 LUGDU2.TOMID-->
+      LUGDU/TOMID
+    </Line>
+    <Symbol Type="Circle">
+      <Point>BE NDB</Point>
+      <Point>NV VOR</Point>
+      <Point>QN VOR</Point>
+      <Point>SW VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>LUGDU</Point>
+      <Point>PORUT</Point>
+      <Point>TOMID</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>LUGDU</Point>
+      <Point>BE NDB</Point>
+      <Point>NV VOR</Point>
+      <Point>PORUT</Point>
+      <Point>QN VOR</Point>
+      <Point>SW VOR</Point>
+      <Point>TOMID</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="19 GNSS" Priority="1" Center="-45.209167+169.372058" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>BESMO</Point>
+      <Point>KAKIT</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>PORUT</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>LUGDU</Point>
+    </Symbol>
+    <Line Pattern="Solid">LUGDU/PORUT/LX407</Line>
+    <Line Pattern="Solid">BESMO/LUGDU</Line>
+    <Line Pattern="Solid">KAKIT/LUGDU</Line>
+  </Map>
+  <Map Type="System2" Name="19 GNSS Labels" Priority="1" Center="-45.209167+169.372058" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>BESMO</Point>
+      <Point>KAKIT</Point>
+      <Point>PORUT</Point>
+      <Point>LUGDU</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="14 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.216444+169.374331">
+    <Line Pattern="Dashed">
+      <!--Rwy14 LUGDU2-->
+      -45.216444+169.374331/LUGDU
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy14 LUGDU2.BE-->
+      LUGDU/PORUT/BE NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy14 LUGDU2.NV-->
+      PORUT/NV VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy14 LUGDU2.PORUT-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy14 LUGDU2.QN-->
+      PORUT/QN VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy14 LUGDU2.SW-->
+      PORUT/SW VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy14 LUGDU2.TOMID-->
+      LUGDU/TOMID
+    </Line>
+    <Symbol Type="Circle">
+      <Point>BE NDB</Point>
+      <Point>NV VOR</Point>
+      <Point>QN VOR</Point>
+      <Point>SW VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>LUGDU</Point>
+      <Point>PORUT</Point>
+      <Point>TOMID</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>LUGDU</Point>
+      <Point>BE NDB</Point>
+      <Point>NV VOR</Point>
+      <Point>PORUT</Point>
+      <Point>QN VOR</Point>
+      <Point>SW VOR</Point>
+      <Point>TOMID</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="14 GNSS" Priority="1" Center="-45.206325+169.368986" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>BESMO</Point>
+      <Point>KAKIT</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>PORUT</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>LUGDU</Point>
+    </Symbol>
+    <Line Pattern="Solid">LUGDU/PORUT/LX407</Line>
+    <Line Pattern="Solid">BESMO/LUGDU</Line>
+    <Line Pattern="Solid">KAKIT/LUGDU</Line>
+  </Map>
+  <Map Type="System2" Name="14 GNSS Labels" Priority="1" Center="-45.206325+169.368986" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>BESMO</Point>
+      <Point>KAKIT</Point>
+      <Point>PORUT</Point>
+      <Point>LUGDU</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="32 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.206325+169.368986">
+    <Line Pattern="Dashed">
+      <!--Rwy32 LUGDU2-->
+      -45.206325+169.368986/LUGDU
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy32 LUGDU2.BE-->
+      LUGDU/PORUT/BE NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy32 LUGDU2.NV-->
+      PORUT/NV VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy32 LUGDU2.PORUT-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy32 LUGDU2.QN-->
+      PORUT/QN VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy32 LUGDU2.SW-->
+      PORUT/SW VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy32 LUGDU2.TOMID-->
+      LUGDU/TOMID
+    </Line>
+    <Symbol Type="Circle">
+      <Point>BE NDB</Point>
+      <Point>NV VOR</Point>
+      <Point>QN VOR</Point>
+      <Point>SW VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>LUGDU</Point>
+      <Point>PORUT</Point>
+      <Point>TOMID</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>LUGDU</Point>
+      <Point>BE NDB</Point>
+      <Point>NV VOR</Point>
+      <Point>PORUT</Point>
+      <Point>QN VOR</Point>
+      <Point>SW VOR</Point>
+      <Point>TOMID</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="32 GNSS" Priority="1" Center="-45.216444+169.374331" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>BESMO</Point>
+      <Point>KAKIT</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>PORUT</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>LUGDU</Point>
+    </Symbol>
+    <Line Pattern="Solid">LUGDU/PORUT/LX407</Line>
+    <Line Pattern="Solid">BESMO/LUGDU</Line>
+    <Line Pattern="Solid">KAKIT/LUGDU</Line>
+  </Map>
+  <Map Type="System2" Name="32 GNSS Labels" Priority="1" Center="-45.216444+169.374331" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>BESMO</Point>
+      <Point>KAKIT</Point>
+      <Point>PORUT</Point>
+      <Point>LUGDU</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-45.211667+169.373333">
+    <Symbol Type="HollowSquare">
+      <Point Name="AFTON BURN SADDLE">-450925.700+1682400.200</Point>
+      <Point Name="BANNOCKBURN">-450522.200+1690940.600</Point>
+      <Point Name="BAYONET PEAK">-450945.000+1684109.100</Point>
+      <Point Name="BEN LOMOND">-450025.100+1683655.200</Point>
+      <Point Name="BLACK GORGE">-450045.700+1682308.400</Point>
+      <Point Name="BOBS COVE">-450421.600+1683047.900</Point>
+      <Point Name="BUNGY BRIDGE">-450031.100+1685400.200</Point>
+      <Point Name="CARDRONA TOWNSHIP">-445255.800+1690013.000</Point>
+      <Point Name="CLARKS JUNCTION">-454334.200+1700251.300</Point>
+      <Point Name="CLYDE DAM">-451045.100+1691824.300</Point>
+      <Point Name="COALPIT SADDLE">-450338.700+1685639.800</Point>
+      <Point Name="COLLINS BAY">-450709.100+1684100.200</Point>
+      <Point Name="CORONET PEAK">-445457.200+1684423.000</Point>
+      <Point Name="CREIGHTON SADDLE">-450006.100+1682930.200</Point>
+      <Point Name="CROWN SADDLE">-445937.300+1685551.800</Point>
+      <Point Name="DEER PARK">-450226.100+1684325.200</Point>
+      <Point Name="DEVILS STAIRCASE">-451451.700+1684440.000</Point>
+      <Point Name="DOUBLE CONE">-450417.900+1684828.000</Point>
+      <Point Name="EASTERN RIDGE">-444231.000+1692147.000</Point>
+      <Point Name="ELFIN BAY">-445712.100+1682136.200</Point>
+      <Point Name="FLOOD BURN">-444407.200+1683658.800</Point>
+      <Point Name="FRASER DAM">-451225.100+1691251.300</Point>
+      <Point Name="GULLY">-450500.400+1683715.900</Point>
+      <Point Name="HALFWAY BAY">-451145.800+1684149.600</Point>
+      <Point Name="HIDDEN ISLAND">-450412.100+1683853.200</Point>
+      <Point Name="JANE PEAK">-451939.100+1681923.200</Point>
+      <Point Name="JARDINES">-450519.100+1684405.200</Point>
+      <Point Name="KILLERMONT STATION">-443055.800+1694804.600</Point>
+      <Point Name="LAKE DISPUTE">-450309.400+1683245.200</Point>
+      <Point Name="LAKE HAYES">-445805.100+1684843.100</Point>
+      <Point Name="LAKE LUNA">-445646.100+1682926.200</Point>
+      <Point Name="LEE STREAM">-454800.000+1700740.000</Point>
+      <Point Name="MACETOWN">-445204.700+1684926.000</Point>
+      <Point Name="MATUKITUKI RIVER MOUTH">-443749.600+1690051.800</Point>
+      <Point Name="MOKE LAKE">-450001.100+1683403.200</Point>
+      <Point Name="MOONLIGHT">-445749.500+1683903.200</Point>
+      <Point Name="MOUNT ASPIRING HOMESTEAD">-442943.100+1685011.500</Point>
+      <Point Name="MOUNT BARKER">-444354.100+1691040.800</Point>
+      <Point Name="MOUNT LARKINS">-445245.000+1682931.200</Point>
+      <Point Name="MOUNT NIC STATION">-450539.700+1682538.600</Point>
+      <Point Name="PIG ISLAND">-445638.100+1682424.200</Point>
+      <Point Name="QUARTZ KNOLL">-445737.500+1685939.800</Point>
+      <Point Name="QUEENSBERRY">-444947.300+1691958.700</Point>
+      <Point Name="QUEENSTOWN HILL">-445948.600+1684206.700</Point>
+      <Point Name="RAT POINT">-450430.700+1682742.900</Point>
+      <Point Name="ROARING MEG">-450001.100+1690413.300</Point>
+      <Point Name="SHORELINE">-450406.900+1684317.600</Point>
+      <Point Name="SKIPPERS BRIDGE">-445039.100+1684110.200</Point>
+      <Point Name="SKIPPERS SADDLE">-445626.800+1684220.300</Point>
+      <Point Name="SOHO RIVER">-445427.100+1685231.300</Point>
+      <Point Name="STREAM">-450712.100+1682922.700</Point>
+      <Point Name="SUNSHINE BAY">-450300.100+1683718.200</Point>
+      <Point Name="TARRAS">-445014.100+1692439.100</Point>
+      <Point Name="TIMARU RIVER MOUTH">-443224.700+1691849.500</Point>
+      <Point Name="TOLLGATE">-450227.100+1684519.400</Point>
+      <Point Name="TREBLE CONE SKI FIELD">-443759.600+1685344.300</Point>
+      <Point Name="TUCKER BEACH">-445900.000+1684500.000</Point>
+      <Point Name="VICTORIA">-450308.100+1690205.100</Point>
+      <Point Name="WAIPORI FALLS">-455418.200+1695910.300</Point>
+      <Point Name="WAITAHUNA">-455913.200+1694522.300</Point>
+      <Point Name="WALTER PEAK">-450641.100+1683235.200</Point>
+      <Point Name="WYE CREEK">-450814.100+1684509.200</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point Name="AFTON BURN SADDLE">-450925.700+1682400.200</Point>
+      <Point Name="BANNOCKBURN">-450522.200+1690940.600</Point>
+      <Point Name="BAYONET PEAK">-450945.000+1684109.100</Point>
+      <Point Name="BEN LOMOND">-450025.100+1683655.200</Point>
+      <Point Name="BLACK GORGE">-450045.700+1682308.400</Point>
+      <Point Name="BOBS COVE">-450421.600+1683047.900</Point>
+      <Point Name="BUNGY BRIDGE">-450031.100+1685400.200</Point>
+      <Point Name="CARDRONA TOWNSHIP">-445255.800+1690013.000</Point>
+      <Point Name="CLARKS JUNCTION">-454334.200+1700251.300</Point>
+      <Point Name="CLYDE DAM">-451045.100+1691824.300</Point>
+      <Point Name="COALPIT SADDLE">-450338.700+1685639.800</Point>
+      <Point Name="COLLINS BAY">-450709.100+1684100.200</Point>
+      <Point Name="CORONET PEAK">-445457.200+1684423.000</Point>
+      <Point Name="CREIGHTON SADDLE">-450006.100+1682930.200</Point>
+      <Point Name="CROWN SADDLE">-445937.300+1685551.800</Point>
+      <Point Name="DEER PARK">-450226.100+1684325.200</Point>
+      <Point Name="DEVILS STAIRCASE">-451451.700+1684440.000</Point>
+      <Point Name="DOUBLE CONE">-450417.900+1684828.000</Point>
+      <Point Name="EASTERN RIDGE">-444231.000+1692147.000</Point>
+      <Point Name="ELFIN BAY">-445712.100+1682136.200</Point>
+      <Point Name="FLOOD BURN">-444407.200+1683658.800</Point>
+      <Point Name="FRASER DAM">-451225.100+1691251.300</Point>
+      <Point Name="GULLY">-450500.400+1683715.900</Point>
+      <Point Name="HALFWAY BAY">-451145.800+1684149.600</Point>
+      <Point Name="HIDDEN ISLAND">-450412.100+1683853.200</Point>
+      <Point Name="JANE PEAK">-451939.100+1681923.200</Point>
+      <Point Name="JARDINES">-450519.100+1684405.200</Point>
+      <Point Name="KILLERMONT STATION">-443055.800+1694804.600</Point>
+      <Point Name="LAKE DISPUTE">-450309.400+1683245.200</Point>
+      <Point Name="LAKE HAYES">-445805.100+1684843.100</Point>
+      <Point Name="LAKE LUNA">-445646.100+1682926.200</Point>
+      <Point Name="LEE STREAM">-454800.000+1700740.000</Point>
+      <Point Name="MACETOWN">-445204.700+1684926.000</Point>
+      <Point Name="MATUKITUKI RIVER MOUTH">-443749.600+1690051.800</Point>
+      <Point Name="MOKE LAKE">-450001.100+1683403.200</Point>
+      <Point Name="MOONLIGHT">-445749.500+1683903.200</Point>
+      <Point Name="MOUNT ASPIRING HOMESTEAD">-442943.100+1685011.500</Point>
+      <Point Name="MOUNT BARKER">-444354.100+1691040.800</Point>
+      <Point Name="MOUNT LARKINS">-445245.000+1682931.200</Point>
+      <Point Name="MOUNT NIC STATION">-450539.700+1682538.600</Point>
+      <Point Name="PIG ISLAND">-445638.100+1682424.200</Point>
+      <Point Name="QUARTZ KNOLL">-445737.500+1685939.800</Point>
+      <Point Name="QUEENSBERRY">-444947.300+1691958.700</Point>
+      <Point Name="QUEENSTOWN HILL">-445948.600+1684206.700</Point>
+      <Point Name="RAT POINT">-450430.700+1682742.900</Point>
+      <Point Name="ROARING MEG">-450001.100+1690413.300</Point>
+      <Point Name="SHORELINE">-450406.900+1684317.600</Point>
+      <Point Name="SKIPPERS BRIDGE">-445039.100+1684110.200</Point>
+      <Point Name="SKIPPERS SADDLE">-445626.800+1684220.300</Point>
+      <Point Name="SOHO RIVER">-445427.100+1685231.300</Point>
+      <Point Name="STREAM">-450712.100+1682922.700</Point>
+      <Point Name="SUNSHINE BAY">-450300.100+1683718.200</Point>
+      <Point Name="TARRAS">-445014.100+1692439.100</Point>
+      <Point Name="TIMARU RIVER MOUTH">-443224.700+1691849.500</Point>
+      <Point Name="TOLLGATE">-450227.100+1684519.400</Point>
+      <Point Name="TREBLE CONE SKI FIELD">-443759.600+1685344.300</Point>
+      <Point Name="TUCKER BEACH">-445900.000+1684500.000</Point>
+      <Point Name="VICTORIA">-450308.100+1690205.100</Point>
+      <Point Name="WAIPORI FALLS">-455418.200+1695910.300</Point>
+      <Point Name="WAITAHUNA">-455913.200+1694522.300</Point>
+      <Point Name="WALTER PEAK">-450641.100+1683235.200</Point>
+      <Point Name="WYE CREEK">-450814.100+1684509.200</Point>
+    </Label>
+  </Map>
+</Maps>

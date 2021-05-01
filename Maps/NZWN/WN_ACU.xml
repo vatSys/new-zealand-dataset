@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="16 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-41.334939+174.806358">
+  <Map Type="System2" Name="16 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.334939+174.806358">
     <Line Pattern="Dashed">
       <!--Rwy16 DOGB1Q-->
       -41.334939+174.806358/TAXUP/TAPAB/RUSPI/MATVU/DOGBI
@@ -151,7 +151,7 @@
       <Point>KAMDO</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="16 STARs" Priority="1" CustomColourName="ProcArr" Centre="-41.318622+174.807458">
+  <Map Type="System2" Name="16 STARs" Priority="1" CustomColourName="ProcArr" Center="-41.318622+174.807458">
     <Line>
       <!--Rwy16 ATSU5B-->
       ATSUN/CHATS/ONOKI/PAHWA/WITBY
@@ -302,7 +302,7 @@
       <Point>WN416</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="34 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-41.318622+174.807458">
+  <Map Type="System2" Name="34 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.318622+174.807458">
     <Line Pattern="Dashed">
       <!--Rwy34 ISNI4P-->
       -41.318622+174.807458/-41.239722+174.815000/ISNIP
@@ -506,7 +506,7 @@
       <Point>VANDA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="34 STARs" Priority="1" CustomColourName="ProcArr" Centre="-41.334939+174.806358">
+  <Map Type="System2" Name="34 STARs" Priority="1" CustomColourName="ProcArr" Center="-41.334939+174.806358">
     <Line>
       <!--Rwy34 ATSU3A-->
       ATSUN/DONNY/RONGO/UMAGA
@@ -669,129 +669,129 @@
       <Point>WN412</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-41.327222+174.805278">
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-41.327222+174.805278">
     <Symbol Type="HollowSquare">
-      <Point>AVALON</Point>
-      <Point>AWATERE RIVER MOUTH</Point>
-      <Point>BARING</Point>
-      <Point>BELMONT HILL</Point>
-      <Point>BENNETTS HILL</Point>
-      <Point>DASHWOOD PASS</Point>
-      <Point>GRENADA</Point>
-      <Point>HARBOUR ENTRANCE</Point>
-      <Point>HAYWARDS</Point>
-      <Point>HOKIO BEACH</Point>
-      <Point>ISLAND BAY</Point>
-      <Point>KAITUNA BRIDGE</Point>
-      <Point>KARORI ROCK</Point>
-      <Point>LEVIN</Point>
-      <Point>MAKARA PEAK</Point>
-      <Point>MANA ISLAND</Point>
-      <Point>MOUNT CLIMIE</Point>
-      <Point>MOUNT HECTOR</Point>
-      <Point>MOUNT THOMPSON</Point>
-      <Point>MOUNT WAINUI</Point>
-      <Point>OBSERVATORY</Point>
-      <Point>OHAU POINT</Point>
-      <Point>OKARAMIO</Point>
-      <Point>OTAKI BEACH</Point>
-      <Point>PAEKAKARIKI</Point>
-      <Point>PAREMATA</Point>
-      <Point>PEKAPEKA PONDS</Point>
-      <Point>PENCARROW</Point>
-      <Point>PETONE WHARF</Point>
-      <Point>PINNACLE</Point>
-      <Point>PIPINUI POINT</Point>
-      <Point>POINT GORDON</Point>
-      <Point>POINT HOWARD</Point>
-      <Point>PONDS</Point>
-      <Point>PUKERUA BAY</Point>
-      <Point>RARANGI</Point>
-      <Point>RUNUNDER POINT</Point>
-      <Point>SEDDON</Point>
-      <Point>SINCLAIR HEAD</Point>
-      <Point>SOMES</Point>
-      <Point>SPRING CREEK</Point>
-      <Point>TAYLOR DAM</Point>
-      <Point>TAYLOR PASS</Point>
-      <Point>TE MARUA</Point>
-      <Point>TERAWHITI</Point>
-      <Point>THE DIVERSION</Point>
-      <Point>THE NED</Point>
-      <Point>THE PONDS</Point>
-      <Point>THE RIDGE</Point>
-      <Point>TIMBER MILL</Point>
-      <Point>TUAMARINA BRIDGE</Point>
-      <Point>TURAKIRAE</Point>
-      <Point>WAIHOPAI BRIDGE</Point>
-      <Point>WAIRAU BAR</Point>
-      <Point>WARD ISLAND</Point>
-      <Point>WATERTANK</Point>
-      <Point>WHITE BLUFFS</Point>
-      <Point>WINDMILL</Point>
+      <Point Name="AVALON">-411105.800+1745636.600</Point>
+      <Point Name="AWATERE RIVER MOUTH">-413624.900+1740957.600</Point>
+      <Point Name="BARING">-412434.800+1745203.600</Point>
+      <Point Name="BELMONT HILL">-411100.800+1745226.600</Point>
+      <Point Name="BENNETTS HILL">-405832.000+1754517.000</Point>
+      <Point Name="DASHWOOD PASS">-413629.100+1740313.700</Point>
+      <Point Name="GRENADA">-411056.900+1745008.600</Point>
+      <Point Name="HARBOUR ENTRANCE">-412044.800+1745011.600</Point>
+      <Point Name="HAYWARDS">-410858.800+1745852.600</Point>
+      <Point Name="HOKIO BEACH">-403541.500+1751125.200</Point>
+      <Point Name="ISLAND BAY">-412058.800+1744622.600</Point>
+      <Point Name="KAITUNA BRIDGE">-412842.400+1734844.400</Point>
+      <Point Name="KARORI ROCK">-412037.800+1743906.600</Point>
+      <Point Name="LEVIN">-403718.100+1751712.000</Point>
+      <Point Name="MAKARA PEAK">-411720.400+1744225.000</Point>
+      <Point Name="MANA ISLAND">-410442.800+1744651.600</Point>
+      <Point Name="MOUNT CLIMIE">-410901.400+1750836.300</Point>
+      <Point Name="MOUNT HECTOR">-405706.400+1751655.800</Point>
+      <Point Name="MOUNT THOMPSON">-404545.800+1751503.600</Point>
+      <Point Name="MOUNT WAINUI">-410045.900+1745842.400</Point>
+      <Point Name="OBSERVATORY">-411703.700+1744601.100</Point>
+      <Point Name="OHAU POINT">-411418.800+1743843.600</Point>
+      <Point Name="OKARAMIO">-412506.300+1734534.600</Point>
+      <Point Name="OTAKI BEACH">-404422.300+1750658.700</Point>
+      <Point Name="PAEKAKARIKI">-405858.100+1745719.500</Point>
+      <Point Name="PAREMATA">-410611.900+1745211.500</Point>
+      <Point Name="PEKAPEKA PONDS">-405055.900+1750255.900</Point>
+      <Point Name="PENCARROW">-412134.800+1745055.600</Point>
+      <Point Name="PETONE WHARF">-411343.800+1745213.600</Point>
+      <Point Name="PINNACLE">-405257.100+1752826.600</Point>
+      <Point Name="PIPINUI POINT">-411023.800+1744420.600</Point>
+      <Point Name="POINT GORDON">-411744.800+1745011.600</Point>
+      <Point Name="POINT HOWARD">-411522.800+1745358.600</Point>
+      <Point Name="PONDS">-413207.500+1740233.800</Point>
+      <Point Name="PUKERUA BAY">-410141.800+1745311.600</Point>
+      <Point Name="RARANGI">-412330.800+1740248.600</Point>
+      <Point Name="RUNUNDER POINT">-411908.800+1741416.600</Point>
+      <Point Name="SEDDON">-414021.900+1740427.600</Point>
+      <Point Name="SINCLAIR HEAD">-412143.800+1744257.600</Point>
+      <Point Name="SOMES">-411532.700+1745158.200</Point>
+      <Point Name="SPRING CREEK">-412737.800+1735745.300</Point>
+      <Point Name="TAYLOR DAM">-413422.300+1735554.600</Point>
+      <Point Name="TAYLOR PASS">-413749.700+1735748.800</Point>
+      <Point Name="TE MARUA">-410536.200+1750745.400</Point>
+      <Point Name="TERAWHITI">-411743.800+1743705.600</Point>
+      <Point Name="THE DIVERSION">-412624.800+1740145.600</Point>
+      <Point Name="THE NED">-413837.200+1735516.000</Point>
+      <Point Name="THE PONDS">-405935.000+1754100.000</Point>
+      <Point Name="THE RIDGE">-413211.100+1735216.900</Point>
+      <Point Name="TIMBER MILL">-405802.900+1753609.700</Point>
+      <Point Name="TUAMARINA BRIDGE">-412622.400+1735754.000</Point>
+      <Point Name="TURAKIRAE">-412617.800+1745503.600</Point>
+      <Point Name="WAIHOPAI BRIDGE">-413139.800+1734400.500</Point>
+      <Point Name="WAIRAU BAR">-412959.800+1740344.200</Point>
+      <Point Name="WARD ISLAND">-411737.800+1745217.600</Point>
+      <Point Name="WATERTANK">-413250.300+1735723.600</Point>
+      <Point Name="WHITE BLUFFS">-413328.900+1740849.600</Point>
+      <Point Name="WINDMILL">-411838.800+1744443.600</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>AVALON</Point>
-      <Point>AWATERE RIVER MOUTH</Point>
-      <Point>BARING</Point>
-      <Point>BELMONT HILL</Point>
-      <Point>BENNETTS HILL</Point>
-      <Point>DASHWOOD PASS</Point>
-      <Point>GRENADA</Point>
-      <Point>HARBOUR ENTRANCE</Point>
-      <Point>HAYWARDS</Point>
-      <Point>HOKIO BEACH</Point>
-      <Point>ISLAND BAY</Point>
-      <Point>KAITUNA BRIDGE</Point>
-      <Point>KARORI ROCK</Point>
-      <Point>LEVIN</Point>
-      <Point>MAKARA PEAK</Point>
-      <Point>MANA ISLAND</Point>
-      <Point>MOUNT CLIMIE</Point>
-      <Point>MOUNT HECTOR</Point>
-      <Point>MOUNT THOMPSON</Point>
-      <Point>MOUNT WAINUI</Point>
-      <Point>OBSERVATORY</Point>
-      <Point>OHAU POINT</Point>
-      <Point>OKARAMIO</Point>
-      <Point>OTAKI BEACH</Point>
-      <Point>PAEKAKARIKI</Point>
-      <Point>PAREMATA</Point>
-      <Point>PEKAPEKA PONDS</Point>
-      <Point>PENCARROW</Point>
-      <Point>PETONE WHARF</Point>
-      <Point>PINNACLE</Point>
-      <Point>PIPINUI POINT</Point>
-      <Point>POINT GORDON</Point>
-      <Point>POINT HOWARD</Point>
-      <Point>PONDS</Point>
-      <Point>PUKERUA BAY</Point>
-      <Point>RARANGI</Point>
-      <Point>RUNUNDER POINT</Point>
-      <Point>SEDDON</Point>
-      <Point>SINCLAIR HEAD</Point>
-      <Point>SOMES</Point>
-      <Point>SPRING CREEK</Point>
-      <Point>TAYLOR DAM</Point>
-      <Point>TAYLOR PASS</Point>
-      <Point>TE MARUA</Point>
-      <Point>TERAWHITI</Point>
-      <Point>THE DIVERSION</Point>
-      <Point>THE NED</Point>
-      <Point>THE PONDS</Point>
-      <Point>THE RIDGE</Point>
-      <Point>TIMBER MILL</Point>
-      <Point>TUAMARINA BRIDGE</Point>
-      <Point>TURAKIRAE</Point>
-      <Point>WAIHOPAI BRIDGE</Point>
-      <Point>WAIRAU BAR</Point>
-      <Point>WARD ISLAND</Point>
-      <Point>WATERTANK</Point>
-      <Point>WHITE BLUFFS</Point>
-      <Point>WINDMILL</Point>
+      <Point Name="AVALON">-411105.800+1745636.600</Point>
+      <Point Name="AWATERE RIVER MOUTH">-413624.900+1740957.600</Point>
+      <Point Name="BARING">-412434.800+1745203.600</Point>
+      <Point Name="BELMONT HILL">-411100.800+1745226.600</Point>
+      <Point Name="BENNETTS HILL">-405832.000+1754517.000</Point>
+      <Point Name="DASHWOOD PASS">-413629.100+1740313.700</Point>
+      <Point Name="GRENADA">-411056.900+1745008.600</Point>
+      <Point Name="HARBOUR ENTRANCE">-412044.800+1745011.600</Point>
+      <Point Name="HAYWARDS">-410858.800+1745852.600</Point>
+      <Point Name="HOKIO BEACH">-403541.500+1751125.200</Point>
+      <Point Name="ISLAND BAY">-412058.800+1744622.600</Point>
+      <Point Name="KAITUNA BRIDGE">-412842.400+1734844.400</Point>
+      <Point Name="KARORI ROCK">-412037.800+1743906.600</Point>
+      <Point Name="LEVIN">-403718.100+1751712.000</Point>
+      <Point Name="MAKARA PEAK">-411720.400+1744225.000</Point>
+      <Point Name="MANA ISLAND">-410442.800+1744651.600</Point>
+      <Point Name="MOUNT CLIMIE">-410901.400+1750836.300</Point>
+      <Point Name="MOUNT HECTOR">-405706.400+1751655.800</Point>
+      <Point Name="MOUNT THOMPSON">-404545.800+1751503.600</Point>
+      <Point Name="MOUNT WAINUI">-410045.900+1745842.400</Point>
+      <Point Name="OBSERVATORY">-411703.700+1744601.100</Point>
+      <Point Name="OHAU POINT">-411418.800+1743843.600</Point>
+      <Point Name="OKARAMIO">-412506.300+1734534.600</Point>
+      <Point Name="OTAKI BEACH">-404422.300+1750658.700</Point>
+      <Point Name="PAEKAKARIKI">-405858.100+1745719.500</Point>
+      <Point Name="PAREMATA">-410611.900+1745211.500</Point>
+      <Point Name="PEKAPEKA PONDS">-405055.900+1750255.900</Point>
+      <Point Name="PENCARROW">-412134.800+1745055.600</Point>
+      <Point Name="PETONE WHARF">-411343.800+1745213.600</Point>
+      <Point Name="PINNACLE">-405257.100+1752826.600</Point>
+      <Point Name="PIPINUI POINT">-411023.800+1744420.600</Point>
+      <Point Name="POINT GORDON">-411744.800+1745011.600</Point>
+      <Point Name="POINT HOWARD">-411522.800+1745358.600</Point>
+      <Point Name="PONDS">-413207.500+1740233.800</Point>
+      <Point Name="PUKERUA BAY">-410141.800+1745311.600</Point>
+      <Point Name="RARANGI">-412330.800+1740248.600</Point>
+      <Point Name="RUNUNDER POINT">-411908.800+1741416.600</Point>
+      <Point Name="SEDDON">-414021.900+1740427.600</Point>
+      <Point Name="SINCLAIR HEAD">-412143.800+1744257.600</Point>
+      <Point Name="SOMES">-411532.700+1745158.200</Point>
+      <Point Name="SPRING CREEK">-412737.800+1735745.300</Point>
+      <Point Name="TAYLOR DAM">-413422.300+1735554.600</Point>
+      <Point Name="TAYLOR PASS">-413749.700+1735748.800</Point>
+      <Point Name="TE MARUA">-410536.200+1750745.400</Point>
+      <Point Name="TERAWHITI">-411743.800+1743705.600</Point>
+      <Point Name="THE DIVERSION">-412624.800+1740145.600</Point>
+      <Point Name="THE NED">-413837.200+1735516.000</Point>
+      <Point Name="THE PONDS">-405935.000+1754100.000</Point>
+      <Point Name="THE RIDGE">-413211.100+1735216.900</Point>
+      <Point Name="TIMBER MILL">-405802.900+1753609.700</Point>
+      <Point Name="TUAMARINA BRIDGE">-412622.400+1735754.000</Point>
+      <Point Name="TURAKIRAE">-412617.800+1745503.600</Point>
+      <Point Name="WAIHOPAI BRIDGE">-413139.800+1734400.500</Point>
+      <Point Name="WAIRAU BAR">-412959.800+1740344.200</Point>
+      <Point Name="WARD ISLAND">-411737.800+1745217.600</Point>
+      <Point Name="WATERTANK">-413250.300+1735723.600</Point>
+      <Point Name="WHITE BLUFFS">-413328.900+1740849.600</Point>
+      <Point Name="WINDMILL">-411838.800+1744443.600</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="VFRProc" Priority="1" CustomColourName="VFRPoint" Centre="-41.327222+174.805278">
+  <Map Type="System2" Name="VFRProc" Priority="1" CustomColourName="VFRPoint" Center="-41.327222+174.805278">
     <Label HasLeader="true" LabelOrientation="NW">
       <Point Name="16-BARING-DEP">-41.341667+174.805000</Point>
       <Point Name="16-CITY-ARR">MAKARA PEAK</Point>

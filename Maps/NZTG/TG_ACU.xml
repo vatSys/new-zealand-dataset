@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="07 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-37.673806+176.209056">
+  <Map Type="System2" Name="07 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.673806+176.209056">
     <Line Pattern="Dashed">
       <!--Rwy07 BELET3-->
       -37.673806+176.209056/-37.677222+176.288889/BELET
@@ -61,7 +61,7 @@
       <Point>NOBAR</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="07 STARs" Priority="1" CustomColourName="ProcArr" Centre="-37.672750+176.188389">
+  <Map Type="System2" Name="07 STARs" Priority="1" CustomColourName="ProcArr" Center="-37.672750+176.188389">
     <Line>
       <!--Rwy07 BIKO1A-->
       BIKOT/BERPI/RUSTA
@@ -145,7 +145,7 @@
       <Point>TENIX</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="25 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-37.672750+176.188389">
+  <Map Type="System2" Name="25 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.672750+176.188389">
     <Line Pattern="Dashed">
       <!--Rwy25 DOTAR3-->
       -37.672750+176.188389/-37.668333+176.112778/DOTAR
@@ -208,7 +208,7 @@
       <Point>NOBAR</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="25 STARs" Priority="1" CustomColourName="ProcArr" Centre="-37.673806+176.209056">
+  <Map Type="System2" Name="25 STARs" Priority="1" CustomColourName="ProcArr" Center="-37.673806+176.209056">
     <Line>
       <!--Rwy25 BIKO1B-->
       BIKOT/BERPI/RUSTA/UBSET
@@ -292,143 +292,143 @@
       <Point>PATMO</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-37.671944+176.196111">
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-37.671944+176.196111">
     <Symbol Type="HollowSquare">
-      <Point>ATHENREE</Point>
-      <Point>BEACH MOTOR CAMP</Point>
-      <Point>BLUE GUM BAY</Point>
-      <Point>CAMBRIDGE</Point>
-      <Point>EAST JUNCTION</Point>
-      <Point>GORDONTON</Point>
-      <Point>GREEN LAKE</Point>
-      <Point>HAMILTON LAKE</Point>
-      <Point>HAMURANA</Point>
-      <Point>HAPARANGI</Point>
-      <Point>HAUTAPU</Point>
-      <Point>HINEHOPU</Point>
-      <Point>HINUERA</Point>
-      <Point>HOROTIU</Point>
-      <Point>HUNTERS CREEK</Point>
-      <Point>HUNTLY</Point>
-      <Point>KAHAROA</Point>
-      <Point>KAINGAROA</Point>
-      <Point>KAREWA ISLAND</Point>
-      <Point>KATIKATI</Point>
-      <Point>KAWAHA POINT</Point>
-      <Point>KAWERAU VILLAGE</Point>
-      <Point>KIHIKIHI</Point>
-      <Point>LAKE ROTOKAWAU</Point>
-      <Point>LAKE WAIKARE</Point>
-      <Point>MAKETU</Point>
-      <Point>MAMAKU</Point>
-      <Point>MANAWARU</Point>
-      <Point>MATANGI</Point>
-      <Point>MOKOIA ISLAND</Point>
-      <Point>MORRINSVILLE</Point>
-      <Point>MOUNT BALDY</Point>
-      <Point>MOUNT HARBOUR ENTRANCE</Point>
-      <Point>MOUNT RURU</Point>
-      <Point>MOUNT TARAWERA</Point>
-      <Point>MYSTERY CREEK</Point>
-      <Point>NGAHINAPOURI</Point>
-      <Point>NGAKURU</Point>
-      <Point>NGATEA</Point>
-      <Point>NGONGOTAHA</Point>
-      <Point>OHAUPO</Point>
-      <Point>OMOKOROA</Point>
-      <Point>OXIDATION PONDS</Point>
-      <Point>PAEROA</Point>
-      <Point>PUKEPOTO</Point>
-      <Point>RACECOURSE</Point>
-      <Point>RUAHIHI</Point>
-      <Point>RUKUHIA</Point>
-      <Point>SCOTSMANS VALLEY</Point>
-      <Point>SHOWGROUNDS</Point>
-      <Point>SPORTS GROUND</Point>
-      <Point>ST PETERS SCHOOL</Point>
-      <Point>TE AWAMUTU</Point>
-      <Point>TE POI</Point>
-      <Point>TE PUKE</Point>
-      <Point>TE PUNA</Point>
-      <Point>TE RAPA</Point>
-      <Point>TEMPLE VIEW</Point>
-      <Point>TIRAU</Point>
-      <Point>TOKOROA</Point>
-      <Point>TUNNEL</Point>
-      <Point>WAIPA SAWMILL</Point>
-      <Point>WAITOA</Point>
-      <Point>WELCOME BAY</Point>
-      <Point>WHANGAMATA</Point>
+      <Point Name="ATHENREE">-372653.600+1755808.700</Point>
+      <Point Name="BEACH MOTOR CAMP">-374143.200+1761657.600</Point>
+      <Point Name="BLUE GUM BAY">-373446.000+1760420.400</Point>
+      <Point Name="CAMBRIDGE">-375341.300+1752812.000</Point>
+      <Point Name="EAST JUNCTION">-374251.000+1761651.500</Point>
+      <Point Name="GORDONTON">-374013.400+1751818.200</Point>
+      <Point Name="GREEN LAKE">-381230.600+1762043.700</Point>
+      <Point Name="HAMILTON LAKE">-374754.580+1751625.520</Point>
+      <Point Name="HAMURANA">-380200.000+1761518.200</Point>
+      <Point Name="HAPARANGI">-381417.100+1761207.200</Point>
+      <Point Name="HAUTAPU">-375135.600+1752716.200</Point>
+      <Point Name="HINEHOPU">-380220.000+1762919.000</Point>
+      <Point Name="HINUERA">-375255.600+1754536.000</Point>
+      <Point Name="HOROTIU">-374155.160+1751144.690</Point>
+      <Point Name="HUNTERS CREEK">-373634.100+1760626.100</Point>
+      <Point Name="HUNTLY">-373343.000+1750930.500</Point>
+      <Point Name="KAHAROA">-375937.600+1761413.700</Point>
+      <Point Name="KAINGAROA">-382430.600+1763356.500</Point>
+      <Point Name="KAREWA ISLAND">-373146.800+1760754.500</Point>
+      <Point Name="KATIKATI">-373307.600+1755522.700</Point>
+      <Point Name="KAWAHA POINT">-380619.000+1761447.000</Point>
+      <Point Name="KAWERAU VILLAGE">-380509.600+1764234.700</Point>
+      <Point Name="KIHIKIHI">-380220.100+1752042.900</Point>
+      <Point Name="LAKE ROTOKAWAU">-380409.000+1762221.000</Point>
+      <Point Name="LAKE WAIKARE">-372608.100+1751156.400</Point>
+      <Point Name="MAKETU">-374513.600+1762716.700</Point>
+      <Point Name="MAMAKU">-380544.600+1760441.700</Point>
+      <Point Name="MANAWARU">-373805.100+1754558.700</Point>
+      <Point Name="MATANGI">-374813.000+1752344.000</Point>
+      <Point Name="MOKOIA ISLAND">-380450.000+1761709.000</Point>
+      <Point Name="MORRINSVILLE">-373928.800+1753140.300</Point>
+      <Point Name="MOUNT BALDY">-374347.700+1761422.500</Point>
+      <Point Name="MOUNT HARBOUR ENTRANCE">-373800.600+1760947.700</Point>
+      <Point Name="MOUNT RURU">-374725.800+1753342.700</Point>
+      <Point Name="MOUNT TARAWERA">-381323.600+1763106.700</Point>
+      <Point Name="MYSTERY CREEK">-375221.600+1752108.700</Point>
+      <Point Name="NGAHINAPOURI">-375349.920+1751220.270</Point>
+      <Point Name="NGAKURU">-381915.600+1761135.700</Point>
+      <Point Name="NGATEA">-371634.000+1752940.700</Point>
+      <Point Name="NGONGOTAHA">-380446.500+1761249.300</Point>
+      <Point Name="OHAUPO">-375509.700+1751827.000</Point>
+      <Point Name="OMOKOROA">-373755.600+1760312.700</Point>
+      <Point Name="OXIDATION PONDS">-374142.200+1761353.600</Point>
+      <Point Name="PAEROA">-372240.800+1754012.000</Point>
+      <Point Name="PUKEPOTO">-380813.000+1762123.100</Point>
+      <Point Name="RACECOURSE">-374355.600+1760719.700</Point>
+      <Point Name="RUAHIHI">-374638.600+1760317.700</Point>
+      <Point Name="RUKUHIA">-375107.600+1751820.700</Point>
+      <Point Name="SCOTSMANS VALLEY">-374634.520+1752905.890</Point>
+      <Point Name="SHOWGROUNDS">-374633.500+1751720.900</Point>
+      <Point Name="SPORTS GROUND">-374252.000+1761826.600</Point>
+      <Point Name="ST PETERS SCHOOL">-375320.050+1752555.460</Point>
+      <Point Name="TE AWAMUTU">-380036.100+1751933.200</Point>
+      <Point Name="TE POI">-375221.400+1755033.200</Point>
+      <Point Name="TE PUKE">-374645.600+1761900.700</Point>
+      <Point Name="TE PUNA">-374145.100+1760422.300</Point>
+      <Point Name="TE RAPA">-374553.600+1751438.700</Point>
+      <Point Name="TEMPLE VIEW">-374916.300+1751336.000</Point>
+      <Point Name="TIRAU">-375848.000+1754536.000</Point>
+      <Point Name="TOKOROA">-381411.600+1755330.700</Point>
+      <Point Name="TUNNEL">-374156.600+1755043.700</Point>
+      <Point Name="WAIPA SAWMILL">-381046.200+1761600.900</Point>
+      <Point Name="WAITOA">-373554.700+1753754.200</Point>
+      <Point Name="WELCOME BAY">-374327.600+1761126.700</Point>
+      <Point Name="WHANGAMATA">-371253.500+1755230.700</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>ATHENREE</Point>
-      <Point>BEACH MOTOR CAMP</Point>
-      <Point>BLUE GUM BAY</Point>
-      <Point>CAMBRIDGE</Point>
-      <Point>EAST JUNCTION</Point>
-      <Point>GORDONTON</Point>
-      <Point>GREEN LAKE</Point>
-      <Point>HAMILTON LAKE</Point>
-      <Point>HAMURANA</Point>
-      <Point>HAPARANGI</Point>
-      <Point>HAUTAPU</Point>
-      <Point>HINEHOPU</Point>
-      <Point>HINUERA</Point>
-      <Point>HOROTIU</Point>
-      <Point>HUNTERS CREEK</Point>
-      <Point>HUNTLY</Point>
-      <Point>KAHAROA</Point>
-      <Point>KAINGAROA</Point>
-      <Point>KAREWA ISLAND</Point>
-      <Point>KATIKATI</Point>
-      <Point>KAWAHA POINT</Point>
-      <Point>KAWERAU VILLAGE</Point>
-      <Point>KIHIKIHI</Point>
-      <Point>LAKE ROTOKAWAU</Point>
-      <Point>LAKE WAIKARE</Point>
-      <Point>MAKETU</Point>
-      <Point>MAMAKU</Point>
-      <Point>MANAWARU</Point>
-      <Point>MATANGI</Point>
-      <Point>MOKOIA ISLAND</Point>
-      <Point>MORRINSVILLE</Point>
-      <Point>MOUNT BALDY</Point>
-      <Point>MOUNT HARBOUR ENTRANCE</Point>
-      <Point>MOUNT RURU</Point>
-      <Point>MOUNT TARAWERA</Point>
-      <Point>MYSTERY CREEK</Point>
-      <Point>NGAHINAPOURI</Point>
-      <Point>NGAKURU</Point>
-      <Point>NGATEA</Point>
-      <Point>NGONGOTAHA</Point>
-      <Point>OHAUPO</Point>
-      <Point>OMOKOROA</Point>
-      <Point>OXIDATION PONDS</Point>
-      <Point>PAEROA</Point>
-      <Point>PUKEPOTO</Point>
-      <Point>RACECOURSE</Point>
-      <Point>RUAHIHI</Point>
-      <Point>RUKUHIA</Point>
-      <Point>SCOTSMANS VALLEY</Point>
-      <Point>SHOWGROUNDS</Point>
-      <Point>SPORTS GROUND</Point>
-      <Point>ST PETERS SCHOOL</Point>
-      <Point>TE AWAMUTU</Point>
-      <Point>TE POI</Point>
-      <Point>TE PUKE</Point>
-      <Point>TE PUNA</Point>
-      <Point>TE RAPA</Point>
-      <Point>TEMPLE VIEW</Point>
-      <Point>TIRAU</Point>
-      <Point>TOKOROA</Point>
-      <Point>TUNNEL</Point>
-      <Point>WAIPA SAWMILL</Point>
-      <Point>WAITOA</Point>
-      <Point>WELCOME BAY</Point>
-      <Point>WHANGAMATA</Point>
+      <Point Name="ATHENREE">-372653.600+1755808.700</Point>
+      <Point Name="BEACH MOTOR CAMP">-374143.200+1761657.600</Point>
+      <Point Name="BLUE GUM BAY">-373446.000+1760420.400</Point>
+      <Point Name="CAMBRIDGE">-375341.300+1752812.000</Point>
+      <Point Name="EAST JUNCTION">-374251.000+1761651.500</Point>
+      <Point Name="GORDONTON">-374013.400+1751818.200</Point>
+      <Point Name="GREEN LAKE">-381230.600+1762043.700</Point>
+      <Point Name="HAMILTON LAKE">-374754.580+1751625.520</Point>
+      <Point Name="HAMURANA">-380200.000+1761518.200</Point>
+      <Point Name="HAPARANGI">-381417.100+1761207.200</Point>
+      <Point Name="HAUTAPU">-375135.600+1752716.200</Point>
+      <Point Name="HINEHOPU">-380220.000+1762919.000</Point>
+      <Point Name="HINUERA">-375255.600+1754536.000</Point>
+      <Point Name="HOROTIU">-374155.160+1751144.690</Point>
+      <Point Name="HUNTERS CREEK">-373634.100+1760626.100</Point>
+      <Point Name="HUNTLY">-373343.000+1750930.500</Point>
+      <Point Name="KAHAROA">-375937.600+1761413.700</Point>
+      <Point Name="KAINGAROA">-382430.600+1763356.500</Point>
+      <Point Name="KAREWA ISLAND">-373146.800+1760754.500</Point>
+      <Point Name="KATIKATI">-373307.600+1755522.700</Point>
+      <Point Name="KAWAHA POINT">-380619.000+1761447.000</Point>
+      <Point Name="KAWERAU VILLAGE">-380509.600+1764234.700</Point>
+      <Point Name="KIHIKIHI">-380220.100+1752042.900</Point>
+      <Point Name="LAKE ROTOKAWAU">-380409.000+1762221.000</Point>
+      <Point Name="LAKE WAIKARE">-372608.100+1751156.400</Point>
+      <Point Name="MAKETU">-374513.600+1762716.700</Point>
+      <Point Name="MAMAKU">-380544.600+1760441.700</Point>
+      <Point Name="MANAWARU">-373805.100+1754558.700</Point>
+      <Point Name="MATANGI">-374813.000+1752344.000</Point>
+      <Point Name="MOKOIA ISLAND">-380450.000+1761709.000</Point>
+      <Point Name="MORRINSVILLE">-373928.800+1753140.300</Point>
+      <Point Name="MOUNT BALDY">-374347.700+1761422.500</Point>
+      <Point Name="MOUNT HARBOUR ENTRANCE">-373800.600+1760947.700</Point>
+      <Point Name="MOUNT RURU">-374725.800+1753342.700</Point>
+      <Point Name="MOUNT TARAWERA">-381323.600+1763106.700</Point>
+      <Point Name="MYSTERY CREEK">-375221.600+1752108.700</Point>
+      <Point Name="NGAHINAPOURI">-375349.920+1751220.270</Point>
+      <Point Name="NGAKURU">-381915.600+1761135.700</Point>
+      <Point Name="NGATEA">-371634.000+1752940.700</Point>
+      <Point Name="NGONGOTAHA">-380446.500+1761249.300</Point>
+      <Point Name="OHAUPO">-375509.700+1751827.000</Point>
+      <Point Name="OMOKOROA">-373755.600+1760312.700</Point>
+      <Point Name="OXIDATION PONDS">-374142.200+1761353.600</Point>
+      <Point Name="PAEROA">-372240.800+1754012.000</Point>
+      <Point Name="PUKEPOTO">-380813.000+1762123.100</Point>
+      <Point Name="RACECOURSE">-374355.600+1760719.700</Point>
+      <Point Name="RUAHIHI">-374638.600+1760317.700</Point>
+      <Point Name="RUKUHIA">-375107.600+1751820.700</Point>
+      <Point Name="SCOTSMANS VALLEY">-374634.520+1752905.890</Point>
+      <Point Name="SHOWGROUNDS">-374633.500+1751720.900</Point>
+      <Point Name="SPORTS GROUND">-374252.000+1761826.600</Point>
+      <Point Name="ST PETERS SCHOOL">-375320.050+1752555.460</Point>
+      <Point Name="TE AWAMUTU">-380036.100+1751933.200</Point>
+      <Point Name="TE POI">-375221.400+1755033.200</Point>
+      <Point Name="TE PUKE">-374645.600+1761900.700</Point>
+      <Point Name="TE PUNA">-374145.100+1760422.300</Point>
+      <Point Name="TE RAPA">-374553.600+1751438.700</Point>
+      <Point Name="TEMPLE VIEW">-374916.300+1751336.000</Point>
+      <Point Name="TIRAU">-375848.000+1754536.000</Point>
+      <Point Name="TOKOROA">-381411.600+1755330.700</Point>
+      <Point Name="TUNNEL">-374156.600+1755043.700</Point>
+      <Point Name="WAIPA SAWMILL">-381046.200+1761600.900</Point>
+      <Point Name="WAITOA">-373554.700+1753754.200</Point>
+      <Point Name="WELCOME BAY">-374327.600+1761126.700</Point>
+      <Point Name="WHANGAMATA">-371253.500+1755230.700</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="VFRProc" Priority="1" CustomColourName="VFRPoint" Centre="-37.671944+176.196111">
+  <Map Type="System2" Name="VFRProc" Priority="1" CustomColourName="VFRPoint" Center="-37.671944+176.196111">
     <Label HasLeader="true" LabelOrientation="NW">
       <Point Name="07BALDY_DEP">-37.673611+176.232500</Point>
       <Point Name="07NW_ARR">BLUE GUM BAY</Point>

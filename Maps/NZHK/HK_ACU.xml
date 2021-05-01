@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="03 STARs" Priority="1" CustomColourName="ProcArr" Centre="-42.713394+170.980258">
+  <Map Type="System2" Name="03 STARs" Priority="1" CustomColourName="ProcArr" Center="-42.713394+170.980258">
     <Line>
       <!--Rwy03 BELE2A-->
       BELEE/HK414/HK401/ANDEP
@@ -59,7 +59,7 @@
       <Point>KARVO</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="21 STARs" Priority="1" CustomColourName="ProcArr" Centre="-42.707764+170.992069">
+  <Map Type="System2" Name="21 STARs" Priority="1" CustomColourName="ProcArr" Center="-42.707764+170.992069">
     <Line>
       <!--Rwy21 BELE2B-->
       BELEE/HK417/HK411/AGTUR
@@ -121,12 +121,12 @@
       <Point>MAKOS</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-42.713611+170.985278">
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-42.713611+170.985278">
     <Symbol Type="HollowSquare">
-      <Point>ARCHIAC</Point>
+      <Point Name="ARCHIAC">-432754.000+1703453.400</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>ARCHIAC</Point>
+      <Point Name="ARCHIAC">-432754.000+1703453.400</Point>
     </Label>
   </Map>
 </Maps>

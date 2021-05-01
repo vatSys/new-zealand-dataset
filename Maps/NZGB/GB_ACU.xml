@@ -96,52 +96,52 @@
       <Point>OMGET</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-36.241389+175.471944">
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-36.241389+175.471944">
     <Symbol Type="HollowSquare">
-      <Point>BREAMTAIL HEAD</Point>
-      <Point>CAPE RODNEY</Point>
-      <Point>CLEVEDON</Point>
-      <Point>COROMANDEL TOWN</Point>
-      <Point>HOWICK</Point>
-      <Point>KAWAKAWA BAY</Point>
-      <Point>LAKE PUPUKE</Point>
-      <Point>MANGAWHAI HEADS</Point>
-      <Point>MUSICK POINT</Point>
-      <Point>NESS VALLEY</Point>
-      <Point>NORTH HEAD</Point>
-      <Point>OKURA RIVER MOUTH</Point>
-      <Point>OREWA</Point>
-      <Point>PAKURANGA TOWN</Point>
-      <Point>PANMURE</Point>
-      <Point>ST HELIERS</Point>
-      <Point>TAPU</Point>
-      <Point>WAIROA RIVER MOUTH</Point>
-      <Point>WARKWORTH</Point>
-      <Point>WELLSFORD</Point>
-      <Point>WHITFORD TOWN</Point>
+      <Point Name="BREAMTAIL HEAD">-360253.500+1743500.700</Point>
+      <Point Name="CAPE RODNEY">-361653.500+1744900.700</Point>
+      <Point Name="CLEVEDON">-365929.200+1750214.700</Point>
+      <Point Name="COROMANDEL TOWN">-364520.500+1753003.000</Point>
+      <Point Name="HOWICK">-365241.500+1745529.700</Point>
+      <Point Name="KAWAKAWA BAY">-365653.400+1751009.200</Point>
+      <Point Name="LAKE PUPUKE">-364650.500+1744557.400</Point>
+      <Point Name="MANGAWHAI HEADS">-360523.500+1743500.700</Point>
+      <Point Name="MUSICK POINT">-365047.500+1745406.700</Point>
+      <Point Name="NESS VALLEY">-365939.540+1750732.280</Point>
+      <Point Name="NORTH HEAD">-364944.700+1744846.700</Point>
+      <Point Name="OKURA RIVER MOUTH">-363938.600+1744437.700</Point>
+      <Point Name="OREWA">-363600.300+1744149.600</Point>
+      <Point Name="PAKURANGA TOWN">-365440.500+1745209.700</Point>
+      <Point Name="PANMURE">-365444.100+1745130.000</Point>
+      <Point Name="ST HELIERS">-365035.500+1745150.700</Point>
+      <Point Name="TAPU">-365858.500+1753006.400</Point>
+      <Point Name="WAIROA RIVER MOUTH">-365715.000+1750430.000</Point>
+      <Point Name="WARKWORTH">-362402.100+1743949.300</Point>
+      <Point Name="WELLSFORD">-361745.900+1743123.600</Point>
+      <Point Name="WHITFORD TOWN">-365643.500+1745749.700</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>BREAMTAIL HEAD</Point>
-      <Point>CAPE RODNEY</Point>
-      <Point>CLEVEDON</Point>
-      <Point>COROMANDEL TOWN</Point>
-      <Point>HOWICK</Point>
-      <Point>KAWAKAWA BAY</Point>
-      <Point>LAKE PUPUKE</Point>
-      <Point>MANGAWHAI HEADS</Point>
-      <Point>MUSICK POINT</Point>
-      <Point>NESS VALLEY</Point>
-      <Point>NORTH HEAD</Point>
-      <Point>OKURA RIVER MOUTH</Point>
-      <Point>OREWA</Point>
-      <Point>PAKURANGA TOWN</Point>
-      <Point>PANMURE</Point>
-      <Point>ST HELIERS</Point>
-      <Point>TAPU</Point>
-      <Point>WAIROA RIVER MOUTH</Point>
-      <Point>WARKWORTH</Point>
-      <Point>WELLSFORD</Point>
-      <Point>WHITFORD TOWN</Point>
+      <Point Name="BREAMTAIL HEAD">-360253.500+1743500.700</Point>
+      <Point Name="CAPE RODNEY">-361653.500+1744900.700</Point>
+      <Point Name="CLEVEDON">-365929.200+1750214.700</Point>
+      <Point Name="COROMANDEL TOWN">-364520.500+1753003.000</Point>
+      <Point Name="HOWICK">-365241.500+1745529.700</Point>
+      <Point Name="KAWAKAWA BAY">-365653.400+1751009.200</Point>
+      <Point Name="LAKE PUPUKE">-364650.500+1744557.400</Point>
+      <Point Name="MANGAWHAI HEADS">-360523.500+1743500.700</Point>
+      <Point Name="MUSICK POINT">-365047.500+1745406.700</Point>
+      <Point Name="NESS VALLEY">-365939.540+1750732.280</Point>
+      <Point Name="NORTH HEAD">-364944.700+1744846.700</Point>
+      <Point Name="OKURA RIVER MOUTH">-363938.600+1744437.700</Point>
+      <Point Name="OREWA">-363600.300+1744149.600</Point>
+      <Point Name="PAKURANGA TOWN">-365440.500+1745209.700</Point>
+      <Point Name="PANMURE">-365444.100+1745130.000</Point>
+      <Point Name="ST HELIERS">-365035.500+1745150.700</Point>
+      <Point Name="TAPU">-365858.500+1753006.400</Point>
+      <Point Name="WAIROA RIVER MOUTH">-365715.000+1750430.000</Point>
+      <Point Name="WARKWORTH">-362402.100+1743949.300</Point>
+      <Point Name="WELLSFORD">-361745.900+1743123.600</Point>
+      <Point Name="WHITFORD TOWN">-365643.500+1745749.700</Point>
     </Label>
   </Map>
 </Maps>

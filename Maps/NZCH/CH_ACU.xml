@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="02 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-43.474989+172.548286">
+  <Map Type="System2" Name="02 SIDs" Priority="1" CustomColourName="ProcDep" Center="-43.474989+172.548286">
     <Line Pattern="Dashed">
       <!--Rwy02 BAVE6P-->
       -43.474989+172.548286/RINKO/BAVEM
@@ -126,7 +126,7 @@
       <Point>PEHRR</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="02 STARs" Priority="1" CustomColourName="ProcArr" Centre="-43.497631+172.522114">
+  <Map Type="System2" Name="02 STARs" Priority="1" CustomColourName="ProcArr" Center="-43.497631+172.522114">
     <Line>
       <!--Rwy02 AVOC6A-->
       AVOCA/BISUP/CH414/UBDAN/ALBAD
@@ -347,7 +347,7 @@
       <Point>LEVGO</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="20 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-43.497631+172.522114">
+  <Map Type="System2" Name="20 SIDs" Priority="1" CustomColourName="ProcDep" Center="-43.497631+172.522114">
     <Line Pattern="Dashed">
       <!--Rwy20 ATSA1Q-->
       -43.497631+172.522114/ATSAT
@@ -473,7 +473,7 @@
       <Point>PORAM</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="20 STARs" Priority="1" CustomColourName="ProcArr" Centre="-43.474989+172.548286">
+  <Map Type="System2" Name="20 STARs" Priority="1" CustomColourName="ProcArr" Center="-43.474989+172.548286">
     <Line>
       <!--Rwy20 AVOC6B-->
       AVOCA/RIVPI/CH422/OBDOR/ODISI
@@ -695,7 +695,7 @@
       <Point>SUSAL</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="11 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-43.494381+172.540883">
+  <Map Type="System2" Name="11 SIDs" Priority="1" CustomColourName="ProcDep" Center="-43.494381+172.540883">
     <Line Pattern="Dashed">
       <!--Rwy11 ALBA2B-->
       -43.494381+172.540883/-43.509722+172.567500/ALBAD
@@ -714,7 +714,7 @@
       <Point>DIVSU</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="11 STARs" Priority="1" CustomColourName="ProcArr" Centre="-43.484278+172.524414">
+  <Map Type="System2" Name="11 STARs" Priority="1" CustomColourName="ProcArr" Center="-43.484278+172.524414">
     <Line Pattern="Solid">
       <!--Rwy11 BLUN3F.AVOCA-->
       AVOCA/SAVKU/BLUNT
@@ -825,7 +825,7 @@
       <Point>BUSKU</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="29 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-43.484278+172.524414">
+  <Map Type="System2" Name="29 SIDs" Priority="1" CustomColourName="ProcDep" Center="-43.484278+172.524414">
     <Line Pattern="Dashed">
       <!--Rwy29 KABO5R-->
       -43.484278+172.524414/-43.482561+172.521363/NITEG/KABOD
@@ -950,7 +950,7 @@
       <Point>LALAP</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="29 STARs" Priority="1" CustomColourName="ProcArr" Centre="-43.494381+172.540883">
+  <Map Type="System2" Name="29 STARs" Priority="1" CustomColourName="ProcArr" Center="-43.494381+172.540883">
     <Line>
       <!--Rwy29 AVOC5G-->
       AVOCA/BISUP/CHARR/IDUBU/SUPSO
@@ -1091,107 +1091,107 @@
       <Point>SUPSO</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-43.489444+172.534444">
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-43.489444+172.534444">
     <Symbol Type="HollowSquare">
-      <Point>ADDINGTON RACECOURSE</Point>
-      <Point>AMBERLEY BEACH</Point>
-      <Point>ASHLEY</Point>
-      <Point>AYLESBURY</Point>
-      <Point>BELFAST</Point>
-      <Point>BRIDGE</Point>
-      <Point>BURNHAM CAMP</Point>
-      <Point>BURNT HILL</Point>
-      <Point>CHERTSEY</Point>
-      <Point>CORINGA</Point>
-      <Point>CUST</Point>
-      <Point>DUNSANDEL</Point>
-      <Point>FLAGS</Point>
-      <Point>JARVIS</Point>
-      <Point>JELLIE PARK</Point>
-      <Point>KIRWEE</Point>
-      <Point>LANDFILL</Point>
-      <Point>LINCOLN</Point>
-      <Point>LOCHEND</Point>
-      <Point>LYTTELTON</Point>
-      <Point>MAIRANGI LAKE</Point>
-      <Point>MANDEVILLE</Point>
-      <Point>MINERS</Point>
-      <Point>MOTUNAU ISLAND</Point>
-      <Point>NORTHLANDS MALL</Point>
-      <Point>POND</Point>
-      <Point>PRINCESS MARGARET</Point>
-      <Point>PYLONS</Point>
-      <Point>RICCARTON RACECOURSE</Point>
-      <Point>RIVER JUNCTION</Point>
-      <Point>RUSSLEY</Point>
-      <Point>SEFTON CHIPMILL</Point>
-      <Point>SELWYN HUTS</Point>
-      <Point>SOUTHBROOK</Point>
-      <Point>SOUTHSHORE PENINSULA</Point>
-      <Point>SPENCER PARK</Point>
-      <Point>SPRINGBANK</Point>
-      <Point>SPRINGSTON</Point>
-      <Point>SUGARLOAF</Point>
-      <Point>SWANNANOA</Point>
-      <Point>TAI TAPU</Point>
-      <Point>THE PIER</Point>
-      <Point>WAIMAIRI</Point>
-      <Point>WATCHTOWER</Point>
-      <Point>WEST JUNCTION</Point>
-      <Point>WIGRAM</Point>
-      <Point>YALDHURST</Point>
+      <Point Name="ADDINGTON RACECOURSE">-433235.000+1723556.000</Point>
+      <Point Name="AMBERLEY BEACH">-431034.000+1724639.500</Point>
+      <Point Name="ASHLEY">-431654.000+1724319.500</Point>
+      <Point Name="AYLESBURY">-433149.000+1721603.400</Point>
+      <Point Name="BELFAST">-432709.000+1723802.500</Point>
+      <Point Name="BRIDGE">-432446.800+1723051.300</Point>
+      <Point Name="BURNHAM CAMP">-433706.000+1721812.400</Point>
+      <Point Name="BURNT HILL">-432246.100+1720812.200</Point>
+      <Point Name="CHERTSEY">-434808.000+1715606.400</Point>
+      <Point Name="CORINGA">-432743.000+1722930.400</Point>
+      <Point Name="CUST">-431839.200+1722254.100</Point>
+      <Point Name="DUNSANDEL">-433935.000+1721140.400</Point>
+      <Point Name="FLAGS">-432311.500+1721242.200</Point>
+      <Point Name="JARVIS">-434402.000+1723038.400</Point>
+      <Point Name="JELLIE PARK">-433032.100+1723451.400</Point>
+      <Point Name="KIRWEE">-432959.000+1721251.400</Point>
+      <Point Name="LANDFILL">-432753.900+1724240.900</Point>
+      <Point Name="LINCOLN">-433830.000+1722813.400</Point>
+      <Point Name="LOCHEND">-434751.400+1722019.000</Point>
+      <Point Name="LYTTELTON">-433624.000+1724312.500</Point>
+      <Point Name="MAIRANGI LAKE">-431950.000+1722957.000</Point>
+      <Point Name="MANDEVILLE">-432245.400+1723204.400</Point>
+      <Point Name="MINERS">-433014.200+1722638.300</Point>
+      <Point Name="MOTUNAU ISLAND">-430342.000+1730427.500</Point>
+      <Point Name="NORTHLANDS MALL">-432932.400+1723635.300</Point>
+      <Point Name="POND">-432627.400+1722616.200</Point>
+      <Point Name="PRINCESS MARGARET">-433436.000+1723717.100</Point>
+      <Point Name="PYLONS">-432614.800+1723003.000</Point>
+      <Point Name="RICCARTON RACECOURSE">-433140.000+1723242.000</Point>
+      <Point Name="RIVER JUNCTION">-431549.800+1722759.200</Point>
+      <Point Name="RUSSLEY">-432940.000+1723322.500</Point>
+      <Point Name="SEFTON CHIPMILL">-431558.000+1723730.500</Point>
+      <Point Name="SELWYN HUTS">-434424.000+1722630.400</Point>
+      <Point Name="SOUTHBROOK">-431931.000+1723556.500</Point>
+      <Point Name="SOUTHSHORE PENINSULA">-433342.000+1724500.500</Point>
+      <Point Name="SPENCER PARK">-432545.000+1724225.500</Point>
+      <Point Name="SPRINGBANK">-431832.400+1722617.600</Point>
+      <Point Name="SPRINGSTON">-433837.000+1722535.400</Point>
+      <Point Name="SUGARLOAF">-433612.000+1723858.500</Point>
+      <Point Name="SWANNANOA">-432348.700+1722810.900</Point>
+      <Point Name="TAI TAPU">-433937.000+1723252.400</Point>
+      <Point Name="THE PIER">-433034.900+1724354.700</Point>
+      <Point Name="WAIMAIRI">-432909.000+1724326.000</Point>
+      <Point Name="WATCHTOWER">-432529.000+1721922.400</Point>
+      <Point Name="WEST JUNCTION">-433127.000+1722210.400</Point>
+      <Point Name="WIGRAM">-433300.000+1723253.000</Point>
+      <Point Name="YALDHURST">-433047.000+1723026.400</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>ADDINGTON RACECOURSE</Point>
-      <Point>AMBERLEY BEACH</Point>
-      <Point>ASHLEY</Point>
-      <Point>AYLESBURY</Point>
-      <Point>BELFAST</Point>
-      <Point>BRIDGE</Point>
-      <Point>BURNHAM CAMP</Point>
-      <Point>BURNT HILL</Point>
-      <Point>CHERTSEY</Point>
-      <Point>CORINGA</Point>
-      <Point>CUST</Point>
-      <Point>DUNSANDEL</Point>
-      <Point>FLAGS</Point>
-      <Point>JARVIS</Point>
-      <Point>JELLIE PARK</Point>
-      <Point>KIRWEE</Point>
-      <Point>LANDFILL</Point>
-      <Point>LINCOLN</Point>
-      <Point>LOCHEND</Point>
-      <Point>LYTTELTON</Point>
-      <Point>MAIRANGI LAKE</Point>
-      <Point>MANDEVILLE</Point>
-      <Point>MINERS</Point>
-      <Point>MOTUNAU ISLAND</Point>
-      <Point>NORTHLANDS MALL</Point>
-      <Point>POND</Point>
-      <Point>PRINCESS MARGARET</Point>
-      <Point>PYLONS</Point>
-      <Point>RICCARTON RACECOURSE</Point>
-      <Point>RIVER JUNCTION</Point>
-      <Point>RUSSLEY</Point>
-      <Point>SEFTON CHIPMILL</Point>
-      <Point>SELWYN HUTS</Point>
-      <Point>SOUTHBROOK</Point>
-      <Point>SOUTHSHORE PENINSULA</Point>
-      <Point>SPENCER PARK</Point>
-      <Point>SPRINGBANK</Point>
-      <Point>SPRINGSTON</Point>
-      <Point>SUGARLOAF</Point>
-      <Point>SWANNANOA</Point>
-      <Point>TAI TAPU</Point>
-      <Point>THE PIER</Point>
-      <Point>WAIMAIRI</Point>
-      <Point>WATCHTOWER</Point>
-      <Point>WEST JUNCTION</Point>
-      <Point>WIGRAM</Point>
-      <Point>YALDHURST</Point>
+      <Point Name="ADDINGTON RACECOURSE">-433235.000+1723556.000</Point>
+      <Point Name="AMBERLEY BEACH">-431034.000+1724639.500</Point>
+      <Point Name="ASHLEY">-431654.000+1724319.500</Point>
+      <Point Name="AYLESBURY">-433149.000+1721603.400</Point>
+      <Point Name="BELFAST">-432709.000+1723802.500</Point>
+      <Point Name="BRIDGE">-432446.800+1723051.300</Point>
+      <Point Name="BURNHAM CAMP">-433706.000+1721812.400</Point>
+      <Point Name="BURNT HILL">-432246.100+1720812.200</Point>
+      <Point Name="CHERTSEY">-434808.000+1715606.400</Point>
+      <Point Name="CORINGA">-432743.000+1722930.400</Point>
+      <Point Name="CUST">-431839.200+1722254.100</Point>
+      <Point Name="DUNSANDEL">-433935.000+1721140.400</Point>
+      <Point Name="FLAGS">-432311.500+1721242.200</Point>
+      <Point Name="JARVIS">-434402.000+1723038.400</Point>
+      <Point Name="JELLIE PARK">-433032.100+1723451.400</Point>
+      <Point Name="KIRWEE">-432959.000+1721251.400</Point>
+      <Point Name="LANDFILL">-432753.900+1724240.900</Point>
+      <Point Name="LINCOLN">-433830.000+1722813.400</Point>
+      <Point Name="LOCHEND">-434751.400+1722019.000</Point>
+      <Point Name="LYTTELTON">-433624.000+1724312.500</Point>
+      <Point Name="MAIRANGI LAKE">-431950.000+1722957.000</Point>
+      <Point Name="MANDEVILLE">-432245.400+1723204.400</Point>
+      <Point Name="MINERS">-433014.200+1722638.300</Point>
+      <Point Name="MOTUNAU ISLAND">-430342.000+1730427.500</Point>
+      <Point Name="NORTHLANDS MALL">-432932.400+1723635.300</Point>
+      <Point Name="POND">-432627.400+1722616.200</Point>
+      <Point Name="PRINCESS MARGARET">-433436.000+1723717.100</Point>
+      <Point Name="PYLONS">-432614.800+1723003.000</Point>
+      <Point Name="RICCARTON RACECOURSE">-433140.000+1723242.000</Point>
+      <Point Name="RIVER JUNCTION">-431549.800+1722759.200</Point>
+      <Point Name="RUSSLEY">-432940.000+1723322.500</Point>
+      <Point Name="SEFTON CHIPMILL">-431558.000+1723730.500</Point>
+      <Point Name="SELWYN HUTS">-434424.000+1722630.400</Point>
+      <Point Name="SOUTHBROOK">-431931.000+1723556.500</Point>
+      <Point Name="SOUTHSHORE PENINSULA">-433342.000+1724500.500</Point>
+      <Point Name="SPENCER PARK">-432545.000+1724225.500</Point>
+      <Point Name="SPRINGBANK">-431832.400+1722617.600</Point>
+      <Point Name="SPRINGSTON">-433837.000+1722535.400</Point>
+      <Point Name="SUGARLOAF">-433612.000+1723858.500</Point>
+      <Point Name="SWANNANOA">-432348.700+1722810.900</Point>
+      <Point Name="TAI TAPU">-433937.000+1723252.400</Point>
+      <Point Name="THE PIER">-433034.900+1724354.700</Point>
+      <Point Name="WAIMAIRI">-432909.000+1724326.000</Point>
+      <Point Name="WATCHTOWER">-432529.000+1721922.400</Point>
+      <Point Name="WEST JUNCTION">-433127.000+1722210.400</Point>
+      <Point Name="WIGRAM">-433300.000+1723253.000</Point>
+      <Point Name="YALDHURST">-433047.000+1723026.400</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="VFRProc" Priority="1" CustomColourName="VFRPoint" Centre="-43.489444+172.534444">
+  <Map Type="System2" Name="VFRProc" Priority="1" CustomColourName="VFRPoint" Center="-43.489444+172.534444">
     <Label HasLeader="true" LabelOrientation="NW">
       <Point Name="29BRIDGE-ARR">-43.366667+172.375000</Point>
       <Point Name="29NORTHLANDS-ARR">WAIMAIRI</Point>

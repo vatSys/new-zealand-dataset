@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="14 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-38.669686+177.979039">
+  <Map Type="System2" Name="14 SIDs" Priority="1" CustomColourName="ProcDep" Center="-38.669686+177.979039">
     <Line Pattern="Dashed">
       <!--Rwy14 GAN1-->
       -38.669686+177.979039/-38.678162+177.982151
@@ -62,7 +62,7 @@
       <Point>WARIK</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="14 STARs" Priority="1" CustomColourName="ProcArr" Centre="-38.658300+177.974975">
+  <Map Type="System2" Name="14 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.658300+177.974975">
     <Line>
       <!--Rwy14 CREEK-->
       DABIP/CREEK
@@ -153,7 +153,7 @@
       <Point>RUGRU</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="32 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-38.658300+177.974975">
+  <Map Type="System2" Name="32 SIDs" Priority="1" CustomColourName="ProcDep" Center="-38.658300+177.974975">
     <Line Pattern="Dashed">
       <!--Rwy32 CIT3-->
       -38.658300+177.974975/-38.653182+177.973461/-38.652302+177.980511/GS VOR
@@ -216,7 +216,7 @@
       <Point>OTOKO</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="32 STARs" Priority="1" CustomColourName="ProcArr" Centre="-38.669686+177.979039">
+  <Map Type="System2" Name="32 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.669686+177.979039">
     <Line>
       <!--Rwy32 CREK2B-->
       CREEK/UKLIP
@@ -290,52 +290,52 @@
       <Point>KOPUA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-38.663333+177.978333">
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-38.663333+177.978333">
     <Symbol Type="HollowSquare">
-      <Point>BARTLETTS</Point>
-      <Point>GREYS BUSH</Point>
-      <Point>HOROTO</Point>
-      <Point>MAKORORI</Point>
-      <Point>MANUTUKE</Point>
-      <Point>MOHAKA RIVER MOUTH</Point>
-      <Point>MURIWAI</Point>
-      <Point>NUHAKA</Point>
-      <Point>ORMOND</Point>
-      <Point>PATUTAHI</Point>
-      <Point>TE KARAKA</Point>
-      <Point>THE DAMS</Point>
-      <Point>THE LAKE</Point>
-      <Point>THE MILL</Point>
-      <Point>THE OLD WORKS</Point>
-      <Point>THE ROUNDABOUT</Point>
-      <Point>THE TRIG</Point>
-      <Point>WAIMATA</Point>
-      <Point>WAINUI</Point>
-      <Point>WAIPAOA RIVER MOUTH</Point>
-      <Point>WHAKAPUNAKI</Point>
+      <Point Name="BARTLETTS">-385026.700+1775352.800</Point>
+      <Point Name="GREYS BUSH">-383544.200+1775730.300</Point>
+      <Point Name="HOROTO">-384835.700+1774542.800</Point>
+      <Point Name="MAKORORI">-383900.700+1780732.800</Point>
+      <Point Name="MANUTUKE">-384042.700+1775440.800</Point>
+      <Point Name="MOHAKA RIVER MOUTH">-390731.700+1771130.700</Point>
+      <Point Name="MURIWAI">-384510.700+1775533.800</Point>
+      <Point Name="NUHAKA">-390247.700+1774421.800</Point>
+      <Point Name="ORMOND">-383317.700+1775519.800</Point>
+      <Point Name="PATUTAHI">-383734.700+1775328.800</Point>
+      <Point Name="TE KARAKA">-382816.600+1775230.600</Point>
+      <Point Name="THE DAMS">-385155.700+1774632.800</Point>
+      <Point Name="THE LAKE">-383553.700+1775225.800</Point>
+      <Point Name="THE MILL">-384006.700+1775713.800</Point>
+      <Point Name="THE OLD WORKS">-383120.600+1775352.800</Point>
+      <Point Name="THE ROUNDABOUT">-383909.000+1775454.900</Point>
+      <Point Name="THE TRIG">-383546.100+1775918.000</Point>
+      <Point Name="WAIMATA">-383030.600+1780241.800</Point>
+      <Point Name="WAINUI">-384117.700+1780418.800</Point>
+      <Point Name="WAIPAOA RIVER MOUTH">-384248.700+1775629.800</Point>
+      <Point Name="WHAKAPUNAKI">-384957.700+1773555.800</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>BARTLETTS</Point>
-      <Point>GREYS BUSH</Point>
-      <Point>HOROTO</Point>
-      <Point>MAKORORI</Point>
-      <Point>MANUTUKE</Point>
-      <Point>MOHAKA RIVER MOUTH</Point>
-      <Point>MURIWAI</Point>
-      <Point>NUHAKA</Point>
-      <Point>ORMOND</Point>
-      <Point>PATUTAHI</Point>
-      <Point>TE KARAKA</Point>
-      <Point>THE DAMS</Point>
-      <Point>THE LAKE</Point>
-      <Point>THE MILL</Point>
-      <Point>THE OLD WORKS</Point>
-      <Point>THE ROUNDABOUT</Point>
-      <Point>THE TRIG</Point>
-      <Point>WAIMATA</Point>
-      <Point>WAINUI</Point>
-      <Point>WAIPAOA RIVER MOUTH</Point>
-      <Point>WHAKAPUNAKI</Point>
+      <Point Name="BARTLETTS">-385026.700+1775352.800</Point>
+      <Point Name="GREYS BUSH">-383544.200+1775730.300</Point>
+      <Point Name="HOROTO">-384835.700+1774542.800</Point>
+      <Point Name="MAKORORI">-383900.700+1780732.800</Point>
+      <Point Name="MANUTUKE">-384042.700+1775440.800</Point>
+      <Point Name="MOHAKA RIVER MOUTH">-390731.700+1771130.700</Point>
+      <Point Name="MURIWAI">-384510.700+1775533.800</Point>
+      <Point Name="NUHAKA">-390247.700+1774421.800</Point>
+      <Point Name="ORMOND">-383317.700+1775519.800</Point>
+      <Point Name="PATUTAHI">-383734.700+1775328.800</Point>
+      <Point Name="TE KARAKA">-382816.600+1775230.600</Point>
+      <Point Name="THE DAMS">-385155.700+1774632.800</Point>
+      <Point Name="THE LAKE">-383553.700+1775225.800</Point>
+      <Point Name="THE MILL">-384006.700+1775713.800</Point>
+      <Point Name="THE OLD WORKS">-383120.600+1775352.800</Point>
+      <Point Name="THE ROUNDABOUT">-383909.000+1775454.900</Point>
+      <Point Name="THE TRIG">-383546.100+1775918.000</Point>
+      <Point Name="WAIMATA">-383030.600+1780241.800</Point>
+      <Point Name="WAINUI">-384117.700+1780418.800</Point>
+      <Point Name="WAIPAOA RIVER MOUTH">-384248.700+1775629.800</Point>
+      <Point Name="WHAKAPUNAKI">-384957.700+1773555.800</Point>
     </Label>
   </Map>
 </Maps>

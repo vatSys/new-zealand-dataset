@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="Runways" Priority="1" Centre="-42.0+172.0">
+  <Map Type="System" Name="Runways" Priority="1" Center="-42.0+172.0">
     <!--NZAA-->
     <Runway Name="05R/23L">
       <Threshold Name="05R" Position="-37.016317+174.770783" ExtendedCentrelineTrack="251.1" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />

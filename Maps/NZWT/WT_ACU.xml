@@ -1,131 +1,184 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="03 STARs" Priority="1" CustomColourName="ProcArr" Center="-36.658144+174.653108">
+  <Map Type="System2" Name="04 STARs" Priority="1" CustomColourName="ProcArr" Center="-36.832306+175.676317">
     <Line>
-      <!--Rwy03 SF1B-->
-      SF NDB/PANGO
-    </Line>
-    <Symbol Type="HollowTriangle">
-      <Point>PANGO</Point>
-    </Symbol>
-    <Symbol Type="Circle">
-      <Point>SF NDB</Point>
-    </Symbol>
-    <Label HasLeader="true">
-      <Point>SF NDB</Point>
-      <Point>PANGO</Point>
-    </Label>
-  </Map>
-  <Map Type="System2" Name="03 GNSS" Priority="1" Center="-36.658144+174.653108" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle">
-      <Point>-36.667425+174.640756</Point>
-    </Symbol>
-    <Symbol Type="HollowTriangle">
-      <Point>PANGO</Point>
-    </Symbol>
-    <Symbol Type="MalteseCross">
-      <Point>RIKDI</Point>
-    </Symbol>
-    <Symbol Type="SolidTriangle">
-      <Point>LIBKO</Point>
-    </Symbol>
-    <Line Pattern="Solid">LIBKO/RIKDI/-36.667425+174.640756/NE03T</Line>
-    <Line Pattern="Solid">PANGO/LIBKO</Line>
-  </Map>
-  <Map Type="System2" Name="03 GNSS Labels" Priority="1" Center="-36.658144+174.653108" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>PANGO</Point>
-      <Point>RIKDI</Point>
-      <Point>LIBKO</Point>
-    </Label>
-  </Map>
-  <Map Type="System2" Name="21 STARs" Priority="1" CustomColourName="ProcArr" Center="-36.654272+174.658264">
-    <Line>
-      <!--Rwy21 DOST1A-->
-      DOSTU/SUNEL/UPLIN
+      <!--Rwy04 ISKI1A-->
+      ISKIK/ENPEV
     </Line>
     <Line>
-      <!--Rwy21 SF1A-->
-      SF NDB/BOLOR
+      <!--Rwy04 MAGE1A-->
+      MAGEX/WT734/WT652/AGPUM
+    </Line>
+    <Line>
+      <!--Rwy04 MASD1A-->
+      MASDA/WT576/GOVTI
     </Line>
     <Symbol Type="HollowTriangle">
-      <Point>UPLIN</Point>
-      <Point>BOLOR</Point>
-    </Symbol>
-    <Symbol Type="Circle">
-      <Point>SF NDB</Point>
+      <Point>ENPEV</Point>
+      <Point>AGPUM</Point>
+      <Point>GOVTI</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
-      <Point>DOSTU</Point>
-      <Point>SUNEL</Point>
+      <Point>ISKIK</Point>
+      <Point>MAGEX</Point>
+      <Point>WT734</Point>
+      <Point>WT652</Point>
+      <Point>MASDA</Point>
+      <Point>WT576</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>DOSTU</Point>
-      <Point>SF NDB</Point>
-      <Point>UPLIN</Point>
-      <Point>BOLOR</Point>
+      <Point>ISKIK</Point>
+      <Point>MAGEX</Point>
+      <Point>MASDA</Point>
+      <Point>ENPEV</Point>
+      <Point>AGPUM</Point>
+      <Point>GOVTI</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="21 GNSS" Priority="1" Center="-36.654272+174.658264" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
+  <Map Type="System2" Name="22 STARs" Priority="1" CustomColourName="ProcArr" Center="-36.825625+175.688550">
+    <Line>
+      <!--Rwy22 ISKI1A-->
+      ISKIK/ENPEV
+    </Line>
+    <Line>
+      <!--Rwy22 MAGE1A-->
+      MAGEX/WT734/WT652/AGPUM
+    </Line>
+    <Line>
+      <!--Rwy22 MASD1A-->
+      MASDA/WT576/GOVTI
+    </Line>
     <Symbol Type="HollowTriangle">
-      <Point>BOLOR</Point>
+      <Point>ENPEV</Point>
+      <Point>AGPUM</Point>
+      <Point>GOVTI</Point>
     </Symbol>
-    <Symbol Type="MalteseCross">
-      <Point>-36.597019+174.734392</Point>
+    <Symbol Type="HollowTriangle">
+      <Point>ISKIK</Point>
+      <Point>MAGEX</Point>
+      <Point>WT734</Point>
+      <Point>WT652</Point>
+      <Point>MASDA</Point>
+      <Point>WT576</Point>
     </Symbol>
-    <Symbol Type="SolidTriangle">
-      <Point>UPLIN</Point>
-    </Symbol>
-    <Line Pattern="Solid">UPLIN/-36.597019+174.734392/NE21T</Line>
-    <Line Pattern="Solid">BOLOR/UPLIN</Line>
-  </Map>
-  <Map Type="System2" Name="21 GNSS Labels" Priority="1" Center="-36.654272+174.658264" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>BOLOR</Point>
-      <Point>UPLIN</Point>
+      <Point>ISKIK</Point>
+      <Point>MAGEX</Point>
+      <Point>MASDA</Point>
+      <Point>ENPEV</Point>
+      <Point>AGPUM</Point>
+      <Point>GOVTI</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-36.656667+174.655278">
+  <Map Type="System2" Name="16 STARs" Priority="1" CustomColourName="ProcArr" Center="-36.825436+175.679925">
+    <Line>
+      <!--Rwy16 ISKI1A-->
+      ISKIK/ENPEV
+    </Line>
+    <Line>
+      <!--Rwy16 MAGE1A-->
+      MAGEX/WT734/WT652/AGPUM
+    </Line>
+    <Line>
+      <!--Rwy16 MASD1A-->
+      MASDA/WT576/GOVTI
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>ENPEV</Point>
+      <Point>AGPUM</Point>
+      <Point>GOVTI</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>ISKIK</Point>
+      <Point>MAGEX</Point>
+      <Point>WT734</Point>
+      <Point>WT652</Point>
+      <Point>MASDA</Point>
+      <Point>WT576</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>ISKIK</Point>
+      <Point>MAGEX</Point>
+      <Point>MASDA</Point>
+      <Point>ENPEV</Point>
+      <Point>AGPUM</Point>
+      <Point>GOVTI</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="34 STARs" Priority="1" CustomColourName="ProcArr" Center="-36.831206+175.680208">
+    <Line>
+      <!--Rwy34 ISKI1A-->
+      ISKIK/ENPEV
+    </Line>
+    <Line>
+      <!--Rwy34 MAGE1A-->
+      MAGEX/WT734/WT652/AGPUM
+    </Line>
+    <Line>
+      <!--Rwy34 MASD1A-->
+      MASDA/WT576/GOVTI
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>ENPEV</Point>
+      <Point>AGPUM</Point>
+      <Point>GOVTI</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>ISKIK</Point>
+      <Point>MAGEX</Point>
+      <Point>WT734</Point>
+      <Point>WT652</Point>
+      <Point>MASDA</Point>
+      <Point>WT576</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>ISKIK</Point>
+      <Point>MAGEX</Point>
+      <Point>MASDA</Point>
+      <Point>ENPEV</Point>
+      <Point>AGPUM</Point>
+      <Point>GOVTI</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-36.831667+175.678611">
     <Symbol Type="HollowSquare">
+      <Point Name="ATHENREE">-372653.600+1755808.700</Point>
       <Point Name="AVONDALE RACECOURSE">-365353.500+1744124.600</Point>
       <Point Name="BLOCKHOUSE BAY">-365533.600+1744224.700</Point>
-      <Point Name="BREAMTAIL HEAD">-360253.500+1743500.700</Point>
+      <Point Name="BLUE GUM BAY">-373446.000+1760420.400</Point>
       <Point Name="BROOKBY">-365911.800+1745938.600</Point>
       <Point Name="CABLEWAY">-371730.000+1750738.900</Point>
-      <Point Name="CAPE RODNEY">-361653.500+1744900.700</Point>
-      <Point Name="CLARKS BEACH">-370808.100+1744151.400</Point>
       <Point Name="CLENDON PARK">-370145.500+1745113.700</Point>
       <Point Name="CLEVEDON">-365929.200+1750214.700</Point>
-      <Point Name="CORNWALLIS">-370042.200+1743618.500</Point>
       <Point Name="COROMANDEL TOWN">-364520.500+1753003.000</Point>
       <Point Name="DRURY">-370613.500+1745649.700</Point>
-      <Point Name="GLENBROOK">-371223.500+1744346.600</Point>
       <Point Name="GREEN SHED">-371327.000+1750152.000</Point>
-      <Point Name="HELENSVILLE">-364025.300+1742700.200</Point>
       <Point Name="HINGAIA BRIDGE">-370510.400+1745427.200</Point>
       <Point Name="HOTEL DU VIN">-371124.100+1750849.400</Point>
       <Point Name="HOWICK">-365241.500+1745529.700</Point>
       <Point Name="HUNUA">-370442.300+1750414.800</Point>
       <Point Name="KARAKA">-370437.500+1745541.700</Point>
+      <Point Name="KAREWA ISLAND">-373146.800+1760754.500</Point>
+      <Point Name="KATIKATI">-373307.600+1755522.700</Point>
       <Point Name="KAWAKAWA BAY">-365653.400+1751009.200</Point>
       <Point Name="KINGSEAT">-370748.800+1744800.500</Point>
       <Point Name="LAKE PUPUKE">-364650.500+1744557.400</Point>
+      <Point Name="LAKE WAIKARE">-372608.100+1751156.400</Point>
       <Point Name="LPG TERMINAL">-370212.520+1744941.310</Point>
-      <Point Name="MANGAWHAI HEADS">-360523.500+1743500.700</Point>
+      <Point Name="MANAWARU">-373805.100+1754558.700</Point>
       <Point Name="MANGERE BRIDGE">-365602.500+1744718.500</Point>
       <Point Name="MANGERE TOWN">-365812.500+1744753.700</Point>
-      <Point Name="MANUKAU HEADS">-370319.500+1743121.600</Point>
       <Point Name="MARAMARUA">-371511.300+1751405.800</Point>
-      <Point Name="MAUNGATUROTO">-360653.500+1742100.600</Point>
       <Point Name="MCLAUGHLINS MOUNTAIN">-370047.100+1745044.300</Point>
       <Point Name="MEREMERE">-371932.900+1750400.300</Point>
       <Point Name="MUSICK POINT">-365047.500+1745406.700</Point>
       <Point Name="NESS VALLEY">-365939.540+1750732.280</Point>
+      <Point Name="NGATEA">-371634.000+1752940.700</Point>
       <Point Name="NORTH HEAD">-364944.700+1744846.700</Point>
       <Point Name="OKURA RIVER MOUTH">-363938.600+1744437.700</Point>
       <Point Name="ONE TREE HILL">-365400.300+1744659.100</Point>
       <Point Name="OREWA">-363600.300+1744149.600</Point>
+      <Point Name="PAEROA">-372240.800+1754012.000</Point>
       <Point Name="PAKURANGA TOWN">-365440.500+1745209.700</Point>
       <Point Name="PANMURE">-365444.100+1745130.000</Point>
       <Point Name="PAPAKURA">-370403.500+1745649.700</Point>
@@ -138,54 +191,51 @@
       <Point Name="TAIHIKI RIVER ESTUARY">-370955.500+1744728.600</Point>
       <Point Name="TAPU">-365858.500+1753006.400</Point>
       <Point Name="TE ATATU">-364929.500+1743857.600</Point>
-      <Point Name="WAIMAUKU">-364546.500+1742931.600</Point>
       <Point Name="WAIROA RIVER MOUTH">-365715.000+1750430.000</Point>
-      <Point Name="WAITAKERE">-365356.500+1743147.600</Point>
-      <Point Name="WARKWORTH">-362402.100+1743949.300</Point>
+      <Point Name="WAITOA">-373554.700+1753754.200</Point>
       <Point Name="WATERWORKS">-370234.500+1750122.700</Point>
-      <Point Name="WELLSFORD">-361745.900+1743123.600</Point>
       <Point Name="WEYMOUTH">-370254.500+1745143.700</Point>
+      <Point Name="WHANGAMATA">-371253.500+1755230.700</Point>
       <Point Name="WHITFORD TOWN">-365643.500+1745749.700</Point>
     </Symbol>
     <Label HasLeader="true">
+      <Point Name="ATHENREE">-372653.600+1755808.700</Point>
       <Point Name="AVONDALE RACECOURSE">-365353.500+1744124.600</Point>
       <Point Name="BLOCKHOUSE BAY">-365533.600+1744224.700</Point>
-      <Point Name="BREAMTAIL HEAD">-360253.500+1743500.700</Point>
+      <Point Name="BLUE GUM BAY">-373446.000+1760420.400</Point>
       <Point Name="BROOKBY">-365911.800+1745938.600</Point>
       <Point Name="CABLEWAY">-371730.000+1750738.900</Point>
-      <Point Name="CAPE RODNEY">-361653.500+1744900.700</Point>
-      <Point Name="CLARKS BEACH">-370808.100+1744151.400</Point>
       <Point Name="CLENDON PARK">-370145.500+1745113.700</Point>
       <Point Name="CLEVEDON">-365929.200+1750214.700</Point>
-      <Point Name="CORNWALLIS">-370042.200+1743618.500</Point>
       <Point Name="COROMANDEL TOWN">-364520.500+1753003.000</Point>
       <Point Name="DRURY">-370613.500+1745649.700</Point>
-      <Point Name="GLENBROOK">-371223.500+1744346.600</Point>
       <Point Name="GREEN SHED">-371327.000+1750152.000</Point>
-      <Point Name="HELENSVILLE">-364025.300+1742700.200</Point>
       <Point Name="HINGAIA BRIDGE">-370510.400+1745427.200</Point>
       <Point Name="HOTEL DU VIN">-371124.100+1750849.400</Point>
       <Point Name="HOWICK">-365241.500+1745529.700</Point>
       <Point Name="HUNUA">-370442.300+1750414.800</Point>
       <Point Name="KARAKA">-370437.500+1745541.700</Point>
+      <Point Name="KAREWA ISLAND">-373146.800+1760754.500</Point>
+      <Point Name="KATIKATI">-373307.600+1755522.700</Point>
       <Point Name="KAWAKAWA BAY">-365653.400+1751009.200</Point>
       <Point Name="KINGSEAT">-370748.800+1744800.500</Point>
       <Point Name="LAKE PUPUKE">-364650.500+1744557.400</Point>
+      <Point Name="LAKE WAIKARE">-372608.100+1751156.400</Point>
       <Point Name="LPG TERMINAL">-370212.520+1744941.310</Point>
-      <Point Name="MANGAWHAI HEADS">-360523.500+1743500.700</Point>
+      <Point Name="MANAWARU">-373805.100+1754558.700</Point>
       <Point Name="MANGERE BRIDGE">-365602.500+1744718.500</Point>
       <Point Name="MANGERE TOWN">-365812.500+1744753.700</Point>
-      <Point Name="MANUKAU HEADS">-370319.500+1743121.600</Point>
       <Point Name="MARAMARUA">-371511.300+1751405.800</Point>
-      <Point Name="MAUNGATUROTO">-360653.500+1742100.600</Point>
       <Point Name="MCLAUGHLINS MOUNTAIN">-370047.100+1745044.300</Point>
       <Point Name="MEREMERE">-371932.900+1750400.300</Point>
       <Point Name="MUSICK POINT">-365047.500+1745406.700</Point>
       <Point Name="NESS VALLEY">-365939.540+1750732.280</Point>
+      <Point Name="NGATEA">-371634.000+1752940.700</Point>
       <Point Name="NORTH HEAD">-364944.700+1744846.700</Point>
       <Point Name="OKURA RIVER MOUTH">-363938.600+1744437.700</Point>
       <Point Name="ONE TREE HILL">-365400.300+1744659.100</Point>
       <Point Name="OREWA">-363600.300+1744149.600</Point>
+      <Point Name="PAEROA">-372240.800+1754012.000</Point>
       <Point Name="PAKURANGA TOWN">-365440.500+1745209.700</Point>
       <Point Name="PANMURE">-365444.100+1745130.000</Point>
       <Point Name="PAPAKURA">-370403.500+1745649.700</Point>
@@ -198,13 +248,11 @@
       <Point Name="TAIHIKI RIVER ESTUARY">-370955.500+1744728.600</Point>
       <Point Name="TAPU">-365858.500+1753006.400</Point>
       <Point Name="TE ATATU">-364929.500+1743857.600</Point>
-      <Point Name="WAIMAUKU">-364546.500+1742931.600</Point>
       <Point Name="WAIROA RIVER MOUTH">-365715.000+1750430.000</Point>
-      <Point Name="WAITAKERE">-365356.500+1743147.600</Point>
-      <Point Name="WARKWORTH">-362402.100+1743949.300</Point>
+      <Point Name="WAITOA">-373554.700+1753754.200</Point>
       <Point Name="WATERWORKS">-370234.500+1750122.700</Point>
-      <Point Name="WELLSFORD">-361745.900+1743123.600</Point>
       <Point Name="WEYMOUTH">-370254.500+1745143.700</Point>
+      <Point Name="WHANGAMATA">-371253.500+1755230.700</Point>
       <Point Name="WHITFORD TOWN">-365643.500+1745749.700</Point>
     </Label>
   </Map>

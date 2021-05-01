@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="16 STARs" Priority="1" CustomColourName="ProcArr" Centre="-39.007550+177.404069">
+  <Map Type="System2" Name="16 STARs" Priority="1" CustomColourName="ProcArr" Center="-39.007550+177.404069">
     <Line>
       <!--Rwy16 AGTI1A-->
       DOMON/AGTID
@@ -59,7 +59,7 @@
       <Point>AVMEB</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="34 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-39.007550+177.404069">
+  <Map Type="System2" Name="34 SIDs" Priority="1" CustomColourName="ProcDep" Center="-39.007550+177.404069">
     <Line Pattern="Dashed">
       <!--Rwy34 DOMO1Q-->
       -39.007550+177.404069/DOMON
@@ -103,86 +103,86 @@
       <Point>MARKS</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-39.015339+177.404181">
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-39.015339+177.404181">
     <Symbol Type="HollowSquare">
-      <Point>AWATOTO</Point>
-      <Point>BARTLETTS</Point>
-      <Point>CLIVE</Point>
-      <Point>ESKDALE</Point>
-      <Point>FERNHILL</Point>
-      <Point>GREYS BUSH</Point>
-      <Point>HAUMOANA</Point>
-      <Point>HAVELOCK NORTH</Point>
-      <Point>HOROTO</Point>
-      <Point>MAKORORI</Point>
-      <Point>MANUTUKE</Point>
-      <Point>MOHAKA RIVER MOUTH</Point>
-      <Point>MURIWAI</Point>
-      <Point>NUHAKA</Point>
-      <Point>ORMOND</Point>
-      <Point>PATOKA</Point>
-      <Point>PATUTAHI</Point>
-      <Point>PORAITI</Point>
-      <Point>PUKETAPU</Point>
-      <Point>RIDGEMOUNT BLUFF</Point>
-      <Point>RISSINGTON</Point>
-      <Point>SEAPORT</Point>
-      <Point>TE KARAKA</Point>
-      <Point>TE POHUE</Point>
-      <Point>THE DAMS</Point>
-      <Point>THE LAKE</Point>
-      <Point>THE MILL</Point>
-      <Point>THE OLD WORKS</Point>
-      <Point>THE ROUNDABOUT</Point>
-      <Point>THE TRIG</Point>
-      <Point>TUTIRA</Point>
-      <Point>WAIMATA</Point>
-      <Point>WAINUI</Point>
-      <Point>WAIOHIKI</Point>
-      <Point>WAIPAOA RIVER MOUTH</Point>
-      <Point>WAIPATIKI BEACH</Point>
-      <Point>WHAKAPUNAKI</Point>
-      <Point>WHIRINAKI</Point>
+      <Point Name="AWATOTO">-393312.700+1765520.700</Point>
+      <Point Name="BARTLETTS">-385026.700+1775352.800</Point>
+      <Point Name="CLIVE">-393505.700+1765447.700</Point>
+      <Point Name="ESKDALE">-392317.200+1764918.300</Point>
+      <Point Name="FERNHILL">-393514.800+1764539.600</Point>
+      <Point Name="GREYS BUSH">-383544.200+1775730.300</Point>
+      <Point Name="HAUMOANA">-393614.700+1765640.300</Point>
+      <Point Name="HAVELOCK NORTH">-394012.700+1765237.700</Point>
+      <Point Name="HOROTO">-384835.700+1774542.800</Point>
+      <Point Name="MAKORORI">-383900.700+1780732.800</Point>
+      <Point Name="MANUTUKE">-384042.700+1775440.800</Point>
+      <Point Name="MOHAKA RIVER MOUTH">-390731.700+1771130.700</Point>
+      <Point Name="MURIWAI">-384510.700+1775533.800</Point>
+      <Point Name="NUHAKA">-390247.700+1774421.800</Point>
+      <Point Name="ORMOND">-383317.700+1775519.800</Point>
+      <Point Name="PATOKA">-392047.700+1763616.700</Point>
+      <Point Name="PATUTAHI">-383734.700+1775328.800</Point>
+      <Point Name="PORAITI">-392934.200+1765021.000</Point>
+      <Point Name="PUKETAPU">-393042.700+1764717.700</Point>
+      <Point Name="RIDGEMOUNT BLUFF">-391243.600+1770211.300</Point>
+      <Point Name="RISSINGTON">-392621.000+1764304.400</Point>
+      <Point Name="SEAPORT">-392838.700+1765523.700</Point>
+      <Point Name="TE KARAKA">-382816.600+1775230.600</Point>
+      <Point Name="TE POHUE">-391500.700+1764056.700</Point>
+      <Point Name="THE DAMS">-385155.700+1774632.800</Point>
+      <Point Name="THE LAKE">-383553.700+1775225.800</Point>
+      <Point Name="THE MILL">-384006.700+1775713.800</Point>
+      <Point Name="THE OLD WORKS">-383120.600+1775352.800</Point>
+      <Point Name="THE ROUNDABOUT">-383909.000+1775454.900</Point>
+      <Point Name="THE TRIG">-383546.100+1775918.000</Point>
+      <Point Name="TUTIRA">-391326.900+1765334.700</Point>
+      <Point Name="WAIMATA">-383030.600+1780241.800</Point>
+      <Point Name="WAINUI">-384117.700+1780418.800</Point>
+      <Point Name="WAIOHIKI">-393300.800+1765127.200</Point>
+      <Point Name="WAIPAOA RIVER MOUTH">-384248.700+1775629.800</Point>
+      <Point Name="WAIPATIKI BEACH">-391803.700+1765835.700</Point>
+      <Point Name="WHAKAPUNAKI">-384957.700+1773555.800</Point>
+      <Point Name="WHIRINAKI">-392238.100+1765316.300</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>AWATOTO</Point>
-      <Point>BARTLETTS</Point>
-      <Point>CLIVE</Point>
-      <Point>ESKDALE</Point>
-      <Point>FERNHILL</Point>
-      <Point>GREYS BUSH</Point>
-      <Point>HAUMOANA</Point>
-      <Point>HAVELOCK NORTH</Point>
-      <Point>HOROTO</Point>
-      <Point>MAKORORI</Point>
-      <Point>MANUTUKE</Point>
-      <Point>MOHAKA RIVER MOUTH</Point>
-      <Point>MURIWAI</Point>
-      <Point>NUHAKA</Point>
-      <Point>ORMOND</Point>
-      <Point>PATOKA</Point>
-      <Point>PATUTAHI</Point>
-      <Point>PORAITI</Point>
-      <Point>PUKETAPU</Point>
-      <Point>RIDGEMOUNT BLUFF</Point>
-      <Point>RISSINGTON</Point>
-      <Point>SEAPORT</Point>
-      <Point>TE KARAKA</Point>
-      <Point>TE POHUE</Point>
-      <Point>THE DAMS</Point>
-      <Point>THE LAKE</Point>
-      <Point>THE MILL</Point>
-      <Point>THE OLD WORKS</Point>
-      <Point>THE ROUNDABOUT</Point>
-      <Point>THE TRIG</Point>
-      <Point>TUTIRA</Point>
-      <Point>WAIMATA</Point>
-      <Point>WAINUI</Point>
-      <Point>WAIOHIKI</Point>
-      <Point>WAIPAOA RIVER MOUTH</Point>
-      <Point>WAIPATIKI BEACH</Point>
-      <Point>WHAKAPUNAKI</Point>
-      <Point>WHIRINAKI</Point>
+      <Point Name="AWATOTO">-393312.700+1765520.700</Point>
+      <Point Name="BARTLETTS">-385026.700+1775352.800</Point>
+      <Point Name="CLIVE">-393505.700+1765447.700</Point>
+      <Point Name="ESKDALE">-392317.200+1764918.300</Point>
+      <Point Name="FERNHILL">-393514.800+1764539.600</Point>
+      <Point Name="GREYS BUSH">-383544.200+1775730.300</Point>
+      <Point Name="HAUMOANA">-393614.700+1765640.300</Point>
+      <Point Name="HAVELOCK NORTH">-394012.700+1765237.700</Point>
+      <Point Name="HOROTO">-384835.700+1774542.800</Point>
+      <Point Name="MAKORORI">-383900.700+1780732.800</Point>
+      <Point Name="MANUTUKE">-384042.700+1775440.800</Point>
+      <Point Name="MOHAKA RIVER MOUTH">-390731.700+1771130.700</Point>
+      <Point Name="MURIWAI">-384510.700+1775533.800</Point>
+      <Point Name="NUHAKA">-390247.700+1774421.800</Point>
+      <Point Name="ORMOND">-383317.700+1775519.800</Point>
+      <Point Name="PATOKA">-392047.700+1763616.700</Point>
+      <Point Name="PATUTAHI">-383734.700+1775328.800</Point>
+      <Point Name="PORAITI">-392934.200+1765021.000</Point>
+      <Point Name="PUKETAPU">-393042.700+1764717.700</Point>
+      <Point Name="RIDGEMOUNT BLUFF">-391243.600+1770211.300</Point>
+      <Point Name="RISSINGTON">-392621.000+1764304.400</Point>
+      <Point Name="SEAPORT">-392838.700+1765523.700</Point>
+      <Point Name="TE KARAKA">-382816.600+1775230.600</Point>
+      <Point Name="TE POHUE">-391500.700+1764056.700</Point>
+      <Point Name="THE DAMS">-385155.700+1774632.800</Point>
+      <Point Name="THE LAKE">-383553.700+1775225.800</Point>
+      <Point Name="THE MILL">-384006.700+1775713.800</Point>
+      <Point Name="THE OLD WORKS">-383120.600+1775352.800</Point>
+      <Point Name="THE ROUNDABOUT">-383909.000+1775454.900</Point>
+      <Point Name="THE TRIG">-383546.100+1775918.000</Point>
+      <Point Name="TUTIRA">-391326.900+1765334.700</Point>
+      <Point Name="WAIMATA">-383030.600+1780241.800</Point>
+      <Point Name="WAINUI">-384117.700+1780418.800</Point>
+      <Point Name="WAIOHIKI">-393300.800+1765127.200</Point>
+      <Point Name="WAIPAOA RIVER MOUTH">-384248.700+1775629.800</Point>
+      <Point Name="WAIPATIKI BEACH">-391803.700+1765835.700</Point>
+      <Point Name="WHAKAPUNAKI">-384957.700+1773555.800</Point>
+      <Point Name="WHIRINAKI">-392238.100+1765316.300</Point>
     </Label>
   </Map>
 </Maps>

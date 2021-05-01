@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="15 SIDs" Priority="1" CustomColourName="ProcDep" Center="-43.915428+170.129942">
+    <Line Pattern="Dashed">
+      <!--Rwy15 MAMUS2-->
+      -43.915428+170.129942/OMUBU/MAMUS
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>OMUBU</Point>
+      <Point>MAMUS</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>MAMUS</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="15 GNSS" Priority="1" Center="-43.906092+170.127750" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>MAMUS</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>IDPAX</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>ATMAS</Point>
+    </Symbol>
+    <Line Pattern="Solid">ATMAS/IDPAX/GT403</Line>
+    <Line Pattern="Solid">MAMUS/ATMAS</Line>
+  </Map>
+  <Map Type="System2" Name="15 GNSS Labels" Priority="1" Center="-43.906092+170.127750" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>MAMUS</Point>
+      <Point>IDPAX</Point>
+      <Point>ATMAS</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-43.907717+170.129028">
+    <Symbol Type="HollowSquare">
+      <Point Name="ALEX KNOB">-432540.000+1700904.300</Point>
+      <Point Name="ALMER HUTT">-432828.000+1701227.300</Point>
+      <Point Name="ARMADILLO">-433247.000+1702504.400</Point>
+      <Point Name="BAUMANN GLACIER">-432802.000+1700913.300</Point>
+      <Point Name="BEETHAM">-433350.000+1701514.300</Point>
+      <Point Name="BIG MAC">-433249.000+1700745.300</Point>
+      <Point Name="BLUE LAKES">-434140.000+1700953.300</Point>
+      <Point Name="BRAEMAR DOME">-435112.000+1701750.300</Point>
+      <Point Name="BURKES PASS">-440524.000+1703603.300</Point>
+      <Point Name="CALLERY MOUTH">-432351.000+1701059.300</Point>
+      <Point Name="CAMERON BRIDGE">-441324.100+1700300.300</Point>
+      <Point Name="CHANCELLOR HUTT">-433037.000+1700630.300</Point>
+      <Point Name="CONE ROCK">-432954.000+1700234.300</Point>
+      <Point Name="COOK SADDLE">-432652.000+1700239.300</Point>
+      <Point Name="DARWIN CORNER">-433154.000+1701800.300</Point>
+      <Point Name="DAVIS SNOWFIELD">-433054.000+1701300.300</Point>
+      <Point Name="DE LA BECHE RIDGE">-433133.000+1701533.300</Point>
+      <Point Name="FERINTOSH">-435733.100+1700739.600</Point>
+      <Point Name="FOX TERMINAL">-433004.000+1700334.300</Point>
+      <Point Name="FRANZ JOSEF CAR PARK">-432543.000+1701004.300</Point>
+      <Point Name="FRANZ TERMINAL">-432644.000+1701024.300</Point>
+      <Point Name="GEIKIE SNOWFIELD">-432912.000+1701500.300</Point>
+      <Point Name="GODLEY LAKES">-432935.000+1702922.400</Point>
+      <Point Name="GRAND PLATEAU">-433512.000+1701004.300</Point>
+      <Point Name="HEAD OF LAKE TEKAPO">-434656.000+1703223.400</Point>
+      <Point Name="HEAD OF THE BUSH">-435024.000+1700058.400</Point>
+      <Point Name="HEAD OF THE GLADSTONE">-440405.200+1695751.100</Point>
+      <Point Name="HEAD OF THE IRISHMAN">-435931.600+1700259.600</Point>
+      <Point Name="HOCHSTETTER">-433527.000+1701106.300</Point>
+      <Point Name="HOOKER BRIDGE">-434426.000+1700740.300</Point>
+      <Point Name="IRISHMAN CREEK STATION">-440410.000+1702039.000</Point>
+      <Point Name="JOLLIE RIVER MOUTH">-435117.600+1701100.700</Point>
+      <Point Name="KELLANDS PONDS">-441754.100+1700400.300</Point>
+      <Point Name="KILLERMONT STATION">-443055.800+1694804.600</Point>
+      <Point Name="LAKE ALEXANDRINA">-435425.000+1702700.300</Point>
+      <Point Name="LAKE WOMBAT">-432408.000+1701002.300</Point>
+      <Point Name="LANDSLIP CREEK">-435547.000+1701150.300</Point>
+      <Point Name="LIEBIG DOME">-433912.000+1701900.000</Point>
+      <Point Name="LILYBANK">-434220.000+1703344.400</Point>
+      <Point Name="LUNCHEON ROCK">-432742.000+1701045.300</Point>
+      <Point Name="MALTE BRUN CORNER">-433806.000+1701318.300</Point>
+      <Point Name="ARCHIAC">-432754.000+1703453.400</Point>
+      <Point Name="MOUNT GLENMARY">-435835.100+1695241.300</Point>
+      <Point Name="MOUNT JOSEPH">-435136.000+1702216.000</Point>
+      <Point Name="MOUTH OF THE DUNCAN">-440404.200+1700401.300</Point>
+      <Point Name="MOUTH OF THE GORILLA">-434445.200+1701014.700</Point>
+      <Point Name="MUELLER HUT">-434254.000+1700345.300</Point>
+      <Point Name="MURCHISON CORNER">-434012.000+1701300.300</Point>
+      <Point Name="MURCHISON TERMINAL">-433645.000+1701843.300</Point>
+      <Point Name="NORTH BRANCH GODLEY">-433606.000+1703053.400</Point>
+      <Point Name="NUNS VEIL">-434124.000+1701450.300</Point>
+      <Point Name="OHAU TURNOFF">-442115.600+1700029.400</Point>
+      <Point Name="OMOEROA SADDLE">-432427.000+1700643.300</Point>
+      <Point Name="PIONEER HUT">-433150.000+1701055.300</Point>
+      <Point Name="PUKAKI DOWNS">-440926.000+1700652.300</Point>
+      <Point Name="PUKAKI SPILLWAY">-441118.000+1700812.300</Point>
+      <Point Name="RHOBORO DOWNS">-441124.000+1700510.300</Point>
+      <Point Name="RICHARDSON GLACIER">-434754.000+1695800.300</Point>
+      <Point Name="RICHMOND STATION">-435254.000+1703307.400</Point>
+      <Point Name="ROTTEN TOMMY">-434754.000+1700855.300</Point>
+      <Point Name="ROUND HILL">-435040.800+1700529.600</Point>
+      <Point Name="TASMAN DOWNS">-440042.000+1701145.300</Point>
+      <Point Name="TASMAN TERMINAL">-434225.000+1701049.300</Point>
+      <Point Name="TATARE RANGE">-432430.000+1701959.300</Point>
+      <Point Name="TEKAPO B">-440725.000+1701250.300</Point>
+      <Point Name="TEKAPO ISLAND">-435619.000+1703117.000</Point>
+      <Point Name="TEKAPO SADDLE">-435808.000+1703832.000</Point>
+      <Point Name="TEKAPO SKIFIELD">-434906.200+1703941.200</Point>
+      <Point Name="VICTORIA FLAT">-433006.000+1700442.300</Point>
+      <Point Name="WEST RIDGE LA PEROUSE">-433545.000+1700500.300</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point Name="ALEX KNOB">-432540.000+1700904.300</Point>
+      <Point Name="ALMER HUTT">-432828.000+1701227.300</Point>
+      <Point Name="ARMADILLO">-433247.000+1702504.400</Point>
+      <Point Name="BAUMANN GLACIER">-432802.000+1700913.300</Point>
+      <Point Name="BEETHAM">-433350.000+1701514.300</Point>
+      <Point Name="BIG MAC">-433249.000+1700745.300</Point>
+      <Point Name="BLUE LAKES">-434140.000+1700953.300</Point>
+      <Point Name="BRAEMAR DOME">-435112.000+1701750.300</Point>
+      <Point Name="BURKES PASS">-440524.000+1703603.300</Point>
+      <Point Name="CALLERY MOUTH">-432351.000+1701059.300</Point>
+      <Point Name="CAMERON BRIDGE">-441324.100+1700300.300</Point>
+      <Point Name="CHANCELLOR HUTT">-433037.000+1700630.300</Point>
+      <Point Name="CONE ROCK">-432954.000+1700234.300</Point>
+      <Point Name="COOK SADDLE">-432652.000+1700239.300</Point>
+      <Point Name="DARWIN CORNER">-433154.000+1701800.300</Point>
+      <Point Name="DAVIS SNOWFIELD">-433054.000+1701300.300</Point>
+      <Point Name="DE LA BECHE RIDGE">-433133.000+1701533.300</Point>
+      <Point Name="FERINTOSH">-435733.100+1700739.600</Point>
+      <Point Name="FOX TERMINAL">-433004.000+1700334.300</Point>
+      <Point Name="FRANZ JOSEF CAR PARK">-432543.000+1701004.300</Point>
+      <Point Name="FRANZ TERMINAL">-432644.000+1701024.300</Point>
+      <Point Name="GEIKIE SNOWFIELD">-432912.000+1701500.300</Point>
+      <Point Name="GODLEY LAKES">-432935.000+1702922.400</Point>
+      <Point Name="GRAND PLATEAU">-433512.000+1701004.300</Point>
+      <Point Name="HEAD OF LAKE TEKAPO">-434656.000+1703223.400</Point>
+      <Point Name="HEAD OF THE BUSH">-435024.000+1700058.400</Point>
+      <Point Name="HEAD OF THE GLADSTONE">-440405.200+1695751.100</Point>
+      <Point Name="HEAD OF THE IRISHMAN">-435931.600+1700259.600</Point>
+      <Point Name="HOCHSTETTER">-433527.000+1701106.300</Point>
+      <Point Name="HOOKER BRIDGE">-434426.000+1700740.300</Point>
+      <Point Name="IRISHMAN CREEK STATION">-440410.000+1702039.000</Point>
+      <Point Name="JOLLIE RIVER MOUTH">-435117.600+1701100.700</Point>
+      <Point Name="KELLANDS PONDS">-441754.100+1700400.300</Point>
+      <Point Name="KILLERMONT STATION">-443055.800+1694804.600</Point>
+      <Point Name="LAKE ALEXANDRINA">-435425.000+1702700.300</Point>
+      <Point Name="LAKE WOMBAT">-432408.000+1701002.300</Point>
+      <Point Name="LANDSLIP CREEK">-435547.000+1701150.300</Point>
+      <Point Name="LIEBIG DOME">-433912.000+1701900.000</Point>
+      <Point Name="LILYBANK">-434220.000+1703344.400</Point>
+      <Point Name="LUNCHEON ROCK">-432742.000+1701045.300</Point>
+      <Point Name="MALTE BRUN CORNER">-433806.000+1701318.300</Point>
+      <Point Name="ARCHIAC">-432754.000+1703453.400</Point>
+      <Point Name="MOUNT GLENMARY">-435835.100+1695241.300</Point>
+      <Point Name="MOUNT JOSEPH">-435136.000+1702216.000</Point>
+      <Point Name="MOUTH OF THE DUNCAN">-440404.200+1700401.300</Point>
+      <Point Name="MOUTH OF THE GORILLA">-434445.200+1701014.700</Point>
+      <Point Name="MUELLER HUT">-434254.000+1700345.300</Point>
+      <Point Name="MURCHISON CORNER">-434012.000+1701300.300</Point>
+      <Point Name="MURCHISON TERMINAL">-433645.000+1701843.300</Point>
+      <Point Name="NORTH BRANCH GODLEY">-433606.000+1703053.400</Point>
+      <Point Name="NUNS VEIL">-434124.000+1701450.300</Point>
+      <Point Name="OHAU TURNOFF">-442115.600+1700029.400</Point>
+      <Point Name="OMOEROA SADDLE">-432427.000+1700643.300</Point>
+      <Point Name="PIONEER HUT">-433150.000+1701055.300</Point>
+      <Point Name="PUKAKI DOWNS">-440926.000+1700652.300</Point>
+      <Point Name="PUKAKI SPILLWAY">-441118.000+1700812.300</Point>
+      <Point Name="RHOBORO DOWNS">-441124.000+1700510.300</Point>
+      <Point Name="RICHARDSON GLACIER">-434754.000+1695800.300</Point>
+      <Point Name="RICHMOND STATION">-435254.000+1703307.400</Point>
+      <Point Name="ROTTEN TOMMY">-434754.000+1700855.300</Point>
+      <Point Name="ROUND HILL">-435040.800+1700529.600</Point>
+      <Point Name="TASMAN DOWNS">-440042.000+1701145.300</Point>
+      <Point Name="TASMAN TERMINAL">-434225.000+1701049.300</Point>
+      <Point Name="TATARE RANGE">-432430.000+1701959.300</Point>
+      <Point Name="TEKAPO B">-440725.000+1701250.300</Point>
+      <Point Name="TEKAPO ISLAND">-435619.000+1703117.000</Point>
+      <Point Name="TEKAPO SADDLE">-435808.000+1703832.000</Point>
+      <Point Name="TEKAPO SKIFIELD">-434906.200+1703941.200</Point>
+      <Point Name="VICTORIA FLAT">-433006.000+1700442.300</Point>
+      <Point Name="WEST RIDGE LA PEROUSE">-433545.000+1700500.300</Point>
+    </Label>
+  </Map>
+</Maps>

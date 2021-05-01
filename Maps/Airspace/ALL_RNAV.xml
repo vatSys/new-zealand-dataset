@@ -259,8 +259,13 @@
       <Point>WARIK</Point>
       <Point>COOKS</Point>
       <Point>UKLIP</Point>
+      <Point>MAMUS</Point>
       <Point>NUKTO</Point>
       <Point>UPVOK</Point>
+      <Point>BESMO</Point>
+      <Point>KAKIT</Point>
+      <Point>ALDEV</Point>
+      <Point>ENSOV</Point>
       <Point>MAMOD</Point>
       <Point>ATVOX</Point>
       <Point>URDAL</Point>
@@ -295,6 +300,7 @@
       <Point>RUSTA</Point>
       <Point>TODAN</Point>
       <Point>UBSET</Point>
+      <Point>MARKO</Point>
       <Point>KARBA</Point>
       <Point>LALAN</Point>
       <Point>MIKER</Point>
@@ -335,11 +341,13 @@
       <Point>AGRIP</Point>
       <Point>SALEK</Point>
       <Point>VESAV</Point>
+      <Point>IDPAX</Point>
       <Point>HA906</Point>
       <Point>HK406</Point>
       <Point>HK407</Point>
       <Point>NITAK</Point>
       <Point>IKERI</Point>
+      <Point>PORUT</Point>
       <Point>MS488</Point>
       <Point>MS402</Point>
       <Point>RIKDI</Point>
@@ -364,6 +372,7 @@
       <Point>BAMEX</Point>
       <Point>RIPSA</Point>
       <Point>UKDAS</Point>
+      <Point>BENVU</Point>
       <Point>ENPIP</Point>
       <Point>WK401</Point>
       <Point>WK402</Point>
@@ -393,6 +402,7 @@
       <Point>PAROA</Point>
       <Point>RUGRU</Point>
       <Point>KOPUA</Point>
+      <Point>ATMAS</Point>
       <Point>WAPOU</Point>
       <Point>KARVO</Point>
       <Point>MAKOS</Point>
@@ -402,6 +412,8 @@
       <Point>OPARE</Point>
       <Point>STEED</Point>
       <Point>PERIA</Point>
+      <Point>LUGDU</Point>
+      <Point>GULAN</Point>
       <Point>MS603</Point>
       <Point>SADUN</Point>
       <Point>LIBKO</Point>
@@ -433,6 +445,7 @@
       <Point>APABO</Point>
       <Point>TENIX</Point>
       <Point>PATMO</Point>
+      <Point>TK401</Point>
       <Point>WAIPA</Point>
       <Point>AMURI</Point>
       <Point>LUTKA</Point>
@@ -522,8 +535,13 @@
       <Point>WARIK</Point>
       <Point>COOKS</Point>
       <Point>UKLIP</Point>
+      <Point>MAMUS</Point>
       <Point>NUKTO</Point>
       <Point>UPVOK</Point>
+      <Point>BESMO</Point>
+      <Point>KAKIT</Point>
+      <Point>ALDEV</Point>
+      <Point>ENSOV</Point>
       <Point>MAMOD</Point>
       <Point>ATVOX</Point>
       <Point>URDAL</Point>
@@ -558,6 +576,7 @@
       <Point>RUSTA</Point>
       <Point>TODAN</Point>
       <Point>UBSET</Point>
+      <Point>MARKO</Point>
       <Point>KARBA</Point>
       <Point>LALAN</Point>
       <Point>MIKER</Point>
@@ -600,6 +619,7 @@
       <Point>AGRIP</Point>
       <Point>SALEK</Point>
       <Point>VESAV</Point>
+      <Point>IDPAX</Point>
       <Point>HA906</Point>
       <Point>HK406</Point>
       <Point>HK407</Point>
@@ -608,6 +628,8 @@
       <Point>-35.171564+173.885264</Point>
       <Point>-35.343650+173.939047</Point>
       <Point>-34.985489+173.206236</Point>
+      <Point>PORUT</Point>
+      <Point>-36.797194+174.755050</Point>
       <Point>MS488</Point>
       <Point>MS402</Point>
       <Point>RIKDI</Point>
@@ -638,6 +660,7 @@
       <Point>BAMEX</Point>
       <Point>RIPSA</Point>
       <Point>UKDAS</Point>
+      <Point>BENVU</Point>
       <Point>-38.167164+175.830969</Point>
       <Point>-38.309944+175.958236</Point>
       <Point>ENPIP</Point>
@@ -672,6 +695,7 @@
       <Point>PAROA</Point>
       <Point>RUGRU</Point>
       <Point>KOPUA</Point>
+      <Point>ATMAS</Point>
       <Point>WAPOU</Point>
       <Point>KARVO</Point>
       <Point>MAKOS</Point>
@@ -681,6 +705,8 @@
       <Point>OPARE</Point>
       <Point>STEED</Point>
       <Point>PERIA</Point>
+      <Point>LUGDU</Point>
+      <Point>GULAN</Point>
       <Point>MS603</Point>
       <Point>SADUN</Point>
       <Point>LIBKO</Point>
@@ -712,6 +738,7 @@
       <Point>APABO</Point>
       <Point>TENIX</Point>
       <Point>PATMO</Point>
+      <Point>TK401</Point>
       <Point>WAIPA</Point>
       <Point>AMURI</Point>
       <Point>LUTKA</Point>
@@ -777,6 +804,8 @@
     <Line Pattern="Solid">KOPUA/VESAV/GS32T</Line>
     <Line Pattern="Solid">COOKS/KOPUA</Line>
     <Line Pattern="Solid">UKLIP/KOPUA</Line>
+    <Line Pattern="Solid">ATMAS/IDPAX/GT403</Line>
+    <Line Pattern="Solid">MAMUS/ATMAS</Line>
     <Line Pattern="Solid">WAPOU/HA906/HA32T</Line>
     <Line Pattern="Solid">NUKTO/WAPOU</Line>
     <Line Pattern="Solid">UPVOK/WAPOU</Line>
@@ -788,6 +817,12 @@
     <Line Pattern="Solid">OPARE/-35.343650+173.939047/-35.270886+173.916278/KK33T</Line>
     <Line Pattern="Solid">STEED/-34.985489+173.206236/-35.051364+173.268542/KT12T</Line>
     <Line Pattern="Solid">PERIA/-35.114650+173.348514/-35.084461+173.299894/KT30T</Line>
+    <Line Pattern="Solid">LUGDU/PORUT/LX407</Line>
+    <Line Pattern="Solid">BESMO/LUGDU</Line>
+    <Line Pattern="Solid">KAKIT/LUGDU</Line>
+    <Line Pattern="Solid">GULAN/-36.797194+174.755050/-36.789406+174.662178</Line>
+    <Line Pattern="Solid">ALDEV/GULAN</Line>
+    <Line Pattern="Solid">ENSOV/GULAN</Line>
     <Line Pattern="Solid">MAMOD/MS603/MS488/MS818/MS06T</Line>
     <Line Pattern="Solid">SADUN/MS402/MS572/MS24T</Line>
     <Line Pattern="Solid">ATVOX/SADUN</Line>
@@ -853,6 +888,7 @@
     <Line Pattern="Solid">PATMO/UKDAS/TG25T</Line>
     <Line Pattern="Solid">TODAN/PATMO</Line>
     <Line Pattern="Solid">UBSET/PATMO</Line>
+    <Line Pattern="Solid">MARKO/TK401/BENVU/TK407</Line>
     <Line Pattern="Solid">WAIPA/-38.167164+175.830969/TO13T</Line>
     <Line Pattern="Solid">KARBA/WAIPA</Line>
     <Line Pattern="Solid">LALAN/WAIPA</Line>

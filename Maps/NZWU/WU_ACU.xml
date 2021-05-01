@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="11 STARs" Priority="1" CustomColourName="ProcArr" Centre="-39.959772+175.018042">
+  <Map Type="System2" Name="11 STARs" Priority="1" CustomColourName="ProcArr" Center="-39.959772+175.018042">
     <Line>
       <!--Rwy11 TENU1M-->
       TENUR/BUPKA
@@ -47,7 +47,7 @@
       <Point>DUDED</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="29 STARs" Priority="1" CustomColourName="ProcArr" Centre="-39.967169+175.030853">
+  <Map Type="System2" Name="29 STARs" Priority="1" CustomColourName="ProcArr" Center="-39.967169+175.030853">
     <Line>
       <!--Rwy29 TENU1L-->
       TENUR/ADGAT
@@ -95,84 +95,84 @@
       <Point>BASEP</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-39.962222+175.025278">
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-39.962222+175.025278">
     <Symbol Type="HollowSquare">
-      <Point>AOKAUTERE</Point>
-      <Point>ASHHURST</Point>
-      <Point>BUNNYTHORPE SUBSTATION</Point>
-      <Point>CHELTENHAM</Point>
-      <Point>COLYTON</Point>
-      <Point>FEILDING</Point>
-      <Point>FORDELL</Point>
-      <Point>HALCOMBE</Point>
-      <Point>HAUHUNGATAHI</Point>
-      <Point>HIMATANGI BEACH</Point>
-      <Point>HIWINUI</Point>
-      <Point>HOKIO BEACH</Point>
-      <Point>HUNTERVILLE</Point>
-      <Point>KAI IWI</Point>
-      <Point>KARIOI AERODROME</Point>
-      <Point>LEVIN</Point>
-      <Point>LONGBURN</Point>
-      <Point>MANAWATU RIVER MOUTH</Point>
-      <Point>MANFEILD</Point>
-      <Point>MARTON</Point>
-      <Point>MARTON RESERVOIR</Point>
-      <Point>MOUNT THOMPSON</Point>
-      <Point>OHAKUNE</Point>
-      <Point>OTAKI BEACH</Point>
-      <Point>PAHIATUA</Point>
-      <Point>PAPANUI JUNCTION</Point>
-      <Point>RAETIHI</Point>
-      <Point>RANGIOTU</Point>
-      <Point>RAUMAI</Point>
-      <Point>TAIHAPE</Point>
-      <Point>TANGIMOANA</Point>
-      <Point>TE ARAKURA</Point>
-      <Point>TOKOMARU</Point>
-      <Point>UNIVERSITY</Point>
-      <Point>WHAKAPAPA SKIFIELD</Point>
-      <Point>WHANGAEHU RIVER MOUTH</Point>
-      <Point>WOODVILLE</Point>
+      <Point Name="AOKAUTERE">-402154.400+1753949.800</Point>
+      <Point Name="ASHHURST">-401719.000+1754518.500</Point>
+      <Point Name="BUNNYTHORPE SUBSTATION">-401649.800+1753816.600</Point>
+      <Point Name="CHELTENHAM">-400817.500+1753938.200</Point>
+      <Point Name="COLYTON">-401334.000+1753849.400</Point>
+      <Point Name="FEILDING">-401145.500+1753415.000</Point>
+      <Point Name="FORDELL">-395737.700+1751215.600</Point>
+      <Point Name="HALCOMBE">-400852.900+1752942.400</Point>
+      <Point Name="HAUHUNGATAHI">-391345.700+1752638.700</Point>
+      <Point Name="HIMATANGI BEACH">-402223.800+1751340.600</Point>
+      <Point Name="HIWINUI">-401615.000+1754208.000</Point>
+      <Point Name="HOKIO BEACH">-403541.500+1751125.200</Point>
+      <Point Name="HUNTERVILLE">-395611.700+1753408.900</Point>
+      <Point Name="KAI IWI">-395050.700+1745532.600</Point>
+      <Point Name="KARIOI AERODROME">-392829.700+1753324.700</Point>
+      <Point Name="LEVIN">-403718.100+1751712.000</Point>
+      <Point Name="LONGBURN">-402304.600+1753227.200</Point>
+      <Point Name="MANAWATU RIVER MOUTH">-402836.900+1751255.100</Point>
+      <Point Name="MANFEILD">-401430.800+1753342.600</Point>
+      <Point Name="MARTON">-400501.800+1752320.200</Point>
+      <Point Name="MARTON RESERVOIR">-395946.400+1752327.400</Point>
+      <Point Name="MOUNT THOMPSON">-404545.800+1751503.600</Point>
+      <Point Name="OHAKUNE">-392439.900+1752428.700</Point>
+      <Point Name="OTAKI BEACH">-404422.300+1750658.700</Point>
+      <Point Name="PAHIATUA">-402712.300+1755026.900</Point>
+      <Point Name="PAPANUI JUNCTION">-394037.700+1753254.600</Point>
+      <Point Name="RAETIHI">-392539.800+1751654.900</Point>
+      <Point Name="RANGIOTU">-402521.300+1752641.500</Point>
+      <Point Name="RAUMAI">-401143.700+1751308.600</Point>
+      <Point Name="TAIHAPE">-394036.000+1754754.600</Point>
+      <Point Name="TANGIMOANA">-401746.100+1751452.100</Point>
+      <Point Name="TE ARAKURA">-401644.500+1753315.900</Point>
+      <Point Name="TOKOMARU">-402829.000+1753035.200</Point>
+      <Point Name="UNIVERSITY">-402307.200+1753706.500</Point>
+      <Point Name="WHAKAPAPA SKIFIELD">-391428.700+1753325.700</Point>
+      <Point Name="WHANGAEHU RIVER MOUTH">-400224.100+1750553.400</Point>
+      <Point Name="WOODVILLE">-402013.200+1755159.600</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>AOKAUTERE</Point>
-      <Point>ASHHURST</Point>
-      <Point>BUNNYTHORPE SUBSTATION</Point>
-      <Point>CHELTENHAM</Point>
-      <Point>COLYTON</Point>
-      <Point>FEILDING</Point>
-      <Point>FORDELL</Point>
-      <Point>HALCOMBE</Point>
-      <Point>HAUHUNGATAHI</Point>
-      <Point>HIMATANGI BEACH</Point>
-      <Point>HIWINUI</Point>
-      <Point>HOKIO BEACH</Point>
-      <Point>HUNTERVILLE</Point>
-      <Point>KAI IWI</Point>
-      <Point>KARIOI AERODROME</Point>
-      <Point>LEVIN</Point>
-      <Point>LONGBURN</Point>
-      <Point>MANAWATU RIVER MOUTH</Point>
-      <Point>MANFEILD</Point>
-      <Point>MARTON</Point>
-      <Point>MARTON RESERVOIR</Point>
-      <Point>MOUNT THOMPSON</Point>
-      <Point>OHAKUNE</Point>
-      <Point>OTAKI BEACH</Point>
-      <Point>PAHIATUA</Point>
-      <Point>PAPANUI JUNCTION</Point>
-      <Point>RAETIHI</Point>
-      <Point>RANGIOTU</Point>
-      <Point>RAUMAI</Point>
-      <Point>TAIHAPE</Point>
-      <Point>TANGIMOANA</Point>
-      <Point>TE ARAKURA</Point>
-      <Point>TOKOMARU</Point>
-      <Point>UNIVERSITY</Point>
-      <Point>WHAKAPAPA SKIFIELD</Point>
-      <Point>WHANGAEHU RIVER MOUTH</Point>
-      <Point>WOODVILLE</Point>
+      <Point Name="AOKAUTERE">-402154.400+1753949.800</Point>
+      <Point Name="ASHHURST">-401719.000+1754518.500</Point>
+      <Point Name="BUNNYTHORPE SUBSTATION">-401649.800+1753816.600</Point>
+      <Point Name="CHELTENHAM">-400817.500+1753938.200</Point>
+      <Point Name="COLYTON">-401334.000+1753849.400</Point>
+      <Point Name="FEILDING">-401145.500+1753415.000</Point>
+      <Point Name="FORDELL">-395737.700+1751215.600</Point>
+      <Point Name="HALCOMBE">-400852.900+1752942.400</Point>
+      <Point Name="HAUHUNGATAHI">-391345.700+1752638.700</Point>
+      <Point Name="HIMATANGI BEACH">-402223.800+1751340.600</Point>
+      <Point Name="HIWINUI">-401615.000+1754208.000</Point>
+      <Point Name="HOKIO BEACH">-403541.500+1751125.200</Point>
+      <Point Name="HUNTERVILLE">-395611.700+1753408.900</Point>
+      <Point Name="KAI IWI">-395050.700+1745532.600</Point>
+      <Point Name="KARIOI AERODROME">-392829.700+1753324.700</Point>
+      <Point Name="LEVIN">-403718.100+1751712.000</Point>
+      <Point Name="LONGBURN">-402304.600+1753227.200</Point>
+      <Point Name="MANAWATU RIVER MOUTH">-402836.900+1751255.100</Point>
+      <Point Name="MANFEILD">-401430.800+1753342.600</Point>
+      <Point Name="MARTON">-400501.800+1752320.200</Point>
+      <Point Name="MARTON RESERVOIR">-395946.400+1752327.400</Point>
+      <Point Name="MOUNT THOMPSON">-404545.800+1751503.600</Point>
+      <Point Name="OHAKUNE">-392439.900+1752428.700</Point>
+      <Point Name="OTAKI BEACH">-404422.300+1750658.700</Point>
+      <Point Name="PAHIATUA">-402712.300+1755026.900</Point>
+      <Point Name="PAPANUI JUNCTION">-394037.700+1753254.600</Point>
+      <Point Name="RAETIHI">-392539.800+1751654.900</Point>
+      <Point Name="RANGIOTU">-402521.300+1752641.500</Point>
+      <Point Name="RAUMAI">-401143.700+1751308.600</Point>
+      <Point Name="TAIHAPE">-394036.000+1754754.600</Point>
+      <Point Name="TANGIMOANA">-401746.100+1751452.100</Point>
+      <Point Name="TE ARAKURA">-401644.500+1753315.900</Point>
+      <Point Name="TOKOMARU">-402829.000+1753035.200</Point>
+      <Point Name="UNIVERSITY">-402307.200+1753706.500</Point>
+      <Point Name="WHAKAPAPA SKIFIELD">-391428.700+1753325.700</Point>
+      <Point Name="WHANGAEHU RIVER MOUTH">-400224.100+1750553.400</Point>
+      <Point Name="WOODVILLE">-402013.200+1755159.600</Point>
     </Label>
   </Map>
 </Maps>
