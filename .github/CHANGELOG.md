@@ -127,9 +127,9 @@ No recorded changes.
 
 #### Major Feature Update #1
 
-* All aerodromes in the NZ Domestic FIR have been added;
-* All aerodrome procedurs have been added. This includes SIDs, STARs, RNP and GNSS approaches;
-* All ATS Routes have been added;
+* All aerodromes in the NZ Domestic FIR have been added.
+* All aerodrome procedurs have been added. This includes SIDs, STARs, RNP and GNSS approaches.
+* All ATS Routes have been added.
 * All VRPs have been added, alongwith VFR arrivals and departures.
 
 ### Revision B
@@ -143,6 +143,9 @@ Hot fixes for the Anzac Day event.
 
 ### Revision A (Initial)
 
-* The following aerodrome procedures have been added: Glentanner (NZGT), Alexandra (NZLX), Manapouri/Te Anau (NZMO), Takaka (NZTK) and Whitianga (NZWT).
-* As a part of this, some procedural fixes have been added.
+* The following aerodrome procedures have been added: Glentanner (NZGT), Alexandra (NZLX), Manapouri/Te Anau (NZMO), Takaka (NZTK) and Whitianga (NZWT). As a part of this, some procedural fixes have been added.
+  
+* Addition of Paraparaumu and Milford FIS as positions. As defined in the Airspace section of the VATNZ website, these are Events Only positions.
+
+* Removal of Dunedin Ground and Delivery positions.
 
