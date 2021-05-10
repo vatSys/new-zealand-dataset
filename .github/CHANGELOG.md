@@ -149,3 +149,5 @@ Hot fixes for the Anzac Day event.
 
 * Removal of Dunedin Ground and Delivery positions.
 
+* Addition of updated `Performance.xml`, which includes aircraft type information (speeds, climb and descent rates). 
+
