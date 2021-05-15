@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="17 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-38.746789+176.082844">
+  <Map Type="System2" Name="17 SIDs" Priority="1" CustomColourName="ProcDep" Center="-38.746789+176.082844">
     <Line Pattern="Dashed">
       <!--Rwy17 MINEK2-->
       -38.746789+176.082844/-38.769722+176.067778/MINEK
@@ -64,7 +64,7 @@
       <Point>TM NDB</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="17 STARs" Priority="1" CustomColourName="ProcArr" Centre="-38.734717+176.086950">
+  <Map Type="System2" Name="17 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.734717+176.086950">
     <Line>
       <!--Rwy17 GOST2A-->
       GOSTI/GUSAG/KALGO
@@ -122,7 +122,7 @@
       <Point>AP706</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="35 STARs" Priority="1" CustomColourName="ProcArr" Centre="-38.746789+176.082844">
+  <Map Type="System2" Name="35 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.746789+176.082844">
     <Line>
       <!--Rwy35 GOST2B-->
       GOSTI/GUSAG/EMSAR
@@ -182,98 +182,98 @@
       <Point>AP506</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-38.739722+176.084444">
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-38.739722+176.084444">
     <Symbol Type="HollowSquare">
-      <Point>BOAT HARBOUR</Point>
-      <Point>GREEN LAKE</Point>
-      <Point>HAMURANA</Point>
-      <Point>HAPARANGI</Point>
-      <Point>HATEPE</Point>
-      <Point>HAUHUNGATAHI</Point>
-      <Point>HINEHOPU</Point>
-      <Point>HUKA FALLS</Point>
-      <Point>KAHAROA</Point>
-      <Point>KAINGAROA</Point>
-      <Point>KARANGAHAPE</Point>
-      <Point>KAWAHA POINT</Point>
-      <Point>KAWERAU VILLAGE</Point>
-      <Point>KETETAHI HOT SPRINGS</Point>
-      <Point>KINLOCH</Point>
-      <Point>LAKE ROTOAIRA</Point>
-      <Point>LAKE ROTOKAWA</Point>
-      <Point>LAKE ROTOKAWAU</Point>
-      <Point>LOWER TAMA LAKE</Point>
-      <Point>MAMAKU</Point>
-      <Point>MISSION BAY</Point>
-      <Point>MOKOIA ISLAND</Point>
-      <Point>MOTUTAIKO ISLAND</Point>
-      <Point>MOUNT TARAWERA</Point>
-      <Point>MOUNT TAUHARA</Point>
-      <Point>NGAKURU</Point>
-      <Point>NGONGOTAHA</Point>
-      <Point>PATOKA</Point>
-      <Point>PUKEPOTO</Point>
-      <Point>RANGATIRA POINT</Point>
-      <Point>SANDFLY HILL</Point>
-      <Point>SOUTHERN DAM</Point>
-      <Point>TE POHUE</Point>
-      <Point>TIRAU</Point>
-      <Point>TOKOROA</Point>
-      <Point>TUTIRA</Point>
-      <Point>UPPER TAMA LAKE</Point>
-      <Point>WAIPA SAWMILL</Point>
-      <Point>WAIRAKEI</Point>
-      <Point>WAIRANGO</Point>
-      <Point>WHAKAIPO BAY</Point>
-      <Point>WHAKAPAPA SKIFIELD</Point>
-      <Point>WHAKAPAPA VILLAGE</Point>
-      <Point>WHITE CLIFFS</Point>
+      <Point Name="BOAT HARBOUR">-384112.600+1760351.700</Point>
+      <Point Name="GREEN LAKE">-381230.600+1762043.700</Point>
+      <Point Name="HAMURANA">-380200.000+1761518.200</Point>
+      <Point Name="HAPARANGI">-381417.100+1761207.200</Point>
+      <Point Name="HATEPE">-385108.700+1760041.700</Point>
+      <Point Name="HAUHUNGATAHI">-391345.700+1752638.700</Point>
+      <Point Name="HINEHOPU">-380220.000+1762919.000</Point>
+      <Point Name="HUKA FALLS">-383857.600+1760521.700</Point>
+      <Point Name="KAHAROA">-375937.600+1761413.700</Point>
+      <Point Name="KAINGAROA">-382430.600+1763356.500</Point>
+      <Point Name="KARANGAHAPE">-384742.700+1754801.700</Point>
+      <Point Name="KAWAHA POINT">-380619.000+1761447.000</Point>
+      <Point Name="KAWERAU VILLAGE">-380509.600+1764234.700</Point>
+      <Point Name="KETETAHI HOT SPRINGS">-390625.700+1753854.700</Point>
+      <Point Name="KINLOCH">-383948.600+1755512.700</Point>
+      <Point Name="LAKE ROTOAIRA">-390353.700+1754300.700</Point>
+      <Point Name="LAKE ROTOKAWA">-383753.600+1761113.700</Point>
+      <Point Name="LAKE ROTOKAWAU">-380409.000+1762221.000</Point>
+      <Point Name="LOWER TAMA LAKE">-391202.700+1753627.700</Point>
+      <Point Name="MAMAKU">-380544.600+1760441.700</Point>
+      <Point Name="MISSION BAY">-385418.700+1755545.700</Point>
+      <Point Name="MOKOIA ISLAND">-380450.000+1761709.000</Point>
+      <Point Name="MOTUTAIKO ISLAND">-385113.700+1755633.700</Point>
+      <Point Name="MOUNT TARAWERA">-381323.600+1763106.700</Point>
+      <Point Name="MOUNT TAUHARA">-384138.300+1760948.000</Point>
+      <Point Name="NGAKURU">-381915.600+1761135.700</Point>
+      <Point Name="NGONGOTAHA">-380446.500+1761249.300</Point>
+      <Point Name="PATOKA">-392047.700+1763616.700</Point>
+      <Point Name="PUKEPOTO">-380813.000+1762123.100</Point>
+      <Point Name="RANGATIRA POINT">-384417.600+1760100.700</Point>
+      <Point Name="SANDFLY HILL">-384408.600+1760738.700</Point>
+      <Point Name="SOUTHERN DAM">-385325.600+1760534.100</Point>
+      <Point Name="TE POHUE">-391500.700+1764056.700</Point>
+      <Point Name="TIRAU">-375848.000+1754536.000</Point>
+      <Point Name="TOKOROA">-381411.600+1755330.700</Point>
+      <Point Name="TUTIRA">-391326.900+1765334.700</Point>
+      <Point Name="UPPER TAMA LAKE">-391108.700+1753717.700</Point>
+      <Point Name="WAIPA SAWMILL">-381046.200+1761600.900</Point>
+      <Point Name="WAIRAKEI">-383735.600+1760619.700</Point>
+      <Point Name="WAIRANGO">-385321.700+1761537.700</Point>
+      <Point Name="WHAKAIPO BAY">-384117.600+1755753.700</Point>
+      <Point Name="WHAKAPAPA SKIFIELD">-391428.700+1753325.700</Point>
+      <Point Name="WHAKAPAPA VILLAGE">-391202.700+1753219.700</Point>
+      <Point Name="WHITE CLIFFS">-384921.700+1760212.700</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>BOAT HARBOUR</Point>
-      <Point>GREEN LAKE</Point>
-      <Point>HAMURANA</Point>
-      <Point>HAPARANGI</Point>
-      <Point>HATEPE</Point>
-      <Point>HAUHUNGATAHI</Point>
-      <Point>HINEHOPU</Point>
-      <Point>HUKA FALLS</Point>
-      <Point>KAHAROA</Point>
-      <Point>KAINGAROA</Point>
-      <Point>KARANGAHAPE</Point>
-      <Point>KAWAHA POINT</Point>
-      <Point>KAWERAU VILLAGE</Point>
-      <Point>KETETAHI HOT SPRINGS</Point>
-      <Point>KINLOCH</Point>
-      <Point>LAKE ROTOAIRA</Point>
-      <Point>LAKE ROTOKAWA</Point>
-      <Point>LAKE ROTOKAWAU</Point>
-      <Point>LOWER TAMA LAKE</Point>
-      <Point>MAMAKU</Point>
-      <Point>MISSION BAY</Point>
-      <Point>MOKOIA ISLAND</Point>
-      <Point>MOTUTAIKO ISLAND</Point>
-      <Point>MOUNT TARAWERA</Point>
-      <Point>MOUNT TAUHARA</Point>
-      <Point>NGAKURU</Point>
-      <Point>NGONGOTAHA</Point>
-      <Point>PATOKA</Point>
-      <Point>PUKEPOTO</Point>
-      <Point>RANGATIRA POINT</Point>
-      <Point>SANDFLY HILL</Point>
-      <Point>SOUTHERN DAM</Point>
-      <Point>TE POHUE</Point>
-      <Point>TIRAU</Point>
-      <Point>TOKOROA</Point>
-      <Point>TUTIRA</Point>
-      <Point>UPPER TAMA LAKE</Point>
-      <Point>WAIPA SAWMILL</Point>
-      <Point>WAIRAKEI</Point>
-      <Point>WAIRANGO</Point>
-      <Point>WHAKAIPO BAY</Point>
-      <Point>WHAKAPAPA SKIFIELD</Point>
-      <Point>WHAKAPAPA VILLAGE</Point>
-      <Point>WHITE CLIFFS</Point>
+      <Point Name="BOAT HARBOUR">-384112.600+1760351.700</Point>
+      <Point Name="GREEN LAKE">-381230.600+1762043.700</Point>
+      <Point Name="HAMURANA">-380200.000+1761518.200</Point>
+      <Point Name="HAPARANGI">-381417.100+1761207.200</Point>
+      <Point Name="HATEPE">-385108.700+1760041.700</Point>
+      <Point Name="HAUHUNGATAHI">-391345.700+1752638.700</Point>
+      <Point Name="HINEHOPU">-380220.000+1762919.000</Point>
+      <Point Name="HUKA FALLS">-383857.600+1760521.700</Point>
+      <Point Name="KAHAROA">-375937.600+1761413.700</Point>
+      <Point Name="KAINGAROA">-382430.600+1763356.500</Point>
+      <Point Name="KARANGAHAPE">-384742.700+1754801.700</Point>
+      <Point Name="KAWAHA POINT">-380619.000+1761447.000</Point>
+      <Point Name="KAWERAU VILLAGE">-380509.600+1764234.700</Point>
+      <Point Name="KETETAHI HOT SPRINGS">-390625.700+1753854.700</Point>
+      <Point Name="KINLOCH">-383948.600+1755512.700</Point>
+      <Point Name="LAKE ROTOAIRA">-390353.700+1754300.700</Point>
+      <Point Name="LAKE ROTOKAWA">-383753.600+1761113.700</Point>
+      <Point Name="LAKE ROTOKAWAU">-380409.000+1762221.000</Point>
+      <Point Name="LOWER TAMA LAKE">-391202.700+1753627.700</Point>
+      <Point Name="MAMAKU">-380544.600+1760441.700</Point>
+      <Point Name="MISSION BAY">-385418.700+1755545.700</Point>
+      <Point Name="MOKOIA ISLAND">-380450.000+1761709.000</Point>
+      <Point Name="MOTUTAIKO ISLAND">-385113.700+1755633.700</Point>
+      <Point Name="MOUNT TARAWERA">-381323.600+1763106.700</Point>
+      <Point Name="MOUNT TAUHARA">-384138.300+1760948.000</Point>
+      <Point Name="NGAKURU">-381915.600+1761135.700</Point>
+      <Point Name="NGONGOTAHA">-380446.500+1761249.300</Point>
+      <Point Name="PATOKA">-392047.700+1763616.700</Point>
+      <Point Name="PUKEPOTO">-380813.000+1762123.100</Point>
+      <Point Name="RANGATIRA POINT">-384417.600+1760100.700</Point>
+      <Point Name="SANDFLY HILL">-384408.600+1760738.700</Point>
+      <Point Name="SOUTHERN DAM">-385325.600+1760534.100</Point>
+      <Point Name="TE POHUE">-391500.700+1764056.700</Point>
+      <Point Name="TIRAU">-375848.000+1754536.000</Point>
+      <Point Name="TOKOROA">-381411.600+1755330.700</Point>
+      <Point Name="TUTIRA">-391326.900+1765334.700</Point>
+      <Point Name="UPPER TAMA LAKE">-391108.700+1753717.700</Point>
+      <Point Name="WAIPA SAWMILL">-381046.200+1761600.900</Point>
+      <Point Name="WAIRAKEI">-383735.600+1760619.700</Point>
+      <Point Name="WAIRANGO">-385321.700+1761537.700</Point>
+      <Point Name="WHAKAIPO BAY">-384117.600+1755753.700</Point>
+      <Point Name="WHAKAPAPA SKIFIELD">-391428.700+1753325.700</Point>
+      <Point Name="WHAKAPAPA VILLAGE">-391202.700+1753219.700</Point>
+      <Point Name="WHITE CLIFFS">-384921.700+1760212.700</Point>
     </Label>
   </Map>
 </Maps>

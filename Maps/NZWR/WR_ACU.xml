@@ -87,36 +87,36 @@
       <Point>BIRAX</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-35.768333+174.365000">
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-35.768333+174.365000">
     <Symbol Type="HollowSquare">
-      <Point>BREAMTAIL HEAD</Point>
-      <Point>CAPE RODNEY</Point>
-      <Point>HOLE IN THE ROCK</Point>
-      <Point>LOOKOUT HILL</Point>
-      <Point>MANGAWHAI HEADS</Point>
-      <Point>MAUNGATUROTO</Point>
-      <Point>ONE TREE POINT</Point>
-      <Point>PAIHIA WATERFRONT</Point>
-      <Point>PORTLAND</Point>
-      <Point>PUKETONA QUARRY</Point>
-      <Point>TAPEKA POINT</Point>
-      <Point>WARKWORTH</Point>
-      <Point>WELLSFORD</Point>
+      <Point Name="BREAMTAIL HEAD">-360253.500+1743500.700</Point>
+      <Point Name="CAPE RODNEY">-361653.500+1744900.700</Point>
+      <Point Name="HOLE IN THE ROCK">-350953.100+1742028.100</Point>
+      <Point Name="LOOKOUT HILL">-354629.100+1741742.100</Point>
+      <Point Name="MANGAWHAI HEADS">-360523.500+1743500.700</Point>
+      <Point Name="MAUNGATUROTO">-360653.500+1742100.600</Point>
+      <Point Name="ONE TREE POINT">-354905.500+1742713.500</Point>
+      <Point Name="PAIHIA WATERFRONT">-351651.600+1740533.000</Point>
+      <Point Name="PORTLAND">-354823.000+1741958.000</Point>
+      <Point Name="PUKETONA QUARRY">-351803.000+1735904.000</Point>
+      <Point Name="TAPEKA POINT">-351430.800+1740710.900</Point>
+      <Point Name="WARKWORTH">-362402.100+1743949.300</Point>
+      <Point Name="WELLSFORD">-361745.900+1743123.600</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>BREAMTAIL HEAD</Point>
-      <Point>CAPE RODNEY</Point>
-      <Point>HOLE IN THE ROCK</Point>
-      <Point>LOOKOUT HILL</Point>
-      <Point>MANGAWHAI HEADS</Point>
-      <Point>MAUNGATUROTO</Point>
-      <Point>ONE TREE POINT</Point>
-      <Point>PAIHIA WATERFRONT</Point>
-      <Point>PORTLAND</Point>
-      <Point>PUKETONA QUARRY</Point>
-      <Point>TAPEKA POINT</Point>
-      <Point>WARKWORTH</Point>
-      <Point>WELLSFORD</Point>
+      <Point Name="BREAMTAIL HEAD">-360253.500+1743500.700</Point>
+      <Point Name="CAPE RODNEY">-361653.500+1744900.700</Point>
+      <Point Name="HOLE IN THE ROCK">-350953.100+1742028.100</Point>
+      <Point Name="LOOKOUT HILL">-354629.100+1741742.100</Point>
+      <Point Name="MANGAWHAI HEADS">-360523.500+1743500.700</Point>
+      <Point Name="MAUNGATUROTO">-360653.500+1742100.600</Point>
+      <Point Name="ONE TREE POINT">-354905.500+1742713.500</Point>
+      <Point Name="PAIHIA WATERFRONT">-351651.600+1740533.000</Point>
+      <Point Name="PORTLAND">-354823.000+1741958.000</Point>
+      <Point Name="PUKETONA QUARRY">-351803.000+1735904.000</Point>
+      <Point Name="TAPEKA POINT">-351430.800+1740710.900</Point>
+      <Point Name="WARKWORTH">-362402.100+1743949.300</Point>
+      <Point Name="WELLSFORD">-361745.900+1743123.600</Point>
     </Label>
   </Map>
 </Maps>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="03 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-37.027044+174.979333">
+  <Map Type="System2" Name="03 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.027044+174.979333">
     <Line Pattern="Dashed">
       <!--Rwy03 PATG2Q-->
       -37.027044+174.979333/PATGA
@@ -69,7 +69,7 @@
       <Point>KINGS</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="21 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-37.034575+174.969758">
+  <Map Type="System2" Name="21 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.034575+174.969758">
     <Line Pattern="Dashed">
       <!--Rwy21 ADNO2P-->
       -37.034575+174.969758/ADNOG
@@ -144,7 +144,7 @@
       <Point>ORERE</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="07 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-37.029709+174.976700">
+  <Map Type="System2" Name="07 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.029709+174.976700">
     <Line Pattern="Dashed">
       <!--Rwy07 SY1R-->
       -37.029709+174.976700/HUNUA/SY NDB
@@ -159,7 +159,7 @@
       <Point>SY NDB</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="25 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-37.029709+174.969955">
+  <Map Type="System2" Name="25 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.029709+174.969955">
     <Line Pattern="Dashed">
       <!--Rwy25 SY1R-->
       -37.029709+174.969955/HUNUA/SY NDB
@@ -174,146 +174,146 @@
       <Point>SY NDB</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-37.029722+174.973333">
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-37.029722+174.973333">
     <Symbol Type="HollowSquare">
-      <Point>AVONDALE RACECOURSE</Point>
-      <Point>BLOCKHOUSE BAY</Point>
-      <Point>BROOKBY</Point>
-      <Point>CABLEWAY</Point>
-      <Point>CAPE RODNEY</Point>
-      <Point>CLARKS BEACH</Point>
-      <Point>CLENDON PARK</Point>
-      <Point>CLEVEDON</Point>
-      <Point>CORNWALLIS</Point>
-      <Point>COROMANDEL TOWN</Point>
-      <Point>DRURY</Point>
-      <Point>GLENBROOK</Point>
-      <Point>GORDONTON</Point>
-      <Point>GREEN SHED</Point>
-      <Point>HAMILTON LAKE</Point>
-      <Point>HELENSVILLE</Point>
-      <Point>HINGAIA BRIDGE</Point>
-      <Point>HOROTIU</Point>
-      <Point>HOTEL DU VIN</Point>
-      <Point>HOWICK</Point>
-      <Point>HUNTLY</Point>
-      <Point>HUNUA</Point>
-      <Point>KARAKA</Point>
-      <Point>KAWAKAWA BAY</Point>
-      <Point>KINGSEAT</Point>
-      <Point>LAKE PUPUKE</Point>
-      <Point>LAKE WAIKARE</Point>
-      <Point>LPG TERMINAL</Point>
-      <Point>MANGERE BRIDGE</Point>
-      <Point>MANGERE TOWN</Point>
-      <Point>MANUKAU HEADS</Point>
-      <Point>MARAMARUA</Point>
-      <Point>MCLAUGHLINS MOUNTAIN</Point>
-      <Point>MEREMERE</Point>
-      <Point>MORRINSVILLE</Point>
-      <Point>MUSICK POINT</Point>
-      <Point>NESS VALLEY</Point>
-      <Point>NGATEA</Point>
-      <Point>NORTH HEAD</Point>
-      <Point>OKURA RIVER MOUTH</Point>
-      <Point>ONE TREE HILL</Point>
-      <Point>OREWA</Point>
-      <Point>PAEROA</Point>
-      <Point>PAKURANGA TOWN</Point>
-      <Point>PANMURE</Point>
-      <Point>PAPAKURA</Point>
-      <Point>POINT CHEVALIER</Point>
-      <Point>PUKETUTU ISLAND</Point>
-      <Point>QUARRY LAKE</Point>
-      <Point>RED HILL</Point>
-      <Point>SEAGROVE</Point>
-      <Point>SHOWGROUNDS</Point>
-      <Point>ST HELIERS</Point>
-      <Point>TAIHIKI RIVER ESTUARY</Point>
-      <Point>TAPU</Point>
-      <Point>TE ATATU</Point>
-      <Point>TE RAPA</Point>
-      <Point>TEMPLE VIEW</Point>
-      <Point>WAIMAUKU</Point>
-      <Point>WAIROA RIVER MOUTH</Point>
-      <Point>WAITAKERE</Point>
-      <Point>WAITOA</Point>
-      <Point>WARKWORTH</Point>
-      <Point>WATERWORKS</Point>
-      <Point>WELLSFORD</Point>
-      <Point>WEYMOUTH</Point>
-      <Point>WHANGAMATA</Point>
-      <Point>WHITFORD TOWN</Point>
+      <Point Name="AVONDALE RACECOURSE">-365353.500+1744124.600</Point>
+      <Point Name="BLOCKHOUSE BAY">-365533.600+1744224.700</Point>
+      <Point Name="BROOKBY">-365911.800+1745938.600</Point>
+      <Point Name="CABLEWAY">-371730.000+1750738.900</Point>
+      <Point Name="CAPE RODNEY">-361653.500+1744900.700</Point>
+      <Point Name="CLARKS BEACH">-370808.100+1744151.400</Point>
+      <Point Name="CLENDON PARK">-370145.500+1745113.700</Point>
+      <Point Name="CLEVEDON">-365929.200+1750214.700</Point>
+      <Point Name="CORNWALLIS">-370042.200+1743618.500</Point>
+      <Point Name="COROMANDEL TOWN">-364520.500+1753003.000</Point>
+      <Point Name="DRURY">-370613.500+1745649.700</Point>
+      <Point Name="GLENBROOK">-371223.500+1744346.600</Point>
+      <Point Name="GORDONTON">-374013.400+1751818.200</Point>
+      <Point Name="GREEN SHED">-371327.000+1750152.000</Point>
+      <Point Name="HAMILTON LAKE">-374754.580+1751625.520</Point>
+      <Point Name="HELENSVILLE">-364025.300+1742700.200</Point>
+      <Point Name="HINGAIA BRIDGE">-370510.400+1745427.200</Point>
+      <Point Name="HOROTIU">-374155.160+1751144.690</Point>
+      <Point Name="HOTEL DU VIN">-371124.100+1750849.400</Point>
+      <Point Name="HOWICK">-365241.500+1745529.700</Point>
+      <Point Name="HUNTLY">-373343.000+1750930.500</Point>
+      <Point Name="HUNUA">-370442.300+1750414.800</Point>
+      <Point Name="KARAKA">-370437.500+1745541.700</Point>
+      <Point Name="KAWAKAWA BAY">-365653.400+1751009.200</Point>
+      <Point Name="KINGSEAT">-370748.800+1744800.500</Point>
+      <Point Name="LAKE PUPUKE">-364650.500+1744557.400</Point>
+      <Point Name="LAKE WAIKARE">-372608.100+1751156.400</Point>
+      <Point Name="LPG TERMINAL">-370212.520+1744941.310</Point>
+      <Point Name="MANGERE BRIDGE">-365602.500+1744718.500</Point>
+      <Point Name="MANGERE TOWN">-365812.500+1744753.700</Point>
+      <Point Name="MANUKAU HEADS">-370319.500+1743121.600</Point>
+      <Point Name="MARAMARUA">-371511.300+1751405.800</Point>
+      <Point Name="MCLAUGHLINS MOUNTAIN">-370047.100+1745044.300</Point>
+      <Point Name="MEREMERE">-371932.900+1750400.300</Point>
+      <Point Name="MORRINSVILLE">-373928.800+1753140.300</Point>
+      <Point Name="MUSICK POINT">-365047.500+1745406.700</Point>
+      <Point Name="NESS VALLEY">-365939.540+1750732.280</Point>
+      <Point Name="NGATEA">-371634.000+1752940.700</Point>
+      <Point Name="NORTH HEAD">-364944.700+1744846.700</Point>
+      <Point Name="OKURA RIVER MOUTH">-363938.600+1744437.700</Point>
+      <Point Name="ONE TREE HILL">-365400.300+1744659.100</Point>
+      <Point Name="OREWA">-363600.300+1744149.600</Point>
+      <Point Name="PAEROA">-372240.800+1754012.000</Point>
+      <Point Name="PAKURANGA TOWN">-365440.500+1745209.700</Point>
+      <Point Name="PANMURE">-365444.100+1745130.000</Point>
+      <Point Name="PAPAKURA">-370403.500+1745649.700</Point>
+      <Point Name="POINT CHEVALIER">-365104.000+1744212.700</Point>
+      <Point Name="PUKETUTU ISLAND">-365750.500+1744429.600</Point>
+      <Point Name="QUARRY LAKE">-371607.000+1750959.500</Point>
+      <Point Name="RED HILL">-370402.000+1745857.000</Point>
+      <Point Name="SEAGROVE">-370540.500+1744647.600</Point>
+      <Point Name="SHOWGROUNDS">-374633.500+1751720.900</Point>
+      <Point Name="ST HELIERS">-365035.500+1745150.700</Point>
+      <Point Name="TAIHIKI RIVER ESTUARY">-370955.500+1744728.600</Point>
+      <Point Name="TAPU">-365858.500+1753006.400</Point>
+      <Point Name="TE ATATU">-364929.500+1743857.600</Point>
+      <Point Name="TE RAPA">-374553.600+1751438.700</Point>
+      <Point Name="TEMPLE VIEW">-374916.300+1751336.000</Point>
+      <Point Name="WAIMAUKU">-364546.500+1742931.600</Point>
+      <Point Name="WAIROA RIVER MOUTH">-365715.000+1750430.000</Point>
+      <Point Name="WAITAKERE">-365356.500+1743147.600</Point>
+      <Point Name="WAITOA">-373554.700+1753754.200</Point>
+      <Point Name="WARKWORTH">-362402.100+1743949.300</Point>
+      <Point Name="WATERWORKS">-370234.500+1750122.700</Point>
+      <Point Name="WELLSFORD">-361745.900+1743123.600</Point>
+      <Point Name="WEYMOUTH">-370254.500+1745143.700</Point>
+      <Point Name="WHANGAMATA">-371253.500+1755230.700</Point>
+      <Point Name="WHITFORD TOWN">-365643.500+1745749.700</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>AVONDALE RACECOURSE</Point>
-      <Point>BLOCKHOUSE BAY</Point>
-      <Point>BROOKBY</Point>
-      <Point>CABLEWAY</Point>
-      <Point>CAPE RODNEY</Point>
-      <Point>CLARKS BEACH</Point>
-      <Point>CLENDON PARK</Point>
-      <Point>CLEVEDON</Point>
-      <Point>CORNWALLIS</Point>
-      <Point>COROMANDEL TOWN</Point>
-      <Point>DRURY</Point>
-      <Point>GLENBROOK</Point>
-      <Point>GORDONTON</Point>
-      <Point>GREEN SHED</Point>
-      <Point>HAMILTON LAKE</Point>
-      <Point>HELENSVILLE</Point>
-      <Point>HINGAIA BRIDGE</Point>
-      <Point>HOROTIU</Point>
-      <Point>HOTEL DU VIN</Point>
-      <Point>HOWICK</Point>
-      <Point>HUNTLY</Point>
-      <Point>HUNUA</Point>
-      <Point>KARAKA</Point>
-      <Point>KAWAKAWA BAY</Point>
-      <Point>KINGSEAT</Point>
-      <Point>LAKE PUPUKE</Point>
-      <Point>LAKE WAIKARE</Point>
-      <Point>LPG TERMINAL</Point>
-      <Point>MANGERE BRIDGE</Point>
-      <Point>MANGERE TOWN</Point>
-      <Point>MANUKAU HEADS</Point>
-      <Point>MARAMARUA</Point>
-      <Point>MCLAUGHLINS MOUNTAIN</Point>
-      <Point>MEREMERE</Point>
-      <Point>MORRINSVILLE</Point>
-      <Point>MUSICK POINT</Point>
-      <Point>NESS VALLEY</Point>
-      <Point>NGATEA</Point>
-      <Point>NORTH HEAD</Point>
-      <Point>OKURA RIVER MOUTH</Point>
-      <Point>ONE TREE HILL</Point>
-      <Point>OREWA</Point>
-      <Point>PAEROA</Point>
-      <Point>PAKURANGA TOWN</Point>
-      <Point>PANMURE</Point>
-      <Point>PAPAKURA</Point>
-      <Point>POINT CHEVALIER</Point>
-      <Point>PUKETUTU ISLAND</Point>
-      <Point>QUARRY LAKE</Point>
-      <Point>RED HILL</Point>
-      <Point>SEAGROVE</Point>
-      <Point>SHOWGROUNDS</Point>
-      <Point>ST HELIERS</Point>
-      <Point>TAIHIKI RIVER ESTUARY</Point>
-      <Point>TAPU</Point>
-      <Point>TE ATATU</Point>
-      <Point>TE RAPA</Point>
-      <Point>TEMPLE VIEW</Point>
-      <Point>WAIMAUKU</Point>
-      <Point>WAIROA RIVER MOUTH</Point>
-      <Point>WAITAKERE</Point>
-      <Point>WAITOA</Point>
-      <Point>WARKWORTH</Point>
-      <Point>WATERWORKS</Point>
-      <Point>WELLSFORD</Point>
-      <Point>WEYMOUTH</Point>
-      <Point>WHANGAMATA</Point>
-      <Point>WHITFORD TOWN</Point>
+      <Point Name="AVONDALE RACECOURSE">-365353.500+1744124.600</Point>
+      <Point Name="BLOCKHOUSE BAY">-365533.600+1744224.700</Point>
+      <Point Name="BROOKBY">-365911.800+1745938.600</Point>
+      <Point Name="CABLEWAY">-371730.000+1750738.900</Point>
+      <Point Name="CAPE RODNEY">-361653.500+1744900.700</Point>
+      <Point Name="CLARKS BEACH">-370808.100+1744151.400</Point>
+      <Point Name="CLENDON PARK">-370145.500+1745113.700</Point>
+      <Point Name="CLEVEDON">-365929.200+1750214.700</Point>
+      <Point Name="CORNWALLIS">-370042.200+1743618.500</Point>
+      <Point Name="COROMANDEL TOWN">-364520.500+1753003.000</Point>
+      <Point Name="DRURY">-370613.500+1745649.700</Point>
+      <Point Name="GLENBROOK">-371223.500+1744346.600</Point>
+      <Point Name="GORDONTON">-374013.400+1751818.200</Point>
+      <Point Name="GREEN SHED">-371327.000+1750152.000</Point>
+      <Point Name="HAMILTON LAKE">-374754.580+1751625.520</Point>
+      <Point Name="HELENSVILLE">-364025.300+1742700.200</Point>
+      <Point Name="HINGAIA BRIDGE">-370510.400+1745427.200</Point>
+      <Point Name="HOROTIU">-374155.160+1751144.690</Point>
+      <Point Name="HOTEL DU VIN">-371124.100+1750849.400</Point>
+      <Point Name="HOWICK">-365241.500+1745529.700</Point>
+      <Point Name="HUNTLY">-373343.000+1750930.500</Point>
+      <Point Name="HUNUA">-370442.300+1750414.800</Point>
+      <Point Name="KARAKA">-370437.500+1745541.700</Point>
+      <Point Name="KAWAKAWA BAY">-365653.400+1751009.200</Point>
+      <Point Name="KINGSEAT">-370748.800+1744800.500</Point>
+      <Point Name="LAKE PUPUKE">-364650.500+1744557.400</Point>
+      <Point Name="LAKE WAIKARE">-372608.100+1751156.400</Point>
+      <Point Name="LPG TERMINAL">-370212.520+1744941.310</Point>
+      <Point Name="MANGERE BRIDGE">-365602.500+1744718.500</Point>
+      <Point Name="MANGERE TOWN">-365812.500+1744753.700</Point>
+      <Point Name="MANUKAU HEADS">-370319.500+1743121.600</Point>
+      <Point Name="MARAMARUA">-371511.300+1751405.800</Point>
+      <Point Name="MCLAUGHLINS MOUNTAIN">-370047.100+1745044.300</Point>
+      <Point Name="MEREMERE">-371932.900+1750400.300</Point>
+      <Point Name="MORRINSVILLE">-373928.800+1753140.300</Point>
+      <Point Name="MUSICK POINT">-365047.500+1745406.700</Point>
+      <Point Name="NESS VALLEY">-365939.540+1750732.280</Point>
+      <Point Name="NGATEA">-371634.000+1752940.700</Point>
+      <Point Name="NORTH HEAD">-364944.700+1744846.700</Point>
+      <Point Name="OKURA RIVER MOUTH">-363938.600+1744437.700</Point>
+      <Point Name="ONE TREE HILL">-365400.300+1744659.100</Point>
+      <Point Name="OREWA">-363600.300+1744149.600</Point>
+      <Point Name="PAEROA">-372240.800+1754012.000</Point>
+      <Point Name="PAKURANGA TOWN">-365440.500+1745209.700</Point>
+      <Point Name="PANMURE">-365444.100+1745130.000</Point>
+      <Point Name="PAPAKURA">-370403.500+1745649.700</Point>
+      <Point Name="POINT CHEVALIER">-365104.000+1744212.700</Point>
+      <Point Name="PUKETUTU ISLAND">-365750.500+1744429.600</Point>
+      <Point Name="QUARRY LAKE">-371607.000+1750959.500</Point>
+      <Point Name="RED HILL">-370402.000+1745857.000</Point>
+      <Point Name="SEAGROVE">-370540.500+1744647.600</Point>
+      <Point Name="SHOWGROUNDS">-374633.500+1751720.900</Point>
+      <Point Name="ST HELIERS">-365035.500+1745150.700</Point>
+      <Point Name="TAIHIKI RIVER ESTUARY">-370955.500+1744728.600</Point>
+      <Point Name="TAPU">-365858.500+1753006.400</Point>
+      <Point Name="TE ATATU">-364929.500+1743857.600</Point>
+      <Point Name="TE RAPA">-374553.600+1751438.700</Point>
+      <Point Name="TEMPLE VIEW">-374916.300+1751336.000</Point>
+      <Point Name="WAIMAUKU">-364546.500+1742931.600</Point>
+      <Point Name="WAIROA RIVER MOUTH">-365715.000+1750430.000</Point>
+      <Point Name="WAITAKERE">-365356.500+1743147.600</Point>
+      <Point Name="WAITOA">-373554.700+1753754.200</Point>
+      <Point Name="WARKWORTH">-362402.100+1743949.300</Point>
+      <Point Name="WATERWORKS">-370234.500+1750122.700</Point>
+      <Point Name="WELLSFORD">-361745.900+1743123.600</Point>
+      <Point Name="WEYMOUTH">-370254.500+1745143.700</Point>
+      <Point Name="WHANGAMATA">-371253.500+1755230.700</Point>
+      <Point Name="WHITFORD TOWN">-365643.500+1745749.700</Point>
     </Label>
   </Map>
 </Maps>

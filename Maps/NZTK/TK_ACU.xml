@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="18 GNSS" Priority="1" Center="-40.811181+172.777531" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>MARKO</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>BENVU</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>TK401</Point>
+    </Symbol>
+    <Line Pattern="Solid">MARKO/TK401/BENVU/TK407</Line>
+  </Map>
+  <Map Type="System2" Name="18 GNSS Labels" Priority="1" Center="-40.811181+172.777531" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>MARKO</Point>
+      <Point>BENVU</Point>
+      <Point>TK401</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-40.813272+172.775142">
+    <Symbol Type="HollowSquare">
+      <Point Name="ADELE ISLAND">-405835.800+1730405.500</Point>
+      <Point Name="BOULDER">-411210.800+1731923.500</Point>
+      <Point Name="BRANFORD">-411626.300+1731744.400</Point>
+      <Point Name="BRIGHTWATER">-412235.800+1730605.500</Point>
+      <Point Name="CAPE SOUCIS">-410303.800+1733536.500</Point>
+      <Point Name="CHIP MILL">-411913.800+1730958.500</Point>
+      <Point Name="DOVEDALE">-411711.600+1725336.700</Point>
+      <Point Name="GOAT HILL">-412437.800+1731057.500</Point>
+      <Point Name="GOLDEN MILL">-413023.200+1725122.100</Point>
+      <Point Name="JACKETTS ISLAND">-410853.800+1730147.500</Point>
+      <Point Name="JENKINS HILL">-411952.800+1731646.500</Point>
+      <Point Name="KINA">-411059.800+1730351.500</Point>
+      <Point Name="MAITAI SADDLE">-411818.800+1732505.500</Point>
+      <Point Name="MAPUA">-411523.800+1730600.500</Point>
+      <Point Name="MATAI DAM">-411738.600+1732231.300</Point>
+      <Point Name="MOTUEKA">-410636.800+1730042.500</Point>
+      <Point Name="PEPIN ISLAND">-410832.800+1732532.500</Point>
+      <Point Name="RABBIT ISLAND BRIDGE">-411702.800+1730755.500</Point>
+      <Point Name="REDWOODS VALLEY">-411803.800+1730429.500</Point>
+      <Point Name="SAWMILL">-412039.800+1730448.500</Point>
+      <Point Name="TAPAWERA">-412314.600+1724924.000</Point>
+      <Point Name="UPPER MOUTERE">-411613.400+1730022.900</Point>
+      <Point Name="WAKEFIELD">-412418.800+1730245.500</Point>
+      <Point Name="WHANGAMOA SADDLE">-411306.800+1732609.500</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point Name="ADELE ISLAND">-405835.800+1730405.500</Point>
+      <Point Name="BOULDER">-411210.800+1731923.500</Point>
+      <Point Name="BRANFORD">-411626.300+1731744.400</Point>
+      <Point Name="BRIGHTWATER">-412235.800+1730605.500</Point>
+      <Point Name="CAPE SOUCIS">-410303.800+1733536.500</Point>
+      <Point Name="CHIP MILL">-411913.800+1730958.500</Point>
+      <Point Name="DOVEDALE">-411711.600+1725336.700</Point>
+      <Point Name="GOAT HILL">-412437.800+1731057.500</Point>
+      <Point Name="GOLDEN MILL">-413023.200+1725122.100</Point>
+      <Point Name="JACKETTS ISLAND">-410853.800+1730147.500</Point>
+      <Point Name="JENKINS HILL">-411952.800+1731646.500</Point>
+      <Point Name="KINA">-411059.800+1730351.500</Point>
+      <Point Name="MAITAI SADDLE">-411818.800+1732505.500</Point>
+      <Point Name="MAPUA">-411523.800+1730600.500</Point>
+      <Point Name="MATAI DAM">-411738.600+1732231.300</Point>
+      <Point Name="MOTUEKA">-410636.800+1730042.500</Point>
+      <Point Name="PEPIN ISLAND">-410832.800+1732532.500</Point>
+      <Point Name="RABBIT ISLAND BRIDGE">-411702.800+1730755.500</Point>
+      <Point Name="REDWOODS VALLEY">-411803.800+1730429.500</Point>
+      <Point Name="SAWMILL">-412039.800+1730448.500</Point>
+      <Point Name="TAPAWERA">-412314.600+1724924.000</Point>
+      <Point Name="UPPER MOUTERE">-411613.400+1730022.900</Point>
+      <Point Name="WAKEFIELD">-412418.800+1730245.500</Point>
+      <Point Name="WHANGAMOA SADDLE">-411306.800+1732609.500</Point>
+    </Label>
+  </Map>
+</Maps>

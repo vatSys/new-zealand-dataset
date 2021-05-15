@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="05 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-39.005644+174.183889">
+  <Map Type="System2" Name="05 SIDs" Priority="1" CustomColourName="ProcDep" Center="-39.005644+174.183889">
     <Line Pattern="Dashed">
       <!--Rwy05 HARV2P-->
       -39.005644+174.183889/-38.850556+174.207500/IGDIL/ATRUG/HARVO
@@ -60,7 +60,7 @@
       <Point>VAMSU</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="05 STARs" Priority="1" CustomColourName="ProcArr" Centre="-39.010447+174.170067">
+  <Map Type="System2" Name="05 STARs" Priority="1" CustomColourName="ProcArr" Center="-39.010447+174.170067">
     <Line Pattern="Solid">
       <!--Rwy05 MUMO2A.RUPNU-->
       RUPNU/MUMOX
@@ -177,7 +177,7 @@
       <Point>VARMA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="23 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-39.010447+174.170067">
+  <Map Type="System2" Name="23 SIDs" Priority="1" CustomColourName="ProcDep" Center="-39.010447+174.170067">
     <Line Pattern="Dashed">
       <!--Rwy23 GUSU1Q-->
       -39.010447+174.170067/GUSUR
@@ -293,7 +293,7 @@
       <Point>VELGA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="23 STARs" Priority="1" CustomColourName="ProcArr" Centre="-39.005644+174.183889">
+  <Map Type="System2" Name="23 STARs" Priority="1" CustomColourName="ProcArr" Center="-39.005644+174.183889">
     <Line>
       <!--Rwy23 HARV2B-->
       HARVO/ATRUG/UPDAL
@@ -429,31 +429,31 @@
       <Point>UPDAL</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-39.008611+174.179167">
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-39.008611+174.179167">
     <Symbol Type="HollowSquare">
-      <Point>BELL BLOCK OVERPASS</Point>
-      <Point>EGMONT VILLAGE</Point>
-      <Point>GERMAN HILL</Point>
-      <Point>LEPPERTON</Point>
-      <Point>OAKURA</Point>
-      <Point>SUGAR LOAF ISLAND</Point>
-      <Point>TIKORANGI</Point>
-      <Point>URENUI</Point>
-      <Point>WAITARA VALLEY PLANT</Point>
+      <Point Name="BELL BLOCK OVERPASS">-390213.100+1740832.300</Point>
+      <Point Name="EGMONT VILLAGE">-390844.200+1740842.200</Point>
+      <Point Name="GERMAN HILL">-391109.700+1740756.600</Point>
+      <Point Name="LEPPERTON">-390336.700+1741238.600</Point>
+      <Point Name="OAKURA">-390712.700+1735716.600</Point>
+      <Point Name="SUGAR LOAF ISLAND">-390255.700+1740138.600</Point>
+      <Point Name="TIKORANGI">-390201.700+1741647.600</Point>
+      <Point Name="URENUI">-385950.700+1742324.600</Point>
+      <Point Name="WAITARA VALLEY PLANT">-390137.200+1741456.500</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>BELL BLOCK OVERPASS</Point>
-      <Point>EGMONT VILLAGE</Point>
-      <Point>GERMAN HILL</Point>
-      <Point>LEPPERTON</Point>
-      <Point>OAKURA</Point>
-      <Point>SUGAR LOAF ISLAND</Point>
-      <Point>TIKORANGI</Point>
-      <Point>URENUI</Point>
-      <Point>WAITARA VALLEY PLANT</Point>
+      <Point Name="BELL BLOCK OVERPASS">-390213.100+1740832.300</Point>
+      <Point Name="EGMONT VILLAGE">-390844.200+1740842.200</Point>
+      <Point Name="GERMAN HILL">-391109.700+1740756.600</Point>
+      <Point Name="LEPPERTON">-390336.700+1741238.600</Point>
+      <Point Name="OAKURA">-390712.700+1735716.600</Point>
+      <Point Name="SUGAR LOAF ISLAND">-390255.700+1740138.600</Point>
+      <Point Name="TIKORANGI">-390201.700+1741647.600</Point>
+      <Point Name="URENUI">-385950.700+1742324.600</Point>
+      <Point Name="WAITARA VALLEY PLANT">-390137.200+1741456.500</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="VFRProc" Priority="1" CustomColourName="VFRPoint" Centre="-39.008611+174.179167">
+  <Map Type="System2" Name="VFRProc" Priority="1" CustomColourName="VFRPoint" Center="-39.008611+174.179167">
     <Label HasLeader="true" LabelOrientation="NW">
       <Point Name="LEPPERTON_DEP">NP VOR</Point>
       <Point Name="WAITARA-VLY_ARR">URENUI</Point>

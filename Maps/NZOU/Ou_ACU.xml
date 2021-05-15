@@ -32,12 +32,12 @@
       <Point>ORBEL</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-44.970000+171.081667">
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-44.970000+171.081667">
     <Symbol Type="HollowSquare">
-      <Point>PALMERSTON</Point>
+      <Point Name="PALMERSTON">-452906.800+1704252.500</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>PALMERSTON</Point>
+      <Point Name="PALMERSTON">-452906.800+1704252.500</Point>
     </Label>
   </Map>
 </Maps>

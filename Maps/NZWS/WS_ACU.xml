@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="04 STARs" Priority="1" CustomColourName="ProcArr" Centre="-41.740281+171.572586">
+  <Map Type="System2" Name="04 STARs" Priority="1" CustomColourName="ProcArr" Center="-41.740281+171.572586">
     <Line>
       <!--Rwy04 AKSE1E-->
       AKSEM/AREDU/KAKOM/AVMAK
@@ -65,7 +65,7 @@
       <Point>BURKI</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="22 STARs" Priority="1" CustomColourName="ProcArr" Centre="-41.733933+171.585442">
+  <Map Type="System2" Name="22 STARs" Priority="1" CustomColourName="ProcArr" Center="-41.733933+171.585442">
     <Line>
       <!--Rwy22 AKSE1F-->
       AKSEM/WS501/PILUP

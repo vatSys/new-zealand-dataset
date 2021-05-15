@@ -1,26 +1,15 @@
 # VATNZ AIRAC Changelog
 
-- [AIRAC 2013](#airac-2013)        
-    - [Revision A (Initial)](#revision-a-initial)        
-    - [Revision B](#revision-b)        
-    - [Revision C](#revision-c)        
-    - [Revision D](#revision-d)        
-    - [Revision E](#revision-e)    
-- [AIRAC 2014](#airac-2014)        
-    - [Revision A (Initial)](#revision-a-initial-1)    
-- [AIRAC 2101](#airac-2101)        
-    - [Revision A (Initial)](#revision-a-initial-2)
-        - [ASMGCS](#asmgcs)
-        - [Airspace Additions](#airspace-additions)
-        - [Other Changes](#other-changes)
-        - [Usability Changes](#usability-changes)
+### 2020 Releases
+- [AIRAC 2013](#airac-2013)   
+- [AIRAC 2014](#airac-2014)
+
+### 2021 Releases
+- [AIRAC 2101](#airac-2101)
 - [AIRAC 2102](#airac-2102)
-        - [Revision A (Initial)](#revision-a-intial)
-        - [Revision B](#revision-b)
-        - [Revision C](#revision-c)
-        - [Revision D](#revision-d)
 - [AIRAC 2103](#airac-2103)
-        - [Revision A (Initial)](#revision-a-initial)
+- [AIRAC 2104](#airac-2104)
+- [AIRAC 2105](#airac-2105)
 
 
 ## AIRAC 2013
@@ -128,3 +117,37 @@ No recorded changes.
 * Change of Queenstown Ground and Delivery frequencies.
 
 * Addition of various ADS-B radar sites, to bring our coverage further into line with the real-world system.
+
+## AIRAC 2104
+
+### Revision A (Initial)
+
+* **Queenstown** - REDOL2A renamed to the REDOL1B, along with the addition of the SUNGU transition;
+* **Queenstown** - Addition of the DOVMA1A departure, RWY 05. 
+
+#### Major Feature Update #1
+
+* All aerodromes in the NZ Domestic FIR have been added.
+* All aerodrome procedurs have been added. This includes SIDs, STARs, RNP and GNSS approaches.
+* All ATS Routes have been added.
+* All VRPs have been added, alongwith VFR arrivals and departures.
+
+### Revision B
+
+Hot fixes for the Anzac Day event.
+
+* **Auckland** - Waypoint BATOS added to the OSRAP1P/MADEP SID.
+* **Queenstown** - ANPOV3D renamed to the ANPOV4D.
+
+## AIRAC 2105
+
+### Revision A (Initial)
+
+* The following aerodrome procedures have been added: Glentanner (NZGT), Alexandra (NZLX), Manapouri/Te Anau (NZMO), Takaka (NZTK) and Whitianga (NZWT). As a part of this, some procedural fixes have been added.
+  
+* Addition of Paraparaumu and Milford FIS as positions. As defined in the Airspace section of the VATNZ website, these are Events Only positions.
+
+* Removal of Dunedin Ground and Delivery positions.
+
+* Addition of updated `Performance.xml`, which includes aircraft type information (speeds, climb and descent rates). 
+

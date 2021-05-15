@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="03 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-45.924378+170.207786">
+  <Map Type="System2" Name="03 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.924378+170.207786">
     <Line Pattern="Dashed">
       <!--Rwy03 AKPI3P-->
       -45.924378+170.207786/DUKES/IVTOP/LEKOD/DABCA/AKPIN
@@ -76,7 +76,7 @@
       <Point>SUNGU</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="03 STARs" Priority="1" CustomColourName="ProcArr" Centre="-45.933925+170.187472">
+  <Map Type="System2" Name="03 STARs" Priority="1" CustomColourName="ProcArr" Center="-45.933925+170.187472">
     <Line Pattern="Solid">
       <!--Rwy03 BASO4A.ADKOS-->
       ADKOS/AKBUM/GOGES/MOXET/BASOS
@@ -166,7 +166,7 @@
       <Point>AKLAR</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="21 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-45.933925+170.187472">
+  <Map Type="System2" Name="21 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.933925+170.187472">
     <Line Pattern="Dashed">
       <!--Rwy21 AKPI2Q-->
       -45.933925+170.187472/AKLAR/IDADO/AKPIN
@@ -266,7 +266,7 @@
       <Point>SW VOR</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="21 STARs" Priority="1" CustomColourName="ProcArr" Centre="-45.924378+170.207786">
+  <Map Type="System2" Name="21 STARs" Priority="1" CustomColourName="ProcArr" Center="-45.924378+170.207786">
     <Line>
       <!--Rwy21 ALKA2B-->
       AKLAR/BIPUV/LOSKO/AKDAS/BIGAR/ESKAT
@@ -360,56 +360,56 @@
       <Point>ESKAT</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-45.928056+170.198333">
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-45.928056+170.198333">
     <Symbol Type="HollowSquare">
-      <Point>ALLANTON</Point>
-      <Point>BERWICK</Point>
-      <Point>BLACK HEAD</Point>
-      <Point>BRIGHTON</Point>
-      <Point>CLARKS JUNCTION</Point>
-      <Point>CLYDEVALE</Point>
-      <Point>HENLEY TOWN</Point>
-      <Point>LEE STREAM</Point>
-      <Point>LOOKOUT POINT</Point>
-      <Point>MILTON</Point>
-      <Point>MOUNT HYDE</Point>
-      <Point>MOUNT STUART WINDFARM</Point>
-      <Point>NORTHERN GAP</Point>
-      <Point>OUTRAM</Point>
-      <Point>PALMERSTON</Point>
-      <Point>PORT CHALMERS</Point>
-      <Point>TAIERI MOUTH</Point>
-      <Point>TOKO MOUTH</Point>
-      <Point>WAIHOLA</Point>
-      <Point>WAIPORI FALLS</Point>
-      <Point>WAITAHUNA</Point>
-      <Point>WAITATI</Point>
-      <Point>WOODSIDE</Point>
+      <Point Name="ALLANTON">-455508.900+1701546.800</Point>
+      <Point Name="BERWICK">-455647.600+1700603.900</Point>
+      <Point Name="BLACK HEAD">-455552.000+1702555.000</Point>
+      <Point Name="BRIGHTON">-455654.200+1702000.300</Point>
+      <Point Name="CLARKS JUNCTION">-454334.200+1700251.300</Point>
+      <Point Name="CLYDEVALE">-460608.200+1693140.300</Point>
+      <Point Name="HENLEY TOWN">-455850.900+1700951.100</Point>
+      <Point Name="LEE STREAM">-454800.000+1700740.000</Point>
+      <Point Name="LOOKOUT POINT">-455347.000+1702745.000</Point>
+      <Point Name="MILTON">-460700.100+1695750.600</Point>
+      <Point Name="MOUNT HYDE">-454725.200+1701717.300</Point>
+      <Point Name="MOUNT STUART WINDFARM">-460313.000+1694630.000</Point>
+      <Point Name="NORTHERN GAP">-454628.100+1702657.400</Point>
+      <Point Name="OUTRAM">-455127.200+1701333.300</Point>
+      <Point Name="PALMERSTON">-452906.800+1704252.500</Point>
+      <Point Name="PORT CHALMERS">-454849.200+1703746.300</Point>
+      <Point Name="TAIERI MOUTH">-460315.000+1701212.000</Point>
+      <Point Name="TOKO MOUTH">-461309.000+1700252.000</Point>
+      <Point Name="WAIHOLA">-460133.100+1700615.400</Point>
+      <Point Name="WAIPORI FALLS">-455418.200+1695910.300</Point>
+      <Point Name="WAITAHUNA">-455913.200+1694522.300</Point>
+      <Point Name="WAITATI">-454445.200+1703446.300</Point>
+      <Point Name="WOODSIDE">-455131.000+1701037.000</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>ALLANTON</Point>
-      <Point>BERWICK</Point>
-      <Point>BLACK HEAD</Point>
-      <Point>BRIGHTON</Point>
-      <Point>CLARKS JUNCTION</Point>
-      <Point>CLYDEVALE</Point>
-      <Point>HENLEY TOWN</Point>
-      <Point>LEE STREAM</Point>
-      <Point>LOOKOUT POINT</Point>
-      <Point>MILTON</Point>
-      <Point>MOUNT HYDE</Point>
-      <Point>MOUNT STUART WINDFARM</Point>
-      <Point>NORTHERN GAP</Point>
-      <Point>OUTRAM</Point>
-      <Point>PALMERSTON</Point>
-      <Point>PORT CHALMERS</Point>
-      <Point>TAIERI MOUTH</Point>
-      <Point>TOKO MOUTH</Point>
-      <Point>WAIHOLA</Point>
-      <Point>WAIPORI FALLS</Point>
-      <Point>WAITAHUNA</Point>
-      <Point>WAITATI</Point>
-      <Point>WOODSIDE</Point>
+      <Point Name="ALLANTON">-455508.900+1701546.800</Point>
+      <Point Name="BERWICK">-455647.600+1700603.900</Point>
+      <Point Name="BLACK HEAD">-455552.000+1702555.000</Point>
+      <Point Name="BRIGHTON">-455654.200+1702000.300</Point>
+      <Point Name="CLARKS JUNCTION">-454334.200+1700251.300</Point>
+      <Point Name="CLYDEVALE">-460608.200+1693140.300</Point>
+      <Point Name="HENLEY TOWN">-455850.900+1700951.100</Point>
+      <Point Name="LEE STREAM">-454800.000+1700740.000</Point>
+      <Point Name="LOOKOUT POINT">-455347.000+1702745.000</Point>
+      <Point Name="MILTON">-460700.100+1695750.600</Point>
+      <Point Name="MOUNT HYDE">-454725.200+1701717.300</Point>
+      <Point Name="MOUNT STUART WINDFARM">-460313.000+1694630.000</Point>
+      <Point Name="NORTHERN GAP">-454628.100+1702657.400</Point>
+      <Point Name="OUTRAM">-455127.200+1701333.300</Point>
+      <Point Name="PALMERSTON">-452906.800+1704252.500</Point>
+      <Point Name="PORT CHALMERS">-454849.200+1703746.300</Point>
+      <Point Name="TAIERI MOUTH">-460315.000+1701212.000</Point>
+      <Point Name="TOKO MOUTH">-461309.000+1700252.000</Point>
+      <Point Name="WAIHOLA">-460133.100+1700615.400</Point>
+      <Point Name="WAIPORI FALLS">-455418.200+1695910.300</Point>
+      <Point Name="WAITAHUNA">-455913.200+1694522.300</Point>
+      <Point Name="WAITATI">-454445.200+1703446.300</Point>
+      <Point Name="WOODSIDE">-455131.000+1701037.000</Point>
     </Label>
   </Map>
 </Maps>
