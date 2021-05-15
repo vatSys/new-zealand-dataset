@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="05 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-45.016544+168.757728">
+  <Map Type="System2" Name="05 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.016544+168.757728">
     <Line Pattern="Dashed">
       <!--Rwy05 ANPO3A-->
       -45.016544+168.757728/QN843/QN846/QN849/QN852/LEMAK/QN861/METUX/ANPOV
@@ -139,7 +139,7 @@
       <Point>LIBLA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="05 STARs" Priority="1" CustomColourName="ProcArr" Centre="-45.020000+168.735689">
+  <Map Type="System2" Name="05 STARs" Priority="1" CustomColourName="ProcArr" Center="-45.020000+168.735689">
     <Line>
       <!--Rwy05 ELRU2A-->
       ELRUV/EKVOX/KASLU/MABGA/GOSPA/AVGER/IBABU
@@ -243,7 +243,7 @@
       <Point>IBABU</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="23 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-45.020000+168.735689">
+  <Map Type="System2" Name="23 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.020000+168.735689">
     <Line Pattern="Dashed">
       <!--Rwy23 ANPO3B-->
       -45.020000+168.735689/QN727/KABAP/NOLUV/QN732/RUXAK/QN737/BUGSA/DUGAK/QN817/ENKUV/METUX/ANPOV
@@ -402,7 +402,7 @@
       <Point>ADLUP</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="23 STARs" Priority="1" CustomColourName="ProcArr" Centre="-45.016544+168.757728">
+  <Map Type="System2" Name="23 STARs" Priority="1" CustomColourName="ProcArr" Center="-45.016544+168.757728">
     <Line>
       <!--Rwy23 ELRU4B-->
       ELRUV/PAMPU/EKVOX/ATKIL
@@ -525,199 +525,199 @@
       <Point>ATVUP</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-45.021236+168.739247">
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-45.021236+168.739247">
     <Symbol Type="HollowSquare">
-      <Point>ADA</Point>
-      <Point>ADELAIDE</Point>
-      <Point>AFTON BURN SADDLE</Point>
-      <Point>ALABASTER</Point>
-      <Point>BANNOCKBURN</Point>
-      <Point>BAYONET PEAK</Point>
-      <Point>BEN LOMOND</Point>
-      <Point>BILLY BURN</Point>
-      <Point>BLACK GORGE</Point>
-      <Point>BOBS COVE</Point>
-      <Point>BUNGY BRIDGE</Point>
-      <Point>CARDRONA TOWNSHIP</Point>
-      <Point>CHASM</Point>
-      <Point>CLINTON FORKS</Point>
-      <Point>CLYDE DAM</Point>
-      <Point>COALPIT SADDLE</Point>
-      <Point>COLLINS BAY</Point>
-      <Point>CORONET PEAK</Point>
-      <Point>CREIGHTON SADDLE</Point>
-      <Point>CROWN SADDLE</Point>
-      <Point>DALE POINT</Point>
-      <Point>DEER PARK</Point>
-      <Point>DEVILS STAIRCASE</Point>
-      <Point>DONNE</Point>
-      <Point>DOUBLE CONE</Point>
-      <Point>DUMPLING</Point>
-      <Point>EASTERN RIDGE</Point>
-      <Point>ELFIN BAY</Point>
-      <Point>FLOOD BURN</Point>
-      <Point>FRASER DAM</Point>
-      <Point>GERTRUDE</Point>
-      <Point>GULLIVER</Point>
-      <Point>GULLY</Point>
-      <Point>HALFWAY BAY</Point>
-      <Point>HIDDEN FALLS</Point>
-      <Point>HIDDEN ISLAND</Point>
-      <Point>HIDDEN LAKES</Point>
-      <Point>HOLLYFORD STRIP</Point>
-      <Point>HOMER</Point>
-      <Point>JANE PEAK</Point>
-      <Point>JARDINES</Point>
-      <Point>KAIPO SADDLE</Point>
-      <Point>KAY CREEK</Point>
-      <Point>KNOBS FLAT</Point>
-      <Point>LAKE DISPUTE</Point>
-      <Point>LAKE GUNN</Point>
-      <Point>LAKE HAYES</Point>
-      <Point>LAKE ICEBERG</Point>
-      <Point>LAKE LUNA</Point>
-      <Point>LAKE MORETON</Point>
-      <Point>LAKE SYLVAN</Point>
-      <Point>MACETOWN</Point>
-      <Point>MARTINS BAY</Point>
-      <Point>MATUKITUKI RIVER MOUTH</Point>
-      <Point>MCKERROW ISLAND</Point>
-      <Point>MOKE LAKE</Point>
-      <Point>MONKEY FLAT</Point>
-      <Point>MOONLIGHT</Point>
-      <Point>MOUNT ALFRED</Point>
-      <Point>MOUNT ASPIRING HOMESTEAD</Point>
-      <Point>MOUNT BARKER</Point>
-      <Point>MOUNT EARNSLAW</Point>
-      <Point>MOUNT LARKINS</Point>
-      <Point>MOUNT NIC STATION</Point>
-      <Point>MOUNT TUTOKO</Point>
-      <Point>MT POSEIDON</Point>
-      <Point>PEMBROKE JUNCTION</Point>
-      <Point>PIG ISLAND</Point>
-      <Point>QUARTZ KNOLL</Point>
-      <Point>QUEENSBERRY</Point>
-      <Point>QUEENSTOWN HILL</Point>
-      <Point>RAT POINT</Point>
-      <Point>ROARING MEG</Point>
-      <Point>SHORELINE</Point>
-      <Point>SKIPPERS BRIDGE</Point>
-      <Point>SKIPPERS SADDLE</Point>
-      <Point>SOHO RIVER</Point>
-      <Point>SOUTH MAVORA LAKE</Point>
-      <Point>ST ANNE POINT</Point>
-      <Point>STREAM</Point>
-      <Point>SUNSHINE BAY</Point>
-      <Point>TARRAS</Point>
-      <Point>TE ANAU DOWNS</Point>
-      <Point>TIMARU RIVER MOUTH</Point>
-      <Point>TOLLGATE</Point>
-      <Point>TRANSIT BEACH</Point>
-      <Point>TREBLE CONE SKI FIELD</Point>
-      <Point>TUCKER BEACH</Point>
-      <Point>TUTOKO FLATS</Point>
-      <Point>VICTORIA</Point>
-      <Point>WALTER PEAK</Point>
-      <Point>WILMOT</Point>
-      <Point>WYE CREEK</Point>
+      <Point Name="ADA">-444305.100+1675108.200</Point>
+      <Point Name="ADELAIDE">-444353.500+1680111.300</Point>
+      <Point Name="AFTON BURN SADDLE">-450925.700+1682400.200</Point>
+      <Point Name="ALABASTER">-442945.000+1681039.500</Point>
+      <Point Name="BANNOCKBURN">-450522.200+1690940.600</Point>
+      <Point Name="BAYONET PEAK">-450945.000+1684109.100</Point>
+      <Point Name="BEN LOMOND">-450025.100+1683655.200</Point>
+      <Point Name="BILLY BURN">-450206.100+1675112.200</Point>
+      <Point Name="BLACK GORGE">-450045.700+1682308.400</Point>
+      <Point Name="BOBS COVE">-450421.600+1683047.900</Point>
+      <Point Name="BUNGY BRIDGE">-450031.100+1685400.200</Point>
+      <Point Name="CARDRONA TOWNSHIP">-445255.800+1690013.000</Point>
+      <Point Name="CHASM">-444318.500+1675649.700</Point>
+      <Point Name="CLINTON FORKS">-445257.100+1675318.200</Point>
+      <Point Name="CLYDE DAM">-451045.100+1691824.300</Point>
+      <Point Name="COALPIT SADDLE">-450338.700+1685639.800</Point>
+      <Point Name="COLLINS BAY">-450709.100+1684100.200</Point>
+      <Point Name="CORONET PEAK">-445457.200+1684423.000</Point>
+      <Point Name="CREIGHTON SADDLE">-450006.100+1682930.200</Point>
+      <Point Name="CROWN SADDLE">-445937.300+1685551.800</Point>
+      <Point Name="DALE POINT">-443557.100+1674900.200</Point>
+      <Point Name="DEER PARK">-450226.100+1684325.200</Point>
+      <Point Name="DEVILS STAIRCASE">-451451.700+1684440.000</Point>
+      <Point Name="DONNE">-444130.800+1680220.400</Point>
+      <Point Name="DOUBLE CONE">-450417.900+1684828.000</Point>
+      <Point Name="DUMPLING">-444606.100+1674553.200</Point>
+      <Point Name="EASTERN RIDGE">-444231.000+1692147.000</Point>
+      <Point Name="ELFIN BAY">-445712.100+1682136.200</Point>
+      <Point Name="FLOOD BURN">-444407.200+1683658.800</Point>
+      <Point Name="FRASER DAM">-451225.100+1691251.300</Point>
+      <Point Name="GERTRUDE">-444433.100+1680041.200</Point>
+      <Point Name="GULLIVER">-444227.000+1675904.100</Point>
+      <Point Name="GULLY">-450500.400+1683715.900</Point>
+      <Point Name="HALFWAY BAY">-451145.800+1684149.600</Point>
+      <Point Name="HIDDEN FALLS">-443749.800+1680721.500</Point>
+      <Point Name="HIDDEN ISLAND">-450412.100+1683853.200</Point>
+      <Point Name="HIDDEN LAKES">-452225.600+1674035.500</Point>
+      <Point Name="HOLLYFORD STRIP">-444413.600+1680758.000</Point>
+      <Point Name="HOMER">-444552.100+1675859.200</Point>
+      <Point Name="JANE PEAK">-451939.100+1681923.200</Point>
+      <Point Name="JARDINES">-450519.100+1684405.200</Point>
+      <Point Name="KAIPO SADDLE">-442703.800+1675925.200</Point>
+      <Point Name="KAY CREEK">-445053.900+1681336.500</Point>
+      <Point Name="KNOBS FLAT">-445839.100+1680103.200</Point>
+      <Point Name="LAKE DISPUTE">-450309.400+1683245.200</Point>
+      <Point Name="LAKE GUNN">-445330.000+1680445.500</Point>
+      <Point Name="LAKE HAYES">-445805.100+1684843.100</Point>
+      <Point Name="LAKE ICEBERG">-444906.300+1675235.300</Point>
+      <Point Name="LAKE LUNA">-445646.100+1682926.200</Point>
+      <Point Name="LAKE MORETON">-444133.100+1674408.900</Point>
+      <Point Name="LAKE SYLVAN">-444216.900+1681908.700</Point>
+      <Point Name="MACETOWN">-445204.700+1684926.000</Point>
+      <Point Name="MARTINS BAY">-442158.000+1680057.200</Point>
+      <Point Name="MATUKITUKI RIVER MOUTH">-443749.600+1690051.800</Point>
+      <Point Name="MCKERROW ISLAND">-443104.100+1680347.200</Point>
+      <Point Name="MOKE LAKE">-450001.100+1683403.200</Point>
+      <Point Name="MONKEY FLAT">-444712.100+1680100.200</Point>
+      <Point Name="MOONLIGHT">-445749.500+1683903.200</Point>
+      <Point Name="MOUNT ALFRED">-444527.100+1682140.200</Point>
+      <Point Name="MOUNT ASPIRING HOMESTEAD">-442943.100+1685011.500</Point>
+      <Point Name="MOUNT BARKER">-444354.100+1691040.800</Point>
+      <Point Name="MOUNT EARNSLAW">-443721.100+1682438.200</Point>
+      <Point Name="MOUNT LARKINS">-445245.000+1682931.200</Point>
+      <Point Name="MOUNT NIC STATION">-450539.700+1682538.600</Point>
+      <Point Name="MOUNT TUTOKO">-443540.300+1680044.700</Point>
+      <Point Name="MT POSEIDON">-443959.400+1674647.000</Point>
+      <Point Name="PEMBROKE JUNCTION">-443446.000+1675456.700</Point>
+      <Point Name="PIG ISLAND">-445638.100+1682424.200</Point>
+      <Point Name="QUARTZ KNOLL">-445737.500+1685939.800</Point>
+      <Point Name="QUEENSBERRY">-444947.300+1691958.700</Point>
+      <Point Name="QUEENSTOWN HILL">-445948.600+1684206.700</Point>
+      <Point Name="RAT POINT">-450430.700+1682742.900</Point>
+      <Point Name="ROARING MEG">-450001.100+1690413.300</Point>
+      <Point Name="SHORELINE">-450406.900+1684317.600</Point>
+      <Point Name="SKIPPERS BRIDGE">-445039.100+1684110.200</Point>
+      <Point Name="SKIPPERS SADDLE">-445626.800+1684220.300</Point>
+      <Point Name="SOHO RIVER">-445427.100+1685231.300</Point>
+      <Point Name="SOUTH MAVORA LAKE">-451903.100+1681042.200</Point>
+      <Point Name="ST ANNE POINT">-443422.100+1674654.200</Point>
+      <Point Name="STREAM">-450712.100+1682922.700</Point>
+      <Point Name="SUNSHINE BAY">-450300.100+1683718.200</Point>
+      <Point Name="TARRAS">-445014.100+1692439.100</Point>
+      <Point Name="TE ANAU DOWNS">-451106.100+1674942.200</Point>
+      <Point Name="TIMARU RIVER MOUTH">-443224.700+1691849.500</Point>
+      <Point Name="TOLLGATE">-450227.100+1684519.400</Point>
+      <Point Name="TRANSIT BEACH">-443533.300+1674444.300</Point>
+      <Point Name="TREBLE CONE SKI FIELD">-443759.600+1685344.300</Point>
+      <Point Name="TUCKER BEACH">-445900.000+1684500.000</Point>
+      <Point Name="TUTOKO FLATS">-443824.900+1675923.100</Point>
+      <Point Name="VICTORIA">-450308.100+1690205.100</Point>
+      <Point Name="WALTER PEAK">-450641.100+1683235.200</Point>
+      <Point Name="WILMOT">-442336.600+1681254.900</Point>
+      <Point Name="WYE CREEK">-450814.100+1684509.200</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>ADA</Point>
-      <Point>ADELAIDE</Point>
-      <Point>AFTON BURN SADDLE</Point>
-      <Point>ALABASTER</Point>
-      <Point>BANNOCKBURN</Point>
-      <Point>BAYONET PEAK</Point>
-      <Point>BEN LOMOND</Point>
-      <Point>BILLY BURN</Point>
-      <Point>BLACK GORGE</Point>
-      <Point>BOBS COVE</Point>
-      <Point>BUNGY BRIDGE</Point>
-      <Point>CARDRONA TOWNSHIP</Point>
-      <Point>CHASM</Point>
-      <Point>CLINTON FORKS</Point>
-      <Point>CLYDE DAM</Point>
-      <Point>COALPIT SADDLE</Point>
-      <Point>COLLINS BAY</Point>
-      <Point>CORONET PEAK</Point>
-      <Point>CREIGHTON SADDLE</Point>
-      <Point>CROWN SADDLE</Point>
-      <Point>DALE POINT</Point>
-      <Point>DEER PARK</Point>
-      <Point>DEVILS STAIRCASE</Point>
-      <Point>DONNE</Point>
-      <Point>DOUBLE CONE</Point>
-      <Point>DUMPLING</Point>
-      <Point>EASTERN RIDGE</Point>
-      <Point>ELFIN BAY</Point>
-      <Point>FLOOD BURN</Point>
-      <Point>FRASER DAM</Point>
-      <Point>GERTRUDE</Point>
-      <Point>GULLIVER</Point>
-      <Point>GULLY</Point>
-      <Point>HALFWAY BAY</Point>
-      <Point>HIDDEN FALLS</Point>
-      <Point>HIDDEN ISLAND</Point>
-      <Point>HIDDEN LAKES</Point>
-      <Point>HOLLYFORD STRIP</Point>
-      <Point>HOMER</Point>
-      <Point>JANE PEAK</Point>
-      <Point>JARDINES</Point>
-      <Point>KAIPO SADDLE</Point>
-      <Point>KAY CREEK</Point>
-      <Point>KNOBS FLAT</Point>
-      <Point>LAKE DISPUTE</Point>
-      <Point>LAKE GUNN</Point>
-      <Point>LAKE HAYES</Point>
-      <Point>LAKE ICEBERG</Point>
-      <Point>LAKE LUNA</Point>
-      <Point>LAKE MORETON</Point>
-      <Point>LAKE SYLVAN</Point>
-      <Point>MACETOWN</Point>
-      <Point>MARTINS BAY</Point>
-      <Point>MATUKITUKI RIVER MOUTH</Point>
-      <Point>MCKERROW ISLAND</Point>
-      <Point>MOKE LAKE</Point>
-      <Point>MONKEY FLAT</Point>
-      <Point>MOONLIGHT</Point>
-      <Point>MOUNT ALFRED</Point>
-      <Point>MOUNT ASPIRING HOMESTEAD</Point>
-      <Point>MOUNT BARKER</Point>
-      <Point>MOUNT EARNSLAW</Point>
-      <Point>MOUNT LARKINS</Point>
-      <Point>MOUNT NIC STATION</Point>
-      <Point>MOUNT TUTOKO</Point>
-      <Point>MT POSEIDON</Point>
-      <Point>PEMBROKE JUNCTION</Point>
-      <Point>PIG ISLAND</Point>
-      <Point>QUARTZ KNOLL</Point>
-      <Point>QUEENSBERRY</Point>
-      <Point>QUEENSTOWN HILL</Point>
-      <Point>RAT POINT</Point>
-      <Point>ROARING MEG</Point>
-      <Point>SHORELINE</Point>
-      <Point>SKIPPERS BRIDGE</Point>
-      <Point>SKIPPERS SADDLE</Point>
-      <Point>SOHO RIVER</Point>
-      <Point>SOUTH MAVORA LAKE</Point>
-      <Point>ST ANNE POINT</Point>
-      <Point>STREAM</Point>
-      <Point>SUNSHINE BAY</Point>
-      <Point>TARRAS</Point>
-      <Point>TE ANAU DOWNS</Point>
-      <Point>TIMARU RIVER MOUTH</Point>
-      <Point>TOLLGATE</Point>
-      <Point>TRANSIT BEACH</Point>
-      <Point>TREBLE CONE SKI FIELD</Point>
-      <Point>TUCKER BEACH</Point>
-      <Point>TUTOKO FLATS</Point>
-      <Point>VICTORIA</Point>
-      <Point>WALTER PEAK</Point>
-      <Point>WILMOT</Point>
-      <Point>WYE CREEK</Point>
+      <Point Name="ADA">-444305.100+1675108.200</Point>
+      <Point Name="ADELAIDE">-444353.500+1680111.300</Point>
+      <Point Name="AFTON BURN SADDLE">-450925.700+1682400.200</Point>
+      <Point Name="ALABASTER">-442945.000+1681039.500</Point>
+      <Point Name="BANNOCKBURN">-450522.200+1690940.600</Point>
+      <Point Name="BAYONET PEAK">-450945.000+1684109.100</Point>
+      <Point Name="BEN LOMOND">-450025.100+1683655.200</Point>
+      <Point Name="BILLY BURN">-450206.100+1675112.200</Point>
+      <Point Name="BLACK GORGE">-450045.700+1682308.400</Point>
+      <Point Name="BOBS COVE">-450421.600+1683047.900</Point>
+      <Point Name="BUNGY BRIDGE">-450031.100+1685400.200</Point>
+      <Point Name="CARDRONA TOWNSHIP">-445255.800+1690013.000</Point>
+      <Point Name="CHASM">-444318.500+1675649.700</Point>
+      <Point Name="CLINTON FORKS">-445257.100+1675318.200</Point>
+      <Point Name="CLYDE DAM">-451045.100+1691824.300</Point>
+      <Point Name="COALPIT SADDLE">-450338.700+1685639.800</Point>
+      <Point Name="COLLINS BAY">-450709.100+1684100.200</Point>
+      <Point Name="CORONET PEAK">-445457.200+1684423.000</Point>
+      <Point Name="CREIGHTON SADDLE">-450006.100+1682930.200</Point>
+      <Point Name="CROWN SADDLE">-445937.300+1685551.800</Point>
+      <Point Name="DALE POINT">-443557.100+1674900.200</Point>
+      <Point Name="DEER PARK">-450226.100+1684325.200</Point>
+      <Point Name="DEVILS STAIRCASE">-451451.700+1684440.000</Point>
+      <Point Name="DONNE">-444130.800+1680220.400</Point>
+      <Point Name="DOUBLE CONE">-450417.900+1684828.000</Point>
+      <Point Name="DUMPLING">-444606.100+1674553.200</Point>
+      <Point Name="EASTERN RIDGE">-444231.000+1692147.000</Point>
+      <Point Name="ELFIN BAY">-445712.100+1682136.200</Point>
+      <Point Name="FLOOD BURN">-444407.200+1683658.800</Point>
+      <Point Name="FRASER DAM">-451225.100+1691251.300</Point>
+      <Point Name="GERTRUDE">-444433.100+1680041.200</Point>
+      <Point Name="GULLIVER">-444227.000+1675904.100</Point>
+      <Point Name="GULLY">-450500.400+1683715.900</Point>
+      <Point Name="HALFWAY BAY">-451145.800+1684149.600</Point>
+      <Point Name="HIDDEN FALLS">-443749.800+1680721.500</Point>
+      <Point Name="HIDDEN ISLAND">-450412.100+1683853.200</Point>
+      <Point Name="HIDDEN LAKES">-452225.600+1674035.500</Point>
+      <Point Name="HOLLYFORD STRIP">-444413.600+1680758.000</Point>
+      <Point Name="HOMER">-444552.100+1675859.200</Point>
+      <Point Name="JANE PEAK">-451939.100+1681923.200</Point>
+      <Point Name="JARDINES">-450519.100+1684405.200</Point>
+      <Point Name="KAIPO SADDLE">-442703.800+1675925.200</Point>
+      <Point Name="KAY CREEK">-445053.900+1681336.500</Point>
+      <Point Name="KNOBS FLAT">-445839.100+1680103.200</Point>
+      <Point Name="LAKE DISPUTE">-450309.400+1683245.200</Point>
+      <Point Name="LAKE GUNN">-445330.000+1680445.500</Point>
+      <Point Name="LAKE HAYES">-445805.100+1684843.100</Point>
+      <Point Name="LAKE ICEBERG">-444906.300+1675235.300</Point>
+      <Point Name="LAKE LUNA">-445646.100+1682926.200</Point>
+      <Point Name="LAKE MORETON">-444133.100+1674408.900</Point>
+      <Point Name="LAKE SYLVAN">-444216.900+1681908.700</Point>
+      <Point Name="MACETOWN">-445204.700+1684926.000</Point>
+      <Point Name="MARTINS BAY">-442158.000+1680057.200</Point>
+      <Point Name="MATUKITUKI RIVER MOUTH">-443749.600+1690051.800</Point>
+      <Point Name="MCKERROW ISLAND">-443104.100+1680347.200</Point>
+      <Point Name="MOKE LAKE">-450001.100+1683403.200</Point>
+      <Point Name="MONKEY FLAT">-444712.100+1680100.200</Point>
+      <Point Name="MOONLIGHT">-445749.500+1683903.200</Point>
+      <Point Name="MOUNT ALFRED">-444527.100+1682140.200</Point>
+      <Point Name="MOUNT ASPIRING HOMESTEAD">-442943.100+1685011.500</Point>
+      <Point Name="MOUNT BARKER">-444354.100+1691040.800</Point>
+      <Point Name="MOUNT EARNSLAW">-443721.100+1682438.200</Point>
+      <Point Name="MOUNT LARKINS">-445245.000+1682931.200</Point>
+      <Point Name="MOUNT NIC STATION">-450539.700+1682538.600</Point>
+      <Point Name="MOUNT TUTOKO">-443540.300+1680044.700</Point>
+      <Point Name="MT POSEIDON">-443959.400+1674647.000</Point>
+      <Point Name="PEMBROKE JUNCTION">-443446.000+1675456.700</Point>
+      <Point Name="PIG ISLAND">-445638.100+1682424.200</Point>
+      <Point Name="QUARTZ KNOLL">-445737.500+1685939.800</Point>
+      <Point Name="QUEENSBERRY">-444947.300+1691958.700</Point>
+      <Point Name="QUEENSTOWN HILL">-445948.600+1684206.700</Point>
+      <Point Name="RAT POINT">-450430.700+1682742.900</Point>
+      <Point Name="ROARING MEG">-450001.100+1690413.300</Point>
+      <Point Name="SHORELINE">-450406.900+1684317.600</Point>
+      <Point Name="SKIPPERS BRIDGE">-445039.100+1684110.200</Point>
+      <Point Name="SKIPPERS SADDLE">-445626.800+1684220.300</Point>
+      <Point Name="SOHO RIVER">-445427.100+1685231.300</Point>
+      <Point Name="SOUTH MAVORA LAKE">-451903.100+1681042.200</Point>
+      <Point Name="ST ANNE POINT">-443422.100+1674654.200</Point>
+      <Point Name="STREAM">-450712.100+1682922.700</Point>
+      <Point Name="SUNSHINE BAY">-450300.100+1683718.200</Point>
+      <Point Name="TARRAS">-445014.100+1692439.100</Point>
+      <Point Name="TE ANAU DOWNS">-451106.100+1674942.200</Point>
+      <Point Name="TIMARU RIVER MOUTH">-443224.700+1691849.500</Point>
+      <Point Name="TOLLGATE">-450227.100+1684519.400</Point>
+      <Point Name="TRANSIT BEACH">-443533.300+1674444.300</Point>
+      <Point Name="TREBLE CONE SKI FIELD">-443759.600+1685344.300</Point>
+      <Point Name="TUCKER BEACH">-445900.000+1684500.000</Point>
+      <Point Name="TUTOKO FLATS">-443824.900+1675923.100</Point>
+      <Point Name="VICTORIA">-450308.100+1690205.100</Point>
+      <Point Name="WALTER PEAK">-450641.100+1683235.200</Point>
+      <Point Name="WILMOT">-442336.600+1681254.900</Point>
+      <Point Name="WYE CREEK">-450814.100+1684509.200</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="VFRProc" Priority="1" CustomColourName="VFRPoint" Centre="-45.021236+168.739247">
+  <Map Type="System2" Name="VFRProc" Priority="1" CustomColourName="VFRPoint" Center="-45.021236+168.739247">
     <Label HasLeader="true" LabelOrientation="NW">
       <Point Name="AFTON ARR">MOUNT NIC STATION</Point>
       <Point Name="DEVILS STAIR DEP">TOLLGATE</Point>

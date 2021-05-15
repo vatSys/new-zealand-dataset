@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="04 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-46.411100+168.324744">
+  <Map Type="System2" Name="04 SIDs" Priority="1" CustomColourName="ProcDep" Center="-46.411100+168.324744">
     <Line Pattern="Dashed">
       <!--Rwy04 ADLU2P-->
       -46.411100+168.324744/NV404/GURAD/KELSO/ADLUP
@@ -49,7 +49,7 @@
       <Point>PEXED</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="04 STARs" Priority="1" CustomColourName="ProcArr" Centre="-46.418411+168.302258">
+  <Map Type="System2" Name="04 STARs" Priority="1" CustomColourName="ProcArr" Center="-46.418411+168.302258">
     <Line>
       <!--Rwy04 AKPI3A-->
       AKPIN/BIDKU/VIKIP/DOTLU/EGAMU
@@ -126,7 +126,7 @@
       <Point>KAGRU</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="22 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-46.418411+168.302258">
+  <Map Type="System2" Name="22 SIDs" Priority="1" CustomColourName="ProcDep" Center="-46.418411+168.302258">
     <Line Pattern="Dashed">
       <!--Rwy22 ADLU2Q-->
       -46.418411+168.302258/NV422/RUVGI/KELSO/ADLUP
@@ -179,7 +179,7 @@
       <Point>SUNGU</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="22 STARs" Priority="1" CustomColourName="ProcArr" Centre="-46.411100+168.324744">
+  <Map Type="System2" Name="22 STARs" Priority="1" CustomColourName="ProcArr" Center="-46.411100+168.324744">
     <Line>
       <!--Rwy22 AKPI3B-->
       AKPIN/BIDKU/MASGO/DUNAX
@@ -258,94 +258,94 @@
       <Point>DUNAX</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-46.415000+168.320000">
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-46.415000+168.320000">
     <Symbol Type="HollowSquare">
-      <Point>AWARUA</Point>
-      <Point>BENCH ISLAND</Point>
-      <Point>BIG GLORY BAY</Point>
-      <Point>BIG LAGOON</Point>
-      <Point>BLUFF</Point>
-      <Point>BREAKSEA</Point>
-      <Point>BUSHY POINT</Point>
-      <Point>CODFISH</Point>
-      <Point>DACRE</Point>
-      <Point>DOUGHBOY BAY</Point>
-      <Point>EAST CAPE</Point>
-      <Point>EDENDALE</Point>
-      <Point>EDWARDS ISLAND</Point>
-      <Point>FRESHWATER RIVER</Point>
-      <Point>HEDGEHOPE</Point>
-      <Point>HIGH ROCK</Point>
-      <Point>HORSESHOE BAY</Point>
-      <Point>KENNINGTON</Point>
-      <Point>KEW</Point>
-      <Point>KOPEKA</Point>
-      <Point>LEE BAY</Point>
-      <Point>LITTLE HELLFIRE BEACH</Point>
-      <Point>MAKAREWA</Point>
-      <Point>MASON BAY</Point>
-      <Point>MOUNT ANGLEM</Point>
-      <Point>MT RAKEAHUA</Point>
-      <Point>MURRAY BEACH</Point>
-      <Point>NORTH BEACH</Point>
-      <Point>OMAUI ISLAND</Point>
-      <Point>ORETI JUNCTION</Point>
-      <Point>RIVERTON</Point>
-      <Point>RUGGED ISLANDS</Point>
-      <Point>SANDY POINT</Point>
-      <Point>SKI CLUB</Point>
-      <Point>SMOKY BEACH</Point>
-      <Point>THORNBURY</Point>
-      <Point>TIN RANGE</Point>
-      <Point>WAIMATUA</Point>
-      <Point>WALLACETOWN</Point>
-      <Point>WEST RUGGEDY BEACH</Point>
-      <Point>WINTON</Point>
-      <Point>WOODLANDS</Point>
+      <Point Name="AWARUA">-462930.300+1682307.200</Point>
+      <Point Name="BENCH ISLAND">-465428.000+1681421.100</Point>
+      <Point Name="BIG GLORY BAY">-465924.700+1680551.800</Point>
+      <Point Name="BIG LAGOON">-462110.200+1681029.000</Point>
+      <Point Name="BLUFF">-463552.100+1681952.800</Point>
+      <Point Name="BREAKSEA">-470706.300+1681224.900</Point>
+      <Point Name="BUSHY POINT">-462710.200+1681934.200</Point>
+      <Point Name="CODFISH">-464538.800+1673518.400</Point>
+      <Point Name="DACRE">-461907.200+1683716.200</Point>
+      <Point Name="DOUGHBOY BAY">-470238.100+1674246.500</Point>
+      <Point Name="EAST CAPE">-470054.800+1681343.200</Point>
+      <Point Name="EDENDALE">-461839.200+1684706.200</Point>
+      <Point Name="EDWARDS ISLAND">-465009.900+1681303.600</Point>
+      <Point Name="FRESHWATER RIVER">-465358.400+1675801.500</Point>
+      <Point Name="HEDGEHOPE">-461223.200+1683253.200</Point>
+      <Point Name="HIGH ROCK">-464635.700+1674104.400</Point>
+      <Point Name="HORSESHOE BAY">-465239.400+1680735.800</Point>
+      <Point Name="KENNINGTON">-462332.400+1682647.800</Point>
+      <Point Name="KEW">-462612.800+1682123.300</Point>
+      <Point Name="KOPEKA">-470816.000+1675621.000</Point>
+      <Point Name="LEE BAY">-465146.300+1680723.700</Point>
+      <Point Name="LITTLE HELLFIRE BEACH">-465155.200+1674525.800</Point>
+      <Point Name="MAKAREWA">-461944.200+1682051.200</Point>
+      <Point Name="MASON BAY">-465520.800+1674558.500</Point>
+      <Point Name="MOUNT ANGLEM">-464425.400+1675458.500</Point>
+      <Point Name="MT RAKEAHUA">-465635.000+1675249.000</Point>
+      <Point Name="MURRAY BEACH">-464713.600+1680006.500</Point>
+      <Point Name="NORTH BEACH">-462331.000+1681147.600</Point>
+      <Point Name="OMAUI ISLAND">-463054.900+1681310.400</Point>
+      <Point Name="ORETI JUNCTION">-462149.900+1681515.700</Point>
+      <Point Name="RIVERTON">-462115.200+1680038.200</Point>
+      <Point Name="RUGGED ISLANDS">-464209.700+1674254.300</Point>
+      <Point Name="SANDY POINT">-462940.300+1681822.200</Point>
+      <Point Name="SKI CLUB">-462752.600+1681608.400</Point>
+      <Point Name="SMOKY BEACH">-464204.000+1675039.600</Point>
+      <Point Name="THORNBURY">-461719.400+1680542.400</Point>
+      <Point Name="TIN RANGE">-470509.000+1674804.000</Point>
+      <Point Name="WAIMATUA">-462704.300+1682731.100</Point>
+      <Point Name="WALLACETOWN">-461945.200+1681725.200</Point>
+      <Point Name="WEST RUGGEDY BEACH">-464412.100+1674314.300</Point>
+      <Point Name="WINTON">-460823.400+1681933.200</Point>
+      <Point Name="WOODLANDS">-462129.200+1683324.200</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>AWARUA</Point>
-      <Point>BENCH ISLAND</Point>
-      <Point>BIG GLORY BAY</Point>
-      <Point>BIG LAGOON</Point>
-      <Point>BLUFF</Point>
-      <Point>BREAKSEA</Point>
-      <Point>BUSHY POINT</Point>
-      <Point>CODFISH</Point>
-      <Point>DACRE</Point>
-      <Point>DOUGHBOY BAY</Point>
-      <Point>EAST CAPE</Point>
-      <Point>EDENDALE</Point>
-      <Point>EDWARDS ISLAND</Point>
-      <Point>FRESHWATER RIVER</Point>
-      <Point>HEDGEHOPE</Point>
-      <Point>HIGH ROCK</Point>
-      <Point>HORSESHOE BAY</Point>
-      <Point>KENNINGTON</Point>
-      <Point>KEW</Point>
-      <Point>KOPEKA</Point>
-      <Point>LEE BAY</Point>
-      <Point>LITTLE HELLFIRE BEACH</Point>
-      <Point>MAKAREWA</Point>
-      <Point>MASON BAY</Point>
-      <Point>MOUNT ANGLEM</Point>
-      <Point>MT RAKEAHUA</Point>
-      <Point>MURRAY BEACH</Point>
-      <Point>NORTH BEACH</Point>
-      <Point>OMAUI ISLAND</Point>
-      <Point>ORETI JUNCTION</Point>
-      <Point>RIVERTON</Point>
-      <Point>RUGGED ISLANDS</Point>
-      <Point>SANDY POINT</Point>
-      <Point>SKI CLUB</Point>
-      <Point>SMOKY BEACH</Point>
-      <Point>THORNBURY</Point>
-      <Point>TIN RANGE</Point>
-      <Point>WAIMATUA</Point>
-      <Point>WALLACETOWN</Point>
-      <Point>WEST RUGGEDY BEACH</Point>
-      <Point>WINTON</Point>
-      <Point>WOODLANDS</Point>
+      <Point Name="AWARUA">-462930.300+1682307.200</Point>
+      <Point Name="BENCH ISLAND">-465428.000+1681421.100</Point>
+      <Point Name="BIG GLORY BAY">-465924.700+1680551.800</Point>
+      <Point Name="BIG LAGOON">-462110.200+1681029.000</Point>
+      <Point Name="BLUFF">-463552.100+1681952.800</Point>
+      <Point Name="BREAKSEA">-470706.300+1681224.900</Point>
+      <Point Name="BUSHY POINT">-462710.200+1681934.200</Point>
+      <Point Name="CODFISH">-464538.800+1673518.400</Point>
+      <Point Name="DACRE">-461907.200+1683716.200</Point>
+      <Point Name="DOUGHBOY BAY">-470238.100+1674246.500</Point>
+      <Point Name="EAST CAPE">-470054.800+1681343.200</Point>
+      <Point Name="EDENDALE">-461839.200+1684706.200</Point>
+      <Point Name="EDWARDS ISLAND">-465009.900+1681303.600</Point>
+      <Point Name="FRESHWATER RIVER">-465358.400+1675801.500</Point>
+      <Point Name="HEDGEHOPE">-461223.200+1683253.200</Point>
+      <Point Name="HIGH ROCK">-464635.700+1674104.400</Point>
+      <Point Name="HORSESHOE BAY">-465239.400+1680735.800</Point>
+      <Point Name="KENNINGTON">-462332.400+1682647.800</Point>
+      <Point Name="KEW">-462612.800+1682123.300</Point>
+      <Point Name="KOPEKA">-470816.000+1675621.000</Point>
+      <Point Name="LEE BAY">-465146.300+1680723.700</Point>
+      <Point Name="LITTLE HELLFIRE BEACH">-465155.200+1674525.800</Point>
+      <Point Name="MAKAREWA">-461944.200+1682051.200</Point>
+      <Point Name="MASON BAY">-465520.800+1674558.500</Point>
+      <Point Name="MOUNT ANGLEM">-464425.400+1675458.500</Point>
+      <Point Name="MT RAKEAHUA">-465635.000+1675249.000</Point>
+      <Point Name="MURRAY BEACH">-464713.600+1680006.500</Point>
+      <Point Name="NORTH BEACH">-462331.000+1681147.600</Point>
+      <Point Name="OMAUI ISLAND">-463054.900+1681310.400</Point>
+      <Point Name="ORETI JUNCTION">-462149.900+1681515.700</Point>
+      <Point Name="RIVERTON">-462115.200+1680038.200</Point>
+      <Point Name="RUGGED ISLANDS">-464209.700+1674254.300</Point>
+      <Point Name="SANDY POINT">-462940.300+1681822.200</Point>
+      <Point Name="SKI CLUB">-462752.600+1681608.400</Point>
+      <Point Name="SMOKY BEACH">-464204.000+1675039.600</Point>
+      <Point Name="THORNBURY">-461719.400+1680542.400</Point>
+      <Point Name="TIN RANGE">-470509.000+1674804.000</Point>
+      <Point Name="WAIMATUA">-462704.300+1682731.100</Point>
+      <Point Name="WALLACETOWN">-461945.200+1681725.200</Point>
+      <Point Name="WEST RUGGEDY BEACH">-464412.100+1674314.300</Point>
+      <Point Name="WINTON">-460823.400+1681933.200</Point>
+      <Point Name="WOODLANDS">-462129.200+1683324.200</Point>
     </Label>
   </Map>
 </Maps>

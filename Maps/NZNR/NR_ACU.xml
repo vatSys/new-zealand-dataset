@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="07 STARs" Priority="1" CustomColourName="ProcArr" Centre="-39.464539+176.857611">
+  <Map Type="System2" Name="07 STARs" Priority="1" CustomColourName="ProcArr" Center="-39.464539+176.857611">
     <Line>
       <!--Rwy07 OPAP1C-->
       OPAPA/NR VOR
@@ -15,7 +15,7 @@
       <Point>OPAPA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="25 STARs" Priority="1" CustomColourName="ProcArr" Centre="-39.464353+176.871542">
+  <Map Type="System2" Name="25 STARs" Priority="1" CustomColourName="ProcArr" Center="-39.464353+176.871542">
     <Line>
       <!--Rwy25 OPAP1C-->
       OPAPA/NR VOR
@@ -30,7 +30,7 @@
       <Point>OPAPA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="16 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-39.477694+176.866311">
+  <Map Type="System2" Name="16 SIDs" Priority="1" CustomColourName="ProcDep" Center="-39.477694+176.866311">
     <Line Pattern="Dashed">
       <!--Rwy16 LEDIV2-->
       -39.477694+176.866311/LEDIV
@@ -81,7 +81,7 @@
       <Point>NOSAM</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="16 STARs" Priority="1" CustomColourName="ProcArr" Centre="-39.461989+176.868039">
+  <Map Type="System2" Name="16 STARs" Priority="1" CustomColourName="ProcArr" Center="-39.461989+176.868039">
     <Line>
       <!--Rwy16 ADGI1A-->
       ADGIN/PANIA/NANUA
@@ -163,7 +163,7 @@
       <Point>AROPA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="34 SIDs" Priority="1" CustomColourName="ProcDep" Centre="-39.461989+176.868039">
+  <Map Type="System2" Name="34 SIDs" Priority="1" CustomColourName="ProcDep" Center="-39.461989+176.868039">
     <Line Pattern="Dashed">
       <!--Rwy34 LIM3-->
       -39.461989+176.868039/-39.457500+176.868611/NR VOR
@@ -208,7 +208,7 @@
       <Point>NOSAM</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="34 STARs" Priority="1" CustomColourName="ProcArr" Centre="-39.477694+176.866311">
+  <Map Type="System2" Name="34 STARs" Priority="1" CustomColourName="ProcArr" Center="-39.477694+176.866311">
     <Line>
       <!--Rwy34 ADGI1B-->
       ADGIN/OHITI
@@ -282,58 +282,58 @@
       <Point>AKINA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Centre="-39.465833+176.870000">
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-39.465833+176.870000">
     <Symbol Type="HollowSquare">
-      <Point>AWATOTO</Point>
-      <Point>CLIVE</Point>
-      <Point>ESKDALE</Point>
-      <Point>FERNHILL</Point>
-      <Point>GWAVAS</Point>
-      <Point>HAUMOANA</Point>
-      <Point>HAVELOCK NORTH</Point>
-      <Point>LAKE POUKAWA</Point>
-      <Point>MARAEKAKAHO</Point>
-      <Point>MOHAKA RIVER MOUTH</Point>
-      <Point>NUHAKA</Point>
-      <Point>PATOKA</Point>
-      <Point>PORAITI</Point>
-      <Point>PUKETAPU</Point>
-      <Point>RIDGEMOUNT BLUFF</Point>
-      <Point>RISSINGTON</Point>
-      <Point>SEAPORT</Point>
-      <Point>SOUTHERN DAM</Point>
-      <Point>TE POHUE</Point>
-      <Point>TUTIRA</Point>
-      <Point>WAIOHIKI</Point>
-      <Point>WAIPATIKI BEACH</Point>
-      <Point>WAIRANGO</Point>
-      <Point>WHIRINAKI</Point>
+      <Point Name="AWATOTO">-393312.700+1765520.700</Point>
+      <Point Name="CLIVE">-393505.700+1765447.700</Point>
+      <Point Name="ESKDALE">-392317.200+1764918.300</Point>
+      <Point Name="FERNHILL">-393514.800+1764539.600</Point>
+      <Point Name="GWAVAS">-394347.700+1762639.700</Point>
+      <Point Name="HAUMOANA">-393614.700+1765640.300</Point>
+      <Point Name="HAVELOCK NORTH">-394012.700+1765237.700</Point>
+      <Point Name="LAKE POUKAWA">-394653.700+1764200.700</Point>
+      <Point Name="MARAEKAKAHO">-393901.700+1763727.700</Point>
+      <Point Name="MOHAKA RIVER MOUTH">-390731.700+1771130.700</Point>
+      <Point Name="NUHAKA">-390247.700+1774421.800</Point>
+      <Point Name="PATOKA">-392047.700+1763616.700</Point>
+      <Point Name="PORAITI">-392934.200+1765021.000</Point>
+      <Point Name="PUKETAPU">-393042.700+1764717.700</Point>
+      <Point Name="RIDGEMOUNT BLUFF">-391243.600+1770211.300</Point>
+      <Point Name="RISSINGTON">-392621.000+1764304.400</Point>
+      <Point Name="SEAPORT">-392838.700+1765523.700</Point>
+      <Point Name="SOUTHERN DAM">-385325.600+1760534.100</Point>
+      <Point Name="TE POHUE">-391500.700+1764056.700</Point>
+      <Point Name="TUTIRA">-391326.900+1765334.700</Point>
+      <Point Name="WAIOHIKI">-393300.800+1765127.200</Point>
+      <Point Name="WAIPATIKI BEACH">-391803.700+1765835.700</Point>
+      <Point Name="WAIRANGO">-385321.700+1761537.700</Point>
+      <Point Name="WHIRINAKI">-392238.100+1765316.300</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>AWATOTO</Point>
-      <Point>CLIVE</Point>
-      <Point>ESKDALE</Point>
-      <Point>FERNHILL</Point>
-      <Point>GWAVAS</Point>
-      <Point>HAUMOANA</Point>
-      <Point>HAVELOCK NORTH</Point>
-      <Point>LAKE POUKAWA</Point>
-      <Point>MARAEKAKAHO</Point>
-      <Point>MOHAKA RIVER MOUTH</Point>
-      <Point>NUHAKA</Point>
-      <Point>PATOKA</Point>
-      <Point>PORAITI</Point>
-      <Point>PUKETAPU</Point>
-      <Point>RIDGEMOUNT BLUFF</Point>
-      <Point>RISSINGTON</Point>
-      <Point>SEAPORT</Point>
-      <Point>SOUTHERN DAM</Point>
-      <Point>TE POHUE</Point>
-      <Point>TUTIRA</Point>
-      <Point>WAIOHIKI</Point>
-      <Point>WAIPATIKI BEACH</Point>
-      <Point>WAIRANGO</Point>
-      <Point>WHIRINAKI</Point>
+      <Point Name="AWATOTO">-393312.700+1765520.700</Point>
+      <Point Name="CLIVE">-393505.700+1765447.700</Point>
+      <Point Name="ESKDALE">-392317.200+1764918.300</Point>
+      <Point Name="FERNHILL">-393514.800+1764539.600</Point>
+      <Point Name="GWAVAS">-394347.700+1762639.700</Point>
+      <Point Name="HAUMOANA">-393614.700+1765640.300</Point>
+      <Point Name="HAVELOCK NORTH">-394012.700+1765237.700</Point>
+      <Point Name="LAKE POUKAWA">-394653.700+1764200.700</Point>
+      <Point Name="MARAEKAKAHO">-393901.700+1763727.700</Point>
+      <Point Name="MOHAKA RIVER MOUTH">-390731.700+1771130.700</Point>
+      <Point Name="NUHAKA">-390247.700+1774421.800</Point>
+      <Point Name="PATOKA">-392047.700+1763616.700</Point>
+      <Point Name="PORAITI">-392934.200+1765021.000</Point>
+      <Point Name="PUKETAPU">-393042.700+1764717.700</Point>
+      <Point Name="RIDGEMOUNT BLUFF">-391243.600+1770211.300</Point>
+      <Point Name="RISSINGTON">-392621.000+1764304.400</Point>
+      <Point Name="SEAPORT">-392838.700+1765523.700</Point>
+      <Point Name="SOUTHERN DAM">-385325.600+1760534.100</Point>
+      <Point Name="TE POHUE">-391500.700+1764056.700</Point>
+      <Point Name="TUTIRA">-391326.900+1765334.700</Point>
+      <Point Name="WAIOHIKI">-393300.800+1765127.200</Point>
+      <Point Name="WAIPATIKI BEACH">-391803.700+1765835.700</Point>
+      <Point Name="WAIRANGO">-385321.700+1761537.700</Point>
+      <Point Name="WHIRINAKI">-392238.100+1765316.300</Point>
     </Label>
   </Map>
 </Maps>
