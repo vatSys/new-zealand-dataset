@@ -76,7 +76,9 @@
   <Sector FullName="Napier Tower" Frequency="124.800" Callsign="NZNR_TWR" Name="TNR" />
   <Sector FullName="Nelson Tower" Frequency="127.400" Callsign="NZNS_TWR" Name="TNS" />
   <Sector FullName="New Plymouth Tower" Frequency="124.700" Callsign="NZNP_TWR" Name="TNP" />
+  <Sector FullName="Ohakea Ground" Frequency="122.100" Callsign="NZOH_GND" Name="GOH" />
   <Sector FullName="Ohakea Tower" Frequency="134.500" Callsign="NZOH_TWR" Name="TOH" />
+  <Sector FullName="Palmerston North Ground" Frequency="121.700" Callsign="NZPM_GND" Name="GPM" />
   <Sector FullName="Palmerston North Tower" Frequency="120.600" Callsign="NZPM_TWR" Name="TPM" />
   <Sector FullName="Paraparaumu FIS" Frequency="118.300" Callsign="NZPP_TWR" Name="PFS">
     <Volumes>PPFIS</Volumes>
