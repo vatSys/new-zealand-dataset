@@ -147,7 +147,8 @@ Hot fixes for the Anzac Day event.
   
 * Addition of Paraparaumu and Milford FIS as positions. As defined in the Airspace section of the VATNZ website, these are Events Only positions.
 
-* Removal of Dunedin Ground and Delivery positions.
+* Removal of Dunedin Ground and Delivery positions. 
+
+* Palmerston and Ohakea Ground positions have been added.
 
 * Addition of updated `Performance.xml`, which includes aircraft type information (speeds, climb and descent rates). 
-
