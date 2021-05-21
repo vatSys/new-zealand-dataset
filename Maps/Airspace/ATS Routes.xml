@@ -130,7 +130,7 @@
     <Line Name="KQ361_0">OSTEL.KQ361.ELNEG</Line>
     <Line Name="KQ373_0">VEBTU.KQ373.VARMA</Line>
     <Line Name="KQ417_0">ELNOR.KQ417.REVMU</Line>
-    <Line Name="KQ427_0">OBLIX.KQ427.NOVTO</Line>
+    <Line Name="KQ427_0">NOBUL.KQ427.NOVTO</Line>
     <Line Name="KQ440_0">TAYLA.KQ440.NOMAP</Line>
     <Line Name="KQ492_0">LEKUL.KQ492.DUBIP</Line>
     <Line Name="KQ500_0">NZUI.KQ500.COAST</Line>
@@ -773,6 +773,10 @@
       <Point>VEBTU</Point>
       <Point>VARMA</Point>
       <Point>REVMU</Point>
+      <Point>NOBUL</Point>
+      <Point>OLGOP</Point>
+      <Point>IGDAR</Point>
+      <Point>RIPGO</Point>
       <Point>OBLIX</Point>
       <Point>RILVA</Point>
       <Point>IDVEX</Point>
@@ -1533,6 +1537,10 @@
       <Point>VEBTU</Point>
       <Point>VARMA</Point>
       <Point>REVMU</Point>
+      <Point>NOBUL</Point>
+      <Point>OLGOP</Point>
+      <Point>IGDAR</Point>
+      <Point>RIPGO</Point>
       <Point>OBLIX</Point>
       <Point>RILVA</Point>
       <Point>IDVEX</Point>

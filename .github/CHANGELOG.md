@@ -152,3 +152,13 @@ Hot fixes for the Anzac Day event.
 * Palmerston and Ohakea Ground positions have been added.
 
 * Addition of updated `Performance.xml`, which includes aircraft type information (speeds, climb and descent rates). 
+
+## AIRAC 2106
+
+### Revision A (Initial)
+
+**ANR database updated, with the following changes**:
+ * Additon of waypoints `OLGOP`, `IGDAR`, `EMSED`,  `URKEL`.
+ * Airway `KQ427` amended.
+ * Minor changes to controlled airspace bounds.
+ * Minor changes to VRP names.

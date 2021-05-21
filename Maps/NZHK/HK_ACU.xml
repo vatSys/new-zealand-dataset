@@ -123,10 +123,10 @@
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-42.713611+170.985278">
     <Symbol Type="HollowSquare">
-      <Point Name="ARCHIAC">-432754.000+1703453.400</Point>
+      <Point Name="MOUNT D'ARCHIAC">-432754.000+1703453.400</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point Name="ARCHIAC">-432754.000+1703453.400</Point>
+      <Point Name="MOUNT D'ARCHIAC">-432754.000+1703453.400</Point>
     </Label>
   </Map>
 </Maps>

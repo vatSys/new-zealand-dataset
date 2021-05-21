@@ -1734,6 +1734,10 @@ ELNOR/
 REVMU
 </Airway>
     <Airway Name="KQ427">
+NOBUL/
+OLGOP/
+IGDAR/
+RIPGO/
 OBLIX/
 RILVA/
 IDVEX/
@@ -3532,6 +3536,7 @@ RILEY
     <Point Name="EMRIV" Type="Fix">-355226.590+1735710.710</Point>
     <Point Name="EMSAK" Type="Fix">-364316.090+1745253.510</Point>
     <Point Name="EMSAR" Type="Fix">-385037.100+1755356.900</Point>
+    <Point Name="EMSED" Type="Fix">-361442.590+1742910.940</Point>
     <Point Name="EMSOX" Type="Fix">-211326.050-1602001.590</Point>
     <Point Name="EMTAR" Type="Fix">-135517.140-1711645.290</Point>
     <Point Name="EMTEP" Type="Fix">-441525.690+1711638.340</Point>
@@ -3668,6 +3673,7 @@ RILEY
     <Point Name="GURKO" Type="Fix">-212127.630-1601828.430</Point>
     <Point Name="GURON" Type="Fix">-134441.280-1715149.700</Point>
     <Point Name="GURSU" Type="Fix">-385435.000+1771707.000</Point>
+    <Point Name="GURSU" Type="Fix">-385434.590+1771707.170</Point>
     <Point Name="GUSAG" Type="Fix">-383521.240+1755202.430</Point>
     <Point Name="GUSAS" Type="Fix">-450544.330+1683255.220</Point>
     <Point Name="GUSDU" Type="Fix">-410623.670+1733939.650</Point>
@@ -3749,6 +3755,7 @@ RILEY
     <Point Name="IGABI" Type="Fix">-372448.310+1745504.810</Point>
     <Point Name="IGAPI" Type="Fix">-182740.000+1782930.998</Point>
     <Point Name="IGBOS" Type="Fix">-390221.110+1740207.280</Point>
+    <Point Name="IGDAR" Type="Fix">-461622.140+1700849.000</Point>
     <Point Name="IGDIL" Type="Fix">-385349.340+1741709.090</Point>
     <Point Name="IGDOT" Type="Fix">-392042.460+1743918.960</Point>
     <Point Name="IGEGA" Type="Fix">-425014.640+1722951.290</Point>
@@ -4257,6 +4264,7 @@ RILEY
     <Point Name="OLBIN" Type="Fix">-411307.240+1744851.060</Point>
     <Point Name="OLDON" Type="Fix">-374630.210+1754240.520</Point>
     <Point Name="OLGAL" Type="Fix">-443542.620+1703911.320</Point>
+    <Point Name="OLGOP" Type="Fix">-462847.000+1695142.000</Point>
     <Point Name="OLIVE" Type="Fix">-142458.430-1705125.240</Point>
     <Point Name="OLMEM" Type="Fix">-352606.020+1743420.420</Point>
     <Point Name="OLMOT" Type="Fix">-384536.690+1741351.300</Point>
@@ -4830,6 +4838,7 @@ RILEY
     <Point Name="URDOR" Type="Fix">-365755.690+1751047.520</Point>
     <Point Name="URDUD" Type="Fix">-364940.780+1751826.410</Point>
     <Point Name="URGUN" Type="Fix">-413509.780+1735125.570</Point>
+    <Point Name="URKEL" Type="Fix">-455702.790+1702315.920</Point>
     <Point Name="URKEN" Type="Fix">-213319.170-1601043.970</Point>
     <Point Name="URKEP" Type="Fix">-230015.740-1650000.000</Point>
     <Point Name="URKIM" Type="Fix">-442602.170+1711846.590</Point>
@@ -5264,7 +5273,6 @@ RILEY
     <Point Name="ALMER HUTT" Type="Fix">-432828.000+1701227.300</Point>
     <Point Name="AMBERLEY BEACH" Type="Fix">-431034.000+1724639.500</Point>
     <Point Name="AOKAUTERE" Type="Fix">-402154.400+1753949.800</Point>
-    <Point Name="ARCHIAC" Type="Fix">-432754.000+1703453.400</Point>
     <Point Name="ARMADILLO" Type="Fix">-433247.000+1702504.400</Point>
     <Point Name="ARUNDEL PONDS" Type="Fix">-435856.700+1711823.900</Point>
     <Point Name="ASHHURST" Type="Fix">-401719.000+1754518.500</Point>
@@ -5465,6 +5473,7 @@ RILEY
     <Point Name="KAINGAROA" Type="Fix">-382430.600+1763356.500</Point>
     <Point Name="KAIPO SADDLE" Type="Fix">-442703.800+1675925.200</Point>
     <Point Name="KAITUNA BRIDGE" Type="Fix">-412842.400+1734844.400</Point>
+    <Point Name="KAITUNA BRIDGE" Type="Fix">-374446.800+1762115.500</Point>
     <Point Name="KARAKA" Type="Fix">-370437.500+1745541.700</Point>
     <Point Name="KARANGAHAPE" Type="Fix">-384742.700+1754801.700</Point>
     <Point Name="KAREWA ISLAND" Type="Fix">-373146.800+1760754.500</Point>
@@ -5572,6 +5581,7 @@ RILEY
     <Point Name="MOUNT BALDY" Type="Fix">-374347.700+1761422.500</Point>
     <Point Name="MOUNT BARKER" Type="Fix">-444354.100+1691040.800</Point>
     <Point Name="MOUNT CLIMIE" Type="Fix">-410901.400+1750836.300</Point>
+    <Point Name="MOUNT D'ARCHIAC" Type="Fix">-432754.000+1703453.400</Point>
     <Point Name="MOUNT EARNSLAW" Type="Fix">-443721.100+1682438.200</Point>
     <Point Name="MOUNT GLENMARY" Type="Fix">-435835.100+1695241.300</Point>
     <Point Name="MOUNT HARBOUR ENTRANCE" Type="Fix">-373800.600+1760947.700</Point>
@@ -5676,6 +5686,7 @@ RILEY
     <Point Name="QUEENSBERRY" Type="Fix">-444947.300+1691958.700</Point>
     <Point Name="QUEENSTOWN HILL" Type="Fix">-445948.600+1684206.700</Point>
     <Point Name="RABBIT ISLAND BRIDGE" Type="Fix">-411702.800+1730755.500</Point>
+    <Point Name="RACECOURSE" Type="Fix">-412004.800+1731050.500</Point>
     <Point Name="RACECOURSE" Type="Fix">-374355.600+1760719.700</Point>
     <Point Name="RAETIHI" Type="Fix">-392539.800+1751654.900</Point>
     <Point Name="RAINBOW SKIFIELD" Type="Fix">-415229.400+1725138.800</Point>
