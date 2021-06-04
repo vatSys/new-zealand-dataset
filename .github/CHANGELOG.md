@@ -166,6 +166,7 @@ Hot fixes for the Anzac Day event.
  * New Whanganui VRPs have been added.
 
 **New Plymouth (NZNP) Changes**
+
  Mainly changes to bring the procedure notation in line with convention, and to reflect the replacement of WPT `VAMSU` with `BUGNO`.
 
  * **VISAD 3A** replaces VISAD 2A.
