@@ -10,6 +10,7 @@
 - [AIRAC 2103](#airac-2103)
 - [AIRAC 2104](#airac-2104)
 - [AIRAC 2105](#airac-2105)
+- [AIRAC 2106](#airac-2106)
 
 
 ## AIRAC 2013
