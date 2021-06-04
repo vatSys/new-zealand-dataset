@@ -1,6 +1,8 @@
 # VATNZ vatSys Dataset Project
 
-[![Currently Released AIRAC](https://img.shields.io/badge/Currently%20Released%20AIRAC-2105a-blue)](https://github.com/vatnz-dev/new-zealand-dataset)
+
+[![Current AIRAC](https://img.shields.io/badge/Current%20AIRAC-2106a-blue)](https://github.com/vatnz-dev/new-zealand-dataset) [![Next Release](https://img.shields.io/badge/Next%20Release-15%20June-blueviolet)](https://github.com/vatnz-dev/new-zealand-dataset) 
+
 
 
 The VATNZ vatSys Dataset project is an open source collaborative project allowing members of the VATNZ community to work together to create a high-quality dataset to use in vatSys.
