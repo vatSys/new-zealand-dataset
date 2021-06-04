@@ -158,7 +158,18 @@ Hot fixes for the Anzac Day event.
 ### Revision A (Initial)
 
 **ANR database updated, with the following changes**:
- * Additon of waypoints `OLGOP`, `IGDAR`, `EMSED`,  `URKEL`.
- * Airway `KQ427` amended.
+ * WPT `VAMSU` replaced with WPT `BUGNO`. New Plymouth procedures have been changed (see below).
+ * Additon of waypoints `OLGOP`, `IGDAR`, `EMSED`,  `URKEL`, `ELDIB`. 
+ * Airways `KQ427`, `H191` and `Y273` amended.
  * Minor changes to controlled airspace bounds.
- * Minor changes to VRP names.
+ * New Whanganui VRPs have been added.
+
+**New Plymouth (NZNP) Changes**
+ Mainly changes to bring the procedure notation in line with convention, and to reflect the replacement of WPT `VAMSU` with `BUGNO`.
+
+ * **VISAD 3A** replaces VISAD 2A.
+ * **BUGNO 1B** replaces VAMSU 2B.
+ * **SAVLO 3P** replaces SAVLO 2P.
+ * **GUSUR 2Q** replaces GUSUR 1Q.
+ * **LATIG 2Q** replaces LATIG 1G.
+
