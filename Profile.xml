@@ -5,6 +5,6 @@
 		<VATSIMStatus url="https://status.vatsim.net/" />
 		<GRIB url="http://sawbe.com/GRIB/" />
 		<G2G url="antifaff.vatsys.sawbe.com" port="64738" />
-		<Localhost URL="127.0.0.1" />
+		<LocalHost url="127.0.0.1" />
 	</Servers>	
 </Profile>
