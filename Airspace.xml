@@ -8468,7 +8468,7 @@ RILEY
     <Approach Name="GNSS" Airport="NZMO" Runway="26">
       <Transition Name="ALDEV">ALDEV</Transition>
       <Transition Name="ENSOV">ENSOV</Transition>
-      <Route>GULAN/-36.797194+174.755050/-36.789406+174.662178</Route>
+      <Route>GULAN/MO26T</Route>
     </Approach>
     <Approach Name="GNSS" Airport="NZMS" Runway="06">
       <Route>MAMOD/MS603/MS488/MS818/MS06T</Route>
