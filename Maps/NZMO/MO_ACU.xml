@@ -67,11 +67,13 @@
       <Point>ALDEV</Point>
       <Point>ENSOV</Point>
     </Symbol>
-    <Symbol Type="MalteseCross" />
+    <Symbol Type="MalteseCross">
+      <Point>-36.797194+174.755050</Point>
+    </Symbol>
     <Symbol Type="SolidTriangle">
       <Point>GULAN</Point>
     </Symbol>
-    <Line Pattern="Solid">GULAN/MO26T</Line>
+    <Line Pattern="Solid">GULAN/-36.797194+174.755050/-36.789406+174.662178</Line>
     <Line Pattern="Solid">ALDEV/GULAN</Line>
     <Line Pattern="Solid">ENSOV/GULAN</Line>
   </Map>

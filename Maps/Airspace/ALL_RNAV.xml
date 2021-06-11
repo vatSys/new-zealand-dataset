@@ -629,6 +629,7 @@
       <Point>-35.343650+173.939047</Point>
       <Point>-34.985489+173.206236</Point>
       <Point>PORUT</Point>
+      <Point>-36.797194+174.755050</Point>
       <Point>MS488</Point>
       <Point>MS402</Point>
       <Point>RIKDI</Point>
@@ -819,7 +820,7 @@
     <Line Pattern="Solid">LUGDU/PORUT/LX407</Line>
     <Line Pattern="Solid">BESMO/LUGDU</Line>
     <Line Pattern="Solid">KAKIT/LUGDU</Line>
-    <Line Pattern="Solid">GULAN/MO26T</Line>
+    <Line Pattern="Solid">GULAN/-36.797194+174.755050/-36.789406+174.662178</Line>
     <Line Pattern="Solid">ALDEV/GULAN</Line>
     <Line Pattern="Solid">ENSOV/GULAN</Line>
     <Line Pattern="Solid">MAMOD/MS603/MS488/MS818/MS06T</Line>
