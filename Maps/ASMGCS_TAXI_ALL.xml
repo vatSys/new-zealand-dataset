@@ -81,40 +81,40 @@
       <!-- NZAA END -->
 	  
       <!-- NZCH -->
+        <Point Name="A">-432912.775+1723215.583</Point>
+        <Point Name="A">-432939.000+1723146.000</Point>
+        <Point Name="A">-432849.000+1723244.000</Point>
         <Point Name="A2">-432833.730+1723256.306</Point>
         <Point Name="A3">-432853.980+1723232.251</Point>
         <Point Name="A4">-432904.794+1723219.676</Point>
         <Point Name="A5">-432918.265+1723203.718</Point>
         <Point Name="A6">-432941.960+1723136.516</Point>
         <Point Name="A7">-432952.523+1723125.316</Point>
+        <Point Name="A11">-432846.636+1723254.463</Point>
+        <Point Name="A12">-432852.507+1723247.144</Point>
+        <Point Name="A13">-432852.842+1723242.731</Point>
+        <Point Name="A15">-432908.243+1723229.594</Point>
+        <Point Name="A18">-432955.000+1723134.000</Point>
         <Point Name="F1">-432937.021+1723228.738</Point>
         <Point Name="E1">-432901.720+1723131.372</Point>
-        <Point Name="E3">-432914.071+1723154.088</Point>
-        <Point Name="E2">-432908.362+1723144.659</Point>
           
         <Point Name="F">-432925.127+1723215.029</Point>
         <Point Name="J1">-432941.834+1723223.989</Point>
-        <Point Name="A15">-432908.243+1723229.594</Point>
-        <Point Name="A">-432912.775+1723215.583</Point>
-        <Point Name="A13">-432852.842+1723242.731</Point>
-        <Point Name="A12">-432852.507+1723247.144</Point>
-        <Point Name="A11">-432846.636+1723254.463</Point>
         <Point Name="E">-432903.336+1723139.828</Point>
           
         <Point Name="02">-432953.948+1723116.709</Point>
         <Point Name="20">-432827.070+1723257.210</Point>
         <Point Name="11">-432902.339+1723126.346</Point>
         <Point Name="29">-432941.230+1723229.836</Point>
-        <Point Name="G20">-432855.672+1723206.623</Point>
-        <Point Name="G02">-432910.914+1723149.112</Point>
+        <Point Name="GR/20">-432855.672+1723206.623</Point>
+        <Point Name="GR/02">-432910.914+1723149.112</Point>
           
-        <Point Name="NZ POST">-432946.756+1723218.074</Point>
-        <Point Name="DOM">-432919.958+1723221.088</Point>
-        <Point Name="INTL">-432913.875+1723225.380</Point>
+        <Point Name="Freight Apron">-432946.756+1723218.074</Point>
+        <Point Name="Dom.">-432919.958+1723221.088</Point>
+        <Point Name="Intl.">-432913.875+1723225.380</Point>
         <Point Name="Antarctic Apron">-432911.040+1723243.415</Point>
-        <Point Name="Frieght Apron">-432903.019+1723233.648</Point>
         <Point Name="GCH Aviation">-432957.350+1723137.592</Point>
-        <Point Name="ANZ">-432849.638+1723249.916</Point>
+        <Point Name="ANZ Maint">-432849.000+1723259.000</Point>
       <!-- NZCH END -->
 
       <!-- NZQN -->

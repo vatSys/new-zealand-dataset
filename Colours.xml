@@ -407,9 +407,9 @@
   <Colour id="GroundRunway">
     <Use>A-SMGCS Runway</Use>
     <Name>DarkDarkGrey</Name>
-    <R>28</R>
-    <G>30</G>
-    <B>34</B>
+    <R>22</R>
+    <G>24</G>
+    <B>28</B>
   </Colour>
   <Colour id="GroundTaxiway">
     <Use>A-SMGCS Taxiway</Use>
@@ -575,5 +575,13 @@
     <R>24</R>
     <G>30</G>
     <B>30</B>
+  </Colour>
+
+  <Colour id="Custom">
+    <Use>Grass Taxiway and Runway features on the ASMGCS View</Use>
+    <Name>ASMGCS-Grass</Name>
+    <R>0</R>
+    <G>30</G>
+    <B>0</B>
   </Colour>
 </Colours>
