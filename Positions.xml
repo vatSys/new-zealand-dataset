@@ -464,7 +464,7 @@
         <Map Name="NZOH/ASMGCS_NZOH_TWY" />
       </Maps>
     </Position>
-    <Position Name="NZWB" Type="ASMGCS" ASMGCSAirport="NZWB" DefaultCenter="-413105.999+1735213.001" DefaultRange="2" MagneticVariation="5">
+    <Position Name="NZWB" Type="ASMGCS" ASMGCSAirport="NZWB" DefaultCenter="-41.518333+173.870278" DefaultRange="2" MagneticVariation="-22.9" Rotation="0">
       <Maps>
         <Map Name="NZWB/ASMGCS_NZWB_RWY" />
         <Map Name="NZWB/ASMGCS_NZWB_APR" />
