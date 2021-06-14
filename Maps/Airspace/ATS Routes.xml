@@ -19,7 +19,7 @@
     <Line Name="B575_0">AA VOR.B575.TUT NDB</Line>
     <Line Name="B577_0">HOI VOR.B577.PASSA</Line>
     <Line Name="B578_0">NILAX.B578.TAPAP</Line>
-    <Line Name="B581_0">BAXIL.B581.WOOBY</Line>
+    <Line Name="B581_0">BAXIL.B581.WACOS</Line>
     <Line Name="B596_0">RG VOR.B596.RAMIZ</Line>
     <Line Name="B598_0">RG VOR.B598.SUGNI</Line>
     <Line Name="B599_0">ELDOG.B599.ATURE</Line>
@@ -130,10 +130,9 @@
     <Line Name="KQ361_0">OSTEL.KQ361.ELNEG</Line>
     <Line Name="KQ373_0">VEBTU.KQ373.VARMA</Line>
     <Line Name="KQ417_0">ELNOR.KQ417.REVMU</Line>
-    <Line Name="KQ427_0">OBLIX.KQ427.NOVTO</Line>
+    <Line Name="KQ427_0">NOBUL.KQ427.NOVTO</Line>
     <Line Name="KQ440_0">TAYLA.KQ440.NOMAP</Line>
     <Line Name="KQ492_0">LEKUL.KQ492.DUBIP</Line>
-    <Line Name="KQ500_0">NZUI.KQ500.COAST</Line>
     <Line Name="KQ514_0">NZUB.KQ514.NP VOR</Line>
     <Line Name="KQ528_0">WP VOR.KQ528.KT NDB</Line>
     <Line Name="KQ551_0">TANIG.KQ551.WR NDB</Line>
@@ -154,7 +153,6 @@
     <Line Name="KQ806_0">UPSAS.KQ806.NODIK</Line>
     <Line Name="KQ809_0">NZKU.KQ809.NP VOR</Line>
     <Line Name="KQ812_0">KIMAN.KQ812.BRETT</Line>
-    <Line Name="KQ817_0">NZUI.KQ817.MESOS</Line>
     <Line Name="KQ839_0">ASEXO.KQ839.SF NDB</Line>
     <Line Name="KY383_0">BROAD.KY383.LALIK</Line>
     <Line Name="KY616_0">KABIL.KY616.KT NDB</Line>
@@ -163,7 +161,7 @@
     <Line Name="KZ405_0">ADRAD.KZ405.TASAM</Line>
     <Line Name="KZ698_0">TUHUA.KZ698.POURO</Line>
     <Line Name="KZ862_0">TUHUA.KZ862.RO VOR</Line>
-    <Line Name="KZ877_0">IDLOK.KZ877.TASAM</Line>
+    <Line Name="KZ877_0">ELDIB.KZ877.TASAM</Line>
     <Line Name="L326_0">CH VOR.L326.NF VOR</Line>
     <Line Name="L503_0">CH VOR.L503.TESAS</Line>
     <Line Name="L508_0">COOPS.L508.RG VOR</Line>
@@ -178,7 +176,7 @@
     <Line Name="N774_0">AA VOR.N774.AKALU</Line>
     <Line Name="P640_0">BYRRD.P640.HELGE</Line>
     <Line Name="P753_0">QN VOR.P753.SMIFF</Line>
-    <Line Name="P766_0">ADKOS.P766.MIKEL</Line>
+    <Line Name="P766_0">ADKOS.P766.OMKIN</Line>
     <Line Name="P880_0">QN VOR.P880.JUMPA</Line>
     <Line Name="Q100_0">WB VOR.Q100.WN VOR</Line>
     <Line Name="Q101_0">MAHIA.Q101.WK NDB</Line>
@@ -462,6 +460,7 @@
       <Point>GOBIN</Point>
       <Point>WOOBY</Point>
       <Point>BAXIL</Point>
+      <Point>WACOS</Point>
       <Point>BIGAN</Point>
       <Point>PULOS</Point>
       <Point>AI NDB</Point>
@@ -603,8 +602,8 @@
       <Point>IGABI</Point>
       <Point>WP VOR</Point>
       <Point>NP VOR</Point>
-      <Point>VAMSU</Point>
-      <Point>IDLOK</Point>
+      <Point>BUGNO</Point>
+      <Point>ELDIB</Point>
       <Point>DOGMO</Point>
       <Point>ELMER</Point>
       <Point>KAPTI</Point>
@@ -773,6 +772,10 @@
       <Point>VEBTU</Point>
       <Point>VARMA</Point>
       <Point>REVMU</Point>
+      <Point>NOBUL</Point>
+      <Point>OLGOP</Point>
+      <Point>IGDAR</Point>
+      <Point>RIPGO</Point>
       <Point>OBLIX</Point>
       <Point>RILVA</Point>
       <Point>IDVEX</Point>
@@ -795,11 +798,9 @@
       <Point>LIDLO</Point>
       <Point>GUVEN</Point>
       <Point>DUBIP</Point>
-      <Point>NZUI</Point>
-      <Point>BUVIK</Point>
-      <Point>COAST</Point>
       <Point>NZUB</Point>
       <Point>NZUA</Point>
+      <Point>BUVIK</Point>
       <Point>IGBOS</Point>
       <Point>VEGTA</Point>
       <Point>WELLS</Point>
@@ -820,6 +821,7 @@
       <Point>OVTIK</Point>
       <Point>IVRON</Point>
       <Point>DOXUD</Point>
+      <Point>COAST</Point>
       <Point>NZMX</Point>
       <Point>COUTA</Point>
       <Point>MANGA</Point>
@@ -834,7 +836,6 @@
       <Point>NZKU</Point>
       <Point>WAPOU</Point>
       <Point>BRETT</Point>
-      <Point>TOROA</Point>
       <Point>ASEXO</Point>
       <Point>LALIK</Point>
       <Point>KABIL</Point>
@@ -1222,6 +1223,7 @@
       <Point>GOBIN</Point>
       <Point>WOOBY</Point>
       <Point>BAXIL</Point>
+      <Point>WACOS</Point>
       <Point>BIGAN</Point>
       <Point>PULOS</Point>
       <Point>AI NDB</Point>
@@ -1363,8 +1365,8 @@
       <Point>IGABI</Point>
       <Point>WP VOR</Point>
       <Point>NP VOR</Point>
-      <Point>VAMSU</Point>
-      <Point>IDLOK</Point>
+      <Point>BUGNO</Point>
+      <Point>ELDIB</Point>
       <Point>DOGMO</Point>
       <Point>ELMER</Point>
       <Point>KAPTI</Point>
@@ -1533,6 +1535,10 @@
       <Point>VEBTU</Point>
       <Point>VARMA</Point>
       <Point>REVMU</Point>
+      <Point>NOBUL</Point>
+      <Point>OLGOP</Point>
+      <Point>IGDAR</Point>
+      <Point>RIPGO</Point>
       <Point>OBLIX</Point>
       <Point>RILVA</Point>
       <Point>IDVEX</Point>
@@ -1555,11 +1561,9 @@
       <Point>LIDLO</Point>
       <Point>GUVEN</Point>
       <Point>DUBIP</Point>
-      <Point>NZUI</Point>
-      <Point>BUVIK</Point>
-      <Point>COAST</Point>
       <Point>NZUB</Point>
       <Point>NZUA</Point>
+      <Point>BUVIK</Point>
       <Point>IGBOS</Point>
       <Point>VEGTA</Point>
       <Point>WELLS</Point>
@@ -1580,6 +1584,7 @@
       <Point>OVTIK</Point>
       <Point>IVRON</Point>
       <Point>DOXUD</Point>
+      <Point>COAST</Point>
       <Point>NZMX</Point>
       <Point>COUTA</Point>
       <Point>MANGA</Point>
@@ -1594,7 +1599,6 @@
       <Point>NZKU</Point>
       <Point>WAPOU</Point>
       <Point>BRETT</Point>
-      <Point>TOROA</Point>
       <Point>ASEXO</Point>
       <Point>LALIK</Point>
       <Point>KABIL</Point>
