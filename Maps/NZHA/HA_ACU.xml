@@ -27,33 +27,47 @@
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-39.553333+174.266944">
     <Symbol Type="HollowSquare">
       <Point Name="BELL BLOCK OVERPASS">-390213.100+1740832.300</Point>
+      <Point Name="BRUNSWICK SUBSTATION">-395211.430+1750302.490</Point>
+      <Point Name="CASTLECLIFF">-395519.620+1745744.560</Point>
       <Point Name="EGMONT VILLAGE">-390844.200+1740842.200</Point>
       <Point Name="FORDELL">-395737.700+1751215.600</Point>
       <Point Name="GERMAN HILL">-391109.700+1740756.600</Point>
       <Point Name="KAI IWI">-395050.700+1745532.600</Point>
+      <Point Name="KAI IWI BEACH">-395310.900+1745401.170</Point>
+      <Point Name="LAKE WESTMERE">-395342.080+1745956.850</Point>
       <Point Name="LEPPERTON">-390336.700+1741238.600</Point>
       <Point Name="OAKURA">-390712.700+1735716.600</Point>
+      <Point Name="PRISON">-395858.270+1750539.840</Point>
       <Point Name="RAETIHI">-392539.800+1751654.900</Point>
       <Point Name="SUGAR LOAF ISLAND">-390255.700+1740138.600</Point>
       <Point Name="TIKORANGI">-390201.700+1741647.600</Point>
       <Point Name="URENUI">-385950.700+1742324.600</Point>
       <Point Name="WAITARA VALLEY PLANT">-390137.200+1741456.500</Point>
+      <Point Name="WATER TOWER">-395535.710+1750409.220</Point>
       <Point Name="WHANGAEHU RIVER MOUTH">-400224.100+1750553.400</Point>
+      <Point Name="WHANGANUI PORT">-395642.920+1745922.860</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point Name="BELL BLOCK OVERPASS">-390213.100+1740832.300</Point>
+      <Point Name="BRUNSWICK SUBSTATION">-395211.430+1750302.490</Point>
+      <Point Name="CASTLECLIFF">-395519.620+1745744.560</Point>
       <Point Name="EGMONT VILLAGE">-390844.200+1740842.200</Point>
       <Point Name="FORDELL">-395737.700+1751215.600</Point>
       <Point Name="GERMAN HILL">-391109.700+1740756.600</Point>
       <Point Name="KAI IWI">-395050.700+1745532.600</Point>
+      <Point Name="KAI IWI BEACH">-395310.900+1745401.170</Point>
+      <Point Name="LAKE WESTMERE">-395342.080+1745956.850</Point>
       <Point Name="LEPPERTON">-390336.700+1741238.600</Point>
       <Point Name="OAKURA">-390712.700+1735716.600</Point>
+      <Point Name="PRISON">-395858.270+1750539.840</Point>
       <Point Name="RAETIHI">-392539.800+1751654.900</Point>
       <Point Name="SUGAR LOAF ISLAND">-390255.700+1740138.600</Point>
       <Point Name="TIKORANGI">-390201.700+1741647.600</Point>
       <Point Name="URENUI">-385950.700+1742324.600</Point>
       <Point Name="WAITARA VALLEY PLANT">-390137.200+1741456.500</Point>
+      <Point Name="WATER TOWER">-395535.710+1750409.220</Point>
       <Point Name="WHANGAEHU RIVER MOUTH">-400224.100+1750553.400</Point>
+      <Point Name="WHANGANUI PORT">-395642.920+1745922.860</Point>
     </Label>
   </Map>
 </Maps>

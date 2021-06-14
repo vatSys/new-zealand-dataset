@@ -231,7 +231,9 @@
       <Point Name="AOKAUTERE">-402154.400+1753949.800</Point>
       <Point Name="ASHHURST">-401719.000+1754518.500</Point>
       <Point Name="BENNETTS HILL">-405832.000+1754517.000</Point>
+      <Point Name="BRUNSWICK SUBSTATION">-395211.430+1750302.490</Point>
       <Point Name="BUNNYTHORPE SUBSTATION">-401649.800+1753816.600</Point>
+      <Point Name="CASTLECLIFF">-395519.620+1745744.560</Point>
       <Point Name="CHELTENHAM">-400817.500+1753938.200</Point>
       <Point Name="COLYTON">-401334.000+1753849.400</Point>
       <Point Name="FEILDING">-401145.500+1753415.000</Point>
@@ -242,7 +244,9 @@
       <Point Name="HOKIO BEACH">-403541.500+1751125.200</Point>
       <Point Name="HUNTERVILLE">-395611.700+1753408.900</Point>
       <Point Name="KAI IWI">-395050.700+1745532.600</Point>
+      <Point Name="KAI IWI BEACH">-395310.900+1745401.170</Point>
       <Point Name="KARIOI AERODROME">-392829.700+1753324.700</Point>
+      <Point Name="LAKE WESTMERE">-395342.080+1745956.850</Point>
       <Point Name="LEVIN">-403718.100+1751712.000</Point>
       <Point Name="LONGBURN">-402304.600+1753227.200</Point>
       <Point Name="MANAWATU RIVER MOUTH">-402836.900+1751255.100</Point>
@@ -257,6 +261,7 @@
       <Point Name="PAPANUI JUNCTION">-394037.700+1753254.600</Point>
       <Point Name="PEKAPEKA PONDS">-405055.900+1750255.900</Point>
       <Point Name="PINNACLE">-405257.100+1752826.600</Point>
+      <Point Name="PRISON">-395858.270+1750539.840</Point>
       <Point Name="RAETIHI">-392539.800+1751654.900</Point>
       <Point Name="RANGIOTU">-402521.300+1752641.500</Point>
       <Point Name="RAUMAI">-401143.700+1751308.600</Point>
@@ -267,14 +272,18 @@
       <Point Name="TIMBER MILL">-405802.900+1753609.700</Point>
       <Point Name="TOKOMARU">-402829.000+1753035.200</Point>
       <Point Name="UNIVERSITY">-402307.200+1753706.500</Point>
+      <Point Name="WATER TOWER">-395535.710+1750409.220</Point>
       <Point Name="WHANGAEHU RIVER MOUTH">-400224.100+1750553.400</Point>
+      <Point Name="WHANGANUI PORT">-395642.920+1745922.860</Point>
       <Point Name="WOODVILLE">-402013.200+1755159.600</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point Name="AOKAUTERE">-402154.400+1753949.800</Point>
       <Point Name="ASHHURST">-401719.000+1754518.500</Point>
       <Point Name="BENNETTS HILL">-405832.000+1754517.000</Point>
+      <Point Name="BRUNSWICK SUBSTATION">-395211.430+1750302.490</Point>
       <Point Name="BUNNYTHORPE SUBSTATION">-401649.800+1753816.600</Point>
+      <Point Name="CASTLECLIFF">-395519.620+1745744.560</Point>
       <Point Name="CHELTENHAM">-400817.500+1753938.200</Point>
       <Point Name="COLYTON">-401334.000+1753849.400</Point>
       <Point Name="FEILDING">-401145.500+1753415.000</Point>
@@ -285,7 +294,9 @@
       <Point Name="HOKIO BEACH">-403541.500+1751125.200</Point>
       <Point Name="HUNTERVILLE">-395611.700+1753408.900</Point>
       <Point Name="KAI IWI">-395050.700+1745532.600</Point>
+      <Point Name="KAI IWI BEACH">-395310.900+1745401.170</Point>
       <Point Name="KARIOI AERODROME">-392829.700+1753324.700</Point>
+      <Point Name="LAKE WESTMERE">-395342.080+1745956.850</Point>
       <Point Name="LEVIN">-403718.100+1751712.000</Point>
       <Point Name="LONGBURN">-402304.600+1753227.200</Point>
       <Point Name="MANAWATU RIVER MOUTH">-402836.900+1751255.100</Point>
@@ -300,6 +311,7 @@
       <Point Name="PAPANUI JUNCTION">-394037.700+1753254.600</Point>
       <Point Name="PEKAPEKA PONDS">-405055.900+1750255.900</Point>
       <Point Name="PINNACLE">-405257.100+1752826.600</Point>
+      <Point Name="PRISON">-395858.270+1750539.840</Point>
       <Point Name="RAETIHI">-392539.800+1751654.900</Point>
       <Point Name="RANGIOTU">-402521.300+1752641.500</Point>
       <Point Name="RAUMAI">-401143.700+1751308.600</Point>
@@ -310,7 +322,9 @@
       <Point Name="TIMBER MILL">-405802.900+1753609.700</Point>
       <Point Name="TOKOMARU">-402829.000+1753035.200</Point>
       <Point Name="UNIVERSITY">-402307.200+1753706.500</Point>
+      <Point Name="WATER TOWER">-395535.710+1750409.220</Point>
       <Point Name="WHANGAEHU RIVER MOUTH">-400224.100+1750553.400</Point>
+      <Point Name="WHANGANUI PORT">-395642.920+1745922.860</Point>
       <Point Name="WOODVILLE">-402013.200+1755159.600</Point>
     </Label>
   </Map>
