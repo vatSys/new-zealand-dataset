@@ -166,12 +166,21 @@ Hot fixes for the Anzac Day event.
  * New Whanganui VRPs have been added.
 
 **New Plymouth (NZNP) Changes**
-
- Mainly changes to bring the procedure notation in line with convention, and to reflect the replacement of WPT `VAMSU` with `BUGNO`.
+Mainly changes to bring the procedure notation in line with convention, and to reflect the replacement of WPT `VAMSU` with `BUGNO`.
 
  * **VISAD 3A** replaces VISAD 2A.
  * **BUGNO 1B** replaces VAMSU 2B.
  * **SAVLO 3P** replaces SAVLO 2P.
  * **GUSUR 2Q** replaces GUSUR 1Q.
  * **LATIG 2Q** replaces LATIG 1G.
+
+**A-SMGCS (Ground Radar views)**
+ASMGCS files are being progressively updated to bring them into naming standardizations, to allow for the automatic converting of them between vatSys and EuroScope. We're also taking this time to add additional features and details, including highly detailed terminals and grass runways.
+
+  * Woodbourne view redesigned. Implementation of grass runways. 
+  * Christchurch view redesigned. Implementation of grass runway.
+  * Auckland view redesigned.
+  * Wellington view redesigned.
+
+Major domestic aerodromes are next on the working list.
 
