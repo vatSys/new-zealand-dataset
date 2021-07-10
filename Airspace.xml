@@ -10,7 +10,7 @@
         <SID Name="BROK2Q" />
         <SID Name="EMRA1B" />
         <SID Name="KADM1Q" />
-        <SID Name="NZAA3A" />
+        <SID Name="NZAA3B" />
         <SID Name="PAGL3Q" />
         <SID Name="POLI2Q" />
         <SID Name="RAXI1Q" />
@@ -39,7 +39,7 @@
         <SID Name="LENG3P" />
         <SID Name="LEVR1P" />
         <SID Name="MEMO1P" />
-        <SID Name="NZAA3B" />
+        <SID Name="NZAA3A" />
         <SID Name="OSRA1P" />
         <SID Name="STEA1P" />
         <STAR Name="APAB2A" ApproachName="GNSSZ" />
@@ -975,7 +975,8 @@ ALOHI/
 TUT NDB/
 DARMA/
 SAPIX/
-PASSA
+PASSA/
+QUIGG
 </Airway>
     <Airway Name="B578">
 NILAX/
@@ -984,9 +985,7 @@ IBAKA/
 BUSTA/
 DADOK/
 DOGSA/
-DOTIK/
-DUMUM/
-TAPAP
+DOTIK
 </Airway>
     <Airway Name="B581">
 BAXIL/
@@ -1001,7 +1000,8 @@ PULOS/
 AI NDB/
 ORARA/
 OTURI/
-RAMIZ
+RAMIZ/
+RAYOR
 </Airway>
     <Airway Name="B598">
 RG VOR/
@@ -1071,7 +1071,8 @@ UBRAX/
 LANAT/
 UXULU/
 PUPIS/
-DUNEY
+DUNEY/
+DULCE
 </Airway>
     <Airway Name="G457">
 SELKA/
@@ -1082,7 +1083,8 @@ ONETU/
 TUT NDB/
 LAKER/
 BUDRA/
-ELLMS
+ELLMS/
+EBEBE
 </Airway>
     <Airway Name="G591">
 AA VOR/
@@ -3063,7 +3065,7 @@ RILEY
     <Point Name="AGRIP" Type="Fix">-423338.190+1710845.640</Point>
     <Point Name="AGSOP" Type="Fix">-410912.890+1743656.480</Point>
     <Point Name="AGTAM" Type="Fix">-450235.620+1690030.250</Point>
-    <Point Name="AGTEM" Type="Fix">-201444.002+1770557.001</Point>
+    <Point Name="AGTEM" Type="Fix">-201444.000+1770557.000</Point>
     <Point Name="AGTID" Type="Fix">-385041.730+1771821.080</Point>
     <Point Name="AGTUR" Type="Fix">-423638.630+1712212.880</Point>
     <Point Name="AGULA" Type="Fix">-374320.560+1752021.800</Point>
@@ -3108,7 +3110,7 @@ RILEY
     <Point Name="AMSTA" Type="Fix">-291207.350+1675623.400</Point>
     <Point Name="AMURI" Type="Fix">-382241.320+1760109.260</Point>
     <Point Name="AMVIX" Type="Fix">-463630.800+1682217.220</Point>
-    <Point Name="ANBAT" Type="Fix">-164146.000-1781604.001</Point>
+    <Point Name="ANBAT" Type="Fix">-164146.000-1781604.000</Point>
     <Point Name="ANBIG" Type="Fix">-455643.700+1695929.430</Point>
     <Point Name="ANDEP" Type="Fix">-425226.910+1705102.840</Point>
     <Point Name="ANDOM" Type="Fix">-391447.120+1742026.530</Point>
@@ -3189,7 +3191,7 @@ RILEY
     <Point Name="ATSOK" Type="Fix">-441957.170+1712709.880</Point>
     <Point Name="ATSOR" Type="Fix">-211209.210-1595213.480</Point>
     <Point Name="ATSUN" Type="Fix">-413436.640+1752948.810</Point>
-    <Point Name="ATURE" Type="Fix">-174325.000-1514130.001</Point>
+    <Point Name="ATURE" Type="Fix">-174325.000-1514130.000</Point>
     <Point Name="ATVOR" Type="Fix">-443242.380+1692715.860</Point>
     <Point Name="ATVOX" Type="Fix">-410102.300+1755252.340</Point>
     <Point Name="ATVUP" Type="Fix">-445846.680+1690407.060</Point>
@@ -3504,6 +3506,7 @@ RILEY
     <Point Name="DUKES" Type="Fix">-455150.250+1702009.500</Point>
     <Point Name="DUKOP" Type="Fix">-452803.050+1695828.910</Point>
     <Point Name="DUKUT" Type="Fix">-395424.210+1754136.400</Point>
+    <Point Name="DULCE" Type="Fix">+023721.000-1655438.000</Point>
     <Point Name="DULIG" Type="Fix">-441959.940+1680514.560</Point>
     <Point Name="DULOT" Type="Fix">-392539.400+1733712.300</Point>
     <Point Name="DULUL" Type="Fix">-445022.410+1684252.560</Point>
@@ -3517,6 +3520,7 @@ RILEY
     <Point Name="DUNAX" Type="Fix">-462115.560+1682955.520</Point>
     <Point Name="DUNEY" Type="Fix">-050000.000-1685806.000</Point>
     <Point Name="EAGIL" Type="Fix">-364017.730+1753805.820</Point>
+    <Point Name="EBEBE" Type="Fix">+023624.000-1643748.000</Point>
     <Point Name="EGAMU" Type="Fix">-463206.460+1681006.560</Point>
     <Point Name="EGATO" Type="Fix">-250000.000+1771957.780</Point>
     <Point Name="EGILI" Type="Fix">-370032.660+1755741.410</Point>
@@ -3543,7 +3547,7 @@ RILEY
     <Point Name="ELDAK" Type="Fix">-435510.460+1714743.160</Point>
     <Point Name="ELDIB" Type="Fix">-385654.100+1745831.540</Point>
     <Point Name="ELDIL" Type="Fix">-193826.900-1742719.290</Point>
-    <Point Name="ELDOG" Type="Fix">-180428.999-1781555.001</Point>
+    <Point Name="ELDOG" Type="Fix">-180429.000-1781555.000</Point>
     <Point Name="ELGUN" Type="Fix">-432654.750+1630000.000</Point>
     <Point Name="ELKIG" Type="Fix">-390304.540+1731830.740</Point>
     <Point Name="ELKOB" Type="Fix">-380224.150+1762122.030</Point>
@@ -3651,7 +3655,7 @@ RILEY
     <Point Name="GOGUK" Type="Fix">-423816.100+1731151.290</Point>
     <Point Name="GOGUL" Type="Fix">-183955.710-1734804.840</Point>
     <Point Name="GOKAG" Type="Fix">-393947.990+1785528.010</Point>
-    <Point Name="GOKIT" Type="Fix">-161522.000-1781605.999</Point>
+    <Point Name="GOKIT" Type="Fix">-161522.000-1781606.000</Point>
     <Point Name="GOLEG" Type="Fix">-450357.230+1684026.230</Point>
     <Point Name="GOMPI" Type="Fix">-433834.520+1722825.250</Point>
     <Point Name="GOMUD" Type="Fix">-375606.180+1750755.310</Point>
@@ -3784,7 +3788,7 @@ RILEY
     <Point Name="IDVIG" Type="Fix">-385619.910+1752558.110</Point>
     <Point Name="IDVOS" Type="Fix">-370449.990+1754929.260</Point>
     <Point Name="IGABI" Type="Fix">-372448.310+1745504.810</Point>
-    <Point Name="IGAPI" Type="Fix">-182740.000+1782930.998</Point>
+    <Point Name="IGAPI" Type="Fix">-182740.000+1782931.000</Point>
     <Point Name="IGBOS" Type="Fix">-390221.110+1740207.280</Point>
     <Point Name="IGDAR" Type="Fix">-461622.140+1700849.000</Point>
     <Point Name="IGDIL" Type="Fix">-385349.340+1741709.090</Point>
@@ -3842,7 +3846,7 @@ RILEY
     <Point Name="ISPAG" Type="Fix">-385830.330+1743730.510</Point>
     <Point Name="ISPAK" Type="Fix">-220524.070-1603652.940</Point>
     <Point Name="ISPOT" Type="Fix">-374729.990+1752133.850</Point>
-    <Point Name="ISTOS" Type="Fix">-190141.999+1782348.001</Point>
+    <Point Name="ISTOS" Type="Fix">-190142.000+1782348.000</Point>
     <Point Name="ISVEK" Type="Fix">-372631.020+1754607.720</Point>
     <Point Name="IVREP" Type="Fix">-401909.660+1755010.710</Point>
     <Point Name="IVRON" Type="Fix">-434846.310+1715854.440</Point>
@@ -3956,7 +3960,7 @@ RILEY
     <Point Name="LANIB" Type="Fix">-451820.170+1692108.460</Point>
     <Point Name="LAPIM" Type="Fix">-424935.430+1720319.120</Point>
     <Point Name="LAPOK" Type="Fix">-413626.120+1740804.220</Point>
-    <Point Name="LAPUM" Type="Fix">-163651.001-1781605.002</Point>
+    <Point Name="LAPUM" Type="Fix">-163651.000-1781605.000</Point>
     <Point Name="LAPUN" Type="Fix">-400000.240+1754313.690</Point>
     <Point Name="LARAV" Type="Fix">-450017.540+1685342.100</Point>
     <Point Name="LAROX" Type="Fix">-412140.590+1744254.990</Point>
@@ -3975,7 +3979,7 @@ RILEY
     <Point Name="LEBEN" Type="Fix">-103149.420-1605434.660</Point>
     <Point Name="LEBOL" Type="Fix">-290846.690+1651255.990</Point>
     <Point Name="LEBOX" Type="Fix">-390734.260+1743417.400</Point>
-    <Point Name="LEBUT" Type="Fix">-172845.001+1782250.999</Point>
+    <Point Name="LEBUT" Type="Fix">-172845.000+1782251.000</Point>
     <Point Name="LEDAK" Type="Fix">-375639.420+1761747.030</Point>
     <Point Name="LEDIV" Type="Fix">-393140.970+1765138.770</Point>
     <Point Name="LEDOR" Type="Fix">-401237.840+1744150.090</Point>
@@ -4068,7 +4072,7 @@ RILEY
     <Point Name="MAGLO" Type="Fix">-371154.410+1743510.010</Point>
     <Point Name="MAHIA" Type="Fix">-391126.140+1772631.260</Point>
     <Point Name="MAHOE" Type="Fix">-385100.760+1750900.780</Point>
-    <Point Name="MAITO" Type="Fix">-181802.999-1513255.000</Point>
+    <Point Name="MAITO" Type="Fix">-181803.000-1513255.000</Point>
     <Point Name="MAKEE" Type="Fix">-364529.820+1742357.400</Point>
     <Point Name="MAKEV" Type="Fix">-410827.100+1745848.450</Point>
     <Point Name="MAKOS" Type="Fix">-423701.420+1711053.880</Point>
@@ -4136,7 +4140,7 @@ RILEY
     <Point Name="MIGIS" Type="Fix">-122745.680-1705253.810</Point>
     <Point Name="MIKEL" Type="Fix">-383544.790+1573204.650</Point>
     <Point Name="MIKER" Type="Fix">-375527.590+1753703.510</Point>
-    <Point Name="MIKOP" Type="Fix">-175110.001-1513942.001</Point>
+    <Point Name="MIKOP" Type="Fix">-175110.000-1513942.000</Point>
     <Point Name="MILLA" Type="Fix">-393736.940+1765730.270</Point>
     <Point Name="MILON" Type="Fix">-415714.750+1730209.340</Point>
     <Point Name="MIMEG" Type="Fix">-441550.390+1681304.860</Point>
@@ -4190,7 +4194,7 @@ RILEY
     <Point Name="NIKIP" Type="Fix">-402439.530+1755527.130</Point>
     <Point Name="NIKOR" Type="Fix">-375846.590+1762330.410</Point>
     <Point Name="NIKOS" Type="Fix">-210150.640-1591745.120</Point>
-    <Point Name="NILAX" Type="Fix">-220448.000+1740418.001</Point>
+    <Point Name="NILAX" Type="Fix">-220448.000+1740418.000</Point>
     <Point Name="NILIB" Type="Fix">-462648.050+1681254.370</Point>
     <Point Name="NILID" Type="Fix">-405428.750+1744639.160</Point>
     <Point Name="NILUS" Type="Fix">-374445.230+1752748.150</Point>
@@ -4384,7 +4388,7 @@ RILEY
     <Point Name="PADDY" Type="Fix">-265244.231+1582515.049</Point>
     <Point Name="PADMU" Type="Fix">-393712.340+1741647.800</Point>
     <Point Name="PAGLA" Type="Fix">-370532.150+1744602.460</Point>
-    <Point Name="PAGRA" Type="Fix">-182411.002-1781551.001</Point>
+    <Point Name="PAGRA" Type="Fix">-182411.000-1781551.000</Point>
     <Point Name="PAHWA" Type="Fix">-410615.340+1745542.570</Point>
     <Point Name="PAKNO" Type="Fix">-351238.980+1740549.950</Point>
     <Point Name="PAKNU" Type="Fix">-413036.950+1740038.590</Point>
@@ -4485,7 +4489,7 @@ RILEY
     <Point Name="PUHOI" Type="Fix">-362659.840+1743508.380</Point>
     <Point Name="PUKEK" Type="Fix">-371310.980+1745204.260</Point>
     <Point Name="PULOS" Type="Fix">-200148.100-1594856.030</Point>
-    <Point Name="PUMIS" Type="Fix">-050000.000-1530342.001</Point>
+    <Point Name="PUMIS" Type="Fix">-050000.000-1530342.000</Point>
     <Point Name="PUNGA" Type="Fix">-385244.260+1752324.100</Point>
     <Point Name="PUPIS" Type="Fix">-100000.000-1710530.000</Point>
     <Point Name="QN529" Type="Fix">-450118.779+1681845.292</Point>
@@ -4537,11 +4541,13 @@ RILEY
     <Point Name="QN878" Type="Fix">-451807.980+1684352.130</Point>
     <Point Name="QN882" Type="Fix">-452106.020+1684244.910</Point>
     <Point Name="QUAIL" Type="Fix">-413118.330+1730015.930</Point>
+    <Point Name="QUIGG" Type="Fix">+010430.000-1554605.000</Point>
     <Point Name="QUINA" Type="Fix">-365505.060+1744317.670</Point>
     <Point Name="RAMIZ" Type="Fix">-050000.000-1590512.000</Point>
     <Point Name="RAXER" Type="Fix">-211901.870-1570000.000</Point>
     <Point Name="RAXIN" Type="Fix">-362737.990+1750049.430</Point>
     <Point Name="RAXOL" Type="Fix">-462244.550+1683043.780</Point>
+    <Point Name="RAYOR" Type="Fix">+022537.000-1583910.000</Point>
     <Point Name="REBUR" Type="Fix">-433221.220+1713839.160</Point>
     <Point Name="REDOL" Type="Fix">-452841.730+1684817.000</Point>
     <Point Name="REEVE" Type="Fix">-375325.190+1761957.820</Point>
@@ -4599,7 +4605,7 @@ RILEY
     <Point Name="RULOL" Type="Fix">-454956.060+1704428.180</Point>
     <Point Name="RUMBI" Type="Fix">-431913.940+1721652.740</Point>
     <Point Name="RUMET" Type="Fix">-380025.470+1751935.330</Point>
-    <Point Name="RUMIX" Type="Fix">-270736.998+1630000.000</Point>
+    <Point Name="RUMIX" Type="Fix">-270737.000+1630000.000</Point>
     <Point Name="RUMRA" Type="Fix">-375047.200+1761031.380</Point>
     <Point Name="RUMUS" Type="Fix">-293339.780+1715139.040</Point>
     <Point Name="RUNOD" Type="Fix">-360925.000+1630000.000</Point>
@@ -4621,7 +4627,7 @@ RILEY
     <Point Name="SABAV" Type="Fix">-370114.970+1750421.290</Point>
     <Point Name="SABDA" Type="Fix">-414736.820+1742832.150</Point>
     <Point Name="SABID" Type="Fix">-381916.120+1762151.180</Point>
-    <Point Name="SABUB" Type="Fix">-183114.002-1512604.999</Point>
+    <Point Name="SABUB" Type="Fix">-183114.000-1512605.000</Point>
     <Point Name="SADBO" Type="Fix">-412038.930+1740325.590</Point>
     <Point Name="SADEM" Type="Fix">-433332.270+1715900.850</Point>
     <Point Name="SADIM" Type="Fix">-254335.020+1703649.770</Point>
@@ -4660,7 +4666,7 @@ RILEY
     <Point Name="SAVLA" Type="Fix">-432905.340+1695447.550</Point>
     <Point Name="SAVLO" Type="Fix">-385815.970+1741659.170</Point>
     <Point Name="SCARY" Type="Fix">-373420.860+1750414.520</Point>
-    <Point Name="SCUBA" Type="Fix">-235830.000+1664005.999</Point>
+    <Point Name="SCUBA" Type="Fix">-235830.000+1664006.000</Point>
     <Point Name="SEBGI" Type="Fix">-410523.250+1733046.560</Point>
     <Point Name="SEBRU" Type="Fix">-402541.910+1732706.730</Point>
     <Point Name="SEDSI" Type="Fix">-412336.500+1740659.850</Point>
@@ -4705,7 +4711,7 @@ RILEY
     <Point Name="SUDAM" Type="Fix">-383128.780+1761746.560</Point>
     <Point Name="SUDIG" Type="Fix">-370744.670+1755024.570</Point>
     <Point Name="SUGIL" Type="Fix">-433415.220+1723504.600</Point>
-    <Point Name="SUGNI" Type="Fix">-193419.999-1782934.001</Point>
+    <Point Name="SUGNI" Type="Fix">-193420.000-1782934.000</Point>
     <Point Name="SUKAN" Type="Fix">-204338.810-1595831.900</Point>
     <Point Name="SUKEL" Type="Fix">-103053.330-1604935.470</Point>
     <Point Name="SULAB" Type="Fix">-412455.180+1744803.370</Point>
@@ -4740,7 +4746,6 @@ RILEY
     <Point Name="TANIG" Type="Fix">-354909.140+1740148.850</Point>
     <Point Name="TANOU" Type="Fix">-194726.870-1575238.580</Point>
     <Point Name="TAPAB" Type="Fix">-413712.520+1743915.260</Point>
-    <Point Name="TAPAP" Type="Fix">-180024.001-1513853.999</Point>
     <Point Name="TAPAT" Type="Fix">-363834.580+1732553.480</Point>
     <Point Name="TARIB" Type="Fix">-340358.110+1764453.080</Point>
     <Point Name="TARIT" Type="Fix">-462820.510+1683134.920</Point>
@@ -4758,7 +4763,7 @@ RILEY
     <Point Name="TEENA" Type="Fix">-370325.450+1743656.280</Point>
     <Point Name="TEGIK" Type="Fix">-365820.340+1745546.640</Point>
     <Point Name="TEKEP" Type="Fix">-302924.000+1630000.000</Point>
-    <Point Name="TEKOT" Type="Fix">-184818.000-1511421.001</Point>
+    <Point Name="TEKOT" Type="Fix">-184818.000-1511421.000</Point>
     <Point Name="TELER" Type="Fix">-205802.470-1601620.090</Point>
     <Point Name="TELIM" Type="Fix">-402056.170+1733736.710</Point>
     <Point Name="TELUS" Type="Fix">-451342.610+1693840.990</Point>
@@ -4777,7 +4782,7 @@ RILEY
     <Point Name="THROW" Type="Fix">-374030.580+1752919.660</Point>
     <Point Name="TIMJO" Type="Fix">-442739.100+1694254.400</Point>
     <Point Name="TK401" Type="Fix">-404012.130+1725045.290</Point>
-    <Point Name="TK407" Type="Fix">-404743.001+1724706.922</Point>
+    <Point Name="TK407" Type="Fix">-404743.000+1724706.922</Point>
     <Point Name="TODAN" Type="Fix">-374455.590+1762216.890</Point>
     <Point Name="TOKES" Type="Fix">-391800.310+1741626.340</Point>
     <Point Name="TOKET" Type="Fix">-211122.540-1594433.880</Point>
@@ -4909,7 +4914,7 @@ RILEY
     <Point Name="VEMRO" Type="Fix">-375901.260+1761025.240</Point>
     <Point Name="VEMSI" Type="Fix">-411532.820+1730943.860</Point>
     <Point Name="VENAM" Type="Fix">-415018.900+1743752.260</Point>
-    <Point Name="VENAN" Type="Fix">-194520.002+1755056.000</Point>
+    <Point Name="VENAN" Type="Fix">-194520.000+1755056.000</Point>
     <Point Name="VENDO" Type="Fix">-410945.110+1733427.180</Point>
     <Point Name="VENIR" Type="Fix">-460145.090+1690814.000</Point>
     <Point Name="VENKI" Type="Fix">-432549.950+1722612.830</Point>
@@ -4919,7 +4924,7 @@ RILEY
     <Point Name="VESAV" Type="Fix">-384402.210+1780007.210</Point>
     <Point Name="VETEV" Type="Fix">-425219.460+1713807.060</Point>
     <Point Name="VIBAG" Type="Fix">-365147.460+1750015.660</Point>
-    <Point Name="VIBEX" Type="Fix">-181444.999+1765756.999</Point>
+    <Point Name="VIBEX" Type="Fix">-181445.000+1765757.000</Point>
     <Point Name="VIDEB" Type="Fix">-195446.930-1741337.090</Point>
     <Point Name="VIDOB" Type="Fix">-374648.870+1760024.810</Point>
     <Point Name="VIDUL" Type="Fix">-211634.980-1751630.770</Point>
@@ -4930,15 +4935,15 @@ RILEY
     <Point Name="VIMUN" Type="Fix">-370452.090+1752817.270</Point>
     <Point Name="VINOD" Type="Fix">-370340.580+1745245.990</Point>
     <Point Name="VINUL" Type="Fix">-411336.550+1731103.030</Point>
-    <Point Name="VIPOB" Type="Fix">-190123.999+1762342.000</Point>
-    <Point Name="VIRAR" Type="Fix">-244735.999+1674430.001</Point>
+    <Point Name="VIPOB" Type="Fix">-190124.000+1762342.000</Point>
+    <Point Name="VIRAR" Type="Fix">-244736.000+1674430.000</Point>
     <Point Name="VIRIS" Type="Fix">-365223.760+1745028.560</Point>
     <Point Name="VIROL" Type="Fix">-400855.780+1750414.280</Point>
     <Point Name="VIRUS" Type="Fix">-091404.980-1580014.560</Point>
     <Point Name="VISAD" Type="Fix">-390732.380+1740254.090</Point>
     <Point Name="VISIG" Type="Fix">-364840.370+1754431.430</Point>
     <Point Name="VISIK" Type="Fix">-212117.810-1714618.330</Point>
-    <Point Name="WACOS" Type="Fix">-011614.002-1640000.000</Point>
+    <Point Name="WACOS" Type="Fix">-011614.000-1640000.000</Point>
     <Point Name="WADGI" Type="Fix">-141836.630-1703836.860</Point>
     <Point Name="WAIHI" Type="Fix">-372253.240+1755553.790</Point>
     <Point Name="WAIKA" Type="Fix">-365949.080+1751802.760</Point>
@@ -5009,7 +5014,7 @@ RILEY
     <Point Name="CI" Type="Navaid" NavaidType="NDB" Frequency="322">-435725.300-1763358.800</Point>
     <Point Name="FA" Type="Navaid" NavaidType="NDB" Frequency="270">-134934.520-1720103.420</Point>
     <Point Name="FM" Type="Navaid" NavaidType="NDB" Frequency="245">-211459.400-1750841.000</Point>
-    <Point Name="FU" Type="Navaid" NavaidType="NDB" Frequency="0">-083128.999+1791152.001</Point>
+    <Point Name="FU" Type="Navaid" NavaidType="NDB" Frequency="0">-083129.000+1791152.000</Point>
     <Point Name="HK" Type="Navaid" NavaidType="NDB" Frequency="310">-424345.600+1705722.400</Point>
     <Point Name="HL" Type="Navaid" NavaidType="NDB" Frequency="378">-455645.200+1700943.000</Point>
     <Point Name="KI" Type="Navaid" NavaidType="NDB" Frequency="350">-422513.400+1734143.900</Point>
@@ -5102,9 +5107,9 @@ RILEY
     <Point Name="HK12T" Type="Fix">-424239.449+1705903.952</Point>
     <Point Name="HK21T" Type="Fix">-424227.950+1705931.448</Point>
     <Point Name="HK30T" Type="Fix">-424311.431+1705932.071</Point>
-    <Point Name="HN07T" Type="Fix">-375159.000+1752007.001</Point>
+    <Point Name="HN07T" Type="Fix">-375159.000+1752007.000</Point>
     <Point Name="HN18L" Type="Fix">-375120.902+1752010.219</Point>
-    <Point Name="HN25T" Type="Fix">-375159.000+1752007.001</Point>
+    <Point Name="HN25T" Type="Fix">-375159.000+1752007.000</Point>
     <Point Name="HN36R" Type="Fix">-375225.140+1751946.942</Point>
     <Point Name="HS01T" Type="Fix">-393853.779+1764550.980</Point>
     <Point Name="HS11T" Type="Fix">-393848.649+1764555.865</Point>
@@ -5136,7 +5141,7 @@ RILEY
     <Point Name="LE29T" Type="Fix">-414548.312+1724511.372</Point>
     <Point Name="LX01T" Type="Fix">-451249.460+1692206.539</Point>
     <Point Name="LX14T" Type="Fix">-451222.770+1692208.350</Point>
-    <Point Name="LX19T" Type="Fix">-451233.001+1692219.409</Point>
+    <Point Name="LX19T" Type="Fix">-451233.000+1692219.409</Point>
     <Point Name="LX32T" Type="Fix">-451259.198+1692227.592</Point>
     <Point Name="MA04T" Type="Fix">-374404.052+1754415.396</Point>
     <Point Name="MA10T" Type="Fix">-374404.452+1754412.484</Point>
@@ -5163,9 +5168,9 @@ RILEY
     <Point Name="NF01T" Type="Fix">-391232.990+1741309.491</Point>
     <Point Name="NF19T" Type="Fix">-391208.410+1741329.759</Point>
     <Point Name="NP05T" Type="Fix">-390037.609+1741012.241</Point>
-    <Point Name="NP14T" Type="Fix">-390031.000+1741045.001</Point>
+    <Point Name="NP14T" Type="Fix">-390031.000+1741045.000</Point>
     <Point Name="NP23T" Type="Fix">-390020.318+1741102.000</Point>
-    <Point Name="NP32T" Type="Fix">-390031.000+1741045.001</Point>
+    <Point Name="NP32T" Type="Fix">-390031.000+1741045.000</Point>
     <Point Name="NR07T" Type="Fix">-392752.340+1765127.400</Point>
     <Point Name="NR16T" Type="Fix">-392743.160+1765204.940</Point>
     <Point Name="NR25T" Type="Fix">-392751.671+1765217.551</Point>
@@ -5224,10 +5229,10 @@ RILEY
     <Point Name="SD34T" Type="Fix">-391914.059+1741832.422</Point>
     <Point Name="SL16T" Type="Fix">-361914.380+1743321.398</Point>
     <Point Name="SL34T" Type="Fix">-361930.922+1743321.240</Point>
-    <Point Name="TG04T" Type="Fix">-374018.998+1761146.000</Point>
+    <Point Name="TG04T" Type="Fix">-374019.000+1761146.000</Point>
     <Point Name="TG07T" Type="Fix">-374021.900+1761118.200</Point>
     <Point Name="TG16T" Type="Fix">-374020.770+1761138.897</Point>
-    <Point Name="TG22T" Type="Fix">-374018.998+1761146.000</Point>
+    <Point Name="TG22T" Type="Fix">-374019.000+1761146.000</Point>
     <Point Name="TG25T" Type="Fix">-374025.702+1761232.602</Point>
     <Point Name="TG34T" Type="Fix">-374038.870+1761137.576</Point>
     <Point Name="TH05T" Type="Fix">-370942.358+1753245.071</Point>
@@ -5258,7 +5263,7 @@ RILEY
     <Point Name="WB10T" Type="Fix">-413057.103+1735141.000</Point>
     <Point Name="WB24T" Type="Fix">-413102.701+1735240.462</Point>
     <Point Name="WB28T" Type="Fix">-413117.400+1735224.398</Point>
-    <Point Name="WF11T" Type="Fix">-444305.002+1691428.702</Point>
+    <Point Name="WF11T" Type="Fix">-444305.000+1691428.702</Point>
     <Point Name="WF29T" Type="Fix">-444334.000+1691505.000</Point>
     <Point Name="WK09T" Type="Fix">-375511.780+1765435.899</Point>
     <Point Name="WK27T" Type="Fix">-375527.541+1765524.420</Point>
@@ -5916,9 +5921,9 @@ RILEY
     <Point Name="GS" Type="Navaid" NavaidType="VOR" Frequency="114.2">-383937.840+1775839.220</Point>
     <Point Name="HN" Type="Navaid" NavaidType="VOR" Frequency="114">-375057.350+1752018.770</Point>
     <Point Name="HOI" Type="Navaid" NavaidType="VOR" Frequency="0">-131422.499-1761206.599</Point>
-    <Point Name="NA" Type="Navaid" NavaidType="VOR" Frequency="0">-180232.302+1783342.998</Point>
+    <Point Name="NA" Type="Navaid" NavaidType="VOR" Frequency="0">-180232.302+1783343.000</Point>
     <Point Name="NF" Type="Navaid" NavaidType="VOR" Frequency="112.4">-290250.400+1675555.800</Point>
-    <Point Name="NN" Type="Navaid" NavaidType="VOR" Frequency="0">-173916.999+1772344.999</Point>
+    <Point Name="NN" Type="Navaid" NavaidType="VOR" Frequency="0">-173917.000+1772345.000</Point>
     <Point Name="NP" Type="Navaid" NavaidType="VOR" Frequency="114.4">-390026.070+1741102.160</Point>
     <Point Name="NR" Type="Navaid" NavaidType="VOR" Frequency="113.8">-392713.690+1765208.130</Point>
     <Point Name="NS" Type="Navaid" NavaidType="VOR" Frequency="113.1">-411813.270+1731258.670</Point>
@@ -6013,11 +6018,11 @@ RILEY
       <Transition Name="SELKA">SELKA</Transition>
       <Transition Name="TARIB">TARIB</Transition>
     </SID>
-    <SID Name="NZAA3A" Airport="NZAA" Runways="05R">
-      <Route Runway="05R">EMRAG</Route>
+    <SID Name="NZAA3A" Airport="NZAA" Runways="23L">
+      <Route Runway="23L">EMRAG</Route>
     </SID>
-    <SID Name="NZAA3B" Airport="NZAA" Runways="23L">
-      <Route Runway="23L">LENGU</Route>
+    <SID Name="NZAA3B" Airport="NZAA" Runways="05R">
+      <Route Runway="05R">LENGU</Route>
     </SID>
     <SID Name="OSRA1P" Airport="NZAA" Runways="23L">
       <Route Runway="23L">LENGU/OSRAP</Route>
@@ -8980,7 +8985,7 @@ RILEY
     <Airport ICAO="NZLT" Position="-384354.000+1760206.000" />
     <Airport ICAO="NZLX" Position="-451242.000+1692224.000">
       <Runway Name="01" Position="-451249.460+1692206.539" />
-      <Runway Name="19" Position="-451233.001+1692219.409" />
+      <Runway Name="19" Position="-451233.000+1692219.409" />
       <Runway Name="14" Position="-451222.770+1692208.350" />
       <Runway Name="32" Position="-451259.198+1692227.592" />
     </Airport>
@@ -9228,7 +9233,7 @@ RILEY
     </Airport>
     <Airport ICAO="NZWE" Position="-364947.000+1750356.000" />
     <Airport ICAO="NZWF" Position="-444320.000+1691444.000">
-      <Runway Name="11" Position="-444305.002+1691428.702" />
+      <Runway Name="11" Position="-444305.000+1691428.702" />
       <Runway Name="29" Position="-444334.000+1691505.000" />
     </Airport>
     <Airport ICAO="NZWG" Position="-371202.000+1755200.000" />

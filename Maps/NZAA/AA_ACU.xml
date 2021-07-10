@@ -77,7 +77,8 @@
       KADMA/ELNOS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R NZAA3A-->
+      <!--Rwy05R NZAA3B-->
+      -37.006656+174.805742/LENGU
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05R PAGL3Q-->
@@ -220,6 +221,7 @@
       <Point>KADMA</Point>
       <Point>DUGAN</Point>
       <Point>ELNOS</Point>
+      <Point>LENGU</Point>
       <Point>ADKUM</Point>
       <Point>MADVI</Point>
       <Point>VINOD</Point>
@@ -251,6 +253,7 @@
       <Point>BROOK</Point>
       <Point>EMRAG</Point>
       <Point>KADMA</Point>
+      <Point>LENGU</Point>
       <Point>PAGLA</Point>
       <Point>POLIS</Point>
       <Point>RAXIN</Point>
@@ -717,7 +720,8 @@
       MEMOR/TARIB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L NZAA3B-->
+      <!--Rwy23L NZAA3A-->
+      -37.016317+174.770783/EMRAG
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23L OSRA1P-->
@@ -804,6 +808,7 @@
       <Point>KALAG</Point>
       <Point>SELKA</Point>
       <Point>TARIB</Point>
+      <Point>EMRAG</Point>
       <Point>OSRAP</Point>
       <Point>POSUX</Point>
       <Point>GULUT</Point>
@@ -827,6 +832,7 @@
       <Point>LENGU</Point>
       <Point>LEVRA</Point>
       <Point>MEMOR</Point>
+      <Point>EMRAG</Point>
       <Point>OSRAP</Point>
       <Point>STEAL</Point>
       <Point>DUGAN</Point>
