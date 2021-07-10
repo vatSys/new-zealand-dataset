@@ -11,6 +11,7 @@
 - [AIRAC 2104](#airac-2104)
 - [AIRAC 2105](#airac-2105)
 - [AIRAC 2106](#airac-2106)
+- [AIRAC 2107](#airac-2107)
 
 
 ## AIRAC 2013
@@ -184,3 +185,14 @@ ASMGCS files are being progressively updated to bring them into naming standardi
 
 Major domestic aerodromes are next on the working list.
 
+
+## AIRAC 2107
+
+### Revision A (Initial)
+
+**ANR database updated, with the following changes**:
+  * Minor updates to Airways routing.
+  * Minor CTA/Navaid co-ordinate changes.
+
+* Fixed a minor error where the Auckland RADAR SIDs were assigned to the incorrect runway.. oops.
+* Added a QNH zone map. The airfield in the brackets denotes the reference aerodrome for that QNH region.
