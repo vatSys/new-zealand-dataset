@@ -6019,10 +6019,10 @@ RILEY
       <Transition Name="TARIB">TARIB</Transition>
     </SID>
     <SID Name="NZAA3A" Airport="NZAA" Runways="23L">
-      <Route Runway="23L">EMRAG</Route>
+      <Route Runway="23L">LENGU</Route>
     </SID>
     <SID Name="NZAA3B" Airport="NZAA" Runways="05R">
-      <Route Runway="05R">LENGU</Route>
+      <Route Runway="05R">EMRAG</Route>
     </SID>
     <SID Name="OSRA1P" Airport="NZAA" Runways="23L">
       <Route Runway="23L">LENGU/OSRAP</Route>
