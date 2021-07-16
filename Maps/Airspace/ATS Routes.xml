@@ -17,17 +17,17 @@
     <Line Name="B454_0">TUT NDB.B454.MEVEP</Line>
     <Line Name="B455_0">TV NDB.B455.OGELA</Line>
     <Line Name="B575_0">AA VOR.B575.TUT NDB</Line>
-    <Line Name="B577_0">HOI VOR.B577.PASSA</Line>
-    <Line Name="B578_0">NILAX.B578.TAPAP</Line>
+    <Line Name="B577_0">HOI VOR.B577.QUIGG</Line>
+    <Line Name="B578_0">NILAX.B578.DOTIK</Line>
     <Line Name="B581_0">BAXIL.B581.WACOS</Line>
-    <Line Name="B596_0">RG VOR.B596.RAMIZ</Line>
+    <Line Name="B596_0">RG VOR.B596.RAYOR</Line>
     <Line Name="B598_0">RG VOR.B598.SUGNI</Line>
     <Line Name="B599_0">ELDOG.B599.ATURE</Line>
     <Line Name="G223_0">MIKOP.G223.PAGRA</Line>
     <Line Name="G224_0">NF VOR.G224.OPERU</Line>
     <Line Name="G329_0">NF VOR.G329.DOVOM</Line>
-    <Line Name="G347_0">AA VOR.G347.DUNEY</Line>
-    <Line Name="G457_0">SELKA.G457.ELLMS</Line>
+    <Line Name="G347_0">AA VOR.G347.DULCE</Line>
+    <Line Name="G457_0">SELKA.G457.EBEBE</Line>
     <Line Name="G591_0">AA VOR.G591.SCUBA</Line>
     <Line Name="G593_0">RG VOR.G593.PAGRA</Line>
     <Line Name="G594_0">AA VOR.G594.MAITO</Line>
@@ -449,14 +449,13 @@
       <Point>HOI VOR</Point>
       <Point>OVLAD</Point>
       <Point>ALOHI</Point>
+      <Point>QUIGG</Point>
       <Point>IBAKA</Point>
       <Point>BUSTA</Point>
       <Point>DADOK</Point>
       <Point>DOGSA</Point>
       <Point>DOTIK</Point>
-      <Point>DUMUM</Point>
       <Point>NILAX</Point>
-      <Point>TAPAP</Point>
       <Point>GOBIN</Point>
       <Point>WOOBY</Point>
       <Point>BAXIL</Point>
@@ -467,6 +466,7 @@
       <Point>ORARA</Point>
       <Point>OTURI</Point>
       <Point>RAMIZ</Point>
+      <Point>RAYOR</Point>
       <Point>GUTMA</Point>
       <Point>NOPAN</Point>
       <Point>VISIK</Point>
@@ -512,6 +512,7 @@
       <Point>UXULU</Point>
       <Point>DUNEY</Point>
       <Point>KADEN</Point>
+      <Point>DULCE</Point>
       <Point>INTIB</Point>
       <Point>FAROA</Point>
       <Point>RUGRO</Point>
@@ -519,6 +520,7 @@
       <Point>LAKER</Point>
       <Point>BUDRA</Point>
       <Point>ELLMS</Point>
+      <Point>EBEBE</Point>
       <Point>KYPRA</Point>
       <Point>UKAPA</Point>
       <Point>KT NDB</Point>
@@ -1212,14 +1214,13 @@
       <Point>HOI VOR</Point>
       <Point>OVLAD</Point>
       <Point>ALOHI</Point>
+      <Point>QUIGG</Point>
       <Point>IBAKA</Point>
       <Point>BUSTA</Point>
       <Point>DADOK</Point>
       <Point>DOGSA</Point>
       <Point>DOTIK</Point>
-      <Point>DUMUM</Point>
       <Point>NILAX</Point>
-      <Point>TAPAP</Point>
       <Point>GOBIN</Point>
       <Point>WOOBY</Point>
       <Point>BAXIL</Point>
@@ -1230,6 +1231,7 @@
       <Point>ORARA</Point>
       <Point>OTURI</Point>
       <Point>RAMIZ</Point>
+      <Point>RAYOR</Point>
       <Point>GUTMA</Point>
       <Point>NOPAN</Point>
       <Point>VISIK</Point>
@@ -1275,6 +1277,7 @@
       <Point>UXULU</Point>
       <Point>DUNEY</Point>
       <Point>KADEN</Point>
+      <Point>DULCE</Point>
       <Point>INTIB</Point>
       <Point>FAROA</Point>
       <Point>RUGRO</Point>
@@ -1282,6 +1285,7 @@
       <Point>LAKER</Point>
       <Point>BUDRA</Point>
       <Point>ELLMS</Point>
+      <Point>EBEBE</Point>
       <Point>KYPRA</Point>
       <Point>UKAPA</Point>
       <Point>KT NDB</Point>
