@@ -419,7 +419,6 @@
     <Position Name="NZAA" Type="ASMGCS" ASMGCSAirport="NZAA" DefaultCenter="-37.008056+174.791667" DefaultRange="3" MagneticVariation="-20" Rotation="0">
       <Maps>
         <Map Name="NZAA/ASMGCS_NZAA_RWY" />
-        <Map Name="NZAA/ASMGCS_NZAA_BAK" />
         <Map Name="NZAA/ASMGCS_NZAA_APR" />
         <Map Name="NZAA/ASMGCS_NZAA_TWY" />
         <Map Name="NZAA/ASMGCS_NZAA_BLD" />
