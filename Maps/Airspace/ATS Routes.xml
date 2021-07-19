@@ -18,7 +18,7 @@
     <Line Name="B455_0">TV NDB.B455.OGELA</Line>
     <Line Name="B575_0">AA VOR.B575.TUT NDB</Line>
     <Line Name="B577_0">HOI VOR.B577.QUIGG</Line>
-    <Line Name="B578_0">NILAX.B578.DOTIK</Line>
+    <Line Name="B578_0">NILAX.B578.TAPAP</Line>
     <Line Name="B581_0">BAXIL.B581.WACOS</Line>
     <Line Name="B596_0">RG VOR.B596.RAYOR</Line>
     <Line Name="B598_0">RG VOR.B598.SUGNI</Line>
@@ -455,7 +455,9 @@
       <Point>DADOK</Point>
       <Point>DOGSA</Point>
       <Point>DOTIK</Point>
+      <Point>DUMUM</Point>
       <Point>NILAX</Point>
+      <Point>TAPAP</Point>
       <Point>GOBIN</Point>
       <Point>WOOBY</Point>
       <Point>BAXIL</Point>
@@ -1220,7 +1222,9 @@
       <Point>DADOK</Point>
       <Point>DOGSA</Point>
       <Point>DOTIK</Point>
+      <Point>DUMUM</Point>
       <Point>NILAX</Point>
+      <Point>TAPAP</Point>
       <Point>GOBIN</Point>
       <Point>WOOBY</Point>
       <Point>BAXIL</Point>
