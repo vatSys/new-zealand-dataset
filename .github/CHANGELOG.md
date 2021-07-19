@@ -196,3 +196,8 @@ Major domestic aerodromes are next on the working list.
 
 * Fixed a minor error where the Auckland RADAR SIDs were assigned to the incorrect runway.. oops.
 * Added a QNH zone map. The airfield in the brackets denotes the reference aerodrome for that QNH region.
+
+### Rush Revision B (Issued 19 JUL)
+
+  * Some waypoints within `Airways.xml` were duplicated from the NZ ANR export, causing a vatSys error. This RR removes the duplicate waypoints.
+  * Some Palmerston North procedure notation changed - `GUTNU 3R`, `GUTNU 3T`.

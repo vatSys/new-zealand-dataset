@@ -278,28 +278,25 @@
       -40.381389+175.417500/OKEVO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 GUTN2R-->
+      <!--Rwy25 GUTN3R-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 GUTN2R.APITI-->
-      GUTNI/APITI
+      <!--Rwy25 GUTN3R.APITI-->
+      GUTNI/LULKO/APITI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 GUTN2R.OMBUB-->
-      GUTNI/RUGVI/OMBUB
+      <!--Rwy25 GUTN3R.OMBUB-->
+      GUTNI/RUGVI/ADRAD/OMBUB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 GUTN2R.RUGVI-->
+      <!--Rwy25 GUTN3T-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 GUTN2T-->
+      <!--Rwy25 GUTN3T.APITI-->
+      GUTNI/TERIL/LULKO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 GUTN2T.APITI-->
-      GUTNI/-40.381389+175.417500/LULKO/APITI
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy25 GUTN2T.OMBUB-->
+      <!--Rwy25 GUTN3T.OMBUB-->
       GUTNI/ANPUG/BEDUL/DAGOM/OMBUB
     </Line>
     <Line Pattern="Dashed">
@@ -333,10 +330,11 @@
       <Point>IRMIX</Point>
       <Point>LIMPA</Point>
       <Point>OKEVO</Point>
+      <Point>LULKO</Point>
       <Point>APITI</Point>
       <Point>RUGVI</Point>
+      <Point>ADRAD</Point>
       <Point>OMBUB</Point>
-      <Point>LULKO</Point>
       <Point>ANPUG</Point>
       <Point>BEDUL</Point>
       <Point>DAGOM</Point>
@@ -356,7 +354,6 @@
       <Point>OKEVO</Point>
       <Point>APITI</Point>
       <Point>OMBUB</Point>
-      <Point>RUGVI</Point>
       <Point>BINIT</Point>
       <Point>MIBUS</Point>
       <Point>SAKBA</Point>

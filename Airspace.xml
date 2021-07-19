@@ -519,8 +519,8 @@
       </Runway>
       <Runway Name="25" DataRunway="25">
         <SID Name="GUTN2P" />
-        <SID Name="GUTN2R" />
-        <SID Name="GUTN2T" />
+        <SID Name="GUTN3R" />
+        <SID Name="GUTN3T" />
         <SID Name="GUTN2U" />
         <SID Name="NZPM2A" />
         <STAR Name="APIT1A" ApproachName="RNPX" />
@@ -832,14 +832,11 @@ FRITH/
 MYLUS/
 LASSE/
 HELGE/
-HELGE/
-PEHRR/
 PEHRR/
 CH VOR
 </Airway>
     <Airway Name="A346">
 AA VOR/
-SALAG/
 SALAG/
 IGLET/
 TEKEP/
@@ -849,12 +846,10 @@ PADDY
 AA VOR/
 UPLAR/
 RIGMI/
-RIGMI/
 ELLAS
 </Airway>
     <Airway Name="A578">
 AA VOR/
-KALAG/
 KALAG/
 NISET/
 SAKLO/
@@ -863,7 +858,6 @@ AGTEM
 </Airway>
     <Airway Name="A580">
 AA VOR/
-AGREX/
 AGREX/
 ATLUR/
 EGATO/
@@ -902,7 +896,6 @@ PUPIS
 </Airway>
     <Airway Name="A597">
 AA VOR/
-DUGAN/
 DUGAN/
 MINET/
 LEKAX/
@@ -955,7 +948,6 @@ OGELA
 AA VOR/
 OKTUB/
 SELKA/
-SELKA/
 MOMTA/
 REPOL/
 KETUP/
@@ -985,7 +977,9 @@ IBAKA/
 BUSTA/
 DADOK/
 DOGSA/
-DOTIK
+DOTIK/
+DUMUM/
+TAPAP
 </Airway>
     <Airway Name="B581">
 BAXIL/
@@ -1063,7 +1057,6 @@ DOVOM
     <Airway Name="G347">
 AA VOR/
 TARIB/
-TARIB/
 MALNI/
 KADEN/
 POPIR/
@@ -1093,7 +1086,6 @@ UKAPA/
 PERAS/
 KT NDB/
 ELNOS/
-ELNOS/
 MUGEN/
 ABVOM/
 NF VOR/
@@ -1112,7 +1104,6 @@ PAGRA
     <Airway Name="G594">
 AA VOR/
 KENNE/
-AKLOM/
 AKLOM/
 MEXIP/
 NUPTO/
@@ -1138,7 +1129,6 @@ SABUB
 </Airway>
     <Airway Name="G599">
 AA VOR/
-OLBEX/
 OLBEX/
 IGETO/
 MUKLU/
@@ -1596,7 +1586,6 @@ GOTSO
 GS VOR/
 IBESO/
 AUTEL/
-AUTEL/
 FAROA/
 VISIK/
 NU NDB
@@ -1945,13 +1934,11 @@ CH VOR/
 KIDAL/
 MOTKO/
 UPLAR/
-NF VOR/
 NF VOR
 </Airway>
     <Airway Name="L503">
 CH VOR/
 KABKA/
-RUNOD/
 RUNOD/
 TESAS
 </Airway>
@@ -1960,14 +1947,11 @@ COOPS/
 OMKIN/
 EKODA/
 KABIN/
-KABIN/
 MOLGI/
 CH VOR/
 OKTOM/
 OLBAD/
 NOKAK/
-NOKAK/
-BOMTI/
 BOMTI/
 VEMET/
 PABGO/
@@ -1978,7 +1962,6 @@ RG VOR
 AA VOR/
 VELMO/
 UNTET/
-UNTET/
 MIDAT/
 TUBBY
 </Airway>
@@ -1986,13 +1969,11 @@ TUBBY
 AA VOR/
 LUNBI/
 LEGAN/
-LEGAN/
 WALTZ
 </Airway>
     <Airway Name="M625">
 WN VOR/
 GOPLU/
-TOMAR/
 TOMAR/
 GILLY
 </Airway>
@@ -2000,19 +1981,16 @@ GILLY
 WN VOR/
 TANEN/
 SASRO/
-SASRO/
 VELKU
 </Airway>
     <Airway Name="M639">
 WN VOR/
 GULUT/
 VEPAS/
-VEPAS/
 LHI NDB
 </Airway>
     <Airway Name="M643">
 KABIN/
-MADOK/
 MADOK/
 ELGUN/
 FONLO
@@ -2021,20 +1999,17 @@ FONLO
 CH VOR/
 VANDA/
 SULON/
-SULON/
 BOKED
 </Airway>
     <Airway Name="N759">
 MIKEL/
 SASRO/
 PEBLU/
-PEBLU/
 AA VOR
 </Airway>
     <Airway Name="N774">
 AA VOR/
 MADEP/
-OLREL/
 OLREL/
 AKALU
 </Airway>
@@ -2047,13 +2022,11 @@ IPLUG/
 KARKO/
 MIBAD/
 POLOR/
-HELGE/
 HELGE
 </Airway>
     <Airway Name="P753">
 QN VOR/
 ADKOS/
-BEBOB/
 BEBOB/
 BUGBA/
 SMIFF
@@ -2061,13 +2034,11 @@ SMIFF
     <Airway Name="P766">
 ADKOS/
 DADLU/
-DADLU/
 OMKIN
 </Airway>
     <Airway Name="P880">
 QN VOR/
 LIBLA/
-MADOK/
 MADOK/
 NUMSA/
 JUMPA
@@ -2394,7 +2365,6 @@ APOTO/
 APIDO/
 ATABU/
 ATSUN/
-ATSUN/
 WN VOR
 </Airway>
     <Airway Name="Q619">
@@ -2441,8 +2411,6 @@ CI NDB/
 GUMKO/
 GONAX/
 GOKAG/
-GOKAG/
-GS VOR/
 GS VOR
 </Airway>
     <Airway Name="Q699">
@@ -2463,8 +2431,6 @@ CI NDB/
 NUPDO/
 NODAD/
 NOKAK/
-NOKAK/
-NONAT/
 NONAT/
 NR VOR
 </Airway>
@@ -2554,7 +2520,6 @@ CI NDB/
 DABAP/
 DOPOM/
 LALAP/
-CH VOR/
 CH VOR
 </Airway>
     <Airway Name="Q892">
@@ -2565,18 +2530,15 @@ HK NDB
     <Airway Name="Q912">
 OKTUB/
 AGEDU/
-AGEDU/
 TATAS
 </Airway>
     <Airway Name="Q947">
 OKTUB/
 IDSEM/
-IDSEM/
 MEXIP
 </Airway>
     <Airway Name="Q983">
 OKTUB/
-DABAS/
 DABAS/
 IGETO
 </Airway>
@@ -4746,6 +4708,7 @@ RILEY
     <Point Name="TANIG" Type="Fix">-354909.140+1740148.850</Point>
     <Point Name="TANOU" Type="Fix">-194726.870-1575238.580</Point>
     <Point Name="TAPAB" Type="Fix">-413712.520+1743915.260</Point>
+    <Point Name="TAPAP" Type="Fix">-180024.000-1513854.000</Point>
     <Point Name="TAPAT" Type="Fix">-363834.580+1732553.480</Point>
     <Point Name="TARIB" Type="Fix">-340358.110+1764453.080</Point>
     <Point Name="TARIT" Type="Fix">-462820.510+1683134.920</Point>
@@ -6674,13 +6637,12 @@ RILEY
       <Transition Name="LIMPA">LIMPA</Transition>
       <Transition Name="OKEVO">OKEVO</Transition>
     </SID>
-    <SID Name="GUTN2R" Airport="NZPM" Runways="25">
+    <SID Name="GUTN3R" Airport="NZPM" Runways="25">
       <Route Runway="25">GUTNI</Route>
-      <Transition Name="APITI">APITI</Transition>
-      <Transition Name="OMBUB">RUGVI/OMBUB</Transition>
-      <Transition Name="RUGVI">RUGVI</Transition>
+      <Transition Name="APITI">LULKO/APITI</Transition>
+      <Transition Name="OMBUB">RUGVI/ADRAD/OMBUB</Transition>
     </SID>
-    <SID Name="GUTN2T" Airport="NZPM" Runways="25">
+    <SID Name="GUTN3T" Airport="NZPM" Runways="25">
       <Route Runway="25">GUTNI</Route>
       <Transition Name="APITI">TERIL/IVREP/LULKO/APITI</Transition>
       <Transition Name="OMBUB">ANPUG/BEDUL/DAGOM/OMBUB</Transition>
@@ -8762,24 +8724,24 @@ RILEY
     </Approach>
   </SIDSTARs>
   <Airports>
-    <Airport ICAO="NZAA" Position="-370029.000+1744730.000">
+    <Airport ICAO="NZAA" FullName=" Auckland" Position="-370029.000+1744730.000">
       <Runway Name="05R" Position="-370058.741+1744614.819" />
       <Runway Name="23L" Position="-370023.962+1744820.671" />
     </Airport>
-    <Airport ICAO="NZAH" Position="-380954.000+1744219.000" />
-    <Airport ICAO="NZAL" Position="-411112.000+1745638.000" />
-    <Airport ICAO="NZAM" Position="-435339.070+1714452.710" />
-    <Airport ICAO="NZAP" Position="-384423.000+1760504.000">
+    <Airport ICAO="NZAH" FullName=" Taharoa Iron Sands" Position="-380954.000+1744219.000" />
+    <Airport ICAO="NZAL" FullName=" Avalon" Position="-411112.000+1745638.000" />
+    <Airport ICAO="NZAM" FullName=" Ashburton Medical Centre" Position="-435339.070+1714452.710" />
+    <Airport ICAO="NZAP" FullName=" Taupo" Position="-384423.000+1760504.000">
       <Runway Name="17" Position="-384404.981+1760513.020" />
       <Runway Name="35" Position="-384448.440+1760458.238" />
     </Airport>
-    <Airport ICAO="NZAR" Position="-370147.000+1745824.000">
+    <Airport ICAO="NZAR" FullName=" Ardmore" Position="-370147.000+1745824.000">
       <Runway Name="03" Position="-370204.470+1745811.129" />
       <Runway Name="21" Position="-370137.358+1745845.599" />
       <Runway Name="07" Position="-370146.952+1745811.838" />
       <Runway Name="25" Position="-370146.952+1745836.120" />
     </Airport>
-    <Airport ICAO="NZAS" Position="-435412.000+1714748.000">
+    <Airport ICAO="NZAS" FullName=" Ashburton" Position="-435412.000+1714748.000">
       <Runway Name="02" Position="-435428.447+1714716.397" />
       <Runway Name="20" Position="-435408.258+1714745.398" />
       <Runway Name="06" Position="-435432.951+1714718.481" />
@@ -8789,70 +8751,70 @@ RILEY
       <Runway Name="16" Position="-435354.445+1714747.980" />
       <Runway Name="34" Position="-435429.434+1714747.980" />
     </Airport>
-    <Airport ICAO="NZAW" Position="-365002.060+1744548.550" />
-    <Airport ICAO="NZBA" Position="-461436.000+1694500.000" />
-    <Airport ICAO="NZBW" Position="-432847.000+1724113.000" />
-    <Airport ICAO="NZCB" Position="-460224.000+1681842.000" />
-    <Airport ICAO="NZCG" Position="-383955.000+1760805.000" />
-    <Airport ICAO="NZCH" Position="-432922.000+1723204.000">
+    <Airport ICAO="NZAW" FullName=" Auckland Harbour" Position="-365002.060+1744548.550" />
+    <Airport ICAO="NZBA" FullName=" Balclutha" Position="-461436.000+1694500.000" />
+    <Airport ICAO="NZBW" FullName=" Burwood Hospital" Position="-432847.000+1724113.000" />
+    <Airport ICAO="NZCB" FullName=" Centre Bush" Position="-460224.000+1681842.000" />
+    <Airport ICAO="NZCG" FullName=" Centennial Park" Position="-383955.000+1760805.000" />
+    <Airport ICAO="NZCH" FullName=" Christchurch" Position="-432922.000+1723204.000">
       <Runway Name="02" Position="-432951.472+1723119.610" />
       <Runway Name="20" Position="-432829.960+1723253.830" />
       <Runway Name="11" Position="-432903.401+1723127.890" />
       <Runway Name="29" Position="-432939.772+1723227.179" />
     </Airport>
-    <Airport ICAO="NZCI" Position="-434849.780-1762824.320" />
-    <Airport ICAO="NZCL" Position="-412722.000+1740051.000" />
-    <Airport ICAO="NZCS" Position="-450255.000+1691014.000" />
-    <Airport ICAO="NZCW" Position="-445848.000+1691306.000" />
-    <Airport ICAO="NZCX" Position="-364730.000+1753031.000">
+    <Airport ICAO="NZCI" FullName=" Chatham Is/Tuuta" Position="-434849.780-1762824.320" />
+    <Airport ICAO="NZCL" FullName=" Cloudy Bay" Position="-412722.000+1740051.000" />
+    <Airport ICAO="NZCS" FullName=" Cromwell Racecourse" Position="-450255.000+1691014.000" />
+    <Airport ICAO="NZCW" FullName=" Cromwell" Position="-445848.000+1691306.000" />
+    <Airport ICAO="NZCX" FullName=" Coromandel" Position="-364730.000+1753031.000">
       <Runway Name="12" Position="-364713.729+1753018.299" />
       <Runway Name="30" Position="-364726.560+1753029.059" />
     </Airport>
-    <Airport ICAO="NZDA" Position="-355623.000+1735337.000">
+    <Airport ICAO="NZDA" FullName=" Dargaville" Position="-355623.000+1735337.000">
       <Runway Name="04" Position="-355629.749+1735323.064" />
       <Runway Name="22" Position="-355616.152+1735350.968" />
     </Airport>
-    <Airport ICAO="NZDC" Position="-455300.000+1703030.000" />
-    <Airport ICAO="NZDH" Position="-455207.930+1703034.820" />
-    <Airport ICAO="NZDN" Position="-455541.000+1701154.000">
+    <Airport ICAO="NZDC" FullName=" Dunedin City" Position="-455300.000+1703030.000" />
+    <Airport ICAO="NZDH" FullName=" Dunedin Hospital" Position="-455207.930+1703034.820" />
+    <Airport ICAO="NZDN" FullName=" Dunedin" Position="-455541.000+1701154.000">
       <Runway Name="03" Position="-455602.130+1701114.899" />
       <Runway Name="21" Position="-455527.761+1701228.030" />
     </Airport>
-    <Airport ICAO="NZDU" Position="-451203.360+1691954.060" />
-    <Airport ICAO="NZDV" Position="-401342.000+1760443.000">
+    <Airport ICAO="NZDU" FullName=" Dunstan Hospital" Position="-451203.360+1691954.060" />
+    <Airport ICAO="NZDV" FullName=" Dannevirke" Position="-401342.000+1760443.000">
       <Runway Name="02" Position="-401357.076+1760426.969" />
       <Runway Name="20" Position="-401326.864+1760459.048" />
       <Runway Name="08" Position="-401335.378+1760435.371" />
       <Runway Name="26" Position="-401339.691+1760504.376" />
     </Airport>
-    <Airport ICAO="NZDY" Position="-370547.000+1745831.000" />
-    <Airport ICAO="NZES" Position="-380838.000+1753301.000" />
-    <Airport ICAO="NZEV" Position="-412023.000+1730439.000" />
-    <Airport ICAO="NZFE" Position="-431903.000+1723042.000">
+    <Airport ICAO="NZDY" FullName=" Drury" Position="-370547.000+1745831.000" />
+    <Airport ICAO="NZES" FullName=" Wharepapa South" Position="-380838.000+1753301.000" />
+    <Airport ICAO="NZEV" FullName=" Eves Valley" Position="-412023.000+1730439.000" />
+    <Airport ICAO="NZFE" FullName=" Fernside Fields" Position="-431903.000+1723042.000">
       <Runway Name="06" Position="-431903.371+1723030.550" />
       <Runway Name="24" Position="-431902.849+1723050.281" />
     </Airport>
-    <Airport ICAO="NZFF" Position="-432309.000+1722138.000" />
-    <Airport ICAO="NZFG" Position="-465342.000+1680642.000" />
-    <Airport ICAO="NZFH" Position="-432747.000+1695959.000" />
-    <Airport ICAO="NZFI" Position="-401521.340+1753621.310">
+    <Airport ICAO="NZFF" FullName=" Forest Field" Position="-432309.000+1722138.000" />
+    <Airport ICAO="NZFG" FullName=" Fern Gully" Position="-465342.000+1680642.000" />
+    <Airport ICAO="NZFH" FullName=" Fox" Position="-432747.000+1695959.000" />
+    <Airport ICAO="NZFI" FullName=" Feilding" Position="-401521.340+1753621.310">
       <Runway Name="10" Position="-401513.849+1753604.061" />
       <Runway Name="28" Position="-401528.778+1753638.549" />
     </Airport>
-    <Airport ICAO="NZFJ" Position="-432147.000+1700804.000" />
-    <Airport ICAO="NZFL" Position="-395344.000+1753912.000" />
-    <Airport ICAO="NZFO" Position="-432742.920+1700108.370" />
-    <Airport ICAO="NZFP" Position="-402724.000+1751613.000" />
-    <Airport ICAO="NZFR" Position="-432807.000+1700007.000" />
-    <Airport ICAO="NZFT" Position="-411435.000+1755737.000" />
-    <Airport ICAO="NZGA" Position="-382431.000+1764431.000" />
-    <Airport ICAO="NZGB" Position="-361429.000+1752819.000">
+    <Airport ICAO="NZFJ" FullName=" Franz Josef" Position="-432147.000+1700804.000" />
+    <Airport ICAO="NZFL" FullName=" Flat Hills" Position="-395344.000+1753912.000" />
+    <Airport ICAO="NZFO" FullName=" Fox Glacier" Position="-432742.920+1700108.370" />
+    <Airport ICAO="NZFP" FullName=" Foxpine" Position="-402724.000+1751613.000" />
+    <Airport ICAO="NZFR" FullName=" Fox River" Position="-432807.000+1700007.000" />
+    <Airport ICAO="NZFT" FullName=" Flat Point" Position="-411435.000+1755737.000" />
+    <Airport ICAO="NZGA" FullName=" Galatea" Position="-382431.000+1764431.000" />
+    <Airport ICAO="NZGB" FullName=" Great Barrier" Position="-361429.000+1752819.000">
       <Runway Name="06" Position="-361430.872+1752806.730" />
       <Runway Name="24" Position="-361427.028+1752831.231" />
       <Runway Name="10" Position="-361419.669+1752750.512" />
       <Runway Name="28" Position="-361435.171+1752822.688" />
     </Airport>
-    <Airport ICAO="NZGC" Position="-460924.000+1685354.000">
+    <Airport ICAO="NZGC" FullName=" Gore" Position="-460924.000+1685354.000">
       <Runway Name="01" Position="-460941.191+1685337.237" />
       <Runway Name="19" Position="-460906.750+1685410.746" />
       <Runway Name="06" Position="-460913.313+1685348.552" />
@@ -8860,12 +8822,12 @@ RILEY
       <Runway Name="12" Position="-460900.115+1685409.810" />
       <Runway Name="30" Position="-460914.206+1685424.642" />
     </Airport>
-    <Airport ICAO="NZGH" Position="-432314.000+1701048.000" />
-    <Airport ICAO="NZGM" Position="-422742.000+1711124.000">
+    <Airport ICAO="NZGH" FullName=" Glacier Country" Position="-432314.000+1701048.000" />
+    <Airport ICAO="NZGM" FullName=" Greymouth" Position="-422742.000+1711124.000">
       <Runway Name="01" Position="-422757.920+1711113.981" />
       <Runway Name="19" Position="-422731.180+1711135.801" />
     </Airport>
-    <Airport ICAO="NZGS" Position="-383948.000+1775842.000">
+    <Airport ICAO="NZGS" FullName=" Gisborne" Position="-383948.000+1775842.000">
       <Runway Name="03" Position="-383956.174+1775815.906" />
       <Runway Name="21" Position="-383932.717+1775853.040" />
       <Runway Name="09" Position="-383936.644+1775811.838" />
@@ -8873,206 +8835,206 @@ RILEY
       <Runway Name="14" Position="-383929.880+1775829.910" />
       <Runway Name="32" Position="-384010.870+1775844.540" />
     </Airport>
-    <Airport ICAO="NZGT" Position="-435427.780+1700744.500">
+    <Airport ICAO="NZGT" FullName=" Glentanner" Position="-435427.780+1700744.500">
       <Runway Name="15" Position="-435421.931+1700739.900" />
       <Runway Name="33" Position="-435455.541+1700747.791" />
     </Airport>
-    <Airport ICAO="NZGY" Position="-445218.000+1682351.000">
+    <Airport ICAO="NZGY" FullName=" Glenorchy" Position="-445218.000+1682351.000">
       <Runway Name="14" Position="-445208.425+1682346.903" />
       <Runway Name="32" Position="-445227.487+1682355.144" />
     </Airport>
-    <Airport ICAO="NZHA" Position="-393312.000+1741601.000">
+    <Airport ICAO="NZHA" FullName=" Hawera" Position="-393312.000+1741601.000">
       <Runway Name="14" Position="-393259.550+1741557.701" />
       <Runway Name="32" Position="-393328.181+1741610.988" />
     </Airport>
-    <Airport ICAO="NZHB" Position="-352523.000+1742147.370" />
-    <Airport ICAO="NZHF" Position="-383835.750+1760517.680" />
-    <Airport ICAO="NZHH" Position="-374822.610+1751651.230" />
-    <Airport ICAO="NZHK" Position="-424249.000+1705907.000">
+    <Airport ICAO="NZHB" FullName=" Helena Bay" Position="-352523.000+1742147.370" />
+    <Airport ICAO="NZHF" FullName=" Huka Falls" Position="-383835.750+1760517.680" />
+    <Airport ICAO="NZHH" FullName=" Waikato Hospital" Position="-374822.610+1751651.230" />
+    <Airport ICAO="NZHK" FullName=" Hokitika" Position="-424249.000+1705907.000">
       <Runway Name="03" Position="-424248.218+1705848.929" />
       <Runway Name="21" Position="-424227.950+1705931.448" />
       <Runway Name="12" Position="-424239.449+1705903.952" />
       <Runway Name="30" Position="-424311.431+1705932.071" />
     </Airport>
-    <Airport ICAO="NZHM" Position="-423411.000+1724753.000" />
-    <Airport ICAO="NZHN" Position="-375159.000+1752007.000">
+    <Airport ICAO="NZHM" FullName=" Hanmer" Position="-423411.000+1724753.000" />
+    <Airport ICAO="NZHN" FullName=" Hamilton" Position="-375159.000+1752007.000">
       <Runway Name="18L" Position="-375120.902+1752010.219" />
       <Runway Name="36R" Position="-375225.140+1751946.942" />
     </Airport>
-    <Airport ICAO="NZHP" Position="-423604.000+1714157.000" />
-    <Airport ICAO="NZHS" Position="-393848.000+1764601.000">
+    <Airport ICAO="NZHP" FullName=" Lake Haupiri" Position="-423604.000+1714157.000" />
+    <Airport ICAO="NZHS" FullName=" Hastings" Position="-393848.000+1764601.000">
       <Runway Name="01" Position="-393853.779+1764550.980" />
       <Runway Name="19" Position="-393826.340+1764610.751" />
       <Runway Name="11" Position="-393848.649+1764555.865" />
       <Runway Name="29" Position="-393900.295+1764613.224" />
     </Airport>
-    <Airport ICAO="NZHT" Position="-435200.000+1690225.000" />
-    <Airport ICAO="NZJA" Position="-374225.000+1760853.000" />
-    <Airport ICAO="NZJB" Position="-413212.000+1735637.000" />
-    <Airport ICAO="NZJC" Position="-433158.590+1723726.010" />
-    <Airport ICAO="NZJD" Position="-370809.000+1753240.300" />
-    <Airport ICAO="NZJE" Position="-355544.000+1735232.000" />
-    <Airport ICAO="NZJF" Position="-375756.000+1765836.000" />
-    <Airport ICAO="NZJG" Position="-383819.000+1780013.000" />
-    <Airport ICAO="NZJH" Position="-393748.000+1764926.000" />
-    <Airport ICAO="NZJI" Position="-352309.000+1740413.000" />
-    <Airport ICAO="NZJJ" Position="-433213.000+1723716.000" />
-    <Airport ICAO="NZJK" Position="-350706.300+1731539.300" />
-    <Airport ICAO="NZJL" Position="-365133.000+1744608.000" />
-    <Airport ICAO="NZJM" Position="-402016.000+1753710.000" />
-    <Airport ICAO="NZJN" Position="-364654.000+1744531.000" />
-    <Airport ICAO="NZJO" Position="-380755.000+1761448.000" />
-    <Airport ICAO="NZJP" Position="-380316.000+1781816.000" />
-    <Airport ICAO="NZJQ" Position="-390424.000+1740319.000" />
-    <Airport ICAO="NZJR" Position="-354405.000+1741811.000" />
-    <Airport ICAO="NZJS" Position="-462614.000+1682134.000" />
-    <Airport ICAO="NZJT" Position="-385323.000+1751505.000" />
-    <Airport ICAO="NZJU" Position="-395636.000+1750221.000" />
-    <Airport ICAO="NZJW" Position="-352425.800+1733022.800" />
-    <Airport ICAO="NZJX" Position="-381355.000+1755139.000" />
-    <Airport ICAO="NZJY" Position="-390233.000+1772451.000" />
-    <Airport ICAO="NZJZ" Position="-384155.000+1760556.000" />
-    <Airport ICAO="NZKC" Position="-422415.560+1734051.390" />
-    <Airport ICAO="NZKD" Position="-361041.000+1751928.000" />
-    <Airport ICAO="NZKE" Position="-364830.000+1750507.000" />
-    <Airport ICAO="NZKF" Position="-362423.000+1743514.000">
+    <Airport ICAO="NZHT" FullName=" Haast" Position="-435200.000+1690225.000" />
+    <Airport ICAO="NZJA" FullName=" Tauranga Hospital" Position="-374225.000+1760853.000" />
+    <Airport ICAO="NZJB" FullName=" Wairau Hospital" Position="-413212.000+1735637.000" />
+    <Airport ICAO="NZJC" FullName=" Christchurch Hospital" Position="-433158.590+1723726.010" />
+    <Airport ICAO="NZJD" FullName=" Thames Hospital" Position="-370809.000+1753240.300" />
+    <Airport ICAO="NZJE" FullName=" Dargaville Hospital" Position="-355544.000+1735232.000" />
+    <Airport ICAO="NZJF" FullName=" Whakatane Hospital" Position="-375756.000+1765836.000" />
+    <Airport ICAO="NZJG" FullName=" Gisborne Hospital" Position="-383819.000+1780013.000" />
+    <Airport ICAO="NZJH" FullName=" Hastings Hospital" Position="-393748.000+1764926.000" />
+    <Airport ICAO="NZJI" FullName=" Bay Of Islands Hospital" Position="-352309.000+1740413.000" />
+    <Airport ICAO="NZJJ" FullName=" Christchurch Hospital Hagley" Position="-433213.000+1723716.000" />
+    <Airport ICAO="NZJK" FullName=" Kaitaia Hospital" Position="-350706.300+1731539.300" />
+    <Airport ICAO="NZJL" FullName=" Water Aerodrome Auckland Hospital" Position="-365133.000+1744608.000" />
+    <Airport ICAO="NZJM" FullName=" Palmerston North Hospital" Position="-402016.000+1753710.000" />
+    <Airport ICAO="NZJN" FullName=" North Shore Hospital" Position="-364654.000+1744531.000" />
+    <Airport ICAO="NZJO" FullName=" Rotorua Hospital" Position="-380755.000+1761448.000" />
+    <Airport ICAO="NZJP" FullName=" Te Puia Springs Hospital" Position="-380316.000+1781816.000" />
+    <Airport ICAO="NZJQ" FullName=" Taranaki Base Hospital" Position="-390424.000+1740319.000" />
+    <Airport ICAO="NZJR" FullName=" Whangarei Hospital" Position="-354405.000+1741811.000" />
+    <Airport ICAO="NZJS" FullName=" Southland-Kew Hospital" Position="-462614.000+1682134.000" />
+    <Airport ICAO="NZJT" FullName=" Taumarunui Hospital" Position="-385323.000+1751505.000" />
+    <Airport ICAO="NZJU" FullName=" Whanganui Hospital" Position="-395636.000+1750221.000" />
+    <Airport ICAO="NZJW" FullName=" Rawene Hospital" Position="-352425.800+1733022.800" />
+    <Airport ICAO="NZJX" FullName=" Tokoroa Hospital" Position="-381355.000+1755139.000" />
+    <Airport ICAO="NZJY" FullName=" Wairoa Hospital" Position="-390233.000+1772451.000" />
+    <Airport ICAO="NZJZ" FullName=" Taupo Hospital" Position="-384155.000+1760556.000" />
+    <Airport ICAO="NZKC" FullName=" Kaikoura Medical Centre" Position="-422415.560+1734051.390" />
+    <Airport ICAO="NZKD" FullName=" Motu Kaikoura Island" Position="-361041.000+1751928.000" />
+    <Airport ICAO="NZKE" FullName=" Waiheke" Position="-364830.000+1750507.000" />
+    <Airport ICAO="NZKF" FullName=" Kaipara Flats" Position="-362423.000+1743514.000">
       <Runway Name="07" Position="-362423.202+1743457.126" />
       <Runway Name="25" Position="-362422.734+1743530.854" />
     </Airport>
-    <Airport ICAO="NZKH" Position="-410842.000+1745007.000" />
-    <Airport ICAO="NZKI" Position="-422530.000+1733619.000">
+    <Airport ICAO="NZKH" FullName=" Kenepuru Hospital" Position="-410842.000+1745007.000" />
+    <Airport ICAO="NZKI" FullName=" Kaikoura" Position="-422530.000+1733619.000">
       <Runway Name="05" Position="-422533.445+1733604.363" />
       <Runway Name="23" Position="-422526.440+1733633.584" />
     </Airport>
-    <Airport ICAO="NZKJ" Position="-422342.000+1734051.000" />
-    <Airport ICAO="NZKK" Position="-351546.000+1735443.000">
+    <Airport ICAO="NZKJ" FullName=" Kaikoura Beachfront" Position="-422342.000+1734051.000" />
+    <Airport ICAO="NZKK" FullName=" Kerikeri/Bay Of Islands" Position="-351546.000+1735443.000">
       <Runway Name="02" Position="-351549.316+1735450.242" />
       <Runway Name="20" Position="-351537.890+1735501.996" />
       <Runway Name="15" Position="-351508.701+1735437.822" />
       <Runway Name="33" Position="-351546.091+1735449.500" />
     </Airport>
-    <Airport ICAO="NZKM" Position="-411412.000+1720618.000">
+    <Airport ICAO="NZKM" FullName=" Karamea" Position="-411412.000+1720618.000">
       <Runway Name="01" Position="-411425.793+1720608.590" />
       <Runway Name="19" Position="-411359.837+1720630.125" />
       <Runway Name="17" Position="-411404.574+1720615.404" />
       <Runway Name="35" Position="-411425.339+1720609.580" />
     </Airport>
-    <Airport ICAO="NZKN" Position="-354216.610+1741845.840" />
-    <Airport ICAO="NZKO" Position="-352704.000+1734902.000">
+    <Airport ICAO="NZKN" FullName=" Kensington Park" Position="-354216.610+1741845.840" />
+    <Airport ICAO="NZKO" FullName=" Kaikohe" Position="-352704.000+1734902.000">
       <Runway Name="13" Position="-352709.670+1734850.767" />
       <Runway Name="31" Position="-352735.352+1734909.664" />
       <Runway Name="17" Position="-352639.307+1734906.751" />
       <Runway Name="35" Position="-352728.580+1734857.193" />
     </Airport>
-    <Airport ICAO="NZKP" Position="-403334.000+1751959.000">
+    <Airport ICAO="NZKP" FullName=" Koputaroa" Position="-403334.000+1751959.000">
       <Runway Name="10" Position="-403333.631+1751957.652" />
       <Runway Name="28" Position="-403341.879+1752015.922" />
     </Airport>
-    <Airport ICAO="NZKT" Position="-350412.000+1731707.000">
+    <Airport ICAO="NZKT" FullName=" Kaitaia" Position="-350412.000+1731707.000">
       <Runway Name="12" Position="-350352.330+1731651.650" />
       <Runway Name="30" Position="-350428.229+1731725.660" />
       <Runway Name="18" Position="-350407.871+1731717.621" />
       <Runway Name="36" Position="-350435.810+1731705.071" />
     </Airport>
-    <Airport ICAO="NZKU" Position="-395109.600+1740711.100" />
-    <Airport ICAO="NZKY" Position="-395043.000+1762517.000" />
-    <Airport ICAO="NZLA" Position="-431401.000+1722939.000" />
-    <Airport ICAO="NZLE" Position="-414533.000+1724445.000">
+    <Airport ICAO="NZKU" FullName=" Kupe" Position="-395109.600+1740711.100" />
+    <Airport ICAO="NZKY" FullName=" Kowhai" Position="-395043.000+1762517.000" />
+    <Airport ICAO="NZLA" FullName=" Loburn Abbey" Position="-431401.000+1722939.000" />
+    <Airport ICAO="NZLE" FullName=" Lake Station/Nelson Lakes" Position="-414533.000+1724445.000">
       <Runway Name="11" Position="-414517.604+1724418.636" />
       <Runway Name="29" Position="-414548.312+1724511.372" />
     </Airport>
-    <Airport ICAO="NZLF" Position="-380746.000+1761510.000" />
-    <Airport ICAO="NZLT" Position="-384354.000+1760206.000" />
-    <Airport ICAO="NZLX" Position="-451242.000+1692224.000">
+    <Airport ICAO="NZLF" FullName=" Rotorua Lakefront" Position="-380746.000+1761510.000" />
+    <Airport ICAO="NZLT" FullName=" Taupo Water" Position="-384354.000+1760206.000" />
+    <Airport ICAO="NZLX" FullName=" Alexandra" Position="-451242.000+1692224.000">
       <Runway Name="01" Position="-451249.460+1692206.539" />
       <Runway Name="19" Position="-451233.000+1692219.409" />
       <Runway Name="14" Position="-451222.770+1692208.350" />
       <Runway Name="32" Position="-451259.198+1692227.592" />
     </Airport>
-    <Airport ICAO="NZMA" Position="-374404.000+1754431.000">
+    <Airport ICAO="NZMA" FullName=" Matamata" Position="-374404.000+1754431.000">
       <Runway Name="04" Position="-374404.052+1754415.396" />
       <Runway Name="22" Position="-374350.293+1754445.607" />
       <Runway Name="10" Position="-374404.452+1754412.484" />
       <Runway Name="28" Position="-374427.136+1754446.651" />
     </Airport>
-    <Airport ICAO="NZMB" Position="-365048.000+1744719.000" />
-    <Airport ICAO="NZMC" Position="-434554.000+1700800.000">
+    <Airport ICAO="NZMB" FullName=" Mechanics Bay" Position="-365048.000+1744719.000" />
+    <Airport ICAO="NZMC" FullName=" Mount Cook" Position="-434554.000+1700800.000">
       <Runway Name="13" Position="-434531.255+1700744.008" />
       <Runway Name="31" Position="-434616.630+1700815.979" />
     </Airport>
-    <Airport ICAO="NZME" Position="-371533.000+1750653.000">
+    <Airport ICAO="NZME" FullName=" Mercer" Position="-371533.000+1750653.000">
       <Runway Name="09" Position="-371526.312+1750657.316" />
       <Runway Name="27" Position="-371534.636+1750725.990" />
     </Airport>
-    <Airport ICAO="NZMF" Position="-444024.000+1675524.000">
+    <Airport ICAO="NZMF" FullName=" Milford Sound" Position="-444024.000+1675524.000">
       <Runway Name="11" Position="-444017.101+1675508.738" />
       <Runway Name="29" Position="-444031.609+1675537.351" />
     </Airport>
-    <Airport ICAO="NZMG" Position="-345944.100+1732752.200" />
-    <Airport ICAO="NZMH" Position="-405651.000+1754031.000" />
-    <Airport ICAO="NZMJ" Position="-442149.000+1680109.000" />
-    <Airport ICAO="NZMK" Position="-410724.000+1725919.000" />
-    <Airport ICAO="NZML" Position="-432113.000+1701127.000" />
-    <Airport ICAO="NZMO" Position="-453159.000+1673900.000">
+    <Airport ICAO="NZMG" FullName=" Mangonui" Position="-345944.100+1732752.200" />
+    <Airport ICAO="NZMH" FullName=" Wairarapa Hospital" Position="-405651.000+1754031.000" />
+    <Airport ICAO="NZMJ" FullName=" Water Aerodrome Martins Bay" Position="-442149.000+1680109.000" />
+    <Airport ICAO="NZMK" FullName=" Motueka" Position="-410724.000+1725919.000" />
+    <Airport ICAO="NZML" FullName=" Mid Waiho Loop" Position="-432113.000+1701127.000" />
+    <Airport ICAO="NZMO" FullName=" Te Anau / Manapouri" Position="-453159.000+1673900.000">
       <Runway Name="08" Position="-453153.641+1673835.470" />
       <Runway Name="26" Position="-453204.171+1673946.789" />
     </Airport>
-    <Airport ICAO="NZMR" Position="-414748.000+1721854.000">
+    <Airport ICAO="NZMR" FullName=" Murchison" Position="-414748.000+1721854.000">
       <Runway Name="13" Position="-414739.782+1721848.186" />
       <Runway Name="31" Position="-414756.098+1721859.832" />
     </Airport>
-    <Airport ICAO="NZMS" Position="-405824.000+1753801.000">
+    <Airport ICAO="NZMS" FullName=" Masterton" Position="-405824.000+1753801.000">
       <Runway Name="06" Position="-405833.121+1753739.180" />
       <Runway Name="24" Position="-405825.039+1753825.969" />
       <Runway Name="10" Position="-405816.892+1753742.031" />
       <Runway Name="28" Position="-405834.774+1753819.932" />
     </Airport>
-    <Airport ICAO="NZMW" Position="-441354.000+1691349.000" />
-    <Airport ICAO="NZMX" Position="-395821.600+1731751.600" />
-    <Airport ICAO="NZNE" Position="-363924.000+1743919.000">
+    <Airport ICAO="NZMW" FullName=" Makarora" Position="-441354.000+1691349.000" />
+    <Airport ICAO="NZMX" FullName=" Raroa" Position="-395821.600+1731751.600" />
+    <Airport ICAO="NZNE" FullName=" North Shore" Position="-363924.000+1743919.000">
       <Runway Name="03" Position="-363929.318+1743911.189" />
       <Runway Name="21" Position="-363915.379+1743929.750" />
       <Runway Name="09" Position="-363920.902+1743914.519" />
       <Runway Name="27" Position="-363925.081+1743933.930" />
     </Airport>
-    <Airport ICAO="NZNF" Position="-391216.100+1741324.000">
+    <Airport ICAO="NZNF" FullName=" Norfolk" Position="-391216.100+1741324.000">
       <Runway Name="01" Position="-391232.990+1741309.491" />
       <Runway Name="19" Position="-391208.410+1741329.759" />
     </Airport>
-    <Airport ICAO="NZNH" Position="-411718.000+1731620.000" />
-    <Airport ICAO="NZNP" Position="-390031.000+1741045.000">
+    <Airport ICAO="NZNH" FullName=" Nelson Hospital" Position="-411718.000+1731620.000" />
+    <Airport ICAO="NZNP" FullName=" New Plymouth" Position="-390031.000+1741045.000">
       <Runway Name="05" Position="-390037.609+1741012.241" />
       <Runway Name="23" Position="-390020.318+1741102.000" />
     </Airport>
-    <Airport ICAO="NZNR" Position="-392757.000+1765212.000">
+    <Airport ICAO="NZNR" FullName=" Napier" Position="-392757.000+1765212.000">
       <Runway Name="07" Position="-392752.340+1765127.400" />
       <Runway Name="25" Position="-392751.671+1765217.551" />
       <Runway Name="16" Position="-392743.160+1765204.940" />
       <Runway Name="34" Position="-392839.698+1765158.720" />
     </Airport>
-    <Airport ICAO="NZNS" Position="-411754.000+1731316.000">
+    <Airport ICAO="NZNS" FullName=" Nelson" Position="-411754.000+1731316.000">
       <Runway Name="02" Position="-411805.029+1731308.119" />
       <Runway Name="20" Position="-411732.021+1731346.060" />
       <Runway Name="06" Position="-411746.910+1731258.108" />
       <Runway Name="24" Position="-411744.272+1731326.782" />
     </Airport>
-    <Airport ICAO="NZNV" Position="-462454.000+1681912.000">
+    <Airport ICAO="NZNV" FullName=" Invercargill" Position="-462454.000+1681912.000">
       <Runway Name="04" Position="-462506.280+1681808.129" />
       <Runway Name="22" Position="-462439.960+1681929.078" />
       <Runway Name="12" Position="-462447.110+1681850.108" />
       <Runway Name="30" Position="-462509.988+1681917.245" />
     </Airport>
-    <Airport ICAO="NZOA" Position="-442912.000+1695910.000" />
-    <Airport ICAO="NZOB" Position="-463523.000+1681820.000" />
-    <Airport ICAO="NZOF" Position="-362046.000+1744537.000" />
-    <Airport ICAO="NZOG" Position="-441359.110+1691348.080" />
-    <Airport ICAO="NZOH" Position="-401224.000+1752313.000">
+    <Airport ICAO="NZOA" FullName=" Omarama" Position="-442912.000+1695910.000" />
+    <Airport ICAO="NZOB" FullName=" Ocean Beach" Position="-463523.000+1681820.000" />
+    <Airport ICAO="NZOF" FullName=" Omaha Flats" Position="-362046.000+1744537.000" />
+    <Airport ICAO="NZOG" FullName=" Makarora Heliport" Position="-441359.110+1691348.080" />
+    <Airport ICAO="NZOH" FullName=" Ohakea" Position="-401224.000+1752313.000">
       <Runway Name="09" Position="-401209.562+1752227.311" />
       <Runway Name="27" Position="-401233.728+1752359.122" />
       <Runway Name="15" Position="-401159.032+1752309.622" />
       <Runway Name="33" Position="-401302.150+1752325.670" />
     </Airport>
-    <Airport ICAO="NZOM" Position="-413224.000+1735519.000">
+    <Airport ICAO="NZOM" FullName=" Omaka" Position="-413224.000+1735519.000">
       <Runway Name="01" Position="-413237.586+1735500.404" />
       <Runway Name="19" Position="-413210.972+1735525.342" />
       <Runway Name="07" Position="-413220.008+1735456.722" />
@@ -9080,14 +9042,14 @@ RILEY
       <Runway Name="12" Position="-413212.070+1735458.702" />
       <Runway Name="30" Position="-413236.485+1735527.044" />
     </Airport>
-    <Airport ICAO="NZOP" Position="-380121.000+1771826.000">
+    <Airport ICAO="NZOP" FullName=" Opotiki" Position="-380121.000+1771826.000">
       <Runway Name="09" Position="-380113.526+1771801.386" />
       <Runway Name="27" Position="-380124.816+1771840.824" />
     </Airport>
-    <Airport ICAO="NZOR" Position="-450558.420+1705801.290" />
-    <Airport ICAO="NZOS" Position="-351321.550+1741348.460" />
-    <Airport ICAO="NZOT" Position="-404701.000+1750904.000" />
-    <Airport ICAO="NZOU" Position="-445812.000+1710454.000">
+    <Airport ICAO="NZOR" FullName=" Oamaru Hospital" Position="-450558.420+1705801.290" />
+    <Airport ICAO="NZOS" FullName=" Otehei Bay" Position="-351321.550+1741348.460" />
+    <Airport ICAO="NZOT" FullName=" Otaki" Position="-404701.000+1750904.000" />
+    <Airport ICAO="NZOU" FullName=" Oamaru" Position="-445812.000+1710454.000">
       <Runway Name="02" Position="-445813.721+1710455.697" />
       <Runway Name="20" Position="-445754.000+1710522.614" />
       <Runway Name="11" Position="-445801.308+1710440.480" />
@@ -9095,51 +9057,51 @@ RILEY
       <Runway Name="18" Position="-445742.660+1710506.619" />
       <Runway Name="36" Position="-445819.801+1710440.300" />
     </Airport>
-    <Airport ICAO="NZOX" Position="-360847.000+1752507.000">
+    <Airport ICAO="NZOX" FullName=" Okiwi Station" Position="-360847.000+1752507.000">
       <Runway Name="18" Position="-360835.905+1752511.665" />
       <Runway Name="36" Position="-360902.023+1752500.566" />
     </Airport>
-    <Airport ICAO="NZPA" Position="-351656.300+1740529.100" />
-    <Airport ICAO="NZPH" Position="-433514.000+1713140.000" />
-    <Airport ICAO="NZPI" Position="-363906.000+1742600.000" />
-    <Airport ICAO="NZPK" Position="-365549.000+1744847.000" />
-    <Airport ICAO="NZPM" Position="-401914.000+1753701.000">
+    <Airport ICAO="NZPA" FullName=" Paihia" Position="-351656.300+1740529.100" />
+    <Airport ICAO="NZPH" FullName=" Pudding Hill" Position="-433514.000+1713140.000" />
+    <Airport ICAO="NZPI" FullName=" Parakai" Position="-363906.000+1742600.000" />
+    <Airport ICAO="NZPK" FullName=" Pikes Point" Position="-365549.000+1744847.000" />
+    <Airport ICAO="NZPM" FullName=" Palmerston North" Position="-401914.000+1753701.000">
       <Runway Name="07" Position="-401911.510+1753617.528" />
       <Runway Name="25" Position="-401911.410+1753728.808" />
     </Airport>
-    <Airport ICAO="NZPN" Position="-412054.000+1735719.000">
+    <Airport ICAO="NZPN" FullName=" Picton" Position="-412054.000+1735719.000">
       <Runway Name="18" Position="-412038.839+1735730.589" />
       <Runway Name="36" Position="-412057.520+1735715.800" />
     </Airport>
-    <Airport ICAO="NZPO" Position="-401651.000+1763909.000" />
-    <Airport ICAO="NZPP" Position="-405417.000+1745921.000">
+    <Airport ICAO="NZPO" FullName=" Porangahau" Position="-401651.000+1763909.000" />
+    <Airport ICAO="NZPP" FullName=" Paraparaumu" Position="-405417.000+1745921.000">
       <Runway Name="16" Position="-405404.540+1745916.530" />
       <Runway Name="34" Position="-405438.311+1745916.552" />
     </Airport>
-    <Airport ICAO="NZPS" Position="-351654.670+1740534.610" />
-    <Airport ICAO="NZPU" Position="-371534.000+1745427.000" />
-    <Airport ICAO="NZPW" Position="-410615.000+1753000.000" />
-    <Airport ICAO="NZQN" Position="-450116.450+1684421.290">
+    <Airport ICAO="NZPS" FullName=" Paihia Waterfront" Position="-351654.670+1740534.610" />
+    <Airport ICAO="NZPU" FullName=" Pukekohe" Position="-371534.000+1745427.000" />
+    <Airport ICAO="NZPW" FullName=" Papawai" Position="-410615.000+1753000.000" />
+    <Airport ICAO="NZQN" FullName=" Queenstown" Position="-450116.450+1684421.290">
       <Runway Name="05" Position="-450112.000+1684408.480" />
       <Runway Name="23" Position="-450059.558+1684527.821" />
       <Runway Name="14" Position="-450104.019+1684428.320" />
       <Runway Name="32" Position="-450126.101+1684438.962" />
     </Airport>
-    <Airport ICAO="NZQW" Position="-411709.000+1744648.000" />
-    <Airport ICAO="NZRA" Position="-374817.000+1745136.000">
+    <Airport ICAO="NZQW" FullName=" Queens Wharf" Position="-411709.000+1744648.000" />
+    <Airport ICAO="NZRA" FullName=" Raglan" Position="-374817.000+1745136.000">
       <Runway Name="05" Position="-374822.532+1745119.303" />
       <Runway Name="23" Position="-374815.365+1745144.240" />
     </Airport>
-    <Airport ICAO="NZRC" Position="-465359.000+1680607.000" />
-    <Airport ICAO="NZRI" Position="-440506.000+1712457.000" />
-    <Airport ICAO="NZRK" Position="-385312.000+1762149.000" />
-    <Airport ICAO="NZRL" Position="-380648.000+1761635.000" />
-    <Airport ICAO="NZRO" Position="-380633.000+1761902.000">
+    <Airport ICAO="NZRC" FullName=" Ryans Creek" Position="-465359.000+1680607.000" />
+    <Airport ICAO="NZRI" FullName=" Rangitata Island" Position="-440506.000+1712457.000" />
+    <Airport ICAO="NZRK" FullName=" Rangitaiki" Position="-385312.000+1762149.000" />
+    <Airport ICAO="NZRL" FullName=" Rotorua Lakes" Position="-380648.000+1761635.000" />
+    <Airport ICAO="NZRO" FullName=" Rotorua" Position="-380633.000+1761902.000">
       <Runway Name="18" Position="-380601.598+1761913.238" />
       <Runway Name="36" Position="-380655.750+1761841.170" />
     </Airport>
-    <Airport ICAO="NZRR" Position="-375302.270+1781724.100" />
-    <Airport ICAO="NZRT" Position="-431724.000+1723230.000">
+    <Airport ICAO="NZRR" FullName=" Ruatoria" Position="-375302.270+1781724.100" />
+    <Airport ICAO="NZRT" FullName=" Rangiora" Position="-431724.000+1723230.000">
       <Runway Name="04" Position="-431726.736+1723224.252" />
       <Runway Name="22" Position="-431719.154+1723244.686" />
       <Runway Name="07" Position="-431718.168+1723212.386" />
@@ -9147,141 +9109,141 @@ RILEY
       <Runway Name="10" Position="-431718.085+1723215.353" />
       <Runway Name="28" Position="-431728.385+1723237.104" />
     </Airport>
-    <Airport ICAO="NZRW" Position="-360545.000+1735831.000" />
-    <Airport ICAO="NZRX" Position="-453042.000+1691900.000" />
-    <Airport ICAO="NZSD" Position="-391908.000+1741837.000">
+    <Airport ICAO="NZRW" FullName=" Ruawai" Position="-360545.000+1735831.000" />
+    <Airport ICAO="NZRX" FullName=" Water Aerodrome Roxburgh" Position="-453042.000+1691900.000" />
+    <Airport ICAO="NZSD" FullName=" Stratford" Position="-391908.000+1741837.000">
       <Runway Name="09" Position="-391857.319+1741810.228" />
       <Runway Name="27" Position="-391909.102+1741847.912" />
       <Runway Name="16" Position="-391856.315+1741834.398" />
       <Runway Name="34" Position="-391914.059+1741832.422" />
     </Airport>
-    <Airport ICAO="NZSF" Position="-432301.000+1715440.000" />
-    <Airport ICAO="NZSH" Position="-450136.720+1683853.960" />
-    <Airport ICAO="NZSL" Position="-361930.000+1743320.000">
+    <Airport ICAO="NZSF" FullName=" Springfield" Position="-432301.000+1715440.000" />
+    <Airport ICAO="NZSH" FullName=" Skyline Helipad" Position="-450136.720+1683853.960" />
+    <Airport ICAO="NZSL" FullName=" Springhill" Position="-361930.000+1743320.000">
       <Runway Name="16" Position="-361914.380+1743321.398" />
       <Runway Name="34" Position="-361930.922+1743321.240" />
     </Airport>
-    <Airport ICAO="NZSO" Position="-411520.000+1740118.000" />
-    <Airport ICAO="NZTE" Position="-374442.000+1750931.000" />
-    <Airport ICAO="NZTG" Position="-374019.000+1761146.000">
+    <Airport ICAO="NZSO" FullName=" Marlborough Sounds" Position="-411520.000+1740118.000" />
+    <Airport ICAO="NZTE" FullName=" Te Kowhai" Position="-374442.000+1750931.000" />
+    <Airport ICAO="NZTG" FullName=" Water Aerodrome Tauranga" Position="-374019.000+1761146.000">
       <Runway Name="07" Position="-374021.900+1761118.200" />
       <Runway Name="25" Position="-374025.702+1761232.602" />
       <Runway Name="16" Position="-374020.770+1761138.897" />
       <Runway Name="34" Position="-374038.870+1761137.576" />
     </Airport>
-    <Airport ICAO="NZTH" Position="-370924.000+1753301.000">
+    <Airport ICAO="NZTH" FullName=" Thames" Position="-370924.000+1753301.000">
       <Runway Name="05" Position="-370942.358+1753245.071" />
       <Runway Name="23" Position="-370935.518+1753308.690" />
     </Airport>
-    <Airport ICAO="NZTI" Position="-455136.000+1702130.000">
+    <Airport ICAO="NZTI" FullName=" Taieri" Position="-455136.000+1702130.000">
       <Runway Name="05" Position="-455139.532+1702110.843" />
       <Runway Name="23" Position="-455132.389+1702149.187" />
       <Runway Name="11" Position="-455127.266+1702117.546" />
       <Runway Name="29" Position="-455144.654+1702142.484" />
     </Airport>
-    <Airport ICAO="NZTK" Position="-404847.780+1724630.510">
+    <Airport ICAO="NZTK" FullName=" Takaka" Position="-404847.780+1724630.510">
       <Runway Name="18" Position="-404840.252+1724639.112" />
       <Runway Name="36" Position="-404902.348+1724628.380" />
     </Airport>
-    <Airport ICAO="NZTL" Position="-440018.000+1702630.000" />
-    <Airport ICAO="NZTM" Position="-385036.000+1751519.000">
+    <Airport ICAO="NZTL" FullName=" Tekapo" Position="-440018.000+1702630.000" />
+    <Airport ICAO="NZTM" FullName=" Taumarunui" Position="-385036.000+1751519.000">
       <Runway Name="01" Position="-385038.929+1751530.049" />
       <Runway Name="19" Position="-385003.386+1751557.514" />
     </Airport>
-    <Airport ICAO="NZTN" Position="-385806.000+1754849.000">
+    <Airport ICAO="NZTN" FullName=" Turangi" Position="-385806.000+1754849.000">
       <Runway Name="02" Position="-385814.930+1754838.959" />
       <Runway Name="20" Position="-385754.439+1754901.808" />
     </Airport>
-    <Airport ICAO="NZTO" Position="-381412.000+1755334.000">
+    <Airport ICAO="NZTO" FullName=" Tokoroa" Position="-381412.000+1755334.000">
       <Runway Name="13" Position="-381407.530+1755330.278" />
       <Runway Name="31" Position="-381430.170+1755350.460" />
     </Airport>
-    <Airport ICAO="NZTP" Position="-440046.000+1702424.000" />
-    <Airport ICAO="NZTQ" Position="-382001.640+1750906.530" />
-    <Airport ICAO="NZTR" Position="-373745.000+1782051.000" />
-    <Airport ICAO="NZTS" Position="-411216.420+1730257.720" />
-    <Airport ICAO="NZTT" Position="-381812.000+1750849.000">
+    <Airport ICAO="NZTP" FullName=" Tekapo / Mackenzie" Position="-440046.000+1702424.000" />
+    <Airport ICAO="NZTQ" FullName=" Te Kuiti Hospital" Position="-382001.640+1750906.530" />
+    <Airport ICAO="NZTR" FullName=" Te Araroa" Position="-373745.000+1782051.000" />
+    <Airport ICAO="NZTS" FullName=" Tasman" Position="-411216.420+1730257.720" />
+    <Airport ICAO="NZTT" FullName=" Te Kuiti" Position="-381812.000+1750849.000">
       <Runway Name="16" Position="-381800.601+1750851.601" />
       <Runway Name="34" Position="-381825.628+1750851.601" />
     </Airport>
-    <Airport ICAO="NZTU" Position="-441810.000+1711331.000">
+    <Airport ICAO="NZTU" FullName=" Timaru" Position="-441810.000+1711331.000">
       <Runway Name="02" Position="-441811.779+1711314.300" />
       <Runway Name="20" Position="-441740.679+1711352.540" />
       <Runway Name="11" Position="-441753.419+1711319.312" />
       <Runway Name="29" Position="-441818.468+1711355.564" />
     </Airport>
-    <Airport ICAO="NZTW" Position="-441539.990+1700551.940" />
-    <Airport ICAO="NZTZ" Position="-442433.100+1711519.900" />
-    <Airport ICAO="NZUA" Position="-393318.000+1732658.000" />
-    <Airport ICAO="NZUB" Position="-393843.000+1731857.000" />
-    <Airport ICAO="NZUK" Position="-441406.000+1700706.000">
+    <Airport ICAO="NZTW" FullName=" Twizel Medical Centre" Position="-441539.990+1700551.940" />
+    <Airport ICAO="NZTZ" FullName=" Timaru Hospital" Position="-442433.100+1711519.900" />
+    <Airport ICAO="NZUA" FullName=" Maui A" Position="-393318.000+1732658.000" />
+    <Airport ICAO="NZUB" FullName=" Maui B" Position="-393843.000+1731857.000" />
+    <Airport ICAO="NZUK" FullName=" Pukaki" Position="-441406.000+1700706.000">
       <Runway Name="15" Position="-441400.719+1700706.521" />
       <Runway Name="33" Position="-441435.480+1700712.860" />
     </Airport>
-    <Airport ICAO="NZUN" Position="-370118.000+1755149.000">
+    <Airport ICAO="NZUN" FullName=" Pauanui Beach" Position="-370118.000+1755149.000">
       <Runway Name="05" Position="-370119.481+1755136.029" />
       <Runway Name="23" Position="-370111.190+1755202.078" />
     </Airport>
-    <Airport ICAO="NZUR" Position="-414823.000+1721943.000" />
-    <Airport ICAO="NZVL" Position="-455925.000+1684844.000" />
-    <Airport ICAO="NZVR" Position="-394106.000+1754719.000" />
-    <Airport ICAO="NZWB" Position="-413106.000+1735213.000">
+    <Airport ICAO="NZUR" FullName=" Murchison Hospital" Position="-414823.000+1721943.000" />
+    <Airport ICAO="NZVL" FullName=" Mandeville" Position="-455925.000+1684844.000" />
+    <Airport ICAO="NZVR" FullName=" Taihape" Position="-394106.000+1754719.000" />
+    <Airport ICAO="NZWB" FullName=" Woodbourne" Position="-413106.000+1735213.000">
       <Runway Name="06" Position="-413105.959+1735139.150" />
       <Runway Name="24" Position="-413102.701+1735240.462" />
       <Runway Name="10" Position="-413057.103+1735141.000" />
       <Runway Name="28" Position="-413117.400+1735224.398" />
     </Airport>
-    <Airport ICAO="NZWE" Position="-364947.000+1750356.000" />
-    <Airport ICAO="NZWF" Position="-444320.000+1691444.000">
+    <Airport ICAO="NZWE" FullName=" Kauaroa Bay" Position="-364947.000+1750356.000" />
+    <Airport ICAO="NZWF" FullName=" Wanaka" Position="-444320.000+1691444.000">
       <Runway Name="11" Position="-444305.000+1691428.702" />
       <Runway Name="29" Position="-444334.000+1691505.000" />
     </Airport>
-    <Airport ICAO="NZWG" Position="-371202.000+1755200.000" />
-    <Airport ICAO="NZWH" Position="-411830.000+1744646.000" />
-    <Airport ICAO="NZWJ" Position="-361749.400+1743122.500" />
-    <Airport ICAO="NZWK" Position="-375512.530+1765447.580">
+    <Airport ICAO="NZWG" FullName=" Whangamata" Position="-371202.000+1755200.000" />
+    <Airport ICAO="NZWH" FullName=" Wellington Hospital" Position="-411830.000+1744646.000" />
+    <Airport ICAO="NZWJ" FullName=" Wellsford" Position="-361749.400+1743122.500" />
+    <Airport ICAO="NZWK" FullName=" Whakatane" Position="-375512.530+1765447.580">
       <Runway Name="09" Position="-375511.780+1765435.899" />
       <Runway Name="27" Position="-375527.541+1765524.420" />
     </Airport>
-    <Airport ICAO="NZWL" Position="-432836.000+1722348.000" />
-    <Airport ICAO="NZWM" Position="-444724.000+1710530.000">
+    <Airport ICAO="NZWL" FullName=" West Melton" Position="-432836.000+1722348.000" />
+    <Airport ICAO="NZWM" FullName=" Waimate" Position="-444724.000+1710530.000">
       <Runway Name="04" Position="-444728.014+1710517.120" />
       <Runway Name="22" Position="-444719.885+1710542.828" />
       <Runway Name="09" Position="-444723.730+1710514.208" />
       <Runway Name="27" Position="-444729.882+1710536.841" />
     </Airport>
-    <Airport ICAO="NZWN" Position="-411938.000+1744819.000">
+    <Airport ICAO="NZWN" FullName=" Wellington" Position="-411938.000+1744819.000">
       <Runway Name="16" Position="-411907.039+1744826.849" />
       <Runway Name="34" Position="-412005.780+1744822.889" />
     </Airport>
-    <Airport ICAO="NZWO" Position="-390055.220+1772415.050">
+    <Airport ICAO="NZWO" FullName=" Wairoa" Position="-390055.220+1772415.050">
       <Runway Name="16" Position="-390027.180+1772414.648" />
       <Runway Name="34" Position="-390056.700+1772416.970" />
     </Airport>
-    <Airport ICAO="NZWP" Position="-364715.970+1743748.930">
+    <Airport ICAO="NZWP" FullName=" Whenuapai" Position="-364715.970+1743748.930">
       <Runway Name="03" Position="-364746.252+1743715.190" />
       <Runway Name="21" Position="-364706.551+1743820.591" />
       <Runway Name="08" Position="-364701.529+1743724.481" />
       <Runway Name="26" Position="-364708.639+1743827.640" />
     </Airport>
-    <Airport ICAO="NZWQ" Position="-343137.000+1725018.000" />
-    <Airport ICAO="NZWR" Position="-354606.000+1742154.000">
+    <Airport ICAO="NZWQ" FullName=" Waitiki" Position="-343137.000+1725018.000" />
+    <Airport ICAO="NZWR" FullName=" Whangarei" Position="-354606.000+1742154.000">
       <Runway Name="06" Position="-354611.550+1742128.170" />
       <Runway Name="24" Position="-354606.139+1742211.341" />
       <Runway Name="14" Position="-354610.751+1742132.706" />
       <Runway Name="32" Position="-354625.115+1742139.517" />
     </Airport>
-    <Airport ICAO="NZWS" Position="-414417.000+1713451.000">
+    <Airport ICAO="NZWS" FullName=" Westport" Position="-414417.000+1713451.000">
       <Runway Name="04" Position="-414425.012+1713421.310" />
       <Runway Name="22" Position="-414402.159+1713507.591" />
     </Airport>
-    <Airport ICAO="NZWT" Position="-364954.000+1754043.000">
+    <Airport ICAO="NZWT" FullName=" Whitianga" Position="-364954.000+1754043.000">
       <Runway Name="04" Position="-364956.302+1754034.741" />
       <Runway Name="22" Position="-364932.250+1754118.780" />
       <Runway Name="16" Position="-364931.570+1754047.730" />
       <Runway Name="34" Position="-364952.342+1754048.749" />
     </Airport>
-    <Airport ICAO="NZWU" Position="-395744.000+1750131.000">
+    <Airport ICAO="NZWU" FullName=" Whanganui" Position="-395744.000+1750131.000">
       <Runway Name="08" Position="-395747.326+1750136.516" />
       <Runway Name="26" Position="-395752.736+1750212.880" />
       <Runway Name="11" Position="-395735.179+1750104.951" />
@@ -9289,11 +9251,11 @@ RILEY
       <Runway Name="14" Position="-395748.755+1750134.208" />
       <Runway Name="32" Position="-395816.385+1750146.621" />
     </Airport>
-    <Airport ICAO="NZWV" Position="-372548.000+1755707.000">
+    <Airport ICAO="NZWV" FullName=" Waihi Beach" Position="-372548.000+1755707.000">
       <Runway Name="13" Position="-372538.964+1755700.482" />
       <Runway Name="31" Position="-372556.928+1755713.558" />
     </Airport>
-    <Airport ICAO="NZWY" Position="-432300.000+1715400.000" />
-    <Airport ICAO="NZYP" Position="-395948.000+1763213.000" />
+    <Airport ICAO="NZWY" FullName=" Wyndale" Position="-432300.000+1715400.000" />
+    <Airport ICAO="NZYP" FullName=" Waipukurau" Position="-395948.000+1763213.000" />
   </Airports>
 </Airspace>
