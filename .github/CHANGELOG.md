@@ -240,22 +240,22 @@ Special thanks to Alek Ristic for providing some of the data for this update.
 
 
 
+**Dataset Changes**
 
-  **Dataset Changes**
+**NZAP**
 
-  **NZAP**
-  The following departures have been added -
+The following departures have been added -
   * Rwy 17 - `TAIKO 5`, `LAKE 6`, `BAY 8`
   * Rwy 35 - `MOKAI 4`, `PEAK 8`, `PAEROA 5`, `TEREG 2`
 
-  **NZTU**
+**NZTU**
 
-  All SIDs/STARs and RNAV approaches have been added.
+All SIDs/STARs and RNAV approaches have been added.
 
-  **NZTK**
+**NZTK**
 
-  Minor modifications to the termination points of the RNAV approaches.
+Minor modifications to the termination points of the RNAV approaches.
 
-  **NZWN**
+**NZWN**
 
-  The `ISNIP 5T` SID for Rwy 34 has been added. This is similar to the `ISNIP 5P`, albeit with an initial visual segment. 
+The `ISNIP 5T` SID for Rwy 34 has been added. This is similar to the `ISNIP 5P`, albeit with an initial visual segment. 
