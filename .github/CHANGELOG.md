@@ -217,38 +217,45 @@ Special thanks to Alek Ristic for providing some of the data for this update.
 
   * Addition of waypoint `UPVAP`, on the WN TMA's northwest boundary.
 
-  **NZAA**:
-    * `UKAPA 1D` is now rated for approach categories A through D.
-    * `EXOPI 6D` has been renamed the `EXOPI 7D`
-  **NZPM**:
-    * `NZPM 1H` RADAR SID added for Rwy 07. Essentially fly runway heading, climb 6000
-    * `NZPM 2A` RADAR SID for Rwy 25 has been renamed the `NZPM 3A`
-  **NZQN**:
-    * `DOVMA 1A` renamed the `DOVMA 2A`
-  **NZWN**
-    * `MESEL 2Q` has been renamed the `MESEL 3Q`. Transition `UPVAP` has been added.
-    * `ISNIP 4P` has been renamed the `ISNIP 5P`. Transition `UPVAP` has been added.
 
-  
+
+**NZAA**
+
+- `UKAPA 1D` is noq rated for approach categories A through D
+- `EXOPI 6D` has been renamed the `EXOPI 7D`
+
+**NZPM**
+
+* `NZPM 1H` Radar SID added for Rwy 07. Essentially fly runway heading, climb 6000
+* `NZPM 2A` Radar SID for Rwy 25 has been renamed the `NZPM 3A`.
+
+**NZQN**
+
+* `DOVMA 1A` renamed the `DOVMA 2A`
+
+**NZWN**
+
+* `MESEL 2Q` has been renamed the `MESEL 3Q`. Transition `UVPVAP` has been added.
+* `ISNIP 4P` has been renamed the `ISNIP 5P`. Transition `UPVAP` has been added.
+
+
+
+
   **Dataset Changes**
 
   **NZAP**
   The following departures have been added -
-  * Rwy 17
-    * `TAIKO 5`
-    * `LAKE 6`
-    * `BAY 8`
-  * Rwy 35
-    * `MOKAI 4`
-    * `PEAK 8`
-    * `PAEROA 5`
-    * `TEREG 2`
-  
+  * Rwy 17 - `TAIKO 5`, `LAKE 6`, `BAY 8`
+  * Rwy 35 - `MOKAI 4`, `PEAK 8`, `PAEROA 5`, `TEREG 2`
+
   **NZTU**
+
   All SIDs/STARs and RNAV approaches have been added.
 
   **NZTK**
+
   Minor modifications to the termination points of the RNAV approaches.
 
   **NZWN**
+
   The `ISNIP 5T` SID for Rwy 34 has been added. This is similar to the `ISNIP 5P`, albeit with an initial visual segment. 
