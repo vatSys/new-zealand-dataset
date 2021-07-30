@@ -50,20 +50,24 @@
       KADNU/RUSIL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 MESE2Q-->
+      <!--Rwy16 MESE3Q-->
       -41.334939+174.806358/-41.376944+174.802222/MESEL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 MESE2Q.IGMUL-->
+      <!--Rwy16 MESE3Q.IGMUL-->
       MESEL/DAPVA/IGMUL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 MESE2Q.LUBSI-->
+      <!--Rwy16 MESE3Q.LUBSI-->
       MESEL/ISLUG/TAKMI/LUBSI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 MESE2Q.SABDA-->
+      <!--Rwy16 MESE3Q.SABDA-->
       MESEL/SABDA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 MESE3Q.UPVAP-->
+      IGMUL/UPVAP
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy16 NZWN4A-->
@@ -124,6 +128,7 @@
       <Point>TAKMI</Point>
       <Point>LUBSI</Point>
       <Point>SABDA</Point>
+      <Point>UPVAP</Point>
       <Point>ATSUN</Point>
       <Point>KAMDO</Point>
       <Point>BAXAN</Point>
@@ -147,6 +152,7 @@
       <Point>IGMUL</Point>
       <Point>LUBSI</Point>
       <Point>SABDA</Point>
+      <Point>UPVAP</Point>
       <Point>ATSUN</Point>
       <Point>KAMDO</Point>
     </Label>
@@ -304,39 +310,47 @@
   </Map>
   <Map Type="System2" Name="34 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.318622+174.807458">
     <Line Pattern="Dashed">
-      <!--Rwy34 ISNI4P-->
+      <!--Rwy34 ISNI5P-->
       -41.318622+174.807458/-41.239722+174.815000/ISNIP
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 ISNI4P.AVPOD-->
+      <!--Rwy34 ISNI5P.AVPOD-->
       ISNIP/BAXOV/AVPOD
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 ISNI4P.NIMOS-->
+      <!--Rwy34 ISNI5P.NIMOS-->
       ISNIP/OGAMI/NIMOS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 ISNI4P.NULKO-->
+      <!--Rwy34 ISNI5P.NULKO-->
       ISNIP/AGSOP/ENRED/NULKO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 ISNI4P.RUSIL-->
+      <!--Rwy34 ISNI5P.RUSIL-->
       OGAMI/RUSIL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 ISNI4T-->
+      <!--Rwy34 ISNI5P.UPVAP-->
+      AGSOP/UPVAP
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 ISNI4T.AVPOD-->
+      <!--Rwy34 ISNI5T-->
+      -41.318622+174.807458/-41.308678+174.808089/-41.279275+174.780289/MUDGU/ISNIP
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 ISNI4T.NIMOS-->
+      <!--Rwy34 ISNI5T.AVPOD-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 ISNI4T.NULKO-->
+      <!--Rwy34 ISNI5T.NIMOS-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 ISNI4T.RUSIL-->
+      <!--Rwy34 ISNI5T.NULKO-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 ISNI5T.RUSIL-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 ISNI5T.UPVAP-->
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy34 KALE3P-->
@@ -463,6 +477,8 @@
       <Point>ENRED</Point>
       <Point>NULKO</Point>
       <Point>RUSIL</Point>
+      <Point>UPVAP</Point>
+      <Point>MUDGU</Point>
       <Point>KALEM</Point>
       <Point>ATSUN</Point>
       <Point>PAPSI</Point>
@@ -493,6 +509,7 @@
       <Point>NIMOS</Point>
       <Point>NULKO</Point>
       <Point>RUSIL</Point>
+      <Point>UPVAP</Point>
       <Point>ATSUN</Point>
       <Point>KAMDO</Point>
       <Point>KAMET</Point>

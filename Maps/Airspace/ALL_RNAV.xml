@@ -306,6 +306,10 @@
       <Point>MIKER</Point>
       <Point>ARIKA</Point>
       <Point>GOSTI</Point>
+      <Point>DOPOP</Point>
+      <Point>SUNPA</Point>
+      <Point>BIDNI</Point>
+      <Point>LUVAB</Point>
       <Point>JAMIE</Point>
       <Point>LAVIS</Point>
       <Point>POTOP</Point>
@@ -373,6 +377,8 @@
       <Point>RIPSA</Point>
       <Point>UKDAS</Point>
       <Point>BENVU</Point>
+      <Point>REKID</Point>
+      <Point>EMTEP</Point>
       <Point>ENPIP</Point>
       <Point>WK401</Point>
       <Point>WK402</Point>
@@ -448,6 +454,7 @@
       <Point>TK401</Point>
       <Point>WAIPA</Point>
       <Point>AMURI</Point>
+      <Point>TU593</Point>
       <Point>LUTKA</Point>
       <Point>ELBEV</Point>
       <Point>REGAT</Point>
@@ -494,6 +501,8 @@
       <Point>ONADU</Point>
       <Point>-38.125194+176.293947</Point>
       <Point>SEMKI</Point>
+      <Point>TK407</Point>
+      <Point>TU402</Point>
       <Point>ELKUB</Point>
       <Point>WB401</Point>
       <Point>BUTIN</Point>
@@ -582,6 +591,10 @@
       <Point>MIKER</Point>
       <Point>ARIKA</Point>
       <Point>GOSTI</Point>
+      <Point>DOPOP</Point>
+      <Point>SUNPA</Point>
+      <Point>BIDNI</Point>
+      <Point>LUVAB</Point>
       <Point>JAMIE</Point>
       <Point>LAVIS</Point>
       <Point>POTOP</Point>
@@ -662,6 +675,8 @@
       <Point>BENVU</Point>
       <Point>-38.167164+175.830969</Point>
       <Point>-38.309944+175.958236</Point>
+      <Point>REKID</Point>
+      <Point>EMTEP</Point>
       <Point>ENPIP</Point>
       <Point>WK401</Point>
       <Point>WK402</Point>
@@ -740,6 +755,7 @@
       <Point>TK401</Point>
       <Point>WAIPA</Point>
       <Point>AMURI</Point>
+      <Point>TU593</Point>
       <Point>LUTKA</Point>
       <Point>ELBEV</Point>
       <Point>REGAT</Point>
@@ -887,7 +903,7 @@
     <Line Pattern="Solid">PATMO/UKDAS/TG25T</Line>
     <Line Pattern="Solid">TODAN/PATMO</Line>
     <Line Pattern="Solid">UBSET/PATMO</Line>
-    <Line Pattern="Solid">MARKO/TK401/BENVU/TK407</Line>
+    <Line Pattern="Solid">MARKO/TK401/BENVU/TK407/TK18T</Line>
     <Line Pattern="Solid">WAIPA/-38.167164+175.830969/TO13T</Line>
     <Line Pattern="Solid">KARBA/WAIPA</Line>
     <Line Pattern="Solid">LALAN/WAIPA</Line>
@@ -896,6 +912,11 @@
     <Line Pattern="Solid">ARIKA/AMURI</Line>
     <Line Pattern="Solid">GOSTI/AMURI</Line>
     <Line Pattern="Solid">GUMAN/AMURI</Line>
+    <Line Pattern="Solid">TU593/REKID/TU402/TU02T</Line>
+    <Line Pattern="Solid">DOPOP/TU593</Line>
+    <Line Pattern="Solid">SUNPA/EMTEP/TU20T</Line>
+    <Line Pattern="Solid">BIDNI/SUNPA</Line>
+    <Line Pattern="Solid">LUVAB/SUNPA</Line>
     <Line Pattern="Solid">LUTKA/ELKUB/ENPIP/WB401/WB24T</Line>
     <Line Pattern="Solid">JAMIE/LUTKA</Line>
     <Line Pattern="Solid">ELBEV/WK401/WK09T</Line>

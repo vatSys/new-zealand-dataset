@@ -2,6 +2,13 @@
 <Maps>
   <Map Type="System2" Name="17 SIDs" Priority="1" CustomColourName="ProcDep" Center="-38.746789+176.082844">
     <Line Pattern="Dashed">
+      <!--Rwy17 BAY8-->
+      -38.746789+176.082844/-38.767206+176.075683/-38.761722+176.039078/AP NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy17 LAKE6-->
+    </Line>
+    <Line Pattern="Dashed">
       <!--Rwy17 MINEK2-->
       -38.746789+176.082844/-38.769722+176.067778/MINEK
     </Line>
@@ -37,7 +44,11 @@
       <!--Rwy17 MINEK2.TM-->
       MINEK/TM NDB
     </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy17 TAIKO5-->
+    </Line>
     <Symbol Type="Circle">
+      <Point>AP NDB</Point>
       <Point>TM NDB</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
@@ -53,6 +64,7 @@
       <Point>TAIKI</Point>
     </Symbol>
     <Label HasLeader="true">
+      <Point>AP NDB</Point>
       <Point>MINEK</Point>
       <Point>AKNES</Point>
       <Point>DOGMO</Point>
@@ -120,6 +132,82 @@
       <Point>KALGO</Point>
       <Point>OLSEK</Point>
       <Point>AP706</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="35 SIDs" Priority="1" CustomColourName="ProcDep" Center="-38.734717+176.086950">
+    <Line Pattern="Dashed">
+      <!--Rwy35 MOKAI4-->
+      -38.734717+176.086950/-38.714481+176.094117
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy35 PAERO5-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy35 PEAK8-->
+      -38.714481+176.094117/AP NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy35 TEREG2-->
+      -38.734717+176.086950/TEREG
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy35 TEREG2.AKNES-->
+      TEREG/VEKPO/AKNES
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy35 TEREG2.DOGMO-->
+      VEKPO/DOGMO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy35 TEREG2.DUDUS-->
+      TEREG/DUDUS
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy35 TEREG2.ISGIT-->
+      TEREG/ISGIT
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy35 TEREG2.KARBA-->
+      TEREG/KARBA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy35 TEREG2.SULFA-->
+      TEREG/SULFA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy35 TEREG2.TAIKI-->
+      VEKPO/TAIKI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy35 TEREG2.TM-->
+      TEREG/TM NDB
+    </Line>
+    <Symbol Type="Circle">
+      <Point>AP NDB</Point>
+      <Point>TM NDB</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>TEREG</Point>
+      <Point>VEKPO</Point>
+      <Point>AKNES</Point>
+      <Point>DOGMO</Point>
+      <Point>DUDUS</Point>
+      <Point>ISGIT</Point>
+      <Point>KARBA</Point>
+      <Point>SULFA</Point>
+      <Point>TAIKI</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>AP NDB</Point>
+      <Point>TEREG</Point>
+      <Point>AKNES</Point>
+      <Point>DOGMO</Point>
+      <Point>DUDUS</Point>
+      <Point>ISGIT</Point>
+      <Point>KARBA</Point>
+      <Point>SULFA</Point>
+      <Point>TAIKI</Point>
+      <Point>TM NDB</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="35 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.746789+176.082844">

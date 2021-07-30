@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System2" Name="18 GNSS" Priority="1" Center="-40.811181+172.777531" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>TK407</Point>
+    </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>MARKO</Point>
     </Symbol>
@@ -11,7 +13,7 @@
     <Symbol Type="SolidTriangle">
       <Point>TK401</Point>
     </Symbol>
-    <Line Pattern="Solid">MARKO/TK401/BENVU/TK407</Line>
+    <Line Pattern="Solid">MARKO/TK401/BENVU/TK407/TK18T</Line>
   </Map>
   <Map Type="System2" Name="18 GNSS Labels" Priority="1" Center="-40.811181+172.777531" CustomColourName="ProcArr">
     <Label HasLeader="true">

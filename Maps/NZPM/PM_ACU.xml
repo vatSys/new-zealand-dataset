@@ -31,6 +31,10 @@
       DADLI/LAPUN/DUKUT/GULBA/OMBUB
     </Line>
     <Line Pattern="Dashed">
+      <!--Rwy07 NZPM1H-->
+      -40.319836+175.624669/-40.320778+175.725175
+    </Line>
+    <Line Pattern="Dashed">
       <!--Rwy07 RUXO3Q-->
       -40.319836+175.624669/VEPUR/RUXOX
     </Line>
@@ -319,7 +323,7 @@
       GUTNI/LUNBA/RINRI/ANPUG/KEVEL/VIROL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 NZPM2A-->
+      <!--Rwy25 NZPM3A-->
       -40.319864+175.604869/-40.319444+175.506944
     </Line>
     <Symbol Type="HollowTriangle">

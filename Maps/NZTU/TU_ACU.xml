@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="02 SIDs" Priority="1" CustomColourName="ProcDep" Center="-44.294633+171.231261">
+    <Line Pattern="Dashed">
+      <!--Rwy02 BIDN1P-->
+      -44.294633+171.231261/-44.278194+171.251250/BIDNI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy02 BIDN1P.DUBON-->
+      BIDNI/DALUM/DUBON
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy02 BIDN1P.ELDAK-->
+      BIDNI/ELDAK
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy02 BIDN1P.MAMUS-->
+      DALUM/-44.252772+170.935364/MAMUS
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy02 BIDN1P.OLGAL-->
+      BIDNI/ATSOK/DOPOP/OLGAL
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy02 BIDN1P.OMARU-->
+      ATSOK/OMARU
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>BIDNI</Point>
+      <Point>DALUM</Point>
+      <Point>DUBON</Point>
+      <Point>ELDAK</Point>
+      <Point>MAMUS</Point>
+      <Point>ATSOK</Point>
+      <Point>DOPOP</Point>
+      <Point>OLGAL</Point>
+      <Point>OMARU</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>BIDNI</Point>
+      <Point>DUBON</Point>
+      <Point>ELDAK</Point>
+      <Point>MAMUS</Point>
+      <Point>OLGAL</Point>
+      <Point>OMARU</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="02 STARs" Priority="1" CustomColourName="ProcArr" Center="-44.303272+171.220639">
+    <Line>
+      <!--Rwy02 DUBO2J-->
+      DUBON/TU426/DOPOP
+    </Line>
+    <Line>
+      <!--Rwy02 ELDA1J-->
+      ELDAK/BIDNI/DOPOP
+    </Line>
+    <Line>
+      <!--Rwy02 MAMU2J-->
+      MAMUS/TU411/DOPOP
+    </Line>
+    <Line>
+      <!--Rwy02 PORU2J-->
+      PORUT/TU537/TU479/DOPOP
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>DOPOP</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>DUBON</Point>
+      <Point>TU426</Point>
+      <Point>ELDAK</Point>
+      <Point>BIDNI</Point>
+      <Point>MAMUS</Point>
+      <Point>TU411</Point>
+      <Point>PORUT</Point>
+      <Point>TU537</Point>
+      <Point>TU479</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>DUBON</Point>
+      <Point>ELDAK</Point>
+      <Point>MAMUS</Point>
+      <Point>PORUT</Point>
+      <Point>DOPOP</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="02 GNSS" Priority="1" Center="-44.303272+171.220639" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle">
+      <Point>TU402</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>DOPOP</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>REKID</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>TU593</Point>
+    </Symbol>
+    <Line Pattern="Solid">TU593/REKID/TU402/TU02T</Line>
+    <Line Pattern="Solid">DOPOP/TU593</Line>
+  </Map>
+  <Map Type="System2" Name="02 GNSS Labels" Priority="1" Center="-44.303272+171.220639" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>DOPOP</Point>
+      <Point>REKID</Point>
+      <Point>TU593</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="20 SIDs" Priority="1" CustomColourName="ProcDep" Center="-44.303272+171.220639">
+    <Line Pattern="Dashed">
+      <!--Rwy20 MUKE1Q-->
+      -44.303272+171.220639/MUKEN
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy20 MUKE1Q.DUBON-->
+      MUKEN/DUBON
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy20 MUKE1Q.ELDAK-->
+      MUKEN/BIDNI/ELDAK
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy20 MUKE1Q.MAMUS-->
+      MUKEN/MAMUS
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy20 MUKE1Q.OLGAL-->
+      MUKEN/OLGAL
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy20 MUKE1Q.OMARU-->
+      MUKEN/OMARU
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>MUKEN</Point>
+      <Point>DUBON</Point>
+      <Point>BIDNI</Point>
+      <Point>ELDAK</Point>
+      <Point>MAMUS</Point>
+      <Point>OLGAL</Point>
+      <Point>OMARU</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>MUKEN</Point>
+      <Point>DUBON</Point>
+      <Point>ELDAK</Point>
+      <Point>MAMUS</Point>
+      <Point>OLGAL</Point>
+      <Point>OMARU</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="20 STARs" Priority="1" CustomColourName="ProcArr" Center="-44.294633+171.231261">
+    <Line>
+      <!--Rwy20 DOPO1K-->
+      DOPOP/BIDNI
+    </Line>
+    <Line>
+      <!--Rwy20 DUBO1K-->
+      DUBON/MOVBO/ANGAX/IDKOV/LUVAB
+    </Line>
+    <Line>
+      <!--Rwy20 ELDA1K-->
+      ELDAK/BIDNI
+    </Line>
+    <Line>
+      <!--Rwy20 MAMU1K-->
+      MAMUS/UGVAV/LUVAB
+    </Line>
+    <Line>
+      <!--Rwy20 PORU1K-->
+      PORUT/UPTAX/LUVAB
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>BIDNI</Point>
+      <Point>LUVAB</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>DOPOP</Point>
+      <Point>DUBON</Point>
+      <Point>MOVBO</Point>
+      <Point>ANGAX</Point>
+      <Point>IDKOV</Point>
+      <Point>ELDAK</Point>
+      <Point>MAMUS</Point>
+      <Point>UGVAV</Point>
+      <Point>PORUT</Point>
+      <Point>UPTAX</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>DOPOP</Point>
+      <Point>DUBON</Point>
+      <Point>ELDAK</Point>
+      <Point>MAMUS</Point>
+      <Point>PORUT</Point>
+      <Point>BIDNI</Point>
+      <Point>LUVAB</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="20 GNSS" Priority="1" Center="-44.294633+171.231261" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>SUNPA</Point>
+      <Point>BIDNI</Point>
+      <Point>LUVAB</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>EMTEP</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle" />
+    <Line Pattern="Solid">SUNPA/EMTEP/TU20T</Line>
+    <Line Pattern="Solid">BIDNI/SUNPA</Line>
+    <Line Pattern="Solid">LUVAB/SUNPA</Line>
+  </Map>
+  <Map Type="System2" Name="20 GNSS Labels" Priority="1" Center="-44.294633+171.231261" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>SUNPA</Point>
+      <Point>BIDNI</Point>
+      <Point>LUVAB</Point>
+      <Point>EMTEP</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-44.302778+171.225278">
+    <Symbol Type="HollowSquare">
+      <Point Name="ARUNDEL PONDS">-435856.700+1711823.900</Point>
+      <Point Name="BRAEMAR DOME">-435112.000+1701750.300</Point>
+      <Point Name="BURKES PASS">-440524.000+1703603.300</Point>
+      <Point Name="CHERTSEY">-434808.000+1715606.400</Point>
+      <Point Name="HEAD OF LAKE TEKAPO">-434656.000+1703223.400</Point>
+      <Point Name="IRISHMAN CREEK STATION">-440410.000+1702039.000</Point>
+      <Point Name="KELLANDS PONDS">-441754.100+1700400.300</Point>
+      <Point Name="LAKE ALEXANDRINA">-435425.000+1702700.300</Point>
+      <Point Name="LANDSLIP CREEK">-435547.000+1701150.300</Point>
+      <Point Name="LILYBANK">-434220.000+1703344.400</Point>
+      <Point Name="MOUNT JOSEPH">-435136.000+1702216.000</Point>
+      <Point Name="PUKAKI DOWNS">-440926.000+1700652.300</Point>
+      <Point Name="PUKAKI SPILLWAY">-441118.000+1700812.300</Point>
+      <Point Name="RHOBORO DOWNS">-441124.000+1700510.300</Point>
+      <Point Name="RICHMOND STATION">-435254.000+1703307.400</Point>
+      <Point Name="TASMAN DOWNS">-440042.000+1701145.300</Point>
+      <Point Name="TEKAPO B">-440725.000+1701250.300</Point>
+      <Point Name="TEKAPO ISLAND">-435619.000+1703117.000</Point>
+      <Point Name="TEKAPO SADDLE">-435808.000+1703832.000</Point>
+      <Point Name="TEKAPO SKIFIELD">-434906.200+1703941.200</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point Name="ARUNDEL PONDS">-435856.700+1711823.900</Point>
+      <Point Name="BRAEMAR DOME">-435112.000+1701750.300</Point>
+      <Point Name="BURKES PASS">-440524.000+1703603.300</Point>
+      <Point Name="CHERTSEY">-434808.000+1715606.400</Point>
+      <Point Name="HEAD OF LAKE TEKAPO">-434656.000+1703223.400</Point>
+      <Point Name="IRISHMAN CREEK STATION">-440410.000+1702039.000</Point>
+      <Point Name="KELLANDS PONDS">-441754.100+1700400.300</Point>
+      <Point Name="LAKE ALEXANDRINA">-435425.000+1702700.300</Point>
+      <Point Name="LANDSLIP CREEK">-435547.000+1701150.300</Point>
+      <Point Name="LILYBANK">-434220.000+1703344.400</Point>
+      <Point Name="MOUNT JOSEPH">-435136.000+1702216.000</Point>
+      <Point Name="PUKAKI DOWNS">-440926.000+1700652.300</Point>
+      <Point Name="PUKAKI SPILLWAY">-441118.000+1700812.300</Point>
+      <Point Name="RHOBORO DOWNS">-441124.000+1700510.300</Point>
+      <Point Name="RICHMOND STATION">-435254.000+1703307.400</Point>
+      <Point Name="TASMAN DOWNS">-440042.000+1701145.300</Point>
+      <Point Name="TEKAPO B">-440725.000+1701250.300</Point>
+      <Point Name="TEKAPO ISLAND">-435619.000+1703117.000</Point>
+      <Point Name="TEKAPO SADDLE">-435808.000+1703832.000</Point>
+      <Point Name="TEKAPO SKIFIELD">-434906.200+1703941.200</Point>
+    </Label>
+  </Map>
+</Maps>
