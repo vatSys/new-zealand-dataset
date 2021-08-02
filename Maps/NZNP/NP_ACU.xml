@@ -30,7 +30,8 @@
       INGLE/ANDOM/MANGA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05 SAVL3P.TUIHU-->
+      <!--Rwy05 SAVL3P.SELTA-->
+      ANDOM/SELTA
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>IGDIL</Point>
@@ -50,6 +51,7 @@
       <Point>IGDOT</Point>
       <Point>ANDOM</Point>
       <Point>MANGA</Point>
+      <Point>SELTA</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>HARVO</Point>
@@ -58,6 +60,7 @@
       <Point>DAPNO</Point>
       <Point>IGDOT</Point>
       <Point>MANGA</Point>
+      <Point>SELTA</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="05 STARs" Priority="1" CustomColourName="ProcArr" Center="-39.010447+174.170067">

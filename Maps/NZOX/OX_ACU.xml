@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="18 GNSS" Priority="1" Center="-36.143307+175.419907" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>ADGOP</Point>
+      <Point>EKODU</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>RULVU</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>OLNAN</Point>
+    </Symbol>
+    <Line Pattern="Solid">OLNAN/RULVU/OX701/NZOX</Line>
+    <Line Pattern="Solid">ADGOP/OLNAN</Line>
+    <Line Pattern="Solid">EKODU/OLNAN</Line>
+  </Map>
+  <Map Type="System2" Name="18 GNSS Labels" Priority="1" Center="-36.143307+175.419907" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>ADGOP</Point>
+      <Point>EKODU</Point>
+      <Point>RULVU</Point>
+      <Point>OLNAN</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="36 GNSS" Priority="1" Center="-36.150562+175.416824" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>ADGOP</Point>
+      <Point>EKODU</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross">
+      <Point>RULVU</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>OLNAN</Point>
+    </Symbol>
+    <Line Pattern="Solid">OLNAN/RULVU/OX701/NZOX</Line>
+    <Line Pattern="Solid">ADGOP/OLNAN</Line>
+    <Line Pattern="Solid">EKODU/OLNAN</Line>
+  </Map>
+  <Map Type="System2" Name="36 GNSS Labels" Priority="1" Center="-36.150562+175.416824" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>ADGOP</Point>
+      <Point>EKODU</Point>
+      <Point>RULVU</Point>
+      <Point>OLNAN</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-36.146389+175.418611">
+    <Symbol Type="HollowSquare">
+      <Point Name="BREAMTAIL HEAD">-360253.500+1743500.700</Point>
+      <Point Name="CAPE RODNEY">-361653.500+1744900.700</Point>
+      <Point Name="COROMANDEL TOWN">-364520.500+1753003.000</Point>
+      <Point Name="HOWICK">-365241.500+1745529.700</Point>
+      <Point Name="KAWAKAWA BAY">-365653.400+1751009.200</Point>
+      <Point Name="LAKE PUPUKE">-364650.500+1744557.400</Point>
+      <Point Name="MANGAWHAI HEADS">-360523.500+1743500.700</Point>
+      <Point Name="MUSICK POINT">-365047.500+1745406.700</Point>
+      <Point Name="OKURA RIVER MOUTH">-363938.600+1744437.700</Point>
+      <Point Name="OREWA">-363600.300+1744149.600</Point>
+      <Point Name="ST HELIERS">-365035.500+1745150.700</Point>
+      <Point Name="WARKWORTH">-362402.100+1743949.300</Point>
+      <Point Name="WELLSFORD">-361745.900+1743123.600</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point Name="BREAMTAIL HEAD">-360253.500+1743500.700</Point>
+      <Point Name="CAPE RODNEY">-361653.500+1744900.700</Point>
+      <Point Name="COROMANDEL TOWN">-364520.500+1753003.000</Point>
+      <Point Name="HOWICK">-365241.500+1745529.700</Point>
+      <Point Name="KAWAKAWA BAY">-365653.400+1751009.200</Point>
+      <Point Name="LAKE PUPUKE">-364650.500+1744557.400</Point>
+      <Point Name="MANGAWHAI HEADS">-360523.500+1743500.700</Point>
+      <Point Name="MUSICK POINT">-365047.500+1745406.700</Point>
+      <Point Name="OKURA RIVER MOUTH">-363938.600+1744437.700</Point>
+      <Point Name="OREWA">-363600.300+1744149.600</Point>
+      <Point Name="ST HELIERS">-365035.500+1745150.700</Point>
+      <Point Name="WARKWORTH">-362402.100+1743949.300</Point>
+      <Point Name="WELLSFORD">-361745.900+1743123.600</Point>
+    </Label>
+  </Map>
+</Maps>

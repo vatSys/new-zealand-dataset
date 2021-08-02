@@ -91,6 +91,11 @@
       <Threshold Name="18" Position="-44.961850+171.085172" ExtendedCentrelineTrack="27.1" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
       <Threshold Name="36" Position="-44.972167+171.077861" ExtendedCentrelineTrack="207.1" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
     </Runway>
+    <!--NZOX-->
+    <Runway Name="18/36">
+      <Threshold Name="18" Position="-36.143307+175.419907" ExtendedCentrelineTrack="19.6" ExtendedCentrelineLength="2" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="36" Position="-36.150562+175.416824" ExtendedCentrelineTrack="199.6" ExtendedCentrelineLength="2" ExtendedCentrelineTickInterval="2" />
+    </Runway>
     <!--NZPM-->
     <Runway Name="07/25">
       <Threshold Name="07" Position="-40.319864+175.604869" ExtendedCentrelineTrack="271.3" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
@@ -105,6 +110,11 @@
     <Runway Name="05/23">
       <Threshold Name="05" Position="-45.020000+168.735689" ExtendedCentrelineTrack="257.7" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="23" Position="-45.016544+168.757728" ExtendedCentrelineTrack="77.7" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <!--NZRC-->
+    <Runway Name="04/22">
+      <Threshold Name="04" Position="-46.901048+168.097452" ExtendedCentrelineTrack="236.6" ExtendedCentrelineLength="2" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="22" Position="-46.898479+168.104904" ExtendedCentrelineTrack="56.6" ExtendedCentrelineLength="2" ExtendedCentrelineTickInterval="2" />
     </Runway>
     <!--NZRO-->
     <Runway Name="18/36">

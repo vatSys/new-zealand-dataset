@@ -208,54 +208,49 @@ Major domestic aerodromes are next on the working list.
 
 ### Revision A (Initial)
 
-Some cool updates within the ANR this cycle, as well as the additon of some provcedures that were previously missed.
+Some cool updates within the ANR this cycle, as well as the additon of some procedures that were previously missed.
 
 Special thanks to Alek Ristic for providing some of the data for this update.
 
-  **ANR Updates**
-  The ANR data has unfortunately not been updated by Airways, so I am unable to run a bulk update. This will be run after the initial release and will include the addition of two new ATS Routes.
+**ANR Updates**
 
-  * Addition of waypoint `UPVAP`, on the WN TMA's northwest boundary.
+The ANR data has unfortunately not been updated by Airways, so I am unable to run a bulk update. This will be run after the initial release and will include the addition of two new ATS Routes.
 
+* Addition of IFR waypoints `ADGOP`, `ANGEB`, `EKODU`, `LEDIP`, `OLNAN`, `RULVU`, `SEBSA` and `UPVAP`. 
 
 
 **NZAA**
 
-- `UKAPA 1D` is noq rated for approach categories A through D
+- `UKAPA 1D` is now rated for approach categories A through D
 - `EXOPI 6D` has been renamed the `EXOPI 7D`
+
+**NZOX** - AD status changed to IFR-VFR. `RNAV (GNSS)` approach added (applicable to both runways).
+
+**NZAP** - Addition of the `TAIKO 5`, `LAKE 6`, `BAY 8` departures for Rwy 17, and `MOKAI 4`, `PEAK 8`, `PAEROA 5`, `TEREG 2` departures for Rwy 35. These had been missed previously.
+
+**NZNP** - Addition of the `SALVO 3P/SELTA` departure that had been missed previously.
 
 **NZPM**
 
-* `NZPM 1H` Radar SID added for Rwy 07. Essentially fly runway heading, climb 6000
+* `NZPM 1H` Radar SID added for Rwy 07. 
 * `NZPM 2A` Radar SID for Rwy 25 has been renamed the `NZPM 3A`.
 
-**NZQN**
-
-* `DOVMA 1A` renamed the `DOVMA 2A`
-
 **NZWN**
 
-* `MESEL 2Q` has been renamed the `MESEL 3Q`. Transition `UVPVAP` has been added.
+* `MESEL 2Q` has been renamed the `MESEL 3Q`. Transition `UPVAP` has been added.
 * `ISNIP 4P` has been renamed the `ISNIP 5P`. Transition `UPVAP` has been added.
+* Addtion of the `ISNIP 5T` departure for Rwy 34 that had been omitted previously.
 
+**NZTK** - Minor modifications to the termination points of the RNAV approaches.
 
+**NZHK** - Addition of the IAFs for both GNSS approaches, allowing the Dataset to link them automatically to STARs. 
 
-**Dataset Changes**
+**NZQN** - `DOVMA 1A` renamed the `DOVMA 2A`
 
-**NZAP**
+**NZTU** - All SIDs/STARs and RNAV approaches have been added. These had been missed previously.
 
-The following departures have been added -
-  * Rwy 17 - `TAIKO 5`, `LAKE 6`, `BAY 8`
-  * Rwy 35 - `MOKAI 4`, `PEAK 8`, `PAEROA 5`, `TEREG 2`
+**NZRC**
 
-**NZTU**
-
-All SIDs/STARs and RNAV approaches have been added.
-
-**NZTK**
-
-Minor modifications to the termination points of the RNAV approaches.
-
-**NZWN**
-
-The `ISNIP 5T` SID for Rwy 34 has been added. This is similar to the `ISNIP 5P`, albeit with an initial visual segment. 
+* AD status changed to IFR-VFR. 
+* `SEBSA1` SID for Rwy 04 added.
+* `RNAV (GNSS) A` approach added for Rwy 22.
