@@ -3,7 +3,7 @@
   <Map Type="System2" Name="05 SIDs" Priority="1" CustomColourName="ProcDep" Center="-39.005644+174.183889">
     <Line Pattern="Dashed">
       <!--Rwy05 HARV2P-->
-      -39.005644+174.183889/-38.850556+174.207500/IGDIL/ATRUG/HARVO
+      -39.005644+174.183889/IGDIL/ATRUG/HARVO
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05 SAVL3P-->

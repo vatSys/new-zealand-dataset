@@ -265,7 +265,6 @@
       <Point>KARVO</Point>
       <Point>ANDEP</Point>
       <Point>BEDAV</Point>
-      <Point>MAKOS</Point>
       <Point>AGTUR</Point>
       <Point>EKVIL</Point>
       <Point>BESMO</Point>
@@ -421,6 +420,7 @@
       <Point>KOPUA</Point>
       <Point>ATMAS</Point>
       <Point>WAPOU</Point>
+      <Point>MAKOS</Point>
       <Point>BUDEN</Point>
       <Point>GUNDA</Point>
       <Point>OTAHA</Point>
@@ -560,7 +560,6 @@
       <Point>KARVO</Point>
       <Point>ANDEP</Point>
       <Point>BEDAV</Point>
-      <Point>MAKOS</Point>
       <Point>AGTUR</Point>
       <Point>EKVIL</Point>
       <Point>BESMO</Point>
@@ -732,6 +731,7 @@
       <Point>KOPUA</Point>
       <Point>ATMAS</Point>
       <Point>WAPOU</Point>
+      <Point>MAKOS</Point>
       <Point>BUDEN</Point>
       <Point>GUNDA</Point>
       <Point>OTAHA</Point>

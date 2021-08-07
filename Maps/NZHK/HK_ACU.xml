@@ -113,24 +113,25 @@
   <Map Type="System2" Name="21 GNSS" Priority="1" Center="-42.707764+170.992069" CustomColourName="ProcArr">
     <Symbol Type="HollowTriangle" />
     <Symbol Type="HollowTriangle">
-      <Point>MAKOS</Point>
       <Point>AGTUR</Point>
       <Point>EKVIL</Point>
     </Symbol>
     <Symbol Type="MalteseCross">
       <Point>HK407</Point>
     </Symbol>
-    <Symbol Type="SolidTriangle" />
+    <Symbol Type="SolidTriangle">
+      <Point>MAKOS</Point>
+    </Symbol>
     <Line Pattern="Solid">MAKOS/HK407/HK21T</Line>
     <Line Pattern="Solid">AGTUR/MAKOS</Line>
     <Line Pattern="Solid">EKVIL/MAKOS</Line>
   </Map>
   <Map Type="System2" Name="21 GNSS Labels" Priority="1" Center="-42.707764+170.992069" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>MAKOS</Point>
       <Point>AGTUR</Point>
       <Point>EKVIL</Point>
       <Point>HK407</Point>
+      <Point>MAKOS</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-42.713611+170.985278">

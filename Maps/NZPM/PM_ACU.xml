@@ -651,18 +651,24 @@
   </Map>
   <Map Type="System2" Name="VFRProc" Priority="1" CustomColourName="VFRPoint" Center="-40.320556+175.616944">
     <Label HasLeader="true" LabelOrientation="NW">
+      <Point Name="07CITY_ARR">RANGIOTU</Point>
       <Point Name="07HIWINUI_DEP">HIWINUI</Point>
       <Point Name="07LONGBURN_ARR">LONGBURN</Point>
       <Point Name="07MANFEILD_ARR">MANFEILD</Point>
       <Point Name="07UNI_DEP">UNIVERSITY</Point>
+      <Point Name="25CITY_ARR">TOKOMARU</Point>
       <Point Name="25HIWINUI_DEP">-40.306111+175.588889</Point>
-      <Point Name="25UNI_ARR">TOKOMARU</Point>
     </Label>
     <Label HasLeader="true" LabelOrientation="SE">
       <Point Name="25HIWINUI_ARR">HIWINUI</Point>
       <Point Name="25LONGBURN_DEP">LONGBURN</Point>
       <Point Name="25MANFEILD_DEP">MANFEILD</Point>
+      <Point Name="25UNI_ARR">TOKOMARU</Point>
     </Label>
+    <!--07CITY_ARR-->
+    <Line Pattern="Dotted">
+      RANGIOTU/LONGBURN
+    </Line>
     <!--07HIWINUI_DEP-->
     <Line Pattern="Dotted">
       HIWINUI
@@ -678,6 +684,10 @@
     <!--07UNI_DEP-->
     <Line Pattern="Dotted">
       UNIVERSITY/TOKOMARU
+    </Line>
+    <!--25CITY_ARR-->
+    <Line Pattern="Dotted">
+      TOKOMARU/UNIVERSITY
     </Line>
     <!--25HIWINUI_ARR-->
     <Line Pattern="Dotted">
