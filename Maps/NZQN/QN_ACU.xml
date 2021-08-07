@@ -14,15 +14,15 @@
       ANPOV/ATVOR/TIMJO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05 DOVM1A-->
+      <!--Rwy05 DOVM2A-->
       -45.016544+168.757728/QN605/QN615/QN621/DOVMA/QN678/QN682/QN686/QN690/QN737/BUGSA/QN878/QN882
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05 DOVM1A.ADLUP-->
+      <!--Rwy05 DOVM2A.ADLUP-->
       QN882/REDOL/BASOS/ADLUP
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05 DOVM1A.SUNGU-->
+      <!--Rwy05 DOVM2A.SUNGU-->
       QN882/SUNGU
     </Line>
     <Line Pattern="Dashed">

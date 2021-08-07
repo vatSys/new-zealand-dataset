@@ -12,6 +12,7 @@
 - [AIRAC 2105](#airac-2105)
 - [AIRAC 2106](#airac-2106)
 - [AIRAC 2107](#airac-2107)
+- [AIRAC 2108](#airac-2108)
 
 
 ## AIRAC 2013
@@ -201,3 +202,55 @@ Major domestic aerodromes are next on the working list.
 
   * Some waypoints within `Airways.xml` were duplicated from the NZ ANR export, causing a vatSys error. This RR removes the duplicate waypoints.
   * Some Palmerston North procedure notation changed - `GUTNU 3R`, `GUTNU 3T`.
+
+
+## AIRAC 2108
+
+### Revision A (Initial)
+
+Some cool updates within the ANR this cycle, as well as the additon of some procedures that were previously missed.
+
+Special thanks to Alek Ristic for providing some of the data for this update.
+
+**ANR Updates**
+
+The ANR data has unfortunately not been updated by Airways, so I am unable to run a bulk update. This will be run after the initial release and will include the addition of two new ATS Routes.
+
+* Addition of IFR waypoints `ADGOP`, `ANGEB`, `EKODU`, `LEDIP`, `OLNAN`, `RULVU`, `SEBSA` and `UPVAP`. 
+
+
+**NZAA**
+
+- `UKAPA 1D` is now rated for approach categories A through D
+- `EXOPI 6D` has been renamed the `EXOPI 7D`
+
+**NZOX** - AD status changed to IFR-VFR. `RNAV (GNSS)` approach added (applicable to both runways).
+
+**NZAP** - Addition of the `TAIKO 5`, `LAKE 6`, `BAY 8` departures for Rwy 17, and `MOKAI 4`, `PEAK 8`, `PAEROA 5`, `TEREG 2` departures for Rwy 35. These had been missed previously.
+
+**NZNP** - Addition of the `SALVO 3P/SELTA` departure that had been missed previously.
+
+**NZPM**
+
+* `NZPM 1H` Radar SID added for Rwy 07. 
+* `NZPM 2A` Radar SID for Rwy 25 has been renamed the `NZPM 3A`.
+
+**NZWN**
+
+* `MESEL 2Q` has been renamed the `MESEL 3Q`. Transition `UPVAP` has been added.
+* `ISNIP 4P` has been renamed the `ISNIP 5P`. Transition `UPVAP` has been added.
+* Addtion of the `ISNIP 5T` departure for Rwy 34 that had been omitted previously.
+
+**NZTK** - Minor modifications to the termination points of the RNAV approaches.
+
+**NZHK** - Addition of the IAFs for both GNSS approaches, allowing the Dataset to link them automatically to STARs. 
+
+**NZQN** - `DOVMA 1A` renamed the `DOVMA 2A`
+
+**NZTU** - All SIDs/STARs and RNAV approaches have been added. These had been missed previously.
+
+**NZRC**
+
+* AD status changed to IFR-VFR. 
+* `SEBSA1` SID for Rwy 04 added.
+* `RNAV (GNSS) A` approach added for Rwy 22.

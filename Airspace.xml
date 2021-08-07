@@ -21,7 +21,7 @@
         <STAR Name="DAVE5B" ApproachName="GNSSZ" />
         <STAR Name="DAVE5D" ApproachName="RNPY" />
         <STAR Name="EXOP9B" ApproachName="GNSSZ" />
-        <STAR Name="EXOP6D" ApproachName="RNPX" />
+        <STAR Name="EXOP7D" ApproachName="RNPX" />
         <STAR Name="NOBA7B" ApproachName="GNSSZ" />
         <STAR Name="NOBA7D" ApproachName="RNPY" />
         <STAR Name="PEPE4B" ApproachName="GNSSZ" />
@@ -67,38 +67,30 @@
         <STAR Name="TAZE1N" ApproachName="GNSSZ" />
       </Runway>
     </Airport>
-    <Airport Name="NZAP">
-      <Runway Name="17" DataRunway="17">
-        <SID Name="MINEK2" />
-        <STAR Name="GOST2A" ApproachName="GNSS" />
-        <STAR Name="ISGI1A" ApproachName="GNSS" />
-        <STAR Name="SULF2A" ApproachName="GNSS" />
-      </Runway>
-      <Runway Name="35" DataRunway="35">
-        <STAR Name="GOST2B" ApproachName="GNSS" />
-        <STAR Name="GUMA1B" ApproachName="GNSS" />
-        <STAR Name="SULF2B" ApproachName="GNSS" />
-      </Runway>
-    </Airport>
-    <Airport Name="NZAR">
-      <Runway Name="21" DataRunway="21">
-        <SID Name="ADNO2P" />
-        <SID Name="SY1P" />
-        <SID Name="SY1R" />
-      </Runway>
-      <Runway Name="03" DataRunway="03">
-        <SID Name="PATG2Q" />
-        <SID Name="SY1Q" />
-        <SID Name="SY1R" />
-      </Runway>
-      <Runway Name="07" DataRunway="07">
-        <SID Name="SY1R" />
-      </Runway>
-      <Runway Name="25" DataRunway="25">
-        <SID Name="SY1R" />
-      </Runway>
-    </Airport>
     <Airport Name="NZCH">
+      <Runway Name="02" DataRunway="02">
+        <SID Name="BAVE6P" />
+        <SID Name="GUTB1P" />
+        <SID Name="MUKV1P" />
+        <SID Name="NZCH5A" />
+        <STAR Name="AVOC6A" ApproachName="GNSSZ" />
+        <STAR Name="BELE5A" ApproachName="GNSSZ" />
+        <STAR Name="BELE3E" ApproachName="RNPY" />
+        <STAR Name="DOPK4A" ApproachName="GNSSZ" />
+        <STAR Name="ELDA3A" ApproachName="GNSSZ" />
+        <STAR Name="IGEG6A" ApproachName="GNSSZ" />
+        <STAR Name="IGEG2E" ApproachName="RNPV" />
+        <STAR Name="KIDA5A" ApproachName="GNSSZ" />
+        <STAR Name="KIDA2E" ApproachName="RNPV" />
+        <STAR Name="LADI6A" ApproachName="GNSSZ" />
+        <STAR Name="MESI7A" ApproachName="GNSSZ" />
+        <STAR Name="MESI1E" ApproachName="RNPW" />
+        <STAR Name="MOLG4A" ApproachName="GNSSZ" />
+        <STAR Name="PEAK7A" ApproachName="GNSSZ" />
+        <STAR Name="PEAK2E" ApproachName="RNPV" />
+        <STAR Name="PEHR4A" ApproachName="GNSSZ" />
+        <STAR Name="REPA3A" ApproachName="GNSSZ" />
+      </Runway>
       <Runway Name="11" DataRunway="11">
         <SID Name="ALBA2B" />
         <SID Name="DIVS2B" />
@@ -129,29 +121,6 @@
         <STAR Name="PEHR4B" ApproachName="GNSSZ" />
         <STAR Name="PEHR2F" ApproachName="RNPW" />
         <STAR Name="REPA2B" ApproachName="GNSSZ" />
-      </Runway>
-      <Runway Name="02" DataRunway="02">
-        <SID Name="BAVE6P" />
-        <SID Name="GUTB1P" />
-        <SID Name="MUKV1P" />
-        <SID Name="NZCH5A" />
-        <STAR Name="AVOC6A" ApproachName="GNSSZ" />
-        <STAR Name="BELE5A" ApproachName="GNSSZ" />
-        <STAR Name="BELE3E" ApproachName="RNPY" />
-        <STAR Name="DOPK4A" ApproachName="GNSSZ" />
-        <STAR Name="ELDA3A" ApproachName="GNSSZ" />
-        <STAR Name="IGEG6A" ApproachName="GNSSZ" />
-        <STAR Name="IGEG2E" ApproachName="RNPV" />
-        <STAR Name="KIDA5A" ApproachName="GNSSZ" />
-        <STAR Name="KIDA2E" ApproachName="RNPV" />
-        <STAR Name="LADI6A" ApproachName="GNSSZ" />
-        <STAR Name="MESI7A" ApproachName="GNSSZ" />
-        <STAR Name="MESI1E" ApproachName="RNPW" />
-        <STAR Name="MOLG4A" ApproachName="GNSSZ" />
-        <STAR Name="PEAK7A" ApproachName="GNSSZ" />
-        <STAR Name="PEAK2E" ApproachName="RNPV" />
-        <STAR Name="PEHR4A" ApproachName="GNSSZ" />
-        <STAR Name="REPA3A" ApproachName="GNSSZ" />
       </Runway>
       <Runway Name="29" DataRunway="29">
         <SID Name="KABO5R" />
@@ -202,28 +171,9 @@
         <STAR Name="MIPA3B" ApproachName="GNSS" />
       </Runway>
     </Airport>
-    <Airport Name="NZGB">
-      <Runway Name="06" DataRunway="06" />
-      <Runway Name="10" DataRunway="10" />
-      <Runway Name="24" DataRunway="24" />
-      <Runway Name="28" DataRunway="28" />
-    </Airport>
-    <Airport Name="NZGM">
-      <Runway Name="01" DataRunway="01" />
-    </Airport>
     <Airport Name="NZGS">
-      <Runway Name="32" DataRunway="32">
-        <SID Name="CIT3" />
-        <SID Name="CRA3" />
-        <SID Name="NODEX1" />
-        <SID Name="PUA3" />
-        <STAR Name="CREK2B" ApproachName="GNSS" />
-        <STAR Name="ELME2B" ApproachName="GNSS" />
-        <STAR Name="GS2B" ApproachName="GNSS" />
-        <STAR Name="HAWK2B" ApproachName="GNSS" />
-        <STAR Name="OTOK3B" ApproachName="GNSS" />
-        <STAR Name="WARI3B" ApproachName="GNSS" />
-      </Runway>
+      <Runway Name="03" DataRunway="03" />
+      <Runway Name="09" DataRunway="09" />
       <Runway Name="14" DataRunway="14">
         <SID Name="GAN1" />
         <SID Name="NIC3" />
@@ -238,51 +188,22 @@
         <STAR Name="OTOKO" ApproachName="GNSS" />
         <STAR Name="WARIK" ApproachName="GNSS" />
       </Runway>
-    </Airport>
-    <Airport Name="NZGT">
-      <Runway Name="15" DataRunway="15">
-        <SID Name="MAMUS2" />
-      </Runway>
-    </Airport>
-    <Airport Name="NZHA">
-      <Runway Name="32" DataRunway="32" />
-    </Airport>
-    <Airport Name="NZHK">
-      <Runway Name="03" DataRunway="03">
-        <STAR Name="BELE2A" />
-        <STAR Name="BOSL3A" />
-        <STAR Name="DAMI2A" />
-        <STAR Name="DUBO3A" />
-      </Runway>
-      <Runway Name="21" DataRunway="21">
-        <STAR Name="BELE2B" />
-        <STAR Name="BOSL3B" ApproachName="GNSS" />
-        <STAR Name="DAMI2B" />
-        <STAR Name="DUBO3B" />
+      <Runway Name="21" DataRunway="21" />
+      <Runway Name="27" DataRunway="27" />
+      <Runway Name="32" DataRunway="32">
+        <SID Name="CIT3" />
+        <SID Name="CRA3" />
+        <SID Name="NODEX1" />
+        <SID Name="PUA3" />
+        <STAR Name="CREK2B" ApproachName="GNSS" />
+        <STAR Name="ELME2B" ApproachName="GNSS" />
+        <STAR Name="GS2B" ApproachName="GNSS" />
+        <STAR Name="HAWK2B" ApproachName="GNSS" />
+        <STAR Name="OTOK3B" ApproachName="GNSS" />
+        <STAR Name="WARI3B" ApproachName="GNSS" />
       </Runway>
     </Airport>
     <Airport Name="NZHN">
-      <Runway Name="36R" DataRunway="36R">
-        <SID Name="AGUL2Q" />
-        <SID Name="BEKA3Q" />
-        <SID Name="BEKA3S" />
-        <SID Name="BEKA3U" />
-        <SID Name="BIDK2U" />
-        <SID Name="TAYLA2" />
-        <SID Name="TEPO4Q" />
-        <SID Name="TEPO4S" />
-        <SID Name="TEPO4U" />
-        <STAR Name="BEBE1B" ApproachName="GNSSY" />
-        <STAR Name="BEBE1D" ApproachName="GNSSZ" />
-        <STAR Name="DROP1B" ApproachName="GNSSY" />
-        <STAR Name="DROP1D" ApproachName="GNSSZ" />
-        <STAR Name="KARB1B" ApproachName="GNSSY" />
-        <STAR Name="KARB1D" ApproachName="GNSSZ" />
-        <STAR Name="KICK1B" ApproachName="GNSSY" />
-        <STAR Name="KICK1D" ApproachName="GNSSZ" />
-        <STAR Name="YOGI1B" ApproachName="GNSSY" />
-        <STAR Name="YOGI1D" ApproachName="GNSSZ" />
-      </Runway>
       <Runway Name="18L" DataRunway="18L">
         <SID Name="BUDEN3" />
         <SID Name="GOMU1P" />
@@ -305,6 +226,471 @@
         <STAR Name="OLDO3C" ApproachName="RNPZ" />
         <STAR Name="YOGI1A" ApproachName="RNPY" />
         <STAR Name="YOGI2C" ApproachName="RNPZ" />
+      </Runway>
+      <Runway Name="36R" DataRunway="36R">
+        <SID Name="AGUL2Q" />
+        <SID Name="BEKA3Q" />
+        <SID Name="BEKA3S" />
+        <SID Name="BEKA3U" />
+        <SID Name="BIDK2U" />
+        <SID Name="TAYLA2" />
+        <SID Name="TEPO4Q" />
+        <SID Name="TEPO4S" />
+        <SID Name="TEPO4U" />
+        <STAR Name="BEBE1B" ApproachName="GNSSY" />
+        <STAR Name="BEBE1D" ApproachName="GNSSZ" />
+        <STAR Name="DROP1B" ApproachName="GNSSY" />
+        <STAR Name="DROP1D" ApproachName="GNSSZ" />
+        <STAR Name="KARB1B" ApproachName="GNSSY" />
+        <STAR Name="KARB1D" ApproachName="GNSSZ" />
+        <STAR Name="KICK1B" ApproachName="GNSSY" />
+        <STAR Name="KICK1D" ApproachName="GNSSZ" />
+        <STAR Name="YOGI1B" ApproachName="GNSSY" />
+        <STAR Name="YOGI1D" ApproachName="GNSSZ" />
+      </Runway>
+    </Airport>
+    <Airport Name="NZMF">
+      <Runway Name="11" DataRunway="11" />
+      <Runway Name="29" DataRunway="29" />
+    </Airport>
+    <Airport Name="NZNP">
+      <Runway Name="05" DataRunway="05">
+        <SID Name="HARV2P" />
+        <SID Name="SAVL3P" />
+        <STAR Name="MUMO2A" ApproachName="GNSS" />
+        <STAR Name="PEXU2A" ApproachName="GNSS" />
+        <STAR Name="VISA3A" ApproachName="GNSS" />
+      </Runway>
+      <Runway Name="23" DataRunway="23">
+        <SID Name="GUSU2Q" />
+        <SID Name="HARV2Q" />
+        <SID Name="LATI2Q" />
+        <SID Name="SOUTH5" />
+        <STAR Name="BUGN2B" ApproachName="GNSS" />
+        <STAR Name="HARV2B" ApproachName="GNSS" />
+        <STAR Name="NP2" />
+        <STAR Name="SELT2B" ApproachName="GNSS" />
+        <STAR Name="SUBR3B" ApproachName="GNSS" />
+        <STAR Name="VANS2B" ApproachName="GNSS" />
+      </Runway>
+    </Airport>
+    <Airport Name="NZNR">
+      <Runway Name="07" DataRunway="07">
+        <STAR Name="OPAP1C" />
+      </Runway>
+      <Runway Name="16" DataRunway="16">
+        <SID Name="LEDIV2" />
+        <SID Name="LIM3" />
+        <SID Name="MIKE4" />
+        <SID Name="MOOSE1" />
+        <SID Name="NVBR3" />
+        <STAR Name="ADGI1A" ApproachName="GNSS" />
+        <STAR Name="GEND1A" ApproachName="GNSS" />
+        <STAR Name="MOKE1A" ApproachName="GNSS" />
+        <STAR Name="OPAP2A" ApproachName="GNSS" />
+        <STAR Name="OPAP1C" />
+        <STAR Name="PANI1A" ApproachName="GNSS" />
+        <STAR Name="YARO2A" ApproachName="GNSS" />
+      </Runway>
+      <Runway Name="25" DataRunway="25">
+        <STAR Name="OPAP1C" />
+      </Runway>
+      <Runway Name="34" DataRunway="34">
+        <SID Name="LIM3" />
+        <SID Name="MIKE4" />
+        <SID Name="NVBR4" />
+        <SID Name="OBLOX2" />
+        <STAR Name="ADGI1B" ApproachName="GNSS" />
+        <STAR Name="GEND2B" ApproachName="GNSS" />
+        <STAR Name="MOKE1B" ApproachName="GNSS" />
+        <STAR Name="OPAP1B" ApproachName="GNSS" />
+        <STAR Name="OPAP1C" />
+        <STAR Name="YARO2B" ApproachName="GNSS" />
+      </Runway>
+    </Airport>
+    <Airport Name="NZNS">
+      <Runway Name="02" DataRunway="02">
+        <SID Name="DUMI1P" />
+        <SID Name="IDNE2P" />
+        <SID Name="LEMU2P" />
+        <SID Name="LUSR2P" />
+        <SID Name="LUSR2R" />
+        <SID Name="YANKE1" />
+        <SID Name="ZULU2" />
+        <STAR Name="BISE2A" ApproachName="GNSSY" />
+        <STAR Name="CONO1A" ApproachName="GNSSY" />
+        <STAR Name="GUSD2A" ApproachName="GNSSZ" />
+        <STAR Name="KAPU2A" ApproachName="GNSSZ" />
+        <STAR Name="LUBS2A" ApproachName="GNSSZ" />
+        <STAR Name="LUBS3C" ApproachName="GNSSY" />
+      </Runway>
+      <Runway Name="06" DataRunway="06" />
+      <Runway Name="20" DataRunway="20">
+        <SID Name="BISE1Q" />
+        <SID Name="CONO1Q" />
+        <SID Name="DUMI2Q" />
+        <SID Name="LUSR2Q" />
+        <SID Name="LUSR2S" />
+        <SID Name="LUSR3U" />
+        <SID Name="NEST1Q" />
+        <SID Name="PAVN2Q" />
+        <SID Name="VICTO2" />
+        <SID Name="XRAY2" />
+        <STAR Name="CONO1B" ApproachName="GNSSB" />
+        <STAR Name="GUNE1B" ApproachName="GNSSB" />
+        <STAR Name="GUSD1B" ApproachName="GNSSB" />
+        <STAR Name="KUNV1B" ApproachName="GNSSB" />
+        <STAR Name="LUBS1B" ApproachName="GNSSB" />
+        <STAR Name="MUKR1B" ApproachName="GNSSB" />
+      </Runway>
+      <Runway Name="24" DataRunway="24" />
+    </Airport>
+    <Airport Name="NZNV">
+      <Runway Name="04" DataRunway="04">
+        <SID Name="ADLU2P" />
+        <SID Name="AMVI2P" />
+        <SID Name="ANOP2P" />
+        <SID Name="EPDA2P" />
+        <SID Name="INTU1P" />
+        <SID Name="PEXE1P" />
+        <STAR Name="AKPI3A" />
+        <STAR Name="AMVI1A" />
+        <STAR Name="ANOP4A" />
+        <STAR Name="DUKO4A" />
+        <STAR Name="PEXE1A" />
+      </Runway>
+      <Runway Name="12" DataRunway="12" />
+      <Runway Name="22" DataRunway="22">
+        <SID Name="ADLU2Q" />
+        <SID Name="AMVI2Q" />
+        <SID Name="ANOP2Q" />
+        <SID Name="EPDA4Q" />
+        <SID Name="INTU1Q" />
+        <SID Name="PEXE1Q" />
+        <STAR Name="AKPI3B" ApproachName="GNSS" />
+        <STAR Name="AMVI2B" />
+        <STAR Name="ANOP5B" />
+        <STAR Name="DUKO5B" ApproachName="GNSS" />
+      </Runway>
+      <Runway Name="30" DataRunway="30" />
+    </Airport>
+    <Airport Name="NZOH">
+      <Runway Name="09" DataRunway="09">
+        <SID Name="DANP2Q" />
+        <SID Name="OH1R" />
+        <STAR Name="BINI1H" ApproachName="GNSS" />
+        <STAR Name="IDLU1H" ApproachName="GNSS" />
+      </Runway>
+      <Runway Name="15" DataRunway="15" />
+      <Runway Name="27" DataRunway="27">
+        <SID Name="ENGO2P" />
+        <SID Name="OH1S" />
+        <STAR Name="BINI1G" ApproachName="GNSSZ" />
+        <STAR Name="IDLU1G" />
+      </Runway>
+      <Runway Name="33" DataRunway="33" />
+    </Airport>
+    <Airport Name="NZPM">
+      <Runway Name="07" DataRunway="07">
+        <SID Name="DADL2Q" />
+        <SID Name="DADL3S" />
+        <SID Name="DADL3T" />
+        <SID Name="NZPM1H" />
+        <SID Name="RUXO3Q" />
+        <SID Name="RUXO4S" />
+        <SID Name="TERO3Q" />
+        <SID Name="TERO3S" />
+        <STAR Name="BUVL1B" ApproachName="GNSS" />
+        <STAR Name="IRMI1B" ApproachName="GNSS" />
+        <STAR Name="MIBU1B" ApproachName="GNSS" />
+        <STAR Name="OKEV1B" ApproachName="GNSS" />
+        <STAR Name="RINR1B" ApproachName="GNSS" />
+        <STAR Name="TUTS1B" ApproachName="GNSS" />
+        <STAR Name="VIRO1B" ApproachName="GNSS" />
+      </Runway>
+      <Runway Name="25" DataRunway="25">
+        <SID Name="GUTN2P" />
+        <SID Name="GUTN3R" />
+        <SID Name="GUTN3T" />
+        <SID Name="GUTN2U" />
+        <SID Name="NZPM3A" />
+        <STAR Name="APIT1A" ApproachName="RNPX" />
+        <STAR Name="AVGU1A" ApproachName="GNSS" />
+        <STAR Name="IDLU2A" ApproachName="RNPX" />
+        <STAR Name="IGPA1A" ApproachName="GNSS" />
+        <STAR Name="IRMI1A" ApproachName="GNSS" />
+        <STAR Name="LUNB1A" />
+        <STAR Name="LUNB1E" ApproachName="RNPX" />
+        <STAR Name="OKEV1A" ApproachName="GNSS" />
+        <STAR Name="TUTS1E" ApproachName="RNPX" />
+      </Runway>
+    </Airport>
+    <Airport Name="NZPP">
+      <Runway Name="16" DataRunway="16">
+        <SID Name="AGAXA3" />
+        <STAR Name="AGSO1H" ApproachName="GNSS" />
+        <STAR Name="AVKE1H" ApproachName="GNSS" />
+        <STAR Name="KAME1H" ApproachName="GNSS" />
+        <STAR Name="KAPT1H" ApproachName="GNSS" />
+        <STAR Name="PP1H" ApproachName="GNSS" />
+        <STAR Name="TPAP1H" ApproachName="GNSS" />
+      </Runway>
+      <Runway Name="34" DataRunway="34">
+        <SID Name="GUGAK4" />
+        <STAR Name="AGSO1G" ApproachName="GNSS" />
+        <STAR Name="AVKE1G" ApproachName="GNSS" />
+        <STAR Name="KAME1G" ApproachName="GNSS" />
+        <STAR Name="PP1G" ApproachName="GNSS" />
+        <STAR Name="TPAP1G" ApproachName="GNSS" />
+      </Runway>
+    </Airport>
+    <Airport Name="NZQN">
+      <Runway Name="05" DataRunway="05">
+        <SID Name="ANPO3A" />
+        <SID Name="BRG9" Default="True" />
+        <SID Name="DOVM2A" />
+        <SID Name="EPDE3C" />
+        <SID Name="EPDE3P" />
+        <SID Name="IPNO3A" />
+        <SID Name="IPNO4C" />
+        <SID Name="SUNG4P" />
+        <STAR Name="ELRU2A" ApproachName="RNPZ" />
+        <STAR Name="SUNG3A" ApproachName="RNPZ" />
+        <STAR Name="UBDA3A" ApproachName="RNPZ" />
+      </Runway>
+      <Runway Name="14" DataRunway="14" />
+      <Runway Name="23" DataRunway="23">
+        <SID Name="ANPO3B" />
+        <SID Name="ANPO4D" />
+        <SID Name="ANPO3F" />
+        <SID Name="ANPO3S" />
+        <SID Name="FKN7" Default="True" />
+        <SID Name="IPNO3B" />
+        <SID Name="IPNO4D" />
+        <SID Name="REDO1B" />
+        <SID Name="SUNG3Q" />
+        <SID Name="SUNG4S" />
+        <SID Name="SUNG3U" />
+        <STAR Name="ELRU4B" ApproachName="RNPZ" />
+        <STAR Name="SUNG4B" ApproachName="RNPZ" />
+        <STAR Name="UBDA4B" ApproachName="RNPZ" />
+      </Runway>
+      <Runway Name="32" DataRunway="32" />
+    </Airport>
+    <Airport Name="NZRO">
+      <Runway Name="18" DataRunway="18">
+        <SID Name="ORAK2P" />
+        <SID Name="TOTR3P" />
+        <STAR Name="ABTU1A" ApproachName="RNPY" />
+        <STAR Name="LEDA2A" ApproachName="RNPY" />
+        <STAR Name="LEDA3C" ApproachName="GNSSZ" />
+        <STAR Name="REVE1A" ApproachName="RNPY" />
+      </Runway>
+      <Runway Name="36" DataRunway="36">
+        <SID Name="DOLS2R" />
+        <SID Name="NIKO2R" />
+        <STAR Name="DUBA1B" ApproachName="RNPY" />
+        <STAR Name="IBAM1B" ApproachName="RNPY" />
+        <STAR Name="INTO1B" ApproachName="RNPY" />
+        <STAR Name="LALA1B" ApproachName="RNPY" />
+        <STAR Name="SURK2B" ApproachName="RNPY" />
+      </Runway>
+    </Airport>
+    <Airport Name="NZTG">
+      <Runway Name="07" DataRunway="07">
+        <SID Name="BELET3" />
+        <SID Name="TODA2P" />
+        <SID Name="UBSE2P" />
+        <STAR Name="BIKO1A" ApproachName="GNSS" />
+        <STAR Name="FALS1A" ApproachName="GNSS" />
+        <STAR Name="GOBU1A" ApproachName="GNSS" />
+        <STAR Name="OLDO1A" ApproachName="GNSS" />
+        <STAR Name="OROP1A" ApproachName="GNSS" />
+        <STAR Name="PIBO1A" ApproachName="GNSS" />
+        <STAR Name="URBU1A" ApproachName="GNSS" />
+      </Runway>
+      <Runway Name="16" DataRunway="16" />
+      <Runway Name="25" DataRunway="25">
+        <SID Name="DOTAR3" />
+        <SID Name="MORT2R" />
+        <SID Name="RUST2R" />
+        <STAR Name="BIKO1B" ApproachName="GNSS" />
+        <STAR Name="FALS1B" ApproachName="GNSS" />
+        <STAR Name="GOBU1B" ApproachName="GNSS" />
+        <STAR Name="OLDO1B" ApproachName="GNSS" />
+        <STAR Name="OROP1B" ApproachName="GNSS" />
+        <STAR Name="PIBO1B" ApproachName="GNSS" />
+        <STAR Name="URBU1B" ApproachName="GNSS" />
+      </Runway>
+      <Runway Name="34" DataRunway="34" />
+    </Airport>
+    <Airport Name="NZWB">
+      <Runway Name="06" DataRunway="06">
+        <SID Name="DOTU2Q" />
+        <SID Name="LUBS1Q" />
+        <SID Name="NZWB1A" />
+        <SID Name="SEDS2Q" />
+        <SID Name="VLY3" />
+        <STAR Name="AVPO1K" />
+        <STAR Name="AVPO1M" />
+        <STAR Name="IGMU1K" />
+        <STAR Name="IGMU1M" />
+        <STAR Name="JAMI2K" />
+        <STAR Name="JAMI2M" />
+        <STAR Name="SUPE2K" />
+        <STAR Name="SUPE2M" />
+      </Runway>
+      <Runway Name="10" DataRunway="10" />
+      <Runway Name="24" DataRunway="24">
+        <SID Name="BODI2P" />
+        <SID Name="SEDS2P" />
+        <SID Name="SPG3" />
+        <SID Name="VINES3" />
+        <STAR Name="AVPO1J" ApproachName="GNSS" />
+        <STAR Name="IGMU1J" ApproachName="GNSS" />
+        <STAR Name="JAMI2J" ApproachName="GNSS" />
+        <STAR Name="SUPE2J" ApproachName="GNSS" />
+      </Runway>
+      <Runway Name="28" DataRunway="28" />
+    </Airport>
+    <Airport Name="NZWN">
+      <Runway Name="16" DataRunway="16">
+        <SID Name="DOGB1Q" />
+        <SID Name="KADN2Q" />
+        <SID Name="MESE3Q" />
+        <SID Name="NZWN4A" />
+        <SID Name="REVN2Q" />
+        <SID Name="TAXU5Q" />
+        <STAR Name="ATSU5B" ApproachName="GNSSZ" />
+        <STAR Name="AVPO1B" ApproachName="GNSSZ" />
+        <STAR Name="AVPO1D" ApproachName="RNPX" />
+        <STAR Name="DOGA4B" ApproachName="GNSSZ" />
+        <STAR Name="LADI6B" ApproachName="GNSSZ" />
+        <STAR Name="SIMZ3B" ApproachName="GNSSZ" />
+        <STAR Name="SIMZ1D" ApproachName="RNPX" />
+        <STAR Name="TPAP3B" ApproachName="GNSSZ" />
+        <STAR Name="TPAP1D" ApproachName="RNPX" />
+        <STAR Name="WARD3B" ApproachName="GNSSZ" />
+        <STAR Name="WARD2D" ApproachName="RNPX" />
+      </Runway>
+      <Runway Name="34" DataRunway="34">
+        <SID Name="ISNI5P" />
+        <SID Name="ISNI5T" />
+        <SID Name="KALE3P" />
+        <SID Name="NZWN2B" />
+        <SID Name="POLA5P" />
+        <SID Name="POLA5R" />
+        <STAR Name="ATSU3A" ApproachName="GNSSY" />
+        <STAR Name="DOGA3A" ApproachName="GNSSY" />
+        <STAR Name="IGMU2A" ApproachName="GNSSY" />
+        <STAR Name="LADI6A" ApproachName="GNSSY" />
+        <STAR Name="SIMZ6A" ApproachName="GNSSY" />
+        <STAR Name="SIMZ2C" ApproachName="RNPX" />
+        <STAR Name="SULR3A" ApproachName="GNSSY" />
+        <STAR Name="SULR2C" ApproachName="RNPX" />
+        <STAR Name="TPAP3A" ApproachName="GNSSY" />
+        <STAR Name="TPAP1C" ApproachName="RNPX" />
+        <STAR Name="WARD5A" ApproachName="GNSSY" />
+        <STAR Name="WARD2C" ApproachName="RNPX" />
+      </Runway>
+    </Airport>
+    <Airport Name="NZWP">
+      <Runway Name="03" DataRunway="03">
+        <SID Name="BAYE1A" />
+        <SID Name="BAYE1R" />
+        <STAR Name="AA1K" ApproachName="GNSS" />
+        <STAR Name="ARAD2K" ApproachName="GNSS" />
+        <STAR Name="BASI2K" ApproachName="GNSS" />
+        <STAR Name="EXOP1K" ApproachName="GNSS" />
+        <STAR Name="LUPR1K" ApproachName="GNSS" />
+        <STAR Name="OMLE1K" ApproachName="GNSS" />
+      </Runway>
+      <Runway Name="08" DataRunway="08">
+        <SID Name="BAYE1B" />
+        <STAR Name="AA1L" ApproachName="GNSS" />
+      </Runway>
+      <Runway Name="21" DataRunway="21">
+        <SID Name="WYTA1A" />
+        <SID Name="WYTA1Q" />
+        <STAR Name="AA1J" ApproachName="GNSS" />
+        <STAR Name="ARAD1J" ApproachName="GNSS" />
+        <STAR Name="BASI2J" ApproachName="GNSS" />
+        <STAR Name="EXOP2J" ApproachName="GNSS" />
+        <STAR Name="LUPR1J" ApproachName="GNSS" />
+        <STAR Name="OMLE1J" ApproachName="GNSS" />
+      </Runway>
+      <Runway Name="26" DataRunway="26">
+        <SID Name="WYTA1B" />
+        <STAR Name="AA1M" ApproachName="GNSS" />
+      </Runway>
+    </Airport>
+    <Airport Name="NZAP">
+      <Runway Name="17" DataRunway="17">
+        <SID Name="BAY8" />
+        <SID Name="LAKE6" />
+        <SID Name="MINEK2" />
+        <SID Name="TAIKO5" />
+        <STAR Name="GOST2A" ApproachName="GNSS" />
+        <STAR Name="ISGI1A" ApproachName="GNSS" />
+        <STAR Name="SULF2A" ApproachName="GNSS" />
+      </Runway>
+      <Runway Name="35" DataRunway="35">
+        <SID Name="MOKAI4" />
+        <SID Name="PAERO5" />
+        <SID Name="PEAK8" />
+        <SID Name="TEREG2" />
+        <STAR Name="GOST2B" ApproachName="GNSS" />
+        <STAR Name="GUMA1B" ApproachName="GNSS" />
+        <STAR Name="SULF2B" ApproachName="GNSS" />
+      </Runway>
+    </Airport>
+    <Airport Name="NZAR">
+      <Runway Name="21" DataRunway="21">
+        <SID Name="ADNO2P" />
+        <SID Name="SY1P" />
+        <SID Name="SY1R" />
+      </Runway>
+      <Runway Name="03" DataRunway="03">
+        <SID Name="PATG2Q" />
+        <SID Name="SY1Q" />
+        <SID Name="SY1R" />
+      </Runway>
+      <Runway Name="07" DataRunway="07">
+        <SID Name="SY1R" />
+      </Runway>
+      <Runway Name="25" DataRunway="25">
+        <SID Name="SY1R" />
+      </Runway>
+    </Airport>
+    <Airport Name="NZGB">
+      <Runway Name="06" DataRunway="06" />
+      <Runway Name="10" DataRunway="10" />
+      <Runway Name="24" DataRunway="24" />
+      <Runway Name="28" DataRunway="28" />
+    </Airport>
+    <Airport Name="NZGM">
+      <Runway Name="01" DataRunway="01" />
+    </Airport>
+    <Airport Name="NZGT">
+      <Runway Name="15" DataRunway="15">
+        <SID Name="MAMUS2" />
+      </Runway>
+    </Airport>
+    <Airport Name="NZHA">
+      <Runway Name="32" DataRunway="32" />
+    </Airport>
+    <Airport Name="NZHK">
+      <Runway Name="03" DataRunway="03">
+        <STAR Name="BELE2A" ApproachName="GNSS" />
+        <STAR Name="BOSL3A" ApproachName="GNSS" />
+        <STAR Name="DAMI2A" ApproachName="GNSS" />
+        <STAR Name="DUBO3A" ApproachName="GNSS" />
+      </Runway>
+      <Runway Name="21" DataRunway="21">
+        <STAR Name="BELE2B" ApproachName="GNSS" />
+        <STAR Name="BOSL3B" ApproachName="GNSS" />
+        <STAR Name="DAMI2B" ApproachName="GNSS" />
+        <STAR Name="DUBO3B" ApproachName="GNSS" />
       </Runway>
     </Airport>
     <Airport Name="NZKK">
@@ -361,276 +747,22 @@
         <STAR Name="SF1B" ApproachName="GNSS" />
       </Runway>
     </Airport>
-    <Airport Name="NZNP">
-      <Runway Name="23" DataRunway="23">
-        <SID Name="GUSU2Q" />
-        <SID Name="HARV2Q" />
-        <SID Name="LATI2Q" />
-        <SID Name="SOUTH5" />
-        <STAR Name="BUGN2B" ApproachName="GNSS" />
-        <STAR Name="HARV2B" ApproachName="GNSS" />
-        <STAR Name="NP2" />
-        <STAR Name="SELT2B" ApproachName="GNSS" />
-        <STAR Name="SUBR3B" ApproachName="GNSS" />
-        <STAR Name="VANS2B" ApproachName="GNSS" />
-      </Runway>
-      <Runway Name="05" DataRunway="05">
-        <SID Name="HARV2P" />
-        <SID Name="SAVL3P" />
-        <STAR Name="MUMO2A" ApproachName="GNSS" />
-        <STAR Name="PEXU2A" ApproachName="GNSS" />
-        <STAR Name="VISA3A" ApproachName="GNSS" />
-      </Runway>
-    </Airport>
-    <Airport Name="NZNR">
-      <Runway Name="16" DataRunway="16">
-        <SID Name="LEDIV2" />
-        <SID Name="LIM3" />
-        <SID Name="MIKE4" />
-        <SID Name="MOOSE1" />
-        <SID Name="NVBR3" />
-        <STAR Name="ADGI1A" ApproachName="GNSS" />
-        <STAR Name="GEND1A" ApproachName="GNSS" />
-        <STAR Name="MOKE1A" ApproachName="GNSS" />
-        <STAR Name="OPAP2A" ApproachName="GNSS" />
-        <STAR Name="OPAP1C" />
-        <STAR Name="PANI1A" ApproachName="GNSS" />
-        <STAR Name="YARO2A" ApproachName="GNSS" />
-      </Runway>
-      <Runway Name="34" DataRunway="34">
-        <SID Name="LIM3" />
-        <SID Name="MIKE4" />
-        <SID Name="NVBR4" />
-        <SID Name="OBLOX2" />
-        <STAR Name="ADGI1B" ApproachName="GNSS" />
-        <STAR Name="GEND2B" ApproachName="GNSS" />
-        <STAR Name="MOKE1B" ApproachName="GNSS" />
-        <STAR Name="OPAP1B" ApproachName="GNSS" />
-        <STAR Name="OPAP1C" />
-        <STAR Name="YARO2B" ApproachName="GNSS" />
-      </Runway>
-      <Runway Name="07" DataRunway="07">
-        <STAR Name="OPAP1C" />
-      </Runway>
-      <Runway Name="25" DataRunway="25">
-        <STAR Name="OPAP1C" />
-      </Runway>
-    </Airport>
-    <Airport Name="NZNS">
-      <Runway Name="20" DataRunway="20">
-        <SID Name="BISE1Q" />
-        <SID Name="CONO1Q" />
-        <SID Name="DUMI2Q" />
-        <SID Name="LUSR2Q" />
-        <SID Name="LUSR2S" />
-        <SID Name="LUSR3U" />
-        <SID Name="NEST1Q" />
-        <SID Name="PAVN2Q" />
-        <SID Name="VICTO2" />
-        <SID Name="XRAY2" />
-        <STAR Name="CONO1B" ApproachName="GNSSB" />
-        <STAR Name="GUNE1B" ApproachName="GNSSB" />
-        <STAR Name="GUSD1B" ApproachName="GNSSB" />
-        <STAR Name="KUNV1B" ApproachName="GNSSB" />
-        <STAR Name="LUBS1B" ApproachName="GNSSB" />
-        <STAR Name="MUKR1B" ApproachName="GNSSB" />
-      </Runway>
-      <Runway Name="02" DataRunway="02">
-        <SID Name="DUMI1P" />
-        <SID Name="IDNE2P" />
-        <SID Name="LEMU2P" />
-        <SID Name="LUSR2P" />
-        <SID Name="LUSR2R" />
-        <SID Name="YANKE1" />
-        <SID Name="ZULU2" />
-        <STAR Name="BISE2A" ApproachName="GNSSY" />
-        <STAR Name="CONO1A" ApproachName="GNSSY" />
-        <STAR Name="GUSD2A" ApproachName="GNSSZ" />
-        <STAR Name="KAPU2A" ApproachName="GNSSZ" />
-        <STAR Name="LUBS2A" ApproachName="GNSSZ" />
-        <STAR Name="LUBS3C" ApproachName="GNSSY" />
-      </Runway>
-      <Runway Name="06" DataRunway="06" />
-      <Runway Name="24" DataRunway="24" />
-    </Airport>
-    <Airport Name="NZNV">
-      <Runway Name="04" DataRunway="04">
-        <SID Name="ADLU2P" />
-        <SID Name="AMVI2P" />
-        <SID Name="ANOP2P" />
-        <SID Name="EPDA2P" />
-        <SID Name="INTU1P" />
-        <SID Name="PEXE1P" />
-        <STAR Name="AKPI3A" />
-        <STAR Name="AMVI1A" />
-        <STAR Name="ANOP4A" />
-        <STAR Name="DUKO4A" />
-        <STAR Name="PEXE1A" />
-      </Runway>
-      <Runway Name="22" DataRunway="22">
-        <SID Name="ADLU2Q" />
-        <SID Name="AMVI2Q" />
-        <SID Name="ANOP2Q" />
-        <SID Name="EPDA4Q" />
-        <SID Name="INTU1Q" />
-        <SID Name="PEXE1Q" />
-        <STAR Name="AKPI3B" ApproachName="GNSS" />
-        <STAR Name="AMVI2B" />
-        <STAR Name="ANOP5B" />
-        <STAR Name="DUKO5B" ApproachName="GNSS" />
-      </Runway>
-    </Airport>
-    <Airport Name="NZOH">
-      <Runway Name="09" DataRunway="09">
-        <SID Name="DANP2Q" />
-        <SID Name="OH1R" />
-        <STAR Name="BINI1H" ApproachName="GNSS" />
-        <STAR Name="IDLU1H" ApproachName="GNSS" />
-      </Runway>
-      <Runway Name="27" DataRunway="27">
-        <SID Name="ENGO2P" />
-        <SID Name="OH1S" />
-        <STAR Name="BINI1G" ApproachName="GNSSZ" />
-        <STAR Name="IDLU1G" />
-      </Runway>
-      <Runway Name="15" DataRunway="15" />
-      <Runway Name="33" DataRunway="33" />
-    </Airport>
     <Airport Name="NZOU">
       <Runway Name="18" DataRunway="18" />
       <Runway Name="36" DataRunway="36" />
     </Airport>
-    <Airport Name="NZPM">
-      <Runway Name="07" DataRunway="07">
-        <SID Name="DADL2Q" />
-        <SID Name="DADL3S" />
-        <SID Name="DADL3T" />
-        <SID Name="RUXO3Q" />
-        <SID Name="RUXO4S" />
-        <SID Name="TERO3Q" />
-        <SID Name="TERO3S" />
-        <STAR Name="BUVL1B" ApproachName="GNSS" />
-        <STAR Name="IRMI1B" ApproachName="GNSS" />
-        <STAR Name="MIBU1B" ApproachName="GNSS" />
-        <STAR Name="OKEV1B" ApproachName="GNSS" />
-        <STAR Name="RINR1B" ApproachName="GNSS" />
-        <STAR Name="TUTS1B" ApproachName="GNSS" />
-        <STAR Name="VIRO1B" ApproachName="GNSS" />
-      </Runway>
-      <Runway Name="25" DataRunway="25">
-        <SID Name="GUTN2P" />
-        <SID Name="GUTN3R" />
-        <SID Name="GUTN3T" />
-        <SID Name="GUTN2U" />
-        <SID Name="NZPM2A" />
-        <STAR Name="APIT1A" ApproachName="RNPX" />
-        <STAR Name="AVGU1A" ApproachName="GNSS" />
-        <STAR Name="IDLU2A" ApproachName="RNPX" />
-        <STAR Name="IGPA1A" ApproachName="GNSS" />
-        <STAR Name="IRMI1A" ApproachName="GNSS" />
-        <STAR Name="LUNB1A" />
-        <STAR Name="LUNB1E" ApproachName="RNPX" />
-        <STAR Name="OKEV1A" ApproachName="GNSS" />
-        <STAR Name="TUTS1E" ApproachName="RNPX" />
-      </Runway>
+    <Airport Name="NZOX">
+      <Runway Name="18" DataRunway="18" />
+      <Runway Name="36" DataRunway="36" />
     </Airport>
-    <Airport Name="NZPP">
-      <Runway Name="16" DataRunway="16">
-        <SID Name="AGAXA3" />
-        <STAR Name="AGSO1H" ApproachName="GNSS" />
-        <STAR Name="AVKE1H" ApproachName="GNSS" />
-        <STAR Name="KAME1H" ApproachName="GNSS" />
-        <STAR Name="KAPT1H" ApproachName="GNSS" />
-        <STAR Name="PP1H" ApproachName="GNSS" />
-        <STAR Name="TPAP1H" ApproachName="GNSS" />
+    <Airport Name="NZRC">
+      <Runway Name="04" DataRunway="04">
+        <SID Name="SEBSA1" />
       </Runway>
-      <Runway Name="34" DataRunway="34">
-        <SID Name="GUGAK4" />
-        <STAR Name="AGSO1G" ApproachName="GNSS" />
-        <STAR Name="AVKE1G" ApproachName="GNSS" />
-        <STAR Name="KAME1G" ApproachName="GNSS" />
-        <STAR Name="PP1G" ApproachName="GNSS" />
-        <STAR Name="TPAP1G" ApproachName="GNSS" />
-      </Runway>
-    </Airport>
-    <Airport Name="NZQN">
-      <Runway Name="05" DataRunway="05">
-        <SID Name="ANPO3A" />
-        <SID Name="BRG9" Default="True" />
-        <SID Name="DOVM1A" />
-        <SID Name="EPDE3C" />
-        <SID Name="EPDE3P" />
-        <SID Name="IPNO3A" />
-        <SID Name="IPNO4C" />
-        <SID Name="SUNG4P" />
-        <STAR Name="ELRU2A" ApproachName="RNPZ" />
-        <STAR Name="SUNG3A" ApproachName="RNPZ" />
-        <STAR Name="UBDA3A" ApproachName="RNPZ" />
-      </Runway>
-      <Runway Name="23" DataRunway="23">
-        <SID Name="ANPO3B" />
-        <SID Name="ANPO4D" />
-        <SID Name="ANPO3F" />
-        <SID Name="ANPO3S" />
-        <SID Name="FKN7" Default="True" />
-        <SID Name="IPNO3B" />
-        <SID Name="IPNO4D" />
-        <SID Name="REDO1B" />
-        <SID Name="SUNG3Q" />
-        <SID Name="SUNG4S" />
-        <SID Name="SUNG3U" />
-        <STAR Name="ELRU4B" ApproachName="RNPZ" />
-        <STAR Name="SUNG4B" ApproachName="RNPZ" />
-        <STAR Name="UBDA4B" ApproachName="RNPZ" />
-      </Runway>
-    </Airport>
-    <Airport Name="NZRO">
-      <Runway Name="36" DataRunway="36">
-        <SID Name="DOLS2R" />
-        <SID Name="NIKO2R" />
-        <STAR Name="DUBA1B" ApproachName="RNPY" />
-        <STAR Name="IBAM1B" ApproachName="RNPY" />
-        <STAR Name="INTO1B" ApproachName="RNPY" />
-        <STAR Name="LALA1B" ApproachName="RNPY" />
-        <STAR Name="SURK2B" ApproachName="RNPY" />
-      </Runway>
-      <Runway Name="18" DataRunway="18">
-        <SID Name="ORAK2P" />
-        <SID Name="TOTR3P" />
-        <STAR Name="ABTU1A" ApproachName="RNPY" />
-        <STAR Name="LEDA2A" ApproachName="RNPY" />
-        <STAR Name="LEDA3C" ApproachName="GNSSZ" />
-        <STAR Name="REVE1A" ApproachName="RNPY" />
-      </Runway>
+      <Runway Name="22" DataRunway="22" />
     </Airport>
     <Airport Name="NZSL">
       <Runway Name="16" DataRunway="16" />
-    </Airport>
-    <Airport Name="NZTG">
-      <Runway Name="07" DataRunway="07">
-        <SID Name="BELET3" />
-        <SID Name="TODA2P" />
-        <SID Name="UBSE2P" />
-        <STAR Name="BIKO1A" ApproachName="GNSS" />
-        <STAR Name="FALS1A" ApproachName="GNSS" />
-        <STAR Name="GOBU1A" ApproachName="GNSS" />
-        <STAR Name="OLDO1A" ApproachName="GNSS" />
-        <STAR Name="OROP1A" ApproachName="GNSS" />
-        <STAR Name="PIBO1A" ApproachName="GNSS" />
-        <STAR Name="URBU1A" ApproachName="GNSS" />
-      </Runway>
-      <Runway Name="25" DataRunway="25">
-        <SID Name="DOTAR3" />
-        <SID Name="MORT2R" />
-        <SID Name="RUST2R" />
-        <STAR Name="BIKO1B" ApproachName="GNSS" />
-        <STAR Name="FALS1B" ApproachName="GNSS" />
-        <STAR Name="GOBU1B" ApproachName="GNSS" />
-        <STAR Name="OLDO1B" ApproachName="GNSS" />
-        <STAR Name="OROP1B" ApproachName="GNSS" />
-        <STAR Name="PIBO1B" ApproachName="GNSS" />
-        <STAR Name="URBU1B" ApproachName="GNSS" />
-      </Runway>
     </Airport>
     <Airport Name="NZTK">
       <Runway Name="18" DataRunway="18">
@@ -644,31 +776,21 @@
       <Runway Name="13" DataRunway="13" />
       <Runway Name="31" DataRunway="31" />
     </Airport>
-    <Airport Name="NZWB">
-      <Runway Name="24" DataRunway="24">
-        <SID Name="BODI2P" />
-        <SID Name="SEDS2P" />
-        <SID Name="SPG3" />
-        <SID Name="VINES3" />
-        <STAR Name="AVPO1J" ApproachName="GNSS" />
-        <STAR Name="IGMU1J" ApproachName="GNSS" />
-        <STAR Name="JAMI2J" ApproachName="GNSS" />
-        <STAR Name="SUPE2J" ApproachName="GNSS" />
+    <Airport Name="NZTU">
+      <Runway Name="02" DataRunway="02">
+        <SID Name="BIDN1P" />
+        <STAR Name="DUBO2J" ApproachName="GNSS" />
+        <STAR Name="ELDA1J" ApproachName="GNSS" />
+        <STAR Name="MAMU2J" ApproachName="GNSS" />
+        <STAR Name="PORU2J" ApproachName="GNSS" />
       </Runway>
-      <Runway Name="06" DataRunway="06">
-        <SID Name="DOTU2Q" />
-        <SID Name="LUBS1Q" />
-        <SID Name="NZWB1A" />
-        <SID Name="SEDS2Q" />
-        <SID Name="VLY3" />
-        <STAR Name="AVPO1K" />
-        <STAR Name="AVPO1M" />
-        <STAR Name="IGMU1K" />
-        <STAR Name="IGMU1M" />
-        <STAR Name="JAMI2K" />
-        <STAR Name="JAMI2M" />
-        <STAR Name="SUPE2K" />
-        <STAR Name="SUPE2M" />
+      <Runway Name="20" DataRunway="20">
+        <SID Name="MUKE1Q" />
+        <STAR Name="DOPO1K" ApproachName="GNSS" />
+        <STAR Name="DUBO1K" ApproachName="GNSS" />
+        <STAR Name="ELDA1K" ApproachName="GNSS" />
+        <STAR Name="MAMU1K" ApproachName="GNSS" />
+        <STAR Name="PORU1K" ApproachName="GNSS" />
       </Runway>
     </Airport>
     <Airport Name="NZWK">
@@ -679,47 +801,6 @@
         <STAR Name="KEPA2B" ApproachName="GNSS" />
       </Runway>
     </Airport>
-    <Airport Name="NZWN">
-      <Runway Name="16" DataRunway="16">
-        <SID Name="DOGB1Q" />
-        <SID Name="KADN2Q" />
-        <SID Name="MESE2Q" />
-        <SID Name="NZWN4A" />
-        <SID Name="REVN2Q" />
-        <SID Name="TAXU5Q" />
-        <STAR Name="ATSU5B" ApproachName="GNSSZ" />
-        <STAR Name="AVPO1B" ApproachName="GNSSZ" />
-        <STAR Name="AVPO1D" ApproachName="RNPX" />
-        <STAR Name="DOGA4B" ApproachName="GNSSZ" />
-        <STAR Name="LADI6B" ApproachName="GNSSZ" />
-        <STAR Name="SIMZ3B" ApproachName="GNSSZ" />
-        <STAR Name="SIMZ1D" ApproachName="RNPX" />
-        <STAR Name="TPAP3B" ApproachName="GNSSZ" />
-        <STAR Name="TPAP1D" ApproachName="RNPX" />
-        <STAR Name="WARD3B" ApproachName="GNSSZ" />
-        <STAR Name="WARD2D" ApproachName="RNPX" />
-      </Runway>
-      <Runway Name="34" DataRunway="34">
-        <SID Name="ISNI4P" />
-        <SID Name="ISNI4T" />
-        <SID Name="KALE3P" />
-        <SID Name="NZWN2B" />
-        <SID Name="POLA5P" />
-        <SID Name="POLA5R" />
-        <STAR Name="ATSU3A" ApproachName="GNSSZ" />
-        <STAR Name="DOGA3A" ApproachName="GNSSZ" />
-        <STAR Name="IGMU2A" ApproachName="GNSSZ" />
-        <STAR Name="LADI6A" ApproachName="GNSSZ" />
-        <STAR Name="SIMZ6A" ApproachName="GNSSZ" />
-        <STAR Name="SIMZ2C" ApproachName="RNPX" />
-        <STAR Name="SULR3A" ApproachName="GNSSZ" />
-        <STAR Name="SULR2C" ApproachName="RNPX" />
-        <STAR Name="TPAP3A" ApproachName="GNSSZ" />
-        <STAR Name="TPAP1C" ApproachName="RNPX" />
-        <STAR Name="WARD5A" ApproachName="GNSSZ" />
-        <STAR Name="WARD2C" ApproachName="RNPX" />
-      </Runway>
-    </Airport>
     <Airport Name="NZWO">
       <Runway Name="34" DataRunway="34">
         <SID Name="DOMO1Q" />
@@ -728,36 +809,6 @@
       <Runway Name="16" DataRunway="16">
         <STAR Name="AGTI1A" ApproachName="GNSS" />
         <STAR Name="GURS1A" ApproachName="GNSS" />
-      </Runway>
-    </Airport>
-    <Airport Name="NZWP">
-      <Runway Name="03" DataRunway="03">
-        <SID Name="BAYE1A" />
-        <SID Name="BAYE1R" />
-        <STAR Name="AA1K" ApproachName="GNSS" />
-        <STAR Name="ARAD2K" ApproachName="GNSS" />
-        <STAR Name="BASI2K" ApproachName="GNSS" />
-        <STAR Name="EXOP1K" ApproachName="GNSS" />
-        <STAR Name="LUPR1K" ApproachName="GNSS" />
-        <STAR Name="OMLE1K" ApproachName="GNSS" />
-      </Runway>
-      <Runway Name="08" DataRunway="08">
-        <SID Name="BAYE1B" />
-        <STAR Name="AA1L" ApproachName="GNSS" />
-      </Runway>
-      <Runway Name="21" DataRunway="21">
-        <SID Name="WYTA1A" />
-        <SID Name="WYTA1Q" />
-        <STAR Name="AA1J" ApproachName="GNSS" />
-        <STAR Name="ARAD1J" ApproachName="GNSS" />
-        <STAR Name="BASI2J" ApproachName="GNSS" />
-        <STAR Name="EXOP2J" ApproachName="GNSS" />
-        <STAR Name="LUPR1J" ApproachName="GNSS" />
-        <STAR Name="OMLE1J" ApproachName="GNSS" />
-      </Runway>
-      <Runway Name="26" DataRunway="26">
-        <SID Name="WYTA1B" />
-        <STAR Name="AA1M" ApproachName="GNSS" />
       </Runway>
     </Airport>
     <Airport Name="NZWR">
@@ -2998,6 +3049,7 @@ RILEY
     <Point Name="ADBOM" Type="Fix">-413118.590+1734739.960</Point>
     <Point Name="ADGAT" Type="Fix">-395937.400+1751318.050</Point>
     <Point Name="ADGIN" Type="Fix">-394417.010+1763408.010</Point>
+    <Point Name="ADGOP" Type="Fix">-355515.578+1753011.362</Point>
     <Point Name="ADKAG" Type="Fix">-381253.680+1760948.000</Point>
     <Point Name="ADKES" Type="Fix">-354958.840+1741455.600</Point>
     <Point Name="ADKIS" Type="Fix">-400024.570+1752306.000</Point>
@@ -3078,6 +3130,7 @@ RILEY
     <Point Name="ANDOM" Type="Fix">-391447.120+1742026.530</Point>
     <Point Name="ANGAI" Type="Fix">-211209.310-1593701.220</Point>
     <Point Name="ANGAX" Type="Fix">-435646.070+1711036.650</Point>
+    <Point Name="ANGEB" Type="Fix">-465258.000+1680901.000</Point>
     <Point Name="ANGIR" Type="Fix">-432932.800+1724113.900</Point>
     <Point Name="ANGOR" Type="Fix">-211123.820-1751413.500</Point>
     <Point Name="ANGOT" Type="Fix">-454107.150+1693855.460</Point>
@@ -3496,6 +3549,7 @@ RILEY
     <Point Name="EKASO" Type="Fix">-375345.210+1751402.420</Point>
     <Point Name="EKEDI" Type="Fix">-201032.920-1742617.070</Point>
     <Point Name="EKODA" Type="Fix">-430155.280+1672924.450</Point>
+    <Point Name="EKODU" Type="Fix">-355646.201+1752031.000</Point>
     <Point Name="EKONA" Type="Fix">-205226.920-1592336.410</Point>
     <Point Name="EKVIL" Type="Fix">-423249.720+1710712.680</Point>
     <Point Name="EKVOX" Type="Fix">-444857.600+1691952.300</Point>
@@ -3943,6 +3997,7 @@ RILEY
     <Point Name="LEBOX" Type="Fix">-390734.260+1743417.400</Point>
     <Point Name="LEBUT" Type="Fix">-172845.000+1782251.000</Point>
     <Point Name="LEDAK" Type="Fix">-375639.420+1761747.030</Point>
+    <Point Name="LEDIP" Type="Fix">-465207.028+1681129.929</Point>
     <Point Name="LEDIV" Type="Fix">-393140.970+1765138.770</Point>
     <Point Name="LEDOR" Type="Fix">-401237.840+1744150.090</Point>
     <Point Name="LEECH" Type="Fix">-355700.840+1741358.660</Point>
@@ -4266,6 +4321,7 @@ RILEY
     <Point Name="OLMEM" Type="Fix">-352606.020+1743420.420</Point>
     <Point Name="OLMOT" Type="Fix">-384536.690+1741351.300</Point>
     <Point Name="OLMUX" Type="Fix">-402333.840+1753232.130</Point>
+    <Point Name="OLNAN" Type="Fix">-355600.989+1752521.241</Point>
     <Point Name="OLNOL" Type="Fix">-405743.940+1754223.020</Point>
     <Point Name="OLPER" Type="Fix">-212502.500-1750020.990</Point>
     <Point Name="OLREK" Type="Fix">-450406.450+1683639.830</Point>
@@ -4345,6 +4401,7 @@ RILEY
     <Point Name="OVSIT" Type="Fix">-372521.200+1750147.100</Point>
     <Point Name="OVTIK" Type="Fix">-362742.090+1743930.990</Point>
     <Point Name="OVTOS" Type="Fix">-251401.520-1650000.000</Point>
+    <Point Name="OX701" Type="Fix">-360426.771+1752720.880</Point>
     <Point Name="PABGO" Type="Fix">-264604.090-1650000.000</Point>
     <Point Name="PABRA" Type="Fix">-433136.480+1722457.220</Point>
     <Point Name="PADDY" Type="Fix">-265244.231+1582515.049</Point>
@@ -4510,6 +4567,7 @@ RILEY
     <Point Name="RAXIN" Type="Fix">-362737.990+1750049.430</Point>
     <Point Name="RAXOL" Type="Fix">-462244.550+1683043.780</Point>
     <Point Name="RAYOR" Type="Fix">+022537.000-1583910.000</Point>
+    <Point Name="RC401" Type="Fix">-465333.000+1680719.981</Point>
     <Point Name="REBUR" Type="Fix">-433221.220+1713839.160</Point>
     <Point Name="REDOL" Type="Fix">-452841.730+1684817.000</Point>
     <Point Name="REEVE" Type="Fix">-375325.190+1761957.820</Point>
@@ -4565,6 +4623,7 @@ RILEY
     <Point Name="RUKDU" Type="Fix">-435154.100-1764133.270</Point>
     <Point Name="RULIP" Type="Fix">-413336.630+1740055.800</Point>
     <Point Name="RULOL" Type="Fix">-454956.060+1704428.180</Point>
+    <Point Name="RULVU" Type="Fix">-355931.801+1752611.040</Point>
     <Point Name="RUMBI" Type="Fix">-431913.940+1721652.740</Point>
     <Point Name="RUMET" Type="Fix">-380025.470+1751935.330</Point>
     <Point Name="RUMIX" Type="Fix">-270737.000+1630000.000</Point>
@@ -4631,6 +4690,7 @@ RILEY
     <Point Name="SCUBA" Type="Fix">-235830.000+1664006.000</Point>
     <Point Name="SEBGI" Type="Fix">-410523.250+1733046.560</Point>
     <Point Name="SEBRU" Type="Fix">-402541.910+1732706.730</Point>
+    <Point Name="SEBSA" Type="Fix">-465043.000+1681533.000</Point>
     <Point Name="SEDSI" Type="Fix">-412336.500+1740659.850</Point>
     <Point Name="SEGMI" Type="Fix">-385320.990+1740407.570</Point>
     <Point Name="SEGVA" Type="Fix">-364812.000+1754514.000</Point>
@@ -4762,6 +4822,12 @@ RILEY
     <Point Name="TOSOL" Type="Fix">-211739.920-1600351.270</Point>
     <Point Name="TOTRA" Type="Fix">-381412.050+1760710.850</Point>
     <Point Name="TPAPA" Type="Fix">-404219.470+1742723.170</Point>
+    <Point Name="TU402" Type="Fix">-441845.770+1711232.450</Point>
+    <Point Name="TU411" Type="Fix">-442431.000+1705447.992</Point>
+    <Point Name="TU426" Type="Fix">-440757.000+1710625.020</Point>
+    <Point Name="TU479" Type="Fix">-443623.000+1705916.000</Point>
+    <Point Name="TU537" Type="Fix">-444105.000+1704653.980</Point>
+    <Point Name="TU593" Type="Fix">-442902.501+1710725.612</Point>
     <Point Name="TUBBY" Type="Fix">-405355.799+1604237.141</Point>
     <Point Name="TUHUA" Type="Fix">-384945.070+1752259.930</Point>
     <Point Name="TUIHU" Type="Fix">-391122.500+1742614.580</Point>
@@ -4829,6 +4895,7 @@ RILEY
     <Point Name="UPTIK" Type="Fix">-382048.330+1750407.090</Point>
     <Point Name="UPTIN" Type="Fix">-450219.610+1684048.100</Point>
     <Point Name="UPTUG" Type="Fix">-210405.020-1745159.840</Point>
+    <Point Name="UPVAP" Type="Fix">-410202.000+1742647.000</Point>
     <Point Name="UPVOK" Type="Fix">-394436.120+1741429.270</Point>
     <Point Name="URBIG" Type="Fix">-365109.990+1743818.940</Point>
     <Point Name="URBUX" Type="Fix">-373200.710+1754157.700</Point>
@@ -6040,6 +6107,12 @@ RILEY
       <Transition Name="NUTRA">IPDIN/NUTRA</Transition>
       <Transition Name="TULMI">LAMOG/ONISU/OVSIT/TULMI</Transition>
     </SID>
+    <SID Name="BAY8" Airport="NZAP" Runways="17">
+      <Route Runway="17">AP NDB</Route>
+    </SID>
+    <SID Name="LAKE6" Airport="NZAP" Runways="17">
+      <Route Runway="17">AP NDB</Route>
+    </SID>
     <SID Name="MINEK2" Airport="NZAP" Runways="17">
       <Route Runway="17">MINEK</Route>
       <Transition Name="AKNES">AKNES</Transition>
@@ -6049,6 +6122,29 @@ RILEY
       <Transition Name="KARBA">PEBSO/KARBA</Transition>
       <Transition Name="SULFA">SULFA</Transition>
       <Transition Name="TAIKI">RUNUP/TAIKI</Transition>
+      <Transition Name="TM">TM NDB</Transition>
+    </SID>
+    <SID Name="MOKAI4" Airport="NZAP" Runways="35">
+      <Route Runway="35" />
+    </SID>
+    <SID Name="PAERO5" Airport="NZAP" Runways="35">
+      <Route Runway="35" />
+    </SID>
+    <SID Name="PEAK8" Airport="NZAP" Runways="35">
+      <Route Runway="35">AP NDB</Route>
+    </SID>
+    <SID Name="TAIKO5" Airport="NZAP" Runways="17">
+      <Route Runway="17" />
+    </SID>
+    <SID Name="TEREG2" Airport="NZAP" Runways="35">
+      <Route Runway="35">TEREG</Route>
+      <Transition Name="AKNES">VEKPO/AKNES</Transition>
+      <Transition Name="DOGMO">VEKPO/DOGMO</Transition>
+      <Transition Name="DUDUS">DUDUS</Transition>
+      <Transition Name="ISGIT">ISGIT</Transition>
+      <Transition Name="KARBA">KARBA</Transition>
+      <Transition Name="SULFA">SULFA</Transition>
+      <Transition Name="TAIKI">VEKPO/TAIKI</Transition>
       <Transition Name="TM">TM NDB</Transition>
     </SID>
     <SID Name="ADNO2P" Airport="NZAR" Runways="21">
@@ -6466,7 +6562,7 @@ RILEY
       <Transition Name="HARVO">UPDAL/OSTOG/MOPMI/HARVO</Transition>
       <Transition Name="IGDOT">TUIHU/IGDOT</Transition>
       <Transition Name="MANGA">INGLE/ANDOM/MANGA</Transition>
-      <Transition Name="TUIHU">TUIHU/IGDOT</Transition>
+      <Transition Name="SELTA">INGLE/ANDOM/SELTA</Transition>
     </SID>
     <SID Name="SOUTH5" Airport="NZNP" Runways="23">
       <Route Runway="23">NP VOR</Route>
@@ -6654,8 +6750,11 @@ RILEY
       <Transition Name="SAKBA">RINRI/SAKBA</Transition>
       <Transition Name="VIROL">LUNBA/RINRI/ANPUG/KEVEL/VIROL</Transition>
     </SID>
-    <SID Name="NZPM2A" Airport="NZPM" Runways="25">
+    <SID Name="NZPM3A" Airport="NZPM" Runways="25">
       <Route Runway="25" />
+    </SID>
+    <SID Name="NZPM1H" Airport="NZPM" Runways="07">
+      <Route Runway="07" />
     </SID>
     <SID Name="RUXO3Q" Airport="NZPM" Runways="07">
       <Route Runway="07">VEPUR/RUXOX</Route>
@@ -6726,7 +6825,7 @@ RILEY
     <SID Name="BRG9" Airport="NZQN" Runways="05">
       <Route Runway="05">QN VOR</Route>
     </SID>
-    <SID Name="DOVM1A" Airport="NZQN" Runways="05">
+    <SID Name="DOVM2A" Airport="NZQN" Runways="05">
       <Route Runway="05">QN605/QN615/QN621/DOVMA/QN678/QN682/QN686/QN690/QN737/BUGSA/QN878/QN882</Route>
       <Transition Name="ADLUP">REDOL/BASOS/ADLUP</Transition>
       <Transition Name="SUNGU">SUNGU</Transition>
@@ -6784,6 +6883,9 @@ RILEY
     <SID Name="SUNG3U" Airport="NZQN" Runways="23">
       <Route Runway="23">ENKUV/OLREK/TULVU/VAPLI/IBVUK/SUNGU</Route>
       <Transition Name="ADLUP">BASOS/ADLUP</Transition>
+    </SID>
+    <SID Name="SEBSA1" Airport="NZRC" Runways="04">
+      <Route Runway="04">NZRC/ANGEB/SEBSA</Route>
     </SID>
     <SID Name="DOLS2R" Airport="NZRO" Runways="36">
       <Route Runway="36">NIKOR/DOLSO</Route>
@@ -6847,6 +6949,22 @@ RILEY
       <Route Runway="18">BENVU/MARKO</Route>
       <Route Runway="36">BENVU/MARKO</Route>
     </SID>
+    <SID Name="BIDN1P" Airport="NZTU" Runways="02">
+      <Route Runway="02">BIDNI</Route>
+      <Transition Name="DUBON">DALUM/DUBON</Transition>
+      <Transition Name="ELDAK">ELDAK</Transition>
+      <Transition Name="MAMUS">DALUM/MAMUS</Transition>
+      <Transition Name="OLGAL">ATSOK/DOPOP/OLGAL</Transition>
+      <Transition Name="OMARU">ATSOK/OMARU</Transition>
+    </SID>
+    <SID Name="MUKE1Q" Airport="NZTU" Runways="20">
+      <Route Runway="20">MUKEN</Route>
+      <Transition Name="DUBON">DUBON</Transition>
+      <Transition Name="ELDAK">BIDNI/ELDAK</Transition>
+      <Transition Name="MAMUS">MAMUS</Transition>
+      <Transition Name="OLGAL">OLGAL</Transition>
+      <Transition Name="OMARU">OMARU</Transition>
+    </SID>
     <SID Name="BODI2P" Airport="NZWB" Runways="24">
       <Route Runway="24">ADBOM/URGUN/BODIM</Route>
       <Transition Name="ELPIT">ELPIT</Transition>
@@ -6891,19 +7009,21 @@ RILEY
       <Transition Name="TANEN">TANEN</Transition>
       <Transition Name="VANDA">VANDA</Transition>
     </SID>
-    <SID Name="ISNI4P" Airport="NZWN" Runways="34">
+    <SID Name="ISNI5P" Airport="NZWN" Runways="34">
       <Route Runway="34">ISNIP</Route>
       <Transition Name="AVPOD">BAXOV/AVPOD</Transition>
       <Transition Name="NIMOS">OGAMI/NIMOS</Transition>
       <Transition Name="NULKO">AGSOP/ENRED/NULKO</Transition>
       <Transition Name="RUSIL">OGAMI/RUSIL</Transition>
+      <Transition Name="UPVAP">AGSOP/UPVAP</Transition>
     </SID>
-    <SID Name="ISNI4T" Airport="NZWN" Runways="34">
-      <Route Runway="34">ISNIP</Route>
+    <SID Name="ISNI5T" Airport="NZWN" Runways="34">
+      <Route Runway="34">MUDGU/ISNIP</Route>
       <Transition Name="AVPOD">BAXOV/AVPOD</Transition>
       <Transition Name="NIMOS">OGAMI/NIMOS</Transition>
       <Transition Name="NULKO">AGSOP/ENRED/NULKO</Transition>
       <Transition Name="RUSIL">OGAMI/RUSIL</Transition>
+      <Transition Name="UPVAP">AGSOP/UPVAP</Transition>
     </SID>
     <SID Name="KADN2Q" Airport="NZWN" Runways="16">
       <Route Runway="16">REVNA/ADLAK/KADNU</Route>
@@ -6922,11 +7042,12 @@ RILEY
       <Transition Name="PP">MELAD/PP NDB</Transition>
       <Transition Name="SABDA">PAPSI/SABDA</Transition>
     </SID>
-    <SID Name="MESE2Q" Airport="NZWN" Runways="16">
+    <SID Name="MESE3Q" Airport="NZWN" Runways="16">
       <Route Runway="16">MESEL</Route>
       <Transition Name="IGMUL">DAPVA/IGMUL</Transition>
       <Transition Name="LUBSI">ISLUG/TAKMI/LUBSI</Transition>
       <Transition Name="SABDA">SABDA</Transition>
+      <Transition Name="UPVAP">DAPVA/IGMUL/UPVAP</Transition>
     </SID>
     <SID Name="NZWN4A" Airport="NZWN" Runways="16">
       <Route Runway="16" />
@@ -7110,7 +7231,7 @@ RILEY
       <Transition Name="TARIB">TARIB</Transition>
       <Route Runway="05R">EXOPI/DIPPU/ANKIL/LOSGA/AKBAM/LENGU</Route>
     </STAR>
-    <STAR Name="EXOP6D" Airport="NZAA" Runways="05R">
+    <STAR Name="EXOP7D" Airport="NZAA" Runways="05R">
       <Transition Name="AGEDU">AGEDU/OKTUB</Transition>
       <Transition Name="AGREX">AGREX</Transition>
       <Transition Name="AKLOM">AKLOM</Transition>
@@ -7972,6 +8093,33 @@ RILEY
     <STAR Name="URBU1B" Airport="NZTG" Runways="25">
       <Route Runway="25">URBUX/APUNO/KIMAR/RUSTA/UBSET</Route>
     </STAR>
+    <STAR Name="DOPO1K" Airport="NZTU" Runways="20">
+      <Route Runway="20">DOPOP/BIDNI</Route>
+    </STAR>
+    <STAR Name="DUBO2J" Airport="NZTU" Runways="02">
+      <Route Runway="02">DUBON/TU426/DOPOP</Route>
+    </STAR>
+    <STAR Name="DUBO1K" Airport="NZTU" Runways="20">
+      <Route Runway="20">DUBON/MOVBO/ANGAX/IDKOV/LUVAB</Route>
+    </STAR>
+    <STAR Name="ELDA1J" Airport="NZTU" Runways="02">
+      <Route Runway="02">ELDAK/BIDNI/DOPOP</Route>
+    </STAR>
+    <STAR Name="ELDA1K" Airport="NZTU" Runways="20">
+      <Route Runway="20">ELDAK/BIDNI</Route>
+    </STAR>
+    <STAR Name="MAMU2J" Airport="NZTU" Runways="02">
+      <Route Runway="02">MAMUS/TU411/DOPOP</Route>
+    </STAR>
+    <STAR Name="MAMU1K" Airport="NZTU" Runways="20">
+      <Route Runway="20">MAMUS/UGVAV/LUVAB</Route>
+    </STAR>
+    <STAR Name="PORU2J" Airport="NZTU" Runways="02">
+      <Route Runway="02">PORUT/TU537/TU479/DOPOP</Route>
+    </STAR>
+    <STAR Name="PORU1K" Airport="NZTU" Runways="20">
+      <Route Runway="20">PORUT/UPTAX/LUVAB</Route>
+    </STAR>
     <STAR Name="AVPO1J" Airport="NZWB" Runways="24">
       <Route Runway="24">AVPOD/LUTKA</Route>
     </STAR>
@@ -8274,21 +8422,6 @@ RILEY
       <Transition Name="MASKU">MASKU</Transition>
       <Route>AP506/UBLUT/AP501/AP35T</Route>
     </Approach>
-    <Approach Name="GNSS" Airport="NZAR" Runway="03">
-      <Transition Name="GROVE">GROVE</Transition>
-      <Transition Name="WI">WI NDB</Transition>
-      <Route>KINGS/UBKEL/AR409/AR03T</Route>
-    </Approach>
-    <Approach Name="GNSSQ" Airport="NZAR" Runway="21">
-      <Transition Name="FIRTH">FIRTH</Transition>
-      <Transition Name="SATLA">SATLA</Transition>
-      <Route>EGURU/SARVI/AR401/AR21T</Route>
-    </Approach>
-    <Approach Name="GNSSR" Airport="NZAR" Runway="21">
-      <Transition Name="FIRTH">FIRTH</Transition>
-      <Transition Name="SATLA">SATLA</Transition>
-      <Route>ORERE/EMTUB/AR401/AR21T</Route>
-    </Approach>
     <Approach Name="GNSS" Airport="NZCH" Runway="11">
       <Transition Name="AVDID">AVDID</Transition>
       <Transition Name="IGLIS">IGLIS</Transition>
@@ -8336,31 +8469,6 @@ RILEY
     <Approach Name="GNSS" Airport="NZDN" Runway="21">
       <Route>ESKAT/IDPON/BENRU/DN21T</Route>
     </Approach>
-    <Approach Name="GNSSB" Airport="NZGB" Runway="06">
-      <Transition Name="LUVOG">LUVOG</Transition>
-      <Transition Name="VARSI">VARSI</Transition>
-      <Route>OMGET/AVKIN/GB678</Route>
-    </Approach>
-    <Approach Name="GNSSB" Airport="NZGB" Runway="10">
-      <Transition Name="LUVOG">LUVOG</Transition>
-      <Transition Name="VARSI">VARSI</Transition>
-      <Route>OMGET/AVKIN/GB678</Route>
-    </Approach>
-    <Approach Name="GNSSB" Airport="NZGB" Runway="24">
-      <Transition Name="LUVOG">LUVOG</Transition>
-      <Transition Name="VARSI">VARSI</Transition>
-      <Route>OMGET/AVKIN/GB678</Route>
-    </Approach>
-    <Approach Name="GNSSB" Airport="NZGB" Runway="28">
-      <Transition Name="LUVOG">LUVOG</Transition>
-      <Transition Name="VARSI">VARSI</Transition>
-      <Route>OMGET/AVKIN/GB678</Route>
-    </Approach>
-    <Approach Name="GNSS" Airport="NZGM" Runway="01">
-      <Transition Name="ELPAM">ELPAM</Transition>
-      <Transition Name="PAKSA">PAKSA</Transition>
-      <Route>PAROA/AGRIP/GM483/GM01T</Route>
-    </Approach>
     <Approach Name="GNSS" Airport="NZGS" Runway="14">
       <Transition Name="CREEK">CREEK</Transition>
       <Transition Name="EWOOD">EWOOD</Transition>
@@ -8373,19 +8481,14 @@ RILEY
       <Transition Name="UKLIP">UKLIP</Transition>
       <Route>KOPUA/VESAV/GS32T</Route>
     </Approach>
-    <Approach Name="GNSSA" Airport="NZGT" Runway="15">
-      <Transition Name="MAMUS">MAMUS</Transition>
-      <Route>ATMAS/IDPAX/GT403</Route>
-    </Approach>
-    <Approach Name="GNSS" Airport="NZHA" Runway="32">
-      <Transition Name="NUKTO">NUKTO</Transition>
-      <Transition Name="UPVOK">UPVOK</Transition>
-      <Route>WAPOU/HA906/HA32T</Route>
-    </Approach>
     <Approach Name="GNSS" Airport="NZHK" Runway="03">
+      <Transition Name="ANDEP">ANDEP</Transition>
+      <Transition Name="BEDAV">BEDAV</Transition>
       <Route>KARVO/HK406/HK03T</Route>
     </Approach>
     <Approach Name="GNSS" Airport="NZHK" Runway="21">
+      <Transition Name="AGTUR">AGTUR</Transition>
+      <Transition Name="EKVIL">EKVIL</Transition>
       <Route>MAKOS/HK407/HK21T</Route>
     </Approach>
     <Approach Name="GNSSY" Airport="NZHN" Runway="36R">
@@ -8400,50 +8503,16 @@ RILEY
     <Approach Name="RNPZ" Airport="NZHN" Runway="18L">
       <Route>VATNA/ISPOT/HN18L</Route>
     </Approach>
-    <Approach Name="GNSS" Airport="NZKK" Runway="15">
-      <Route>OTAHA/-35.171564+173.885264/-35.244333+173.907978/KK15T</Route>
-    </Approach>
-    <Approach Name="GNSS" Airport="NZKK" Runway="33">
-      <Route>OPARE/-35.343650+173.939047/-35.270886+173.916278/KK33T</Route>
-    </Approach>
     <Approach Name="GNSS" Airport="NZKT" Runway="12">
       <Route>STEED/-34.985489+173.206236/-35.051364+173.268542/KT12T</Route>
     </Approach>
     <Approach Name="GNSS" Airport="NZKT" Runway="30">
       <Route>PERIA/-35.114650+173.348514/-35.084461+173.299894/KT30T</Route>
     </Approach>
-    <Approach Name="GNSSB" Airport="NZLX" Runway="01">
-      <Transition Name="BESMO">BESMO</Transition>
-      <Transition Name="KAKIT">KAKIT</Transition>
-      <Route>LUGDU/PORUT/LX407</Route>
-    </Approach>
-    <Approach Name="GNSSB" Airport="NZLX" Runway="14">
-      <Transition Name="BESMO">BESMO</Transition>
-      <Transition Name="KAKIT">KAKIT</Transition>
-      <Route>LUGDU/PORUT/LX407</Route>
-    </Approach>
-    <Approach Name="GNSSB" Airport="NZLX" Runway="19">
-      <Transition Name="BESMO">BESMO</Transition>
-      <Transition Name="KAKIT">KAKIT</Transition>
-      <Route>LUGDU/PORUT/LX407</Route>
-    </Approach>
-    <Approach Name="GNSSB" Airport="NZLX" Runway="32">
-      <Transition Name="BESMO">BESMO</Transition>
-      <Transition Name="KAKIT">KAKIT</Transition>
-      <Route>LUGDU/PORUT/LX407</Route>
-    </Approach>
     <Approach Name="GNSS" Airport="NZMO" Runway="26">
       <Transition Name="ALDEV">ALDEV</Transition>
       <Transition Name="ENSOV">ENSOV</Transition>
       <Route>GULAN/MO26T</Route>
-    </Approach>
-    <Approach Name="GNSS" Airport="NZMS" Runway="06">
-      <Route>MAMOD/MS603/MS488/MS818/MS06T</Route>
-    </Approach>
-    <Approach Name="GNSS" Airport="NZMS" Runway="24">
-      <Transition Name="ATVOX">ATVOX</Transition>
-      <Transition Name="URDAL">URDAL</Transition>
-      <Route>SADUN/MS402/MS572/MS24T</Route>
     </Approach>
     <Approach Name="GNSS" Airport="NZNE" Runway="03">
       <Transition Name="PANGO">PANGO</Transition>
@@ -8469,22 +8538,7 @@ RILEY
       <Transition Name="OHITI">OHITI</Transition>
       <Route>AKINA/-39.536822+176.859764/NR34T</Route>
     </Approach>
-    <Approach Name="GNSSB" Airport="NZNS" Runway="02">
-      <Transition Name="KAPUA">KAPUA</Transition>
-      <Transition Name="LIKMA">LIKMA</Transition>
-      <Route>ELMAX/NOPEM/ORUBA</Route>
-    </Approach>
-    <Approach Name="GNSSB" Airport="NZNS" Runway="06">
-      <Transition Name="KAPUA">KAPUA</Transition>
-      <Transition Name="LIKMA">LIKMA</Transition>
-      <Route>ELMAX/NOPEM/ORUBA</Route>
-    </Approach>
     <Approach Name="GNSSB" Airport="NZNS" Runway="20">
-      <Transition Name="KAPUA">KAPUA</Transition>
-      <Transition Name="LIKMA">LIKMA</Transition>
-      <Route>ELMAX/NOPEM/ORUBA</Route>
-    </Approach>
-    <Approach Name="GNSSB" Airport="NZNS" Runway="24">
       <Transition Name="KAPUA">KAPUA</Transition>
       <Transition Name="LIKMA">LIKMA</Transition>
       <Route>ELMAX/NOPEM/ORUBA</Route>
@@ -8498,9 +8552,6 @@ RILEY
       <Transition Name="ESNED">ESNED</Transition>
       <Route>TUMGO/ISLOP/PATRU/NS02T</Route>
     </Approach>
-    <Approach Name="GNSS" Airport="NZNV" Runway="04">
-      <Route>KAGRU/NILIB/NV04T</Route>
-    </Approach>
     <Approach Name="GNSS" Airport="NZNV" Runway="22">
       <Route>DUNAX/PALTU/NV22T</Route>
     </Approach>
@@ -8510,27 +8561,8 @@ RILEY
       <Transition Name="LELUK">LELUK</Transition>
       <Route>NUTGO/NIVOD/OH09T</Route>
     </Approach>
-    <Approach Name="GNSS" Airport="NZOH" Runway="15">
-      <Transition Name="ADKIS">ADKIS</Transition>
-      <Transition Name="BOBIT">BOBIT</Transition>
-      <Route>GUPIL/DOXIN/OH15T</Route>
-    </Approach>
-    <Approach Name="GNSS" Airport="NZOH" Runway="33">
-      <Transition Name="NOBED">NOBED</Transition>
-      <Transition Name="VARNO">VARNO</Transition>
-      <Route>SOSLA/VELSU/OH33T</Route>
-    </Approach>
-    <Approach Name="GNSSY" Airport="NZOH" Runway="27">
-      <Route>SAKOG/PEDBA/OH27T</Route>
-    </Approach>
     <Approach Name="GNSSZ" Airport="NZOH" Runway="27">
       <Route>LUXUL/PEDBA/OH27T</Route>
-    </Approach>
-    <Approach Name="GNSS" Airport="NZOU" Runway="18">
-      <Route>PAMOA/-44.887389+171.137850/OU18T</Route>
-    </Approach>
-    <Approach Name="GNSS" Airport="NZOU" Runway="36">
-      <Route>ORBEL/-45.046594+171.025025/OU36T</Route>
     </Approach>
     <Approach Name="GNSS" Airport="NZPM" Runway="07">
       <Transition Name="AKNIN">AKNIN</Transition>
@@ -8554,14 +8586,6 @@ RILEY
       <Transition Name="NILID">NILID</Transition>
       <Route>LEVBI/TAXEV/PP421/PP34T</Route>
     </Approach>
-    <Approach Name="GNSSF" Airport="NZQN" Runway="05">
-      <Route>IBABU/QN529/LETPO/GUSAS/QN581</Route>
-    </Approach>
-    <Approach Name="GNSSG" Airport="NZQN" Runway="23">
-      <Transition Name="ATKIL">ATKIL/QN780/ONADU</Transition>
-      <Transition Name="UGPED">UGPED/ONADU</Transition>
-      <Route>GIVAK/IKABA/QN603</Route>
-    </Approach>
     <Approach Name="RNPZ" Airport="NZQN" Runway="05">
       <Route>IBABU/QN577/QN573/QN571/QN565/MOPGA/OMUBO/QN555/QN550/QN545/QN05T</Route>
     </Approach>
@@ -8569,12 +8593,6 @@ RILEY
       <Transition Name="ATKIL">ATKIL/QN780/QN775/QN770</Transition>
       <Transition Name="UGPED">UGPED/QN779/QN774</Transition>
       <Route>ATVUP/QN760/QN755/LARAV/QN745/QN741/QN735/QN731/QN725/QN23T</Route>
-    </Approach>
-    <Approach Name="GNSSB" Airport="NZRO" Runway="18">
-      <Route>TOTRA/-38.172367+176.219978/-38.125194+176.293947/OKERE</Route>
-    </Approach>
-    <Approach Name="GNSSB" Airport="NZRO" Runway="36">
-      <Route>TOTRA/-38.172367+176.219978/-38.125194+176.293947/OKERE</Route>
     </Approach>
     <Approach Name="GNSSZ" Airport="NZRO" Runway="18">
       <Transition Name="OKERE">OKERE</Transition>
@@ -8586,9 +8604,6 @@ RILEY
     <Approach Name="RNPY" Airport="NZRO" Runway="36">
       <Route>TOTRA/ADKAG/SEKBU/RO366/RO364/RO36T</Route>
     </Approach>
-    <Approach Name="GNSS" Airport="NZSL" Runway="16">
-      <Route>APABO/BAMEX/SEMKI/SL16T</Route>
-    </Approach>
     <Approach Name="GNSS" Airport="NZTG" Runway="07">
       <Transition Name="MORTA">MORTA</Transition>
       <Transition Name="RUSTA">RUSTA</Transition>
@@ -8599,23 +8614,14 @@ RILEY
       <Transition Name="UBSET">UBSET</Transition>
       <Route>PATMO/UKDAS/TG25T</Route>
     </Approach>
-    <Approach Name="GNSSY" Airport="NZTK" Runway="18">
-      <Route>MARKO/TK401/BENVU/TK407</Route>
+    <Approach Name="GNSS" Airport="NZTU" Runway="02">
+      <Transition Name="DOPOP">DOPOP</Transition>
+      <Route>TU593/REKID/TU402/TU02T</Route>
     </Approach>
-    <Approach Name="GNSSZ" Airport="NZTK" Runway="18">
-      <Route>MARKO/TK401/BENVU/TK407</Route>
-    </Approach>
-    <Approach Name="GNSS" Airport="NZTO" Runway="13">
-      <Transition Name="KARBA">KARBA</Transition>
-      <Transition Name="LALAN">LALAN</Transition>
-      <Transition Name="MIKER">MIKER</Transition>
-      <Route>WAIPA/-38.167164+175.830969/TO13T</Route>
-    </Approach>
-    <Approach Name="GNSS" Airport="NZTO" Runway="31">
-      <Transition Name="ARIKA">ARIKA</Transition>
-      <Transition Name="GOSTI">GOSTI</Transition>
-      <Transition Name="GUMAN">GUMAN</Transition>
-      <Route>AMURI/-38.309944+175.958236/TO31T</Route>
+    <Approach Name="GNSS" Airport="NZTU" Runway="20">
+      <Transition Name="BIDNI">BIDNI</Transition>
+      <Transition Name="LUVAB">LUVAB</Transition>
+      <Route>SUNPA/EMTEP/TU20T</Route>
     </Approach>
     <Approach Name="GNSS" Airport="NZWB" Runway="24">
       <Transition Name="JAMIE">JAMIE</Transition>
@@ -8635,9 +8641,6 @@ RILEY
     <Approach Name="GNSSZ" Airport="NZWN" Runway="16">
       <Route>WITBY/CANES/OLBIN/WN16T</Route>
     </Approach>
-    <Approach Name="GNSSZ" Airport="NZWN" Runway="34">
-      <Route>UMAGA/BUTIN/WN402/ROZAN/WN403/WN34T</Route>
-    </Approach>
     <Approach Name="RNPX" Airport="NZWN" Runway="16">
       <Transition Name="DORBU">DORBU/WN509</Transition>
       <Transition Name="HUWIT">HUWIT/WN513</Transition>
@@ -8654,11 +8657,6 @@ RILEY
       <Transition Name="UPSUV">UPSUV</Transition>
       <Route>AVMEB/RITPU/WO16T</Route>
     </Approach>
-    <Approach Name="GNSS" Airport="NZWO" Runway="34">
-      <Transition Name="BURLY">BURLY</Transition>
-      <Transition Name="OPOHO">OPOHO</Transition>
-      <Route>MARKS/WO422/WO411/WO34T</Route>
-    </Approach>
     <Approach Name="GNSS" Airport="NZWP" Runway="03">
       <Route>WYTAK/MESUD/WP03T</Route>
     </Approach>
@@ -8674,33 +8672,6 @@ RILEY
       <Transition Name="ABUOY">ABUOY</Transition>
       <Transition Name="BAZEN">BAZEN</Transition>
       <Route>FLAXX/WP601/WP26T</Route>
-    </Approach>
-    <Approach Name="GNSS" Airport="NZWR" Runway="06">
-      <Route>OMANA/ADKES/WR601/WR06T</Route>
-    </Approach>
-    <Approach Name="GNSSC" Airport="NZWR" Runway="06">
-      <Route>SF NDB/DUDAP/WR431</Route>
-    </Approach>
-    <Approach Name="GNSSC" Airport="NZWR" Runway="14">
-      <Route>SF NDB/DUDAP/WR431</Route>
-    </Approach>
-    <Approach Name="GNSSC" Airport="NZWR" Runway="24">
-      <Route>SF NDB/DUDAP/WR431</Route>
-    </Approach>
-    <Approach Name="GNSSC" Airport="NZWR" Runway="32">
-      <Route>SF NDB/DUDAP/WR431</Route>
-    </Approach>
-    <Approach Name="GNSSD" Airport="NZWR" Runway="06">
-      <Route>BIRAX/MONSU/WR983</Route>
-    </Approach>
-    <Approach Name="GNSSD" Airport="NZWR" Runway="14">
-      <Route>BIRAX/MONSU/WR983</Route>
-    </Approach>
-    <Approach Name="GNSSD" Airport="NZWR" Runway="24">
-      <Route>BIRAX/MONSU/WR983</Route>
-    </Approach>
-    <Approach Name="GNSSD" Airport="NZWR" Runway="32">
-      <Route>BIRAX/MONSU/WR983</Route>
     </Approach>
     <Approach Name="GNSS" Airport="NZWS" Runway="04">
       <Transition Name="AVMAK">AVMAK</Transition>
@@ -9092,7 +9063,10 @@ RILEY
       <Runway Name="05" Position="-374822.532+1745119.303" />
       <Runway Name="23" Position="-374815.365+1745144.240" />
     </Airport>
-    <Airport ICAO="NZRC" FullName=" Ryans Creek" Position="-465359.000+1680607.000" />
+    <Airport ICAO="NZRC" FullName=" Ryans Creek" Position="-465359.000+1680607.000">
+      <Runway Name="04" Position="-465403.773+1680550.827" />
+      <Runway Name="22" Position="-465354.524+1680617.654" />
+    </Airport>
     <Airport ICAO="NZRI" FullName=" Rangitata Island" Position="-440506.000+1712457.000" />
     <Airport ICAO="NZRK" FullName=" Rangitaiki" Position="-385312.000+1762149.000" />
     <Airport ICAO="NZRL" FullName=" Rotorua Lakes" Position="-380648.000+1761635.000" />
@@ -9237,7 +9211,7 @@ RILEY
       <Runway Name="04" Position="-414425.012+1713421.310" />
       <Runway Name="22" Position="-414402.159+1713507.591" />
     </Airport>
-    <Airport ICAO="NZWT" FullName=" Whitianga" Position="-364954.000+1754043.000">
+    <Airport ICAO="NZWT" FullName=" 417 7442 Whitianga" Position="-364954.000+1754043.000">
       <Runway Name="04" Position="-364956.302+1754034.741" />
       <Runway Name="22" Position="-364932.250+1754118.780" />
       <Runway Name="16" Position="-364931.570+1754047.730" />

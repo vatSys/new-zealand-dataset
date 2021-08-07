@@ -44,19 +44,25 @@
   </Map>
   <Map Type="System2" Name="03 GNSS" Priority="1" Center="-42.713394+170.980258" CustomColourName="ProcArr">
     <Symbol Type="HollowTriangle" />
-    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>KARVO</Point>
+      <Point>ANDEP</Point>
+      <Point>BEDAV</Point>
+    </Symbol>
     <Symbol Type="MalteseCross">
       <Point>HK406</Point>
     </Symbol>
-    <Symbol Type="SolidTriangle">
-      <Point>KARVO</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">KARVO/HK406/HK03T</Line>
+    <Line Pattern="Solid">ANDEP/KARVO</Line>
+    <Line Pattern="Solid">BEDAV/KARVO</Line>
   </Map>
   <Map Type="System2" Name="03 GNSS Labels" Priority="1" Center="-42.713394+170.980258" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>HK406</Point>
       <Point>KARVO</Point>
+      <Point>ANDEP</Point>
+      <Point>BEDAV</Point>
+      <Point>HK406</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="21 STARs" Priority="1" CustomColourName="ProcArr" Center="-42.707764+170.992069">
@@ -106,7 +112,10 @@
   </Map>
   <Map Type="System2" Name="21 GNSS" Priority="1" Center="-42.707764+170.992069" CustomColourName="ProcArr">
     <Symbol Type="HollowTriangle" />
-    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>AGTUR</Point>
+      <Point>EKVIL</Point>
+    </Symbol>
     <Symbol Type="MalteseCross">
       <Point>HK407</Point>
     </Symbol>
@@ -114,9 +123,13 @@
       <Point>MAKOS</Point>
     </Symbol>
     <Line Pattern="Solid">MAKOS/HK407/HK21T</Line>
+    <Line Pattern="Solid">AGTUR/MAKOS</Line>
+    <Line Pattern="Solid">EKVIL/MAKOS</Line>
   </Map>
   <Map Type="System2" Name="21 GNSS Labels" Priority="1" Center="-42.707764+170.992069" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>AGTUR</Point>
+      <Point>EKVIL</Point>
       <Point>HK407</Point>
       <Point>MAKOS</Point>
     </Label>
