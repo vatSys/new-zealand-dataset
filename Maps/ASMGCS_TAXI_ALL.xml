@@ -592,6 +592,14 @@
         <Point Name="29">-39.967358+175.031214</Point>
       <!-- NZWU END -->
 
+      <!-- NZFI -->
+        <Point Name="10">-40.253333+175.600000</Point>
+        <Point Name="28">-40.258056+175.610833</Point>
+        <Point Name="Ag Apron">-40.252778+175.602500</Point>
+        <Point Name="Main Apron">-40.256111+175.601667</Point>
+        <Point Name="28 = RH Circ">-40.258056+175.608056</Point>
+      <!-- NZFI END -->
+
         <Point Name=""></Point>
     </Label>
   </Map>
