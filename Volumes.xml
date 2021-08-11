@@ -798,11 +798,11 @@
  </Volume>
 
  <Volume Name="PPFIS" LowerLimit="0" UpperLimit="4500">
-   <Boundaries>NZPP_TWR</Boundaries>
+   <Boundaries>NZPP_FIS</Boundaries>
  </Volume>
 
  <Volume Name="MFFIS" LowerLimit="0" UpperLimit="17500">
-   <Boundaries>NZMF_TWR</Boundaries>
+   <Boundaries>NZMF_FIS</Boundaries>
  </Volume>
  
 </Volumes>
