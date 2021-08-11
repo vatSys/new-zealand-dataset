@@ -8,7 +8,7 @@
 	<Frequency Airport="NZGS" Frequency="126.400" />
 	<Frequency Airport="NZHN" Frequency="128.650" />
 	<Frequency Airport="NZNP" Frequency="127.050" />
-	<Frequency Airport="NZNR" Frequency="121.800" />
+	<Frequency Airport="NZNR" Frequency="128.000" />
 	<Frequency Airport="NZNS" Frequency="129.100" />
 	<Frequency Airport="NZNV" Frequency="127.000" />
 	<Frequency Airport="NZOH" Frequency="135.000" />
@@ -19,6 +19,9 @@
 	<Frequency Airport="NZWB" Frequency="126.050" />
 	<Frequency Airport="NZWP" Frequency="128.300" />
   </Frequencies>
+
+  <!-- Spoken Translations -->
+
   <Translations>
     <Translation String="NZAA" Spoken="Auckland" />
     <Translation String="NZWP" Spoken="Whenuapai" />
