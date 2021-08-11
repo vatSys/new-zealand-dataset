@@ -581,5 +581,14 @@
         <Map Name="NZAP/ASMGCS_NZAP_TWY" />
       </Maps>
     </Position>
+    <Position Name="NZFI" Type="ASMGCS" ASMGCSAirport="NZFI" DefaultCenter="-40.255928+175.605919" DefaultRange="2" MagneticVariation="-22.2" Rotation="0">
+      <Maps>
+        <Map Name="NZFI/ASMGCS_NZFI_RWY" />
+        <Map Name="NZFI/ASMGCS_NZFI_GRASS" />
+        <Map Name="NZFI/ASMGCS_NZFI_APR" />
+        <Map Name="NZFI/ASMGCS_NZFI_TWY" />
+        <Map Name="NZFI/ASMGCS_NZFI_BLD" />
+      </Maps>
+    </Position>
   </Group>
 </Positions>
