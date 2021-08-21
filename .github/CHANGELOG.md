@@ -13,6 +13,7 @@
 - [AIRAC 2106](#airac-2106)
 - [AIRAC 2107](#airac-2107)
 - [AIRAC 2108](#airac-2108)
+- [AIRAC 2109](#airac-2109)
 
 
 ## AIRAC 2013
@@ -254,3 +255,21 @@ The ANR data has unfortunately not been updated by Airways, so I am unable to ru
 * AD status changed to IFR-VFR. 
 * `SEBSA1` SID for Rwy 04 added.
 * `RNAV (GNSS) A` approach added for Rwy 22.
+
+
+## AIRAC 2109
+
+### Revision A (Initial)
+
+**ANR Updates**
+
+*  Some minor changes to the co-ordinates of `NZTK` 
+*  Amendments or addition of the `V2`, `P766`, `Q128`, `Z129` airways.
+*  Addition of IFR WPT `RIWUT`.
+*  Addition of `NZHC`, and removal of `NZSH`.
+
+**Other Changes**
+
+* Napier ATIS frequency updated to the correct frequency of `128.000MHz`.
+* Additon of NZFI Ground Radar view. This can be found under Class G Aerodromes.
+

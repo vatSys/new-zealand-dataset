@@ -1029,8 +1029,7 @@ BUSTA/
 DADOK/
 DOGSA/
 DOTIK/
-DUMUM/
-TAPAP
+DUMUM
 </Airway>
     <Airway Name="B581">
 BAXIL/
@@ -1671,6 +1670,10 @@ DOGAD/
 ESMUK/
 OH VOR
 </Airway>
+    <Airway Name="V2">
+TBU VOR/
+TV NDB
+</Airway>
     <Airway Name="V242">
 DOGAD/
 LIMPA/
@@ -2085,7 +2088,8 @@ SMIFF
     <Airway Name="P766">
 ADKOS/
 DADLU/
-OMKIN
+OMKIN/
+MIKEL
 </Airway>
     <Airway Name="P880">
 QN VOR/
@@ -2130,6 +2134,11 @@ LIKTU/
 UPTIK/
 DABKA/
 HN VOR
+</Airway>
+    <Airway Name="Q128">
+SEBSA/
+AMVIX/
+NV VOR
 </Airway>
     <Airway Name="Q132">
 NOBAR/
@@ -2984,6 +2993,13 @@ LEGER
     <Airway Name="Z106">
 ARIKA/
 RO VOR
+</Airway>
+    <Airway Name="Z129">
+UPVAP/
+LIMVU/
+RIWUT/
+MENOV/
+MARKO
 </Airway>
     <Airway Name="Z187">
 AKAVI/
@@ -4603,6 +4619,7 @@ RILEY
     <Point Name="RITPU" Type="Fix">-385444.920+1772347.860</Point>
     <Point Name="RIVPI" Type="Fix">-431225.490+1720613.590</Point>
     <Point Name="RIVTA" Type="Fix">-423225.400+1725252.680</Point>
+    <Point Name="RIWUT" Type="Fix">-404017.300+1735951.200</Point>
     <Point Name="RO181" Type="Fix">-380924.818+1761511.722</Point>
     <Point Name="RO182" Type="Fix">-380807.321+1761721.142</Point>
     <Point Name="RO185" Type="Fix">-380307.909+1762055.342</Point>
@@ -4768,7 +4785,6 @@ RILEY
     <Point Name="TANIG" Type="Fix">-354909.140+1740148.850</Point>
     <Point Name="TANOU" Type="Fix">-194726.870-1575238.580</Point>
     <Point Name="TAPAB" Type="Fix">-413712.520+1743915.260</Point>
-    <Point Name="TAPAP" Type="Fix">-180024.000-1513854.000</Point>
     <Point Name="TAPAT" Type="Fix">-363834.580+1732553.480</Point>
     <Point Name="TARIB" Type="Fix">-340358.110+1764453.080</Point>
     <Point Name="TARIT" Type="Fix">-462820.510+1683134.920</Point>
@@ -8819,6 +8835,7 @@ RILEY
       <Runway Name="32" Position="-393328.181+1741610.988" />
     </Airport>
     <Airport ICAO="NZHB" FullName=" Helena Bay" Position="-352523.000+1742147.370" />
+    <Airport ICAO="NZHC" FullName=" Wanaka Lakes Health Centre" Position="-444233.600+1690811.430" />
     <Airport ICAO="NZHF" FullName=" Huka Falls" Position="-383835.750+1760517.680" />
     <Airport ICAO="NZHH" FullName=" Waikato Hospital" Position="-374822.610+1751651.230" />
     <Airport ICAO="NZHK" FullName=" Hokitika" Position="-424249.000+1705907.000">
@@ -9092,7 +9109,6 @@ RILEY
       <Runway Name="34" Position="-391914.059+1741832.422" />
     </Airport>
     <Airport ICAO="NZSF" FullName=" Springfield" Position="-432301.000+1715440.000" />
-    <Airport ICAO="NZSH" FullName=" Skyline Helipad" Position="-450136.720+1683853.960" />
     <Airport ICAO="NZSL" FullName=" Springhill" Position="-361930.000+1743320.000">
       <Runway Name="16" Position="-361914.380+1743321.398" />
       <Runway Name="34" Position="-361930.922+1743321.240" />
@@ -9115,7 +9131,7 @@ RILEY
       <Runway Name="11" Position="-455127.266+1702117.546" />
       <Runway Name="29" Position="-455144.654+1702142.484" />
     </Airport>
-    <Airport ICAO="NZTK" FullName=" Takaka" Position="-404847.780+1724630.510">
+    <Airport ICAO="NZTK" FullName=" Takaka" Position="-404848.300+1724633.800">
       <Runway Name="18" Position="-404840.252+1724639.112" />
       <Runway Name="36" Position="-404902.348+1724628.380" />
     </Airport>

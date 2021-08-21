@@ -181,7 +181,7 @@
       </Strips>
       <ArrivalLists>
         <Airport Name="NZAA" />
-      <Airport Name="NZWP" />
+        <Airport Name="NZWP" />
       </ArrivalLists>
       <ControllerInfo>
         <Line>Auckland Approach</Line>
@@ -192,7 +192,7 @@
     <Position Name="Wellington ACU" Type="ASD" DefaultCenter="-411937.999+1744819.001" DefaultRange="130" MagneticVariation="-21">
       <Sectors>
         <Sector Name="WTMA" />
-      <Sector Name="WDEP" />
+        <Sector Name="WDEP" />
       </Sectors>
       <Maps>
         <Map Name="Coast" />
@@ -213,8 +213,7 @@
       </Strips>
       <ArrivalLists>
         <Airport Name="NZWN" />
-      <Airport Name="NZWB" />
-      
+        <Airport Name="NZWB" />
       </ArrivalLists>
       <ControllerInfo>
         <Line>Wellington Approach</Line>
@@ -225,7 +224,7 @@
     <Position Name="Christchurch ACU" Type="ASD" DefaultCenter="-432909.351+1723216.287" DefaultRange="140" MagneticVariation="-21">
       <Sectors>
         <Sector Name="CTMA" />
-      <Sector Name="CDEP" />
+        <Sector Name="CDEP" />
       </Sectors>
       <Maps>
         <Map Name="Coast" />
@@ -295,7 +294,7 @@
         <Map Name="Navaids/VOR" />
       </Maps>
       <ATIS>
-        <Editor Airport="NZHN" Frequency="126.650" />
+        <Editor Airport="NZHN" Frequency="128.65" />
         <Window Airport="NZHN" />
       </ATIS>
       <Strips Mode="Beacon" Sort="Alpha">
@@ -329,7 +328,7 @@
       </ATIS>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="NZOH" Visible="true" />
-      <Window Type="ADEP" Beacon="NZPM" Visible="true" />
+        <Window Type="ADEP" Beacon="NZPM" Visible="true" />
       </Strips>
       <ArrivalLists>
         <Airport Name="NZOH" />
@@ -342,11 +341,10 @@
       </ControllerInfo>
     </Position>
   </Group>
-
   <Group Name="FIS">
     <Position Name="Paraparaumu FIS" Type="ASD" DefaultCenter="-405417.000+1745921.000" DefaultRange="70" MagneticVariation="-21">
       <Sectors>
-        <Sector Name="PPFIS" />>
+        <Sector Name="PPFIS" />
       </Sectors>
       <Maps>
         <Map Name="Coast" />
@@ -358,7 +356,7 @@
         <Map Name="Navaids/VOR" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="NZPP" Visibile="true" />
+        <Window Type="ADEP" Beacon="NZPP" Visible="false" />
       </Strips>
       <ArrivalLists>
         <Airport Name="NZPP" />
@@ -369,10 +367,9 @@
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
-
     <Position Name="Milford Sound FIS" Type="ASD" DefaultCenter="-444024.000+1675524.000" DefaultRange="100" MagneticVariation="-21">
       <Sectors>
-        <Sector Name="MFFIS" />>
+        <Sector Name="MFFIS" />
       </Sectors>
       <Maps>
         <Map Name="Coast" />
@@ -384,7 +381,7 @@
         <Map Name="Navaids/VOR" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="NZMF" Visibile="true" />
+        <Window Type="ADEP" Beacon="NZMF" Visible="false" />
       </Strips>
       <ArrivalLists>
         <Airport Name="NZMF" />
@@ -396,7 +393,6 @@
       </ControllerInfo>
     </Position>
   </Group>
-
   <Group Name="Class C">
     <Position Name="NZCH" Type="ASMGCS" ASMGCSAirport="NZCH" DefaultCenter="-432909.351+1723216.287" DefaultRange="2" MagneticVariation="-24.2" Rotation="0">
       <Maps>
@@ -514,7 +510,7 @@
         <Map Name="NZTG/ASMGCS_NZTG_BLD" />
         <Map Name="NZTG/ASMGCS_NZTG_TWY" />
       </Maps>
-    </Position>  
+    </Position>
     <Position Name="NZRO" Type="ASMGCS" ASMGCSAirport="NZRO" DefaultCenter="-380633.001+1761901.999" DefaultRange="2" MagneticVariation="-20.9" Rotation="0">
       <Maps>
         <Map Name="NZRO/ASMGCS_NZRO_RWY" />
