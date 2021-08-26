@@ -1029,7 +1029,8 @@ BUSTA/
 DADOK/
 DOGSA/
 DOTIK/
-DUMUM
+DUMUM/
+TAPAP
 </Airway>
     <Airway Name="B581">
 BAXIL/
@@ -1185,6 +1186,10 @@ MUKLU/
 EMRAD/
 SOSPI/
 TEKOT
+</Airway>
+    <Airway Name="H1">
+TBU VOR/
+TLARP
 </Airway>
     <Airway Name="H103">
 RIDLA/
@@ -1664,6 +1669,26 @@ RUMUS/
 SADIM/
 NONON
 </Airway>
+    <Airway Name="T1">
+TBU VOR/
+TOARP
+</Airway>
+    <Airway Name="T2">
+TV NDB/
+TPARP
+</Airway>
+    <Airway Name="T4">
+TV NDB/
+TOARP
+</Airway>
+    <Airway Name="T5">
+TBU VOR/
+TEARP
+</Airway>
+    <Airway Name="T6">
+TBU VOR/
+TPARP
+</Airway>
     <Airway Name="V112">
 WN VOR/
 DOGAD/
@@ -1678,6 +1703,10 @@ TV NDB
 DOGAD/
 LIMPA/
 PM VOR
+</Airway>
+    <Airway Name="V3">
+TLARP/
+TV NDB
 </Airway>
     <Airway Name="V306">
 ATBUB/
@@ -3000,6 +3029,10 @@ LIMVU/
 RIWUT/
 MENOV/
 MARKO
+</Airway>
+    <Airway Name="Z172">
+TPAPA/
+RIWUT
 </Airway>
     <Airway Name="Z187">
 AKAVI/
@@ -4785,6 +4818,7 @@ RILEY
     <Point Name="TANIG" Type="Fix">-354909.140+1740148.850</Point>
     <Point Name="TANOU" Type="Fix">-194726.870-1575238.580</Point>
     <Point Name="TAPAB" Type="Fix">-413712.520+1743915.260</Point>
+    <Point Name="TAPAP" Type="Fix">-180024.000-1513854.000</Point>
     <Point Name="TAPAT" Type="Fix">-363834.580+1732553.480</Point>
     <Point Name="TARIB" Type="Fix">-340358.110+1764453.080</Point>
     <Point Name="TARIT" Type="Fix">-462820.510+1683134.920</Point>
@@ -4798,6 +4832,7 @@ RILEY
     <Point Name="TAXUP" Type="Fix">-412816.960+1744749.670</Point>
     <Point Name="TAYLA" Type="Fix">-373924.490+1752429.110</Point>
     <Point Name="TAZEY" Type="Fix">-372018.920+1742802.920</Point>
+    <Point Name="TEARP" Type="Fix">-212239.900+1745726.500</Point>
     <Point Name="TEBIV" Type="Fix">-455112.330+1703441.100</Point>
     <Point Name="TEENA" Type="Fix">-370325.450+1743656.280</Point>
     <Point Name="TEGIK" Type="Fix">-365820.340+1745546.640</Point>
@@ -4822,6 +4857,8 @@ RILEY
     <Point Name="TIMJO" Type="Fix">-442739.100+1694254.400</Point>
     <Point Name="TK401" Type="Fix">-404012.130+1725045.290</Point>
     <Point Name="TK407" Type="Fix">-404743.000+1724706.922</Point>
+    <Point Name="TLARP" Type="Fix">-194637.400+1742025.300</Point>
+    <Point Name="TOARP" Type="Fix">-153418.400+1753746.000</Point>
     <Point Name="TODAN" Type="Fix">-374455.590+1762216.890</Point>
     <Point Name="TOKES" Type="Fix">-391800.310+1741626.340</Point>
     <Point Name="TOKET" Type="Fix">-211122.540-1594433.880</Point>
@@ -4838,6 +4875,7 @@ RILEY
     <Point Name="TOSOL" Type="Fix">-211739.920-1600351.270</Point>
     <Point Name="TOTRA" Type="Fix">-381412.050+1760710.850</Point>
     <Point Name="TPAPA" Type="Fix">-404219.470+1742723.170</Point>
+    <Point Name="TPARP" Type="Fix">-155838.700+1734729.600</Point>
     <Point Name="TU402" Type="Fix">-441845.770+1711232.450</Point>
     <Point Name="TU411" Type="Fix">-442431.000+1705447.992</Point>
     <Point Name="TU426" Type="Fix">-440757.000+1710625.020</Point>

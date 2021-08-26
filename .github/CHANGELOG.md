@@ -261,11 +261,13 @@ The ANR data has unfortunately not been updated by Airways, so I am unable to ru
 
 ### Revision A (Initial)
 
+Minor changes have also been made to the Sector File Generator App, including multiple fault checking routines.
+
 **ANR Updates**
 
 *  Some minor changes to the co-ordinates of `NZTK` 
-*  Amendments or addition of the `V2`, `P766`, `Q128`, `Z129` airways.
-*  Addition of IFR WPT `RIWUT`.
+*  Amendments or addition of the `B578`, `H1`, `P766`, `Q128`, `T1 to T6`, `V2`, `V3`, `Z129` and `Z172` airways.
+*  Addition of IFR WPTs `RIWUT`, `TAPAP`, `TEARP`, `TLARP`, `TOARP` and `TPARP`.
 *  Addition of `NZHC`, and removal of `NZSH`.
 
 **Other Changes**
