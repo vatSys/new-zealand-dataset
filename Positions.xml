@@ -398,13 +398,18 @@
   </Group>
 
   <Group Name="Class C">
-    <Position Name="NZCH" Type="ASMGCS" ASMGCSAirport="NZCH" DefaultCenter="-432909.351+1723216.287" DefaultRange="2" MagneticVariation="-24.2" Rotation="0">
+    <Position Name="NZAA" Type="ASMGCS" ASMGCSAirport="NZAA" DefaultCenter="-37.008056+174.791667" DefaultRange="2" MagneticVariation="-20" Rotation="0">
       <Maps>
-        <Map Name="NZCH/ASMGCS_NZCH_RWY" />
-        <Map Name="NZCH/ASMGCS_NZCH_APR" />
-        <Map Name="NZCH/ASMGCS_NZCH_BLD" />
-        <Map Name="NZCH/ASMGCS_NZCH_TWY" />
-        <Map Name="NZCH/ASMGCS_NZCH_BAK" />
+        <Map Name="NZAA/ASMGCS_NZAA_RWY" />
+        <Map Name="NZAA/ASMGCS_NZAA_GRASS" />
+        <Map Name="NZAA/ASMGCS_NZAA_APR" />
+        <Map Name="NZAA/ASMGCS_NZAA_TWY" />
+        <Map Name="NZAA/ASMGCS_NZAA_BLD" />
+        <Map Name="NZAA/ASMGCS_NZAA_yellowHS" />
+        <Map Name="NZAA/ASMGCS_NZAA_yellowHA" />
+        <Map Name="NZAA/ASMGCS_NZAA_white" />
+        <Map Name="NZAA/ASMGCS_NZAA_taxiway" />
+        <Map Name="NZAA/ASMGCS_NZAA_apron" />
       </Maps>
     </Position>
     <Position Name="NZWN" Type="ASMGCS" ASMGCSAirport="NZWN" DefaultCenter="-41.327222+174.805278" DefaultRange="2" MagneticVariation="-22.9" Rotation="0">
@@ -418,19 +423,21 @@
         <Map Name="NZWN/ASMGCS_NZWN_yellowHA" />
         <Map Name="NZWN/ASMGCS_NZWN_white" />
         <Map Name="NZWN/ASMGCS_NZWN_taxiway" />
+        <Map Name="NZWN/ASMGCS_NZWN_apron" />
       </Maps>
     </Position>
-    <Position Name="NZAA" Type="ASMGCS" ASMGCSAirport="NZAA" DefaultCenter="-37.008056+174.791667" DefaultRange="3" MagneticVariation="-20" Rotation="0">
+    <Position Name="NZCH" Type="ASMGCS" ASMGCSAirport="NZCH" DefaultCenter="-43.489444+172.534444" DefaultRange="2" MagneticVariation="-24.2" Rotation="0">
       <Maps>
-        <Map Name="NZAA/ASMGCS_NZAA_RWY" />
-        <Map Name="NZAA/ASMGCS_NZAA_GRASS" />
-        <Map Name="NZAA/ASMGCS_NZAA_APR" />
-        <Map Name="NZAA/ASMGCS_NZAA_TWY" />
-        <Map Name="NZAA/ASMGCS_NZAA_BLD" />
-        <Map Name="NZAA/ASMGCS_NZAA_yellowHS" />
-        <Map Name="NZAA/ASMGCS_NZAA_yellowHA" />
-        <Map Name="NZAA/ASMGCS_NZAA_white" />
-        <Map Name="NZAA/ASMGCS_NZAA_taxiway" />
+        <Map Name="NZCH/ASMGCS_NZCH_RWY" />
+        <Map Name="NZCH/ASMGCS_NZCH_GRASS" />
+        <Map Name="NZCH/ASMGCS_NZCH_APR" />
+        <Map Name="NZCH/ASMGCS_NZCH_TWY" />
+        <Map Name="NZCH/ASMGCS_NZCH_BLD" />
+        <Map Name="NZCH/ASMGCS_NZCH_yellowHS" />
+        <Map Name="NZCH/ASMGCS_NZCH_yellowHA" />
+        <Map Name="NZCH/ASMGCS_NZCH_white" />
+        <Map Name="NZCH/ASMGCS_NZCH_taxiway" />
+        <Map Name="NZCH/ASMGCS_NZCH_apron" />
       </Maps>
     </Position>
     <Position Name="NZQN" Type="ASMGCS" ASMGCSAirport="NZQN" DefaultCenter="-450121.64+1684425.88" DefaultRange="2" MagneticVariation="-24.7" Rotation="0">
