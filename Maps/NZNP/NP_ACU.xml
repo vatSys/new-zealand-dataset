@@ -247,11 +247,28 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23 SOUTH5-->
-      -39.010447+174.170067/NP VOR
+      -39.010447+174.170067/-39.019020+174.144470/-38.994540+174.106800/-38.982730+174.130690/-38.987760+174.162190/NP VOR/-39.359100+174.578660
     </Line>
-    <Symbol Type="Circle">
-      <Point>NP VOR</Point>
-    </Symbol>
+    <Line Pattern="Dashed">
+      <!--Rwy23 SOUTH5.AKAVI-->
+      -39.359100+174.578660/AKAVI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23 SOUTH5.ALADA-->
+      -39.359100+174.578660/ALADA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23 SOUTH5.LEDOR-->
+      -39.359100+174.578660/LEDOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23 SOUTH5.TELIM-->
+      -39.359100+174.578660/TELIM
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23 SOUTH5.TPAPA-->
+      -39.359100+174.578660/TPAPA
+    </Line>
     <Symbol Type="HollowTriangle">
       <Point>GUSUR</Point>
       <Point>LIGDO</Point>
@@ -281,12 +298,17 @@
       <Point>BOKUL</Point>
       <Point>LATIG</Point>
       <Point>ATRUG</Point>
+      <Point>NP VOR</Point>
+      <Point>AKAVI</Point>
+      <Point>ALADA</Point>
+      <Point>LEDOR</Point>
+      <Point>TELIM</Point>
+      <Point>TPAPA</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>GUSUR</Point>
       <Point>HARVO</Point>
       <Point>LATIG</Point>
-      <Point>NP VOR</Point>
       <Point>BUGNO</Point>
       <Point>DAPNO</Point>
       <Point>IGDOT</Point>
@@ -294,6 +316,11 @@
       <Point>RUPNU</Point>
       <Point>SELTA</Point>
       <Point>VELGA</Point>
+      <Point>AKAVI</Point>
+      <Point>ALADA</Point>
+      <Point>LEDOR</Point>
+      <Point>TELIM</Point>
+      <Point>TPAPA</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="23 STARs" Priority="1" CustomColourName="ProcArr" Center="-39.005644+174.183889">

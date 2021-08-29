@@ -270,6 +270,44 @@ Minor changes have also been made to the Sector File Generator App, including mu
 *  Addition of IFR WPTs `RIWUT`, `TAPAP`, `TEARP`, `TLARP`, `TOARP` and `TPARP`.
 *  Addition of `NZHC`, and removal of `NZSH`.
 
+**Dataset Changes**
+We have gone through and added some more previously missed procedures, in addition to some refinements of already existing procedures. Some SIDs and STARs have also been assigned as 'Non-jets', preventing vatSys from automatically assigning Cat A and B procedures to Cat C and D aircraft. 
+
+**NZAR** - Additional detail added to the SY1R departure.
+
+**NZDN** - Addition of the transitions for the `SOUTH 5` and `SWAMPY 8` departures.
+
+**NZGB** - Addition of the `Great Barrier 1P` departure.
+
+**NZGM** - Addition of the `OSOLO 1P` and `RILEY 1Q` departures.
+
+**NZHS** - Addition of all NZHS procedures.
+
+**NZKK** - Addition of the `LAKE 2`, `MOEREWA 2`, `PAKARAKA 2`, `HOBSON 2` and `WAIHUKA 2` departures.
+
+**NZKT** - Addition of the `BROADWOOD 3A & 2B`, `HOBBS 3`, `VALLEY 2` and `HARBOUR 3` departures.
+
+**NZNP** - Reworking of the `SOUTH 5` route, and addition of the `AKAVI`, `ALADA`, `LEDOR`, `TELIM` and `TPAPA` transitions.
+
+**NZNR** - Addition of the `NR 2A, 2B, 2C and 2D` STARs for the VOR/DME.
+
+**NZNV** - Addition of the `NV 1C, 1D, 2A and 2B` STARs for the VOR/DME.
+
+**NZPP** - Addition of the `KAPTI 1G` STAR.
+
+**NZSL** - Addition of the `GORKI 1` departure.
+
+**NZWF** - Addition of all NZWF procedures.
+
+**NZWK** 
+
+* Addition of the `KEEPA 2A and 2B` STARs.
+* Addition of the `MATAT 2`, `OHOPE 4` and `PAROA 2` departures.
+
+**NZWO** - Addition of the `DOMON 2P and 1Q` departures, and the `GURSUR 1A` arrival.
+
+**NZWR** - Addition of the `BREAM 5`, `HARBOUR 5`, `PORTLAND 5` and `WAIPU 3` departures.
+
 **Other Changes**
 
 * Napier ATIS frequency updated to the correct frequency of `128.000MHz`.

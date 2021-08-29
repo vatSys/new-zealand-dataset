@@ -1,5 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
+  <Map Type="System2" Name="16 SIDs" Priority="1" CustomColourName="ProcDep" Center="-36.325256+174.555900">
+    <Line Pattern="Dashed">
+      <!--Rwy16 GORKI1-->
+      -36.325256+174.555900/NZSL/SEKLA/GORKI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 GORKI1.APABO-->
+      GORKI/APABO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 GORKI1.KAWAU-->
+      GORKI/KAWAU
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>NZSL</Point>
+      <Point>SEKLA</Point>
+      <Point>GORKI</Point>
+      <Point>APABO</Point>
+      <Point>KAWAU</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>GORKI</Point>
+      <Point>APABO</Point>
+      <Point>KAWAU</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="16 GNSS" Priority="1" Center="-36.320661+174.555944" CustomColourName="ProcArr">
     <Symbol Type="HollowTriangle">
       <Point>SEMKI</Point>
@@ -17,6 +43,32 @@
     <Label HasLeader="true">
       <Point>BAMEX</Point>
       <Point>APABO</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="34 SIDs" Priority="1" CustomColourName="ProcDep" Center="-36.320661+174.555944">
+    <Line Pattern="Dashed">
+      <!--Rwy34 GORKI1-->
+      -36.320661+174.555944/NZSL/SEKLA/GORKI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 GORKI1.APABO-->
+      GORKI/APABO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 GORKI1.KAWAU-->
+      GORKI/KAWAU
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>NZSL</Point>
+      <Point>SEKLA</Point>
+      <Point>GORKI</Point>
+      <Point>APABO</Point>
+      <Point>KAWAU</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>GORKI</Point>
+      <Point>APABO</Point>
+      <Point>KAWAU</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-36.325000+174.555556">

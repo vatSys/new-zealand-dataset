@@ -187,6 +187,10 @@
       KAMET/NOKIX/NILID
     </Line>
     <Line>
+      <!--Rwy34 KAPT1G-->
+      KAPTI/NILID
+    </Line>
+    <Line>
       <!--Rwy34 PP1G-->
       PP NDB/NILID
     </Line>
@@ -208,6 +212,7 @@
       <Point>AKADU</Point>
       <Point>KAMET</Point>
       <Point>NOKIX</Point>
+      <Point>KAPTI</Point>
       <Point>TPAPA</Point>
       <Point>FIRST</Point>
       <Point>VEKDA</Point>
@@ -216,6 +221,7 @@
       <Point>AGSOP</Point>
       <Point>AVKEX</Point>
       <Point>KAMET</Point>
+      <Point>KAPTI</Point>
       <Point>PP NDB</Point>
       <Point>TPAPA</Point>
       <Point>DABGU</Point>

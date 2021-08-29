@@ -1,5 +1,59 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
+  <Map Type="System2" Name="12 SIDs" Priority="1" CustomColourName="ProcDep" Center="-35.074508+173.290461">
+    <Line Pattern="Dashed">
+      <!--Rwy12 BROA3A-->
+      -35.074508+173.290461/-35.091060+173.305680
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy12 BROA3A.PERAS-->
+      -35.091060+173.305680/PERAS
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy12 BROA3A.WP-->
+      -35.091060+173.305680/WP VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy12 BROA2B-->
+      -35.091060+173.305680/RUATO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy12 HOBBS3-->
+      -35.091060+173.305680/-35.092490+173.383730/HOBBS
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy12 HOBBS3.PERAS-->
+      HOBBS/PERAS
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy12 HOBBS3.RUATO-->
+      HOBBS/RUATO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy12 HOBBS3.WP-->
+      HOBBS/WP VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy12 VLY2-->
+      -35.091060+173.305680/KAROA
+    </Line>
+    <Symbol Type="Circle">
+      <Point>WP VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>PERAS</Point>
+      <Point>RUATO</Point>
+      <Point>HOBBS</Point>
+      <Point>KAROA</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>RUATO</Point>
+      <Point>HOBBS</Point>
+      <Point>KAROA</Point>
+      <Point>PERAS</Point>
+      <Point>WP VOR</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="12 STARs" Priority="1" CustomColourName="ProcArr" Center="-35.064536+173.281014">
     <Line Pattern="Solid">
       <!--Rwy12 RNAV.KAROA-->
@@ -55,6 +109,42 @@
   <Map Type="System2" Name="12 GNSS Labels" Priority="1" Center="-35.064536+173.281014" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>STEED</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="30 SIDs" Priority="1" CustomColourName="ProcDep" Center="-35.064536+173.281014">
+    <Line Pattern="Dashed">
+      <!--Rwy30 HARBO3-->
+      -35.064536+173.281014/-35.051030+173.267940
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy30 HARBO3.KAROA-->
+      -35.051030+173.267940/KAROA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy30 HARBO3.PERAS-->
+      -35.051030+173.267940/PERAS
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy30 HARBO3.RUATO-->
+      -35.051030+173.267940/RUATO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy30 HARBO3.WP-->
+      -35.051030+173.267940/WP VOR
+    </Line>
+    <Symbol Type="Circle">
+      <Point>WP VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>KAROA</Point>
+      <Point>PERAS</Point>
+      <Point>RUATO</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>KAROA</Point>
+      <Point>PERAS</Point>
+      <Point>RUATO</Point>
+      <Point>WP VOR</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="30 STARs" Priority="1" CustomColourName="ProcArr" Center="-35.074508+173.290461">

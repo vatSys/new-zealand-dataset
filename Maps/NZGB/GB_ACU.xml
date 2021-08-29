@@ -48,6 +48,20 @@
       <Point>OMGET</Point>
     </Label>
   </Map>
+  <Map Type="System2" Name="10 SIDs" Priority="1" CustomColourName="ProcDep" Center="-36.243103+175.472969">
+    <Line Pattern="Dashed">
+      <!--Rwy10 GB1P-->
+      -36.243103+175.472969/GB408/UDUMA/-36.211960+175.583500/DOSTU
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>GB408</Point>
+      <Point>UDUMA</Point>
+      <Point>DOSTU</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>DOSTU</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="10 GNSS" Priority="1" Center="-36.238797+175.464031" CustomColourName="ProcArr">
     <Symbol Type="HollowTriangle" />
     <Symbol Type="HollowTriangle">

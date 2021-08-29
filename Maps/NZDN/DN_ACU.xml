@@ -34,12 +34,41 @@
       -45.924378+170.207786/-45.924167+170.207778/-45.899179+170.259498/-45.902440+170.283621/-45.915727+170.299094/-45.932825+170.298675/-45.945735+170.282548/-45.947508+170.276823/BE NDB
     </Line>
     <Line Pattern="Dashed">
+      <!--Rwy03 SOUTH5.OREXI-->
+      BE NDB/OREXI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy03 SOUTH5.PORUT-->
+      BE NDB/PORUT
+    </Line>
+    <Line Pattern="Dashed">
       <!--Rwy03 SW8-->
       -45.924167+170.207778/SW VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy03 SW8.BIDEL-->
+      SW VOR/BIDEL
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy03 SW8.MEGUG-->
+      SW VOR/MEGUG
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy03 SW8.MIPAK-->
+      SW VOR/MIPAK
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy03 SW8.PORUT-->
+      SW VOR/PORUT
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy03 SW8.QN -->
+      SW VOR/QN VOR
     </Line>
     <Symbol Type="Circle">
       <Point>BE NDB</Point>
       <Point>SW VOR</Point>
+      <Point>QN VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>DUKES</Point>
@@ -64,6 +93,10 @@
       <Point>ADNAV</Point>
       <Point>RULOL</Point>
       <Point>LUTSA</Point>
+      <Point>OREXI</Point>
+      <Point>PORUT</Point>
+      <Point>MEGUG</Point>
+      <Point>MIPAK</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>AKPIN</Point>
@@ -74,6 +107,11 @@
       <Point>ADKOS</Point>
       <Point>LIBLA</Point>
       <Point>SUNGU</Point>
+      <Point>OREXI</Point>
+      <Point>PORUT</Point>
+      <Point>MEGUG</Point>
+      <Point>MIPAK</Point>
+      <Point>QN VOR</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="03 STARs" Priority="1" CustomColourName="ProcArr" Center="-45.933925+170.187472">

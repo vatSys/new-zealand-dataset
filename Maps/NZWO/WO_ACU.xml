@@ -1,10 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="16 STARs" Priority="1" CustomColourName="ProcArr" Center="-39.007550+177.404069">
-    <Line>
-      <!--Rwy16 AGTI1A-->
-      DOMON/AGTID
+  <Map Type="System2" Name="16 SIDs" Priority="1" CustomColourName="ProcDep" Center="-39.015750+177.404714">
+    <Line Pattern="Dashed">
+      <!--Rwy16 DOMO2P-->
+      -39.015750+177.404714/NZWO/GOTNO/-39.094310+177.417890
     </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>NZWO</Point>
+      <Point>GOTNO</Point>
+    </Symbol>
+    <Label HasLeader="true" />
+  </Map>
+  <Map Type="System2" Name="16 STARs" Priority="1" CustomColourName="ProcArr" Center="-39.007550+177.404069">
     <Line Pattern="Solid">
       <!--Rwy16 GURS1A.DOMON-->
       DOMON/GURSU
@@ -26,8 +33,8 @@
       <Point>MARKS</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>DOMON</Point>
       <Point>GURSU</Point>
+      <Point>DOMON</Point>
       <Point>MARKS</Point>
       <Point>AGTID</Point>
     </Label>
@@ -61,16 +68,21 @@
   </Map>
   <Map Type="System2" Name="34 SIDs" Priority="1" CustomColourName="ProcDep" Center="-39.007550+177.404069">
     <Line Pattern="Dashed">
+      <!--Rwy34 DOMO2P-->
+      -39.007550+177.404069/NZWO/GOTNO/-39.094310+177.417890
+    </Line>
+    <Line Pattern="Dashed">
       <!--Rwy34 DOMO1Q-->
-      -39.007550+177.404069/DOMON
+      -39.007550+177.404069/-38.982500+177.402070/DOMON
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy34 GOTN2Q-->
-      -39.007550+177.404069/GOTNO
+      -38.982500+177.402070/GOTNO
     </Line>
     <Symbol Type="HollowTriangle">
-      <Point>DOMON</Point>
+      <Point>NZWO</Point>
       <Point>GOTNO</Point>
+      <Point>DOMON</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>DOMON</Point>

@@ -75,12 +75,23 @@
       DUKOP/UKETA/BIDKU
     </Line>
     <Line>
+      <!--Rwy04 NV2A-->
+      NV VOR/-46.577920+168.292300/-46.554900+168.193080/-46.516250+168.130050
+    </Line>
+    <Line>
+      <!--Rwy04 NV2B-->
+      NV VOR/-46.313550+168.122500/-46.379520+168.079960/-46.454440+168.084760
+    </Line>
+    <Line>
       <!--Rwy04 PEXE1A-->
       PEXED/LUXER/ESNUP
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>EGAMU</Point>
       <Point>ESNUP</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>NV VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>AKPIN</Point>
@@ -102,6 +113,7 @@
       <Point>AMVIX</Point>
       <Point>ANOPA</Point>
       <Point>DUKOP</Point>
+      <Point>NV VOR</Point>
       <Point>PEXED</Point>
       <Point>INTUS</Point>
       <Point>SUNGU</Point>
@@ -208,10 +220,21 @@
       <!--Rwy22 DUKO5B-->
       DUKOP/UKETA/VENIR/BIDKU
     </Line>
+    <Line>
+      <!--Rwy22 NV1C-->
+      NV VOR/-46.245630+168.342560/-46.273160+168.448780/-46.318220+168.516970
+    </Line>
+    <Line>
+      <!--Rwy22 NV1D-->
+      NV VOR/-46.509010+168.513320/-46.445600+168.554490/-46.382380+168.554700
+    </Line>
     <Symbol Type="HollowTriangle">
       <Point>DUNAX</Point>
       <Point>DOTLU</Point>
       <Point>LALEV</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>NV VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>AKPIN</Point>
@@ -233,6 +256,7 @@
       <Point>AMVIX</Point>
       <Point>ANOPA</Point>
       <Point>DUKOP</Point>
+      <Point>NV VOR</Point>
       <Point>INTUS</Point>
       <Point>PEXED</Point>
       <Point>SUNGU</Point>

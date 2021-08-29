@@ -38,6 +38,69 @@
       <Point>ELBEV</Point>
     </Label>
   </Map>
+  <Map Type="System2" Name="27 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.919939+176.909972">
+    <Line Pattern="Dashed">
+      <!--Rwy27 MATAT2-->
+      -37.919939+176.909972/-37.901490+176.851880
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy27 OHOPE4-->
+      -37.919939+176.909972/WK402
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy27 OHOPE4.IBULI-->
+      WK402/IBULI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy27 OHOPE4.KEEPA-->
+      WK402/KEEPA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy27 PAROA2-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy27 PAROA2.AP-->
+      WK402/AP NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy27 PAROA2.CHUTE-->
+      WK402/CHUTE
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy27 PAROA2.HN-->
+      WK402/HN VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy27 PAROA2.RO-->
+      WK402/RO VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy27 PAROA2.TG-->
+      WK402/TG NDB
+    </Line>
+    <Symbol Type="Circle">
+      <Point>AP NDB</Point>
+      <Point>HN VOR</Point>
+      <Point>RO VOR</Point>
+      <Point>TG NDB</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>WK402</Point>
+      <Point>IBULI</Point>
+      <Point>KEEPA</Point>
+      <Point>CHUTE</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>WK402</Point>
+      <Point>IBULI</Point>
+      <Point>KEEPA</Point>
+      <Point>AP NDB</Point>
+      <Point>CHUTE</Point>
+      <Point>HN VOR</Point>
+      <Point>RO VOR</Point>
+      <Point>TG NDB</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="27 STARs" Priority="1" CustomColourName="ProcArr" Center="-37.924317+176.923450">
     <Line>
       <!--Rwy27 KEPA2B-->
