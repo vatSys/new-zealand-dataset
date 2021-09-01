@@ -311,5 +311,13 @@ We have gone through and added some more previously missed procedures, in additi
 **Other Changes**
 
 * Napier ATIS frequency updated to the correct frequency of `128.000MHz`.
-* Additon of NZFI Ground Radar view. This can be found under Class G Aerodromes.
+* Additon of NZFI Ground Radar view. This can be found under Class G Aerodromes. 
+* Minor back-end fix to the Woodbourne ground view.
+* Auckland Control (Raglan Sector) now has its own Enroute display.
+
+**Connection Window (vatSys only)**
+
+Users can now select different towers or approach units through a dropdown box in the connection dialog box. To select these, select to the next highest control center's view (Auckland ACU for Auckland Tower), and go into the connection dialog. You can now click the dropdown and select different ATS units.
+
+The next stage of this is to add a selectible view for each procedural tower. This is a work in progress.
 
