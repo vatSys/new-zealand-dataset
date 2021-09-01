@@ -342,7 +342,6 @@
       </ControllerInfo>
     </Position>
   </Group>
-
   <Group Name="FIS">
     <Position Name="Paraparaumu FIS" Type="ASD" DefaultCenter="-405417.000+1745921.000" DefaultRange="70" MagneticVariation="-21">
       <Sectors>
@@ -534,9 +533,15 @@
     <Position Name="NZRO" Type="ASMGCS" ASMGCSAirport="NZRO" DefaultCenter="-380633.001+1761901.999" DefaultRange="2" MagneticVariation="-20.9" Rotation="0">
       <Maps>
         <Map Name="NZRO/ASMGCS_NZRO_RWY" />
+        <Map Name="NZRO/ASMGCS_NZRO_GRASS" />
         <Map Name="NZRO/ASMGCS_NZRO_APR" />
-        <Map Name="NZRO/ASMGCS_NZRO_BLD" />
         <Map Name="NZRO/ASMGCS_NZRO_TWY" />
+        <Map Name="NZRO/ASMGCS_NZRO_BLD" />
+        <Map Name="NZRO/ASMGCS_NZRO_yellowHS" />
+        <Map Name="NZRO/ASMGCS_NZRO_yellowHA" />
+        <Map Name="NZRO/ASMGCS_NZRO_white" />
+        <Map Name="NZRO/ASMGCS_NZRO_taxiway" />
+        <Map Name="NZRO/ASMGCS_NZRO_apron" />
       </Maps>
     </Position>
     <Position Name="NZNS" Type="ASMGCS" ASMGCSAirport="NZNS" DefaultCenter="-411740.650+1731320.116" DefaultRange="2" MagneticVariation="-22.6" Rotation="0">
