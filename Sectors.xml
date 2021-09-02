@@ -2,27 +2,31 @@
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Sector FullName="Area South" Frequency="129.300" Callsign="NZCH-S_CTR" Name="STH">
     <Volumes>STH</Volumes>
+    <ResponsibleSectors>TDN,TNV</ResponsibleSectors>
   </Sector>
   <Sector FullName="Bays" Frequency="119.500" Callsign="NZCH-B_CTR" Name="BAY">
     <Volumes>BAY</Volumes>
+    <ResponsibleSectors>TGS</ResponsibleSectors>
   </Sector>
   <Sector FullName="Kaikoura" Frequency="129.400" Callsign="NZCH-K_CTR" Name="KAI">
     <Volumes>KAI</Volumes>
   </Sector>
-  <Sector FullName="NZCH-D_CTR" Frequency="129.200" Callsign="NZCH-D_CTR" Name="NZCH-D" />
+  <Sector FullName="Christchurch Director" Frequency="129.200" Callsign="NZCH-D_CTR" Name="NZCH-D" />
   <Sector FullName="Oceanic Radar" Frequency="123.900" Callsign="NZAA_CTR" Name="OCR">
     <Volumes>OCR</Volumes>
     <ResponsibleSectors>BAY,RAN</ResponsibleSectors>
   </Sector>
   <Sector FullName="Ohakea Area" Frequency="126.200" Callsign="NZOH_CTR" Name="OHA">
     <Volumes>OHA</Volumes>
+    <ResponsibleSectors>TNR</ResponsibleSectors>
   </Sector>
   <Sector FullName="Raglan" Frequency="126.000" Callsign="NZAA-R_CTR" Name="RAN">
     <Volumes>RAN</Volumes>
+    <ResponsibleSectors>TNP</ResponsibleSectors>
   </Sector>
   <Sector FullName="Taranaki" Frequency="123.700" Callsign="NZCH-T_CTR" Name="NAK">
     <Volumes>NAK</Volumes>
-    <ResponsibleSectors>OHA</ResponsibleSectors>
+    <ResponsibleSectors>OHA,TNS</ResponsibleSectors>
   </Sector>
   <Sector FullName="BN-TSN_FSS" Frequency="128.600" Callsign="BN-TSN_FSS" Name="BN_FSS" />
   <Sector FullName="ML-IND_FSS" Frequency="122.400" Callsign="ML-IND_FSS" Name="ML_FSS" />
@@ -60,22 +64,43 @@
   <Sector FullName="Wellington Departures" Frequency="122.300" Callsign="NZWN_DEP" Name="WDEP">
     <Volumes>WTMA</Volumes>
   </Sector>
+
+<!-- Procedural Towers -->
+  <Sector FullName="Dunedin Tower" Frequency="120.700" Callsign="NZDN_TWR" Name="TDN">
+    <Volumes>TDN</Volumes>
+  </Sector>
+
+  <Sector FullName="Gisborne Tower" Frequency="127.300" Callsign="NZGS_TWR" Name="TGS">
+    <Volumes>TGS</Volumes>
+  </Sector>
+
+  <Sector FullName="New Plymouth Tower" Frequency="124.700" Callsign="NZNP_TWR" Name="TNP">
+    <Volumes>TNP</Volumes>
+  </Sector>
+  
+  <Sector FullName="Napier Tower" Frequency="124.800" Callsign="NZNR_TWR" Name="TNR">
+    <Volumes>TNR</Volumes>
+  </Sector>
+
+  <Sector FullName="Nelson Tower" Frequency="127.400" Callsign="NZNS_TWR" Name="TNS">
+    <Volumes>TNS</Volumes>
+  </Sector>
+
+  <Sector FullName="Invercargill Tower" Frequency="118.500" Callsign="NZNV_TWR" Name="TNV">
+    <Volumes>TNV</Volumes>
+  </Sector>
+
+
   <Sector FullName="Auckland Delivery" Frequency="128.200" Callsign="NZAA_DEL" Name="DAA" />
   <Sector FullName="Auckland Ground" Frequency="121.900" Callsign="NZAA_GND" Name="GAA" />
   <Sector FullName="Auckland Tower" Frequency="118.700" Callsign="NZAA_TWR" Name="TAA" />
   <Sector FullName="Christchurch Delivery" Frequency="128.200" Callsign="NZCH_DEL" Name="DCH" />
   <Sector FullName="Christchurch Ground" Frequency="121.900" Callsign="NZCH_GND" Name="GCH" />
   <Sector FullName="Christchurch Tower" Frequency="118.400" Callsign="NZCH_TWR" Name="TCH" />
-  <Sector FullName="Dunedin Tower" Frequency="120.700" Callsign="NZDN_TWR" Name="TDN" />
-  <Sector FullName="Gisborne Tower" Frequency="127.300" Callsign="NZGS_TWR" Name="TGS" />
   <Sector FullName="Hamilton Tower" Frequency="122.900" Callsign="NZHN_TWR" Name="THN" />
-  <Sector FullName="Invercargill Tower" Frequency="118.500" Callsign="NZNV_TWR" Name="TNV" />
   <Sector FullName="Milford Sound FIS" Frequency="118.200" Callsign="NZMF_TWR" Name="MFS">
     <Volumes>MFFIS</Volumes>
   </Sector>
-  <Sector FullName="Napier Tower" Frequency="124.800" Callsign="NZNR_TWR" Name="TNR" />
-  <Sector FullName="Nelson Tower" Frequency="127.400" Callsign="NZNS_TWR" Name="TNS" />
-  <Sector FullName="New Plymouth Tower" Frequency="124.700" Callsign="NZNP_TWR" Name="TNP" />
   <Sector FullName="Ohakea Ground" Frequency="122.100" Callsign="NZOH_GND" Name="GOH" />
   <Sector FullName="Ohakea Tower" Frequency="134.500" Callsign="NZOH_TWR" Name="TOH" />
   <Sector FullName="Palmerston North Ground" Frequency="121.700" Callsign="NZPM_GND" Name="GPM" />
