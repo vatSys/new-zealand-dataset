@@ -22,7 +22,7 @@
       <Point>TK401</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-40.813272+172.775142">
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-40.813417+172.776056">
     <Symbol Type="HollowSquare">
       <Point Name="ADELE ISLAND">-405835.800+1730405.500</Point>
       <Point Name="BOULDER">-411210.800+1731923.500</Point>

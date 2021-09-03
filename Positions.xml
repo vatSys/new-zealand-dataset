@@ -26,7 +26,15 @@
         <Line>Charts- www.vatnz.net/airspace/airports/</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
+
+      <ControllerInfo Callsign="NZNS_TWR">
+        <Line>Nelson Tower - ATIS 129.100</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
+
     </Position>
+
     <Position Name="Oceanic Radar" Type="ASD" DefaultCenter="-370020.413+1744725.105" DefaultRange="600" MagneticVariation="-21">
       <Sectors>
         <Sector Name="OCR" />
@@ -54,6 +62,40 @@
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
+
+    <Position Name="Raglan" Type="ASD" DefaultCenter="-380531.000+1745108.000" DefaultRange="400" MagneticVariation="-21">
+      <Sectors>
+        <Sector Name="RAN" />
+      </Sectors>
+
+      <Maps>
+        <Map Name="Coast" />>
+        <Map Name="Airspace/Enroute Sectors" />
+        <Map Name="Navaids/NDB" />
+        <Map Name="Navaids/VOR" />
+      </Maps>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+      </Strips>
+      <ArrivalLists>
+        <Airport Name="NZAA" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Auckland Control - Raglan</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
+
+      <ControllerInfo Callsign="NZNP_TWR">
+        <Line>New Plymouth Tower - ATIS 127.050</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
+    </Position>
+
+
     <Position Name="Bay" Type="ASD" DefaultCenter="-380633.001+1761901.999" DefaultRange="300" MagneticVariation="-21">
       <Sectors>
         <Sector Name="BAY" />
@@ -78,7 +120,26 @@
         <Line>Charts- www.vatnz.net/airspace/airports/</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
+
+      <ControllerInfo Callsign="NZGS_TWR">
+        <Line>Gisbourne Tower - ATIS 126.400</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
+
+      <ControllerInfo Callsign="NZTG_TWR">
+        <Line>Tauranga Tower - ATIS 126.600</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
+
+      <ControllerInfo Callsign="NZRO_TWR">
+        <Line>Rotorua Tower - ATIS 128.800</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
     </Position>
+
     <Position Name="Ohakea Area" Type="ASD" DefaultCenter="-401412.905+1760432.935" DefaultRange="350" MagneticVariation="-21">
       <Sectors>
         <Sector Name="OHA" />
@@ -102,8 +163,15 @@
         <Line>Service for NZZC FIR https://www.vatnz.net/pilots/atc-sector-map/</Line>
         <Line>Charts- www.vatnz.net/airspace/airports/</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
+
+        <ControllerInfo Callsign="NZNR_TWR">
+          <Line>Napier Tower - ATIS 128.00</Line>
+          <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+          <Line>Submit feedback - vats.im/NZ-FB</Line>
+        </ControllerInfo>
       </ControllerInfo>
     </Position>
+
     <Position Name="Kaikoura" Type="ASD" DefaultCenter="-422530.000+1733619.000" DefaultRange="300" MagneticVariation="-21">
       <Sectors>
         <Sector Name="KAI" />
@@ -129,6 +197,7 @@
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
+
     <Position Name="Area South" Type="ASD" DefaultCenter="-440008.132+1702657.686" DefaultRange="600" MagneticVariation="-21">
       <Sectors>
         <Sector Name="STH" />
@@ -153,8 +222,21 @@
         <Line>Charts- www.vatnz.net/airspace/airports/</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
+
+      <ControllerInfo Callsign="NZDN_TWR">
+        <Line>Dunedin Tower - ATIS 126.450</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
+
+      <ControllerInfo Callsign="NZNV_TWR">
+        <Line>Invercargill Tower - ATIS 127.000</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
     </Position>
   </Group>
+
   <Group Name="ACU">
     <Position Name="Auckland ACU" Type="ASD" DefaultCenter="-370020.413+1744725.105" DefaultRange="160" MagneticVariation="-21">
       <Sectors>
@@ -181,18 +263,57 @@
       </Strips>
       <ArrivalLists>
         <Airport Name="NZAA" />
-      <Airport Name="NZWP" />
+        <Airport Name="NZWP" />
       </ArrivalLists>
       <ControllerInfo>
         <Line>Auckland Approach</Line>
         <Line>Charts- www.vatnz.net/airspace/airport/NZAA</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
+
+      <ControllerInfo Callsign="NZAA_DEP">
+        <Line>Auckland Departures</Line>
+        <Line>Controls outbound aircraft within the AA TMA.</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
+
+      <ControllerInfo Callsign="NZAA-F_APP">
+        <Line>Auckland Finals</Line>
+        <Line>Controls inbound aircraft under 5000ft within the AA TMA.</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
+
+      <ControllerInfo Callsign="NZAA_TWR">
+        <Line>Auckland Tower - ATIS 127.800</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
+
+      <ControllerInfo Callsign="NZAA_GND">
+        <Line>Auckland Ground - ATIS 127.800</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
+
+      <ControllerInfo Callsign="NZAA_DEL">
+        <Line>Auckland Delivery - ATIS 127.800</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
+
+      <ControllerInfo Callsign="NZWP_TWR">
+        <Line>Whenuapai Tower - ATIS 128.300</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
     </Position>
+
     <Position Name="Wellington ACU" Type="ASD" DefaultCenter="-411937.999+1744819.001" DefaultRange="130" MagneticVariation="-21">
       <Sectors>
         <Sector Name="WTMA" />
-      <Sector Name="WDEP" />
+        <Sector Name="WDEP" />
       </Sectors>
       <Maps>
         <Map Name="Coast" />
@@ -213,19 +334,50 @@
       </Strips>
       <ArrivalLists>
         <Airport Name="NZWN" />
-      <Airport Name="NZWB" />
-      
+        <Airport Name="NZWB" />
       </ArrivalLists>
       <ControllerInfo>
         <Line>Wellington Approach</Line>
         <Line>Charts- www.vatnz.net/airspace/airport/NZWN</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
+
+      <ControllerInfo Callsign="NZWN_DEP">
+        <Line>Wellington Departures</Line>
+        <Line>Controls outbound aircraft within the WN TMA.</Line>
+        <Line>Charts- www.vatnz.net/airspace/airport/NZWN</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
+
+      <ControllerInfo Callsign="NZWN_TWR">
+        <Line>Wellington Tower - ATIS 126.900</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
+
+      <ControllerInfo Callsign="NZWN_GND">
+        <Line>Wellington Ground - ATIS 126.900</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
+
+      <ControllerInfo Callsign="NZWN_DEL">
+        <Line>Wellington Delivery - ATIS 126.900</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
+
+      <ControllerInfo Callsign="NZWB_TWR">
+        <Line>Woodbourne Tower - ATIS 126.050</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
     </Position>
+
     <Position Name="Christchurch ACU" Type="ASD" DefaultCenter="-432909.351+1723216.287" DefaultRange="140" MagneticVariation="-21">
       <Sectors>
         <Sector Name="CTMA" />
-      <Sector Name="CDEP" />
+        <Sector Name="CDEP" />
       </Sectors>
       <Maps>
         <Map Name="Coast" />
@@ -251,7 +403,33 @@
         <Line>Charts- www.vatnz.net/airspace/airport/NZCH</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
+
+      <ControllerInfo Callsign="NZCH_DEP">
+        <Line>Christchurch Departures</Line>
+        <Line>Controls outbound aircraft within the CH TMA.</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
+
+      <ControllerInfo Callsign="NZCH_TWR">
+        <Line>Christchurch Tower - ATIS 127.200</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
+
+      <ControllerInfo Callsign="NZCH_GND">
+        <Line>Christchurch Ground - ATIS 127.200</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
+
+      <ControllerInfo Callsign="NZCH_DEL">
+        <Line>Christchurch Delivery - ATIS 127.200</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
     </Position>
+
     <Position Name="Queenstown ACU" Type="ASD" DefaultCenter="-450124.250+1684456.277" DefaultRange="160" MagneticVariation="-21">
       <Sectors>
         <Sector Name="QTMA" />
@@ -280,7 +458,26 @@
         <Line>Charts- www.vatnz.net/airspace/airport/NZQN</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
+
+      <ControllerInfo Callsign="NZQN_TWR">
+        <Line>Queenstown Tower - ATIS 126.400</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
+
+      <ControllerInfo Callsign="NZQN_GND">
+        <Line>Queenstown Ground - ATIS 128.300</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
+
+      <ControllerInfo Callsign="NZQN_DEL">
+        <Line>Queenstown Delivery - ATIS 121.900</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
     </Position>
+
     <Position Name="Hamilton ACU" Type="ASD" DefaultCenter="-375159.980+1751955.402" DefaultRange="120" MagneticVariation="-21">
       <Sectors>
         <Sector Name="HTMA" />
@@ -295,7 +492,7 @@
         <Map Name="Navaids/VOR" />
       </Maps>
       <ATIS>
-        <Editor Airport="NZHN" Frequency="126.650" />
+        <Editor Airport="NZHN" Frequency="128.65" />
         <Window Airport="NZHN" />
       </ATIS>
       <Strips Mode="Beacon" Sort="Alpha">
@@ -309,7 +506,14 @@
         <Line>Charts- www.vatnz.net/airspace/airport/NZHN</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
+
+      <ControllerInfo Callsign="NZHN_TWR">
+        <Line>Hamilton Tower - ATIS 128.650</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
     </Position>
+
     <Position Name="Ohakea ACU" Type="ASD" DefaultCenter="-401229.628+1752314.936" DefaultRange="120" MagneticVariation="-21">
       <Sectors>
         <Sector Name="OTMA" />
@@ -329,7 +533,7 @@
       </ATIS>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="NZOH" Visible="true" />
-      <Window Type="ADEP" Beacon="NZPM" Visible="true" />
+        <Window Type="ADEP" Beacon="NZPM" Visible="true" />
       </Strips>
       <ArrivalLists>
         <Airport Name="NZOH" />
@@ -340,13 +544,37 @@
         <Line>Charts- www.vatnz.net/airspace/airports/</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
+
+      <ControllerInfo Callsign="NZOH_TWR">
+        <Line>Ohakea Tower - ATIS 135.000</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
+
+      <ControllerInfo Callsign="NZOH_GND">
+        <Line>Ohakea Ground - ATIS 135.000</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
+
+      <ControllerInfo Callsign="NZPM_TWR">
+        <Line>Palmerston North Tower - ATIS 129.700</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
+
+      <ControllerInfo Callsign="NZPM_GND">
+        <Line>Palmerston North Ground - ATIS 129.700</Line>
+        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Submit feedback - vats.im/NZ-FB</Line>
+      </ControllerInfo>
     </Position>
   </Group>
 
   <Group Name="FIS">
     <Position Name="Paraparaumu FIS" Type="ASD" DefaultCenter="-405417.000+1745921.000" DefaultRange="70" MagneticVariation="-21">
       <Sectors>
-        <Sector Name="PPFIS" />>
+        <Sector Name="PPFIS" />
       </Sectors>
       <Maps>
         <Map Name="Coast" />
@@ -358,7 +586,7 @@
         <Map Name="Navaids/VOR" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="NZPP" Visibile="true" />
+        <Window Type="ADEP" Beacon="NZPP" Visible="false" />
       </Strips>
       <ArrivalLists>
         <Airport Name="NZPP" />
@@ -369,10 +597,9 @@
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
-
     <Position Name="Milford Sound FIS" Type="ASD" DefaultCenter="-444024.000+1675524.000" DefaultRange="100" MagneticVariation="-21">
       <Sectors>
-        <Sector Name="MFFIS" />>
+        <Sector Name="MFS" />
       </Sectors>
       <Maps>
         <Map Name="Coast" />
@@ -384,7 +611,7 @@
         <Map Name="Navaids/VOR" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="NZMF" Visibile="true" />
+        <Window Type="ADEP" Beacon="NZMF" Visible="false" />
       </Strips>
       <ArrivalLists>
         <Airport Name="NZMF" />
@@ -433,6 +660,7 @@
       </Maps>
     </Position>
   </Group>
+
   <Group Name="Class D">
     <Position Name="NZWP" Type="ASMGCS" ASMGCSAirport="NZWP" DefaultCenter="-364716.001+1743749.001" DefaultRange="2" MagneticVariation="-22.1" Rotation="0">
       <Maps>
@@ -469,10 +697,10 @@
     <Position Name="NZWB" Type="ASMGCS" ASMGCSAirport="NZWB" DefaultCenter="-41.518333+173.870278" DefaultRange="2" MagneticVariation="-22.9" Rotation="0">
       <Maps>
         <Map Name="NZWB/ASMGCS_NZWB_RWY" />
+        <Map Name="NZWB/ASMGCS_NZWB_GRASS" />
         <Map Name="NZWB/ASMGCS_NZWB_APR" />
-        <Map Name="NZWB/ASMGCS_NZWB_BLD" />
         <Map Name="NZWB/ASMGCS_NZWB_TWY" />
-        <Map Name="NZWB/ASMGCS_NZWB_BAK" />
+        <Map Name="NZWB/ASMGCS_NZWB_BLD" />
       </Maps>
     </Position>
     <Position Name="NZNV" Type="ASMGCS" ASMGCSAirport="NZNV" DefaultCenter="-462510.787+1681854.107" DefaultRange="2" MagneticVariation="-25.9" Rotation="0">
@@ -514,7 +742,7 @@
         <Map Name="NZTG/ASMGCS_NZTG_BLD" />
         <Map Name="NZTG/ASMGCS_NZTG_TWY" />
       </Maps>
-    </Position>  
+    </Position>
     <Position Name="NZRO" Type="ASMGCS" ASMGCSAirport="NZRO" DefaultCenter="-380633.001+1761901.999" DefaultRange="2" MagneticVariation="-20.9" Rotation="0">
       <Maps>
         <Map Name="NZRO/ASMGCS_NZRO_RWY" />
@@ -540,6 +768,7 @@
       </Maps>
     </Position>
   </Group>
+
   <Group Name="Class G">
     <Position Name="NZPP" Type="ASMGCS" ASMGCSAirport="NZPP" DefaultCenter="-405416.999+1745921.001" DefaultRange="2" MagneticVariation="-22.6" Rotation="0">
       <Maps>
@@ -581,5 +810,15 @@
         <Map Name="NZAP/ASMGCS_NZAP_TWY" />
       </Maps>
     </Position>
+    <Position Name="NZFI" Type="ASMGCS" ASMGCSAirport="NZFI" DefaultCenter="-40.255928+175.605919" DefaultRange="2" MagneticVariation="-22.2" Rotation="0">
+      <Maps>
+        <Map Name="NZFI/ASMGCS_NZFI_RWY" />
+        <Map Name="NZFI/ASMGCS_NZFI_GRASS" />
+        <Map Name="NZFI/ASMGCS_NZFI_APR" />
+        <Map Name="NZFI/ASMGCS_NZFI_TWY" />
+        <Map Name="NZFI/ASMGCS_NZFI_BLD" />
+      </Maps>
+    </Position>
   </Group>
+
 </Positions>

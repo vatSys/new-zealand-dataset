@@ -33,6 +33,7 @@
     <Line Name="G594_0">AA VOR.G594.MAITO</Line>
     <Line Name="G595_0">TESAS.G595.SABUB</Line>
     <Line Name="G599_0">AA VOR.G599.TEKOT</Line>
+    <Line Name="H1_0">TBU VOR.H1.TLARP</Line>
     <Line Name="H103_0">RIDLA.H103.NR VOR</Line>
     <Line Name="H105_0">HN VOR.H105.TG NDB</Line>
     <Line Name="H107_0">TG NDB.H107.AA VOR</Line>
@@ -106,8 +107,15 @@
     <Line Name="R453_0">GOKIT.R453.FA VOR</Line>
     <Line Name="R582_0">NF VOR.R582.KRILL</Line>
     <Line Name="R599_0">DUGAN.R599.NONON</Line>
+    <Line Name="T1_0">TBU VOR.T1.TOARP</Line>
+    <Line Name="T2_0">TV NDB.T2.TPARP</Line>
+    <Line Name="T4_0">TV NDB.T4.TOARP</Line>
+    <Line Name="T5_0">TBU VOR.T5.TEARP</Line>
+    <Line Name="T6_0">TBU VOR.T6.TPARP</Line>
     <Line Name="V112_0">WN VOR.V112.OH VOR</Line>
+    <Line Name="V2_0">TBU VOR.V2.TV NDB</Line>
     <Line Name="V242_0">DOGAD.V242.PM VOR</Line>
+    <Line Name="V3_0">TLARP.V3.TV NDB</Line>
     <Line Name="V306_0">ATBUB.V306.WN VOR</Line>
     <Line Name="V317_0">WI NDB.V317.LENGU</Line>
     <Line Name="V443_0">SY NDB.V443.EMRAG</Line>
@@ -176,7 +184,7 @@
     <Line Name="N774_0">AA VOR.N774.AKALU</Line>
     <Line Name="P640_0">BYRRD.P640.HELGE</Line>
     <Line Name="P753_0">QN VOR.P753.SMIFF</Line>
-    <Line Name="P766_0">ADKOS.P766.OMKIN</Line>
+    <Line Name="P766_0">ADKOS.P766.MIKEL</Line>
     <Line Name="P880_0">QN VOR.P880.JUMPA</Line>
     <Line Name="Q100_0">WB VOR.Q100.WN VOR</Line>
     <Line Name="Q101_0">MAHIA.Q101.WK NDB</Line>
@@ -184,6 +192,7 @@
     <Line Name="Q119_0">RO VOR.Q119.AA VOR</Line>
     <Line Name="Q120_0">BE NDB.Q120.PORUT</Line>
     <Line Name="Q126_0">OPABI.Q126.HN VOR</Line>
+    <Line Name="Q128_0">SEBSA.Q128.NV VOR</Line>
     <Line Name="Q132_0">NOBAR.Q132.MERAS</Line>
     <Line Name="Q136_0">AA VOR.Q136.DOSTU</Line>
     <Line Name="Q137_0">VELGA.Q137.NP VOR</Line>
@@ -339,6 +348,8 @@
     <Line Name="Y896_0">SIMZI.Y896.ELMAX</Line>
     <Line Name="Y897_0">AP NDB.Y897.LEGER</Line>
     <Line Name="Z106_0">ARIKA.Z106.RO VOR</Line>
+    <Line Name="Z129_0">UPVAP.Z129.MARKO</Line>
+    <Line Name="Z172_0">TPAPA.Z172.RIWUT</Line>
     <Line Name="Z187_0">AKAVI.Z187.WAPOU</Line>
     <Line Name="Z258_0">WAPOU.Z258.NP VOR</Line>
     <Line Name="Z515_0">NUKTO.Z515.MANGA</Line>
@@ -555,6 +566,7 @@
       <Point>EMRAD</Point>
       <Point>SOSPI</Point>
       <Point>TEKOT</Point>
+      <Point>TLARP</Point>
       <Point>RIDLA</Point>
       <Point>ADGIN</Point>
       <Point>NR VOR</Point>
@@ -733,6 +745,9 @@
       <Point>RUMUS</Point>
       <Point>SADIM</Point>
       <Point>NONON</Point>
+      <Point>TOARP</Point>
+      <Point>TPARP</Point>
+      <Point>TEARP</Point>
       <Point>DOGAD</Point>
       <Point>ESMUK</Point>
       <Point>LIMPA</Point>
@@ -917,6 +932,8 @@
       <Point>PORUT</Point>
       <Point>LIKTU</Point>
       <Point>UPTIK</Point>
+      <Point>SEBSA</Point>
+      <Point>AMVIX</Point>
       <Point>BOVRU</Point>
       <Point>BETKI</Point>
       <Point>DOSTU</Point>
@@ -1104,6 +1121,8 @@
       <Point>IGEGA</Point>
       <Point>DUDUS</Point>
       <Point>ARIKA</Point>
+      <Point>UPVAP</Point>
+      <Point>RIWUT</Point>
       <Point>ATNUV</Point>
       <Point>NUKTO</Point>
       <Point>ERVAX</Point>
@@ -1322,6 +1341,7 @@
       <Point>EMRAD</Point>
       <Point>SOSPI</Point>
       <Point>TEKOT</Point>
+      <Point>TLARP</Point>
       <Point>RIDLA</Point>
       <Point>ADGIN</Point>
       <Point>NR VOR</Point>
@@ -1500,6 +1520,9 @@
       <Point>RUMUS</Point>
       <Point>SADIM</Point>
       <Point>NONON</Point>
+      <Point>TOARP</Point>
+      <Point>TPARP</Point>
+      <Point>TEARP</Point>
       <Point>DOGAD</Point>
       <Point>ESMUK</Point>
       <Point>LIMPA</Point>
@@ -1684,6 +1707,8 @@
       <Point>PORUT</Point>
       <Point>LIKTU</Point>
       <Point>UPTIK</Point>
+      <Point>SEBSA</Point>
+      <Point>AMVIX</Point>
       <Point>BOVRU</Point>
       <Point>BETKI</Point>
       <Point>DOSTU</Point>
@@ -1871,6 +1896,8 @@
       <Point>IGEGA</Point>
       <Point>DUDUS</Point>
       <Point>ARIKA</Point>
+      <Point>UPVAP</Point>
+      <Point>RIWUT</Point>
       <Point>ATNUV</Point>
       <Point>NUKTO</Point>
       <Point>ERVAX</Point>

@@ -267,6 +267,7 @@
       <Point>BEDAV</Point>
       <Point>AGTUR</Point>
       <Point>EKVIL</Point>
+      <Point>OPAPA</Point>
       <Point>BESMO</Point>
       <Point>KAKIT</Point>
       <Point>ALDEV</Point>
@@ -319,6 +320,9 @@
       <Point>BIDNI</Point>
       <Point>LUVAB</Point>
       <Point>JAMIE</Point>
+      <Point>ARIGU</Point>
+      <Point>PASMU</Point>
+      <Point>SUPIM</Point>
       <Point>LAVIS</Point>
       <Point>POTOP</Point>
       <Point>AGTID</Point>
@@ -423,6 +427,7 @@
       <Point>MAKOS</Point>
       <Point>BUDEN</Point>
       <Point>GUNDA</Point>
+      <Point>NR VOR</Point>
       <Point>OTAHA</Point>
       <Point>OPARE</Point>
       <Point>STEED</Point>
@@ -466,6 +471,7 @@
       <Point>AMURI</Point>
       <Point>TU593</Point>
       <Point>LUTKA</Point>
+      <Point>KAKVA</Point>
       <Point>ELBEV</Point>
       <Point>REGAT</Point>
       <Point>UMAGA</Point>
@@ -494,6 +500,10 @@
       <Point>OVSED</Point>
       <Point>IDPON</Point>
       <Point>GM483</Point>
+      <Point>-39.722220+176.710770</Point>
+      <Point>-39.649380+176.763350</Point>
+      <Point>-39.582160+176.811770</Point>
+      <Point>-39.640450+176.769780</Point>
       <Point>-35.244333+173.907978</Point>
       <Point>-35.270886+173.916278</Point>
       <Point>-35.051364+173.268542</Point>
@@ -515,6 +525,8 @@
       <Point>TU402</Point>
       <Point>ELKUB</Point>
       <Point>WB401</Point>
+      <Point>PILAD</Point>
+      <Point>SAGEM</Point>
       <Point>BUTIN</Point>
       <Point>WN402</Point>
       <Point>CANES</Point>
@@ -562,6 +574,7 @@
       <Point>BEDAV</Point>
       <Point>AGTUR</Point>
       <Point>EKVIL</Point>
+      <Point>OPAPA</Point>
       <Point>BESMO</Point>
       <Point>KAKIT</Point>
       <Point>ALDEV</Point>
@@ -614,6 +627,9 @@
       <Point>BIDNI</Point>
       <Point>LUVAB</Point>
       <Point>JAMIE</Point>
+      <Point>ARIGU</Point>
+      <Point>PASMU</Point>
+      <Point>SUPIM</Point>
       <Point>LAVIS</Point>
       <Point>POTOP</Point>
       <Point>AGTID</Point>
@@ -734,6 +750,7 @@
       <Point>MAKOS</Point>
       <Point>BUDEN</Point>
       <Point>GUNDA</Point>
+      <Point>NR VOR</Point>
       <Point>OTAHA</Point>
       <Point>OPARE</Point>
       <Point>STEED</Point>
@@ -777,6 +794,7 @@
       <Point>AMURI</Point>
       <Point>TU593</Point>
       <Point>LUTKA</Point>
+      <Point>KAKVA</Point>
       <Point>ELBEV</Point>
       <Point>REGAT</Point>
       <Point>UMAGA</Point>
@@ -852,6 +870,8 @@
     <Line Pattern="Solid">EKVIL/MAKOS</Line>
     <Line Pattern="Solid">BUDEN/NITAK/HN36R</Line>
     <Line Pattern="Solid">GUNDA/IKERI/HN36R</Line>
+    <Line Pattern="Solid">OPAPA/-39.722220+176.710770/-39.649380+176.763350/HS01T</Line>
+    <Line Pattern="Solid">NR VOR/-39.582160+176.811770/-39.640450+176.769780/HS19T</Line>
     <Line Pattern="Solid">OTAHA/-35.171564+173.885264/-35.244333+173.907978/KK15T</Line>
     <Line Pattern="Solid">OPARE/-35.343650+173.939047/-35.270886+173.916278/KK33T</Line>
     <Line Pattern="Solid">STEED/-34.985489+173.206236/-35.051364+173.268542/KT12T</Line>
@@ -947,6 +967,10 @@
     <Line Pattern="Solid">LUVAB/SUNPA</Line>
     <Line Pattern="Solid">LUTKA/ELKUB/ENPIP/WB401/WB24T</Line>
     <Line Pattern="Solid">JAMIE/LUTKA</Line>
+    <Line Pattern="Solid">KAKVA/PILAD/SAGEM/WF29T</Line>
+    <Line Pattern="Solid">ARIGU/KAKVA</Line>
+    <Line Pattern="Solid">PASMU/KAKVA</Line>
+    <Line Pattern="Solid">SUPIM/KAKVA</Line>
     <Line Pattern="Solid">ELBEV/WK401/WK09T</Line>
     <Line Pattern="Solid">LAVIS/ELBEV</Line>
     <Line Pattern="Solid">REGAT/WK402/WK27T</Line>

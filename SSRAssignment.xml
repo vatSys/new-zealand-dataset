@@ -15,32 +15,49 @@
   <!-- Controlled AD ccts -->
   <Bin>
     <Rule FlightRule="V" />
-    <Rule Remarks="(circuits|cct|pattern)" />
+    <Rule Remarks="(circuit|cct|pattern)" />
     <Codes>2200</Codes>
   </Bin>
 
   <!-- VFR Flights -->
   <Bin>
     <Rule FlightRule="V"/>
-    <Codes Start="3401" End="3477"/>
+      <Codes Start="3401" End="3477"/>
 		<Rule Sector="WN" />
-	  <Codes Start="0301" End="0377"/>
+	    <Codes Start="0301" End="0377"/>
 		<Rule Sector="AA" />
-	  <Codes Start="3501" End="3577"/>
+	    <Codes Start="3501" End="3577"/>
   </Bin>
   
     <!-- Military Flights -->
+    <!-- International by Callsign -->
   <Bin>
-    <Rule Remarks="(\/|\b)(RAAF|MILITARY|USAF|RAF|RAN|ARMY|RNZAF|ORI|STATE|HER|BOE|KIW|VSOA)\b"/>
-	  <Rule Callsign="(BOE|KIW|POS|ORI|HER|STG|KNG|CDT|TEX|KAH|FAL)" />
-    <Codes Start="6001" End="6477"/>
+    <Rule Callsign="(RCH|USAF|ICE|ASY)" />
+    <Codes Start="6001" End="6177" />
   </Bin>
 
-    <!-- Military Helos -->
+  <!-- Local Mil -->
+
   <Bin>
     <Rule Callsign="(MAK|WRR|SEA|IRO)" />
     <Codes Start="6500" End="6577" />
   </Bin>
+
+
+  <Bin>
+    <Rule Callsign="(STG|KNG)" />
+    <Code Start="6250" End="6277"/>
+  </Bin>
+
+  <!-- Fallback Mil -->
+
+  
+  <Bin>
+    <Rule Remarks="(\/|\b)(RAAF|MILITARY|USAF|RAF|RAN|ARMY|RNZAF|ORI|STATE|HER|BOE|KIW|VSOA)\b"/>
+	  <Rule Callsign="(BOE|KIW|POS|ORI|HER|CDT|TEX|KAH|FAL)" />
+    <Codes Start="6300" End="6477"/>
+  </Bin>
+  
 
   <!-- Domestic Flights -->
   <Bin>

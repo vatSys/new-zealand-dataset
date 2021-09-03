@@ -13,6 +13,7 @@
 - [AIRAC 2106](#airac-2106)
 - [AIRAC 2107](#airac-2107)
 - [AIRAC 2108](#airac-2108)
+- [AIRAC 2109](#airac-2109)
 
 
 ## AIRAC 2013
@@ -254,3 +255,85 @@ The ANR data has unfortunately not been updated by Airways, so I am unable to ru
 * AD status changed to IFR-VFR. 
 * `SEBSA1` SID for Rwy 04 added.
 * `RNAV (GNSS) A` approach added for Rwy 22.
+
+
+## AIRAC 2109
+
+### Revision A (Initial)
+
+Minor changes have also been made to the Sector File Generator App, including multiple fault checking routines.
+
+Additonally, a lot of these changes have formed the groundwork for additional features that will be released in an upcoming AIRAC release.
+
+#### **ANR Updates**
+
+*  Some minor changes to the aerodrome reference point for `NZTK` .
+*  Amendment to, or addition of, the `B578`, `H1`, `P766`, `Q128`, `T1 to T6`, `V2`, `V3`, `Z129` and `Z172` airways.
+*  Addition of IFR waypoints `RIWUT`, `TAPAP`, `TEARP`, `TLARP`, `TOARP` and `TPARP`.
+*  Addition of `NZHC`, and removal of `NZSH`.
+
+#### **Dataset Changes**
+
+We have gone through and added additional procedures that has previously been missed; in addition to some refinements to already existing procedures. Some SIDs and STARs have also been assigned as 'Non-jet', preventing vatSys from automatically assigning Cat A and B procedures to Cat C and D aircraft. 
+
+**NZAR** - Additional detail added to the `SURREY 1R` departure.
+
+**NZDN** - Addition of the transitions for the `SOUTH 5` and `SWAMPY 8` departures.
+
+**NZGB** - Addition of the `Great Barrier 1P` departure.
+
+**NZGM** - Addition of the `OSOLO 1P` and `RILEY 1Q` departures.
+
+**NZHS** - Addition of all NZHS procedures.
+
+**NZKK** - Addition of the `LAKE 2`, `MOEREWA 2`, `PAKARAKA 2`, `HOBSON 2` and `WAIHUKA 2` departures.
+
+**NZKT** - Addition of the `BROADWOOD 3A & 2B`, `HOBBS 3`, `VALLEY 2` and `HARBOUR 3` departures.
+
+**NZNP** - Slight rework of the `SOUTH 5` departure track, and addition of the `AKAVI`, `ALADA`, `LEDOR`, `TELIM` and `TPAPA` transitions.
+
+**NZNR** - Addition of the `NAPER 2A, 2B, 2C and 2D` STARs for the VOR/DME.
+
+**NZNV** - Addition of the `INVERCARGILL 1C, 1D, 2A and 2B` STARs for the VOR/DME.
+
+**NZPP** - Addition of the `KAPTI 1G` STAR.
+
+**NZSL** - Addition of the `GORKI 1` departure.
+
+**NZWF** - Addition of all NZWF procedures.
+
+**NZWK** 
+
+* Addition of the `KEEPA 2A and 2B` STARs.
+* Addition of the `MATAT 2`, `OHOPE 4` and `PAROA 2` departures.
+
+**NZWO** - Addition of the `DOMON 2P and 1Q` departures, and the `GURSUR 1A` arrival.
+
+**NZWR** - Addition of the `BREAM 5`, `HARBOUR 5`, `PORTLAND 5` and `WAIPU 3` departures.
+
+#### **Other Changes**
+
+* Napier ATIS frequency updated to the correct frequency of `128.000MHz`.
+* Additon of NZFI Ground Radar view. This can be found under Class G Aerodromes. 
+* Minor back-end fix to the Woodbourne ground view.
+* `Auckland Control (Raglan Sector)` now has its own Enroute display.
+* Added a Map layer with all TMA Sectors - `Maps > Airspace > TMA Sectors`. (Note: These don't always line-up with Enroute Sector lines, and Enroute Sectors will be redefined in an upcoming AIRAC).
+* Added a Map layer with all Procedural Towers - `Maps > Airspace > Procedural Towers`.
+
+#### **Connection Window**
+
+Users can now select different Tower or Approach units through a dropdown in the connection dialog box. To find these, select the next highest control center's view and go into the connection dialog. You can now click the dropdown and select different ATS units.
+
+For example - to select Auckland Tower, open the Auckland TMA view by navigating to `Positions > ACU > Auckland ACU`. When you open the Connection dialog box, you will be given the option for the following Towers:
+
+<center>
+  <img src="assets/connectionDialogApp.png" width="500" style="padding-top: 15px; padding-bottom: 15px;" />
+</center>
+
+But what if you want to control Tauranga Tower? Open the Bay Approach Enroute view by navigating to `Positions > Enroute > Bay Approach`. When you open the dialog box, you will be given the option for the following Towers:
+
+<center>
+  <img src="assets/connectionDialogEnr.png" width="500" style="padding-top: 15px; padding-bottom: 15px;" />
+</center>
+
+Procedural Towers will be getting their own Position definitions next AIRAC, so be on the lookout for that!

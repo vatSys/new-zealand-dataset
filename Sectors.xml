@@ -8,6 +8,7 @@
   </Sector>
   <Sector FullName="Kaikoura" Frequency="129.400" Callsign="NZCH-K_CTR" Name="KAI">
     <Volumes>KAI</Volumes>
+    <ResponsibleSectors>CTMA</ResponsibleSectors>
   </Sector>
   <Sector FullName="NZCH-D_CTR" Frequency="129.200" Callsign="NZCH-D_CTR" Name="NZCH-D" />
   <Sector FullName="Oceanic Radar" Frequency="123.900" Callsign="NZAA_CTR" Name="OCR">
@@ -19,10 +20,11 @@
   </Sector>
   <Sector FullName="Raglan" Frequency="126.000" Callsign="NZAA-R_CTR" Name="RAN">
     <Volumes>RAN</Volumes>
+    <ResponsibleSectors>ATMA</ResponsibleSectors>
   </Sector>
   <Sector FullName="Taranaki" Frequency="123.700" Callsign="NZCH-T_CTR" Name="NAK">
     <Volumes>NAK</Volumes>
-    <ResponsibleSectors>OHA</ResponsibleSectors>
+    <ResponsibleSectors>OHA,WTMA</ResponsibleSectors>
   </Sector>
   <Sector FullName="BN-TSN_FSS" Frequency="128.600" Callsign="BN-TSN_FSS" Name="BN_FSS" />
   <Sector FullName="ML-IND_FSS" Frequency="122.400" Callsign="ML-IND_FSS" Name="ML_FSS" />
@@ -31,10 +33,10 @@
     <Volumes>ATMA</Volumes>
     <ResponsibleSectors>AARR,ADEP</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Auckland Approach" Frequency="129.600" Callsign="NZAA-F_APP" Name="AARR">
+  <Sector FullName="Auckland Finals" Frequency="129.600" Callsign="NZAA-F_APP" Name="AARR">
     <Volumes>ATMA</Volumes>
   </Sector>
-  <Sector FullName="Auckland Approach" Frequency="118.000" Callsign="NZAA_DEP" Name="ADEP">
+  <Sector FullName="Auckland Departures" Frequency="118.000" Callsign="NZAA_DEP" Name="ADEP">
     <Volumes>ATMA</Volumes>
   </Sector>
   <Sector FullName="Bay Approach (NZHN)" Frequency="125.300" Callsign="NZHN_APP" Name="HTMA">
@@ -44,7 +46,7 @@
     <Volumes>CTMA</Volumes>
     <ResponsibleSectors>CDEP</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Christchurch Approach" Frequency="120.900" Callsign="NZCH_DEP" Name="CDEP">
+  <Sector FullName="Christchurch Departures" Frequency="120.900" Callsign="NZCH_DEP" Name="CDEP">
     <Volumes>CTMA</Volumes>
   </Sector>
   <Sector FullName="Ohakea Approach" Frequency="125.100" Callsign="NZOH_APP" Name="OTMA">
@@ -57,7 +59,7 @@
     <Volumes>WTMA</Volumes>
     <ResponsibleSectors>WDEP</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Wellington Approach" Frequency="122.300" Callsign="NZWN_DEP" Name="WDEP">
+  <Sector FullName="Wellington Departures" Frequency="122.300" Callsign="NZWN_DEP" Name="WDEP">
     <Volumes>WTMA</Volumes>
   </Sector>
   <Sector FullName="Auckland Delivery" Frequency="128.200" Callsign="NZAA_DEL" Name="DAA" />

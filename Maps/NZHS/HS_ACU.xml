@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="01 SIDs" Priority="1" CustomColourName="ProcDep" Center="-39.640650+176.769653">
+    <Line Pattern="Dashed">
+      <!--Rwy01 VICTO2-->
+      -39.640650+176.769653/-39.624960+176.778240
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy01 VICTO2.NR-->
+      -39.624960+176.778240/NR VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy01 VICTO2.OPAPA-->
+      -39.624960+176.778240/-39.619720+176.758530/OPAPA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy01 VICTO2.RIDLA-->
+      -39.619720+176.758530/ADGIN/RIDLA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy01 VICTO2.YARRO-->
+      -39.619720+176.758530/YARRO
+    </Line>
+    <Symbol Type="Circle">
+      <Point>NR VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>OPAPA</Point>
+      <Point>ADGIN</Point>
+      <Point>RIDLA</Point>
+      <Point>YARRO</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>NR VOR</Point>
+      <Point>OPAPA</Point>
+      <Point>RIDLA</Point>
+      <Point>YARRO</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="01 GNSS" Priority="1" Center="-39.648272+176.764161" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle">
+      <Point>-39.722220+176.710770</Point>
+      <Point>-39.649380+176.763350</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>OPAPA</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross" />
+    <Symbol Type="SolidTriangle" />
+    <Line Pattern="Solid">OPAPA/-39.722220+176.710770/-39.649380+176.763350/HS01T</Line>
+  </Map>
+  <Map Type="System2" Name="01 GNSS Labels" Priority="1" Center="-39.648272+176.764161" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>OPAPA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="19 SIDs" Priority="1" CustomColourName="ProcDep" Center="-39.648272+176.764161">
+    <Line Pattern="Dashed">
+      <!--Rwy19 WHISK2-->
+      -39.648272+176.764161/-39.662880+176.753680
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy19 WHISK2.NR-->
+      -39.662880+176.753680/-39.659840+176.742940/NR VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy19 WHISK2.OPAPA-->
+      -39.662880+176.753680/OPAPA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy19 WHISK2.RIDLA-->
+      -39.662880+176.753680/ADGIN/RIDLA
+    </Line>
+    <Symbol Type="Circle">
+      <Point>NR VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>OPAPA</Point>
+      <Point>ADGIN</Point>
+      <Point>RIDLA</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>NR VOR</Point>
+      <Point>OPAPA</Point>
+      <Point>RIDLA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="19 GNSS" Priority="1" Center="-39.640650+176.769653" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle">
+      <Point>-39.582160+176.811770</Point>
+      <Point>-39.640450+176.769780</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="MalteseCross" />
+    <Symbol Type="SolidTriangle">
+      <Point>NR VOR</Point>
+    </Symbol>
+    <Line Pattern="Solid">NR VOR/-39.582160+176.811770/-39.640450+176.769780/HS19T</Line>
+  </Map>
+  <Map Type="System2" Name="19 GNSS Labels" Priority="1" Center="-39.640650+176.769653" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>NR VOR</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-39.646667+176.766944">
+    <Symbol Type="HollowSquare">
+      <Point Name="AWATOTO">-393312.700+1765520.700</Point>
+      <Point Name="CLIVE">-393505.700+1765447.700</Point>
+      <Point Name="ESKDALE">-392317.200+1764918.300</Point>
+      <Point Name="FERNHILL">-393514.800+1764539.600</Point>
+      <Point Name="GWAVAS">-394347.700+1762639.700</Point>
+      <Point Name="HAUMOANA">-393614.700+1765640.300</Point>
+      <Point Name="HAVELOCK NORTH">-394012.700+1765237.700</Point>
+      <Point Name="LAKE POUKAWA">-394653.700+1764200.700</Point>
+      <Point Name="MARAEKAKAHO">-393901.700+1763727.700</Point>
+      <Point Name="MOHAKA RIVER MOUTH">-390731.700+1771130.700</Point>
+      <Point Name="PATOKA">-392047.700+1763616.700</Point>
+      <Point Name="PORAITI">-392934.200+1765021.000</Point>
+      <Point Name="PUKETAPU">-393042.700+1764717.700</Point>
+      <Point Name="RIDGEMOUNT BLUFF">-391243.600+1770211.300</Point>
+      <Point Name="RISSINGTON">-392621.000+1764304.400</Point>
+      <Point Name="SEAPORT">-392838.700+1765523.700</Point>
+      <Point Name="TAIHAPE">-394036.000+1754754.600</Point>
+      <Point Name="TE POHUE">-391500.700+1764056.700</Point>
+      <Point Name="TUTIRA">-391326.900+1765334.700</Point>
+      <Point Name="WAIOHIKI">-393300.800+1765127.200</Point>
+      <Point Name="WAIPATIKI BEACH">-391803.700+1765835.700</Point>
+      <Point Name="WHIRINAKI">-392238.100+1765316.300</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point Name="AWATOTO">-393312.700+1765520.700</Point>
+      <Point Name="CLIVE">-393505.700+1765447.700</Point>
+      <Point Name="ESKDALE">-392317.200+1764918.300</Point>
+      <Point Name="FERNHILL">-393514.800+1764539.600</Point>
+      <Point Name="GWAVAS">-394347.700+1762639.700</Point>
+      <Point Name="HAUMOANA">-393614.700+1765640.300</Point>
+      <Point Name="HAVELOCK NORTH">-394012.700+1765237.700</Point>
+      <Point Name="LAKE POUKAWA">-394653.700+1764200.700</Point>
+      <Point Name="MARAEKAKAHO">-393901.700+1763727.700</Point>
+      <Point Name="MOHAKA RIVER MOUTH">-390731.700+1771130.700</Point>
+      <Point Name="PATOKA">-392047.700+1763616.700</Point>
+      <Point Name="PORAITI">-392934.200+1765021.000</Point>
+      <Point Name="PUKETAPU">-393042.700+1764717.700</Point>
+      <Point Name="RIDGEMOUNT BLUFF">-391243.600+1770211.300</Point>
+      <Point Name="RISSINGTON">-392621.000+1764304.400</Point>
+      <Point Name="SEAPORT">-392838.700+1765523.700</Point>
+      <Point Name="TAIHAPE">-394036.000+1754754.600</Point>
+      <Point Name="TE POHUE">-391500.700+1764056.700</Point>
+      <Point Name="TUTIRA">-391326.900+1765334.700</Point>
+      <Point Name="WAIOHIKI">-393300.800+1765127.200</Point>
+      <Point Name="WAIPATIKI BEACH">-391803.700+1765835.700</Point>
+      <Point Name="WHIRINAKI">-392238.100+1765316.300</Point>
+    </Label>
+  </Map>
+</Maps>

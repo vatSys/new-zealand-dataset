@@ -1,5 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
+  <Map Type="System2" Name="15 SIDs" Priority="1" CustomColourName="ProcDep" Center="-35.262803+173.913750">
+    <Line Pattern="Dashed">
+      <!--Rwy15 LAKE2-->
+      -35.262803+173.913750/-35.284800+173.920720/KAROA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy15 MOERE2-->
+      -35.284800+173.920720/SF NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy15 PAKAR2-->
+      -35.284800+173.920720/KOPPA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy15 UKAP2A-->
+      -35.284800+173.920720/UKAPA
+    </Line>
+    <Symbol Type="Circle">
+      <Point>SF NDB</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>KAROA</Point>
+      <Point>KOPPA</Point>
+      <Point>UKAPA</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>KAROA</Point>
+      <Point>SF NDB</Point>
+      <Point>KOPPA</Point>
+      <Point>UKAPA</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="15 GNSS" Priority="1" Center="-35.252417+173.910506" CustomColourName="ProcArr">
     <Symbol Type="HollowTriangle">
       <Point>-35.244333+173.907978</Point>
@@ -16,6 +48,42 @@
   <Map Type="System2" Name="15 GNSS Labels" Priority="1" Center="-35.252417+173.910506" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>OTAHA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="33 SIDs" Priority="1" CustomColourName="ProcDep" Center="-35.252417+173.910506">
+    <Line Pattern="Dashed">
+      <!--Rwy33 HOBSO2-->
+      -35.252417+173.910506/-35.230180+173.903640
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy33 HOBSO2.KOPPA-->
+      -35.230180+173.903640/KOPPA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy33 HOBSO2.SF NDB-->
+      -35.230180+173.903640/SF NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy33 UKAP1B-->
+      -35.230180+173.903640/-35.257880+173.934040/UKAPA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy33 WAIHU2-->
+      -35.230180+173.903640/KAROA
+    </Line>
+    <Symbol Type="Circle">
+      <Point>SF NDB</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>KOPPA</Point>
+      <Point>UKAPA</Point>
+      <Point>KAROA</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>UKAPA</Point>
+      <Point>KAROA</Point>
+      <Point>KOPPA</Point>
+      <Point>SF NDB</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="33 GNSS" Priority="1" Center="-35.262803+173.913750" CustomColourName="ProcArr">

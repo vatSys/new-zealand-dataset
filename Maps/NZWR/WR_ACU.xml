@@ -1,5 +1,69 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
+  <Map Type="System2" Name="06 SIDs" Priority="1" CustomColourName="ProcDep" Center="-35.768372+174.369817">
+    <Line Pattern="Dashed">
+      <!--Rwy06 BREAM5-->
+      -35.768372+174.369817/-35.809640+174.403060/-35.846270+174.443360
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy06 BREAM5.AA VOR-->
+      -35.846270+174.443360/AA VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy06 BREAM5.APABO-->
+      -35.846270+174.443360/APABO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy06 BREAM5.DOSTU-->
+      -35.846270+174.443360/DOSTU
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy06 BREAM5.KK NDB-->
+      -35.846270+174.443360/KK NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy06 BREAM5.KT NDB-->
+      -35.846270+174.443360/KT NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy06 BREAM5.UKAPA-->
+      -35.846270+174.443360/UKAPA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy06 BREAM5.WP VOR-->
+      -35.846270+174.443360/WP VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy06 SF1P-->
+      -35.768372+174.369817/-35.762990+174.410400/SF NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy06 WAIPU3-->
+      -35.768372+174.369817/-35.821950+174.359540/SF NDB
+    </Line>
+    <Symbol Type="Circle">
+      <Point>AA VOR</Point>
+      <Point>KK NDB</Point>
+      <Point>KT NDB</Point>
+      <Point>WP VOR</Point>
+      <Point>SF NDB</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>APABO</Point>
+      <Point>DOSTU</Point>
+      <Point>UKAPA</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>SF NDB</Point>
+      <Point>AA VOR</Point>
+      <Point>APABO</Point>
+      <Point>DOSTU</Point>
+      <Point>KK NDB</Point>
+      <Point>KT NDB</Point>
+      <Point>UKAPA</Point>
+      <Point>WP VOR</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="06 GNSS" Priority="1" Center="-35.769875+174.357825" CustomColourName="ProcArr">
     <Symbol Type="HollowTriangle">
       <Point>WR601</Point>
@@ -25,6 +89,70 @@
       <Point>MONSU</Point>
       <Point>OMANA</Point>
       <Point>BIRAX</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="24 SIDs" Priority="1" CustomColourName="ProcDep" Center="-35.769875+174.357825">
+    <Line Pattern="Dashed">
+      <!--Rwy24 HARBO5-->
+      -35.769875+174.357825/-35.809640+174.403060/-35.846270+174.443360
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy24 HARBO5.AA VOR-->
+      -35.846270+174.443360/AA VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy24 HARBO5.APABO-->
+      -35.846270+174.443360/APABO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy24 HARBO5.DOSTU-->
+      -35.846270+174.443360/DOSTU
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy24 HARBO5.KK NDB-->
+      -35.846270+174.443360/KK NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy24 HARBO5.KT NDB-->
+      -35.846270+174.443360/KT NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy24 HARBO5.UKAPA-->
+      -35.846270+174.443360/UKAPA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy24 HARBO5.WP VOR-->
+      -35.846270+174.443360/WP VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy24 PORTL3-->
+      -35.769875+174.357825/-35.821950+174.359540/SF NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy24 SF1Q-->
+      -35.769875+174.357825/-35.774790+174.317200/SF NDB
+    </Line>
+    <Symbol Type="Circle">
+      <Point>AA VOR</Point>
+      <Point>KK NDB</Point>
+      <Point>KT NDB</Point>
+      <Point>WP VOR</Point>
+      <Point>SF NDB</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>APABO</Point>
+      <Point>DOSTU</Point>
+      <Point>UKAPA</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>SF NDB</Point>
+      <Point>AA VOR</Point>
+      <Point>APABO</Point>
+      <Point>DOSTU</Point>
+      <Point>KK NDB</Point>
+      <Point>KT NDB</Point>
+      <Point>UKAPA</Point>
+      <Point>WP VOR</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="24 GNSS" Priority="1" Center="-35.768372+174.369817" CustomColourName="ProcArr">

@@ -95,6 +95,14 @@
       MOKER/BERRY/ELBOW
     </Line>
     <Line>
+      <!--Rwy16 NR2C-->
+      NR VOR/-39.401610+177.074330/-39.352240+177.039200/-39.314670+176.986050/AROPA
+    </Line>
+    <Line>
+      <!--Rwy16 NR2D-->
+      NR VOR/PANIA/-39.428710+177.080600/-39.401610+177.074330
+    </Line>
+    <Line>
       <!--Rwy16 OPAP2A-->
       OPAPA/PINES/ELBOW
     </Line>
@@ -112,6 +120,7 @@
     <Symbol Type="HollowTriangle">
       <Point>NANUA</Point>
       <Point>ELBOW</Point>
+      <Point>AROPA</Point>
     </Symbol>
     <Symbol Type="Circle">
       <Point>NR VOR</Point>
@@ -131,11 +140,13 @@
       <Point>ADGIN</Point>
       <Point>GENDA</Point>
       <Point>MOKER</Point>
+      <Point>NR VOR</Point>
       <Point>OPAPA</Point>
       <Point>PANIA</Point>
       <Point>YARRO</Point>
       <Point>NANUA</Point>
       <Point>ELBOW</Point>
+      <Point>AROPA</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="16 GNSS" Priority="1" Center="-39.461989+176.868039" CustomColourName="ProcArr">
@@ -222,6 +233,14 @@
       MOKER/ELAND/PINES/OHITI
     </Line>
     <Line>
+      <!--Rwy34 NR2A-->
+      NR VOR/-39.541920+177.052860/-39.585230+177.002440/-39.615400+176.921890/AKINA
+    </Line>
+    <Line>
+      <!--Rwy34 NR2B-->
+      NR VOR/-39.585230+177.002440
+    </Line>
+    <Line>
       <!--Rwy34 OPAP1B-->
       OPAPA/AKINA
     </Line>
@@ -253,6 +272,7 @@
       <Point>ADGIN</Point>
       <Point>GENDA</Point>
       <Point>MOKER</Point>
+      <Point>NR VOR</Point>
       <Point>OPAPA</Point>
       <Point>YARRO</Point>
       <Point>OHITI</Point>
