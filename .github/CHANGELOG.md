@@ -263,7 +263,7 @@ The ANR data has unfortunately not been updated by Airways, so I am unable to ru
 
 Minor changes have also been made to the Sector File Generator App, including multiple fault checking routines.
 
-Additonally, a lot of these changes have formed the groundwork for additional features that will be released in an upcoming AIRAC release.
+Additionally, a lot of these changes have formed the groundwork for additional features that will be released in an upcoming AIRAC release.
 
 #### **ANR Updates**
 
