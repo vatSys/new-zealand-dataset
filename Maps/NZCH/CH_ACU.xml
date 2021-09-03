@@ -1297,28 +1297,4 @@
       -43.483333+172.591667/NORTHLANDS MALL/WAIMAIRI
     </Line>
   </Map>
-  <Map Type="System2" Name="HeloProc" Priority="1" CustomColourName="VFRPoint" Center="-43.489444+172.534444">
-    <Label HasLeader="true" LabelOrientation="NW">
-      <Point Name="HELO_02ARRDEP">-43.482953+172.527583</Point>
-      <Point Name="HELO_20ARRDEP">-43.482701+172.527946</Point>
-      <Point Name="HELO_29ARR">-43.482974+172.527892</Point>
-      <Point Name="HELO_29DEP">-43.482699+172.527948</Point>
-    </Label>
-    <!--HELO_02ARRDEP-->
-    <Line Pattern="Dotted">
-      -43.482953+172.527583/-43.484828+172.523137/-43.481308+172.517465
-    </Line>
-    <!--HELO_20ARRDEP-->
-    <Line Pattern="Dotted">
-      -43.482701+172.527946/-43.478835+172.532396/-43.475396+172.530563
-    </Line>
-    <!--HELO_29ARR-->
-    <Line Pattern="Dotted">
-      -43.482974+172.527892/-43.484906+172.531017/-43.484830+172.532049/-43.483404+172.533694/-43.482568+172.533793/-43.478549+172.527261
-    </Line>
-    <!--HELO_29DEP-->
-    <Line Pattern="Dotted">
-      -43.482699+172.527948/-43.481794+172.528993/-43.479389+172.525068
-    </Line>
-  </Map>
 </Maps>
