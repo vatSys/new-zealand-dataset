@@ -263,17 +263,20 @@ The ANR data has unfortunately not been updated by Airways, so I am unable to ru
 
 Minor changes have also been made to the Sector File Generator App, including multiple fault checking routines.
 
-**ANR Updates**
+Additonally, a lot of these changes have formed the groundwork for additional features that will be released in an upcoming AIRAC release.
 
-*  Some minor changes to the co-ordinates of `NZTK` 
-*  Amendments or addition of the `B578`, `H1`, `P766`, `Q128`, `T1 to T6`, `V2`, `V3`, `Z129` and `Z172` airways.
-*  Addition of IFR WPTs `RIWUT`, `TAPAP`, `TEARP`, `TLARP`, `TOARP` and `TPARP`.
+#### **ANR Updates**
+
+*  Some minor changes to the aerodrome reference point for `NZTK` .
+*  Amendment to, or addition of, the `B578`, `H1`, `P766`, `Q128`, `T1 to T6`, `V2`, `V3`, `Z129` and `Z172` airways.
+*  Addition of IFR waypoints `RIWUT`, `TAPAP`, `TEARP`, `TLARP`, `TOARP` and `TPARP`.
 *  Addition of `NZHC`, and removal of `NZSH`.
 
-**Dataset Changes**
-We have gone through and added some more previously missed procedures, in addition to some refinements of already existing procedures. Some SIDs and STARs have also been assigned as 'Non-jets', preventing vatSys from automatically assigning Cat A and B procedures to Cat C and D aircraft. 
+#### **Dataset Changes**
 
-**NZAR** - Additional detail added to the SY1R departure.
+We have gone through and added additional procedures that has previously been missed; in addition to some refinements to already existing procedures. Some SIDs and STARs have also been assigned as 'Non-jet', preventing vatSys from automatically assigning Cat A and B procedures to Cat C and D aircraft. 
+
+**NZAR** - Additional detail added to the `SURREY 1R` departure.
 
 **NZDN** - Addition of the transitions for the `SOUTH 5` and `SWAMPY 8` departures.
 
@@ -287,11 +290,11 @@ We have gone through and added some more previously missed procedures, in additi
 
 **NZKT** - Addition of the `BROADWOOD 3A & 2B`, `HOBBS 3`, `VALLEY 2` and `HARBOUR 3` departures.
 
-**NZNP** - Reworking of the `SOUTH 5` route, and addition of the `AKAVI`, `ALADA`, `LEDOR`, `TELIM` and `TPAPA` transitions.
+**NZNP** - Slight rework of the `SOUTH 5` departure track, and addition of the `AKAVI`, `ALADA`, `LEDOR`, `TELIM` and `TPAPA` transitions.
 
-**NZNR** - Addition of the `NR 2A, 2B, 2C and 2D` STARs for the VOR/DME.
+**NZNR** - Addition of the `NAPER 2A, 2B, 2C and 2D` STARs for the VOR/DME.
 
-**NZNV** - Addition of the `NV 1C, 1D, 2A and 2B` STARs for the VOR/DME.
+**NZNV** - Addition of the `INVERCARGILL 1C, 1D, 2A and 2B` STARs for the VOR/DME.
 
 **NZPP** - Addition of the `KAPTI 1G` STAR.
 
@@ -308,16 +311,29 @@ We have gone through and added some more previously missed procedures, in additi
 
 **NZWR** - Addition of the `BREAM 5`, `HARBOUR 5`, `PORTLAND 5` and `WAIPU 3` departures.
 
-**Other Changes**
+#### **Other Changes**
 
 * Napier ATIS frequency updated to the correct frequency of `128.000MHz`.
 * Additon of NZFI Ground Radar view. This can be found under Class G Aerodromes. 
 * Minor back-end fix to the Woodbourne ground view.
-* Auckland Control (Raglan Sector) now has its own Enroute display.
+* `Auckland Control (Raglan Sector)` now has its own Enroute display.
+* Added a Map layer with all TMA Sectors - `Maps > Airspace > TMA Sectors`. (Note: These don't always line-up with Enroute Sector lines, and Enroute Sectors will be redefined in an upcoming AIRAC).
+* Added a Map layer with all Procedural Towers - `Maps > Airspace > Procedural Towers`.
 
-**Connection Window (vatSys only)**
+#### **Connection Window**
 
-Users can now select different towers or approach units through a dropdown box in the connection dialog box. To select these, select to the next highest control center's view (Auckland ACU for Auckland Tower), and go into the connection dialog. You can now click the dropdown and select different ATS units.
+Users can now select different Tower or Approach units through a dropdown in the connection dialog box. To find these, select the next highest control center's view and go into the connection dialog. You can now click the dropdown and select different ATS units.
 
-The next stage of this is to add a selectible view for each procedural tower. This is a work in progress.
+For example - to select Auckland Tower, open the Auckland TMA view by navigating to `Positions > ACU > Auckland ACU`. When you open the Connection dialog box, you will be given the option for the following Towers:
 
+<center>
+  <img src="assets/connectionDialogApp.png" width="500" style="padding-top: 15px; padding-bottom: 15px;" />
+</center>
+
+But what if you want to control Tauranga Tower? Open the Bay Approach Enroute view by navigating to `Positions > Enroute > Bay Approach`. When you open the dialog box, you will be given the option for the following Towers:
+
+<center>
+  <img src="assets/connectionDialogEnr.png" width="500" style="padding-top: 15px; padding-bottom: 15px;" />
+</center>
+
+Procedural Towers will be getting their own Position definitions next AIRAC, so be on the lookout for that!
