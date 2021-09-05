@@ -94,7 +94,7 @@
       <Runway Name="11" DataRunway="11">
         <SID Name="ALBA2B" />
         <SID Name="DIVS2B" />
-        <STAR Name="BLUN3F" ApproachName="GNSS" />
+        <STAR Name="BLUN1D" ApproachName="GNSS" />
         <STAR Name="HODE2D" ApproachName="GNSS" />
         <STAR Name="MESI2D" ApproachName="GNSS" />
       </Runway>
@@ -7650,7 +7650,7 @@ RILEY
       <Transition Name="VANDA">VANDA</Transition>
       <Route Runway="29">BELEE/AVOCA/BISUP/CHARR/IDUBU/SUPSO</Route>
     </STAR>
-    <STAR Name="BLUN3F" Airport="NZCH" Runways="11">
+    <STAR Name="BLUN1D" Airport="NZCH" Runways="11">
       <Transition Name="AVOCA">AVOCA/SAVKU</Transition>
       <Transition Name="IGEGA">IGEGA</Transition>
       <Transition Name="KABKA">KABKA/NURNI/SAVKU</Transition>
