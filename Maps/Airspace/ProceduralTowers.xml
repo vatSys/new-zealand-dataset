@@ -2,7 +2,7 @@
 <Maps>
   <Map Type="System2" Name="Procedural Towers" Priority="2">
     <!--GSTWR-->
-    <Line Name="GSTwr" Pattern="Solid">
+    <Line Name="GSTwr" Pattern="Dotted">
       -382408.900+1774229.500/
       -382913.700+1774739.800/
       -382830.710+1774851.401/
@@ -48,7 +48,7 @@
       -382408.900+1774229.500
     </Line>
 
-    <Line Name="DNTwr" Pattern="Solid">
+    <Line Name="DNTwr" Pattern="Dotted">
       -460437.000+1704350.100/
       -462901.400+1701408.600/
       -462007.100+1694240.100/
@@ -90,7 +90,7 @@
       -460437.000+1704350.100
     </Line>
 
-    <Line Name="NPTwr" Pattern="Solid">
+    <Line Name="NPTwr" Pattern="Dotted">
       -390149.400+1734327.000/
       -385956.966+1734322.586/
       -385804.694+1734332.526/
@@ -130,7 +130,7 @@
       -390149.400+1734327.000
     </Line>
 
-    <Line Name="NRTwr" Pattern="Solid">
+    <Line Name="NRTwr" Pattern="Dotted">
       -390719.200+1764927.000/
       -390714.281+1765141.879/
       -390717.064+1765356.768/
@@ -203,7 +203,7 @@
       -390719.200+1764927.000
     </Line>
 
-    <Line Name="NSTwr" Pattern="Solid">
+    <Line Name="NSTwr" Pattern="Dotted">
       -405142.100+1734319.900/
       -410045.200+1733710.500/
       -410614.300+1734231.100/
@@ -242,7 +242,7 @@
       -405142.100+1734319.900
     </Line>
 
-    <Line Name="NVTwr" Pattern="Solid">
+    <Line Name="NVTwr" Pattern="Dotted">
       -460323.200+1690106.900/
       -460006.000+1692039.900/
       -455959.700+1692657.200/
