@@ -387,7 +387,6 @@
       <Point>IKABA</Point>
       <Point>ANGEB</Point>
       <Point>ELKOB</Point>
-      <Point>BAMEX</Point>
       <Point>RIPSA</Point>
       <Point>UKDAS</Point>
       <Point>BENVU</Point>
@@ -463,7 +462,6 @@
       <Point>GIVAK</Point>
       <Point>TOTRA</Point>
       <Point>NIKOR</Point>
-      <Point>APABO</Point>
       <Point>TENIX</Point>
       <Point>PATMO</Point>
       <Point>TK401</Point>
@@ -520,7 +518,6 @@
       <Point>QN780</Point>
       <Point>ONADU</Point>
       <Point>-38.125194+176.293947</Point>
-      <Point>SEMKI</Point>
       <Point>TK407</Point>
       <Point>TU402</Point>
       <Point>ELKUB</Point>
@@ -705,7 +702,6 @@
       <Point>ANGEB</Point>
       <Point>-38.172367+176.219978</Point>
       <Point>ELKOB</Point>
-      <Point>BAMEX</Point>
       <Point>RIPSA</Point>
       <Point>UKDAS</Point>
       <Point>BENVU</Point>
@@ -786,7 +782,6 @@
       <Point>GIVAK</Point>
       <Point>TOTRA</Point>
       <Point>NIKOR</Point>
-      <Point>APABO</Point>
       <Point>TENIX</Point>
       <Point>PATMO</Point>
       <Point>TK401</Point>
@@ -944,7 +939,6 @@
     <Line Pattern="Solid">TOTRA/-38.172367+176.219978/-38.125194+176.293947/OKERE</Line>
     <Line Pattern="Solid">NIKOR/ELKOB/RO18T</Line>
     <Line Pattern="Solid">OKERE/NIKOR</Line>
-    <Line Pattern="Solid">APABO/BAMEX/SEMKI/SL16T</Line>
     <Line Pattern="Solid">TENIX/RIPSA/TG07T</Line>
     <Line Pattern="Solid">MORTA/TENIX</Line>
     <Line Pattern="Solid">RUSTA/TENIX</Line>

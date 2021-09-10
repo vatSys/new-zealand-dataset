@@ -803,14 +803,6 @@
       </Runway>
       <Runway Name="22" DataRunway="22" />
     </Airport>
-    <Airport Name="NZSL">
-      <Runway Name="16" DataRunway="16">
-        <SID Name="GORKI1" Type="NonJet" />
-      </Runway>
-      <Runway Name="34" DataRunway="34">
-        <SID Name="GORKI1" Type="NonJet" />
-      </Runway>
-    </Airport>
     <Airport Name="NZTK">
       <Runway Name="18" DataRunway="18">
         <SID Name="MARKO2" Default="True" />
@@ -7132,12 +7124,6 @@ RILEY
       <Transition Name="ISGIT">ISGIT</Transition>
       <Transition Name="LUMSO">SURKA/LUMSO</Transition>
       <Transition Name="SUDAM">ISGIT/SUDAM</Transition>
-    </SID>
-    <SID Name="GORKI1" Airport="NZSL" Runways="16,34">
-      <Route Runway="16">NZSL/SEKLA/GORKI</Route>
-      <Route Runway="34">NZSL/SEKLA/GORKI</Route>
-      <Transition Name="APABO">APABO</Transition>
-      <Transition Name="KAWAU">KAWAU</Transition>
     </SID>
     <SID Name="BELET3" Airport="NZTG" Runways="07">
       <Route Runway="07">BELET</Route>
