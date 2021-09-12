@@ -1,5 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
+  <Map Type="System2" Name="04 SIDs" Priority="1" CustomColourName="ProcDep" Center="-36.825625+175.688550">
+    <Line Pattern="Dashed">
+      <!--Rwy04 OVTA1P-->
+      -36.825625+175.688550/OVTAP
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy04 OVTA1P.OBKIT-->
+      OVTAP/OBKIT
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy04 OVTA1P.UGSAP-->
+      OVTAP/UGSAP
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>OVTAP</Point>
+      <Point>OBKIT</Point>
+      <Point>UGSAP</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>OVTAP</Point>
+      <Point>OBKIT</Point>
+      <Point>UGSAP</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="04 STARs" Priority="1" CustomColourName="ProcArr" Center="-36.832306+175.676317">
     <Line>
       <!--Rwy04 ISKI1A-->

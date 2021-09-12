@@ -337,3 +337,25 @@ But what if you want to control Tauranga Tower? Open the Bay Approach Enroute vi
 </center>
 
 Procedural Towers will be getting their own Position definitions next AIRAC, so be on the lookout for that!
+
+## AIRAC 2110
+
+### Revision A (Initial)
+
+Minor changes to the dataset this month as it is a non-major amendment month.
+
+#### ANR Updates
+
+* Removal of `NZSL` as an IFR-VFR AD. The associated IFR procedures have been withdrawn.
+* **NZWT**: Addition of the `OTVAP 1P` departure (Rwy 04).
+* Addition of the `OBKIT`, `AVTAP` and `UGSAP` waypoints.
+
+#### Dataset Updates
+
+* **NZPN** : Addition of the `SEDSI 2R` departure, which had been previously missed.
+* Changed position short-codes for `NZZO_FSS (AO)`, `BN-TSN_FSS (BNO)` and `ML-IND_FSS (MLO)`.
+* 
+
+#### Procedural Towers
+
+All of the Procedural Towers now have their own ACU view, which can be selected through the `Positions > Procedural Tower` menu. The Procedural Tower `ControllerInfo` definitions added in the previous AIRAC have been removed.

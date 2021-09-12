@@ -797,6 +797,14 @@
       <Runway Name="18" DataRunway="18" />
       <Runway Name="36" DataRunway="36" />
     </Airport>
+    <Airport Name="NZPN">
+      <Runway Name="18" DataRunway="18">
+        <SID Name="SEDS2R" />
+      </Runway>
+      <Runway Name="36" DataRunway="36">
+        <SID Name="SEDS2R" />
+      </Runway>
+    </Airport>
     <Airport Name="NZRC">
       <Runway Name="04" DataRunway="04">
         <SID Name="SEBSA1" />
@@ -898,6 +906,7 @@
     </Airport>
     <Airport Name="NZWT">
       <Runway Name="04" DataRunway="04">
+        <SID Name="OVTA1P" Type="NonJet" />
         <STAR Name="ISKI1A" />
         <STAR Name="MAGE1A" />
         <STAR Name="MASD1A" />
@@ -4408,6 +4417,7 @@ RILEY
     <Point Name="OBDEG" Type="Fix">-393150.210+1662602.450</Point>
     <Point Name="OBDOR" Type="Fix">-431642.470+1723918.770</Point>
     <Point Name="OBDUN" Type="Fix">-451726.540+1691934.910</Point>
+    <Point Name="OBKIT" Type="Fix">-364426.000+1752707.000</Point>
     <Point Name="OBLIX" Type="Fix">-455946.130+1703725.100</Point>
     <Point Name="OBLOX" Type="Fix">-392441.890+1765224.870</Point>
     <Point Name="ODISI" Type="Fix">-431918.440+1724328.850</Point>
@@ -4517,6 +4527,7 @@ RILEY
     <Point Name="OVRUN" Type="Fix">-401136.450+1755251.860</Point>
     <Point Name="OVSED" Type="Fix">-460050.680+1700058.810</Point>
     <Point Name="OVSIT" Type="Fix">-372521.200+1750147.100</Point>
+    <Point Name="OVTAP" Type="Fix">-364753.000+1754700.000</Point>
     <Point Name="OVTIK" Type="Fix">-362742.090+1743930.990</Point>
     <Point Name="OVTOS" Type="Fix">-251401.520-1650000.000</Point>
     <Point Name="OX701" Type="Fix">-360426.771+1752720.880</Point>
@@ -4992,6 +5003,7 @@ RILEY
     <Point Name="UGPED" Type="Fix">-445423.550+1684824.650</Point>
     <Point Name="UGRAP" Type="Fix">-203430.460-1744504.270</Point>
     <Point Name="UGRUS" Type="Fix">-370331.810+1743658.850</Point>
+    <Point Name="UGSAP" Type="Fix">-364426.000+1755747.000</Point>
     <Point Name="UGVAV" Type="Fix">-440820.800+1705910.190</Point>
     <Point Name="UKAPA" Type="Fix">-361743.930+1741419.580</Point>
     <Point Name="UKDAS" Type="Fix">-374040.940+1761734.100</Point>
@@ -6985,6 +6997,13 @@ RILEY
       <Route Runway="07">TEROT</Route>
       <Transition Name="OMBUB">LAPUN/DUKUT/GULBA/OMBUB</Transition>
     </SID>
+    <SID Name="SEDS2R" Airport="NZPN" Runways="18,36">
+      <Route Runway="18">NZPN/VASLU/SEDSI</Route>
+      <Route Runway="36">NZPN/VASLU/SEDSI</Route>
+      <Transition Name="AVPOD">AVPOD</Transition>
+      <Transition Name="IGMUL">IGMUL</Transition>
+      <Transition Name="IPMIR">IPMIR</Transition>
+    </SID>
     <SID Name="AGAXA3" Airport="NZPP" Runways="16">
       <Route Runway="16">AGAXA</Route>
       <Transition Name="AVKEX">FICAN/AVKEX</Transition>
@@ -7401,6 +7420,11 @@ RILEY
     </SID>
     <SID Name="WAIPU3" Airport="NZWR" Runways="06">
       <Route Runway="06">SF NDB</Route>
+    </SID>
+    <SID Name="OVTA1P" Airport="NZWT" Runways="04">
+      <Route Runway="04">OVTAP</Route>
+      <Transition Name="OBKIT">OBKIT</Transition>
+      <Transition Name="UGSAP">UGSAP</Transition>
     </SID>
     <STAR Name="APAB2A" Airport="NZAA" Runways="23L">
       <Transition Name="KK">KK NDB/SF NDB</Transition>
