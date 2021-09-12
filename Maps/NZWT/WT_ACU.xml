@@ -59,6 +59,30 @@
       <Point>GOVTI</Point>
     </Label>
   </Map>
+  <Map Type="System2" Name="04 GNSS" Priority="1" Center="-36.832306+175.676317" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle">
+      <Point>VETUM</Point>
+      <Point>WT423</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>IGOVU</Point>
+      <Point>OLVOL</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross" />
+    <Symbol Type="SolidTriangle">
+      <Point>UGSAP</Point>
+    </Symbol>
+    <Line Pattern="Solid">UGSAP/VETUM/WT423/NZWT</Line>
+    <Line Pattern="Solid">IGOVU/UGSAP</Line>
+    <Line Pattern="Solid">OLVOL/UGSAP</Line>
+  </Map>
+  <Map Type="System2" Name="04 GNSS Labels" Priority="1" Center="-36.832306+175.676317" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>IGOVU</Point>
+      <Point>OLVOL</Point>
+      <Point>UGSAP</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="22 STARs" Priority="1" CustomColourName="ProcArr" Center="-36.825625+175.688550">
     <Line>
       <!--Rwy22 ISKI1A-->
@@ -92,6 +116,30 @@
       <Point>ENPEV</Point>
       <Point>AGPUM</Point>
       <Point>GOVTI</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="22 GNSS" Priority="1" Center="-36.825625+175.688550" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle">
+      <Point>VETUM</Point>
+      <Point>WT423</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>IGOVU</Point>
+      <Point>OLVOL</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross" />
+    <Symbol Type="SolidTriangle">
+      <Point>UGSAP</Point>
+    </Symbol>
+    <Line Pattern="Solid">UGSAP/VETUM/WT423/NZWT</Line>
+    <Line Pattern="Solid">IGOVU/UGSAP</Line>
+    <Line Pattern="Solid">OLVOL/UGSAP</Line>
+  </Map>
+  <Map Type="System2" Name="22 GNSS Labels" Priority="1" Center="-36.825625+175.688550" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>IGOVU</Point>
+      <Point>OLVOL</Point>
+      <Point>UGSAP</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="16 STARs" Priority="1" CustomColourName="ProcArr" Center="-36.825436+175.679925">
@@ -129,6 +177,30 @@
       <Point>GOVTI</Point>
     </Label>
   </Map>
+  <Map Type="System2" Name="16 GNSS" Priority="1" Center="-36.825436+175.679925" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle">
+      <Point>VETUM</Point>
+      <Point>WT423</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>IGOVU</Point>
+      <Point>OLVOL</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross" />
+    <Symbol Type="SolidTriangle">
+      <Point>UGSAP</Point>
+    </Symbol>
+    <Line Pattern="Solid">UGSAP/VETUM/WT423/NZWT</Line>
+    <Line Pattern="Solid">IGOVU/UGSAP</Line>
+    <Line Pattern="Solid">OLVOL/UGSAP</Line>
+  </Map>
+  <Map Type="System2" Name="16 GNSS Labels" Priority="1" Center="-36.825436+175.679925" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>IGOVU</Point>
+      <Point>OLVOL</Point>
+      <Point>UGSAP</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="34 STARs" Priority="1" CustomColourName="ProcArr" Center="-36.831206+175.680208">
     <Line>
       <!--Rwy34 ISKI1A-->
@@ -162,6 +234,30 @@
       <Point>ENPEV</Point>
       <Point>AGPUM</Point>
       <Point>GOVTI</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="34 GNSS" Priority="1" Center="-36.831206+175.680208" CustomColourName="ProcArr">
+    <Symbol Type="HollowTriangle">
+      <Point>VETUM</Point>
+      <Point>WT423</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>IGOVU</Point>
+      <Point>OLVOL</Point>
+    </Symbol>
+    <Symbol Type="MalteseCross" />
+    <Symbol Type="SolidTriangle">
+      <Point>UGSAP</Point>
+    </Symbol>
+    <Line Pattern="Solid">UGSAP/VETUM/WT423/NZWT</Line>
+    <Line Pattern="Solid">IGOVU/UGSAP</Line>
+    <Line Pattern="Solid">OLVOL/UGSAP</Line>
+  </Map>
+  <Map Type="System2" Name="34 GNSS Labels" Priority="1" Center="-36.831206+175.680208" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>IGOVU</Point>
+      <Point>OLVOL</Point>
+      <Point>UGSAP</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-36.831667+175.678611">

@@ -347,14 +347,14 @@ Minor changes to the dataset this month as it is a non-major amendment month.
 #### ANR Updates
 
 * Removal of `NZSL` as an IFR-VFR AD. The associated IFR procedures have been withdrawn.
-* **NZWT**: Addition of the `OTVAP 1P` departure (Rwy 04).
-* Addition of the `OBKIT`, `AVTAP` and `UGSAP` waypoints.
+* **NZWT**: Addition of the `OTVAP 1P` departure (Rwy 04) and RNAV (GNSS) A approach.
+* Addition of the `AVNEM`, `IGOVU`, `LIDGA`, `OLVOL`, `OPEKU`, `UGSAP` and `VETUM` IFR fixes.
 
 #### Dataset Updates
 
 * **NZPN** : Addition of the `SEDSI 2R` departure, which had been previously missed.
 * Changed position short-codes for `NZZO_FSS (AO)`, `BN-TSN_FSS (BNO)` and `ML-IND_FSS (MLO)`.
-* 
+
 
 #### Procedural Towers
 

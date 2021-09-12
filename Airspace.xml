@@ -3348,6 +3348,7 @@ RILEY
     <Point Name="AVLOR" Type="Fix">-395610.160+1744749.350</Point>
     <Point Name="AVMAK" Type="Fix">-415405.800+1712651.660</Point>
     <Point Name="AVMEB" Type="Fix">-385027.180+1772327.700</Point>
+    <Point Name="AVNEM" Type="Fix">-362952.908+1745826.940</Point>
     <Point Name="AVNOP" Type="Fix">-431518.320+1722640.420</Point>
     <Point Name="AVNOX" Type="Fix">-195050.070-1741251.580</Point>
     <Point Name="AVOCA" Type="Fix">-430754.040+1714824.300</Point>
@@ -3947,6 +3948,7 @@ RILEY
     <Point Name="IGNET" Type="Fix">-443805.830+1680008.690</Point>
     <Point Name="IGNUT" Type="Fix">-400014.880+1752434.200</Point>
     <Point Name="IGOLF" Type="Fix">-365027.270+1742304.680</Point>
+    <Point Name="IGOVU" Type="Fix">-363946.740+1755528.730</Point>
     <Point Name="IGPAX" Type="Fix">-400638.780+1754834.680</Point>
     <Point Name="IGPIK" Type="Fix">-432840.830+1722559.730</Point>
     <Point Name="IGUTA" Type="Fix">-401826.240+1740705.070</Point>
@@ -4157,6 +4159,7 @@ RILEY
     <Point Name="LIBKO" Type="Fix">-364136.920+1742957.840</Point>
     <Point Name="LIBLA" Type="Fix">-435553.040+1674034.010</Point>
     <Point Name="LIBTI" Type="Fix">-761200.000+1662700.000</Point>
+    <Point Name="LIDGA" Type="Fix">-363528.660+1744656.690</Point>
     <Point Name="LIDLO" Type="Fix">-425532.030+1732311.620</Point>
     <Point Name="LIGDO" Type="Fix">-390207.140+1741831.010</Point>
     <Point Name="LIKMA" Type="Fix">-410501.610+1732711.040</Point>
@@ -4458,6 +4461,7 @@ RILEY
     <Point Name="OLSEK" Type="Fix">-383920.870+1760527.190</Point>
     <Point Name="OLSOT" Type="Fix">-445841.970+1690919.590</Point>
     <Point Name="OLTED" Type="Fix">-405409.230+1734612.560</Point>
+    <Point Name="OLVOL" Type="Fix">-364904.650+1760005.710</Point>
     <Point Name="OLVUV" Type="Fix">-370425.730+1754431.030</Point>
     <Point Name="OMAHA" Type="Fix">-362054.970+1743941.110</Point>
     <Point Name="OMANA" Type="Fix">-355306.560+1741007.440</Point>
@@ -4485,6 +4489,7 @@ RILEY
     <Point Name="OPABI" Type="Fix">-384935.840+1744823.860</Point>
     <Point Name="OPAPA" Type="Fix">-394737.400+1764124.390</Point>
     <Point Name="OPARE" Type="Fix">-352528.160+1735751.820</Point>
+    <Point Name="OPEKU" Type="Fix">-362132.724+1745429.844</Point>
     <Point Name="OPERU" Type="Fix">-171912.000-1514101.000</Point>
     <Point Name="OPOHO" Type="Fix">-390941.390+1773007.220</Point>
     <Point Name="OPUNA" Type="Fix">-211208.810-1595934.030</Point>
@@ -5003,7 +5008,7 @@ RILEY
     <Point Name="UGPED" Type="Fix">-445423.550+1684824.650</Point>
     <Point Name="UGRAP" Type="Fix">-203430.460-1744504.270</Point>
     <Point Name="UGRUS" Type="Fix">-370331.810+1743658.850</Point>
-    <Point Name="UGSAP" Type="Fix">-364426.000+1755747.000</Point>
+    <Point Name="UGSAP" Type="Fix">-364425.720+1755747.080</Point>
     <Point Name="UGVAV" Type="Fix">-440820.800+1705910.190</Point>
     <Point Name="UKAPA" Type="Fix">-361743.930+1741419.580</Point>
     <Point Name="UKDAS" Type="Fix">-374040.940+1761734.100</Point>
@@ -5088,6 +5093,7 @@ RILEY
     <Point Name="VEPUR" Type="Fix">-401922.800+1754515.760</Point>
     <Point Name="VESAV" Type="Fix">-384402.210+1780007.210</Point>
     <Point Name="VETEV" Type="Fix">-425219.460+1713807.060</Point>
+    <Point Name="VETUM" Type="Fix">-364617.040+1755200.330</Point>
     <Point Name="VIBAG" Type="Fix">-365147.460+1750015.660</Point>
     <Point Name="VIBEX" Type="Fix">-181445.000+1765757.000</Point>
     <Point Name="VIDEB" Type="Fix">-195446.930-1741337.090</Point>
@@ -5155,6 +5161,7 @@ RILEY
     <Point Name="WS408" Type="Fix">-413831.279+1714615.769</Point>
     <Point Name="WS411" Type="Fix">-414116.861+1714041.920</Point>
     <Point Name="WS501" Type="Fix">-413455.751+1720055.249</Point>
+    <Point Name="WT423" Type="Fix">-364723.690+1754832.150</Point>
     <Point Name="WT576" Type="Fix">-365527.030+1753202.911</Point>
     <Point Name="WT652" Type="Fix">-364658.400+1753955.310</Point>
     <Point Name="WT734" Type="Fix">-365124.491+1752455.840</Point>

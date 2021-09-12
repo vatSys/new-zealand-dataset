@@ -338,6 +338,8 @@
       <Point>GUNOM</Point>
       <Point>ANSIS</Point>
       <Point>PILUP</Point>
+      <Point>IGOVU</Point>
+      <Point>OLVOL</Point>
       <Point>AVLOR</Point>
       <Point>BUPKA</Point>
       <Point>ADGAT</Point>
@@ -484,6 +486,7 @@
       <Point>BIRAX</Point>
       <Point>BURKI</Point>
       <Point>WS408</Point>
+      <Point>UGSAP</Point>
       <Point>DUDED</Point>
       <Point>BASEP</Point>
     </Label>
@@ -532,6 +535,8 @@
       <Point>WR601</Point>
       <Point>WS404</Point>
       <Point>WS411</Point>
+      <Point>VETUM</Point>
+      <Point>WT423</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>LENGU</Point>
@@ -642,6 +647,8 @@
       <Point>GUNOM</Point>
       <Point>ANSIS</Point>
       <Point>PILUP</Point>
+      <Point>IGOVU</Point>
+      <Point>OLVOL</Point>
       <Point>AVLOR</Point>
       <Point>BUPKA</Point>
       <Point>ADGAT</Point>
@@ -804,6 +811,7 @@
       <Point>BIRAX</Point>
       <Point>BURKI</Point>
       <Point>WS408</Point>
+      <Point>UGSAP</Point>
       <Point>DUDED</Point>
       <Point>BASEP</Point>
     </Symbol>
@@ -996,6 +1004,9 @@
     <Line Pattern="Solid">WS408/WS411/WS22T</Line>
     <Line Pattern="Solid">ANSIS/WS408</Line>
     <Line Pattern="Solid">PILUP/WS408</Line>
+    <Line Pattern="Solid">UGSAP/VETUM/WT423/NZWT</Line>
+    <Line Pattern="Solid">IGOVU/UGSAP</Line>
+    <Line Pattern="Solid">OLVOL/UGSAP</Line>
     <Line Pattern="Solid">DUDED/-39.914692+174.940081/WU11T</Line>
     <Line Pattern="Solid">AVLOR/DUDED</Line>
     <Line Pattern="Solid">BUPKA/DUDED</Line>
