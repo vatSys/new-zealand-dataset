@@ -408,6 +408,7 @@
       <Point>ADKES</Point>
       <Point>DUDAP</Point>
       <Point>MONSU</Point>
+      <Point>VETUM</Point>
       <Point>BUSBI</Point>
       <Point>AP706</Point>
       <Point>AP506</Point>
@@ -535,7 +536,6 @@
       <Point>WR601</Point>
       <Point>WS404</Point>
       <Point>WS411</Point>
-      <Point>VETUM</Point>
       <Point>WT423</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
@@ -730,6 +730,7 @@
       <Point>ADKES</Point>
       <Point>DUDAP</Point>
       <Point>MONSU</Point>
+      <Point>VETUM</Point>
       <Point>-39.914692+174.940081</Point>
       <Point>BUSBI</Point>
     </Symbol>

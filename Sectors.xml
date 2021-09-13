@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <!-- Oceanic Sectors -->
+  <Sector FullName="BN-TSN_FSS" Frequency="128.600" Callsign="BN-TSN_FSS" Name="TSN" />
+  <Sector FullName="BN-COL_FSS" Frequency="133.175" Callsign="BN-COL_FSS" Name="COL" />
+  <Sector FullName="BN-FLD_FSS" Frequency="132.850" Callsign="BN-FLD_FSS" Name="FLD" />
+  <Sector FullName="BN-HWE_FSS" Frequency="124.950" Callsign="BN-HWE_FSS" Name="HWE" />
+  <Sector FullName="ML-IND_FSS" Frequency="122.400" Callsign="ML-IND_FSS" Name="IND" />
+  <Sector FullName="NZZO_FSS" Frequency="129.000" Callsign="NZZO_FSS" Name="ARO" />
+
+  <!-- Other Sectors -->
   <Sector FullName="Area South" Frequency="129.300" Callsign="NZCH-S_CTR" Name="STH">
     <Volumes>STH</Volumes>
     <ResponsibleSectors>TDN,TNV</ResponsibleSectors>
@@ -28,9 +38,6 @@
     <Volumes>NAK</Volumes>
     <ResponsibleSectors>OHA,TNS</ResponsibleSectors>
   </Sector>
-  <Sector FullName="BN-TSN_FSS" Frequency="128.600" Callsign="BN-TSN_FSS" Name="BNO" />
-  <Sector FullName="ML-IND_FSS" Frequency="122.400" Callsign="ML-IND_FSS" Name="MLO" />
-  <Sector FullName="NZZO_FSS" Frequency="129.000" Callsign="NZZO_FSS" Name="AO" />
   <Sector FullName="Auckland Approach" Frequency="124.300" Callsign="NZAA_APP" Name="ATMA">
     <Volumes>ATMA</Volumes>
     <ResponsibleSectors>AARR,ADEP</ResponsibleSectors>

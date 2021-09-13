@@ -61,14 +61,15 @@
   </Map>
   <Map Type="System2" Name="04 GNSS" Priority="1" Center="-36.832306+175.676317" CustomColourName="ProcArr">
     <Symbol Type="HollowTriangle">
-      <Point>VETUM</Point>
       <Point>WT423</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>IGOVU</Point>
       <Point>OLVOL</Point>
     </Symbol>
-    <Symbol Type="MalteseCross" />
+    <Symbol Type="MalteseCross">
+      <Point>VETUM</Point>
+    </Symbol>
     <Symbol Type="SolidTriangle">
       <Point>UGSAP</Point>
     </Symbol>
@@ -80,6 +81,7 @@
     <Label HasLeader="true">
       <Point>IGOVU</Point>
       <Point>OLVOL</Point>
+      <Point>VETUM</Point>
       <Point>UGSAP</Point>
     </Label>
   </Map>
@@ -120,14 +122,15 @@
   </Map>
   <Map Type="System2" Name="22 GNSS" Priority="1" Center="-36.825625+175.688550" CustomColourName="ProcArr">
     <Symbol Type="HollowTriangle">
-      <Point>VETUM</Point>
       <Point>WT423</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>IGOVU</Point>
       <Point>OLVOL</Point>
     </Symbol>
-    <Symbol Type="MalteseCross" />
+    <Symbol Type="MalteseCross">
+      <Point>VETUM</Point>
+    </Symbol>
     <Symbol Type="SolidTriangle">
       <Point>UGSAP</Point>
     </Symbol>
@@ -139,6 +142,7 @@
     <Label HasLeader="true">
       <Point>IGOVU</Point>
       <Point>OLVOL</Point>
+      <Point>VETUM</Point>
       <Point>UGSAP</Point>
     </Label>
   </Map>
@@ -179,14 +183,15 @@
   </Map>
   <Map Type="System2" Name="16 GNSS" Priority="1" Center="-36.825436+175.679925" CustomColourName="ProcArr">
     <Symbol Type="HollowTriangle">
-      <Point>VETUM</Point>
       <Point>WT423</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>IGOVU</Point>
       <Point>OLVOL</Point>
     </Symbol>
-    <Symbol Type="MalteseCross" />
+    <Symbol Type="MalteseCross">
+      <Point>VETUM</Point>
+    </Symbol>
     <Symbol Type="SolidTriangle">
       <Point>UGSAP</Point>
     </Symbol>
@@ -198,6 +203,7 @@
     <Label HasLeader="true">
       <Point>IGOVU</Point>
       <Point>OLVOL</Point>
+      <Point>VETUM</Point>
       <Point>UGSAP</Point>
     </Label>
   </Map>
@@ -238,14 +244,15 @@
   </Map>
   <Map Type="System2" Name="34 GNSS" Priority="1" Center="-36.831206+175.680208" CustomColourName="ProcArr">
     <Symbol Type="HollowTriangle">
-      <Point>VETUM</Point>
       <Point>WT423</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>IGOVU</Point>
       <Point>OLVOL</Point>
     </Symbol>
-    <Symbol Type="MalteseCross" />
+    <Symbol Type="MalteseCross">
+      <Point>VETUM</Point>
+    </Symbol>
     <Symbol Type="SolidTriangle">
       <Point>UGSAP</Point>
     </Symbol>
@@ -257,6 +264,7 @@
     <Label HasLeader="true">
       <Point>IGOVU</Point>
       <Point>OLVOL</Point>
+      <Point>VETUM</Point>
       <Point>UGSAP</Point>
     </Label>
   </Map>
