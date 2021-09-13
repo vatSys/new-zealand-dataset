@@ -354,7 +354,8 @@ Minor changes to the dataset this month as it is a non-major amendment month.
 
 * **NZPN** : Addition of the `SEDSI 2R` departure, which had been previously missed.
 * Changed position short-codes for `NZZO_FSS (AO)`, `BN-TSN_FSS (BNO)` and `ML-IND_FSS (MLO)`.
-
+* Addition of VATPAC Oceanic Stations (NOTAM will follow after release with additional info).
+* `Auckland Radio` position short code changed from `AO` to `ARO`.
 
 #### Procedural Towers
 
