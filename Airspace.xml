@@ -456,16 +456,16 @@
     <Airport Name="NZQN">
       <Runway Name="05" DataRunway="05">
         <SID Name="ANPO3A" />
-        <SID Name="BRG9" Default="True" />
-        <SID Name="DOVM2A" />
+        <SID Name="BRG9" />
+        <SID Name="DOVM2A" Type="NonJet" />
         <SID Name="EPDE3C" />
         <SID Name="EPDE3P" />
         <SID Name="IPNO3A" />
         <SID Name="IPNO4C" />
         <SID Name="SUNG4P" />
-        <STAR Name="ELRU2A" ApproachName="RNPZ" />
-        <STAR Name="SUNG3A" ApproachName="RNPZ" />
-        <STAR Name="UBDA3A" ApproachName="RNPZ" />
+        <STAR Name="ELRU2A" ApproachName="RNPY" />
+        <STAR Name="SUNG3A" ApproachName="RNPY" />
+        <STAR Name="UBDA3A" ApproachName="RNPY" />
       </Runway>
       <Runway Name="14" DataRunway="14" />
       <Runway Name="23" DataRunway="23">
@@ -476,13 +476,13 @@
         <SID Name="FKN7" Default="True" />
         <SID Name="IPNO3B" />
         <SID Name="IPNO4D" />
-        <SID Name="REDO1B" />
-        <SID Name="SUNG3Q" />
+        <SID Name="REDO1B" Type="NonJet" />
+        <SID Name="SUNG4Q" />
         <SID Name="SUNG4S" />
         <SID Name="SUNG3U" />
-        <STAR Name="ELRU4B" ApproachName="RNPZ" />
-        <STAR Name="SUNG4B" ApproachName="RNPZ" />
-        <STAR Name="UBDA4B" ApproachName="RNPZ" />
+        <STAR Name="ELRU4B" ApproachName="RNPY" />
+        <STAR Name="SUNG4B" ApproachName="RNPY" />
+        <STAR Name="UBDA4B" ApproachName="RNPY" />
       </Runway>
       <Runway Name="32" DataRunway="32" />
     </Airport>
@@ -4650,6 +4650,7 @@ RILEY
     <Point Name="QN550" Type="Fix">-450215.151+1684112.300</Point>
     <Point Name="QN555" Type="Fix">-450300.000+1684000.800</Point>
     <Point Name="QN565" Type="Fix">-450820.569+1682547.359</Point>
+    <Point Name="QN569" Type="Fix">-450927.468+1682248.360</Point>
     <Point Name="QN571" Type="Fix">-450939.910+1681834.970</Point>
     <Point Name="QN573" Type="Fix">-450735.771+1681531.432</Point>
     <Point Name="QN577" Type="Fix">-450115.899+1681853.280</Point>
@@ -7108,7 +7109,7 @@ RILEY
       <Route Runway="05">ISLON/LUXIS/MEBKA/SUNGU</Route>
       <Transition Name="ADLUP">BASOS/ADLUP</Transition>
     </SID>
-    <SID Name="SUNG3Q" Airport="NZQN" Runways="23">
+    <SID Name="SUNG4Q" Airport="NZQN" Runways="23">
       <Route Runway="23">ENKUV/OLREK/TULVU/VAPLI/IBVUK/SUNGU</Route>
       <Transition Name="ADLUP">BASOS/ADLUP</Transition>
     </SID>
@@ -8945,10 +8946,10 @@ RILEY
       <Transition Name="NILID">NILID</Transition>
       <Route>LEVBI/TAXEV/PP421/PP34T</Route>
     </Approach>
-    <Approach Name="RNPZ" Airport="NZQN" Runway="05">
-      <Route>IBABU/QN577/QN573/QN571/QN565/MOPGA/OMUBO/QN555/QN550/QN545/QN05T</Route>
+    <Approach Name="RNPY" Airport="NZQN" Runway="05">
+      <Route>IBABU/QN577/QN573/QN571/QN569/QN565/MOPGA/OMUBO/QN555/QN550/QN545/QN05T</Route>
     </Approach>
-    <Approach Name="RNPZ" Airport="NZQN" Runway="23">
+    <Approach Name="RNPY" Airport="NZQN" Runway="23">
       <Transition Name="ATKIL">ATKIL/QN780/QN775/QN770</Transition>
       <Transition Name="UGPED">UGPED/QN779/QN774</Transition>
       <Route>ATVUP/QN760/QN755/LARAV/QN745/QN741/QN735/QN731/QN725/QN23T</Route>

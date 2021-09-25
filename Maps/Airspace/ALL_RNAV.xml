@@ -30,6 +30,7 @@
       <Point>DANLU</Point>
       <Point>MOPGA</Point>
       <Point>LARAV</Point>
+      <Point>OMUBO</Point>
       <Point>RO186</Point>
       <Point>SEKBU</Point>
       <Point>RIDGE</Point>
@@ -105,8 +106,8 @@
       <Point>QN577</Point>
       <Point>QN573</Point>
       <Point>QN571</Point>
+      <Point>QN569</Point>
       <Point>QN565</Point>
-      <Point>OMUBO</Point>
       <Point>QN555</Point>
       <Point>QN550</Point>
       <Point>QN545</Point>
@@ -165,6 +166,7 @@
       <Point>DANLU</Point>
       <Point>MOPGA</Point>
       <Point>LARAV</Point>
+      <Point>OMUBO</Point>
       <Point>RO186</Point>
       <Point>SEKBU</Point>
       <Point>RIDGE</Point>
@@ -215,7 +217,7 @@
     <Line Pattern="Solid">TAYLA/LAXOD/HN18L</Line>
     <Line Pattern="Solid">VATNA/ISPOT/HN18L</Line>
     <Line Pattern="Solid">LEKED/SEKNI/DANLU/PM482/PM25T</Line>
-    <Line Pattern="Solid">IBABU/QN577/QN573/QN571/QN565/MOPGA/OMUBO/QN555/QN550/QN545/QN05T</Line>
+    <Line Pattern="Solid">IBABU/QN577/QN573/QN571/QN569/QN565/MOPGA/OMUBO/QN555/QN550/QN545/QN05T</Line>
     <Line Pattern="Solid">ATVUP/QN760/QN755/LARAV/QN745/QN741/QN735/QN731/QN725/QN23T</Line>
     <Line Pattern="Solid">ATKIL/QN780/QN775/QN770/ATVUP</Line>
     <Line Pattern="Solid">UGPED/QN779/QN774/ATVUP</Line>
@@ -301,8 +303,6 @@
       <Point>ENBAR</Point>
       <Point>DABGU</Point>
       <Point>NILID</Point>
-      <Point>ATKIL</Point>
-      <Point>UGPED</Point>
       <Point>SEBSA</Point>
       <Point>OKERE</Point>
       <Point>MORTA</Point>
@@ -385,8 +385,6 @@
       <Point>IVREP</Point>
       <Point>PP411</Point>
       <Point>TAXEV</Point>
-      <Point>GUSAS</Point>
-      <Point>IKABA</Point>
       <Point>ANGEB</Point>
       <Point>ELKOB</Point>
       <Point>RIPSA</Point>
@@ -461,8 +459,6 @@
       <Point>UVUSI</Point>
       <Point>NOKIX</Point>
       <Point>LEVBI</Point>
-      <Point>IBABU</Point>
-      <Point>GIVAK</Point>
       <Point>TOTRA</Point>
       <Point>NIKOR</Point>
       <Point>TENIX</Point>
@@ -517,10 +513,6 @@
       <Point>-39.449436+176.869419</Point>
       <Point>PP414</Point>
       <Point>PP421</Point>
-      <Point>QN529</Point>
-      <Point>LETPO</Point>
-      <Point>QN780</Point>
-      <Point>ONADU</Point>
       <Point>-38.125194+176.293947</Point>
       <Point>TK407</Point>
       <Point>TU402</Point>
@@ -610,8 +602,6 @@
       <Point>ENBAR</Point>
       <Point>DABGU</Point>
       <Point>NILID</Point>
-      <Point>ATKIL</Point>
-      <Point>UGPED</Point>
       <Point>SEBSA</Point>
       <Point>OKERE</Point>
       <Point>MORTA</Point>
@@ -704,8 +694,6 @@
       <Point>IVREP</Point>
       <Point>PP411</Point>
       <Point>TAXEV</Point>
-      <Point>GUSAS</Point>
-      <Point>IKABA</Point>
       <Point>ANGEB</Point>
       <Point>-38.172367+176.219978</Point>
       <Point>ELKOB</Point>
@@ -786,8 +774,6 @@
       <Point>UVUSI</Point>
       <Point>NOKIX</Point>
       <Point>LEVBI</Point>
-      <Point>IBABU</Point>
-      <Point>GIVAK</Point>
       <Point>TOTRA</Point>
       <Point>NIKOR</Point>
       <Point>TENIX</Point>
@@ -940,10 +926,6 @@
     <Line Pattern="Solid">LEVBI/TAXEV/PP421/PP34T</Line>
     <Line Pattern="Solid">DABGU/LEVBI</Line>
     <Line Pattern="Solid">NILID/LEVBI</Line>
-    <Line Pattern="Solid">IBABU/QN529/LETPO/GUSAS/QN581</Line>
-    <Line Pattern="Solid">GIVAK/IKABA/QN603</Line>
-    <Line Pattern="Solid">ATKIL/QN780/ONADU/GIVAK</Line>
-    <Line Pattern="Solid">UGPED/ONADU</Line>
     <Line Pattern="Solid">SEBSA/ANGEB/RC401/NZRC</Line>
     <Line Pattern="Solid">TOTRA/-38.172367+176.219978/-38.125194+176.293947/OKERE</Line>
     <Line Pattern="Solid">NIKOR/ELKOB/RO18T</Line>

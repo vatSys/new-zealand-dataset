@@ -14,6 +14,22 @@
       ANPOV/ATVOR/TIMJO
     </Line>
     <Line Pattern="Dashed">
+      <!--Rwy05 BRG9-->
+      -45.016544+168.757728/-45.008480+168.797670/-44.964240+168.837950/-44.957740+168.756740/QN VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05 BRG9.KALDI-->
+      QN VOR/KALDI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05 BRG9.PORUT-->
+      QN VOR/PORUT
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05 BRG9.SAVLA-->
+      QN VOR/SAVLA
+    </Line>
+    <Line Pattern="Dashed">
       <!--Rwy05 DOVM2A-->
       -45.016544+168.757728/QN605/QN615/QN621/DOVMA/QN678/QN682/QN686/QN690/QN737/BUGSA/QN878/QN882
     </Line>
@@ -27,7 +43,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05 EPDE3C-->
-      -45.016544+168.757728/QN VOR/AGTAM/EPDEX
+      QN VOR/AGTAM/EPDEX
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05 EPDE3C.SAVLA-->
@@ -94,6 +110,8 @@
       <Point>SAVLA</Point>
       <Point>ATVOR</Point>
       <Point>TIMJO</Point>
+      <Point>KALDI</Point>
+      <Point>PORUT</Point>
       <Point>QN605</Point>
       <Point>QN615</Point>
       <Point>QN621</Point>
@@ -128,12 +146,15 @@
     </Symbol>
     <Label HasLeader="true">
       <Point>ANPOV</Point>
+      <Point>QN VOR</Point>
       <Point>QN882</Point>
       <Point>EPDEX</Point>
       <Point>IPNOR</Point>
       <Point>SUNGU</Point>
       <Point>SAVLA</Point>
       <Point>TIMJO</Point>
+      <Point>KALDI</Point>
+      <Point>PORUT</Point>
       <Point>ADLUP</Point>
       <Point>ADKOS</Point>
       <Point>LIBLA</Point>
@@ -197,33 +218,13 @@
       <Point>IBABU</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="05 GNSS" Priority="1" Center="-45.020000+168.735689" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle">
-      <Point>QN529</Point>
-      <Point>LETPO</Point>
-    </Symbol>
-    <Symbol Type="HollowTriangle" />
-    <Symbol Type="MalteseCross">
-      <Point>GUSAS</Point>
-    </Symbol>
-    <Symbol Type="SolidTriangle">
-      <Point>IBABU</Point>
-    </Symbol>
-    <Line Pattern="Solid">IBABU/QN529/LETPO/GUSAS/QN581</Line>
-  </Map>
-  <Map Type="System2" Name="05 GNSS Labels" Priority="1" Center="-45.020000+168.735689" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>GUSAS</Point>
-      <Point>IBABU</Point>
-    </Label>
-  </Map>
   <Map Type="System2" Name="05 RNP" Priority="1" Center="-45.020000+168.735689" CustomColourName="ProcArr">
     <Symbol Type="HollowTriangle">
       <Point>QN577</Point>
       <Point>QN573</Point>
       <Point>QN571</Point>
+      <Point>QN569</Point>
       <Point>QN565</Point>
-      <Point>OMUBO</Point>
       <Point>QN555</Point>
       <Point>QN550</Point>
       <Point>QN545</Point>
@@ -231,15 +232,17 @@
     <Symbol Type="HollowTriangle" />
     <Symbol Type="MalteseCross">
       <Point>MOPGA</Point>
+      <Point>OMUBO</Point>
     </Symbol>
     <Symbol Type="SolidTriangle">
       <Point>IBABU</Point>
     </Symbol>
-    <Line Pattern="Solid">IBABU/QN577/QN573/QN571/QN565/MOPGA/OMUBO/QN555/QN550/QN545/QN05T</Line>
+    <Line Pattern="Solid">IBABU/QN577/QN573/QN571/QN569/QN565/MOPGA/OMUBO/QN555/QN550/QN545/QN05T</Line>
   </Map>
   <Map Type="System2" Name="05 RNP Labels" Priority="1" Center="-45.020000+168.735689" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>MOPGA</Point>
+      <Point>OMUBO</Point>
       <Point>IBABU</Point>
     </Label>
   </Map>
@@ -320,11 +323,11 @@
       QN882/SUNGU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 SUNG3Q-->
+      <!--Rwy23 SUNG4Q-->
       VAPLI/IBVUK/SUNGU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 SUNG3Q.ADLUP-->
+      <!--Rwy23 SUNG4Q.ADLUP-->
       SUNGU/BASOS
     </Line>
     <Line Pattern="Dashed">
@@ -459,33 +462,6 @@
       <Point>LIBLA</Point>
       <Point>ATKIL</Point>
       <Point>UGPED</Point>
-    </Label>
-  </Map>
-  <Map Type="System2" Name="23 GNSS" Priority="1" Center="-45.016544+168.757728" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle">
-      <Point>QN780</Point>
-      <Point>ONADU</Point>
-    </Symbol>
-    <Symbol Type="HollowTriangle">
-      <Point>ATKIL</Point>
-      <Point>UGPED</Point>
-    </Symbol>
-    <Symbol Type="MalteseCross">
-      <Point>IKABA</Point>
-    </Symbol>
-    <Symbol Type="SolidTriangle">
-      <Point>GIVAK</Point>
-    </Symbol>
-    <Line Pattern="Solid">GIVAK/IKABA/QN603</Line>
-    <Line Pattern="Solid">ATKIL/QN780/ONADU/GIVAK</Line>
-    <Line Pattern="Solid">UGPED/ONADU</Line>
-  </Map>
-  <Map Type="System2" Name="23 GNSS Labels" Priority="1" Center="-45.016544+168.757728" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>ATKIL</Point>
-      <Point>UGPED</Point>
-      <Point>IKABA</Point>
-      <Point>GIVAK</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="23 RNP" Priority="1" Center="-45.016544+168.757728" CustomColourName="ProcArr">
