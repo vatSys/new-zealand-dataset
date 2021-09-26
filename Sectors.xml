@@ -12,23 +12,24 @@
   <!-- Other Sectors -->
   <Sector FullName="Area South" Frequency="129.300" Callsign="NZCH-S_CTR" Name="STH">
     <Volumes>STH</Volumes>
-    <ResponsibleSectors>TDN,TNV</ResponsibleSectors>
+    <ResponsibleSectors>QTMA,TDN,TNV</ResponsibleSectors>
   </Sector>
   <Sector FullName="Bays" Frequency="119.500" Callsign="NZCH-B_CTR" Name="BAY">
     <Volumes>BAY</Volumes>
-    <ResponsibleSectors>TGS</ResponsibleSectors>
+    <ResponsibleSectors>TGS,HTMA</ResponsibleSectors>
   </Sector>
   <Sector FullName="Kaikoura" Frequency="129.400" Callsign="NZCH-K_CTR" Name="KAI">
     <Volumes>KAI</Volumes>
+    <ResponsibleSectors>CTMA</ResponsibleSectors>
   </Sector>
   <Sector FullName="Christchurch Director" Frequency="129.200" Callsign="NZCH-D_CTR" Name="NZCH-D" />
   <Sector FullName="Oceanic Radar" Frequency="123.900" Callsign="NZAA_CTR" Name="OCR">
     <Volumes>OCR</Volumes>
-    <ResponsibleSectors>BAY,RAN</ResponsibleSectors>
+    <ResponsibleSectors>BAY,RAN,ATMA</ResponsibleSectors>
   </Sector>
   <Sector FullName="Ohakea Area" Frequency="126.200" Callsign="NZOH_CTR" Name="OHA">
     <Volumes>OHA</Volumes>
-    <ResponsibleSectors>TNR</ResponsibleSectors>
+    <ResponsibleSectors>TNR,OTMA</ResponsibleSectors>
   </Sector>
   <Sector FullName="Raglan" Frequency="126.000" Callsign="NZAA-R_CTR" Name="RAN">
     <Volumes>RAN</Volumes>
@@ -36,7 +37,7 @@
   </Sector>
   <Sector FullName="Taranaki" Frequency="123.700" Callsign="NZCH-T_CTR" Name="NAK">
     <Volumes>NAK</Volumes>
-    <ResponsibleSectors>OHA,TNS</ResponsibleSectors>
+    <ResponsibleSectors>OHA,TNS,WTMA</ResponsibleSectors>
   </Sector>
   <Sector FullName="Auckland Approach" Frequency="124.300" Callsign="NZAA_APP" Name="ATMA">
     <Volumes>ATMA</Volumes>

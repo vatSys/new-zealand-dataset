@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Group Name="Enroute">
-    <Position Name="Taranaki" Type="ASD" DefaultCenter="-4119.379+17448.190" DefaultRange="500" MagneticVariation="-21">
+    <Position Name="Taranaki" Type="ASD" DefaultCenter="-381200.000+1771110.000" DefaultRange="500" MagneticVariation="-21">
       <Sectors>
         <Sector Name="NAK" />
         <Sector Name="OHA" />
+        <Sector Name="TNS" />
+        <Sector Name="WTMA" />
+        <Sector Name="OTMA" />
+        <Sector Name="TNR" />
       </Sectors>
       <Maps>
         <Map Name="Coast" />
@@ -27,11 +31,15 @@
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Oceanic Radar" Type="ASD" DefaultCenter="-370020.413+1744725.105" DefaultRange="600" MagneticVariation="-21">
+    <Position Name="Oceanic Radar" Type="ASD" DefaultCenter="-370020.413+1744725.105" DefaultRange="1000" MagneticVariation="-21">
       <Sectors>
         <Sector Name="OCR" />
         <Sector Name="RAN" />
         <Sector Name="BAY" />
+        <Sector Name="ATMA" />
+        <Sector Name="TGS" />
+        <Sector Name="TNP" />
+        <Sector Name="HTMA" />
       </Sectors>
       <Maps>
         <Map Name="Coast" />
@@ -57,6 +65,7 @@
     <Position Name="Raglan" Type="ASD" DefaultCenter="-380531.000+1745108.000" DefaultRange="400" MagneticVariation="-21">
       <Sectors>
         <Sector Name="RAN" />
+        <Sector Name="TNP" />
       </Sectors>
       <Maps>
         <Map Name="Coast" />
@@ -78,9 +87,11 @@
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Bay" Type="ASD" DefaultCenter="-380633.001+1761901.999" DefaultRange="300" MagneticVariation="-21">
+    <Position Name="Bay" Type="ASD" DefaultCenter="-380633.001+1761901.999" DefaultRange="600" MagneticVariation="-21">
       <Sectors>
         <Sector Name="BAY" />
+        <Sector Name="TGS" />
+        <Sector Name="HTMA" />
       </Sectors>
       <Maps>
         <Map Name="Coast" />
@@ -113,9 +124,11 @@
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Ohakea Area" Type="ASD" DefaultCenter="-401412.905+1760432.935" DefaultRange="350" MagneticVariation="-21">
+    <Position Name="Ohakea Area" Type="ASD" DefaultCenter="-401412.905+1760432.935" DefaultRange="600" MagneticVariation="-21">
       <Sectors>
         <Sector Name="OHA" />
+        <Sector Name="TNR" />
+        <Sector Name="OTMA" />
       </Sectors>
       <Maps>
         <Map Name="Coast" />
@@ -138,9 +151,10 @@
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Kaikoura" Type="ASD" DefaultCenter="-422530.000+1733619.000" DefaultRange="300" MagneticVariation="-21">
+    <Position Name="Kaikoura" Type="ASD" DefaultCenter="-422530.000+1733619.000" DefaultRange="600" MagneticVariation="-21">
       <Sectors>
         <Sector Name="KAI" />
+        <Sector Name="CTMA" />
       </Sectors>
       <Maps>
         <Map Name="Coast" />
@@ -163,9 +177,12 @@
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Area South" Type="ASD" DefaultCenter="-440008.132+1702657.686" DefaultRange="600" MagneticVariation="-21">
+    <Position Name="Area South" Type="ASD" DefaultCenter="-440008.132+1702657.686" DefaultRange="1000" MagneticVariation="-21">
       <Sectors>
         <Sector Name="STH" />
+        <Sector Name="QTMA" />
+        <Sector Name="TDN" />
+        <Sector Name="TNV" />
       </Sectors>
       <Maps>
         <Map Name="Coast" />
@@ -190,7 +207,7 @@
     </Position>
   </Group>
   <Group Name="ACU">
-    <Position Name="Auckland ACU" Type="ASD" DefaultCenter="-370020.413+1744725.105" DefaultRange="160" MagneticVariation="-21">
+    <Position Name="Auckland ACU" Type="ASD" DefaultCenter="-370020.413+1744725.105" DefaultRange="300" MagneticVariation="-21">
       <Sectors>
         <Sector Name="ATMA" />
         <Sector Name="AARR" />
@@ -255,7 +272,7 @@
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Wellington ACU" Type="ASD" DefaultCenter="-411937.999+1744819.001" DefaultRange="130" MagneticVariation="-21">
+    <Position Name="Wellington ACU" Type="ASD" DefaultCenter="-411937.999+1744819.001" DefaultRange="300" MagneticVariation="-21">
       <Sectors>
         <Sector Name="WTMA" />
         <Sector Name="WDEP" />
@@ -313,7 +330,7 @@
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Christchurch ACU" Type="ASD" DefaultCenter="-432909.351+1723216.287" DefaultRange="140" MagneticVariation="-21">
+    <Position Name="Christchurch ACU" Type="ASD" DefaultCenter="-432909.351+1723216.287" DefaultRange="300" MagneticVariation="-21">
       <Sectors>
         <Sector Name="CTMA" />
         <Sector Name="CDEP" />
@@ -364,7 +381,7 @@
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Queenstown ACU" Type="ASD" DefaultCenter="-450124.250+1684456.277" DefaultRange="160" MagneticVariation="-21">
+    <Position Name="Queenstown ACU" Type="ASD" DefaultCenter="-450124.250+1684456.277" DefaultRange="300" MagneticVariation="-21">
       <Sectors>
         <Sector Name="QTMA" />
       </Sectors>
@@ -408,7 +425,7 @@
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Hamilton ACU" Type="ASD" DefaultCenter="-375159.980+1751955.402" DefaultRange="120" MagneticVariation="-21">
+    <Position Name="Hamilton ACU" Type="ASD" DefaultCenter="-375159.980+1751955.402" DefaultRange="160" MagneticVariation="-21">
       <Sectors>
         <Sector Name="HTMA" />
       </Sectors>
@@ -442,7 +459,7 @@
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Ohakea ACU" Type="ASD" DefaultCenter="-401229.628+1752314.936" DefaultRange="120" MagneticVariation="-21">
+    <Position Name="Ohakea ACU" Type="ASD" DefaultCenter="-401229.628+1752314.936" DefaultRange="200" MagneticVariation="-21">
       <Sectors>
         <Sector Name="OTMA" />
       </Sectors>

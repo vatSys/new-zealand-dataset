@@ -2,7 +2,7 @@
 <Maps>
   <Map Type="System2" Name="TMA Sectors" Priority="2">
     <!--HN_APP-->
-    <Line Name="HN_APP" Pattern="Hash">
+    <Line Name="HNTMA" Pattern="Hash">
       -372914.200+1752153.400/
       -373928.800+1753140.300/
       -374725.800+1753342.700/
