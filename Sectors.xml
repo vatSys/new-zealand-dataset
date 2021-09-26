@@ -12,7 +12,7 @@
   <!-- Other Sectors -->
   <Sector FullName="Area South" Frequency="129.300" Callsign="NZCH-S_CTR" Name="STH">
     <Volumes>STH</Volumes>
-    <ResponsibleSectors>QTMA,TDN,TNV</ResponsibleSectors>
+    <ResponsibleSectors>QTMA,TDN,TNV, MFS</ResponsibleSectors>
   </Sector>
   <Sector FullName="Bays" Frequency="119.500" Callsign="NZCH-B_CTR" Name="BAY">
     <Volumes>BAY</Volumes>
@@ -67,7 +67,7 @@
   </Sector>
   <Sector FullName="Wellington Approach" Frequency="119.300" Callsign="NZWN_APP" Name="WTMA">
     <Volumes>WTMA</Volumes>
-    <ResponsibleSectors>WDEP</ResponsibleSectors>
+    <ResponsibleSectors>WDEP, PFS</ResponsibleSectors>
   </Sector>
   <Sector FullName="Wellington Departures" Frequency="122.300" Callsign="NZWN_DEP" Name="WDEP">
     <Volumes>WTMA</Volumes>

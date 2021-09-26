@@ -183,6 +183,7 @@
         <Sector Name="QTMA" />
         <Sector Name="TDN" />
         <Sector Name="TNV" />
+        <Sector Name="MFS" />
       </Sectors>
       <Maps>
         <Map Name="Coast" />
@@ -276,6 +277,7 @@
       <Sectors>
         <Sector Name="WTMA" />
         <Sector Name="WDEP" />
+        <Sector Name="PFS" />
       </Sectors>
       <Maps>
         <Map Name="Coast" />
@@ -696,7 +698,7 @@
   <Group Name="FIS">
     <Position Name="Paraparaumu FIS" Type="ASD" DefaultCenter="-405417.000+1745921.000" DefaultRange="70" MagneticVariation="-21">
       <Sectors>
-        <Sector Name="PPFIS" />
+        <Sector Name="PFS" />
       </Sectors>
       <Maps>
         <Map Name="Coast" />
