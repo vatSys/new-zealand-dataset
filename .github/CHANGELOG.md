@@ -344,19 +344,21 @@ Procedural Towers will be getting their own Position definitions next AIRAC, so 
 
 Minor changes to the dataset this month as it is a non-major amendment month.
 
-#### ANR Updates
+#### **ANR Updates**
 
 * Removal of `NZSL` as an IFR-VFR AD. The associated IFR procedures have been withdrawn.
-* **NZWT**: Addition of the `OTVAP 1P` departure (Rwy 04) and RNAV (GNSS) A approach.
 * Addition of the `AVNEM`, `IGOVU`, `LIDGA`, `OLVOL`, `OPEKU`, `UGSAP` and `VETUM` IFR fixes.
+* **NZWT**: Addition of the `OTVAP 1P` departure (Rwy 04) and RNAV (GNSS) A approach.
 
-#### Dataset Updates
+#### **Dataset Updates**
 
 * **NZPN** : Addition of the `SEDSI 2R` departure, which had been previously missed.
 * Changed position short-codes for `NZZO_FSS (AO)`, `BN-TSN_FSS (BNO)` and `ML-IND_FSS (MLO)`.
 * Addition of VATPAC Oceanic Stations (NOTAM will follow after release with additional info).
 * `Auckland Radio` position short code changed from `AO` to `ARO`.
+* Minor updating of QN RNPs.
+* Fixed DefaultSector definitions. Superior sectors should now properly inherit subordinate sectors.
 
-#### Procedural Towers
+#### **Procedural Towers**
 
 All of the Procedural Towers now have their own ACU view, which can be selected through the `Positions > Procedural Tower` menu. The Procedural Tower `ControllerInfo` definitions added in the previous AIRAC have been removed.
