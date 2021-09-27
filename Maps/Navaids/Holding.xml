@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="Enroute Holds" Priority="2" CustomColourName="IFREnrHolds" Center="-42.0+172.0">
+  <Map Type="System2" Name="Enroute Holds" Priority="2" CustomColourName="IFREnr" Center="-42.0+172.0">
     <Line Name="ADKOS" Pattern="Solid">
 -443701.620+1665249.550/
 -443722.374+1665353.004/
