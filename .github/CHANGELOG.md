@@ -353,12 +353,25 @@ Minor changes to the dataset this month as it is a non-major amendment month.
 #### **Dataset Updates**
 
 * **NZPN** : Addition of the `SEDSI 2R` departure, which had been previously missed.
-* Changed position short-codes for `NZZO_FSS (AO)`, `BN-TSN_FSS (BNO)` and `ML-IND_FSS (MLO)`.
-* Addition of VATPAC Oceanic Stations (NOTAM will follow after release with additional info).
-* `Auckland Radio` position short code changed from `AO` to `ARO`.
+* Changed position short-codes for `NZZO_FSS (AO)`, which is now `NZZO_FSS (ARO)`. Additional changes to `BN-TSN_FSS (BNO)` and `ML-IND_FSS (MLO)`.
+* Addition of VATPAC Oceanic Stations.
 * Minor updating of QN RNPs.
-* Fixed DefaultSector definitions. Superior sectors should now properly inherit subordinate sectors.
+* Fixed DefaultSector definitions. Superior sectors should now properly inherit subordinate sectors, in additon to PP FIS now being linked to a defined Sector volume.
+* Slight re-organisation of Map layers. `ATS Routes` can now be found under `Navaids`.
+* Addition of Enroute Holding Patterns and IFR Waypoint map layers. See the below heading.
 
 #### **Procedural Towers**
 
 All of the Procedural Towers now have their own ACU view, which can be selected through the `Positions > Procedural Tower` menu. The Procedural Tower `ControllerInfo` definitions added in the previous AIRAC have been removed.
+
+#### **Enroute Holds**
+
+All Enroute Holds have been added under `Maps > Navaids`. The label stemming from the Solid Triangle is the holding waypoint. Within the racetrack are two other datalines - `XXX L/R` and `YYYY`. 
+
+- In `XXX L/R`, the `XXX` is the inbound heading of the hold. Either `L` or `R` is shown next to it, to denote whether it is a left or right turn holding pattern. 
+- `YYYY` denotes the minimum holding altitude, typically based on MSA or airspace/traffic containment. 
+
+
+<center>
+  <img src="assets/IFREnrHolds.png" width="500" style="padding-top: 15px; padding-bottom: 15px;" />
+</center>
