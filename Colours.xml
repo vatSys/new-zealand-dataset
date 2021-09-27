@@ -44,7 +44,7 @@
 
   <Colour id="Custom">
     <Use>Aerodrome IFR Departure Procedures</Use>
-    <Name>IFREnrHolds</Name>
+    <Name>IFREnr</Name>
     <R>45</R>
     <G>45</G>
     <B>45</B>
