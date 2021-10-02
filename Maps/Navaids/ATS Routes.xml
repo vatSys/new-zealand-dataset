@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="ATS Routes" Priority="1" Center="-23.700+133.870">
+  <Map Type="System" Name="ATS Routes" Priority="1" CustomColourName="IFREnr" Center="-42.0+172.0">
     <Line Name="A212_0">NU NDB.A212.PUPIS</Line>
     <Line Name="A338_0">NOBEY.A338.CH VOR</Line>
     <Line Name="A346_0">AA VOR.A346.PADDY</Line>
@@ -1131,8 +1131,8 @@
     <Symbol Type="HollowTriangleWithBorder" />
   </Map>
   <Map />
-  <Map Type="System" Name="ATS Routes Labels" Priority="1" Center="-23.700+133.870">
-    <Label>
+  <Map Type="System" Name="ATS Routes Labels" Priority="1" CustomColourName="IFREnr" Center="-42.0+172.0">
+    <Label HasLeader="true" LabelOrientation="NW">
       <Point>NU NDB</Point>
       <Point>GUGET</Point>
       <Point>TUT NDB</Point>

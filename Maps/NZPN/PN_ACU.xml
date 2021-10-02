@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="18 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.349311+173.954389">
+    <Line Pattern="Dashed">
+      <!--Rwy18 SEDS2R-->
+      -41.349311+173.954389/NZPN/-41.440900+173.969350/VASLU/SEDSI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18 SEDS2R.AVPOD-->
+      SEDSI/AVPOD
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18 SEDS2R.IGMUL-->
+      SEDSI/IGMUL
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18 SEDS2R.IPMIR-->
+      SEDSI/IPMIR
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>NZPN</Point>
+      <Point>VASLU</Point>
+      <Point>SEDSI</Point>
+      <Point>AVPOD</Point>
+      <Point>IGMUL</Point>
+      <Point>IPMIR</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>SEDSI</Point>
+      <Point>AVPOD</Point>
+      <Point>IGMUL</Point>
+      <Point>IPMIR</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="36 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.344122+173.958497">
+    <Line Pattern="Dashed">
+      <!--Rwy36 SEDS2R-->
+      -41.344122+173.958497/NZPN/-41.440900+173.969350/VASLU/SEDSI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36 SEDS2R.AVPOD-->
+      SEDSI/AVPOD
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36 SEDS2R.IGMUL-->
+      SEDSI/IGMUL
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36 SEDS2R.IPMIR-->
+      SEDSI/IPMIR
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>NZPN</Point>
+      <Point>VASLU</Point>
+      <Point>SEDSI</Point>
+      <Point>AVPOD</Point>
+      <Point>IGMUL</Point>
+      <Point>IPMIR</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>SEDSI</Point>
+      <Point>AVPOD</Point>
+      <Point>IGMUL</Point>
+      <Point>IPMIR</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-41.348333+173.955278">
+    <Symbol Type="HollowSquare">
+      <Point Name="ADELE ISLAND">-405835.800+1730405.500</Point>
+      <Point Name="AVALON">-411105.800+1745636.600</Point>
+      <Point Name="AWATERE RIVER MOUTH">-413624.900+1740957.600</Point>
+      <Point Name="BARING">-412434.800+1745203.600</Point>
+      <Point Name="BELMONT HILL">-411100.800+1745226.600</Point>
+      <Point Name="BOULDER">-411210.800+1731923.500</Point>
+      <Point Name="BRANFORD">-411626.300+1731744.400</Point>
+      <Point Name="BRIGHTWATER">-412235.800+1730605.500</Point>
+      <Point Name="CAPE SOUCIS">-410303.800+1733536.500</Point>
+      <Point Name="CHIP MILL">-411913.800+1730958.500</Point>
+      <Point Name="DASHWOOD PASS">-413629.100+1740313.700</Point>
+      <Point Name="DOMES">-413430.000+1734426.000</Point>
+      <Point Name="DOVEDALE">-411711.600+1725336.700</Point>
+      <Point Name="GOAT HILL">-412437.800+1731057.500</Point>
+      <Point Name="GRENADA">-411056.900+1745008.600</Point>
+      <Point Name="HARBOUR ENTRANCE">-412044.800+1745011.600</Point>
+      <Point Name="HAYWARDS">-410858.800+1745852.600</Point>
+      <Point Name="ISLAND BAY">-412058.800+1744622.600</Point>
+      <Point Name="JACKETTS ISLAND">-410853.800+1730147.500</Point>
+      <Point Name="JENKINS HILL">-411952.800+1731646.500</Point>
+      <Point Name="KAITUNA BRIDGE">-412842.400+1734844.400</Point>
+      <Point Name="KARORI ROCK">-412037.800+1743906.600</Point>
+      <Point Name="KINA">-411059.800+1730351.500</Point>
+      <Point Name="MAITAI SADDLE">-411818.800+1732505.500</Point>
+      <Point Name="MAKARA PEAK">-411720.400+1744225.000</Point>
+      <Point Name="MANA ISLAND">-410442.800+1744651.600</Point>
+      <Point Name="MAPUA">-411523.800+1730600.500</Point>
+      <Point Name="MATAI DAM">-411738.600+1732231.300</Point>
+      <Point Name="MOTUEKA">-410636.800+1730042.500</Point>
+      <Point Name="OBSERVATORY">-411703.700+1744601.100</Point>
+      <Point Name="OHAU POINT">-411418.800+1743843.600</Point>
+      <Point Name="OKARAMIO">-412506.300+1734534.600</Point>
+      <Point Name="PAREMATA">-410611.900+1745211.500</Point>
+      <Point Name="PENCARROW">-412134.800+1745055.600</Point>
+      <Point Name="PEPIN ISLAND">-410832.800+1732532.500</Point>
+      <Point Name="PETONE WHARF">-411343.800+1745213.600</Point>
+      <Point Name="PIPINUI POINT">-411023.800+1744420.600</Point>
+      <Point Name="POINT GORDON">-411744.800+1745011.600</Point>
+      <Point Name="POINT HOWARD">-411522.800+1745358.600</Point>
+      <Point Name="PONDS">-413207.500+1740233.800</Point>
+      <Point Name="PUKERUA BAY">-410141.800+1745311.600</Point>
+      <Point Name="RABBIT ISLAND BRIDGE">-411702.800+1730755.500</Point>
+      <Point Name="RACECOURSE">-412004.800+1731050.500</Point>
+      <Point Name="RARANGI">-412330.800+1740248.600</Point>
+      <Point Name="REDWOODS VALLEY">-411803.800+1730429.500</Point>
+      <Point Name="RUNUNDER POINT">-411908.800+1741416.600</Point>
+      <Point Name="SAWMILL">-412039.800+1730448.500</Point>
+      <Point Name="SEDDON">-414021.900+1740427.600</Point>
+      <Point Name="SINCLAIR HEAD">-412143.800+1744257.600</Point>
+      <Point Name="SOMES">-411532.700+1745158.200</Point>
+      <Point Name="SPRING CREEK">-412737.800+1735745.300</Point>
+      <Point Name="TAYLOR DAM">-413422.300+1735554.600</Point>
+      <Point Name="TAYLOR PASS">-413749.700+1735748.800</Point>
+      <Point Name="TERAWHITI">-411743.800+1743705.600</Point>
+      <Point Name="THE DIVERSION">-412624.800+1740145.600</Point>
+      <Point Name="THE NED">-413837.200+1735516.000</Point>
+      <Point Name="THE RIDGE">-413211.100+1735216.900</Point>
+      <Point Name="TUAMARINA BRIDGE">-412622.400+1735754.000</Point>
+      <Point Name="TURAKIRAE">-412617.800+1745503.600</Point>
+      <Point Name="UPPER MOUTERE">-411613.400+1730022.900</Point>
+      <Point Name="WAIHOPAI BRIDGE">-413139.800+1734400.500</Point>
+      <Point Name="WAIRAU BAR">-412959.800+1740344.200</Point>
+      <Point Name="WAKEFIELD">-412418.800+1730245.500</Point>
+      <Point Name="WARD ISLAND">-411737.800+1745217.600</Point>
+      <Point Name="WATERTANK">-413250.300+1735723.600</Point>
+      <Point Name="WHANGAMOA SADDLE">-411306.800+1732609.500</Point>
+      <Point Name="WHITE BLUFFS">-413328.900+1740849.600</Point>
+      <Point Name="WINDMILL">-411838.800+1744443.600</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point Name="ADELE ISLAND">-405835.800+1730405.500</Point>
+      <Point Name="AVALON">-411105.800+1745636.600</Point>
+      <Point Name="AWATERE RIVER MOUTH">-413624.900+1740957.600</Point>
+      <Point Name="BARING">-412434.800+1745203.600</Point>
+      <Point Name="BELMONT HILL">-411100.800+1745226.600</Point>
+      <Point Name="BOULDER">-411210.800+1731923.500</Point>
+      <Point Name="BRANFORD">-411626.300+1731744.400</Point>
+      <Point Name="BRIGHTWATER">-412235.800+1730605.500</Point>
+      <Point Name="CAPE SOUCIS">-410303.800+1733536.500</Point>
+      <Point Name="CHIP MILL">-411913.800+1730958.500</Point>
+      <Point Name="DASHWOOD PASS">-413629.100+1740313.700</Point>
+      <Point Name="DOMES">-413430.000+1734426.000</Point>
+      <Point Name="DOVEDALE">-411711.600+1725336.700</Point>
+      <Point Name="GOAT HILL">-412437.800+1731057.500</Point>
+      <Point Name="GRENADA">-411056.900+1745008.600</Point>
+      <Point Name="HARBOUR ENTRANCE">-412044.800+1745011.600</Point>
+      <Point Name="HAYWARDS">-410858.800+1745852.600</Point>
+      <Point Name="ISLAND BAY">-412058.800+1744622.600</Point>
+      <Point Name="JACKETTS ISLAND">-410853.800+1730147.500</Point>
+      <Point Name="JENKINS HILL">-411952.800+1731646.500</Point>
+      <Point Name="KAITUNA BRIDGE">-412842.400+1734844.400</Point>
+      <Point Name="KARORI ROCK">-412037.800+1743906.600</Point>
+      <Point Name="KINA">-411059.800+1730351.500</Point>
+      <Point Name="MAITAI SADDLE">-411818.800+1732505.500</Point>
+      <Point Name="MAKARA PEAK">-411720.400+1744225.000</Point>
+      <Point Name="MANA ISLAND">-410442.800+1744651.600</Point>
+      <Point Name="MAPUA">-411523.800+1730600.500</Point>
+      <Point Name="MATAI DAM">-411738.600+1732231.300</Point>
+      <Point Name="MOTUEKA">-410636.800+1730042.500</Point>
+      <Point Name="OBSERVATORY">-411703.700+1744601.100</Point>
+      <Point Name="OHAU POINT">-411418.800+1743843.600</Point>
+      <Point Name="OKARAMIO">-412506.300+1734534.600</Point>
+      <Point Name="PAREMATA">-410611.900+1745211.500</Point>
+      <Point Name="PENCARROW">-412134.800+1745055.600</Point>
+      <Point Name="PEPIN ISLAND">-410832.800+1732532.500</Point>
+      <Point Name="PETONE WHARF">-411343.800+1745213.600</Point>
+      <Point Name="PIPINUI POINT">-411023.800+1744420.600</Point>
+      <Point Name="POINT GORDON">-411744.800+1745011.600</Point>
+      <Point Name="POINT HOWARD">-411522.800+1745358.600</Point>
+      <Point Name="PONDS">-413207.500+1740233.800</Point>
+      <Point Name="PUKERUA BAY">-410141.800+1745311.600</Point>
+      <Point Name="RABBIT ISLAND BRIDGE">-411702.800+1730755.500</Point>
+      <Point Name="RACECOURSE">-412004.800+1731050.500</Point>
+      <Point Name="RARANGI">-412330.800+1740248.600</Point>
+      <Point Name="REDWOODS VALLEY">-411803.800+1730429.500</Point>
+      <Point Name="RUNUNDER POINT">-411908.800+1741416.600</Point>
+      <Point Name="SAWMILL">-412039.800+1730448.500</Point>
+      <Point Name="SEDDON">-414021.900+1740427.600</Point>
+      <Point Name="SINCLAIR HEAD">-412143.800+1744257.600</Point>
+      <Point Name="SOMES">-411532.700+1745158.200</Point>
+      <Point Name="SPRING CREEK">-412737.800+1735745.300</Point>
+      <Point Name="TAYLOR DAM">-413422.300+1735554.600</Point>
+      <Point Name="TAYLOR PASS">-413749.700+1735748.800</Point>
+      <Point Name="TERAWHITI">-411743.800+1743705.600</Point>
+      <Point Name="THE DIVERSION">-412624.800+1740145.600</Point>
+      <Point Name="THE NED">-413837.200+1735516.000</Point>
+      <Point Name="THE RIDGE">-413211.100+1735216.900</Point>
+      <Point Name="TUAMARINA BRIDGE">-412622.400+1735754.000</Point>
+      <Point Name="TURAKIRAE">-412617.800+1745503.600</Point>
+      <Point Name="UPPER MOUTERE">-411613.400+1730022.900</Point>
+      <Point Name="WAIHOPAI BRIDGE">-413139.800+1734400.500</Point>
+      <Point Name="WAIRAU BAR">-412959.800+1740344.200</Point>
+      <Point Name="WAKEFIELD">-412418.800+1730245.500</Point>
+      <Point Name="WARD ISLAND">-411737.800+1745217.600</Point>
+      <Point Name="WATERTANK">-413250.300+1735723.600</Point>
+      <Point Name="WHANGAMOA SADDLE">-411306.800+1732609.500</Point>
+      <Point Name="WHITE BLUFFS">-413328.900+1740849.600</Point>
+      <Point Name="WINDMILL">-411838.800+1744443.600</Point>
+    </Label>
+  </Map>
+</Maps>

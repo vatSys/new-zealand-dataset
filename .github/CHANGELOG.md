@@ -337,3 +337,41 @@ But what if you want to control Tauranga Tower? Open the Bay Approach Enroute vi
 </center>
 
 Procedural Towers will be getting their own Position definitions next AIRAC, so be on the lookout for that!
+
+## AIRAC 2110
+
+### Revision A (Initial)
+
+Minor changes to the dataset this month as it is a non-major amendment month.
+
+#### **ANR Updates**
+
+* Removal of `NZSL` as an IFR-VFR AD. The associated IFR procedures have been withdrawn.
+* Addition of the `AVNEM`, `IGOVU`, `LIDGA`, `OLVOL`, `OPEKU`, `UGSAP` and `VETUM` IFR fixes.
+* **NZWT**: Addition of the `OTVAP 1P` departure (Rwy 04) and RNAV (GNSS) A approach.
+
+#### **Dataset Updates**
+
+* **NZPN** : Addition of the `SEDSI 2R` departure, which had been previously missed.
+* Changed position short-codes for `NZZO_FSS (AO)`, which is now `NZZO_FSS (ARO)`. Additional changes to `BN-TSN_FSS (BNO)` and `ML-IND_FSS (MLO)`.
+* Addition of VATPAC Oceanic Stations.
+* Minor updating of QN RNPs.
+* Fixed DefaultSector definitions. Superior sectors should now properly inherit subordinate sectors, in additon to PP FIS now being linked to a defined Sector volume.
+* Slight re-organisation of Map layers. `ATS Routes` can now be found under `Navaids`.
+* Addition of Enroute Holding Patterns and IFR Waypoint map layers. See the below heading.
+
+#### **Procedural Towers**
+
+All of the Procedural Towers now have their own ACU view, which can be selected through the `Positions > Procedural Tower` menu. The Procedural Tower `ControllerInfo` definitions added in the previous AIRAC have been removed.
+
+#### **Enroute Holds**
+
+All Enroute Holds have been added under `Maps > Navaids`. The label stemming from the Solid Triangle is the holding waypoint. Within the racetrack are two other datalines - `XXX L/R` and `YYYY`. 
+
+- In `XXX L/R`, the `XXX` is the inbound heading of the hold. Either `L` or `R` is shown next to it, to denote whether it is a left or right turn holding pattern. 
+- `YYYY` denotes the minimum holding altitude, typically based on MSA or airspace/traffic containment. 
+
+
+<center>
+  <img src="assets/IFREnrHolds.png" width="500" style="padding-top: 15px; padding-bottom: 15px;" />
+</center>

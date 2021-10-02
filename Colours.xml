@@ -34,6 +34,22 @@
     <B>101</B>
   </Colour>
 
+  <Colour id="Custom">
+    <Use>Aerodrome IFR Departure Procedures</Use>
+    <Name>IFRWaypoints</Name>
+    <R>70</R>
+    <G>70</G>
+    <B>70</B>
+  </Colour>
+
+  <Colour id="Custom">
+    <Use>Aerodrome IFR Departure Procedures</Use>
+    <Name>IFREnr</Name>
+    <R>45</R>
+    <G>45</G>
+    <B>45</B>
+  </Colour>
+
 
   <Colour id="Custom">
     <Use>Custom colour for Restricted/Military airspace</Use>
