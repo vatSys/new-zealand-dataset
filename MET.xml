@@ -6,7 +6,7 @@
 	  <TAF url="https://aviationweather.gov/adds/dataserver_current/httpparam?dataSource=tafs&amp;requestType=retrieve&amp;format=xml&amp;stationString=%ICAO&amp;hoursBeforeNow=0&amp;timeType=valid&amp;mostRecent=true" xmlDataTag="raw_text" mostRecent="true"/>
     <NOTAM url="http://api.vateud.net/notams/%ICAO.xml" xmlDataTag="raw" />
   </ProductTypes>
-  <Browsers><!--bomw0007-->
+  <Browsers>
     <AIP url="http://www.aip.net.nz/" />
     <IFIS url="https://www.ifis.airways.co.nz/script/briefing/aerodrome_briefing.asp" />
     <MetFlight url="http://metflight.metra.co.nz/MetFlight.php" />
