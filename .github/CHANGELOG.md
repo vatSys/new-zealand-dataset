@@ -14,6 +14,8 @@
 - [AIRAC 2107](#airac-2107)
 - [AIRAC 2108](#airac-2108)
 - [AIRAC 2109](#airac-2109)
+- [AIRAC 2110](#airac-2110)
+- [AIRAC 2111](#airac-2111)
 
 
 ## AIRAC 2013
@@ -368,10 +370,30 @@ All of the Procedural Towers now have their own ACU view, which can be selected 
 
 All Enroute Holds have been added under `Maps > Navaids`. The label stemming from the Solid Triangle is the holding waypoint. Within the racetrack are two other datalines - `XXX L/R` and `YYYY`. 
 
-- In `XXX L/R`, the `XXX` is the inbound heading of the hold. Either `L` or `R` is shown next to it, to denote whether it is a left or right turn holding pattern. 
-- `YYYY` denotes the minimum holding altitude, typically based on MSA or airspace/traffic containment. 
+* In `XXX L/R`, the `XXX` is the inbound heading of the hold. Either `L` or `R` is shown next to it, to denote whether it is a left or right turn holding pattern. 
+* `YYYY` denotes the minimum holding altitude, typically based on MSA or airspace/traffic containment. 
 
 
 <center>
   <img src="assets/IFREnrHolds.png" width="500" style="padding-top: 15px; padding-bottom: 15px;" />
 </center>
+
+## AIRAC 2111
+
+### Revision A (Initial)
+
+[Summary Text to be written]
+
+#### **ANR Updates**
+
+* Addition of the `KQ578`, `Q154`,  `Q162`. Addition of `LIDGA` to `KQ613`.
+* Addition of the `AGSEV`, `AVNEM`, `BETPA`, `DABUV`, `EKILU`, `ENLOD`, `IGDUX`, `IGOVU`, `LIDGA`, `OBKIT`, `OLVOL`, `OPEKU`, `OVTAP`, `PIGUD`, `UGSAP`, `UPNOB`, `URDAP`, `VETUM`, `VEVOM` IFR waypoints. 
+* Removal of the `BAMEX`, `GORKI`, `GOWER`, `SEKLA`, `SEMKI`, `SHOAL` IFR waypoints.
+* Slight change to the co-ordinates for `NZJI`.
+* Addition of `NZWZ` - Warkworth.
+* Removal of `BELFAST`, `PRINCESS MARGARET` and `RUSSLEY` VRPs. Addition of `BELFAST OVERPASS`, `BURNSIDE PARK` and `EYRE JUNCTION` VRPs. The associated ACU VFR Waypoint Maps have been updated.
+
+#### **Dataset Updates**
+
+
+  
