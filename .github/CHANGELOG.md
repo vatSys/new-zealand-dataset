@@ -392,6 +392,7 @@ All Enroute Holds have been added under `Maps > Navaids`. The label stemming fro
 * Slight change to the co-ordinates for `NZJI`.
 * Addition of `NZWZ` - Warkworth.
 * Removal of `BELFAST`, `PRINCESS MARGARET` and `RUSSLEY` VRPs. Addition of `BELFAST OVERPASS`, `BURNSIDE PARK` and `EYRE JUNCTION` VRPs. The associated ACU VFR Waypoint Maps have been updated.
+* Slight changes to the boundaries for the `NZZC` FIR, in addition to minor changes to CTA and CTR lateral bounds.
 
 #### **Dataset Updates**
 
