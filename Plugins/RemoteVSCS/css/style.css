@@ -1,0 +1,142 @@
+@font-face {
+    font-family: Terminus;
+    src: url(../fonts/Terminus-Bold.ttf);
+  }
+
+body {
+    background-color: #D0D6E2;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Terminus, monospace;
+}
+.box {
+    width: 100%;
+}
+
+tr {
+    vertical-align: top;
+}
+
+td {
+    border-left: none;
+}
+
+#freqs {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-auto-flow: column;
+
+}
+
+#menus {
+    width: 105px;
+
+}
+
+#setup {
+    width: 315px;
+}
+
+#coord {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-auto-flow: column;
+}
+
+@-webkit-keyframes vscs-flash {
+    0%   { background-color: #5b447a; }
+    49% { background-color: #5b447a; }
+    50% { background-color: #fff; }
+    99% { background-color: #fff; }
+    100% { background-color: #5b447a; }
+}
+@-moz-keyframes vscs-flash {
+    0%   { background-color: #5b447a; }
+    49% { background-color: #5b447a; }
+    50% { background-color: #fff; }
+    99% { background-color: #fff; }
+    100% { background-color: #5b447a; }
+}
+@keyframes vscs-flash {
+    0%   { background-color: #5b447a; }
+    49% { background-color: #5b447a; }
+    50% { background-color: #fff; }
+    99% { background-color: #fff; }
+    100% { background-color: #5b447a; }
+}
+
+.vscs-btn {
+    font-family: Terminus, monospace;
+    font-size: 16px;
+    background-color: rgb(234, 240, 255);
+    box-shadow: inset 0 1px 0 0 hsl(0deg 0% 100% / 40%);
+    margin-top: 5px;
+    margin-left:5px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+
+.vscs-btn:active, .solid-active{
+    border-width: 2px;
+    border-style: solid;
+    border-top-color: black;
+    border-top-width:2px;
+    border-left-color: black;
+    border-left-width:2px;
+    border-bottom-color: grey;
+    border-bottom-width:2px;
+    border-right-color: grey;
+    border-right-width:2px;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+    outline: none;
+    background-color: rgb(200, 206, 220);
+}
+
+.freq-primary-transmit {
+    background-color: rgb(88,175,120);
+}
+
+    .freq-primary-transmit:active {
+        background-color: rgb(60, 124, 85);    
+    }
+
+.freq-receiving {
+    background-color: rgb(255,255,255);
+}
+
+.freq-receive {
+    background-color: rgb(235,235,0);
+}
+
+    .freq-receive:active, .coord-hotline:active {
+        background-color: rgb(204, 196, 44);
+    }
+
+.coord-hotline {
+    background-color: rgb(235,235,0);
+}
+
+.coord-coldline {
+    background-color: rgb(0,235,235);
+}
+
+    .coord-coldline:active {
+        background-color: rgb(0, 183, 183);
+    }
+
+.coord-active {
+    background-color: rgb(91,68,122);
+}
+
+    .coord-active:active {
+        background-color: rgb(52, 39, 71);
+    }
+
+.coord-ringing {
+    -webkit-animation: vscs-flash 1s infinite;
+    -moz-animation:    vscs-flash 1s infinite;
+    animation:         vscs-flash 1s infinite;
+}
+

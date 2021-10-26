@@ -12,31 +12,31 @@
       <!--Rwy14 NUH3-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 POPAD1-->
+      <!--Rwy14 POPAD2-->
       -38.669686+177.979039/POPAD/-38.678162+177.982151
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 POPAD1.COOKS-->
+      <!--Rwy14 POPAD2.COOKS-->
       -38.678162+177.982151/COOKS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 POPAD1.CREEK-->
+      <!--Rwy14 POPAD2.CREEK-->
       -38.678162+177.982151/ADLIB/CREEK
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 POPAD1.ELMER-->
+      <!--Rwy14 POPAD2.ELMER-->
       -38.678162+177.982151/ELMER
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 POPAD1.HAWKE-->
+      <!--Rwy14 POPAD2.HAWKE-->
       -38.678162+177.982151/HAWKE
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 POPAD1.OTOKO-->
+      <!--Rwy14 POPAD2.OTOKO-->
       ADLIB/EWOOD/OTOKO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 POPAD1.WARIK-->
+      <!--Rwy14 POPAD2.WARIK-->
       EWOOD/WARIK
     </Line>
     <Line Pattern="Dashed">
@@ -162,31 +162,31 @@
       <!--Rwy32 CRA3-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 NODEX1-->
+      <!--Rwy32 NODEX2-->
       -38.658300+177.974975/NODEX
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 NODEX1.COOKS-->
+      <!--Rwy32 NODEX2.COOKS-->
       NODEX/COOKS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 NODEX1.CREEK-->
+      <!--Rwy32 NODEX2.CREEK-->
       NODEX/CREEK
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 NODEX1.ELMER-->
+      <!--Rwy32 NODEX2.ELMER-->
       NODEX/MABRI/ELMER
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 NODEX1.EWOOD-->
+      <!--Rwy32 NODEX2.EWOOD-->
       NODEX/EWOOD
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 NODEX1.HAWKE-->
+      <!--Rwy32 NODEX2.HAWKE-->
       NODEX/HAWKE
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 NODEX1.OTOKO-->
+      <!--Rwy32 NODEX2.OTOKO-->
       NODEX/OTOKO
     </Line>
     <Line Pattern="Dashed">
