@@ -382,8 +382,6 @@ All Enroute Holds have been added under `Maps > Navaids`. The label stemming fro
 
 ### Revision A (Initial)
 
-[Summary Text to be written]
-
 #### **ANR Updates**
 
 * Addition of the `KQ578`, `Q154`,  `Q162`. Addition of `LIDGA` to `KQ613`.
