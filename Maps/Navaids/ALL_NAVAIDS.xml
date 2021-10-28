@@ -67,7 +67,7 @@
       <Point Name="TUT">-141957.320-1704229.800</Point>
       <Point Name="WB">-413110.830+1735145.650</Point>
       <Point Name="WN">-412014.020+1744901.060</Point>
-      <Point Name="WP">-364712.460+1743752.410</Point>
+      <Point Name="WP">-364712.450+1743752.450</Point>
     </Label>
   </Map>
   <Map Type="System" Name="NDB" Priority="1" Center="-42.0+172.0" CustomColourName="NDB">
@@ -137,7 +137,7 @@
       <Point>-141957.320-1704229.800</Point>
       <Point>-413110.830+1735145.650</Point>
       <Point>-412014.020+1744901.060</Point>
-      <Point>-364712.460+1743752.410</Point>
+      <Point>-364712.450+1743752.450</Point>
     </Symbol>
   </Map>
 </Maps>
