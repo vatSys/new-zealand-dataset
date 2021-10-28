@@ -1097,7 +1097,8 @@
       <Point Name="AMBERLEY BEACH">-431034.000+1724639.500</Point>
       <Point Name="ASHLEY">-431654.000+1724319.500</Point>
       <Point Name="AYLESBURY">-433149.000+1721603.400</Point>
-      <Point Name="BELFAST">-432709.000+1723802.500</Point>
+      <Point Name="BELFAST OVERPASS">-432715.200+1723839.900</Point>
+      <Point Name="BURNSIDE PARK">-433019.700+1723356.200</Point>
       <Point Name="BRIDGE">-432446.800+1723051.300</Point>
       <Point Name="BURNHAM CAMP">-433706.000+1721812.400</Point>
       <Point Name="BURNT HILL">-432246.100+1720812.200</Point>
@@ -1105,6 +1106,7 @@
       <Point Name="CORINGA">-432743.000+1722930.400</Point>
       <Point Name="CUST">-431839.200+1722254.100</Point>
       <Point Name="DUNSANDEL">-433935.000+1721140.400</Point>
+      <Point Name="EYRE JUNCTION">-432558.900+1723218.400</Point>
       <Point Name="FLAGS">-432311.500+1721242.200</Point>
       <Point Name="JARVIS">-434402.000+1723038.400</Point>
       <Point Name="JELLIE PARK">-433032.100+1723451.400</Point>
@@ -1119,11 +1121,9 @@
       <Point Name="MOTUNAU ISLAND">-430342.000+1730427.500</Point>
       <Point Name="NORTHLANDS MALL">-432932.400+1723635.300</Point>
       <Point Name="POND">-432627.400+1722616.200</Point>
-      <Point Name="PRINCESS MARGARET">-433436.000+1723717.100</Point>
       <Point Name="PYLONS">-432614.800+1723003.000</Point>
       <Point Name="RICCARTON RACECOURSE">-433140.000+1723242.000</Point>
       <Point Name="RIVER JUNCTION">-431549.800+1722759.200</Point>
-      <Point Name="RUSSLEY">-432940.000+1723322.500</Point>
       <Point Name="SEFTON CHIPMILL">-431558.000+1723730.500</Point>
       <Point Name="SELWYN HUTS">-434424.000+1722630.400</Point>
       <Point Name="SOUTHBROOK">-431931.000+1723556.500</Point>
@@ -1146,7 +1146,8 @@
       <Point Name="AMBERLEY BEACH">-431034.000+1724639.500</Point>
       <Point Name="ASHLEY">-431654.000+1724319.500</Point>
       <Point Name="AYLESBURY">-433149.000+1721603.400</Point>
-      <Point Name="BELFAST">-432709.000+1723802.500</Point>
+      <Point Name="BELFAST OVERPASS">-432715.200+1723839.900</Point>
+      <Point Name="BURNSIDE PARK">-433019.700+1723356.200</Point>
       <Point Name="BRIDGE">-432446.800+1723051.300</Point>
       <Point Name="BURNHAM CAMP">-433706.000+1721812.400</Point>
       <Point Name="BURNT HILL">-432246.100+1720812.200</Point>
@@ -1154,6 +1155,7 @@
       <Point Name="CORINGA">-432743.000+1722930.400</Point>
       <Point Name="CUST">-431839.200+1722254.100</Point>
       <Point Name="DUNSANDEL">-433935.000+1721140.400</Point>
+      <Point Name="EYRE JUNCTION">-432558.900+1723218.400</Point>
       <Point Name="FLAGS">-432311.500+1721242.200</Point>
       <Point Name="JARVIS">-434402.000+1723038.400</Point>
       <Point Name="JELLIE PARK">-433032.100+1723451.400</Point>
@@ -1168,11 +1170,9 @@
       <Point Name="MOTUNAU ISLAND">-430342.000+1730427.500</Point>
       <Point Name="NORTHLANDS MALL">-432932.400+1723635.300</Point>
       <Point Name="POND">-432627.400+1722616.200</Point>
-      <Point Name="PRINCESS MARGARET">-433436.000+1723717.100</Point>
       <Point Name="PYLONS">-432614.800+1723003.000</Point>
       <Point Name="RICCARTON RACECOURSE">-433140.000+1723242.000</Point>
       <Point Name="RIVER JUNCTION">-431549.800+1722759.200</Point>
-      <Point Name="RUSSLEY">-432940.000+1723322.500</Point>
       <Point Name="SEFTON CHIPMILL">-431558.000+1723730.500</Point>
       <Point Name="SELWYN HUTS">-434424.000+1722630.400</Point>
       <Point Name="SOUTHBROOK">-431931.000+1723556.500</Point>

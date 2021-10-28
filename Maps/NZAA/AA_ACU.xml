@@ -300,71 +300,71 @@
       ARADI/JABBA/AA514/ZOCCA/AA506/LENGU
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R BASI8B.DUGAN-->
+      <!--Rwy05R BASI9B.DUGAN-->
       DUGAN/BASIV
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R BASI8B.ELNOS-->
+      <!--Rwy05R BASI9B.ELNOS-->
       ELNOS/BASIV
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R BASI8B.SALAG-->
+      <!--Rwy05R BASI9B.SALAG-->
       SALAG/BASIV
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R BASI8B.UPLAR-->
+      <!--Rwy05R BASI9B.UPLAR-->
       UPLAR/BASIV
     </Line>
     <Line>
-      <!--Rwy05R BASI8B-->
+      <!--Rwy05R BASI9B-->
       BASIV/BIGUL/XMOND/ORUKI/LENGU
     </Line>
     <Line>
-      <!--Rwy05R DAVE5B-->
+      <!--Rwy05R DAVE6B-->
       DAVEE/WI NDB/GITUK/LENGU
     </Line>
     <Line>
-      <!--Rwy05R DAVE5D-->
+      <!--Rwy05R DAVE6D-->
       DAVEE/AA507/STEAL/ATAMA
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R EXOP9B.AGEDU-->
+      <!--Rwy05R EXOP1B.AGEDU-->
       AGEDU/OKTUB/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R EXOP9B.AGREX-->
+      <!--Rwy05R EXOP1B.AGREX-->
       AGREX/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R EXOP9B.AKLOM-->
+      <!--Rwy05R EXOP1B.AKLOM-->
       AKLOM/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R EXOP9B.DABAS-->
+      <!--Rwy05R EXOP1B.DABAS-->
       DABAS/OKTUB
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R EXOP9B.IDSEM-->
+      <!--Rwy05R EXOP1B.IDSEM-->
       IDSEM/OKTUB
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R EXOP9B.KALAG-->
+      <!--Rwy05R EXOP1B.KALAG-->
       KALAG/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R EXOP9B.OLBEX-->
+      <!--Rwy05R EXOP1B.OLBEX-->
       OLBEX/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R EXOP9B.SELKA-->
+      <!--Rwy05R EXOP1B.SELKA-->
       SELKA/OKTUB
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R EXOP9B.TARIB-->
+      <!--Rwy05R EXOP1B.TARIB-->
       TARIB/EXOPI
     </Line>
     <Line>
-      <!--Rwy05R EXOP9B-->
+      <!--Rwy05R EXOP1B-->
       EXOPI/DIPPU/ANKIL/LOSGA/AKBAM/LENGU
     </Line>
     <Line Pattern="Solid">
@@ -399,61 +399,61 @@
       ANKIL/VIRIS
     </Line>
     <Line>
-      <!--Rwy05R NOBA7B-->
+      <!--Rwy05R NOBA8B-->
       NOBAR/MERAS/AA503/WI NDB
     </Line>
     <Line>
-      <!--Rwy05R NOBA7D-->
+      <!--Rwy05R NOBA8D-->
       WI NDB/STEAL
     </Line>
     <Line>
-      <!--Rwy05R PEPE4B-->
+      <!--Rwy05R PEPE5B-->
       PEPPE/IGABI/WI NDB
     </Line>
     <Line>
-      <!--Rwy05R PEPE7D-->
+      <!--Rwy05R PEPE8D-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R SCAR1B.HN-->
+      <!--Rwy05R SCAR2B.HN-->
       HN VOR/SCARY
     </Line>
     <Line>
-      <!--Rwy05R SCAR1B-->
+      <!--Rwy05R SCAR2B-->
       SCARY/IGABI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R SCAR1D.HN-->
+      <!--Rwy05R SCAR2D.HN-->
     </Line>
     <Line>
-      <!--Rwy05R SCAR1D-->
+      <!--Rwy05R SCAR2D-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R UKAP2B.KK-->
+      <!--Rwy05R UKAP3B.KK-->
       KK NDB/UKAPA
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R UKAP2B.PERAS-->
+      <!--Rwy05R UKAP3B.PERAS-->
       PERAS/UKAPA
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R UKAP2B.SF-->
+      <!--Rwy05R UKAP3B.SF-->
       SF NDB/UKAPA
     </Line>
     <Line>
-      <!--Rwy05R UKAP2B-->
+      <!--Rwy05R UKAP3B-->
       UKAPA/SHILI/AKBAM
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R UKAP1D.KK-->
+      <!--Rwy05R UKAP3D.KK-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R UKAP1D.PERAS-->
+      <!--Rwy05R UKAP3D.PERAS-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R UKAP1D.SF-->
+      <!--Rwy05R UKAP3D.SF-->
     </Line>
     <Line>
-      <!--Rwy05R UKAP1D-->
+      <!--Rwy05R UKAP3D-->
       SHILI/MUDEE/UDUMO
     </Line>
     <Symbol Type="HollowTriangle">
@@ -860,25 +860,25 @@
   </Map>
   <Map Type="System2" Name="23L STARs" Priority="1" CustomColourName="ProcArr" Center="-37.006656+174.805742">
     <Line Pattern="Solid">
-      <!--Rwy23L APAB2A.KK-->
+      <!--Rwy23L APAB3A.KK-->
       KK NDB/SF NDB/APABO
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L APAB2A.PERAS-->
+      <!--Rwy23L APAB3A.PERAS-->
       PERAS/APABO
     </Line>
     <Line>
-      <!--Rwy23L APAB2A-->
+      <!--Rwy23L APAB3A-->
       APABO/OMAHA/AA423/VIBAG/EMRAG
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L APAB2C.KK-->
+      <!--Rwy23L APAB3C.KK-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L APAB2C.PERAS-->
+      <!--Rwy23L APAB3C.PERAS-->
     </Line>
     <Line>
-      <!--Rwy23L APAB2C-->
+      <!--Rwy23L APAB3C-->
       OMAHA/AA424/AA406/AA405/NOKIT
     </Line>
     <Line Pattern="Solid">
@@ -990,55 +990,55 @@
       <!--Rwy23L DAVE3E-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L EAGI1A.AKLOM-->
+      <!--Rwy23L EAGI2A.AKLOM-->
       AKLOM/EAGIL
     </Line>
     <Line>
-      <!--Rwy23L EAGI1A-->
+      <!--Rwy23L EAGI2A-->
       EAGIL/AA421/AA425/AA420/EMRAG
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L EXOP7A.AGEDU-->
+      <!--Rwy23L EXOP8A.AGEDU-->
       AGEDU/OKTUB/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L EXOP7A.AGREX-->
+      <!--Rwy23L EXOP8A.AGREX-->
       AGREX/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L EXOP7A.DABAS-->
+      <!--Rwy23L EXOP8A.DABAS-->
       DABAS/OKTUB
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L EXOP7A.DUGAN-->
+      <!--Rwy23L EXOP8A.DUGAN-->
       DUGAN/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L EXOP7A.IDSEM-->
+      <!--Rwy23L EXOP8A.IDSEM-->
       IDSEM/OKTUB
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L EXOP7A.KALAG-->
+      <!--Rwy23L EXOP8A.KALAG-->
       KALAG/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L EXOP7A.SELKA-->
+      <!--Rwy23L EXOP8A.SELKA-->
       SELKA/OKTUB
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L EXOP7A.TARIB-->
+      <!--Rwy23L EXOP8A.TARIB-->
       TARIB/EXOPI
     </Line>
     <Line>
-      <!--Rwy23L EXOP7A-->
+      <!--Rwy23L EXOP8A-->
       EXOPI/AA417/STORK/AA418/EMRAG
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L FOKR1A.OLBEX-->
+      <!--Rwy23L FOKR2A.OLBEX-->
       OLBEX/FOKRE
     </Line>
     <Line>
-      <!--Rwy23L FOKR1A-->
+      <!--Rwy23L FOKR2A-->
       FOKRE/AA416/AA426/AA419/EMRAG
     </Line>
     <Line>
@@ -1060,11 +1060,11 @@
       <!--Rwy23L PEPE2E-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L SKEP1A.HN-->
+      <!--Rwy23L SKEP2A.HN-->
       HN VOR/SKEPY
     </Line>
     <Line>
-      <!--Rwy23L SKEP1A-->
+      <!--Rwy23L SKEP2A-->
       SKEPY/AA415/SABAV
     </Line>
     <Line>

@@ -142,6 +142,7 @@
     <Line Name="KQ440_0">TAYLA.KQ440.NOMAP</Line>
     <Line Name="KQ492_0">LEKUL.KQ492.DUBIP</Line>
     <Line Name="KQ514_0">NZUB.KQ514.NP VOR</Line>
+    <Line Name="KQ517_0">UPSAS.KQ517.OPEKU</Line>
     <Line Name="KQ528_0">WP VOR.KQ528.KT NDB</Line>
     <Line Name="KQ551_0">TANIG.KQ551.WR NDB</Line>
     <Line Name="KQ554_0">MASDA.KQ554.MAGEX</Line>
@@ -198,6 +199,8 @@
     <Line Name="Q137_0">VELGA.Q137.NP VOR</Line>
     <Line Name="Q141_0">TG NDB.Q141.MERAS</Line>
     <Line Name="Q152_0">NS VOR.Q152.WITBY</Line>
+    <Line Name="Q154_0">WAIHI.Q154.DOSTU</Line>
+    <Line Name="Q162_0">UGSAP.Q162.AA VOR</Line>
     <Line Name="Q169_0">AVKEX.Q169.OH VOR</Line>
     <Line Name="Q171_0">GOTNO.Q171.RO VOR</Line>
     <Line Name="Q188_0">NV VOR.Q188.QN VOR</Line>
@@ -821,6 +824,9 @@
       <Point>NZUA</Point>
       <Point>BUVIK</Point>
       <Point>IGBOS</Point>
+      <Point>UPSAS</Point>
+      <Point>AVNEM</Point>
+      <Point>OPEKU</Point>
       <Point>VEGTA</Point>
       <Point>WELLS</Point>
       <Point>WR NDB</Point>
@@ -836,7 +842,7 @@
       <Point>NODIK</Point>
       <Point>SAMVO</Point>
       <Point>MAPTO</Point>
-      <Point>UPSAS</Point>
+      <Point>LIDGA</Point>
       <Point>OVTIK</Point>
       <Point>IVRON</Point>
       <Point>DOXUD</Point>
@@ -944,6 +950,9 @@
       <Point>NOVTU</Point>
       <Point>AVKEX</Point>
       <Point>WITBY</Point>
+      <Point>UGSAP</Point>
+      <Point>OBKIT</Point>
+      <Point>HOOKS</Point>
       <Point>ENBAR</Point>
       <Point>PORIG</Point>
       <Point>LUKMI</Point>
@@ -994,7 +1003,6 @@
       <Point>URDAL</Point>
       <Point>ATPUL</Point>
       <Point>NOMOK</Point>
-      <Point>HOOKS</Point>
       <Point>SNAPA</Point>
       <Point>IGUTA</Point>
       <Point>IPMIR</Point>
@@ -1596,6 +1604,9 @@
       <Point>NZUA</Point>
       <Point>BUVIK</Point>
       <Point>IGBOS</Point>
+      <Point>UPSAS</Point>
+      <Point>AVNEM</Point>
+      <Point>OPEKU</Point>
       <Point>VEGTA</Point>
       <Point>WELLS</Point>
       <Point>WR NDB</Point>
@@ -1611,7 +1622,7 @@
       <Point>NODIK</Point>
       <Point>SAMVO</Point>
       <Point>MAPTO</Point>
-      <Point>UPSAS</Point>
+      <Point>LIDGA</Point>
       <Point>OVTIK</Point>
       <Point>IVRON</Point>
       <Point>DOXUD</Point>
@@ -1719,6 +1730,9 @@
       <Point>NOVTU</Point>
       <Point>AVKEX</Point>
       <Point>WITBY</Point>
+      <Point>UGSAP</Point>
+      <Point>OBKIT</Point>
+      <Point>HOOKS</Point>
       <Point>ENBAR</Point>
       <Point>PORIG</Point>
       <Point>LUKMI</Point>
@@ -1769,7 +1783,6 @@
       <Point>URDAL</Point>
       <Point>ATPUL</Point>
       <Point>NOMOK</Point>
-      <Point>HOOKS</Point>
       <Point>SNAPA</Point>
       <Point>IGUTA</Point>
       <Point>IPMIR</Point>

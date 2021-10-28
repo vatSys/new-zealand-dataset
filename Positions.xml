@@ -26,8 +26,8 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Christchurch Control</Line>
-        <Line>Service for NZZC FIR - https://www.vatnz.net/pilots/atc-sector-map/</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Service for NZZC FIR - vats.im/nz-sectors</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
@@ -57,8 +57,8 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Auckland Control</Line>
-        <Line>Service for NZZC FIR - https://www.vatnz.net/pilots/atc-sector-map/</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Service for NZZC FIR - vats.im/nz-sectors</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
@@ -83,7 +83,7 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Auckland Control - Raglan</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
@@ -109,18 +109,18 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Bay Approach</Line>
-        <Line>Service for NZZC FIR - https://www.vatnz.net/pilots/atc-sector-map/</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Service for NZZC FIR - vats.im/nz-sectors</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZTG_TWR">
         <Line>Tauranga Tower - ATIS 126.600</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZRO_TWR">
         <Line>Rotorua Tower - ATIS 128.800</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
@@ -146,8 +146,8 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Ohakea Control</Line>
-        <Line>Service for NZZC FIR - https://www.vatnz.net/pilots/atc-sector-map/</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Service for NZZC FIR - vats.im/nz-sectors</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
@@ -172,8 +172,8 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Christchurch Control</Line>
-        <Line>Service for NZZC FIR - https://www.vatnz.net/pilots/atc-sector-map/</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Service for NZZC FIR - vats.im/nz-sectors</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
@@ -201,8 +201,8 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Christchurch Control</Line>
-        <Line>Service for NZZC FIR - https://www.vatnz.net/pilots/atc-sector-map/</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Service for NZZC FIR - vats.im/nz-sectors</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
@@ -237,39 +237,39 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Auckland Approach</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZAA_DEP">
         <Line>Auckland Departures</Line>
         <Line>Controls outbound aircraft within the AA TMA.</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZAA-F_APP">
         <Line>Auckland Finals</Line>
         <Line>Controls inbound aircraft under 5000ft within the AA TMA.</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZAA_TWR">
         <Line>Auckland Tower - ATIS 127.800</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZAA_GND">
         <Line>Auckland Ground - ATIS 127.800</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZAA_DEL">
         <Line>Auckland Delivery - ATIS 127.800</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZWP_TWR">
         <Line>Whenuapai Tower - ATIS 128.300</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
@@ -302,33 +302,33 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Wellington Approach</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZWN_DEP">
         <Line>Wellington Departures</Line>
         <Line>Controls outbound aircraft within the WN TMA.</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZWN_TWR">
         <Line>Wellington Tower - ATIS 126.900</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZWN_GND">
         <Line>Wellington Ground - ATIS 126.900</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZWN_DEL">
         <Line>Wellington Delivery - ATIS 126.900</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZWB_TWR">
         <Line>Woodbourne Tower - ATIS 126.050</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
@@ -358,28 +358,28 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Christchurch Approach</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZCH_DEP">
         <Line>Christchurch Departures</Line>
         <Line>Controls outbound aircraft within the CH TMA.</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZCH_TWR">
         <Line>Christchurch Tower - ATIS 127.200</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZCH_GND">
         <Line>Christchurch Ground - ATIS 127.200</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZCH_DEL">
         <Line>Christchurch Delivery - ATIS 127.200</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
@@ -408,22 +408,22 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Queenstown Approach</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZQN_TWR">
         <Line>Queenstown Tower - ATIS 126.400</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZQN_GND">
         <Line>Queenstown Ground - ATIS 126.4</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZQN_DEL">
         <Line>Queenstown Delivery - ATIS 126.4</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
@@ -452,12 +452,12 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Bay Approach</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZHN_TWR">
         <Line>Hamilton Tower - ATIS 128.650</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
@@ -488,27 +488,27 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Ohakea Approach</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZOH_TWR">
         <Line>Ohakea Tower - ATIS 135.000</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZOH_GND">
         <Line>Ohakea Ground - ATIS 135.000</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZPM_TWR">
         <Line>Palmerston North Tower - ATIS 129.700</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZPM_GND">
         <Line>Palmerston North Ground - ATIS 129.700</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
@@ -540,7 +540,7 @@
       <ControllerInfo>
         <Line>Dunedin Tower - ATIS 126.450</Line>
         <Line>Procedural service to 13,500ft</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
@@ -570,7 +570,7 @@
       <ControllerInfo>
         <Line>Gisbourne Tower - ATIS 126.400</Line>
         <Line>Procedural service to 9,500ft</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
@@ -600,7 +600,7 @@
       <ControllerInfo>
         <Line>New Plymouth Tower - ATIS 127.05</Line>
         <Line>Procedural service to 6,500ft</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
@@ -630,7 +630,7 @@
       <ControllerInfo>
         <Line>Napier Tower - ATIS 128.000</Line>
         <Line>Procedural service to 9,500ft</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
@@ -660,7 +660,7 @@
       <ControllerInfo>
         <Line>Nelson Tower - ATIS 129.100</Line>
         <Line>Procedural service to 9,500ft</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>
@@ -690,7 +690,7 @@
       <ControllerInfo>
         <Line>Invercargill Tower - ATIS 127.000</Line>
         <Line>Procedural service to 9,500ft</Line>
-        <Line>Charts- www.vatnz.net/airspace/airports/</Line>
+        <Line>Charts- vats.im/nz-charts</Line>
         <Line>Submit feedback - vats.im/NZ-FB</Line>
       </ControllerInfo>
     </Position>

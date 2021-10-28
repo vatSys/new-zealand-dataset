@@ -1,0 +1,5 @@
+[1013/173638.342:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is angle
+[1013/173638.349:ERROR:gl_context_egl.cc(277)] eglCreateContext failed with error EGL_BAD_ATTRIBUTE
+[1013/173638.349:ERROR:gpu_channel_manager.cc(767)] ContextResult::kFatalFailure: Failed to create shared context for virtualization.
+[1013/173638.349:ERROR:shared_image_stub.cc(470)] SharedImageStub: unable to create context
+[1013/173638.349:ERROR:gpu_channel.cc(449)] GpuChannel: Failed to create SharedImageStub

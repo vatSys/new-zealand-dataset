@@ -14,6 +14,8 @@
 - [AIRAC 2107](#airac-2107)
 - [AIRAC 2108](#airac-2108)
 - [AIRAC 2109](#airac-2109)
+- [AIRAC 2110](#airac-2110)
+- [AIRAC 2111](#airac-2111)
 
 
 ## AIRAC 2013
@@ -368,10 +370,58 @@ All of the Procedural Towers now have their own ACU view, which can be selected 
 
 All Enroute Holds have been added under `Maps > Navaids`. The label stemming from the Solid Triangle is the holding waypoint. Within the racetrack are two other datalines - `XXX L/R` and `YYYY`. 
 
-- In `XXX L/R`, the `XXX` is the inbound heading of the hold. Either `L` or `R` is shown next to it, to denote whether it is a left or right turn holding pattern. 
-- `YYYY` denotes the minimum holding altitude, typically based on MSA or airspace/traffic containment. 
+* In `XXX L/R`, the `XXX` is the inbound heading of the hold. Either `L` or `R` is shown next to it, to denote whether it is a left or right turn holding pattern. 
+* `YYYY` denotes the minimum holding altitude, typically based on MSA or airspace/traffic containment. 
 
 
 <center>
   <img src="assets/IFREnrHolds.png" width="500" style="padding-top: 15px; padding-bottom: 15px;" />
 </center>
+
+## AIRAC 2111
+
+### Revision A (Initial)
+
+#### **ANR Updates**
+
+* Addition of the `KQ578`, `Q154`,  `Q162`. Addition of `LIDGA` to `KQ613`.
+* Addition of the `AGSEV`, `AVNEM`, `BETPA`, `DABUV`, `EKILU`, `ENLOD`, `IGDUX`, `IGOVU`, `LIDGA`, `OBKIT`, `OLVOL`, `OPEKU`, `OVTAP`, `PIGUD`, `UGSAP`, `UPNOB`, `URDAP`, `VETUM`, `VEVOM` IFR waypoints. 
+* Removal of the `BAMEX`, `GORKI`, `GOWER`, `SEKLA`, `SEMKI`, `SHOAL` IFR waypoints.
+* Slight change to the co-ordinates for `NZJI`.
+* Addition of `NZWZ` - Warkworth.
+* Removal of `BELFAST`, `PRINCESS MARGARET` and `RUSSLEY` VRPs. Addition of `BELFAST OVERPASS`, `BURNSIDE PARK` and `EYRE JUNCTION` VRPs. The associated ACU VFR Waypoint Maps have been updated.
+* Slight changes to the boundaries for the `NZZC` FIR, in addition to minor changes to CTA and CTR lateral bounds.
+
+#### **Dataset Updates**
+
+The following procedures have been redesignated:
+  * **NZAA**
+    * `EXOPI 9B` -> `EXOPI 1B`
+    * `BASIV 8B` -> `BASIV 9B`
+    * `DAVEE 5B` -> `DAVEE 6B`
+    * `UKAPA 1D` -> `UKAPA 2D`
+    * `SCARY 1B` -> `SCARY 2B`
+    * `PEPPE 4B` -> `PEPPE 5B`
+    * `NOBAR 7B` -> `NOBAR 8B`
+    * `DAVEE 5D` -> `DAVEE 6D`
+    * `PEPPE 7D` -> `PEPPE 8D`
+    * `SCARY 1D` -> `SCARY 2D`
+    * `NOBAR 7D` -> `NOBAR 8D`
+    * `UKAPA 2B` -> `UKAPA 3B`
+    * `EAGIL 1A` -> `EAGIL 2A`
+    * `FOKRE 1A` -> `FOKRE 2A`
+    * `EXOPI 7A` -> `EXOPI 8A`
+    * `APABO 2C` -> `APABO 3C`
+    * `SKEPY 1A` -> `SKEPY 2A`
+    * `APABO 2A` -> `APABO 3A`
+  * **NZGS**
+    * `POPAD 1` -> `POPAD 2`
+    * `NODEX 1` -> `NODEX 2`
+
+#### **VSCS Plugin**
+
+A new VSCS plugin has been added to the Dataset, enabling the Controller to open and control their VSCS panel through a web interface. 
+
+This plugin opens a local webserver that allows you to access the interface either through your host machine, or through a mobile device on the same local network. The webserver is hosted on the local machine through port `7673`. This means that on your local machine, you can type `localhost:7673` into your web browser to find the interface. To access the interface through a networked device, the local machine's local IP address should be used instead of `localhost`. 
+
+Special thanks to Zach from VATPAC and Jake from vatSys for working on the plugin. The styles for the plugin have been slightly adjusted for use with the VATNZ dataset. The project data respository [can be found here](https://github.com/vatSys/RemoteVSCSPlugin).
