@@ -463,6 +463,7 @@ Special thanks to Zach from VATPAC and Jake from vatSys for working on the plugi
   * `UPSOD`
 * The following IFR waypoints have been removed:
   * `KENNE`
+* Addition of the `RIKDI 1N` arrival for NZAA 05R.
 * Minor amendment to Controlled Airspace designations and lateral bounds
   * Hamilton CTA/D 2500 ft – 9500 ft: NZA248  =>  NZA243
   * Auckland CTA/C 4500 ft – 9500 ft: NZA245  =>  NZA146

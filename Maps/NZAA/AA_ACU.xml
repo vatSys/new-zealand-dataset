@@ -414,6 +414,44 @@
       <!--Rwy05R PEPE8D-->
     </Line>
     <Line Pattern="Solid">
+      <!--Rwy05R RIKD1N.AGEDU-->
+      OKTUB/RIKDI
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy05R RIKD1N.AGREX-->
+      AGREX/RIKDI
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy05R RIKD1N.AKLOM-->
+      AKLOM/RIKDI
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy05R RIKD1N.DABAS-->
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy05R RIKD1N.IDSEM-->
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy05R RIKD1N.KALAG-->
+      KALAG/RIKDI
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy05R RIKD1N.OLBEX-->
+      OLBEX/RIKDI
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy05R RIKD1N.SELKA-->
+      SELKA/RIKDI
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy05R RIKD1N.TARIB-->
+      TARIB/RIKDI
+    </Line>
+    <Line>
+      <!--Rwy05R RIKD1N-->
+      RIKDI/WYTAK/OSIVO/LENGU
+    </Line>
+    <Line Pattern="Solid">
       <!--Rwy05R SCAR2B.HN-->
       HN VOR/SCARY
     </Line>
@@ -509,6 +547,9 @@
       <Point>AA503</Point>
       <Point>PEPPE</Point>
       <Point>IGABI</Point>
+      <Point>RIKDI</Point>
+      <Point>WYTAK</Point>
+      <Point>OSIVO</Point>
       <Point>SCARY</Point>
       <Point>UKAPA</Point>
       <Point>PERAS</Point>
@@ -522,6 +563,7 @@
       <Point>EXOPI</Point>
       <Point>NOBAR</Point>
       <Point>PEPPE</Point>
+      <Point>RIKDI</Point>
       <Point>SCARY</Point>
       <Point>UKAPA</Point>
       <Point>LUNBI</Point>

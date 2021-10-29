@@ -26,6 +26,7 @@
         <STAR Name="NOBA8D" ApproachName="RNPY" />
         <STAR Name="PEPE5B" ApproachName="GNSSZ" />
         <STAR Name="PEPE8D" ApproachName="RNPY" />
+        <STAR Name="RIKD1N" ApproachName="GNSSZ" />
         <STAR Name="SCAR2B" ApproachName="GNSSZ" />
         <STAR Name="SCAR2D" ApproachName="RNPY" />
         <STAR Name="UKAP3B" ApproachName="GNSSZ" />
