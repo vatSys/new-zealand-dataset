@@ -7678,6 +7678,18 @@ RILEY
     <STAR Name="PEPE2E" Airport="NZAA" Runways="23L">
       <Route Runway="23L">PEPPE/ONISU/UPTIB/KETOB</Route>
     </STAR>
+    <STAR Name="RIKD1N" Airport="NZAA" Runways="05R">
+      <Transition Name="AGEDU">AGEDU/OKTUB</Transition>
+      <Transition Name="AGREX">AGREX</Transition>
+      <Transition Name="AKLOM">AKLOM</Transition>
+      <Transition Name="DABAS">DABAS/OKTUB</Transition>
+      <Transition Name="IDSEM">IDSEM/OKTUB</Transition>
+      <Transition Name="KALAG">KALAG</Transition>
+      <Transition Name="OLBEX">OLBEX</Transition>
+      <Transition Name="SELKA">SELKA</Transition>
+      <Transition Name="TARIB">TARIB</Transition>
+      <Route Runway="05R">RIKDI/WYTAK/OSIVO/LENGU</Route>
+    </STAR>
     <STAR Name="SCAR2B" Airport="NZAA" Runways="05R">
       <Transition Name="HN">HN VOR</Transition>
       <Route Runway="05R">SCARY/IGABI/WI NDB/GITUK/LENGU</Route>
