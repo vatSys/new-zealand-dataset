@@ -425,3 +425,10 @@ A new VSCS plugin has been added to the Dataset, enabling the Controller to open
 This plugin opens a local webserver that allows you to access the interface either through your host machine, or through a mobile device on the same local network. The webserver is hosted on the local machine through port `7673`. This means that on your local machine, you can type `localhost:7673` into your web browser to find the interface. To access the interface through a networked device, the local machine's local IP address should be used instead of `localhost`. 
 
 Special thanks to Zach from VATPAC and Jake from vatSys for working on the plugin. The styles for the plugin have been slightly adjusted for use with the VATNZ dataset. The project data respository [can be found here](https://github.com/vatSys/RemoteVSCSPlugin).
+
+
+### Revision B (Bug Fixing)
+
+The VSCS Plugin released as a part of 2111 Revision A has been withdrawn, as it is causing a crashing issue when switching between datasets.
+
+The NZ customised version of the plugin will be available in the future for download, once some additional bugs have been squashed.
