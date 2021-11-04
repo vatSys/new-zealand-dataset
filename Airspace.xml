@@ -682,9 +682,14 @@
     </Airport>
     <Airport Name="NZGM">
       <Runway Name="19" DataRunway="19">
+        <SID Name="BEACH1" />
+        <SID Name="BELEE1" />
+        <SID Name="DAMIL1" />
         <SID Name="OSOL1P" Type="NonJet" />
+        <SID Name="SOUTH1" />
       </Runway>
       <Runway Name="01" DataRunway="01">
+        <SID Name="OCEAN1" />
         <SID Name="RILE1Q" Type="NonJet" />
         <STAR Name="APAS1A" Type="NonJet" ApproachName="GNSS" />
         <STAR Name="DOPA1A" ApproachName="GNSS" />
@@ -6557,12 +6562,27 @@ RILEY
     <SID Name="GB1P" Airport="NZGB" Runways="10">
       <Route Runway="10">GB408/UDUMA/DOSTU</Route>
     </SID>
+    <SID Name="BEACH1" Airport="NZGM" Runways="19">
+      <Route Runway="19">WS NDB</Route>
+    </SID>
+    <SID Name="BELEE1" Airport="NZGM" Runways="19">
+      <Route Runway="19">BELEE</Route>
+    </SID>
+    <SID Name="DAMIL1" Airport="NZGM" Runways="19">
+      <Route Runway="19">DAMIL</Route>
+    </SID>
+    <SID Name="OCEAN1" Airport="NZGM" Runways="01">
+      <Route Runway="01">DAMIL</Route>
+    </SID>
     <SID Name="OSOL1P" Airport="NZGM" Runways="19">
       <Route Runway="19">PAROA/APASA/OSOLO</Route>
     </SID>
     <SID Name="RILE1Q" Airport="NZGM" Runways="01">
       <Route Runway="01">MUDUT/RILEY</Route>
       <Transition Name="OSOLO">OSOLO</Transition>
+    </SID>
+    <SID Name="SOUTH1" Airport="NZGM" Runways="19">
+      <Route Runway="19">HK NDB</Route>
     </SID>
     <SID Name="CIT3" Airport="NZGS" Runways="32">
       <Route Runway="32">GS VOR</Route>
