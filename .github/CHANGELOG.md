@@ -480,4 +480,5 @@ Special thanks to Zach from VATPAC and Jake from vatSys for working on the plugi
 
 #### **Dataset Updates**
 
-[Content]
+* Slight change to the ControllerInfo fields, to include our new vats.im/nz/ link shortener. This will be replicated to EuroScope in the next SkyLine release.
+* Default inclusion of the VATNZ Standard Route Tool - see associated release announcement.

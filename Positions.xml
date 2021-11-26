@@ -26,9 +26,9 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Christchurch Control</Line>
-        <Line>Service for NZZC FIR - vats.im/nz-sectors</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Service for the NZZC FIR - vats.im/nz/sectors</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Oceanic Radar" Type="ASD" DefaultCenter="-370020.413+1744725.105" DefaultRange="1000" MagneticVariation="-21">
@@ -57,9 +57,9 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Auckland Control</Line>
-        <Line>Service for NZZC FIR - vats.im/nz-sectors</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Service for the NZZC FIR - vats.im/nz/sectors</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Raglan" Type="ASD" DefaultCenter="-380531.000+1745108.000" DefaultRange="400" MagneticVariation="-21">
@@ -83,8 +83,8 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Auckland Control - Raglan</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Bay" Type="ASD" DefaultCenter="-380633.001+1761901.999" DefaultRange="600" MagneticVariation="-21">
@@ -109,19 +109,19 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Bay Approach</Line>
-        <Line>Service for NZZC FIR - vats.im/nz-sectors</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Service for the NZZC FIR - vats.im/nz/sectors</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZTG_TWR">
         <Line>Tauranga Tower - ATIS 126.600</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZRO_TWR">
         <Line>Rotorua Tower - ATIS 128.800</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Ohakea Area" Type="ASD" DefaultCenter="-401412.905+1760432.935" DefaultRange="600" MagneticVariation="-21">
@@ -146,9 +146,9 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Ohakea Control</Line>
-        <Line>Service for NZZC FIR - vats.im/nz-sectors</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Service for the NZZC FIR - vats.im/nz/sectors</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Kaikoura" Type="ASD" DefaultCenter="-422530.000+1733619.000" DefaultRange="600" MagneticVariation="-21">
@@ -172,9 +172,9 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Christchurch Control</Line>
-        <Line>Service for NZZC FIR - vats.im/nz-sectors</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Service for the NZZC FIR - vats.im/nz/sectors</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Area South" Type="ASD" DefaultCenter="-440008.132+1702657.686" DefaultRange="1000" MagneticVariation="-21">
@@ -201,9 +201,9 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Christchurch Control</Line>
-        <Line>Service for NZZC FIR - vats.im/nz-sectors</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Service for the NZZC FIR - vats.im/nz/sectors</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
   </Group>
@@ -237,40 +237,40 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Auckland Approach</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZAA_DEP">
         <Line>Auckland Departures</Line>
         <Line>Controls outbound aircraft within the AA TMA.</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZAA-F_APP">
         <Line>Auckland Finals</Line>
         <Line>Controls inbound aircraft under 5000ft within the AA TMA.</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZAA_TWR">
         <Line>Auckland Tower - ATIS 127.800</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZAA_GND">
         <Line>Auckland Ground - ATIS 127.800</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZAA_DEL">
         <Line>Auckland Delivery - ATIS 127.800</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZWP_TWR">
         <Line>Whenuapai Tower - ATIS 128.300</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Wellington ACU" Type="ASD" DefaultCenter="-411937.999+1744819.001" DefaultRange="300" MagneticVariation="-21">
@@ -302,34 +302,34 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Wellington Approach</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZWN_DEP">
         <Line>Wellington Departures</Line>
         <Line>Controls outbound aircraft within the WN TMA.</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZWN_TWR">
         <Line>Wellington Tower - ATIS 126.900</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZWN_GND">
         <Line>Wellington Ground - ATIS 126.900</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZWN_DEL">
         <Line>Wellington Delivery - ATIS 126.900</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZWB_TWR">
         <Line>Woodbourne Tower - ATIS 126.050</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Christchurch ACU" Type="ASD" DefaultCenter="-432909.351+1723216.287" DefaultRange="300" MagneticVariation="-21">
@@ -358,29 +358,29 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Christchurch Approach</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZCH_DEP">
         <Line>Christchurch Departures</Line>
         <Line>Controls outbound aircraft within the CH TMA.</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZCH_TWR">
         <Line>Christchurch Tower - ATIS 127.200</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZCH_GND">
         <Line>Christchurch Ground - ATIS 127.200</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZCH_DEL">
         <Line>Christchurch Delivery - ATIS 127.200</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Queenstown ACU" Type="ASD" DefaultCenter="-450124.250+1684456.277" DefaultRange="300" MagneticVariation="-21">
@@ -408,23 +408,23 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Queenstown Approach</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZQN_TWR">
         <Line>Queenstown Tower - ATIS 126.400</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZQN_GND">
         <Line>Queenstown Ground - ATIS 126.4</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZQN_DEL">
         <Line>Queenstown Delivery - ATIS 126.4</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Hamilton ACU" Type="ASD" DefaultCenter="-375159.980+1751955.402" DefaultRange="160" MagneticVariation="-21">
@@ -452,13 +452,13 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Bay Approach</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZHN_TWR">
         <Line>Hamilton Tower - ATIS 128.650</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Ohakea ACU" Type="ASD" DefaultCenter="-401229.628+1752314.936" DefaultRange="200" MagneticVariation="-21">
@@ -488,28 +488,28 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Ohakea Approach</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZOH_TWR">
         <Line>Ohakea Tower - ATIS 135.000</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZOH_GND">
         <Line>Ohakea Ground - ATIS 135.000</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZPM_TWR">
         <Line>Palmerston North Tower - ATIS 129.700</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZPM_GND">
         <Line>Palmerston North Ground - ATIS 129.700</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
   </Group>
@@ -540,8 +540,8 @@
       <ControllerInfo>
         <Line>Dunedin Tower - ATIS 126.450</Line>
         <Line>Procedural service to 13,500ft</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Gisbourne Tower" Type="ASD" DefaultCenter="-383948.000+1775842.000" DefaultRange="200" MagneticVariation="-21">
@@ -570,8 +570,8 @@
       <ControllerInfo>
         <Line>Gisbourne Tower - ATIS 126.400</Line>
         <Line>Procedural service to 9,500ft</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
     <Position Name="New Plymouth Tower" Type="ASD" DefaultCenter="-390031.000+1741045.000" DefaultRange="200" MagneticVariation="-21">
@@ -600,8 +600,8 @@
       <ControllerInfo>
         <Line>New Plymouth Tower - ATIS 127.05</Line>
         <Line>Procedural service to 6,500ft</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Napier Tower" Type="ASD" DefaultCenter="-392757.000+1765212.000" DefaultRange="200" MagneticVariation="-21">
@@ -630,8 +630,8 @@
       <ControllerInfo>
         <Line>Napier Tower - ATIS 128.000</Line>
         <Line>Procedural service to 9,500ft</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Nelson Tower" Type="ASD" DefaultCenter="-411754.000+1731316.000" DefaultRange="200" MagneticVariation="-21">
@@ -660,8 +660,8 @@
       <ControllerInfo>
         <Line>Nelson Tower - ATIS 129.100</Line>
         <Line>Procedural service to 9,500ft</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Invercargill Tower" Type="ASD" DefaultCenter="-462454.000+1681912.000" DefaultRange="200" MagneticVariation="-21">
@@ -690,8 +690,8 @@
       <ControllerInfo>
         <Line>Invercargill Tower - ATIS 127.000</Line>
         <Line>Procedural service to 9,500ft</Line>
-        <Line>Charts- vats.im/nz-charts</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
   </Group>
@@ -718,7 +718,7 @@
       <ControllerInfo>
         <Line>Paraparaumu Flight Service</Line>
         <Line>Information and IFR Clearances - Nil RADAR Control avail.</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Milford Sound FIS" Type="ASD" DefaultCenter="-444024.000+1675524.000" DefaultRange="100" MagneticVariation="-21">
@@ -743,7 +743,7 @@
       <ControllerInfo>
         <Line>Milford Flight Service</Line>
         <Line>Information and IFR Clearances - Nil RADAR Control avail.</Line>
-        <Line>Submit feedback - vats.im/NZ-FB</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
   </Group>
