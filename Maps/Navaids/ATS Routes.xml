@@ -130,15 +130,17 @@
     <Line Name="W291_0">QN VOR.W291.CH VOR</Line>
     <Line Name="W353_0">HK NDB.W353.NS VOR</Line>
     <Line Name="KQ121_0">BIGAP.KQ121.RIBVO</Line>
+    <Line Name="KQ134_0">OLGOP.KQ134.VIMES</Line>
     <Line Name="KQ135_0">VARGU.KQ135.UDUMA</Line>
     <Line Name="KQ168_0">XELAN.KQ168.MERAS</Line>
     <Line Name="KQ282_0">GUMPI.KQ282.ELNOR</Line>
+    <Line Name="KQ312_0">ERVIT.KQ312.TARIT</Line>
     <Line Name="KQ357_0">WU NDB.KQ357.MESOS</Line>
     <Line Name="KQ359_0">TAYLA.KQ359.XELAN</Line>
     <Line Name="KQ361_0">OSTEL.KQ361.ELNEG</Line>
     <Line Name="KQ373_0">VEBTU.KQ373.VARMA</Line>
     <Line Name="KQ417_0">ELNOR.KQ417.REVMU</Line>
-    <Line Name="KQ427_0">NOBUL.KQ427.NOVTO</Line>
+    <Line Name="KQ427_0">ERVIT.KQ427.NOVTO</Line>
     <Line Name="KQ440_0">TAYLA.KQ440.NOMAP</Line>
     <Line Name="KQ492_0">LEKUL.KQ492.DUBIP</Line>
     <Line Name="KQ514_0">NZUB.KQ514.NP VOR</Line>
@@ -153,6 +155,7 @@
     <Line Name="KQ637_0">IVRON.KQ637.NOVTO</Line>
     <Line Name="KQ648_0">NZUA.KQ648.VEBTU</Line>
     <Line Name="KQ653_0">NZMX.KQ653.NZUA</Line>
+    <Line Name="KQ656_0">SELNA.KQ656.LUPMA</Line>
     <Line Name="KQ673_0">MANGA.KQ673.UPDAL</Line>
     <Line Name="KQ721_0">MESOS.KQ721.NP VOR</Line>
     <Line Name="KQ734_0">KIMAN.KQ734.MANGO</Line>
@@ -163,6 +166,7 @@
     <Line Name="KQ809_0">NZKU.KQ809.NP VOR</Line>
     <Line Name="KQ812_0">KIMAN.KQ812.BRETT</Line>
     <Line Name="KQ839_0">ASEXO.KQ839.SF NDB</Line>
+    <Line Name="KQ893_0">IGDAR.KQ893.GUVTU</Line>
     <Line Name="KY383_0">BROAD.KY383.LALIK</Line>
     <Line Name="KY616_0">KABIL.KY616.KT NDB</Line>
     <Line Name="KZ183_0">PM VOR.KZ183.TUHUA</Line>
@@ -378,6 +382,7 @@
       <Point>HELGE</Point>
       <Point>PEHRR</Point>
       <Point>CH VOR</Point>
+      <Point>RAPPY</Point>
       <Point>JIPIG</Point>
       <Point>AA VOR</Point>
       <Point>SALAG</Point>
@@ -548,7 +553,6 @@
       <Point>SCUBA</Point>
       <Point>MIBOR</Point>
       <Point>ORAGI</Point>
-      <Point>KENNE</Point>
       <Point>MEXIP</Point>
       <Point>NUPTO</Point>
       <Point>OVTOS</Point>
@@ -771,6 +775,9 @@
       <Point>BIGAP</Point>
       <Point>SOVBA</Point>
       <Point>RIBVO</Point>
+      <Point>OLGOP</Point>
+      <Point>OLGEX</Point>
+      <Point>VIMES</Point>
       <Point>VARGU</Point>
       <Point>UDUMA</Point>
       <Point>XELAN</Point>
@@ -778,6 +785,8 @@
       <Point>MERAS</Point>
       <Point>GUMPI</Point>
       <Point>ELNOR</Point>
+      <Point>ERVIT</Point>
+      <Point>TARIT</Point>
       <Point>RUFFY</Point>
       <Point>DULOT</Point>
       <Point>MESOS</Point>
@@ -795,12 +804,12 @@
       <Point>VARMA</Point>
       <Point>REVMU</Point>
       <Point>NOBUL</Point>
-      <Point>OLGOP</Point>
       <Point>IGDAR</Point>
       <Point>RIPGO</Point>
       <Point>OBLIX</Point>
       <Point>RILVA</Point>
       <Point>IDVEX</Point>
+      <Point>LEGIK</Point>
       <Point>PAVDO</Point>
       <Point>NURLA</Point>
       <Point>TUSVI</Point>
@@ -849,6 +858,9 @@
       <Point>COAST</Point>
       <Point>NZMX</Point>
       <Point>COUTA</Point>
+      <Point>SELNA</Point>
+      <Point>OMOVI</Point>
+      <Point>LUPMA</Point>
       <Point>MANGA</Point>
       <Point>TUIHU</Point>
       <Point>VANSA</Point>
@@ -862,6 +874,13 @@
       <Point>WAPOU</Point>
       <Point>BRETT</Point>
       <Point>ASEXO</Point>
+      <Point>IBOSI</Point>
+      <Point>KARBI</Point>
+      <Point>URGAB</Point>
+      <Point>ADMOG</Point>
+      <Point>AVBAS</Point>
+      <Point>ISTIK</Point>
+      <Point>GUVTU</Point>
       <Point>LALIK</Point>
       <Point>KABIL</Point>
       <Point>PEROO</Point>
@@ -970,6 +989,8 @@
       <Point>KAKET</Point>
       <Point>SKEET</Point>
       <Point>VIROL</Point>
+      <Point>EPGON</Point>
+      <Point>UPSOD</Point>
       <Point>ORIPA</Point>
       <Point>BORLU</Point>
       <Point>RILDO</Point>
@@ -1158,6 +1179,7 @@
       <Point>HELGE</Point>
       <Point>PEHRR</Point>
       <Point>CH VOR</Point>
+      <Point>RAPPY</Point>
       <Point>JIPIG</Point>
       <Point>AA VOR</Point>
       <Point>SALAG</Point>
@@ -1328,7 +1350,6 @@
       <Point>SCUBA</Point>
       <Point>MIBOR</Point>
       <Point>ORAGI</Point>
-      <Point>KENNE</Point>
       <Point>MEXIP</Point>
       <Point>NUPTO</Point>
       <Point>OVTOS</Point>
@@ -1551,6 +1572,9 @@
       <Point>BIGAP</Point>
       <Point>SOVBA</Point>
       <Point>RIBVO</Point>
+      <Point>OLGOP</Point>
+      <Point>OLGEX</Point>
+      <Point>VIMES</Point>
       <Point>VARGU</Point>
       <Point>UDUMA</Point>
       <Point>XELAN</Point>
@@ -1558,6 +1582,8 @@
       <Point>MERAS</Point>
       <Point>GUMPI</Point>
       <Point>ELNOR</Point>
+      <Point>ERVIT</Point>
+      <Point>TARIT</Point>
       <Point>RUFFY</Point>
       <Point>DULOT</Point>
       <Point>MESOS</Point>
@@ -1575,12 +1601,12 @@
       <Point>VARMA</Point>
       <Point>REVMU</Point>
       <Point>NOBUL</Point>
-      <Point>OLGOP</Point>
       <Point>IGDAR</Point>
       <Point>RIPGO</Point>
       <Point>OBLIX</Point>
       <Point>RILVA</Point>
       <Point>IDVEX</Point>
+      <Point>LEGIK</Point>
       <Point>PAVDO</Point>
       <Point>NURLA</Point>
       <Point>TUSVI</Point>
@@ -1629,6 +1655,9 @@
       <Point>COAST</Point>
       <Point>NZMX</Point>
       <Point>COUTA</Point>
+      <Point>SELNA</Point>
+      <Point>OMOVI</Point>
+      <Point>LUPMA</Point>
       <Point>MANGA</Point>
       <Point>TUIHU</Point>
       <Point>VANSA</Point>
@@ -1642,6 +1671,13 @@
       <Point>WAPOU</Point>
       <Point>BRETT</Point>
       <Point>ASEXO</Point>
+      <Point>IBOSI</Point>
+      <Point>KARBI</Point>
+      <Point>URGAB</Point>
+      <Point>ADMOG</Point>
+      <Point>AVBAS</Point>
+      <Point>ISTIK</Point>
+      <Point>GUVTU</Point>
       <Point>LALIK</Point>
       <Point>KABIL</Point>
       <Point>PEROO</Point>
@@ -1750,6 +1786,8 @@
       <Point>KAKET</Point>
       <Point>SKEET</Point>
       <Point>VIROL</Point>
+      <Point>EPGON</Point>
+      <Point>UPSOD</Point>
       <Point>ORIPA</Point>
       <Point>BORLU</Point>
       <Point>RILDO</Point>

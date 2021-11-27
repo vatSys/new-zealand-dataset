@@ -16,6 +16,7 @@
 - [AIRAC 2109](#airac-2109)
 - [AIRAC 2110](#airac-2110)
 - [AIRAC 2111](#airac-2111)
+- [AIRAC 2112](#airac-2112)
 
 
 ## AIRAC 2013
@@ -384,7 +385,7 @@ All Enroute Holds have been added under `Maps > Navaids`. The label stemming fro
 
 #### **ANR Updates**
 
-* Addition of the `KQ578`, `Q154`,  `Q162`. Addition of `LIDGA` to `KQ613`.
+* Addition of the follwing airways - `KQ578`, `Q154`,  `Q162`. Addition of `LIDGA` to `KQ613`.
 * Addition of the `AGSEV`, `AVNEM`, `BETPA`, `DABUV`, `EKILU`, `ENLOD`, `IGDUX`, `IGOVU`, `LIDGA`, `OBKIT`, `OLVOL`, `OPEKU`, `OVTAP`, `PIGUD`, `UGSAP`, `UPNOB`, `URDAP`, `VETUM`, `VEVOM` IFR waypoints. 
 * Removal of the `BAMEX`, `GORKI`, `GOWER`, `SEKLA`, `SEMKI`, `SHOAL` IFR waypoints.
 * Slight change to the co-ordinates for `NZJI`.
@@ -426,9 +427,63 @@ This plugin opens a local webserver that allows you to access the interface eith
 
 Special thanks to Zach from VATPAC and Jake from vatSys for working on the plugin. The styles for the plugin have been slightly adjusted for use with the VATNZ dataset. The project data respository [can be found here](https://github.com/vatSys/RemoteVSCSPlugin).
 
-
 ### Revision B (Bug Fixing)
 
 The VSCS Plugin released as a part of 2111 Revision A has been withdrawn, as it is causing a crashing issue when switching between datasets.
 
 The NZ customised version of the plugin will be available in the future for download, once some additional bugs have been squashed.
+
+## AIRAC 2112
+
+### Revision A (Initial)
+
+#### **ANR Uodates**
+
+* The following airways have been added:
+  * `KQ134`
+  * `KQ312`
+  * `KQ427`
+  * `KQ656`
+  * `KQ893`
+  * `KQ427` *(waypoint `NOBUL` replaced by `ERVIT`)*
+  * `Q202` *(new routing)*
+* The following IFR waypoints have been added:
+  * `RAPPY`
+  * `OLGOP`
+  * `OLGEX`
+  * `VIMES`
+  * `ERVIT`
+  * `TARIT`
+  * `LEGIK`
+  * `SELNA`
+  * `OMOVI`
+  * `LUPMA`
+  * `IBOSI`
+  * `KARBI`
+  * `URGAB`
+  * `ADMOG`
+  * `AVBAS`
+  * `ISTIK`
+  * `GUVTU`
+  * `EPGON`
+  * `UPSOD`
+* The following IFR waypoints have been removed:
+  * `KENNE`
+* Addition of the `RIKDI 1N` arrival for NZAA 05R.
+* Minor amendment to Controlled Airspace designations and lateral bounds
+  * Hamilton CTA/D 2500 ft – 9500 ft: NZA248  =>  NZA243
+  * Auckland CTA/C 4500 ft – 9500 ft: NZA245  =>  NZA146
+  * Auckland CTA/C 9500 ft – FL 600: NZA131  =>  NZA137
+  * Auckland CTA/C 6500 ft – 9500 ft: NZA130  =>  NZA136
+  * Bay CTA/D 6500 ft – 9500 ft: NZA232  =>  NZA233
+  * Bay CTA/C 9500 ft – FL 600: NZA434  =>  NZA436
+* Christchurch CTA/C lateral bounds amendment.
+* Establishment of NZD524 - Papawai.
+* Addition of `NZHF` - Huka Falls HLP. 
+* Minor change to the co-ordinates of `WP VOR`.
+
+#### **Dataset Updates**
+
+* Slight change to the ControllerInfo fields, to include our new vats.im/nz/ link shortener. This will be replicated to EuroScope in the next SkyLine release.
+* Default inclusion of the VATNZ Standard Route Tool - see associated release announcement.
+

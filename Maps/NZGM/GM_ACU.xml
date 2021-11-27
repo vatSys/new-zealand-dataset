@@ -2,6 +2,10 @@
 <Maps>
   <Map Type="System2" Name="01 SIDs" Priority="1" CustomColourName="ProcDep" Center="-42.458661+171.193278">
     <Line Pattern="Dashed">
+      <!--Rwy01 OCEAN1-->
+      -42.458661+171.193278/-42.423150+171.222260/-42.240050+171.085110/DAMIL
+    </Line>
+    <Line Pattern="Dashed">
       <!--Rwy01 RILE1Q-->
       -42.458661+171.193278/-42.438150+171.211840/MUDUT/-42.337090+171.151750/RILEY
     </Line>
@@ -10,11 +14,13 @@
       RILEY/OSOLO
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>DAMIL</Point>
       <Point>MUDUT</Point>
       <Point>RILEY</Point>
       <Point>OSOLO</Point>
     </Symbol>
     <Label HasLeader="true">
+      <Point>DAMIL</Point>
       <Point>RILEY</Point>
       <Point>OSOLO</Point>
     </Label>
@@ -87,16 +93,42 @@
   </Map>
   <Map Type="System2" Name="19 SIDs" Priority="1" CustomColourName="ProcDep" Center="-42.466089+171.187217">
     <Line Pattern="Dashed">
+      <!--Rwy19 BEACH1-->
+      -42.466089+171.187217/-42.496960+171.140500/-42.489860+171.108930/WS NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy19 BELEE1-->
+      -42.466089+171.187217/-42.543080+171.075120/BELEE
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy19 DAMIL1-->
+      -42.496960+171.140500/-42.518920+171.010800/DAMIL
+    </Line>
+    <Line Pattern="Dashed">
       <!--Rwy19 OSOL1P-->
       -42.466089+171.187217/PAROA/APASA/OSOLO
     </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy19 SOUTH1-->
+      -42.466089+171.187217/-42.487270+171.157580/HK NDB
+    </Line>
+    <Symbol Type="Circle">
+      <Point>WS NDB</Point>
+      <Point>HK NDB</Point>
+    </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>BELEE</Point>
+      <Point>DAMIL</Point>
       <Point>PAROA</Point>
       <Point>APASA</Point>
       <Point>OSOLO</Point>
     </Symbol>
     <Label HasLeader="true">
+      <Point>WS NDB</Point>
+      <Point>BELEE</Point>
+      <Point>DAMIL</Point>
       <Point>OSOLO</Point>
+      <Point>HK NDB</Point>
     </Label>
   </Map>
 </Maps>
