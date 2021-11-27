@@ -7,7 +7,6 @@
     <NOTAM url="http://api.vateud.net/notams/%ICAO.xml" xmlDataTag="raw" />
   </ProductTypes>
   <Browsers>
-    <LocalVSCS url="http://localhost:7673/" />
     <AIP url="http://www.aip.net.nz/" />
     <IFIS url="https://www.ifis.airways.co.nz/script/briefing/aerodrome_briefing.asp" />
     <MetFlight url="http://metflight.metra.co.nz/MetFlight.php" />
