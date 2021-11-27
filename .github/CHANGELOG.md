@@ -427,6 +427,12 @@ This plugin opens a local webserver that allows you to access the interface eith
 
 Special thanks to Zach from VATPAC and Jake from vatSys for working on the plugin. The styles for the plugin have been slightly adjusted for use with the VATNZ dataset. The project data respository [can be found here](https://github.com/vatSys/RemoteVSCSPlugin).
 
+### Revision B (Bug Fixing)
+
+The VSCS Plugin released as a part of 2111 Revision A has been withdrawn, as it is causing a crashing issue when switching between datasets.
+
+The NZ customised version of the plugin will be available in the future for download, once some additional bugs have been squashed.
+
 ## AIRAC 2112
 
 ### Revision A (Initial)
@@ -476,9 +482,8 @@ Special thanks to Zach from VATPAC and Jake from vatSys for working on the plugi
 * Addition of `NZHF` - Huka Falls HLP. 
 * Minor change to the co-ordinates of `WP VOR`.
 
-
-
 #### **Dataset Updates**
 
 * Slight change to the ControllerInfo fields, to include our new vats.im/nz/ link shortener. This will be replicated to EuroScope in the next SkyLine release.
 * Default inclusion of the VATNZ Standard Route Tool - see associated release announcement.
+
