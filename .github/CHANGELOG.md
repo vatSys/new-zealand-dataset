@@ -17,6 +17,7 @@
 - [AIRAC 2110](#airac-2110)
 - [AIRAC 2111](#airac-2111)
 - [AIRAC 2112](#airac-2112)
+- [AIRAC 2113](#airac-2113)
 
 
 ## AIRAC 2013
@@ -437,7 +438,7 @@ The NZ customised version of the plugin will be available in the future for down
 
 ### Revision A (Initial)
 
-#### **ANR Uodates**
+#### **ANR Updates**
 
 * The following airways have been added:
   * `KQ134`
@@ -487,3 +488,14 @@ The NZ customised version of the plugin will be available in the future for down
 * Slight change to the ControllerInfo fields, to include our new vats.im/nz/ link shortener. This will be replicated to EuroScope in the next SkyLine release.
 * Default inclusion of the VATNZ Standard Route Tool - see associated release announcement.
 
+## AIRAC 2113
+
+### Revision A (Initial)
+
+#### **ANR Updates**
+
+[To be populated]
+
+#### **Dataset Updates**
+
+* feat: The ATIS parser now recognises airband frequencies in the ATIS, and speaks them properly ("1 3 4 decimal 5"). Cheers to Zain for this.
