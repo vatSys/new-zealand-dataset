@@ -494,7 +494,9 @@ The NZ customised version of the plugin will be available in the future for down
 
 #### **ANR Updates**
 
-[To be populated]
+* Addition of the `KETUS` and `GOMIK` IFR waypoints.
+* Removal of the `GOBIN` and `KETOT` IFR waypoints.
+* Minor updates the Restricted Areas.
 
 #### **Dataset Updates**
 

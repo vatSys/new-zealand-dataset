@@ -1014,7 +1014,7 @@ BIGEK/
 GOTSO/
 FA VOR/
 IKENA/
-KETOT/
+KETUS/
 FU NDB
 </Airway>
     <Airway Name="A592">
@@ -1116,7 +1116,7 @@ TAPAP
 </Airway>
     <Airway Name="B581">
 BAXIL/
-GOBIN/
+GOMIK/
 WOOBY/
 WACOS
 </Airway>
@@ -3858,7 +3858,6 @@ RILEY
     <Point Name="GM483" Type="Fix">-422924.742+1711003.140</Point>
     <Point Name="GOBEN" Type="Fix">-462557.640+1682522.380</Point>
     <Point Name="GOBIL" Type="Fix">-200450.980-1743809.690</Point>
-    <Point Name="GOBIN" Type="Fix">-092751.690-1725618.380</Point>
     <Point Name="GOBOB" Type="Fix">-365415.450+1745039.670</Point>
     <Point Name="GOBUK" Type="Fix">-375446.400+1761529.140</Point>
     <Point Name="GODAB" Type="Fix">-190118.070-1650000.000</Point>
@@ -3869,6 +3868,7 @@ RILEY
     <Point Name="GOKAG" Type="Fix">-393947.990+1785528.010</Point>
     <Point Name="GOKIT" Type="Fix">-161522.000-1781606.000</Point>
     <Point Name="GOLEG" Type="Fix">-450357.230+1684026.230</Point>
+    <Point Name="GOMIK" Type="Fix">-092751.690-1725618.380</Point>
     <Point Name="GOMPI" Type="Fix">-433834.520+1722825.250</Point>
     <Point Name="GOMUD" Type="Fix">-375606.180+1750755.310</Point>
     <Point Name="GONAX" Type="Fix">-411028.650-1793437.890</Point>
@@ -4129,8 +4129,8 @@ RILEY
     <Point Name="KETIX" Type="Fix">-401912.200+1752235.080</Point>
     <Point Name="KETOB" Type="Fix">-370756.150+1750143.910</Point>
     <Point Name="KETOS" Type="Fix">-433653.650+1723306.770</Point>
-    <Point Name="KETOT" Type="Fix">-122913.100-1741651.580</Point>
     <Point Name="KETUP" Type="Fix">-222125.300-1754520.910</Point>
+    <Point Name="KETUS" Type="Fix">-122913.100-1741651.580</Point>
     <Point Name="KEVEL" Type="Fix">-401514.960+1750425.830</Point>
     <Point Name="KEVID" Type="Fix">-375558.010+1752345.260</Point>
     <Point Name="KEVUT" Type="Fix">-412540.430+1724428.380</Point>
