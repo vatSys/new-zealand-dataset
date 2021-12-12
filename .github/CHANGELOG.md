@@ -498,4 +498,17 @@ The NZ customised version of the plugin will be available in the future for down
 
 #### **Dataset Updates**
 
-* feat: The ATIS parser now recognises airband frequencies in the ATIS, and speaks them properly ("1 3 4 decimal 5"). Cheers to Zain for this.
+* **feat**: The ATIS parser now recognises airband frequencies in the ATIS, and speaks them properly ("1 3 4 decimal 5"). Cheers to Zain for this.
+* **feat**: Addition of `SLP` ATIS abbreviation.
+* **fix**: Remove old MetConnect link.
+* **fix**: Palmerston North STAR fixes.
+  * `APITI 1A` -> `APITI 2A`
+  * `IDLUR 2A` -> `IDLUR 3A`
+  * `AVGUV 1A` -> `AVGUV 2A`
+  * `MIBUS 1B` -> `MIBUS 2B`
+  * `RINRI 1B` -> `RINRI 2B`
+  * `IGPAX 1A` -> `IGPAX 2A`
+  * `VIROL 1B` -> `VIROL 2B`
+  * `LUNBA 1A` -> `LUNBA 2A`
+  * `TUTSI 1B` -> `TUTSI 2B`
+  * `TUTSI 1E` -> `TUTSI 2E` 

@@ -160,7 +160,7 @@
       IRMIX/UDODI/AKNIN
     </Line>
     <Line>
-      <!--Rwy07 MIBU1B-->
+      <!--Rwy07 MIBU2B-->
       MIBUS/GUTNI
     </Line>
     <Line>
@@ -168,31 +168,31 @@
       OKEVO/REPIM/AKNIN
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy07 RINR1B.BINIT-->
+      <!--Rwy07 RINR2B.BINIT-->
       BINIT/RINRI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy07 RINR1B.SAKBA-->
+      <!--Rwy07 RINR2B.SAKBA-->
       SAKBA/RINRI
     </Line>
     <Line>
-      <!--Rwy07 RINR1B-->
+      <!--Rwy07 RINR2B-->
       RINRI/GUTNI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy07 TUTS1B.APITI-->
+      <!--Rwy07 TUTS2B.APITI-->
       APITI/TUTSI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy07 TUTS1B.IDLUR-->
+      <!--Rwy07 TUTS2B.IDLUR-->
       IDLUR/TUTSI
     </Line>
     <Line>
-      <!--Rwy07 TUTS1B-->
+      <!--Rwy07 TUTS2B-->
       TUTSI/LEKED/OLMUX/AKNIN
     </Line>
     <Line>
-      <!--Rwy07 VIRO1B-->
+      <!--Rwy07 VIRO2B-->
       VIROL/KEVEL/ANPUG/RINRI/AKNIN
     </Line>
     <Symbol Type="HollowTriangle">
@@ -366,43 +366,43 @@
   </Map>
   <Map Type="System2" Name="25 STARs" Priority="1" CustomColourName="ProcArr" Center="-40.319836+175.624669">
     <Line>
-      <!--Rwy25 APIT1A-->
+      <!--Rwy25 APIT2A-->
       APITI/TUTSI/UPNUK/LEKED
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy25 AVGU1A.BINIT-->
+      <!--Rwy25 AVGU2A.BINIT-->
       BINIT/UPRIX/AVGUV
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy25 AVGU1A.MIBUS-->
+      <!--Rwy25 AVGU2A.MIBUS-->
       MIBUS/RINRI/AVGUV
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy25 AVGU1A.SAKBA-->
+      <!--Rwy25 AVGU2A.SAKBA-->
       SAKBA/UPRIX
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy25 AVGU1A.VIROL-->
+      <!--Rwy25 AVGU2A.VIROL-->
       VIROL/KEVEL/ANPUG/RINRI
     </Line>
     <Line>
-      <!--Rwy25 AVGU1A-->
+      <!--Rwy25 AVGU2A-->
       AVGUV/NIKIP
     </Line>
     <Line>
-      <!--Rwy25 IDLU2A-->
+      <!--Rwy25 IDLU3A-->
       IDLUR/TUTSI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy25 IGPA1A.APITI-->
+      <!--Rwy25 IGPA2A.APITI-->
       APITI/IGPAX
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy25 IGPA1A.IDLUR-->
+      <!--Rwy25 IGPA2A.IDLUR-->
       IDLUR/IGPAX
     </Line>
     <Line>
-      <!--Rwy25 IGPA1A-->
+      <!--Rwy25 IGPA2A-->
       IGPAX/OVRUN/BIDEK
     </Line>
     <Line>
@@ -410,26 +410,27 @@
       IRMIX/UVUSI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy25 LUNB1A.BINIT-->
+      <!--Rwy25 LUNB2A.BINIT-->
       BINIT/RINRI/LUNBA
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy25 LUNB1A.MIBUS-->
+      <!--Rwy25 LUNB2A.MIBUS-->
       MIBUS/LUNBA
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy25 LUNB1A.SAKBA-->
+      <!--Rwy25 LUNB2A.SAKBA-->
       SAKBA/RINRI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy25 LUNB1A.VIROL-->
+      <!--Rwy25 LUNB2A.VIROL-->
     </Line>
     <Line>
-      <!--Rwy25 LUNB1A-->
+      <!--Rwy25 LUNB2A-->
       LUNBA/OLMUX
     </Line>
     <Line Pattern="Solid">
       <!--Rwy25 LUNB1E.BINIT-->
+      BINIT/BINIT
     </Line>
     <Line Pattern="Solid">
       <!--Rwy25 LUNB1E.MIBUS-->
@@ -446,15 +447,15 @@
       OKEVO/NIKIP
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy25 TUTS1E.APITI-->
+      <!--Rwy25 TUTS2E.APITI-->
       APITI/TUTSI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy25 TUTS1E.IDLUR-->
+      <!--Rwy25 TUTS2E.IDLUR-->
       IDLUR/TUTSI
     </Line>
     <Line>
-      <!--Rwy25 TUTS1E-->
+      <!--Rwy25 TUTS2E-->
       TUTSI/LEKED
     </Line>
     <Symbol Type="HollowTriangle">
