@@ -12,7 +12,8 @@
       </Sectors>
       <Maps>
         <Map Name="Coast" />
-        <Map Name="Airspace/Enroute Sectors" />
+        <Map Name="Airspace/ENR Sectors" />
+        <Map Name="Airspace/TMA Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
       </Maps>
@@ -43,7 +44,8 @@
       </Sectors>
       <Maps>
         <Map Name="Coast" />
-        <Map Name="Airspace/Enroute Sectors" />
+        <Map Name="Airspace/ENR Sectors" />
+        <Map Name="Airspace/TMA Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
       </Maps>
@@ -69,7 +71,8 @@
       </Sectors>
       <Maps>
         <Map Name="Coast" />
-        <Map Name="Airspace/Enroute Sectors" />
+        <Map Name="Airspace/ENR Sectors" />
+        <Map Name="Airspace/TMA Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
       </Maps>
@@ -95,7 +98,8 @@
       </Sectors>
       <Maps>
         <Map Name="Coast" />
-        <Map Name="Airspace/Enroute Sectors" />
+        <Map Name="Airspace/ENR Sectors" />
+        <Map Name="Airspace/TMA Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
       </Maps>
@@ -132,7 +136,8 @@
       </Sectors>
       <Maps>
         <Map Name="Coast" />
-        <Map Name="Airspace/Enroute Sectors" />
+        <Map Name="Airspace/ENR Sectors" />
+        <Map Name="Airspace/TMA Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
       </Maps>
@@ -158,7 +163,8 @@
       </Sectors>
       <Maps>
         <Map Name="Coast" />
-        <Map Name="Airspace/Enroute Sectors" />
+        <Map Name="Airspace/ENR Sectors" />
+        <Map Name="Airspace/TMA Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
       </Maps>
@@ -187,7 +193,8 @@
       </Sectors>
       <Maps>
         <Map Name="Coast" />
-        <Map Name="Airspace/Enroute Sectors" />
+        <Map Name="Airspace/ENR Sectors" />
+        <Map Name="Airspace/TMA Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
       </Maps>

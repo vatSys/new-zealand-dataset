@@ -512,3 +512,4 @@ The NZ customised version of the plugin will be available in the future for down
   * `LUNBA 1A` -> `LUNBA 2A`
   * `TUTSI 1B` -> `TUTSI 2B`
   * `TUTSI 1E` -> `TUTSI 2E` 
+* **feat**: New ENR Sector Map layers. The default Maps for Enroute views have also been updated.
