@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Group Name="Enroute">
-    <Position Name="Taranaki" Type="ASD" DefaultCenter="-381200.000+1771110.000" DefaultRange="500" MagneticVariation="-21">
+    <Position Name="Taranaki" Type="ASD" DefaultCenter="-403738.000+1734050.000" DefaultRange="500" MagneticVariation="-21">
       <Sectors>
         <Sector Name="NAK" />
         <Sector Name="OHA" />
