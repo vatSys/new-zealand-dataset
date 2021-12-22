@@ -517,3 +517,4 @@ The NZ customised version of the plugin will be available in the future for down
 * **feat**: New ENR Sector Map layers. The default Maps for Enroute views have also been updated.
 * **feat**: Updated Enroute Volume definitions with the updated Enroute data.
 * **fix**: NZCH-T Position DefaultCenter fixed.
+* **feat**: Added additional ADS-B sites, particularly in areas around Procedural Aerodromes.
