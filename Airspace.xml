@@ -411,11 +411,11 @@
         <SID Name="TERO3S" />
         <STAR Name="BUVL1B" ApproachName="GNSS" />
         <STAR Name="IRMI1B" ApproachName="GNSS" />
-        <STAR Name="MIBU1B" ApproachName="GNSS" />
+        <STAR Name="MIBU2B" ApproachName="GNSS" />
         <STAR Name="OKEV1B" ApproachName="GNSS" />
-        <STAR Name="RINR1B" ApproachName="GNSS" />
-        <STAR Name="TUTS1B" ApproachName="GNSS" />
-        <STAR Name="VIRO1B" ApproachName="GNSS" />
+        <STAR Name="RINR2B" ApproachName="GNSS" />
+        <STAR Name="TUTS2B" ApproachName="GNSS" />
+        <STAR Name="VIRO2B" ApproachName="GNSS" />
       </Runway>
       <Runway Name="25" DataRunway="25">
         <SID Name="GUTN2P" />
@@ -423,15 +423,15 @@
         <SID Name="GUTN3T" />
         <SID Name="GUTN2U" />
         <SID Name="NZPM3A" />
-        <STAR Name="APIT1A" ApproachName="RNPX" />
-        <STAR Name="AVGU1A" ApproachName="GNSS" />
-        <STAR Name="IDLU2A" ApproachName="RNPX" />
-        <STAR Name="IGPA1A" ApproachName="GNSS" />
+        <STAR Name="APIT2A" ApproachName="RNPX" />
+        <STAR Name="AVGU2A" ApproachName="GNSS" />
+        <STAR Name="IDLU3A" ApproachName="RNPX" />
+        <STAR Name="IGPA2A" ApproachName="GNSS" />
         <STAR Name="IRMI1A" ApproachName="GNSS" />
-        <STAR Name="LUNB1A" />
+        <STAR Name="LUNB2A" />
         <STAR Name="LUNB1E" ApproachName="RNPX" />
         <STAR Name="OKEV1A" ApproachName="GNSS" />
-        <STAR Name="TUTS1E" ApproachName="RNPX" />
+        <STAR Name="TUTS2E" ApproachName="RNPX" />
       </Runway>
     </Airport>
     <Airport Name="NZPP">
@@ -1014,7 +1014,7 @@ BIGEK/
 GOTSO/
 FA VOR/
 IKENA/
-KETOT/
+KETUS/
 FU NDB
 </Airway>
     <Airway Name="A592">
@@ -1116,7 +1116,7 @@ TAPAP
 </Airway>
     <Airway Name="B581">
 BAXIL/
-GOBIN/
+GOMIK/
 WOOBY/
 WACOS
 </Airway>
@@ -3858,7 +3858,6 @@ RILEY
     <Point Name="GM483" Type="Fix">-422924.742+1711003.140</Point>
     <Point Name="GOBEN" Type="Fix">-462557.640+1682522.380</Point>
     <Point Name="GOBIL" Type="Fix">-200450.980-1743809.690</Point>
-    <Point Name="GOBIN" Type="Fix">-092751.690-1725618.380</Point>
     <Point Name="GOBOB" Type="Fix">-365415.450+1745039.670</Point>
     <Point Name="GOBUK" Type="Fix">-375446.400+1761529.140</Point>
     <Point Name="GODAB" Type="Fix">-190118.070-1650000.000</Point>
@@ -3869,6 +3868,7 @@ RILEY
     <Point Name="GOKAG" Type="Fix">-393947.990+1785528.010</Point>
     <Point Name="GOKIT" Type="Fix">-161522.000-1781606.000</Point>
     <Point Name="GOLEG" Type="Fix">-450357.230+1684026.230</Point>
+    <Point Name="GOMIK" Type="Fix">-092751.690-1725618.380</Point>
     <Point Name="GOMPI" Type="Fix">-433834.520+1722825.250</Point>
     <Point Name="GOMUD" Type="Fix">-375606.180+1750755.310</Point>
     <Point Name="GONAX" Type="Fix">-411028.650-1793437.890</Point>
@@ -4129,8 +4129,8 @@ RILEY
     <Point Name="KETIX" Type="Fix">-401912.200+1752235.080</Point>
     <Point Name="KETOB" Type="Fix">-370756.150+1750143.910</Point>
     <Point Name="KETOS" Type="Fix">-433653.650+1723306.770</Point>
-    <Point Name="KETOT" Type="Fix">-122913.100-1741651.580</Point>
     <Point Name="KETUP" Type="Fix">-222125.300-1754520.910</Point>
+    <Point Name="KETUS" Type="Fix">-122913.100-1741651.580</Point>
     <Point Name="KEVEL" Type="Fix">-401514.960+1750425.830</Point>
     <Point Name="KEVID" Type="Fix">-375558.010+1752345.260</Point>
     <Point Name="KEVUT" Type="Fix">-412540.430+1724428.380</Point>
@@ -8352,10 +8352,10 @@ RILEY
     <STAR Name="IDLU1H" Airport="NZOH" Runways="09">
       <Route Runway="09">IDLUR/BOBIT</Route>
     </STAR>
-    <STAR Name="APIT1A" Airport="NZPM" Runways="25">
+    <STAR Name="APIT2A" Airport="NZPM" Runways="25">
       <Route Runway="25">APITI/TUTSI/UPNUK/LEKED</Route>
     </STAR>
-    <STAR Name="AVGU1A" Airport="NZPM" Runways="25">
+    <STAR Name="AVGU2A" Airport="NZPM" Runways="25">
       <Transition Name="BINIT">BINIT/UPRIX</Transition>
       <Transition Name="MIBUS">MIBUS/RINRI</Transition>
       <Transition Name="SAKBA">SAKBA/UPRIX</Transition>
@@ -8367,10 +8367,10 @@ RILEY
       <Transition Name="IDLUR">IDLUR</Transition>
       <Route Runway="07">BUVLI/NIRUB</Route>
     </STAR>
-    <STAR Name="IDLU2A" Airport="NZPM" Runways="25">
+    <STAR Name="IDLU3A" Airport="NZPM" Runways="25">
       <Route Runway="25">IDLUR/TUTSI/UPNUK/LEKED</Route>
     </STAR>
-    <STAR Name="IGPA1A" Airport="NZPM" Runways="25">
+    <STAR Name="IGPA2A" Airport="NZPM" Runways="25">
       <Transition Name="APITI">APITI</Transition>
       <Transition Name="IDLUR">IDLUR</Transition>
       <Route Runway="25">IGPAX/OVRUN/BIDEK</Route>
@@ -8381,7 +8381,7 @@ RILEY
     <STAR Name="IRMI1B" Airport="NZPM" Runways="07">
       <Route Runway="07">IRMIX/UDODI/AKNIN</Route>
     </STAR>
-    <STAR Name="LUNB1A" Airport="NZPM" Runways="25">
+    <STAR Name="LUNB2A" Airport="NZPM" Runways="25">
       <Transition Name="BINIT">BINIT/RINRI</Transition>
       <Transition Name="MIBUS">MIBUS</Transition>
       <Transition Name="SAKBA">SAKBA/RINRI</Transition>
@@ -8389,12 +8389,12 @@ RILEY
       <Route Runway="25">LUNBA/OLMUX</Route>
     </STAR>
     <STAR Name="LUNB1E" Airport="NZPM" Runways="25">
-      <Transition Name="BINIT">BINIT/RINRI</Transition>
+      <Transition Name="BINIT">BINIT/BINIT/RINRI</Transition>
       <Transition Name="MIBUS">MIBUS</Transition>
       <Transition Name="SAKBA">SAKBA/RINRI</Transition>
       <Route Runway="25">LUNBA/GUTNI/LEKED</Route>
     </STAR>
-    <STAR Name="MIBU1B" Airport="NZPM" Runways="07">
+    <STAR Name="MIBU2B" Airport="NZPM" Runways="07">
       <Route Runway="07">MIBUS/GUTNI</Route>
     </STAR>
     <STAR Name="OKEV1A" Airport="NZPM" Runways="25">
@@ -8403,22 +8403,22 @@ RILEY
     <STAR Name="OKEV1B" Airport="NZPM" Runways="07">
       <Route Runway="07">OKEVO/REPIM/AKNIN</Route>
     </STAR>
-    <STAR Name="RINR1B" Airport="NZPM" Runways="07">
+    <STAR Name="RINR2B" Airport="NZPM" Runways="07">
       <Transition Name="BINIT">BINIT</Transition>
       <Transition Name="SAKBA">SAKBA</Transition>
       <Route Runway="07">RINRI/GUTNI</Route>
     </STAR>
-    <STAR Name="TUTS1B" Airport="NZPM" Runways="07">
+    <STAR Name="TUTS2B" Airport="NZPM" Runways="07">
       <Transition Name="APITI">APITI</Transition>
       <Transition Name="IDLUR">IDLUR</Transition>
       <Route Runway="07">TUTSI/LEKED/OLMUX/AKNIN</Route>
     </STAR>
-    <STAR Name="TUTS1E" Airport="NZPM" Runways="25">
+    <STAR Name="TUTS2E" Airport="NZPM" Runways="25">
       <Transition Name="APITI">APITI</Transition>
       <Transition Name="IDLUR">IDLUR</Transition>
       <Route Runway="25">TUTSI/LEKED</Route>
     </STAR>
-    <STAR Name="VIRO1B" Airport="NZPM" Runways="07">
+    <STAR Name="VIRO2B" Airport="NZPM" Runways="07">
       <Route Runway="07">VIROL/KEVEL/ANPUG/RINRI/AKNIN</Route>
     </STAR>
     <STAR Name="AGSO1G" Airport="NZPP" Runways="34">

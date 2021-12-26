@@ -141,9 +141,13 @@
 	<Translation String="FNA" Spoken="final approach" />
 	<Translation String="LVP" Spoken="low visibility procedures" />
 	<Translation String="REF" Spoken="refer" />	
-
     <Translation String="RWY" Spoken="runway" />
     <Translation String="RWYS" Spoken="runways" />
+    <Translation String="SLP" Spoken="speed limiting point" />
+	
+	<!--Changes xxx.xxx to xxx decimal xxx for frequencies -->
+	<Translation Regex="(\d{3})\.(\d{1,3})" Spoken="$1 decimal $2" />
+	
     <!--Changes L to Left when it is associated with a two digit runway identifier-->
 	<Translation Regex="([012]\d|[3][0123456])L AND R" Spoken="$1 left and right" />
     <Translation Regex="([012]\d|[3][0123456])L AND C" Spoken="$1 left and centre" />

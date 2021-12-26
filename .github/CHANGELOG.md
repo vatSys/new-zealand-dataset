@@ -17,6 +17,7 @@
 - [AIRAC 2110](#airac-2110)
 - [AIRAC 2111](#airac-2111)
 - [AIRAC 2112](#airac-2112)
+- [AIRAC 2113](#airac-2113)
 
 
 ## AIRAC 2013
@@ -437,7 +438,7 @@ The NZ customised version of the plugin will be available in the future for down
 
 ### Revision A (Initial)
 
-#### **ANR Uodates**
+#### **ANR Updates**
 
 * The following airways have been added:
   * `KQ134`
@@ -487,3 +488,33 @@ The NZ customised version of the plugin will be available in the future for down
 * Slight change to the ControllerInfo fields, to include our new vats.im/nz/ link shortener. This will be replicated to EuroScope in the next SkyLine release.
 * Default inclusion of the VATNZ Standard Route Tool - see associated release announcement.
 
+## AIRAC 2113
+
+### Revision A (Initial)
+
+#### **ANR Updates**
+
+* Addition of the `KETUS` and `GOMIK` IFR waypoints.
+* Removal of the `GOBIN` and `KETOT` IFR waypoints.
+* Minor updates the Restricted Areas.
+
+#### **Dataset Updates**
+
+* **feat**: The ATIS parser now recognises airband frequencies in the ATIS, and speaks them properly ("1 3 4 decimal 5"). Cheers to Zain for this.
+* **feat**: Addition of `SLP` ATIS abbreviation.
+* **fix**: Remove old MetConnect link.
+* **fix**: Palmerston North STAR fixes.
+  * `APITI 1A` -> `APITI 2A`
+  * `IDLUR 2A` -> `IDLUR 3A`
+  * `AVGUV 1A` -> `AVGUV 2A`
+  * `MIBUS 1B` -> `MIBUS 2B`
+  * `RINRI 1B` -> `RINRI 2B`
+  * `IGPAX 1A` -> `IGPAX 2A`
+  * `VIROL 1B` -> `VIROL 2B`
+  * `LUNBA 1A` -> `LUNBA 2A`
+  * `TUTSI 1B` -> `TUTSI 2B`
+  * `TUTSI 1E` -> `TUTSI 2E` 
+* **feat**: New ENR Sector Map layers. The default Maps for Enroute views have also been updated.
+* **feat**: Updated Enroute Volume definitions with the updated Enroute data.
+* **fix**: NZCH-T Position DefaultCenter fixed.
+* **feat**: Added additional ADS-B sites, particularly in areas around Procedural Aerodromes.

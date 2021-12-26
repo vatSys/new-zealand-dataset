@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+	<Map Name="ENR Sector Labels" Type="System2" Priority="2">
+		<Label HasLeader="false">
+			<Point Name="126.0">-38.035710+174.528750</Point>
+			<Point Name="123.9">-36.125833+174.147222</Point>
+			<Point Name="123.7">-40.305556+173.033889</Point>
+			<Point Name="119.5">-38.265519+177.073506</Point>
+			<Point Name="126.2">-40.295614+176.037078</Point>
+			<Point Name="129.4">-42.742331+173.872099</Point>
+			<Point Name="129.3">-44.758333+168.963056</Point>
+		</Label>
+	</Map>
+</Maps>

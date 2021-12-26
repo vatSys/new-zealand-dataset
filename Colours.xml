@@ -507,6 +507,48 @@
     <B>150</B>
   </Colour>
 
+  <Colour id="Custom">
+    <Use>Hold Shorts - ASMGCS</Use>
+    <Name>yellowHS</Name>
+    <R>126</R>
+    <G>93</G>
+    <B>39</B>
+  </Colour>
+
+  <Colour id="Custom">
+    <Use>Hold point to Runway - ASMGCS</Use>
+    <Name>yellowHA</Name>
+    <R>126</R>
+    <G>93</G>
+    <B>39</B>
+  </Colour>
+
+  <Colour id="Custom">
+    <Use>Taxiways - ASMGCS</Use>
+    <Name>taxiway</Name>
+    <R>126</R>
+    <G>93</G>
+    <B>39</B>
+  </Colour>
+
+  <Colour id="Custom">
+    <Use>Runway Lines - ASMGCS</Use>
+    <Name>white</Name>
+    <R>208</R>
+    <G>214</G>
+    <B>226</B>
+  </Colour>
+
+  <Colour id="Custom">
+    <Use>Apron Lines - ASMGCS</Use>
+    <Name>apron</Name>
+    <R>86</R>
+    <G>63</G>
+    <B>26</B>
+  </Colour>
+
+
+
   <!-- Colours added due to changes in the vatSys application -->
 
   <Colour id="ListSeparator">
@@ -600,4 +642,8 @@
     <G>30</G>
     <B>0</B>
   </Colour>
+
+
+
+  
 </Colours>

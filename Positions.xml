@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Group Name="Enroute">
-    <Position Name="Taranaki" Type="ASD" DefaultCenter="-381200.000+1771110.000" DefaultRange="500" MagneticVariation="-21">
+    <Position Name="Taranaki" Type="ASD" DefaultCenter="-403738.000+1734050.000" DefaultRange="500" MagneticVariation="-21">
       <Sectors>
         <Sector Name="NAK" />
         <Sector Name="OHA" />
@@ -12,7 +12,8 @@
       </Sectors>
       <Maps>
         <Map Name="Coast" />
-        <Map Name="Airspace/Enroute Sectors" />
+        <Map Name="Airspace/ENR Sectors" />
+        <Map Name="Airspace/TMA Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
       </Maps>
@@ -43,7 +44,8 @@
       </Sectors>
       <Maps>
         <Map Name="Coast" />
-        <Map Name="Airspace/Enroute Sectors" />
+        <Map Name="Airspace/ENR Sectors" />
+        <Map Name="Airspace/TMA Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
       </Maps>
@@ -69,7 +71,8 @@
       </Sectors>
       <Maps>
         <Map Name="Coast" />
-        <Map Name="Airspace/Enroute Sectors" />
+        <Map Name="Airspace/ENR Sectors" />
+        <Map Name="Airspace/TMA Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
       </Maps>
@@ -95,7 +98,8 @@
       </Sectors>
       <Maps>
         <Map Name="Coast" />
-        <Map Name="Airspace/Enroute Sectors" />
+        <Map Name="Airspace/ENR Sectors" />
+        <Map Name="Airspace/TMA Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
       </Maps>
@@ -132,7 +136,8 @@
       </Sectors>
       <Maps>
         <Map Name="Coast" />
-        <Map Name="Airspace/Enroute Sectors" />
+        <Map Name="Airspace/ENR Sectors" />
+        <Map Name="Airspace/TMA Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
       </Maps>
@@ -158,7 +163,8 @@
       </Sectors>
       <Maps>
         <Map Name="Coast" />
-        <Map Name="Airspace/Enroute Sectors" />
+        <Map Name="Airspace/ENR Sectors" />
+        <Map Name="Airspace/TMA Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
       </Maps>
@@ -187,7 +193,8 @@
       </Sectors>
       <Maps>
         <Map Name="Coast" />
-        <Map Name="Airspace/Enroute Sectors" />
+        <Map Name="Airspace/ENR Sectors" />
+        <Map Name="Airspace/TMA Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
       </Maps>
@@ -748,30 +755,46 @@
     </Position>
   </Group>
   <Group Name="Class C">
-    <Position Name="NZCH" Type="ASMGCS" ASMGCSAirport="NZCH" DefaultCenter="-432909.351+1723216.287" DefaultRange="2" MagneticVariation="-24.2" Rotation="0">
+    <Position Name="NZAA" Type="ASMGCS" ASMGCSAirport="NZAA" DefaultCenter="-37.008056+174.791667" DefaultRange="2" MagneticVariation="-20" Rotation="0">
       <Maps>
-        <Map Name="NZCH/ASMGCS_NZCH_RWY" />
-        <Map Name="NZCH/ASMGCS_NZCH_APR" />
-        <Map Name="NZCH/ASMGCS_NZCH_BLD" />
-        <Map Name="NZCH/ASMGCS_NZCH_TWY" />
-        <Map Name="NZCH/ASMGCS_NZCH_BAK" />
+        <Map Name="NZAA/ASMGCS_NZAA_RWY" />
+        <Map Name="NZAA/ASMGCS_NZAA_GRASS" />
+        <Map Name="NZAA/ASMGCS_NZAA_APR" />
+        <Map Name="NZAA/ASMGCS_NZAA_TWY" />
+        <Map Name="NZAA/ASMGCS_NZAA_BLD" />
+        <Map Name="NZAA/ASMGCS_NZAA_yellowHS" />
+        <Map Name="NZAA/ASMGCS_NZAA_yellowHA" />
+        <Map Name="NZAA/ASMGCS_NZAA_white" />
+        <Map Name="NZAA/ASMGCS_NZAA_taxiway" />
+        <Map Name="NZAA/ASMGCS_NZAA_apron" />
       </Maps>
     </Position>
     <Position Name="NZWN" Type="ASMGCS" ASMGCSAirport="NZWN" DefaultCenter="-41.327222+174.805278" DefaultRange="2" MagneticVariation="-22.9" Rotation="0">
       <Maps>
         <Map Name="NZWN/ASMGCS_NZWN_RWY" />
+        <Map Name="NZWN/ASMGCS_NZWN_GRASS" />
         <Map Name="NZWN/ASMGCS_NZWN_APR" />
-        <Map Name="NZWN/ASMGCS_NZWN_BLD" />
         <Map Name="NZWN/ASMGCS_NZWN_TWY" />
-        <Map Name="NZWN/ASMGCS_NZWN_BAK" />
+        <Map Name="NZWN/ASMGCS_NZWN_BLD" />
+        <Map Name="NZWN/ASMGCS_NZWN_yellowHS" />
+        <Map Name="NZWN/ASMGCS_NZWN_yellowHA" />
+        <Map Name="NZWN/ASMGCS_NZWN_white" />
+        <Map Name="NZWN/ASMGCS_NZWN_taxiway" />
+        <Map Name="NZWN/ASMGCS_NZWN_apron" />
       </Maps>
     </Position>
-    <Position Name="NZAA" Type="ASMGCS" ASMGCSAirport="NZAA" DefaultCenter="-37.008056+174.791667" DefaultRange="3" MagneticVariation="-20" Rotation="0">
+    <Position Name="NZCH" Type="ASMGCS" ASMGCSAirport="NZCH" DefaultCenter="-43.489444+172.534444" DefaultRange="2" MagneticVariation="-24.2" Rotation="0">
       <Maps>
-        <Map Name="NZAA/ASMGCS_NZAA_RWY" />
-        <Map Name="NZAA/ASMGCS_NZAA_APR" />
-        <Map Name="NZAA/ASMGCS_NZAA_TWY" />
-        <Map Name="NZAA/ASMGCS_NZAA_BLD" />
+        <Map Name="NZCH/ASMGCS_NZCH_RWY" />
+        <Map Name="NZCH/ASMGCS_NZCH_GRASS" />
+        <Map Name="NZCH/ASMGCS_NZCH_APR" />
+        <Map Name="NZCH/ASMGCS_NZCH_TWY" />
+        <Map Name="NZCH/ASMGCS_NZCH_BLD" />
+        <Map Name="NZCH/ASMGCS_NZCH_yellowHS" />
+        <Map Name="NZCH/ASMGCS_NZCH_yellowHA" />
+        <Map Name="NZCH/ASMGCS_NZCH_white" />
+        <Map Name="NZCH/ASMGCS_NZCH_taxiway" />
+        <Map Name="NZCH/ASMGCS_NZCH_apron" />
       </Maps>
     </Position>
     <Position Name="NZQN" Type="ASMGCS" ASMGCSAirport="NZQN" DefaultCenter="-450121.64+1684425.88" DefaultRange="2" MagneticVariation="-24.7" Rotation="0">
@@ -869,9 +892,15 @@
     <Position Name="NZRO" Type="ASMGCS" ASMGCSAirport="NZRO" DefaultCenter="-380633.001+1761901.999" DefaultRange="2" MagneticVariation="-20.9" Rotation="0">
       <Maps>
         <Map Name="NZRO/ASMGCS_NZRO_RWY" />
+        <Map Name="NZRO/ASMGCS_NZRO_GRASS" />
         <Map Name="NZRO/ASMGCS_NZRO_APR" />
-        <Map Name="NZRO/ASMGCS_NZRO_BLD" />
         <Map Name="NZRO/ASMGCS_NZRO_TWY" />
+        <Map Name="NZRO/ASMGCS_NZRO_BLD" />
+        <Map Name="NZRO/ASMGCS_NZRO_yellowHS" />
+        <Map Name="NZRO/ASMGCS_NZRO_yellowHA" />
+        <Map Name="NZRO/ASMGCS_NZRO_white" />
+        <Map Name="NZRO/ASMGCS_NZRO_taxiway" />
+        <Map Name="NZRO/ASMGCS_NZRO_apron" />
       </Maps>
     </Position>
     <Position Name="NZNS" Type="ASMGCS" ASMGCSAirport="NZNS" DefaultCenter="-411740.650+1731320.116" DefaultRange="2" MagneticVariation="-22.6" Rotation="0">
