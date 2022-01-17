@@ -509,12 +509,12 @@
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZPM_TWR">
-        <Line>Palmerston North Tower - ATIS 129.700</Line>
+        <Line>Palmerston Tower - ATIS 129.700</Line>
         <Line>Need local charts? - vats.im/nz/charts</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZPM_GND">
-        <Line>Palmerston North Ground - ATIS 129.700</Line>
+        <Line>Palmerston Ground - ATIS 129.700</Line>
         <Line>Need local charts? - vats.im/nz/charts</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>

@@ -19,6 +19,8 @@
 - [AIRAC 2112](#airac-2112)
 - [AIRAC 2113](#airac-2113)
 
+### 2022 Releases
+- [AIRAC 2201](#airac-2201)
 
 ## AIRAC 2013
 
@@ -518,3 +520,21 @@ The NZ customised version of the plugin will be available in the future for down
 * **feat**: Updated Enroute Volume definitions with the updated Enroute data.
 * **fix**: NZCH-T Position DefaultCenter fixed.
 * **feat**: Added additional ADS-B sites, particularly in areas around Procedural Aerodromes.
+
+## AIRAC 2201
+
+### Revision A (Initial)
+
+Very small update this cycle, as there hasn't been many changes to the AIP. Most of the effort has been put into an upcoming major project.
+
+#### **ANR Updates**
+
+There aren't any changed in the ANR this cycle.
+
+*Note*: The closure of Loburn Abbey (NZLA) will be amended into the AIP in Cycle 2202.
+
+#### **Dataset Updates**
+
+* **fix**: Palmerston North Tower/Ground has been renamed to "Palmerston Tower/Ground".
+* **fix**: `LUBS3C` renamed to `LUBS2C`. 
+* **feat**: Small changes to our Sector export logic in support of a future update. Because of this, the `NSFA`, `NTTT`, `NZCM` and `NZZO` FIRs are no longer shown in the domestic dataset.

@@ -327,7 +327,7 @@
         <STAR Name="GUSD2A" ApproachName="GNSSZ" />
         <STAR Name="KAPU2A" ApproachName="GNSSZ" />
         <STAR Name="LUBS2A" ApproachName="GNSSZ" />
-        <STAR Name="LUBS3C" ApproachName="GNSSY" />
+        <STAR Name="LUBS2C" ApproachName="GNSSY" />
       </Runway>
       <Runway Name="06" DataRunway="06" />
       <Runway Name="20" DataRunway="20">
@@ -8290,7 +8290,7 @@ RILEY
     <STAR Name="LUBS1B" Airport="NZNS" Runways="20">
       <Route Runway="20">LUBSI/NS VOR/DUGOL/IRNUX/KAPUA</Route>
     </STAR>
-    <STAR Name="LUBS3C" Airport="NZNS" Runways="02">
+    <STAR Name="LUBS2C" Airport="NZNS" Runways="02">
       <Route Runway="02">LUBSI/VATKU/LERTI/ISDEM/GUNEL/RISMO/QUAIL</Route>
     </STAR>
     <STAR Name="MUKR1B" Airport="NZNS" Runways="20">
