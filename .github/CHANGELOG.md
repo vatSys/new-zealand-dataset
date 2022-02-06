@@ -539,3 +539,11 @@ There aren't any changed in the ANR this cycle.
 * **fix**: Palmerston North Tower/Ground has been renamed to "Palmerston Tower/Ground".
 * **fix**: `LUBS3C` renamed to `LUBS2C`. 
 * **feat**: Small changes to our Sector export logic in support of a future update. Because of this, the `NSFA`, `NTTT`, `NZCM` and `NZZO` FIRs are no longer shown in the domestic dataset.
+
+### Revision B
+
+Fix relating to the NZOH Boundary in `ENR Sectors.xml`.
+
+### Revision C
+
+Re-release to ensure that the changes carry through.

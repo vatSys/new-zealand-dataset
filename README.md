@@ -1,7 +1,7 @@
 # VATNZ vatSys Dataset Project
 
 
-[![Current AIRAC](https://img.shields.io/badge/Current%20AIRAC-2106a-blue)](https://github.com/vatnz-dev/new-zealand-dataset) [![Next Release](https://img.shields.io/badge/Next%20Release-15%20July-blueviolet)](https://github.com/vatnz-dev/new-zealand-dataset) 
+[![Current AIRAC](https://img.shields.io/badge/Current%20AIRAC-2201b-blue)](https://github.com/vatnz-dev/new-zealand-dataset) [![Next Release](https://img.shields.io/badge/Next%20Release-24%20February-blueviolet)](https://github.com/vatnz-dev/new-zealand-dataset) 
 
 
 
