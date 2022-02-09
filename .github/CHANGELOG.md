@@ -581,3 +581,7 @@ Some minor changes to Hamilton positions this cycle. NZHN-R_TWR has been removed
 Hamilton also gains a Delivery frequency this cycle, with a frequency of 122.900, which was previously assigned to NZHN_TWR. This delivery station is a Secondary position - so can be staffed only if Hamilton Tower is online, much the same as NZHN_APP.
 
 Nelson Delivery has also been added to the network. This works in much the same way as Hamilton Delivery, and can only be staffed if Nelson Tower is online.
+
+#### Other changes
+
+There have been some significant changes to the Sector File Generator tool this past month or so, enabling some neat data to come through in the next couple of cycles. Airspace lower limits, anyone?
