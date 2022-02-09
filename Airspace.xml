@@ -491,19 +491,19 @@
       <Runway Name="18" DataRunway="18">
         <SID Name="ORAK2P" />
         <SID Name="TOTR3P" />
-        <STAR Name="ABTU1A" ApproachName="RNP-ARY" />
-        <STAR Name="LEDA2A" ApproachName="RNP-ARY" />
+        <STAR Name="ABTU2A" ApproachName="RNP-ARY" />
+        <STAR Name="LEDA3A" ApproachName="RNP-ARY" />
         <STAR Name="LEDA3C" ApproachName="RNPZ" />
         <STAR Name="REVE1A" ApproachName="RNP-ARY" />
       </Runway>
       <Runway Name="36" DataRunway="36">
         <SID Name="DOLS2R" />
         <SID Name="NIKO2R" />
-        <STAR Name="DUBA1B" ApproachName="RNP-ARY" />
-        <STAR Name="IBAM1B" ApproachName="RNP-ARY" />
+        <STAR Name="DUBA2B" ApproachName="RNP-ARY" />
+        <STAR Name="IBAM2B" ApproachName="RNP-ARY" />
         <STAR Name="INTO1B" ApproachName="RNP-ARY" />
-        <STAR Name="LALA1B" ApproachName="RNP-ARY" />
-        <STAR Name="SURK2B" ApproachName="RNP-ARY" />
+        <STAR Name="LALA2B" ApproachName="RNP-ARY" />
+        <STAR Name="SURK3B" ApproachName="RNP-ARY" />
       </Runway>
     </Airport>
     <Airport Name="NZTG">
@@ -8438,27 +8438,27 @@ RILEY
       <Transition Name="DOVOT">DOVOT/POPON</Transition>
       <Transition Name="LIBLA">LIBLA/AKBOB/DULIG</Transition>
     </STAR>
-    <STAR Name="ABTU1A" Airport="NZRO" Runways="18">
+    <STAR Name="ABTU2A" Airport="NZRO" Runways="18">
       <Route Runway="18">ABTUV/OKERE</Route>
       <Transition Name="ELAGA">ELAGA</Transition>
       <Transition Name="LUMSO">LUMSO</Transition>
     </STAR>
-    <STAR Name="DUBA1B" Airport="NZRO" Runways="36">
+    <STAR Name="DUBA2B" Airport="NZRO" Runways="36">
       <Route Runway="36">DUBAB/ORAKA/TOTRA</Route>
       <Transition Name="GOBUK">GOBUK</Transition>
       <Transition Name="OKERE">OKERE/REEVE</Transition>
     </STAR>
-    <STAR Name="IBAM1B" Airport="NZRO" Runways="36">
+    <STAR Name="IBAM2B" Airport="NZRO" Runways="36">
       <Route Runway="36">IBAMU/TOTRA</Route>
     </STAR>
     <STAR Name="INTO1B" Airport="NZRO" Runways="36">
       <Route Runway="36">INTOX/KILAL/TOTRA</Route>
     </STAR>
-    <STAR Name="LALA1B" Airport="NZRO" Runways="36">
+    <STAR Name="LALA2B" Airport="NZRO" Runways="36">
       <Route Runway="36">LALAN/ORAKA/TOTRA</Route>
       <Transition Name="ESKER">ESKER</Transition>
     </STAR>
-    <STAR Name="LEDA2A" Airport="NZRO" Runways="18">
+    <STAR Name="LEDA3A" Airport="NZRO" Runways="18">
       <Route Runway="18">LEDAK/REEVE/OKERE</Route>
       <Transition Name="ESKER">ESKER</Transition>
       <Transition Name="INTOX">INTOX/ORAKA/DUBAB</Transition>
@@ -8477,7 +8477,7 @@ RILEY
     <STAR Name="REVE1A" Airport="NZRO" Runways="18">
       <Route Runway="18">REEVE/OKERE</Route>
     </STAR>
-    <STAR Name="SURK2B" Airport="NZRO" Runways="36">
+    <STAR Name="SURK3B" Airport="NZRO" Runways="36">
       <Route Runway="36">SURKA/TOTRA</Route>
       <Transition Name="ELAGA">ELAGA</Transition>
       <Transition Name="ISGIT">ISGIT</Transition>
@@ -8869,13 +8869,13 @@ RILEY
       <Transition Name="GOMPI">GOMPI</Transition>
       <Transition Name="IDUBU">IDUBU</Transition>
       <Transition Name="UBDAN">UBDAN</Transition>
-      <Route>ALBAD/DAKUR/CH02T/-432951.472+1723119.610</Route>
+      <Route>ALBAD/NISOM/CH02T/-432951.472+1723119.610</Route>
     </Approach>
     <Approach Name="RNPZ" Airport="NZCH" Runway="20">
       <Transition Name="BIDEV">BIDEV</Transition>
       <Transition Name="MABAK">MABAK</Transition>
       <Transition Name="ODISI">ODISI</Transition>
-      <Route>DIVSU/LUKLO/CH20T/-432829.960+1723253.830</Route>
+      <Route>DIVSU/PEDMI/CH20T/-432829.960+1723253.830</Route>
     </Approach>
     <Approach Name="RNP-ARV" Airport="NZCH" Runway="02">
       <Route>ERVAX/CH832/CH793/CH755/PEBVI/BEKTI/CH02T/-432951.472+1723119.610</Route>
@@ -9042,7 +9042,7 @@ RILEY
       <Route>NIKOR/ELKOB/RO18T/-380601.598+1761913.238</Route>
     </Approach>
     <Approach Name="RNP-ARY" Airport="NZRO" Runway="18">
-      <Route>OKERE/RO186/RO185/RO18T/-380601.598+1761913.238</Route>
+      <Route>OKERE/BONLI/TUSGA/RO18T/-380601.598+1761913.238</Route>
     </Approach>
     <Approach Name="RNP-ARY" Airport="NZRO" Runway="36">
       <Route>TOTRA/ADKAG/SEKBU/RO366/RO364/RO36T/-380655.750+1761841.170</Route>

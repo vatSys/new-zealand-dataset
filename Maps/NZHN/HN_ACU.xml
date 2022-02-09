@@ -928,12 +928,34 @@
   </Map>
   <Map Type="System2" Name="VFRProc" Priority="1" CustomColourName="VFRPoint" Center="-37.866389+175.335278">
     <Label HasLeader="true" LabelOrientation="NW">
-      <Point Name="EAST_ARR">HAUTAPU</Point>
+      <Point Name="18EAST_DEP">HN36R</Point>
+      <Point Name="36EAST_DEP">HN18L</Point>
+      <Point Name="EAST_ARR">ST PETERS SCHOOL</Point>
       <Point Name="WEST_ARR">TEMPLE VIEW</Point>
     </Label>
+    <Label HasLeader="true" LabelOrientation="SE">
+      <Point Name="18WEST_DEP">HN36R</Point>
+      <Point Name="36WEST_DEP">HN18L</Point>
+    </Label>
+    <!--18EAST_DEP-->
+    <Line Pattern="Dotted">
+      HN36R/-37.890290+175.323390/-37.908350+175.394040
+    </Line>
+    <!--18WEST_DEP-->
+    <Line Pattern="Dotted">
+      HN36R/-37.890290+175.323390/-37.874300+175.257710
+    </Line>
+    <!--36EAST_DEP-->
+    <Line Pattern="Dotted">
+      HN18L/-37.838870+175.341810/HAUTAPU
+    </Line>
+    <!--36WEST_DEP-->
+    <Line Pattern="Dotted">
+      HN18L/-37.838870+175.341810/TEMPLE VIEW
+    </Line>
     <!--EAST_ARR-->
     <Line Pattern="Dotted">
-      HAUTAPU/MYSTERY CREEK
+      ST PETERS SCHOOL/MYSTERY CREEK
     </Line>
     <!--WEST_ARR-->
     <Line Pattern="Dotted">

@@ -556,6 +556,12 @@ Re-release to ensure that the changes carry through.
 * Addition of the `GOBIN`, `IGOBA` `OMGOV` IFR waypoints.
 * Removal of the `DAKUR`, `LUKLO` and `NUBKA` IFR waypoints.
 * Addition of Hamilton Delivery, with frequency 122.900.
+* **Rotorua**:
+  * Some STARs have been renumbered.
+  * Some approach waypoints that have previously been procedural waypoints, have been replaced by IFR waypoints. 
+* **Christchurch**:
+  * Some waypoints on the GNSS approaches have been replaced. There are no changes to the route the approach takes.
+* Amendment to the VFR East arrivals at NZHN.
 
 #### **Dataset Updates**
 

@@ -294,7 +294,6 @@
       <Point>BEKTI</Point>
       <Point>CH963</Point>
       <Point>CH697</Point>
-      <Point>NISOM</Point>
       <Point>CH846</Point>
       <Point>CH801</Point>
       <Point>CH878</Point>
@@ -307,7 +306,7 @@
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>DAKUR</Point>
+      <Point>NISOM</Point>
       <Point>PEBVI</Point>
       <Point>SULMO</Point>
       <Point>GUNLO</Point>
@@ -319,12 +318,12 @@
       <Point>BOLUB</Point>
       <Point>LEVGO</Point>
     </Symbol>
-    <Line Pattern="Solid">ALBAD/DAKUR/CH02T/-432951.472+1723119.610</Line>
+    <Line Pattern="Solid">ALBAD/NISOM/CH02T/-432951.472+1723119.610</Line>
     <Line Pattern="Solid">GOMPI/ALBAD</Line>
     <Line Pattern="Solid">IDUBU/ALBAD</Line>
     <Line Pattern="Solid">UBDAN/ALBAD</Line>
     <Line Pattern="Solid">ERVAX/CH832/CH793/CH755/PEBVI/BEKTI/CH02T</Line>
-    <Line Pattern="Solid">BOLUB/CH963/SULMO/CH697/NISOM/CH02T</Line>
+    <Line Pattern="Solid">BOLUB/CH963/SULMO/CH697/NISOM</Line>
     <Line Pattern="Solid">LEVGO/CH846/CH801/CH878/GUNLO/CH02T</Line>
   </Map>
   <Map Type="System2" Name="02 RNP Labels" Priority="1" Center="-43.497631+172.522114" CustomColourName="ProcArr">
@@ -332,7 +331,7 @@
       <Point>GOMPI</Point>
       <Point>IDUBU</Point>
       <Point>UBDAN</Point>
-      <Point>DAKUR</Point>
+      <Point>NISOM</Point>
       <Point>PEBVI</Point>
       <Point>SULMO</Point>
       <Point>GUNLO</Point>
@@ -695,7 +694,7 @@
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>LUKLO</Point>
+      <Point>PEDMI</Point>
       <Point>RUSON</Point>
       <Point>ENLAT</Point>
     </Symbol>
@@ -706,7 +705,7 @@
       <Point>ERVAX</Point>
       <Point>SUSAL</Point>
     </Symbol>
-    <Line Pattern="Solid">DIVSU/LUKLO/CH20T/-432829.960+1723253.830</Line>
+    <Line Pattern="Solid">DIVSU/PEDMI/CH20T/-432829.960+1723253.830</Line>
     <Line Pattern="Solid">BIDEV/DIVSU</Line>
     <Line Pattern="Solid">MABAK/DIVSU</Line>
     <Line Pattern="Solid">ODISI/DIVSU</Line>
@@ -719,7 +718,7 @@
       <Point>BIDEV</Point>
       <Point>MABAK</Point>
       <Point>ODISI</Point>
-      <Point>LUKLO</Point>
+      <Point>PEDMI</Point>
       <Point>RUSON</Point>
       <Point>ENLAT</Point>
       <Point>DIVSU</Point>

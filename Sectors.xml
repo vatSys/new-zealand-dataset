@@ -9,11 +9,11 @@
     <ResponsibleSectors>TGS,HTMA</ResponsibleSectors>
   </Sector>
   <Sector FullName="Christchurch Director" Frequency="129.200" Callsign="NZCH-D_CTR" Name="NZCH-D" />
+  <Sector FullName="Faleolo Control" Frequency="123.800" Callsign="NSFA_CTR" Name="FCTR" />
   <Sector FullName="Kaikoura" Frequency="129.400" Callsign="NZCH-K_CTR" Name="KAI">
     <Volumes>KAI</Volumes>
     <ResponsibleSectors>CTMA</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Faleolo Control" Frequency="123.800" Callsign="NSFA_CTR" Name="FCTR" />
   <Sector FullName="Oceanic Radar" Frequency="123.900" Callsign="NZAA_CTR" Name="OCR">
     <Volumes>OCR</Volumes>
     <ResponsibleSectors>BAY,RAN,ATMA</ResponsibleSectors>
@@ -30,17 +30,17 @@
     <Volumes>NAK</Volumes>
     <ResponsibleSectors>OHA,TNS,WTMA</ResponsibleSectors>
   </Sector>
+  <Sector FullName="Auckland Radio" Frequency="128.900" Callsign="NZZO_FSS" Name="ARO" />
   <Sector FullName="Brisbane Radio (Coral)" Frequency="133.150" Callsign="BN-COL_FSS" Name="COL" />
   <Sector FullName="Brisbane Radio (Flinders)" Frequency="132.850" Callsign="BN-FLD_FSS" Name="FLD" />
   <Sector FullName="Brisbane Radio (Howe)" Frequency="124.950" Callsign="BN-HWE_FSS" Name="HWE" />
   <Sector FullName="Brisbane Radio (Tasman)" Frequency="124.650" Callsign="BN-TSN_FSS" Name="BRO" />
-  <Sector FullName="Oakland East" Frequency="131.950" Callsign="ZAK-E_FSS" Name="KZKE" />
-  <Sector FullName="Oakland West" Frequency="122.500" Callsign="ZAK-W_FSS" Name="KZKW" />
+  <Sector FullName="Mac Centre" Frequency="128.700" Callsign="NZCM_FSS" Name="MAC" />
   <Sector FullName="Melbourne Radio (Indian)" Frequency="129.250" Callsign="ML-IND_FSS" Name="IND" />
   <Sector FullName="Nadi Oceanic" Frequency="123.600" Callsign="NFFF_FSS" Name="NFFF" />
+  <Sector FullName="Oakland East" Frequency="131.950" Callsign="ZAK-E_FSS" Name="KZKE" />
+  <Sector FullName="Oakland West" Frequency="122.500" Callsign="ZAK-W_FSS" Name="KZKW" />
   <Sector FullName="Tahiti Radio" Frequency="125.500" Callsign="NTTT_FSS" Name="TRDO" />
-  <Sector FullName="Mac Centre" Frequency="128.700" Callsign="NZCM_FSS" Name="MAC" />
-  <Sector FullName="Auckland Radio" Frequency="128.900" Callsign="NZZO_FSS" Name="ARO" />
   <Sector FullName="Auckland Approach" Frequency="124.300" Callsign="NZAA_APP" Name="ATMA">
     <Volumes>ATMA</Volumes>
     <ResponsibleSectors>AARR,ADEP</ResponsibleSectors>
@@ -86,8 +86,8 @@
   <Sector FullName="Gisborne Tower" Frequency="127.300" Callsign="NZGS_TWR" Name="TGS">
     <Volumes>TGS</Volumes>
   </Sector>
-  <Sector FullName="Hamilton Tower" Frequency="122.900" Callsign="NZHN_TWR" Name="THN" />
   <Sector FullName="Hamilton Delivery" Frequency="122.900" Callsign="NZHN_DEL" Name="DHN" />
+  <Sector FullName="Hamilton Tower" Frequency="126.800" Callsign="NZHN_TWR" Name="THN" />
   <Sector FullName="Invercargill Tower" Frequency="118.500" Callsign="NZNV_TWR" Name="TNV">
     <Volumes>TNV</Volumes>
   </Sector>
@@ -97,10 +97,10 @@
   <Sector FullName="Napier Tower" Frequency="124.800" Callsign="NZNR_TWR" Name="TNR">
     <Volumes>TNR</Volumes>
   </Sector>
+  <Sector FullName="Nelson Delivery" Frequency="123.300" Callsign="NZNS_DEL" Name="DNS" />
   <Sector FullName="Nelson Tower" Frequency="127.400" Callsign="NZNS_TWR" Name="TNS">
     <Volumes>TNS</Volumes>
   </Sector>
-  <Sector FullName="Nelson Delivery" Frequency="123.300" Callsign="NZNS_DEL" Name="DNS"/>
   <Sector FullName="New Plymouth Tower" Frequency="124.700" Callsign="NZNP_TWR" Name="TNP">
     <Volumes>TNP</Volumes>
   </Sector>
