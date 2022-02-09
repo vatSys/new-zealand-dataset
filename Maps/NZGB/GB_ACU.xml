@@ -1,22 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="06 GNSS" Priority="1" Center="-36.241909+175.468536" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
+  <Map Type="System2" Name="06 RNP" Priority="1" Center="-36.241909+175.468536" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>GB678</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>LUVOG</Point>
       <Point>VARSI</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>AVKIN</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>OMGET</Point>
     </Symbol>
-    <Line Pattern="Solid">OMGET/AVKIN/GB678</Line>
+    <Line Pattern="Solid">OMGET/AVKIN/GB678/-361430.872+1752806.730</Line>
     <Line Pattern="Solid">LUVOG/OMGET</Line>
     <Line Pattern="Solid">VARSI/OMGET</Line>
   </Map>
-  <Map Type="System2" Name="06 GNSS Labels" Priority="1" Center="-36.241909+175.468536" CustomColourName="ProcArr">
+  <Map Type="System2" Name="06 RNP Labels" Priority="1" Center="-36.241909+175.468536" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>LUVOG</Point>
       <Point>VARSI</Point>
@@ -24,23 +30,29 @@
       <Point>OMGET</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="24 GNSS" Priority="1" Center="-36.240841+175.475342" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
+  <Map Type="System2" Name="24 RNP" Priority="1" Center="-36.240841+175.475342" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>GB678</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>LUVOG</Point>
       <Point>VARSI</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>AVKIN</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>OMGET</Point>
     </Symbol>
-    <Line Pattern="Solid">OMGET/AVKIN/GB678</Line>
+    <Line Pattern="Solid">OMGET/AVKIN/GB678/-361427.028+1752831.231</Line>
     <Line Pattern="Solid">LUVOG/OMGET</Line>
     <Line Pattern="Solid">VARSI/OMGET</Line>
   </Map>
-  <Map Type="System2" Name="24 GNSS Labels" Priority="1" Center="-36.240841+175.475342" CustomColourName="ProcArr">
+  <Map Type="System2" Name="24 RNP Labels" Priority="1" Center="-36.240841+175.475342" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>LUVOG</Point>
       <Point>VARSI</Point>
@@ -51,9 +63,10 @@
   <Map Type="System2" Name="10 SIDs" Priority="1" CustomColourName="ProcDep" Center="-36.243103+175.472969">
     <Line Pattern="Dashed">
       <!--Rwy10 GB1P-->
-      -36.243103+175.472969/GB408/UDUMA/-36.211960+175.583500/DOSTU
+      -36.243103+175.472969/GB28T/GB408/UDUMA/-36.211960+175.583500/DOSTU
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>GB28T</Point>
       <Point>GB408</Point>
       <Point>UDUMA</Point>
       <Point>DOSTU</Point>
@@ -62,23 +75,29 @@
       <Point>DOSTU</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="10 GNSS" Priority="1" Center="-36.238797+175.464031" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
+  <Map Type="System2" Name="10 RNP" Priority="1" Center="-36.238797+175.464031" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>GB678</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>LUVOG</Point>
       <Point>VARSI</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>AVKIN</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>OMGET</Point>
     </Symbol>
-    <Line Pattern="Solid">OMGET/AVKIN/GB678</Line>
+    <Line Pattern="Solid">OMGET/AVKIN/GB678/-361419.669+1752750.512</Line>
     <Line Pattern="Solid">LUVOG/OMGET</Line>
     <Line Pattern="Solid">VARSI/OMGET</Line>
   </Map>
-  <Map Type="System2" Name="10 GNSS Labels" Priority="1" Center="-36.238797+175.464031" CustomColourName="ProcArr">
+  <Map Type="System2" Name="10 RNP Labels" Priority="1" Center="-36.238797+175.464031" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>LUVOG</Point>
       <Point>VARSI</Point>
@@ -86,23 +105,29 @@
       <Point>OMGET</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="28 GNSS" Priority="1" Center="-36.243103+175.472969" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
+  <Map Type="System2" Name="28 RNP" Priority="1" Center="-36.243103+175.472969" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>GB678</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>LUVOG</Point>
       <Point>VARSI</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>AVKIN</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>OMGET</Point>
     </Symbol>
-    <Line Pattern="Solid">OMGET/AVKIN/GB678</Line>
+    <Line Pattern="Solid">OMGET/AVKIN/GB678/-361435.171+1752822.688</Line>
     <Line Pattern="Solid">LUVOG/OMGET</Line>
     <Line Pattern="Solid">VARSI/OMGET</Line>
   </Map>
-  <Map Type="System2" Name="28 GNSS Labels" Priority="1" Center="-36.243103+175.472969" CustomColourName="ProcArr">
+  <Map Type="System2" Name="28 RNP Labels" Priority="1" Center="-36.243103+175.472969" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>LUVOG</Point>
       <Point>VARSI</Point>

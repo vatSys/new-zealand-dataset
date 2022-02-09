@@ -3,7 +3,7 @@
   <Map Type="System2" Name="04 SIDs" Priority="1" CustomColourName="ProcDep" Center="-46.411100+168.324744">
     <Line Pattern="Dashed">
       <!--Rwy04 ADLU2P-->
-      -46.411100+168.324744/NV404/GURAD/KELSO/ADLUP
+      -46.411100+168.324744/NV04T/NV404/GURAD/KELSO/ADLUP
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy04 AMVI2P-->
@@ -26,6 +26,7 @@
       NV404/TUVDA/POTAB/PEXED
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>NV04T</Point>
       <Point>NV404</Point>
       <Point>GURAD</Point>
       <Point>KELSO</Point>
@@ -121,18 +122,24 @@
       <Point>ESNUP</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="04 GNSS" Priority="1" Center="-46.418411+168.302258" CustomColourName="ProcArr">
+  <Map Type="System2" Name="04 RNP" Priority="1" Center="-46.418411+168.302258" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>NV04T</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
-    <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>NILIB</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>KAGRU</Point>
     </Symbol>
-    <Line Pattern="Solid">KAGRU/NILIB/NV04T</Line>
+    <Line Pattern="Solid">KAGRU/NILIB/NV04T/-462506.280+1681808.129</Line>
   </Map>
-  <Map Type="System2" Name="04 GNSS Labels" Priority="1" Center="-46.418411+168.302258" CustomColourName="ProcArr">
+  <Map Type="System2" Name="04 RNP Labels" Priority="1" Center="-46.418411+168.302258" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>NILIB</Point>
       <Point>KAGRU</Point>
@@ -141,7 +148,7 @@
   <Map Type="System2" Name="22 SIDs" Priority="1" CustomColourName="ProcDep" Center="-46.418411+168.302258">
     <Line Pattern="Dashed">
       <!--Rwy22 ADLU2Q-->
-      -46.418411+168.302258/NV422/RUVGI/KELSO/ADLUP
+      -46.418411+168.302258/NV22T/NV422/RUVGI/KELSO/ADLUP
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy22 AMVI2Q-->
@@ -168,6 +175,7 @@
       NV422/PEXED
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>NV22T</Point>
       <Point>NV422</Point>
       <Point>RUVGI</Point>
       <Point>KELSO</Point>
@@ -265,18 +273,24 @@
       <Point>LALEV</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="22 GNSS" Priority="1" Center="-46.411100+168.324744" CustomColourName="ProcArr">
+  <Map Type="System2" Name="22 RNP" Priority="1" Center="-46.411100+168.324744" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>NV22T</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
-    <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>PALTU</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>DUNAX</Point>
     </Symbol>
-    <Line Pattern="Solid">DUNAX/PALTU/NV22T</Line>
+    <Line Pattern="Solid">DUNAX/PALTU/NV22T/-462439.960+1681929.078</Line>
   </Map>
-  <Map Type="System2" Name="22 GNSS Labels" Priority="1" Center="-46.411100+168.324744" CustomColourName="ProcArr">
+  <Map Type="System2" Name="22 RNP Labels" Priority="1" Center="-46.411100+168.324744" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>PALTU</Point>
       <Point>DUNAX</Point>

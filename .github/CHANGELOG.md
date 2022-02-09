@@ -546,3 +546,9 @@ Fix relating to the NZOH Boundary in `ENR Sectors.xml`.
 ### Revision C
 
 Re-release to ensure that the changes carry through.
+
+## AIRAC 2202
+
+### Revision A (Initial)
+
+

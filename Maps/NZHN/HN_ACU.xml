@@ -3,11 +3,11 @@
   <Map Type="System2" Name="18L SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.873650+175.329706">
     <Line Pattern="Dashed">
       <!--Rwy18L BUDEN3-->
-      -37.873650+175.329706/BUDEN
+      -37.873650+175.329706/HN36R/BUDEN
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy18L GOMU1P-->
-      -37.873650+175.329706/MUGIL/GOMUD
+      HN36R/MUGIL/GOMUD
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy18L GOMU1P.ATOLI-->
@@ -31,7 +31,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy18L GOMU1R-->
-      -37.873650+175.329706/GUNDA/GOMUD
+      -37.873650+175.329706/HN18L/GUNDA/GOMUD
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy18L GOMU1R.ATOLI-->
@@ -50,7 +50,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy18L GOMU1T-->
-      -37.873650+175.329706/RUMET/MUGIL
+      HN36R/RUMET/MUGIL
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy18L GOMU1T.ATOLI-->
@@ -134,7 +134,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy18L SAPE3R-->
-      GUNDA/SAPEG
+      HN36R/GUNDA/SAPEG
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy18L SAPE3R.GODOK-->
@@ -164,6 +164,7 @@
       <!--Rwy18L SAPE3T.OLDON-->
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>HN36R</Point>
       <Point>BUDEN</Point>
       <Point>MUGIL</Point>
       <Point>GOMUD</Point>
@@ -173,6 +174,7 @@
       <Point>POKOM</Point>
       <Point>SCARY</Point>
       <Point>SKEPY</Point>
+      <Point>HN18L</Point>
       <Point>GUNDA</Point>
       <Point>RUMET</Point>
       <Point>DABKA</Point>
@@ -347,17 +349,23 @@
     </Label>
   </Map>
   <Map Type="System2" Name="18L RNP" Priority="1" Center="-37.855806+175.336172" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>HN18L</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
-    <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>LAXOD</Point>
       <Point>ISPOT</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>TAYLA</Point>
       <Point>VATNA</Point>
     </Symbol>
-    <Line Pattern="Solid">TAYLA/LAXOD/HN18L</Line>
+    <Line Pattern="Solid">TAYLA/LAXOD/HN18L/-375120.902+1752010.219</Line>
     <Line Pattern="Solid">VATNA/ISPOT/HN18L</Line>
   </Map>
   <Map Type="System2" Name="18L RNP Labels" Priority="1" Center="-37.855806+175.336172" CustomColourName="ProcArr">
@@ -368,10 +376,38 @@
       <Point>VATNA</Point>
     </Label>
   </Map>
+  <Map Type="System2" Name="18L RNP-AR" Priority="1" Center="-37.855806+175.336172" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>HN18L</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>LAXOD</Point>
+      <Point>ISPOT</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>TAYLA</Point>
+      <Point>VATNA</Point>
+    </Symbol>
+    <Line Pattern="Solid">TAYLA/LAXOD/HN18L/-375120.902+1752010.219</Line>
+    <Line Pattern="Solid">VATNA/ISPOT/HN18L</Line>
+  </Map>
+  <Map Type="System2" Name="18L RNP-AR Labels" Priority="1" Center="-37.855806+175.336172" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>LAXOD</Point>
+      <Point>ISPOT</Point>
+      <Point>TAYLA</Point>
+      <Point>VATNA</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="36R SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.855806+175.336172">
     <Line Pattern="Dashed">
       <!--Rwy36R AGUL2Q-->
-      -37.855806+175.336172/AGULA
+      -37.855806+175.336172/HN36R/HN18L/AGULA
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy36R AGUL2Q.ATPUL-->
@@ -407,7 +443,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy36R BEKA3S-->
-      -37.855806+175.336172/VATNA/BEKAK
+      HN36R/VATNA/BEKAK
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy36R BEKA3S.ATOLI-->
@@ -426,7 +462,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy36R BEKA3U-->
-      -37.855806+175.336172/BIDKO/AGULA
+      HN18L/BIDKO/AGULA
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy36R BEKA3U.ATOLI-->
@@ -456,7 +492,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy36R TAYLA2-->
-      -37.855806+175.336172/TAYLA
+      -37.855806+175.336172/HN18L/TAYLA
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy36R TEPO4Q-->
@@ -520,6 +556,8 @@
       <!--Rwy36R TEPO4U.OLDON-->
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>HN36R</Point>
+      <Point>HN18L</Point>
       <Point>AGULA</Point>
       <Point>ATPUL</Point>
       <Point>SKEPY</Point>
@@ -716,21 +754,27 @@
       <Point>GUNDA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="36R GNSS" Priority="1" Center="-37.873650+175.329706" CustomColourName="ProcArr">
+  <Map Type="System2" Name="36R RNP" Priority="1" Center="-37.873650+175.329706" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>HN36R</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
-    <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>NITAK</Point>
       <Point>IKERI</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>BUDEN</Point>
       <Point>GUNDA</Point>
     </Symbol>
-    <Line Pattern="Solid">BUDEN/NITAK/HN36R</Line>
+    <Line Pattern="Solid">BUDEN/NITAK/HN36R/-375225.140+1751946.942</Line>
     <Line Pattern="Solid">GUNDA/IKERI/HN36R</Line>
   </Map>
-  <Map Type="System2" Name="36R GNSS Labels" Priority="1" Center="-37.873650+175.329706" CustomColourName="ProcArr">
+  <Map Type="System2" Name="36R RNP Labels" Priority="1" Center="-37.873650+175.329706" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>NITAK</Point>
       <Point>IKERI</Point>

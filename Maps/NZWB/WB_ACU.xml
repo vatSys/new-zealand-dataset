@@ -3,7 +3,7 @@
   <Map Type="System2" Name="06 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.517417+173.877906">
     <Line Pattern="Dashed">
       <!--Rwy06 DOTU2Q-->
-      -41.517417+173.877906/-41.511111+173.990000/DOTUT
+      -41.517417+173.877906/WB06T/-41.511111+173.990000/DOTUT
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy06 DOTU2Q.ELPIT-->
@@ -15,15 +15,15 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy06 LUBS1Q-->
-      -41.517417+173.877906/-41.513611+173.943889/VASLU/SEDSI/SADBO/LUBSI
+      WB06T/-41.513611+173.943889/VASLU/SEDSI/SADBO/LUBSI
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy06 NZWB1A-->
-      -41.517417+173.877906/LUTKA
+      WB06T/LUTKA
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy06 SEDS2Q-->
-      -41.517417+173.877906/-41.514167+173.944167/VASLU
+      WB06T/-41.514167+173.944167/VASLU
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy06 SEDS2Q.AVPOD-->
@@ -35,9 +35,10 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy06 VLY3-->
-      -41.517417+173.877906/MARLO
+      WB06T/MARLO
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>WB06T</Point>
       <Point>DOTUT</Point>
       <Point>LAPOK</Point>
       <Point>ELPIT</Point>
@@ -153,7 +154,7 @@
   <Map Type="System2" Name="24 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.518322+173.860875">
     <Line Pattern="Dashed">
       <!--Rwy24 BODI2P-->
-      -41.518322+173.860875/ADBOM/-41.554167+173.782500/URGUN/BODIM
+      -41.518322+173.860875/WB24T/ADBOM/-41.554167+173.782500/URGUN/BODIM
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy24 BODI2P.ELPIT-->
@@ -165,7 +166,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy24 SEDS2P-->
-      -41.518322+173.860875/-41.554167+173.782500/VASLU/SEDSI
+      WB24T/-41.554167+173.782500/VASLU/SEDSI
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy24 SEDS2P.AVPOD-->
@@ -181,16 +182,17 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy24 SPG3-->
-      -41.518322+173.860875/WB VOR/MARLO
+      WB24T/WB VOR/MARLO
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy24 VINES3-->
-      -41.518322+173.860875/-41.522778+173.791667/-41.554167+173.782500/-41.511389+173.939722/MARLO
+      WB24T/-41.522778+173.791667/-41.554167+173.782500/-41.511389+173.939722/MARLO
     </Line>
     <Symbol Type="Circle">
       <Point>WB VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>WB24T</Point>
       <Point>ADBOM</Point>
       <Point>URGUN</Point>
       <Point>BODIM</Point>
@@ -275,24 +277,29 @@
       <Point>LUTKA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="24 GNSS" Priority="1" Center="-41.517417+173.877906" CustomColourName="ProcArr">
+  <Map Type="System2" Name="24 RNP" Priority="1" Center="-41.517417+173.877906" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>ELKUB</Point>
       <Point>WB401</Point>
+      <Point>WB24T</Point>
     </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>JAMIE</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>ENPIP</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>LUTKA</Point>
     </Symbol>
-    <Line Pattern="Solid">LUTKA/ELKUB/ENPIP/WB401/WB24T</Line>
+    <Line Pattern="Solid">LUTKA/ELKUB/ENPIP/WB401/WB24T/-413102.701+1735240.462</Line>
     <Line Pattern="Solid">JAMIE/LUTKA</Line>
   </Map>
-  <Map Type="System2" Name="24 GNSS Labels" Priority="1" Center="-41.517417+173.877906" CustomColourName="ProcArr">
+  <Map Type="System2" Name="24 RNP Labels" Priority="1" Center="-41.517417+173.877906" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>JAMIE</Point>
       <Point>ENPIP</Point>

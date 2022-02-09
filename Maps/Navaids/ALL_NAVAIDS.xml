@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="NDB_IDENT" Priority="1" Center="-42.0+172.0" CustomColourName="NDB">
+  <Map Type="System" Name="NDB_IDENT" Priority="1" Center="-42.000+172.000" CustomColourName="NDB">
     <Label HasLeader="true">
       <Point Name="AI">-184929.000-1594624.000</Point>
       <Point Name="AP">-384435.600+1760427.400</Point>
@@ -20,6 +20,7 @@
       <Point Name="LX">-450955.900+1692847.500</Point>
       <Point Name="MH">-102246.800-1610009.000</Point>
       <Point Name="MI">-455217.000+1701912.600</Point>
+      <Point Name="NA">-180251.799+1783331.900</Point>
       <Point Name="NF">-290026.150+1675515.000</Point>
       <Point Name="NK">-091012.000-1714954.000</Point>
       <Point Name="NL">-411343.600+1744941.500</Point>
@@ -42,7 +43,7 @@
       <Point Name="WU">-395733.800+1750135.400</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="VOR_IDENT" Priority="1" Center="-42.0+172.0" CustomColourName="VOR">
+  <Map Type="System" Name="VOR_IDENT" Priority="1" Center="-42.000+172.000" CustomColourName="VOR">
     <Label HasLeader="true">
       <Point Name="AA">-370016.680+1744849.070</Point>
       <Point Name="CH">-433014.760+1723052.690</Point>
@@ -50,7 +51,6 @@
       <Point Name="GS">-383937.840+1775839.220</Point>
       <Point Name="HN">-375057.350+1752018.770</Point>
       <Point Name="HOI">-131422.499-1761206.599</Point>
-      <Point Name="NA">-180232.302+1783343.000</Point>
       <Point Name="NF">-290250.400+1675555.800</Point>
       <Point Name="NN">-173917.000+1772345.000</Point>
       <Point Name="NP">-390026.070+1741102.160</Point>
@@ -70,7 +70,7 @@
       <Point Name="WP">-364712.450+1743752.450</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="NDB" Priority="1" Center="-42.0+172.0" CustomColourName="NDB">
+  <Map Type="System" Name="NDB" Priority="1" Center="-42.000+172.000" CustomColourName="NDB">
     <Symbol Type="HollowTriangle">
       <Point>-184929.000-1594624.000</Point>
       <Point>-384435.600+1760427.400</Point>
@@ -90,6 +90,7 @@
       <Point>-450955.900+1692847.500</Point>
       <Point>-102246.800-1610009.000</Point>
       <Point>-455217.000+1701912.600</Point>
+      <Point>-180251.799+1783331.900</Point>
       <Point>-290026.150+1675515.000</Point>
       <Point>-091012.000-1714954.000</Point>
       <Point>-411343.600+1744941.500</Point>
@@ -112,7 +113,7 @@
       <Point>-395733.800+1750135.400</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="VOR" Priority="1" Center="-42.0+172.0" CustomColourName="VOR">
+  <Map Type="System" Name="VOR" Priority="1" Center="-42.000+172.000" CustomColourName="VOR">
     <Symbol Type="HollowTriangle">
       <Point>-370016.680+1744849.070</Point>
       <Point>-433014.760+1723052.690</Point>
@@ -120,7 +121,6 @@
       <Point>-383937.840+1775839.220</Point>
       <Point>-375057.350+1752018.770</Point>
       <Point>-131422.499-1761206.599</Point>
-      <Point>-180232.302+1783343.000</Point>
       <Point>-290250.400+1675555.800</Point>
       <Point>-173917.000+1772345.000</Point>
       <Point>-390026.070+1741102.160</Point>

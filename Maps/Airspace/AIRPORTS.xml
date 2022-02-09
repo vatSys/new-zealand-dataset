@@ -1,13 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="Aerodromes" Priority="1" Center="-42.0+172.0">
+  <Map Type="System" Name="Aerodromes" Priority="1" Center="-42.000+172.000">
     <Symbol Type="HollowTriangle">
       <Point>NZAA</Point>
+      <Point>NZAH</Point>
+      <Point>NZAL</Point>
+      <Point>NZAM</Point>
       <Point>NZAP</Point>
       <Point>NZAR</Point>
       <Point>NZAS</Point>
       <Point>NZAW</Point>
       <Point>NZBA</Point>
+      <Point>NZBW</Point>
       <Point>NZCB</Point>
       <Point>NZCG</Point>
       <Point>NZCH</Point>
@@ -17,50 +21,96 @@
       <Point>NZCW</Point>
       <Point>NZCX</Point>
       <Point>NZDA</Point>
+      <Point>NZDC</Point>
+      <Point>NZDH</Point>
       <Point>NZDN</Point>
+      <Point>NZDU</Point>
       <Point>NZDV</Point>
       <Point>NZDY</Point>
       <Point>NZES</Point>
+      <Point>NZEV</Point>
       <Point>NZFE</Point>
       <Point>NZFF</Point>
+      <Point>NZFG</Point>
+      <Point>NZFH</Point>
       <Point>NZFI</Point>
       <Point>NZFJ</Point>
       <Point>NZFL</Point>
       <Point>NZFO</Point>
       <Point>NZFP</Point>
+      <Point>NZFR</Point>
       <Point>NZFT</Point>
       <Point>NZGA</Point>
       <Point>NZGB</Point>
       <Point>NZGC</Point>
+      <Point>NZGH</Point>
       <Point>NZGM</Point>
       <Point>NZGS</Point>
       <Point>NZGT</Point>
       <Point>NZGY</Point>
       <Point>NZHA</Point>
+      <Point>NZHB</Point>
+      <Point>NZHC</Point>
+      <Point>NZHF</Point>
+      <Point>NZHH</Point>
       <Point>NZHK</Point>
       <Point>NZHM</Point>
       <Point>NZHN</Point>
       <Point>NZHP</Point>
       <Point>NZHS</Point>
       <Point>NZHT</Point>
+      <Point>NZJA</Point>
+      <Point>NZJB</Point>
+      <Point>NZJC</Point>
+      <Point>NZJD</Point>
+      <Point>NZJE</Point>
+      <Point>NZJF</Point>
+      <Point>NZJG</Point>
+      <Point>NZJH</Point>
+      <Point>NZJI</Point>
+      <Point>NZJJ</Point>
+      <Point>NZJK</Point>
+      <Point>NZJL</Point>
+      <Point>NZJM</Point>
+      <Point>NZJN</Point>
+      <Point>NZJO</Point>
+      <Point>NZJP</Point>
+      <Point>NZJQ</Point>
+      <Point>NZJR</Point>
+      <Point>NZJS</Point>
+      <Point>NZJT</Point>
+      <Point>NZJU</Point>
+      <Point>NZJW</Point>
+      <Point>NZJX</Point>
+      <Point>NZJY</Point>
+      <Point>NZJZ</Point>
+      <Point>NZKC</Point>
       <Point>NZKD</Point>
       <Point>NZKE</Point>
       <Point>NZKF</Point>
+      <Point>NZKH</Point>
       <Point>NZKI</Point>
+      <Point>NZKJ</Point>
       <Point>NZKK</Point>
       <Point>NZKM</Point>
+      <Point>NZKN</Point>
       <Point>NZKO</Point>
       <Point>NZKP</Point>
       <Point>NZKT</Point>
+      <Point>NZKU</Point>
       <Point>NZKY</Point>
       <Point>NZLA</Point>
       <Point>NZLE</Point>
+      <Point>NZLF</Point>
       <Point>NZLT</Point>
       <Point>NZLX</Point>
       <Point>NZMA</Point>
+      <Point>NZMB</Point>
       <Point>NZMC</Point>
       <Point>NZME</Point>
       <Point>NZMF</Point>
+      <Point>NZMG</Point>
+      <Point>NZMH</Point>
       <Point>NZMJ</Point>
       <Point>NZMK</Point>
       <Point>NZML</Point>
@@ -68,29 +118,39 @@
       <Point>NZMR</Point>
       <Point>NZMS</Point>
       <Point>NZMW</Point>
+      <Point>NZMX</Point>
       <Point>NZNE</Point>
       <Point>NZNF</Point>
+      <Point>NZNH</Point>
       <Point>NZNP</Point>
       <Point>NZNR</Point>
       <Point>NZNS</Point>
       <Point>NZNV</Point>
       <Point>NZOA</Point>
+      <Point>NZOB</Point>
       <Point>NZOF</Point>
+      <Point>NZOG</Point>
       <Point>NZOH</Point>
       <Point>NZOM</Point>
       <Point>NZOP</Point>
+      <Point>NZOR</Point>
+      <Point>NZOS</Point>
       <Point>NZOT</Point>
       <Point>NZOU</Point>
       <Point>NZOX</Point>
+      <Point>NZPA</Point>
       <Point>NZPH</Point>
       <Point>NZPI</Point>
+      <Point>NZPK</Point>
       <Point>NZPM</Point>
       <Point>NZPN</Point>
       <Point>NZPO</Point>
       <Point>NZPP</Point>
+      <Point>NZPS</Point>
       <Point>NZPU</Point>
       <Point>NZPW</Point>
       <Point>NZQN</Point>
+      <Point>NZQW</Point>
       <Point>NZRA</Point>
       <Point>NZRC</Point>
       <Point>NZRI</Point>
@@ -114,15 +174,27 @@
       <Point>NZTM</Point>
       <Point>NZTN</Point>
       <Point>NZTO</Point>
+      <Point>NZTP</Point>
+      <Point>NZTQ</Point>
       <Point>NZTR</Point>
+      <Point>NZTS</Point>
       <Point>NZTT</Point>
       <Point>NZTU</Point>
+      <Point>NZTW</Point>
+      <Point>NZTZ</Point>
+      <Point>NZUA</Point>
+      <Point>NZUB</Point>
       <Point>NZUK</Point>
       <Point>NZUN</Point>
+      <Point>NZUR</Point>
       <Point>NZVL</Point>
       <Point>NZVR</Point>
       <Point>NZWB</Point>
+      <Point>NZWE</Point>
       <Point>NZWF</Point>
+      <Point>NZWG</Point>
+      <Point>NZWH</Point>
+      <Point>NZWJ</Point>
       <Point>NZWK</Point>
       <Point>NZWL</Point>
       <Point>NZWM</Point>
@@ -136,17 +208,22 @@
       <Point>NZWU</Point>
       <Point>NZWV</Point>
       <Point>NZWY</Point>
+      <Point>NZWZ</Point>
       <Point>NZYP</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Aerodrome Labels" Priority="1" Center="-42.0+172.0">
+  <Map Type="System" Name="Aerodrome Labels" Priority="1" Center="-42.000+172.000">
     <Label HasLeader="false" LabelOrientation="NW">
       <Point Name="AA">NZAA</Point>
+      <Point Name="AH">NZAH</Point>
+      <Point Name="AL">NZAL</Point>
+      <Point Name="AM">NZAM</Point>
       <Point Name="AP">NZAP</Point>
       <Point Name="AR">NZAR</Point>
       <Point Name="AS">NZAS</Point>
       <Point Name="AW">NZAW</Point>
       <Point Name="BA">NZBA</Point>
+      <Point Name="BW">NZBW</Point>
       <Point Name="CB">NZCB</Point>
       <Point Name="CG">NZCG</Point>
       <Point Name="CH">NZCH</Point>
@@ -156,50 +233,96 @@
       <Point Name="CW">NZCW</Point>
       <Point Name="CX">NZCX</Point>
       <Point Name="DA">NZDA</Point>
+      <Point Name="DC">NZDC</Point>
+      <Point Name="DH">NZDH</Point>
       <Point Name="DN">NZDN</Point>
+      <Point Name="DU">NZDU</Point>
       <Point Name="DV">NZDV</Point>
       <Point Name="DY">NZDY</Point>
       <Point Name="ES">NZES</Point>
+      <Point Name="EV">NZEV</Point>
       <Point Name="FE">NZFE</Point>
       <Point Name="FF">NZFF</Point>
+      <Point Name="FG">NZFG</Point>
+      <Point Name="FH">NZFH</Point>
       <Point Name="FI">NZFI</Point>
       <Point Name="FJ">NZFJ</Point>
       <Point Name="FL">NZFL</Point>
       <Point Name="FO">NZFO</Point>
       <Point Name="FP">NZFP</Point>
+      <Point Name="FR">NZFR</Point>
       <Point Name="FT">NZFT</Point>
       <Point Name="GA">NZGA</Point>
       <Point Name="GB">NZGB</Point>
       <Point Name="GC">NZGC</Point>
+      <Point Name="GH">NZGH</Point>
       <Point Name="GM">NZGM</Point>
       <Point Name="GS">NZGS</Point>
       <Point Name="GT">NZGT</Point>
       <Point Name="GY">NZGY</Point>
       <Point Name="HA">NZHA</Point>
+      <Point Name="HB">NZHB</Point>
+      <Point Name="HC">NZHC</Point>
+      <Point Name="HF">NZHF</Point>
+      <Point Name="HH">NZHH</Point>
       <Point Name="HK">NZHK</Point>
       <Point Name="HM">NZHM</Point>
       <Point Name="HN">NZHN</Point>
       <Point Name="HP">NZHP</Point>
       <Point Name="HS">NZHS</Point>
       <Point Name="HT">NZHT</Point>
+      <Point Name="JA">NZJA</Point>
+      <Point Name="JB">NZJB</Point>
+      <Point Name="JC">NZJC</Point>
+      <Point Name="JD">NZJD</Point>
+      <Point Name="JE">NZJE</Point>
+      <Point Name="JF">NZJF</Point>
+      <Point Name="JG">NZJG</Point>
+      <Point Name="JH">NZJH</Point>
+      <Point Name="JI">NZJI</Point>
+      <Point Name="JJ">NZJJ</Point>
+      <Point Name="JK">NZJK</Point>
+      <Point Name="JL">NZJL</Point>
+      <Point Name="JM">NZJM</Point>
+      <Point Name="JN">NZJN</Point>
+      <Point Name="JO">NZJO</Point>
+      <Point Name="JP">NZJP</Point>
+      <Point Name="JQ">NZJQ</Point>
+      <Point Name="JR">NZJR</Point>
+      <Point Name="JS">NZJS</Point>
+      <Point Name="JT">NZJT</Point>
+      <Point Name="JU">NZJU</Point>
+      <Point Name="JW">NZJW</Point>
+      <Point Name="JX">NZJX</Point>
+      <Point Name="JY">NZJY</Point>
+      <Point Name="JZ">NZJZ</Point>
+      <Point Name="KC">NZKC</Point>
       <Point Name="KD">NZKD</Point>
       <Point Name="KE">NZKE</Point>
       <Point Name="KF">NZKF</Point>
+      <Point Name="KH">NZKH</Point>
       <Point Name="KI">NZKI</Point>
+      <Point Name="KJ">NZKJ</Point>
       <Point Name="KK">NZKK</Point>
       <Point Name="KM">NZKM</Point>
+      <Point Name="KN">NZKN</Point>
       <Point Name="KO">NZKO</Point>
       <Point Name="KP">NZKP</Point>
       <Point Name="KT">NZKT</Point>
+      <Point Name="KU">NZKU</Point>
       <Point Name="KY">NZKY</Point>
       <Point Name="LA">NZLA</Point>
       <Point Name="LE">NZLE</Point>
+      <Point Name="LF">NZLF</Point>
       <Point Name="LT">NZLT</Point>
       <Point Name="LX">NZLX</Point>
       <Point Name="MA">NZMA</Point>
+      <Point Name="MB">NZMB</Point>
       <Point Name="MC">NZMC</Point>
       <Point Name="ME">NZME</Point>
       <Point Name="MF">NZMF</Point>
+      <Point Name="MG">NZMG</Point>
+      <Point Name="MH">NZMH</Point>
       <Point Name="MJ">NZMJ</Point>
       <Point Name="MK">NZMK</Point>
       <Point Name="ML">NZML</Point>
@@ -207,29 +330,39 @@
       <Point Name="MR">NZMR</Point>
       <Point Name="MS">NZMS</Point>
       <Point Name="MW">NZMW</Point>
+      <Point Name="MX">NZMX</Point>
       <Point Name="NE">NZNE</Point>
       <Point Name="NF">NZNF</Point>
+      <Point Name="NH">NZNH</Point>
       <Point Name="NP">NZNP</Point>
       <Point Name="NR">NZNR</Point>
       <Point Name="NS">NZNS</Point>
       <Point Name="NV">NZNV</Point>
       <Point Name="OA">NZOA</Point>
+      <Point Name="OB">NZOB</Point>
       <Point Name="OF">NZOF</Point>
+      <Point Name="OG">NZOG</Point>
       <Point Name="OH">NZOH</Point>
       <Point Name="OM">NZOM</Point>
       <Point Name="OP">NZOP</Point>
+      <Point Name="OR">NZOR</Point>
+      <Point Name="OS">NZOS</Point>
       <Point Name="OT">NZOT</Point>
       <Point Name="OU">NZOU</Point>
       <Point Name="OX">NZOX</Point>
+      <Point Name="PA">NZPA</Point>
       <Point Name="PH">NZPH</Point>
       <Point Name="PI">NZPI</Point>
+      <Point Name="PK">NZPK</Point>
       <Point Name="PM">NZPM</Point>
       <Point Name="PN">NZPN</Point>
       <Point Name="PO">NZPO</Point>
       <Point Name="PP">NZPP</Point>
+      <Point Name="PS">NZPS</Point>
       <Point Name="PU">NZPU</Point>
       <Point Name="PW">NZPW</Point>
       <Point Name="QN">NZQN</Point>
+      <Point Name="QW">NZQW</Point>
       <Point Name="RA">NZRA</Point>
       <Point Name="RC">NZRC</Point>
       <Point Name="RI">NZRI</Point>
@@ -253,15 +386,27 @@
       <Point Name="TM">NZTM</Point>
       <Point Name="TN">NZTN</Point>
       <Point Name="TO">NZTO</Point>
+      <Point Name="TP">NZTP</Point>
+      <Point Name="TQ">NZTQ</Point>
       <Point Name="TR">NZTR</Point>
+      <Point Name="TS">NZTS</Point>
       <Point Name="TT">NZTT</Point>
       <Point Name="TU">NZTU</Point>
+      <Point Name="TW">NZTW</Point>
+      <Point Name="TZ">NZTZ</Point>
+      <Point Name="UA">NZUA</Point>
+      <Point Name="UB">NZUB</Point>
       <Point Name="UK">NZUK</Point>
       <Point Name="UN">NZUN</Point>
+      <Point Name="UR">NZUR</Point>
       <Point Name="VL">NZVL</Point>
       <Point Name="VR">NZVR</Point>
       <Point Name="WB">NZWB</Point>
+      <Point Name="WE">NZWE</Point>
       <Point Name="WF">NZWF</Point>
+      <Point Name="WG">NZWG</Point>
+      <Point Name="WH">NZWH</Point>
+      <Point Name="WJ">NZWJ</Point>
       <Point Name="WK">NZWK</Point>
       <Point Name="WL">NZWL</Point>
       <Point Name="WM">NZWM</Point>
@@ -275,6 +420,7 @@
       <Point Name="WU">NZWU</Point>
       <Point Name="WV">NZWV</Point>
       <Point Name="WY">NZWY</Point>
+      <Point Name="WZ">NZWZ</Point>
       <Point Name="YP">NZYP</Point>
     </Label>
   </Map>

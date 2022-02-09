@@ -3,11 +3,11 @@
   <Map Type="System2" Name="03 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.924378+170.207786">
     <Line Pattern="Dashed">
       <!--Rwy03 AKPI3P-->
-      -45.924378+170.207786/DUKES/IVTOP/LEKOD/DABCA/AKPIN
+      -45.924378+170.207786/DN03T/DUKES/IVTOP/LEKOD/DABCA/AKPIN
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy03 BASO3P-->
-      LEKOD/KADSU/ANGOT/BASOS
+      -45.924378+170.207786/DN21T/DUKES/KADSU/ANGOT/BASOS
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy03 BASO3P.ADKOS-->
@@ -71,11 +71,13 @@
       <Point>QN VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>DN03T</Point>
       <Point>DUKES</Point>
       <Point>IVTOP</Point>
       <Point>LEKOD</Point>
       <Point>DABCA</Point>
       <Point>AKPIN</Point>
+      <Point>DN21T</Point>
       <Point>KADSU</Point>
       <Point>ANGOT</Point>
       <Point>BASOS</Point>
@@ -185,20 +187,25 @@
       <Point>AKLAR</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="03 GNSS" Priority="1" Center="-45.933925+170.187472" CustomColourName="ProcArr">
+  <Map Type="System2" Name="03 RNP" Priority="1" Center="-45.933925+170.187472" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>OVSED</Point>
+      <Point>DN03T</Point>
     </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>AGESO</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>AKLAR</Point>
     </Symbol>
-    <Line Pattern="Solid">AKLAR/OVSED/AGESO/DN03T</Line>
+    <Line Pattern="Solid">AKLAR/OVSED/AGESO/DN03T/-455602.130+1701114.899</Line>
   </Map>
-  <Map Type="System2" Name="03 GNSS Labels" Priority="1" Center="-45.933925+170.187472" CustomColourName="ProcArr">
+  <Map Type="System2" Name="03 RNP Labels" Priority="1" Center="-45.933925+170.187472" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>AGESO</Point>
       <Point>AKLAR</Point>
@@ -207,7 +214,7 @@
   <Map Type="System2" Name="21 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.933925+170.187472">
     <Line Pattern="Dashed">
       <!--Rwy21 AKPI2Q-->
-      -45.933925+170.187472/AKLAR/IDADO/AKPIN
+      -45.933925+170.187472/DN03T/AKLAR/IDADO/AKPIN
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy21 ALBO2Q-->
@@ -231,19 +238,19 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy21 BE5A-->
-      -45.933925+170.187472/BE NDB/OREXI
+      DN03T/BE NDB/OREXI
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy21 BE6B-->
-      BE NDB/PORUT
+      -45.933925+170.187472/DN21T/BE NDB/PORUT
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy21 BIDE3Q-->
-      -45.933925+170.187472/AGESO/OKAPO/ATGUB/TEBIV/NOMUG/DOTVA/BIDEL
+      DN03T/AGESO/OKAPO/ATGUB/TEBIV/NOMUG/DOTVA/BIDEL
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy21 BIDE3S-->
-      AGESO/MANRA/ENDUR/IDLIK/PIBEX/RULOL/LUTSA/BIDEL
+      DN21T/AGESO/MANRA/ENDUR/IDLIK/PIBEX/RULOL/LUTSA/BIDEL
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy21 OCEAN6-->
@@ -261,6 +268,7 @@
       <Point>SW VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>DN03T</Point>
       <Point>AKLAR</Point>
       <Point>IDADO</Point>
       <Point>AKPIN</Point>
@@ -275,6 +283,7 @@
       <Point>LIBLA</Point>
       <Point>SUNGU</Point>
       <Point>OREXI</Point>
+      <Point>DN21T</Point>
       <Point>PORUT</Point>
       <Point>AGESO</Point>
       <Point>OKAPO</Point>
@@ -379,20 +388,25 @@
       <Point>ESKAT</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="21 GNSS" Priority="1" Center="-45.924378+170.207786" CustomColourName="ProcArr">
+  <Map Type="System2" Name="21 RNP" Priority="1" Center="-45.924378+170.207786" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>IDPON</Point>
+      <Point>DN21T</Point>
     </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>BENRU</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>ESKAT</Point>
     </Symbol>
-    <Line Pattern="Solid">ESKAT/IDPON/BENRU/DN21T</Line>
+    <Line Pattern="Solid">ESKAT/IDPON/BENRU/DN21T/-455527.761+1701228.030</Line>
   </Map>
-  <Map Type="System2" Name="21 GNSS Labels" Priority="1" Center="-45.924378+170.207786" CustomColourName="ProcArr">
+  <Map Type="System2" Name="21 RNP Labels" Priority="1" Center="-45.924378+170.207786" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>BENRU</Point>
       <Point>ESKAT</Point>

@@ -3,7 +3,7 @@
   <Map Type="System2" Name="02 SIDs" Priority="1" CustomColourName="ProcDep" Center="-43.474989+172.548286">
     <Line Pattern="Dashed">
       <!--Rwy02 BAVE6P-->
-      -43.474989+172.548286/RINKO/BAVEM
+      -43.474989+172.548286/CH02T/CH20T/RINKO/BAVEM
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy02 BAVE6P.AVOCA-->
@@ -31,7 +31,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy02 GUTB1P-->
-      -43.474989+172.548286/GUTBU
+      CH20T/GUTBU
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy02 GUTB1P.GLENN-->
@@ -55,7 +55,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy02 MUKV1P-->
-      -43.474989+172.548286/OVLAM/ISGAN/DAMRU/MUKVO
+      CH20T/OVLAM/ISGAN/DAMRU/MUKVO
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy02 MUKV1P.ELDAK-->
@@ -75,9 +75,11 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy02 NZCH5A-->
-      -43.474989+172.548286/-43.423889+172.580556
+      CH20T/-43.423889+172.580556
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>CH02T</Point>
+      <Point>CH20T</Point>
       <Point>RINKO</Point>
       <Point>BAVEM</Point>
       <Point>AVOCA</Point>
@@ -282,35 +284,10 @@
       <Point>BOLUB</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="02 GNSS" Priority="1" Center="-43.497631+172.522114" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
-    <Symbol Type="HollowTriangle">
-      <Point>GOMPI</Point>
-      <Point>IDUBU</Point>
-      <Point>UBDAN</Point>
-    </Symbol>
-    <Symbol Type="MalteseCross">
-      <Point>DAKUR</Point>
-    </Symbol>
-    <Symbol Type="SolidTriangle">
-      <Point>ALBAD</Point>
-    </Symbol>
-    <Line Pattern="Solid">ALBAD/DAKUR/CH02T</Line>
-    <Line Pattern="Solid">GOMPI/ALBAD</Line>
-    <Line Pattern="Solid">IDUBU/ALBAD</Line>
-    <Line Pattern="Solid">UBDAN/ALBAD</Line>
-  </Map>
-  <Map Type="System2" Name="02 GNSS Labels" Priority="1" Center="-43.497631+172.522114" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>GOMPI</Point>
-      <Point>IDUBU</Point>
-      <Point>UBDAN</Point>
-      <Point>DAKUR</Point>
-      <Point>ALBAD</Point>
-    </Label>
-  </Map>
   <Map Type="System2" Name="02 RNP" Priority="1" Center="-43.497631+172.522114" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>CH02T</Point>
       <Point>CH832</Point>
       <Point>CH793</Point>
       <Point>CH755</Point>
@@ -322,22 +299,83 @@
       <Point>CH801</Point>
       <Point>CH878</Point>
     </Symbol>
-    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>GOMPI</Point>
+      <Point>IDUBU</Point>
+      <Point>UBDAN</Point>
+    </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
+      <Point>DAKUR</Point>
       <Point>PEBVI</Point>
       <Point>SULMO</Point>
       <Point>GUNLO</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
+      <Point>ALBAD</Point>
       <Point>ERVAX</Point>
       <Point>BOLUB</Point>
       <Point>LEVGO</Point>
     </Symbol>
+    <Line Pattern="Solid">ALBAD/DAKUR/CH02T/-432951.472+1723119.610</Line>
+    <Line Pattern="Solid">GOMPI/ALBAD</Line>
+    <Line Pattern="Solid">IDUBU/ALBAD</Line>
+    <Line Pattern="Solid">UBDAN/ALBAD</Line>
     <Line Pattern="Solid">ERVAX/CH832/CH793/CH755/PEBVI/BEKTI/CH02T</Line>
     <Line Pattern="Solid">BOLUB/CH963/SULMO/CH697/NISOM/CH02T</Line>
     <Line Pattern="Solid">LEVGO/CH846/CH801/CH878/GUNLO/CH02T</Line>
   </Map>
   <Map Type="System2" Name="02 RNP Labels" Priority="1" Center="-43.497631+172.522114" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>GOMPI</Point>
+      <Point>IDUBU</Point>
+      <Point>UBDAN</Point>
+      <Point>DAKUR</Point>
+      <Point>PEBVI</Point>
+      <Point>SULMO</Point>
+      <Point>GUNLO</Point>
+      <Point>ALBAD</Point>
+      <Point>ERVAX</Point>
+      <Point>BOLUB</Point>
+      <Point>LEVGO</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="02 RNP-AR" Priority="1" Center="-43.497631+172.522114" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>CH832</Point>
+      <Point>CH793</Point>
+      <Point>CH755</Point>
+      <Point>BEKTI</Point>
+      <Point>CH02T</Point>
+      <Point>CH963</Point>
+      <Point>CH697</Point>
+      <Point>NISOM</Point>
+      <Point>CH846</Point>
+      <Point>CH801</Point>
+      <Point>CH878</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>PEBVI</Point>
+      <Point>SULMO</Point>
+      <Point>GUNLO</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>ERVAX</Point>
+      <Point>BOLUB</Point>
+      <Point>LEVGO</Point>
+    </Symbol>
+    <Line Pattern="Solid">ERVAX/CH832/CH793/CH755/PEBVI/BEKTI/CH02T/-432951.472+1723119.610</Line>
+    <Line Pattern="Solid">BOLUB/CH963/SULMO/CH697/NISOM/CH02T</Line>
+    <Line Pattern="Solid">LEVGO/CH846/CH801/CH878/GUNLO/CH02T</Line>
+  </Map>
+  <Map Type="System2" Name="02 RNP-AR Labels" Priority="1" Center="-43.497631+172.522114" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>PEBVI</Point>
       <Point>SULMO</Point>
@@ -350,7 +388,7 @@
   <Map Type="System2" Name="20 SIDs" Priority="1" CustomColourName="ProcDep" Center="-43.497631+172.522114">
     <Line Pattern="Dashed">
       <!--Rwy20 ATSA1Q-->
-      -43.497631+172.522114/ATSAT
+      -43.497631+172.522114/CH20T/CH02T/ATSAT
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy20 ATSA1Q.ELDAK-->
@@ -370,7 +408,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy20 KADE6Q-->
-      -43.497631+172.522114/AGRAL/KADET
+      CH02T/AGRAL/KADET
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy20 KADE6Q.AVOCA-->
@@ -398,11 +436,11 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy20 NZCH5B-->
-      -43.497631+172.522114/-43.534444+172.445556
+      CH02T/-43.534444+172.445556
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy20 PEDM1Q-->
-      -43.497631+172.522114/MEBMU/ANULU/RUTOR/PEDMI
+      CH02T/MEBMU/ANULU/RUTOR/PEDMI
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy20 PEDM1Q.GLENN-->
@@ -425,6 +463,8 @@
       PEDMI/PORAM
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>CH20T</Point>
+      <Point>CH02T</Point>
       <Point>ATSAT</Point>
       <Point>ELDAK</Point>
       <Point>GUPUT</Point>
@@ -633,35 +673,10 @@
       <Point>BIXIX</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="20 GNSS" Priority="1" Center="-43.474989+172.548286" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
-    <Symbol Type="HollowTriangle">
-      <Point>BIDEV</Point>
-      <Point>MABAK</Point>
-      <Point>ODISI</Point>
-    </Symbol>
-    <Symbol Type="MalteseCross">
-      <Point>LUKLO</Point>
-    </Symbol>
-    <Symbol Type="SolidTriangle">
-      <Point>DIVSU</Point>
-    </Symbol>
-    <Line Pattern="Solid">DIVSU/LUKLO/CH20T</Line>
-    <Line Pattern="Solid">BIDEV/DIVSU</Line>
-    <Line Pattern="Solid">MABAK/DIVSU</Line>
-    <Line Pattern="Solid">ODISI/DIVSU</Line>
-  </Map>
-  <Map Type="System2" Name="20 GNSS Labels" Priority="1" Center="-43.474989+172.548286" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>BIDEV</Point>
-      <Point>MABAK</Point>
-      <Point>ODISI</Point>
-      <Point>LUKLO</Point>
-      <Point>DIVSU</Point>
-    </Label>
-  </Map>
   <Map Type="System2" Name="20 RNP" Priority="1" Center="-43.474989+172.548286" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>CH20T</Point>
       <Point>CH827</Point>
       <Point>CH428</Point>
       <Point>CH989</Point>
@@ -672,21 +687,79 @@
       <Point>CH813</Point>
       <Point>CH653</Point>
     </Symbol>
-    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>BIDEV</Point>
+      <Point>MABAK</Point>
+      <Point>ODISI</Point>
+    </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
+      <Point>LUKLO</Point>
       <Point>RUSON</Point>
       <Point>ENLAT</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
+      <Point>DIVSU</Point>
       <Point>BIXIX</Point>
       <Point>ERVAX</Point>
       <Point>SUSAL</Point>
     </Symbol>
+    <Line Pattern="Solid">DIVSU/LUKLO/CH20T/-432829.960+1723253.830</Line>
+    <Line Pattern="Solid">BIDEV/DIVSU</Line>
+    <Line Pattern="Solid">MABAK/DIVSU</Line>
+    <Line Pattern="Solid">ODISI/DIVSU</Line>
     <Line Pattern="Solid">BIXIX/CH827/CH428/RUSON/ENLAT/CH20T</Line>
     <Line Pattern="Solid">ERVAX/CH989/CH931/CH634/CH928/ENLAT</Line>
     <Line Pattern="Solid">SUSAL/CH946/CH813/CH653/CH928</Line>
   </Map>
   <Map Type="System2" Name="20 RNP Labels" Priority="1" Center="-43.474989+172.548286" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>BIDEV</Point>
+      <Point>MABAK</Point>
+      <Point>ODISI</Point>
+      <Point>LUKLO</Point>
+      <Point>RUSON</Point>
+      <Point>ENLAT</Point>
+      <Point>DIVSU</Point>
+      <Point>BIXIX</Point>
+      <Point>ERVAX</Point>
+      <Point>SUSAL</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="20 RNP-AR" Priority="1" Center="-43.474989+172.548286" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>CH827</Point>
+      <Point>CH428</Point>
+      <Point>CH20T</Point>
+      <Point>CH989</Point>
+      <Point>CH931</Point>
+      <Point>CH634</Point>
+      <Point>CH928</Point>
+      <Point>CH946</Point>
+      <Point>CH813</Point>
+      <Point>CH653</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>RUSON</Point>
+      <Point>ENLAT</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>BIXIX</Point>
+      <Point>ERVAX</Point>
+      <Point>SUSAL</Point>
+    </Symbol>
+    <Line Pattern="Solid">BIXIX/CH827/CH428/RUSON/ENLAT/CH20T/-432829.960+1723253.830</Line>
+    <Line Pattern="Solid">ERVAX/CH989/CH931/CH634/CH928/ENLAT</Line>
+    <Line Pattern="Solid">SUSAL/CH946/CH813/CH653/CH928</Line>
+  </Map>
+  <Map Type="System2" Name="20 RNP-AR Labels" Priority="1" Center="-43.474989+172.548286" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>RUSON</Point>
       <Point>ENLAT</Point>
@@ -698,13 +771,14 @@
   <Map Type="System2" Name="11 SIDs" Priority="1" CustomColourName="ProcDep" Center="-43.494381+172.540883">
     <Line Pattern="Dashed">
       <!--Rwy11 ALBA2B-->
-      -43.494381+172.540883/-43.509722+172.567500/ALBAD
+      -43.494381+172.540883/CH11T/-43.509722+172.567500/ALBAD
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy11 DIVS2B-->
-      -43.494381+172.540883/LATIP/DIVSU
+      CH11T/LATIP/DIVSU
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>CH11T</Point>
       <Point>ALBAD</Point>
       <Point>LATIP</Point>
       <Point>DIVSU</Point>
@@ -801,23 +875,29 @@
       <Point>AVDID</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="11 GNSS" Priority="1" Center="-43.484278+172.524414" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
+  <Map Type="System2" Name="11 RNP" Priority="1" Center="-43.484278+172.524414" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>CH11T</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>AVDID</Point>
       <Point>IGLIS</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>VENKI</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>BUSKU</Point>
     </Symbol>
-    <Line Pattern="Solid">BUSKU/VENKI/CH11T</Line>
+    <Line Pattern="Solid">BUSKU/VENKI/CH11T/-432903.401+1723127.890</Line>
     <Line Pattern="Solid">AVDID/BUSKU</Line>
     <Line Pattern="Solid">IGLIS/BUSKU</Line>
   </Map>
-  <Map Type="System2" Name="11 GNSS Labels" Priority="1" Center="-43.484278+172.524414" CustomColourName="ProcArr">
+  <Map Type="System2" Name="11 RNP Labels" Priority="1" Center="-43.484278+172.524414" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>AVDID</Point>
       <Point>IGLIS</Point>
@@ -828,7 +908,7 @@
   <Map Type="System2" Name="29 SIDs" Priority="1" CustomColourName="ProcDep" Center="-43.484278+172.524414">
     <Line Pattern="Dashed">
       <!--Rwy29 KABO5R-->
-      -43.484278+172.524414/-43.482561+172.521363/NITEG/KABOD
+      -43.484278+172.524414/CH29T/-43.482561+172.521363/NITEG/KABOD
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy29 KABO5R.GLENN-->
@@ -872,7 +952,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy29 NZCH4C-->
-      -43.484278+172.524414/-43.448056+172.466667
+      CH29T/CH11T/-43.448056+172.466667
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy29 PALS1R-->
@@ -903,6 +983,7 @@
       REPAP/CH789/LALAP
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>CH29T</Point>
       <Point>NITEG</Point>
       <Point>KABOD</Point>
       <Point>GLENN</Point>
@@ -917,6 +998,7 @@
       <Point>KABKA</Point>
       <Point>KIDAL</Point>
       <Point>MOLGI</Point>
+      <Point>CH11T</Point>
       <Point>IGPIK</Point>
       <Point>PALSO</Point>
       <Point>ELDAK</Point>
@@ -1065,25 +1147,62 @@
     </Label>
   </Map>
   <Map Type="System2" Name="29 RNP" Priority="1" Center="-43.494381+172.540883" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>CH437</Point>
       <Point>CH917</Point>
+      <Point>CH29T</Point>
       <Point>CH434</Point>
       <Point>CH438</Point>
     </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>UBLES</Point>
       <Point>VEKMU</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>ABVIM</Point>
       <Point>SUPSO</Point>
     </Symbol>
-    <Line Pattern="Solid">ABVIM/CH437/UBLES/CH917/CH29T</Line>
+    <Line Pattern="Solid">ABVIM/CH437/UBLES/CH917/CH29T/-432939.772+1723227.179</Line>
     <Line Pattern="Solid">SUPSO/CH434/VEKMU/CH438/CH917</Line>
   </Map>
   <Map Type="System2" Name="29 RNP Labels" Priority="1" Center="-43.494381+172.540883" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>UBLES</Point>
+      <Point>VEKMU</Point>
+      <Point>ABVIM</Point>
+      <Point>SUPSO</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="29 RNP-AR" Priority="1" Center="-43.494381+172.540883" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>CH437</Point>
+      <Point>CH917</Point>
+      <Point>CH29T</Point>
+      <Point>CH434</Point>
+      <Point>CH438</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>UBLES</Point>
+      <Point>VEKMU</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>ABVIM</Point>
+      <Point>SUPSO</Point>
+    </Symbol>
+    <Line Pattern="Solid">ABVIM/CH437/UBLES/CH917/CH29T/-432939.772+1723227.179</Line>
+    <Line Pattern="Solid">SUPSO/CH434/VEKMU/CH438/CH917</Line>
+  </Map>
+  <Map Type="System2" Name="29 RNP-AR Labels" Priority="1" Center="-43.494381+172.540883" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>UBLES</Point>
       <Point>VEKMU</Point>

@@ -3,7 +3,7 @@
   <Map Type="System2" Name="16 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.334939+174.806358">
     <Line Pattern="Dashed">
       <!--Rwy16 DOGB1Q-->
-      -41.334939+174.806358/TAXUP/TAPAB/RUSPI/MATVU/DOGBI
+      -41.334939+174.806358/WN16T/TAXUP/TAPAB/RUSPI/MATVU/DOGBI
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy16 DOGB1Q.GOPLU-->
@@ -27,7 +27,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy16 KADN2Q-->
-      -41.334939+174.806358/-41.391944+174.806111/REVNA/-41.494167+174.962778/-41.490278+175.026389/-41.451389+175.035278/ADLAK/KADNU
+      WN16T/-41.391944+174.806111/REVNA/-41.494167+174.962778/-41.490278+175.026389/-41.451389+175.035278/ADLAK/KADNU
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy16 KADN2Q.KAMET-->
@@ -51,7 +51,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy16 MESE3Q-->
-      -41.334939+174.806358/-41.376944+174.802222/MESEL
+      WN16T/-41.376944+174.802222/MESEL
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy16 MESE3Q.IGMUL-->
@@ -71,7 +71,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy16 NZWN4A-->
-      -41.334939+174.806358/-41.482778+174.800278
+      WN16T/-41.482778+174.800278
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy16 REVN2Q-->
@@ -103,6 +103,7 @@
       <Point>PP NDB</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>WN16T</Point>
       <Point>TAXUP</Point>
       <Point>TAPAB</Point>
       <Point>RUSPI</Point>
@@ -262,45 +263,69 @@
       <Point>DORBU</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="16 GNSS" Priority="1" Center="-41.318622+174.807458" CustomColourName="ProcArr">
+  <Map Type="System2" Name="16 RNP" Priority="1" Center="-41.318622+174.807458" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>CANES</Point>
-    </Symbol>
-    <Symbol Type="HollowTriangle" />
-    <Symbol Type="MalteseCross">
-      <Point>OLBIN</Point>
-    </Symbol>
-    <Symbol Type="SolidTriangle">
-      <Point>WITBY</Point>
-    </Symbol>
-    <Line Pattern="Solid">WITBY/CANES/OLBIN/WN16T</Line>
-  </Map>
-  <Map Type="System2" Name="16 GNSS Labels" Priority="1" Center="-41.318622+174.807458" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>OLBIN</Point>
-      <Point>WITBY</Point>
-    </Label>
-  </Map>
-  <Map Type="System2" Name="16 RNP" Priority="1" Center="-41.318622+174.807458" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle">
+      <Point>WN16T</Point>
       <Point>WN509</Point>
       <Point>WN513</Point>
     </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>DORBU</Point>
       <Point>HUWIT</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
+      <Point>OLBIN</Point>
       <Point>RIDGE</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
+      <Point>WITBY</Point>
       <Point>WN416</Point>
     </Symbol>
+    <Line Pattern="Solid">WITBY/CANES/OLBIN/WN16T/-411907.039+1744826.849</Line>
     <Line Pattern="Solid">WN416/RIDGE/WN16T</Line>
     <Line Pattern="Solid">DORBU/WN509/WN416</Line>
     <Line Pattern="Solid">HUWIT/WN513/WN416</Line>
   </Map>
   <Map Type="System2" Name="16 RNP Labels" Priority="1" Center="-41.318622+174.807458" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>DORBU</Point>
+      <Point>HUWIT</Point>
+      <Point>OLBIN</Point>
+      <Point>RIDGE</Point>
+      <Point>WITBY</Point>
+      <Point>WN416</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="16 RNP-AR" Priority="1" Center="-41.318622+174.807458" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>WN16T</Point>
+      <Point>WN509</Point>
+      <Point>WN513</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>DORBU</Point>
+      <Point>HUWIT</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>RIDGE</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>WN416</Point>
+    </Symbol>
+    <Line Pattern="Solid">WN416/RIDGE/WN16T/-411907.039+1744826.849</Line>
+    <Line Pattern="Solid">DORBU/WN509/WN416/WN416</Line>
+    <Line Pattern="Solid">HUWIT/WN513/WN416</Line>
+  </Map>
+  <Map Type="System2" Name="16 RNP-AR Labels" Priority="1" Center="-41.318622+174.807458" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>DORBU</Point>
       <Point>HUWIT</Point>
@@ -311,7 +336,7 @@
   <Map Type="System2" Name="34 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.318622+174.807458">
     <Line Pattern="Dashed">
       <!--Rwy34 ISNI5P-->
-      -41.318622+174.807458/-41.239722+174.815000/ISNIP
+      -41.318622+174.807458/WN34T/-41.239722+174.815000/ISNIP
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy34 ISNI5P.AVPOD-->
@@ -335,7 +360,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy34 ISNI5T-->
-      -41.318622+174.807458/-41.308678+174.808089/-41.279275+174.780289/MUDGU/ISNIP
+      -41.318622+174.807458/WN16T/-41.308678+174.808089/-41.279275+174.780289/MUDGU/ISNIP
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy34 ISNI5T.AVPOD-->
@@ -354,7 +379,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy34 KALE3P-->
-      -41.318622+174.807458/-41.267778+174.813889/KALEM
+      WN34T/-41.267778+174.813889/KALEM
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy34 KALE3P.ATSUN-->
@@ -382,11 +407,11 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy34 NZWN2B-->
-      -41.318622+174.807458/-41.280000+174.805556/NL NDB
+      WN34T/-41.280000+174.805556/NL NDB
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy34 POLA5P-->
-      -41.318622+174.807458/POLAX
+      WN34T/POLAX
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy34 POLA5P.GOPLU-->
@@ -430,7 +455,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy34 POLA5R-->
-      -41.318622+174.807458/LAXIV/POLAX
+      WN34T/LAXIV/POLAX
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy34 POLA5R.GOPLU-->
@@ -468,6 +493,7 @@
       <Point>NL NDB</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>WN34T</Point>
       <Point>ISNIP</Point>
       <Point>BAXOV</Point>
       <Point>AVPOD</Point>
@@ -478,6 +504,7 @@
       <Point>NULKO</Point>
       <Point>RUSIL</Point>
       <Point>UPVAP</Point>
+      <Point>WN16T</Point>
       <Point>MUDGU</Point>
       <Point>KALEM</Point>
       <Point>ATSUN</Point>
@@ -634,51 +661,78 @@
       <Point>RIPPA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="34 GNSS" Priority="1" Center="-41.334939+174.806358" CustomColourName="ProcArr">
+  <Map Type="System2" Name="34 RNP" Priority="1" Center="-41.334939+174.806358" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>BUTIN</Point>
       <Point>WN402</Point>
+      <Point>WN34T</Point>
       <Point>WN403</Point>
-    </Symbol>
-    <Symbol Type="HollowTriangle" />
-    <Symbol Type="MalteseCross">
-      <Point>ROZAN</Point>
-    </Symbol>
-    <Symbol Type="SolidTriangle">
-      <Point>UMAGA</Point>
-    </Symbol>
-    <Line Pattern="Solid">UMAGA/BUTIN/WN402/ROZAN/WN34T</Line>
-    <Line Pattern="Solid">ROZAN/WN403/WN34T</Line>
-  </Map>
-  <Map Type="System2" Name="34 GNSS Labels" Priority="1" Center="-41.334939+174.806358" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>ROZAN</Point>
-      <Point>UMAGA</Point>
-    </Label>
-  </Map>
-  <Map Type="System2" Name="34 RNP" Priority="1" Center="-41.334939+174.806358" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle">
       <Point>WN508</Point>
       <Point>WN514</Point>
       <Point>WN423</Point>
       <Point>WN411</Point>
       <Point>WN506</Point>
     </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>MEEDA</Point>
       <Point>RIPPA</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
+      <Point>ROZAN</Point>
       <Point>SULAB</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
+      <Point>UMAGA</Point>
       <Point>WN412</Point>
     </Symbol>
+    <Line Pattern="Solid">UMAGA/BUTIN/WN402/ROZAN/WN34T/-412005.780+1744822.889</Line>
+    <Line Pattern="Solid">ROZAN/WN403/WN34T</Line>
     <Line Pattern="Solid">WN412/WN508/SULAB/WN34T</Line>
     <Line Pattern="Solid">MEEDA/WN514/WN423/WN412</Line>
     <Line Pattern="Solid">RIPPA/WN411/WN506/WN412</Line>
   </Map>
   <Map Type="System2" Name="34 RNP Labels" Priority="1" Center="-41.334939+174.806358" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>MEEDA</Point>
+      <Point>RIPPA</Point>
+      <Point>ROZAN</Point>
+      <Point>SULAB</Point>
+      <Point>UMAGA</Point>
+      <Point>WN412</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="34 RNP-AR" Priority="1" Center="-41.334939+174.806358" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>WN508</Point>
+      <Point>WN34T</Point>
+      <Point>WN514</Point>
+      <Point>WN423</Point>
+      <Point>WN411</Point>
+      <Point>WN506</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>MEEDA</Point>
+      <Point>RIPPA</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>SULAB</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>WN412</Point>
+    </Symbol>
+    <Line Pattern="Solid">WN412/WN508/SULAB/WN34T/-412005.780+1744822.889</Line>
+    <Line Pattern="Solid">MEEDA/WN514/WN423/WN412/WN412</Line>
+    <Line Pattern="Solid">RIPPA/WN411/WN506/WN412</Line>
+  </Map>
+  <Map Type="System2" Name="34 RNP-AR Labels" Priority="1" Center="-41.334939+174.806358" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>MEEDA</Point>
       <Point>RIPPA</Point>
@@ -810,26 +864,26 @@
   </Map>
   <Map Type="System2" Name="VFRProc" Priority="1" CustomColourName="VFRPoint" Center="-41.327222+174.805278">
     <Label HasLeader="true" LabelOrientation="NW">
-      <Point Name="16-BARING-DEP">-41.341667+174.805000</Point>
+      <Point Name="16-BARING-DEP">WN34T</Point>
       <Point Name="16-CITY-ARR">MAKARA PEAK</Point>
       <Point Name="16-EAST-ARR">-41.375000+174.966667</Point>
-      <Point Name="16-OWHIRO-DEP">-41.356944+174.803333</Point>
       <Point Name="16-WARD-ARR">BELMONT HILL</Point>
       <Point Name="34-BARING-ARR">TURAKIRAE</Point>
-      <Point Name="34-BARING-DEP">-41.297500+174.807778</Point>
+      <Point Name="34-BARING-DEP">WN16T</Point>
       <Point Name="34-EAST-ARR">-41.300000+174.966667</Point>
       <Point Name="34-OWHIRO-ARR">SINCLAIR HEAD</Point>
     </Label>
     <Label HasLeader="true" LabelOrientation="SE">
-      <Point Name="16-EAST-DEP">-41.341667+174.805000</Point>
-      <Point Name="34-CITY-DEP">-41.297500+174.807778</Point>
-      <Point Name="34-EAST-DEP">-41.297500+174.807778</Point>
-      <Point Name="34-OWHIRO-DEP">-41.297500+174.807778</Point>
-      <Point Name="34-WARD-DEP">-41.297500+174.807778</Point>
+      <Point Name="16-EAST-DEP">WN34T</Point>
+      <Point Name="16-OWHIRO-DEP">WN34T</Point>
+      <Point Name="34-CITY-DEP">WN16T</Point>
+      <Point Name="34-EAST-DEP">WN16T</Point>
+      <Point Name="34-OWHIRO-DEP">WN16T</Point>
+      <Point Name="34-WARD-DEP">WN16T</Point>
     </Label>
     <!--16-BARING-DEP-->
     <Line Pattern="Dotted">
-      -41.341667+174.805000/HARBOUR ENTRANCE/-41.343333+174.928333
+      WN34T/-41.341667+174.805000/HARBOUR ENTRANCE/-41.343333+174.928333
     </Line>
     <!--16-CITY-ARR-->
     <Line Pattern="Dotted">
@@ -841,11 +895,11 @@
     </Line>
     <!--16-EAST-DEP-->
     <Line Pattern="Dotted">
-      -41.341667+174.805000/HARBOUR ENTRANCE/PENCARROW/BARING/TURAKIRAE
+      WN34T/-41.341667+174.805000/HARBOUR ENTRANCE/PENCARROW/BARING/TURAKIRAE
     </Line>
     <!--16-OWHIRO-DEP-->
     <Line Pattern="Dotted">
-      -41.356944+174.803333/-41.385278+174.726111
+      WN34T/-41.356944+174.803333/-41.385278+174.726111
     </Line>
     <!--16-WARD-ARR-->
     <Line Pattern="Dotted">
@@ -857,11 +911,11 @@
     </Line>
     <!--34-BARING-DEP-->
     <Line Pattern="Dotted">
-      -41.297500+174.807778/POINT GORDON/HARBOUR ENTRANCE/PENCARROW/TURAKIRAE
+      WN16T/-41.297500+174.807778/POINT GORDON/HARBOUR ENTRANCE/PENCARROW/TURAKIRAE
     </Line>
     <!--34-CITY-DEP-->
     <Line Pattern="Dotted">
-      -41.297500+174.807778/OBSERVATORY
+      WN16T/-41.297500+174.807778/OBSERVATORY
     </Line>
     <!--34-EAST-ARR-->
     <Line Pattern="Dotted">
@@ -869,7 +923,7 @@
     </Line>
     <!--34-EAST-DEP-->
     <Line Pattern="Dotted">
-      -41.297500+174.807778/POINT GORDON/WARD ISLAND
+      WN16T/-41.297500+174.807778/POINT GORDON/WARD ISLAND
     </Line>
     <!--34-OWHIRO-ARR-->
     <Line Pattern="Dotted">
@@ -877,11 +931,11 @@
     </Line>
     <!--34-OWHIRO-DEP-->
     <Line Pattern="Dotted">
-      -41.297500+174.807778/OBSERVATORY/ISLAND BAY
+      WN16T/-41.297500+174.807778/OBSERVATORY/ISLAND BAY
     </Line>
     <!--34-WARD-DEP-->
     <Line Pattern="Dotted">
-      -41.297500+174.807778/POINT GORDON/WARD ISLAND/POINT HOWARD
+      WN16T/-41.297500+174.807778/POINT GORDON/WARD ISLAND/POINT HOWARD
     </Line>
   </Map>
 </Maps>

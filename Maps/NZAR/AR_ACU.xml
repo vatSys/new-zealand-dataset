@@ -3,7 +3,7 @@
   <Map Type="System2" Name="03 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.027044+174.979333">
     <Line Pattern="Dashed">
       <!--Rwy03 PATG2Q-->
-      -37.027044+174.979333/PATGA
+      -37.027044+174.979333/AR03T/AR21T/PATGA
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy03 PATG2Q.SATLA-->
@@ -19,7 +19,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy03 SY1Q-->
-      -37.027044+174.979333/-36.980640+175.083130/-37.076500+175.116900/SY NDB
+      AR21T/-36.980640+175.083130/-37.076500+175.116900/SY NDB
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy03 SY1R-->
@@ -29,6 +29,8 @@
       <Point>SY NDB</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>AR03T</Point>
+      <Point>AR21T</Point>
       <Point>PATGA</Point>
       <Point>URDOR</Point>
       <Point>SATLA</Point>
@@ -43,25 +45,30 @@
       <Point>UPLIN</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="03 GNSS" Priority="1" Center="-37.034575+174.969758" CustomColourName="ProcArr">
+  <Map Type="System2" Name="03 RNP" Priority="1" Center="-37.034575+174.969758" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>UBKEL</Point>
+      <Point>AR03T</Point>
     </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>GROVE</Point>
       <Point>WI NDB</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>AR409</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>KINGS</Point>
     </Symbol>
-    <Line Pattern="Solid">KINGS/UBKEL/AR409/AR03T</Line>
+    <Line Pattern="Solid">KINGS/UBKEL/AR409/AR03T/-370204.470+1745811.129</Line>
     <Line Pattern="Solid">GROVE/KINGS</Line>
     <Line Pattern="Solid">WI NDB/KINGS</Line>
   </Map>
-  <Map Type="System2" Name="03 GNSS Labels" Priority="1" Center="-37.034575+174.969758" CustomColourName="ProcArr">
+  <Map Type="System2" Name="03 RNP Labels" Priority="1" Center="-37.034575+174.969758" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>GROVE</Point>
       <Point>WI NDB</Point>
@@ -72,7 +79,7 @@
   <Map Type="System2" Name="21 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.034575+174.969758">
     <Line Pattern="Dashed">
       <!--Rwy21 ADNO2P-->
-      -37.034575+174.969758/ADNOG
+      -37.034575+174.969758/AR21T/AR03T/ADNOG
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy21 ADNO2P.FIRTH-->
@@ -88,7 +95,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy21 SY1P-->
-      -37.034575+174.969758/-37.105833+174.916944/SY NDB
+      AR03T/-37.105833+174.916944/SY NDB
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy21 SY1R-->
@@ -99,6 +106,8 @@
       <Point>WI NDB</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>AR21T</Point>
+      <Point>AR03T</Point>
       <Point>ADNOG</Point>
       <Point>MOLNO</Point>
       <Point>NOLEG</Point>
@@ -112,30 +121,35 @@
       <Point>WI NDB</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="21 GNSS" Priority="1" Center="-37.027044+174.979333" CustomColourName="ProcArr">
+  <Map Type="System2" Name="21 RNP" Priority="1" Center="-37.027044+174.979333" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>SARVI</Point>
+      <Point>AR21T</Point>
       <Point>EMTUB</Point>
     </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>FIRTH</Point>
       <Point>SATLA</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>AR401</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>EGURU</Point>
       <Point>ORERE</Point>
     </Symbol>
-    <Line Pattern="Solid">EGURU/SARVI/AR401/AR21T</Line>
+    <Line Pattern="Solid">EGURU/SARVI/AR401/AR21T/-370137.358+1745845.599</Line>
     <Line Pattern="Solid">FIRTH/EGURU</Line>
     <Line Pattern="Solid">SATLA/EGURU</Line>
     <Line Pattern="Solid">ORERE/EMTUB/AR401</Line>
     <Line Pattern="Solid">FIRTH/ORERE</Line>
     <Line Pattern="Solid">SATLA/ORERE</Line>
   </Map>
-  <Map Type="System2" Name="21 GNSS Labels" Priority="1" Center="-37.027044+174.979333" CustomColourName="ProcArr">
+  <Map Type="System2" Name="21 RNP Labels" Priority="1" Center="-37.027044+174.979333" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>FIRTH</Point>
       <Point>SATLA</Point>

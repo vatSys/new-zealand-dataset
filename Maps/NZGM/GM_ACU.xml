@@ -3,18 +3,20 @@
   <Map Type="System2" Name="01 SIDs" Priority="1" CustomColourName="ProcDep" Center="-42.458661+171.193278">
     <Line Pattern="Dashed">
       <!--Rwy01 OCEAN1-->
-      -42.458661+171.193278/-42.423150+171.222260/-42.240050+171.085110/DAMIL
+      -42.458661+171.193278/GM01T/-42.423150+171.222260/-42.240050+171.085110/DAMIL
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy01 RILE1Q-->
-      -42.458661+171.193278/-42.438150+171.211840/MUDUT/-42.337090+171.151750/RILEY
+      GM01T/GM19T/-42.438150+171.211840/MUDUT/-42.337090+171.151750/RILEY
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy01 RILE1Q.OSOLO-->
       RILEY/OSOLO
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>GM01T</Point>
       <Point>DAMIL</Point>
+      <Point>GM19T</Point>
       <Point>MUDUT</Point>
       <Point>RILEY</Point>
       <Point>OSOLO</Point>
@@ -65,25 +67,30 @@
       <Point>PAKSA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="01 GNSS" Priority="1" Center="-42.466089+171.187217" CustomColourName="ProcArr">
+  <Map Type="System2" Name="01 RNP" Priority="1" Center="-42.466089+171.187217" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>GM483</Point>
+      <Point>GM01T</Point>
     </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>ELPAM</Point>
       <Point>PAKSA</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>AGRIP</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>PAROA</Point>
     </Symbol>
-    <Line Pattern="Solid">PAROA/AGRIP/GM483/GM01T</Line>
+    <Line Pattern="Solid">PAROA/AGRIP/GM483/GM01T/-422757.920+1711113.981</Line>
     <Line Pattern="Solid">ELPAM/PAROA</Line>
     <Line Pattern="Solid">PAKSA/PAROA</Line>
   </Map>
-  <Map Type="System2" Name="01 GNSS Labels" Priority="1" Center="-42.466089+171.187217" CustomColourName="ProcArr">
+  <Map Type="System2" Name="01 RNP Labels" Priority="1" Center="-42.466089+171.187217" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>ELPAM</Point>
       <Point>PAKSA</Point>
@@ -94,11 +101,11 @@
   <Map Type="System2" Name="19 SIDs" Priority="1" CustomColourName="ProcDep" Center="-42.466089+171.187217">
     <Line Pattern="Dashed">
       <!--Rwy19 BEACH1-->
-      -42.466089+171.187217/-42.496960+171.140500/-42.489860+171.108930/WS NDB
+      -42.466089+171.187217/GM19T/GM01T/-42.496960+171.140500/-42.489860+171.108930/WS NDB
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy19 BELEE1-->
-      -42.466089+171.187217/-42.543080+171.075120/BELEE
+      GM01T/-42.543080+171.075120/BELEE
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy19 DAMIL1-->
@@ -106,17 +113,19 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy19 OSOL1P-->
-      -42.466089+171.187217/PAROA/APASA/OSOLO
+      GM01T/PAROA/APASA/OSOLO
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy19 SOUTH1-->
-      -42.466089+171.187217/-42.487270+171.157580/HK NDB
+      GM01T/-42.487270+171.157580/HK NDB
     </Line>
     <Symbol Type="Circle">
       <Point>WS NDB</Point>
       <Point>HK NDB</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>GM19T</Point>
+      <Point>GM01T</Point>
       <Point>BELEE</Point>
       <Point>DAMIL</Point>
       <Point>PAROA</Point>

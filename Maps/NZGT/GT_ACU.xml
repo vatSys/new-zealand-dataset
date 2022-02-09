@@ -3,9 +3,10 @@
   <Map Type="System2" Name="15 SIDs" Priority="1" CustomColourName="ProcDep" Center="-43.915428+170.129942">
     <Line Pattern="Dashed">
       <!--Rwy15 MAMUS2-->
-      -43.915428+170.129942/OMUBU/MAMUS
+      -43.915428+170.129942/GT15T/OMUBU/MAMUS
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>GT15T</Point>
       <Point>OMUBU</Point>
       <Point>MAMUS</Point>
     </Symbol>
@@ -13,21 +14,27 @@
       <Point>MAMUS</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="15 GNSS" Priority="1" Center="-43.906092+170.127750" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
+  <Map Type="System2" Name="15 RNP" Priority="1" Center="-43.906092+170.127750" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>GT403</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>MAMUS</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>IDPAX</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>ATMAS</Point>
     </Symbol>
-    <Line Pattern="Solid">ATMAS/IDPAX/GT403</Line>
+    <Line Pattern="Solid">ATMAS/IDPAX/GT403/-435421.931+1700739.900</Line>
     <Line Pattern="Solid">MAMUS/ATMAS</Line>
   </Map>
-  <Map Type="System2" Name="15 GNSS Labels" Priority="1" Center="-43.906092+170.127750" CustomColourName="ProcArr">
+  <Map Type="System2" Name="15 RNP Labels" Priority="1" Center="-43.906092+170.127750" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>MAMUS</Point>
       <Point>IDPAX</Point>

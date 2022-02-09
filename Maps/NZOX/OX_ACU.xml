@@ -1,22 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="18 GNSS" Priority="1" Center="-36.143307+175.419907" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
+  <Map Type="System2" Name="18 RNP" Priority="1" Center="-36.143307+175.419907" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>NZOX</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>ADGOP</Point>
       <Point>EKODU</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>RULVU</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>OLNAN</Point>
     </Symbol>
-    <Line Pattern="Solid">OLNAN/RULVU/OX701/NZOX</Line>
+    <Line Pattern="Solid">OLNAN/RULVU/OX701/NZOX/-360835.905+1752511.665</Line>
     <Line Pattern="Solid">ADGOP/OLNAN</Line>
     <Line Pattern="Solid">EKODU/OLNAN</Line>
   </Map>
-  <Map Type="System2" Name="18 GNSS Labels" Priority="1" Center="-36.143307+175.419907" CustomColourName="ProcArr">
+  <Map Type="System2" Name="18 RNP Labels" Priority="1" Center="-36.143307+175.419907" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>ADGOP</Point>
       <Point>EKODU</Point>
@@ -24,23 +30,29 @@
       <Point>OLNAN</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="36 GNSS" Priority="1" Center="-36.150562+175.416824" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
+  <Map Type="System2" Name="36 RNP" Priority="1" Center="-36.150562+175.416824" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>NZOX</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>ADGOP</Point>
       <Point>EKODU</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>RULVU</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>OLNAN</Point>
     </Symbol>
-    <Line Pattern="Solid">OLNAN/RULVU/OX701/NZOX</Line>
+    <Line Pattern="Solid">OLNAN/RULVU/OX701/NZOX/-360902.023+1752500.566</Line>
     <Line Pattern="Solid">ADGOP/OLNAN</Line>
     <Line Pattern="Solid">EKODU/OLNAN</Line>
   </Map>
-  <Map Type="System2" Name="36 GNSS Labels" Priority="1" Center="-36.150562+175.416824" CustomColourName="ProcArr">
+  <Map Type="System2" Name="36 RNP Labels" Priority="1" Center="-36.150562+175.416824" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>ADGOP</Point>
       <Point>EKODU</Point>

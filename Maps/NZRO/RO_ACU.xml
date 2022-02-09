@@ -3,7 +3,7 @@
   <Map Type="System2" Name="18 SIDs" Priority="1" CustomColourName="ProcDep" Center="-38.115486+176.311436">
     <Line Pattern="Dashed">
       <!--Rwy18 ORAK2P-->
-      -38.115486+176.311436/MADRO/TOTRA/ORAKA
+      -38.115486+176.311436/RO18T/RO36T/MADRO/TOTRA/ORAKA
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy18 ORAK2P.FALLS-->
@@ -41,6 +41,8 @@
       ISGIT/SUDAM
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>RO18T</Point>
+      <Point>RO36T</Point>
       <Point>MADRO</Point>
       <Point>TOTRA</Point>
       <Point>ORAKA</Point>
@@ -163,47 +165,60 @@
       <Point>NIKOR</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="18 GNSS" Priority="1" Center="-38.100444+176.320344" CustomColourName="ProcArr">
+  <Map Type="System2" Name="18 RNP" Priority="1" Center="-38.100444+176.320344" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>-38.125194+176.293947</Point>
+      <Point>RO18T</Point>
+      <Point>RO185</Point>
     </Symbol>
-    <Symbol Type="HollowTriangle">
-      <Point>OKERE</Point>
-    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>-38.172367+176.219978</Point>
       <Point>ELKOB</Point>
-    </Symbol>
-    <Symbol Type="SolidTriangle">
-      <Point>TOTRA</Point>
-      <Point>NIKOR</Point>
-    </Symbol>
-    <Line Pattern="Solid">TOTRA/-38.172367+176.219978/-38.125194+176.293947/OKERE</Line>
-    <Line Pattern="Solid">NIKOR/ELKOB/RO18T</Line>
-    <Line Pattern="Solid">OKERE/NIKOR</Line>
-  </Map>
-  <Map Type="System2" Name="18 GNSS Labels" Priority="1" Center="-38.100444+176.320344" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>OKERE</Point>
-      <Point>ELKOB</Point>
-      <Point>TOTRA</Point>
-      <Point>NIKOR</Point>
-    </Label>
-  </Map>
-  <Map Type="System2" Name="18 RNP" Priority="1" Center="-38.100444+176.320344" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle">
-      <Point>RO185</Point>
-    </Symbol>
-    <Symbol Type="HollowTriangle" />
-    <Symbol Type="MalteseCross">
       <Point>RO186</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
+      <Point>TOTRA</Point>
+      <Point>NIKOR</Point>
       <Point>OKERE</Point>
     </Symbol>
+    <Line Pattern="Solid">TOTRA/-38.172367+176.219978/-38.125194+176.293947/OKERE/-380601.598+1761913.238</Line>
+    <Line Pattern="Solid">NIKOR/ELKOB/RO18T/-380601.598+1761913.238</Line>
+    <Line Pattern="Solid">OKERE/NIKOR</Line>
     <Line Pattern="Solid">OKERE/RO186/RO185/RO18T</Line>
   </Map>
   <Map Type="System2" Name="18 RNP Labels" Priority="1" Center="-38.100444+176.320344" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>ELKOB</Point>
+      <Point>RO186</Point>
+      <Point>TOTRA</Point>
+      <Point>NIKOR</Point>
+      <Point>OKERE</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="18 RNP-AR" Priority="1" Center="-38.100444+176.320344" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>RO185</Point>
+      <Point>RO18T</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>RO186</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>OKERE</Point>
+    </Symbol>
+    <Line Pattern="Solid">OKERE/RO186/RO185/RO18T/-380601.598+1761913.238</Line>
+  </Map>
+  <Map Type="System2" Name="18 RNP-AR Labels" Priority="1" Center="-38.100444+176.320344" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>RO186</Point>
       <Point>OKERE</Point>
@@ -212,7 +227,7 @@
   <Map Type="System2" Name="36 SIDs" Priority="1" CustomColourName="ProcDep" Center="-38.100444+176.320344">
     <Line Pattern="Dashed">
       <!--Rwy36 DOLS2R-->
-      -38.100444+176.320344/NIKOR/DOLSO
+      -38.100444+176.320344/RO36T/NIKOR/DOLSO
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy36 DOLS2R.AKMAG-->
@@ -250,6 +265,7 @@
       GOBUK/KAMLA
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>RO36T</Point>
       <Point>NIKOR</Point>
       <Point>DOLSO</Point>
       <Point>NUMTU</Point>
@@ -355,40 +371,57 @@
       <Point>TOTRA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="36 GNSS" Priority="1" Center="-38.115486+176.311436" CustomColourName="ProcArr">
+  <Map Type="System2" Name="36 RNP" Priority="1" Center="-38.115486+176.311436" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>-38.125194+176.293947</Point>
+      <Point>OKERE</Point>
+      <Point>ADKAG</Point>
+      <Point>RO366</Point>
+      <Point>RO364</Point>
+      <Point>RO36T</Point>
     </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>-38.172367+176.219978</Point>
+      <Point>SEKBU</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>TOTRA</Point>
     </Symbol>
-    <Line Pattern="Solid">TOTRA/-38.172367+176.219978/-38.125194+176.293947/OKERE</Line>
+    <Line Pattern="Solid">TOTRA/-38.172367+176.219978/-38.125194+176.293947/OKERE/-380655.750+1761841.170</Line>
+    <Line Pattern="Solid">TOTRA/ADKAG/SEKBU/RO366/RO364/RO36T/-380655.750+1761841.170</Line>
   </Map>
-  <Map Type="System2" Name="36 GNSS Labels" Priority="1" Center="-38.115486+176.311436" CustomColourName="ProcArr">
+  <Map Type="System2" Name="36 RNP Labels" Priority="1" Center="-38.115486+176.311436" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>SEKBU</Point>
       <Point>TOTRA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="36 RNP" Priority="1" Center="-38.115486+176.311436" CustomColourName="ProcArr">
+  <Map Type="System2" Name="36 RNP-AR" Priority="1" Center="-38.115486+176.311436" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>ADKAG</Point>
       <Point>RO366</Point>
       <Point>RO364</Point>
+      <Point>RO36T</Point>
     </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>SEKBU</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>TOTRA</Point>
     </Symbol>
-    <Line Pattern="Solid">TOTRA/ADKAG/SEKBU/RO366/RO364/RO36T</Line>
+    <Line Pattern="Solid">TOTRA/ADKAG/SEKBU/RO366/RO364/RO36T/-380655.750+1761841.170</Line>
   </Map>
-  <Map Type="System2" Name="36 RNP Labels" Priority="1" Center="-38.115486+176.311436" CustomColourName="ProcArr">
+  <Map Type="System2" Name="36 RNP-AR Labels" Priority="1" Center="-38.115486+176.311436" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>SEKBU</Point>
       <Point>TOTRA</Point>

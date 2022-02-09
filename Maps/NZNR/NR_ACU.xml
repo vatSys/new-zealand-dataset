@@ -33,7 +33,7 @@
   <Map Type="System2" Name="16 SIDs" Priority="1" CustomColourName="ProcDep" Center="-39.477694+176.866311">
     <Line Pattern="Dashed">
       <!--Rwy16 LEDIV2-->
-      -39.477694+176.866311/LEDIV
+      -39.477694+176.866311/NR16T/LEDIV
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy16 LEDIV2.GENDA-->
@@ -49,7 +49,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy16 LIM3-->
-      -39.477694+176.866311/-39.481111+176.865833/-39.483333+176.874444/NR VOR
+      NR16T/-39.481111+176.865833/-39.483333+176.874444/NR VOR
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy16 MIKE4-->
@@ -65,6 +65,7 @@
       <Point>NR VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>NR16T</Point>
       <Point>LEDIV</Point>
       <Point>PINES</Point>
       <Point>GENDA</Point>
@@ -149,25 +150,30 @@
       <Point>AROPA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="16 GNSS" Priority="1" Center="-39.461989+176.868039" CustomColourName="ProcArr">
+  <Map Type="System2" Name="16 RNP" Priority="1" Center="-39.461989+176.868039" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>-39.449436+176.869419</Point>
+      <Point>NR16T</Point>
     </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>ELBOW</Point>
       <Point>NANUA</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>-39.378392+176.915156</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>AROPA</Point>
     </Symbol>
-    <Line Pattern="Solid">AROPA/-39.378392+176.915156/-39.449436+176.869419/NR16T</Line>
+    <Line Pattern="Solid">AROPA/-39.378392+176.915156/-39.449436+176.869419/NR16T/-392743.160+1765204.940</Line>
     <Line Pattern="Solid">ELBOW/AROPA</Line>
     <Line Pattern="Solid">NANUA/AROPA</Line>
   </Map>
-  <Map Type="System2" Name="16 GNSS Labels" Priority="1" Center="-39.461989+176.868039" CustomColourName="ProcArr">
+  <Map Type="System2" Name="16 RNP Labels" Priority="1" Center="-39.461989+176.868039" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>ELBOW</Point>
       <Point>NANUA</Point>
@@ -177,7 +183,7 @@
   <Map Type="System2" Name="34 SIDs" Priority="1" CustomColourName="ProcDep" Center="-39.461989+176.868039">
     <Line Pattern="Dashed">
       <!--Rwy34 LIM3-->
-      -39.461989+176.868039/-39.457500+176.868611/NR VOR
+      -39.461989+176.868039/NR34T/-39.457500+176.868611/NR VOR
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy34 MIKE4-->
@@ -187,7 +193,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy34 OBLOX2-->
-      -39.461989+176.868039/OBLOX
+      NR34T/OBLOX
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy34 OBLOX2.GENDA-->
@@ -205,6 +211,7 @@
       <Point>NR VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>NR34T</Point>
       <Point>OBLOX</Point>
       <Point>GENDA</Point>
       <Point>MOKER</Point>
@@ -279,23 +286,29 @@
       <Point>AKINA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="34 GNSS" Priority="1" Center="-39.477694+176.866311" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
+  <Map Type="System2" Name="34 RNP" Priority="1" Center="-39.477694+176.866311" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>NR34T</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>MILLA</Point>
       <Point>OHITI</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>-39.536822+176.859764</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>AKINA</Point>
     </Symbol>
-    <Line Pattern="Solid">AKINA/-39.536822+176.859764/NR34T</Line>
+    <Line Pattern="Solid">AKINA/-39.536822+176.859764/NR34T/-392839.698+1765158.720</Line>
     <Line Pattern="Solid">MILLA/AKINA</Line>
     <Line Pattern="Solid">OHITI/AKINA</Line>
   </Map>
-  <Map Type="System2" Name="34 GNSS Labels" Priority="1" Center="-39.477694+176.866311" CustomColourName="ProcArr">
+  <Map Type="System2" Name="34 RNP Labels" Priority="1" Center="-39.477694+176.866311" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>MILLA</Point>
       <Point>OHITI</Point>
