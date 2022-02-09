@@ -91,6 +91,7 @@
     <Volumes>TGS</Volumes>
   </Sector>
   <Sector FullName="Hamilton Tower" Frequency="122.900" Callsign="NZHN_TWR" Name="THN" />
+  <Sector FullName="Hamilton Delivery" Frequency="122.900" Callsign="NZHN_DEL" Name="DHN" />
   <Sector FullName="Invercargill Tower" Frequency="118.500" Callsign="NZNV_TWR" Name="TNV">
     <Volumes>TNV</Volumes>
   </Sector>
@@ -104,6 +105,7 @@
   <Sector FullName="Nelson Tower" Frequency="127.400" Callsign="NZNS_TWR" Name="TNS">
     <Volumes>TNS</Volumes>
   </Sector>
+  <Sector FullName="Nelson Delivery" Frequency="123.300" Callsign="NZNS_DEL" Name="DNS"/>
   <Sector FullName="New Plymouth Tower" Frequency="124.700" Callsign="NZNP_TWR" Name="TNP">
     <Volumes>TNP</Volumes>
   </Sector>
