@@ -68,6 +68,46 @@
         <STAR Name="TAZE1N" ApproachName="RNPZ" />
       </Runway>
     </Airport>
+    <Airport Name="NZAP">
+      <Runway Name="10" DataRunway="10" />
+      <Runway Name="17" DataRunway="17">
+        <SID Name="BAY8" />
+        <SID Name="LAKE6" />
+        <SID Name="MINEK2" />
+        <SID Name="TAIKO5" />
+        <STAR Name="GOST2A" ApproachName="RNP" />
+        <STAR Name="ISGI1A" ApproachName="RNP" />
+        <STAR Name="SULF2A" ApproachName="RNP" />
+      </Runway>
+      <Runway Name="28" DataRunway="28" />
+      <Runway Name="35" DataRunway="35">
+        <SID Name="MOKAI4" />
+        <SID Name="PAERO5" />
+        <SID Name="PEAK8" />
+        <SID Name="TEREG2" />
+        <STAR Name="GOST2B" ApproachName="RNP" />
+        <STAR Name="GUMA1B" ApproachName="RNP" />
+        <STAR Name="SULF2B" ApproachName="RNP" />
+      </Runway>
+    </Airport>
+    <Airport Name="NZAR">
+      <Runway Name="03" DataRunway="03">
+        <SID Name="PATG2Q" />
+        <SID Name="SY1Q" />
+        <SID Name="SY1R" Type="NonJet" />
+      </Runway>
+      <Runway Name="07" DataRunway="07">
+        <SID Name="SY1R" Type="NonJet" />
+      </Runway>
+      <Runway Name="21" DataRunway="21">
+        <SID Name="ADNO2P" />
+        <SID Name="SY1P" />
+        <SID Name="SY1R" Type="NonJet" />
+      </Runway>
+      <Runway Name="25" DataRunway="25">
+        <SID Name="SY1R" Type="NonJet" />
+      </Runway>
+    </Airport>
     <Airport Name="NZCH">
       <Runway Name="02" DataRunway="02">
         <SID Name="BAVE6P" />
@@ -172,6 +212,35 @@
         <STAR Name="MIPA3B" ApproachName="RNP" />
       </Runway>
     </Airport>
+    <Airport Name="NZFI">
+      <Runway Name="10" DataRunway="10" />
+      <Runway Name="28" DataRunway="28" />
+    </Airport>
+    <Airport Name="NZGB">
+      <Runway Name="06" DataRunway="06" />
+      <Runway Name="10" DataRunway="10">
+        <SID Name="GB1P" />
+      </Runway>
+      <Runway Name="24" DataRunway="24" />
+      <Runway Name="28" DataRunway="28" />
+    </Airport>
+    <Airport Name="NZGM">
+      <Runway Name="01" DataRunway="01">
+        <SID Name="OCEAN1" />
+        <SID Name="RILE1Q" Type="NonJet" />
+        <STAR Name="APAS1A" Type="NonJet" ApproachName="RNP" />
+        <STAR Name="DOPA1A" ApproachName="RNP" />
+        <STAR Name="HK1A" ApproachName="RNP" />
+        <STAR Name="RILE1A" ApproachName="RNP" />
+      </Runway>
+      <Runway Name="19" DataRunway="19">
+        <SID Name="BEACH1" />
+        <SID Name="BELEE1" />
+        <SID Name="DAMIL1" />
+        <SID Name="OSOL1P" Type="NonJet" />
+        <SID Name="SOUTH1" />
+      </Runway>
+    </Airport>
     <Airport Name="NZGS">
       <Runway Name="03" DataRunway="03" />
       <Runway Name="09" DataRunway="09" />
@@ -204,7 +273,38 @@
         <STAR Name="WARI3B" ApproachName="RNP" />
       </Runway>
     </Airport>
+    <Airport Name="NZGT">
+      <Runway Name="15" DataRunway="15">
+        <SID Name="MAMUS2" />
+      </Runway>
+      <Runway Name="33" DataRunway="33" />
+    </Airport>
+    <Airport Name="NZHA">
+      <Runway Name="02" DataRunway="02" />
+      <Runway Name="07" DataRunway="07" />
+      <Runway Name="14" DataRunway="14" />
+      <Runway Name="20" DataRunway="20" />
+      <Runway Name="25" DataRunway="25" />
+      <Runway Name="32" DataRunway="32" />
+    </Airport>
+    <Airport Name="NZHK">
+      <Runway Name="03" DataRunway="03">
+        <STAR Name="BELE2A" ApproachName="RNP" />
+        <STAR Name="BOSL3A" ApproachName="RNP" />
+        <STAR Name="DAMI2A" ApproachName="RNP" />
+        <STAR Name="DUBO3A" ApproachName="RNP" />
+      </Runway>
+      <Runway Name="12" DataRunway="12" />
+      <Runway Name="21" DataRunway="21">
+        <STAR Name="BELE2B" ApproachName="RNP" />
+        <STAR Name="BOSL3B" ApproachName="RNP" />
+        <STAR Name="DAMI2B" ApproachName="RNP" />
+        <STAR Name="DUBO3B" ApproachName="RNP" />
+      </Runway>
+      <Runway Name="30" DataRunway="30" />
+    </Airport>
     <Airport Name="NZHN">
+      <Runway Name="07" DataRunway="07" />
       <Runway Name="18L" DataRunway="18L">
         <SID Name="BUDEN3" />
         <SID Name="GOMU1P" />
@@ -228,6 +328,7 @@
         <STAR Name="YOGI1A" ApproachName="RNP-ARY" />
         <STAR Name="YOGI2C" ApproachName="RNP-ARZ" />
       </Runway>
+      <Runway Name="25" DataRunway="25" />
       <Runway Name="36R" DataRunway="36R">
         <SID Name="AGUL2Q" />
         <SID Name="BEKA3Q" />
@@ -250,9 +351,102 @@
         <STAR Name="YOGI1D" ApproachName="RNPZ" />
       </Runway>
     </Airport>
+    <Airport Name="NZHS">
+      <Runway Name="01" DataRunway="01">
+        <SID Name="VICTO2" Type="NonJet" />
+      </Runway>
+      <Runway Name="11" DataRunway="11" />
+      <Runway Name="19" DataRunway="19">
+        <SID Name="WHISK2" Type="NonJet" />
+      </Runway>
+      <Runway Name="29" DataRunway="29" />
+    </Airport>
+    <Airport Name="NZKI">
+      <Runway Name="05" DataRunway="05" />
+      <Runway Name="23" DataRunway="23" />
+    </Airport>
+    <Airport Name="NZKK">
+      <Runway Name="02" DataRunway="02" />
+      <Runway Name="15" DataRunway="15">
+        <SID Name="LAKE2" />
+        <SID Name="MOERE2" />
+        <SID Name="PAKAR2" />
+        <SID Name="UKAP2A" />
+      </Runway>
+      <Runway Name="20" DataRunway="20" />
+      <Runway Name="33" DataRunway="33">
+        <SID Name="HOBSO2" />
+        <SID Name="UKAP1B" />
+        <SID Name="WAIHU2" />
+      </Runway>
+    </Airport>
+    <Airport Name="NZKT">
+      <Runway Name="12" DataRunway="12">
+        <SID Name="BROA3A" />
+        <SID Name="BROA2B" />
+        <SID Name="HOBBS3" />
+        <SID Name="VLY2" />
+        <STAR Name="RNAV" ApproachName="RNP" />
+      </Runway>
+      <Runway Name="18" DataRunway="18" />
+      <Runway Name="30" DataRunway="30">
+        <SID Name="HARBO3" />
+        <STAR Name="RNAV" ApproachName="RNP" />
+      </Runway>
+      <Runway Name="36" DataRunway="36" />
+    </Airport>
+    <Airport Name="NZLX">
+      <Runway Name="01" DataRunway="01">
+        <SID Name="LUGDU2" />
+      </Runway>
+      <Runway Name="14" DataRunway="14">
+        <SID Name="LUGDU2" />
+      </Runway>
+      <Runway Name="19" DataRunway="19">
+        <SID Name="LUGDU2" />
+      </Runway>
+      <Runway Name="32" DataRunway="32">
+        <SID Name="LUGDU2" />
+      </Runway>
+    </Airport>
     <Airport Name="NZMF">
       <Runway Name="11" DataRunway="11" />
       <Runway Name="29" DataRunway="29" />
+    </Airport>
+    <Airport Name="NZMO">
+      <Runway Name="08" DataRunway="08" />
+      <Runway Name="14" DataRunway="14" />
+      <Runway Name="26" DataRunway="26">
+        <SID Name="GULAN1" />
+        <STAR Name="ANGU1G" ApproachName="RNP" />
+        <STAR Name="PEXE1G" ApproachName="RNP" />
+      </Runway>
+      <Runway Name="32" DataRunway="32" />
+    </Airport>
+    <Airport Name="NZMS">
+      <Runway Name="06" DataRunway="06">
+        <SID Name="LADI3B" />
+        <SID Name="MAMO5B" />
+        <SID Name="URDA4B" />
+      </Runway>
+      <Runway Name="10" DataRunway="10" />
+      <Runway Name="24" DataRunway="24">
+        <SID Name="LADI3A" />
+        <SID Name="MAMO6A" />
+        <SID Name="URDA4A" />
+      </Runway>
+      <Runway Name="28" DataRunway="28" />
+    </Airport>
+    <Airport Name="NZNE">
+      <Runway Name="03" DataRunway="03">
+        <STAR Name="SF1B" ApproachName="RNP" />
+      </Runway>
+      <Runway Name="09" DataRunway="09" />
+      <Runway Name="21" DataRunway="21">
+        <STAR Name="DOST1A" ApproachName="RNP" />
+        <STAR Name="SF1A" ApproachName="RNP" />
+      </Runway>
+      <Runway Name="27" DataRunway="27" />
     </Airport>
     <Airport Name="NZNP">
       <Runway Name="05" DataRunway="05">
@@ -262,6 +456,7 @@
         <STAR Name="PEXU2A" ApproachName="RNP" />
         <STAR Name="VISA3A" ApproachName="RNP" />
       </Runway>
+      <Runway Name="14" DataRunway="14" />
       <Runway Name="23" DataRunway="23">
         <SID Name="GUSU2Q" />
         <SID Name="HARV2Q" />
@@ -274,6 +469,7 @@
         <STAR Name="SUBR3B" ApproachName="RNP" />
         <STAR Name="VANS2B" ApproachName="RNP" />
       </Runway>
+      <Runway Name="32" DataRunway="32" />
     </Airport>
     <Airport Name="NZNR">
       <Runway Name="07" DataRunway="07">
@@ -384,20 +580,40 @@
       <Runway Name="30" DataRunway="30" />
     </Airport>
     <Airport Name="NZOH">
+      <Runway Name="05" DataRunway="05" />
       <Runway Name="09" DataRunway="09">
         <SID Name="DANP2Q" />
         <SID Name="OH1R" />
         <STAR Name="BINI1H" ApproachName="RNP" />
         <STAR Name="IDLU1H" ApproachName="RNP" />
       </Runway>
+      <Runway Name="09L" DataRunway="09L" />
+      <Runway Name="09R" DataRunway="09R" />
+      <Runway Name="11" DataRunway="11" />
       <Runway Name="15" DataRunway="15" />
+      <Runway Name="23" DataRunway="23" />
       <Runway Name="27" DataRunway="27">
         <SID Name="ENGO2P" />
         <SID Name="OH1S" />
         <STAR Name="BINI1G" ApproachName="RNPZ" />
         <STAR Name="IDLU1G" />
       </Runway>
+      <Runway Name="27L" DataRunway="27L" />
+      <Runway Name="27R" DataRunway="27R" />
+      <Runway Name="29" DataRunway="29" />
       <Runway Name="33" DataRunway="33" />
+    </Airport>
+    <Airport Name="NZOU">
+      <Runway Name="02" DataRunway="02" />
+      <Runway Name="11" DataRunway="11" />
+      <Runway Name="18" DataRunway="18" />
+      <Runway Name="20" DataRunway="20" />
+      <Runway Name="29" DataRunway="29" />
+      <Runway Name="36" DataRunway="36" />
+    </Airport>
+    <Airport Name="NZOX">
+      <Runway Name="18" DataRunway="18" />
+      <Runway Name="36" DataRunway="36" />
     </Airport>
     <Airport Name="NZPM">
       <Runway Name="07" DataRunway="07">
@@ -432,6 +648,14 @@
         <STAR Name="LUNB1E" ApproachName="RNP-ARX" />
         <STAR Name="OKEV1A" ApproachName="RNP" />
         <STAR Name="TUTS2E" ApproachName="RNP-ARX" />
+      </Runway>
+    </Airport>
+    <Airport Name="NZPN">
+      <Runway Name="18" DataRunway="18">
+        <SID Name="SEDS2R" />
+      </Runway>
+      <Runway Name="36" DataRunway="36">
+        <SID Name="SEDS2R" />
       </Runway>
     </Airport>
     <Airport Name="NZPP">
@@ -487,6 +711,12 @@
       </Runway>
       <Runway Name="32" DataRunway="32" />
     </Airport>
+    <Airport Name="NZRC">
+      <Runway Name="04" DataRunway="04">
+        <SID Name="SEBSA1" />
+      </Runway>
+      <Runway Name="22" DataRunway="22" />
+    </Airport>
     <Airport Name="NZRO">
       <Runway Name="18" DataRunway="18">
         <SID Name="ORAK2P" />
@@ -507,6 +737,7 @@
       </Runway>
     </Airport>
     <Airport Name="NZTG">
+      <Runway Name="04" DataRunway="04" />
       <Runway Name="07" DataRunway="07">
         <SID Name="BELET3" />
         <SID Name="TODA2P" />
@@ -520,6 +751,7 @@
         <STAR Name="URBU1A" ApproachName="RNP" />
       </Runway>
       <Runway Name="16" DataRunway="16" />
+      <Runway Name="22" DataRunway="22" />
       <Runway Name="25" DataRunway="25">
         <SID Name="DOTAR3" />
         <SID Name="MORT2R" />
@@ -533,6 +765,43 @@
         <STAR Name="URBU1B" ApproachName="RNP" />
       </Runway>
       <Runway Name="34" DataRunway="34" />
+    </Airport>
+    <Airport Name="NZTK">
+      <Runway Name="11" DataRunway="11">
+        <SID Name="MARKO2" Default="True" />
+      </Runway>
+      <Runway Name="18" DataRunway="18">
+        <SID Name="MARKO2" Default="True" />
+      </Runway>
+      <Runway Name="29" DataRunway="29">
+        <SID Name="MARKO2" Default="True" />
+      </Runway>
+      <Runway Name="36" DataRunway="36">
+        <SID Name="MARKO2" Default="True" />
+      </Runway>
+    </Airport>
+    <Airport Name="NZTO">
+      <Runway Name="13" DataRunway="13" />
+      <Runway Name="31" DataRunway="31" />
+    </Airport>
+    <Airport Name="NZTU">
+      <Runway Name="02" DataRunway="02">
+        <SID Name="BIDN1P" />
+        <STAR Name="DUBO2J" ApproachName="RNP" />
+        <STAR Name="ELDA1J" ApproachName="RNP" />
+        <STAR Name="MAMU2J" ApproachName="RNP" />
+        <STAR Name="PORU2J" ApproachName="RNP" />
+      </Runway>
+      <Runway Name="11" DataRunway="11" />
+      <Runway Name="20" DataRunway="20">
+        <SID Name="MUKE1Q" />
+        <STAR Name="DOPO1K" ApproachName="RNP" />
+        <STAR Name="DUBO1K" ApproachName="RNP" />
+        <STAR Name="ELDA1K" ApproachName="RNP" />
+        <STAR Name="MAMU1K" ApproachName="RNP" />
+        <STAR Name="PORU1K" ApproachName="RNP" />
+      </Runway>
+      <Runway Name="29" DataRunway="29" />
     </Airport>
     <Airport Name="NZWB">
       <Runway Name="06" DataRunway="06">
@@ -562,6 +831,32 @@
         <STAR Name="SUPE2J" ApproachName="RNP" />
       </Runway>
       <Runway Name="28" DataRunway="28" />
+    </Airport>
+    <Airport Name="NZWF">
+      <Runway Name="11" DataRunway="11">
+        <SID Name="PORU1Q" />
+        <SID Name="TIMJ1Q" />
+        <SID Name="TIMJ1R" />
+      </Runway>
+      <Runway Name="29" DataRunway="29">
+        <SID Name="PORU1P" />
+        <SID Name="TIMJ1P" />
+        <SID Name="TIMJ1R" />
+        <STAR Name="ELRU1E" ApproachName="RNP" />
+        <STAR Name="PORU1E" ApproachName="RNP" />
+        <STAR Name="QN1E" ApproachName="RNP" />
+      </Runway>
+    </Airport>
+    <Airport Name="NZWK">
+      <Runway Name="09" DataRunway="09">
+        <STAR Name="KEPA2A" ApproachName="RNP" />
+      </Runway>
+      <Runway Name="27" DataRunway="27">
+        <SID Name="MATAT2" />
+        <SID Name="OHOPE4" />
+        <SID Name="PAROA2" />
+        <STAR Name="KEPA2B" ApproachName="RNP" />
+      </Runway>
     </Airport>
     <Airport Name="NZWN">
       <Runway Name="16" DataRunway="16">
@@ -604,6 +899,17 @@
         <STAR Name="WARD2C" ApproachName="RNP-ARX" />
       </Runway>
     </Airport>
+    <Airport Name="NZWO">
+      <Runway Name="16" DataRunway="16">
+        <SID Name="DOMO2P" />
+        <STAR Name="GURS1A" Type="NonJet" ApproachName="RNP" />
+      </Runway>
+      <Runway Name="34" DataRunway="34">
+        <SID Name="DOMO2P" />
+        <SID Name="DOMO1Q" />
+        <SID Name="GOTN2Q" />
+      </Runway>
+    </Airport>
     <Airport Name="NZWP">
       <Runway Name="03" DataRunway="03">
         <SID Name="BAYE1A" />
@@ -634,267 +940,18 @@
         <STAR Name="AA1M" ApproachName="RNP" />
       </Runway>
     </Airport>
-    <Airport Name="NZAP">
-      <Runway Name="17" DataRunway="17">
-        <SID Name="BAY8" />
-        <SID Name="LAKE6" />
-        <SID Name="MINEK2" />
-        <SID Name="TAIKO5" />
-        <STAR Name="GOST2A" ApproachName="RNP" />
-        <STAR Name="ISGI1A" ApproachName="RNP" />
-        <STAR Name="SULF2A" ApproachName="RNP" />
-      </Runway>
-      <Runway Name="35" DataRunway="35">
-        <SID Name="MOKAI4" />
-        <SID Name="PAERO5" />
-        <SID Name="PEAK8" />
-        <SID Name="TEREG2" />
-        <STAR Name="GOST2B" ApproachName="RNP" />
-        <STAR Name="GUMA1B" ApproachName="RNP" />
-        <STAR Name="SULF2B" ApproachName="RNP" />
-      </Runway>
-    </Airport>
-    <Airport Name="NZAR">
-      <Runway Name="21" DataRunway="21">
-        <SID Name="ADNO2P" />
-        <SID Name="SY1P" />
-        <SID Name="SY1R" Type="NonJet" />
-      </Runway>
-      <Runway Name="03" DataRunway="03">
-        <SID Name="PATG2Q" />
-        <SID Name="SY1Q" />
-        <SID Name="SY1R" Type="NonJet" />
-      </Runway>
-      <Runway Name="07" DataRunway="07">
-        <SID Name="SY1R" Type="NonJet" />
-      </Runway>
-      <Runway Name="25" DataRunway="25">
-        <SID Name="SY1R" Type="NonJet" />
-      </Runway>
-    </Airport>
-    <Airport Name="NZGB">
-      <Runway Name="10" DataRunway="10">
-        <SID Name="GB1P" />
-      </Runway>
-      <Runway Name="06" DataRunway="06" />
-      <Runway Name="24" DataRunway="24" />
-      <Runway Name="28" DataRunway="28" />
-    </Airport>
-    <Airport Name="NZGM">
-      <Runway Name="19" DataRunway="19">
-        <SID Name="BEACH1" />
-        <SID Name="BELEE1" />
-        <SID Name="DAMIL1" />
-        <SID Name="OSOL1P" Type="NonJet" />
-        <SID Name="SOUTH1" />
-      </Runway>
-      <Runway Name="01" DataRunway="01">
-        <SID Name="OCEAN1" />
-        <SID Name="RILE1Q" Type="NonJet" />
-        <STAR Name="APAS1A" Type="NonJet" ApproachName="RNP" />
-        <STAR Name="DOPA1A" ApproachName="RNP" />
-        <STAR Name="HK1A" ApproachName="RNP" />
-        <STAR Name="RILE1A" ApproachName="RNP" />
-      </Runway>
-    </Airport>
-    <Airport Name="NZGT">
-      <Runway Name="15" DataRunway="15">
-        <SID Name="MAMUS2" />
-      </Runway>
-    </Airport>
-    <Airport Name="NZHA">
-      <Runway Name="32" DataRunway="32" />
-    </Airport>
-    <Airport Name="NZHK">
-      <Runway Name="03" DataRunway="03">
-        <STAR Name="BELE2A" ApproachName="RNP" />
-        <STAR Name="BOSL3A" ApproachName="RNP" />
-        <STAR Name="DAMI2A" ApproachName="RNP" />
-        <STAR Name="DUBO3A" ApproachName="RNP" />
-      </Runway>
-      <Runway Name="21" DataRunway="21">
-        <STAR Name="BELE2B" ApproachName="RNP" />
-        <STAR Name="BOSL3B" ApproachName="RNP" />
-        <STAR Name="DAMI2B" ApproachName="RNP" />
-        <STAR Name="DUBO3B" ApproachName="RNP" />
-      </Runway>
-    </Airport>
-    <Airport Name="NZHS">
-      <Runway Name="01" DataRunway="01">
-        <SID Name="VICTO2" Type="NonJet" />
-      </Runway>
-      <Runway Name="19" DataRunway="19">
-        <SID Name="WHISK2" Type="NonJet" />
-      </Runway>
-    </Airport>
-    <Airport Name="NZKK">
-      <Runway Name="33" DataRunway="33">
-        <SID Name="HOBSO2" />
-        <SID Name="UKAP1B" />
-        <SID Name="WAIHU2" />
-      </Runway>
-      <Runway Name="15" DataRunway="15">
-        <SID Name="LAKE2" />
-        <SID Name="MOERE2" />
-        <SID Name="PAKAR2" />
-        <SID Name="UKAP2A" />
-      </Runway>
-    </Airport>
-    <Airport Name="NZKT">
-      <Runway Name="12" DataRunway="12">
-        <SID Name="BROA3A" />
-        <SID Name="BROA2B" />
-        <SID Name="HOBBS3" />
-        <SID Name="VLY2" />
-        <STAR Name="RNAV" ApproachName="RNP" />
-      </Runway>
-      <Runway Name="30" DataRunway="30">
-        <SID Name="HARBO3" />
-        <STAR Name="RNAV" ApproachName="RNP" />
-      </Runway>
-    </Airport>
-    <Airport Name="NZLX">
-      <Runway Name="01" DataRunway="01">
-        <SID Name="LUGDU2" />
-      </Runway>
-      <Runway Name="14" DataRunway="14">
-        <SID Name="LUGDU2" />
-      </Runway>
-      <Runway Name="19" DataRunway="19">
-        <SID Name="LUGDU2" />
-      </Runway>
-      <Runway Name="32" DataRunway="32">
-        <SID Name="LUGDU2" />
-      </Runway>
-    </Airport>
-    <Airport Name="NZMO">
-      <Runway Name="26" DataRunway="26">
-        <SID Name="GULAN1" />
-        <STAR Name="ANGU1G" ApproachName="RNP" />
-        <STAR Name="PEXE1G" ApproachName="RNP" />
-      </Runway>
-    </Airport>
-    <Airport Name="NZMS">
-      <Runway Name="24" DataRunway="24">
-        <SID Name="LADI3A" />
-        <SID Name="MAMO6A" />
-        <SID Name="URDA4A" />
-      </Runway>
-      <Runway Name="06" DataRunway="06">
-        <SID Name="LADI3B" />
-        <SID Name="MAMO5B" />
-        <SID Name="URDA4B" />
-      </Runway>
-    </Airport>
-    <Airport Name="NZNE">
-      <Runway Name="21" DataRunway="21">
-        <STAR Name="DOST1A" ApproachName="RNP" />
-        <STAR Name="SF1A" ApproachName="RNP" />
-      </Runway>
-      <Runway Name="03" DataRunway="03">
-        <STAR Name="SF1B" ApproachName="RNP" />
-      </Runway>
-    </Airport>
-    <Airport Name="NZOU">
-      <Runway Name="18" DataRunway="18" />
-      <Runway Name="36" DataRunway="36" />
-    </Airport>
-    <Airport Name="NZOX">
-      <Runway Name="18" DataRunway="18" />
-      <Runway Name="36" DataRunway="36" />
-    </Airport>
-    <Airport Name="NZPN">
-      <Runway Name="18" DataRunway="18">
-        <SID Name="SEDS2R" />
-      </Runway>
-      <Runway Name="36" DataRunway="36">
-        <SID Name="SEDS2R" />
-      </Runway>
-    </Airport>
-    <Airport Name="NZRC">
-      <Runway Name="04" DataRunway="04">
-        <SID Name="SEBSA1" />
-      </Runway>
-      <Runway Name="22" DataRunway="22" />
-    </Airport>
-    <Airport Name="NZTK">
-      <Runway Name="18" DataRunway="18">
-        <SID Name="MARKO2" Default="True" />
-      </Runway>
-      <Runway Name="36" DataRunway="36">
-        <SID Name="MARKO2" Default="True" />
-      </Runway>
-    </Airport>
-    <Airport Name="NZTO">
-      <Runway Name="13" DataRunway="13" />
-      <Runway Name="31" DataRunway="31" />
-    </Airport>
-    <Airport Name="NZTU">
-      <Runway Name="02" DataRunway="02">
-        <SID Name="BIDN1P" />
-        <STAR Name="DUBO2J" ApproachName="RNP" />
-        <STAR Name="ELDA1J" ApproachName="RNP" />
-        <STAR Name="MAMU2J" ApproachName="RNP" />
-        <STAR Name="PORU2J" ApproachName="RNP" />
-      </Runway>
-      <Runway Name="20" DataRunway="20">
-        <SID Name="MUKE1Q" />
-        <STAR Name="DOPO1K" ApproachName="RNP" />
-        <STAR Name="DUBO1K" ApproachName="RNP" />
-        <STAR Name="ELDA1K" ApproachName="RNP" />
-        <STAR Name="MAMU1K" ApproachName="RNP" />
-        <STAR Name="PORU1K" ApproachName="RNP" />
-      </Runway>
-    </Airport>
-    <Airport Name="NZWF">
-      <Runway Name="29" DataRunway="29">
-        <SID Name="PORU1P" />
-        <SID Name="TIMJ1P" />
-        <SID Name="TIMJ1R" />
-        <STAR Name="ELRU1E" ApproachName="RNP" />
-        <STAR Name="PORU1E" ApproachName="RNP" />
-        <STAR Name="QN1E" ApproachName="RNP" />
-      </Runway>
-      <Runway Name="11" DataRunway="11">
-        <SID Name="PORU1Q" />
-        <SID Name="TIMJ1Q" />
-        <SID Name="TIMJ1R" />
-      </Runway>
-    </Airport>
-    <Airport Name="NZWK">
-      <Runway Name="27" DataRunway="27">
-        <SID Name="MATAT2" />
-        <SID Name="OHOPE4" />
-        <SID Name="PAROA2" />
-        <STAR Name="KEPA2B" ApproachName="RNP" />
-      </Runway>
-      <Runway Name="09" DataRunway="09">
-        <STAR Name="KEPA2A" ApproachName="RNP" />
-      </Runway>
-    </Airport>
-    <Airport Name="NZWO">
-      <Runway Name="16" DataRunway="16">
-        <SID Name="DOMO2P" />
-        <STAR Name="GURS1A" Type="NonJet" ApproachName="RNP" />
-      </Runway>
-      <Runway Name="34" DataRunway="34">
-        <SID Name="DOMO2P" />
-        <SID Name="DOMO1Q" />
-        <SID Name="GOTN2Q" />
-      </Runway>
-    </Airport>
     <Airport Name="NZWR">
       <Runway Name="06" DataRunway="06">
         <SID Name="BREAM5" Type="NonJet" />
         <SID Name="SF1P" Type="NonJet" />
         <SID Name="WAIPU3" Type="NonJet" />
       </Runway>
+      <Runway Name="14" DataRunway="14" />
       <Runway Name="24" DataRunway="24">
         <SID Name="HARBO5" Type="NonJet" />
         <SID Name="PORTL3" Type="NonJet" />
         <SID Name="SF1Q" Type="NonJet" />
       </Runway>
-      <Runway Name="14" DataRunway="14" />
       <Runway Name="32" DataRunway="32" />
     </Airport>
     <Airport Name="NZWS">
@@ -934,14 +991,18 @@
       </Runway>
     </Airport>
     <Airport Name="NZWU">
-      <Runway Name="29" DataRunway="29">
-        <STAR Name="TENU1L" ApproachName="RNP" />
-        <STAR Name="VIRO1L" ApproachName="RNP" />
-      </Runway>
+      <Runway Name="08" DataRunway="08" />
       <Runway Name="11" DataRunway="11">
         <STAR Name="TENU1M" ApproachName="RNP" />
         <STAR Name="VIRO2M" ApproachName="RNP" />
       </Runway>
+      <Runway Name="14" DataRunway="14" />
+      <Runway Name="26" DataRunway="26" />
+      <Runway Name="29" DataRunway="29">
+        <STAR Name="TENU1L" ApproachName="RNP" />
+        <STAR Name="VIRO1L" ApproachName="RNP" />
+      </Runway>
+      <Runway Name="32" DataRunway="32" />
     </Airport>
   </SystemRunways>
   <Airways>
@@ -3183,8 +3244,8 @@ RILEY
     <Point Name="ADBOM" Type="Fix">-413118.590+1734739.960</Point>
     <Point Name="ADGAT" Type="Fix">-395937.400+1751318.050</Point>
     <Point Name="ADGIN" Type="Fix">-394417.010+1763408.010</Point>
-    <Point Name="ADGOP" Type="Fix">-355515.578+1753011.362</Point>
     <Point Name="ADGOP" Type="Fix">-355515.580+1753011.360</Point>
+    <Point Name="ADGOP" Type="Fix">-355515.578+1753011.362</Point>
     <Point Name="ADKAG" Type="Fix">-381253.680+1760948.000</Point>
     <Point Name="ADKES" Type="Fix">-354958.840+1741455.600</Point>
     <Point Name="ADKIS" Type="Fix">-400024.570+1752306.000</Point>
@@ -3364,8 +3425,8 @@ RILEY
     <Point Name="AVLOR" Type="Fix">-395610.160+1744749.350</Point>
     <Point Name="AVMAK" Type="Fix">-415405.800+1712651.660</Point>
     <Point Name="AVMEB" Type="Fix">-385027.180+1772327.700</Point>
-    <Point Name="AVNEM" Type="Fix">-362952.908+1745826.940</Point>
     <Point Name="AVNEM" Type="Fix">-362952.900+1745823.950</Point>
+    <Point Name="AVNEM" Type="Fix">-362952.908+1745826.940</Point>
     <Point Name="AVNOP" Type="Fix">-431518.320+1722640.420</Point>
     <Point Name="AVNOX" Type="Fix">-195050.070-1741251.580</Point>
     <Point Name="AVOCA" Type="Fix">-430754.040+1714824.300</Point>
@@ -3875,8 +3936,8 @@ RILEY
     <Point Name="GURKO" Type="Fix">-212127.630-1601828.430</Point>
     <Point Name="GURON" Type="Fix">-134441.280-1715149.700</Point>
     <Point Name="GUROP" Type="Fix">-350641.360+1731102.510</Point>
-    <Point Name="GURSU" Type="Fix">-385435.000+1771707.000</Point>
     <Point Name="GURSU" Type="Fix">-385434.590+1771707.170</Point>
+    <Point Name="GURSU" Type="Fix">-385435.000+1771707.000</Point>
     <Point Name="GUSAG" Type="Fix">-383521.240+1755202.430</Point>
     <Point Name="GUSAS" Type="Fix">-450544.330+1683255.220</Point>
     <Point Name="GUSDU" Type="Fix">-410623.670+1733939.650</Point>
@@ -4156,8 +4217,8 @@ RILEY
     <Point Name="LEBOX" Type="Fix">-390734.260+1743417.400</Point>
     <Point Name="LEBUT" Type="Fix">-172845.000+1782251.000</Point>
     <Point Name="LEDAK" Type="Fix">-375639.420+1761747.030</Point>
-    <Point Name="LEDIP" Type="Fix">-465207.028+1681129.929</Point>
     <Point Name="LEDIP" Type="Fix">-465207.030+1681129.930</Point>
+    <Point Name="LEDIP" Type="Fix">-465207.028+1681129.929</Point>
     <Point Name="LEDIV" Type="Fix">-393140.970+1765138.770</Point>
     <Point Name="LEDOR" Type="Fix">-401237.840+1744150.090</Point>
     <Point Name="LEECH" Type="Fix">-355700.840+1741358.660</Point>
@@ -4573,8 +4634,8 @@ RILEY
     <Point Name="OVRUN" Type="Fix">-401136.450+1755251.860</Point>
     <Point Name="OVSED" Type="Fix">-460050.680+1700058.810</Point>
     <Point Name="OVSIT" Type="Fix">-372521.200+1750147.100</Point>
-    <Point Name="OVTAP" Type="Fix">-364753.000+1754700.000</Point>
     <Point Name="OVTAP" Type="Fix">-364753.410+1754700.200</Point>
+    <Point Name="OVTAP" Type="Fix">-364753.000+1754700.000</Point>
     <Point Name="OVTIK" Type="Fix">-362742.090+1743930.990</Point>
     <Point Name="OVTOS" Type="Fix">-251401.520-1650000.000</Point>
     <Point Name="OX701" Type="Fix">-360426.771+1752720.880</Point>
@@ -4782,8 +4843,8 @@ RILEY
     <Point Name="RITPU" Type="Fix">-385444.920+1772347.860</Point>
     <Point Name="RIVPI" Type="Fix">-431225.490+1720613.590</Point>
     <Point Name="RIVTA" Type="Fix">-423225.400+1725252.680</Point>
-    <Point Name="RIWUT" Type="Fix">-404017.300+1735951.200</Point>
     <Point Name="RIWUT" Type="Fix">-404017.280+1735951.210</Point>
+    <Point Name="RIWUT" Type="Fix">-404017.300+1735951.200</Point>
     <Point Name="RO181" Type="Fix">-380924.818+1761511.722</Point>
     <Point Name="RO182" Type="Fix">-380807.321+1761721.142</Point>
     <Point Name="RO185" Type="Fix">-380307.909+1762055.342</Point>
@@ -4872,8 +4933,8 @@ RILEY
     <Point Name="SCUBA" Type="Fix">-235830.000+1664006.000</Point>
     <Point Name="SEBGI" Type="Fix">-410523.250+1733046.560</Point>
     <Point Name="SEBRU" Type="Fix">-402541.910+1732706.730</Point>
-    <Point Name="SEBSA" Type="Fix">-465043.000+1681533.000</Point>
     <Point Name="SEBSA" Type="Fix">-465042.980+1681533.020</Point>
+    <Point Name="SEBSA" Type="Fix">-465043.000+1681533.000</Point>
     <Point Name="SEDSI" Type="Fix">-412336.500+1740659.850</Point>
     <Point Name="SEGMI" Type="Fix">-385320.990+1740407.570</Point>
     <Point Name="SEGVA" Type="Fix">-364812.000+1754514.000</Point>
@@ -5085,8 +5146,8 @@ RILEY
     <Point Name="UPTIK" Type="Fix">-382048.330+1750407.090</Point>
     <Point Name="UPTIN" Type="Fix">-450219.610+1684048.100</Point>
     <Point Name="UPTUG" Type="Fix">-210405.020-1745159.840</Point>
-    <Point Name="UPVAP" Type="Fix">-410202.000+1742647.000</Point>
     <Point Name="UPVAP" Type="Fix">-410201.560+1742647.260</Point>
+    <Point Name="UPVAP" Type="Fix">-410202.000+1742647.000</Point>
     <Point Name="UPVOK" Type="Fix">-394436.120+1741429.270</Point>
     <Point Name="URBIG" Type="Fix">-365109.990+1743818.940</Point>
     <Point Name="URBOL" Type="Fix">-364752.220+1744456.650</Point>
@@ -5742,8 +5803,8 @@ RILEY
     <Point Name="KAI IWI BEACH" Type="Fix">-395310.900+1745401.170</Point>
     <Point Name="KAINGAROA" Type="Fix">-382430.600+1763356.500</Point>
     <Point Name="KAIPO SADDLE" Type="Fix">-442703.800+1675925.200</Point>
-    <Point Name="KAITUNA BRIDGE" Type="Fix">-374446.800+1762115.500</Point>
     <Point Name="KAITUNA BRIDGE" Type="Fix">-412842.400+1734844.400</Point>
+    <Point Name="KAITUNA BRIDGE" Type="Fix">-374446.800+1762115.500</Point>
     <Point Name="KARAKA" Type="Fix">-370437.500+1745541.700</Point>
     <Point Name="KARANGAHAPE" Type="Fix">-384742.700+1754801.700</Point>
     <Point Name="KAREWA ISLAND" Type="Fix">-373146.800+1760754.500</Point>
@@ -7253,8 +7314,10 @@ RILEY
       <Route Runway="07">PATMO/UBSET</Route>
       <Transition Name="NOBAR">NOBAR</Transition>
     </SID>
-    <SID Name="MARKO2" Airport="NZTK" Runways="18,36">
+    <SID Name="MARKO2" Airport="NZTK" Runways="11,18,29,36">
+      <Route Runway="11">BENVU/MARKO</Route>
       <Route Runway="18">BENVU/MARKO</Route>
+      <Route Runway="29">BENVU/MARKO</Route>
       <Route Runway="36">BENVU/MARKO</Route>
     </SID>
     <SID Name="BIDN1P" Airport="NZTU" Runways="02">
@@ -8910,7 +8973,7 @@ RILEY
     <Approach Name="RNP" Airport="NZGM" Runway="01">
       <Transition Name="ELPAM">ELPAM</Transition>
       <Transition Name="PAKSA">PAKSA</Transition>
-      <Route>PAROA/AGRIP/GM483/GM01T/-422757.920+1711113.981</Route>
+      <Route>PAROA/AGRIP/GM483/GM01T/-422757.820+1711113.949</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZGS" Runway="14">
       <Transition Name="CREEK">CREEK</Transition>
@@ -9152,30 +9215,43 @@ RILEY
     <Airport ICAO="NZAL" FullName="Avalon" Position="-411112.000+1745638.000" />
     <Airport ICAO="NZAM" FullName="Ashburton Medical Centre" Position="-435339.070+1714452.710" />
     <Airport ICAO="NZAP" FullName="Taupo" Position="-384423.000+1760504.000">
+      <Runway Name="10" Position="-384427.510+1760433.179" />
+      <Runway Name="28" Position="-384439.811+1760456.798" />
       <Runway Name="17" Position="-384404.981+1760513.020" />
       <Runway Name="35" Position="-384448.440+1760458.238" />
     </Airport>
     <Airport ICAO="NZAR" FullName="Ardmore" Position="-370147.000+1745824.000">
       <Runway Name="03" Position="-370204.470+1745811.129" />
       <Runway Name="21" Position="-370137.358+1745845.599" />
-      <Runway Name="07" Position="-370146.952+1745811.838" />
-      <Runway Name="25" Position="-370146.952+1745836.120" />
+      <Runway Name="07" Position="-370147.010+1745811.842" />
+      <Runway Name="25" Position="-370147.010+1745836.120" />
     </Airport>
     <Airport ICAO="NZAS" FullName="Ashburton" Position="-435412.000+1714748.000">
-      <Runway Name="02" Position="-435428.447+1714716.397" />
-      <Runway Name="20" Position="-435408.258+1714745.398" />
-      <Runway Name="06" Position="-435432.951+1714718.481" />
-      <Runway Name="24" Position="-435430.589+1714820.776" />
-      <Runway Name="11" Position="-435402.092+1714750.946" />
-      <Runway Name="29" Position="-435423.872+1714825.664" />
-      <Runway Name="16" Position="-435354.445+1714747.980" />
-      <Runway Name="34" Position="-435429.434+1714747.980" />
+      <Runway Name="02" Position="-435419.220+1714801.440" />
+      <Runway Name="20" Position="-435406.800+1714816.380" />
+      <Runway Name="06" Position="-435410.958+1714742.428" />
+      <Runway Name="24" Position="-435408.791+1714827.698" />
+      <Runway Name="11" Position="-435349.250+1714754.190" />
+      <Runway Name="29" Position="-435409.929+1714830.218" />
+      <Runway Name="16" Position="-435348.880+1714756.609" />
+      <Runway Name="34" Position="-435423.850+1714755.730" />
     </Airport>
     <Airport ICAO="NZAW" FullName="Auckland Harbour" Position="-365002.060+1744548.550" />
-    <Airport ICAO="NZBA" FullName="Balclutha" Position="-461436.000+1694500.000" />
+    <Airport ICAO="NZBA" FullName="Balclutha" Position="-461436.000+1694500.000">
+      <Runway Name="07" Position="-461441.579+1694439.682" />
+      <Runway Name="25" Position="-461443.451+1694510.771" />
+    </Airport>
     <Airport ICAO="NZBW" FullName="Burwood Hospital" Position="-432847.000+1724113.000" />
-    <Airport ICAO="NZCB" FullName="Centre Bush" Position="-460224.000+1681842.000" />
-    <Airport ICAO="NZCG" FullName="Centennial Park" Position="-383955.000+1760805.000" />
+    <Airport ICAO="NZCB" FullName="Centre Bush" Position="-460224.000+1681842.000">
+      <Runway Name="16" Position="-460215.871+1681845.551" />
+      <Runway Name="34" Position="-460237.190+1681842.142" />
+    </Airport>
+    <Airport ICAO="NZCG" FullName="Centennial Park" Position="-383955.000+1760805.000">
+      <Runway Name="04" Position="-383956.750+1760757.248" />
+      <Runway Name="22" Position="-383944.230+1760832.071" />
+      <Runway Name="07" Position="-383954.569+1760745.880" />
+      <Runway Name="25" Position="-383955.451+1760808.290" />
+    </Airport>
     <Airport ICAO="NZCH" FullName="Christchurch" Position="-432922.000+1723204.000">
       <Runway Name="02" Position="-432951.472+1723119.610" />
       <Runway Name="20" Position="-432829.960+1723253.830" />
@@ -9183,16 +9259,27 @@ RILEY
       <Runway Name="29" Position="-432939.772+1723227.179" />
     </Airport>
     <Airport ICAO="NZCI" FullName="Chatham Is/Tuuta" Position="-434849.780-1762824.320" />
-    <Airport ICAO="NZCL" FullName="Cloudy Bay" Position="-412722.000+1740051.000" />
-    <Airport ICAO="NZCS" FullName="Cromwell Racecourse" Position="-450255.000+1691014.000" />
-    <Airport ICAO="NZCW" FullName="Cromwell" Position="-445848.000+1691306.000" />
+    <Airport ICAO="NZCL" FullName="Cloudy Bay" Position="-412722.000+1740051.000">
+      <Runway Name="15" Position="-412722.000+1740051.000" />
+      <Runway Name="33" Position="-412722.000+1740051.000" />
+    </Airport>
+    <Airport ICAO="NZCS" FullName="Cromwell Racecourse" Position="-450255.000+1691014.000">
+      <Runway Name="09" Position="-450246.979+1690944.752" />
+      <Runway Name="27" Position="-450256.429+1691012.540" />
+      <Runway Name="18" Position="-450233.439+1691029.791" />
+      <Runway Name="36" Position="-450254.892+1691015.730" />
+    </Airport>
+    <Airport ICAO="NZCW" FullName="Cromwell" Position="-445848.000+1691306.000">
+      <Runway Name="18" Position="-445836.160+1691313.490" />
+      <Runway Name="36" Position="-445859.840+1691258.550" />
+    </Airport>
     <Airport ICAO="NZCX" FullName="Coromandel" Position="-364730.000+1753031.000">
       <Runway Name="12" Position="-364713.729+1753018.299" />
       <Runway Name="30" Position="-364726.560+1753029.059" />
     </Airport>
     <Airport ICAO="NZDA" FullName="Dargaville" Position="-355623.000+1735337.000">
-      <Runway Name="04" Position="-355629.749+1735323.064" />
-      <Runway Name="22" Position="-355616.152+1735350.968" />
+      <Runway Name="04" Position="-355628.820+1735316.861" />
+      <Runway Name="22" Position="-355613.981+1735351.569" />
     </Airport>
     <Airport ICAO="NZDC" FullName="Dunedin City" Position="-455300.000+1703030.000" />
     <Airport ICAO="NZDH" FullName="Dunedin Hospital" Position="-455207.930+1703034.820" />
@@ -9202,56 +9289,89 @@ RILEY
     </Airport>
     <Airport ICAO="NZDU" FullName="Dunstan Hospital" Position="-451203.360+1691954.060" />
     <Airport ICAO="NZDV" FullName="Dannevirke" Position="-401342.000+1760443.000">
-      <Runway Name="02" Position="-401357.076+1760426.969" />
-      <Runway Name="20" Position="-401326.864+1760459.048" />
-      <Runway Name="08" Position="-401335.378+1760435.371" />
-      <Runway Name="26" Position="-401339.691+1760504.376" />
+      <Runway Name="02" Position="-401408.909+1760429.489" />
+      <Runway Name="20" Position="-401339.061+1760502.450" />
+      <Runway Name="08" Position="-401340.030+1760437.402" />
+      <Runway Name="26" Position="-401344.260+1760458.940" />
     </Airport>
-    <Airport ICAO="NZDY" FullName="Drury" Position="-370547.000+1745831.000" />
-    <Airport ICAO="NZES" FullName="Wharepapa South" Position="-380838.000+1753301.000" />
+    <Airport ICAO="NZDY" FullName="Drury" Position="-370547.000+1745831.000">
+      <Runway Name="18" Position="-370547.000+1745831.000" />
+      <Runway Name="36" Position="-370547.000+1745831.000" />
+    </Airport>
+    <Airport ICAO="NZES" FullName="Wharepapa South" Position="-380838.000+1753301.000">
+      <Runway Name="07" Position="-380837.831+1753249.409" />
+      <Runway Name="25" Position="-380837.612+1753311.819" />
+      <Runway Name="17" Position="-380831.628+1753302.430" />
+      <Runway Name="35" Position="-380844.380+1753259.572" />
+    </Airport>
     <Airport ICAO="NZEV" FullName="Eves Valley" Position="-412023.000+1730439.000" />
     <Airport ICAO="NZFE" FullName="Fernside Fields" Position="-431903.000+1723042.000">
       <Runway Name="06" Position="-431903.371+1723030.550" />
       <Runway Name="24" Position="-431902.849+1723050.281" />
     </Airport>
-    <Airport ICAO="NZFF" FullName="Forest Field" Position="-432309.000+1722138.000" />
+    <Airport ICAO="NZFF" FullName="Forest Field" Position="-432309.000+1722138.000">
+      <Runway Name="05" Position="-432309.578+1722133.199" />
+      <Runway Name="23" Position="-432304.718+1722153.420" />
+      <Runway Name="10" Position="-432304.301+1722127.821" />
+      <Runway Name="28" Position="-432312.818+1722148.139" />
+      <Runway Name="18" Position="-432242.150+1722150.782" />
+      <Runway Name="36" Position="-432313.000+1722137.159" />
+    </Airport>
     <Airport ICAO="NZFG" FullName="Fern Gully" Position="-465342.000+1680642.000" />
     <Airport ICAO="NZFH" FullName="Fox" Position="-432747.000+1695959.000" />
     <Airport ICAO="NZFI" FullName="Feilding" Position="-401521.340+1753621.310">
       <Runway Name="10" Position="-401513.849+1753604.061" />
       <Runway Name="28" Position="-401528.778+1753638.549" />
     </Airport>
-    <Airport ICAO="NZFJ" FullName="Franz Josef" Position="-432147.000+1700804.000" />
-    <Airport ICAO="NZFL" FullName="Flat Hills" Position="-395344.000+1753912.000" />
-    <Airport ICAO="NZFO" FullName="Fox Glacier" Position="-432742.920+1700108.370" />
-    <Airport ICAO="NZFP" FullName="Foxpine" Position="-402724.000+1751613.000" />
+    <Airport ICAO="NZFJ" FullName="Franz Josef" Position="-432147.000+1700804.000">
+      <Runway Name="10" Position="-432136.720+1700742.251" />
+      <Runway Name="28" Position="-432151.052+1700810.162" />
+    </Airport>
+    <Airport ICAO="NZFL" FullName="Flat Hills" Position="-395344.000+1753912.000">
+      <Runway Name="03" Position="-395354.532+1753855.972" />
+      <Runway Name="21" Position="-395333.461+1753928.051" />
+    </Airport>
+    <Airport ICAO="NZFO" FullName="Fox Glacier" Position="-432742.920+1700108.370">
+      <Runway Name="09" Position="-432742.919+1700108.371" />
+      <Runway Name="27" Position="-432742.919+1700108.371" />
+    </Airport>
+    <Airport ICAO="NZFP" FullName="Foxpine" Position="-402724.000+1751613.000">
+      <Runway Name="09" Position="-402718.608+1751555.148" />
+      <Runway Name="27" Position="-402730.668+1751634.478" />
+    </Airport>
     <Airport ICAO="NZFR" FullName="Fox River" Position="-432807.000+1700007.000" />
-    <Airport ICAO="NZFT" FullName="Flat Point" Position="-411435.000+1755737.000" />
-    <Airport ICAO="NZGA" FullName="Galatea" Position="-382431.000+1764431.000" />
+    <Airport ICAO="NZFT" FullName="Flat Point" Position="-411435.000+1755737.000">
+      <Runway Name="17" Position="-411429.220+1755738.830" />
+      <Runway Name="35" Position="-411441.939+1755734.981" />
+    </Airport>
+    <Airport ICAO="NZGA" FullName="Galatea" Position="-382431.000+1764431.000">
+      <Runway Name="01" Position="-382425.841+1764429.951" />
+      <Runway Name="19" Position="-382359.060+1764448.739" />
+    </Airport>
     <Airport ICAO="NZGB" FullName="Great Barrier" Position="-361429.000+1752819.000">
-      <Runway Name="06" Position="-361430.872+1752806.730" />
-      <Runway Name="24" Position="-361427.028+1752831.231" />
+      <Runway Name="06" Position="-361430.210+1752758.990" />
+      <Runway Name="24" Position="-361428.039+1752819.639" />
       <Runway Name="10" Position="-361419.669+1752750.512" />
       <Runway Name="28" Position="-361435.171+1752822.688" />
     </Airport>
     <Airport ICAO="NZGC" FullName="Gore" Position="-460924.000+1685354.000">
-      <Runway Name="01" Position="-460941.191+1685337.237" />
-      <Runway Name="19" Position="-460906.750+1685410.746" />
-      <Runway Name="06" Position="-460913.313+1685348.552" />
-      <Runway Name="24" Position="-460911.225+1685417.338" />
-      <Runway Name="12" Position="-460900.115+1685409.810" />
-      <Runway Name="30" Position="-460914.206+1685424.642" />
+      <Runway Name="01" Position="-460942.779+1685323.341" />
+      <Runway Name="19" Position="-460911.362+1685357.401" />
+      <Runway Name="06" Position="-460923.090+1685345.859" />
+      <Runway Name="24" Position="-460922.162+1685411.678" />
+      <Runway Name="12" Position="-460913.162+1685351.961" />
+      <Runway Name="30" Position="-460928.051+1685405.249" />
     </Airport>
     <Airport ICAO="NZGH" FullName="Glacier Country" Position="-432314.000+1701048.000" />
     <Airport ICAO="NZGM" FullName="Greymouth" Position="-422742.000+1711124.000">
-      <Runway Name="01" Position="-422757.920+1711113.981" />
-      <Runway Name="19" Position="-422731.180+1711135.801" />
+      <Runway Name="01" Position="-422757.820+1711113.949" />
+      <Runway Name="19" Position="-422731.090+1711135.768" />
     </Airport>
     <Airport ICAO="NZGS" FullName="Gisborne" Position="-383948.000+1775842.000">
-      <Runway Name="03" Position="-383956.174+1775815.906" />
-      <Runway Name="21" Position="-383932.717+1775853.040" />
-      <Runway Name="09" Position="-383936.644+1775811.838" />
-      <Runway Name="27" Position="-383950.242+1775857.104" />
+      <Runway Name="03" Position="-383957.848+1775818.761" />
+      <Runway Name="21" Position="-383932.440+1775854.800" />
+      <Runway Name="09" Position="-383934.571+1775812.169" />
+      <Runway Name="27" Position="-383950.249+1775856.330" />
       <Runway Name="14" Position="-383929.880+1775829.910" />
       <Runway Name="32" Position="-384010.870+1775844.540" />
     </Airport>
@@ -9260,10 +9380,14 @@ RILEY
       <Runway Name="33" Position="-435455.541+1700747.791" />
     </Airport>
     <Airport ICAO="NZGY" FullName="Glenorchy" Position="-445218.000+1682351.000">
-      <Runway Name="14" Position="-445208.425+1682346.903" />
-      <Runway Name="32" Position="-445227.487+1682355.144" />
+      <Runway Name="14" Position="-445206.859+1682348.329" />
+      <Runway Name="32" Position="-445227.980+1682356.461" />
     </Airport>
     <Airport ICAO="NZHA" FullName="Hawera" Position="-393312.000+1741601.000">
+      <Runway Name="02" Position="-393324.260+1741602.572" />
+      <Runway Name="20" Position="-393305.018+1741622.670" />
+      <Runway Name="07" Position="-393305.602+1741554.331" />
+      <Runway Name="25" Position="-393306.311+1741622.778" />
       <Runway Name="14" Position="-393259.550+1741557.701" />
       <Runway Name="32" Position="-393328.181+1741610.988" />
     </Airport>
@@ -9277,19 +9401,30 @@ RILEY
       <Runway Name="12" Position="-424239.449+1705903.952" />
       <Runway Name="30" Position="-424311.431+1705932.071" />
     </Airport>
-    <Airport ICAO="NZHM" FullName="Hanmer" Position="-423411.000+1724753.000" />
+    <Airport ICAO="NZHM" FullName="Hanmer" Position="-423411.000+1724753.000">
+      <Runway Name="06" Position="-423411.000+1724753.000" />
+      <Runway Name="24" Position="-423411.000+1724753.000" />
+    </Airport>
     <Airport ICAO="NZHN" FullName="Hamilton" Position="-375159.000+1752007.000">
+      <Runway Name="07" Position="-375142.800+1751930.652" />
+      <Runway Name="25" Position="-375144.561+1751955.700" />
       <Runway Name="18L" Position="-375120.902+1752010.219" />
       <Runway Name="36R" Position="-375225.140+1751946.942" />
     </Airport>
-    <Airport ICAO="NZHP" FullName="Lake Haupiri" Position="-423604.000+1714157.000" />
+    <Airport ICAO="NZHP" FullName="Lake Haupiri" Position="-423604.000+1714157.000">
+      <Runway Name="11" Position="-423555.241+1714144.329" />
+      <Runway Name="29" Position="-423611.570+1714211.362" />
+    </Airport>
     <Airport ICAO="NZHS" FullName="Hastings" Position="-393848.000+1764601.000">
       <Runway Name="01" Position="-393853.779+1764550.980" />
       <Runway Name="19" Position="-393826.340+1764610.751" />
-      <Runway Name="11" Position="-393848.649+1764555.865" />
-      <Runway Name="29" Position="-393900.295+1764613.224" />
+      <Runway Name="11" Position="-393838.490+1764543.560" />
+      <Runway Name="29" Position="-393852.991+1764605.311" />
     </Airport>
-    <Airport ICAO="NZHT" FullName="Haast" Position="-435200.000+1690225.000" />
+    <Airport ICAO="NZHT" FullName="Haast" Position="-435200.000+1690225.000">
+      <Runway Name="16" Position="-435148.719+1690224.140" />
+      <Runway Name="34" Position="-435211.129+1690228.972" />
+    </Airport>
     <Airport ICAO="NZJA" FullName="Tauranga Hospital" Position="-374225.000+1760853.000" />
     <Airport ICAO="NZJB" FullName="Wairau Hospital" Position="-413212.000+1735637.000" />
     <Airport ICAO="NZJC" FullName="Christchurch Hospital" Position="-433158.590+1723726.010" />
@@ -9316,36 +9451,42 @@ RILEY
     <Airport ICAO="NZJY" FullName="Wairoa Hospital" Position="-390233.000+1772451.000" />
     <Airport ICAO="NZJZ" FullName="Taupo Hospital" Position="-384155.000+1760556.000" />
     <Airport ICAO="NZKC" FullName="Kaikoura Medical Centre" Position="-422415.560+1734051.390" />
-    <Airport ICAO="NZKD" FullName="Motu Kaikoura Island" Position="-361041.000+1751928.000" />
-    <Airport ICAO="NZKE" FullName="Waiheke" Position="-364830.000+1750507.000" />
+    <Airport ICAO="NZKD" FullName="Motu Kaikoura Island" Position="-361041.000+1751928.000">
+      <Runway Name="04" Position="-361041.221+1751929.219" />
+      <Runway Name="22" Position="-361031.991+1751947.680" />
+    </Airport>
+    <Airport ICAO="NZKE" FullName="Waiheke" Position="-364830.000+1750507.000">
+      <Runway Name="17" Position="-364820.279+1750511.789" />
+      <Runway Name="35" Position="-364840.439+1750507.840" />
+    </Airport>
     <Airport ICAO="NZKF" FullName="Kaipara Flats" Position="-362423.000+1743514.000">
-      <Runway Name="07" Position="-362423.202+1743457.126" />
-      <Runway Name="25" Position="-362422.734+1743530.854" />
+      <Runway Name="07" Position="-362422.201+1743500.589" />
+      <Runway Name="25" Position="-362421.370+1743528.162" />
     </Airport>
     <Airport ICAO="NZKH" FullName="Kenepuru Hospital" Position="-410842.000+1745007.000" />
     <Airport ICAO="NZKI" FullName="Kaikoura" Position="-422530.000+1733619.000">
-      <Runway Name="05" Position="-422533.445+1733604.363" />
-      <Runway Name="23" Position="-422526.440+1733633.584" />
+      <Runway Name="05" Position="-422534.709+1733601.069" />
+      <Runway Name="23" Position="-422525.921+1733628.861" />
     </Airport>
     <Airport ICAO="NZKJ" FullName="Kaikoura Beachfront" Position="-422342.000+1734051.000" />
     <Airport ICAO="NZKK" FullName="Kerikeri/Bay Of Islands" Position="-351546.000+1735443.000">
-      <Runway Name="02" Position="-351549.316+1735450.242" />
-      <Runway Name="20" Position="-351537.890+1735501.996" />
+      <Runway Name="02" Position="-351549.219+1735450.350" />
+      <Runway Name="20" Position="-351536.860+1735502.870" />
       <Runway Name="15" Position="-351508.701+1735437.822" />
       <Runway Name="33" Position="-351546.091+1735449.500" />
     </Airport>
     <Airport ICAO="NZKM" FullName="Karamea" Position="-411412.000+1720618.000">
-      <Runway Name="01" Position="-411425.793+1720608.590" />
-      <Runway Name="19" Position="-411359.837+1720630.125" />
-      <Runway Name="17" Position="-411404.574+1720615.404" />
-      <Runway Name="35" Position="-411425.339+1720609.580" />
+      <Runway Name="01" Position="-411426.851+1720611.610" />
+      <Runway Name="19" Position="-411400.758+1720630.290" />
+      <Runway Name="17" Position="-411406.472+1720617.978" />
+      <Runway Name="35" Position="-411427.229+1720612.161" />
     </Airport>
     <Airport ICAO="NZKN" FullName="Kensington Park" Position="-354216.610+1741845.840" />
     <Airport ICAO="NZKO" FullName="Kaikohe" Position="-352704.000+1734902.000">
-      <Runway Name="13" Position="-352709.670+1734850.767" />
-      <Runway Name="31" Position="-352735.352+1734909.664" />
-      <Runway Name="17" Position="-352639.307+1734906.751" />
-      <Runway Name="35" Position="-352728.580+1734857.193" />
+      <Runway Name="13" Position="-352653.588+1734845.659" />
+      <Runway Name="31" Position="-352718.889+1734905.430" />
+      <Runway Name="17" Position="-352636.380+1734901.920" />
+      <Runway Name="35" Position="-352725.661+1734852.358" />
     </Airport>
     <Airport ICAO="NZKP" FullName="Koputaroa" Position="-403334.000+1751959.000">
       <Runway Name="10" Position="-403333.631+1751957.652" />
@@ -9358,11 +9499,14 @@ RILEY
       <Runway Name="36" Position="-350435.810+1731705.071" />
     </Airport>
     <Airport ICAO="NZKU" FullName="Kupe" Position="-395109.600+1740711.100" />
-    <Airport ICAO="NZKY" FullName="Kowhai" Position="-395043.000+1762517.000" />
+    <Airport ICAO="NZKY" FullName="Kowhai" Position="-395043.000+1762517.000">
+      <Runway Name="09" Position="-395046.882+1762526.771" />
+      <Runway Name="27" Position="-395050.960+1762543.471" />
+    </Airport>
     <Airport ICAO="NZLA" FullName="Loburn Abbey" Position="-431401.000+1722939.000" />
     <Airport ICAO="NZLE" FullName="Lake Station/Nelson Lakes" Position="-414533.000+1724445.000">
-      <Runway Name="11" Position="-414517.604+1724418.636" />
-      <Runway Name="29" Position="-414548.312+1724511.372" />
+      <Runway Name="11" Position="-414518.698+1724423.690" />
+      <Runway Name="29" Position="-414551.109+1724517.521" />
     </Airport>
     <Airport ICAO="NZLF" FullName="Rotorua Lakefront" Position="-380746.000+1761510.000" />
     <Airport ICAO="NZLT" FullName="Taupo Water" Position="-384354.000+1760206.000" />
@@ -9373,19 +9517,19 @@ RILEY
       <Runway Name="32" Position="-451259.198+1692227.592" />
     </Airport>
     <Airport ICAO="NZMA" FullName="Matamata" Position="-374404.000+1754431.000">
-      <Runway Name="04" Position="-374404.052+1754415.396" />
-      <Runway Name="22" Position="-374350.293+1754445.607" />
-      <Runway Name="10" Position="-374404.452+1754412.484" />
-      <Runway Name="28" Position="-374427.136+1754446.651" />
+      <Runway Name="04" Position="-374359.930+1754414.460" />
+      <Runway Name="22" Position="-374347.410+1754443.141" />
+      <Runway Name="10" Position="-374404.740+1754411.990" />
+      <Runway Name="28" Position="-374426.491+1754455.720" />
     </Airport>
     <Airport ICAO="NZMB" FullName="Mechanics Bay" Position="-365048.000+1744719.000" />
     <Airport ICAO="NZMC" FullName="Mount Cook" Position="-434554.000+1700800.000">
-      <Runway Name="13" Position="-434531.255+1700744.008" />
-      <Runway Name="31" Position="-434616.630+1700815.979" />
+      <Runway Name="13" Position="-434537.199+1700751.701" />
+      <Runway Name="31" Position="-434620.410+1700819.050" />
     </Airport>
     <Airport ICAO="NZME" FullName="Mercer" Position="-371533.000+1750653.000">
-      <Runway Name="09" Position="-371526.312+1750657.316" />
-      <Runway Name="27" Position="-371534.636+1750725.990" />
+      <Runway Name="09" Position="-371532.558+1750651.880" />
+      <Runway Name="27" Position="-371546.102+1750733.409" />
     </Airport>
     <Airport ICAO="NZMF" FullName="Milford Sound" Position="-444024.000+1675524.000">
       <Runway Name="11" Position="-444017.101+1675508.738" />
@@ -9393,24 +9537,38 @@ RILEY
     </Airport>
     <Airport ICAO="NZMG" FullName="Mangonui" Position="-345944.100+1732752.200" />
     <Airport ICAO="NZMH" FullName="Wairarapa Hospital" Position="-405651.000+1754031.000" />
-    <Airport ICAO="NZMJ" FullName="Martins Bay" Position="-442149.000+1680109.000" />
-    <Airport ICAO="NZMK" FullName="Motueka" Position="-410724.000+1725919.000" />
-    <Airport ICAO="NZML" FullName="Mid Waiho Loop" Position="-432113.000+1701127.000" />
+    <Airport ICAO="NZMJ" FullName="Martins Bay" Position="-442149.000+1680109.000">
+      <Runway Name="02" Position="-442203.810+1680049.658" />
+      <Runway Name="20" Position="-442152.549+1680105.261" />
+    </Airport>
+    <Airport ICAO="NZMK" FullName="Motueka" Position="-410724.000+1725919.000">
+      <Runway Name="02" Position="-410724.161+1725916.051" />
+      <Runway Name="20" Position="-410705.678+1725941.431" />
+    </Airport>
+    <Airport ICAO="NZML" FullName="Mid Waiho Loop" Position="-432113.000+1701127.000">
+      <Runway Name="09" Position="-432113.000+1701127.000" />
+      <Runway Name="27" Position="-432113.000+1701127.000" />
+    </Airport>
     <Airport ICAO="NZMO" FullName="Te Anau / Manapouri" Position="-453159.000+1673900.000">
       <Runway Name="08" Position="-453153.641+1673835.470" />
       <Runway Name="26" Position="-453204.171+1673946.789" />
+      <Runway Name="14" Position="-453142.690+1673838.119" />
+      <Runway Name="32" Position="-453219.471+1673855.028" />
     </Airport>
     <Airport ICAO="NZMR" FullName="Murchison" Position="-414748.000+1721854.000">
-      <Runway Name="13" Position="-414739.782+1721848.186" />
-      <Runway Name="31" Position="-414756.098+1721859.832" />
+      <Runway Name="13" Position="-414740.679+1721845.878" />
+      <Runway Name="31" Position="-414756.440+1721858.730" />
     </Airport>
     <Airport ICAO="NZMS" FullName="Masterton" Position="-405824.000+1753801.000">
       <Runway Name="06" Position="-405833.121+1753739.180" />
       <Runway Name="24" Position="-405825.039+1753825.969" />
-      <Runway Name="10" Position="-405816.892+1753742.031" />
-      <Runway Name="28" Position="-405834.774+1753819.932" />
+      <Runway Name="10" Position="-405819.762+1753735.000" />
+      <Runway Name="28" Position="-405839.112+1753815.428" />
     </Airport>
-    <Airport ICAO="NZMW" FullName="Makarora" Position="-441354.000+1691349.000" />
+    <Airport ICAO="NZMW" FullName="Makarora" Position="-441354.000+1691349.000">
+      <Runway Name="17" Position="-441335.270+1691358.310" />
+      <Runway Name="35" Position="-441354.052+1691351.280" />
+    </Airport>
     <Airport ICAO="NZMX" FullName="Raroa" Position="-395821.600+1731751.600" />
     <Airport ICAO="NZNE" FullName="North Shore" Position="-363924.000+1743919.000">
       <Runway Name="03" Position="-363929.318+1743911.189" />
@@ -9426,6 +9584,8 @@ RILEY
     <Airport ICAO="NZNP" FullName="New Plymouth" Position="-390031.000+1741045.000">
       <Runway Name="05" Position="-390037.609+1741012.241" />
       <Runway Name="23" Position="-390020.318+1741102.000" />
+      <Runway Name="14" Position="-390001.609+1741042.920" />
+      <Runway Name="32" Position="-390037.120+1741103.019" />
     </Airport>
     <Airport ICAO="NZNR" FullName="Napier" Position="-392757.000+1765212.000">
       <Runway Name="07" Position="-392752.340+1765127.400" />
@@ -9436,55 +9596,80 @@ RILEY
     <Airport ICAO="NZNS" FullName="Nelson" Position="-411754.000+1731316.000">
       <Runway Name="02" Position="-411805.029+1731308.119" />
       <Runway Name="20" Position="-411732.021+1731346.060" />
-      <Runway Name="06" Position="-411746.910+1731258.108" />
-      <Runway Name="24" Position="-411744.272+1731326.782" />
+      <Runway Name="06" Position="-411746.072+1731301.240" />
+      <Runway Name="24" Position="-411743.631+1731327.059" />
     </Airport>
     <Airport ICAO="NZNV" FullName="Invercargill" Position="-462454.000+1681912.000">
       <Runway Name="04" Position="-462506.280+1681808.129" />
       <Runway Name="22" Position="-462439.960+1681929.078" />
-      <Runway Name="12" Position="-462447.110+1681850.108" />
-      <Runway Name="30" Position="-462509.988+1681917.245" />
+      <Runway Name="12" Position="-462444.230+1681852.420" />
+      <Runway Name="30" Position="-462503.698+1681915.380" />
     </Airport>
-    <Airport ICAO="NZOA" FullName="Omarama" Position="-442912.000+1695910.000" />
+    <Airport ICAO="NZOA" FullName="Omarama" Position="-442912.000+1695910.000">
+      <Runway Name="09L" Position="-442900.121+1695840.400" />
+      <Runway Name="27R" Position="-442918.420+1695937.972" />
+      <Runway Name="09R" Position="-442900.499+1695836.890" />
+      <Runway Name="27L" Position="-442919.640+1695937.151" />
+    </Airport>
     <Airport ICAO="NZOB" FullName="Ocean Beach" Position="-463523.000+1681820.000" />
-    <Airport ICAO="NZOF" FullName="Omaha Flats" Position="-362046.000+1744537.000" />
+    <Airport ICAO="NZOF" FullName="Omaha Flats" Position="-362046.000+1744537.000">
+      <Runway Name="04" Position="-362053.120+1744519.890" />
+      <Runway Name="22" Position="-362044.138+1744541.242" />
+    </Airport>
     <Airport ICAO="NZOG" FullName="Makarora Heliport" Position="-441359.110+1691348.080" />
     <Airport ICAO="NZOH" FullName="Ohakea" Position="-401224.000+1752313.000">
+      <Runway Name="05" Position="-401224.000+1752313.000" />
+      <Runway Name="23" Position="-401224.000+1752313.000" />
       <Runway Name="09" Position="-401209.562+1752227.311" />
       <Runway Name="27" Position="-401233.728+1752359.122" />
+      <Runway Name="09L" Position="-401224.000+1752313.000" />
+      <Runway Name="27R" Position="-401224.000+1752313.000" />
+      <Runway Name="09R" Position="-401224.000+1752313.000" />
+      <Runway Name="27L" Position="-401224.000+1752313.000" />
+      <Runway Name="11" Position="-401224.000+1752313.000" />
+      <Runway Name="29" Position="-401224.000+1752313.000" />
       <Runway Name="15" Position="-401159.032+1752309.622" />
       <Runway Name="33" Position="-401302.150+1752325.670" />
     </Airport>
     <Airport ICAO="NZOM" FullName="Omaka" Position="-413224.000+1735519.000">
-      <Runway Name="01" Position="-413237.586+1735500.404" />
-      <Runway Name="19" Position="-413210.972+1735525.342" />
-      <Runway Name="07" Position="-413220.008+1735456.722" />
-      <Runway Name="25" Position="-413219.237+1735526.605" />
-      <Runway Name="12" Position="-413212.070+1735458.702" />
-      <Runway Name="30" Position="-413236.485+1735527.044" />
+      <Runway Name="01" Position="-413242.410+1735514.030" />
+      <Runway Name="19" Position="-413217.149+1735538.640" />
+      <Runway Name="07" Position="-413228.079+1735511.168" />
+      <Runway Name="25" Position="-413225.249+1735540.829" />
+      <Runway Name="12" Position="-413217.779+1735513.861" />
+      <Runway Name="30" Position="-413242.061+1735542.431" />
     </Airport>
     <Airport ICAO="NZOP" FullName="Opotiki" Position="-380121.000+1771826.000">
-      <Runway Name="09" Position="-380113.526+1771801.386" />
-      <Runway Name="27" Position="-380124.816+1771840.824" />
+      <Runway Name="09" Position="-380118.631+1771800.400" />
+      <Runway Name="27" Position="-380127.091+1771840.720" />
     </Airport>
     <Airport ICAO="NZOR" FullName="Oamaru Hospital" Position="-450558.420+1705801.290" />
     <Airport ICAO="NZOS" FullName="Otehei Bay" Position="-351321.550+1741348.460" />
-    <Airport ICAO="NZOT" FullName="Otaki" Position="-404701.000+1750904.000" />
+    <Airport ICAO="NZOT" FullName="Otaki" Position="-404701.000+1750904.000">
+      <Runway Name="16" Position="-404658.130+1750903.820" />
+      <Runway Name="34" Position="-404724.961+1750905.692" />
+    </Airport>
     <Airport ICAO="NZOU" FullName="Oamaru" Position="-445812.000+1710454.000">
-      <Runway Name="02" Position="-445813.721+1710455.697" />
-      <Runway Name="20" Position="-445754.000+1710522.614" />
-      <Runway Name="11" Position="-445801.308+1710440.480" />
-      <Runway Name="29" Position="-445822.620+1710511.681" />
+      <Runway Name="02" Position="-445807.100+1710454.379" />
+      <Runway Name="20" Position="-445748.971+1710519.759" />
+      <Runway Name="11" Position="-445808.890+1710455.261" />
+      <Runway Name="29" Position="-445829.050+1710523.600" />
       <Runway Name="18" Position="-445742.660+1710506.619" />
       <Runway Name="36" Position="-445819.801+1710440.300" />
     </Airport>
     <Airport ICAO="NZOX" FullName="Okiwi Station" Position="-360847.000+1752507.000">
-      <Runway Name="18" Position="-360835.905+1752511.665" />
-      <Runway Name="36" Position="-360902.023+1752500.566" />
+      <Runway Name="18" Position="-360835.498+1752510.589" />
+      <Runway Name="36" Position="-360857.970+1752459.101" />
     </Airport>
     <Airport ICAO="NZPA" FullName="Paihia" Position="-351656.300+1740529.100" />
-    <Airport ICAO="NZPH" FullName="Pudding Hill" Position="-433514.000+1713140.000" />
-    <Airport ICAO="NZPI" FullName="Parakai" Position="-363906.000+1742600.000" />
+    <Airport ICAO="NZPH" FullName="Pudding Hill" Position="-433514.000+1713140.000">
+      <Runway Name="02" Position="-433524.821+1713126.018" />
+      <Runway Name="20" Position="-433502.062+1713151.949" />
+    </Airport>
+    <Airport ICAO="NZPI" FullName="Parakai" Position="-363906.000+1742600.000">
+      <Runway Name="07" Position="-363907.042+1742552.151" />
+      <Runway Name="25" Position="-363907.009+1742618.848" />
+    </Airport>
     <Airport ICAO="NZPK" FullName="Pikes Point" Position="-365549.000+1744847.000" />
     <Airport ICAO="NZPM" FullName="Palmerston North" Position="-401914.000+1753701.000">
       <Runway Name="07" Position="-401911.510+1753617.528" />
@@ -9494,14 +9679,25 @@ RILEY
       <Runway Name="18" Position="-412038.839+1735730.589" />
       <Runway Name="36" Position="-412057.520+1735715.800" />
     </Airport>
-    <Airport ICAO="NZPO" FullName="Porangahau" Position="-401651.000+1763909.000" />
+    <Airport ICAO="NZPO" FullName="Porangahau" Position="-401651.000+1763909.000">
+      <Runway Name="02" Position="-401654.070+1763851.680" />
+      <Runway Name="20" Position="-401636.188+1763912.780" />
+    </Airport>
     <Airport ICAO="NZPP" FullName="Paraparaumu" Position="-405417.000+1745921.000">
       <Runway Name="16" Position="-405404.540+1745916.530" />
       <Runway Name="34" Position="-405438.311+1745916.552" />
     </Airport>
     <Airport ICAO="NZPS" FullName="Paihia Waterfront" Position="-351654.670+1740534.610" />
-    <Airport ICAO="NZPU" FullName="Pukekohe" Position="-371534.000+1745427.000" />
-    <Airport ICAO="NZPW" FullName="Papawai" Position="-410615.000+1753000.000" />
+    <Airport ICAO="NZPU" FullName="Pukekohe" Position="-371534.000+1745427.000">
+      <Runway Name="04" Position="-371534.000+1745427.000" />
+      <Runway Name="22" Position="-371534.000+1745427.000" />
+    </Airport>
+    <Airport ICAO="NZPW" FullName="Papawai" Position="-410615.000+1753000.000">
+      <Runway Name="03" Position="-410632.540+1752932.528" />
+      <Runway Name="21" Position="-410558.762+1753026.921" />
+      <Runway Name="12" Position="-410606.970+1752948.631" />
+      <Runway Name="30" Position="-410614.191+1752956.429" />
+    </Airport>
     <Airport ICAO="NZQN" FullName="Queenstown" Position="-450116.450+1684421.290">
       <Runway Name="05" Position="-450112.000+1684408.480" />
       <Runway Name="23" Position="-450059.558+1684527.821" />
@@ -9510,72 +9706,108 @@ RILEY
     </Airport>
     <Airport ICAO="NZQW" FullName="Queens Wharf" Position="-411709.000+1744648.000" />
     <Airport ICAO="NZRA" FullName="Raglan" Position="-374817.000+1745136.000">
-      <Runway Name="05" Position="-374822.532+1745119.303" />
-      <Runway Name="23" Position="-374815.365+1745144.240" />
+      <Runway Name="05" Position="-374821.848+1745121.881" />
+      <Runway Name="23" Position="-374815.120+1745144.190" />
     </Airport>
     <Airport ICAO="NZRC" FullName="Ryans Creek" Position="-465359.000+1680607.000">
-      <Runway Name="04" Position="-465403.773+1680550.827" />
-      <Runway Name="22" Position="-465354.524+1680617.654" />
+      <Runway Name="04" Position="-465403.679+1680550.881" />
+      <Runway Name="22" Position="-465354.460+1680617.482" />
     </Airport>
-    <Airport ICAO="NZRI" FullName="Rangitata Island" Position="-440506.000+1712457.000" />
-    <Airport ICAO="NZRK" FullName="Rangitaiki" Position="-385312.000+1762149.000" />
+    <Airport ICAO="NZRI" FullName="Rangitata Island" Position="-440506.000+1712457.000">
+      <Runway Name="03" Position="-440516.609+1712500.131" />
+      <Runway Name="21" Position="-440505.161+1712521.112" />
+      <Runway Name="12" Position="-440447.842+1712439.200" />
+      <Runway Name="30" Position="-440514.510+1712505.239" />
+    </Airport>
+    <Airport ICAO="NZRK" FullName="Rangitaiki" Position="-385312.000+1762149.000">
+      <Runway Name="16" Position="-385245.440+1762152.808" />
+      <Runway Name="34" Position="-385335.228+1762151.271" />
+    </Airport>
     <Airport ICAO="NZRL" FullName="Rotorua Lakes" Position="-380648.000+1761635.000" />
     <Airport ICAO="NZRO" FullName="Rotorua" Position="-380633.000+1761902.000">
       <Runway Name="18" Position="-380601.598+1761913.238" />
       <Runway Name="36" Position="-380655.750+1761841.170" />
     </Airport>
-    <Airport ICAO="NZRR" FullName="Ruatoria" Position="-375302.270+1781724.100" />
+    <Airport ICAO="NZRR" FullName="Ruatoria" Position="-375302.270+1781724.100">
+      <Runway Name="10" Position="-375302.270+1781724.101" />
+      <Runway Name="28" Position="-375302.270+1781724.101" />
+    </Airport>
     <Airport ICAO="NZRT" FullName="Rangiora" Position="-431724.000+1723230.000">
+      <Runway Name="03" Position="-431728.252+1723225.289" />
+      <Runway Name="21" Position="-431718.611+1723244.632" />
       <Runway Name="04" Position="-431726.736+1723224.252" />
       <Runway Name="22" Position="-431719.154+1723244.686" />
-      <Runway Name="07" Position="-431718.168+1723212.386" />
-      <Runway Name="25" Position="-431719.540+1723248.199" />
-      <Runway Name="10" Position="-431718.085+1723215.353" />
-      <Runway Name="28" Position="-431728.385+1723237.104" />
+      <Runway Name="07" Position="-431719.529+1723204.582" />
+      <Runway Name="25" Position="-431720.270+1723252.271" />
+      <Runway Name="10" Position="-431715.151+1723208.491" />
+      <Runway Name="28" Position="-431727.341+1723234.192" />
     </Airport>
-    <Airport ICAO="NZRW" FullName="Ruawai" Position="-360545.000+1735831.000" />
-    <Airport ICAO="NZRX" FullName="Roxburgh" Position="-453042.000+1691900.000" />
+    <Airport ICAO="NZRW" FullName="Ruawai" Position="-360545.000+1735831.000">
+      <Runway Name="07" Position="-360549.628+1735824.532" />
+      <Runway Name="25" Position="-360549.852+1735855.949" />
+    </Airport>
+    <Airport ICAO="NZRX" FullName="Roxburgh" Position="-453042.000+1691900.000">
+      <Runway Name="16" Position="-453022.252+1691904.559" />
+      <Runway Name="34" Position="-453102.701+1691853.129" />
+    </Airport>
     <Airport ICAO="NZSD" FullName="Stratford" Position="-391908.000+1741837.000">
-      <Runway Name="09" Position="-391857.319+1741810.228" />
-      <Runway Name="27" Position="-391909.102+1741847.912" />
-      <Runway Name="16" Position="-391856.315+1741834.398" />
-      <Runway Name="34" Position="-391914.059+1741832.422" />
+      <Runway Name="09" Position="-391858.399+1741811.380" />
+      <Runway Name="27" Position="-391909.278+1741847.970" />
+      <Runway Name="16" Position="-391855.901+1741833.412" />
+      <Runway Name="34" Position="-391912.270+1741831.540" />
     </Airport>
-    <Airport ICAO="NZSF" FullName="Springfield" Position="-432301.000+1715440.000" />
+    <Airport ICAO="NZSF" FullName="Springfield" Position="-432301.000+1715440.000">
+      <Runway Name="04" Position="-432306.929+1715423.270" />
+      <Runway Name="22" Position="-432255.060+1715456.779" />
+      <Runway Name="10" Position="-432253.281+1715424.260" />
+      <Runway Name="28" Position="-432308.711+1715455.789" />
+    </Airport>
     <Airport ICAO="NZSL" FullName="Springhill" Position="-361930.000+1743320.000">
       <Runway Name="16" Position="-361914.380+1743321.398" />
       <Runway Name="34" Position="-361930.922+1743321.240" />
     </Airport>
     <Airport ICAO="NZSO" FullName="Marlborough Sounds" Position="-411520.000+1740118.000" />
-    <Airport ICAO="NZTE" FullName="Te Kowhai" Position="-374442.000+1750931.000" />
+    <Airport ICAO="NZTE" FullName="Te Kowhai" Position="-374442.000+1750931.000">
+      <Runway Name="05" Position="-374444.992+1750922.720" />
+      <Runway Name="23" Position="-374433.652+1750959.850" />
+    </Airport>
     <Airport ICAO="NZTG" FullName="Tauranga" Position="-374019.000+1761146.000">
+      <Runway Name="04" Position="-374017.249+1761116.148" />
+      <Runway Name="22" Position="-374006.899+1761138.789" />
       <Runway Name="07" Position="-374021.900+1761118.200" />
       <Runway Name="25" Position="-374025.702+1761232.602" />
-      <Runway Name="16" Position="-374020.770+1761138.897" />
-      <Runway Name="34" Position="-374038.870+1761137.576" />
+      <Runway Name="16" Position="-374014.362+1761139.610" />
+      <Runway Name="34" Position="-374036.361+1761137.961" />
     </Airport>
     <Airport ICAO="NZTH" FullName="Thames" Position="-370924.000+1753301.000">
-      <Runway Name="05" Position="-370942.358+1753245.071" />
-      <Runway Name="23" Position="-370935.518+1753308.690" />
+      <Runway Name="05" Position="-370941.810+1753244.408" />
+      <Runway Name="23" Position="-370934.499+1753306.160" />
+      <Runway Name="14" Position="-370925.150+1753247.540" />
+      <Runway Name="32" Position="-370952.639+1753300.940" />
     </Airport>
     <Airport ICAO="NZTI" FullName="Taieri" Position="-455136.000+1702130.000">
-      <Runway Name="05" Position="-455139.532+1702110.843" />
-      <Runway Name="23" Position="-455132.389+1702149.187" />
-      <Runway Name="11" Position="-455127.266+1702117.546" />
-      <Runway Name="29" Position="-455144.654+1702142.484" />
+      <Runway Name="05" Position="-455144.831+1702130.179" />
+      <Runway Name="23" Position="-455135.050+1702204.570" />
+      <Runway Name="11" Position="-455129.948+1702125.290" />
+      <Runway Name="29" Position="-455142.469+1702150.119" />
     </Airport>
     <Airport ICAO="NZTK" FullName="Takaka" Position="-404848.300+1724633.800">
+      <Runway Name="11" Position="-404841.731+1724623.279" />
+      <Runway Name="29" Position="-404853.510+1724638.989" />
       <Runway Name="18" Position="-404840.252+1724639.112" />
       <Runway Name="36" Position="-404902.348+1724628.380" />
     </Airport>
-    <Airport ICAO="NZTL" FullName="Tekapo" Position="-440018.000+1702630.000" />
+    <Airport ICAO="NZTL" FullName="Tekapo" Position="-440018.000+1702630.000">
+      <Runway Name="11" Position="-440006.469+1702621.761" />
+      <Runway Name="29" Position="-440026.708+1702649.110" />
+    </Airport>
     <Airport ICAO="NZTM" FullName="Taumarunui" Position="-385036.000+1751519.000">
-      <Runway Name="01" Position="-385038.929+1751530.049" />
-      <Runway Name="19" Position="-385003.386+1751557.514" />
+      <Runway Name="01" Position="-385035.700+1751530.758" />
+      <Runway Name="19" Position="-385003.700+1751559.000" />
     </Airport>
     <Airport ICAO="NZTN" FullName="Turangi" Position="-385806.000+1754849.000">
-      <Runway Name="02" Position="-385814.930+1754838.959" />
-      <Runway Name="20" Position="-385754.439+1754901.808" />
+      <Runway Name="02" Position="-385815.899+1754839.730" />
+      <Runway Name="20" Position="-385753.770+1754900.710" />
     </Airport>
     <Airport ICAO="NZTO" FullName="Tokoroa" Position="-381412.000+1755334.000">
       <Runway Name="13" Position="-381407.530+1755330.278" />
@@ -9583,7 +9815,10 @@ RILEY
     </Airport>
     <Airport ICAO="NZTP" FullName="Tekapo / Mackenzie" Position="-440046.000+1702424.000" />
     <Airport ICAO="NZTQ" FullName="Te Kuiti Hospital" Position="-382001.640+1750906.530" />
-    <Airport ICAO="NZTR" FullName="Te Araroa" Position="-373745.000+1782051.000" />
+    <Airport ICAO="NZTR" FullName="Te Araroa" Position="-373745.000+1782051.000">
+      <Runway Name="10" Position="-373745.000+1782051.000" />
+      <Runway Name="28" Position="-373745.000+1782051.000" />
+    </Airport>
     <Airport ICAO="NZTS" FullName="Tasman" Position="-411216.420+1730257.720" />
     <Airport ICAO="NZTT" FullName="Te Kuiti" Position="-381812.000+1750849.000">
       <Runway Name="16" Position="-381800.601+1750851.601" />
@@ -9592,14 +9827,16 @@ RILEY
     <Airport ICAO="NZTU" FullName="Timaru" Position="-441810.000+1711331.000">
       <Runway Name="02" Position="-441811.779+1711314.300" />
       <Runway Name="20" Position="-441740.679+1711352.540" />
-      <Runway Name="11" Position="-441753.419+1711319.312" />
-      <Runway Name="29" Position="-441818.468+1711355.564" />
+      <Runway Name="11" Position="-441801.148+1711331.508" />
+      <Runway Name="29" Position="-441821.859+1711403.368" />
     </Airport>
     <Airport ICAO="NZTW" FullName="Twizel Medical Centre" Position="-441539.990+1700551.940" />
     <Airport ICAO="NZTZ" FullName="Timaru Hospital" Position="-442433.100+1711519.900" />
     <Airport ICAO="NZUA" FullName="Maui A" Position="-393318.000+1732658.000" />
     <Airport ICAO="NZUB" FullName="Maui B" Position="-393843.000+1731857.000" />
     <Airport ICAO="NZUK" FullName="Pukaki" Position="-441406.000+1700706.000">
+      <Runway Name="07" Position="-441406.000+1700706.000" />
+      <Runway Name="25" Position="-441406.000+1700706.000" />
       <Runway Name="15" Position="-441400.719+1700706.521" />
       <Runway Name="33" Position="-441435.480+1700712.860" />
     </Airport>
@@ -9608,13 +9845,19 @@ RILEY
       <Runway Name="23" Position="-370111.190+1755202.078" />
     </Airport>
     <Airport ICAO="NZUR" FullName="Murchison Hospital" Position="-414823.000+1721943.000" />
-    <Airport ICAO="NZVL" FullName="Mandeville" Position="-455925.000+1684844.000" />
-    <Airport ICAO="NZVR" FullName="Taihape" Position="-394106.000+1754719.000" />
+    <Airport ICAO="NZVL" FullName="Mandeville" Position="-455925.000+1684844.000">
+      <Runway Name="09" Position="-455922.589+1684835.770" />
+      <Runway Name="27" Position="-455934.130+1684907.190" />
+    </Airport>
+    <Airport ICAO="NZVR" FullName="Taihape" Position="-394106.000+1754719.000">
+      <Runway Name="06" Position="-394111.540+1754711.119" />
+      <Runway Name="24" Position="-394106.428+1754739.250" />
+    </Airport>
     <Airport ICAO="NZWB" FullName="Woodbourne" Position="-413106.000+1735213.000">
       <Runway Name="06" Position="-413105.959+1735139.150" />
       <Runway Name="24" Position="-413102.701+1735240.462" />
-      <Runway Name="10" Position="-413057.103+1735141.000" />
-      <Runway Name="28" Position="-413117.400+1735224.398" />
+      <Runway Name="10" Position="-413051.509+1735148.971" />
+      <Runway Name="28" Position="-413110.661+1735229.950" />
     </Airport>
     <Airport ICAO="NZWE" FullName="Kauaroa Bay" Position="-364947.000+1750356.000" />
     <Airport ICAO="NZWF" FullName="Wanaka" Position="-444320.000+1691444.000">
@@ -9628,10 +9871,19 @@ RILEY
       <Runway Name="09" Position="-375511.780+1765435.899" />
       <Runway Name="27" Position="-375527.541+1765524.420" />
     </Airport>
-    <Airport ICAO="NZWL" FullName="West Melton" Position="-432836.000+1722348.000" />
+    <Airport ICAO="NZWL" FullName="West Melton" Position="-432836.000+1722348.000">
+      <Runway Name="04" Position="-432843.990+1722316.361" />
+      <Runway Name="22" Position="-432831.991+1722355.471" />
+      <Runway Name="11" Position="-432829.399+1722332.460" />
+      <Runway Name="29" Position="-432846.931+1722358.931" />
+      <Runway Name="17" Position="-432830.900+1722323.500" />
+      <Runway Name="35" Position="-432852.849+1722317.239" />
+    </Airport>
     <Airport ICAO="NZWM" FullName="Waimate" Position="-444724.000+1710530.000">
-      <Runway Name="04" Position="-444728.014+1710517.120" />
-      <Runway Name="22" Position="-444719.885+1710542.828" />
+      <Runway Name="04" Position="-444727.712+1710517.779" />
+      <Runway Name="22" Position="-444718.319+1710544.041" />
+      <Runway Name="08" Position="-444720.101+1710501.741" />
+      <Runway Name="26" Position="-444724.659+1710522.830" />
       <Runway Name="09" Position="-444723.730+1710514.208" />
       <Runway Name="27" Position="-444729.882+1710536.841" />
     </Airport>
@@ -9653,8 +9905,8 @@ RILEY
     <Airport ICAO="NZWR" FullName="Whangarei" Position="-354606.000+1742154.000">
       <Runway Name="06" Position="-354611.550+1742128.170" />
       <Runway Name="24" Position="-354606.139+1742211.341" />
-      <Runway Name="14" Position="-354610.751+1742132.706" />
-      <Runway Name="32" Position="-354625.115+1742139.517" />
+      <Runway Name="14" Position="-354611.798+1742133.368" />
+      <Runway Name="32" Position="-354625.831+1742140.511" />
     </Airport>
     <Airport ICAO="NZWS" FullName="Westport" Position="-414417.000+1713451.000">
       <Runway Name="04" Position="-414425.012+1713421.310" />
@@ -9667,18 +9919,21 @@ RILEY
       <Runway Name="34" Position="-364952.342+1754048.749" />
     </Airport>
     <Airport ICAO="NZWU" FullName="Whanganui" Position="-395744.000+1750131.000">
-      <Runway Name="08" Position="-395747.326+1750136.516" />
-      <Runway Name="26" Position="-395752.736+1750212.880" />
+      <Runway Name="08" Position="-395745.619+1750114.869" />
+      <Runway Name="26" Position="-395750.130+1750142.560" />
       <Runway Name="11" Position="-395735.179+1750104.951" />
       <Runway Name="29" Position="-395801.808+1750151.071" />
-      <Runway Name="14" Position="-395748.755+1750134.208" />
-      <Runway Name="32" Position="-395816.385+1750146.621" />
+      <Runway Name="14" Position="-395735.572+1750115.751" />
+      <Runway Name="32" Position="-395802.791+1750130.799" />
     </Airport>
     <Airport ICAO="NZWV" FullName="Waihi Beach" Position="-372548.000+1755707.000">
-      <Runway Name="13" Position="-372538.964+1755700.482" />
-      <Runway Name="31" Position="-372556.928+1755713.558" />
+      <Runway Name="13" Position="-372541.570+1755702.081" />
+      <Runway Name="31" Position="-372555.880+1755713.500" />
     </Airport>
-    <Airport ICAO="NZWY" FullName="Wyndale" Position="-432300.000+1715400.000" />
+    <Airport ICAO="NZWY" FullName="Wyndale" Position="-432300.000+1715400.000">
+      <Runway Name="07" Position="-432259.430+1715346.961" />
+      <Runway Name="25" Position="-432300.578+1715417.060" />
+    </Airport>
     <Airport ICAO="NZWZ" FullName="Warkworth" Position="-362351.740+1743931.160" />
     <Airport ICAO="NZYP" FullName="Waipukurau" Position="-395948.000+1763213.000" />
   </Airports>

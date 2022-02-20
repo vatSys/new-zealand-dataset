@@ -401,7 +401,7 @@
       <Point>ELMAX</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="06 RNP" Priority="1" Center="-41.296364+173.216141" CustomColourName="ProcArr">
+  <Map Type="System2" Name="06 RNP" Priority="1" Center="-41.296131+173.217011" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>ORUBA</Point>
@@ -419,11 +419,11 @@
     <Symbol Type="SolidTriangle">
       <Point>ELMAX</Point>
     </Symbol>
-    <Line Pattern="Solid">ELMAX/NOPEM/ORUBA/-411746.910+1731258.108</Line>
+    <Line Pattern="Solid">ELMAX/NOPEM/ORUBA/-411746.072+1731301.240</Line>
     <Line Pattern="Solid">KAPUA/ELMAX</Line>
     <Line Pattern="Solid">LIKMA/ELMAX</Line>
   </Map>
-  <Map Type="System2" Name="06 RNP Labels" Priority="1" Center="-41.296364+173.216141" CustomColourName="ProcArr">
+  <Map Type="System2" Name="06 RNP Labels" Priority="1" Center="-41.296131+173.217011" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>KAPUA</Point>
       <Point>LIKMA</Point>
@@ -431,7 +431,7 @@
       <Point>ELMAX</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="24 RNP" Priority="1" Center="-41.295631+173.224106" CustomColourName="ProcArr">
+  <Map Type="System2" Name="24 RNP" Priority="1" Center="-41.295453+173.224183" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>ORUBA</Point>
@@ -449,11 +449,11 @@
     <Symbol Type="SolidTriangle">
       <Point>ELMAX</Point>
     </Symbol>
-    <Line Pattern="Solid">ELMAX/NOPEM/ORUBA/-411744.272+1731326.782</Line>
+    <Line Pattern="Solid">ELMAX/NOPEM/ORUBA/-411743.631+1731327.059</Line>
     <Line Pattern="Solid">KAPUA/ELMAX</Line>
     <Line Pattern="Solid">LIKMA/ELMAX</Line>
   </Map>
-  <Map Type="System2" Name="24 RNP Labels" Priority="1" Center="-41.295631+173.224106" CustomColourName="ProcArr">
+  <Map Type="System2" Name="24 RNP Labels" Priority="1" Center="-41.295453+173.224183" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>KAPUA</Point>
       <Point>LIKMA</Point>

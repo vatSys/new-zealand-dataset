@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="01 SIDs" Priority="1" CustomColourName="ProcDep" Center="-42.458661+171.193278">
+  <Map Type="System2" Name="01 SIDs" Priority="1" CustomColourName="ProcDep" Center="-42.458636+171.193269">
     <Line Pattern="Dashed">
       <!--Rwy01 OCEAN1-->
-      -42.458661+171.193278/GM01T/-42.423150+171.222260/-42.240050+171.085110/DAMIL
+      -42.458636+171.193269/GM01T/-42.423150+171.222260/-42.240050+171.085110/DAMIL
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy01 RILE1Q-->
@@ -27,7 +27,7 @@
       <Point>OSOLO</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="01 STARs" Priority="1" CustomColourName="ProcArr" Center="-42.466089+171.187217">
+  <Map Type="System2" Name="01 STARs" Priority="1" CustomColourName="ProcArr" Center="-42.466061+171.187208">
     <Line>
       <!--Rwy01 APAS1A-->
       APASA/PAROA
@@ -67,7 +67,7 @@
       <Point>PAKSA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="01 RNP" Priority="1" Center="-42.466089+171.187217" CustomColourName="ProcArr">
+  <Map Type="System2" Name="01 RNP" Priority="1" Center="-42.466061+171.187208" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>GM483</Point>
@@ -86,11 +86,11 @@
     <Symbol Type="SolidTriangle">
       <Point>PAROA</Point>
     </Symbol>
-    <Line Pattern="Solid">PAROA/AGRIP/GM483/GM01T/-422757.920+1711113.981</Line>
+    <Line Pattern="Solid">PAROA/AGRIP/GM483/GM01T/-422757.820+1711113.949</Line>
     <Line Pattern="Solid">ELPAM/PAROA</Line>
     <Line Pattern="Solid">PAKSA/PAROA</Line>
   </Map>
-  <Map Type="System2" Name="01 RNP Labels" Priority="1" Center="-42.466089+171.187217" CustomColourName="ProcArr">
+  <Map Type="System2" Name="01 RNP Labels" Priority="1" Center="-42.466061+171.187208" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>ELPAM</Point>
       <Point>PAKSA</Point>
@@ -98,10 +98,10 @@
       <Point>PAROA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="19 SIDs" Priority="1" CustomColourName="ProcDep" Center="-42.466089+171.187217">
+  <Map Type="System2" Name="19 SIDs" Priority="1" CustomColourName="ProcDep" Center="-42.466061+171.187208">
     <Line Pattern="Dashed">
       <!--Rwy19 BEACH1-->
-      -42.466089+171.187217/GM19T/GM01T/-42.496960+171.140500/-42.489860+171.108930/WS NDB
+      -42.466061+171.187208/GM19T/GM01T/-42.496960+171.140500/-42.489860+171.108930/WS NDB
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy19 BELEE1-->

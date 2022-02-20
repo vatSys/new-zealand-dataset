@@ -21,6 +21,7 @@
 
 ### 2022 Releases
 - [AIRAC 2201](#airac-2201)
+- [AIRAC 2202](#airac-2202)
 
 ## AIRAC 2013
 
@@ -576,7 +577,7 @@ Re-release to ensure that the changes carry through.
 
 #### Position Changes
 
-Some minor changes to Hamilton positions this cycle. NZHN-R_TWR has been removed, as it has only every been staffed *twice*. This has allowed for the reallocation of 126.8 as NZHN_TWR's new primary frequency. 
+Some minor changes to Hamilton positions this cycle. NZHN-R_TWR has been removed, as it has only every been staffed six times. This has allowed for the reallocation of 126.8 as NZHN_TWR's new primary frequency. 
 
 Hamilton also gains a Delivery frequency this cycle, with a frequency of 122.900, which was previously assigned to NZHN_TWR. This delivery station is a Secondary position - so can be staffed only if Hamilton Tower is online, much the same as NZHN_APP.
 
@@ -584,4 +585,4 @@ Nelson Delivery has also been added to the network. This works in much the same 
 
 #### Other changes
 
-There have been some significant changes to the Sector File Generator tool this past month or so, enabling some neat data to come through in the next couple of cycles. Airspace lower limits, anyone?
+There have been some significant changes to the Sector File Generator tool this past month or so, enabling some neat data to come through in the next couple of cycles. 

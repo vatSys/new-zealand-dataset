@@ -158,10 +158,10 @@
       <Point>ORERE</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="07 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.029709+174.976700">
+  <Map Type="System2" Name="07 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.029725+174.976700">
     <Line Pattern="Dashed">
       <!--Rwy07 SY1R-->
-      -37.029709+174.976700/HUNUA/SY NDB
+      -37.029725+174.976700/HUNUA/SY NDB
     </Line>
     <Symbol Type="Circle">
       <Point>SY NDB</Point>
@@ -173,10 +173,10 @@
       <Point>SY NDB</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="25 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.029709+174.969955">
+  <Map Type="System2" Name="25 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.029725+174.969956">
     <Line Pattern="Dashed">
       <!--Rwy25 SY1R-->
-      -37.029709+174.969955/HUNUA/SY NDB
+      -37.029725+174.969956/HUNUA/SY NDB
     </Line>
     <Symbol Type="Circle">
       <Point>SY NDB</Point>
