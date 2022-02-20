@@ -3,7 +3,7 @@
   <Map Type="System2" Name="06 SIDs" Priority="1" CustomColourName="ProcDep" Center="-35.768372+174.369817">
     <Line Pattern="Dashed">
       <!--Rwy06 BREAM5-->
-      -35.768372+174.369817/-35.809640+174.403060/-35.846270+174.443360
+      -35.768372+174.369817/WR24T/-35.809640+174.403060/-35.846270+174.443360
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy06 BREAM5.AA VOR-->
@@ -35,11 +35,11 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy06 SF1P-->
-      -35.768372+174.369817/-35.762990+174.410400/SF NDB
+      -35.768372+174.369817/WR06T/WR24T/-35.762990+174.410400/SF NDB
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy06 WAIPU3-->
-      -35.768372+174.369817/-35.821950+174.359540/SF NDB
+      WR24T/-35.821950+174.359540/SF NDB
     </Line>
     <Symbol Type="Circle">
       <Point>AA VOR</Point>
@@ -49,9 +49,11 @@
       <Point>SF NDB</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>WR24T</Point>
       <Point>APABO</Point>
       <Point>DOSTU</Point>
       <Point>UKAPA</Point>
+      <Point>WR06T</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>SF NDB</Point>
@@ -64,25 +66,32 @@
       <Point>WP VOR</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="06 GNSS" Priority="1" Center="-35.769875+174.357825" CustomColourName="ProcArr">
+  <Map Type="System2" Name="06 RNP" Priority="1" Center="-35.769875+174.357825" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>WR601</Point>
+      <Point>WR06T</Point>
+      <Point>WR431</Point>
+      <Point>WR983</Point>
     </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>ADKES</Point>
       <Point>DUDAP</Point>
       <Point>MONSU</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>OMANA</Point>
       <Point>BIRAX</Point>
     </Symbol>
-    <Line Pattern="Solid">OMANA/ADKES/WR601/WR06T</Line>
-    <Line Pattern="Solid">SF NDB/DUDAP/WR431</Line>
-    <Line Pattern="Solid">BIRAX/MONSU/WR983</Line>
+    <Line Pattern="Solid">OMANA/ADKES/WR601/WR06T/-354611.550+1742128.170</Line>
+    <Line Pattern="Solid">SF NDB/DUDAP/WR431/-354611.550+1742128.170</Line>
+    <Line Pattern="Solid">BIRAX/MONSU/WR983/-354611.550+1742128.170</Line>
   </Map>
-  <Map Type="System2" Name="06 GNSS Labels" Priority="1" Center="-35.769875+174.357825" CustomColourName="ProcArr">
+  <Map Type="System2" Name="06 RNP Labels" Priority="1" Center="-35.769875+174.357825" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>ADKES</Point>
       <Point>DUDAP</Point>
@@ -94,7 +103,7 @@
   <Map Type="System2" Name="24 SIDs" Priority="1" CustomColourName="ProcDep" Center="-35.769875+174.357825">
     <Line Pattern="Dashed">
       <!--Rwy24 HARBO5-->
-      -35.769875+174.357825/-35.809640+174.403060/-35.846270+174.443360
+      -35.769875+174.357825/WR06T/-35.809640+174.403060/-35.846270+174.443360
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy24 HARBO5.AA VOR-->
@@ -126,11 +135,11 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy24 PORTL3-->
-      -35.769875+174.357825/-35.821950+174.359540/SF NDB
+      WR06T/-35.821950+174.359540/SF NDB
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy24 SF1Q-->
-      -35.769875+174.357825/-35.774790+174.317200/SF NDB
+      -35.769875+174.357825/WR24T/WR06T/-35.774790+174.317200/SF NDB
     </Line>
     <Symbol Type="Circle">
       <Point>AA VOR</Point>
@@ -140,9 +149,11 @@
       <Point>SF NDB</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>WR06T</Point>
       <Point>APABO</Point>
       <Point>DOSTU</Point>
       <Point>UKAPA</Point>
+      <Point>WR24T</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>SF NDB</Point>
@@ -155,60 +166,81 @@
       <Point>WP VOR</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="24 GNSS" Priority="1" Center="-35.768372+174.369817" CustomColourName="ProcArr">
+  <Map Type="System2" Name="24 RNP" Priority="1" Center="-35.768372+174.369817" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>WR431</Point>
+      <Point>WR983</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
-    <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>DUDAP</Point>
       <Point>MONSU</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>BIRAX</Point>
     </Symbol>
-    <Line Pattern="Solid">SF NDB/DUDAP/WR431</Line>
-    <Line Pattern="Solid">BIRAX/MONSU/WR983</Line>
+    <Line Pattern="Solid">SF NDB/DUDAP/WR431/-354606.139+1742211.341</Line>
+    <Line Pattern="Solid">BIRAX/MONSU/WR983/-354606.139+1742211.341</Line>
   </Map>
-  <Map Type="System2" Name="24 GNSS Labels" Priority="1" Center="-35.768372+174.369817" CustomColourName="ProcArr">
+  <Map Type="System2" Name="24 RNP Labels" Priority="1" Center="-35.768372+174.369817" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>DUDAP</Point>
       <Point>MONSU</Point>
       <Point>BIRAX</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="14 GNSS" Priority="1" Center="-35.769653+174.359085" CustomColourName="ProcArr">
+  <Map Type="System2" Name="14 RNP" Priority="1" Center="-35.769944+174.359269" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>WR431</Point>
+      <Point>WR983</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
-    <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>DUDAP</Point>
       <Point>MONSU</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>BIRAX</Point>
     </Symbol>
-    <Line Pattern="Solid">SF NDB/DUDAP/WR431</Line>
-    <Line Pattern="Solid">BIRAX/MONSU/WR983</Line>
+    <Line Pattern="Solid">SF NDB/DUDAP/WR431/-354611.798+1742133.368</Line>
+    <Line Pattern="Solid">BIRAX/MONSU/WR983/-354611.798+1742133.368</Line>
   </Map>
-  <Map Type="System2" Name="14 GNSS Labels" Priority="1" Center="-35.769653+174.359085" CustomColourName="ProcArr">
+  <Map Type="System2" Name="14 RNP Labels" Priority="1" Center="-35.769944+174.359269" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>DUDAP</Point>
       <Point>MONSU</Point>
       <Point>BIRAX</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="32 GNSS" Priority="1" Center="-35.773643+174.360977" CustomColourName="ProcArr">
+  <Map Type="System2" Name="32 RNP" Priority="1" Center="-35.773842+174.361253" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>WR431</Point>
+      <Point>WR983</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
-    <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>DUDAP</Point>
       <Point>MONSU</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>BIRAX</Point>
     </Symbol>
-    <Line Pattern="Solid">SF NDB/DUDAP/WR431</Line>
-    <Line Pattern="Solid">BIRAX/MONSU/WR983</Line>
+    <Line Pattern="Solid">SF NDB/DUDAP/WR431/-354625.831+1742140.511</Line>
+    <Line Pattern="Solid">BIRAX/MONSU/WR983/-354625.831+1742140.511</Line>
   </Map>
-  <Map Type="System2" Name="32 GNSS Labels" Priority="1" Center="-35.773643+174.360977" CustomColourName="ProcArr">
+  <Map Type="System2" Name="32 RNP Labels" Priority="1" Center="-35.773842+174.361253" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>DUDAP</Point>
       <Point>MONSU</Point>

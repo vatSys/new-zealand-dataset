@@ -3,7 +3,7 @@
   <Map Type="System2" Name="03 SIDs" Priority="1" CustomColourName="ProcDep" Center="-36.785153+174.639053">
     <Line Pattern="Dashed">
       <!--Rwy03 BAYE1A-->
-      -36.785153+174.639053/BAYES
+      -36.785153+174.639053/WP03T/BAYES
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy03 BAYE1R-->
@@ -24,6 +24,7 @@
       <Point>AA VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>WP03T</Point>
       <Point>BAYES</Point>
       <Point>LAKES</Point>
       <Point>OMLEN</Point>
@@ -166,18 +167,24 @@
       <Point>WYTAK</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="03 GNSS" Priority="1" Center="-36.796181+174.620886" CustomColourName="ProcArr">
+  <Map Type="System2" Name="03 RNP" Priority="1" Center="-36.796181+174.620886" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>WP03T</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
-    <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>MESUD</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>WYTAK</Point>
     </Symbol>
-    <Line Pattern="Solid">WYTAK/MESUD/WP03T</Line>
+    <Line Pattern="Solid">WYTAK/MESUD/WP03T/-364746.252+1743715.190</Line>
   </Map>
-  <Map Type="System2" Name="03 GNSS Labels" Priority="1" Center="-36.796181+174.620886" CustomColourName="ProcArr">
+  <Map Type="System2" Name="03 RNP Labels" Priority="1" Center="-36.796181+174.620886" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>MESUD</Point>
       <Point>WYTAK</Point>
@@ -186,7 +193,7 @@
   <Map Type="System2" Name="21 SIDs" Priority="1" CustomColourName="ProcDep" Center="-36.796181+174.620886">
     <Line Pattern="Dashed">
       <!--Rwy21 WYTA1A-->
-      -36.796181+174.620886/WYTAK
+      -36.796181+174.620886/WP21T/WYTAK
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy21 WYTA1Q-->
@@ -215,6 +222,7 @@
       <Point>AA VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>WP21T</Point>
       <Point>WYTAK</Point>
       <Point>KAPAI</Point>
       <Point>LIMES</Point>
@@ -363,18 +371,24 @@
       <Point>BAYES</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="21 GNSS" Priority="1" Center="-36.785153+174.639053" CustomColourName="ProcArr">
+  <Map Type="System2" Name="21 RNP" Priority="1" Center="-36.785153+174.639053" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>WP21T</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
-    <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>KIBIM</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>BAYES</Point>
     </Symbol>
-    <Line Pattern="Solid">BAYES/KIBIM/WP21T</Line>
+    <Line Pattern="Solid">BAYES/KIBIM/WP21T/-364706.551+1743820.591</Line>
   </Map>
-  <Map Type="System2" Name="21 GNSS Labels" Priority="1" Center="-36.785153+174.639053" CustomColourName="ProcArr">
+  <Map Type="System2" Name="21 RNP Labels" Priority="1" Center="-36.785153+174.639053" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>KIBIM</Point>
       <Point>BAYES</Point>
@@ -383,9 +397,10 @@
   <Map Type="System2" Name="08 SIDs" Priority="1" CustomColourName="ProcDep" Center="-36.785733+174.641011">
     <Line Pattern="Dashed">
       <!--Rwy08 BAYE1B-->
-      -36.785733+174.641011/-36.789167+174.694167/-36.706111+174.770833/BAYES
+      -36.785733+174.641011/WP08T/-36.789167+174.694167/-36.706111+174.770833/BAYES
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>WP08T</Point>
       <Point>BAYES</Point>
     </Symbol>
     <Label HasLeader="true">
@@ -408,23 +423,29 @@
       <Point>IGOLF</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="08 GNSS" Priority="1" Center="-36.783758+174.623467" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
+  <Map Type="System2" Name="08 RNP" Priority="1" Center="-36.783758+174.623467" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>WP08T</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>HALEN</Point>
       <Point>IGOLF</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>WP801</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>MAKEE</Point>
     </Symbol>
-    <Line Pattern="Solid">MAKEE/WP801/WP08T</Line>
+    <Line Pattern="Solid">MAKEE/WP801/WP08T/-364701.529+1743724.481</Line>
     <Line Pattern="Solid">HALEN/MAKEE</Line>
     <Line Pattern="Solid">IGOLF/MAKEE</Line>
   </Map>
-  <Map Type="System2" Name="08 GNSS Labels" Priority="1" Center="-36.783758+174.623467" CustomColourName="ProcArr">
+  <Map Type="System2" Name="08 RNP Labels" Priority="1" Center="-36.783758+174.623467" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>HALEN</Point>
       <Point>IGOLF</Point>
@@ -435,9 +456,10 @@
   <Map Type="System2" Name="26 SIDs" Priority="1" CustomColourName="ProcDep" Center="-36.783758+174.623467">
     <Line Pattern="Dashed">
       <!--Rwy26 WYTA1B-->
-      -36.783758+174.623467/-36.788333+174.692500/-36.703611+174.772222/WYTAK
+      -36.783758+174.623467/WP26T/-36.788333+174.692500/-36.703611+174.772222/WYTAK
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>WP26T</Point>
       <Point>WYTAK</Point>
     </Symbol>
     <Label HasLeader="true">
@@ -460,23 +482,29 @@
       <Point>BAZEN</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="26 GNSS" Priority="1" Center="-36.785733+174.641011" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
+  <Map Type="System2" Name="26 RNP" Priority="1" Center="-36.785733+174.641011" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>WP26T</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>ABUOY</Point>
       <Point>BAZEN</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>WP601</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>FLAXX</Point>
     </Symbol>
-    <Line Pattern="Solid">FLAXX/WP601/WP26T</Line>
+    <Line Pattern="Solid">FLAXX/WP601/WP26T/-364708.639+1743827.640</Line>
     <Line Pattern="Solid">ABUOY/FLAXX</Line>
     <Line Pattern="Solid">BAZEN/FLAXX</Line>
   </Map>
-  <Map Type="System2" Name="26 GNSS Labels" Priority="1" Center="-36.785733+174.641011" CustomColourName="ProcArr">
+  <Map Type="System2" Name="26 RNP Labels" Priority="1" Center="-36.785733+174.641011" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>ABUOY</Point>
       <Point>BAZEN</Point>

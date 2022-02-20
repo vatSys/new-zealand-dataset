@@ -3,11 +3,11 @@
   <Map Type="System2" Name="07 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.673806+176.209056">
     <Line Pattern="Dashed">
       <!--Rwy07 BELET3-->
-      -37.673806+176.209056/-37.677222+176.288889/BELET
+      -37.673806+176.209056/TG07T/-37.677222+176.288889/BELET
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy07 TODA2P-->
-      -37.673806+176.209056/PATMO/TODAN
+      TG07T/PATMO/TODAN
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy07 TODA2P.FALLS-->
@@ -38,6 +38,7 @@
       UBSET/NOBAR
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>TG07T</Point>
       <Point>BELET</Point>
       <Point>PATMO</Point>
       <Point>TODAN</Point>
@@ -121,23 +122,29 @@
       <Point>MORTA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="07 GNSS" Priority="1" Center="-37.672750+176.188389" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
+  <Map Type="System2" Name="07 RNP" Priority="1" Center="-37.672750+176.188389" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>TG07T</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>MORTA</Point>
       <Point>RUSTA</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>RIPSA</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>TENIX</Point>
     </Symbol>
-    <Line Pattern="Solid">TENIX/RIPSA/TG07T</Line>
+    <Line Pattern="Solid">TENIX/RIPSA/TG07T/-374021.900+1761118.200</Line>
     <Line Pattern="Solid">MORTA/TENIX</Line>
     <Line Pattern="Solid">RUSTA/TENIX</Line>
   </Map>
-  <Map Type="System2" Name="07 GNSS Labels" Priority="1" Center="-37.672750+176.188389" CustomColourName="ProcArr">
+  <Map Type="System2" Name="07 RNP Labels" Priority="1" Center="-37.672750+176.188389" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>MORTA</Point>
       <Point>RUSTA</Point>
@@ -148,11 +155,11 @@
   <Map Type="System2" Name="25 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.672750+176.188389">
     <Line Pattern="Dashed">
       <!--Rwy25 DOTAR3-->
-      -37.672750+176.188389/-37.668333+176.112778/DOTAR
+      -37.672750+176.188389/TG25T/-37.668333+176.112778/DOTAR
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy25 MORT2R-->
-      -37.672750+176.188389/TENIX/MORTA
+      TG25T/TENIX/MORTA
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy25 MORT2R.FALLS-->
@@ -183,6 +190,7 @@
       RUSTA/NOBAR
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>TG25T</Point>
       <Point>DOTAR</Point>
       <Point>TENIX</Point>
       <Point>MORTA</Point>
@@ -268,23 +276,29 @@
       <Point>TODAN</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="25 GNSS" Priority="1" Center="-37.673806+176.209056" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
+  <Map Type="System2" Name="25 RNP" Priority="1" Center="-37.673806+176.209056" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>TG25T</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>TODAN</Point>
       <Point>UBSET</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>UKDAS</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>PATMO</Point>
     </Symbol>
-    <Line Pattern="Solid">PATMO/UKDAS/TG25T</Line>
+    <Line Pattern="Solid">PATMO/UKDAS/TG25T/-374025.702+1761232.602</Line>
     <Line Pattern="Solid">TODAN/PATMO</Line>
     <Line Pattern="Solid">UBSET/PATMO</Line>
   </Map>
-  <Map Type="System2" Name="25 GNSS Labels" Priority="1" Center="-37.673806+176.209056" CustomColourName="ProcArr">
+  <Map Type="System2" Name="25 RNP Labels" Priority="1" Center="-37.673806+176.209056" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>TODAN</Point>
       <Point>UBSET</Point>
@@ -432,31 +446,31 @@
   </Map>
   <Map Type="System2" Name="VFRProc" Priority="1" CustomColourName="VFRPoint" Center="-37.671944+176.196111">
     <Label HasLeader="true" LabelOrientation="NW">
-      <Point Name="07BALDY_DEP">-37.673611+176.232500</Point>
+      <Point Name="07BALDY_DEP">TG07T</Point>
       <Point Name="07NW_ARR">BLUE GUM BAY</Point>
-      <Point Name="25HOSPITAL_DEP">-37.671111+176.165556</Point>
+      <Point Name="25HOSPITAL_DEP">TG25T</Point>
       <Point Name="25NW_ARR">-37.524722+176.056944</Point>
       <Point Name="SE_ARR">MAKETU</Point>
       <Point Name="SW_ARR">RUAHIHI</Point>
       <Point Name="S_ARR">-37.801944+176.269167</Point>
     </Label>
     <Label HasLeader="true" LabelOrientation="SE">
-      <Point Name="07EAST_DEP">-37.673611+176.232500</Point>
-      <Point Name="07MAIN-BEACH_DEP">-37.673611+176.232500</Point>
-      <Point Name="25HUNT-CRK_DEP">-37.671111+176.165556</Point>
-      <Point Name="25TE-PUKE_DEP">-37.671111+176.165556</Point>
+      <Point Name="07EAST_DEP">TG07T</Point>
+      <Point Name="07MAIN-BEACH_DEP">TG07T</Point>
+      <Point Name="25HUNT-CRK_DEP">TG25T</Point>
+      <Point Name="25TE-PUKE_DEP">TG25T</Point>
     </Label>
     <!--07BALDY_DEP-->
     <Line Pattern="Dotted">
-      -37.673611+176.232500/MOUNT BALDY
+      TG07T/-37.673611+176.232500/MOUNT BALDY
     </Line>
     <!--07EAST_DEP-->
     <Line Pattern="Dotted">
-      -37.673611+176.232500/-37.723611+176.367222
+      TG07T/-37.673611+176.232500/-37.723611+176.367222
     </Line>
     <!--07MAIN-BEACH_DEP-->
     <Line Pattern="Dotted">
-      -37.673611+176.232500/-37.660833+176.237500/-37.554167+176.081944
+      TG07T/-37.673611+176.232500/-37.660833+176.237500/-37.554167+176.081944
     </Line>
     <!--07NW_ARR-->
     <Line Pattern="Dotted">
@@ -464,11 +478,11 @@
     </Line>
     <!--25HOSPITAL_DEP-->
     <Line Pattern="Dotted">
-      -37.671111+176.165556/RACECOURSE
+      TG25T/-37.671111+176.165556/RACECOURSE
     </Line>
     <!--25HUNT-CRK_DEP-->
     <Line Pattern="Dotted">
-      -37.671111+176.165556/HUNTERS CREEK
+      TG25T/-37.671111+176.165556/HUNTERS CREEK
     </Line>
     <!--25NW_ARR-->
     <Line Pattern="Dotted">
@@ -476,7 +490,7 @@
     </Line>
     <!--25TE-PUKE_DEP-->
     <Line Pattern="Dotted">
-      -37.671111+176.165556/-37.691111+176.159167/-37.708056+176.243611/TE PUKE
+      TG25T/-37.671111+176.165556/-37.691111+176.159167/-37.708056+176.243611/TE PUKE
     </Line>
     <!--SE_ARR-->
     <Line Pattern="Dotted">

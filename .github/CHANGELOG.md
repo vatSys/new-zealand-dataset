@@ -21,6 +21,7 @@
 
 ### 2022 Releases
 - [AIRAC 2201](#airac-2201)
+- [AIRAC 2202](#airac-2202)
 
 ## AIRAC 2013
 
@@ -546,3 +547,43 @@ Fix relating to the NZOH Boundary in `ENR Sectors.xml`.
 ### Revision C
 
 Re-release to ensure that the changes carry through.
+
+## AIRAC 2202
+
+### Revision A (Initial)
+
+#### **ANR Updates**
+
+* Addition of the `GOBIN`, `IGOBA` `OMGOV` IFR waypoints.
+* Removal of the `DAKUR`, `LUKLO` and `NUBKA` IFR waypoints.
+* Addition of Hamilton Delivery, with frequency 122.900.
+* **Rotorua**:
+  * Some STARs have been renumbered.
+  * Some approach waypoints that have previously been procedural waypoints, have been replaced by IFR waypoints. 
+* **Christchurch**:
+  * Some waypoints on the GNSS approaches have been replaced. There are no changes to the route the approach takes.
+* Amendment to the VFR East arrivals at NZHN.
+
+#### **Dataset Updates**
+
+* **fix**: Slight change in how we notate and program procedures within the SFG app. This has caused:
+  * Approaches to be re-labelled `RNP` and `RNP-AR`, instead of `GNSS` and `RNP`.
+  * Threshold fixes for SIDs and Approaches are now handled automatically by the SFG.
+* **feat**: Heliports have been added to the dataset.
+* **fix**: Duplicate co-ordinates from Airspace definitions have been removed.
+* **feat**: SFG now has support for drawing multiple Enroute holds at a single IFR significant point.
+* **feat**: Dataset now contains all Pacific Ocean position definitions for liaision, in preparation for the Combined Oceanic Dataset.
+* **feat**: Addition of NZNS_DEL on 123.3.
+
+#### Position Changes
+
+Some minor changes to Hamilton positions this cycle. NZHN-R_TWR has been removed, as it has only every been staffed six times. This has allowed for the reallocation of 126.8 as NZHN_TWR's new primary frequency. 
+
+Hamilton also gains a Delivery frequency this cycle, with a frequency of 122.900, which was previously assigned to NZHN_TWR. This delivery station is a Secondary position - so can be staffed only if Hamilton Tower is online, much the same as NZHN_APP.
+
+Nelson Delivery has also been added to the network. This works in much the same way as Hamilton Delivery, and can only be staffed if Nelson Tower is online.
+
+#### Other changes
+
+There have been some significant changes to the Sector File Generator tool this past month or so, enabling some neat data to come through in the next couple of cycles. 
+

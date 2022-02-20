@@ -3,7 +3,7 @@
   <Map Type="System2" Name="02 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.292228+173.229461">
     <Line Pattern="Dashed">
       <!--Rwy02 DUMI1P-->
-      -41.292228+173.229461/-41.255556+173.258889/RIKRU/DUMIK
+      -41.292228+173.229461/NS02T/NS20T/-41.255556+173.258889/RIKRU/DUMIK
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy02 IDNE2P-->
@@ -22,7 +22,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy02 LEMU2P-->
-      -41.292228+173.229461/GUSMI/LEMUT
+      NS20T/GUSMI/LEMUT
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy02 LEMU2P.DALKI-->
@@ -34,7 +34,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy02 LUSR2P-->
-      -41.292228+173.229461/-41.199817+173.288815/PUDIG/IKITO/LUSRA
+      NS20T/-41.199817+173.288815/PUDIG/IKITO/LUSRA
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy02 LUSR2R-->
@@ -42,13 +42,15 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy02 YANKE1-->
-      -41.292228+173.229461/-41.279750+173.243550/-41.270790+173.226820/-41.336860+173.154740/-41.324080+173.181460
+      NS20T/-41.279750+173.243550/-41.270790+173.226820/-41.336860+173.154740/-41.324080+173.181460
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy02 ZULU2-->
-      -41.279750+173.243550/-40.998670+173.386370
+      -41.292228+173.229461/NS20T/NS02T/-41.279750+173.243550/-40.998670+173.386370
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>NS02T</Point>
+      <Point>NS20T</Point>
       <Point>RIKRU</Point>
       <Point>DUMIK</Point>
       <Point>SALIR</Point>
@@ -160,8 +162,13 @@
       <Point>ESNED</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="02 GNSS" Priority="1" Center="-41.301397+173.218922" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
+  <Map Type="System2" Name="02 RNP" Priority="1" Center="-41.301397+173.218922" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>ORUBA</Point>
+      <Point>NS02T</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>KAPUA</Point>
       <Point>LIKMA</Point>
@@ -169,26 +176,28 @@
       <Point>QUAIL</Point>
       <Point>ESNED</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>NOPEM</Point>
       <Point>PATRU</Point>
       <Point>ISLOP</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>ELMAX</Point>
       <Point>OTLIT</Point>
       <Point>TUMGO</Point>
     </Symbol>
-    <Line Pattern="Solid">ELMAX/NOPEM/ORUBA</Line>
+    <Line Pattern="Solid">ELMAX/NOPEM/ORUBA/-411805.029+1731308.119</Line>
     <Line Pattern="Solid">KAPUA/ELMAX</Line>
     <Line Pattern="Solid">LIKMA/ELMAX</Line>
-    <Line Pattern="Solid">OTLIT/ISLOP/PATRU/NS02T</Line>
+    <Line Pattern="Solid">OTLIT/ISLOP/PATRU/NS02T/-411805.029+1731308.119</Line>
     <Line Pattern="Solid">MIBEV/OTLIT</Line>
     <Line Pattern="Solid">QUAIL/OTLIT</Line>
     <Line Pattern="Solid">TUMGO/ISLOP</Line>
     <Line Pattern="Solid">ESNED/TUMGO</Line>
   </Map>
-  <Map Type="System2" Name="02 GNSS Labels" Priority="1" Center="-41.301397+173.218922" CustomColourName="ProcArr">
+  <Map Type="System2" Name="02 RNP Labels" Priority="1" Center="-41.301397+173.218922" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>KAPUA</Point>
       <Point>LIKMA</Point>
@@ -206,7 +215,7 @@
   <Map Type="System2" Name="20 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.301397+173.218922">
     <Line Pattern="Dashed">
       <!--Rwy20 BISE1Q-->
-      -41.301397+173.218922/POTIR/ANITU/BISEB
+      -41.301397+173.218922/NS20T/POTIR/ANITU/BISEB
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy20 CONO1Q-->
@@ -214,15 +223,15 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy20 DUMI2Q-->
-      -41.301397+173.218922/-41.325556+173.190278/-41.320000+173.152778/ANPAR/DUMIK
+      NS20T/NS02T/-41.325556+173.190278/-41.320000+173.152778/ANPAR/DUMIK
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy20 LUSR2Q-->
-      POTIR/-41.365000+173.093056/-41.396944+173.109444/PUDIG/IKITO/LUSRA
+      -41.301397+173.218922/NS02T/NS20T/-41.365000+173.093056/-41.396944+173.109444/PUDIG/IKITO/LUSRA
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy20 LUSR2S-->
-      POTIR/-41.384722+173.098056/OMUKO/SADVA/VINUL/VEGRI/ESBEX/LUSRA
+      NS02T/POTIR/-41.384722+173.098056/OMUKO/SADVA/VINUL/VEGRI/ESBEX/LUSRA
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy20 LUSR3U-->
@@ -250,7 +259,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy20 VICTO2-->
-      -41.301397+173.218922/-41.324080+173.181460/-41.321130+173.168080/-41.310860+173.169100/NS VOR
+      NS02T/-41.324080+173.181460/-41.321130+173.168080/-41.310860+173.169100/NS VOR
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy20 XRAY2-->
@@ -259,10 +268,12 @@
       <Point>NS VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>NS20T</Point>
       <Point>POTIR</Point>
       <Point>ANITU</Point>
       <Point>BISEB</Point>
       <Point>CONOR</Point>
+      <Point>NS02T</Point>
       <Point>ANPAR</Point>
       <Point>DUMIK</Point>
       <Point>PUDIG</Point>
@@ -360,23 +371,29 @@
       <Point>ELMAX</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="20 GNSS" Priority="1" Center="-41.292228+173.229461" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
+  <Map Type="System2" Name="20 RNP" Priority="1" Center="-41.292228+173.229461" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>ORUBA</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>KAPUA</Point>
       <Point>LIKMA</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>NOPEM</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>ELMAX</Point>
     </Symbol>
-    <Line Pattern="Solid">ELMAX/NOPEM/ORUBA</Line>
+    <Line Pattern="Solid">ELMAX/NOPEM/ORUBA/-411732.021+1731346.060</Line>
     <Line Pattern="Solid">KAPUA/ELMAX</Line>
     <Line Pattern="Solid">LIKMA/ELMAX</Line>
   </Map>
-  <Map Type="System2" Name="20 GNSS Labels" Priority="1" Center="-41.292228+173.229461" CustomColourName="ProcArr">
+  <Map Type="System2" Name="20 RNP Labels" Priority="1" Center="-41.292228+173.229461" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>KAPUA</Point>
       <Point>LIKMA</Point>
@@ -384,23 +401,29 @@
       <Point>ELMAX</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="06 GNSS" Priority="1" Center="-41.296364+173.216141" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
+  <Map Type="System2" Name="06 RNP" Priority="1" Center="-41.296131+173.217011" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>ORUBA</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>KAPUA</Point>
       <Point>LIKMA</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>NOPEM</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>ELMAX</Point>
     </Symbol>
-    <Line Pattern="Solid">ELMAX/NOPEM/ORUBA</Line>
+    <Line Pattern="Solid">ELMAX/NOPEM/ORUBA/-411746.072+1731301.240</Line>
     <Line Pattern="Solid">KAPUA/ELMAX</Line>
     <Line Pattern="Solid">LIKMA/ELMAX</Line>
   </Map>
-  <Map Type="System2" Name="06 GNSS Labels" Priority="1" Center="-41.296364+173.216141" CustomColourName="ProcArr">
+  <Map Type="System2" Name="06 RNP Labels" Priority="1" Center="-41.296131+173.217011" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>KAPUA</Point>
       <Point>LIKMA</Point>
@@ -408,23 +431,29 @@
       <Point>ELMAX</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="24 GNSS" Priority="1" Center="-41.295631+173.224106" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
+  <Map Type="System2" Name="24 RNP" Priority="1" Center="-41.295453+173.224183" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>ORUBA</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>KAPUA</Point>
       <Point>LIKMA</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>NOPEM</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>ELMAX</Point>
     </Symbol>
-    <Line Pattern="Solid">ELMAX/NOPEM/ORUBA</Line>
+    <Line Pattern="Solid">ELMAX/NOPEM/ORUBA/-411743.631+1731327.059</Line>
     <Line Pattern="Solid">KAPUA/ELMAX</Line>
     <Line Pattern="Solid">LIKMA/ELMAX</Line>
   </Map>
-  <Map Type="System2" Name="24 GNSS Labels" Priority="1" Center="-41.295631+173.224106" CustomColourName="ProcArr">
+  <Map Type="System2" Name="24 RNP Labels" Priority="1" Center="-41.295453+173.224183" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>KAPUA</Point>
       <Point>LIKMA</Point>
@@ -536,31 +565,33 @@
   </Map>
   <Map Type="System2" Name="VFRProc" Priority="1" CustomColourName="VFRPoint" Center="-41.298333+173.221111">
     <Label HasLeader="true" LabelOrientation="NW">
-      <Point Name="BAY_DEP">MAPUA</Point>
-      <Point Name="BOULDER">BOULDER</Point>
-      <Point Name="BRANFORD-02_DEP">BRANFORD</Point>
-      <Point Name="BRIDGE_DEP">RABBIT ISLAND BRIDGE</Point>
-      <Point Name="BRIGHTWATER_DEP">BRIGHTWATER</Point>
+      <Point Name="BAY_DEP">NS20T</Point>
+      <Point Name="BRIGHTWATER_DEP">NS02T</Point>
+    </Label>
+    <Label HasLeader="true" LabelOrientation="SE">
+      <Point Name="BOULDER">NS20T</Point>
+      <Point Name="BRANFORD-02_DEP">NS20T</Point>
+      <Point Name="BRIDGE_DEP">NS20T</Point>
     </Label>
     <!--BAY_DEP-->
     <Line Pattern="Dotted">
-      MAPUA
+      NS20T/MAPUA
     </Line>
     <!--BOULDER-->
     <Line Pattern="Dotted">
-      BOULDER
+      NS20T/BOULDER
     </Line>
     <!--BRANFORD-02_DEP-->
     <Line Pattern="Dotted">
-      BRANFORD
+      NS20T/BRANFORD
     </Line>
     <!--BRIDGE_DEP-->
     <Line Pattern="Dotted">
-      RABBIT ISLAND BRIDGE
+      NS20T/RABBIT ISLAND BRIDGE
     </Line>
     <!--BRIGHTWATER_DEP-->
     <Line Pattern="Dotted">
-      BRIGHTWATER
+      NS02T/BRIGHTWATER
     </Line>
   </Map>
 </Maps>

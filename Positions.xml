@@ -467,6 +467,11 @@
         <Line>Need local charts? - vats.im/nz/charts</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="NZHN_DEL">
+        <Line>Hamilton Delivery - ATIS 128.650</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Ohakea ACU" Type="ASD" DefaultCenter="-401229.628+1752314.936" DefaultRange="200" MagneticVariation="-21">
       <Sectors>
@@ -667,6 +672,11 @@
       <ControllerInfo>
         <Line>Nelson Tower - ATIS 129.100</Line>
         <Line>Procedural service to 9,500ft</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="NZNS_DEL">
+        <Line>Nelson Delivery - ATIS 129.100</Line>
         <Line>Need local charts? - vats.im/nz/charts</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>

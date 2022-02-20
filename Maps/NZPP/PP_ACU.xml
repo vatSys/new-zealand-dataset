@@ -3,7 +3,7 @@
   <Map Type="System2" Name="16 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.910642+174.987931">
     <Line Pattern="Dashed">
       <!--Rwy16 AGAXA3-->
-      -40.910642+174.987931/-40.928889+175.000000/AGAXA
+      -40.910642+174.987931/PP16T/-40.928889+175.000000/AGAXA
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy16 AGAXA3.AVKEX-->
@@ -29,6 +29,7 @@
       <Point>PP NDB</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>PP16T</Point>
       <Point>AGAXA</Point>
       <Point>FICAN</Point>
       <Point>AVKEX</Point>
@@ -99,23 +100,28 @@
       <Point>NOKIX</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="16 GNSS" Priority="1" Center="-40.901261+174.987925" CustomColourName="ProcArr">
+  <Map Type="System2" Name="16 RNP" Priority="1" Center="-40.901261+174.987925" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>PP414</Point>
+      <Point>PP16T</Point>
     </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>ENBAR</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>PP411</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>NOKIX</Point>
     </Symbol>
-    <Line Pattern="Solid">NOKIX/PP411/PP414/PP16T</Line>
+    <Line Pattern="Solid">NOKIX/PP411/PP414/PP16T/-405404.540+1745916.530</Line>
     <Line Pattern="Solid">ENBAR/NOKIX</Line>
   </Map>
-  <Map Type="System2" Name="16 GNSS Labels" Priority="1" Center="-40.901261+174.987925" CustomColourName="ProcArr">
+  <Map Type="System2" Name="16 RNP Labels" Priority="1" Center="-40.901261+174.987925" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>ENBAR</Point>
       <Point>PP411</Point>
@@ -125,7 +131,7 @@
   <Map Type="System2" Name="34 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.901261+174.987925">
     <Line Pattern="Dashed">
       <!--Rwy34 GUGAK4-->
-      -40.901261+174.987925/GUGAK
+      -40.901261+174.987925/PP34T/GUGAK
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy34 GUGAK4.AVKEX-->
@@ -155,6 +161,7 @@
       <Point>PP NDB</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>PP34T</Point>
       <Point>GUGAK</Point>
       <Point>BRUDA</Point>
       <Point>AVKEX</Point>
@@ -228,25 +235,30 @@
       <Point>NILID</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="34 GNSS" Priority="1" Center="-40.910642+174.987931" CustomColourName="ProcArr">
+  <Map Type="System2" Name="34 RNP" Priority="1" Center="-40.910642+174.987931" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>PP421</Point>
+      <Point>PP34T</Point>
     </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>DABGU</Point>
       <Point>NILID</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>TAXEV</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>LEVBI</Point>
     </Symbol>
-    <Line Pattern="Solid">LEVBI/TAXEV/PP421/PP34T</Line>
+    <Line Pattern="Solid">LEVBI/TAXEV/PP421/PP34T/-405438.311+1745916.552</Line>
     <Line Pattern="Solid">DABGU/LEVBI</Line>
     <Line Pattern="Solid">NILID/LEVBI</Line>
   </Map>
-  <Map Type="System2" Name="34 GNSS Labels" Priority="1" Center="-40.910642+174.987931" CustomColourName="ProcArr">
+  <Map Type="System2" Name="34 RNP Labels" Priority="1" Center="-40.910642+174.987931" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>DABGU</Point>
       <Point>NILID</Point>

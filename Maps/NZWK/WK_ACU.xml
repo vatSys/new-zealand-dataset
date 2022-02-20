@@ -17,21 +17,27 @@
       <Point>LAVIS</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="09 GNSS" Priority="1" Center="-37.919939+176.909972" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
+  <Map Type="System2" Name="09 RNP" Priority="1" Center="-37.919939+176.909972" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>WK09T</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>LAVIS</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>WK401</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>ELBEV</Point>
     </Symbol>
-    <Line Pattern="Solid">ELBEV/WK401/WK09T</Line>
+    <Line Pattern="Solid">ELBEV/WK401/WK09T/-375511.780+1765435.899</Line>
     <Line Pattern="Solid">LAVIS/ELBEV</Line>
   </Map>
-  <Map Type="System2" Name="09 GNSS Labels" Priority="1" Center="-37.919939+176.909972" CustomColourName="ProcArr">
+  <Map Type="System2" Name="09 RNP Labels" Priority="1" Center="-37.919939+176.909972" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>LAVIS</Point>
       <Point>WK401</Point>
@@ -41,11 +47,11 @@
   <Map Type="System2" Name="27 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.919939+176.909972">
     <Line Pattern="Dashed">
       <!--Rwy27 MATAT2-->
-      -37.919939+176.909972/-37.901490+176.851880
+      -37.919939+176.909972/WK09T/-37.901490+176.851880
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy27 OHOPE4-->
-      -37.919939+176.909972/WK402
+      WK09T/WK402
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy27 OHOPE4.IBULI-->
@@ -85,6 +91,7 @@
       <Point>TG NDB</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>WK09T</Point>
       <Point>WK402</Point>
       <Point>IBULI</Point>
       <Point>KEEPA</Point>
@@ -119,21 +126,27 @@
       <Point>REGAT</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="27 GNSS" Priority="1" Center="-37.924317+176.923450" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
+  <Map Type="System2" Name="27 RNP" Priority="1" Center="-37.924317+176.923450" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>WK27T</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>POTOP</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>WK402</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>REGAT</Point>
     </Symbol>
-    <Line Pattern="Solid">REGAT/WK402/WK27T</Line>
+    <Line Pattern="Solid">REGAT/WK402/WK27T/-375527.541+1765524.420</Line>
     <Line Pattern="Solid">POTOP/REGAT</Line>
   </Map>
-  <Map Type="System2" Name="27 GNSS Labels" Priority="1" Center="-37.924317+176.923450" CustomColourName="ProcArr">
+  <Map Type="System2" Name="27 RNP Labels" Priority="1" Center="-37.924317+176.923450" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>POTOP</Point>
       <Point>WK402</Point>

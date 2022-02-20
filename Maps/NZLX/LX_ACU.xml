@@ -3,7 +3,7 @@
   <Map Type="System2" Name="01 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.209167+169.372058">
     <Line Pattern="Dashed">
       <!--Rwy01 LUGDU2-->
-      -45.209167+169.372058/LUGDU
+      -45.209167+169.372058/LX32T/LUGDU
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy01 LUGDU2.BE-->
@@ -35,6 +35,7 @@
       <Point>SW VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>LX32T</Point>
       <Point>LUGDU</Point>
       <Point>PORUT</Point>
       <Point>TOMID</Point>
@@ -49,23 +50,29 @@
       <Point>TOMID</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="01 GNSS" Priority="1" Center="-45.213739+169.368483" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
+  <Map Type="System2" Name="01 RNP" Priority="1" Center="-45.213739+169.368483" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>LX407</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>BESMO</Point>
       <Point>KAKIT</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>PORUT</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>LUGDU</Point>
     </Symbol>
-    <Line Pattern="Solid">LUGDU/PORUT/LX407</Line>
+    <Line Pattern="Solid">LUGDU/PORUT/LX407/-451249.460+1692206.539</Line>
     <Line Pattern="Solid">BESMO/LUGDU</Line>
     <Line Pattern="Solid">KAKIT/LUGDU</Line>
   </Map>
-  <Map Type="System2" Name="01 GNSS Labels" Priority="1" Center="-45.213739+169.368483" CustomColourName="ProcArr">
+  <Map Type="System2" Name="01 RNP Labels" Priority="1" Center="-45.213739+169.368483" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>BESMO</Point>
       <Point>KAKIT</Point>
@@ -76,7 +83,7 @@
   <Map Type="System2" Name="19 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.213739+169.368483">
     <Line Pattern="Dashed">
       <!--Rwy19 LUGDU2-->
-      -45.213739+169.368483/LUGDU
+      -45.213739+169.368483/LX32T/LUGDU
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy19 LUGDU2.BE-->
@@ -108,6 +115,7 @@
       <Point>SW VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>LX32T</Point>
       <Point>LUGDU</Point>
       <Point>PORUT</Point>
       <Point>TOMID</Point>
@@ -122,23 +130,29 @@
       <Point>TOMID</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="19 GNSS" Priority="1" Center="-45.209167+169.372058" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
+  <Map Type="System2" Name="19 RNP" Priority="1" Center="-45.209167+169.372058" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>LX407</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>BESMO</Point>
       <Point>KAKIT</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>PORUT</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>LUGDU</Point>
     </Symbol>
-    <Line Pattern="Solid">LUGDU/PORUT/LX407</Line>
+    <Line Pattern="Solid">LUGDU/PORUT/LX407/-451233.000+1692219.409</Line>
     <Line Pattern="Solid">BESMO/LUGDU</Line>
     <Line Pattern="Solid">KAKIT/LUGDU</Line>
   </Map>
-  <Map Type="System2" Name="19 GNSS Labels" Priority="1" Center="-45.209167+169.372058" CustomColourName="ProcArr">
+  <Map Type="System2" Name="19 RNP Labels" Priority="1" Center="-45.209167+169.372058" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>BESMO</Point>
       <Point>KAKIT</Point>
@@ -149,7 +163,7 @@
   <Map Type="System2" Name="14 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.216444+169.374331">
     <Line Pattern="Dashed">
       <!--Rwy14 LUGDU2-->
-      -45.216444+169.374331/LUGDU
+      -45.216444+169.374331/LX32T/LUGDU
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy14 LUGDU2.BE-->
@@ -181,6 +195,7 @@
       <Point>SW VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>LX32T</Point>
       <Point>LUGDU</Point>
       <Point>PORUT</Point>
       <Point>TOMID</Point>
@@ -195,23 +210,29 @@
       <Point>TOMID</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="14 GNSS" Priority="1" Center="-45.206325+169.368986" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
+  <Map Type="System2" Name="14 RNP" Priority="1" Center="-45.206325+169.368986" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>LX407</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>BESMO</Point>
       <Point>KAKIT</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>PORUT</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>LUGDU</Point>
     </Symbol>
-    <Line Pattern="Solid">LUGDU/PORUT/LX407</Line>
+    <Line Pattern="Solid">LUGDU/PORUT/LX407/-451222.770+1692208.350</Line>
     <Line Pattern="Solid">BESMO/LUGDU</Line>
     <Line Pattern="Solid">KAKIT/LUGDU</Line>
   </Map>
-  <Map Type="System2" Name="14 GNSS Labels" Priority="1" Center="-45.206325+169.368986" CustomColourName="ProcArr">
+  <Map Type="System2" Name="14 RNP Labels" Priority="1" Center="-45.206325+169.368986" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>BESMO</Point>
       <Point>KAKIT</Point>
@@ -222,7 +243,7 @@
   <Map Type="System2" Name="32 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.206325+169.368986">
     <Line Pattern="Dashed">
       <!--Rwy32 LUGDU2-->
-      -45.206325+169.368986/LUGDU
+      -45.206325+169.368986/LX32T/LUGDU
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy32 LUGDU2.BE-->
@@ -254,6 +275,7 @@
       <Point>SW VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>LX32T</Point>
       <Point>LUGDU</Point>
       <Point>PORUT</Point>
       <Point>TOMID</Point>
@@ -268,23 +290,29 @@
       <Point>TOMID</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="32 GNSS" Priority="1" Center="-45.216444+169.374331" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
+  <Map Type="System2" Name="32 RNP" Priority="1" Center="-45.216444+169.374331" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>LX407</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>BESMO</Point>
       <Point>KAKIT</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>PORUT</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>LUGDU</Point>
     </Symbol>
-    <Line Pattern="Solid">LUGDU/PORUT/LX407</Line>
+    <Line Pattern="Solid">LUGDU/PORUT/LX407/-451259.198+1692227.592</Line>
     <Line Pattern="Solid">BESMO/LUGDU</Line>
     <Line Pattern="Solid">KAKIT/LUGDU</Line>
   </Map>
-  <Map Type="System2" Name="32 GNSS Labels" Priority="1" Center="-45.216444+169.374331" CustomColourName="ProcArr">
+  <Map Type="System2" Name="32 RNP Labels" Priority="1" Center="-45.216444+169.374331" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>BESMO</Point>
       <Point>KAKIT</Point>

@@ -3,7 +3,7 @@
   <Map Type="System2" Name="14 SIDs" Priority="1" CustomColourName="ProcDep" Center="-38.669686+177.979039">
     <Line Pattern="Dashed">
       <!--Rwy14 GAN1-->
-      -38.669686+177.979039/-38.678162+177.982151
+      -38.669686+177.979039/GS14T/-38.678162+177.982151
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy14 NIC3-->
@@ -13,7 +13,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy14 POPAD2-->
-      -38.669686+177.979039/POPAD/-38.678162+177.982151
+      GS14T/POPAD/-38.678162+177.982151
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy14 POPAD2.COOKS-->
@@ -43,6 +43,7 @@
       <!--Rwy14 TUN2-->
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>GS14T</Point>
       <Point>POPAD</Point>
       <Point>COOKS</Point>
       <Point>ADLIB</Point>
@@ -123,27 +124,33 @@
       <Point>WARIK</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="14 GNSS" Priority="1" Center="-38.658300+177.974975" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
+  <Map Type="System2" Name="14 RNP" Priority="1" Center="-38.658300+177.974975" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>GS14T</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>CREEK</Point>
       <Point>EWOOD</Point>
       <Point>OTOKO</Point>
       <Point>WARIK</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>SALEK</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>RUGRU</Point>
     </Symbol>
-    <Line Pattern="Solid">RUGRU/SALEK/GS14T</Line>
+    <Line Pattern="Solid">RUGRU/SALEK/GS14T/-383929.880+1775829.910</Line>
     <Line Pattern="Solid">CREEK/RUGRU</Line>
     <Line Pattern="Solid">EWOOD/RUGRU</Line>
     <Line Pattern="Solid">OTOKO/RUGRU</Line>
     <Line Pattern="Solid">WARIK/RUGRU</Line>
   </Map>
-  <Map Type="System2" Name="14 GNSS Labels" Priority="1" Center="-38.658300+177.974975" CustomColourName="ProcArr">
+  <Map Type="System2" Name="14 RNP Labels" Priority="1" Center="-38.658300+177.974975" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>CREEK</Point>
       <Point>EWOOD</Point>
@@ -156,14 +163,14 @@
   <Map Type="System2" Name="32 SIDs" Priority="1" CustomColourName="ProcDep" Center="-38.658300+177.974975">
     <Line Pattern="Dashed">
       <!--Rwy32 CIT3-->
-      -38.658300+177.974975/-38.653182+177.973461/-38.652302+177.980511/GS VOR
+      -38.658300+177.974975/GS32T/-38.653182+177.973461/-38.652302+177.980511/GS VOR
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy32 CRA3-->
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy32 NODEX2-->
-      -38.658300+177.974975/NODEX
+      GS32T/NODEX
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy32 NODEX2.COOKS-->
@@ -196,6 +203,7 @@
       <Point>GS VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>GS32T</Point>
       <Point>NODEX</Point>
       <Point>COOKS</Point>
       <Point>CREEK</Point>
@@ -266,23 +274,29 @@
       <Point>KOPUA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="32 GNSS" Priority="1" Center="-38.669686+177.979039" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
+  <Map Type="System2" Name="32 RNP" Priority="1" Center="-38.669686+177.979039" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>GS32T</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>COOKS</Point>
       <Point>UKLIP</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>VESAV</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>KOPUA</Point>
     </Symbol>
-    <Line Pattern="Solid">KOPUA/VESAV/GS32T</Line>
+    <Line Pattern="Solid">KOPUA/VESAV/GS32T/-384010.870+1775844.540</Line>
     <Line Pattern="Solid">COOKS/KOPUA</Line>
     <Line Pattern="Solid">UKLIP/KOPUA</Line>
   </Map>
-  <Map Type="System2" Name="32 GNSS Labels" Priority="1" Center="-38.669686+177.979039" CustomColourName="ProcArr">
+  <Map Type="System2" Name="32 RNP Labels" Priority="1" Center="-38.669686+177.979039" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>COOKS</Point>
       <Point>UKLIP</Point>

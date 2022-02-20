@@ -3,11 +3,11 @@
   <Map Type="System2" Name="05 SIDs" Priority="1" CustomColourName="ProcDep" Center="-39.005644+174.183889">
     <Line Pattern="Dashed">
       <!--Rwy05 HARV2P-->
-      -39.005644+174.183889/IGDIL/ATRUG/HARVO
+      -39.005644+174.183889/NP05T/IGDIL/ATRUG/HARVO
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05 SAVL3P-->
-      -39.005644+174.183889/SAVLO
+      NP05T/SAVLO
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05 SAVL3P.BUGNO-->
@@ -34,6 +34,7 @@
       ANDOM/SELTA
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>NP05T</Point>
       <Point>IGDIL</Point>
       <Point>ATRUG</Point>
       <Point>HARVO</Point>
@@ -163,18 +164,24 @@
       <Point>VARMA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="05 GNSS" Priority="1" Center="-39.010447+174.170067" CustomColourName="ProcArr">
+  <Map Type="System2" Name="05 RNP" Priority="1" Center="-39.010447+174.170067" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>NP05T</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
-    <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>LUTUX</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>VARMA</Point>
     </Symbol>
-    <Line Pattern="Solid">VARMA/LUTUX/NP05T</Line>
+    <Line Pattern="Solid">VARMA/LUTUX/NP05T/-390037.609+1741012.241</Line>
   </Map>
-  <Map Type="System2" Name="05 GNSS Labels" Priority="1" Center="-39.010447+174.170067" CustomColourName="ProcArr">
+  <Map Type="System2" Name="05 RNP Labels" Priority="1" Center="-39.010447+174.170067" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>LUTUX</Point>
       <Point>VARMA</Point>
@@ -183,7 +190,7 @@
   <Map Type="System2" Name="23 SIDs" Priority="1" CustomColourName="ProcDep" Center="-39.010447+174.170067">
     <Line Pattern="Dashed">
       <!--Rwy23 GUSU2Q-->
-      -39.010447+174.170067/GUSUR
+      -39.010447+174.170067/NP23T/GUSUR
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23 GUSU2Q.BUGNO-->
@@ -219,11 +226,11 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23 HARV2Q-->
-      -39.010447+174.170067/-39.025278+174.115000/IDMAT/SEGMI/RUVMO/UBSUK/HARVO
+      NP23T/-39.025278+174.115000/IDMAT/SEGMI/RUVMO/UBSUK/HARVO
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23 LATI2Q-->
-      -39.010447+174.170067/VARMA/PEXUR/BOKUL/LATIG
+      NP23T/VARMA/PEXUR/BOKUL/LATIG
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23 LATI2Q.BUGNO-->
@@ -247,7 +254,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23 SOUTH5-->
-      -39.010447+174.170067/-39.019020+174.144470/-38.994540+174.106800/-38.982730+174.130690/-38.987760+174.162190/NP VOR/-39.359100+174.578660
+      NP23T/NP05T/-39.019020+174.144470/-38.994540+174.106800/-38.982730+174.130690/-38.987760+174.162190/NP VOR/-39.359100+174.578660
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23 SOUTH5.AKAVI-->
@@ -270,6 +277,7 @@
       -39.359100+174.578660/TPAPA
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>NP23T</Point>
       <Point>GUSUR</Point>
       <Point>LIGDO</Point>
       <Point>VANSA</Point>
@@ -298,6 +306,7 @@
       <Point>BOKUL</Point>
       <Point>LATIG</Point>
       <Point>ATRUG</Point>
+      <Point>NP05T</Point>
       <Point>NP VOR</Point>
       <Point>AKAVI</Point>
       <Point>ALADA</Point>
@@ -442,18 +451,24 @@
       <Point>UPDAL</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="23 GNSS" Priority="1" Center="-39.005644+174.183889" CustomColourName="ProcArr">
+  <Map Type="System2" Name="23 RNP" Priority="1" Center="-39.005644+174.183889" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>NP23T</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
-    <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>DOVED</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>UPDAL</Point>
     </Symbol>
-    <Line Pattern="Solid">UPDAL/DOVED/NP23T</Line>
+    <Line Pattern="Solid">UPDAL/DOVED/NP23T/-390020.318+1741102.000</Line>
   </Map>
-  <Map Type="System2" Name="23 GNSS Labels" Priority="1" Center="-39.005644+174.183889" CustomColourName="ProcArr">
+  <Map Type="System2" Name="23 RNP Labels" Priority="1" Center="-39.005644+174.183889" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>DOVED</Point>
       <Point>UPDAL</Point>

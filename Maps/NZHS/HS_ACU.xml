@@ -3,7 +3,7 @@
   <Map Type="System2" Name="01 SIDs" Priority="1" CustomColourName="ProcDep" Center="-39.640650+176.769653">
     <Line Pattern="Dashed">
       <!--Rwy01 VICTO2-->
-      -39.640650+176.769653/-39.624960+176.778240
+      -39.640650+176.769653/HS01T/HS19T/-39.624960+176.778240
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy01 VICTO2.NR-->
@@ -25,6 +25,8 @@
       <Point>NR VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>HS01T</Point>
+      <Point>HS19T</Point>
       <Point>OPAPA</Point>
       <Point>ADGIN</Point>
       <Point>RIDLA</Point>
@@ -37,19 +39,24 @@
       <Point>YARRO</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="01 GNSS" Priority="1" Center="-39.648272+176.764161" CustomColourName="ProcArr">
+  <Map Type="System2" Name="01 RNP" Priority="1" Center="-39.648272+176.764161" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>-39.722220+176.710770</Point>
       <Point>-39.649380+176.763350</Point>
+      <Point>HS01T</Point>
     </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>OPAPA</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross" />
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">OPAPA/-39.722220+176.710770/-39.649380+176.763350/HS01T</Line>
+    <Line Pattern="Solid">OPAPA/-39.722220+176.710770/-39.649380+176.763350/HS01T/-393853.779+1764550.980</Line>
   </Map>
-  <Map Type="System2" Name="01 GNSS Labels" Priority="1" Center="-39.648272+176.764161" CustomColourName="ProcArr">
+  <Map Type="System2" Name="01 RNP Labels" Priority="1" Center="-39.648272+176.764161" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>OPAPA</Point>
     </Label>
@@ -57,7 +64,7 @@
   <Map Type="System2" Name="19 SIDs" Priority="1" CustomColourName="ProcDep" Center="-39.648272+176.764161">
     <Line Pattern="Dashed">
       <!--Rwy19 WHISK2-->
-      -39.648272+176.764161/-39.662880+176.753680
+      -39.648272+176.764161/HS19T/HS01T/-39.662880+176.753680
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy19 WHISK2.NR-->
@@ -75,6 +82,8 @@
       <Point>NR VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>HS19T</Point>
+      <Point>HS01T</Point>
       <Point>OPAPA</Point>
       <Point>ADGIN</Point>
       <Point>RIDLA</Point>
@@ -85,19 +94,24 @@
       <Point>RIDLA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="19 GNSS" Priority="1" Center="-39.640650+176.769653" CustomColourName="ProcArr">
+  <Map Type="System2" Name="19 RNP" Priority="1" Center="-39.640650+176.769653" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>-39.582160+176.811770</Point>
       <Point>-39.640450+176.769780</Point>
+      <Point>HS19T</Point>
     </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross" />
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>NR VOR</Point>
     </Symbol>
-    <Line Pattern="Solid">NR VOR/-39.582160+176.811770/-39.640450+176.769780/HS19T</Line>
+    <Line Pattern="Solid">NR VOR/-39.582160+176.811770/-39.640450+176.769780/HS19T/-393826.340+1764610.751</Line>
   </Map>
-  <Map Type="System2" Name="19 GNSS Labels" Priority="1" Center="-39.640650+176.769653" CustomColourName="ProcArr">
+  <Map Type="System2" Name="19 RNP Labels" Priority="1" Center="-39.640650+176.769653" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>NR VOR</Point>
     </Label>

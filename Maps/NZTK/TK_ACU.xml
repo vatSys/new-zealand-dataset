@@ -1,21 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="18 GNSS" Priority="1" Center="-40.811181+172.777531" CustomColourName="ProcArr">
+  <Map Type="System2" Name="18 RNP" Priority="1" Center="-40.811181+172.777531" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>TK407</Point>
+      <Point>TK18T</Point>
     </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>MARKO</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>BENVU</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>TK401</Point>
     </Symbol>
-    <Line Pattern="Solid">MARKO/TK401/BENVU/TK407/TK18T</Line>
+    <Line Pattern="Solid">MARKO/TK401/BENVU/TK407/TK18T/-404840.252+1724639.112</Line>
   </Map>
-  <Map Type="System2" Name="18 GNSS Labels" Priority="1" Center="-40.811181+172.777531" CustomColourName="ProcArr">
+  <Map Type="System2" Name="18 RNP Labels" Priority="1" Center="-40.811181+172.777531" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>MARKO</Point>
       <Point>BENVU</Point>

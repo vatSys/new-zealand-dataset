@@ -3,7 +3,7 @@
   <Map Type="System2" Name="11 SIDs" Priority="1" CustomColourName="ProcDep" Center="-44.726111+169.251389">
     <Line Pattern="Dashed">
       <!--Rwy11 PORU1Q-->
-      -44.726111+169.251389/PILAD/KAKVA/UBMET/PORUT
+      -44.726111+169.251389/WF29T/PILAD/KAKVA/UBMET/PORUT
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy11 TIMJ1Q-->
@@ -14,6 +14,7 @@
       -44.726111+169.251389/NZWF/MEPOM/BEKNO/TIMJO
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>WF29T</Point>
       <Point>PILAD</Point>
       <Point>KAKVA</Point>
       <Point>UBMET</Point>
@@ -33,7 +34,7 @@
   <Map Type="System2" Name="29 SIDs" Priority="1" CustomColourName="ProcDep" Center="-44.718056+169.241306">
     <Line Pattern="Dashed">
       <!--Rwy29 PORU1P-->
-      -44.718056+169.241306/NIRUK/-44.677020+167.247600/PILAD/KAKVA/UBMET/PORUT
+      -44.718056+169.241306/WF11T/NIRUK/-44.677020+167.247600/PILAD/KAKVA/UBMET/PORUT
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy29 TIMJ1P-->
@@ -44,6 +45,7 @@
       -44.718056+169.241306/NZWF/MEPOM/BEKNO/TIMJO
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>WF11T</Point>
       <Point>NIRUK</Point>
       <Point>PILAD</Point>
       <Point>KAKVA</Point>
@@ -99,26 +101,31 @@
       <Point>PASMU</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="29 GNSS" Priority="1" Center="-44.726111+169.251389" CustomColourName="ProcArr">
+  <Map Type="System2" Name="29 RNP" Priority="1" Center="-44.726111+169.251389" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>PILAD</Point>
       <Point>SAGEM</Point>
+      <Point>WF29T</Point>
     </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>ARIGU</Point>
       <Point>PASMU</Point>
       <Point>SUPIM</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross" />
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>KAKVA</Point>
     </Symbol>
-    <Line Pattern="Solid">KAKVA/PILAD/SAGEM/WF29T</Line>
+    <Line Pattern="Solid">KAKVA/PILAD/SAGEM/WF29T/-444334.000+1691505.000</Line>
     <Line Pattern="Solid">ARIGU/KAKVA</Line>
     <Line Pattern="Solid">PASMU/KAKVA</Line>
     <Line Pattern="Solid">SUPIM/KAKVA</Line>
   </Map>
-  <Map Type="System2" Name="29 GNSS Labels" Priority="1" Center="-44.726111+169.251389" CustomColourName="ProcArr">
+  <Map Type="System2" Name="29 RNP Labels" Priority="1" Center="-44.726111+169.251389" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>ARIGU</Point>
       <Point>PASMU</Point>

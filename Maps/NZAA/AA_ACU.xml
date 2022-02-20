@@ -3,7 +3,7 @@
   <Map Type="System2" Name="05R SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.006656+174.805742">
     <Line Pattern="Dashed">
       <!--Rwy05R AKEL1Q-->
-      -37.006656+174.805742/EMRAG/POLIS/IDEMA/BROOK/AKELA
+      -37.006656+174.805742/AA05R/EMRAG/POLIS/IDEMA/BROOK/AKELA
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05R AKEL1Q.GULUT-->
@@ -19,7 +19,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05R AVDA1Q-->
-      -37.006656+174.805742/-36.986944+174.856944/DOVON/AVDAT
+      AA05R/-36.986944+174.856944/DOVON/AVDAT
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05R AVDA1Q.BOVRU-->
@@ -51,7 +51,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05R BROK2Q-->
-      -37.006656+174.805742/-36.988056+174.856389/BROOK
+      AA05R/-36.988056+174.856389/BROOK
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05R BROK2Q.KAPAI-->
@@ -78,10 +78,11 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05R NZAA3B-->
+      -37.006656+174.805742/AA23L/EMRAG
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05R PAGL3Q-->
-      -37.006656+174.805742/ADKUM/MADVI/VINOD/PAGLA
+      AA05R/ADKUM/MADVI/VINOD/PAGLA
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05R PAGL3Q.KAPAI-->
@@ -144,7 +145,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05R REKI3Q-->
-      -37.006656+174.805742/-36.991111+174.855000/VINOD/-37.118611+174.868889/BUDLU/REKIS
+      AA05R/-36.991111+174.855000/VINOD/-37.118611+174.868889/BUDLU/REKIS
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05R REKI3Q.KAPAI-->
@@ -191,6 +192,7 @@
       SATLA/OLBEX
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>AA05R</Point>
       <Point>EMRAG</Point>
       <Point>POLIS</Point>
       <Point>IDEMA</Point>
@@ -220,6 +222,7 @@
       <Point>KADMA</Point>
       <Point>DUGAN</Point>
       <Point>ELNOS</Point>
+      <Point>AA23L</Point>
       <Point>ADKUM</Point>
       <Point>MADVI</Point>
       <Point>VINOD</Point>
@@ -592,46 +595,72 @@
       <Point>UDUMO</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="05R GNSS" Priority="1" Center="-37.016317+174.770783" CustomColourName="ProcArr">
+  <Map Type="System2" Name="05R RNP" Priority="1" Center="-37.016317+174.770783" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>UGRUS</Point>
-    </Symbol>
-    <Symbol Type="HollowTriangle">
-      <Point>LENGU</Point>
-    </Symbol>
-    <Symbol Type="MalteseCross">
-      <Point>FF05R</Point>
-    </Symbol>
-    <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">LENGU/UGRUS/FF05R/AA05R</Line>
-  </Map>
-  <Map Type="System2" Name="05R GNSS Labels" Priority="1" Center="-37.016317+174.770783" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>LENGU</Point>
-      <Point>FF05R</Point>
-    </Label>
-  </Map>
-  <Map Type="System2" Name="05R RNP" Priority="1" Center="-37.016317+174.770783" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle">
+      <Point>AA05R</Point>
       <Point>SADOS</Point>
       <Point>QUINA</Point>
       <Point>NIPAS</Point>
       <Point>IBOKI</Point>
       <Point>AA509</Point>
     </Symbol>
-    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>LENGU</Point>
+    </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
+      <Point>FF05R</Point>
       <Point>LAMEL</Point>
       <Point>PORAR</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>VIRIS</Point>
       <Point>ATAMA</Point>
     </Symbol>
+    <Line Pattern="Solid">LENGU/UGRUS/FF05R/AA05R/-370058.741+1744614.819</Line>
     <Line Pattern="Solid">VIRIS/SADOS/QUINA/NIPAS/LAMEL/IBOKI/AA05R</Line>
     <Line Pattern="Solid">ATAMA/PORAR/AA509/AA05R</Line>
   </Map>
   <Map Type="System2" Name="05R RNP Labels" Priority="1" Center="-37.016317+174.770783" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>LENGU</Point>
+      <Point>FF05R</Point>
+      <Point>LAMEL</Point>
+      <Point>PORAR</Point>
+      <Point>VIRIS</Point>
+      <Point>ATAMA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="05R RNP-AR" Priority="1" Center="-37.016317+174.770783" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>SADOS</Point>
+      <Point>QUINA</Point>
+      <Point>NIPAS</Point>
+      <Point>IBOKI</Point>
+      <Point>AA05R</Point>
+      <Point>AA509</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>LAMEL</Point>
+      <Point>PORAR</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>VIRIS</Point>
+      <Point>ATAMA</Point>
+    </Symbol>
+    <Line Pattern="Solid">VIRIS/SADOS/QUINA/NIPAS/LAMEL/IBOKI/AA05R/-370058.741+1744614.819</Line>
+    <Line Pattern="Solid">ATAMA/PORAR/AA509/AA05R</Line>
+  </Map>
+  <Map Type="System2" Name="05R RNP-AR Labels" Priority="1" Center="-37.016317+174.770783" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>LAMEL</Point>
       <Point>PORAR</Point>
@@ -642,7 +671,7 @@
   <Map Type="System2" Name="23L SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.016317+174.770783">
     <Line Pattern="Dashed">
       <!--Rwy23L BELR1P-->
-      -37.016317+174.770783/LENGU/WYTAK/BELRA
+      -37.016317+174.770783/AA23L/LENGU/WYTAK/BELRA
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23L BELR1P.DUGAN-->
@@ -658,7 +687,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23L ELSA1P-->
-      -37.016317+174.770783/-37.031667+174.709444/PEEHA/ELSAB
+      AA23L/-37.031667+174.709444/PEEHA/ELSAB
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23L ELSA1P.BOVRU-->
@@ -720,7 +749,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23L LEVR1P-->
-      -37.016317+174.770783/IRSIP/LEVRA
+      AA23L/IRSIP/LEVRA
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23L LEVR1P.KAPAI-->
@@ -760,6 +789,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23L NZAA3A-->
+      -37.016317+174.770783/AA05R/LENGU
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23L OSRA1P-->
@@ -809,6 +839,7 @@
       <Point>WP VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>AA23L</Point>
       <Point>LENGU</Point>
       <Point>WYTAK</Point>
       <Point>BELRA</Point>
@@ -846,6 +877,7 @@
       <Point>KALAG</Point>
       <Point>SELKA</Point>
       <Point>TARIB</Point>
+      <Point>AA05R</Point>
       <Point>OSRAP</Point>
       <Point>POSUX</Point>
       <Point>GULUT</Point>
@@ -1240,27 +1272,11 @@
       <Point>KETOB</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="23L GNSS" Priority="1" Center="-37.006656+174.805742" CustomColourName="ProcArr">
+  <Map Type="System2" Name="23L RNP" Priority="1" Center="-37.006656+174.805742" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>ORESO</Point>
-    </Symbol>
-    <Symbol Type="HollowTriangle">
-      <Point>EMRAG</Point>
-    </Symbol>
-    <Symbol Type="MalteseCross">
-      <Point>FF23L</Point>
-    </Symbol>
-    <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">EMRAG/ORESO/FF23L/AA23L</Line>
-  </Map>
-  <Map Type="System2" Name="23L GNSS Labels" Priority="1" Center="-37.006656+174.805742" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>EMRAG</Point>
-      <Point>FF23L</Point>
-    </Label>
-  </Map>
-  <Map Type="System2" Name="23L RNP" Priority="1" Center="-37.006656+174.805742" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle">
+      <Point>AA23L</Point>
       <Point>BUBKU</Point>
       <Point>AA412</Point>
       <Point>AA407</Point>
@@ -1276,17 +1292,22 @@
       <Point>AKROV</Point>
       <Point>AA409</Point>
     </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>EMRAG</Point>
       <Point>KETOB</Point>
       <Point>ZORBA</Point>
       <Point>TEVUC</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
+      <Point>FF23L</Point>
       <Point>TEGIK</Point>
       <Point>TUSLO</Point>
       <Point>DUNAD</Point>
       <Point>NOKAM</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>AA427</Point>
       <Point>VABTI</Point>
@@ -1294,6 +1315,7 @@
       <Point>KIDAG</Point>
       <Point>ESNAX</Point>
     </Symbol>
+    <Line Pattern="Solid">EMRAG/ORESO/FF23L/AA23L/-370023.962+1744820.671</Line>
     <Line Pattern="Solid">AA427/BUBKU/AA412/TEGIK/AA23L</Line>
     <Line Pattern="Solid">KETOB/AA407/AA427</Line>
     <Line Pattern="Solid">ZORBA/AA411/AA407</Line>
@@ -1303,6 +1325,72 @@
     <Line Pattern="Solid">ESNAX/NOKAM/AA409/AA23L</Line>
   </Map>
   <Map Type="System2" Name="23L RNP Labels" Priority="1" Center="-37.006656+174.805742" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>EMRAG</Point>
+      <Point>KETOB</Point>
+      <Point>ZORBA</Point>
+      <Point>TEVUC</Point>
+      <Point>FF23L</Point>
+      <Point>TEGIK</Point>
+      <Point>TUSLO</Point>
+      <Point>DUNAD</Point>
+      <Point>NOKAM</Point>
+      <Point>AA427</Point>
+      <Point>VABTI</Point>
+      <Point>SUBUN</Point>
+      <Point>KIDAG</Point>
+      <Point>ESNAX</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="23L RNP-AR" Priority="1" Center="-37.006656+174.805742" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>BUBKU</Point>
+      <Point>AA412</Point>
+      <Point>AA23L</Point>
+      <Point>AA407</Point>
+      <Point>AA411</Point>
+      <Point>AA521</Point>
+      <Point>AA428</Point>
+      <Point>AA516</Point>
+      <Point>AA513</Point>
+      <Point>LOSGA</Point>
+      <Point>LAGUT</Point>
+      <Point>GOBOB</Point>
+      <Point>ESMON</Point>
+      <Point>AKROV</Point>
+      <Point>AA409</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>KETOB</Point>
+      <Point>ZORBA</Point>
+      <Point>TEVUC</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>TEGIK</Point>
+      <Point>TUSLO</Point>
+      <Point>DUNAD</Point>
+      <Point>NOKAM</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>AA427</Point>
+      <Point>VABTI</Point>
+      <Point>SUBUN</Point>
+      <Point>KIDAG</Point>
+      <Point>ESNAX</Point>
+    </Symbol>
+    <Line Pattern="Solid">AA427/BUBKU/AA412/TEGIK/AA23L/-370023.962+1744820.671</Line>
+    <Line Pattern="Solid">KETOB/AA407/AA427/AA427</Line>
+    <Line Pattern="Solid">ZORBA/AA411/AA407</Line>
+    <Line Pattern="Solid">VABTI/AA521/AA428/AA516/TUSLO/AA23L</Line>
+    <Line Pattern="Solid">TEVUC/SUBUN/AA513/AA412</Line>
+    <Line Pattern="Solid">KIDAG/LOSGA/LAGUT/GOBOB/ESMON/AKROV/DUNAD/AA23L</Line>
+    <Line Pattern="Solid">ESNAX/NOKAM/AA409/AA23L</Line>
+  </Map>
+  <Map Type="System2" Name="23L RNP-AR Labels" Priority="1" Center="-37.006656+174.805742" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>KETOB</Point>
       <Point>ZORBA</Point>

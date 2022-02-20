@@ -3,7 +3,7 @@
   <Map Type="System2" Name="26 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.531567+167.643186">
     <Line Pattern="Dashed">
       <!--Rwy26 GULAN1-->
-      -45.531567+167.643186/MO552/GULAN
+      -45.531567+167.643186/MO26T/MO552/GULAN
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy26 GULAN1.AFTON-->
@@ -22,6 +22,7 @@
       GULAN/SUNGU
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>MO26T</Point>
       <Point>MO552</Point>
       <Point>GULAN</Point>
       <Point>AFTON</Point>
@@ -61,21 +62,27 @@
       <Point>ENSOV</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="26 GNSS" Priority="1" Center="-45.534492+167.662997" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
+  <Map Type="System2" Name="26 RNP" Priority="1" Center="-45.534492+167.662997" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>MO26T</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>ALDEV</Point>
       <Point>ENSOV</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross" />
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>GULAN</Point>
     </Symbol>
-    <Line Pattern="Solid">GULAN/MO26T</Line>
+    <Line Pattern="Solid">GULAN/MO26T/-453204.171+1673946.789</Line>
     <Line Pattern="Solid">ALDEV/GULAN</Line>
     <Line Pattern="Solid">ENSOV/GULAN</Line>
   </Map>
-  <Map Type="System2" Name="26 GNSS Labels" Priority="1" Center="-45.534492+167.662997" CustomColourName="ProcArr">
+  <Map Type="System2" Name="26 RNP Labels" Priority="1" Center="-45.534492+167.662997" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>ALDEV</Point>
       <Point>ENSOV</Point>

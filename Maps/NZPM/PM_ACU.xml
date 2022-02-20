@@ -3,7 +3,7 @@
   <Map Type="System2" Name="07 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.319836+175.624669">
     <Line Pattern="Dashed">
       <!--Rwy07 DADL2Q-->
-      -40.319836+175.624669/DADLI
+      -40.319836+175.624669/PM07T/PM25T/DADLI
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy07 DADL2Q.APITI-->
@@ -32,11 +32,11 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy07 NZPM1H-->
-      -40.319836+175.624669/-40.320778+175.725175
+      -40.319836+175.624669/PM25T/-40.320778+175.725175
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy07 RUXO3Q-->
-      -40.319836+175.624669/VEPUR/RUXOX
+      PM25T/VEPUR/RUXOX
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy07 RUXO3Q.ABTOL-->
@@ -68,6 +68,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy07 RUXO4S-->
+      PM25T/PM07T/VEPUR
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy07 RUXO4S.OMBUB-->
@@ -78,7 +79,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy07 TERO3Q-->
-      -40.319836+175.624669/-40.321389+175.716111/TEROT
+      PM07T/-40.321389+175.716111/TEROT
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy07 TERO3Q.OMBUB-->
@@ -98,6 +99,8 @@
       <Point>OH VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>PM07T</Point>
+      <Point>PM25T</Point>
       <Point>DADLI</Point>
       <Point>OVRUN</Point>
       <Point>LULKO</Point>
@@ -236,23 +239,29 @@
       <Point>GUTNI</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="07 GNSS" Priority="1" Center="-40.319864+175.604869" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
+  <Map Type="System2" Name="07 RNP" Priority="1" Center="-40.319864+175.604869" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>PM07T</Point>
+    </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>AKNIN</Point>
       <Point>NIRUB</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>LERSO</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>GUTNI</Point>
     </Symbol>
-    <Line Pattern="Solid">GUTNI/LERSO/PM07T</Line>
+    <Line Pattern="Solid">GUTNI/LERSO/PM07T/-401911.510+1753617.528</Line>
     <Line Pattern="Solid">AKNIN/GUTNI</Line>
     <Line Pattern="Solid">NIRUB/GUTNI</Line>
   </Map>
-  <Map Type="System2" Name="07 GNSS Labels" Priority="1" Center="-40.319864+175.604869" CustomColourName="ProcArr">
+  <Map Type="System2" Name="07 RNP Labels" Priority="1" Center="-40.319864+175.604869" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>AKNIN</Point>
       <Point>NIRUB</Point>
@@ -263,7 +272,7 @@
   <Map Type="System2" Name="25 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.319864+175.604869">
     <Line Pattern="Dashed">
       <!--Rwy25 GUTN2P-->
-      -40.319864+175.604869/GUTNI/-40.381389+175.417500
+      -40.319864+175.604869/PM25T/GUTNI/-40.381389+175.417500
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy25 GUTN2P.ABTOL-->
@@ -283,6 +292,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy25 GUTN3R-->
+      -40.319864+175.604869/PM07T/GUTNI
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy25 GUTN3R.APITI-->
@@ -324,9 +334,10 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy25 NZPM3A-->
-      -40.319864+175.604869/-40.319444+175.506944
+      PM25T/-40.319444+175.506944
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>PM25T</Point>
       <Point>GUTNI</Point>
       <Point>ABTOL</Point>
       <Point>TERIL</Point>
@@ -334,6 +345,7 @@
       <Point>IRMIX</Point>
       <Point>LIMPA</Point>
       <Point>OKEVO</Point>
+      <Point>PM07T</Point>
       <Point>LULKO</Point>
       <Point>APITI</Point>
       <Point>RUGVI</Point>
@@ -506,46 +518,65 @@
       <Point>OLMUX</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="25 GNSS" Priority="1" Center="-40.319836+175.624669" CustomColourName="ProcArr">
-    <Symbol Type="HollowTriangle" />
-    <Symbol Type="HollowTriangle">
-      <Point>BIDEK</Point>
-      <Point>NIKIP</Point>
-    </Symbol>
-    <Symbol Type="MalteseCross">
-      <Point>IVREP</Point>
-    </Symbol>
-    <Symbol Type="SolidTriangle">
-      <Point>UVUSI</Point>
-    </Symbol>
-    <Line Pattern="Solid">UVUSI/IVREP/PM25T</Line>
-    <Line Pattern="Solid">BIDEK/UVUSI</Line>
-    <Line Pattern="Solid">NIKIP/UVUSI</Line>
-  </Map>
-  <Map Type="System2" Name="25 GNSS Labels" Priority="1" Center="-40.319836+175.624669" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>BIDEK</Point>
-      <Point>NIKIP</Point>
-      <Point>IVREP</Point>
-      <Point>UVUSI</Point>
-    </Label>
-  </Map>
   <Map Type="System2" Name="25 RNP" Priority="1" Center="-40.319836+175.624669" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>PM25T</Point>
       <Point>PM482</Point>
     </Symbol>
+    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>BIDEK</Point>
+      <Point>NIKIP</Point>
       <Point>LEKED</Point>
     </Symbol>
+    <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
+      <Point>IVREP</Point>
       <Point>DANLU</Point>
     </Symbol>
+    <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
+      <Point>UVUSI</Point>
       <Point>SEKNI</Point>
     </Symbol>
+    <Line Pattern="Solid">UVUSI/IVREP/PM25T/-401911.410+1753728.808</Line>
+    <Line Pattern="Solid">BIDEK/UVUSI</Line>
+    <Line Pattern="Solid">NIKIP/UVUSI</Line>
     <Line Pattern="Solid">LEKED/SEKNI/DANLU/PM482/PM25T</Line>
   </Map>
   <Map Type="System2" Name="25 RNP Labels" Priority="1" Center="-40.319836+175.624669" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>BIDEK</Point>
+      <Point>NIKIP</Point>
+      <Point>LEKED</Point>
+      <Point>IVREP</Point>
+      <Point>DANLU</Point>
+      <Point>UVUSI</Point>
+      <Point>SEKNI</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="25 RNP-AR" Priority="1" Center="-40.319836+175.624669" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>PM482</Point>
+      <Point>PM25T</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>LEKED</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>DANLU</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>SEKNI</Point>
+    </Symbol>
+    <Line Pattern="Solid">LEKED/SEKNI/DANLU/PM482/PM25T/-401911.410+1753728.808</Line>
+  </Map>
+  <Map Type="System2" Name="25 RNP-AR Labels" Priority="1" Center="-40.319836+175.624669" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>LEKED</Point>
       <Point>DANLU</Point>
@@ -653,30 +684,30 @@
   <Map Type="System2" Name="VFRProc" Priority="1" CustomColourName="VFRPoint" Center="-40.320556+175.616944">
     <Label HasLeader="true" LabelOrientation="NW">
       <Point Name="07CITY_ARR">RANGIOTU</Point>
-      <Point Name="07HIWINUI_DEP">HIWINUI</Point>
+      <Point Name="07HIWINUI_DEP">PM25T</Point>
       <Point Name="07LONGBURN_ARR">LONGBURN</Point>
       <Point Name="07MANFEILD_ARR">MANFEILD</Point>
-      <Point Name="07UNI_DEP">UNIVERSITY</Point>
       <Point Name="25CITY_ARR">TOKOMARU</Point>
-      <Point Name="25HIWINUI_DEP">-40.306111+175.588889</Point>
+      <Point Name="25HIWINUI_ARR">HIWINUI</Point>
+      <Point Name="25HIWINUI_DEP">PM07T</Point>
     </Label>
     <Label HasLeader="true" LabelOrientation="SE">
-      <Point Name="25HIWINUI_ARR">HIWINUI</Point>
-      <Point Name="25LONGBURN_DEP">LONGBURN</Point>
-      <Point Name="25MANFEILD_DEP">MANFEILD</Point>
+      <Point Name="07UNI_DEP">PM25T</Point>
+      <Point Name="25LONGBURN_DEP">PM07T</Point>
+      <Point Name="25MANFEILD_DEP">PM07T</Point>
       <Point Name="25UNI_ARR">TOKOMARU</Point>
     </Label>
     <!--07CITY_ARR-->
     <Line Pattern="Dotted">
-      RANGIOTU/LONGBURN
+      RANGIOTU/LONGBURN/PM07T
     </Line>
     <!--07HIWINUI_DEP-->
     <Line Pattern="Dotted">
-      HIWINUI
+      PM25T/HIWINUI
     </Line>
     <!--07LONGBURN_ARR-->
     <Line Pattern="Dotted">
-      LONGBURN/-40.317778+175.592222
+      LONGBURN/-40.317778+175.592222/PM07T
     </Line>
     <!--07MANFEILD_ARR-->
     <Line Pattern="Dotted">
@@ -684,31 +715,31 @@
     </Line>
     <!--07UNI_DEP-->
     <Line Pattern="Dotted">
-      UNIVERSITY/TOKOMARU
+      PM25T/UNIVERSITY/TOKOMARU
     </Line>
     <!--25CITY_ARR-->
     <Line Pattern="Dotted">
-      TOKOMARU/UNIVERSITY
+      TOKOMARU/UNIVERSITY/PM25T
     </Line>
     <!--25HIWINUI_ARR-->
     <Line Pattern="Dotted">
-      HIWINUI/-40.317222+175.676389/-40.317778+175.645278
+      HIWINUI/-40.317222+175.676389/-40.317778+175.645278/PM25T
     </Line>
     <!--25HIWINUI_DEP-->
     <Line Pattern="Dotted">
-      -40.306111+175.588889/HIWINUI
+      PM07T/-40.306111+175.588889/HIWINUI
     </Line>
     <!--25LONGBURN_DEP-->
     <Line Pattern="Dotted">
-      LONGBURN/RANGIOTU
+      PM07T/LONGBURN/RANGIOTU
     </Line>
     <!--25MANFEILD_DEP-->
     <Line Pattern="Dotted">
-      MANFEILD
+      PM07T/MANFEILD
     </Line>
     <!--25UNI_ARR-->
     <Line Pattern="Dotted">
-      TOKOMARU/UNIVERSITY/-40.317778+175.645278
+      TOKOMARU/UNIVERSITY/-40.317778+175.645278/PM25T
     </Line>
   </Map>
 </Maps>
