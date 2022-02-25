@@ -3,19 +3,19 @@
   <SystemRunways>
     <Airport Name="NZAA">
       <Runway Name="05R" DataRunway="05R">
-        <SID Name="AKEL2Q" />
+        <SID Name="AKEL1Q" />
         <SID Name="AVDA1Q" />
         <SID Name="BATO3Q" />
-        <SID Name="BELR2Q" />
+        <SID Name="BELR1Q" />
         <SID Name="BROK2Q" />
-        <SID Name="EMRA2B" />
-        <SID Name="KADM2Q" />
-        <SID Name="NZAA4B" />
+        <SID Name="EMRA1B" />
+        <SID Name="KADM1Q" />
+        <SID Name="NZAA3B" />
         <SID Name="PAGL3Q" />
         <SID Name="POLI2Q" />
-        <SID Name="RAXI2Q" />
+        <SID Name="RAXI1Q" />
         <SID Name="REKI3Q" />
-        <SID Name="SATL2Q" />
+        <SID Name="SATL1Q" />
         <STAR Name="ARAD7B" ApproachName="RNPZ" />
         <STAR Name="BASI9B" ApproachName="RNPZ" />
         <STAR Name="DAVE6B" ApproachName="RNPZ" />
@@ -33,14 +33,14 @@
         <STAR Name="UKAP3D" />
       </Runway>
       <Runway Name="23L" DataRunway="23L">
-        <SID Name="BELR2P" />
+        <SID Name="BELR1P" />
         <SID Name="ELSA1P" />
-        <SID Name="FIRT2P" />
-        <SID Name="LENG2A" />
+        <SID Name="FIRT1P" />
+        <SID Name="LENG1A" />
         <SID Name="LENG3P" />
         <SID Name="LEVR1P" />
-        <SID Name="MEMO2P" />
-        <SID Name="NZAA4A" />
+        <SID Name="MEMO1P" />
+        <SID Name="NZAA3A" />
         <SID Name="OSRA1P" />
         <SID Name="STEA1P" />
         <STAR Name="APAB3A" ApproachName="RNPZ" />
@@ -6231,7 +6231,7 @@ RILEY
     <Point Name="WP" Type="Navaid" NavaidType="VOR" Frequency="116.4">-364712.450+1743752.450</Point>
   </Intersections>
   <SIDSTARs>
-    <SID Name="AKEL2Q" Airport="NZAA" Runways="05R">
+    <SID Name="AKEL1Q" Airport="NZAA" Runways="05R">
       <Route Runway="05R">EMRAG/POLIS/IDEMA/BROOK/AKELA</Route>
       <Transition Name="GULUT">GULUT</Transition>
       <Transition Name="PEBLU">PEBLU</Transition>
@@ -6248,13 +6248,13 @@ RILEY
       <Transition Name="MADEP">BOGUN/MADEP</Transition>
       <Transition Name="UPLAR">TAPAT/UPLAR</Transition>
     </SID>
-    <SID Name="BELR2P" Airport="NZAA" Runways="23L">
+    <SID Name="BELR1P" Airport="NZAA" Runways="23L">
       <Route Runway="23L">LENGU/WYTAK/BELRA</Route>
       <Transition Name="DUGAN">DUGAN</Transition>
       <Transition Name="ELNOS">ELNOS</Transition>
       <Transition Name="SALAG">DADLA/SALAG</Transition>
     </SID>
-    <SID Name="BELR2Q" Airport="NZAA" Runways="05R">
+    <SID Name="BELR1Q" Airport="NZAA" Runways="05R">
       <Route Runway="05R">EMRAG/XELAN/BELRA/DADLA/SALAG</Route>
     </SID>
     <SID Name="BROK2Q" Airport="NZAA" Runways="05R">
@@ -6270,10 +6270,10 @@ RILEY
       <Transition Name="OTATA">OTATA</Transition>
       <Transition Name="WP">WP VOR</Transition>
     </SID>
-    <SID Name="EMRA2B" Airport="NZAA" Runways="05R">
+    <SID Name="EMRA1B" Airport="NZAA" Runways="05R">
       <Route Runway="05R">EMRAG</Route>
     </SID>
-    <SID Name="FIRT2P" Airport="NZAA" Runways="23L">
+    <SID Name="FIRT1P" Airport="NZAA" Runways="23L">
       <Route Runway="23L">LENGU/MAGLO/BROOK/FIRTH</Route>
       <Transition Name="AGEDU">AGEDU</Transition>
       <Transition Name="AKLOM">AKLOM</Transition>
@@ -6281,12 +6281,12 @@ RILEY
       <Transition Name="IDSEM">IDSEM</Transition>
       <Transition Name="OLBEX">OLBEX</Transition>
     </SID>
-    <SID Name="KADM2Q" Airport="NZAA" Runways="05R">
+    <SID Name="KADM1Q" Airport="NZAA" Runways="05R">
       <Route Runway="05R">EMRAG/XELAN/KADMA</Route>
       <Transition Name="DUGAN">DUGAN</Transition>
       <Transition Name="ELNOS">ELNOS</Transition>
     </SID>
-    <SID Name="LENG2A" Airport="NZAA" Runways="23L">
+    <SID Name="LENG1A" Airport="NZAA" Runways="23L">
       <Route Runway="23L">LENGU</Route>
     </SID>
     <SID Name="LENG3P" Airport="NZAA" Runways="23L">
@@ -6301,17 +6301,17 @@ RILEY
       <Transition Name="LAKES">GULED/OSAKU/LAKES</Transition>
       <Transition Name="TULMI">GULED/OSAKU/LAKES/TULMI</Transition>
     </SID>
-    <SID Name="MEMO2P" Airport="NZAA" Runways="23L">
+    <SID Name="MEMO1P" Airport="NZAA" Runways="23L">
       <Route Runway="23L">LENGU/WYTAK/MEMOR</Route>
       <Transition Name="AGREX">AGREX</Transition>
       <Transition Name="KALAG">KALAG</Transition>
       <Transition Name="SELKA">SELKA</Transition>
       <Transition Name="TARIB">TARIB</Transition>
     </SID>
-    <SID Name="NZAA4A" Airport="NZAA" Runways="23L">
+    <SID Name="NZAA3A" Airport="NZAA" Runways="23L">
       <Route Runway="23L">LENGU</Route>
     </SID>
-    <SID Name="NZAA4B" Airport="NZAA" Runways="05R">
+    <SID Name="NZAA3B" Airport="NZAA" Runways="05R">
       <Route Runway="05R">EMRAG</Route>
     </SID>
     <SID Name="OSRA1P" Airport="NZAA" Runways="23L">
@@ -6337,7 +6337,7 @@ RILEY
       <Transition Name="LAKES">LAKES</Transition>
       <Transition Name="TULMI">TULMI</Transition>
     </SID>
-    <SID Name="RAXI2Q" Airport="NZAA" Runways="05R">
+    <SID Name="RAXI1Q" Airport="NZAA" Runways="05R">
       <Route Runway="05R">EMRAG/RAXIN</Route>
       <Transition Name="AGREX">AGREX</Transition>
       <Transition Name="KALAG">KALAG</Transition>
@@ -6352,7 +6352,7 @@ RILEY
       <Transition Name="NUTRA">IPDIN/NUTRA</Transition>
       <Transition Name="TULMI">TULMI</Transition>
     </SID>
-    <SID Name="SATL2Q" Airport="NZAA" Runways="05R">
+    <SID Name="SATL1Q" Airport="NZAA" Runways="05R">
       <Route Runway="05R">EMRAG/SATLA</Route>
       <Transition Name="AGEDU">AGEDU</Transition>
       <Transition Name="AKLOM">AKLOM</Transition>
