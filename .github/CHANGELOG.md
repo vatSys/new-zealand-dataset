@@ -587,7 +587,6 @@ Nelson Delivery has also been added to the network. This works in much the same 
 
 There have been some significant changes to the Sector File Generator tool this past month or so, enabling some neat data to come through in the next couple of cycles. 
 
-
 ### Revision B
 
 This revision fixes some Auckland SID resequencing that was missed in Revision A. 
