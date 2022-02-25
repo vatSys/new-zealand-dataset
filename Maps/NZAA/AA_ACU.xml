@@ -2,19 +2,19 @@
 <Maps>
   <Map Type="System2" Name="05R SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.006656+174.805742">
     <Line Pattern="Dashed">
-      <!--Rwy05R AKEL1Q-->
+      <!--Rwy05R AKEL2Q-->
       -37.006656+174.805742/AA05R/EMRAG/POLIS/IDEMA/BROOK/AKELA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R AKEL1Q.GULUT-->
+      <!--Rwy05R AKEL2Q.GULUT-->
       AKELA/GULUT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R AKEL1Q.PEBLU-->
+      <!--Rwy05R AKEL2Q.PEBLU-->
       AKELA/PEBLU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R AKEL1Q.VELMO-->
+      <!--Rwy05R AKEL2Q.VELMO-->
       AKELA/VELMO
     </Line>
     <Line Pattern="Dashed">
@@ -46,7 +46,7 @@
       BATOS/TAPAT/UPLAR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R BELR1Q-->
+      <!--Rwy05R BELR2Q-->
       XELAN/BELRA/DADLA/SALAG
     </Line>
     <Line Pattern="Dashed">
@@ -62,22 +62,22 @@
       BROOK/LIMES/KARRL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R EMRA1B-->
+      <!--Rwy05R EMRA2B-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R KADM1Q-->
+      <!--Rwy05R KADM2Q-->
       XELAN/KADMA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R KADM1Q.DUGAN-->
+      <!--Rwy05R KADM2Q.DUGAN-->
       KADMA/DUGAN
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R KADM1Q.ELNOS-->
+      <!--Rwy05R KADM2Q.ELNOS-->
       KADMA/ELNOS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R NZAA3B-->
+      <!--Rwy05R NZAA4B-->
       -37.006656+174.805742/AA23L/EMRAG
     </Line>
     <Line Pattern="Dashed">
@@ -124,23 +124,23 @@
       POLIS/TULMI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R RAXI1Q-->
+      <!--Rwy05R RAXI2Q-->
       EMRAG/RAXIN
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R RAXI1Q.AGREX-->
+      <!--Rwy05R RAXI2Q.AGREX-->
       RAXIN/AGREX
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R RAXI1Q.KALAG-->
+      <!--Rwy05R RAXI2Q.KALAG-->
       RAXIN/KALAG
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R RAXI1Q.SELKA-->
+      <!--Rwy05R RAXI2Q.SELKA-->
       RAXIN/SELKA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R RAXI1Q.TARIB-->
+      <!--Rwy05R RAXI2Q.TARIB-->
       RAXIN/TARIB
     </Line>
     <Line Pattern="Dashed">
@@ -168,27 +168,27 @@
       REKIS/TULMI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R SATL1Q-->
+      <!--Rwy05R SATL2Q-->
       EMRAG/SATLA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R SATL1Q.AGEDU-->
+      <!--Rwy05R SATL2Q.AGEDU-->
       SATLA/AGEDU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R SATL1Q.AKLOM-->
+      <!--Rwy05R SATL2Q.AKLOM-->
       SATLA/AKLOM
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R SATL1Q.DABAS-->
+      <!--Rwy05R SATL2Q.DABAS-->
       SATLA/DABAS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R SATL1Q.IDSEM-->
+      <!--Rwy05R SATL2Q.IDSEM-->
       SATLA/IDSEM
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R SATL1Q.OLBEX-->
+      <!--Rwy05R SATL2Q.OLBEX-->
       SATLA/OLBEX
     </Line>
     <Symbol Type="HollowTriangle">
@@ -670,19 +670,19 @@
   </Map>
   <Map Type="System2" Name="23L SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.016317+174.770783">
     <Line Pattern="Dashed">
-      <!--Rwy23L BELR1P-->
+      <!--Rwy23L BELR2P-->
       -37.016317+174.770783/AA23L/LENGU/WYTAK/BELRA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L BELR1P.DUGAN-->
+      <!--Rwy23L BELR2P.DUGAN-->
       BELRA/DUGAN
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L BELR1P.ELNOS-->
+      <!--Rwy23L BELR2P.ELNOS-->
       BELRA/ELNOS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L BELR1P.SALAG-->
+      <!--Rwy23L BELR2P.SALAG-->
       BELRA/DADLA/SALAG
     </Line>
     <Line Pattern="Dashed">
@@ -710,31 +710,31 @@
       ELSAB/WP VOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L FIRT1P-->
+      <!--Rwy23L FIRT2P-->
       LENGU/MAGLO/BROOK/FIRTH
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L FIRT1P.AGEDU-->
+      <!--Rwy23L FIRT2P.AGEDU-->
       FIRTH/AGEDU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L FIRT1P.AKLOM-->
+      <!--Rwy23L FIRT2P.AKLOM-->
       FIRTH/AKLOM
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L FIRT1P.DABAS-->
+      <!--Rwy23L FIRT2P.DABAS-->
       FIRTH/DABAS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L FIRT1P.IDSEM-->
+      <!--Rwy23L FIRT2P.IDSEM-->
       FIRTH/IDSEM
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L FIRT1P.OLBEX-->
+      <!--Rwy23L FIRT2P.OLBEX-->
       FIRTH/OLBEX
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L LENG1A-->
+      <!--Rwy23L LENG2A-->
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23L LENG3P-->
@@ -768,27 +768,27 @@
       LAKES/TULMI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L MEMO1P-->
+      <!--Rwy23L MEMO2P-->
       WYTAK/MEMOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L MEMO1P.AGREX-->
+      <!--Rwy23L MEMO2P.AGREX-->
       MEMOR/AGREX
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L MEMO1P.KALAG-->
+      <!--Rwy23L MEMO2P.KALAG-->
       MEMOR/KALAG
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L MEMO1P.SELKA-->
+      <!--Rwy23L MEMO2P.SELKA-->
       MEMOR/SELKA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L MEMO1P.TARIB-->
+      <!--Rwy23L MEMO2P.TARIB-->
       MEMOR/TARIB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L NZAA3A-->
+      <!--Rwy23L NZAA4A-->
       -37.016317+174.770783/AA05R/LENGU
     </Line>
     <Line Pattern="Dashed">
