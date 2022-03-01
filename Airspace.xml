@@ -316,16 +316,16 @@
         <SID Name="SAPE3P" />
         <SID Name="SAPE3R" />
         <SID Name="SAPE3T" />
-        <STAR Name="ATPU1A" ApproachName="RNP-ARY" />
+        <STAR Name="ATPU1A" ApproachName="RNPY" />
         <STAR Name="ATPU2C" ApproachName="RNP-ARZ" />
-        <STAR Name="BUDE1A" ApproachName="RNP-ARY" />
+        <STAR Name="BUDE1A" ApproachName="RNPY" />
         <STAR Name="BUDE2C" ApproachName="RNP-ARZ" />
-        <STAR Name="KICK1A" ApproachName="RNP-ARY" />
+        <STAR Name="KICK1A" ApproachName="RNPY" />
         <STAR Name="KICK2C" ApproachName="RNP-ARZ" />
         <STAR Name="LAKE2C" ApproachName="RNP-ARZ" />
-        <STAR Name="OLDO2A" ApproachName="RNP-ARY" />
+        <STAR Name="OLDO2A" ApproachName="RNPY" />
         <STAR Name="OLDO3C" ApproachName="RNP-ARZ" />
-        <STAR Name="YOGI1A" ApproachName="RNP-ARY" />
+        <STAR Name="YOGI1A" ApproachName="RNPY" />
         <STAR Name="YOGI2C" ApproachName="RNP-ARZ" />
       </Runway>
       <Runway Name="25" DataRunway="25" />
@@ -8884,55 +8884,55 @@ RILEY
       <Route Runway="11">VIROL/AVLOR</Route>
     </STAR>
     <Approach Name="RNPZ" Airport="NZAA" Runway="05R">
-      <Route>LENGU/UGRUS/FF05R/AA05R/-370058.741+1744614.819</Route>
+      <Route>LENGU/UGRUS/FF05R/-370058.741+1744614.819</Route>
     </Approach>
     <Approach Name="RNPZ" Airport="NZAA" Runway="23L">
-      <Route>EMRAG/ORESO/FF23L/AA23L/-370023.962+1744820.671</Route>
+      <Route>EMRAG/ORESO/FF23L/-370023.962+1744820.671</Route>
     </Approach>
     <Approach Name="RNP-ARS" Airport="NZAA" Runway="23L">
       <Transition Name="KETOB">KETOB/AA407</Transition>
       <Transition Name="ZORBA">ZORBA/AA411/AA407</Transition>
-      <Route>AA427/BUBKU/AA412/TEGIK/AA23L/-370023.962+1744820.671</Route>
+      <Route>AA427/BUBKU/AA412/TEGIK/-370023.962+1744820.671</Route>
     </Approach>
     <Approach Name="RNP-ARU" Airport="NZAA" Runway="23L">
-      <Route>VABTI/AA521/AA428/AA516/TUSLO/AA23L/-370023.962+1744820.671</Route>
+      <Route>VABTI/AA521/AA428/AA516/TUSLO/-370023.962+1744820.671</Route>
     </Approach>
     <Approach Name="RNP-ARV" Airport="NZAA" Runway="23L">
-      <Route>TEVUC/SUBUN/AA513/AA412/TEGIK/AA23L/-370023.962+1744820.671</Route>
+      <Route>TEVUC/SUBUN/AA513/AA412/TEGIK/-370023.962+1744820.671</Route>
     </Approach>
     <Approach Name="RNP-ARX" Airport="NZAA" Runway="05R">
-      <Route>VIRIS/SADOS/QUINA/NIPAS/LAMEL/IBOKI/AA05R/-370058.741+1744614.819</Route>
+      <Route>VIRIS/SADOS/QUINA/NIPAS/LAMEL/IBOKI/-370058.741+1744614.819</Route>
     </Approach>
     <Approach Name="RNP-ARX" Airport="NZAA" Runway="23L">
-      <Route>KIDAG/LOSGA/LAGUT/GOBOB/ESMON/AKROV/DUNAD/AA23L/-370023.962+1744820.671</Route>
+      <Route>KIDAG/LOSGA/LAGUT/GOBOB/ESMON/AKROV/DUNAD/-370023.962+1744820.671</Route>
     </Approach>
     <Approach Name="RNP-ARY" Airport="NZAA" Runway="05R">
-      <Route>ATAMA/PORAR/AA509/AA05R/-370058.741+1744614.819</Route>
+      <Route>ATAMA/PORAR/AA509/-370058.741+1744614.819</Route>
     </Approach>
     <Approach Name="RNP-ARY" Airport="NZAA" Runway="23L">
-      <Route>ESNAX/NOKAM/AA409/AA23L/-370023.962+1744820.671</Route>
+      <Route>ESNAX/NOKAM/AA409/-370023.962+1744820.671</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZAP" Runway="17">
       <Transition Name="GUMAN">GUMAN</Transition>
       <Transition Name="KALGO">KALGO</Transition>
-      <Route>AP706/OLSEK/AP701/AP17T/-384404.981+1760513.020</Route>
+      <Route>AP706/OLSEK/AP701/-384404.981+1760513.020</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZAP" Runway="35">
       <Transition Name="AKABA">AKABA</Transition>
       <Transition Name="EMSAR">EMSAR</Transition>
       <Transition Name="MASKU">MASKU</Transition>
-      <Route>AP506/UBLUT/AP501/AP35T/-384448.440+1760458.238</Route>
+      <Route>AP506/UBLUT/AP501/-384448.440+1760458.238</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZCH" Runway="11">
       <Transition Name="AVDID">AVDID</Transition>
       <Transition Name="IGLIS">IGLIS</Transition>
-      <Route>BUSKU/VENKI/CH11T/-432903.401+1723127.890</Route>
+      <Route>BUSKU/VENKI/-432903.401+1723127.890</Route>
     </Approach>
     <Approach Name="RNPZ" Airport="NZCH" Runway="02">
       <Transition Name="GOMPI">GOMPI</Transition>
       <Transition Name="IDUBU">IDUBU</Transition>
       <Transition Name="UBDAN">UBDAN</Transition>
-      <Route>ALBAD/NISOM/CH02T/-432951.472+1723119.610</Route>
+      <Route>ALBAD/NISOM/-432951.472+1723119.610</Route>
     </Approach>
     <Approach Name="RNPZ" Airport="NZCH" Runway="20">
       <Transition Name="BIDEV">BIDEV</Transition>
@@ -8941,108 +8941,108 @@ RILEY
       <Route>DIVSU/PEDMI/CH20T/-432829.960+1723253.830</Route>
     </Approach>
     <Approach Name="RNP-ARV" Airport="NZCH" Runway="02">
-      <Route>ERVAX/CH832/CH793/CH755/PEBVI/BEKTI/CH02T/-432951.472+1723119.610</Route>
+      <Route>ERVAX/CH832/CH793/CH755/PEBVI/BEKTI/-432951.472+1723119.610</Route>
     </Approach>
     <Approach Name="RNP-ARW" Airport="NZCH" Runway="02">
-      <Route>BOLUB/CH963/SULMO/CH697/NISOM/CH02T/-432951.472+1723119.610</Route>
+      <Route>BOLUB/CH963/SULMO/CH697/NISOM/-432951.472+1723119.610</Route>
     </Approach>
     <Approach Name="RNP-ARW" Airport="NZCH" Runway="20">
-      <Route>BIXIX/CH827/CH428/RUSON/ENLAT/CH20T/-432829.960+1723253.830</Route>
+      <Route>BIXIX/CH827/CH428/RUSON/ENLAT/-432829.960+1723253.830</Route>
     </Approach>
     <Approach Name="RNP-ARW" Airport="NZCH" Runway="29">
-      <Route>ABVIM/CH437/UBLES/CH917/CH29T/-432939.772+1723227.179</Route>
+      <Route>ABVIM/CH437/UBLES/CH917/-432939.772+1723227.179</Route>
     </Approach>
     <Approach Name="RNP-ARX" Airport="NZCH" Runway="20">
-      <Route>ERVAX/CH989/CH931/CH634/CH928/ENLAT/CH20T/-432829.960+1723253.830</Route>
+      <Route>ERVAX/CH989/CH931/CH634/CH928/ENLAT/-432829.960+1723253.830</Route>
     </Approach>
     <Approach Name="RNP-ARY" Airport="NZCH" Runway="02">
-      <Route>LEVGO/CH846/CH801/CH878/GUNLO/CH02T/-432951.472+1723119.610</Route>
+      <Route>LEVGO/CH846/CH801/CH878/GUNLO/-432951.472+1723119.610</Route>
     </Approach>
     <Approach Name="RNP-ARY" Airport="NZCH" Runway="20">
-      <Route>SUSAL/CH946/CH813/CH653/CH928/ENLAT/CH20T/-432829.960+1723253.830</Route>
+      <Route>SUSAL/CH946/CH813/CH653/CH928/ENLAT/-432829.960+1723253.830</Route>
     </Approach>
     <Approach Name="RNP-ARY" Airport="NZCH" Runway="29">
-      <Route>SUPSO/CH434/VEKMU/CH438/CH917/CH29T/-432939.772+1723227.179</Route>
+      <Route>SUPSO/CH434/VEKMU/CH438/CH917/-432939.772+1723227.179</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZDN" Runway="03">
-      <Route>AKLAR/OVSED/AGESO/DN03T/-455602.130+1701114.899</Route>
+      <Route>AKLAR/OVSED/AGESO/-455602.130+1701114.899</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZDN" Runway="21">
-      <Route>ESKAT/IDPON/BENRU/DN21T/-455527.761+1701228.030</Route>
+      <Route>ESKAT/IDPON/BENRU/-455527.761+1701228.030</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZGM" Runway="01">
       <Transition Name="ELPAM">ELPAM</Transition>
       <Transition Name="PAKSA">PAKSA</Transition>
-      <Route>PAROA/AGRIP/GM483/GM01T/-422757.820+1711113.949</Route>
+      <Route>PAROA/AGRIP/GM483/-422757.820+1711113.949</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZGS" Runway="14">
       <Transition Name="CREEK">CREEK</Transition>
       <Transition Name="EWOOD">EWOOD</Transition>
       <Transition Name="OTOKO">OTOKO</Transition>
       <Transition Name="WARIK">WARIK</Transition>
-      <Route>RUGRU/SALEK/GS14T/-383929.880+1775829.910</Route>
+      <Route>RUGRU/SALEK/-383929.880+1775829.910</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZGS" Runway="32">
       <Transition Name="COOKS">COOKS</Transition>
       <Transition Name="UKLIP">UKLIP</Transition>
-      <Route>KOPUA/VESAV/GS32T/-384010.870+1775844.540</Route>
+      <Route>KOPUA/VESAV/-384010.870+1775844.540</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZHK" Runway="03">
       <Transition Name="ANDEP">ANDEP</Transition>
       <Transition Name="BEDAV">BEDAV</Transition>
-      <Route>KARVO/HK406/HK03T/-424248.218+1705848.929</Route>
+      <Route>KARVO/HK406/-424248.218+1705848.929</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZHK" Runway="21">
       <Transition Name="AGTUR">AGTUR</Transition>
       <Transition Name="EKVIL">EKVIL</Transition>
-      <Route>MAKOS/HK407/HK21T/-424227.950+1705931.448</Route>
+      <Route>MAKOS/HK407/-424227.950+1705931.448</Route>
+    </Approach>
+    <Approach Name="RNPY" Airport="NZHN" Runway="18L">
+      <Route>TAYLA/LAXOD/-375120.902+1752010.219</Route>
     </Approach>
     <Approach Name="RNPY" Airport="NZHN" Runway="36R">
-      <Route>BUDEN/NITAK/HN36R/-375225.140+1751946.942</Route>
+      <Route>BUDEN/NITAK/-375225.140+1751946.942</Route>
     </Approach>
     <Approach Name="RNPZ" Airport="NZHN" Runway="36R">
-      <Route>GUNDA/IKERI/HN36R/-375225.140+1751946.942</Route>
-    </Approach>
-    <Approach Name="RNP-ARY" Airport="NZHN" Runway="18L">
-      <Route>TAYLA/LAXOD/HN18L/-375120.902+1752010.219</Route>
+      <Route>GUNDA/IKERI/-375225.140+1751946.942</Route>
     </Approach>
     <Approach Name="RNP-ARZ" Airport="NZHN" Runway="18L">
-      <Route>VATNA/ISPOT/HN18L/-375120.902+1752010.219</Route>
+      <Route>VATNA/ISPOT/-375120.902+1752010.219</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZKT" Runway="12">
-      <Route>STEED/-34.985489+173.206236/-35.051364+173.268542/KT12T/-350352.330+1731651.650</Route>
+      <Route>STEED/-34.985489+173.206236/-35.051364+173.268542/-350352.330+1731651.650</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZKT" Runway="30">
-      <Route>PERIA/-35.114650+173.348514/-35.084461+173.299894/KT30T/-350428.229+1731725.660</Route>
+      <Route>PERIA/-35.114650+173.348514/-35.084461+173.299894/-350428.229+1731725.660</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZMO" Runway="26">
       <Transition Name="ALDEV">ALDEV</Transition>
       <Transition Name="ENSOV">ENSOV</Transition>
-      <Route>GULAN/MO26T/-453204.171+1673946.789</Route>
+      <Route>GULAN/-45.557250+167.813570/-453204.171+1673946.789</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZNE" Runway="03">
       <Transition Name="PANGO">PANGO</Transition>
-      <Route>LIBKO/RIKDI/-36.667425+174.640756/NE03T/-363929.318+1743911.189</Route>
+      <Route>LIBKO/RIKDI/-36.667425+174.640756/-363929.318+1743911.189</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZNE" Runway="21">
       <Transition Name="BOLOR">BOLOR</Transition>
-      <Route>UPLIN/-36.597019+174.734392/NE21T/-363915.379+1743929.750</Route>
+      <Route>UPLIN/-36.597019+174.734392/-363915.379+1743929.750</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZNP" Runway="05">
-      <Route>VARMA/LUTUX/NP05T/-390037.609+1741012.241</Route>
+      <Route>VARMA/LUTUX/-390037.609+1741012.241</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZNP" Runway="23">
-      <Route>UPDAL/DOVED/NP23T/-390020.318+1741102.000</Route>
+      <Route>UPDAL/DOVED/-390020.318+1741102.000</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZNR" Runway="16">
       <Transition Name="ELBOW">ELBOW</Transition>
       <Transition Name="NANUA">NANUA</Transition>
-      <Route>AROPA/-39.378392+176.915156/-39.449436+176.869419/NR16T/-392743.160+1765204.940</Route>
+      <Route>AROPA/-39.378392+176.915156/-39.449436+176.869419/-392743.160+1765204.940</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZNR" Runway="34">
       <Transition Name="MILLA">MILLA</Transition>
       <Transition Name="OHITI">OHITI</Transition>
-      <Route>AKINA/-39.536822+176.859764/NR34T/-392839.698+1765158.720</Route>
+      <Route>AKINA/-39.536822+176.859764/-392839.698+1765158.720</Route>
     </Approach>
     <Approach Name="RNPB" Airport="NZNS" Runway="20">
       <Transition Name="KAPUA">KAPUA</Transition>
@@ -9052,20 +9052,20 @@ RILEY
     <Approach Name="RNPY" Airport="NZNS" Runway="02">
       <Transition Name="MIBEV">MIBEV</Transition>
       <Transition Name="QUAIL">QUAIL</Transition>
-      <Route>OTLIT/ISLOP/PATRU/NS02T/-411805.029+1731308.119</Route>
+      <Route>OTLIT/ISLOP/PATRU/-411805.029+1731308.119</Route>
     </Approach>
     <Approach Name="RNPZ" Airport="NZNS" Runway="02">
       <Transition Name="ESNED">ESNED</Transition>
-      <Route>TUMGO/ISLOP/PATRU/NS02T/-411805.029+1731308.119</Route>
+      <Route>TUMGO/ISLOP/PATRU/-411805.029+1731308.119</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZNV" Runway="22">
-      <Route>DUNAX/PALTU/NV22T/-462439.960+1681929.078</Route>
+      <Route>DUNAX/PALTU/-462439.960+1681929.078</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZOH" Runway="09">
       <Transition Name="BOBIT">BOBIT</Transition>
       <Transition Name="DOTGO">DOTGO</Transition>
       <Transition Name="LELUK">LELUK</Transition>
-      <Route>NUTGO/NIVOD/OH09T/-401209.562+1752227.311</Route>
+      <Route>NUTGO/NIVOD/-401209.562+1752227.311</Route>
     </Approach>
     <Approach Name="RNPZ" Airport="NZOH" Runway="27">
       <Route>LUXUL/PEDBA/OH27T/-401233.728+1752359.122</Route>
@@ -9073,90 +9073,90 @@ RILEY
     <Approach Name="RNP" Airport="NZPM" Runway="07">
       <Transition Name="AKNIN">AKNIN</Transition>
       <Transition Name="NIRUB">NIRUB</Transition>
-      <Route>GUTNI/LERSO/PM07T/-401911.510+1753617.528</Route>
+      <Route>GUTNI/LERSO/-401911.510+1753617.528</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZPM" Runway="25">
       <Transition Name="BIDEK">BIDEK</Transition>
       <Transition Name="NIKIP">NIKIP</Transition>
-      <Route>UVUSI/IVREP/PM25T/-401911.410+1753728.808</Route>
+      <Route>UVUSI/IVREP/-401911.410+1753728.808</Route>
     </Approach>
     <Approach Name="RNP-ARX" Airport="NZPM" Runway="25">
-      <Route>LEKED/SEKNI/DANLU/PM482/PM25T/-401911.410+1753728.808</Route>
+      <Route>LEKED/SEKNI/DANLU/PM482/-401911.410+1753728.808</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZPP" Runway="16">
       <Transition Name="ENBAR">ENBAR</Transition>
-      <Route>NOKIX/PP411/PP414/PP16T/-405404.540+1745916.530</Route>
+      <Route>NOKIX/PP411/PP414/-405404.540+1745916.530</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZPP" Runway="34">
       <Transition Name="DABGU">DABGU</Transition>
       <Transition Name="NILID">NILID</Transition>
-      <Route>LEVBI/TAXEV/PP421/PP34T/-405438.311+1745916.552</Route>
+      <Route>LEVBI/TAXEV/PP421/-405438.311+1745916.552</Route>
     </Approach>
     <Approach Name="RNP-ARY" Airport="NZQN" Runway="05">
-      <Route>IBABU/QN577/QN573/QN571/QN569/QN565/MOPGA/OMUBO/QN555/QN550/QN545/QN05T/-450112.000+1684408.480</Route>
+      <Route>IBABU/QN577/QN573/QN571/QN569/QN565/MOPGA/OMUBO/QN555/QN550/QN545/-450112.000+1684408.480</Route>
     </Approach>
     <Approach Name="RNP-ARY" Airport="NZQN" Runway="23">
       <Transition Name="ATKIL">ATKIL/QN780/QN775/QN770</Transition>
       <Transition Name="UGPED">UGPED/QN779/QN774</Transition>
-      <Route>ATVUP/QN760/QN755/LARAV/QN745/QN741/QN735/QN731/QN725/QN23T/-450059.558+1684527.821</Route>
+      <Route>ATVUP/QN760/QN755/LARAV/QN745/QN741/QN735/QN731/QN725/-450059.558+1684527.821</Route>
     </Approach>
     <Approach Name="RNPZ" Airport="NZRO" Runway="18">
       <Transition Name="OKERE">OKERE</Transition>
-      <Route>NIKOR/ELKOB/RO18T/-380601.598+1761913.238</Route>
+      <Route>NIKOR/ELKOB/-380601.598+1761913.238</Route>
     </Approach>
     <Approach Name="RNP-ARY" Airport="NZRO" Runway="18">
-      <Route>OKERE/BONLI/TUSGA/RO18T/-380601.598+1761913.238</Route>
+      <Route>OKERE/BONLI/TUSGA/-380601.598+1761913.238</Route>
     </Approach>
     <Approach Name="RNP-ARY" Airport="NZRO" Runway="36">
-      <Route>TOTRA/ADKAG/SEKBU/RO366/RO364/RO36T/-380655.750+1761841.170</Route>
+      <Route>TOTRA/ADKAG/SEKBU/RO366/RO364/-380655.750+1761841.170</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZTG" Runway="07">
       <Transition Name="MORTA">MORTA</Transition>
       <Transition Name="RUSTA">RUSTA</Transition>
-      <Route>TENIX/RIPSA/TG07T/-374021.900+1761118.200</Route>
+      <Route>TENIX/RIPSA/-374021.900+1761118.200</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZTG" Runway="25">
       <Transition Name="TODAN">TODAN</Transition>
       <Transition Name="UBSET">UBSET</Transition>
-      <Route>PATMO/UKDAS/TG25T/-374025.702+1761232.602</Route>
+      <Route>PATMO/UKDAS/-374025.702+1761232.602</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZTU" Runway="02">
       <Transition Name="DOPOP">DOPOP</Transition>
-      <Route>TU593/REKID/TU402/TU02T/-441811.779+1711314.300</Route>
+      <Route>TU593/REKID/TU402/-441811.779+1711314.300</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZTU" Runway="20">
       <Transition Name="BIDNI">BIDNI</Transition>
       <Transition Name="LUVAB">LUVAB</Transition>
-      <Route>SUNPA/EMTEP/TU20T/-441740.679+1711352.540</Route>
+      <Route>SUNPA/EMTEP/-441740.679+1711352.540</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZWB" Runway="24">
       <Transition Name="JAMIE">JAMIE</Transition>
-      <Route>LUTKA/ELKUB/ENPIP/WB401/WB24T/-413102.701+1735240.462</Route>
+      <Route>LUTKA/ELKUB/ENPIP/WB401/-413102.701+1735240.462</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZWF" Runway="29">
       <Transition Name="ARIGU">ARIGU</Transition>
       <Transition Name="PASMU">PASMU</Transition>
       <Transition Name="SUPIM">SUPIM</Transition>
-      <Route>KAKVA/PILAD/SAGEM/WF29T/-444334.000+1691505.000</Route>
+      <Route>KAKVA/PILAD/SAGEM/-444334.000+1691505.000</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZWK" Runway="09">
       <Transition Name="LAVIS">LAVIS</Transition>
-      <Route>ELBEV/WK401/WK09T/-375511.780+1765435.899</Route>
+      <Route>ELBEV/WK401/-375511.780+1765435.899</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZWK" Runway="27">
       <Transition Name="POTOP">POTOP</Transition>
-      <Route>REGAT/WK402/WK27T/-375527.541+1765524.420</Route>
+      <Route>REGAT/WK402/-375527.541+1765524.420</Route>
     </Approach>
     <Approach Name="RNPY" Airport="NZWN" Runway="34">
-      <Route>UMAGA/BUTIN/WN402/ROZAN/WN34T/-412005.780+1744822.889</Route>
+      <Route>UMAGA/BUTIN/WN402/ROZAN/-412005.780+1744822.889</Route>
     </Approach>
     <Approach Name="RNPZ" Airport="NZWN" Runway="16">
-      <Route>WITBY/CANES/OLBIN/WN16T/-411907.039+1744826.849</Route>
+      <Route>WITBY/CANES/OLBIN/-411907.039+1744826.849</Route>
     </Approach>
     <Approach Name="RNP-ARX" Airport="NZWN" Runway="16">
       <Transition Name="DORBU">DORBU/WN509</Transition>
       <Transition Name="HUWIT">HUWIT/WN513</Transition>
-      <Route>WN416/RIDGE/WN16T/-411907.039+1744826.849</Route>
+      <Route>WN416/RIDGE/-411907.039+1744826.849</Route>
     </Approach>
     <Approach Name="RNP-ARX" Airport="NZWN" Runway="34">
       <Transition Name="MEEDA">MEEDA/WN514/WN423</Transition>
@@ -9167,43 +9167,43 @@ RILEY
       <Transition Name="AGTID">AGTID</Transition>
       <Transition Name="IKIMU">IKIMU</Transition>
       <Transition Name="UPSUV">UPSUV</Transition>
-      <Route>AVMEB/RITPU/WO16T/-390027.180+1772414.648</Route>
+      <Route>AVMEB/RITPU/-390027.180+1772414.648</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZWP" Runway="03">
-      <Route>WYTAK/MESUD/WP03T/-364746.252+1743715.190</Route>
+      <Route>WYTAK/MESUD/-364746.252+1743715.190</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZWP" Runway="08">
       <Transition Name="HALEN">HALEN</Transition>
       <Transition Name="IGOLF">IGOLF</Transition>
-      <Route>MAKEE/WP801/WP08T/-364701.529+1743724.481</Route>
+      <Route>MAKEE/WP801/-364701.529+1743724.481</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZWP" Runway="21">
-      <Route>BAYES/KIBIM/WP21T/-364706.551+1743820.591</Route>
+      <Route>BAYES/KIBIM/-364706.551+1743820.591</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZWP" Runway="26">
       <Transition Name="ABUOY">ABUOY</Transition>
       <Transition Name="BAZEN">BAZEN</Transition>
-      <Route>FLAXX/WP601/WP26T/-364708.639+1743827.640</Route>
+      <Route>FLAXX/WP601/-364708.639+1743827.640</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZWS" Runway="04">
       <Transition Name="AVMAK">AVMAK</Transition>
       <Transition Name="GUNOM">GUNOM</Transition>
-      <Route>BURKI/WS404/WS04T/-414425.012+1713421.310</Route>
+      <Route>BURKI/WS404/-414425.012+1713421.310</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZWS" Runway="22">
       <Transition Name="ANSIS">ANSIS</Transition>
       <Transition Name="PILUP">PILUP</Transition>
-      <Route>WS408/WS411/WS22T/-414402.159+1713507.591</Route>
+      <Route>WS408/WS411/-414402.159+1713507.591</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZWU" Runway="11">
       <Transition Name="AVLOR">AVLOR</Transition>
       <Transition Name="BUPKA">BUPKA</Transition>
-      <Route>DUDED/-39.914692+174.940081/WU11T/-395735.179+1750104.951</Route>
+      <Route>DUDED/-39.914692+174.940081/-395735.179+1750104.951</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZWU" Runway="29">
       <Transition Name="ADGAT">ADGAT</Transition>
       <Transition Name="BELVO">BELVO</Transition>
-      <Route>BASEP/BUSBI/WU29T/-395801.808+1750151.071</Route>
+      <Route>BASEP/BUSBI/-395801.808+1750151.071</Route>
     </Approach>
   </SIDSTARs>
   <Airports>

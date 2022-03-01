@@ -491,8 +491,8 @@
   <Map Type="System2" Name="25 RNP-AR" Priority="1" Center="-40.319836+175.624669" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>SEKNI</Point>
       <Point>PM482</Point>
-      <Point>PM25T</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
@@ -503,16 +503,13 @@
       <Point>DANLU</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>SEKNI</Point>
-    </Symbol>
-    <Line Pattern="Solid">LEKED/SEKNI/DANLU/PM482/PM25T/-401911.410+1753728.808</Line>
+    <Symbol Type="SolidTriangle" />
+    <Line Pattern="Solid">LEKED/SEKNI/DANLU/PM482/-401911.410+1753728.808</Line>
   </Map>
   <Map Type="System2" Name="25 RNP-AR Labels" Priority="1" Center="-40.319836+175.624669" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>LEKED</Point>
       <Point>DANLU</Point>
-      <Point>SEKNI</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-40.320556+175.616944">

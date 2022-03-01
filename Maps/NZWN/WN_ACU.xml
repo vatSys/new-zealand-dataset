@@ -267,7 +267,6 @@
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>CANES</Point>
-      <Point>WN16T</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
@@ -279,7 +278,7 @@
     <Symbol Type="SolidTriangle">
       <Point>WITBY</Point>
     </Symbol>
-    <Line Pattern="Solid">WITBY/CANES/OLBIN/WN16T/-411907.039+1744826.849</Line>
+    <Line Pattern="Solid">WITBY/CANES/OLBIN/-411907.039+1744826.849</Line>
   </Map>
   <Map Type="System2" Name="16 RNP Labels" Priority="1" Center="-41.318622+174.807458" CustomColourName="ProcArr">
     <Label HasLeader="true">
@@ -290,7 +289,6 @@
   <Map Type="System2" Name="16 RNP-AR" Priority="1" Center="-41.318622+174.807458" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
-      <Point>WN16T</Point>
       <Point>WN509</Point>
       <Point>WN513</Point>
     </Symbol>
@@ -307,7 +305,7 @@
     <Symbol Type="SolidTriangle">
       <Point>WN416</Point>
     </Symbol>
-    <Line Pattern="Solid">WN416/RIDGE/WN16T/-411907.039+1744826.849</Line>
+    <Line Pattern="Solid">WN416/RIDGE/-411907.039+1744826.849</Line>
     <Line Pattern="Solid">DORBU/WN509/WN416</Line>
     <Line Pattern="Solid">HUWIT/WN513/WN416</Line>
   </Map>
@@ -652,7 +650,6 @@
     <Symbol Type="HollowTriangle">
       <Point>BUTIN</Point>
       <Point>WN402</Point>
-      <Point>WN34T</Point>
       <Point>WN403</Point>
     </Symbol>
     <!--IAF Symbols-->
@@ -665,8 +662,8 @@
     <Symbol Type="SolidTriangle">
       <Point>UMAGA</Point>
     </Symbol>
-    <Line Pattern="Solid">UMAGA/BUTIN/WN402/ROZAN/WN34T/-412005.780+1744822.889</Line>
-    <Line Pattern="Solid">ROZAN/WN403/WN34T</Line>
+    <Line Pattern="Solid">UMAGA/BUTIN/WN402/ROZAN/-412005.780+1744822.889</Line>
+    <Line Pattern="Solid">ROZAN/WN403/-412005.780+1744822.889</Line>
   </Map>
   <Map Type="System2" Name="34 RNP Labels" Priority="1" Center="-41.334939+174.806358" CustomColourName="ProcArr">
     <Label HasLeader="true">

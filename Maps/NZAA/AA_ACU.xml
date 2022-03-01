@@ -599,7 +599,6 @@
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>UGRUS</Point>
-      <Point>AA05R</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
@@ -611,7 +610,7 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">LENGU/UGRUS/FF05R/AA05R/-370058.741+1744614.819</Line>
+    <Line Pattern="Solid">LENGU/UGRUS/FF05R/-370058.741+1744614.819</Line>
   </Map>
   <Map Type="System2" Name="05R RNP Labels" Priority="1" Center="-37.016317+174.770783" CustomColourName="ProcArr">
     <Label HasLeader="true">
@@ -626,7 +625,6 @@
       <Point>QUINA</Point>
       <Point>NIPAS</Point>
       <Point>IBOKI</Point>
-      <Point>AA05R</Point>
       <Point>AA509</Point>
     </Symbol>
     <!--IAF Symbols-->
@@ -641,8 +639,8 @@
       <Point>VIRIS</Point>
       <Point>ATAMA</Point>
     </Symbol>
-    <Line Pattern="Solid">VIRIS/SADOS/QUINA/NIPAS/LAMEL/IBOKI/AA05R/-370058.741+1744614.819</Line>
-    <Line Pattern="Solid">ATAMA/PORAR/AA509/AA05R</Line>
+    <Line Pattern="Solid">VIRIS/SADOS/QUINA/NIPAS/LAMEL/IBOKI/-370058.741+1744614.819</Line>
+    <Line Pattern="Solid">ATAMA/PORAR/AA509/-370058.741+1744614.819</Line>
   </Map>
   <Map Type="System2" Name="05R RNP-AR Labels" Priority="1" Center="-37.016317+174.770783" CustomColourName="ProcArr">
     <Label HasLeader="true">
@@ -1260,7 +1258,6 @@
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>ORESO</Point>
-      <Point>AA23L</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
@@ -1272,7 +1269,7 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">EMRAG/ORESO/FF23L/AA23L/-370023.962+1744820.671</Line>
+    <Line Pattern="Solid">EMRAG/ORESO/FF23L/-370023.962+1744820.671</Line>
   </Map>
   <Map Type="System2" Name="23L RNP Labels" Priority="1" Center="-37.006656+174.805742" CustomColourName="ProcArr">
     <Label HasLeader="true">
@@ -1285,12 +1282,12 @@
     <Symbol Type="HollowTriangle">
       <Point>BUBKU</Point>
       <Point>AA412</Point>
-      <Point>AA23L</Point>
       <Point>AA407</Point>
       <Point>AA411</Point>
       <Point>AA521</Point>
       <Point>AA428</Point>
       <Point>AA516</Point>
+      <Point>SUBUN</Point>
       <Point>AA513</Point>
       <Point>LOSGA</Point>
       <Point>LAGUT</Point>
@@ -1316,17 +1313,16 @@
     <Symbol Type="SolidTriangle">
       <Point>AA427</Point>
       <Point>VABTI</Point>
-      <Point>SUBUN</Point>
       <Point>KIDAG</Point>
       <Point>ESNAX</Point>
     </Symbol>
-    <Line Pattern="Solid">AA427/BUBKU/AA412/TEGIK/AA23L/-370023.962+1744820.671</Line>
+    <Line Pattern="Solid">AA427/BUBKU/AA412/TEGIK/-370023.962+1744820.671</Line>
     <Line Pattern="Solid">KETOB/AA407/AA427</Line>
     <Line Pattern="Solid">ZORBA/AA411/AA407</Line>
-    <Line Pattern="Solid">VABTI/AA521/AA428/AA516/TUSLO/AA23L</Line>
+    <Line Pattern="Solid">VABTI/AA521/AA428/AA516/TUSLO/-370023.962+1744820.671</Line>
     <Line Pattern="Solid">TEVUC/SUBUN/AA513/AA412</Line>
-    <Line Pattern="Solid">KIDAG/LOSGA/LAGUT/GOBOB/ESMON/AKROV/DUNAD/AA23L</Line>
-    <Line Pattern="Solid">ESNAX/NOKAM/AA409/AA23L</Line>
+    <Line Pattern="Solid">KIDAG/LOSGA/LAGUT/GOBOB/ESMON/AKROV/DUNAD/-370023.962+1744820.671</Line>
+    <Line Pattern="Solid">ESNAX/NOKAM/AA409/-370023.962+1744820.671</Line>
   </Map>
   <Map Type="System2" Name="23L RNP-AR Labels" Priority="1" Center="-37.006656+174.805742" CustomColourName="ProcArr">
     <Label HasLeader="true">
@@ -1339,7 +1335,6 @@
       <Point>NOKAM</Point>
       <Point>AA427</Point>
       <Point>VABTI</Point>
-      <Point>SUBUN</Point>
       <Point>KIDAG</Point>
       <Point>ESNAX</Point>
     </Label>

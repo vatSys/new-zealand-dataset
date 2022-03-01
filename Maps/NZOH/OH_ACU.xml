@@ -160,8 +160,8 @@
       <Point>SAKOG</Point>
       <Point>LUXUL</Point>
     </Symbol>
-    <Line Pattern="Solid">SAKOG/PEDBA/OH27T/-401233.728+1752359.122</Line>
-    <Line Pattern="Solid">LUXUL/PEDBA</Line>
+    <Line Pattern="Solid">SAKOG/PEDBA/-401233.728+1752359.122</Line>
+    <Line Pattern="Solid">LUXUL/PEDBA/OH27T/-401233.728+1752359.122</Line>
   </Map>
   <Map Type="System2" Name="27 RNP Labels" Priority="1" Center="-40.209369+175.399756" CustomColourName="ProcArr">
     <Label HasLeader="true">

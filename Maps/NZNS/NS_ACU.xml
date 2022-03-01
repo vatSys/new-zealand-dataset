@@ -166,7 +166,6 @@
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>ORUBA</Point>
-      <Point>NS02T</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
@@ -191,7 +190,7 @@
     <Line Pattern="Solid">ELMAX/NOPEM/ORUBA/-411805.029+1731308.119</Line>
     <Line Pattern="Solid">KAPUA/ELMAX</Line>
     <Line Pattern="Solid">LIKMA/ELMAX</Line>
-    <Line Pattern="Solid">OTLIT/ISLOP/PATRU/NS02T/-411805.029+1731308.119</Line>
+    <Line Pattern="Solid">OTLIT/ISLOP/PATRU/-411805.029+1731308.119</Line>
     <Line Pattern="Solid">MIBEV/OTLIT</Line>
     <Line Pattern="Solid">QUAIL/OTLIT</Line>
     <Line Pattern="Solid">TUMGO/ISLOP</Line>

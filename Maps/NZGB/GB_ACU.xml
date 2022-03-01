@@ -2,9 +2,7 @@
 <Maps>
   <Map Type="System2" Name="06 RNP" Priority="1" Center="-36.241725+175.466386" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>GB678</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>LUVOG</Point>
@@ -18,7 +16,7 @@
     <Symbol Type="SolidTriangle">
       <Point>OMGET</Point>
     </Symbol>
-    <Line Pattern="Solid">OMGET/AVKIN/GB678/-361430.210+1752758.990</Line>
+    <Line Pattern="Solid">OMGET/AVKIN/-361430.210+1752758.990</Line>
     <Line Pattern="Solid">LUVOG/OMGET</Line>
     <Line Pattern="Solid">VARSI/OMGET</Line>
   </Map>
@@ -32,9 +30,7 @@
   </Map>
   <Map Type="System2" Name="24 RNP" Priority="1" Center="-36.241122+175.472122" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>GB678</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>LUVOG</Point>
@@ -48,7 +44,7 @@
     <Symbol Type="SolidTriangle">
       <Point>OMGET</Point>
     </Symbol>
-    <Line Pattern="Solid">OMGET/AVKIN/GB678/-361428.039+1752819.639</Line>
+    <Line Pattern="Solid">OMGET/AVKIN/-361428.039+1752819.639</Line>
     <Line Pattern="Solid">LUVOG/OMGET</Line>
     <Line Pattern="Solid">VARSI/OMGET</Line>
   </Map>
@@ -77,9 +73,7 @@
   </Map>
   <Map Type="System2" Name="10 RNP" Priority="1" Center="-36.238797+175.464031" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>GB678</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>LUVOG</Point>
@@ -93,7 +87,7 @@
     <Symbol Type="SolidTriangle">
       <Point>OMGET</Point>
     </Symbol>
-    <Line Pattern="Solid">OMGET/AVKIN/GB678/-361419.669+1752750.512</Line>
+    <Line Pattern="Solid">OMGET/AVKIN/-361419.669+1752750.512</Line>
     <Line Pattern="Solid">LUVOG/OMGET</Line>
     <Line Pattern="Solid">VARSI/OMGET</Line>
   </Map>
@@ -107,9 +101,7 @@
   </Map>
   <Map Type="System2" Name="28 RNP" Priority="1" Center="-36.243103+175.472969" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>GB678</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>LUVOG</Point>
@@ -123,7 +115,7 @@
     <Symbol Type="SolidTriangle">
       <Point>OMGET</Point>
     </Symbol>
-    <Line Pattern="Solid">OMGET/AVKIN/GB678/-361435.171+1752822.688</Line>
+    <Line Pattern="Solid">OMGET/AVKIN/-361435.171+1752822.688</Line>
     <Line Pattern="Solid">LUVOG/OMGET</Line>
     <Line Pattern="Solid">VARSI/OMGET</Line>
   </Map>

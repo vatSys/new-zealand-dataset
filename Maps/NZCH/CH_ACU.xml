@@ -286,9 +286,7 @@
   </Map>
   <Map Type="System2" Name="02 RNP" Priority="1" Center="-43.497631+172.522114" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>CH02T</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>GOMPI</Point>
@@ -303,7 +301,7 @@
     <Symbol Type="SolidTriangle">
       <Point>ALBAD</Point>
     </Symbol>
-    <Line Pattern="Solid">ALBAD/NISOM/CH02T/-432951.472+1723119.610</Line>
+    <Line Pattern="Solid">ALBAD/NISOM/-432951.472+1723119.610</Line>
     <Line Pattern="Solid">GOMPI/ALBAD</Line>
     <Line Pattern="Solid">IDUBU/ALBAD</Line>
     <Line Pattern="Solid">UBDAN/ALBAD</Line>
@@ -324,7 +322,6 @@
       <Point>CH793</Point>
       <Point>CH755</Point>
       <Point>BEKTI</Point>
-      <Point>CH02T</Point>
       <Point>CH963</Point>
       <Point>CH697</Point>
       <Point>NISOM</Point>
@@ -346,9 +343,9 @@
       <Point>BOLUB</Point>
       <Point>LEVGO</Point>
     </Symbol>
-    <Line Pattern="Solid">ERVAX/CH832/CH793/CH755/PEBVI/BEKTI/CH02T/-432951.472+1723119.610</Line>
-    <Line Pattern="Solid">BOLUB/CH963/SULMO/CH697/NISOM/CH02T</Line>
-    <Line Pattern="Solid">LEVGO/CH846/CH801/CH878/GUNLO/CH02T</Line>
+    <Line Pattern="Solid">ERVAX/CH832/CH793/CH755/PEBVI/BEKTI/-432951.472+1723119.610</Line>
+    <Line Pattern="Solid">BOLUB/CH963/SULMO/CH697/NISOM/-432951.472+1723119.610</Line>
+    <Line Pattern="Solid">LEVGO/CH846/CH801/CH878/GUNLO/-432951.472+1723119.610</Line>
   </Map>
   <Map Type="System2" Name="02 RNP-AR Labels" Priority="1" Center="-43.497631+172.522114" CustomColourName="ProcArr">
     <Label HasLeader="true">
@@ -686,7 +683,6 @@
     <Symbol Type="HollowTriangle">
       <Point>CH827</Point>
       <Point>CH428</Point>
-      <Point>CH20T</Point>
       <Point>CH989</Point>
       <Point>CH931</Point>
       <Point>CH634</Point>
@@ -708,7 +704,7 @@
       <Point>ERVAX</Point>
       <Point>SUSAL</Point>
     </Symbol>
-    <Line Pattern="Solid">BIXIX/CH827/CH428/RUSON/ENLAT/CH20T/-432829.960+1723253.830</Line>
+    <Line Pattern="Solid">BIXIX/CH827/CH428/RUSON/ENLAT/-432829.960+1723253.830</Line>
     <Line Pattern="Solid">ERVAX/CH989/CH931/CH634/CH928/ENLAT</Line>
     <Line Pattern="Solid">SUSAL/CH946/CH813/CH653/CH928</Line>
   </Map>
@@ -1074,7 +1070,6 @@
     <Symbol Type="HollowTriangle">
       <Point>CH437</Point>
       <Point>CH917</Point>
-      <Point>CH29T</Point>
       <Point>CH434</Point>
       <Point>CH438</Point>
     </Symbol>
@@ -1090,7 +1085,7 @@
       <Point>ABVIM</Point>
       <Point>SUPSO</Point>
     </Symbol>
-    <Line Pattern="Solid">ABVIM/CH437/UBLES/CH917/CH29T/-432939.772+1723227.179</Line>
+    <Line Pattern="Solid">ABVIM/CH437/UBLES/CH917/-432939.772+1723227.179</Line>
     <Line Pattern="Solid">SUPSO/CH434/VEKMU/CH438/CH917</Line>
   </Map>
   <Map Type="System2" Name="29 RNP-AR Labels" Priority="1" Center="-43.494381+172.540883" CustomColourName="ProcArr">

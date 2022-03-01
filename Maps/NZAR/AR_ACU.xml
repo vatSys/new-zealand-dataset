@@ -94,7 +94,6 @@
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>SARVI</Point>
-      <Point>AR21T</Point>
       <Point>EMTUB</Point>
     </Symbol>
     <!--IAF Symbols-->
@@ -111,7 +110,7 @@
       <Point>EGURU</Point>
       <Point>ORERE</Point>
     </Symbol>
-    <Line Pattern="Solid">EGURU/SARVI/AR401/AR21T/-370137.358+1745845.599</Line>
+    <Line Pattern="Solid">EGURU/SARVI/AR401/-370137.358+1745845.599</Line>
     <Line Pattern="Solid">FIRTH/EGURU</Line>
     <Line Pattern="Solid">SATLA/EGURU</Line>
     <Line Pattern="Solid">ORERE/EMTUB/AR401</Line>

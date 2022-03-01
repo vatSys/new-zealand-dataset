@@ -231,7 +231,6 @@
       <Point>QN555</Point>
       <Point>QN550</Point>
       <Point>QN545</Point>
-      <Point>QN05T</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
@@ -244,7 +243,7 @@
     <Symbol Type="SolidTriangle">
       <Point>IBABU</Point>
     </Symbol>
-    <Line Pattern="Solid">IBABU/QN577/QN573/QN571/QN569/QN565/MOPGA/OMUBO/QN555/QN550/QN545/QN05T/-450112.000+1684408.480</Line>
+    <Line Pattern="Solid">IBABU/QN577/QN573/QN571/QN569/QN565/MOPGA/OMUBO/QN555/QN550/QN545/-450112.000+1684408.480</Line>
   </Map>
   <Map Type="System2" Name="05 RNP-AR Labels" Priority="1" Center="-45.020000+168.735689" CustomColourName="ProcArr">
     <Label HasLeader="true">
@@ -484,7 +483,6 @@
       <Point>QN735</Point>
       <Point>QN731</Point>
       <Point>QN725</Point>
-      <Point>QN23T</Point>
       <Point>QN780</Point>
       <Point>QN775</Point>
       <Point>QN770</Point>
@@ -504,7 +502,7 @@
     <Symbol Type="SolidTriangle">
       <Point>ATVUP</Point>
     </Symbol>
-    <Line Pattern="Solid">ATVUP/QN760/QN755/LARAV/QN745/QN741/QN735/QN731/QN725/QN23T/-450059.558+1684527.821</Line>
+    <Line Pattern="Solid">ATVUP/QN760/QN755/LARAV/QN745/QN741/QN735/QN731/QN725/-450059.558+1684527.821</Line>
     <Line Pattern="Solid">ATKIL/QN780/QN775/QN770/ATVUP</Line>
     <Line Pattern="Solid">UGPED/QN779/QN774/ATVUP</Line>
   </Map>

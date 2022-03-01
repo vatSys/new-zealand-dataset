@@ -167,9 +167,7 @@
   </Map>
   <Map Type="System2" Name="18 RNP" Priority="1" Center="-38.100444+176.320344" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>RO18T</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>OKERE</Point>
@@ -185,7 +183,7 @@
       <Point>NIKOR</Point>
     </Symbol>
     <Line Pattern="Solid">TOTRA/IGOBA/-38.125190+176.293950/-380601.598+1761913.238</Line>
-    <Line Pattern="Solid">NIKOR/ELKOB/RO18T/-380601.598+1761913.238</Line>
+    <Line Pattern="Solid">NIKOR/ELKOB/-380601.598+1761913.238</Line>
     <Line Pattern="Solid">OKERE/NIKOR</Line>
   </Map>
   <Map Type="System2" Name="18 RNP Labels" Priority="1" Center="-38.100444+176.320344" CustomColourName="ProcArr">
@@ -199,9 +197,7 @@
   </Map>
   <Map Type="System2" Name="18 RNP-AR" Priority="1" Center="-38.100444+176.320344" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>RO18T</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>OKERE</Point>
@@ -212,7 +208,7 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">OKERE/BONLI/TUSGA/RO18T/-380601.598+1761913.238</Line>
+    <Line Pattern="Solid">OKERE/BONLI/TUSGA/-380601.598+1761913.238</Line>
   </Map>
   <Map Type="System2" Name="18 RNP-AR Labels" Priority="1" Center="-38.100444+176.320344" CustomColourName="ProcArr">
     <Label HasLeader="true">
@@ -394,7 +390,6 @@
       <Point>ADKAG</Point>
       <Point>RO366</Point>
       <Point>RO364</Point>
-      <Point>RO36T</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
@@ -406,7 +401,7 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">TOTRA/ADKAG/SEKBU/RO366/RO364/RO36T/-380655.750+1761841.170</Line>
+    <Line Pattern="Solid">TOTRA/ADKAG/SEKBU/RO366/RO364/-380655.750+1761841.170</Line>
   </Map>
   <Map Type="System2" Name="36 RNP-AR Labels" Priority="1" Center="-38.115486+176.311436" CustomColourName="ProcArr">
     <Label HasLeader="true">
