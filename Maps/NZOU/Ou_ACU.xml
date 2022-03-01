@@ -1,49 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="18 RNP" Priority="1" Center="-44.961850+171.085172" CustomColourName="ProcArr">
-    <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>OU18T</Point>
-    </Symbol>
-    <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle" />
-    <!--FAF Symbols-->
-    <Symbol Type="MalteseCross">
-      <Point>-44.887389+171.137850</Point>
-    </Symbol>
-    <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>PAMOA</Point>
-    </Symbol>
-    <Line Pattern="Solid">PAMOA/-44.887389+171.137850/OU18T/-445742.660+1710506.619</Line>
-  </Map>
-  <Map Type="System2" Name="18 RNP Labels" Priority="1" Center="-44.961850+171.085172" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>PAMOA</Point>
-    </Label>
-  </Map>
-  <Map Type="System2" Name="36 RNP" Priority="1" Center="-44.972167+171.077861" CustomColourName="ProcArr">
-    <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>OU36T</Point>
-    </Symbol>
-    <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle" />
-    <!--FAF Symbols-->
-    <Symbol Type="MalteseCross">
-      <Point>-45.046594+171.025025</Point>
-    </Symbol>
-    <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>ORBEL</Point>
-    </Symbol>
-    <Line Pattern="Solid">ORBEL/-45.046594+171.025025/OU36T/-445819.801+1710440.300</Line>
-  </Map>
-  <Map Type="System2" Name="36 RNP Labels" Priority="1" Center="-44.972167+171.077861" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>ORBEL</Point>
-    </Label>
-  </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-44.970000+171.081667">
     <Symbol Type="HollowSquare">
       <Point Name="PALMERSTON">-452906.800+1704252.500</Point>

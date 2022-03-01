@@ -1,35 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="32 RNP" Priority="1" Center="-39.557828+174.269719" CustomColourName="ProcArr">
-    <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>HA32T</Point>
-    </Symbol>
-    <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>NUKTO</Point>
-      <Point>UPVOK</Point>
-    </Symbol>
-    <!--FAF Symbols-->
-    <Symbol Type="MalteseCross">
-      <Point>HA906</Point>
-    </Symbol>
-    <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>WAPOU</Point>
-    </Symbol>
-    <Line Pattern="Solid">WAPOU/HA906/HA32T/-393328.181+1741610.988</Line>
-    <Line Pattern="Solid">NUKTO/WAPOU</Line>
-    <Line Pattern="Solid">UPVOK/WAPOU</Line>
-  </Map>
-  <Map Type="System2" Name="32 RNP Labels" Priority="1" Center="-39.557828+174.269719" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>NUKTO</Point>
-      <Point>UPVOK</Point>
-      <Point>HA906</Point>
-      <Point>WAPOU</Point>
-    </Label>
-  </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-39.553333+174.266944">
     <Symbol Type="HollowSquare">
       <Point Name="BELL BLOCK OVERPASS">-390213.100+1740832.300</Point>

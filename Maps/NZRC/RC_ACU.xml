@@ -14,29 +14,6 @@
       <Point>SEBSA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="22 RNP" Priority="1" Center="-46.898461+168.104856" CustomColourName="ProcArr">
-    <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>NZRC</Point>
-    </Symbol>
-    <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>SEBSA</Point>
-    </Symbol>
-    <!--FAF Symbols-->
-    <Symbol Type="MalteseCross">
-      <Point>ANGEB</Point>
-    </Symbol>
-    <!--IF Symbols-->
-    <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">SEBSA/ANGEB/RC401/NZRC/-465354.460+1680617.482</Line>
-  </Map>
-  <Map Type="System2" Name="22 RNP Labels" Priority="1" Center="-46.898461+168.104856" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>SEBSA</Point>
-      <Point>ANGEB</Point>
-    </Label>
-  </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-46.899722+168.101944">
     <Symbol Type="HollowSquare">
       <Point Name="AWARUA">-462930.300+1682307.200</Point>

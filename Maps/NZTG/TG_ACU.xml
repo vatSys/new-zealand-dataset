@@ -122,36 +122,6 @@
       <Point>MORTA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="07 RNP" Priority="1" Center="-37.672750+176.188389" CustomColourName="ProcArr">
-    <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>TG07T</Point>
-    </Symbol>
-    <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>MORTA</Point>
-      <Point>RUSTA</Point>
-    </Symbol>
-    <!--FAF Symbols-->
-    <Symbol Type="MalteseCross">
-      <Point>RIPSA</Point>
-    </Symbol>
-    <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>TENIX</Point>
-    </Symbol>
-    <Line Pattern="Solid">TENIX/RIPSA/TG07T/-374021.900+1761118.200</Line>
-    <Line Pattern="Solid">MORTA/TENIX</Line>
-    <Line Pattern="Solid">RUSTA/TENIX</Line>
-  </Map>
-  <Map Type="System2" Name="07 RNP Labels" Priority="1" Center="-37.672750+176.188389" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>MORTA</Point>
-      <Point>RUSTA</Point>
-      <Point>RIPSA</Point>
-      <Point>TENIX</Point>
-    </Label>
-  </Map>
   <Map Type="System2" Name="25 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.672750+176.188389">
     <Line Pattern="Dashed">
       <!--Rwy25 DOTAR3-->
@@ -274,36 +244,6 @@
       <Point>URBUX</Point>
       <Point>UBSET</Point>
       <Point>TODAN</Point>
-    </Label>
-  </Map>
-  <Map Type="System2" Name="25 RNP" Priority="1" Center="-37.673806+176.209056" CustomColourName="ProcArr">
-    <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>TG25T</Point>
-    </Symbol>
-    <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>TODAN</Point>
-      <Point>UBSET</Point>
-    </Symbol>
-    <!--FAF Symbols-->
-    <Symbol Type="MalteseCross">
-      <Point>UKDAS</Point>
-    </Symbol>
-    <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>PATMO</Point>
-    </Symbol>
-    <Line Pattern="Solid">PATMO/UKDAS/TG25T/-374025.702+1761232.602</Line>
-    <Line Pattern="Solid">TODAN/PATMO</Line>
-    <Line Pattern="Solid">UBSET/PATMO</Line>
-  </Map>
-  <Map Type="System2" Name="25 RNP Labels" Priority="1" Center="-37.673806+176.209056" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>TODAN</Point>
-      <Point>UBSET</Point>
-      <Point>UKDAS</Point>
-      <Point>PATMO</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-37.671944+176.196111">

@@ -348,34 +348,6 @@
       <Point>VATNA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="18L RNP" Priority="1" Center="-37.855806+175.336172" CustomColourName="ProcArr">
-    <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>HN18L</Point>
-    </Symbol>
-    <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle" />
-    <!--FAF Symbols-->
-    <Symbol Type="MalteseCross">
-      <Point>LAXOD</Point>
-      <Point>ISPOT</Point>
-    </Symbol>
-    <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>TAYLA</Point>
-      <Point>VATNA</Point>
-    </Symbol>
-    <Line Pattern="Solid">TAYLA/LAXOD/HN18L/-375120.902+1752010.219</Line>
-    <Line Pattern="Solid">VATNA/ISPOT/HN18L</Line>
-  </Map>
-  <Map Type="System2" Name="18L RNP Labels" Priority="1" Center="-37.855806+175.336172" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>LAXOD</Point>
-      <Point>ISPOT</Point>
-      <Point>TAYLA</Point>
-      <Point>VATNA</Point>
-    </Label>
-  </Map>
   <Map Type="System2" Name="18L RNP-AR" Priority="1" Center="-37.855806+175.336172" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">

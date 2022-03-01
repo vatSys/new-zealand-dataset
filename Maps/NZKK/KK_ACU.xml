@@ -34,29 +34,6 @@
       <Point>UKAPA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="15 RNP" Priority="1" Center="-35.252417+173.910506" CustomColourName="ProcArr">
-    <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>-35.244333+173.907978</Point>
-      <Point>KK15T</Point>
-    </Symbol>
-    <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle" />
-    <!--FAF Symbols-->
-    <Symbol Type="MalteseCross">
-      <Point>-35.171564+173.885264</Point>
-    </Symbol>
-    <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>OTAHA</Point>
-    </Symbol>
-    <Line Pattern="Solid">OTAHA/-35.171564+173.885264/-35.244333+173.907978/KK15T/-351508.701+1735437.822</Line>
-  </Map>
-  <Map Type="System2" Name="15 RNP Labels" Priority="1" Center="-35.252417+173.910506" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>OTAHA</Point>
-    </Label>
-  </Map>
   <Map Type="System2" Name="33 SIDs" Priority="1" CustomColourName="ProcDep" Center="-35.252417+173.910506">
     <Line Pattern="Dashed">
       <!--Rwy33 HOBSO2-->
@@ -92,29 +69,6 @@
       <Point>KAROA</Point>
       <Point>KOPPA</Point>
       <Point>SF NDB</Point>
-    </Label>
-  </Map>
-  <Map Type="System2" Name="33 RNP" Priority="1" Center="-35.262803+173.913750" CustomColourName="ProcArr">
-    <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>-35.270886+173.916278</Point>
-      <Point>KK33T</Point>
-    </Symbol>
-    <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle" />
-    <!--FAF Symbols-->
-    <Symbol Type="MalteseCross">
-      <Point>-35.343650+173.939047</Point>
-    </Symbol>
-    <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>OPARE</Point>
-    </Symbol>
-    <Line Pattern="Solid">OPARE/-35.343650+173.939047/-35.270886+173.916278/KK33T/-351546.091+1735449.500</Line>
-  </Map>
-  <Map Type="System2" Name="33 RNP Labels" Priority="1" Center="-35.262803+173.913750" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>OPARE</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-35.262778+173.911944">

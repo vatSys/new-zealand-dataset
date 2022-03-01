@@ -220,39 +220,6 @@
       <Point>IBABU</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="05 RNP" Priority="1" Center="-45.020000+168.735689" CustomColourName="ProcArr">
-    <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>QN577</Point>
-      <Point>QN573</Point>
-      <Point>QN571</Point>
-      <Point>QN569</Point>
-      <Point>QN565</Point>
-      <Point>QN555</Point>
-      <Point>QN550</Point>
-      <Point>QN545</Point>
-      <Point>QN05T</Point>
-    </Symbol>
-    <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle" />
-    <!--FAF Symbols-->
-    <Symbol Type="MalteseCross">
-      <Point>MOPGA</Point>
-      <Point>OMUBO</Point>
-    </Symbol>
-    <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>IBABU</Point>
-    </Symbol>
-    <Line Pattern="Solid">IBABU/QN577/QN573/QN571/QN569/QN565/MOPGA/OMUBO/QN555/QN550/QN545/QN05T/-450112.000+1684408.480</Line>
-  </Map>
-  <Map Type="System2" Name="05 RNP Labels" Priority="1" Center="-45.020000+168.735689" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>MOPGA</Point>
-      <Point>OMUBO</Point>
-      <Point>IBABU</Point>
-    </Label>
-  </Map>
   <Map Type="System2" Name="05 RNP-AR" Priority="1" Center="-45.020000+168.735689" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
@@ -507,48 +474,6 @@
       <Point>UGPED</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="23 RNP" Priority="1" Center="-45.016544+168.757728" CustomColourName="ProcArr">
-    <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>QN760</Point>
-      <Point>QN755</Point>
-      <Point>QN745</Point>
-      <Point>QN741</Point>
-      <Point>QN735</Point>
-      <Point>QN731</Point>
-      <Point>QN725</Point>
-      <Point>QN23T</Point>
-      <Point>QN780</Point>
-      <Point>QN775</Point>
-      <Point>QN770</Point>
-      <Point>QN779</Point>
-      <Point>QN774</Point>
-    </Symbol>
-    <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>ATKIL</Point>
-      <Point>UGPED</Point>
-    </Symbol>
-    <!--FAF Symbols-->
-    <Symbol Type="MalteseCross">
-      <Point>LARAV</Point>
-    </Symbol>
-    <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>ATVUP</Point>
-    </Symbol>
-    <Line Pattern="Solid">ATVUP/QN760/QN755/LARAV/QN745/QN741/QN735/QN731/QN725/QN23T/-450059.558+1684527.821</Line>
-    <Line Pattern="Solid">ATKIL/QN780/QN775/QN770/ATVUP</Line>
-    <Line Pattern="Solid">UGPED/QN779/QN774/ATVUP</Line>
-  </Map>
-  <Map Type="System2" Name="23 RNP Labels" Priority="1" Center="-45.016544+168.757728" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>ATKIL</Point>
-      <Point>UGPED</Point>
-      <Point>LARAV</Point>
-      <Point>ATVUP</Point>
-    </Label>
-  </Map>
   <Map Type="System2" Name="23 RNP-AR" Priority="1" Center="-45.016544+168.757728" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
@@ -580,7 +505,7 @@
       <Point>ATVUP</Point>
     </Symbol>
     <Line Pattern="Solid">ATVUP/QN760/QN755/LARAV/QN745/QN741/QN735/QN731/QN725/QN23T/-450059.558+1684527.821</Line>
-    <Line Pattern="Solid">ATKIL/QN780/QN775/QN770/ATVUP/ATVUP</Line>
+    <Line Pattern="Solid">ATKIL/QN780/QN775/QN770/ATVUP</Line>
     <Line Pattern="Solid">UGPED/QN779/QN774/ATVUP</Line>
   </Map>
   <Map Type="System2" Name="23 RNP-AR Labels" Priority="1" Center="-45.016544+168.757728" CustomColourName="ProcArr">

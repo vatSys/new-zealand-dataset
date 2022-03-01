@@ -101,38 +101,6 @@
       <Point>PASMU</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="29 RNP" Priority="1" Center="-44.726111+169.251389" CustomColourName="ProcArr">
-    <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>PILAD</Point>
-      <Point>SAGEM</Point>
-      <Point>WF29T</Point>
-    </Symbol>
-    <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>ARIGU</Point>
-      <Point>PASMU</Point>
-      <Point>SUPIM</Point>
-    </Symbol>
-    <!--FAF Symbols-->
-    <Symbol Type="MalteseCross" />
-    <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>KAKVA</Point>
-    </Symbol>
-    <Line Pattern="Solid">KAKVA/PILAD/SAGEM/WF29T/-444334.000+1691505.000</Line>
-    <Line Pattern="Solid">ARIGU/KAKVA</Line>
-    <Line Pattern="Solid">PASMU/KAKVA</Line>
-    <Line Pattern="Solid">SUPIM/KAKVA</Line>
-  </Map>
-  <Map Type="System2" Name="29 RNP Labels" Priority="1" Center="-44.726111+169.251389" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>ARIGU</Point>
-      <Point>PASMU</Point>
-      <Point>SUPIM</Point>
-      <Point>KAKVA</Point>
-    </Label>
-  </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-44.722222+169.245556">
     <Symbol Type="HollowSquare">
       <Point Name="AFTON BURN SADDLE">-450925.700+1682400.200</Point>

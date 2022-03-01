@@ -42,35 +42,6 @@
       <Point>BEDAV</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="03 RNP" Priority="1" Center="-42.713394+170.980258" CustomColourName="ProcArr">
-    <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>HK03T</Point>
-    </Symbol>
-    <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>KARVO</Point>
-      <Point>ANDEP</Point>
-      <Point>BEDAV</Point>
-    </Symbol>
-    <!--FAF Symbols-->
-    <Symbol Type="MalteseCross">
-      <Point>HK406</Point>
-    </Symbol>
-    <!--IF Symbols-->
-    <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">KARVO/HK406/HK03T/-424248.218+1705848.929</Line>
-    <Line Pattern="Solid">ANDEP/KARVO</Line>
-    <Line Pattern="Solid">BEDAV/KARVO</Line>
-  </Map>
-  <Map Type="System2" Name="03 RNP Labels" Priority="1" Center="-42.713394+170.980258" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>KARVO</Point>
-      <Point>ANDEP</Point>
-      <Point>BEDAV</Point>
-      <Point>HK406</Point>
-    </Label>
-  </Map>
   <Map Type="System2" Name="21 STARs" Priority="1" CustomColourName="ProcArr" Center="-42.707764+170.992069">
     <Line>
       <!--Rwy21 BELE2B-->
@@ -114,36 +85,6 @@
       <Point>AGTUR</Point>
       <Point>MAKOS</Point>
       <Point>EKVIL</Point>
-    </Label>
-  </Map>
-  <Map Type="System2" Name="21 RNP" Priority="1" Center="-42.707764+170.992069" CustomColourName="ProcArr">
-    <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>HK21T</Point>
-    </Symbol>
-    <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>AGTUR</Point>
-      <Point>EKVIL</Point>
-    </Symbol>
-    <!--FAF Symbols-->
-    <Symbol Type="MalteseCross">
-      <Point>HK407</Point>
-    </Symbol>
-    <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>MAKOS</Point>
-    </Symbol>
-    <Line Pattern="Solid">MAKOS/HK407/HK21T/-424227.950+1705931.448</Line>
-    <Line Pattern="Solid">AGTUR/MAKOS</Line>
-    <Line Pattern="Solid">EKVIL/MAKOS</Line>
-  </Map>
-  <Map Type="System2" Name="21 RNP Labels" Priority="1" Center="-42.707764+170.992069" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>AGTUR</Point>
-      <Point>EKVIL</Point>
-      <Point>HK407</Point>
-      <Point>MAKOS</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-42.713611+170.985278">

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System2" Name="05R SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.006656+174.805742">
     <Line Pattern="Dashed">
@@ -600,11 +600,6 @@
     <Symbol Type="HollowTriangle">
       <Point>UGRUS</Point>
       <Point>AA05R</Point>
-      <Point>SADOS</Point>
-      <Point>QUINA</Point>
-      <Point>NIPAS</Point>
-      <Point>IBOKI</Point>
-      <Point>AA509</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
@@ -613,26 +608,15 @@
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>FF05R</Point>
-      <Point>LAMEL</Point>
-      <Point>PORAR</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>VIRIS</Point>
-      <Point>ATAMA</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">LENGU/UGRUS/FF05R/AA05R/-370058.741+1744614.819</Line>
-    <Line Pattern="Solid">VIRIS/SADOS/QUINA/NIPAS/LAMEL/IBOKI/AA05R</Line>
-    <Line Pattern="Solid">ATAMA/PORAR/AA509/AA05R</Line>
   </Map>
   <Map Type="System2" Name="05R RNP Labels" Priority="1" Center="-37.016317+174.770783" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>LENGU</Point>
       <Point>FF05R</Point>
-      <Point>LAMEL</Point>
-      <Point>PORAR</Point>
-      <Point>VIRIS</Point>
-      <Point>ATAMA</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="05R RNP-AR" Priority="1" Center="-37.016317+174.770783" CustomColourName="ProcArr">
@@ -1277,69 +1261,23 @@
     <Symbol Type="HollowTriangle">
       <Point>ORESO</Point>
       <Point>AA23L</Point>
-      <Point>BUBKU</Point>
-      <Point>AA412</Point>
-      <Point>AA407</Point>
-      <Point>AA411</Point>
-      <Point>AA521</Point>
-      <Point>AA428</Point>
-      <Point>AA516</Point>
-      <Point>AA513</Point>
-      <Point>LOSGA</Point>
-      <Point>LAGUT</Point>
-      <Point>GOBOB</Point>
-      <Point>ESMON</Point>
-      <Point>AKROV</Point>
-      <Point>AA409</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>EMRAG</Point>
-      <Point>KETOB</Point>
-      <Point>ZORBA</Point>
-      <Point>TEVUC</Point>
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>FF23L</Point>
-      <Point>TEGIK</Point>
-      <Point>TUSLO</Point>
-      <Point>DUNAD</Point>
-      <Point>NOKAM</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>AA427</Point>
-      <Point>VABTI</Point>
-      <Point>SUBUN</Point>
-      <Point>KIDAG</Point>
-      <Point>ESNAX</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">EMRAG/ORESO/FF23L/AA23L/-370023.962+1744820.671</Line>
-    <Line Pattern="Solid">AA427/BUBKU/AA412/TEGIK/AA23L</Line>
-    <Line Pattern="Solid">KETOB/AA407/AA427</Line>
-    <Line Pattern="Solid">ZORBA/AA411/AA407</Line>
-    <Line Pattern="Solid">VABTI/AA521/AA428/AA516/TUSLO/AA23L</Line>
-    <Line Pattern="Solid">TEVUC/SUBUN/AA513/AA412</Line>
-    <Line Pattern="Solid">KIDAG/LOSGA/LAGUT/GOBOB/ESMON/AKROV/DUNAD/AA23L</Line>
-    <Line Pattern="Solid">ESNAX/NOKAM/AA409/AA23L</Line>
   </Map>
   <Map Type="System2" Name="23L RNP Labels" Priority="1" Center="-37.006656+174.805742" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>EMRAG</Point>
-      <Point>KETOB</Point>
-      <Point>ZORBA</Point>
-      <Point>TEVUC</Point>
       <Point>FF23L</Point>
-      <Point>TEGIK</Point>
-      <Point>TUSLO</Point>
-      <Point>DUNAD</Point>
-      <Point>NOKAM</Point>
-      <Point>AA427</Point>
-      <Point>VABTI</Point>
-      <Point>SUBUN</Point>
-      <Point>KIDAG</Point>
-      <Point>ESNAX</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="23L RNP-AR" Priority="1" Center="-37.006656+174.805742" CustomColourName="ProcArr">
@@ -1383,7 +1321,7 @@
       <Point>ESNAX</Point>
     </Symbol>
     <Line Pattern="Solid">AA427/BUBKU/AA412/TEGIK/AA23L/-370023.962+1744820.671</Line>
-    <Line Pattern="Solid">KETOB/AA407/AA427/AA427</Line>
+    <Line Pattern="Solid">KETOB/AA407/AA427</Line>
     <Line Pattern="Solid">ZORBA/AA411/AA407</Line>
     <Line Pattern="Solid">VABTI/AA521/AA428/AA516/TUSLO/AA23L</Line>
     <Line Pattern="Solid">TEVUC/SUBUN/AA513/AA412</Line>

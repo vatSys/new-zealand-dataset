@@ -70,39 +70,6 @@
       <Point>BOBIT</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="09 RNP" Priority="1" Center="-40.202656+175.374253" CustomColourName="ProcArr">
-    <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>OH09T</Point>
-    </Symbol>
-    <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>BOBIT</Point>
-      <Point>DOTGO</Point>
-      <Point>LELUK</Point>
-    </Symbol>
-    <!--FAF Symbols-->
-    <Symbol Type="MalteseCross">
-      <Point>NIVOD</Point>
-    </Symbol>
-    <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>NUTGO</Point>
-    </Symbol>
-    <Line Pattern="Solid">NUTGO/NIVOD/OH09T/-401209.562+1752227.311</Line>
-    <Line Pattern="Solid">BOBIT/NUTGO</Line>
-    <Line Pattern="Solid">DOTGO/NUTGO</Line>
-    <Line Pattern="Solid">LELUK/NUTGO</Line>
-  </Map>
-  <Map Type="System2" Name="09 RNP Labels" Priority="1" Center="-40.202656+175.374253" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>BOBIT</Point>
-      <Point>DOTGO</Point>
-      <Point>LELUK</Point>
-      <Point>NIVOD</Point>
-      <Point>NUTGO</Point>
-    </Label>
-  </Map>
   <Map Type="System2" Name="27 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.202656+175.374253">
     <Line Pattern="Dashed">
       <!--Rwy27 ENGO2P-->
@@ -201,66 +168,6 @@
       <Point>PEDBA</Point>
       <Point>SAKOG</Point>
       <Point>LUXUL</Point>
-    </Label>
-  </Map>
-  <Map Type="System2" Name="15 RNP" Priority="1" Center="-40.199731+175.386006" CustomColourName="ProcArr">
-    <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>OH15T</Point>
-    </Symbol>
-    <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>ADKIS</Point>
-      <Point>BOBIT</Point>
-    </Symbol>
-    <!--FAF Symbols-->
-    <Symbol Type="MalteseCross">
-      <Point>DOXIN</Point>
-    </Symbol>
-    <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>GUPIL</Point>
-    </Symbol>
-    <Line Pattern="Solid">GUPIL/DOXIN/OH15T/-401159.032+1752309.622</Line>
-    <Line Pattern="Solid">ADKIS/GUPIL</Line>
-    <Line Pattern="Solid">BOBIT/GUPIL</Line>
-  </Map>
-  <Map Type="System2" Name="15 RNP Labels" Priority="1" Center="-40.199731+175.386006" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>ADKIS</Point>
-      <Point>BOBIT</Point>
-      <Point>DOXIN</Point>
-      <Point>GUPIL</Point>
-    </Label>
-  </Map>
-  <Map Type="System2" Name="33 RNP" Priority="1" Center="-40.217264+175.390464" CustomColourName="ProcArr">
-    <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>OH33T</Point>
-    </Symbol>
-    <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>NOBED</Point>
-      <Point>VARNO</Point>
-    </Symbol>
-    <!--FAF Symbols-->
-    <Symbol Type="MalteseCross">
-      <Point>VELSU</Point>
-    </Symbol>
-    <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>SOSLA</Point>
-    </Symbol>
-    <Line Pattern="Solid">SOSLA/VELSU/OH33T/-401302.150+1752325.670</Line>
-    <Line Pattern="Solid">NOBED/SOSLA</Line>
-    <Line Pattern="Solid">VARNO/SOSLA</Line>
-  </Map>
-  <Map Type="System2" Name="33 RNP Labels" Priority="1" Center="-40.217264+175.390464" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>NOBED</Point>
-      <Point>VARNO</Point>
-      <Point>VELSU</Point>
-      <Point>SOSLA</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-40.206667+175.386944">

@@ -110,37 +110,6 @@
       <Point>GUMAN</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="17 RNP" Priority="1" Center="-38.734717+176.086950" CustomColourName="ProcArr">
-    <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>AP701</Point>
-      <Point>AP17T</Point>
-    </Symbol>
-    <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>GUMAN</Point>
-      <Point>KALGO</Point>
-    </Symbol>
-    <!--FAF Symbols-->
-    <Symbol Type="MalteseCross">
-      <Point>OLSEK</Point>
-    </Symbol>
-    <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>AP706</Point>
-    </Symbol>
-    <Line Pattern="Solid">AP706/OLSEK/AP701/AP17T/-384404.981+1760513.020</Line>
-    <Line Pattern="Solid">GUMAN/AP706</Line>
-    <Line Pattern="Solid">KALGO/AP706</Line>
-  </Map>
-  <Map Type="System2" Name="17 RNP Labels" Priority="1" Center="-38.734717+176.086950" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>GUMAN</Point>
-      <Point>KALGO</Point>
-      <Point>OLSEK</Point>
-      <Point>AP706</Point>
-    </Label>
-  </Map>
   <Map Type="System2" Name="35 SIDs" Priority="1" CustomColourName="ProcDep" Center="-38.734717+176.086950">
     <Line Pattern="Dashed">
       <!--Rwy35 MOKAI4-->
@@ -247,40 +216,6 @@
       <Point>SULFA</Point>
       <Point>EMSAR</Point>
       <Point>AKABA</Point>
-    </Label>
-  </Map>
-  <Map Type="System2" Name="35 RNP" Priority="1" Center="-38.746789+176.082844" CustomColourName="ProcArr">
-    <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>AP501</Point>
-      <Point>AP35T</Point>
-    </Symbol>
-    <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>AKABA</Point>
-      <Point>EMSAR</Point>
-      <Point>MASKU</Point>
-    </Symbol>
-    <!--FAF Symbols-->
-    <Symbol Type="MalteseCross">
-      <Point>UBLUT</Point>
-    </Symbol>
-    <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>AP506</Point>
-    </Symbol>
-    <Line Pattern="Solid">AP506/UBLUT/AP501/AP35T/-384448.440+1760458.238</Line>
-    <Line Pattern="Solid">AKABA/AP506</Line>
-    <Line Pattern="Solid">EMSAR/AP506</Line>
-    <Line Pattern="Solid">MASKU/AP506</Line>
-  </Map>
-  <Map Type="System2" Name="35 RNP Labels" Priority="1" Center="-38.746789+176.082844" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>AKABA</Point>
-      <Point>EMSAR</Point>
-      <Point>MASKU</Point>
-      <Point>UBLUT</Point>
-      <Point>AP506</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-38.739722+176.084444">

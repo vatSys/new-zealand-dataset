@@ -16,34 +16,6 @@
       <Point>PANGO</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="03 RNP" Priority="1" Center="-36.658144+174.653108" CustomColourName="ProcArr">
-    <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>-36.667425+174.640756</Point>
-      <Point>NE03T</Point>
-    </Symbol>
-    <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>PANGO</Point>
-    </Symbol>
-    <!--FAF Symbols-->
-    <Symbol Type="MalteseCross">
-      <Point>RIKDI</Point>
-    </Symbol>
-    <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>LIBKO</Point>
-    </Symbol>
-    <Line Pattern="Solid">LIBKO/RIKDI/-36.667425+174.640756/NE03T/-363929.318+1743911.189</Line>
-    <Line Pattern="Solid">PANGO/LIBKO</Line>
-  </Map>
-  <Map Type="System2" Name="03 RNP Labels" Priority="1" Center="-36.658144+174.653108" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>PANGO</Point>
-      <Point>RIKDI</Point>
-      <Point>LIBKO</Point>
-    </Label>
-  </Map>
   <Map Type="System2" Name="21 STARs" Priority="1" CustomColourName="ProcArr" Center="-36.654272+174.658264">
     <Line>
       <!--Rwy21 DOST1A-->
@@ -69,32 +41,6 @@
       <Point>SF NDB</Point>
       <Point>UPLIN</Point>
       <Point>BOLOR</Point>
-    </Label>
-  </Map>
-  <Map Type="System2" Name="21 RNP" Priority="1" Center="-36.654272+174.658264" CustomColourName="ProcArr">
-    <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>NE21T</Point>
-    </Symbol>
-    <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>BOLOR</Point>
-    </Symbol>
-    <!--FAF Symbols-->
-    <Symbol Type="MalteseCross">
-      <Point>-36.597019+174.734392</Point>
-    </Symbol>
-    <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>UPLIN</Point>
-    </Symbol>
-    <Line Pattern="Solid">UPLIN/-36.597019+174.734392/NE21T/-363915.379+1743929.750</Line>
-    <Line Pattern="Solid">BOLOR/UPLIN</Line>
-  </Map>
-  <Map Type="System2" Name="21 RNP Labels" Priority="1" Center="-36.654272+174.658264" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>BOLOR</Point>
-      <Point>UPLIN</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-36.656667+174.655278">

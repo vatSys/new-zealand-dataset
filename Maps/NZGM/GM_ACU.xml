@@ -67,37 +67,6 @@
       <Point>PAKSA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="01 RNP" Priority="1" Center="-42.466061+171.187208" CustomColourName="ProcArr">
-    <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>GM483</Point>
-      <Point>GM01T</Point>
-    </Symbol>
-    <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>ELPAM</Point>
-      <Point>PAKSA</Point>
-    </Symbol>
-    <!--FAF Symbols-->
-    <Symbol Type="MalteseCross">
-      <Point>AGRIP</Point>
-    </Symbol>
-    <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>PAROA</Point>
-    </Symbol>
-    <Line Pattern="Solid">PAROA/AGRIP/GM483/GM01T/-422757.820+1711113.949</Line>
-    <Line Pattern="Solid">ELPAM/PAROA</Line>
-    <Line Pattern="Solid">PAKSA/PAROA</Line>
-  </Map>
-  <Map Type="System2" Name="01 RNP Labels" Priority="1" Center="-42.466061+171.187208" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>ELPAM</Point>
-      <Point>PAKSA</Point>
-      <Point>AGRIP</Point>
-      <Point>PAROA</Point>
-    </Label>
-  </Map>
   <Map Type="System2" Name="19 SIDs" Priority="1" CustomColourName="ProcDep" Center="-42.466061+171.187208">
     <Line Pattern="Dashed">
       <!--Rwy19 BEACH1-->
