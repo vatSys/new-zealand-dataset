@@ -45,6 +45,36 @@
       <Point>UPLIN</Point>
     </Label>
   </Map>
+  <Map Type="System2" Name="03 RNP" Priority="1" Center="-37.034575+174.969758" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>UBKEL</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>GROVE</Point>
+      <Point>WI NDB</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>AR409</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>KINGS</Point>
+    </Symbol>
+    <Line Pattern="Solid">KINGS/UBKEL/AR409/-370204.470+1745811.129</Line>
+    <Line Pattern="Solid">GROVE/KINGS</Line>
+    <Line Pattern="Solid">WI NDB/KINGS</Line>
+  </Map>
+  <Map Type="System2" Name="03 RNP Labels" Priority="1" Center="-37.034575+174.969758" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>GROVE</Point>
+      <Point>WI NDB</Point>
+      <Point>AR409</Point>
+      <Point>KINGS</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="21 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.034575+174.969758">
     <Line Pattern="Dashed">
       <!--Rwy21 ADNO2P-->

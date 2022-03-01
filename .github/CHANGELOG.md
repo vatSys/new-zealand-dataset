@@ -606,3 +606,4 @@ There aren't any changes in the ANR this cycle.
 * **fix**: RNP approaches now no longer appear in both the `RNP` and `RNP-AR` map layers - only the `RNP` layer. 
   * This also extends to each aerodrome's individual approach map layers.
 * **fix**: (SFG) Removed Threshold fixes from RNP and RNP-AR approaches. This is now performed automatically by the SFG.
+* **fix**: (SFG) Fixed a bug that meant that some `RNP` approaches weren't being rendered in the `RNP` layer, in addition to the Aerodrome folder's RNP map layers. These now show up.

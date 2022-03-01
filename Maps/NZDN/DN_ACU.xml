@@ -187,6 +187,29 @@
       <Point>AKLAR</Point>
     </Label>
   </Map>
+  <Map Type="System2" Name="03 RNP" Priority="1" Center="-45.933925+170.187472" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>OVSED</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>AGESO</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>AKLAR</Point>
+    </Symbol>
+    <Line Pattern="Solid">AKLAR/OVSED/AGESO/-455602.130+1701114.899</Line>
+  </Map>
+  <Map Type="System2" Name="03 RNP Labels" Priority="1" Center="-45.933925+170.187472" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>AGESO</Point>
+      <Point>AKLAR</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="21 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.933925+170.187472">
     <Line Pattern="Dashed">
       <!--Rwy21 AKPI2Q-->
@@ -361,6 +384,29 @@
       <Point>ADKOS</Point>
       <Point>LIBLA</Point>
       <Point>SUNGU</Point>
+      <Point>ESKAT</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="21 RNP" Priority="1" Center="-45.924378+170.207786" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>IDPON</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>BENRU</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>ESKAT</Point>
+    </Symbol>
+    <Line Pattern="Solid">ESKAT/IDPON/BENRU/-455527.761+1701228.030</Line>
+  </Map>
+  <Map Type="System2" Name="21 RNP Labels" Priority="1" Center="-45.924378+170.207786" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>BENRU</Point>
       <Point>ESKAT</Point>
     </Label>
   </Map>

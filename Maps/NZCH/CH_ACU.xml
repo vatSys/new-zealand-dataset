@@ -824,6 +824,34 @@
       <Point>AVDID</Point>
     </Label>
   </Map>
+  <Map Type="System2" Name="11 RNP" Priority="1" Center="-43.484278+172.524414" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>AVDID</Point>
+      <Point>IGLIS</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>VENKI</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>BUSKU</Point>
+    </Symbol>
+    <Line Pattern="Solid">BUSKU/VENKI/-432903.401+1723127.890</Line>
+    <Line Pattern="Solid">AVDID/BUSKU</Line>
+    <Line Pattern="Solid">IGLIS/BUSKU</Line>
+  </Map>
+  <Map Type="System2" Name="11 RNP Labels" Priority="1" Center="-43.484278+172.524414" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>AVDID</Point>
+      <Point>IGLIS</Point>
+      <Point>VENKI</Point>
+      <Point>BUSKU</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="29 SIDs" Priority="1" CustomColourName="ProcDep" Center="-43.484278+172.524414">
     <Line Pattern="Dashed">
       <!--Rwy29 KABO5R-->

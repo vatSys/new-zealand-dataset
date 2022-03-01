@@ -39,6 +39,37 @@
       <Point>AGTID</Point>
     </Label>
   </Map>
+  <Map Type="System2" Name="16 RNP" Priority="1" Center="-39.007550+177.404069" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>AGTID</Point>
+      <Point>IKIMU</Point>
+      <Point>UPSUV</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>RITPU</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>AVMEB</Point>
+    </Symbol>
+    <Line Pattern="Solid">AVMEB/RITPU/-390027.180+1772414.648</Line>
+    <Line Pattern="Solid">AGTID/AVMEB</Line>
+    <Line Pattern="Solid">IKIMU/AVMEB</Line>
+    <Line Pattern="Solid">UPSUV/AVMEB</Line>
+  </Map>
+  <Map Type="System2" Name="16 RNP Labels" Priority="1" Center="-39.007550+177.404069" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>AGTID</Point>
+      <Point>IKIMU</Point>
+      <Point>UPSUV</Point>
+      <Point>RITPU</Point>
+      <Point>AVMEB</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="34 SIDs" Priority="1" CustomColourName="ProcDep" Center="-39.007550+177.404069">
     <Line Pattern="Dashed">
       <!--Rwy34 DOMO2P-->
@@ -62,6 +93,36 @@
     <Label HasLeader="true">
       <Point>DOMON</Point>
       <Point>GOTNO</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="34 RNP" Priority="1" Center="-39.015750+177.404714" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>WO411</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>BURLY</Point>
+      <Point>OPOHO</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>WO422</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>MARKS</Point>
+    </Symbol>
+    <Line Pattern="Solid">MARKS/WO422/WO411/-390056.700+1772416.970</Line>
+    <Line Pattern="Solid">BURLY/MARKS</Line>
+    <Line Pattern="Solid">OPOHO/MARKS</Line>
+  </Map>
+  <Map Type="System2" Name="34 RNP Labels" Priority="1" Center="-39.015750+177.404714" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>BURLY</Point>
+      <Point>OPOHO</Point>
+      <Point>WO422</Point>
+      <Point>MARKS</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-39.015339+177.404181">

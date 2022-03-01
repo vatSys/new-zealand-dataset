@@ -1,5 +1,65 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
+  <Map Type="System2" Name="13 RNP" Priority="1" Center="-38.235425+175.891744" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>KARBA</Point>
+      <Point>LALAN</Point>
+      <Point>MIKER</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>-38.167164+175.830969</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>WAIPA</Point>
+    </Symbol>
+    <Line Pattern="Solid">WAIPA/-38.167164+175.830969/-381407.530+1755330.278</Line>
+    <Line Pattern="Solid">KARBA/WAIPA</Line>
+    <Line Pattern="Solid">LALAN/WAIPA</Line>
+    <Line Pattern="Solid">MIKER/WAIPA</Line>
+  </Map>
+  <Map Type="System2" Name="13 RNP Labels" Priority="1" Center="-38.235425+175.891744" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>KARBA</Point>
+      <Point>LALAN</Point>
+      <Point>MIKER</Point>
+      <Point>WAIPA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="31 RNP" Priority="1" Center="-38.241714+175.897350" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>ARIKA</Point>
+      <Point>GOSTI</Point>
+      <Point>GUMAN</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>-38.309944+175.958236</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>AMURI</Point>
+    </Symbol>
+    <Line Pattern="Solid">AMURI/-38.309944+175.958236/-381430.170+1755350.460</Line>
+    <Line Pattern="Solid">ARIKA/AMURI</Line>
+    <Line Pattern="Solid">GOSTI/AMURI</Line>
+    <Line Pattern="Solid">GUMAN/AMURI</Line>
+  </Map>
+  <Map Type="System2" Name="31 RNP Labels" Priority="1" Center="-38.241714+175.897350" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>ARIKA</Point>
+      <Point>GOSTI</Point>
+      <Point>GUMAN</Point>
+      <Point>AMURI</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-38.236667+175.892778">
     <Symbol Type="HollowSquare">
       <Point Name="ATHENREE">-372653.600+1755808.700</Point>

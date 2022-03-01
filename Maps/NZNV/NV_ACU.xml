@@ -122,6 +122,27 @@
       <Point>ESNUP</Point>
     </Label>
   </Map>
+  <Map Type="System2" Name="04 RNP" Priority="1" Center="-46.418411+168.302258" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>NILIB</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>KAGRU</Point>
+    </Symbol>
+    <Line Pattern="Solid">KAGRU/NILIB/-462506.280+1681808.129</Line>
+  </Map>
+  <Map Type="System2" Name="04 RNP Labels" Priority="1" Center="-46.418411+168.302258" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>NILIB</Point>
+      <Point>KAGRU</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="22 SIDs" Priority="1" CustomColourName="ProcDep" Center="-46.418411+168.302258">
     <Line Pattern="Dashed">
       <!--Rwy22 ADLU2Q-->
@@ -248,6 +269,27 @@
       <Point>DUNAX</Point>
       <Point>DOTLU</Point>
       <Point>LALEV</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="22 RNP" Priority="1" Center="-46.411100+168.324744" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>PALTU</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>DUNAX</Point>
+    </Symbol>
+    <Line Pattern="Solid">DUNAX/PALTU/-462439.960+1681929.078</Line>
+  </Map>
+  <Map Type="System2" Name="22 RNP Labels" Priority="1" Center="-46.411100+168.324744" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>PALTU</Point>
+      <Point>DUNAX</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-46.415000+168.320000">

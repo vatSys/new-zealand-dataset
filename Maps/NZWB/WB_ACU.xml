@@ -277,6 +277,34 @@
       <Point>LUTKA</Point>
     </Label>
   </Map>
+  <Map Type="System2" Name="24 RNP" Priority="1" Center="-41.517417+173.877906" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>ELKUB</Point>
+      <Point>WB401</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>JAMIE</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>ENPIP</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>LUTKA</Point>
+    </Symbol>
+    <Line Pattern="Solid">LUTKA/ELKUB/ENPIP/WB401/-413102.701+1735240.462</Line>
+    <Line Pattern="Solid">JAMIE/LUTKA</Line>
+  </Map>
+  <Map Type="System2" Name="24 RNP Labels" Priority="1" Center="-41.517417+173.877906" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>JAMIE</Point>
+      <Point>ENPIP</Point>
+      <Point>LUTKA</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-41.518333+173.870278">
     <Symbol Type="HollowSquare">
       <Point Name="ADELE ISLAND">-405835.800+1730405.500</Point>

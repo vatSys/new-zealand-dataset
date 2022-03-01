@@ -167,6 +167,27 @@
       <Point>WYTAK</Point>
     </Label>
   </Map>
+  <Map Type="System2" Name="03 RNP" Priority="1" Center="-36.796181+174.620886" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>MESUD</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>WYTAK</Point>
+    </Symbol>
+    <Line Pattern="Solid">WYTAK/MESUD/-364746.252+1743715.190</Line>
+  </Map>
+  <Map Type="System2" Name="03 RNP Labels" Priority="1" Center="-36.796181+174.620886" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>MESUD</Point>
+      <Point>WYTAK</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="21 SIDs" Priority="1" CustomColourName="ProcDep" Center="-36.796181+174.620886">
     <Line Pattern="Dashed">
       <!--Rwy21 WYTA1A-->
@@ -348,6 +369,27 @@
       <Point>BAYES</Point>
     </Label>
   </Map>
+  <Map Type="System2" Name="21 RNP" Priority="1" Center="-36.785153+174.639053" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>KIBIM</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>BAYES</Point>
+    </Symbol>
+    <Line Pattern="Solid">BAYES/KIBIM/-364706.551+1743820.591</Line>
+  </Map>
+  <Map Type="System2" Name="21 RNP Labels" Priority="1" Center="-36.785153+174.639053" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>KIBIM</Point>
+      <Point>BAYES</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="08 SIDs" Priority="1" CustomColourName="ProcDep" Center="-36.785733+174.641011">
     <Line Pattern="Dashed">
       <!--Rwy08 BAYE1B-->
@@ -377,6 +419,34 @@
       <Point>IGOLF</Point>
     </Label>
   </Map>
+  <Map Type="System2" Name="08 RNP" Priority="1" Center="-36.783758+174.623467" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>HALEN</Point>
+      <Point>IGOLF</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>WP801</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>MAKEE</Point>
+    </Symbol>
+    <Line Pattern="Solid">MAKEE/WP801/-364701.529+1743724.481</Line>
+    <Line Pattern="Solid">HALEN/MAKEE</Line>
+    <Line Pattern="Solid">IGOLF/MAKEE</Line>
+  </Map>
+  <Map Type="System2" Name="08 RNP Labels" Priority="1" Center="-36.783758+174.623467" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>HALEN</Point>
+      <Point>IGOLF</Point>
+      <Point>WP801</Point>
+      <Point>MAKEE</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="26 SIDs" Priority="1" CustomColourName="ProcDep" Center="-36.783758+174.623467">
     <Line Pattern="Dashed">
       <!--Rwy26 WYTA1B-->
@@ -404,6 +474,34 @@
     <Label HasLeader="true">
       <Point>AA VOR</Point>
       <Point>BAZEN</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="26 RNP" Priority="1" Center="-36.785733+174.641011" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>ABUOY</Point>
+      <Point>BAZEN</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>WP601</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>FLAXX</Point>
+    </Symbol>
+    <Line Pattern="Solid">FLAXX/WP601/-364708.639+1743827.640</Line>
+    <Line Pattern="Solid">ABUOY/FLAXX</Line>
+    <Line Pattern="Solid">BAZEN/FLAXX</Line>
+  </Map>
+  <Map Type="System2" Name="26 RNP Labels" Priority="1" Center="-36.785733+174.641011" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>ABUOY</Point>
+      <Point>BAZEN</Point>
+      <Point>WP601</Point>
+      <Point>FLAXX</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-36.787769+174.630258">

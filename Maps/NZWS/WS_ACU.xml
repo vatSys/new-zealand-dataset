@@ -42,6 +42,33 @@
       <Point>GUNOM</Point>
     </Label>
   </Map>
+  <Map Type="System2" Name="04 RNP" Priority="1" Center="-41.740281+171.572586" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>WS404</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>AVMAK</Point>
+      <Point>GUNOM</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross" />
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>BURKI</Point>
+    </Symbol>
+    <Line Pattern="Solid">BURKI/WS404/-414425.012+1713421.310</Line>
+    <Line Pattern="Solid">AVMAK/BURKI</Line>
+    <Line Pattern="Solid">GUNOM/BURKI</Line>
+  </Map>
+  <Map Type="System2" Name="04 RNP Labels" Priority="1" Center="-41.740281+171.572586" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>AVMAK</Point>
+      <Point>GUNOM</Point>
+      <Point>BURKI</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="22 STARs" Priority="1" CustomColourName="ProcArr" Center="-41.733933+171.585442">
     <Line>
       <!--Rwy22 AKSE1F-->
@@ -71,6 +98,33 @@
       <Point>ESDAK</Point>
       <Point>PILUP</Point>
       <Point>ANSIS</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="22 RNP" Priority="1" Center="-41.733933+171.585442" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>WS411</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>ANSIS</Point>
+      <Point>PILUP</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross" />
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>WS408</Point>
+    </Symbol>
+    <Line Pattern="Solid">WS408/WS411/-414402.159+1713507.591</Line>
+    <Line Pattern="Solid">ANSIS/WS408</Line>
+    <Line Pattern="Solid">PILUP/WS408</Line>
+  </Map>
+  <Map Type="System2" Name="22 RNP Labels" Priority="1" Center="-41.733933+171.585442" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>ANSIS</Point>
+      <Point>PILUP</Point>
+      <Point>WS408</Point>
     </Label>
   </Map>
 </Maps>

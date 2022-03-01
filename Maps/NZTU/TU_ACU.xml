@@ -85,6 +85,33 @@
       <Point>DOPOP</Point>
     </Label>
   </Map>
+  <Map Type="System2" Name="02 RNP" Priority="1" Center="-44.303272+171.220639" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>TU402</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>DOPOP</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>REKID</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>TU593</Point>
+    </Symbol>
+    <Line Pattern="Solid">TU593/REKID/TU402/-441811.779+1711314.300</Line>
+    <Line Pattern="Solid">DOPOP/TU593</Line>
+  </Map>
+  <Map Type="System2" Name="02 RNP Labels" Priority="1" Center="-44.303272+171.220639" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>DOPOP</Point>
+      <Point>REKID</Point>
+      <Point>TU593</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="20 SIDs" Priority="1" CustomColourName="ProcDep" Center="-44.303272+171.220639">
     <Line Pattern="Dashed">
       <!--Rwy20 MUKE1Q-->
@@ -174,6 +201,33 @@
       <Point>PORUT</Point>
       <Point>BIDNI</Point>
       <Point>LUVAB</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="20 RNP" Priority="1" Center="-44.294633+171.231261" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>SUNPA</Point>
+      <Point>BIDNI</Point>
+      <Point>LUVAB</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>EMTEP</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle" />
+    <Line Pattern="Solid">SUNPA/EMTEP/-441740.679+1711352.540</Line>
+    <Line Pattern="Solid">BIDNI/SUNPA</Line>
+    <Line Pattern="Solid">LUVAB/SUNPA</Line>
+  </Map>
+  <Map Type="System2" Name="20 RNP Labels" Priority="1" Center="-44.294633+171.231261" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>SUNPA</Point>
+      <Point>BIDNI</Point>
+      <Point>LUVAB</Point>
+      <Point>EMTEP</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-44.302778+171.225278">
