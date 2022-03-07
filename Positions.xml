@@ -556,7 +556,7 @@
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Gisbourne Tower" Type="ASD" DefaultCenter="-383948.000+1775842.000" DefaultRange="200" MagneticVariation="-21">
+    <Position Name="Gisborne Tower" Type="ASD" DefaultCenter="-383948.000+1775842.000" DefaultRange="200" MagneticVariation="-21">
       <Sectors>
         <Sector Name="TGS" />
       </Sectors>
@@ -580,7 +580,7 @@
         <Airport Name="NZGS" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Gisbourne Tower - ATIS 126.400</Line>
+        <Line>Gisborne Tower - ATIS 126.400</Line>
         <Line>Procedural service to 9,500ft</Line>
         <Line>Need local charts? - vats.im/nz/charts</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>

@@ -152,7 +152,7 @@
     <Lat>-39.467245</Lat>
     <Long>176.869768055556</Long>
   </Radar>
-  <Radar Name="Gisbourne SMR/ADSB" Type="ADSB" Elevation="15" MaxRange="4">
+  <Radar Name="Gisborne SMR/ADSB" Type="ADSB" Elevation="15" MaxRange="4">
     <Lat>-38.6619580555556</Lat>
     <Long>177.979128888889</Long>
   </Radar>

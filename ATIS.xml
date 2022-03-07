@@ -24,9 +24,9 @@
 
   <Translations>
     <Translation String="NZAA" Spoken="Auckland" />
-    <Translation String="NZWP" Spoken="Whenuapai" />
+    <Translation String="NZWP" Spoken="Fin-nua-pie" /><!-- -->
     <Translation String="NZHN" Spoken="Hamilton" />
-    <Translation String="NZTG" Spoken="Tauranga" />
+    <Translation String="NZTG" Spoken="tow-rahng-uh" /> <!-- -->
     <Translation String="NZRO" Spoken="Rotorua" />
     <Translation String="NZGS" Spoken="Gisborne" />
     <Translation String="NZNP" Spoken="New Plymouth" />
@@ -34,10 +34,10 @@
     <Translation String="NZOH" Spoken="Ohakea" />
     <Translation String="NZPM" Spoken="Palmerston North" />
     <Translation String="NZWN" Spoken="Wellington" />
-    <Translation String="NZWB" Spoken="Woodbourne" />
+    <Translation String="NZWB" Spoken="Wood burn" />
     <Translation String="NZNS" Spoken="Nelson" />
     <Translation String="NZCH" Spoken="Christchurch" />
-    <Translation String="NZDN" Spoken="Dunedin" />
+    <Translation String="NZDN" Spoken="duhn-e-din" />
     <Translation String="NZQN" Spoken="Queenstown" />
     <Translation String="NZNV" Spoken="Invercargill" />
 
