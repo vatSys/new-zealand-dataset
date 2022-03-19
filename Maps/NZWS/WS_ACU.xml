@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="04 STARs" Priority="1" CustomColourName="ProcArr" Center="-41.740256+171.572608">
+  <Map Type="System2" Name="04 STARs" Priority="1" CustomColourName="ProcArr" Center="-41.740281+171.572586">
     <Line>
       <!--Rwy04 AKSE1E-->
       AKSEM/AREDU/KAKOM/AVMAK
@@ -42,7 +42,7 @@
       <Point>GUNOM</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="04 RNP" Priority="1" Center="-41.740256+171.572608" CustomColourName="ProcArr">
+  <Map Type="System2" Name="04 RNP" Priority="1" Center="-41.740281+171.572586" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>WS404</Point>
@@ -58,18 +58,18 @@
     <Symbol Type="SolidTriangle">
       <Point>BURKI</Point>
     </Symbol>
-    <Line Pattern="Solid">BURKI/WS404/-414424.922+1713421.389</Line>
+    <Line Pattern="Solid">BURKI/WS404/-414425.012+1713421.310</Line>
     <Line Pattern="Solid">AVMAK/BURKI</Line>
     <Line Pattern="Solid">GUNOM/BURKI</Line>
   </Map>
-  <Map Type="System2" Name="04 RNP Labels" Priority="1" Center="-41.740256+171.572608" CustomColourName="ProcArr">
+  <Map Type="System2" Name="04 RNP Labels" Priority="1" Center="-41.740281+171.572586" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>AVMAK</Point>
       <Point>GUNOM</Point>
       <Point>BURKI</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="22 STARs" Priority="1" CustomColourName="ProcArr" Center="-41.733908+171.585467">
+  <Map Type="System2" Name="22 STARs" Priority="1" CustomColourName="ProcArr" Center="-41.733933+171.585442">
     <Line>
       <!--Rwy22 AKSE1F-->
       AKSEM/WS501/PILUP
@@ -100,7 +100,7 @@
       <Point>ANSIS</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="22 RNP" Priority="1" Center="-41.733908+171.585467" CustomColourName="ProcArr">
+  <Map Type="System2" Name="22 RNP" Priority="1" Center="-41.733933+171.585442" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>WS411</Point>
@@ -116,11 +116,11 @@
     <Symbol Type="SolidTriangle">
       <Point>WS408</Point>
     </Symbol>
-    <Line Pattern="Solid">WS408/WS411/-414402.069+1713507.681</Line>
+    <Line Pattern="Solid">WS408/WS411/-414402.159+1713507.591</Line>
     <Line Pattern="Solid">ANSIS/WS408</Line>
     <Line Pattern="Solid">PILUP/WS408</Line>
   </Map>
-  <Map Type="System2" Name="22 RNP Labels" Priority="1" Center="-41.733908+171.585467" CustomColourName="ProcArr">
+  <Map Type="System2" Name="22 RNP Labels" Priority="1" Center="-41.733933+171.585442" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>ANSIS</Point>
       <Point>PILUP</Point>
