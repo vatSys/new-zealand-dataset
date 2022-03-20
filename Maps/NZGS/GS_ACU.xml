@@ -126,9 +126,7 @@
   </Map>
   <Map Type="System2" Name="14 RNP" Priority="1" Center="-38.658300+177.974975" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>GS14T</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>CREEK</Point>
@@ -144,7 +142,7 @@
     <Symbol Type="SolidTriangle">
       <Point>RUGRU</Point>
     </Symbol>
-    <Line Pattern="Solid">RUGRU/SALEK/GS14T/-383929.880+1775829.910</Line>
+    <Line Pattern="Solid">RUGRU/SALEK/-383929.880+1775829.910</Line>
     <Line Pattern="Solid">CREEK/RUGRU</Line>
     <Line Pattern="Solid">EWOOD/RUGRU</Line>
     <Line Pattern="Solid">OTOKO/RUGRU</Line>
@@ -276,9 +274,7 @@
   </Map>
   <Map Type="System2" Name="32 RNP" Priority="1" Center="-38.669686+177.979039" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>GS32T</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>COOKS</Point>
@@ -292,7 +288,7 @@
     <Symbol Type="SolidTriangle">
       <Point>KOPUA</Point>
     </Symbol>
-    <Line Pattern="Solid">KOPUA/VESAV/GS32T/-384010.870+1775844.540</Line>
+    <Line Pattern="Solid">KOPUA/VESAV/-384010.870+1775844.540</Line>
     <Line Pattern="Solid">COOKS/KOPUA</Line>
     <Line Pattern="Solid">UKLIP/KOPUA</Line>
   </Map>

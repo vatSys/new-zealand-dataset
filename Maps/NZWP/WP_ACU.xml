@@ -169,9 +169,7 @@
   </Map>
   <Map Type="System2" Name="03 RNP" Priority="1" Center="-36.796181+174.620886" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>WP03T</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--FAF Symbols-->
@@ -182,7 +180,7 @@
     <Symbol Type="SolidTriangle">
       <Point>WYTAK</Point>
     </Symbol>
-    <Line Pattern="Solid">WYTAK/MESUD/WP03T/-364746.252+1743715.190</Line>
+    <Line Pattern="Solid">WYTAK/MESUD/-364746.252+1743715.190</Line>
   </Map>
   <Map Type="System2" Name="03 RNP Labels" Priority="1" Center="-36.796181+174.620886" CustomColourName="ProcArr">
     <Label HasLeader="true">
@@ -373,9 +371,7 @@
   </Map>
   <Map Type="System2" Name="21 RNP" Priority="1" Center="-36.785153+174.639053" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>WP21T</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--FAF Symbols-->
@@ -386,7 +382,7 @@
     <Symbol Type="SolidTriangle">
       <Point>BAYES</Point>
     </Symbol>
-    <Line Pattern="Solid">BAYES/KIBIM/WP21T/-364706.551+1743820.591</Line>
+    <Line Pattern="Solid">BAYES/KIBIM/-364706.551+1743820.591</Line>
   </Map>
   <Map Type="System2" Name="21 RNP Labels" Priority="1" Center="-36.785153+174.639053" CustomColourName="ProcArr">
     <Label HasLeader="true">
@@ -425,9 +421,7 @@
   </Map>
   <Map Type="System2" Name="08 RNP" Priority="1" Center="-36.783758+174.623467" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>WP08T</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>HALEN</Point>
@@ -441,7 +435,7 @@
     <Symbol Type="SolidTriangle">
       <Point>MAKEE</Point>
     </Symbol>
-    <Line Pattern="Solid">MAKEE/WP801/WP08T/-364701.529+1743724.481</Line>
+    <Line Pattern="Solid">MAKEE/WP801/-364701.529+1743724.481</Line>
     <Line Pattern="Solid">HALEN/MAKEE</Line>
     <Line Pattern="Solid">IGOLF/MAKEE</Line>
   </Map>
@@ -484,9 +478,7 @@
   </Map>
   <Map Type="System2" Name="26 RNP" Priority="1" Center="-36.785733+174.641011" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>WP26T</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>ABUOY</Point>
@@ -500,7 +492,7 @@
     <Symbol Type="SolidTriangle">
       <Point>FLAXX</Point>
     </Symbol>
-    <Line Pattern="Solid">FLAXX/WP601/WP26T/-364708.639+1743827.640</Line>
+    <Line Pattern="Solid">FLAXX/WP601/-364708.639+1743827.640</Line>
     <Line Pattern="Solid">ABUOY/FLAXX</Line>
     <Line Pattern="Solid">BAZEN/FLAXX</Line>
   </Map>

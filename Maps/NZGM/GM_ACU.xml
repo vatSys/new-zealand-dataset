@@ -71,7 +71,6 @@
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>GM483</Point>
-      <Point>GM01T</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
@@ -86,7 +85,7 @@
     <Symbol Type="SolidTriangle">
       <Point>PAROA</Point>
     </Symbol>
-    <Line Pattern="Solid">PAROA/AGRIP/GM483/GM01T/-422757.820+1711113.949</Line>
+    <Line Pattern="Solid">PAROA/AGRIP/GM483/-422757.820+1711113.949</Line>
     <Line Pattern="Solid">ELPAM/PAROA</Line>
     <Line Pattern="Solid">PAKSA/PAROA</Line>
   </Map>

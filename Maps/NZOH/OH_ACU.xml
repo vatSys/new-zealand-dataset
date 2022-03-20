@@ -72,9 +72,7 @@
   </Map>
   <Map Type="System2" Name="09 RNP" Priority="1" Center="-40.202656+175.374253" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>OH09T</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>BOBIT</Point>
@@ -89,7 +87,7 @@
     <Symbol Type="SolidTriangle">
       <Point>NUTGO</Point>
     </Symbol>
-    <Line Pattern="Solid">NUTGO/NIVOD/OH09T/-401209.562+1752227.311</Line>
+    <Line Pattern="Solid">NUTGO/NIVOD/-401209.562+1752227.311</Line>
     <Line Pattern="Solid">BOBIT/NUTGO</Line>
     <Line Pattern="Solid">DOTGO/NUTGO</Line>
     <Line Pattern="Solid">LELUK/NUTGO</Line>
@@ -193,8 +191,8 @@
       <Point>SAKOG</Point>
       <Point>LUXUL</Point>
     </Symbol>
-    <Line Pattern="Solid">SAKOG/PEDBA/OH27T/-401233.728+1752359.122</Line>
-    <Line Pattern="Solid">LUXUL/PEDBA</Line>
+    <Line Pattern="Solid">SAKOG/PEDBA/-401233.728+1752359.122</Line>
+    <Line Pattern="Solid">LUXUL/PEDBA/OH27T/-401233.728+1752359.122</Line>
   </Map>
   <Map Type="System2" Name="27 RNP Labels" Priority="1" Center="-40.209369+175.399756" CustomColourName="ProcArr">
     <Label HasLeader="true">
@@ -205,9 +203,7 @@
   </Map>
   <Map Type="System2" Name="15 RNP" Priority="1" Center="-40.199731+175.386006" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>OH15T</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>ADKIS</Point>
@@ -221,7 +217,7 @@
     <Symbol Type="SolidTriangle">
       <Point>GUPIL</Point>
     </Symbol>
-    <Line Pattern="Solid">GUPIL/DOXIN/OH15T/-401159.032+1752309.622</Line>
+    <Line Pattern="Solid">GUPIL/DOXIN/-401159.032+1752309.622</Line>
     <Line Pattern="Solid">ADKIS/GUPIL</Line>
     <Line Pattern="Solid">BOBIT/GUPIL</Line>
   </Map>
@@ -235,9 +231,7 @@
   </Map>
   <Map Type="System2" Name="33 RNP" Priority="1" Center="-40.217264+175.390464" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>OH33T</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>NOBED</Point>
@@ -251,7 +245,7 @@
     <Symbol Type="SolidTriangle">
       <Point>SOSLA</Point>
     </Symbol>
-    <Line Pattern="Solid">SOSLA/VELSU/OH33T/-401302.150+1752325.670</Line>
+    <Line Pattern="Solid">SOSLA/VELSU/-401302.150+1752325.670</Line>
     <Line Pattern="Solid">NOBED/SOSLA</Line>
     <Line Pattern="Solid">VARNO/SOSLA</Line>
   </Map>

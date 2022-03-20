@@ -64,29 +64,28 @@
   </Map>
   <Map Type="System2" Name="26 RNP" Priority="1" Center="-45.534492+167.662997" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>MO26T</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>GULAN</Point>
       <Point>ALDEV</Point>
       <Point>ENSOV</Point>
     </Symbol>
     <!--FAF Symbols-->
-    <Symbol Type="MalteseCross" />
-    <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>GULAN</Point>
+    <Symbol Type="MalteseCross">
+      <Point>-45.557250+167.813570</Point>
     </Symbol>
-    <Line Pattern="Solid">GULAN/MO26T/-453204.171+1673946.789</Line>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle" />
+    <Line Pattern="Solid">GULAN/-45.557250+167.813570/-453204.171+1673946.789</Line>
     <Line Pattern="Solid">ALDEV/GULAN</Line>
     <Line Pattern="Solid">ENSOV/GULAN</Line>
   </Map>
   <Map Type="System2" Name="26 RNP Labels" Priority="1" Center="-45.534492+167.662997" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>GULAN</Point>
       <Point>ALDEV</Point>
       <Point>ENSOV</Point>
-      <Point>GULAN</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-45.533056+167.650000">

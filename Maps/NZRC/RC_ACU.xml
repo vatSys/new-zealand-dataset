@@ -16,9 +16,7 @@
   </Map>
   <Map Type="System2" Name="22 RNP" Priority="1" Center="-46.898461+168.104856" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>NZRC</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>SEBSA</Point>
@@ -29,7 +27,7 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">SEBSA/ANGEB/RC401/NZRC/-465354.460+1680617.482</Line>
+    <Line Pattern="Solid">SEBSA/ANGEB/RC401/-465354.460+1680617.482</Line>
   </Map>
   <Map Type="System2" Name="22 RNP Labels" Priority="1" Center="-46.898461+168.104856" CustomColourName="ProcArr">
     <Label HasLeader="true">

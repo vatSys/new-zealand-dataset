@@ -22,6 +22,7 @@
 ### 2022 Releases
 - [AIRAC 2201](#airac-2201)
 - [AIRAC 2202](#airac-2202)
+- [AIRAC 2203](#airac-2203)
 
 ## AIRAC 2013
 
@@ -530,7 +531,7 @@ Very small update this cycle, as there hasn't been many changes to the AIP. Most
 
 #### **ANR Updates**
 
-There aren't any changed in the ANR this cycle.
+There aren't any changes in the ANR this cycle.
 
 *Note*: The closure of Loburn Abbey (NZLA) will be amended into the AIP in Cycle 2202.
 
@@ -590,3 +591,19 @@ There have been some significant changes to the Sector File Generator tool this 
 ### Revision B
 
 This revision fixes some Auckland SID resequencing that was missed in Revision A. 
+
+
+## AIRAC 2203
+
+#### Revision A (Initial)
+
+#### **ANR Updates**
+
+There aren't any changes in the ANR this cycle.
+
+#### **Dataset Updates**
+
+* **fix**: RNP approaches now no longer appear in both the `RNP` and `RNP-AR` map layers - only the `RNP` layer. 
+  * This also extends to each aerodrome's individual approach map layers.
+* **fix**: (SFG) Removed Threshold fixes from RNP and RNP-AR approaches. This is now performed automatically by the SFG.
+* **fix**: (SFG) Fixed a bug that meant that some `RNP` approaches weren't being rendered in the `RNP` layer, in addition to the Aerodrome folder's RNP map layers. These now show up.

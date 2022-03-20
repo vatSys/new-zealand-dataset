@@ -73,8 +73,8 @@
   <Map Type="System2" Name="06 RNP" Priority="1" Center="-40.975867+175.627550" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>MS603</Point>
       <Point>MS818</Point>
-      <Point>MS06T</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
@@ -85,16 +85,13 @@
       <Point>MS488</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>MS603</Point>
-    </Symbol>
-    <Line Pattern="Solid">MAMOD/MS603/MS488/MS818/MS06T/-405833.121+1753739.180</Line>
+    <Symbol Type="SolidTriangle" />
+    <Line Pattern="Solid">MAMOD/MS603/MS488/MS818/-405833.121+1753739.180</Line>
   </Map>
   <Map Type="System2" Name="06 RNP Labels" Priority="1" Center="-40.975867+175.627550" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>MAMOD</Point>
       <Point>MS488</Point>
-      <Point>MS603</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="24 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.975867+175.627550">
@@ -171,7 +168,6 @@
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>MS572</Point>
-      <Point>MS24T</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
@@ -186,7 +182,7 @@
     <Symbol Type="SolidTriangle">
       <Point>SADUN</Point>
     </Symbol>
-    <Line Pattern="Solid">SADUN/MS402/MS572/MS24T/-405825.039+1753825.969</Line>
+    <Line Pattern="Solid">SADUN/MS402/MS572/-405825.039+1753825.969</Line>
     <Line Pattern="Solid">ATVOX/SADUN</Line>
     <Line Pattern="Solid">URDAL/SADUN</Line>
   </Map>

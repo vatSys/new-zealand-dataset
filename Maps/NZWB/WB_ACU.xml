@@ -282,7 +282,6 @@
     <Symbol Type="HollowTriangle">
       <Point>ELKUB</Point>
       <Point>WB401</Point>
-      <Point>WB24T</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
@@ -296,7 +295,7 @@
     <Symbol Type="SolidTriangle">
       <Point>LUTKA</Point>
     </Symbol>
-    <Line Pattern="Solid">LUTKA/ELKUB/ENPIP/WB401/WB24T/-413102.701+1735240.462</Line>
+    <Line Pattern="Solid">LUTKA/ELKUB/ENPIP/WB401/-413102.701+1735240.462</Line>
     <Line Pattern="Solid">JAMIE/LUTKA</Line>
   </Map>
   <Map Type="System2" Name="24 RNP Labels" Priority="1" Center="-41.517417+173.877906" CustomColourName="ProcArr">

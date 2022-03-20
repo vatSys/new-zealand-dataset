@@ -26,9 +26,7 @@
   </Map>
   <Map Type="System2" Name="11 RNP" Priority="1" Center="-39.959772+175.018042" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>WU11T</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>AVLOR</Point>
@@ -42,7 +40,7 @@
     <Symbol Type="SolidTriangle">
       <Point>DUDED</Point>
     </Symbol>
-    <Line Pattern="Solid">DUDED/-39.914692+174.940081/WU11T/-395735.179+1750104.951</Line>
+    <Line Pattern="Solid">DUDED/-39.914692+174.940081/-395735.179+1750104.951</Line>
     <Line Pattern="Solid">AVLOR/DUDED</Line>
     <Line Pattern="Solid">BUPKA/DUDED</Line>
   </Map>
@@ -79,9 +77,7 @@
   </Map>
   <Map Type="System2" Name="29 RNP" Priority="1" Center="-39.967169+175.030853" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>WU29T</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>ADGAT</Point>
@@ -95,7 +91,7 @@
     <Symbol Type="SolidTriangle">
       <Point>BASEP</Point>
     </Symbol>
-    <Line Pattern="Solid">BASEP/BUSBI/WU29T/-395801.808+1750151.071</Line>
+    <Line Pattern="Solid">BASEP/BUSBI/-395801.808+1750151.071</Line>
     <Line Pattern="Solid">ADGAT/BASEP</Line>
     <Line Pattern="Solid">BELVO/BASEP</Line>
   </Map>

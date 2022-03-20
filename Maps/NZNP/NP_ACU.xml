@@ -166,9 +166,7 @@
   </Map>
   <Map Type="System2" Name="05 RNP" Priority="1" Center="-39.010447+174.170067" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>NP05T</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--FAF Symbols-->
@@ -179,7 +177,7 @@
     <Symbol Type="SolidTriangle">
       <Point>VARMA</Point>
     </Symbol>
-    <Line Pattern="Solid">VARMA/LUTUX/NP05T/-390037.609+1741012.241</Line>
+    <Line Pattern="Solid">VARMA/LUTUX/-390037.609+1741012.241</Line>
   </Map>
   <Map Type="System2" Name="05 RNP Labels" Priority="1" Center="-39.010447+174.170067" CustomColourName="ProcArr">
     <Label HasLeader="true">
@@ -453,9 +451,7 @@
   </Map>
   <Map Type="System2" Name="23 RNP" Priority="1" Center="-39.005644+174.183889" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>NP23T</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--FAF Symbols-->
@@ -466,7 +462,7 @@
     <Symbol Type="SolidTriangle">
       <Point>UPDAL</Point>
     </Symbol>
-    <Line Pattern="Solid">UPDAL/DOVED/NP23T/-390020.318+1741102.000</Line>
+    <Line Pattern="Solid">UPDAL/DOVED/-390020.318+1741102.000</Line>
   </Map>
   <Map Type="System2" Name="23 RNP Labels" Priority="1" Center="-39.005644+174.183889" CustomColourName="ProcArr">
     <Label HasLeader="true">

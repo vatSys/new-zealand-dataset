@@ -41,9 +41,7 @@
   </Map>
   <Map Type="System2" Name="16 RNP" Priority="1" Center="-39.007550+177.404069" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>WO16T</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>AGTID</Point>
@@ -58,7 +56,7 @@
     <Symbol Type="SolidTriangle">
       <Point>AVMEB</Point>
     </Symbol>
-    <Line Pattern="Solid">AVMEB/RITPU/WO16T/-390027.180+1772414.648</Line>
+    <Line Pattern="Solid">AVMEB/RITPU/-390027.180+1772414.648</Line>
     <Line Pattern="Solid">AGTID/AVMEB</Line>
     <Line Pattern="Solid">IKIMU/AVMEB</Line>
     <Line Pattern="Solid">UPSUV/AVMEB</Line>
@@ -101,7 +99,6 @@
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>WO411</Point>
-      <Point>WO34T</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
@@ -116,7 +113,7 @@
     <Symbol Type="SolidTriangle">
       <Point>MARKS</Point>
     </Symbol>
-    <Line Pattern="Solid">MARKS/WO422/WO411/WO34T/-390056.700+1772416.970</Line>
+    <Line Pattern="Solid">MARKS/WO422/WO411/-390056.700+1772416.970</Line>
     <Line Pattern="Solid">BURLY/MARKS</Line>
     <Line Pattern="Solid">OPOHO/MARKS</Line>
   </Map>

@@ -191,7 +191,6 @@
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>OVSED</Point>
-      <Point>DN03T</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
@@ -203,7 +202,7 @@
     <Symbol Type="SolidTriangle">
       <Point>AKLAR</Point>
     </Symbol>
-    <Line Pattern="Solid">AKLAR/OVSED/AGESO/DN03T/-455602.130+1701114.899</Line>
+    <Line Pattern="Solid">AKLAR/OVSED/AGESO/-455602.130+1701114.899</Line>
   </Map>
   <Map Type="System2" Name="03 RNP Labels" Priority="1" Center="-45.933925+170.187472" CustomColourName="ProcArr">
     <Label HasLeader="true">
@@ -392,7 +391,6 @@
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>IDPON</Point>
-      <Point>DN21T</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
@@ -404,7 +402,7 @@
     <Symbol Type="SolidTriangle">
       <Point>ESKAT</Point>
     </Symbol>
-    <Line Pattern="Solid">ESKAT/IDPON/BENRU/DN21T/-455527.761+1701228.030</Line>
+    <Line Pattern="Solid">ESKAT/IDPON/BENRU/-455527.761+1701228.030</Line>
   </Map>
   <Map Type="System2" Name="21 RNP Labels" Priority="1" Center="-45.924378+170.207786" CustomColourName="ProcArr">
     <Label HasLeader="true">

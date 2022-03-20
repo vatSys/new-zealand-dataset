@@ -2,9 +2,7 @@
 <Maps>
   <Map Type="System2" Name="13 RNP" Priority="1" Center="-38.235425+175.891744" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>TO13T</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>KARBA</Point>
@@ -19,7 +17,7 @@
     <Symbol Type="SolidTriangle">
       <Point>WAIPA</Point>
     </Symbol>
-    <Line Pattern="Solid">WAIPA/-38.167164+175.830969/TO13T/-381407.530+1755330.278</Line>
+    <Line Pattern="Solid">WAIPA/-38.167164+175.830969/-381407.530+1755330.278</Line>
     <Line Pattern="Solid">KARBA/WAIPA</Line>
     <Line Pattern="Solid">LALAN/WAIPA</Line>
     <Line Pattern="Solid">MIKER/WAIPA</Line>
@@ -34,9 +32,7 @@
   </Map>
   <Map Type="System2" Name="31 RNP" Priority="1" Center="-38.241714+175.897350" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>TO31T</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>ARIKA</Point>
@@ -51,7 +47,7 @@
     <Symbol Type="SolidTriangle">
       <Point>AMURI</Point>
     </Symbol>
-    <Line Pattern="Solid">AMURI/-38.309944+175.958236/TO31T/-381430.170+1755350.460</Line>
+    <Line Pattern="Solid">AMURI/-38.309944+175.958236/-381430.170+1755350.460</Line>
     <Line Pattern="Solid">ARIKA/AMURI</Line>
     <Line Pattern="Solid">GOSTI/AMURI</Line>
     <Line Pattern="Solid">GUMAN/AMURI</Line>

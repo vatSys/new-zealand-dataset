@@ -124,9 +124,7 @@
   </Map>
   <Map Type="System2" Name="04 RNP" Priority="1" Center="-46.418411+168.302258" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>NV04T</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--FAF Symbols-->
@@ -137,7 +135,7 @@
     <Symbol Type="SolidTriangle">
       <Point>KAGRU</Point>
     </Symbol>
-    <Line Pattern="Solid">KAGRU/NILIB/NV04T/-462506.280+1681808.129</Line>
+    <Line Pattern="Solid">KAGRU/NILIB/-462506.280+1681808.129</Line>
   </Map>
   <Map Type="System2" Name="04 RNP Labels" Priority="1" Center="-46.418411+168.302258" CustomColourName="ProcArr">
     <Label HasLeader="true">
@@ -275,9 +273,7 @@
   </Map>
   <Map Type="System2" Name="22 RNP" Priority="1" Center="-46.411100+168.324744" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>NV22T</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--FAF Symbols-->
@@ -288,7 +284,7 @@
     <Symbol Type="SolidTriangle">
       <Point>DUNAX</Point>
     </Symbol>
-    <Line Pattern="Solid">DUNAX/PALTU/NV22T/-462439.960+1681929.078</Line>
+    <Line Pattern="Solid">DUNAX/PALTU/-462439.960+1681929.078</Line>
   </Map>
   <Map Type="System2" Name="22 RNP Labels" Priority="1" Center="-46.411100+168.324744" CustomColourName="ProcArr">
     <Label HasLeader="true">

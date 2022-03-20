@@ -70,7 +70,6 @@
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>WR601</Point>
-      <Point>WR06T</Point>
       <Point>WR431</Point>
       <Point>WR983</Point>
     </Symbol>
@@ -87,7 +86,7 @@
       <Point>OMANA</Point>
       <Point>BIRAX</Point>
     </Symbol>
-    <Line Pattern="Solid">OMANA/ADKES/WR601/WR06T/-354611.550+1742128.170</Line>
+    <Line Pattern="Solid">OMANA/ADKES/WR601/-354611.550+1742128.170</Line>
     <Line Pattern="Solid">SF NDB/DUDAP/WR431/-354611.550+1742128.170</Line>
     <Line Pattern="Solid">BIRAX/MONSU/WR983/-354611.550+1742128.170</Line>
   </Map>

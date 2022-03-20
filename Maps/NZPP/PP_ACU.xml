@@ -104,7 +104,6 @@
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>PP414</Point>
-      <Point>PP16T</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
@@ -118,7 +117,7 @@
     <Symbol Type="SolidTriangle">
       <Point>NOKIX</Point>
     </Symbol>
-    <Line Pattern="Solid">NOKIX/PP411/PP414/PP16T/-405404.540+1745916.530</Line>
+    <Line Pattern="Solid">NOKIX/PP411/PP414/-405404.540+1745916.530</Line>
     <Line Pattern="Solid">ENBAR/NOKIX</Line>
   </Map>
   <Map Type="System2" Name="16 RNP Labels" Priority="1" Center="-40.901261+174.987925" CustomColourName="ProcArr">
@@ -239,7 +238,6 @@
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>PP421</Point>
-      <Point>PP34T</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
@@ -254,7 +252,7 @@
     <Symbol Type="SolidTriangle">
       <Point>LEVBI</Point>
     </Symbol>
-    <Line Pattern="Solid">LEVBI/TAXEV/PP421/PP34T/-405438.311+1745916.552</Line>
+    <Line Pattern="Solid">LEVBI/TAXEV/PP421/-405438.311+1745916.552</Line>
     <Line Pattern="Solid">DABGU/LEVBI</Line>
     <Line Pattern="Solid">NILID/LEVBI</Line>
   </Map>

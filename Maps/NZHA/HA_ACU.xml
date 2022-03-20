@@ -2,9 +2,7 @@
 <Maps>
   <Map Type="System2" Name="32 RNP" Priority="1" Center="-39.557828+174.269719" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>HA32T</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>NUKTO</Point>
@@ -18,7 +16,7 @@
     <Symbol Type="SolidTriangle">
       <Point>WAPOU</Point>
     </Symbol>
-    <Line Pattern="Solid">WAPOU/HA906/HA32T/-393328.181+1741610.988</Line>
+    <Line Pattern="Solid">WAPOU/HA906/-393328.181+1741610.988</Line>
     <Line Pattern="Solid">NUKTO/WAPOU</Line>
     <Line Pattern="Solid">UPVOK/WAPOU</Line>
   </Map>

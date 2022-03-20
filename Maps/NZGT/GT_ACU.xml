@@ -16,9 +16,7 @@
   </Map>
   <Map Type="System2" Name="15 RNP" Priority="1" Center="-43.906092+170.127750" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>GT403</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>MAMUS</Point>
@@ -31,7 +29,7 @@
     <Symbol Type="SolidTriangle">
       <Point>ATMAS</Point>
     </Symbol>
-    <Line Pattern="Solid">ATMAS/IDPAX/GT403/-435421.931+1700739.900</Line>
+    <Line Pattern="Solid">ATMAS/IDPAX/-435421.931+1700739.900</Line>
     <Line Pattern="Solid">MAMUS/ATMAS</Line>
   </Map>
   <Map Type="System2" Name="15 RNP Labels" Priority="1" Center="-43.906092+170.127750" CustomColourName="ProcArr">

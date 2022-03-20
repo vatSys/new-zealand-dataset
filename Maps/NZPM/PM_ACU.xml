@@ -241,11 +241,10 @@
   </Map>
   <Map Type="System2" Name="07 RNP" Priority="1" Center="-40.319864+175.604869" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>PM07T</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>GUTNI</Point>
       <Point>AKNIN</Point>
       <Point>NIRUB</Point>
     </Symbol>
@@ -254,19 +253,17 @@
       <Point>LERSO</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>GUTNI</Point>
-    </Symbol>
-    <Line Pattern="Solid">GUTNI/LERSO/PM07T/-401911.510+1753617.528</Line>
+    <Symbol Type="SolidTriangle" />
+    <Line Pattern="Solid">GUTNI/LERSO/-401911.510+1753617.528</Line>
     <Line Pattern="Solid">AKNIN/GUTNI</Line>
     <Line Pattern="Solid">NIRUB/GUTNI</Line>
   </Map>
   <Map Type="System2" Name="07 RNP Labels" Priority="1" Center="-40.319864+175.604869" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>GUTNI</Point>
       <Point>AKNIN</Point>
       <Point>NIRUB</Point>
       <Point>LERSO</Point>
-      <Point>GUTNI</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="25 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.319864+175.604869">
@@ -520,47 +517,36 @@
   </Map>
   <Map Type="System2" Name="25 RNP" Priority="1" Center="-40.319836+175.624669" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>PM25T</Point>
-      <Point>PM482</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>UVUSI</Point>
       <Point>BIDEK</Point>
       <Point>NIKIP</Point>
-      <Point>LEKED</Point>
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>IVREP</Point>
-      <Point>DANLU</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>UVUSI</Point>
-      <Point>SEKNI</Point>
-    </Symbol>
-    <Line Pattern="Solid">UVUSI/IVREP/PM25T/-401911.410+1753728.808</Line>
+    <Symbol Type="SolidTriangle" />
+    <Line Pattern="Solid">UVUSI/IVREP/-401911.410+1753728.808</Line>
     <Line Pattern="Solid">BIDEK/UVUSI</Line>
     <Line Pattern="Solid">NIKIP/UVUSI</Line>
-    <Line Pattern="Solid">LEKED/SEKNI/DANLU/PM482/PM25T</Line>
   </Map>
   <Map Type="System2" Name="25 RNP Labels" Priority="1" Center="-40.319836+175.624669" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>UVUSI</Point>
       <Point>BIDEK</Point>
       <Point>NIKIP</Point>
-      <Point>LEKED</Point>
       <Point>IVREP</Point>
-      <Point>DANLU</Point>
-      <Point>UVUSI</Point>
-      <Point>SEKNI</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="25 RNP-AR" Priority="1" Center="-40.319836+175.624669" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>SEKNI</Point>
       <Point>PM482</Point>
-      <Point>PM25T</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
@@ -571,16 +557,13 @@
       <Point>DANLU</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>SEKNI</Point>
-    </Symbol>
-    <Line Pattern="Solid">LEKED/SEKNI/DANLU/PM482/PM25T/-401911.410+1753728.808</Line>
+    <Symbol Type="SolidTriangle" />
+    <Line Pattern="Solid">LEKED/SEKNI/DANLU/PM482/-401911.410+1753728.808</Line>
   </Map>
   <Map Type="System2" Name="25 RNP-AR Labels" Priority="1" Center="-40.319836+175.624669" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>LEKED</Point>
       <Point>DANLU</Point>
-      <Point>SEKNI</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-40.320556+175.616944">

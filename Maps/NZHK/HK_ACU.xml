@@ -44,9 +44,7 @@
   </Map>
   <Map Type="System2" Name="03 RNP" Priority="1" Center="-42.713394+170.980258" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>HK03T</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>KARVO</Point>
@@ -59,7 +57,7 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">KARVO/HK406/HK03T/-424248.218+1705848.929</Line>
+    <Line Pattern="Solid">KARVO/HK406/-424248.218+1705848.929</Line>
     <Line Pattern="Solid">ANDEP/KARVO</Line>
     <Line Pattern="Solid">BEDAV/KARVO</Line>
   </Map>
@@ -118,9 +116,7 @@
   </Map>
   <Map Type="System2" Name="21 RNP" Priority="1" Center="-42.707764+170.992069" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>HK21T</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>AGTUR</Point>
@@ -134,7 +130,7 @@
     <Symbol Type="SolidTriangle">
       <Point>MAKOS</Point>
     </Symbol>
-    <Line Pattern="Solid">MAKOS/HK407/HK21T/-424227.950+1705931.448</Line>
+    <Line Pattern="Solid">MAKOS/HK407/-424227.950+1705931.448</Line>
     <Line Pattern="Solid">AGTUR/MAKOS</Line>
     <Line Pattern="Solid">EKVIL/MAKOS</Line>
   </Map>

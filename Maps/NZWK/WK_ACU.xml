@@ -19,9 +19,7 @@
   </Map>
   <Map Type="System2" Name="09 RNP" Priority="1" Center="-37.919939+176.909972" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>WK09T</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>LAVIS</Point>
@@ -34,7 +32,7 @@
     <Symbol Type="SolidTriangle">
       <Point>ELBEV</Point>
     </Symbol>
-    <Line Pattern="Solid">ELBEV/WK401/WK09T/-375511.780+1765435.899</Line>
+    <Line Pattern="Solid">ELBEV/WK401/-375511.780+1765435.899</Line>
     <Line Pattern="Solid">LAVIS/ELBEV</Line>
   </Map>
   <Map Type="System2" Name="09 RNP Labels" Priority="1" Center="-37.919939+176.909972" CustomColourName="ProcArr">
@@ -128,9 +126,7 @@
   </Map>
   <Map Type="System2" Name="27 RNP" Priority="1" Center="-37.924317+176.923450" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>WK27T</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>POTOP</Point>
@@ -143,7 +139,7 @@
     <Symbol Type="SolidTriangle">
       <Point>REGAT</Point>
     </Symbol>
-    <Line Pattern="Solid">REGAT/WK402/WK27T/-375527.541+1765524.420</Line>
+    <Line Pattern="Solid">REGAT/WK402/-375527.541+1765524.420</Line>
     <Line Pattern="Solid">POTOP/REGAT</Line>
   </Map>
   <Map Type="System2" Name="27 RNP Labels" Priority="1" Center="-37.924317+176.923450" CustomColourName="ProcArr">

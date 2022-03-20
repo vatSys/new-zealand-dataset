@@ -65,7 +65,6 @@
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>WT423</Point>
-      <Point>NZWT</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
@@ -80,7 +79,7 @@
     <Symbol Type="SolidTriangle">
       <Point>UGSAP</Point>
     </Symbol>
-    <Line Pattern="Solid">UGSAP/VETUM/WT423/NZWT/-364956.302+1754034.741</Line>
+    <Line Pattern="Solid">UGSAP/VETUM/WT423/-364956.302+1754034.741</Line>
     <Line Pattern="Solid">IGOVU/UGSAP</Line>
     <Line Pattern="Solid">OLVOL/UGSAP</Line>
   </Map>
@@ -131,7 +130,6 @@
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>WT423</Point>
-      <Point>NZWT</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
@@ -146,7 +144,7 @@
     <Symbol Type="SolidTriangle">
       <Point>UGSAP</Point>
     </Symbol>
-    <Line Pattern="Solid">UGSAP/VETUM/WT423/NZWT/-364932.250+1754118.780</Line>
+    <Line Pattern="Solid">UGSAP/VETUM/WT423/-364932.250+1754118.780</Line>
     <Line Pattern="Solid">IGOVU/UGSAP</Line>
     <Line Pattern="Solid">OLVOL/UGSAP</Line>
   </Map>
@@ -197,7 +195,6 @@
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>WT423</Point>
-      <Point>NZWT</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
@@ -212,7 +209,7 @@
     <Symbol Type="SolidTriangle">
       <Point>UGSAP</Point>
     </Symbol>
-    <Line Pattern="Solid">UGSAP/VETUM/WT423/NZWT/-364931.570+1754047.730</Line>
+    <Line Pattern="Solid">UGSAP/VETUM/WT423/-364931.570+1754047.730</Line>
     <Line Pattern="Solid">IGOVU/UGSAP</Line>
     <Line Pattern="Solid">OLVOL/UGSAP</Line>
   </Map>
@@ -263,7 +260,6 @@
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>WT423</Point>
-      <Point>NZWT</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
@@ -278,7 +274,7 @@
     <Symbol Type="SolidTriangle">
       <Point>UGSAP</Point>
     </Symbol>
-    <Line Pattern="Solid">UGSAP/VETUM/WT423/NZWT/-364952.342+1754048.749</Line>
+    <Line Pattern="Solid">UGSAP/VETUM/WT423/-364952.342+1754048.749</Line>
     <Line Pattern="Solid">IGOVU/UGSAP</Line>
     <Line Pattern="Solid">OLVOL/UGSAP</Line>
   </Map>

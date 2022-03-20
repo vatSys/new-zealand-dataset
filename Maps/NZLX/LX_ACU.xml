@@ -52,9 +52,7 @@
   </Map>
   <Map Type="System2" Name="01 RNP" Priority="1" Center="-45.213739+169.368483" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>LX407</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>BESMO</Point>
@@ -68,7 +66,7 @@
     <Symbol Type="SolidTriangle">
       <Point>LUGDU</Point>
     </Symbol>
-    <Line Pattern="Solid">LUGDU/PORUT/LX407/-451249.460+1692206.539</Line>
+    <Line Pattern="Solid">LUGDU/PORUT/-451249.460+1692206.539</Line>
     <Line Pattern="Solid">BESMO/LUGDU</Line>
     <Line Pattern="Solid">KAKIT/LUGDU</Line>
   </Map>
@@ -132,9 +130,7 @@
   </Map>
   <Map Type="System2" Name="19 RNP" Priority="1" Center="-45.209167+169.372058" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>LX407</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>BESMO</Point>
@@ -148,7 +144,7 @@
     <Symbol Type="SolidTriangle">
       <Point>LUGDU</Point>
     </Symbol>
-    <Line Pattern="Solid">LUGDU/PORUT/LX407/-451233.000+1692219.409</Line>
+    <Line Pattern="Solid">LUGDU/PORUT/-451233.000+1692219.409</Line>
     <Line Pattern="Solid">BESMO/LUGDU</Line>
     <Line Pattern="Solid">KAKIT/LUGDU</Line>
   </Map>
@@ -212,9 +208,7 @@
   </Map>
   <Map Type="System2" Name="14 RNP" Priority="1" Center="-45.206325+169.368986" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>LX407</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>BESMO</Point>
@@ -228,7 +222,7 @@
     <Symbol Type="SolidTriangle">
       <Point>LUGDU</Point>
     </Symbol>
-    <Line Pattern="Solid">LUGDU/PORUT/LX407/-451222.770+1692208.350</Line>
+    <Line Pattern="Solid">LUGDU/PORUT/-451222.770+1692208.350</Line>
     <Line Pattern="Solid">BESMO/LUGDU</Line>
     <Line Pattern="Solid">KAKIT/LUGDU</Line>
   </Map>
@@ -292,9 +286,7 @@
   </Map>
   <Map Type="System2" Name="32 RNP" Priority="1" Center="-45.216444+169.374331" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>LX407</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>BESMO</Point>
@@ -308,7 +300,7 @@
     <Symbol Type="SolidTriangle">
       <Point>LUGDU</Point>
     </Symbol>
-    <Line Pattern="Solid">LUGDU/PORUT/LX407/-451259.198+1692227.592</Line>
+    <Line Pattern="Solid">LUGDU/PORUT/-451259.198+1692227.592</Line>
     <Line Pattern="Solid">BESMO/LUGDU</Line>
     <Line Pattern="Solid">KAKIT/LUGDU</Line>
   </Map>

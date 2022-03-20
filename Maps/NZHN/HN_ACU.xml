@@ -350,57 +350,43 @@
   </Map>
   <Map Type="System2" Name="18L RNP" Priority="1" Center="-37.855806+175.336172" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>HN18L</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>LAXOD</Point>
-      <Point>ISPOT</Point>
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>TAYLA</Point>
-      <Point>VATNA</Point>
     </Symbol>
-    <Line Pattern="Solid">TAYLA/LAXOD/HN18L/-375120.902+1752010.219</Line>
-    <Line Pattern="Solid">VATNA/ISPOT/HN18L</Line>
+    <Line Pattern="Solid">TAYLA/LAXOD/-375120.902+1752010.219</Line>
   </Map>
   <Map Type="System2" Name="18L RNP Labels" Priority="1" Center="-37.855806+175.336172" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>LAXOD</Point>
-      <Point>ISPOT</Point>
       <Point>TAYLA</Point>
-      <Point>VATNA</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="18L RNP-AR" Priority="1" Center="-37.855806+175.336172" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>HN18L</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>LAXOD</Point>
       <Point>ISPOT</Point>
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
-      <Point>TAYLA</Point>
       <Point>VATNA</Point>
     </Symbol>
-    <Line Pattern="Solid">TAYLA/LAXOD/HN18L/-375120.902+1752010.219</Line>
-    <Line Pattern="Solid">VATNA/ISPOT/HN18L</Line>
+    <Line Pattern="Solid">VATNA/ISPOT/-375120.902+1752010.219</Line>
   </Map>
   <Map Type="System2" Name="18L RNP-AR Labels" Priority="1" Center="-37.855806+175.336172" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>LAXOD</Point>
       <Point>ISPOT</Point>
-      <Point>TAYLA</Point>
       <Point>VATNA</Point>
     </Label>
   </Map>
@@ -756,9 +742,7 @@
   </Map>
   <Map Type="System2" Name="36R RNP" Priority="1" Center="-37.873650+175.329706" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>HN36R</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--FAF Symbols-->
@@ -771,8 +755,8 @@
       <Point>BUDEN</Point>
       <Point>GUNDA</Point>
     </Symbol>
-    <Line Pattern="Solid">BUDEN/NITAK/HN36R/-375225.140+1751946.942</Line>
-    <Line Pattern="Solid">GUNDA/IKERI/HN36R</Line>
+    <Line Pattern="Solid">BUDEN/NITAK/-375225.140+1751946.942</Line>
+    <Line Pattern="Solid">GUNDA/IKERI/-375225.140+1751946.942</Line>
   </Map>
   <Map Type="System2" Name="36R RNP Labels" Priority="1" Center="-37.873650+175.329706" CustomColourName="ProcArr">
     <Label HasLeader="true">

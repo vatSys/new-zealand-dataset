@@ -106,10 +106,10 @@
     <Symbol Type="HollowTriangle">
       <Point>PILAD</Point>
       <Point>SAGEM</Point>
-      <Point>WF29T</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>KAKVA</Point>
       <Point>ARIGU</Point>
       <Point>PASMU</Point>
       <Point>SUPIM</Point>
@@ -117,20 +117,18 @@
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross" />
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>KAKVA</Point>
-    </Symbol>
-    <Line Pattern="Solid">KAKVA/PILAD/SAGEM/WF29T/-444334.000+1691505.000</Line>
+    <Symbol Type="SolidTriangle" />
+    <Line Pattern="Solid">KAKVA/PILAD/SAGEM/-444334.000+1691505.000</Line>
     <Line Pattern="Solid">ARIGU/KAKVA</Line>
     <Line Pattern="Solid">PASMU/KAKVA</Line>
     <Line Pattern="Solid">SUPIM/KAKVA</Line>
   </Map>
   <Map Type="System2" Name="29 RNP Labels" Priority="1" Center="-44.726111+169.251389" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>KAKVA</Point>
       <Point>ARIGU</Point>
       <Point>PASMU</Point>
       <Point>SUPIM</Point>
-      <Point>KAKVA</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-44.722222+169.245556">

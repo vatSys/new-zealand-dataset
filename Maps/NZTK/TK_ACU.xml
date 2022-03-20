@@ -3,8 +3,8 @@
   <Map Type="System2" Name="18 RNP" Priority="1" Center="-40.811181+172.777531" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>TK401</Point>
       <Point>TK407</Point>
-      <Point>TK18T</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
@@ -15,16 +15,13 @@
       <Point>BENVU</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>TK401</Point>
-    </Symbol>
-    <Line Pattern="Solid">MARKO/TK401/BENVU/TK407/TK18T/-404840.252+1724639.112</Line>
+    <Symbol Type="SolidTriangle" />
+    <Line Pattern="Solid">MARKO/TK401/BENVU/TK407/-404840.252+1724639.112</Line>
   </Map>
   <Map Type="System2" Name="18 RNP Labels" Priority="1" Center="-40.811181+172.777531" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>MARKO</Point>
       <Point>BENVU</Point>
-      <Point>TK401</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-40.813417+172.776056">

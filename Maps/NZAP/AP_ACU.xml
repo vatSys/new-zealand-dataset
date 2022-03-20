@@ -114,7 +114,6 @@
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>AP701</Point>
-      <Point>AP17T</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
@@ -129,7 +128,7 @@
     <Symbol Type="SolidTriangle">
       <Point>AP706</Point>
     </Symbol>
-    <Line Pattern="Solid">AP706/OLSEK/AP701/AP17T/-384404.981+1760513.020</Line>
+    <Line Pattern="Solid">AP706/OLSEK/AP701/-384404.981+1760513.020</Line>
     <Line Pattern="Solid">GUMAN/AP706</Line>
     <Line Pattern="Solid">KALGO/AP706</Line>
   </Map>
@@ -253,7 +252,6 @@
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>AP501</Point>
-      <Point>AP35T</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
@@ -269,7 +267,7 @@
     <Symbol Type="SolidTriangle">
       <Point>AP506</Point>
     </Symbol>
-    <Line Pattern="Solid">AP506/UBLUT/AP501/AP35T/-384448.440+1760458.238</Line>
+    <Line Pattern="Solid">AP506/UBLUT/AP501/-384448.440+1760458.238</Line>
     <Line Pattern="Solid">AKABA/AP506</Line>
     <Line Pattern="Solid">EMSAR/AP506</Line>
     <Line Pattern="Solid">MASKU/AP506</Line>
