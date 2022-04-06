@@ -23,6 +23,7 @@
 - [AIRAC 2201](#airac-2201)
 - [AIRAC 2202](#airac-2202)
 - [AIRAC 2203](#airac-2203)
+- [AIRAC 2204](#airac-2204)
 
 ## AIRAC 2013
 
@@ -595,7 +596,7 @@ This revision fixes some Auckland SID resequencing that was missed in Revision A
 
 ## AIRAC 2203
 
-#### Revision A (Initial)
+### Revision A (Initial)
 
 #### **ANR Updates**
 
@@ -607,3 +608,17 @@ There aren't any changes in the ANR this cycle.
   * This also extends to each aerodrome's individual approach map layers.
 * **fix**: (SFG) Removed Threshold fixes from RNP and RNP-AR approaches. This is now performed automatically by the SFG.
 * **fix**: (SFG) Fixed a bug that meant that some `RNP` approaches weren't being rendered in the `RNP` layer, in addition to the Aerodrome folder's RNP map layers. These now show up.
+
+
+## AIRAC 2204
+
+### Revision A (Initial)
+
+#### **ANR Updates**
+
+* Slight amendments to the FAF for RNAV Z, both RWY 05R/23L.
+* Addiion of `T18`, `T22`, `T80` and `KQ461` airways.
+
+#### **Dataset Updates**
+
+None.
