@@ -209,7 +209,7 @@
         <STAR Name="BASO3B" ApproachName="RNP" />
         <STAR Name="DABC2B" ApproachName="RNP" />
         <STAR Name="EPDA2B" ApproachName="RNP" />
-        <STAR Name="MIPA3B" ApproachName="RNP" />
+        <STAR Name="MIPA2B" ApproachName="RNP" />
       </Runway>
     </Airport>
     <Airport Name="NZFI">
@@ -8066,7 +8066,7 @@ RILEY
     <STAR Name="MIPA3A" Airport="NZDN" Runways="03">
       <Route Runway="03">MIPAK/IPKUG/ADBAD/RELEK/ANBIG/BIPUV/AKLAR</Route>
     </STAR>
-    <STAR Name="MIPA3B" Airport="NZDN" Runways="21">
+    <STAR Name="MIPA2B" Airport="NZDN" Runways="21">
       <Route Runway="21">MIPAK/IPKUG/ADBAD/BIGAR/ESKAT</Route>
     </STAR>
     <STAR Name="APAS1A" Airport="NZGM" Runways="01">
