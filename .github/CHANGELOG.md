@@ -618,7 +618,11 @@ There aren't any changes in the ANR this cycle.
 
 * Slight amendments to the FAF for RNAV Z, both RWY 05R/23L.
 * Addiion of `T18`, `T22`, `T80` and `KQ461` airways.
+* Addition of a handful of new IFR fixes. Most of these are used for the above airways.
 
 #### **Dataset Updates**
 
-None.
+* **fix**: Removal of a handful of duplicate IFR waypoints.
+* **fix**: NZOH: Small fix to the RNP Y
+* **fix**: NZDN: `MIPAK3B` redesignated to the `MIPAK2B`.
+* **feat**: Addition of some background data for future features.
