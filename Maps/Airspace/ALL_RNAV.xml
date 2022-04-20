@@ -290,9 +290,13 @@
       <Point>BOBIT</Point>
       <Point>DOTGO</Point>
       <Point>LELUK</Point>
+      <Point>GUPIL</Point>
       <Point>ADKIS</Point>
+      <Point>SOSLA</Point>
       <Point>NOBED</Point>
       <Point>VARNO</Point>
+      <Point>ENDIX</Point>
+      <Point>LUXUL</Point>
       <Point>ADGOP</Point>
       <Point>EKODU</Point>
       <Point>GUTNI</Point>
@@ -346,8 +350,8 @@
       <Point>BUPKA</Point>
       <Point>ADGAT</Point>
       <Point>BELVO</Point>
-      <Point>FF05R</Point>
-      <Point>FF23L</Point>
+      <Point>IGPOL</Point>
+      <Point>UGOMU</Point>
       <Point>OLSEK</Point>
       <Point>UBLUT</Point>
       <Point>AR409</Point>
@@ -450,10 +454,6 @@
       <Point>KAGRU</Point>
       <Point>DUNAX</Point>
       <Point>NUTGO</Point>
-      <Point>GUPIL</Point>
-      <Point>SOSLA</Point>
-      <Point>SAKOG</Point>
-      <Point>LUXUL</Point>
       <Point>PAMOA</Point>
       <Point>ORBEL</Point>
       <Point>OLNAN</Point>
@@ -513,7 +513,7 @@
       <Point>-36.667425+174.640756</Point>
       <Point>-39.449436+176.869419</Point>
       <Point>ORUBA</Point>
-      <Point>OH27T</Point>
+      <Point>SAKOG</Point>
       <Point>PP414</Point>
       <Point>PP421</Point>
       <Point>TK401</Point>
@@ -598,9 +598,13 @@
       <Point>BOBIT</Point>
       <Point>DOTGO</Point>
       <Point>LELUK</Point>
+      <Point>GUPIL</Point>
       <Point>ADKIS</Point>
+      <Point>SOSLA</Point>
       <Point>NOBED</Point>
       <Point>VARNO</Point>
+      <Point>ENDIX</Point>
+      <Point>LUXUL</Point>
       <Point>ADGOP</Point>
       <Point>EKODU</Point>
       <Point>GUTNI</Point>
@@ -657,8 +661,8 @@
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>FF05R</Point>
-      <Point>FF23L</Point>
+      <Point>IGPOL</Point>
+      <Point>UGOMU</Point>
       <Point>OLSEK</Point>
       <Point>UBLUT</Point>
       <Point>AR409</Point>
@@ -776,10 +780,6 @@
       <Point>KAGRU</Point>
       <Point>DUNAX</Point>
       <Point>NUTGO</Point>
-      <Point>GUPIL</Point>
-      <Point>SOSLA</Point>
-      <Point>SAKOG</Point>
-      <Point>LUXUL</Point>
       <Point>PAMOA</Point>
       <Point>ORBEL</Point>
       <Point>OLNAN</Point>
@@ -811,8 +811,8 @@
       <Point>DUDED</Point>
       <Point>BASEP</Point>
     </Symbol>
-    <Line Pattern="Solid">LENGU/UGRUS/FF05R/-370058.741+1744614.819</Line>
-    <Line Pattern="Solid">EMRAG/ORESO/FF23L/-370023.962+1744820.671</Line>
+    <Line Pattern="Solid">LENGU/UGRUS/IGPOL/-370058.741+1744614.819</Line>
+    <Line Pattern="Solid">EMRAG/ORESO/UGOMU/-370023.962+1744820.671</Line>
     <Line Pattern="Solid">AP706/OLSEK/AP701/-384404.981+1760513.020</Line>
     <Line Pattern="Solid">GUMAN/AP706</Line>
     <Line Pattern="Solid">KALGO/AP706</Line>
@@ -927,8 +927,8 @@
     <Line Pattern="Solid">SOSLA/VELSU/-401302.150+1752325.670</Line>
     <Line Pattern="Solid">NOBED/SOSLA</Line>
     <Line Pattern="Solid">VARNO/SOSLA</Line>
-    <Line Pattern="Solid">SAKOG/PEDBA/-401233.728+1752359.122</Line>
-    <Line Pattern="Solid">LUXUL/PEDBA/OH27T/-401233.728+1752359.122</Line>
+    <Line Pattern="Solid">ENDIX/SAKOG/PEDBA/-401233.728+1752359.122</Line>
+    <Line Pattern="Solid">LUXUL/PEDBA</Line>
     <Line Pattern="Solid">PAMOA/-44.887389+171.137850/-445742.660+1710506.619</Line>
     <Line Pattern="Solid">ORBEL/-45.046594+171.025025/-445819.801+1710440.300</Line>
     <Line Pattern="Solid">OLNAN/RULVU/OX701/-360835.498+1752510.589</Line>

@@ -14,7 +14,8 @@
     <Volumes>KAI</Volumes>
     <ResponsibleSectors>CTMA</ResponsibleSectors>
   </Sector>
-  <Sector FullName="NTTT_CTR" Frequency="134.700" Callsign="NTTT_CTR" Name="DummyName" />
+  <Sector FullName="Rarotonga Control" Frequency="118.900" Callsign="NCRG_CTR" Name="RAR" />
+  <Sector FullName="Tahiti Control" Frequency="134.700" Callsign="NTTT_CTR" Name="TAH" />
   <Sector FullName="Oceanic Radar" Frequency="123.900" Callsign="NZAA_CTR" Name="OCR">
     <Volumes>OCR</Volumes>
     <ResponsibleSectors>BAY,RAN,ATMA</ResponsibleSectors>
@@ -39,6 +40,7 @@
   <Sector FullName="Mac Centre" Frequency="128.700" Callsign="NZCM_FSS" Name="MAC" />
   <Sector FullName="Melbourne Radio (Indian)" Frequency="129.250" Callsign="ML-IND_FSS" Name="IND" />
   <Sector FullName="Nadi Oceanic" Frequency="123.600" Callsign="NFFF_FSS" Name="NFFF" />
+  <Sector FullName="Auckland Radio (East)" Frequency="131.500" Callsign="NZZO-E_FSS" Name="ARE" />
   <Sector FullName="Oakland East" Frequency="131.950" Callsign="ZAK-E_FSS" Name="KZKE" />
   <Sector FullName="Oakland West" Frequency="122.500" Callsign="ZAK-W_FSS" Name="KZKW" />
   <Sector FullName="Tahiti Radio" Frequency="125.500" Callsign="NTTT_FSS" Name="TRDO" />

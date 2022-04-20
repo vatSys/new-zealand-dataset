@@ -99,7 +99,6 @@
       <Point>NZKT</Point>
       <Point>NZKU</Point>
       <Point>NZKY</Point>
-      <Point>NZLA</Point>
       <Point>NZLE</Point>
       <Point>NZLF</Point>
       <Point>NZLT</Point>
@@ -311,7 +310,6 @@
       <Point Name="KT">NZKT</Point>
       <Point Name="KU">NZKU</Point>
       <Point Name="KY">NZKY</Point>
-      <Point Name="LA">NZLA</Point>
       <Point Name="LE">NZLE</Point>
       <Point Name="LF">NZLF</Point>
       <Point Name="LT">NZLT</Point>

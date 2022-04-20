@@ -606,16 +606,16 @@
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>FF05R</Point>
+      <Point>IGPOL</Point>
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">LENGU/UGRUS/FF05R/-370058.741+1744614.819</Line>
+    <Line Pattern="Solid">LENGU/UGRUS/IGPOL/-370058.741+1744614.819</Line>
   </Map>
   <Map Type="System2" Name="05R RNP Labels" Priority="1" Center="-37.016317+174.770783" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>LENGU</Point>
-      <Point>FF05R</Point>
+      <Point>IGPOL</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="05R RNP-AR" Priority="1" Center="-37.016317+174.770783" CustomColourName="ProcArr">
@@ -1265,16 +1265,16 @@
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>FF23L</Point>
+      <Point>UGOMU</Point>
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">EMRAG/ORESO/FF23L/-370023.962+1744820.671</Line>
+    <Line Pattern="Solid">EMRAG/ORESO/UGOMU/-370023.962+1744820.671</Line>
   </Map>
   <Map Type="System2" Name="23L RNP Labels" Priority="1" Center="-37.006656+174.805742" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>EMRAG</Point>
-      <Point>FF23L</Point>
+      <Point>UGOMU</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="23L RNP-AR" Priority="1" Center="-37.006656+174.805742" CustomColourName="ProcArr">
