@@ -47,7 +47,6 @@
     <Line Name="H150_0">UKAPA.H150.SF NDB</Line>
     <Line Name="H157_0">WAIMA.H157.WB VOR</Line>
     <Line Name="H159_0">CH VOR.H159.WN VOR</Line>
-    <Line Name="H173_0">POKOM.H173.SY NDB</Line>
     <Line Name="H182_0">OH VOR.H182.WP VOR</Line>
     <Line Name="H191_0">NP VOR.H191.GS VOR</Line>
     <Line Name="H201_0">KAPTI.H201.OPAPA</Line>
@@ -55,7 +54,6 @@
     <Line Name="H211_0">NR VOR.H211.AA VOR</Line>
     <Line Name="H221_0">CH VOR.H221.WN VOR</Line>
     <Line Name="H222_0">PM VOR.H222.ARETI</Line>
-    <Line Name="H231_0">RO VOR.H231.WI NDB</Line>
     <Line Name="H234_0">RO VOR.H234.FALLS</Line>
     <Line Name="H240_0">NS VOR.H240.NR VOR</Line>
     <Line Name="H247_0">WU NDB.H247.RO VOR</Line>
@@ -66,25 +64,21 @@
     <Line Name="H275_0">SF NDB.H275.KT NDB</Line>
     <Line Name="H280_0">TARUA.H280.TG NDB</Line>
     <Line Name="H297_0">DUMOT.H297.NR VOR</Line>
-    <Line Name="H301_0">HN VOR.H301.SY NDB</Line>
     <Line Name="H310_0">AP NDB.H310.TG NDB</Line>
     <Line Name="H313_0">FOXTN.H313.AP NDB</Line>
     <Line Name="H319_0">WK NDB.H319.HN VOR</Line>
     <Line Name="H325_0">PM VOR.H325.HN VOR</Line>
     <Line Name="H328_0">GS VOR.H328.HN VOR</Line>
     <Line Name="H336_0">PM VOR.H336.RUGVI</Line>
-    <Line Name="H339_0">HN VOR.H339.WI NDB</Line>
     <Line Name="H342_0">OMDOX.H342.WB VOR</Line>
     <Line Name="H352_0">PM VOR.H352.WU NDB</Line>
     <Line Name="H364_0">WN VOR.H364.RO VOR</Line>
     <Line Name="H372_0">NR VOR.H372.AA VOR</Line>
     <Line Name="H378_0">WB VOR.H378.ELMAX</Line>
     <Line Name="H379_0">AA VOR.H379.SF NDB</Line>
-    <Line Name="H381_0">TG NDB.H381.WI NDB</Line>
     <Line Name="H384_0">NP VOR.H384.AA VOR</Line>
     <Line Name="H386_0">NR VOR.H386.GS VOR</Line>
     <Line Name="H402_0">NV VOR.H402.SW VOR</Line>
-    <Line Name="H403_0">RO VOR.H403.AA VOR</Line>
     <Line Name="H424_0">CH VOR.H424.GOOSE</Line>
     <Line Name="H429_0">PM VOR.H429.NR VOR</Line>
     <Line Name="H430_0">RUAHI.H430.NR VOR</Line>
@@ -117,8 +111,6 @@
     <Line Name="V242_0">DOGAD.V242.PM VOR</Line>
     <Line Name="V3_0">TLARP.V3.TV NDB</Line>
     <Line Name="V306_0">ATBUB.V306.WN VOR</Line>
-    <Line Name="V317_0">WI NDB.V317.LENGU</Line>
-    <Line Name="V443_0">SY NDB.V443.EMRAG</Line>
     <Line Name="V468_0">ABTOL.V468.OH VOR</Line>
     <Line Name="W104_0">NV VOR.W104.QN VOR</Line>
     <Line Name="W115_0">AP NDB.W115.AA VOR</Line>
@@ -617,8 +609,6 @@
       <Point>ATBUB</Point>
       <Point>OKODI</Point>
       <Point>KAMDO</Point>
-      <Point>POKOM</Point>
-      <Point>SY NDB</Point>
       <Point>OH VOR</Point>
       <Point>RUGVI</Point>
       <Point>UGIPO</Point>
@@ -647,7 +637,6 @@
       <Point>KI NDB</Point>
       <Point>KAMES</Point>
       <Point>RO VOR</Point>
-      <Point>WI NDB</Point>
       <Point>DALKI</Point>
       <Point>DUMOT</Point>
       <Point>MIBUS</Point>
@@ -764,8 +753,6 @@
       <Point>LIMPA</Point>
       <Point>ONOLA</Point>
       <Point>SABDA</Point>
-      <Point>LENGU</Point>
-      <Point>EMRAG</Point>
       <Point>ABTOL</Point>
       <Point>ATHOL</Point>
       <Point>KELSO</Point>
@@ -1008,6 +995,7 @@
       <Point>MALRU</Point>
       <Point>PATLI</Point>
       <Point>OTATA</Point>
+      <Point>POKOM</Point>
       <Point>DAVEE</Point>
       <Point>BROOK</Point>
       <Point>AVPOD</Point>
@@ -1415,8 +1403,6 @@
       <Point>ATBUB</Point>
       <Point>OKODI</Point>
       <Point>KAMDO</Point>
-      <Point>POKOM</Point>
-      <Point>SY NDB</Point>
       <Point>OH VOR</Point>
       <Point>RUGVI</Point>
       <Point>UGIPO</Point>
@@ -1445,7 +1431,6 @@
       <Point>KI NDB</Point>
       <Point>KAMES</Point>
       <Point>RO VOR</Point>
-      <Point>WI NDB</Point>
       <Point>DALKI</Point>
       <Point>DUMOT</Point>
       <Point>MIBUS</Point>
@@ -1562,8 +1547,6 @@
       <Point>LIMPA</Point>
       <Point>ONOLA</Point>
       <Point>SABDA</Point>
-      <Point>LENGU</Point>
-      <Point>EMRAG</Point>
       <Point>ABTOL</Point>
       <Point>ATHOL</Point>
       <Point>KELSO</Point>
@@ -1806,6 +1789,7 @@
       <Point>MALRU</Point>
       <Point>PATLI</Point>
       <Point>OTATA</Point>
+      <Point>POKOM</Point>
       <Point>DAVEE</Point>
       <Point>BROOK</Point>
       <Point>AVPOD</Point>

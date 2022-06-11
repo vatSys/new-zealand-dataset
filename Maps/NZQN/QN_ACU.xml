@@ -233,23 +233,23 @@
       <Point>QN545</Point>
     </Symbol>
     <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>IBABU</Point>
+    </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>MOPGA</Point>
       <Point>OMUBO</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>IBABU</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">IBABU/QN577/QN573/QN571/QN569/QN565/MOPGA/OMUBO/QN555/QN550/QN545/-450112.000+1684408.480</Line>
   </Map>
   <Map Type="System2" Name="05 RNP-AR Labels" Priority="1" Center="-45.020000+168.735689" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>IBABU</Point>
       <Point>MOPGA</Point>
       <Point>OMUBO</Point>
-      <Point>IBABU</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="23 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.020000+168.735689">
@@ -491,6 +491,7 @@
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>ATVUP</Point>
       <Point>ATKIL</Point>
       <Point>UGPED</Point>
     </Symbol>
@@ -499,19 +500,17 @@
       <Point>LARAV</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>ATVUP</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">ATVUP/QN760/QN755/LARAV/QN745/QN741/QN735/QN731/QN725/-450059.558+1684527.821</Line>
     <Line Pattern="Solid">ATKIL/QN780/QN775/QN770/ATVUP</Line>
     <Line Pattern="Solid">UGPED/QN779/QN774/ATVUP</Line>
   </Map>
   <Map Type="System2" Name="23 RNP-AR Labels" Priority="1" Center="-45.016544+168.757728" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>ATVUP</Point>
       <Point>ATKIL</Point>
       <Point>UGPED</Point>
       <Point>LARAV</Point>
-      <Point>ATVUP</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-45.021236+168.739247">

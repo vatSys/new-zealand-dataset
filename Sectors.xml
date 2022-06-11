@@ -14,8 +14,8 @@
     <Volumes>KAI</Volumes>
     <ResponsibleSectors>CTMA</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Rarotonga Control" Frequency="118.900" Callsign="NCRG_CTR" Name="RAR" />
-  <Sector FullName="Tahiti Control" Frequency="134.700" Callsign="NTTT_CTR" Name="TAH" />
+  <Sector FullName="NCRG_CTR" Frequency="118.900" Callsign="NCRG_CTR" Name="DummyName" />
+  <Sector FullName="NTTC_CTR" Frequency="134.700" Callsign="NTTC_CTR" Name="DummyName" />
   <Sector FullName="Oceanic Radar" Frequency="123.900" Callsign="NZAA_CTR" Name="OCR">
     <Volumes>OCR</Volumes>
     <ResponsibleSectors>BAY,RAN,ATMA</ResponsibleSectors>
@@ -33,6 +33,7 @@
     <ResponsibleSectors>OHA,TNS,WTMA</ResponsibleSectors>
   </Sector>
   <Sector FullName="Auckland Radio" Frequency="128.900" Callsign="NZZO_FSS" Name="ARO" />
+  <Sector FullName="BN-INS_FSS" Frequency="129.250" Callsign="BN-INS_FSS" Name="DummyName" />
   <Sector FullName="Brisbane Radio (Coral)" Frequency="133.150" Callsign="BN-COL_FSS" Name="COL" />
   <Sector FullName="Brisbane Radio (Flinders)" Frequency="132.850" Callsign="BN-FLD_FSS" Name="FLD" />
   <Sector FullName="Brisbane Radio (Howe)" Frequency="124.950" Callsign="BN-HWE_FSS" Name="HWE" />

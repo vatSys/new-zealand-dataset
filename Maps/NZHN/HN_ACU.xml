@@ -6,162 +6,60 @@
       -37.873650+175.329706/HN36R/BUDEN
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18L GOMU1P-->
-      HN36R/MUGIL/GOMUD
+      <!--Rwy18L MUGIL1-->
+      HN36R/MUGIL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18L GOMU1P.ATOLI-->
-      GOMUD/ATOLI
+      <!--Rwy18L MUGIL1.ATOLI-->
+      MUGIL/GOMUD/ATOLI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18L GOMU1P.ATPUL-->
-      GOMUD/RIBDA/ATPUL
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L GOMU1P.POKOM-->
-      GOMUD/POKOM
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L GOMU1P.SCARY-->
-      GOMUD/SCARY
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L GOMU1P.SKEPY-->
-      RIBDA/SKEPY
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L GOMU1R-->
-      -37.873650+175.329706/HN18L/GUNDA/GOMUD
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L GOMU1R.ATOLI-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L GOMU1R.ATPUL-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L GOMU1R.POKOM-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L GOMU1R.SCARY-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L GOMU1R.SKEPY-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L GOMU1T-->
-      HN36R/RUMET/MUGIL
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L GOMU1T.ATOLI-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L GOMU1T.ATPUL-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L GOMU1T.POKOM-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L GOMU1T.SCARY-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L GOMU1T.SKEPY-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L GUND3R-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L GUND3R.DABKA-->
-      GUNDA/DABKA
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L GUND3R.DADUK-->
-      GUNDA/DADUK
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L GUND3R.DROPT-->
-      GUNDA/DROPT
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L MUGI3P-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L MUGI3P.DABKA-->
+      <!--Rwy18L MUGIL1.DABKA-->
       MUGIL/DABKA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18L MUGI3P.DADUK-->
+      <!--Rwy18L MUGIL1.DADUK-->
       MUGIL/DADUK
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18L MUGI3P.DROPT-->
-      MUGIL/DROPT
+      <!--Rwy18L MUGIL1.MOPVU-->
+      GOMUD/RIBDA/ATPUL/MOPVU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18L RUME1T-->
+      <!--Rwy18L MUGIL1.OVSAN-->
+      GOMUD/SCARY/OVSAN
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18L RUME1T.DABKA-->
-      RUMET/DABKA
+      <!--Rwy18L MUGIL1.POKOM-->
+      GOMUD/POKOM
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18L RUME1T.DADUK-->
-      RUMET/DADUK
+      <!--Rwy18L MUGIL1.SKEPY-->
+      RIBDA/SKEPY
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18L RUME1T.DROPT-->
+      <!--Rwy18L RUMET1-->
+      HN36R/RUMET
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy18L RUMET1.DROPT-->
       RUMET/DROPT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18L SAPE3P-->
-      MUGIL/RUMET/SAPEG
+      <!--Rwy18L RUMET1.GODOK-->
+      RUMET/SAPEG/GODOK
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18L SAPE3P.GODOK-->
-      SAPEG/GODOK
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L SAPE3P.KARBA-->
+      <!--Rwy18L RUMET1.KARBA-->
       SAPEG/KARBA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18L SAPE3P.MIKER-->
+      <!--Rwy18L RUMET1.MIKER-->
       SAPEG/MIKER
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18L SAPE3P.OLDON-->
+      <!--Rwy18L RUMET1.OLDON-->
       SAPEG/OLDON
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L SAPE3R-->
-      HN36R/GUNDA/SAPEG
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L SAPE3R.GODOK-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L SAPE3R.KARBA-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L SAPE3R.MIKER-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L SAPE3R.OLDON-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L SAPE3T-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L SAPE3T.GODOK-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L SAPE3T.KARBA-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L SAPE3T.MIKER-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy18L SAPE3T.OLDON-->
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>HN36R</Point>
@@ -169,16 +67,16 @@
       <Point>MUGIL</Point>
       <Point>GOMUD</Point>
       <Point>ATOLI</Point>
-      <Point>RIBDA</Point>
-      <Point>ATPUL</Point>
-      <Point>POKOM</Point>
-      <Point>SCARY</Point>
-      <Point>SKEPY</Point>
-      <Point>HN18L</Point>
-      <Point>GUNDA</Point>
-      <Point>RUMET</Point>
       <Point>DABKA</Point>
       <Point>DADUK</Point>
+      <Point>RIBDA</Point>
+      <Point>ATPUL</Point>
+      <Point>MOPVU</Point>
+      <Point>SCARY</Point>
+      <Point>OVSAN</Point>
+      <Point>POKOM</Point>
+      <Point>SKEPY</Point>
+      <Point>RUMET</Point>
       <Point>DROPT</Point>
       <Point>SAPEG</Point>
       <Point>GODOK</Point>
@@ -188,18 +86,15 @@
     </Symbol>
     <Label HasLeader="true">
       <Point>BUDEN</Point>
-      <Point>GOMUD</Point>
-      <Point>GUNDA</Point>
       <Point>MUGIL</Point>
       <Point>RUMET</Point>
-      <Point>SAPEG</Point>
       <Point>ATOLI</Point>
-      <Point>ATPUL</Point>
-      <Point>POKOM</Point>
-      <Point>SCARY</Point>
-      <Point>SKEPY</Point>
       <Point>DABKA</Point>
       <Point>DADUK</Point>
+      <Point>MOPVU</Point>
+      <Point>OVSAN</Point>
+      <Point>POKOM</Point>
+      <Point>SKEPY</Point>
       <Point>DROPT</Point>
       <Point>GODOK</Point>
       <Point>KARBA</Point>
@@ -213,92 +108,92 @@
       ATPUL/TAYLA
     </Line>
     <Line>
-      <!--Rwy18L ATPU2C-->
+      <!--Rwy18L ATPU3C-->
       TAYLA/VATNA
     </Line>
     <Line>
-      <!--Rwy18L BUDE1A-->
+      <!--Rwy18L BUDE2A-->
       BUDEN/PASSE/KEVID/KICKE/NILUS/THROW/TAYLA
     </Line>
     <Line>
-      <!--Rwy18L BUDE2C-->
+      <!--Rwy18L BUDE3C-->
       NILUS/VATNA
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy18L KICK1A.DROPT-->
+      <!--Rwy18L KICK2A.DROPT-->
       DROPT/PASSE/KEVID/KICKE
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy18L KICK1A.GODOK-->
+      <!--Rwy18L KICK2A.GODOK-->
       GODOK/KICKE
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy18L KICK1A.HN-->
+      <!--Rwy18L KICK2A.HN-->
       HN VOR/KICKE
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy18L KICK1A.KARBA-->
+      <!--Rwy18L KICK2A.KARBA-->
       KARBA/PASSE
     </Line>
     <Line>
-      <!--Rwy18L KICK1A-->
+      <!--Rwy18L KICK2A-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy18L KICK2C.DROPT-->
+      <!--Rwy18L KICK3C.DROPT-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy18L KICK2C.GODOK-->
+      <!--Rwy18L KICK3C.GODOK-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy18L KICK2C.HN-->
+      <!--Rwy18L KICK3C.HN-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy18L KICK2C.KARBA-->
+      <!--Rwy18L KICK3C.KARBA-->
     </Line>
     <Line>
-      <!--Rwy18L KICK2C-->
+      <!--Rwy18L KICK3C-->
     </Line>
     <Line>
-      <!--Rwy18L LAKE2C-->
+      <!--Rwy18L LAKE3C-->
       LAKES/VATNA
     </Line>
     <Line>
-      <!--Rwy18L OLDO2A-->
+      <!--Rwy18L OLDO3A-->
       OLDON/NILUS
     </Line>
     <Line>
-      <!--Rwy18L OLDO3C-->
+      <!--Rwy18L OLDO4C-->
       OLDON/TONID/NILUS
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy18L YOGI1A.DABKA-->
+      <!--Rwy18L YOGI2A.DABKA-->
       DABKA/BOLOG/EKASO/YOGIT
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy18L YOGI1A.DADUK-->
+      <!--Rwy18L YOGI2A.DADUK-->
       DADUK/BOLOG
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy18L YOGI1A.POKOM-->
+      <!--Rwy18L YOGI2A.POKOM-->
       POKOM/YOGIT
     </Line>
     <Line>
-      <!--Rwy18L YOGI1A-->
+      <!--Rwy18L YOGI2A-->
       YOGIT/ADBET/CHESE/TAYLA
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy18L YOGI2C.DABKA-->
+      <!--Rwy18L YOGI3C.DABKA-->
       EKASO/ATPUL
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy18L YOGI2C.DADUK-->
+      <!--Rwy18L YOGI3C.DADUK-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy18L YOGI2C.POKOM-->
+      <!--Rwy18L YOGI3C.POKOM-->
       POKOM/ATPUL
     </Line>
     <Line>
-      <!--Rwy18L YOGI2C-->
+      <!--Rwy18L YOGI3C-->
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>TAYLA</Point>
@@ -356,231 +251,131 @@
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>LAXOD</Point>
+      <Point>ISPOT</Point>
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>TAYLA</Point>
+      <Point>VATNA</Point>
     </Symbol>
     <Line Pattern="Solid">TAYLA/LAXOD/-375120.902+1752010.219</Line>
+    <Line Pattern="Solid">VATNA/ISPOT/-375120.902+1752010.219</Line>
   </Map>
   <Map Type="System2" Name="18L RNP Labels" Priority="1" Center="-37.855806+175.336172" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>LAXOD</Point>
+      <Point>ISPOT</Point>
       <Point>TAYLA</Point>
-    </Label>
-  </Map>
-  <Map Type="System2" Name="18L RNP-AR" Priority="1" Center="-37.855806+175.336172" CustomColourName="ProcArr">
-    <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle" />
-    <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle" />
-    <!--FAF Symbols-->
-    <Symbol Type="MalteseCross">
-      <Point>ISPOT</Point>
-    </Symbol>
-    <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>VATNA</Point>
-    </Symbol>
-    <Line Pattern="Solid">VATNA/ISPOT/-375120.902+1752010.219</Line>
-  </Map>
-  <Map Type="System2" Name="18L RNP-AR Labels" Priority="1" Center="-37.855806+175.336172" CustomColourName="ProcArr">
-    <Label HasLeader="true">
-      <Point>ISPOT</Point>
       <Point>VATNA</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="36R SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.855806+175.336172">
     <Line Pattern="Dashed">
-      <!--Rwy36R AGUL2Q-->
-      -37.855806+175.336172/HN36R/HN18L/AGULA
+      <!--Rwy36R AGULA1-->
+      -37.855806+175.336172/HN18L/AGULA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy36R AGUL2Q.ATPUL-->
+      <!--Rwy36R AGULA1.ATOLI-->
+      AGULA/BEKAK/ATOLI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R AGULA1.ATPUL-->
       AGULA/ATPUL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy36R AGUL2Q.SKEPY-->
-      AGULA/SKEPY
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy36R BEKA3Q-->
-      AGULA/BEKAK
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy36R BEKA3Q.ATOLI-->
-      BEKAK/ATOLI
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy36R BEKA3Q.DABKA-->
+      <!--Rwy36R AGULA1.DABKA-->
       BEKAK/AGETO/METEN/DABKA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy36R BEKA3Q.DADUK-->
+      <!--Rwy36R AGULA1.DADUK-->
       METEN/DADUK
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy36R BEKA3Q.POKOM-->
+      <!--Rwy36R AGULA1.MOPVU-->
+      ATPUL/MOPVU
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R AGULA1.OVSAN-->
+      BEKAK/SCARY/OVSAN
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy36R AGULA1.POKOM-->
       AGETO/POKOM
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy36R BEKA3Q.SCARY-->
-      BEKAK/SCARY
+      <!--Rwy36R AGULA1.SCARY-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy36R BEKA3S-->
-      HN36R/VATNA/BEKAK
+      <!--Rwy36R AGULA1.SKEPY-->
+      AGULA/SKEPY
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy36R BEKA3S.ATOLI-->
+      <!--Rwy36R BIDKO1-->
+      HN18L/BIDKO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy36R BEKA3S.DABKA-->
+      <!--Rwy36R BIDKO1.DROPT-->
+      BIDKO/TEPOX/KAPLO/BILOK/DROPT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy36R BEKA3S.DADUK-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy36R BEKA3S.POKOM-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy36R BEKA3S.SCARY-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy36R BEKA3U-->
-      HN18L/BIDKO/AGULA
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy36R BEKA3U.ATOLI-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy36R BEKA3U.DABKA-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy36R BEKA3U.DADUK-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy36R BEKA3U.POKOM-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy36R BEKA3U.SCARY-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy36R BIDK2U-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy36R BIDK2U.ATPUL-->
-      BIDKO/ATPUL
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy36R BIDK2U.SKEPY-->
-      BIDKO/SKEPY
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy36R TAYLA2-->
-      -37.855806+175.336172/HN18L/TAYLA
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy36R TEPO4Q-->
-      AGULA/BIDKO/TEPOX
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy36R TEPO4Q.DROPT-->
-      TEPOX/KAPLO/SAPEG/BILOK/DROPT
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy36R TEPO4Q.GODOK-->
+      <!--Rwy36R BIDKO1.GODOK-->
       TEPOX/GODOK
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy36R TEPO4Q.KARBA-->
+      <!--Rwy36R BIDKO1.KARBA-->
       KAPLO/KARBA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy36R TEPO4Q.MIKER-->
+      <!--Rwy36R BIDKO1.MIKER-->
       KAPLO/MIKER
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy36R TEPO4Q.OLDON-->
+      <!--Rwy36R BIDKO1.OLDON-->
       TEPOX/OLDON
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy36R TEPO4S-->
-      VATNA/TEPOX
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy36R TEPO4S.DROPT-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy36R TEPO4S.GODOK-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy36R TEPO4S.KARBA-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy36R TEPO4S.MIKER-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy36R TEPO4S.OLDON-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy36R TEPO4U-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy36R TEPO4U.DROPT-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy36R TEPO4U.GODOK-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy36R TEPO4U.KARBA-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy36R TEPO4U.MIKER-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy36R TEPO4U.OLDON-->
+      <!--Rwy36R TAYLA2-->
+      HN18L/TAYLA
     </Line>
     <Symbol Type="HollowTriangle">
-      <Point>HN36R</Point>
       <Point>HN18L</Point>
       <Point>AGULA</Point>
-      <Point>ATPUL</Point>
-      <Point>SKEPY</Point>
       <Point>BEKAK</Point>
       <Point>ATOLI</Point>
+      <Point>ATPUL</Point>
       <Point>AGETO</Point>
       <Point>METEN</Point>
       <Point>DABKA</Point>
       <Point>DADUK</Point>
-      <Point>POKOM</Point>
+      <Point>MOPVU</Point>
       <Point>SCARY</Point>
-      <Point>VATNA</Point>
+      <Point>OVSAN</Point>
+      <Point>POKOM</Point>
+      <Point>SKEPY</Point>
       <Point>BIDKO</Point>
-      <Point>TAYLA</Point>
       <Point>TEPOX</Point>
       <Point>KAPLO</Point>
-      <Point>SAPEG</Point>
       <Point>BILOK</Point>
       <Point>DROPT</Point>
       <Point>GODOK</Point>
       <Point>KARBA</Point>
       <Point>MIKER</Point>
       <Point>OLDON</Point>
+      <Point>TAYLA</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>AGULA</Point>
-      <Point>BEKAK</Point>
       <Point>BIDKO</Point>
       <Point>TAYLA</Point>
-      <Point>TEPOX</Point>
-      <Point>ATPUL</Point>
-      <Point>SKEPY</Point>
       <Point>ATOLI</Point>
+      <Point>ATPUL</Point>
       <Point>DABKA</Point>
       <Point>DADUK</Point>
+      <Point>MOPVU</Point>
+      <Point>OVSAN</Point>
       <Point>POKOM</Point>
       <Point>SCARY</Point>
+      <Point>SKEPY</Point>
       <Point>DROPT</Point>
       <Point>GODOK</Point>
       <Point>KARBA</Point>
@@ -620,76 +415,76 @@
       DROPT/GUNDA
     </Line>
     <Line>
-      <!--Rwy36R KARB1B-->
+      <!--Rwy36R KARB2B-->
       KARBA/SUBTO/PASSE/BUDEN
     </Line>
     <Line>
-      <!--Rwy36R KARB1D-->
+      <!--Rwy36R KARB2D-->
       PASSE/GUNDA
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy36R KICK1B.GODOK-->
+      <!--Rwy36R KICK2B.GODOK-->
       GODOK/KICKE
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy36R KICK1B.HN-->
+      <!--Rwy36R KICK2B.HN-->
       HN VOR/KICKE
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy36R KICK1B.OLDON-->
+      <!--Rwy36R KICK2B.OLDON-->
       OLDON/KICKE
     </Line>
     <Line>
-      <!--Rwy36R KICK1B-->
+      <!--Rwy36R KICK2B-->
       KICKE/PASSE
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy36R KICK1D.GODOK-->
+      <!--Rwy36R KICK2D.GODOK-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy36R KICK1D.HN-->
+      <!--Rwy36R KICK2D.HN-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy36R KICK1D.OLDON-->
+      <!--Rwy36R KICK2D.OLDON-->
     </Line>
     <Line>
-      <!--Rwy36R KICK1D-->
+      <!--Rwy36R KICK2D-->
       KICKE/EGORI/GUNDA
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy36R YOGI1B.ATPUL-->
+      <!--Rwy36R YOGI2B.ATPUL-->
       ATPUL/CHESE/YOGIT
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy36R YOGI1B.LAKES-->
+      <!--Rwy36R YOGI2B.LAKES-->
       LAKES/YOGIT
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy36R YOGI1B.POKOM-->
+      <!--Rwy36R YOGI2B.POKOM-->
       POKOM/YOGIT
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy36R YOGI1B.TAYLA-->
+      <!--Rwy36R YOGI2B.TAYLA-->
       TAYLA/CHESE
     </Line>
     <Line>
-      <!--Rwy36R YOGI1B-->
+      <!--Rwy36R YOGI2B-->
       YOGIT/DAIRY/BUDEN
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy36R YOGI1D.ATPUL-->
+      <!--Rwy36R YOGI2D.ATPUL-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy36R YOGI1D.LAKES-->
+      <!--Rwy36R YOGI2D.LAKES-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy36R YOGI1D.POKOM-->
+      <!--Rwy36R YOGI2D.POKOM-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy36R YOGI1D.TAYLA-->
+      <!--Rwy36R YOGI2D.TAYLA-->
     </Line>
     <Line>
-      <!--Rwy36R YOGI1D-->
+      <!--Rwy36R YOGI2D-->
       YOGIT/BOLOG/GUNDA
     </Line>
     <Symbol Type="HollowTriangle">
