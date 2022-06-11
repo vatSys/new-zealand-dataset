@@ -2,188 +2,339 @@
 <Maps>
   <Map Type="System2" Name="03 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.027044+174.979333">
     <Line Pattern="Dashed">
-      <!--Rwy03 PATG2Q-->
-      -37.027044+174.979333/AR03T/AR21T/PATGA
+      <!--Rwy03 MERA1R-->
+      -37.027044+174.979333/BODUG/UGSIM/MERAS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy03 PATG2Q.SATLA-->
-      PATGA/URDOR/SATLA
+      <!--Rwy03 MERA1S-->
+      -37.027044+174.979333/AR21T/VEGBO/MERAS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy03 PATG2Q.SY-->
-      PATGA/SY NDB
+      <!--Rwy03 REKI1R-->
+      UGSIM/REKIS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy03 PATG2Q.UPLIN-->
-      PATGA/VIBAG/UPLIN
+      <!--Rwy03 REKI1R.LAKES-->
+      REKIS/LAKES
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy03 SY1Q-->
-      AR21T/-36.980640+175.083130/-37.076500+175.116900/SY NDB
+      <!--Rwy03 URDO1S-->
+      VEGBO/URDOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy03 SY1R-->
-      -37.027044+174.979333/HUNUA/SY NDB
+      <!--Rwy03 URDO1S.MAGEX-->
+      URDOR/MAGEX
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy03 URDO1S.SATLA-->
+      URDOR/SATLA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy03 VIBA1S-->
+      VEGBO/OSODU/VIBAG
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy03 VIBA1S.UPSAS-->
+      VIBAG/UPSAS
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy03 VIBA1S.WP-->
+      VIBAG/BAYES/WP VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy03 VIBA1S.XELAN-->
+      VIBAG/XELAN
     </Line>
     <Symbol Type="Circle">
-      <Point>SY NDB</Point>
+      <Point>WP VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
-      <Point>AR03T</Point>
+      <Point>BODUG</Point>
+      <Point>UGSIM</Point>
+      <Point>MERAS</Point>
       <Point>AR21T</Point>
-      <Point>PATGA</Point>
+      <Point>VEGBO</Point>
+      <Point>REKIS</Point>
+      <Point>LAKES</Point>
       <Point>URDOR</Point>
+      <Point>MAGEX</Point>
       <Point>SATLA</Point>
+      <Point>OSODU</Point>
       <Point>VIBAG</Point>
-      <Point>UPLIN</Point>
-      <Point>HUNUA</Point>
+      <Point>UPSAS</Point>
+      <Point>BAYES</Point>
+      <Point>XELAN</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>PATGA</Point>
-      <Point>SY NDB</Point>
+      <Point>MERAS</Point>
+      <Point>REKIS</Point>
+      <Point>URDOR</Point>
+      <Point>VIBAG</Point>
+      <Point>LAKES</Point>
+      <Point>MAGEX</Point>
       <Point>SATLA</Point>
-      <Point>UPLIN</Point>
+      <Point>UPSAS</Point>
+      <Point>WP VOR</Point>
+      <Point>XELAN</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="03 STARs" Priority="1" CustomColourName="ProcArr" Center="-37.034575+174.969758">
+    <Line>
+      <!--Rwy03 AA1F-->
+      AA VOR/RIKNA
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy03 IDON1F.MERAS-->
+      MERAS/IDONO
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy03 IDON1F.OSNUM-->
+      OSNUM/IDONO
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy03 IDON1F.OVSAN-->
+      OVSAN/IGABI/IDONO
+    </Line>
+    <Line>
+      <!--Rwy03 IDON1F-->
+      IDONO/REDOG
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>RIKNA</Point>
+      <Point>REDOG</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>AA VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>MERAS</Point>
+      <Point>IDONO</Point>
+      <Point>OSNUM</Point>
+      <Point>OVSAN</Point>
+      <Point>IGABI</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>AA VOR</Point>
+      <Point>IDONO</Point>
+      <Point>MERAS</Point>
+      <Point>OSNUM</Point>
+      <Point>OVSAN</Point>
+      <Point>RIKNA</Point>
+      <Point>REDOG</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="03 RNP" Priority="1" Center="-37.034575+174.969758" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
-      <Point>UBKEL</Point>
+      <Point>AR409</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
-      <Point>GROVE</Point>
-      <Point>WI NDB</Point>
+      <Point>KINGS</Point>
+      <Point>REDOG</Point>
+      <Point>RIKNA</Point>
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>AR409</Point>
+      <Point>UBKEL</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>KINGS</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">KINGS/UBKEL/AR409/-370204.470+1745811.129</Line>
-    <Line Pattern="Solid">GROVE/KINGS</Line>
-    <Line Pattern="Solid">WI NDB/KINGS</Line>
+    <Line Pattern="Solid">REDOG/KINGS</Line>
+    <Line Pattern="Solid">RIKNA/KINGS</Line>
   </Map>
   <Map Type="System2" Name="03 RNP Labels" Priority="1" Center="-37.034575+174.969758" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>GROVE</Point>
-      <Point>WI NDB</Point>
-      <Point>AR409</Point>
       <Point>KINGS</Point>
+      <Point>REDOG</Point>
+      <Point>RIKNA</Point>
+      <Point>UBKEL</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="21 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.034575+174.969758">
     <Line Pattern="Dashed">
-      <!--Rwy21 ADNO2P-->
-      -37.034575+174.969758/AR21T/AR03T/ADNOG
+      <!--Rwy21 CABLE1-->
+      -37.034575+174.969758/AR03T/-37.101100+174.910220/-37.199581+175.009170/-37.195460+175.071640/-37.292080+175.202670
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy21 ADNO2P.FIRTH-->
-      ADNOG/MOLNO/NOLEG/FIRTH
+      <!--Rwy21 FIRT1T-->
+      AR03T/EGUMO/GUMVA/ADGUG/NOLEG/FIRTH
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy21 ADNO2P.SY-->
-      MOLNO/SY NDB
+      <!--Rwy21 MERA1R-->
+      -37.034575+174.969758/BODUG/UGSIM/MERAS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy21 ADNO2P.WI-->
-      ADNOG/WI NDB
+      <!--Rwy21 REKI1R-->
+      UGSIM/REKIS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy21 SY1P-->
-      AR03T/-37.105833+174.916944/SY NDB
+      <!--Rwy21 REKI1R.LAKES-->
+      REKIS/LAKES
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy21 SY1R-->
-      -37.034575+174.969758/HUNUA/SY NDB
+      <!--Rwy21 REKI1T-->
+      GUMVA/AVPEK/REKIS
     </Line>
-    <Symbol Type="Circle">
-      <Point>SY NDB</Point>
-      <Point>WI NDB</Point>
-    </Symbol>
+    <Line Pattern="Dashed">
+      <!--Rwy21 REKI1T.LAKES-->
+    </Line>
     <Symbol Type="HollowTriangle">
-      <Point>AR21T</Point>
       <Point>AR03T</Point>
-      <Point>ADNOG</Point>
-      <Point>MOLNO</Point>
+      <Point>EGUMO</Point>
+      <Point>GUMVA</Point>
+      <Point>ADGUG</Point>
       <Point>NOLEG</Point>
       <Point>FIRTH</Point>
-      <Point>HUNUA</Point>
+      <Point>BODUG</Point>
+      <Point>UGSIM</Point>
+      <Point>MERAS</Point>
+      <Point>REKIS</Point>
+      <Point>LAKES</Point>
+      <Point>AVPEK</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>ADNOG</Point>
-      <Point>SY NDB</Point>
       <Point>FIRTH</Point>
-      <Point>WI NDB</Point>
+      <Point>MERAS</Point>
+      <Point>REKIS</Point>
+      <Point>LAKES</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="21 STARs" Priority="1" CustomColourName="ProcArr" Center="-37.027044+174.979333">
+    <Line>
+      <!--Rwy21 IGAB1G-->
+      IGABI/FIRTH
+    </Line>
+    <Line>
+      <!--Rwy21 MOPV1G-->
+      MOPVU/FIRTH
+    </Line>
+    <Line>
+      <!--Rwy21 OSNU1G-->
+      OSNUM/FIRTH
+    </Line>
+    <Line>
+      <!--Rwy21 PEXO1G-->
+      PEXOS/SUPMA
+    </Line>
+    <Line>
+      <!--Rwy21 UPLI1G-->
+      UPLIN/HOOKS/SATLA
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>FIRTH</Point>
+      <Point>SUPMA</Point>
+      <Point>SATLA</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>IGABI</Point>
+      <Point>MOPVU</Point>
+      <Point>OSNUM</Point>
+      <Point>PEXOS</Point>
+      <Point>UPLIN</Point>
+      <Point>HOOKS</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>IGABI</Point>
+      <Point>MOPVU</Point>
+      <Point>OSNUM</Point>
+      <Point>PEXOS</Point>
+      <Point>UPLIN</Point>
+      <Point>FIRTH</Point>
+      <Point>SUPMA</Point>
+      <Point>SATLA</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="21 RNP" Priority="1" Center="-37.027044+174.979333" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
-      <Point>SARVI</Point>
-      <Point>EMTUB</Point>
+      <Point>AR401</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>EPKOT</Point>
       <Point>FIRTH</Point>
       <Point>SATLA</Point>
+      <Point>ORERE</Point>
+      <Point>SUPMA</Point>
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>AR401</Point>
+      <Point>LEGUX</Point>
+      <Point>MEXEB</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>EGURU</Point>
-      <Point>ORERE</Point>
-    </Symbol>
-    <Line Pattern="Solid">EGURU/SARVI/AR401/-370137.358+1745845.599</Line>
-    <Line Pattern="Solid">FIRTH/EGURU</Line>
-    <Line Pattern="Solid">SATLA/EGURU</Line>
-    <Line Pattern="Solid">ORERE/EMTUB/AR401</Line>
+    <Symbol Type="SolidTriangle" />
+    <Line Pattern="Solid">EPKOT/LEGUX/AR401/-370137.358+1745845.599</Line>
+    <Line Pattern="Solid">FIRTH/EPKOT</Line>
+    <Line Pattern="Solid">SATLA/EPKOT</Line>
+    <Line Pattern="Solid">ORERE/MEXEB/AR401</Line>
     <Line Pattern="Solid">FIRTH/ORERE</Line>
     <Line Pattern="Solid">SATLA/ORERE</Line>
+    <Line Pattern="Solid">SUPMA/ORERE</Line>
   </Map>
   <Map Type="System2" Name="21 RNP Labels" Priority="1" Center="-37.027044+174.979333" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>EPKOT</Point>
       <Point>FIRTH</Point>
       <Point>SATLA</Point>
-      <Point>AR401</Point>
-      <Point>EGURU</Point>
       <Point>ORERE</Point>
+      <Point>SUPMA</Point>
+      <Point>LEGUX</Point>
+      <Point>MEXEB</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="07 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.029725+174.976700">
     <Line Pattern="Dashed">
-      <!--Rwy07 SY1R-->
-      -37.029725+174.976700/HUNUA/SY NDB
+      <!--Rwy07 MERA1R-->
+      -37.029725+174.976700/BODUG/UGSIM/MERAS
     </Line>
-    <Symbol Type="Circle">
-      <Point>SY NDB</Point>
-    </Symbol>
+    <Line Pattern="Dashed">
+      <!--Rwy07 REKI1R-->
+      UGSIM/REKIS
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy07 REKI1R.LAKES-->
+      REKIS/LAKES
+    </Line>
     <Symbol Type="HollowTriangle">
-      <Point>HUNUA</Point>
+      <Point>BODUG</Point>
+      <Point>UGSIM</Point>
+      <Point>MERAS</Point>
+      <Point>REKIS</Point>
+      <Point>LAKES</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>SY NDB</Point>
+      <Point>MERAS</Point>
+      <Point>REKIS</Point>
+      <Point>LAKES</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="25 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.029725+174.969956">
     <Line Pattern="Dashed">
-      <!--Rwy25 SY1R-->
-      -37.029725+174.969956/HUNUA/SY NDB
+      <!--Rwy25 MERA1R-->
+      -37.029725+174.969956/BODUG/UGSIM/MERAS
     </Line>
-    <Symbol Type="Circle">
-      <Point>SY NDB</Point>
-    </Symbol>
+    <Line Pattern="Dashed">
+      <!--Rwy25 REKI1R-->
+      UGSIM/REKIS
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy25 REKI1R.LAKES-->
+      REKIS/LAKES
+    </Line>
     <Symbol Type="HollowTriangle">
-      <Point>HUNUA</Point>
+      <Point>BODUG</Point>
+      <Point>UGSIM</Point>
+      <Point>MERAS</Point>
+      <Point>REKIS</Point>
+      <Point>LAKES</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>SY NDB</Point>
+      <Point>MERAS</Point>
+      <Point>REKIS</Point>
+      <Point>LAKES</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-37.029722+174.973333">

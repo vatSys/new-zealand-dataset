@@ -159,8 +159,8 @@
       BUVLI/NIRUB
     </Line>
     <Line>
-      <!--Rwy07 IRMI1B-->
-      IRMIX/UDODI/AKNIN
+      <!--Rwy07 IRMI2B-->
+      IRMIX/UDODI/PM727/AKNIN
     </Line>
     <Line>
       <!--Rwy07 MIBU2B-->
@@ -209,6 +209,7 @@
       <Point>IDLUR</Point>
       <Point>IRMIX</Point>
       <Point>UDODI</Point>
+      <Point>PM727</Point>
       <Point>MIBUS</Point>
       <Point>OKEVO</Point>
       <Point>REPIM</Point>
@@ -415,7 +416,7 @@
       IGPAX/OVRUN/BIDEK
     </Line>
     <Line>
-      <!--Rwy25 IRMI1A-->
+      <!--Rwy25 IRMI2A-->
       IRMIX/UVUSI
     </Line>
     <Line Pattern="Solid">

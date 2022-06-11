@@ -323,11 +323,11 @@
       BASIV/BIGUL/XMOND/ORUKI/LENGU
     </Line>
     <Line>
-      <!--Rwy05R DAVE6B-->
-      DAVEE/WI NDB/GITUK/LENGU
+      <!--Rwy05R DAVE7B-->
+      DAVEE/VINCE/GITUK/LENGU
     </Line>
     <Line>
-      <!--Rwy05R DAVE6D-->
+      <!--Rwy05R DAVE7D-->
       DAVEE/AA507/STEAL/ATAMA
     </Line>
     <Line Pattern="Solid">
@@ -402,19 +402,19 @@
       ANKIL/VIRIS
     </Line>
     <Line>
-      <!--Rwy05R NOBA8B-->
-      NOBAR/MERAS/AA503/WI NDB
+      <!--Rwy05R NOBA9B-->
+      NOBAR/MERAS/AA503/VINCE
     </Line>
     <Line>
-      <!--Rwy05R NOBA8D-->
-      WI NDB/STEAL
+      <!--Rwy05R NOBA9D-->
+      VINCE/STEAL
     </Line>
     <Line>
-      <!--Rwy05R PEPE5B-->
-      PEPPE/IGABI/WI NDB
+      <!--Rwy05R PEPE6B-->
+      PEPPE/IGABI/VINCE
     </Line>
     <Line>
-      <!--Rwy05R PEPE8D-->
+      <!--Rwy05R PEPE9D-->
     </Line>
     <Line Pattern="Solid">
       <!--Rwy05R RIKD1N.AGEDU-->
@@ -455,18 +455,18 @@
       RIKDI/WYTAK/OSIVO/LENGU
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R SCAR2B.HN-->
+      <!--Rwy05R SCAR3B.HN-->
       HN VOR/SCARY
     </Line>
     <Line>
-      <!--Rwy05R SCAR2B-->
+      <!--Rwy05R SCAR3B-->
       SCARY/IGABI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R SCAR2D.HN-->
+      <!--Rwy05R SCAR3D.HN-->
     </Line>
     <Line>
-      <!--Rwy05R SCAR2D-->
+      <!--Rwy05R SCAR3D-->
     </Line>
     <Line Pattern="Solid">
       <!--Rwy05R UKAP3B.KK-->
@@ -504,7 +504,6 @@
       <Point>UDUMO</Point>
     </Symbol>
     <Symbol Type="Circle">
-      <Point>WI NDB</Point>
       <Point>HN VOR</Point>
       <Point>KK NDB</Point>
       <Point>SF NDB</Point>
@@ -527,6 +526,7 @@
       <Point>XMOND</Point>
       <Point>ORUKI</Point>
       <Point>DAVEE</Point>
+      <Point>VINCE</Point>
       <Point>GITUK</Point>
       <Point>AA507</Point>
       <Point>STEAL</Point>
@@ -628,26 +628,26 @@
       <Point>AA509</Point>
     </Symbol>
     <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>VIRIS</Point>
+      <Point>ATAMA</Point>
+    </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>LAMEL</Point>
       <Point>PORAR</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>VIRIS</Point>
-      <Point>ATAMA</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">VIRIS/SADOS/QUINA/NIPAS/LAMEL/IBOKI/-370058.741+1744614.819</Line>
     <Line Pattern="Solid">ATAMA/PORAR/AA509/-370058.741+1744614.819</Line>
   </Map>
   <Map Type="System2" Name="05R RNP-AR Labels" Priority="1" Center="-37.016317+174.770783" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>LAMEL</Point>
-      <Point>PORAR</Point>
       <Point>VIRIS</Point>
       <Point>ATAMA</Point>
+      <Point>LAMEL</Point>
+      <Point>PORAR</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="23L SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.016317+174.770783">
@@ -1300,7 +1300,10 @@
     <Symbol Type="HollowTriangle">
       <Point>KETOB</Point>
       <Point>ZORBA</Point>
+      <Point>VABTI</Point>
       <Point>TEVUC</Point>
+      <Point>KIDAG</Point>
+      <Point>ESNAX</Point>
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
@@ -1312,9 +1315,6 @@
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>AA427</Point>
-      <Point>VABTI</Point>
-      <Point>KIDAG</Point>
-      <Point>ESNAX</Point>
     </Symbol>
     <Line Pattern="Solid">AA427/BUBKU/AA412/TEGIK/-370023.962+1744820.671</Line>
     <Line Pattern="Solid">KETOB/AA407/AA427</Line>
@@ -1328,15 +1328,15 @@
     <Label HasLeader="true">
       <Point>KETOB</Point>
       <Point>ZORBA</Point>
+      <Point>VABTI</Point>
       <Point>TEVUC</Point>
+      <Point>KIDAG</Point>
+      <Point>ESNAX</Point>
       <Point>TEGIK</Point>
       <Point>TUSLO</Point>
       <Point>DUNAD</Point>
       <Point>NOKAM</Point>
       <Point>AA427</Point>
-      <Point>VABTI</Point>
-      <Point>KIDAG</Point>
-      <Point>ESNAX</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-37.008056+174.791667">

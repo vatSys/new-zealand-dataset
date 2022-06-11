@@ -24,6 +24,8 @@
 - [AIRAC 2202](#airac-2202)
 - [AIRAC 2203](#airac-2203)
 - [AIRAC 2204](#airac-2204)
+- [AIRAC 2205](#) **Not Released**
+- [AIRAC 2206](#airac-2206)
 
 ## AIRAC 2013
 
@@ -618,11 +620,57 @@ There aren't any changes in the ANR this cycle.
 
 * Slight amendments to the FAF for RNAV Z, both RWY 05R/23L.
 * Addiion of `T18`, `T22`, `T80` and `KQ461` airways.
-* Addition of a handful of new IFR fixes. Most of these are used for the above airways.
 
 #### **Dataset Updates**
 
-* **fix**: Removal of a handful of duplicate IFR waypoints.
-* **fix**: NZOH: Small fix to the RNP Y
-* **fix**: NZDN: `MIPAK3B` redesignated to the `MIPAK2B`.
-* **feat**: Addition of some background data for future features.
+None.
+
+
+## AIRAC 2206
+
+### Revision A (Initial)
+
+The six-montlhy AIRAC release is expected to be one of two major releases this year. This release includes the withdrawal of Waiuku and Surrey NDBs, and associated procedure changes.
+
+#### **ANR Updates**
+
+* Addition of various IFR waypoints.
+* Removal of Waiuku (WI) and Surrey (SY) NDBs. WI NDB has been replaced by WPT `VINCE`.
+* Amendments to a vast number of ATS routes.
+
+**Ardmore**
+  - All procedures have been replaced. 
+  - Updated Standard Routes
+
+**Auckland** 
+  - Where procedures contain `WI NDB`, this has been replaced by WPT `VINCE`.
+  - The following procedures have been resequenced after the above changes: `DAVEE7B, DAVEE7D, NOBAR9B, PEPPE6B, PEPPE9D, SCARY3B, SCARY3D`
+
+**Christchurch**
+  - Updated Standard Routes
+
+**Dunedin**
+  - Updated Standard Routes
+
+**Hamilton**
+  - All SIDS consolidated and replaced with six SIDs.
+  - Most STARs have been resequenced, and incremented by one.
+
+**New Plymouth**
+  - Updated Standard Routes
+
+**Palmerston North**
+  - Addition of `PM727`, and resequencing of the `IRMIX2B`.
+  - The following procedures have been resequenced `IRMIX2A`.
+
+**Wanaka**
+  - Updated Standard Routes
+
+**Wellington**
+  - `AKTAN` transition added to `KADNU, REVNA` and `REVNA` SIDs. 
+  - The following procedures have been resequenced after the above changes: `KADNU3Q, REVNU3Q, KALEM4P`.
+
+
+#### **Dataset Updates**
+
+None.

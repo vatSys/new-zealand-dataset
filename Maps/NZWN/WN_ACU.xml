@@ -26,27 +26,27 @@
       DOGBI/VANDA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 KADN2Q-->
+      <!--Rwy16 KADN3Q-->
       WN16T/-41.391944+174.806111/REVNA/-41.494167+174.962778/-41.490278+175.026389/-41.451389+175.035278/ADLAK/KADNU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 KADN2Q.KAMET-->
+      <!--Rwy16 KADN3Q.KAMET-->
       KADNU/OSALA/KAMET
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 KADN2Q.KAPTI-->
+      <!--Rwy16 KADN3Q.KAPTI-->
       OSALA/KAPTI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 KADN2Q.NIMOS-->
+      <!--Rwy16 KADN3Q.NIMOS-->
       KADNU/NIMOS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 KADN2Q.PP-->
+      <!--Rwy16 KADN3Q.PP-->
       OSALA/PP NDB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 KADN2Q.RUSIL-->
+      <!--Rwy16 KADN3Q.RUSIL-->
       KADNU/RUSIL
     </Line>
     <Line Pattern="Dashed">
@@ -74,11 +74,15 @@
       WN16T/-41.482778+174.800278
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 REVN2Q-->
+      <!--Rwy16 REVN3Q-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 REVN2Q.ATSUN-->
-      REVNA/-41.494167+174.962778/ATSUN
+      <!--Rwy16 REVN3Q.AKTAN-->
+      REVNA/-41.494167+174.962778/AKTAN
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 REVN3Q.ATSUN-->
+      -41.494167+174.962778/ATSUN
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy16 TAXU5Q-->
@@ -130,6 +134,7 @@
       <Point>LUBSI</Point>
       <Point>SABDA</Point>
       <Point>UPVAP</Point>
+      <Point>AKTAN</Point>
       <Point>ATSUN</Point>
       <Point>KAMDO</Point>
       <Point>BAXAN</Point>
@@ -154,6 +159,7 @@
       <Point>LUBSI</Point>
       <Point>SABDA</Point>
       <Point>UPVAP</Point>
+      <Point>AKTAN</Point>
       <Point>ATSUN</Point>
       <Point>KAMDO</Point>
     </Label>
@@ -269,21 +275,21 @@
       <Point>CANES</Point>
     </Symbol>
     <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>WITBY</Point>
+    </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>OLBIN</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>WITBY</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">WITBY/CANES/OLBIN/-411907.039+1744826.849</Line>
   </Map>
   <Map Type="System2" Name="16 RNP Labels" Priority="1" Center="-41.318622+174.807458" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>OLBIN</Point>
       <Point>WITBY</Point>
+      <Point>OLBIN</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="16 RNP-AR" Priority="1" Center="-41.318622+174.807458" CustomColourName="ProcArr">
@@ -362,31 +368,35 @@
       <!--Rwy34 ISNI5T.UPVAP-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 KALE3P-->
+      <!--Rwy34 KALE4P-->
       WN34T/-41.267778+174.813889/KALEM
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 KALE3P.ATSUN-->
+      <!--Rwy34 KALE4P.AKTAN-->
+      KALEM/AKTAN
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 KALE4P.ATSUN-->
       KALEM/ATSUN
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 KALE3P.KAMDO-->
+      <!--Rwy34 KALE4P.KAMDO-->
       KALEM/PAPSI/KAMDO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 KALE3P.KAMET-->
+      <!--Rwy34 KALE4P.KAMET-->
       KALEM/MELAD/KAMET
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 KALE3P.KAPTI-->
+      <!--Rwy34 KALE4P.KAPTI-->
       MELAD/KAPTI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 KALE3P.PP-->
+      <!--Rwy34 KALE4P.PP-->
       MELAD/PP NDB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 KALE3P.SABDA-->
+      <!--Rwy34 KALE4P.SABDA-->
       PAPSI/SABDA
     </Line>
     <Line Pattern="Dashed">
@@ -491,6 +501,7 @@
       <Point>WN16T</Point>
       <Point>MUDGU</Point>
       <Point>KALEM</Point>
+      <Point>AKTAN</Point>
       <Point>ATSUN</Point>
       <Point>PAPSI</Point>
       <Point>KAMDO</Point>
@@ -521,6 +532,7 @@
       <Point>NULKO</Point>
       <Point>RUSIL</Point>
       <Point>UPVAP</Point>
+      <Point>AKTAN</Point>
       <Point>ATSUN</Point>
       <Point>KAMDO</Point>
       <Point>KAMET</Point>
