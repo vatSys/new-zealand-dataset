@@ -4693,7 +4693,6 @@ RILEY
     <Point Name="OVSAN" Type="Fix">-373022.390+1750025.190</Point>
     <Point Name="OVSED" Type="Fix">-460050.680+1700058.810</Point>
     <Point Name="OVSIT" Type="Fix">-372521.200+1750147.100</Point>
-    <Point Name="OVTAP" Type="Fix">-364753.000+1754700.000</Point>
     <Point Name="OVTAP" Type="Fix">-364753.410+1754700.200</Point>
     <Point Name="OVTEL" Type="Fix">-465307.410+1681028.850</Point>
     <Point Name="OVTIK" Type="Fix">-362742.090+1743930.990</Point>
