@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Profile Name="New Zealand" FullName="Lockheed Martin SkyLine NZZC">
-	<Version AIRAC="2204" Revision="a" PublishDate="20220421" UpdateURL="https://vatsys.sawbe.com/downloads/data/New%20Zealand/" />
+	<Version AIRAC="2206" Revision="a" PublishDate="20220616" UpdateURL="https://vatsys.sawbe.com/downloads/data/New%20Zealand/" />
 	<Servers>
 		<VATSIMStatus url="https://status.vatsim.net/" />
 		<GRIB url="http://sawbe.com/GRIB/" />
