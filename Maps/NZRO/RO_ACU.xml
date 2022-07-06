@@ -2,42 +2,42 @@
 <Maps>
   <Map Type="System2" Name="18 SIDs" Priority="1" CustomColourName="ProcDep" Center="-38.115486+176.311436">
     <Line Pattern="Dashed">
-      <!--Rwy18 ORAK2P-->
+      <!--Rwy18 ORAK3P-->
       -38.115486+176.311436/RO18T/RO36T/MADRO/TOTRA/ORAKA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18 ORAK2P.FALLS-->
+      <!--Rwy18 ORAK3P.FALLS-->
       ORAKA/FALLS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18 ORAK2P.GOBUK-->
+      <!--Rwy18 ORAK3P.GOBUK-->
       ORAKA/GOBUK
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18 ORAK2P.KAMLA-->
+      <!--Rwy18 ORAK3P.KAMLA-->
       ORAKA/KAMLA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18 TOTR3P-->
+      <!--Rwy18 TOTR4P-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18 TOTR3P.AKMAG-->
-      TOTRA/SURKA/SABID/AKMAD
+      <!--Rwy18 TOTR4P.AKMAG-->
+      TOTRA/SURKA/SABID/AKMAG
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18 TOTR3P.IBAMU-->
+      <!--Rwy18 TOTR4P.IBAMU-->
       TOTRA/IBAMU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18 TOTR3P.ISGIT-->
+      <!--Rwy18 TOTR4P.ISGIT-->
       TOTRA/ISGIT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18 TOTR3P.LUMSO-->
+      <!--Rwy18 TOTR4P.LUMSO-->
       SURKA/LUMSO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18 TOTR3P.SUDAM-->
+      <!--Rwy18 TOTR4P.SUDAM-->
       ISGIT/SUDAM
     </Line>
     <Symbol Type="HollowTriangle">
@@ -51,7 +51,7 @@
       <Point>KAMLA</Point>
       <Point>SURKA</Point>
       <Point>SABID</Point>
-      <Point>AKMAD</Point>
+      <Point>AKMAG</Point>
       <Point>IBAMU</Point>
       <Point>ISGIT</Point>
       <Point>LUMSO</Point>
@@ -63,7 +63,7 @@
       <Point>FALLS</Point>
       <Point>GOBUK</Point>
       <Point>KAMLA</Point>
-      <Point>AKMAD</Point>
+      <Point>AKMAG</Point>
       <Point>IBAMU</Point>
       <Point>ISGIT</Point>
       <Point>LUMSO</Point>
@@ -218,42 +218,42 @@
   </Map>
   <Map Type="System2" Name="36 SIDs" Priority="1" CustomColourName="ProcDep" Center="-38.100444+176.320344">
     <Line Pattern="Dashed">
-      <!--Rwy36 DOLS2R-->
+      <!--Rwy36 DOLS3R-->
       -38.100444+176.320344/RO36T/NIKOR/DOLSO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy36 DOLS2R.AKMAG-->
+      <!--Rwy36 DOLS3R.AKMAG-->
       DOLSO/NUMTU/SABID/AKMAG
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy36 DOLS2R.IBAMU-->
+      <!--Rwy36 DOLS3R.IBAMU-->
       NUMTU/IBAMU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy36 DOLS2R.ISGIT-->
+      <!--Rwy36 DOLS3R.ISGIT-->
       NUMTU/ISGIT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy36 DOLS2R.LUMSO-->
+      <!--Rwy36 DOLS3R.LUMSO-->
       DOLSO/LUMSO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy36 DOLS2R.SUDAM-->
+      <!--Rwy36 DOLS3R.SUDAM-->
       SABID/SUDAM
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy36 NIKO2R-->
+      <!--Rwy36 NIKO3R-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy36 NIKO2R.FALLS-->
+      <!--Rwy36 NIKO3R.FALLS-->
       NIKOR/FALLS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy36 NIKO2R.GOBUK-->
+      <!--Rwy36 NIKO3R.GOBUK-->
       NIKOR/GOBUK
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy36 NIKO2R.KAMLA-->
+      <!--Rwy36 NIKO3R.KAMLA-->
       GOBUK/KAMLA
     </Line>
     <Symbol Type="HollowTriangle">

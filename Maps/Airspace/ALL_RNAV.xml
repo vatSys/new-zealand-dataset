@@ -306,13 +306,17 @@
       <Point>UVUSI</Point>
       <Point>BIDEK</Point>
       <Point>NIKIP</Point>
+      <Point>NOKIX</Point>
       <Point>ENBAR</Point>
+      <Point>LEVBI</Point>
       <Point>DABGU</Point>
       <Point>NILID</Point>
       <Point>SEBSA</Point>
       <Point>OKERE</Point>
+      <Point>TENIX</Point>
       <Point>MORTA</Point>
       <Point>RUSTA</Point>
+      <Point>PATMO</Point>
       <Point>TODAN</Point>
       <Point>UBSET</Point>
       <Point>MARKO</Point>
@@ -458,12 +462,8 @@
       <Point>PAMOA</Point>
       <Point>ORBEL</Point>
       <Point>OLNAN</Point>
-      <Point>NOKIX</Point>
-      <Point>LEVBI</Point>
       <Point>TOTRA</Point>
       <Point>NIKOR</Point>
-      <Point>TENIX</Point>
-      <Point>PATMO</Point>
       <Point>WAIPA</Point>
       <Point>AMURI</Point>
       <Point>TU593</Point>
@@ -617,13 +617,17 @@
       <Point>UVUSI</Point>
       <Point>BIDEK</Point>
       <Point>NIKIP</Point>
+      <Point>NOKIX</Point>
       <Point>ENBAR</Point>
+      <Point>LEVBI</Point>
       <Point>DABGU</Point>
       <Point>NILID</Point>
       <Point>SEBSA</Point>
       <Point>OKERE</Point>
+      <Point>TENIX</Point>
       <Point>MORTA</Point>
       <Point>RUSTA</Point>
+      <Point>PATMO</Point>
       <Point>TODAN</Point>
       <Point>UBSET</Point>
       <Point>MARKO</Point>
@@ -787,12 +791,8 @@
       <Point>PAMOA</Point>
       <Point>ORBEL</Point>
       <Point>OLNAN</Point>
-      <Point>NOKIX</Point>
-      <Point>LEVBI</Point>
       <Point>TOTRA</Point>
       <Point>NIKOR</Point>
-      <Point>TENIX</Point>
-      <Point>PATMO</Point>
       <Point>WAIPA</Point>
       <Point>AMURI</Point>
       <Point>TU593</Point>
