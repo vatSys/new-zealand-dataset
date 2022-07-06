@@ -6,6 +6,7 @@
       <Point>NZAH</Point>
       <Point>NZAL</Point>
       <Point>NZAM</Point>
+      <Point>NZAN</Point>
       <Point>NZAP</Point>
       <Point>NZAR</Point>
       <Point>NZAS</Point>
@@ -45,6 +46,7 @@
       <Point>NZGC</Point>
       <Point>NZGH</Point>
       <Point>NZGM</Point>
+      <Point>NZGO</Point>
       <Point>NZGS</Point>
       <Point>NZGT</Point>
       <Point>NZGY</Point>
@@ -99,8 +101,10 @@
       <Point>NZKT</Point>
       <Point>NZKU</Point>
       <Point>NZKY</Point>
+      <Point>NZLA</Point>
       <Point>NZLE</Point>
       <Point>NZLF</Point>
+      <Point>NZLM</Point>
       <Point>NZLT</Point>
       <Point>NZLX</Point>
       <Point>NZMA</Point>
@@ -131,6 +135,7 @@
       <Point>NZOG</Point>
       <Point>NZOH</Point>
       <Point>NZOM</Point>
+      <Point>NZON</Point>
       <Point>NZOP</Point>
       <Point>NZOR</Point>
       <Point>NZOS</Point>
@@ -155,6 +160,7 @@
       <Point>NZRI</Point>
       <Point>NZRK</Point>
       <Point>NZRL</Point>
+      <Point>NZRN</Point>
       <Point>NZRO</Point>
       <Point>NZRR</Point>
       <Point>NZRT</Point>
@@ -164,6 +170,7 @@
       <Point>NZSF</Point>
       <Point>NZSL</Point>
       <Point>NZSO</Point>
+      <Point>NZTC</Point>
       <Point>NZTE</Point>
       <Point>NZTG</Point>
       <Point>NZTH</Point>
@@ -206,7 +213,6 @@
       <Point>NZWT</Point>
       <Point>NZWU</Point>
       <Point>NZWV</Point>
-      <Point>NZWY</Point>
       <Point>NZWZ</Point>
       <Point>NZYP</Point>
     </Symbol>
@@ -217,6 +223,7 @@
       <Point Name="AH">NZAH</Point>
       <Point Name="AL">NZAL</Point>
       <Point Name="AM">NZAM</Point>
+      <Point Name="AN">NZAN</Point>
       <Point Name="AP">NZAP</Point>
       <Point Name="AR">NZAR</Point>
       <Point Name="AS">NZAS</Point>
@@ -256,6 +263,7 @@
       <Point Name="GC">NZGC</Point>
       <Point Name="GH">NZGH</Point>
       <Point Name="GM">NZGM</Point>
+      <Point Name="GO">NZGO</Point>
       <Point Name="GS">NZGS</Point>
       <Point Name="GT">NZGT</Point>
       <Point Name="GY">NZGY</Point>
@@ -310,8 +318,10 @@
       <Point Name="KT">NZKT</Point>
       <Point Name="KU">NZKU</Point>
       <Point Name="KY">NZKY</Point>
+      <Point Name="LA">NZLA</Point>
       <Point Name="LE">NZLE</Point>
       <Point Name="LF">NZLF</Point>
+      <Point Name="LM">NZLM</Point>
       <Point Name="LT">NZLT</Point>
       <Point Name="LX">NZLX</Point>
       <Point Name="MA">NZMA</Point>
@@ -342,6 +352,7 @@
       <Point Name="OG">NZOG</Point>
       <Point Name="OH">NZOH</Point>
       <Point Name="OM">NZOM</Point>
+      <Point Name="ON">NZON</Point>
       <Point Name="OP">NZOP</Point>
       <Point Name="OR">NZOR</Point>
       <Point Name="OS">NZOS</Point>
@@ -366,6 +377,7 @@
       <Point Name="RI">NZRI</Point>
       <Point Name="RK">NZRK</Point>
       <Point Name="RL">NZRL</Point>
+      <Point Name="RN">NZRN</Point>
       <Point Name="RO">NZRO</Point>
       <Point Name="RR">NZRR</Point>
       <Point Name="RT">NZRT</Point>
@@ -375,6 +387,7 @@
       <Point Name="SF">NZSF</Point>
       <Point Name="SL">NZSL</Point>
       <Point Name="SO">NZSO</Point>
+      <Point Name="TC">NZTC</Point>
       <Point Name="TE">NZTE</Point>
       <Point Name="TG">NZTG</Point>
       <Point Name="TH">NZTH</Point>
@@ -417,7 +430,6 @@
       <Point Name="WT">NZWT</Point>
       <Point Name="WU">NZWU</Point>
       <Point Name="WV">NZWV</Point>
-      <Point Name="WY">NZWY</Point>
       <Point Name="WZ">NZWZ</Point>
       <Point Name="YP">NZYP</Point>
     </Label>
