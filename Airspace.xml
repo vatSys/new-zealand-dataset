@@ -1784,7 +1784,8 @@ KRILL
     <Airway Name="R599">
 DUGAN/
 RUMUS/
-SADIM
+SADIM/
+NONON
 </Airway>
     <Airway Name="T1">
 TBU VOR/
@@ -2808,10 +2809,6 @@ MEXIP
 OKTUB/
 DABAS/
 IGETO
-</Airway>
-    <Airway Name="R599">
-SADIM/
-NONON
 </Airway>
     <Airway Name="T18">
 LAPIM/
