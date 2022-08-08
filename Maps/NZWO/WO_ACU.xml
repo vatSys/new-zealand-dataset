@@ -2,26 +2,51 @@
 <Maps>
   <Map Type="System2" Name="16 SIDs" Priority="1" CustomColourName="ProcDep" Center="-39.015750+177.404714">
     <Line Pattern="Dashed">
-      <!--Rwy16 DOMO2P-->
-      -39.015750+177.404714/NZWO/GOTNO/-39.094310+177.417890
+      <!--Rwy16 DOMO1P-->
+      -39.015750+177.404714/WO16T/-39.049050+177.407320/DOMON
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 GOVD1P-->
+      -39.049050+177.407320/GOVDU
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 HAWK1P-->
+      -39.049050+177.407320/HAWKE
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 IGME1P-->
+      -39.049050+177.407320/IRMUV/IGMEK
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 IRMU1P-->
     </Line>
     <Symbol Type="HollowTriangle">
-      <Point>NZWO</Point>
-      <Point>GOTNO</Point>
+      <Point>WO16T</Point>
+      <Point>DOMON</Point>
+      <Point>GOVDU</Point>
+      <Point>HAWKE</Point>
+      <Point>IRMUV</Point>
+      <Point>IGMEK</Point>
     </Symbol>
-    <Label HasLeader="true" />
+    <Label HasLeader="true">
+      <Point>DOMON</Point>
+      <Point>GOVDU</Point>
+      <Point>HAWKE</Point>
+      <Point>IGMEK</Point>
+      <Point>IRMUV</Point>
+    </Label>
   </Map>
   <Map Type="System2" Name="16 STARs" Priority="1" CustomColourName="ProcArr" Center="-39.007550+177.404069">
     <Line Pattern="Solid">
-      <!--Rwy16 GURS1A.DOMON-->
+      <!--Rwy16 GURS2A.DOMON-->
       DOMON/GURSU
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy16 GURS1A.MARKS-->
+      <!--Rwy16 GURS2A.MARKS-->
       MARKS/GURSU
     </Line>
     <Line>
-      <!--Rwy16 GURS1A-->
+      <!--Rwy16 GURS2A-->
       GURSU/AGTID
     </Line>
     <Symbol Type="HollowTriangle">
@@ -72,10 +97,6 @@
   </Map>
   <Map Type="System2" Name="34 SIDs" Priority="1" CustomColourName="ProcDep" Center="-39.007550+177.404069">
     <Line Pattern="Dashed">
-      <!--Rwy34 DOMO2P-->
-      -39.007550+177.404069/NZWO/GOTNO/-39.094310+177.417890
-    </Line>
-    <Line Pattern="Dashed">
       <!--Rwy34 DOMO1Q-->
       -39.007550+177.404069/WO34T/WO16T/-38.982500+177.402070/DOMON
     </Line>
@@ -84,11 +105,10 @@
       -38.982500+177.402070/GOTNO
     </Line>
     <Symbol Type="HollowTriangle">
-      <Point>NZWO</Point>
-      <Point>GOTNO</Point>
       <Point>WO34T</Point>
       <Point>WO16T</Point>
       <Point>DOMON</Point>
+      <Point>GOTNO</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>DOMON</Point>

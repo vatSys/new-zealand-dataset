@@ -954,29 +954,29 @@
       ARADI/GEWNY/DOMRI/LOSGA/VIBAG
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L ARAD6C.LUNBI-->
+      <!--Rwy23L ARAD7C.LUNBI-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L ARAD6C.PEBLU-->
+      <!--Rwy23L ARAD7C.PEBLU-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L ARAD6C.VELMO-->
+      <!--Rwy23L ARAD7C.VELMO-->
     </Line>
     <Line>
-      <!--Rwy23L ARAD6C-->
+      <!--Rwy23L ARAD7C-->
       DOMRI/KIDAG
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L ARAD3E.LUNBI-->
+      <!--Rwy23L ARAD4E.LUNBI-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L ARAD3E.PEBLU-->
+      <!--Rwy23L ARAD4E.PEBLU-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L ARAD3E.VELMO-->
+      <!--Rwy23L ARAD4E.VELMO-->
     </Line>
     <Line>
-      <!--Rwy23L ARAD3E-->
+      <!--Rwy23L ARAD4E-->
       DOMRI/VABTI
     </Line>
     <Line Pattern="Solid">
@@ -996,30 +996,30 @@
       BASIV/BONKO/DOMRI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L BASI7C.ELNOS-->
+      <!--Rwy23L BASI8C.ELNOS-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L BASI7C.SALAG-->
+      <!--Rwy23L BASI8C.SALAG-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L BASI7C.UPLAR-->
+      <!--Rwy23L BASI8C.UPLAR-->
     </Line>
     <Line>
-      <!--Rwy23L BASI7C-->
+      <!--Rwy23L BASI8C-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L BASI4E.ELNOS-->
+      <!--Rwy23L BASI5E.ELNOS-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L BASI4E.PEBLU-->
+      <!--Rwy23L BASI5E.PEBLU-->
       PEBLU/BASIV
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L BASI4E.VELMO-->
+      <!--Rwy23L BASI5E.VELMO-->
       VELMO/BASIV
     </Line>
     <Line>
-      <!--Rwy23L BASI4E-->
+      <!--Rwy23L BASI5E-->
     </Line>
     <Line Pattern="Solid">
       <!--Rwy23L BASI1N.ELNOS-->

@@ -107,6 +107,7 @@
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>NOKIX</Point>
       <Point>ENBAR</Point>
     </Symbol>
     <!--FAF Symbols-->
@@ -114,17 +115,15 @@
       <Point>PP411</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>NOKIX</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">NOKIX/PP411/PP414/-405404.540+1745916.530</Line>
     <Line Pattern="Solid">ENBAR/NOKIX</Line>
   </Map>
   <Map Type="System2" Name="16 RNP Labels" Priority="1" Center="-40.901261+174.987925" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>NOKIX</Point>
       <Point>ENBAR</Point>
       <Point>PP411</Point>
-      <Point>NOKIX</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="34 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.901261+174.987925">
@@ -241,6 +240,7 @@
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>LEVBI</Point>
       <Point>DABGU</Point>
       <Point>NILID</Point>
     </Symbol>
@@ -249,19 +249,17 @@
       <Point>TAXEV</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>LEVBI</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">LEVBI/TAXEV/PP421/-405438.311+1745916.552</Line>
     <Line Pattern="Solid">DABGU/LEVBI</Line>
     <Line Pattern="Solid">NILID/LEVBI</Line>
   </Map>
   <Map Type="System2" Name="34 RNP Labels" Priority="1" Center="-40.910642+174.987931" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>LEVBI</Point>
       <Point>DABGU</Point>
       <Point>NILID</Point>
       <Point>TAXEV</Point>
-      <Point>LEVBI</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-40.904722+174.989167">

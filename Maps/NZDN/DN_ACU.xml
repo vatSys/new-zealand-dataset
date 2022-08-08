@@ -2,7 +2,7 @@
 <Maps>
   <Map Type="System2" Name="03 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.924378+170.207786">
     <Line Pattern="Dashed">
-      <!--Rwy03 AKPI3P-->
+      <!--Rwy03 AKPI4P-->
       -45.924378+170.207786/DN03T/DUKES/IVTOP/LEKOD/DABCA/AKPIN
     </Line>
     <Line Pattern="Dashed">

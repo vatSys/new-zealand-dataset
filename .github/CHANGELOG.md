@@ -26,6 +26,8 @@
 - [AIRAC 2204](#airac-2204)
 - [AIRAC 2205](#) **Not Released**
 - [AIRAC 2206](#airac-2206)
+- [AIRAC 2207](#) **Not Released**
+- [AIRAC 2208](#airac-2208)
 
 ## AIRAC 2013
 
@@ -683,3 +685,36 @@ The six-montlhy AIRAC release is expected to be one of two major releases this y
 #### **Dataset Updates**
 
 None.
+
+
+## AIRAC 2208
+
+### Revision A
+
+#### **ANR Updates**
+
+**Auckland**
+  -  Minor magnetic track changes to STARs. 
+  -  The following procedures have been resequenced: `ARADI 7C`, `ARADI 4E`, `BASIV 8C`, `BASIV 5E`.
+  -  All approach charts previously labelled RNAV, have been updated to the new RNP nomenclature.
+
+**Palmerston North**
+  -  All approach charts previously labelled RNAV, have been updated to the new RNP nomenclature.
+
+**Paraparaumu**
+  -  All approach charts previously labelled RNAV, have been updated to the new RNP nomenclature.
+
+**Rotorua**
+  -  The following procedures have been resequenced: `TOTRA 4P, ORAKA 3P, NIKOR 3R, DOLSO 3R`
+
+**Tauranga**
+  -  All approach charts previously labelled RNAV, have been updated to the new RNP nomenclature.
+
+**Wairoa**
+  -  The following procedures have been resequenced: `GURSU 2A`
+  -  All approach charts previously labelled RNAV, have been updated to the new RNP nomenclature.
+  -  The following SIDs have been added: `HAWKE 1P, DOMON 1P, IRMUV 1P, IGMEK1P, GOVDU 1P`
+
+#### **Dataset Updates**
+
+  -  The ATIS Two Thousand Foot Wind pronunciation has been corrected.
