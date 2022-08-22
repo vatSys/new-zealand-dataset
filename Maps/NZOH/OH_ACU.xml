@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="09 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.209369+175.399756">
+  <Map Type="System2" Name="09 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.209364+175.399772">
     <Line Pattern="Dashed">
       <!--Rwy09 DANP2Q-->
-      -40.209369+175.399756/OH09T/OH27T/DANPO
+      -40.209364+175.399772/OH09T/OH27T/DANPO
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy09 DANP2Q.ABTOL-->
@@ -46,7 +46,7 @@
       <Point>PORIG</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="09 STARs" Priority="1" CustomColourName="ProcArr" Center="-40.202656+175.374253">
+  <Map Type="System2" Name="09 STARs" Priority="1" CustomColourName="ProcArr" Center="-40.202656+175.374325">
     <Line>
       <!--Rwy09 BINI1H-->
       BINIT/DOTGO
@@ -70,7 +70,7 @@
       <Point>BOBIT</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="09 RNP" Priority="1" Center="-40.202656+175.374253" CustomColourName="ProcArr">
+  <Map Type="System2" Name="09 RNP" Priority="1" Center="-40.202656+175.374325" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -87,12 +87,12 @@
     <Symbol Type="SolidTriangle">
       <Point>NUTGO</Point>
     </Symbol>
-    <Line Pattern="Solid">NUTGO/NIVOD/-401209.562+1752227.311</Line>
+    <Line Pattern="Solid">NUTGO/NIVOD/-401209.562+1752227.570</Line>
     <Line Pattern="Solid">BOBIT/NUTGO</Line>
     <Line Pattern="Solid">DOTGO/NUTGO</Line>
     <Line Pattern="Solid">LELUK/NUTGO</Line>
   </Map>
-  <Map Type="System2" Name="09 RNP Labels" Priority="1" Center="-40.202656+175.374253" CustomColourName="ProcArr">
+  <Map Type="System2" Name="09 RNP Labels" Priority="1" Center="-40.202656+175.374325" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>BOBIT</Point>
       <Point>DOTGO</Point>
@@ -101,10 +101,10 @@
       <Point>NUTGO</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="27 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.202656+175.374253">
+  <Map Type="System2" Name="27 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.202656+175.374325">
     <Line Pattern="Dashed">
       <!--Rwy27 ENGO2P-->
-      -40.202656+175.374253/OH27T/ENGOK
+      -40.202656+175.374325/OH27T/ENGOK
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy27 ENGO2P.ABTOL-->
@@ -147,7 +147,7 @@
       <Point>PORIG</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="27 STARs" Priority="1" CustomColourName="ProcArr" Center="-40.209369+175.399756">
+  <Map Type="System2" Name="27 STARs" Priority="1" CustomColourName="ProcArr" Center="-40.209364+175.399772">
     <Line>
       <!--Rwy27 BINI1G-->
       BINIT/UPRIX/AVGUV/TERIL/LUXUL
@@ -175,7 +175,7 @@
       <Point>ENDIX</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="27 RNP" Priority="1" Center="-40.209369+175.399756" CustomColourName="ProcArr">
+  <Map Type="System2" Name="27 RNP" Priority="1" Center="-40.209364+175.399772" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>SAKOG</Point>
@@ -191,10 +191,10 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">ENDIX/SAKOG/PEDBA/-401233.728+1752359.122</Line>
+    <Line Pattern="Solid">ENDIX/SAKOG/PEDBA/-401233.710+1752359.179</Line>
     <Line Pattern="Solid">LUXUL/PEDBA</Line>
   </Map>
-  <Map Type="System2" Name="27 RNP Labels" Priority="1" Center="-40.209369+175.399756" CustomColourName="ProcArr">
+  <Map Type="System2" Name="27 RNP Labels" Priority="1" Center="-40.209364+175.399772" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>ENDIX</Point>
       <Point>LUXUL</Point>

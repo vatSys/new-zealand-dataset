@@ -921,7 +921,7 @@
     <Line Pattern="Solid">ESNED/TUMGO</Line>
     <Line Pattern="Solid">KAGRU/NILIB/-462506.280+1681808.129</Line>
     <Line Pattern="Solid">DUNAX/PALTU/-462439.960+1681929.078</Line>
-    <Line Pattern="Solid">NUTGO/NIVOD/-401209.562+1752227.311</Line>
+    <Line Pattern="Solid">NUTGO/NIVOD/-401209.562+1752227.570</Line>
     <Line Pattern="Solid">BOBIT/NUTGO</Line>
     <Line Pattern="Solid">DOTGO/NUTGO</Line>
     <Line Pattern="Solid">LELUK/NUTGO</Line>
@@ -931,7 +931,7 @@
     <Line Pattern="Solid">SOSLA/VELSU/-401302.150+1752325.670</Line>
     <Line Pattern="Solid">NOBED/SOSLA</Line>
     <Line Pattern="Solid">VARNO/SOSLA</Line>
-    <Line Pattern="Solid">ENDIX/SAKOG/PEDBA/-401233.728+1752359.122</Line>
+    <Line Pattern="Solid">ENDIX/SAKOG/PEDBA/-401233.710+1752359.179</Line>
     <Line Pattern="Solid">LUXUL/PEDBA</Line>
     <Line Pattern="Solid">PAMOA/-44.887389+171.137850/-445742.660+1710506.619</Line>
     <Line Pattern="Solid">ORBEL/-45.046594+171.025025/-445819.801+1710440.300</Line>
@@ -1012,10 +1012,10 @@
     <Line Pattern="Solid">WR983/-354611.798+1742133.368</Line>
     <Line Pattern="Solid">WR983/-354606.139+1742211.341</Line>
     <Line Pattern="Solid">WR983/-354625.831+1742140.511</Line>
-    <Line Pattern="Solid">BURKI/WS404/-414425.012+1713421.310</Line>
+    <Line Pattern="Solid">BURKI/WS404/-414424.922+1713421.389</Line>
     <Line Pattern="Solid">AVMAK/BURKI</Line>
     <Line Pattern="Solid">GUNOM/BURKI</Line>
-    <Line Pattern="Solid">WS408/WS411/-414402.159+1713507.591</Line>
+    <Line Pattern="Solid">WS408/WS411/-414402.069+1713507.681</Line>
     <Line Pattern="Solid">ANSIS/WS408</Line>
     <Line Pattern="Solid">PILUP/WS408</Line>
     <Line Pattern="Solid">UGSAP/VETUM/WT423/-364956.302+1754034.741</Line>
