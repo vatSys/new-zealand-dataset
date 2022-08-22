@@ -117,7 +117,6 @@
   <Sector FullName="NFTV_GND" Frequency="121.900" Callsign="NFTV_GND" Name="DummyName" />
   <Sector FullName="NFTV_TWR" Frequency="118.100" Callsign="NFTV_TWR" Name="DummyName" />
   <Sector FullName="NIUE_TWR" Frequency="118.100" Callsign="NIUE_TWR" Name="DummyName" />
-  <Sector FullName="NSFA_GND" Frequency="121.900" Callsign="NSFA_GND" Name="DummyName" />
   <Sector FullName="NSFA_TWR" Frequency="118.100" Callsign="NSFA_TWR" Name="DummyName" />
   <Sector FullName="NSTU_TWR" Frequency="118.600" Callsign="NSTU_TWR" Name="DummyName" />
   <Sector FullName="NTAA_GND" Frequency="121.900" Callsign="NTAA_GND" Name="DummyName" />
