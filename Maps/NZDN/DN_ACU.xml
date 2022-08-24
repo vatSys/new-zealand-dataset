@@ -142,7 +142,7 @@
       EPDAB/ALBOX/MANOP/AKLAR
     </Line>
     <Line>
-      <!--Rwy03 MIPA3A-->
+      <!--Rwy03 MIPA4A-->
       MIPAK/IPKUG/ADBAD/RELEK/ANBIG/BIPUV/AKLAR
     </Line>
     <Symbol Type="HollowTriangle">
@@ -248,8 +248,8 @@
       DN03T/AGESO/OKAPO/ATGUB/TEBIV/NOMUG/DOTVA/BIDEL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy21 BIDE3S-->
-      DN21T/AGESO/MANRA/ENDUR/IDLIK/PIBEX/RULOL/LUTSA/BIDEL
+      <!--Rwy21 BIDE4S-->
+      AGESO/MANRA/ENDUR/IDLIK/PIBEX/RULOL/LUTSA/BIDEL
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy21 OCEAN6-->

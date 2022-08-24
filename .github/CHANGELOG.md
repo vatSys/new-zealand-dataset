@@ -28,6 +28,8 @@
 - [AIRAC 2206](#airac-2206)
 - [AIRAC 2207](#) **Not Released**
 - [AIRAC 2208](#airac-2208)
+- [AIRAC 2209](#) **Not Released**
+- [AIRAC 2210](#airac-2210)
 
 ## AIRAC 2013
 
@@ -718,3 +720,37 @@ None.
 #### **Dataset Updates**
 
   -  The ATIS Two Thousand Foot Wind pronunciation has been corrected.
+
+
+## AIRAC 2210
+
+### Revision A
+
+#### **ANR Updates**
+
+**Dunedin**
+  - The following procedures have been resequenced: `BIDEL 4S`
+
+**Hamilton**
+  - Updated Standard Routes
+
+**Invercargil**
+  - Updated Standard Routes
+
+**New Plymouth**
+  - Updated Standard Routes
+
+**Queenstown**
+  - Most conventional SIDs have been removed and replaced by two all-encompassing conventional departures with a visual segment. All RNP-AR SIDs (SIDs that end with an A or B) have remained.
+  - Removal of the following SIDs: RWY 05 - `EPDEX 3C`, `IPNOR 4C`, `SUNGU 4P`. RWY 23 - `ANPOV 4D`, `ANPOV 3F`, `ANPOV 3S`, `IPNOR 4D`, `SUNGU 3U`, `SUNGU 4Q`, `SUNGU 4S`.
+  - Addition of the following consolidated conventional SIDs: RWY 05 - `GIXEL 1`. RWY 23 - `VAPLI 1`.
+  - The following SIDs have been updated and resequenced: `BRIDGE 1`.
+
+**Manapouri**
+  - The following procedures have been resequenced: `GULAN 2`.
+
+****
+
+#### **Dataset Updates**
+
+  - Added some previously missed procedures for NZNV and NZAR.

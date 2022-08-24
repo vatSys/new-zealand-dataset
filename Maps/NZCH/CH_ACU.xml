@@ -1239,7 +1239,6 @@
       <Point Name="NORTHLANDS-ARR">THE PIER</Point>
       <Point Name="PIER-DEP">-43.483333+172.591667</Point>
       <Point Name="PYLONS-ARR">SWANNANOA</Point>
-      <Point Name="SWANNANOA-DEP">PYLONS</Point>
       <Point Name="TAITAPU-DEP">ADDINGTON RACECOURSE</Point>
     </Label>
     <Label HasLeader="true" LabelOrientation="SE">
@@ -1311,10 +1310,6 @@
     <!--RICCARTON-ARR-->
     <Line Pattern="Dotted">
       LINCOLN/RICCARTON RACECOURSE
-    </Line>
-    <!--SWANNANOA-DEP-->
-    <Line Pattern="Dotted">
-      PYLONS/SWANNANOA
     </Line>
     <!--TAITAPU-DEP-->
     <Line Pattern="Dotted">

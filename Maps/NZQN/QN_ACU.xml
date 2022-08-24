@@ -14,19 +14,19 @@
       ANPOV/ATVOR/TIMJO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05 BRG9-->
+      <!--Rwy05 BRG1-->
       -45.016544+168.757728/QN05T/QN23T/-45.008480+168.797670/-44.964240+168.837950/-44.957740+168.756740/QN VOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05 BRG9.KALDI-->
+      <!--Rwy05 BRG1.KALDI-->
       QN VOR/KALDI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05 BRG9.PORUT-->
+      <!--Rwy05 BRG1.PORUT-->
       QN VOR/PORUT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05 BRG9.SAVLA-->
+      <!--Rwy05 BRG1.SAVLA-->
       QN VOR/SAVLA
     </Line>
     <Line Pattern="Dashed">
@@ -42,26 +42,42 @@
       QN882/SUNGU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05 EPDE3C-->
-      QN VOR/AGTAM/EPDEX
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy05 EPDE3C.SAVLA-->
-      EPDEX/AKMAD
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy05 EPDE3C.TIMJO-->
-      EPDEX/ATVOR
-    </Line>
-    <Line Pattern="Dashed">
       <!--Rwy05 EPDE3P-->
       -45.016544+168.757728/GIXEL/EPDEX
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05 EPDE3P.SAVLA-->
+      EPDEX/AKMAD
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05 EPDE3P.TIMJO-->
+      EPDEX/ATVOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05 GIXEL1-->
+      -45.016544+168.757728/QN VOR/AGTAM/GIXEL
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05 GIXEL1.ADKOS-->
+      GIXEL/ENRAT/ADKOS
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05 GIXEL1.BASOS-->
+      GIXEL/PORUT/BASOS
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05 GIXEL1.LIBLA-->
+      GIXEL/BIKOS/LIBLA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05 GIXEL1.PORUT-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05 GIXEL1.SAVLA-->
+      GIXEL/EPDEX
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05 GIXEL1.TIMJO-->
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05 IPNO3A-->
@@ -69,30 +85,15 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05 IPNO3A.ADKOS-->
-      IPNOR/ENRAT/ADKOS
+      IPNOR/ENRAT
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05 IPNO3A.LIBLA-->
-      IPNOR/BIKOS/LIBLA
+      IPNOR/BIKOS
     </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy05 IPNO4C-->
-      -45.016544+168.757728/ISLON/LUXIS/MEBKA/IBVUK/IPNOR
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy05 IPNO4C.ADKOS-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy05 IPNO4C.LIBLA-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy05 SUNG4P-->
-      MEBKA/SUNGU
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy05 SUNG4P.ADLUP-->
-      SUNGU/BASOS
-    </Line>
+    <Symbol Type="SolidStar">
+      <Point>GIXEL</Point>
+    </Symbol>
     <Symbol Type="Circle">
       <Point>QN VOR</Point>
     </Symbol>
@@ -130,35 +131,32 @@
       <Point>BASOS</Point>
       <Point>ADLUP</Point>
       <Point>SUNGU</Point>
-      <Point>AGTAM</Point>
       <Point>EPDEX</Point>
-      <Point>GIXEL</Point>
-      <Point>QN862</Point>
-      <Point>QN864</Point>
-      <Point>QN866</Point>
-      <Point>IPNOR</Point>
+      <Point>AGTAM</Point>
       <Point>ENRAT</Point>
       <Point>ADKOS</Point>
       <Point>BIKOS</Point>
       <Point>LIBLA</Point>
-      <Point>ISLON</Point>
-      <Point>LUXIS</Point>
-      <Point>MEBKA</Point>
-      <Point>IBVUK</Point>
+      <Point>QN862</Point>
+      <Point>QN864</Point>
+      <Point>QN866</Point>
+      <Point>IPNOR</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>ANPOV</Point>
       <Point>QN VOR</Point>
       <Point>QN882</Point>
       <Point>EPDEX</Point>
+      <Point>GIXEL</Point>
       <Point>IPNOR</Point>
-      <Point>SUNGU</Point>
       <Point>SAVLA</Point>
       <Point>TIMJO</Point>
       <Point>KALDI</Point>
       <Point>PORUT</Point>
       <Point>ADLUP</Point>
+      <Point>SUNGU</Point>
       <Point>ADKOS</Point>
+      <Point>BASOS</Point>
       <Point>LIBLA</Point>
     </Label>
   </Map>
@@ -266,36 +264,6 @@
       ANPOV/ATVOR/TIMJO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 ANPO4D-->
-      -45.020000+168.735689/ENKUV/OLREK/TULVU/VAPLI/AVDEK/DULUL/ANPOV
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy23 ANPO4D.SAVLA-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy23 ANPO4D.TIMJO-->
-      ANPOV/EPDEX/ATVOR
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy23 ANPO3F-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy23 ANPO3F.SAVLA-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy23 ANPO3F.TIMJO-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy23 ANPO3S-->
-      -45.020000+168.735689/DULUL
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy23 ANPO3S.SAVLA-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy23 ANPO3S.TIMJO-->
-    </Line>
-    <Line Pattern="Dashed">
       <!--Rwy23 IPNO3B-->
       DUGAK/VAPLI/IPNOR
     </Line>
@@ -306,15 +274,6 @@
     <Line Pattern="Dashed">
       <!--Rwy23 IPNO3B.LIBLA-->
       IPNOR/BIKOS/LIBLA
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy23 IPNO4D-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy23 IPNO4D.ADKOS-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy23 IPNO4D.LIBLA-->
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23 REDO1B-->
@@ -329,26 +288,27 @@
       QN882/SUNGU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 SUNG4Q-->
-      VAPLI/IBVUK/SUNGU
+      <!--Rwy23 VAPLI1-->
+      -45.020000+168.735689/ENKUV/OLREK/TULVU/VAPLI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 SUNG4Q.ADLUP-->
-      SUNGU/BASOS
+      <!--Rwy23 VAPLI1.ADKOS-->
+      VAPLI/IPNOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 SUNG4S-->
-      -45.020000+168.735689/ISLON/LUXIS/MEBKA/SUNGU
+      <!--Rwy23 VAPLI1.ADLUP-->
+      VAPLI/IBVUK/SUNGU/BASOS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 SUNG4S.ADLUP-->
+      <!--Rwy23 VAPLI1.LIBLA-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 SUNG3U-->
-      QN23T/QN05T/ENKUV
+      <!--Rwy23 VAPLI1.SAVLA-->
+      VAPLI/AVDEK/DULUL/ANPOV
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 SUNG3U.ADLUP-->
+      <!--Rwy23 VAPLI1.TIMJO-->
+      ANPOV/EPDEX/ATVOR
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>QN05T</Point>
@@ -369,12 +329,7 @@
       <Point>SAVLA</Point>
       <Point>ATVOR</Point>
       <Point>TIMJO</Point>
-      <Point>OLREK</Point>
-      <Point>TULVU</Point>
       <Point>VAPLI</Point>
-      <Point>AVDEK</Point>
-      <Point>DULUL</Point>
-      <Point>EPDEX</Point>
       <Point>IPNOR</Point>
       <Point>ENRAT</Point>
       <Point>ADKOS</Point>
@@ -397,21 +352,24 @@
       <Point>BASOS</Point>
       <Point>ADLUP</Point>
       <Point>SUNGU</Point>
+      <Point>OLREK</Point>
+      <Point>TULVU</Point>
       <Point>IBVUK</Point>
-      <Point>ISLON</Point>
-      <Point>LUXIS</Point>
-      <Point>MEBKA</Point>
+      <Point>AVDEK</Point>
+      <Point>DULUL</Point>
+      <Point>EPDEX</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>ANPOV</Point>
       <Point>IPNOR</Point>
       <Point>QN882</Point>
-      <Point>SUNGU</Point>
+      <Point>VAPLI</Point>
       <Point>SAVLA</Point>
       <Point>TIMJO</Point>
       <Point>ADKOS</Point>
       <Point>LIBLA</Point>
       <Point>ADLUP</Point>
+      <Point>SUNGU</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="23 STARs" Priority="1" CustomColourName="ProcArr" Center="-45.016544+168.757728">

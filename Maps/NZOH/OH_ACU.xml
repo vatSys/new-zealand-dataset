@@ -233,7 +233,6 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
-      <Point>SOSLA</Point>
       <Point>NOBED</Point>
       <Point>VARNO</Point>
     </Symbol>
@@ -242,17 +241,19 @@
       <Point>VELSU</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle" />
+    <Symbol Type="SolidTriangle">
+      <Point>SOSLA</Point>
+    </Symbol>
     <Line Pattern="Solid">SOSLA/VELSU/-401302.150+1752325.670</Line>
     <Line Pattern="Solid">NOBED/SOSLA</Line>
     <Line Pattern="Solid">VARNO/SOSLA</Line>
   </Map>
   <Map Type="System2" Name="33 RNP Labels" Priority="1" Center="-40.217264+175.390464" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>SOSLA</Point>
       <Point>NOBED</Point>
       <Point>VARNO</Point>
       <Point>VELSU</Point>
+      <Point>SOSLA</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-40.206667+175.386944">
