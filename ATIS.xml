@@ -18,6 +18,7 @@
         <Frequency Airport="NZTG" Frequency="126.600" />
         <Frequency Airport="NZWB" Frequency="126.050" />
         <Frequency Airport="NZWP" Frequency="128.300" />
+        <Frequency Airport="NZMF" Frequency="134.800" />
     </Frequencies>
 
     <!-- Spoken Translations -->
