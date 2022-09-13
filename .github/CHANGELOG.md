@@ -755,3 +755,4 @@ None.
 
   - Added some previously missed procedures for NZNV and NZAR.
   - Addition of NZMF_ATIS, operating on 134.8.
+  - Replace IFIS and MetFlight links under 'Info' menu with GoPreflight.
