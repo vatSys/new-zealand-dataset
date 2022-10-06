@@ -56,20 +56,8 @@
     </Label>
   </Map>
   <Map Type="System2" Name="12 STARs" Priority="1" CustomColourName="ProcArr" Center="-35.064536+173.281014">
-    <Line Pattern="Solid">
-      <!--Rwy12 RNAV.KAROA-->
-      KAROA/KT NDB
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy12 RNAV.PERAS-->
-      PERAS/KT NDB
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy12 RNAV.RUATO-->
-      RUATO/KT NDB
-    </Line>
     <Line>
-      <!--Rwy12 RNAV-->
+      <!--Rwy12 KT1-->
       KT NDB/STEED
     </Line>
     <Symbol Type="HollowTriangle">
@@ -81,38 +69,29 @@
     <Symbol Type="Circle">
       <Point>KT NDB</Point>
     </Symbol>
-    <Symbol Type="HollowTriangle">
-      <Point>KAROA</Point>
-      <Point>PERAS</Point>
-      <Point>RUATO</Point>
-    </Symbol>
     <Label HasLeader="true">
       <Point>KT NDB</Point>
-      <Point>KAROA</Point>
-      <Point>PERAS</Point>
-      <Point>RUATO</Point>
       <Point>STEED</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="12 RNP" Priority="1" Center="-35.064536+173.281014" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>-35.051364+173.268542</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>-34.985489+173.206236</Point>
+      <Point>DAKTA</Point>
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>STEED</Point>
     </Symbol>
-    <Line Pattern="Solid">STEED/-34.985489+173.206236/-35.051364+173.268542/-350352.330+1731651.650</Line>
+    <Line Pattern="Solid">STEED/DAKTA/KT401/-350352.330+1731651.650</Line>
   </Map>
   <Map Type="System2" Name="12 RNP Labels" Priority="1" Center="-35.064536+173.281014" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>DAKTA</Point>
       <Point>STEED</Point>
     </Label>
   </Map>
@@ -154,6 +133,14 @@
     </Label>
   </Map>
   <Map Type="System2" Name="30 STARs" Priority="1" CustomColourName="ProcArr" Center="-35.074508+173.290461">
+    <Line>
+      <!--Rwy30 KAROA1-->
+      KAROA/PERIA
+    </Line>
+    <Line>
+      <!--Rwy30 PERAS1-->
+      PERAS/PERIA
+    </Line>
     <Line Pattern="Solid">
       <!--Rwy30 RNAV.KAROA-->
       KAROA/PERIA
@@ -170,38 +157,44 @@
       <!--Rwy30 RNAV-->
       PERIA/-35.130615+173.490059
     </Line>
+    <Line>
+      <!--Rwy30 RUATO1-->
+      RUATO/PERIA
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>PERIA</Point>
+    </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>KAROA</Point>
-      <Point>PERIA</Point>
       <Point>PERAS</Point>
       <Point>RUATO</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>PERIA</Point>
       <Point>KAROA</Point>
       <Point>PERAS</Point>
+      <Point>PERIA</Point>
       <Point>RUATO</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="30 RNP" Priority="1" Center="-35.074508+173.290461" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>-35.114650+173.348514</Point>
-      <Point>-35.084461+173.299894</Point>
-    </Symbol>
-    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle" />
-    <!--FAF Symbols-->
-    <Symbol Type="MalteseCross" />
-    <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
       <Point>PERIA</Point>
     </Symbol>
-    <Line Pattern="Solid">PERIA/-35.114650+173.348514/-35.084461+173.299894/-350428.229+1731725.660</Line>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>EMVAN</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle" />
+    <Line Pattern="Solid">PERIA/EMVAN/KT501/-350428.229+1731725.660</Line>
   </Map>
   <Map Type="System2" Name="30 RNP Labels" Priority="1" Center="-35.074508+173.290461" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>PERIA</Point>
+      <Point>EMVAN</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-35.070000+173.285278">

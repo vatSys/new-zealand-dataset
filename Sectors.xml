@@ -67,7 +67,6 @@
   </Sector>
   <Sector FullName="NCRG_APP" Frequency="118.100" Callsign="NCRG_APP" Name="DummyName" />
   <Sector FullName="NFTF_APP" Frequency="118.500" Callsign="NFTF_APP" Name="DummyName" />
-  <Sector FullName="NSFA_APP" Frequency="126.900" Callsign="NSFA_APP" Name="DummyName" />
   <Sector FullName="NTAA_APP" Frequency="121.300" Callsign="NTAA_APP" Name="DummyName" />
   <Sector FullName="Ohakea Approach" Frequency="125.100" Callsign="NZOH_APP" Name="OTMA">
     <Volumes>OTMA</Volumes>
@@ -105,7 +104,6 @@
   <Sector FullName="Napier Tower" Frequency="124.800" Callsign="NZNR_TWR" Name="TNR">
     <Volumes>TNR</Volumes>
   </Sector>
-  <Sector FullName="NCRG_GND" Frequency="121.900" Callsign="NCRG_GND" Name="DummyName" />
   <Sector FullName="Nelson Delivery" Frequency="123.300" Callsign="NZNS_DEL" Name="DNS" />
   <Sector FullName="Nelson Tower" Frequency="127.400" Callsign="NZNS_TWR" Name="TNS">
     <Volumes>TNS</Volumes>
@@ -117,7 +115,6 @@
   <Sector FullName="NFTV_GND" Frequency="121.900" Callsign="NFTV_GND" Name="DummyName" />
   <Sector FullName="NFTV_TWR" Frequency="118.100" Callsign="NFTV_TWR" Name="DummyName" />
   <Sector FullName="NIUE_TWR" Frequency="118.100" Callsign="NIUE_TWR" Name="DummyName" />
-  <Sector FullName="NSFA_GND" Frequency="121.900" Callsign="NSFA_GND" Name="DummyName" />
   <Sector FullName="NSFA_TWR" Frequency="118.100" Callsign="NSFA_TWR" Name="DummyName" />
   <Sector FullName="NSTU_TWR" Frequency="118.600" Callsign="NSTU_TWR" Name="DummyName" />
   <Sector FullName="NTAA_GND" Frequency="121.900" Callsign="NTAA_GND" Name="DummyName" />

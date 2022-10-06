@@ -60,20 +60,24 @@
       AMVIX/EGAMU
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy04 ANOP4A.INTUS-->
+      <!--Rwy04 ANOP5A.INTUS-->
       INTUS/ANOPA
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy04 ANOP4A.SUNGU-->
+      <!--Rwy04 ANOP5A.PEXED-->
+      PEXED/ANOPA
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy04 ANOP5A.SUNGU-->
       SUNGU/ANOPA
     </Line>
     <Line>
-      <!--Rwy04 ANOP4A-->
-      ANOPA/MIMIV/ESNUP
+      <!--Rwy04 ANOP5A-->
+      ANOPA/NV423/MIMIV/ESNUP
     </Line>
     <Line>
-      <!--Rwy04 DUKO4A-->
-      DUKOP/UKETA/BIDKU
+      <!--Rwy04 DUKO5A-->
+      DUKOP/UKETA/VENIR/BIDKU
     </Line>
     <Line>
       <!--Rwy04 NV2A-->
@@ -102,11 +106,13 @@
       <Point>AMVIX</Point>
       <Point>INTUS</Point>
       <Point>ANOPA</Point>
+      <Point>PEXED</Point>
       <Point>SUNGU</Point>
+      <Point>NV423</Point>
       <Point>MIMIV</Point>
       <Point>DUKOP</Point>
       <Point>UKETA</Point>
-      <Point>PEXED</Point>
+      <Point>VENIR</Point>
       <Point>LUXER</Point>
     </Symbol>
     <Label HasLeader="true">
@@ -199,7 +205,7 @@
   </Map>
   <Map Type="System2" Name="22 STARs" Priority="1" CustomColourName="ProcArr" Center="-46.411100+168.324744">
     <Line>
-      <!--Rwy22 AKPI3B-->
+      <!--Rwy22 AKPI4B-->
       AKPIN/BIDKU/MASGO/DUNAX
     </Line>
     <Line>
@@ -207,23 +213,23 @@
       AMVIX/DOTLU
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy22 ANOP5B.INTUS-->
+      <!--Rwy22 ANOP6B.INTUS-->
       INTUS/ANOPA
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy22 ANOP5B.PEXED-->
+      <!--Rwy22 ANOP6B.PEXED-->
       PEXED/ANOPA
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy22 ANOP5B.SUNGU-->
-      SUNGU/MOVSA/ANOPA
+      <!--Rwy22 ANOP6B.SUNGU-->
+      SUNGU/OGAVO/MOVSA/ANOPA
     </Line>
     <Line>
-      <!--Rwy22 ANOP5B-->
+      <!--Rwy22 ANOP6B-->
       ANOPA/MOMPI/LALEV
     </Line>
     <Line>
-      <!--Rwy22 DUKO5B-->
+      <!--Rwy22 DUKO6B-->
       DUKOP/UKETA/VENIR/BIDKU
     </Line>
     <Line>
@@ -251,6 +257,7 @@
       <Point>ANOPA</Point>
       <Point>PEXED</Point>
       <Point>SUNGU</Point>
+      <Point>OGAVO</Point>
       <Point>MOVSA</Point>
       <Point>MOMPI</Point>
       <Point>DUKOP</Point>

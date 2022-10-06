@@ -6,8 +6,7 @@
   </ProductTypes>
   <Browsers>
     <AIP url="http://www.aip.net.nz/" />
-    <IFIS url="https://www.ifis.airways.co.nz/script/briefing/aerodrome_briefing.asp" />
-    <MetFlight url="http://metflight.metra.co.nz/MetFlight.php" />
+    <GoPreflight url="https://gopreflight.co.nz/app" />
     <SkyVector url="https://skyvector.com/" />
     <VATNZ url="https://www.vatnz.net/" />
     <Feedback url="https://www.vatnz.net/feedback/" />

@@ -269,6 +269,7 @@
       <Point>EKVIL</Point>
       <Point>OPAPA</Point>
       <Point>NR VOR</Point>
+      <Point>PERIA</Point>
       <Point>BESMO</Point>
       <Point>KAKIT</Point>
       <Point>GULAN</Point>
@@ -293,7 +294,6 @@
       <Point>LELUK</Point>
       <Point>GUPIL</Point>
       <Point>ADKIS</Point>
-      <Point>SOSLA</Point>
       <Point>NOBED</Point>
       <Point>VARNO</Point>
       <Point>ENDIX</Point>
@@ -381,6 +381,8 @@
       <Point>NITAK</Point>
       <Point>ISPOT</Point>
       <Point>IKERI</Point>
+      <Point>DAKTA</Point>
+      <Point>EMVAN</Point>
       <Point>PORUT</Point>
       <Point>MS488</Point>
       <Point>MS402</Point>
@@ -444,7 +446,6 @@
       <Point>OTAHA</Point>
       <Point>OPARE</Point>
       <Point>STEED</Point>
-      <Point>PERIA</Point>
       <Point>LUGDU</Point>
       <Point>SADUN</Point>
       <Point>LIBKO</Point>
@@ -459,6 +460,7 @@
       <Point>KAGRU</Point>
       <Point>DUNAX</Point>
       <Point>NUTGO</Point>
+      <Point>SOSLA</Point>
       <Point>PAMOA</Point>
       <Point>ORBEL</Point>
       <Point>OLNAN</Point>
@@ -502,9 +504,6 @@
       <Point>-39.640450+176.769780</Point>
       <Point>-35.244333+173.907978</Point>
       <Point>-35.270886+173.916278</Point>
-      <Point>-35.051364+173.268542</Point>
-      <Point>-35.114650+173.348514</Point>
-      <Point>-35.084461+173.299894</Point>
       <Point>MS603</Point>
       <Point>MS818</Point>
       <Point>MS572</Point>
@@ -580,6 +579,7 @@
       <Point>EKVIL</Point>
       <Point>OPAPA</Point>
       <Point>NR VOR</Point>
+      <Point>PERIA</Point>
       <Point>BESMO</Point>
       <Point>KAKIT</Point>
       <Point>GULAN</Point>
@@ -604,7 +604,6 @@
       <Point>LELUK</Point>
       <Point>GUPIL</Point>
       <Point>ADKIS</Point>
-      <Point>SOSLA</Point>
       <Point>NOBED</Point>
       <Point>VARNO</Point>
       <Point>ENDIX</Point>
@@ -697,7 +696,8 @@
       <Point>IKERI</Point>
       <Point>-35.171564+173.885264</Point>
       <Point>-35.343650+173.939047</Point>
-      <Point>-34.985489+173.206236</Point>
+      <Point>DAKTA</Point>
+      <Point>EMVAN</Point>
       <Point>PORUT</Point>
       <Point>-45.557250+167.813570</Point>
       <Point>MS488</Point>
@@ -773,7 +773,6 @@
       <Point>OTAHA</Point>
       <Point>OPARE</Point>
       <Point>STEED</Point>
-      <Point>PERIA</Point>
       <Point>LUGDU</Point>
       <Point>SADUN</Point>
       <Point>LIBKO</Point>
@@ -788,6 +787,7 @@
       <Point>KAGRU</Point>
       <Point>DUNAX</Point>
       <Point>NUTGO</Point>
+      <Point>SOSLA</Point>
       <Point>PAMOA</Point>
       <Point>ORBEL</Point>
       <Point>OLNAN</Point>
@@ -881,8 +881,8 @@
     <Line Pattern="Solid">NR VOR/-39.582160+176.811770/-39.640450+176.769780/-393826.340+1764610.751</Line>
     <Line Pattern="Solid">OTAHA/-35.171564+173.885264/-35.244333+173.907978/-351508.701+1735437.822</Line>
     <Line Pattern="Solid">OPARE/-35.343650+173.939047/-35.270886+173.916278/-351546.091+1735449.500</Line>
-    <Line Pattern="Solid">STEED/-34.985489+173.206236/-35.051364+173.268542/-350352.330+1731651.650</Line>
-    <Line Pattern="Solid">PERIA/-35.114650+173.348514/-35.084461+173.299894/-350428.229+1731725.660</Line>
+    <Line Pattern="Solid">STEED/DAKTA/KT401/-350352.330+1731651.650</Line>
+    <Line Pattern="Solid">PERIA/EMVAN/KT501/-350428.229+1731725.660</Line>
     <Line Pattern="Solid">LUGDU/PORUT/-451249.460+1692206.539</Line>
     <Line Pattern="Solid">BESMO/LUGDU</Line>
     <Line Pattern="Solid">KAKIT/LUGDU</Line>
@@ -921,7 +921,7 @@
     <Line Pattern="Solid">ESNED/TUMGO</Line>
     <Line Pattern="Solid">KAGRU/NILIB/-462506.280+1681808.129</Line>
     <Line Pattern="Solid">DUNAX/PALTU/-462439.960+1681929.078</Line>
-    <Line Pattern="Solid">NUTGO/NIVOD/-401209.562+1752227.311</Line>
+    <Line Pattern="Solid">NUTGO/NIVOD/-401209.562+1752227.570</Line>
     <Line Pattern="Solid">BOBIT/NUTGO</Line>
     <Line Pattern="Solid">DOTGO/NUTGO</Line>
     <Line Pattern="Solid">LELUK/NUTGO</Line>
@@ -931,7 +931,7 @@
     <Line Pattern="Solid">SOSLA/VELSU/-401302.150+1752325.670</Line>
     <Line Pattern="Solid">NOBED/SOSLA</Line>
     <Line Pattern="Solid">VARNO/SOSLA</Line>
-    <Line Pattern="Solid">ENDIX/SAKOG/PEDBA/-401233.728+1752359.122</Line>
+    <Line Pattern="Solid">ENDIX/SAKOG/PEDBA/-401233.710+1752359.179</Line>
     <Line Pattern="Solid">LUXUL/PEDBA</Line>
     <Line Pattern="Solid">PAMOA/-44.887389+171.137850/-445742.660+1710506.619</Line>
     <Line Pattern="Solid">ORBEL/-45.046594+171.025025/-445819.801+1710440.300</Line>
@@ -1012,10 +1012,10 @@
     <Line Pattern="Solid">WR983/-354611.798+1742133.368</Line>
     <Line Pattern="Solid">WR983/-354606.139+1742211.341</Line>
     <Line Pattern="Solid">WR983/-354625.831+1742140.511</Line>
-    <Line Pattern="Solid">BURKI/WS404/-414425.012+1713421.310</Line>
+    <Line Pattern="Solid">BURKI/WS404/-414424.922+1713421.389</Line>
     <Line Pattern="Solid">AVMAK/BURKI</Line>
     <Line Pattern="Solid">GUNOM/BURKI</Line>
-    <Line Pattern="Solid">WS408/WS411/-414402.159+1713507.591</Line>
+    <Line Pattern="Solid">WS408/WS411/-414402.069+1713507.681</Line>
     <Line Pattern="Solid">ANSIS/WS408</Line>
     <Line Pattern="Solid">PILUP/WS408</Line>
     <Line Pattern="Solid">UGSAP/VETUM/WT423/-364956.302+1754034.741</Line>

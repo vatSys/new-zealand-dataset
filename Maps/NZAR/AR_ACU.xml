@@ -154,12 +154,16 @@
   </Map>
   <Map Type="System2" Name="21 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.034575+174.969758">
     <Line Pattern="Dashed">
+      <!--Rwy21 AA1T-->
+      -37.034575+174.969758/AR03T/EGUMO/OVPAV/AA VOR
+    </Line>
+    <Line Pattern="Dashed">
       <!--Rwy21 CABLE1-->
-      -37.034575+174.969758/AR03T/-37.101100+174.910220/-37.199581+175.009170/-37.195460+175.071640/-37.292080+175.202670
+      AR03T/-37.101100+174.910220/-37.199581+175.009170/-37.195460+175.071640/-37.292080+175.202670
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy21 FIRT1T-->
-      AR03T/EGUMO/GUMVA/ADGUG/NOLEG/FIRTH
+      EGUMO/GUMVA/ADGUG/NOLEG/FIRTH
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy21 MERA1R-->
@@ -180,9 +184,13 @@
     <Line Pattern="Dashed">
       <!--Rwy21 REKI1T.LAKES-->
     </Line>
+    <Symbol Type="Circle">
+      <Point>AA VOR</Point>
+    </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>AR03T</Point>
       <Point>EGUMO</Point>
+      <Point>OVPAV</Point>
       <Point>GUMVA</Point>
       <Point>ADGUG</Point>
       <Point>NOLEG</Point>
@@ -195,6 +203,7 @@
       <Point>AVPEK</Point>
     </Symbol>
     <Label HasLeader="true">
+      <Point>AA VOR</Point>
       <Point>FIRTH</Point>
       <Point>MERAS</Point>
       <Point>REKIS</Point>
