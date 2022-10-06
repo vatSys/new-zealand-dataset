@@ -9554,7 +9554,12 @@ RILEY
       <Runway Name="09" Position="-395046.882+1762526.771" />
       <Runway Name="27" Position="-395050.960+1762543.471" />
     </Airport>
-    <Airport ICAO="NZLA" FullName="Loburn Abbey" Position="-431401.000+1722939.000" />
+    <Airport ICAO="NZLA" FullName="Loburn Abbey" Position="-431401.000+1722939.000">
+      <Runway Name="04" Position="-431408.160+1722913.250" />
+      <Runway Name="22" Position="-431356.978+1722943.361" />
+      <Runway Name="07" Position="-431401.460+1722918.532" />
+      <Runway Name="25" Position="-431402.231+1722938.519" />
+    </Airport>
     <Airport ICAO="NZLE" FullName="Lake Station/Nelson Lakes" Position="-414533.000+1724445.000">
       <Runway Name="11" Position="-414518.698+1724423.690" />
       <Runway Name="29" Position="-414551.109+1724517.521" />
