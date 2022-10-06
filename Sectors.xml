@@ -9,7 +9,7 @@
     <ResponsibleSectors>TGS,HTMA</ResponsibleSectors>
   </Sector>
   <Sector FullName="Christchurch Director" Frequency="129.200" Callsign="NZCH-D_CTR" Name="NZCH-D" />
-  <Sector FullName="Faleolo Control" Frequency="123.800" Callsign="NSFA_CTR" Name="FCTR" />
+  <Sector FullName="Faleolo Control" Frequency="126.900" Callsign="NSFA_CTR" Name="FCTR" />
   <Sector FullName="Kaikoura" Frequency="129.400" Callsign="NZCH-K_CTR" Name="KAI">
     <Volumes>KAI</Volumes>
     <ResponsibleSectors>CTMA</ResponsibleSectors>
@@ -32,7 +32,7 @@
     <Volumes>NAK</Volumes>
     <ResponsibleSectors>OHA,TNS,WTMA</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Auckland Radio" Frequency="128.900" Callsign="NZZO_FSS" Name="ARO" />
+  <Sector FullName="Auckland Radio" Frequency="129.000" Callsign="NZZO_FSS" Name="ARO" />
   <Sector FullName="Auckland Radio (East)" Frequency="131.500" Callsign="NZZO-E_FSS" Name="ARE" />
   <Sector FullName="BN-INS_FSS" Frequency="129.250" Callsign="BN-INS_FSS" Name="DummyName" />
   <Sector FullName="Brisbane Radio (Coral)" Frequency="133.150" Callsign="BN-COL_FSS" Name="COL" />
@@ -104,6 +104,7 @@
   <Sector FullName="Napier Tower" Frequency="124.800" Callsign="NZNR_TWR" Name="TNR">
     <Volumes>TNR</Volumes>
   </Sector>
+  <Sector FullName="NCRG_DEL" Frequency="121.900" Callsign="NCRG_DEL" Name="DummyName" />
   <Sector FullName="Nelson Delivery" Frequency="123.300" Callsign="NZNS_DEL" Name="DNS" />
   <Sector FullName="Nelson Tower" Frequency="127.400" Callsign="NZNS_TWR" Name="TNS">
     <Volumes>TNS</Volumes>
@@ -116,7 +117,7 @@
   <Sector FullName="NFTV_TWR" Frequency="118.100" Callsign="NFTV_TWR" Name="DummyName" />
   <Sector FullName="NIUE_TWR" Frequency="118.100" Callsign="NIUE_TWR" Name="DummyName" />
   <Sector FullName="NSFA_TWR" Frequency="118.100" Callsign="NSFA_TWR" Name="DummyName" />
-  <Sector FullName="NSTU_TWR" Frequency="118.600" Callsign="NSTU_TWR" Name="DummyName" />
+  <Sector FullName="NSTU_TWR" Frequency="122.900" Callsign="NSTU_TWR" Name="DummyName" />
   <Sector FullName="NTAA_GND" Frequency="121.900" Callsign="NTAA_GND" Name="DummyName" />
   <Sector FullName="NTAA_TWR" Frequency="118.100" Callsign="NTAA_TWR" Name="DummyName" />
   <Sector FullName="NTTB_TWR" Frequency="118.900" Callsign="NTTB_TWR" Name="DummyName" />

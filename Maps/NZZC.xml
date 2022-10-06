@@ -103,8 +103,8 @@
     </Runway>
     <!--NZPP-->
     <Runway Name="16/34">
-      <Threshold Name="16" Position="-40.901261+174.987925" ExtendedCentrelineTrack="0.6" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="1" />
-      <Threshold Name="34" Position="-40.910642+174.987931" ExtendedCentrelineTrack="180.6" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="16" Position="-40.901261+174.987925" ExtendedCentrelineTrack="359.6" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="34" Position="-40.910642+174.987931" ExtendedCentrelineTrack="179.6" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="1" />
     </Runway>
     <!--NZQN-->
     <Runway Name="05/23">

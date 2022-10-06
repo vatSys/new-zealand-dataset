@@ -750,6 +750,7 @@
       <Point>OMBOL</Point>
       <Point>RUMUS</Point>
       <Point>SADIM</Point>
+      <Point>NONON</Point>
       <Point>TOARP</Point>
       <Point>TPARP</Point>
       <Point>TEARP</Point>
@@ -1086,7 +1087,6 @@
       <Point>AGEDU</Point>
       <Point>IDSEM</Point>
       <Point>DABAS</Point>
-      <Point>NONON</Point>
       <Point>LAPIM</Point>
       <Point>ELKIG</Point>
       <Point>TPAPA</Point>
@@ -1541,6 +1541,7 @@
       <Point>OMBOL</Point>
       <Point>RUMUS</Point>
       <Point>SADIM</Point>
+      <Point>NONON</Point>
       <Point>TOARP</Point>
       <Point>TPARP</Point>
       <Point>TEARP</Point>
@@ -1877,7 +1878,6 @@
       <Point>AGEDU</Point>
       <Point>IDSEM</Point>
       <Point>DABAS</Point>
-      <Point>NONON</Point>
       <Point>LAPIM</Point>
       <Point>ELKIG</Point>
       <Point>TPAPA</Point>
