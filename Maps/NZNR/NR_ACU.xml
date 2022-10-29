@@ -157,6 +157,7 @@
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>AROPA</Point>
       <Point>ELBOW</Point>
       <Point>NANUA</Point>
     </Symbol>
@@ -165,18 +166,16 @@
       <Point>-39.378392+176.915156</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>AROPA</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">AROPA/-39.378392+176.915156/-39.449436+176.869419/-392743.160+1765204.940</Line>
     <Line Pattern="Solid">ELBOW/AROPA</Line>
     <Line Pattern="Solid">NANUA/AROPA</Line>
   </Map>
   <Map Type="System2" Name="16 RNP Labels" Priority="1" Center="-39.461989+176.868039" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>AROPA</Point>
       <Point>ELBOW</Point>
       <Point>NANUA</Point>
-      <Point>AROPA</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="34 SIDs" Priority="1" CustomColourName="ProcDep" Center="-39.461989+176.868039">
@@ -290,6 +289,7 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>AKINA</Point>
       <Point>MILLA</Point>
       <Point>OHITI</Point>
     </Symbol>
@@ -298,18 +298,16 @@
       <Point>-39.536822+176.859764</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>AKINA</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">AKINA/-39.536822+176.859764/-392839.698+1765158.720</Line>
     <Line Pattern="Solid">MILLA/AKINA</Line>
     <Line Pattern="Solid">OHITI/AKINA</Line>
   </Map>
   <Map Type="System2" Name="34 RNP Labels" Priority="1" Center="-39.477694+176.866311" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>AKINA</Point>
       <Point>MILLA</Point>
       <Point>OHITI</Point>
-      <Point>AKINA</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-39.465833+176.870000">

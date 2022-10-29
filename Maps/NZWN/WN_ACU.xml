@@ -2,229 +2,249 @@
 <Maps>
   <Map Type="System2" Name="16 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.334939+174.806358">
     <Line Pattern="Dashed">
-      <!--Rwy16 DOGB1Q-->
-      -41.334939+174.806358/WN16T/TAXUP/TAPAB/RUSPI/MATVU/DOGBI
+      <!--Rwy16 AGRO1Q-->
+      -41.334939+174.806358/URBEM/AGROR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 DOGB1Q.GOPLU-->
-      DOGBI/GOPLU
+      <!--Rwy16 AGRO1Q.AKTAN-->
+      AGROR/AKTAN
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 DOGB1Q.GULUT-->
+      <!--Rwy16 AGRO1Q.ATSUN-->
+      AGROR/ATSUN
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 AGRO1Q.ATVIN-->
+      AGROR/ADLAK/UPROG/ATVIN
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 AGRO1Q.KAMET-->
+      UPROG/MELAD/KAMET
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 AGRO1Q.KAPTI-->
+      MELAD/KAPTI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 AGRO1Q.PP-->
+      MELAD/PP NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 AGRO1Q.VENAM-->
+      AGROR/IDSIR/VENAM
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 ATVE1Q-->
+      -41.334939+174.806358/WN16T/URBEM/ATVEV
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 ATVE1Q.ATSUN-->
+      ATVEV/ATSUN
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 ATVE1Q.ATVIN-->
+      ATVEV/IRSOG/EKVUB/ATVIN
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 ATVE1Q.GOPLU-->
+      ATVEV/UKANO/ELGIP/DOGBI/GOPLU
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 ATVE1Q.GULUT-->
       DOGBI/GULUT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 DOGB1Q.KABKA-->
+      <!--Rwy16 ATVE1Q.KABKA-->
       DOGBI/KABKA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 DOGB1Q.TANEN-->
+      <!--Rwy16 ATVE1Q.KAMET-->
+      EKVUB/KAMET
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 ATVE1Q.KAPTI-->
+      EKVUB/KAPTI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 ATVE1Q.LUBSI-->
+      ELGIP/LUBSI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 ATVE1Q.RUSIL-->
+      EKVUB/RUSIL
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 ATVE1Q.SABDA-->
+      ATVEV/SABDA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 ATVE1Q.TANEN-->
       DOGBI/TANEN
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 DOGB1Q.VANDA-->
+      <!--Rwy16 ATVE1Q.VANDA-->
       DOGBI/VANDA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 KADN3Q-->
-      WN16T/-41.391944+174.806111/REVNA/-41.494167+174.962778/-41.490278+175.026389/-41.451389+175.035278/ADLAK/KADNU
+      <!--Rwy16 IDVA1Q-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 KADN3Q.KAMET-->
-      KADNU/OSALA/KAMET
+      <!--Rwy16 IDVA1Q.IGMUL-->
+      URBEM/ESMAB/IGMUL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 KADN3Q.KAPTI-->
-      OSALA/KAPTI
+      <!--Rwy16 IDVA1Q.LUBSI-->
+      URBEM/KENJA/EMSUT/LUBSI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 KADN3Q.NIMOS-->
-      KADNU/NIMOS
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy16 KADN3Q.PP-->
-      OSALA/PP NDB
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy16 KADN3Q.RUSIL-->
-      KADNU/RUSIL
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy16 MESE3Q-->
-      WN16T/-41.376944+174.802222/MESEL
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy16 MESE3Q.IGMUL-->
-      MESEL/DAPVA/IGMUL
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy16 MESE3Q.LUBSI-->
-      MESEL/ISLUG/TAKMI/LUBSI
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy16 MESE3Q.SABDA-->
-      MESEL/SABDA
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy16 MESE3Q.UPVAP-->
+      <!--Rwy16 IDVA1Q.UPVAP-->
       IGMUL/UPVAP
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 NZWN4A-->
-      WN16T/-41.482778+174.800278
+      <!--Rwy16 IDVA1U-->
+      -41.334939+174.806358/OBGID/IDVAL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 REVN3Q-->
+      <!--Rwy16 IDVA1U.IGMUL-->
+      IDVAL/ESMAB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 REVN3Q.AKTAN-->
-      REVNA/-41.494167+174.962778/AKTAN
+      <!--Rwy16 IDVA1U.LUBSI-->
+      IDVAL/KENJA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 REVN3Q.ATSUN-->
-      -41.494167+174.962778/ATSUN
+      <!--Rwy16 IDVA1U.UPVAP-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 TAXU5Q-->
+      <!--Rwy16 NZWN1C-->
+      WN16T/-41.367520+174.804020/-41.493900+174.823560
     </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy16 TAXU5Q.KAMDO-->
-      TAXUP/KAMDO
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy16 TAXU5Q.KAMET-->
-      TAXUP/-41.491667+174.739167/-41.461111+174.713611/BAXAN/KAMET
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy16 TAXU5Q.RUSIL-->
-      BAXAN/RUSIL
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy16 TAXU5Q.SABDA-->
-      TAXUP/SABDA
-    </Line>
+    <Symbol Type="SolidStar">
+      <Point>AGROR</Point>
+      <Point>URBEM</Point>
+      <Point>ATVEV</Point>
+    </Symbol>
     <Symbol Type="Circle">
       <Point>PP NDB</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>AKTAN</Point>
+      <Point>ATSUN</Point>
+      <Point>ADLAK</Point>
+      <Point>UPROG</Point>
+      <Point>ATVIN</Point>
+      <Point>MELAD</Point>
+      <Point>KAMET</Point>
+      <Point>KAPTI</Point>
+      <Point>IDSIR</Point>
+      <Point>VENAM</Point>
       <Point>WN16T</Point>
-      <Point>TAXUP</Point>
-      <Point>TAPAB</Point>
-      <Point>RUSPI</Point>
-      <Point>MATVU</Point>
+      <Point>IRSOG</Point>
+      <Point>EKVUB</Point>
+      <Point>UKANO</Point>
+      <Point>ELGIP</Point>
       <Point>DOGBI</Point>
       <Point>GOPLU</Point>
       <Point>GULUT</Point>
       <Point>KABKA</Point>
+      <Point>LUBSI</Point>
+      <Point>RUSIL</Point>
+      <Point>SABDA</Point>
       <Point>TANEN</Point>
       <Point>VANDA</Point>
-      <Point>REVNA</Point>
-      <Point>ADLAK</Point>
-      <Point>KADNU</Point>
-      <Point>OSALA</Point>
-      <Point>KAMET</Point>
-      <Point>KAPTI</Point>
-      <Point>NIMOS</Point>
-      <Point>RUSIL</Point>
-      <Point>MESEL</Point>
-      <Point>DAPVA</Point>
+      <Point>ESMAB</Point>
       <Point>IGMUL</Point>
-      <Point>ISLUG</Point>
-      <Point>TAKMI</Point>
-      <Point>LUBSI</Point>
-      <Point>SABDA</Point>
+      <Point>KENJA</Point>
+      <Point>EMSUT</Point>
       <Point>UPVAP</Point>
-      <Point>AKTAN</Point>
-      <Point>ATSUN</Point>
-      <Point>KAMDO</Point>
-      <Point>BAXAN</Point>
+      <Point>OBGID</Point>
+      <Point>IDVAL</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>DOGBI</Point>
-      <Point>KADNU</Point>
-      <Point>MESEL</Point>
-      <Point>REVNA</Point>
-      <Point>TAXUP</Point>
+      <Point>AGROR</Point>
+      <Point>ATVEV</Point>
+      <Point>URBEM</Point>
+      <Point>IDVAL</Point>
+      <Point>AKTAN</Point>
+      <Point>ATSUN</Point>
+      <Point>ATVIN</Point>
+      <Point>KAMET</Point>
+      <Point>KAPTI</Point>
+      <Point>PP NDB</Point>
+      <Point>VENAM</Point>
       <Point>GOPLU</Point>
       <Point>GULUT</Point>
       <Point>KABKA</Point>
+      <Point>LUBSI</Point>
+      <Point>RUSIL</Point>
+      <Point>SABDA</Point>
       <Point>TANEN</Point>
       <Point>VANDA</Point>
-      <Point>KAMET</Point>
-      <Point>KAPTI</Point>
-      <Point>NIMOS</Point>
-      <Point>PP NDB</Point>
-      <Point>RUSIL</Point>
       <Point>IGMUL</Point>
-      <Point>LUBSI</Point>
-      <Point>SABDA</Point>
       <Point>UPVAP</Point>
-      <Point>AKTAN</Point>
-      <Point>ATSUN</Point>
-      <Point>KAMDO</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="16 STARs" Priority="1" CustomColourName="ProcArr" Center="-41.318622+174.807458">
     <Line>
-      <!--Rwy16 ATSU5B-->
+      <!--Rwy16 ATSU6B-->
       ATSUN/CHATS/ONOKI/PAHWA/WITBY
     </Line>
     <Line>
-      <!--Rwy16 AVPO1B-->
+      <!--Rwy16 AVPO2B-->
       AVPOD/HUWIT/WITBY
     </Line>
     <Line>
-      <!--Rwy16 AVPO1D-->
+      <!--Rwy16 AVPO2D-->
     </Line>
     <Line>
-      <!--Rwy16 DOGA4B-->
-      DOGAD/WN406/LADIT/HECTA/PAHWA
+      <!--Rwy16 DOGA5B-->
+      DOGAD/WN406/LADIT/UPTUL/PAHWA
     </Line>
     <Line>
       <!--Rwy16 LADI6B-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy16 SIMZ3B.GOPLU-->
+      <!--Rwy16 SIMZ4B.GOPLU-->
       GOPLU/SIMZI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy16 SIMZ3B.GULUT-->
+      <!--Rwy16 SIMZ4B.GULUT-->
       GULUT/SIMZI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy16 SIMZ3B.TANEN-->
+      <!--Rwy16 SIMZ4B.TANEN-->
       TANEN/SIMZI
     </Line>
     <Line>
-      <!--Rwy16 SIMZ3B-->
+      <!--Rwy16 SIMZ4B-->
       SIMZI/KABUS/RUSKI/HUWIT
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy16 SIMZ1D.GOPLU-->
+      <!--Rwy16 SIMZ2D.GOPLU-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy16 SIMZ1D.GULUT-->
+      <!--Rwy16 SIMZ2D.GULUT-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy16 SIMZ1D.TANEN-->
+      <!--Rwy16 SIMZ2D.TANEN-->
     </Line>
     <Line>
-      <!--Rwy16 SIMZ1D-->
+      <!--Rwy16 SIMZ2D-->
     </Line>
     <Line>
-      <!--Rwy16 TPAP3B-->
+      <!--Rwy16 TPAP4B-->
       TPAPA/BRUDA/HUWIT
     </Line>
     <Line>
-      <!--Rwy16 TPAP1D-->
+      <!--Rwy16 TPAP2D-->
     </Line>
     <Line>
-      <!--Rwy16 WARD3B-->
-      WARDS/PHNIX/HUWIT
+      <!--Rwy16 WARD4B-->
+      WARDS/OMDOX/UPMOM/AGVEG/UDIVA/PHNIX/OLVIR/HUWIT
     </Line>
     <Line>
-      <!--Rwy16 WARD2D-->
-      WARDS/OMDOX/PHNIX/DORBU
+      <!--Rwy16 WARD3D-->
+      PHNIX/DORBU
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>WITBY</Point>
@@ -240,7 +260,7 @@
       <Point>DOGAD</Point>
       <Point>WN406</Point>
       <Point>LADIT</Point>
-      <Point>HECTA</Point>
+      <Point>UPTUL</Point>
       <Point>GOPLU</Point>
       <Point>SIMZI</Point>
       <Point>GULUT</Point>
@@ -250,8 +270,12 @@
       <Point>TPAPA</Point>
       <Point>BRUDA</Point>
       <Point>WARDS</Point>
-      <Point>PHNIX</Point>
       <Point>OMDOX</Point>
+      <Point>UPMOM</Point>
+      <Point>AGVEG</Point>
+      <Point>UDIVA</Point>
+      <Point>PHNIX</Point>
+      <Point>OLVIR</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>ATSUN</Point>
@@ -325,291 +349,296 @@
   </Map>
   <Map Type="System2" Name="34 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.318622+174.807458">
     <Line Pattern="Dashed">
-      <!--Rwy34 ISNI5P-->
-      -41.318622+174.807458/WN34T/-41.239722+174.815000/ISNIP
+      <!--Rwy34 IPKE1P-->
+      -41.318622+174.807458/WN34T/GANJI/IPKEP
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 ISNI5P.AVPOD-->
-      ISNIP/BAXOV/AVPOD
+      <!--Rwy34 IPKE1P.ATVIN-->
+      IPKEP/UGARO/ATVIN
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 ISNI5P.NIMOS-->
-      ISNIP/OGAMI/NIMOS
+      <!--Rwy34 IPKE1P.AVPOD-->
+      IPKEP/UGEXO/AVPOD
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 ISNI5P.NULKO-->
-      ISNIP/AGSOP/ENRED/NULKO
+      <!--Rwy34 IPKE1P.NULKO-->
+      IPKEP/AKPEX/RUVUM/NULKO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 ISNI5P.RUSIL-->
-      OGAMI/RUSIL
+      <!--Rwy34 IPKE1P.UPVAP-->
+      AKPEX/UPVAP
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 ISNI5P.UPVAP-->
-      AGSOP/UPVAP
+      <!--Rwy34 IPKE1T-->
+      -41.318622+174.807458/UDOSO/IPKEP
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 ISNI5T-->
-      -41.318622+174.807458/WN16T/-41.308678+174.808089/-41.279275+174.780289/MUDGU/ISNIP
+      <!--Rwy34 IPKE1T.ATVIN-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 ISNI5T.AVPOD-->
+      <!--Rwy34 IPKE1T.AVPOD-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 ISNI5T.NIMOS-->
+      <!--Rwy34 IPKE1T.NULKO-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 ISNI5T.NULKO-->
+      <!--Rwy34 IPKE1T.UPVAP-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 ISNI5T.RUSIL-->
+      <!--Rwy34 NZWN1D-->
+      WN34T/-41.259930+174.812150/-41.165940+174.844770
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 ISNI5T.UPVAP-->
+      <!--Rwy34 UPLU1P-->
+      WN34T/COUBY/UPLUD
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 KALE4P-->
-      WN34T/-41.267778+174.813889/KALEM
+      <!--Rwy34 UPLU1P.ATSUN-->
+      UPLUD/ATSUN
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 KALE4P.AKTAN-->
-      KALEM/AKTAN
+      <!--Rwy34 UPLU1P.ATVIN-->
+      UPLUD/ATVIN
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 KALE4P.ATSUN-->
-      KALEM/ATSUN
+      <!--Rwy34 UPLU1P.GOPLU-->
+      UPLUD/OLSUS/HHOOT/ATRIM/DOVUL/GOPLU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 KALE4P.KAMDO-->
-      KALEM/PAPSI/KAMDO
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy34 KALE4P.KAMET-->
-      KALEM/MELAD/KAMET
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy34 KALE4P.KAPTI-->
-      MELAD/KAPTI
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy34 KALE4P.PP-->
-      MELAD/PP NDB
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy34 KALE4P.SABDA-->
-      PAPSI/SABDA
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy34 NZWN2B-->
-      WN34T/-41.280000+174.805556/NL NDB
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy34 POLA5P-->
-      WN34T/POLAX
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy34 POLA5P.GOPLU-->
-      POLAX/OMLAS/ATRIM/DOVUL/GOPLU
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy34 POLA5P.GULUT-->
+      <!--Rwy34 UPLU1P.GULUT-->
       DOVUL/GULUT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 POLA5P.KABKA-->
+      <!--Rwy34 UPLU1P.KABKA-->
       DOVUL/KABKA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 POLA5P.KAMDO-->
-      POLAX/-41.146667+174.772222/-41.173889+174.727778/LAROX/JONAH/KAMDO
+      <!--Rwy34 UPLU1P.KAMET-->
+      UPLUD/KAMET
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 POLA5P.KAMET-->
-      POLAX/KAMET
+      <!--Rwy34 UPLU1P.KAPTI-->
+      UPLUD/KAPTI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 POLA5P.NIMOS-->
-      POLAX/NIMOS
+      <!--Rwy34 UPLU1P.NULKO-->
+      ATRIM/NULKO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 POLA5P.RUSIL-->
-      POLAX/RUSIL
+      <!--Rwy34 UPLU1P.RUSIL-->
+      UPLUD/RUSIL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 POLA5P.SABDA-->
-      JONAH/SABDA
+      <!--Rwy34 UPLU1P.SABDA-->
+      UPLUD/ENKEM/LAROX/JONAH/SABDA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 POLA5P.TANEN-->
+      <!--Rwy34 UPLU1P.TANEN-->
       DOVUL/TANEN
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 POLA5P.VANDA-->
+      <!--Rwy34 UPLU1P.VANDA-->
       DOVUL/VANDA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 POLA5R-->
-      WN34T/LAXIV/POLAX
+      <!--Rwy34 UPLU1R-->
+      WN34T/LAXIV/IRNIL/GAMJU/UPLUD
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 POLA5R.GOPLU-->
-      -41.146667+174.772222/OMLAS
+      <!--Rwy34 UPLU1R.ATVIN-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 POLA5R.GULUT-->
+      <!--Rwy34 UPLU1R.GOPLU-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 POLA5R.KABKA-->
+      <!--Rwy34 UPLU1R.GULUT-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 POLA5R.KAMDO-->
+      <!--Rwy34 UPLU1R.KABKA-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 POLA5R.KAMET-->
+      <!--Rwy34 UPLU1R.KAMET-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 POLA5R.NIMOS-->
+      <!--Rwy34 UPLU1R.KAPTI-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 POLA5R.RUSIL-->
+      <!--Rwy34 UPLU1R.RUSIL-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 POLA5R.SABDA-->
+      <!--Rwy34 UPLU1R.SABDA-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 POLA5R.TANEN-->
+      <!--Rwy34 UPLU1R.TANEN-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 POLA5R.VANDA-->
+      <!--Rwy34 UPLU1R.VANDA-->
     </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 URGE1P-->
+      GANJI/URGEV
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 URGE1P.AKTAN-->
+      URGEV/AKTAN
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 URGE1P.ATSUN-->
+      URGEV/OMGIM/ATSUN
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 URGE1P.KAMET-->
+      URGEV/OMKEB/MELAD/KAMET
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 URGE1P.KAPTI-->
+      MELAD/KAPTI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 URGE1P.PP-->
+      MELAD/PP NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 URGE1P.VENAM-->
+      URGEV/HANWU/IRTAG/VENAM
+    </Line>
+    <Symbol Type="SolidStar">
+      <Point>GANJI</Point>
+      <Point>UPLUD</Point>
+      <Point>URGEV</Point>
+    </Symbol>
     <Symbol Type="Circle">
       <Point>PP NDB</Point>
-      <Point>NL NDB</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>WN34T</Point>
-      <Point>ISNIP</Point>
-      <Point>BAXOV</Point>
+      <Point>IPKEP</Point>
+      <Point>UGARO</Point>
+      <Point>ATVIN</Point>
+      <Point>UGEXO</Point>
       <Point>AVPOD</Point>
-      <Point>OGAMI</Point>
-      <Point>NIMOS</Point>
-      <Point>AGSOP</Point>
-      <Point>ENRED</Point>
+      <Point>AKPEX</Point>
+      <Point>RUVUM</Point>
       <Point>NULKO</Point>
-      <Point>RUSIL</Point>
       <Point>UPVAP</Point>
-      <Point>WN16T</Point>
-      <Point>MUDGU</Point>
-      <Point>KALEM</Point>
-      <Point>AKTAN</Point>
+      <Point>UDOSO</Point>
+      <Point>COUBY</Point>
       <Point>ATSUN</Point>
-      <Point>PAPSI</Point>
-      <Point>KAMDO</Point>
-      <Point>MELAD</Point>
-      <Point>KAMET</Point>
-      <Point>KAPTI</Point>
-      <Point>SABDA</Point>
-      <Point>POLAX</Point>
-      <Point>OMLAS</Point>
+      <Point>OLSUS</Point>
+      <Point>HHOOT</Point>
       <Point>ATRIM</Point>
       <Point>DOVUL</Point>
       <Point>GOPLU</Point>
       <Point>GULUT</Point>
       <Point>KABKA</Point>
+      <Point>KAMET</Point>
+      <Point>KAPTI</Point>
+      <Point>RUSIL</Point>
+      <Point>ENKEM</Point>
       <Point>LAROX</Point>
       <Point>JONAH</Point>
+      <Point>SABDA</Point>
       <Point>TANEN</Point>
       <Point>VANDA</Point>
       <Point>LAXIV</Point>
+      <Point>IRNIL</Point>
+      <Point>GAMJU</Point>
+      <Point>AKTAN</Point>
+      <Point>OMGIM</Point>
+      <Point>OMKEB</Point>
+      <Point>MELAD</Point>
+      <Point>HANWU</Point>
+      <Point>IRTAG</Point>
+      <Point>VENAM</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>ISNIP</Point>
-      <Point>KALEM</Point>
-      <Point>NL NDB</Point>
-      <Point>POLAX</Point>
+      <Point>IPKEP</Point>
+      <Point>UPLUD</Point>
+      <Point>URGEV</Point>
+      <Point>ATVIN</Point>
       <Point>AVPOD</Point>
-      <Point>NIMOS</Point>
       <Point>NULKO</Point>
-      <Point>RUSIL</Point>
       <Point>UPVAP</Point>
-      <Point>AKTAN</Point>
       <Point>ATSUN</Point>
-      <Point>KAMDO</Point>
-      <Point>KAMET</Point>
-      <Point>KAPTI</Point>
-      <Point>PP NDB</Point>
-      <Point>SABDA</Point>
       <Point>GOPLU</Point>
       <Point>GULUT</Point>
       <Point>KABKA</Point>
+      <Point>KAMET</Point>
+      <Point>KAPTI</Point>
+      <Point>RUSIL</Point>
+      <Point>SABDA</Point>
       <Point>TANEN</Point>
       <Point>VANDA</Point>
+      <Point>AKTAN</Point>
+      <Point>PP NDB</Point>
+      <Point>VENAM</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="34 STARs" Priority="1" CustomColourName="ProcArr" Center="-41.334939+174.806358">
     <Line>
-      <!--Rwy34 ATSU3A-->
+      <!--Rwy34 ATSU4A-->
       ATSUN/DONNY/RONGO/UMAGA
     </Line>
     <Line>
-      <!--Rwy34 DOGA3A-->
-      DOGAD/WN406/LADIT/WYRAP/TURAK/RONGO
+      <!--Rwy34 DOGA4A-->
+      DOGAD/WN406/LADIT/EMRUP/TURAK/RONGO
     </Line>
     <Line>
       <!--Rwy34 IGMU2A-->
       IGMUL/MEEDA/JONAH/UMAGA
     </Line>
     <Line>
-      <!--Rwy34 LADI6A-->
+      <!--Rwy34 LADI7A-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy34 SIMZ6A.GOPLU-->
+      <!--Rwy34 SIMZ7A.GOPLU-->
       GOPLU/SIMZI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy34 SIMZ6A.GULUT-->
+      <!--Rwy34 SIMZ7A.GULUT-->
       GULUT/SIMZI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy34 SIMZ6A.TANEN-->
+      <!--Rwy34 SIMZ7A.TANEN-->
       TANEN/SIMZI
     </Line>
     <Line>
-      <!--Rwy34 SIMZ6A-->
+      <!--Rwy34 SIMZ7A-->
       SIMZI/KRAKA/MEEDA
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy34 SIMZ2C.GOPLU-->
+      <!--Rwy34 SIMZ3C.GOPLU-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy34 SIMZ2C.GULUT-->
+      <!--Rwy34 SIMZ3C.GULUT-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy34 SIMZ2C.TANEN-->
+      <!--Rwy34 SIMZ3C.TANEN-->
     </Line>
     <Line>
-      <!--Rwy34 SIMZ2C-->
+      <!--Rwy34 SIMZ3C-->
     </Line>
     <Line>
-      <!--Rwy34 SULR3A-->
+      <!--Rwy34 SULR4A-->
       SULRI/MEEDA
     </Line>
     <Line>
-      <!--Rwy34 SULR2C-->
+      <!--Rwy34 SULR3C-->
     </Line>
     <Line>
       <!--Rwy34 TPAP3A-->
       TPAPA/FICAN/TURBY/RIPPA/JONAH
     </Line>
     <Line>
-      <!--Rwy34 TPAP1C-->
+      <!--Rwy34 TPAP2C-->
+      TPAPA/BRUDA/PEGPU/UGTOV/UKLEB/RIPPA
     </Line>
     <Line>
-      <!--Rwy34 WARD5A-->
+      <!--Rwy34 WARD6A-->
       WARDS/OMDOX/SALTI/MEEDA
     </Line>
     <Line>
-      <!--Rwy34 WARD2C-->
+      <!--Rwy34 WARD3C-->
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>UMAGA</Point>
@@ -623,7 +652,7 @@
       <Point>DOGAD</Point>
       <Point>WN406</Point>
       <Point>LADIT</Point>
-      <Point>WYRAP</Point>
+      <Point>EMRUP</Point>
       <Point>TURAK</Point>
       <Point>IGMUL</Point>
       <Point>JONAH</Point>
@@ -636,6 +665,10 @@
       <Point>TPAPA</Point>
       <Point>FICAN</Point>
       <Point>TURBY</Point>
+      <Point>BRUDA</Point>
+      <Point>PEGPU</Point>
+      <Point>UGTOV</Point>
+      <Point>UKLEB</Point>
       <Point>WARDS</Point>
       <Point>OMDOX</Point>
       <Point>SALTI</Point>
@@ -665,29 +698,28 @@
       <Point>WN403</Point>
     </Symbol>
     <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>UMAGA</Point>
+    </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>ROZAN</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>UMAGA</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">UMAGA/BUTIN/WN402/ROZAN/-412005.780+1744822.889</Line>
     <Line Pattern="Solid">ROZAN/WN403/-412005.780+1744822.889</Line>
   </Map>
   <Map Type="System2" Name="34 RNP Labels" Priority="1" Center="-41.334939+174.806358" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>ROZAN</Point>
       <Point>UMAGA</Point>
+      <Point>ROZAN</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="34 RNP-AR" Priority="1" Center="-41.334939+174.806358" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>WN508</Point>
-      <Point>WN34T</Point>
       <Point>WN514</Point>
       <Point>WN423</Point>
       <Point>WN411</Point>
@@ -706,7 +738,7 @@
     <Symbol Type="SolidTriangle">
       <Point>WN412</Point>
     </Symbol>
-    <Line Pattern="Solid">WN412/WN508/SULAB/WN34T/-412005.780+1744822.889</Line>
+    <Line Pattern="Solid">WN412/WN508/SULAB/-412005.780+1744822.889</Line>
     <Line Pattern="Solid">MEEDA/WN514/WN423/WN412</Line>
     <Line Pattern="Solid">RIPPA/WN411/WN506/WN412</Line>
   </Map>

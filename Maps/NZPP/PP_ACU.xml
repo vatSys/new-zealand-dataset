@@ -2,27 +2,31 @@
 <Maps>
   <Map Type="System2" Name="16 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.910642+174.987931">
     <Line Pattern="Dashed">
-      <!--Rwy16 AGAXA3-->
+      <!--Rwy16 AGAXA4-->
       -40.910642+174.987931/PP16T/-40.928889+175.000000/AGAXA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 AGAXA3.AVKEX-->
+      <!--Rwy16 AGAXA4.AVKEX-->
       AGAXA/FICAN/AVKEX
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 AGAXA3.KAMET-->
+      <!--Rwy16 AGAXA4.BRUDA-->
+      AGAXA/BRUDA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 AGAXA4.KAMET-->
       AGAXA/-40.958889+174.766389/KAMET
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 AGAXA3.KAPTI-->
+      <!--Rwy16 AGAXA4.KAPTI-->
       -40.958889+174.766389/KAPTI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 AGAXA3.PP-->
+      <!--Rwy16 AGAXA4.PP-->
       -40.958889+174.766389/PP NDB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 AGAXA3.WITBY-->
+      <!--Rwy16 AGAXA4.WITBY-->
       AGAXA/WITBY
     </Line>
     <Symbol Type="Circle">
@@ -33,6 +37,7 @@
       <Point>AGAXA</Point>
       <Point>FICAN</Point>
       <Point>AVKEX</Point>
+      <Point>BRUDA</Point>
       <Point>KAMET</Point>
       <Point>KAPTI</Point>
       <Point>WITBY</Point>
@@ -40,6 +45,7 @@
     <Label HasLeader="true">
       <Point>AGAXA</Point>
       <Point>AVKEX</Point>
+      <Point>BRUDA</Point>
       <Point>KAMET</Point>
       <Point>KAPTI</Point>
       <Point>PP NDB</Point>
@@ -54,6 +60,10 @@
     <Line>
       <!--Rwy16 AVKE1H-->
       AVKEX/PP401/ENBAR
+    </Line>
+    <Line>
+      <!--Rwy16 IPKE1H-->
+      IPKEP/GUDSA
     </Line>
     <Line>
       <!--Rwy16 KAME1H-->
@@ -83,6 +93,7 @@
       <Point>GUDSA</Point>
       <Point>AVKEX</Point>
       <Point>PP401</Point>
+      <Point>IPKEP</Point>
       <Point>KAMET</Point>
       <Point>KAPTI</Point>
       <Point>TPAPA</Point>
@@ -92,6 +103,7 @@
     <Label HasLeader="true">
       <Point>AGSOP</Point>
       <Point>AVKEX</Point>
+      <Point>IPKEP</Point>
       <Point>KAMET</Point>
       <Point>KAPTI</Point>
       <Point>PP NDB</Point>
@@ -128,31 +140,34 @@
   </Map>
   <Map Type="System2" Name="34 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.901261+174.987925">
     <Line Pattern="Dashed">
-      <!--Rwy34 GUGAK4-->
+      <!--Rwy34 GUGAK5-->
       -40.901261+174.987925/PP34T/GUGAK
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 GUGAK4.AVKEX-->
+      <!--Rwy34 GUGAK5.AVKEX-->
       GUGAK/-40.708611+174.938056/-40.735278+174.883611/BRUDA/AVKEX
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 GUGAK4.FICAN-->
-      -40.735278+174.883611/FICAN
+      <!--Rwy34 GUGAK5.BRUDA-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 GUGAK4.KAMET-->
+      <!--Rwy34 GUGAK5.KAMET-->
       GUGAK/KAMET
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 GUGAK4.KAPTI-->
+      <!--Rwy34 GUGAK5.KAPTI-->
       GUGAK/KAPTI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 GUGAK4.PP-->
+      <!--Rwy34 GUGAK5.PEGPU-->
+      -40.735278+174.883611/PEGPU
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 GUGAK5.PP-->
       -40.735278+174.883611/PP NDB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 GUGAK4.WITBY-->
+      <!--Rwy34 GUGAK5.WITBY-->
       -40.735278+174.883611/WITBY
     </Line>
     <Symbol Type="Circle">
@@ -163,17 +178,18 @@
       <Point>GUGAK</Point>
       <Point>BRUDA</Point>
       <Point>AVKEX</Point>
-      <Point>FICAN</Point>
       <Point>KAMET</Point>
       <Point>KAPTI</Point>
+      <Point>PEGPU</Point>
       <Point>WITBY</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>GUGAK</Point>
       <Point>AVKEX</Point>
-      <Point>FICAN</Point>
+      <Point>BRUDA</Point>
       <Point>KAMET</Point>
       <Point>KAPTI</Point>
+      <Point>PEGPU</Point>
       <Point>PP NDB</Point>
       <Point>WITBY</Point>
     </Label>
@@ -186,6 +202,10 @@
     <Line>
       <!--Rwy34 AVKE1G-->
       AVKEX/PP401/AKADU/NILID
+    </Line>
+    <Line>
+      <!--Rwy34 IPKE1G-->
+      IPKEP/DABGU
     </Line>
     <Line>
       <!--Rwy34 KAME1G-->
@@ -215,6 +235,7 @@
       <Point>AVKEX</Point>
       <Point>PP401</Point>
       <Point>AKADU</Point>
+      <Point>IPKEP</Point>
       <Point>KAMET</Point>
       <Point>NOKIX</Point>
       <Point>KAPTI</Point>
@@ -225,6 +246,7 @@
     <Label HasLeader="true">
       <Point>AGSOP</Point>
       <Point>AVKEX</Point>
+      <Point>IPKEP</Point>
       <Point>KAMET</Point>
       <Point>KAPTI</Point>
       <Point>PP NDB</Point>

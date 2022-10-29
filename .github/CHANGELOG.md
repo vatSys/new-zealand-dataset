@@ -30,6 +30,8 @@
 - [AIRAC 2208](#airac-2208)
 - [AIRAC 2209](#) **Not Released**
 - [AIRAC 2210](#airac-2210)
+- [AIRAC 2211](#) **Not Released**
+- [AIRAC 2212](#airac-2212)
 
 ## AIRAC 2013
 
@@ -749,10 +751,43 @@ None.
 **Manapouri**
   - The following procedures have been resequenced: `GULAN 2`.
 
-****
-
 #### **Dataset Updates**
 
   - Added some previously missed procedures for NZNV and NZAR.
   - Addition of NZMF_ATIS, operating on 134.8.
   - Replace IFIS and MetFlight links under 'Info' menu with GoPreflight.
+
+## AIRAC 2212
+
+### Revision A
+
+This cycle is a major release for the Dataset, with the removal and replacement of all Wellington SIDs due to the real-world DMAPS project. This has also amended a fair amount of STARs for NZWN, as well as changing some surrounding airspace due to containment requirements.
+
+#### ANR Update
+
+**Visual Reporting Points (VRPs)**
+  - The following VRPs have been established:  Wainui Shed, Red Horn, Sadler Point, Gulf Harbour Marina, Albany Stadium, Cow Sheds, Mackenzie Pass, Glendhu Bay, Cardrona Pines, Queensberry Ponds, Albert Town Bridge and Mou Waho.
+  - The following VRPs have been disestablished: Matukituki River Mouth and Queensberry.
+
+**Auckland**
+  - Auckland CTA/C NZA247 replaced by NZA246.
+  - Auckland CTA/D NZA231 replaced by NZA232.
+
+**Paraparaumu**
+  - The following STARs have been resquenced due to changes in level restrictions: `AGAXA 4`, `GUGAK 5`.
+  - The following STARs have been added: `IPKEP 1H`, `IPKEP 1G`.
+
+**Wellington**
+  - Wellington CTR/C NZA654 replaced by NZA652.
+  - Wellington CTA/C NZA633, NZA634, and NZA638 boundaries amended. 
+  - Wellington CTA/C airspace NZA643 established.
+  - Removal of all existing SIDs, and the replacement with the following: `AGROR 1Q`, `ATVEV 1Q`, `IDVAL 1Q`, `IDVAL 1U`, `UPROG 1Q`, `UPLUD 1P`, `UPLUD 1R`, `IPKEP 1P`, `IPKEP 1T`, `URGEV 1P`, `NZWN 1C/D`.
+  - All STARs have been amended with additional waypoints and level restrictions, and have all been resequenced by one.
+
+**Other Changes**
+  - MOAs NZM301 and NZM304 boundaries amended.
+  - A tonne of new ATS routes, reviews and deletions.
+
+#### Dataset Updates
+
+**Changes**

@@ -288,6 +288,7 @@
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-36.831667+175.678611">
     <Symbol Type="HollowSquare">
+      <Point Name="ALBANY STADIUM">-364337.000+1744208.000</Point>
       <Point Name="ATHENREE">-372653.600+1755808.700</Point>
       <Point Name="AVONDALE RACECOURSE">-365353.500+1744124.600</Point>
       <Point Name="BLOCKHOUSE BAY">-365533.600+1744224.700</Point>
@@ -299,6 +300,7 @@
       <Point Name="COROMANDEL TOWN">-364520.500+1753003.000</Point>
       <Point Name="DRURY">-370613.500+1745649.700</Point>
       <Point Name="GREEN SHED">-371327.000+1750152.000</Point>
+      <Point Name="GULF HARBOUR MARINA">-363728.000+1744716.000</Point>
       <Point Name="HINGAIA BRIDGE">-370510.400+1745427.200</Point>
       <Point Name="HOTEL DU VIN">-371124.100+1750849.400</Point>
       <Point Name="HOWICK">-365241.500+1745529.700</Point>
@@ -332,6 +334,7 @@
       <Point Name="PUKETUTU ISLAND">-365750.500+1744429.600</Point>
       <Point Name="QUARRY LAKE">-371607.000+1750959.500</Point>
       <Point Name="RED HILL">-370402.000+1745857.000</Point>
+      <Point Name="SADLER POINT">-363010.000+1744408.000</Point>
       <Point Name="SEAGROVE">-370540.500+1744647.600</Point>
       <Point Name="ST HELIERS">-365035.500+1745150.700</Point>
       <Point Name="TAIHIKI RIVER ESTUARY">-370955.500+1744728.600</Point>
@@ -345,6 +348,7 @@
       <Point Name="WHITFORD TOWN">-365643.500+1745749.700</Point>
     </Symbol>
     <Label HasLeader="true">
+      <Point Name="ALBANY STADIUM">-364337.000+1744208.000</Point>
       <Point Name="ATHENREE">-372653.600+1755808.700</Point>
       <Point Name="AVONDALE RACECOURSE">-365353.500+1744124.600</Point>
       <Point Name="BLOCKHOUSE BAY">-365533.600+1744224.700</Point>
@@ -356,6 +360,7 @@
       <Point Name="COROMANDEL TOWN">-364520.500+1753003.000</Point>
       <Point Name="DRURY">-370613.500+1745649.700</Point>
       <Point Name="GREEN SHED">-371327.000+1750152.000</Point>
+      <Point Name="GULF HARBOUR MARINA">-363728.000+1744716.000</Point>
       <Point Name="HINGAIA BRIDGE">-370510.400+1745427.200</Point>
       <Point Name="HOTEL DU VIN">-371124.100+1750849.400</Point>
       <Point Name="HOWICK">-365241.500+1745529.700</Point>
@@ -389,6 +394,7 @@
       <Point Name="PUKETUTU ISLAND">-365750.500+1744429.600</Point>
       <Point Name="QUARRY LAKE">-371607.000+1750959.500</Point>
       <Point Name="RED HILL">-370402.000+1745857.000</Point>
+      <Point Name="SADLER POINT">-363010.000+1744408.000</Point>
       <Point Name="SEAGROVE">-370540.500+1744647.600</Point>
       <Point Name="ST HELIERS">-365035.500+1745150.700</Point>
       <Point Name="TAIHIKI RIVER ESTUARY">-370955.500+1744728.600</Point>

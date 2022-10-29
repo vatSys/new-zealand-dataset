@@ -1234,7 +1234,6 @@
       <Point Name="JELLIE-ARR">SOUTHSHORE PENINSULA</Point>
       <Point Name="LINCOLN-DEP">RICCARTON RACECOURSE</Point>
       <Point Name="MANDEVILLE-DEP">BRIDGE</Point>
-      <Point Name="MINERS-ARR">MINERS</Point>
       <Point Name="MINERS-DEP">-43.491667+172.491667</Point>
       <Point Name="NORTHLANDS-ARR">THE PIER</Point>
       <Point Name="PIER-DEP">-43.483333+172.591667</Point>
@@ -1242,10 +1241,12 @@
       <Point Name="TAITAPU-DEP">ADDINGTON RACECOURSE</Point>
     </Label>
     <Label HasLeader="true" LabelOrientation="SE">
+      <Point Name="MINERS-ARR">BRIDGE</Point>
       <Point Name="POND-DEP">-43.491667+172.491667</Point>
       <Point Name="RICCARTON-ARR">LINCOLN</Point>
       <Point Name="WAIMAIRI-ARR">WAIMAIRI</Point>
       <Point Name="WAIMAIRI-DEP">-43.483333+172.591667</Point>
+      <Point Name="WIGRAM-ARR">ADDINGTON RACECOURSE</Point>
     </Label>
     <!--29BRIDGE-ARR-->
     <Line Pattern="Dotted">
@@ -1285,7 +1286,7 @@
     </Line>
     <!--MINERS-ARR-->
     <Line Pattern="Dotted">
-      MINERS/CORINGA
+      BRIDGE/MINERS/NISOM
     </Line>
     <!--MINERS-DEP-->
     <Line Pattern="Dotted">
@@ -1322,6 +1323,10 @@
     <!--WAIMAIRI-DEP-->
     <Line Pattern="Dotted">
       -43.483333+172.591667/NORTHLANDS MALL/WAIMAIRI
+    </Line>
+    <!--WIGRAM-ARR-->
+    <Line Pattern="Dotted">
+      ADDINGTON RACECOURSE/WIGRAM/NISOM
     </Line>
   </Map>
 </Maps>
