@@ -86,6 +86,10 @@
       DOGBI/VANDA
     </Line>
     <Line Pattern="Dashed">
+      <!--Rwy16 CTDOG1Q-->
+      WN16T/TAXUP/TAPAB/RUSPI/MATVU/DOGBI/GULUT
+    </Line>
+    <Line Pattern="Dashed">
       <!--Rwy16 IDVA1Q-->
     </Line>
     <Line Pattern="Dashed">
@@ -123,6 +127,7 @@
       <Point>AGROR</Point>
       <Point>URBEM</Point>
       <Point>ATVEV</Point>
+      <Point>TAXUP</Point>
     </Symbol>
     <Symbol Type="Circle">
       <Point>PP NDB</Point>
@@ -152,6 +157,9 @@
       <Point>SABDA</Point>
       <Point>TANEN</Point>
       <Point>VANDA</Point>
+      <Point>TAPAB</Point>
+      <Point>RUSPI</Point>
+      <Point>MATVU</Point>
       <Point>ESMAB</Point>
       <Point>IGMUL</Point>
       <Point>KENJA</Point>
@@ -163,6 +171,7 @@
     <Label HasLeader="true">
       <Point>AGROR</Point>
       <Point>ATVEV</Point>
+      <Point>GULUT</Point>
       <Point>URBEM</Point>
       <Point>IDVAL</Point>
       <Point>AKTAN</Point>
@@ -173,7 +182,6 @@
       <Point>PP NDB</Point>
       <Point>VENAM</Point>
       <Point>GOPLU</Point>
-      <Point>GULUT</Point>
       <Point>KABKA</Point>
       <Point>LUBSI</Point>
       <Point>RUSIL</Point>
@@ -349,8 +357,12 @@
   </Map>
   <Map Type="System2" Name="34 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.318622+174.807458">
     <Line Pattern="Dashed">
+      <!--Rwy34 CTDP1P-->
+      -41.318622+174.807458/WN34T/POLAX/OMLAS/ATRIM/DOVUL/GULUT
+    </Line>
+    <Line Pattern="Dashed">
       <!--Rwy34 IPKE1P-->
-      -41.318622+174.807458/WN34T/GANJI/IPKEP
+      WN34T/GANJI/IPKEP
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy34 IPKE1P.ATVIN-->
@@ -503,6 +515,7 @@
       URGEV/HANWU/IRTAG/VENAM
     </Line>
     <Symbol Type="SolidStar">
+      <Point>POLAX</Point>
       <Point>GANJI</Point>
       <Point>UPLUD</Point>
       <Point>URGEV</Point>
@@ -512,6 +525,10 @@
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>WN34T</Point>
+      <Point>OMLAS</Point>
+      <Point>ATRIM</Point>
+      <Point>DOVUL</Point>
+      <Point>GULUT</Point>
       <Point>IPKEP</Point>
       <Point>UGARO</Point>
       <Point>ATVIN</Point>
@@ -526,10 +543,7 @@
       <Point>ATSUN</Point>
       <Point>OLSUS</Point>
       <Point>HHOOT</Point>
-      <Point>ATRIM</Point>
-      <Point>DOVUL</Point>
       <Point>GOPLU</Point>
-      <Point>GULUT</Point>
       <Point>KABKA</Point>
       <Point>KAMET</Point>
       <Point>KAPTI</Point>
@@ -552,6 +566,7 @@
       <Point>VENAM</Point>
     </Symbol>
     <Label HasLeader="true">
+      <Point>GULUT</Point>
       <Point>IPKEP</Point>
       <Point>UPLUD</Point>
       <Point>URGEV</Point>
@@ -561,7 +576,6 @@
       <Point>UPVAP</Point>
       <Point>ATSUN</Point>
       <Point>GOPLU</Point>
-      <Point>GULUT</Point>
       <Point>KABKA</Point>
       <Point>KAMET</Point>
       <Point>KAPTI</Point>
