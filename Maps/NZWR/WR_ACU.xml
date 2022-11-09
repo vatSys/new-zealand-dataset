@@ -74,7 +74,12 @@
       <Point>WR983</Point>
     </Symbol>
     <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>OMANA</Point>
+      <Point>LEECH</Point>
+      <Point>OTUHI</Point>
+      <Point>BIRAX</Point>
+    </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>ADKES</Point>
@@ -82,21 +87,22 @@
       <Point>MONSU</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>OMANA</Point>
-      <Point>BIRAX</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">OMANA/ADKES/WR601/-354611.550+1742128.170</Line>
+    <Line Pattern="Solid">LEECH/OMANA</Line>
+    <Line Pattern="Solid">OTUHI/OMANA</Line>
     <Line Pattern="Solid">SF NDB/DUDAP/WR431/-354611.550+1742128.170</Line>
     <Line Pattern="Solid">BIRAX/MONSU/WR983/-354611.550+1742128.170</Line>
   </Map>
   <Map Type="System2" Name="06 RNP Labels" Priority="1" Center="-35.769875+174.357825" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>OMANA</Point>
+      <Point>LEECH</Point>
+      <Point>OTUHI</Point>
+      <Point>BIRAX</Point>
       <Point>ADKES</Point>
       <Point>DUDAP</Point>
       <Point>MONSU</Point>
-      <Point>OMANA</Point>
-      <Point>BIRAX</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="24 SIDs" Priority="1" CustomColourName="ProcDep" Center="-35.769875+174.357825">
@@ -172,24 +178,24 @@
       <Point>WR983</Point>
     </Symbol>
     <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>BIRAX</Point>
+    </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>DUDAP</Point>
       <Point>MONSU</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>BIRAX</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">SF NDB/DUDAP/WR431/-354606.139+1742211.341</Line>
     <Line Pattern="Solid">BIRAX/MONSU/WR983/-354606.139+1742211.341</Line>
   </Map>
   <Map Type="System2" Name="24 RNP Labels" Priority="1" Center="-35.768372+174.369817" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>BIRAX</Point>
       <Point>DUDAP</Point>
       <Point>MONSU</Point>
-      <Point>BIRAX</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="14 RNP" Priority="1" Center="-35.769944+174.359269" CustomColourName="ProcArr">
@@ -199,24 +205,24 @@
       <Point>WR983</Point>
     </Symbol>
     <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>BIRAX</Point>
+    </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>DUDAP</Point>
       <Point>MONSU</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>BIRAX</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">SF NDB/DUDAP/WR431/-354611.798+1742133.368</Line>
     <Line Pattern="Solid">BIRAX/MONSU/WR983/-354611.798+1742133.368</Line>
   </Map>
   <Map Type="System2" Name="14 RNP Labels" Priority="1" Center="-35.769944+174.359269" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>BIRAX</Point>
       <Point>DUDAP</Point>
       <Point>MONSU</Point>
-      <Point>BIRAX</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="32 RNP" Priority="1" Center="-35.773842+174.361253" CustomColourName="ProcArr">
@@ -226,24 +232,24 @@
       <Point>WR983</Point>
     </Symbol>
     <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>BIRAX</Point>
+    </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>DUDAP</Point>
       <Point>MONSU</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>BIRAX</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">SF NDB/DUDAP/WR431/-354625.831+1742140.511</Line>
     <Line Pattern="Solid">BIRAX/MONSU/WR983/-354625.831+1742140.511</Line>
   </Map>
   <Map Type="System2" Name="32 RNP Labels" Priority="1" Center="-35.773842+174.361253" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>BIRAX</Point>
       <Point>DUDAP</Point>
       <Point>MONSU</Point>
-      <Point>BIRAX</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-35.768333+174.365000">
@@ -258,6 +264,8 @@
       <Point Name="PAIHIA WATERFRONT">-351651.600+1740533.000</Point>
       <Point Name="PORTLAND">-354823.000+1741958.000</Point>
       <Point Name="PUKETONA QUARRY">-351803.000+1735904.000</Point>
+      <Point Name="RED HORN">-363123.000+1742556.000</Point>
+      <Point Name="SADLER POINT">-363010.000+1744408.000</Point>
       <Point Name="TAPEKA POINT">-351430.800+1740710.900</Point>
       <Point Name="WARKWORTH">-362402.100+1743949.300</Point>
       <Point Name="WELLSFORD">-361745.900+1743123.600</Point>
@@ -273,6 +281,8 @@
       <Point Name="PAIHIA WATERFRONT">-351651.600+1740533.000</Point>
       <Point Name="PORTLAND">-354823.000+1741958.000</Point>
       <Point Name="PUKETONA QUARRY">-351803.000+1735904.000</Point>
+      <Point Name="RED HORN">-363123.000+1742556.000</Point>
+      <Point Name="SADLER POINT">-363010.000+1744408.000</Point>
       <Point Name="TAPEKA POINT">-351430.800+1740710.900</Point>
       <Point Name="WARKWORTH">-362402.100+1743949.300</Point>
       <Point Name="WELLSFORD">-361745.900+1743123.600</Point>

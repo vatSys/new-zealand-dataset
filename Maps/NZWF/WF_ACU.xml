@@ -135,6 +135,7 @@
     <Symbol Type="HollowSquare">
       <Point Name="AFTON BURN SADDLE">-450925.700+1682400.200</Point>
       <Point Name="ALABASTER">-442945.000+1681039.500</Point>
+      <Point Name="ALBERT TOWN BRIDGE">-444052.450+1691126.560</Point>
       <Point Name="BANNOCKBURN">-450522.200+1690940.600</Point>
       <Point Name="BAYONET PEAK">-450945.000+1684109.100</Point>
       <Point Name="BEN LOMOND">-450025.100+1683655.200</Point>
@@ -142,6 +143,7 @@
       <Point Name="BOBS COVE">-450421.600+1683047.900</Point>
       <Point Name="BUNGY BRIDGE">-450031.100+1685400.200</Point>
       <Point Name="CAMERON BRIDGE">-441324.100+1700300.300</Point>
+      <Point Name="CARDRONA PINES">-444816.190+1690257.000</Point>
       <Point Name="CARDRONA TOWNSHIP">-445255.800+1690013.000</Point>
       <Point Name="CLYDE DAM">-451045.100+1691824.300</Point>
       <Point Name="COALPIT SADDLE">-450338.700+1685639.800</Point>
@@ -156,6 +158,7 @@
       <Point Name="ELFIN BAY">-445712.100+1682136.200</Point>
       <Point Name="FLOOD BURN">-444407.200+1683658.800</Point>
       <Point Name="FRASER DAM">-451225.100+1691251.300</Point>
+      <Point Name="GLENDHU BAY">-443952.380+1690125.490</Point>
       <Point Name="GULLY">-450500.400+1683715.900</Point>
       <Point Name="HALFWAY BAY">-451145.800+1684149.600</Point>
       <Point Name="HEAD OF THE GLADSTONE">-440405.200+1695751.100</Point>
@@ -171,7 +174,6 @@
       <Point Name="LAKE LUNA">-445646.100+1682926.200</Point>
       <Point Name="LAKE SYLVAN">-444216.900+1681908.700</Point>
       <Point Name="MACETOWN">-445204.700+1684926.000</Point>
-      <Point Name="MATUKITUKI RIVER MOUTH">-443749.600+1690051.800</Point>
       <Point Name="MOKE LAKE">-450001.100+1683403.200</Point>
       <Point Name="MOONLIGHT">-445749.500+1683903.200</Point>
       <Point Name="MOUNT ALFRED">-444527.100+1682140.200</Point>
@@ -180,11 +182,12 @@
       <Point Name="MOUNT EARNSLAW">-443721.100+1682438.200</Point>
       <Point Name="MOUNT LARKINS">-445245.000+1682931.200</Point>
       <Point Name="MOUNT NIC STATION">-450539.700+1682538.600</Point>
+      <Point Name="MOU WAHO">-443320.380+1690452.230</Point>
       <Point Name="OHAU TURNOFF">-442115.600+1700029.400</Point>
       <Point Name="PIG ISLAND">-445638.100+1682424.200</Point>
       <Point Name="PUKAKI SPILLWAY">-441118.000+1700812.300</Point>
       <Point Name="QUARTZ KNOLL">-445737.500+1685939.800</Point>
-      <Point Name="QUEENSBERRY">-444947.300+1691958.700</Point>
+      <Point Name="QUEENSBERRY PONDS">-444648.160+1691823.210</Point>
       <Point Name="QUEENSTOWN HILL">-445948.600+1684206.700</Point>
       <Point Name="RAT POINT">-450430.700+1682742.900</Point>
       <Point Name="RHOBORO DOWNS">-441124.000+1700510.300</Point>
@@ -208,6 +211,7 @@
     <Label HasLeader="true">
       <Point Name="AFTON BURN SADDLE">-450925.700+1682400.200</Point>
       <Point Name="ALABASTER">-442945.000+1681039.500</Point>
+      <Point Name="ALBERT TOWN BRIDGE">-444052.450+1691126.560</Point>
       <Point Name="BANNOCKBURN">-450522.200+1690940.600</Point>
       <Point Name="BAYONET PEAK">-450945.000+1684109.100</Point>
       <Point Name="BEN LOMOND">-450025.100+1683655.200</Point>
@@ -215,6 +219,7 @@
       <Point Name="BOBS COVE">-450421.600+1683047.900</Point>
       <Point Name="BUNGY BRIDGE">-450031.100+1685400.200</Point>
       <Point Name="CAMERON BRIDGE">-441324.100+1700300.300</Point>
+      <Point Name="CARDRONA PINES">-444816.190+1690257.000</Point>
       <Point Name="CARDRONA TOWNSHIP">-445255.800+1690013.000</Point>
       <Point Name="CLYDE DAM">-451045.100+1691824.300</Point>
       <Point Name="COALPIT SADDLE">-450338.700+1685639.800</Point>
@@ -229,6 +234,7 @@
       <Point Name="ELFIN BAY">-445712.100+1682136.200</Point>
       <Point Name="FLOOD BURN">-444407.200+1683658.800</Point>
       <Point Name="FRASER DAM">-451225.100+1691251.300</Point>
+      <Point Name="GLENDHU BAY">-443952.380+1690125.490</Point>
       <Point Name="GULLY">-450500.400+1683715.900</Point>
       <Point Name="HALFWAY BAY">-451145.800+1684149.600</Point>
       <Point Name="HEAD OF THE GLADSTONE">-440405.200+1695751.100</Point>
@@ -244,7 +250,6 @@
       <Point Name="LAKE LUNA">-445646.100+1682926.200</Point>
       <Point Name="LAKE SYLVAN">-444216.900+1681908.700</Point>
       <Point Name="MACETOWN">-445204.700+1684926.000</Point>
-      <Point Name="MATUKITUKI RIVER MOUTH">-443749.600+1690051.800</Point>
       <Point Name="MOKE LAKE">-450001.100+1683403.200</Point>
       <Point Name="MOONLIGHT">-445749.500+1683903.200</Point>
       <Point Name="MOUNT ALFRED">-444527.100+1682140.200</Point>
@@ -253,11 +258,12 @@
       <Point Name="MOUNT EARNSLAW">-443721.100+1682438.200</Point>
       <Point Name="MOUNT LARKINS">-445245.000+1682931.200</Point>
       <Point Name="MOUNT NIC STATION">-450539.700+1682538.600</Point>
+      <Point Name="MOU WAHO">-443320.380+1690452.230</Point>
       <Point Name="OHAU TURNOFF">-442115.600+1700029.400</Point>
       <Point Name="PIG ISLAND">-445638.100+1682424.200</Point>
       <Point Name="PUKAKI SPILLWAY">-441118.000+1700812.300</Point>
       <Point Name="QUARTZ KNOLL">-445737.500+1685939.800</Point>
-      <Point Name="QUEENSBERRY">-444947.300+1691958.700</Point>
+      <Point Name="QUEENSBERRY PONDS">-444648.160+1691823.210</Point>
       <Point Name="QUEENSTOWN HILL">-445948.600+1684206.700</Point>
       <Point Name="RAT POINT">-450430.700+1682742.900</Point>
       <Point Name="RHOBORO DOWNS">-441124.000+1700510.300</Point>

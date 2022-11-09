@@ -266,7 +266,7 @@
     <Line Name="Q731">PP NDB.Q731.URDAL</Line>
     <Line Name="Q741">MERAS.Q741.WP VOR</Line>
     <Line Name="Q747">ELMAX.Q747.MARKO</Line>
-    <Line Name="Q787">NV VOR.Q787.NS VOR</Line>
+    <Line Name="Q787">NV VOR.Q787.NESTA</Line>
     <Line Name="Q789">SURFY.Q789.HOOKS</Line>
     <Line Name="Q797">UKAPA.Q797.KK NDB</Line>
     <Line Name="Q800">ATBUB.Q800.RIDLA</Line>
@@ -311,6 +311,7 @@
     <Line Name="Y477">SW VOR.Y477.CH VOR</Line>
     <Line Name="Y496">DUKOP.Y496.BELEE</Line>
     <Line Name="Y501">SNAPA.Y501.DUMOT</Line>
+    <Line Name="Y502">VENAM.Y502.WN VOR</Line>
     <Line Name="Y505">OH VOR.Y505.TG NDB</Line>
     <Line Name="Y506">TPAPA.Y506.KARRL</Line>
     <Line Name="Y523">RIVTA.Y523.GULOV</Line>
@@ -328,6 +329,7 @@
     <Line Name="Y615">NV VOR.Y615.ELDAK</Line>
     <Line Name="Y622">MESIX.Y622.SABDA</Line>
     <Line Name="Y628">UPNIX.Y628.LAKAR</Line>
+    <Line Name="Y631">WN VOR.Y631.MEVAX</Line>
     <Line Name="Y640">PM VOR.Y640.RO VOR</Line>
     <Line Name="Y655">LOVTA.Y655.POKOM</Line>
     <Line Name="Y666">PM VOR.Y666.LAKES</Line>
@@ -627,6 +629,7 @@
       <Point>NP VOR</Point>
       <Point>BUGNO</Point>
       <Point>ELDIB</Point>
+      <Point>ONAGO</Point>
       <Point>DOGMO</Point>
       <Point>ELMER</Point>
       <Point>KAPTI</Point>
@@ -683,8 +686,8 @@
       <Point>GOBUK</Point>
       <Point>ODOLO</Point>
       <Point>FOXTN</Point>
-      <Point>TAMIS</Point>
-      <Point>OTBAX</Point>
+      <Point>AVPIB</Point>
+      <Point>ISRET</Point>
       <Point>POURO</Point>
       <Point>DROPT</Point>
       <Point>CREEK</Point>
@@ -1066,6 +1069,7 @@
       <Point>BAYES</Point>
       <Point>MUKRA</Point>
       <Point>DUGUP</Point>
+      <Point>ANOPA</Point>
       <Point>SUNGU</Point>
       <Point>TIMJO</Point>
       <Point>DUBON</Point>
@@ -1134,6 +1138,7 @@
       <Point>SAVLA</Point>
       <Point>LOVTA</Point>
       <Point>ADLUP</Point>
+      <Point>ATVIN</Point>
       <Point>SUDAM</Point>
       <Point>LEBOX</Point>
       <Point>IDLUR</Point>
@@ -1418,6 +1423,7 @@
       <Point>NP VOR</Point>
       <Point>BUGNO</Point>
       <Point>ELDIB</Point>
+      <Point>ONAGO</Point>
       <Point>DOGMO</Point>
       <Point>ELMER</Point>
       <Point>KAPTI</Point>
@@ -1474,8 +1480,8 @@
       <Point>GOBUK</Point>
       <Point>ODOLO</Point>
       <Point>FOXTN</Point>
-      <Point>TAMIS</Point>
-      <Point>OTBAX</Point>
+      <Point>AVPIB</Point>
+      <Point>ISRET</Point>
       <Point>POURO</Point>
       <Point>DROPT</Point>
       <Point>CREEK</Point>
@@ -1857,6 +1863,7 @@
       <Point>BAYES</Point>
       <Point>MUKRA</Point>
       <Point>DUGUP</Point>
+      <Point>ANOPA</Point>
       <Point>SUNGU</Point>
       <Point>TIMJO</Point>
       <Point>DUBON</Point>
@@ -1925,6 +1932,7 @@
       <Point>SAVLA</Point>
       <Point>LOVTA</Point>
       <Point>ADLUP</Point>
+      <Point>ATVIN</Point>
       <Point>SUDAM</Point>
       <Point>LEBOX</Point>
       <Point>IDLUR</Point>

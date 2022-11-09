@@ -129,6 +129,7 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>RUGRU</Point>
       <Point>CREEK</Point>
       <Point>EWOOD</Point>
       <Point>OTOKO</Point>
@@ -139,9 +140,7 @@
       <Point>SALEK</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>RUGRU</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">RUGRU/SALEK/-383929.880+1775829.910</Line>
     <Line Pattern="Solid">CREEK/RUGRU</Line>
     <Line Pattern="Solid">EWOOD/RUGRU</Line>
@@ -150,12 +149,12 @@
   </Map>
   <Map Type="System2" Name="14 RNP Labels" Priority="1" Center="-38.658300+177.974975" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>RUGRU</Point>
       <Point>CREEK</Point>
       <Point>EWOOD</Point>
       <Point>OTOKO</Point>
       <Point>WARIK</Point>
       <Point>SALEK</Point>
-      <Point>RUGRU</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="32 SIDs" Priority="1" CustomColourName="ProcDep" Center="-38.658300+177.974975">
@@ -277,6 +276,7 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>KOPUA</Point>
       <Point>COOKS</Point>
       <Point>UKLIP</Point>
     </Symbol>
@@ -285,19 +285,17 @@
       <Point>VESAV</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>KOPUA</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">KOPUA/VESAV/-384010.870+1775844.540</Line>
     <Line Pattern="Solid">COOKS/KOPUA</Line>
     <Line Pattern="Solid">UKLIP/KOPUA</Line>
   </Map>
   <Map Type="System2" Name="32 RNP Labels" Priority="1" Center="-38.669686+177.979039" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>KOPUA</Point>
       <Point>COOKS</Point>
       <Point>UKLIP</Point>
       <Point>VESAV</Point>
-      <Point>KOPUA</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-38.663333+177.978333">

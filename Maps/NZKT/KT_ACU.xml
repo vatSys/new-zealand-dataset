@@ -63,9 +63,6 @@
     <Symbol Type="HollowTriangle">
       <Point>STEED</Point>
     </Symbol>
-    <Symbol Type="SolidTriangle">
-      <Point>STEED</Point>
-    </Symbol>
     <Symbol Type="Circle">
       <Point>KT NDB</Point>
     </Symbol>
@@ -76,23 +73,25 @@
   </Map>
   <Map Type="System2" Name="12 RNP" Priority="1" Center="-35.064536+173.281014" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>KT401</Point>
+    </Symbol>
     <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>STEED</Point>
+    </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>DAKTA</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>STEED</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">STEED/DAKTA/KT401/-350352.330+1731651.650</Line>
   </Map>
   <Map Type="System2" Name="12 RNP Labels" Priority="1" Center="-35.064536+173.281014" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>DAKTA</Point>
       <Point>STEED</Point>
+      <Point>DAKTA</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="30 SIDs" Priority="1" CustomColourName="ProcDep" Center="-35.064536+173.281014">
@@ -172,13 +171,15 @@
     <Label HasLeader="true">
       <Point>KAROA</Point>
       <Point>PERAS</Point>
-      <Point>PERIA</Point>
       <Point>RUATO</Point>
+      <Point>PERIA</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="30 RNP" Priority="1" Center="-35.074508+173.290461" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>KT501</Point>
+    </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>PERIA</Point>

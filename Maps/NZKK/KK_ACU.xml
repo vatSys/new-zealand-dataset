@@ -40,15 +40,15 @@
       <Point>-35.244333+173.907978</Point>
     </Symbol>
     <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>OTAHA</Point>
+    </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>-35.171564+173.885264</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>OTAHA</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">OTAHA/-35.171564+173.885264/-35.244333+173.907978/-351508.701+1735437.822</Line>
   </Map>
   <Map Type="System2" Name="15 RNP Labels" Priority="1" Center="-35.252417+173.910506" CustomColourName="ProcArr">
@@ -99,15 +99,15 @@
       <Point>-35.270886+173.916278</Point>
     </Symbol>
     <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>OPARE</Point>
+    </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>-35.343650+173.939047</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>OPARE</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">OPARE/-35.343650+173.939047/-35.270886+173.916278/-351546.091+1735449.500</Line>
   </Map>
   <Map Type="System2" Name="33 RNP Labels" Priority="1" Center="-35.262803+173.913750" CustomColourName="ProcArr">

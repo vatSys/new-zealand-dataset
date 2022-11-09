@@ -75,6 +75,7 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>NUTGO</Point>
       <Point>BOBIT</Point>
       <Point>DOTGO</Point>
       <Point>LELUK</Point>
@@ -84,9 +85,7 @@
       <Point>NIVOD</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>NUTGO</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">NUTGO/NIVOD/-401209.562+1752227.570</Line>
     <Line Pattern="Solid">BOBIT/NUTGO</Line>
     <Line Pattern="Solid">DOTGO/NUTGO</Line>
@@ -94,11 +93,11 @@
   </Map>
   <Map Type="System2" Name="09 RNP Labels" Priority="1" Center="-40.202656+175.374325" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>NUTGO</Point>
       <Point>BOBIT</Point>
       <Point>DOTGO</Point>
       <Point>LELUK</Point>
       <Point>NIVOD</Point>
-      <Point>NUTGO</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="27 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.202656+175.374325">
@@ -233,6 +232,7 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>SOSLA</Point>
       <Point>NOBED</Point>
       <Point>VARNO</Point>
     </Symbol>
@@ -241,19 +241,17 @@
       <Point>VELSU</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>SOSLA</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">SOSLA/VELSU/-401302.150+1752325.670</Line>
     <Line Pattern="Solid">NOBED/SOSLA</Line>
     <Line Pattern="Solid">VARNO/SOSLA</Line>
   </Map>
   <Map Type="System2" Name="33 RNP Labels" Priority="1" Center="-40.217264+175.390464" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>SOSLA</Point>
       <Point>NOBED</Point>
       <Point>VARNO</Point>
       <Point>VELSU</Point>
-      <Point>SOSLA</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-40.206667+175.386944">
