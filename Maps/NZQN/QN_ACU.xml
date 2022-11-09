@@ -42,18 +42,6 @@
       QN882/SUNGU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05 EPDE3P-->
-      -45.016544+168.757728/GIXEL/EPDEX
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy05 EPDE3P.SAVLA-->
-      EPDEX/AKMAD
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy05 EPDE3P.TIMJO-->
-      EPDEX/ATVOR
-    </Line>
-    <Line Pattern="Dashed">
       <!--Rwy05 GIXEL1-->
       -45.016544+168.757728/QN VOR/AGTAM/GIXEL
     </Line>
@@ -74,10 +62,11 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05 GIXEL1.SAVLA-->
-      GIXEL/EPDEX
+      GIXEL/EPDEX/AKMAD
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05 GIXEL1.TIMJO-->
+      EPDEX/ATVOR
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05 IPNO3A-->
@@ -131,12 +120,12 @@
       <Point>BASOS</Point>
       <Point>ADLUP</Point>
       <Point>SUNGU</Point>
-      <Point>EPDEX</Point>
       <Point>AGTAM</Point>
       <Point>ENRAT</Point>
       <Point>ADKOS</Point>
       <Point>BIKOS</Point>
       <Point>LIBLA</Point>
+      <Point>EPDEX</Point>
       <Point>QN862</Point>
       <Point>QN864</Point>
       <Point>QN866</Point>
@@ -146,7 +135,6 @@
       <Point>ANPOV</Point>
       <Point>QN VOR</Point>
       <Point>QN882</Point>
-      <Point>EPDEX</Point>
       <Point>GIXEL</Point>
       <Point>IPNOR</Point>
       <Point>SAVLA</Point>

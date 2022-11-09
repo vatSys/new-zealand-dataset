@@ -270,6 +270,9 @@
       <Point>EKVIL</Point>
       <Point>OPAPA</Point>
       <Point>NR VOR</Point>
+      <Point>OTAHA</Point>
+      <Point>OPARE</Point>
+      <Point>STEED</Point>
       <Point>PERIA</Point>
       <Point>BESMO</Point>
       <Point>KAKIT</Point>
@@ -279,7 +282,9 @@
       <Point>MAMOD</Point>
       <Point>ATVOX</Point>
       <Point>URDAL</Point>
+      <Point>LIBKO</Point>
       <Point>PANGO</Point>
+      <Point>UPLIN</Point>
       <Point>BOLOR</Point>
       <Point>AROPA</Point>
       <Point>ELBOW</Point>
@@ -361,6 +366,10 @@
       <Point>FLAXX</Point>
       <Point>ABUOY</Point>
       <Point>BAZEN</Point>
+      <Point>OMANA</Point>
+      <Point>LEECH</Point>
+      <Point>OTUHI</Point>
+      <Point>BIRAX</Point>
       <Point>AVMAK</Point>
       <Point>GUNOM</Point>
       <Point>ANSIS</Point>
@@ -455,13 +464,8 @@
       <Point>BUDEN</Point>
       <Point>VATNA</Point>
       <Point>GUNDA</Point>
-      <Point>OTAHA</Point>
-      <Point>OPARE</Point>
-      <Point>STEED</Point>
       <Point>LUGDU</Point>
       <Point>SADUN</Point>
-      <Point>LIBKO</Point>
-      <Point>UPLIN</Point>
       <Point>VARMA</Point>
       <Point>UPDAL</Point>
       <Point>ELMAX</Point>
@@ -481,8 +485,6 @@
       <Point>MARKS</Point>
       <Point>WYTAK</Point>
       <Point>BAYES</Point>
-      <Point>OMANA</Point>
-      <Point>BIRAX</Point>
       <Point>BURKI</Point>
       <Point>WS408</Point>
       <Point>UGSAP</Point>
@@ -507,6 +509,8 @@
       <Point>-39.640450+176.769780</Point>
       <Point>-35.244333+173.907978</Point>
       <Point>-35.270886+173.916278</Point>
+      <Point>KT401</Point>
+      <Point>KT501</Point>
       <Point>MS603</Point>
       <Point>MS818</Point>
       <Point>MS572</Point>
@@ -584,6 +588,9 @@
       <Point>EKVIL</Point>
       <Point>OPAPA</Point>
       <Point>NR VOR</Point>
+      <Point>OTAHA</Point>
+      <Point>OPARE</Point>
+      <Point>STEED</Point>
       <Point>PERIA</Point>
       <Point>BESMO</Point>
       <Point>KAKIT</Point>
@@ -593,7 +600,9 @@
       <Point>MAMOD</Point>
       <Point>ATVOX</Point>
       <Point>URDAL</Point>
+      <Point>LIBKO</Point>
       <Point>PANGO</Point>
+      <Point>UPLIN</Point>
       <Point>BOLOR</Point>
       <Point>AROPA</Point>
       <Point>ELBOW</Point>
@@ -675,6 +684,10 @@
       <Point>FLAXX</Point>
       <Point>ABUOY</Point>
       <Point>BAZEN</Point>
+      <Point>OMANA</Point>
+      <Point>LEECH</Point>
+      <Point>OTUHI</Point>
+      <Point>BIRAX</Point>
       <Point>AVMAK</Point>
       <Point>GUNOM</Point>
       <Point>ANSIS</Point>
@@ -786,13 +799,8 @@
       <Point>BUDEN</Point>
       <Point>VATNA</Point>
       <Point>GUNDA</Point>
-      <Point>OTAHA</Point>
-      <Point>OPARE</Point>
-      <Point>STEED</Point>
       <Point>LUGDU</Point>
       <Point>SADUN</Point>
-      <Point>LIBKO</Point>
-      <Point>UPLIN</Point>
       <Point>VARMA</Point>
       <Point>UPDAL</Point>
       <Point>ELMAX</Point>
@@ -812,8 +820,6 @@
       <Point>MARKS</Point>
       <Point>WYTAK</Point>
       <Point>BAYES</Point>
-      <Point>OMANA</Point>
-      <Point>BIRAX</Point>
       <Point>BURKI</Point>
       <Point>WS408</Point>
       <Point>UGSAP</Point>
@@ -1015,6 +1021,8 @@
     <Line Pattern="Solid">ABUOY/FLAXX</Line>
     <Line Pattern="Solid">BAZEN/FLAXX</Line>
     <Line Pattern="Solid">OMANA/ADKES/WR601/-354611.550+1742128.170</Line>
+    <Line Pattern="Solid">LEECH/OMANA</Line>
+    <Line Pattern="Solid">OTUHI/OMANA</Line>
     <Line Pattern="Solid">SF NDB/DUDAP/WR431/-354611.550+1742128.170</Line>
     <Line Pattern="Solid">WR431/-354611.798+1742133.368</Line>
     <Line Pattern="Solid">WR431/-354606.139+1742211.341</Line>

@@ -394,7 +394,6 @@
         <SID Name="HARBO3" />
         <STAR Name="KAROA1" ApproachName="RNP" />
         <STAR Name="PERAS1" ApproachName="RNP" />
-        <STAR Name="RNAV" ApproachName="RNP" />
         <STAR Name="RUATO1" ApproachName="RNP" />
       </Runway>
       <Runway Name="36" DataRunway="36" />
@@ -688,8 +687,7 @@
       <Runway Name="05" DataRunway="05">
         <SID Name="ANPO3A" />
         <SID Name="BRG1" />
-        <SID Name="DOVM2A" Type="NonJet" />
-        <SID Name="EPDE3P" />
+        <SID Name="DOVM2A" />
         <SID Name="GIXEL1" />
         <SID Name="IPNO3A" />
         <STAR Name="ELRU2A" ApproachName="RNP-ARY" />
@@ -7237,11 +7235,6 @@ RILEY
       <Transition Name="ADLUP">REDOL/BASOS/ADLUP</Transition>
       <Transition Name="SUNGU">SUNGU</Transition>
     </SID>
-    <SID Name="EPDE3P" Airport="NZQN" Runways="05">
-      <Route Runway="05">GIXEL/EPDEX</Route>
-      <Transition Name="SAVLA">AKMAD/NONAN/SAVLA</Transition>
-      <Transition Name="TIMJO">ATVOR/TIMJO</Transition>
-    </SID>
     <SID Name="FKN8" Airport="NZQN" Runways="23">
       <Route Runway="23" />
       <Transition Name="ATHOL">ATHOL</Transition>
@@ -7831,6 +7824,7 @@ RILEY
     </STAR>
     <STAR Name="IDON1F" Airport="NZAR" Runways="03">
       <Route Runway="03">IDONO/REDOG</Route>
+      <Transition Name="IGABI">IGABI</Transition>
       <Transition Name="MERAS">MERAS</Transition>
       <Transition Name="OSNUM">OSNUM</Transition>
       <Transition Name="OVSAN">OVSAN/IGABI</Transition>
@@ -8232,12 +8226,6 @@ RILEY
     </STAR>
     <STAR Name="PERAS1" Airport="NZKT" Runways="30">
       <Route Runway="30">PERAS/PERIA</Route>
-    </STAR>
-    <STAR Name="RNAV" Airport="NZKT" Runways="30">
-      <Route Runway="30">PERIA</Route>
-      <Transition Name="KAROA">KAROA</Transition>
-      <Transition Name="PERAS">PERAS</Transition>
-      <Transition Name="RUATO">RUATO</Transition>
     </STAR>
     <STAR Name="RUATO1" Airport="NZKT" Runways="30">
       <Route Runway="30">RUATO/PERIA</Route>

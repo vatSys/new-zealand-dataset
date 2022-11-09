@@ -84,6 +84,10 @@
       AA VOR/RIKNA
     </Line>
     <Line Pattern="Solid">
+      <!--Rwy03 IDON1F.IGABI-->
+      IGABI/IDONO
+    </Line>
+    <Line Pattern="Solid">
       <!--Rwy03 IDON1F.MERAS-->
       MERAS/IDONO
     </Line>
@@ -93,7 +97,7 @@
     </Line>
     <Line Pattern="Solid">
       <!--Rwy03 IDON1F.OVSAN-->
-      OVSAN/IGABI/IDONO
+      OVSAN/IGABI
     </Line>
     <Line>
       <!--Rwy03 IDON1F-->
@@ -107,15 +111,16 @@
       <Point>AA VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
-      <Point>MERAS</Point>
+      <Point>IGABI</Point>
       <Point>IDONO</Point>
+      <Point>MERAS</Point>
       <Point>OSNUM</Point>
       <Point>OVSAN</Point>
-      <Point>IGABI</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>AA VOR</Point>
       <Point>IDONO</Point>
+      <Point>IGABI</Point>
       <Point>MERAS</Point>
       <Point>OSNUM</Point>
       <Point>OVSAN</Point>
