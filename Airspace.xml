@@ -862,6 +862,7 @@
         <SID Name="IDVA1Q" />
         <SID Name="IDVA1U" />
         <SID Name="NZWN1C" />
+        <SID Name="UPRO1Q" />
         <STAR Name="ATSU6B" ApproachName="RNPZ" />
         <STAR Name="AVPO2B" ApproachName="RNPZ" />
         <STAR Name="AVPO2D" ApproachName="RNP-ARX" />
@@ -7427,10 +7428,6 @@ RILEY
       <Route Runway="16">URBEM/AGROR</Route>
       <Transition Name="AKTAN">AKTAN</Transition>
       <Transition Name="ATSUN">ATSUN</Transition>
-      <Transition Name="ATVIN">ADLAK/UPROG/ATVIN</Transition>
-      <Transition Name="KAMET">ADLAK/UPROG/MELAD/KAMET</Transition>
-      <Transition Name="KAPTI">ADLAK/UPROG/MELAD/KAPTI</Transition>
-      <Transition Name="PP">ADLAK/UPROG/MELAD/PP NDB</Transition>
       <Transition Name="VENAM">IDSIR/VENAM</Transition>
     </SID>
     <SID Name="ATVE1Q" Airport="NZWN" Runways="16">
@@ -7513,6 +7510,13 @@ RILEY
       <Transition Name="SABDA">ENKEM/LAROX/JONAH/SABDA</Transition>
       <Transition Name="TANEN">OLSUS/HHOOT/ATRIM/DOVUL/TANEN</Transition>
       <Transition Name="VANDA">OLSUS/HHOOT/ATRIM/DOVUL/VANDA</Transition>
+    </SID>
+    <SID Name="UPRO1Q" Airport="NZWN" Runways="16">
+      <Route Runway="16">URBEM/AGROR/ADLAK/UPROG</Route>
+      <Transition Name="ATVIN">ATVIN</Transition>
+      <Transition Name="KAMET">MELAD/KAMET</Transition>
+      <Transition Name="KAPTI">MELAD/KAPTI</Transition>
+      <Transition Name="PP">MELAD/PP NDB</Transition>
     </SID>
     <SID Name="URGE1P" Airport="NZWN" Runways="34">
       <Route Runway="34">GANJI/URGEV</Route>

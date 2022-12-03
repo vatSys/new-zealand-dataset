@@ -3,7 +3,7 @@
   <Map Type="System2" Name="16 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.334939+174.806358">
     <Line Pattern="Dashed">
       <!--Rwy16 AGRO1Q-->
-      -41.334939+174.806358/URBEM/AGROR
+      -41.334939+174.806358/WN34T/URBEM/AGROR
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy16 AGRO1Q.AKTAN-->
@@ -12,22 +12,6 @@
     <Line Pattern="Dashed">
       <!--Rwy16 AGRO1Q.ATSUN-->
       AGROR/ATSUN
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy16 AGRO1Q.ATVIN-->
-      AGROR/ADLAK/UPROG/ATVIN
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy16 AGRO1Q.KAMET-->
-      UPROG/MELAD/KAMET
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy16 AGRO1Q.KAPTI-->
-      MELAD/KAPTI
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy16 AGRO1Q.PP-->
-      MELAD/PP NDB
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy16 AGRO1Q.VENAM-->
@@ -123,35 +107,54 @@
       <!--Rwy16 NZWN1C-->
       WN16T/-41.367520+174.804020/-41.493900+174.823560
     </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 UPRO1Q-->
+      AGROR/ADLAK/UPROG
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 UPRO1Q.ATVIN-->
+      UPROG/ATVIN
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 UPRO1Q.KAMET-->
+      UPROG/MELAD/KAMET
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 UPRO1Q.KAPTI-->
+      MELAD/KAPTI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 UPRO1Q.PP-->
+      MELAD/PP NDB
+    </Line>
     <Symbol Type="SolidStar">
-      <Point>AGROR</Point>
       <Point>URBEM</Point>
+      <Point>AGROR</Point>
       <Point>ATVEV</Point>
       <Point>TAXUP</Point>
+      <Point>ADLAK</Point>
     </Symbol>
     <Symbol Type="Circle">
       <Point>PP NDB</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>WN34T</Point>
       <Point>AKTAN</Point>
       <Point>ATSUN</Point>
-      <Point>ADLAK</Point>
-      <Point>UPROG</Point>
-      <Point>ATVIN</Point>
-      <Point>MELAD</Point>
-      <Point>KAMET</Point>
-      <Point>KAPTI</Point>
       <Point>IDSIR</Point>
       <Point>VENAM</Point>
       <Point>WN16T</Point>
       <Point>IRSOG</Point>
       <Point>EKVUB</Point>
+      <Point>ATVIN</Point>
       <Point>UKANO</Point>
       <Point>ELGIP</Point>
       <Point>DOGBI</Point>
       <Point>GOPLU</Point>
       <Point>GULUT</Point>
       <Point>KABKA</Point>
+      <Point>KAMET</Point>
+      <Point>KAPTI</Point>
       <Point>LUBSI</Point>
       <Point>RUSIL</Point>
       <Point>SABDA</Point>
@@ -167,6 +170,8 @@
       <Point>UPVAP</Point>
       <Point>OBGID</Point>
       <Point>IDVAL</Point>
+      <Point>UPROG</Point>
+      <Point>MELAD</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>AGROR</Point>
@@ -174,15 +179,15 @@
       <Point>GULUT</Point>
       <Point>URBEM</Point>
       <Point>IDVAL</Point>
+      <Point>UPROG</Point>
       <Point>AKTAN</Point>
       <Point>ATSUN</Point>
-      <Point>ATVIN</Point>
-      <Point>KAMET</Point>
-      <Point>KAPTI</Point>
-      <Point>PP NDB</Point>
       <Point>VENAM</Point>
+      <Point>ATVIN</Point>
       <Point>GOPLU</Point>
       <Point>KABKA</Point>
+      <Point>KAMET</Point>
+      <Point>KAPTI</Point>
       <Point>LUBSI</Point>
       <Point>RUSIL</Point>
       <Point>SABDA</Point>
@@ -190,6 +195,7 @@
       <Point>VANDA</Point>
       <Point>IGMUL</Point>
       <Point>UPVAP</Point>
+      <Point>PP NDB</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="16 STARs" Priority="1" CustomColourName="ProcArr" Center="-41.318622+174.807458">

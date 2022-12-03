@@ -292,10 +292,13 @@
       <Point>AKINA</Point>
       <Point>MILLA</Point>
       <Point>OHITI</Point>
+      <Point>ELMAX</Point>
       <Point>KAPUA</Point>
       <Point>LIKMA</Point>
+      <Point>OTLIT</Point>
       <Point>MIBEV</Point>
       <Point>QUAIL</Point>
+      <Point>TUMGO</Point>
       <Point>ESNED</Point>
       <Point>KAGRU</Point>
       <Point>EGAMU</Point>
@@ -468,9 +471,6 @@
       <Point>SADUN</Point>
       <Point>VARMA</Point>
       <Point>UPDAL</Point>
-      <Point>ELMAX</Point>
-      <Point>OTLIT</Point>
-      <Point>TUMGO</Point>
       <Point>PAMOA</Point>
       <Point>ORBEL</Point>
       <Point>OLNAN</Point>
@@ -610,10 +610,13 @@
       <Point>AKINA</Point>
       <Point>MILLA</Point>
       <Point>OHITI</Point>
+      <Point>ELMAX</Point>
       <Point>KAPUA</Point>
       <Point>LIKMA</Point>
+      <Point>OTLIT</Point>
       <Point>MIBEV</Point>
       <Point>QUAIL</Point>
+      <Point>TUMGO</Point>
       <Point>ESNED</Point>
       <Point>KAGRU</Point>
       <Point>EGAMU</Point>
@@ -803,9 +806,6 @@
       <Point>SADUN</Point>
       <Point>VARMA</Point>
       <Point>UPDAL</Point>
-      <Point>ELMAX</Point>
-      <Point>OTLIT</Point>
-      <Point>TUMGO</Point>
       <Point>PAMOA</Point>
       <Point>ORBEL</Point>
       <Point>OLNAN</Point>
