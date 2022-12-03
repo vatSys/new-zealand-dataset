@@ -140,22 +140,6 @@
       <!--Rwy30 PERAS1-->
       PERAS/PERIA
     </Line>
-    <Line Pattern="Solid">
-      <!--Rwy30 RNAV.KAROA-->
-      KAROA/PERIA
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy30 RNAV.PERAS-->
-      PERAS/PERIA
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy30 RNAV.RUATO-->
-      RUATO/PERIA
-    </Line>
-    <Line>
-      <!--Rwy30 RNAV-->
-      PERIA/-35.130614+173.490059
-    </Line>
     <Line>
       <!--Rwy30 RUATO1-->
       RUATO/PERIA
