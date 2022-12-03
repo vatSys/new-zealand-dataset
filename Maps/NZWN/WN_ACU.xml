@@ -75,14 +75,15 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy16 IDVA1Q-->
+      URBEM/IDVAL
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy16 IDVA1Q.IGMUL-->
-      URBEM/ESMAB/IGMUL
+      IDVAL/ESMAB/IGMUL
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy16 IDVA1Q.LUBSI-->
-      URBEM/KENJA/EMSUT/LUBSI
+      IDVAL/KENJA/EMSUT/LUBSI
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy16 IDVA1Q.UPVAP-->
@@ -94,11 +95,9 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy16 IDVA1U.IGMUL-->
-      IDVAL/ESMAB
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy16 IDVA1U.LUBSI-->
-      IDVAL/KENJA
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy16 IDVA1U.UPVAP-->
@@ -163,13 +162,13 @@
       <Point>TAPAB</Point>
       <Point>RUSPI</Point>
       <Point>MATVU</Point>
+      <Point>IDVAL</Point>
       <Point>ESMAB</Point>
       <Point>IGMUL</Point>
       <Point>KENJA</Point>
       <Point>EMSUT</Point>
       <Point>UPVAP</Point>
       <Point>OBGID</Point>
-      <Point>IDVAL</Point>
       <Point>UPROG</Point>
       <Point>MELAD</Point>
     </Symbol>
@@ -177,7 +176,6 @@
       <Point>AGROR</Point>
       <Point>ATVEV</Point>
       <Point>GULUT</Point>
-      <Point>URBEM</Point>
       <Point>IDVAL</Point>
       <Point>UPROG</Point>
       <Point>AKTAN</Point>
@@ -215,7 +213,7 @@
       DOGAD/WN406/LADIT/UPTUL/PAHWA
     </Line>
     <Line>
-      <!--Rwy16 LADI6B-->
+      <!--Rwy16 LADI7B-->
     </Line>
     <Line Pattern="Solid">
       <!--Rwy16 SIMZ4B.GOPLU-->
@@ -523,7 +521,9 @@
     <Symbol Type="SolidStar">
       <Point>POLAX</Point>
       <Point>GANJI</Point>
+      <Point>COUBY</Point>
       <Point>UPLUD</Point>
+      <Point>LAXIV</Point>
       <Point>URGEV</Point>
     </Symbol>
     <Symbol Type="Circle">
@@ -545,7 +545,6 @@
       <Point>NULKO</Point>
       <Point>UPVAP</Point>
       <Point>UDOSO</Point>
-      <Point>COUBY</Point>
       <Point>ATSUN</Point>
       <Point>OLSUS</Point>
       <Point>HHOOT</Point>
@@ -560,7 +559,6 @@
       <Point>SABDA</Point>
       <Point>TANEN</Point>
       <Point>VANDA</Point>
-      <Point>LAXIV</Point>
       <Point>IRNIL</Point>
       <Point>GAMJU</Point>
       <Point>AKTAN</Point>
@@ -646,12 +644,11 @@
       <!--Rwy34 SULR3C-->
     </Line>
     <Line>
-      <!--Rwy34 TPAP3A-->
-      TPAPA/FICAN/TURBY/RIPPA/JONAH
+      <!--Rwy34 TPAP4A-->
+      TPAPA/BRUDA/PEGPU/UGTOV/UKLEB/RIPPA/JONAH
     </Line>
     <Line>
       <!--Rwy34 TPAP2C-->
-      TPAPA/BRUDA/PEGPU/UGTOV/UKLEB/RIPPA
     </Line>
     <Line>
       <!--Rwy34 WARD6A-->
@@ -683,8 +680,6 @@
       <Point>KRAKA</Point>
       <Point>SULRI</Point>
       <Point>TPAPA</Point>
-      <Point>FICAN</Point>
-      <Point>TURBY</Point>
       <Point>BRUDA</Point>
       <Point>PEGPU</Point>
       <Point>UGTOV</Point>
