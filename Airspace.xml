@@ -867,7 +867,7 @@
         <STAR Name="AVPO2B" ApproachName="RNPZ" />
         <STAR Name="AVPO2D" ApproachName="RNP-ARX" />
         <STAR Name="DOGA5B" ApproachName="RNPZ" />
-        <STAR Name="LADI6B" ApproachName="RNPZ" />
+        <STAR Name="LADI7B" ApproachName="RNPZ" />
         <STAR Name="SIMZ4B" ApproachName="RNPZ" />
         <STAR Name="SIMZ2D" ApproachName="RNP-ARX" />
         <STAR Name="TPAP4B" ApproachName="RNPZ" />
@@ -891,7 +891,7 @@
         <STAR Name="SIMZ3C" ApproachName="RNP-ARX" />
         <STAR Name="SULR4A" ApproachName="RNPY" />
         <STAR Name="SULR3C" ApproachName="RNP-ARX" />
-        <STAR Name="TPAP3A" ApproachName="RNPY" />
+        <STAR Name="TPAP4A" ApproachName="RNPY" />
         <STAR Name="TPAP2C" ApproachName="RNP-ARX" />
         <STAR Name="WARD6A" ApproachName="RNPY" />
         <STAR Name="WARD3C" ApproachName="RNP-ARX" />
@@ -7452,7 +7452,7 @@ RILEY
       <Route Runway="34">POLAX/OMLAS/ATRIM/DOVUL/GULUT</Route>
     </SID>
     <SID Name="IDVA1Q" Airport="NZWN" Runways="16">
-      <Route Runway="16">URBEM</Route>
+      <Route Runway="16">URBEM/IDVAL</Route>
       <Transition Name="IGMUL">ESMAB/IGMUL</Transition>
       <Transition Name="LUBSI">KENJA/EMSUT/LUBSI</Transition>
       <Transition Name="UPVAP">ESMAB/IGMUL/UPVAP</Transition>
@@ -8782,7 +8782,7 @@ RILEY
     <STAR Name="LADI7A" Airport="NZWN" Runways="34">
       <Route Runway="34">LADIT/EMRUP/TURAK/RONGO/UMAGA</Route>
     </STAR>
-    <STAR Name="LADI6B" Airport="NZWN" Runways="16">
+    <STAR Name="LADI7B" Airport="NZWN" Runways="16">
       <Route Runway="16">LADIT/UPTUL/PAHWA/WITBY</Route>
     </STAR>
     <STAR Name="SIMZ7A" Airport="NZWN" Runways="34">
@@ -8815,8 +8815,8 @@ RILEY
     <STAR Name="SULR3C" Airport="NZWN" Runways="34">
       <Route Runway="34">SULRI/MEEDA</Route>
     </STAR>
-    <STAR Name="TPAP3A" Airport="NZWN" Runways="34">
-      <Route Runway="34">TPAPA/FICAN/TURBY/RIPPA/JONAH/UMAGA</Route>
+    <STAR Name="TPAP4A" Airport="NZWN" Runways="34">
+      <Route Runway="34">TPAPA/BRUDA/PEGPU/UGTOV/UKLEB/RIPPA/JONAH/UMAGA</Route>
     </STAR>
     <STAR Name="TPAP4B" Airport="NZWN" Runways="16">
       <Route Runway="16">TPAPA/BRUDA/HUWIT/WITBY</Route>
