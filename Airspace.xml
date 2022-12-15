@@ -858,7 +858,6 @@
       <Runway Name="16" DataRunway="16">
         <SID Name="AGRO1Q" />
         <SID Name="ATVE1Q" />
-        <SID Name="CTDOG1Q" />
         <SID Name="IDVA1Q" />
         <SID Name="IDVA1U" />
         <SID Name="NZWN1C" />
@@ -876,7 +875,6 @@
         <STAR Name="WARD3D" ApproachName="RNP-ARX" />
       </Runway>
       <Runway Name="34" DataRunway="34">
-        <SID Name="CTDP1P" />
         <SID Name="IPKE1P" />
         <SID Name="IPKE1T" />
         <SID Name="NZWN1D" />
@@ -7444,12 +7442,6 @@ RILEY
       <Transition Name="SABDA">SABDA</Transition>
       <Transition Name="TANEN">UKANO/ELGIP/DOGBI/TANEN</Transition>
       <Transition Name="VANDA">UKANO/ELGIP/DOGBI/VANDA</Transition>
-    </SID>
-    <SID Name="CTDOG1Q" Airport="NZWN" Runways="16">
-      <Route Runway="16">TAXUP/TAPAB/RUSPI/MATVU/DOGBI/GULUT</Route>
-    </SID>
-    <SID Name="CTDP1P" Airport="NZWN" Runways="34">
-      <Route Runway="34">POLAX/OMLAS/ATRIM/DOVUL/GULUT</Route>
     </SID>
     <SID Name="IDVA1Q" Airport="NZWN" Runways="16">
       <Route Runway="16">URBEM/IDVAL</Route>
