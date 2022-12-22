@@ -2,11 +2,12 @@
 <Maps>
   <Map Type="System2" Name="03 SIDs" Priority="1" CustomColourName="ProcDep" Center="-36.785153+174.639053">
     <Line Pattern="Dashed">
-      <!--Rwy03 BAYE1A-->
+      <!--Rwy03 BAYE2A-->
       -36.785153+174.639053/WP03T/BAYES
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy03 BAYE1R-->
+      -36.785153+174.639053/WP21T/BAYES
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy03 BAYE1R.AA-->
@@ -15,6 +16,10 @@
     <Line Pattern="Dashed">
       <!--Rwy03 BAYE1R.LAKES-->
       BAYES/LAKES
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy03 BAYE1R.LUPRU-->
+      BAYES/LUPRU
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy03 BAYE1R.OMLEN-->
@@ -26,13 +31,16 @@
     <Symbol Type="HollowTriangle">
       <Point>WP03T</Point>
       <Point>BAYES</Point>
+      <Point>WP21T</Point>
       <Point>LAKES</Point>
+      <Point>LUPRU</Point>
       <Point>OMLEN</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>BAYES</Point>
       <Point>AA VOR</Point>
       <Point>LAKES</Point>
+      <Point>LUPRU</Point>
       <Point>OMLEN</Point>
     </Label>
   </Map>
@@ -190,7 +198,7 @@
   </Map>
   <Map Type="System2" Name="21 SIDs" Priority="1" CustomColourName="ProcDep" Center="-36.796181+174.620886">
     <Line Pattern="Dashed">
-      <!--Rwy21 WYTA1A-->
+      <!--Rwy21 WYTA2A-->
       -36.796181+174.620886/WP21T/WYTAK
     </Line>
     <Line Pattern="Dashed">
@@ -216,12 +224,14 @@
       <!--Rwy21 WYTA1Q.OMLEN-->
       WYTAK/OMLEN
     </Line>
+    <Symbol Type="SolidStar">
+      <Point>WYTAK</Point>
+    </Symbol>
     <Symbol Type="Circle">
       <Point>AA VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>WP21T</Point>
-      <Point>WYTAK</Point>
       <Point>KAPAI</Point>
       <Point>LIMES</Point>
       <Point>KANVI</Point>
@@ -392,7 +402,7 @@
   </Map>
   <Map Type="System2" Name="08 SIDs" Priority="1" CustomColourName="ProcDep" Center="-36.785733+174.641011">
     <Line Pattern="Dashed">
-      <!--Rwy08 BAYE1B-->
+      <!--Rwy08 BAYE2B-->
       -36.785733+174.641011/WP08T/-36.789167+174.694167/-36.706111+174.770833/BAYES
     </Line>
     <Symbol Type="HollowTriangle">
@@ -405,7 +415,7 @@
   </Map>
   <Map Type="System2" Name="08 STARs" Priority="1" CustomColourName="ProcArr" Center="-36.783758+174.623467">
     <Line>
-      <!--Rwy08 AA1L-->
+      <!--Rwy08 AA2L-->
       AA VOR/IGOLF
     </Line>
     <Symbol Type="HollowTriangle">
@@ -448,7 +458,7 @@
   </Map>
   <Map Type="System2" Name="26 SIDs" Priority="1" CustomColourName="ProcDep" Center="-36.783758+174.623467">
     <Line Pattern="Dashed">
-      <!--Rwy26 WYTA1B-->
+      <!--Rwy26 WYTA2B-->
       -36.783758+174.623467/WP26T/-36.788333+174.692500/-36.703611+174.772222/WYTAK
     </Line>
     <Symbol Type="HollowTriangle">

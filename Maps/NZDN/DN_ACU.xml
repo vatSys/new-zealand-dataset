@@ -314,7 +314,7 @@
   </Map>
   <Map Type="System2" Name="21 STARs" Priority="1" CustomColourName="ProcArr" Center="-45.924378+170.207786">
     <Line>
-      <!--Rwy21 ALKA2B-->
+      <!--Rwy21 AKLA2B-->
       AKLAR/BIPUV/LOSKO/AKDAS/BIGAR/ESKAT
     </Line>
     <Line Pattern="Solid">

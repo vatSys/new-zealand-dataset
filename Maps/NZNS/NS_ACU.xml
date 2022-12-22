@@ -6,19 +6,19 @@
       -41.292228+173.229461/NS02T/NS20T/-41.255556+173.258889/RIKRU/DUMIK
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 IDNE2P-->
+      <!--Rwy02 IDNI2P-->
       -41.255556+173.258889/SALIR/DAZSA/IDNIM
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 IDNE2P.BISEB-->
+      <!--Rwy02 IDNI2P.BISEB-->
       IDNIM/NESTA/BISEB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 IDNE2P.CONOR-->
+      <!--Rwy02 IDNI2P.CONOR-->
       IDNIM/CONOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 IDNE2P.NESTA-->
+      <!--Rwy02 IDNI2P.NESTA-->
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy02 LEMU2P-->

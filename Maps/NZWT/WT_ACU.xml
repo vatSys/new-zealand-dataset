@@ -3,7 +3,7 @@
   <Map Type="System2" Name="04 SIDs" Priority="1" CustomColourName="ProcDep" Center="-36.825625+175.688550">
     <Line Pattern="Dashed">
       <!--Rwy04 OVTA1P-->
-      -36.825625+175.688550/WT04T/WT22T/OVTAP
+      -36.825625+175.688550/WT04T/OVTAP
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy04 OVTA1P.OBKIT-->
@@ -13,10 +13,11 @@
       <!--Rwy04 OVTA1P.UGSAP-->
       OVTAP/UGSAP
     </Line>
+    <Symbol Type="SolidStar">
+      <Point>OVTAP</Point>
+    </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>WT04T</Point>
-      <Point>WT22T</Point>
-      <Point>OVTAP</Point>
       <Point>OBKIT</Point>
       <Point>UGSAP</Point>
     </Symbol>
@@ -24,41 +25,6 @@
       <Point>OVTAP</Point>
       <Point>OBKIT</Point>
       <Point>UGSAP</Point>
-    </Label>
-  </Map>
-  <Map Type="System2" Name="04 STARs" Priority="1" CustomColourName="ProcArr" Center="-36.832306+175.676317">
-    <Line>
-      <!--Rwy04 ISKI1A-->
-      ISKIK/ENPEV
-    </Line>
-    <Line>
-      <!--Rwy04 MAGE1A-->
-      MAGEX/WT734/WT652/AGPUM
-    </Line>
-    <Line>
-      <!--Rwy04 MASD1A-->
-      MASDA/WT576/GOVTI
-    </Line>
-    <Symbol Type="HollowTriangle">
-      <Point>ENPEV</Point>
-      <Point>AGPUM</Point>
-      <Point>GOVTI</Point>
-    </Symbol>
-    <Symbol Type="HollowTriangle">
-      <Point>ISKIK</Point>
-      <Point>MAGEX</Point>
-      <Point>WT734</Point>
-      <Point>WT652</Point>
-      <Point>MASDA</Point>
-      <Point>WT576</Point>
-    </Symbol>
-    <Label HasLeader="true">
-      <Point>ISKIK</Point>
-      <Point>MAGEX</Point>
-      <Point>MASDA</Point>
-      <Point>ENPEV</Point>
-      <Point>AGPUM</Point>
-      <Point>GOVTI</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="04 RNP" Priority="1" Center="-36.832306+175.676317" CustomColourName="ProcArr">
@@ -91,41 +57,6 @@
       <Point>UGSAP</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="22 STARs" Priority="1" CustomColourName="ProcArr" Center="-36.825625+175.688550">
-    <Line>
-      <!--Rwy22 ISKI1A-->
-      ISKIK/ENPEV
-    </Line>
-    <Line>
-      <!--Rwy22 MAGE1A-->
-      MAGEX/WT734/WT652/AGPUM
-    </Line>
-    <Line>
-      <!--Rwy22 MASD1A-->
-      MASDA/WT576/GOVTI
-    </Line>
-    <Symbol Type="HollowTriangle">
-      <Point>ENPEV</Point>
-      <Point>AGPUM</Point>
-      <Point>GOVTI</Point>
-    </Symbol>
-    <Symbol Type="HollowTriangle">
-      <Point>ISKIK</Point>
-      <Point>MAGEX</Point>
-      <Point>WT734</Point>
-      <Point>WT652</Point>
-      <Point>MASDA</Point>
-      <Point>WT576</Point>
-    </Symbol>
-    <Label HasLeader="true">
-      <Point>ISKIK</Point>
-      <Point>MAGEX</Point>
-      <Point>MASDA</Point>
-      <Point>ENPEV</Point>
-      <Point>AGPUM</Point>
-      <Point>GOVTI</Point>
-    </Label>
-  </Map>
   <Map Type="System2" Name="22 RNP" Priority="1" Center="-36.825625+175.688550" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
@@ -156,41 +87,6 @@
       <Point>UGSAP</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="16 STARs" Priority="1" CustomColourName="ProcArr" Center="-36.825436+175.679925">
-    <Line>
-      <!--Rwy16 ISKI1A-->
-      ISKIK/ENPEV
-    </Line>
-    <Line>
-      <!--Rwy16 MAGE1A-->
-      MAGEX/WT734/WT652/AGPUM
-    </Line>
-    <Line>
-      <!--Rwy16 MASD1A-->
-      MASDA/WT576/GOVTI
-    </Line>
-    <Symbol Type="HollowTriangle">
-      <Point>ENPEV</Point>
-      <Point>AGPUM</Point>
-      <Point>GOVTI</Point>
-    </Symbol>
-    <Symbol Type="HollowTriangle">
-      <Point>ISKIK</Point>
-      <Point>MAGEX</Point>
-      <Point>WT734</Point>
-      <Point>WT652</Point>
-      <Point>MASDA</Point>
-      <Point>WT576</Point>
-    </Symbol>
-    <Label HasLeader="true">
-      <Point>ISKIK</Point>
-      <Point>MAGEX</Point>
-      <Point>MASDA</Point>
-      <Point>ENPEV</Point>
-      <Point>AGPUM</Point>
-      <Point>GOVTI</Point>
-    </Label>
-  </Map>
   <Map Type="System2" Name="16 RNP" Priority="1" Center="-36.825436+175.679925" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
@@ -219,41 +115,6 @@
       <Point>OLVOL</Point>
       <Point>VETUM</Point>
       <Point>UGSAP</Point>
-    </Label>
-  </Map>
-  <Map Type="System2" Name="34 STARs" Priority="1" CustomColourName="ProcArr" Center="-36.831206+175.680208">
-    <Line>
-      <!--Rwy34 ISKI1A-->
-      ISKIK/ENPEV
-    </Line>
-    <Line>
-      <!--Rwy34 MAGE1A-->
-      MAGEX/WT734/WT652/AGPUM
-    </Line>
-    <Line>
-      <!--Rwy34 MASD1A-->
-      MASDA/WT576/GOVTI
-    </Line>
-    <Symbol Type="HollowTriangle">
-      <Point>ENPEV</Point>
-      <Point>AGPUM</Point>
-      <Point>GOVTI</Point>
-    </Symbol>
-    <Symbol Type="HollowTriangle">
-      <Point>ISKIK</Point>
-      <Point>MAGEX</Point>
-      <Point>WT734</Point>
-      <Point>WT652</Point>
-      <Point>MASDA</Point>
-      <Point>WT576</Point>
-    </Symbol>
-    <Label HasLeader="true">
-      <Point>ISKIK</Point>
-      <Point>MAGEX</Point>
-      <Point>MASDA</Point>
-      <Point>ENPEV</Point>
-      <Point>AGPUM</Point>
-      <Point>GOVTI</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="34 RNP" Priority="1" Center="-36.831206+175.680208" CustomColourName="ProcArr">

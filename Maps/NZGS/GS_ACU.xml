@@ -65,10 +65,6 @@
   </Map>
   <Map Type="System2" Name="14 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.658300+177.974975">
     <Line>
-      <!--Rwy14 CREEK-->
-      DABIP/CREEK
-    </Line>
-    <Line>
       <!--Rwy14 ELME1A-->
       ELMER/EWOOD
     </Line>
@@ -84,44 +80,24 @@
       <!--Rwy14 KOPU3A-->
       KOPUA/XEPEP
     </Line>
-    <Line>
-      <!--Rwy14 OTOKO-->
-      KEEPA/OTOKO
-    </Line>
-    <Line>
-      <!--Rwy14 WARIK-->
-      TG NDB/WARIK
-    </Line>
     <Symbol Type="HollowTriangle">
-      <Point>CREEK</Point>
       <Point>EWOOD</Point>
-      <Point>OTOKO</Point>
-      <Point>WARIK</Point>
     </Symbol>
     <Symbol Type="Circle">
       <Point>GS VOR</Point>
-      <Point>TG NDB</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
-      <Point>DABIP</Point>
       <Point>ELMER</Point>
       <Point>XEPEP</Point>
       <Point>HAWKE</Point>
       <Point>KOPUA</Point>
-      <Point>KEEPA</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>DABIP</Point>
       <Point>ELMER</Point>
       <Point>GS VOR</Point>
       <Point>HAWKE</Point>
       <Point>KOPUA</Point>
-      <Point>KEEPA</Point>
-      <Point>TG NDB</Point>
-      <Point>CREEK</Point>
       <Point>EWOOD</Point>
-      <Point>OTOKO</Point>
-      <Point>WARIK</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="14 RNP" Priority="1" Center="-38.658300+177.974975" CustomColourName="ProcArr">
