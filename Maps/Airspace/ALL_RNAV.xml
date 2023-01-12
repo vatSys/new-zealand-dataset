@@ -120,6 +120,7 @@
       <Point>QN770</Point>
       <Point>QN779</Point>
       <Point>QN774</Point>
+      <Point>BONLI</Point>
       <Point>ADKAG</Point>
       <Point>RO366</Point>
       <Point>RO364</Point>
@@ -260,6 +261,7 @@
       <Point>KOPUA</Point>
       <Point>COOKS</Point>
       <Point>UKLIP</Point>
+      <Point>ATMAS</Point>
       <Point>MAMUS</Point>
       <Point>NUKTO</Point>
       <Point>UPVOK</Point>
@@ -286,6 +288,7 @@
       <Point>PANGO</Point>
       <Point>UPLIN</Point>
       <Point>BOLOR</Point>
+      <Point>VARMA</Point>
       <Point>AROPA</Point>
       <Point>ELBOW</Point>
       <Point>NANUA</Point>
@@ -331,6 +334,8 @@
       <Point>DABGU</Point>
       <Point>NILID</Point>
       <Point>SEBSA</Point>
+      <Point>TOTRA</Point>
+      <Point>NIKOR</Point>
       <Point>OKERE</Point>
       <Point>TENIX</Point>
       <Point>MORTA</Point>
@@ -379,8 +384,10 @@
       <Point>PILUP</Point>
       <Point>IGOVU</Point>
       <Point>OLVOL</Point>
+      <Point>DUDED</Point>
       <Point>AVLOR</Point>
       <Point>BUPKA</Point>
+      <Point>BASEP</Point>
       <Point>ADGAT</Point>
       <Point>BELVO</Point>
       <Point>IGPOL</Point>
@@ -416,7 +423,6 @@
       <Point>LUTUX</Point>
       <Point>DOVED</Point>
       <Point>NOPEM</Point>
-      <Point>PATRU</Point>
       <Point>ISLOP</Point>
       <Point>NILIB</Point>
       <Point>PALTU</Point>
@@ -460,7 +466,6 @@
       <Point>ESKAT</Point>
       <Point>OMGET</Point>
       <Point>PAROA</Point>
-      <Point>ATMAS</Point>
       <Point>WAPOU</Point>
       <Point>MAKOS</Point>
       <Point>TAYLA</Point>
@@ -469,13 +474,9 @@
       <Point>GUNDA</Point>
       <Point>LUGDU</Point>
       <Point>SADUN</Point>
-      <Point>VARMA</Point>
-      <Point>UPDAL</Point>
       <Point>PAMOA</Point>
       <Point>ORBEL</Point>
       <Point>OLNAN</Point>
-      <Point>TOTRA</Point>
-      <Point>NIKOR</Point>
       <Point>WAIPA</Point>
       <Point>AMURI</Point>
       <Point>TU593</Point>
@@ -488,8 +489,6 @@
       <Point>BURKI</Point>
       <Point>WS408</Point>
       <Point>UGSAP</Point>
-      <Point>DUDED</Point>
-      <Point>BASEP</Point>
     </Label>
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
@@ -503,6 +502,7 @@
       <Point>OVSED</Point>
       <Point>IDPON</Point>
       <Point>GM483</Point>
+      <Point>GT403</Point>
       <Point>-39.722220+176.710770</Point>
       <Point>-39.649380+176.763350</Point>
       <Point>-39.582160+176.811770</Point>
@@ -516,7 +516,6 @@
       <Point>MS572</Point>
       <Point>-36.667425+174.640756</Point>
       <Point>-39.449436+176.869419</Point>
-      <Point>ORUBA</Point>
       <Point>SAKOG</Point>
       <Point>PP414</Point>
       <Point>PP421</Point>
@@ -578,6 +577,7 @@
       <Point>KOPUA</Point>
       <Point>COOKS</Point>
       <Point>UKLIP</Point>
+      <Point>ATMAS</Point>
       <Point>MAMUS</Point>
       <Point>NUKTO</Point>
       <Point>UPVOK</Point>
@@ -604,6 +604,7 @@
       <Point>PANGO</Point>
       <Point>UPLIN</Point>
       <Point>BOLOR</Point>
+      <Point>VARMA</Point>
       <Point>AROPA</Point>
       <Point>ELBOW</Point>
       <Point>NANUA</Point>
@@ -649,6 +650,8 @@
       <Point>DABGU</Point>
       <Point>NILID</Point>
       <Point>SEBSA</Point>
+      <Point>TOTRA</Point>
+      <Point>NIKOR</Point>
       <Point>OKERE</Point>
       <Point>TENIX</Point>
       <Point>MORTA</Point>
@@ -697,8 +700,10 @@
       <Point>PILUP</Point>
       <Point>IGOVU</Point>
       <Point>OLVOL</Point>
+      <Point>DUDED</Point>
       <Point>AVLOR</Point>
       <Point>BUPKA</Point>
+      <Point>BASEP</Point>
       <Point>ADGAT</Point>
       <Point>BELVO</Point>
     </Symbol>
@@ -743,7 +748,6 @@
       <Point>-39.378392+176.915156</Point>
       <Point>-39.536822+176.859764</Point>
       <Point>NOPEM</Point>
-      <Point>PATRU</Point>
       <Point>ISLOP</Point>
       <Point>NILIB</Point>
       <Point>PALTU</Point>
@@ -795,7 +799,6 @@
       <Point>ESKAT</Point>
       <Point>OMGET</Point>
       <Point>PAROA</Point>
-      <Point>ATMAS</Point>
       <Point>WAPOU</Point>
       <Point>MAKOS</Point>
       <Point>TAYLA</Point>
@@ -804,13 +807,9 @@
       <Point>GUNDA</Point>
       <Point>LUGDU</Point>
       <Point>SADUN</Point>
-      <Point>VARMA</Point>
-      <Point>UPDAL</Point>
       <Point>PAMOA</Point>
       <Point>ORBEL</Point>
       <Point>OLNAN</Point>
-      <Point>TOTRA</Point>
-      <Point>NIKOR</Point>
       <Point>WAIPA</Point>
       <Point>AMURI</Point>
       <Point>TU593</Point>
@@ -823,8 +822,6 @@
       <Point>BURKI</Point>
       <Point>WS408</Point>
       <Point>UGSAP</Point>
-      <Point>DUDED</Point>
-      <Point>BASEP</Point>
     </Symbol>
     <Line Pattern="Solid">LENGU/UGRUS/IGPOL/-370058.741+1744614.819</Line>
     <Line Pattern="Solid">EMRAG/ORESO/UGOMU/-370023.962+1744820.671</Line>
@@ -875,8 +872,9 @@
     <Line Pattern="Solid">KOPUA/VESAV/-384010.870+1775844.540</Line>
     <Line Pattern="Solid">COOKS/KOPUA</Line>
     <Line Pattern="Solid">UKLIP/KOPUA</Line>
-    <Line Pattern="Solid">ATMAS/IDPAX/-435421.931+1700739.900</Line>
+    <Line Pattern="Solid">ATMAS/IDPAX/GT403/-435421.931+1700739.900</Line>
     <Line Pattern="Solid">MAMUS/ATMAS</Line>
+    <Line Pattern="Solid">GT403/-435455.541+1700747.791</Line>
     <Line Pattern="Solid">WAPOU/HA906/-393328.181+1741610.988</Line>
     <Line Pattern="Solid">NUKTO/WAPOU</Line>
     <Line Pattern="Solid">UPVOK/WAPOU</Line>
@@ -942,10 +940,10 @@
     <Line Pattern="Solid">BOBIT/NUTGO</Line>
     <Line Pattern="Solid">DOTGO/NUTGO</Line>
     <Line Pattern="Solid">LELUK/NUTGO</Line>
-    <Line Pattern="Solid">GUPIL/DOXIN/-401159.032+1752309.622</Line>
+    <Line Pattern="Solid">GUPIL/DOXIN/-401158.931+1752309.751</Line>
     <Line Pattern="Solid">ADKIS/GUPIL</Line>
     <Line Pattern="Solid">BOBIT/GUPIL</Line>
-    <Line Pattern="Solid">SOSLA/VELSU/-401302.150+1752325.670</Line>
+    <Line Pattern="Solid">SOSLA/VELSU/-401302.039+1752325.789</Line>
     <Line Pattern="Solid">NOBED/SOSLA</Line>
     <Line Pattern="Solid">VARNO/SOSLA</Line>
     <Line Pattern="Solid">ENDIX/SAKOG/PEDBA/-401233.710+1752359.179</Line>
@@ -968,8 +966,8 @@
     <Line Pattern="Solid">DABGU/LEVBI</Line>
     <Line Pattern="Solid">NILID/LEVBI</Line>
     <Line Pattern="Solid">SEBSA/ANGEB/RC401/-465354.460+1680617.482</Line>
-    <Line Pattern="Solid">TOTRA/IGOBA/-38.125190+176.293950/-380601.598+1761913.238</Line>
-    <Line Pattern="Solid">-38.125190+176.293950/-380655.750+1761841.170</Line>
+    <Line Pattern="Solid">TOTRA/IGOBA/RO563/-380601.598+1761913.238</Line>
+    <Line Pattern="Solid">RO563/-380655.750+1761841.170</Line>
     <Line Pattern="Solid">NIKOR/ELKOB/-380601.598+1761913.238</Line>
     <Line Pattern="Solid">OKERE/NIKOR</Line>
     <Line Pattern="Solid">TENIX/RIPSA/-374021.900+1761118.200</Line>

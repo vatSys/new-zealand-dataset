@@ -6,35 +6,31 @@
       -37.673806+176.209056/TG07T/-37.677222+176.288889/BELET
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 TODA2P-->
+      <!--Rwy07 TODA3P-->
       TG07T/PATMO/TODAN
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 TODA2P.FALLS-->
+      <!--Rwy07 TODA3P.FALLS-->
       TODAN/FALLS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 TODA2P.GOBUK-->
+      <!--Rwy07 TODA3P.GOBUK-->
       TODAN/GOBUK
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 TODA2P.ODOLO-->
-      TODAN/ODOLO
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy07 TODA2P.OLDON-->
+      <!--Rwy07 TODA3P.OLDON-->
       TODAN/OLDON
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 TODA2P.PIBOV-->
+      <!--Rwy07 TODA3P.PIBOV-->
       TODAN/PIBOV
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 UBSE2P-->
+      <!--Rwy07 UBSE3P-->
       PATMO/UBSET
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 UBSE2P.NOBAR-->
+      <!--Rwy07 UBSE3P.NOBAR-->
       UBSET/NOBAR
     </Line>
     <Symbol Type="HollowTriangle">
@@ -44,7 +40,6 @@
       <Point>TODAN</Point>
       <Point>FALLS</Point>
       <Point>GOBUK</Point>
-      <Point>ODOLO</Point>
       <Point>OLDON</Point>
       <Point>PIBOV</Point>
       <Point>UBSET</Point>
@@ -56,7 +51,6 @@
       <Point>UBSET</Point>
       <Point>FALLS</Point>
       <Point>GOBUK</Point>
-      <Point>ODOLO</Point>
       <Point>OLDON</Point>
       <Point>PIBOV</Point>
       <Point>NOBAR</Point>
@@ -155,35 +149,31 @@
       -37.672750+176.188389/TG25T/-37.668333+176.112778/DOTAR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 MORT2R-->
+      <!--Rwy25 MORT3R-->
       TG25T/TENIX/MORTA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 MORT2R.FALLS-->
+      <!--Rwy25 MORT3R.FALLS-->
       MORTA/FALLS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 MORT2R.GOBUK-->
+      <!--Rwy25 MORT3R.GOBUK-->
       MORTA/GOBUK
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 MORT2R.ODOLO-->
-      MORTA/ODOLO
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy25 MORT2R.OLDON-->
+      <!--Rwy25 MORT3R.OLDON-->
       MORTA/BATAT/OLDON
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 MORT2R.PIBOV-->
+      <!--Rwy25 MORT3R.PIBOV-->
       MORTA/TODAN/PIBOV
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 RUST2R-->
+      <!--Rwy25 RUST3R-->
       TENIX/RUSTA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 RUST2R.NOBAR-->
+      <!--Rwy25 RUST3R.NOBAR-->
       RUSTA/NOBAR
     </Line>
     <Symbol Type="HollowTriangle">
@@ -193,7 +183,6 @@
       <Point>MORTA</Point>
       <Point>FALLS</Point>
       <Point>GOBUK</Point>
-      <Point>ODOLO</Point>
       <Point>BATAT</Point>
       <Point>OLDON</Point>
       <Point>TODAN</Point>
@@ -207,7 +196,6 @@
       <Point>RUSTA</Point>
       <Point>FALLS</Point>
       <Point>GOBUK</Point>
-      <Point>ODOLO</Point>
       <Point>OLDON</Point>
       <Point>PIBOV</Point>
       <Point>NOBAR</Point>

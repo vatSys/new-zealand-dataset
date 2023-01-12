@@ -2,12 +2,13 @@
 <Maps>
   <Map Type="System2" Name="15 SIDs" Priority="1" CustomColourName="ProcDep" Center="-43.915428+170.129942">
     <Line Pattern="Dashed">
-      <!--Rwy15 MAMUS2-->
-      -43.915428+170.129942/GT15T/OMUBU/MAMUS
+      <!--Rwy15 MAMUS3-->
+      -43.915428+170.129942/GT15T/MAMUS
     </Line>
-    <Symbol Type="HollowTriangle">
+    <Symbol Type="SolidStar">
       <Point>GT15T</Point>
-      <Point>OMUBU</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
       <Point>MAMUS</Point>
     </Symbol>
     <Label HasLeader="true">
@@ -16,9 +17,12 @@
   </Map>
   <Map Type="System2" Name="15 RNP" Priority="1" Center="-43.906092+170.127750" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>GT403</Point>
+    </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>ATMAS</Point>
       <Point>MAMUS</Point>
     </Symbol>
     <!--FAF Symbols-->
@@ -26,17 +30,41 @@
       <Point>IDPAX</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>ATMAS</Point>
-    </Symbol>
-    <Line Pattern="Solid">ATMAS/IDPAX/-435421.931+1700739.900</Line>
+    <Symbol Type="SolidTriangle" />
+    <Line Pattern="Solid">ATMAS/IDPAX/GT403/-435421.931+1700739.900</Line>
     <Line Pattern="Solid">MAMUS/ATMAS</Line>
   </Map>
   <Map Type="System2" Name="15 RNP Labels" Priority="1" Center="-43.906092+170.127750" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>ATMAS</Point>
       <Point>MAMUS</Point>
       <Point>IDPAX</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="33 RNP" Priority="1" Center="-43.915428+170.129942" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>GT403</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
       <Point>ATMAS</Point>
+      <Point>MAMUS</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>IDPAX</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle" />
+    <Line Pattern="Solid">ATMAS/IDPAX/GT403/-435455.541+1700747.791</Line>
+    <Line Pattern="Solid">MAMUS/ATMAS</Line>
+  </Map>
+  <Map Type="System2" Name="33 RNP Labels" Priority="1" Center="-43.915428+170.129942" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>ATMAS</Point>
+      <Point>MAMUS</Point>
+      <Point>IDPAX</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-43.907717+170.129028">

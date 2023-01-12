@@ -29,6 +29,7 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>DUDED</Point>
       <Point>AVLOR</Point>
       <Point>BUPKA</Point>
     </Symbol>
@@ -37,18 +38,16 @@
       <Point>-39.914692+174.940081</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>DUDED</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">DUDED/-39.914692+174.940081/-395735.179+1750104.951</Line>
     <Line Pattern="Solid">AVLOR/DUDED</Line>
     <Line Pattern="Solid">BUPKA/DUDED</Line>
   </Map>
   <Map Type="System2" Name="11 RNP Labels" Priority="1" Center="-39.959772+175.018042" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>DUDED</Point>
       <Point>AVLOR</Point>
       <Point>BUPKA</Point>
-      <Point>DUDED</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="29 STARs" Priority="1" CustomColourName="ProcArr" Center="-39.967169+175.030853">
@@ -80,6 +79,7 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>BASEP</Point>
       <Point>ADGAT</Point>
       <Point>BELVO</Point>
     </Symbol>
@@ -88,19 +88,17 @@
       <Point>BUSBI</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>BASEP</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">BASEP/BUSBI/-395801.808+1750151.071</Line>
     <Line Pattern="Solid">ADGAT/BASEP</Line>
     <Line Pattern="Solid">BELVO/BASEP</Line>
   </Map>
   <Map Type="System2" Name="29 RNP Labels" Priority="1" Center="-39.967169+175.030853" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>BASEP</Point>
       <Point>ADGAT</Point>
       <Point>BELVO</Point>
       <Point>BUSBI</Point>
-      <Point>BASEP</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-39.962222+175.025278">
