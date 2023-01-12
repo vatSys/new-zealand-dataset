@@ -249,6 +249,8 @@
       <Point>BIDEV</Point>
       <Point>MABAK</Point>
       <Point>ODISI</Point>
+      <Point>AKLAR</Point>
+      <Point>ESKAT</Point>
       <Point>LUVOG</Point>
       <Point>VARSI</Point>
       <Point>ELPAM</Point>
@@ -276,6 +278,7 @@
       <Point>OPARE</Point>
       <Point>STEED</Point>
       <Point>PERIA</Point>
+      <Point>LUGDU</Point>
       <Point>BESMO</Point>
       <Point>KAKIT</Point>
       <Point>GULAN</Point>
@@ -289,6 +292,7 @@
       <Point>UPLIN</Point>
       <Point>BOLOR</Point>
       <Point>VARMA</Point>
+      <Point>UPDAL</Point>
       <Point>AROPA</Point>
       <Point>ELBOW</Point>
       <Point>NANUA</Point>
@@ -320,6 +324,8 @@
       <Point>VARNO</Point>
       <Point>ENDIX</Point>
       <Point>LUXUL</Point>
+      <Point>PAMOA</Point>
+      <Point>ORBEL</Point>
       <Point>ADGOP</Point>
       <Point>EKODU</Point>
       <Point>GUTNI</Point>
@@ -349,6 +355,7 @@
       <Point>MIKER</Point>
       <Point>ARIKA</Point>
       <Point>GOSTI</Point>
+      <Point>TU593</Point>
       <Point>DOPOP</Point>
       <Point>SUNPA</Point>
       <Point>BIDNI</Point>
@@ -378,8 +385,10 @@
       <Point>LEECH</Point>
       <Point>OTUHI</Point>
       <Point>BIRAX</Point>
+      <Point>BURKI</Point>
       <Point>AVMAK</Point>
       <Point>GUNOM</Point>
+      <Point>WS408</Point>
       <Point>ANSIS</Point>
       <Point>PILUP</Point>
       <Point>IGOVU</Point>
@@ -457,13 +466,13 @@
       <Point>ADKES</Point>
       <Point>DUDAP</Point>
       <Point>MONSU</Point>
+      <Point>WS404</Point>
+      <Point>WS411</Point>
       <Point>VETUM</Point>
       <Point>BUSBI</Point>
       <Point>AP706</Point>
       <Point>AP506</Point>
       <Point>ALBAD</Point>
-      <Point>AKLAR</Point>
-      <Point>ESKAT</Point>
       <Point>OMGET</Point>
       <Point>PAROA</Point>
       <Point>WAPOU</Point>
@@ -472,22 +481,16 @@
       <Point>BUDEN</Point>
       <Point>VATNA</Point>
       <Point>GUNDA</Point>
-      <Point>LUGDU</Point>
       <Point>SADUN</Point>
-      <Point>PAMOA</Point>
-      <Point>ORBEL</Point>
       <Point>OLNAN</Point>
       <Point>WAIPA</Point>
       <Point>AMURI</Point>
-      <Point>TU593</Point>
       <Point>ELBEV</Point>
       <Point>REGAT</Point>
       <Point>AVMEB</Point>
       <Point>MARKS</Point>
       <Point>WYTAK</Point>
       <Point>BAYES</Point>
-      <Point>BURKI</Point>
-      <Point>WS408</Point>
       <Point>UGSAP</Point>
     </Label>
     <!--Fix Symbols-->
@@ -534,8 +537,6 @@
       <Point>WR601</Point>
       <Point>WR431</Point>
       <Point>WR983</Point>
-      <Point>WS404</Point>
-      <Point>WS411</Point>
       <Point>WT423</Point>
     </Symbol>
     <!--IAF Symbols-->
@@ -565,6 +566,8 @@
       <Point>BIDEV</Point>
       <Point>MABAK</Point>
       <Point>ODISI</Point>
+      <Point>AKLAR</Point>
+      <Point>ESKAT</Point>
       <Point>LUVOG</Point>
       <Point>VARSI</Point>
       <Point>ELPAM</Point>
@@ -592,6 +595,7 @@
       <Point>OPARE</Point>
       <Point>STEED</Point>
       <Point>PERIA</Point>
+      <Point>LUGDU</Point>
       <Point>BESMO</Point>
       <Point>KAKIT</Point>
       <Point>GULAN</Point>
@@ -605,6 +609,7 @@
       <Point>UPLIN</Point>
       <Point>BOLOR</Point>
       <Point>VARMA</Point>
+      <Point>UPDAL</Point>
       <Point>AROPA</Point>
       <Point>ELBOW</Point>
       <Point>NANUA</Point>
@@ -636,6 +641,8 @@
       <Point>VARNO</Point>
       <Point>ENDIX</Point>
       <Point>LUXUL</Point>
+      <Point>PAMOA</Point>
+      <Point>ORBEL</Point>
       <Point>ADGOP</Point>
       <Point>EKODU</Point>
       <Point>GUTNI</Point>
@@ -665,6 +672,7 @@
       <Point>MIKER</Point>
       <Point>ARIKA</Point>
       <Point>GOSTI</Point>
+      <Point>TU593</Point>
       <Point>DOPOP</Point>
       <Point>SUNPA</Point>
       <Point>BIDNI</Point>
@@ -694,8 +702,10 @@
       <Point>LEECH</Point>
       <Point>OTUHI</Point>
       <Point>BIRAX</Point>
+      <Point>BURKI</Point>
       <Point>AVMAK</Point>
       <Point>GUNOM</Point>
+      <Point>WS408</Point>
       <Point>ANSIS</Point>
       <Point>PILUP</Point>
       <Point>IGOVU</Point>
@@ -786,6 +796,8 @@
       <Point>ADKES</Point>
       <Point>DUDAP</Point>
       <Point>MONSU</Point>
+      <Point>WS404</Point>
+      <Point>WS411</Point>
       <Point>VETUM</Point>
       <Point>-39.914692+174.940081</Point>
       <Point>BUSBI</Point>
@@ -795,8 +807,6 @@
       <Point>AP706</Point>
       <Point>AP506</Point>
       <Point>ALBAD</Point>
-      <Point>AKLAR</Point>
-      <Point>ESKAT</Point>
       <Point>OMGET</Point>
       <Point>PAROA</Point>
       <Point>WAPOU</Point>
@@ -805,22 +815,16 @@
       <Point>BUDEN</Point>
       <Point>VATNA</Point>
       <Point>GUNDA</Point>
-      <Point>LUGDU</Point>
       <Point>SADUN</Point>
-      <Point>PAMOA</Point>
-      <Point>ORBEL</Point>
       <Point>OLNAN</Point>
       <Point>WAIPA</Point>
       <Point>AMURI</Point>
-      <Point>TU593</Point>
       <Point>ELBEV</Point>
       <Point>REGAT</Point>
       <Point>AVMEB</Point>
       <Point>MARKS</Point>
       <Point>WYTAK</Point>
       <Point>BAYES</Point>
-      <Point>BURKI</Point>
-      <Point>WS408</Point>
       <Point>UGSAP</Point>
     </Symbol>
     <Line Pattern="Solid">LENGU/UGRUS/IGPOL/-370058.741+1744614.819</Line>

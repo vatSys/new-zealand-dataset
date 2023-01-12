@@ -92,6 +92,7 @@
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>TU593</Point>
       <Point>DOPOP</Point>
     </Symbol>
     <!--FAF Symbols-->
@@ -99,17 +100,15 @@
       <Point>REKID</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>TU593</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">TU593/REKID/TU402/-441811.779+1711314.300</Line>
     <Line Pattern="Solid">DOPOP/TU593</Line>
   </Map>
   <Map Type="System2" Name="02 RNP Labels" Priority="1" Center="-44.303272+171.220639" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>TU593</Point>
       <Point>DOPOP</Point>
       <Point>REKID</Point>
-      <Point>TU593</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="20 SIDs" Priority="1" CustomColourName="ProcDep" Center="-44.303272+171.220639">
