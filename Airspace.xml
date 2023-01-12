@@ -959,14 +959,14 @@
     </Airport>
     <Airport Name="NZWS">
       <Runway Name="04" DataRunway="04">
-        <SID Name="KAKE1Q" Default="True" />
+        <SID Name="KAKE1P" Default="True" />
         <STAR Name="AKSE1E" ApproachName="RNP" />
         <STAR Name="DAMI1E" ApproachName="RNP" />
         <STAR Name="ESDA1E" ApproachName="RNP" />
         <STAR Name="KAKE1E" ApproachName="RNP" />
       </Runway>
       <Runway Name="22" DataRunway="22">
-        <SID Name="KAKE1P" Default="True" />
+        <SID Name="KAKE1Q" Default="True" />
         <STAR Name="AKSE1F" ApproachName="RNP" />
         <STAR Name="DAMI1F" ApproachName="RNP" />
         <STAR Name="ESDA1F" ApproachName="RNP" />
@@ -7616,11 +7616,11 @@ RILEY
     <SID Name="WAIPU3" Airport="NZWR" Runways="06">
       <Route Runway="06">SF NDB</Route>
     </SID>
-    <SID Name="KAKE1P" Airport="NZWS" Runways="22">
-      <Route Runway="22">KAKET</Route>
-    </SID>
-    <SID Name="KAKE1Q" Airport="NZWS" Runways="04">
+    <SID Name="KAKE1P" Airport="NZWS" Runways="04">
       <Route Runway="04">KAKET</Route>
+    </SID>
+    <SID Name="KAKE1Q" Airport="NZWS" Runways="22">
+      <Route Runway="22">KAKET</Route>
     </SID>
     <SID Name="OVTA1P" Airport="NZWT" Runways="04">
       <Route Runway="04">OVTAP</Route>
