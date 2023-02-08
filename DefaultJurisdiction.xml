@@ -1,38 +1,92 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DefaultJurisdiction>
-<RuleSets>
-    <RuleSet Name="NZAA_DEPS">
+  <!-- Major ADs -->
+
+  <RuleSets>
+
+    <RuleSet Name="AA_DEPS">
       <Rules>
         <Departure Values="NZAA">
           <Rules>
             <Default>
-              <AssignSector Order="ADEP, ATMA, AARR"/>
+              <AssignSector Order="ADEP, ATMA, RAN, OCR" />
             </Default>
           </Rules>
         </Departure>
       </Rules>
     </RuleSet>
-    <RuleSet Name="NZWN_DEPS">
+
+    <RuleSet Name="HN_DEPS">
       <Rules>
-        <Departure Values="NZWN">
+        <Departure Values="NZHN">
           <Rules>
             <Default>
-              <AssignSector Order="WDEP, WTMA"/>
+              <AssignSector Order="HTMA, RAN, OCR" />
             </Default>
           </Rules>
         </Departure>
       </Rules>
     </RuleSet>
-    <RuleSet Name="NZCH_DEPS">
+
+    <RuleSet Name="OH_DEPS">
+      <Rules>
+        <Departure Values="NZOH,NZPM">
+          <Rules>
+            <Default>
+              <AssignSector Order="OTMA, OHA, NAK" />
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+
+    <RuleSet Name="WN_DEPS">
+      <Rules>
+        <Departure Values="NZWN, NZWB">
+          <Rules>
+            <Default>
+              <AssignSector Order="WDEP, WTMA, NAK" />
+            </Default>
+          </Rules>
+        </Departure>
+
+        <Departure Vales="NZNS">
+          <Rules>
+            <Route Values="SIMZI, LUBSI, LUSRA, ">
+              <AssignSector Order="TNS, WTMA, NAK" />
+            </Route>
+          </Rules>
+
+          <Default>
+            <AssignSector Order="TNS, NAK" />
+          </Default>
+        </Departure>
+      </Rules>
+    </RuleSet>
+
+    <RuleSet Name="CH_DEPS">
       <Rules>
         <Departure Values="NZCH">
           <Rules>
             <Default>
-              <AssignSector Order="CDEP, CTMA"/>
+              <AssignSector Order="CDEP, CTMA, KAI, STH" />
             </Default>
           </Rules>
         </Departure>
       </Rules>
     </RuleSet>
-</RuleSets>
+
+
+    <RuleSet Name="QN_DEPS">
+      <Rules>
+        <Departure Values="NZQN">
+          <Rules>
+            <Default>
+              <AssignSector Order="QTMA, STH" />
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+  </RuleSets>
 </DefaultJurisdiction>

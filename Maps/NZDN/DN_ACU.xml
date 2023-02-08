@@ -193,21 +193,21 @@
       <Point>OVSED</Point>
     </Symbol>
     <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>AKLAR</Point>
+    </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>AGESO</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>AKLAR</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">AKLAR/OVSED/AGESO/-455602.130+1701114.899</Line>
   </Map>
   <Map Type="System2" Name="03 RNP Labels" Priority="1" Center="-45.933925+170.187472" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>AGESO</Point>
       <Point>AKLAR</Point>
+      <Point>AGESO</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="21 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.933925+170.187472">
@@ -314,7 +314,7 @@
   </Map>
   <Map Type="System2" Name="21 STARs" Priority="1" CustomColourName="ProcArr" Center="-45.924378+170.207786">
     <Line>
-      <!--Rwy21 ALKA2B-->
+      <!--Rwy21 AKLA2B-->
       AKLAR/BIPUV/LOSKO/AKDAS/BIGAR/ESKAT
     </Line>
     <Line Pattern="Solid">
@@ -393,21 +393,21 @@
       <Point>IDPON</Point>
     </Symbol>
     <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>ESKAT</Point>
+    </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>BENRU</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>ESKAT</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">ESKAT/IDPON/BENRU/-455527.761+1701228.030</Line>
   </Map>
   <Map Type="System2" Name="21 RNP Labels" Priority="1" Center="-45.924378+170.207786" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>BENRU</Point>
       <Point>ESKAT</Point>
+      <Point>BENRU</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-45.928056+170.198333">

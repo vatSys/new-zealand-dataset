@@ -3,8 +3,8 @@
   <Map Type="System" Name="ATS Routes" Priority="1" CustomColourName="IFREnr" Center="-42.000+172.000">
     <Line Name="A212">NU NDB.A212.PUPIS</Line>
     <Line Name="A338">NOBEY.A338.CH VOR</Line>
-    <Line Name="A346">AA VOR.A346.PADDY</Line>
-    <Line Name="A464">AA VOR.A464.ELLAS</Line>
+    <Line Name="A346">AA VOR.A346.VEMLA</Line>
+    <Line Name="A464">AA VOR.A464.DUBUD</Line>
     <Line Name="A578">AA VOR.A578.AGTEM</Line>
     <Line Name="A580">AA VOR.A580.FA VOR</Line>
     <Line Name="A584">TBU VOR.A584.FU NDB</Line>
@@ -97,6 +97,8 @@
     <Line Name="H534">WN VOR.H534.PM VOR</Line>
     <Line Name="H901">FA VOR.H901.TUT NDB</Line>
     <Line Name="H969">TUT NDB.H969.GOTSO</Line>
+    <Line Name="J142">WN VOR.J142.NP VOR</Line>
+    <Line Name="J203">CH VOR.J203.HK NDB</Line>
     <Line Name="R327">GS VOR.R327.NU NDB</Line>
     <Line Name="R453">GOKIT.R453.FA VOR</Line>
     <Line Name="R582">NF VOR.R582.KRILL</Line>
@@ -171,20 +173,20 @@
     <Line Name="KZ877">ELDIB.KZ877.TASAM</Line>
     <Line Name="L326">CH VOR.L326.NF VOR</Line>
     <Line Name="L503">CH VOR.L503.TESAS</Line>
-    <Line Name="L508">COOPS.L508.OLBAD</Line>
-    <Line Name="L513">AA VOR.L513.TUBBY</Line>
-    <Line Name="L521">AA VOR.L521.WALTZ</Line>
-    <Line Name="M625">WN VOR.M625.GILLY</Line>
+    <Line Name="L508">KAGRI.L508.RG VOR</Line>
+    <Line Name="L513">AA VOR.L513.TUVBI</Line>
+    <Line Name="L521">AA VOR.L521.REPUD</Line>
+    <Line Name="M625">WN VOR.M625.BOTGU</Line>
     <Line Name="M636">WN VOR.M636.VELKU</Line>
     <Line Name="M639">WN VOR.M639.LHI NDB</Line>
     <Line Name="M643">KABIN.M643.FONLO</Line>
     <Line Name="N750">CH VOR.N750.BOKED</Line>
-    <Line Name="N759">MIKEL.N759.AA VOR</Line>
+    <Line Name="N759">MIKEG.N759.AA VOR</Line>
     <Line Name="N774">AA VOR.N774.AKALU</Line>
     <Line Name="P640">BYRRD.P640.HELGE</Line>
     <Line Name="P753">QN VOR.P753.SMIFF</Line>
-    <Line Name="P766">ADKOS.P766.MIKEL</Line>
-    <Line Name="P880">QN VOR.P880.JUMPA</Line>
+    <Line Name="P766">ADKOS.P766.MIKEG</Line>
+    <Line Name="P880">QN VOR.P880.SAKBI</Line>
     <Line Name="Q100">WB VOR.Q100.WN VOR</Line>
     <Line Name="Q101">MAHIA.Q101.WK NDB</Line>
     <Line Name="Q102">RUGVI.Q102.OPABI</Line>
@@ -363,6 +365,7 @@
     <Line Name="Z172">TPAPA.Z172.RIWUT</Line>
     <Line Name="Z187">AKAVI.Z187.WAPOU</Line>
     <Line Name="Z258">WAPOU.Z258.NP VOR</Line>
+    <Line Name="Z500">BIKOT.Z500.MERAS</Line>
     <Line Name="Z515">NUKTO.Z515.MANGA</Line>
     <Line Name="Z630">MANGA.Z630.OPABI</Line>
     <Line Name="Z865">CH VOR.Z865.RILEY</Line>
@@ -392,10 +395,10 @@
       <Point>SALAG</Point>
       <Point>IGLET</Point>
       <Point>TEKEP</Point>
-      <Point>PADDY</Point>
+      <Point>VEMLA</Point>
       <Point>UPLAR</Point>
       <Point>RIGMI</Point>
-      <Point>ELLAS</Point>
+      <Point>DUBUD</Point>
       <Point>KALAG</Point>
       <Point>NISET</Point>
       <Point>POREN</Point>
@@ -741,6 +744,7 @@
       <Point>ANITR</Point>
       <Point>DOROS</Point>
       <Point>CLAIB</Point>
+      <Point>EGEVI</Point>
       <Point>IBESO</Point>
       <Point>AUTEL</Point>
       <Point>IDNIP</Point>
@@ -896,17 +900,22 @@
       <Point>MOLGI</Point>
       <Point>OKTOM</Point>
       <Point>OLBAD</Point>
-      <Point>COOPS</Point>
+      <Point>NOKAK</Point>
+      <Point>BOMTI</Point>
+      <Point>VEMET</Point>
+      <Point>PABGO</Point>
+      <Point>ISPAK</Point>
+      <Point>KAGRI</Point>
       <Point>VELMO</Point>
       <Point>MIDAT</Point>
       <Point>UNTET</Point>
-      <Point>TUBBY</Point>
+      <Point>TUVBI</Point>
       <Point>LUNBI</Point>
       <Point>LEGAN</Point>
-      <Point>WALTZ</Point>
+      <Point>REPUD</Point>
       <Point>GOPLU</Point>
       <Point>TOMAR</Point>
-      <Point>GILLY</Point>
+      <Point>BOTGU</Point>
       <Point>TANEN</Point>
       <Point>SASRO</Point>
       <Point>VELKU</Point>
@@ -919,7 +928,7 @@
       <Point>SULON</Point>
       <Point>BOKED</Point>
       <Point>PEBLU</Point>
-      <Point>MIKEL</Point>
+      <Point>MIKEG</Point>
       <Point>MADEP</Point>
       <Point>OLREL</Point>
       <Point>AKALU</Point>
@@ -937,7 +946,7 @@
       <Point>DADLU</Point>
       <Point>LIBLA</Point>
       <Point>NUMSA</Point>
-      <Point>JUMPA</Point>
+      <Point>SAKBI</Point>
       <Point>LUTKA</Point>
       <Point>IGMUL</Point>
       <Point>GOVDU</Point>
@@ -1055,7 +1064,6 @@
       <Point>LANIB</Point>
       <Point>NUPDO</Point>
       <Point>NODAD</Point>
-      <Point>NOKAK</Point>
       <Point>NONAT</Point>
       <Point>ATOLI</Point>
       <Point>TAZEY</Point>
@@ -1154,6 +1162,7 @@
       <Point>UPVAP</Point>
       <Point>RIWUT</Point>
       <Point>ATNUV</Point>
+      <Point>UKLAV</Point>
       <Point>NUKTO</Point>
       <Point>ERVAX</Point>
     </Symbol>
@@ -1186,10 +1195,10 @@
       <Point>SALAG</Point>
       <Point>IGLET</Point>
       <Point>TEKEP</Point>
-      <Point>PADDY</Point>
+      <Point>VEMLA</Point>
       <Point>UPLAR</Point>
       <Point>RIGMI</Point>
-      <Point>ELLAS</Point>
+      <Point>DUBUD</Point>
       <Point>KALAG</Point>
       <Point>NISET</Point>
       <Point>POREN</Point>
@@ -1535,6 +1544,7 @@
       <Point>ANITR</Point>
       <Point>DOROS</Point>
       <Point>CLAIB</Point>
+      <Point>EGEVI</Point>
       <Point>IBESO</Point>
       <Point>AUTEL</Point>
       <Point>IDNIP</Point>
@@ -1690,17 +1700,22 @@
       <Point>MOLGI</Point>
       <Point>OKTOM</Point>
       <Point>OLBAD</Point>
-      <Point>COOPS</Point>
+      <Point>NOKAK</Point>
+      <Point>BOMTI</Point>
+      <Point>VEMET</Point>
+      <Point>PABGO</Point>
+      <Point>ISPAK</Point>
+      <Point>KAGRI</Point>
       <Point>VELMO</Point>
       <Point>MIDAT</Point>
       <Point>UNTET</Point>
-      <Point>TUBBY</Point>
+      <Point>TUVBI</Point>
       <Point>LUNBI</Point>
       <Point>LEGAN</Point>
-      <Point>WALTZ</Point>
+      <Point>REPUD</Point>
       <Point>GOPLU</Point>
       <Point>TOMAR</Point>
-      <Point>GILLY</Point>
+      <Point>BOTGU</Point>
       <Point>TANEN</Point>
       <Point>SASRO</Point>
       <Point>VELKU</Point>
@@ -1713,7 +1728,7 @@
       <Point>SULON</Point>
       <Point>BOKED</Point>
       <Point>PEBLU</Point>
-      <Point>MIKEL</Point>
+      <Point>MIKEG</Point>
       <Point>MADEP</Point>
       <Point>OLREL</Point>
       <Point>AKALU</Point>
@@ -1731,7 +1746,7 @@
       <Point>DADLU</Point>
       <Point>LIBLA</Point>
       <Point>NUMSA</Point>
-      <Point>JUMPA</Point>
+      <Point>SAKBI</Point>
       <Point>LUTKA</Point>
       <Point>IGMUL</Point>
       <Point>GOVDU</Point>
@@ -1849,7 +1864,6 @@
       <Point>LANIB</Point>
       <Point>NUPDO</Point>
       <Point>NODAD</Point>
-      <Point>NOKAK</Point>
       <Point>NONAT</Point>
       <Point>ATOLI</Point>
       <Point>TAZEY</Point>
@@ -1948,6 +1962,7 @@
       <Point>UPVAP</Point>
       <Point>RIWUT</Point>
       <Point>ATNUV</Point>
+      <Point>UKLAV</Point>
       <Point>NUKTO</Point>
       <Point>ERVAX</Point>
     </Label>

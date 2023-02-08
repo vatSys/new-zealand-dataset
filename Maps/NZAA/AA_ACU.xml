@@ -485,16 +485,16 @@
       UKAPA/SHILI/AKBAM
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R UKAP3D.KK-->
+      <!--Rwy05R UKAP2D.KK-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R UKAP3D.PERAS-->
+      <!--Rwy05R UKAP2D.PERAS-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R UKAP3D.SF-->
+      <!--Rwy05R UKAP2D.SF-->
     </Line>
     <Line>
-      <!--Rwy05R UKAP3D-->
+      <!--Rwy05R UKAP2D-->
       SHILI/MUDEE/UDUMO
     </Line>
     <Symbol Type="HollowTriangle">

@@ -3,26 +3,26 @@
   <Map Type="System2" Name="02 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.292228+173.229461">
     <Line Pattern="Dashed">
       <!--Rwy02 DUMI1P-->
-      -41.292228+173.229461/NS02T/NS20T/-41.255556+173.258889/RIKRU/DUMIK
+      -41.292228+173.229461/NS20T/-41.255556+173.258889/RIKRU/DUMIK
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 IDNE2P-->
+      <!--Rwy02 IDNI2P-->
       -41.255556+173.258889/SALIR/DAZSA/IDNIM
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 IDNE2P.BISEB-->
+      <!--Rwy02 IDNI2P.BISEB-->
       IDNIM/NESTA/BISEB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 IDNE2P.CONOR-->
+      <!--Rwy02 IDNI2P.CONOR-->
       IDNIM/CONOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 IDNE2P.NESTA-->
+      <!--Rwy02 IDNI2P.NESTA-->
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy02 LEMU2P-->
-      NS20T/GUSMI/LEMUT
+      -41.292228+173.229461/NS02T/NS20T/GUSMI/LEMUT
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy02 LEMU2P.DALKI-->
@@ -46,10 +46,9 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy02 ZULU2-->
-      -41.292228+173.229461/NS20T/NS02T/-41.279750+173.243550/-40.998670+173.386370
+      NS20T/NS02T/-41.279750+173.243550/-40.998670+173.386370
     </Line>
     <Symbol Type="HollowTriangle">
-      <Point>NS02T</Point>
       <Point>NS20T</Point>
       <Point>RIKRU</Point>
       <Point>DUMIK</Point>
@@ -59,6 +58,7 @@
       <Point>NESTA</Point>
       <Point>BISEB</Point>
       <Point>CONOR</Point>
+      <Point>NS02T</Point>
       <Point>GUSMI</Point>
       <Point>LEMUT</Point>
       <Point>SEBGI</Point>
@@ -164,9 +164,7 @@
   </Map>
   <Map Type="System2" Name="02 RNP" Priority="1" Center="-41.301397+173.218922" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>ORUBA</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>ELMAX</Point>
@@ -181,7 +179,6 @@
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>NOPEM</Point>
-      <Point>PATRU</Point>
       <Point>ISLOP</Point>
     </Symbol>
     <!--IF Symbols-->
@@ -206,7 +203,6 @@
       <Point>TUMGO</Point>
       <Point>ESNED</Point>
       <Point>NOPEM</Point>
-      <Point>PATRU</Point>
       <Point>ISLOP</Point>
     </Label>
   </Map>
@@ -371,9 +367,7 @@
   </Map>
   <Map Type="System2" Name="20 RNP" Priority="1" Center="-41.292228+173.229461" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>ORUBA</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>ELMAX</Point>
@@ -400,9 +394,7 @@
   </Map>
   <Map Type="System2" Name="06 RNP" Priority="1" Center="-41.296131+173.217011" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>ORUBA</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>ELMAX</Point>
@@ -429,9 +421,7 @@
   </Map>
   <Map Type="System2" Name="24 RNP" Priority="1" Center="-41.295453+173.224183" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>ORUBA</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>ELMAX</Point>

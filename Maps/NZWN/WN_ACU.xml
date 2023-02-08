@@ -510,7 +510,6 @@
       <Point>GANJI</Point>
       <Point>COUBY</Point>
       <Point>UPLUD</Point>
-      <Point>LAXIV</Point>
       <Point>URGEV</Point>
     </Symbol>
     <Symbol Type="Circle">
@@ -545,6 +544,7 @@
       <Point>SABDA</Point>
       <Point>TANEN</Point>
       <Point>VANDA</Point>
+      <Point>LAXIV</Point>
       <Point>IRNIL</Point>
       <Point>GAMJU</Point>
       <Point>AKTAN</Point>

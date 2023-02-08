@@ -75,7 +75,8 @@
         <Translation String="5" Spoken="fife" />
         <Translation String="9" Spoken="niner" />
         <Translation String="." Spoken="decimal" />
-
+		
+		<Translation String="AD" Spoken="aerodrome" />
         <Translation String="APCH" Spoken="approach" />
         <Translation String="INST" Spoken="instrument" />
         <Translation String="INSTR" Spoken="instrument" />
@@ -139,6 +140,8 @@
         <Translation String="CTR" Spoken="control" />
         <Translation String="OBS" Spoken="observed" />
         <Translation String="REP" Spoken="reported" />
+		<Translation String="PROC" Spoken="procedure" />
+		<Translation String="PROCS" Spoken="procedures" />
         <Translation String="FNA" Spoken="final approach" />
         <Translation String="LVP" Spoken="low visibility procedures" />
         <Translation String="REF" Spoken="refer" />
@@ -160,9 +163,10 @@
         <Translation String="WIND" Spoken="wind:" />
         <!--This regex will change xxx/yyy to xxx degrees, yyy knots-->
         <Translation Regex="(\d{3})\/(\d{1,3})" Spoken="$1 degrees, $2 knots" />
-        <Translation Regex="(\d{3})\/(\d{1,3})-(\d{1,3})" Spoken="$1 degrees, minimum $2 knots, maximum $3 knots" />
+        <Translation Regex="(\d{3})\/(\d{1,3})-(\d{1,3})" Spoken="$1 degrees, $2 knots gusting $3 knots" />
+		<Translation Regex="(\d{3})V(\d{1,3})" Spoken="variable between $1 and $2 degrees" />
         <Translation Regex="(\d{3})-(\d{3})\/(\d{1,3})" Spoken="varying $1 degrees to $2 degrees, $3 knots" />
-        <Translation Regex="(\d{3})-(\d{3})\/(\d{1,3})-(\d{1,3})" Spoken="varying $1 degrees to $2 degrees, minimum $3 knots, maximum $4 knots" />
+        <Translation Regex="(\d{3})-(\d{3})\/(\d{1,3})-(\d{1,3})" Spoken="varying $1 degrees to $2 degrees,$3 knots gusting $4 knots" />
         <Translation String="MAX" Spoken="maximum" />
         <Translation String="MIN" Spoken="minimum" />
         <Translation String="XW" Spoken="crosswind" />
@@ -197,6 +201,7 @@
         <Translation String="NCD" Spoken="nil cloud detected" />
         <Translation Regex="\+([A-Z]+)" Spoken="heavy $1" />
         <Translation Regex="\-([A-Z]+)" Spoken="light $1" />
+		<Translation String="FCST" Spoken="forecast" />
         <Translation String="MI" Spoken="shallow" />
         <Translation String="BC" Spoken="patches" />
         <Translation String="PR" Spoken="partial" />
@@ -226,7 +231,7 @@
         <Translation String="VC" Spoken="vicinity" />
         <Translation String="IC" Spoken="ice crystals" />
         <Translation String="PL" Spoken="ice pellets" />
-        <Translation String="VCSH" Spoken="showers in area" />
+        <Translation String="VCSH" Spoken="showers in the vicinity" />
         <Translation String="SIA" Spoken="showers in area" />
         <Translation String="TS" Spoken="thunderstorm" />
         <Translation String="TSRA" Spoken="thunderstorms and rain" />
@@ -235,6 +240,9 @@
         <Translation String="COND" Spoken="condition" />
         <Translation String="CONDS" Spoken="conditions" />
         <Translation String="WS" Spoken="windshear" />
+		<Translation String="WX" Spoken="present weather" />
+	
+
 
         <Translation String="TMP" Spoken="temperature" />
 
