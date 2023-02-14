@@ -218,7 +218,6 @@
     <Position Name="Auckland ACU" Type="ASD" DefaultCenter="-370020.413+1744725.105" DefaultRange="300" MagneticVariation="-21">
       <Sectors>
         <Sector Name="ATMA" />
-        <Sector Name="AARR" />
         <Sector Name="ADEP" />
       </Sectors>
       <Maps>
