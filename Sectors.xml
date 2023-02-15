@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Sector FullName="Area South" Frequency="129.300" Callsign="NZCH-S_CTR" Name="STH">
     <Volumes>STH</Volumes>
     <ResponsibleSectors>QTMA,TDN,TNV, MFS</ResponsibleSectors>
@@ -46,11 +45,11 @@
   <Sector FullName="Oakland East" Frequency="131.950" Callsign="ZAK-E_FSS" Name="KZKE" />
   <Sector FullName="Oakland West" Frequency="122.500" Callsign="ZAK-W_FSS" Name="KZKW" />
   <Sector FullName="Tahiti Radio" Frequency="125.500" Callsign="NTTT_FSS" Name="TRDO" />
-  <Sector FullName="Auckland Approach" Frequency="124.300" Callsign="NZAA_APP" Name="ATMA">
+  <Sector FullName="Auckland Approach" Frequency="129.600" Callsign="NZAA_APP" Name="ATMA">
     <Volumes>ATMA</Volumes>
     <ResponsibleSectors>AARR,ADEP</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Auckland Departures" Frequency="118.000" Callsign="NZAA_DEP" Name="ADEP">
+  <Sector FullName="Auckland Departures" Frequency="124.300" Callsign="NZAA_DEP" Name="ADEP">
     <Volumes>ATMA</Volumes>
   </Sector>
   <Sector FullName="Bay Approach (NZHN)" Frequency="125.300" Callsign="NZHN_APP" Name="HTMA">

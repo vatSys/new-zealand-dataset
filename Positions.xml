@@ -252,12 +252,6 @@
         <Line>Need local charts? - vats.im/nz/charts</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
-      <ControllerInfo Callsign="NZAA-F_APP">
-        <Line>Auckland Finals</Line>
-        <Line>Controls inbound aircraft under 5000ft within the AA TMA.</Line>
-        <Line>Need local charts? - vats.im/nz/charts</Line>
-        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
-      </ControllerInfo>
       <ControllerInfo Callsign="NZAA_TWR">
         <Line>Auckland Tower - ATIS 127.800</Line>
         <Line>Need local charts? - vats.im/nz/charts</Line>
