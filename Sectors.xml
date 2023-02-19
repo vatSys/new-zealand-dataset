@@ -45,11 +45,11 @@
   <Sector FullName="Oakland East" Frequency="131.950" Callsign="ZAK-E_FSS" Name="KZKE" />
   <Sector FullName="Oakland West" Frequency="122.500" Callsign="ZAK-W_FSS" Name="KZKW" />
   <Sector FullName="Tahiti Radio" Frequency="125.500" Callsign="NTTT_FSS" Name="TRDO" />
-  <Sector FullName="Auckland Approach" Frequency="129.600" Callsign="NZAA_APP" Name="ATMA">
+  <Sector FullName="Auckland Approach" Frequency="124.300" Callsign="NZAA_APP" Name="ATMA">
     <Volumes>ATMA</Volumes>
     <ResponsibleSectors>AARR,ADEP</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Auckland Departures" Frequency="124.300" Callsign="NZAA_DEP" Name="ADEP">
+  <Sector FullName="Auckland Departures" Frequency="129.600" Callsign="NZAA_DEP" Name="ADEP">
     <Volumes>ATMA</Volumes>
   </Sector>
   <Sector FullName="Bay Approach (NZHN)" Frequency="125.300" Callsign="NZHN_APP" Name="HTMA">
