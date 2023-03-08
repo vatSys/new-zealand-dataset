@@ -73,8 +73,8 @@
     </Runway>
     <!--NZNS-->
     <Runway Name="02/20">
-      <Threshold Name="02" Position="-41.301397+173.218922" ExtendedCentrelineTrack="220.6" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
-      <Threshold Name="20" Position="-41.292228+173.229461" ExtendedCentrelineTrack="40.6" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="02" Position="-41.301378+173.218953" ExtendedCentrelineTrack="220.6" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="20" Position="-41.292214+173.229486" ExtendedCentrelineTrack="40.6" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
     </Runway>
     <!--NZNV-->
     <Runway Name="04/22">
