@@ -2,15 +2,15 @@
 <Maps>
   <Map Type="System2" Name="05 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.016544+168.757728">
     <Line Pattern="Dashed">
-      <!--Rwy05 ANPO3A-->
+      <!--Rwy05 ANPO4A-->
       -45.016544+168.757728/QN23T/QN843/QN846/QN849/QN852/LEMAK/QN861/METUX/ANPOV
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05 ANPO3A.SAVLA-->
+      <!--Rwy05 ANPO4A.SAVLA-->
       ANPOV/AKMAD/NONAN/SAVLA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05 ANPO3A.TIMJO-->
+      <!--Rwy05 ANPO4A.TIMJO-->
       ANPOV/ATVOR/TIMJO
     </Line>
     <Line Pattern="Dashed">
@@ -30,16 +30,16 @@
       QN VOR/SAVLA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05 DOVM2A-->
-      QN05T/QN605/QN615/QN621/DOVMA/QN678/QN682/QN686/QN690/QN737/BUGSA/QN878/QN882
+      <!--Rwy05 DOVM3A-->
+      QN05T/QN605/QN615/QN621/DOVMA/QN678/QN682/QN686/QN690/BELPI/BUGSA/QN878/OMLEL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05 DOVM2A.ADLUP-->
-      QN882/REDOL/BASOS/ADLUP
+      <!--Rwy05 DOVM3A.ADLUP-->
+      OMLEL/REDOL/BASOS/ADLUP
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05 DOVM2A.SUNGU-->
-      QN882/SUNGU
+      <!--Rwy05 DOVM3A.SUNGU-->
+      OMLEL/SUNGU
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05 GIXEL1-->
@@ -69,15 +69,15 @@
       EPDEX/ATVOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05 IPNO3A-->
-      LEMAK/QN862/QN864/QN866/IPNOR
+      <!--Rwy05 IPNO4A-->
+      LEMAK/QN862/QN864/QN866/QN872/VAPLI/LOSTI/IPNOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05 IPNO3A.ADKOS-->
+      <!--Rwy05 IPNO4A.ADKOS-->
       IPNOR/ENRAT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05 IPNO3A.LIBLA-->
+      <!--Rwy05 IPNO4A.LIBLA-->
       IPNOR/BIKOS
     </Line>
     <Symbol Type="SolidStar">
@@ -112,10 +112,10 @@
       <Point>QN682</Point>
       <Point>QN686</Point>
       <Point>QN690</Point>
-      <Point>QN737</Point>
+      <Point>BELPI</Point>
       <Point>BUGSA</Point>
       <Point>QN878</Point>
-      <Point>QN882</Point>
+      <Point>OMLEL</Point>
       <Point>REDOL</Point>
       <Point>BASOS</Point>
       <Point>ADLUP</Point>
@@ -129,12 +129,15 @@
       <Point>QN862</Point>
       <Point>QN864</Point>
       <Point>QN866</Point>
+      <Point>QN872</Point>
+      <Point>VAPLI</Point>
+      <Point>LOSTI</Point>
       <Point>IPNOR</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>ANPOV</Point>
       <Point>QN VOR</Point>
-      <Point>QN882</Point>
+      <Point>OMLEL</Point>
       <Point>GIXEL</Point>
       <Point>IPNOR</Point>
       <Point>SAVLA</Point>
@@ -210,10 +213,11 @@
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>QN577</Point>
-      <Point>QN573</Point>
-      <Point>QN571</Point>
-      <Point>QN569</Point>
-      <Point>QN565</Point>
+      <Point>SARDA</Point>
+      <Point>TEPEG</Point>
+      <Point>PANTO</Point>
+      <Point>DUBEG</Point>
+      <Point>MOPGA</Point>
       <Point>QN555</Point>
       <Point>QN550</Point>
       <Point>QN545</Point>
@@ -224,56 +228,54 @@
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>MOPGA</Point>
       <Point>OMUBO</Point>
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">IBABU/QN577/QN573/QN571/QN569/QN565/MOPGA/OMUBO/QN555/QN550/QN545/-450112.000+1684408.480</Line>
+    <Line Pattern="Solid">IBABU/QN577/SARDA/TEPEG/PANTO/DUBEG/MOPGA/OMUBO/QN555/QN550/QN545/-450112.000+1684408.480</Line>
   </Map>
   <Map Type="System2" Name="05 RNP-AR Labels" Priority="1" Center="-45.020000+168.735689" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>IBABU</Point>
-      <Point>MOPGA</Point>
       <Point>OMUBO</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="23 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.020000+168.735689">
     <Line Pattern="Dashed">
-      <!--Rwy23 ANPO3B-->
-      -45.020000+168.735689/QN05T/QN727/KABAP/NOLUV/QN732/RUXAK/QN737/BUGSA/DUGAK/QN817/ENKUV/METUX/ANPOV
+      <!--Rwy23 ANPO4B-->
+      -45.020000+168.735689/QN05T/QN727/KABAP/NOLUV/QN732/RUXAK/BELPI/BUGSA/DUGAK/QN817/ENKUV/METUX/ANPOV
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 ANPO3B.SAVLA-->
+      <!--Rwy23 ANPO4B.SAVLA-->
       ANPOV/AKMAD/NONAN/SAVLA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 ANPO3B.TIMJO-->
+      <!--Rwy23 ANPO4B.TIMJO-->
       ANPOV/ATVOR/TIMJO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 IPNO3B-->
-      DUGAK/VAPLI/IPNOR
+      <!--Rwy23 IPNO4B-->
+      DUGAK/VAPLI/LOSTI/IPNOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 IPNO3B.ADKOS-->
+      <!--Rwy23 IPNO4B.ADKOS-->
       IPNOR/ENRAT/ADKOS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 IPNO3B.LIBLA-->
+      <!--Rwy23 IPNO4B.LIBLA-->
       IPNOR/BIKOS/LIBLA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 REDO1B-->
-      -45.020000+168.735689/QN23T/QN602/UPTIN/DUGET/GOLEG/PIPOG/QN628/QN632/ASULA/QN648/TUMTA/BUGSA/QN878/QN882
+      <!--Rwy23 REDO2B-->
+      -45.020000+168.735689/QN23T/QN602/UPTIN/DUGET/GOLEG/PIPOG/QN628/QN632/ASULA/QN648/TUMTA/BUGSA/OMLEL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 REDO1B.ADLUP-->
-      QN882/REDOL/BASOS/ADLUP
+      <!--Rwy23 REDO2B.ADLUP-->
+      OMLEL/REDOL/BASOS/ADLUP
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 REDO1B.SUNGU-->
-      QN882/SUNGU
+      <!--Rwy23 REDO2B.SUNGU-->
+      OMLEL/SUNGU
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23 VAPLI1-->
@@ -305,7 +307,7 @@
       <Point>NOLUV</Point>
       <Point>QN732</Point>
       <Point>RUXAK</Point>
-      <Point>QN737</Point>
+      <Point>BELPI</Point>
       <Point>BUGSA</Point>
       <Point>DUGAK</Point>
       <Point>QN817</Point>
@@ -318,6 +320,7 @@
       <Point>ATVOR</Point>
       <Point>TIMJO</Point>
       <Point>VAPLI</Point>
+      <Point>LOSTI</Point>
       <Point>IPNOR</Point>
       <Point>ENRAT</Point>
       <Point>ADKOS</Point>
@@ -334,8 +337,7 @@
       <Point>ASULA</Point>
       <Point>QN648</Point>
       <Point>TUMTA</Point>
-      <Point>QN878</Point>
-      <Point>QN882</Point>
+      <Point>OMLEL</Point>
       <Point>REDOL</Point>
       <Point>BASOS</Point>
       <Point>ADLUP</Point>
@@ -350,7 +352,7 @@
     <Label HasLeader="true">
       <Point>ANPOV</Point>
       <Point>IPNOR</Point>
-      <Point>QN882</Point>
+      <Point>OMLEL</Point>
       <Point>VAPLI</Point>
       <Point>SAVLA</Point>
       <Point>TIMJO</Point>
@@ -422,22 +424,22 @@
   <Map Type="System2" Name="23 RNP-AR" Priority="1" Center="-45.016544+168.757728" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>ATVUP</Point>
       <Point>QN760</Point>
-      <Point>QN755</Point>
+      <Point>APEXA</Point>
       <Point>QN745</Point>
       <Point>QN741</Point>
       <Point>QN735</Point>
       <Point>QN731</Point>
       <Point>QN725</Point>
       <Point>QN780</Point>
-      <Point>QN775</Point>
+      <Point>TOGOX</Point>
       <Point>QN770</Point>
-      <Point>QN779</Point>
+      <Point>OSOPU</Point>
       <Point>QN774</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
-      <Point>ATVUP</Point>
       <Point>ATKIL</Point>
       <Point>UGPED</Point>
     </Symbol>
@@ -447,13 +449,12 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">ATVUP/QN760/QN755/LARAV/QN745/QN741/QN735/QN731/QN725/-450059.558+1684527.821</Line>
-    <Line Pattern="Solid">ATKIL/QN780/QN775/QN770/ATVUP</Line>
-    <Line Pattern="Solid">UGPED/QN779/QN774/ATVUP</Line>
+    <Line Pattern="Solid">ATVUP/QN760/APEXA/LARAV/QN745/QN741/QN735/QN731/QN725/-450059.558+1684527.821</Line>
+    <Line Pattern="Solid">ATKIL/QN780/TOGOX/QN770/ATVUP</Line>
+    <Line Pattern="Solid">UGPED/OSOPU/QN774/ATVUP</Line>
   </Map>
   <Map Type="System2" Name="23 RNP-AR Labels" Priority="1" Center="-45.016544+168.757728" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>ATVUP</Point>
       <Point>ATKIL</Point>
       <Point>UGPED</Point>
       <Point>LARAV</Point>

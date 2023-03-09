@@ -18,7 +18,6 @@
       <Point>SUSAL</Point>
       <Point>LEKED</Point>
       <Point>IBABU</Point>
-      <Point>ATVUP</Point>
       <Point>ATKIL</Point>
       <Point>UGPED</Point>
       <Point>OKERE</Point>
@@ -41,9 +40,8 @@
       <Point>GUNLO</Point>
       <Point>VEKMU</Point>
       <Point>DANLU</Point>
-      <Point>MOPGA</Point>
-      <Point>LARAV</Point>
       <Point>OMUBO</Point>
+      <Point>LARAV</Point>
       <Point>TUSGA</Point>
       <Point>SEKBU</Point>
       <Point>RIDGE</Point>
@@ -101,24 +99,26 @@
       <Point>SEKNI</Point>
       <Point>PM482</Point>
       <Point>QN577</Point>
-      <Point>QN573</Point>
-      <Point>QN571</Point>
-      <Point>QN569</Point>
-      <Point>QN565</Point>
+      <Point>SARDA</Point>
+      <Point>TEPEG</Point>
+      <Point>PANTO</Point>
+      <Point>DUBEG</Point>
+      <Point>MOPGA</Point>
       <Point>QN555</Point>
       <Point>QN550</Point>
       <Point>QN545</Point>
+      <Point>ATVUP</Point>
       <Point>QN760</Point>
-      <Point>QN755</Point>
+      <Point>APEXA</Point>
       <Point>QN745</Point>
       <Point>QN741</Point>
       <Point>QN735</Point>
       <Point>QN731</Point>
       <Point>QN725</Point>
       <Point>QN780</Point>
-      <Point>QN775</Point>
+      <Point>TOGOX</Point>
       <Point>QN770</Point>
-      <Point>QN779</Point>
+      <Point>OSOPU</Point>
       <Point>QN774</Point>
       <Point>BONLI</Point>
       <Point>ADKAG</Point>
@@ -150,7 +150,6 @@
       <Point>SUSAL</Point>
       <Point>LEKED</Point>
       <Point>IBABU</Point>
-      <Point>ATVUP</Point>
       <Point>ATKIL</Point>
       <Point>UGPED</Point>
       <Point>OKERE</Point>
@@ -176,9 +175,8 @@
       <Point>GUNLO</Point>
       <Point>VEKMU</Point>
       <Point>DANLU</Point>
-      <Point>MOPGA</Point>
-      <Point>LARAV</Point>
       <Point>OMUBO</Point>
+      <Point>LARAV</Point>
       <Point>TUSGA</Point>
       <Point>SEKBU</Point>
       <Point>RIDGE</Point>
@@ -209,10 +207,10 @@
     <Line Pattern="Solid">SUSAL/CH946/CH813/CH653/CH928</Line>
     <Line Pattern="Solid">SUPSO/CH434/VEKMU/CH438/CH917</Line>
     <Line Pattern="Solid">LEKED/SEKNI/DANLU/PM482/-401911.410+1753728.808</Line>
-    <Line Pattern="Solid">IBABU/QN577/QN573/QN571/QN569/QN565/MOPGA/OMUBO/QN555/QN550/QN545/-450112.000+1684408.480</Line>
-    <Line Pattern="Solid">ATVUP/QN760/QN755/LARAV/QN745/QN741/QN735/QN731/QN725/-450059.558+1684527.821</Line>
-    <Line Pattern="Solid">ATKIL/QN780/QN775/QN770/ATVUP</Line>
-    <Line Pattern="Solid">UGPED/QN779/QN774/ATVUP</Line>
+    <Line Pattern="Solid">IBABU/QN577/SARDA/TEPEG/PANTO/DUBEG/MOPGA/OMUBO/QN555/QN550/QN545/-450112.000+1684408.480</Line>
+    <Line Pattern="Solid">ATVUP/QN760/APEXA/LARAV/QN745/QN741/QN735/QN731/QN725/-450059.558+1684527.821</Line>
+    <Line Pattern="Solid">ATKIL/QN780/TOGOX/QN770/ATVUP</Line>
+    <Line Pattern="Solid">UGPED/OSOPU/QN774/ATVUP</Line>
     <Line Pattern="Solid">OKERE/BONLI/TUSGA/-380601.598+1761913.238</Line>
     <Line Pattern="Solid">TOTRA/ADKAG/SEKBU/RO366/RO364/-380655.750+1761841.170</Line>
     <Line Pattern="Solid">WN416/RIDGE/-411907.039+1744826.849</Line>
@@ -272,6 +270,10 @@
       <Point>BEDAV</Point>
       <Point>AGTUR</Point>
       <Point>EKVIL</Point>
+      <Point>TAYLA</Point>
+      <Point>BUDEN</Point>
+      <Point>VATNA</Point>
+      <Point>GUNDA</Point>
       <Point>OPAPA</Point>
       <Point>NR VOR</Point>
       <Point>OTAHA</Point>
@@ -477,10 +479,6 @@
       <Point>PAROA</Point>
       <Point>WAPOU</Point>
       <Point>MAKOS</Point>
-      <Point>TAYLA</Point>
-      <Point>BUDEN</Point>
-      <Point>VATNA</Point>
-      <Point>GUNDA</Point>
       <Point>SADUN</Point>
       <Point>OLNAN</Point>
       <Point>WAIPA</Point>
@@ -589,6 +587,10 @@
       <Point>BEDAV</Point>
       <Point>AGTUR</Point>
       <Point>EKVIL</Point>
+      <Point>TAYLA</Point>
+      <Point>BUDEN</Point>
+      <Point>VATNA</Point>
+      <Point>GUNDA</Point>
       <Point>OPAPA</Point>
       <Point>NR VOR</Point>
       <Point>OTAHA</Point>
@@ -811,10 +813,6 @@
       <Point>PAROA</Point>
       <Point>WAPOU</Point>
       <Point>MAKOS</Point>
-      <Point>TAYLA</Point>
-      <Point>BUDEN</Point>
-      <Point>VATNA</Point>
-      <Point>GUNDA</Point>
       <Point>SADUN</Point>
       <Point>OLNAN</Point>
       <Point>WAIPA</Point>
@@ -890,7 +888,7 @@
     <Line Pattern="Solid">EKVIL/MAKOS</Line>
     <Line Pattern="Solid">TAYLA/LAXOD/-375120.902+1752010.219</Line>
     <Line Pattern="Solid">BUDEN/NITAK/-375225.140+1751946.942</Line>
-    <Line Pattern="Solid">VATNA/ISPOT/-375120.902+1752010.219</Line>
+    <Line Pattern="Solid">VATNA/ISPOT/HN VOR/-375120.902+1752010.219</Line>
     <Line Pattern="Solid">GUNDA/IKERI/-375225.140+1751946.942</Line>
     <Line Pattern="Solid">OPAPA/-39.722220+176.710770/-39.649380+176.763350/-393853.779+1764550.980</Line>
     <Line Pattern="Solid">NR VOR/-39.582160+176.811770/-39.640450+176.769780/-393826.340+1764610.751</Line>

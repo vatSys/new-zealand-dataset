@@ -77,10 +77,12 @@
       <!--Rwy02 NZCH5A-->
       CH20T/-43.423889+172.580556
     </Line>
+    <Symbol Type="SolidStar">
+      <Point>RINKO</Point>
+    </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>CH02T</Point>
       <Point>CH20T</Point>
-      <Point>RINKO</Point>
       <Point>BAVEM</Point>
       <Point>AVOCA</Point>
       <Point>ABAXO</Point>

@@ -2,7 +2,7 @@
 <Maps>
   <Map Type="System2" Name="18L SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.873650+175.329706">
     <Line Pattern="Dashed">
-      <!--Rwy18L BUDEN3-->
+      <!--Rwy18L BUDE4V-->
       -37.873650+175.329706/HN36R/BUDEN
     </Line>
     <Line Pattern="Dashed">
@@ -247,26 +247,26 @@
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>TAYLA</Point>
+      <Point>VATNA</Point>
+    </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>LAXOD</Point>
       <Point>ISPOT</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>TAYLA</Point>
-      <Point>VATNA</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">TAYLA/LAXOD/-375120.902+1752010.219</Line>
-    <Line Pattern="Solid">VATNA/ISPOT/-375120.902+1752010.219</Line>
+    <Line Pattern="Solid">VATNA/ISPOT/HN VOR/-375120.902+1752010.219</Line>
   </Map>
   <Map Type="System2" Name="18L RNP Labels" Priority="1" Center="-37.855806+175.336172" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>LAXOD</Point>
-      <Point>ISPOT</Point>
       <Point>TAYLA</Point>
       <Point>VATNA</Point>
+      <Point>LAXOD</Point>
+      <Point>ISPOT</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="36R SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.855806+175.336172">
@@ -334,7 +334,7 @@
       TEPOX/OLDON
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy36R TAYLA2-->
+      <!--Rwy36R TAYL3V-->
       HN18L/TAYLA
     </Line>
     <Symbol Type="HollowTriangle">
@@ -539,26 +539,26 @@
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>BUDEN</Point>
+      <Point>GUNDA</Point>
+    </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>NITAK</Point>
       <Point>IKERI</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>BUDEN</Point>
-      <Point>GUNDA</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">BUDEN/NITAK/-375225.140+1751946.942</Line>
     <Line Pattern="Solid">GUNDA/IKERI/-375225.140+1751946.942</Line>
   </Map>
   <Map Type="System2" Name="36R RNP Labels" Priority="1" Center="-37.873650+175.329706" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>NITAK</Point>
-      <Point>IKERI</Point>
       <Point>BUDEN</Point>
       <Point>GUNDA</Point>
+      <Point>NITAK</Point>
+      <Point>IKERI</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-37.866389+175.335278">
