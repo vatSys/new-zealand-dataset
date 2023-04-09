@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="Controlled Airspace Levels" Priority="2" Center="-42.000+172.000">
+    <Label HasLeader="False" Alignment="Center" VerticalAlignment="Middle">
+      <Point Name="L135">-3452.0+17312.7333</Point>
+      <Point Name="L15">-3706.6333+17442.6667</Point>
+      <Point Name="L25">-3636.6333+17434.2833</Point>
+      <Point Name="L35">-3701.4667+17411.3833</Point>
+      <Point Name="L45">-3707.7+17359.9667</Point>
+      <Point Name="L45">-3633.05+17504.2333</Point>
+      <Point Name="L65">-3812.4667+17438.1</Point>
+      <Point Name="L65">-3729.65+17413.7</Point>
+      <Point Name="L65">-3717.4+17349.4</Point>
+      <Point Name="L65">-3609.5667+17423.3167</Point>
+      <Point Name="L95">-3729.9+17318.5833</Point>
+      <Point Name="L95">-3555.7+17528.95</Point>
+    </Label>
+  </Map>
+</Maps>

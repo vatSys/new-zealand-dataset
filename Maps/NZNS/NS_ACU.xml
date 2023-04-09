@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="02 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.292228+173.229461">
+  <Map Type="System2" Name="02 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.292214+173.229486">
     <Line Pattern="Dashed">
       <!--Rwy02 DUMI1P-->
-      -41.292228+173.229461/NS20T/-41.255556+173.258889/RIKRU/DUMIK
+      -41.292214+173.229486/NS20T/-41.255556+173.258889/RIKRU/DUMIK
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy02 IDNI2P-->
@@ -22,7 +22,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy02 LEMU2P-->
-      -41.292228+173.229461/NS02T/NS20T/GUSMI/LEMUT
+      -41.292214+173.229486/NS02T/NS20T/GUSMI/LEMUT
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy02 LEMU2P.DALKI-->
@@ -82,7 +82,7 @@
       <Point>SNAPA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="02 STARs" Priority="1" CustomColourName="ProcArr" Center="-41.301397+173.218922">
+  <Map Type="System2" Name="02 STARs" Priority="1" CustomColourName="ProcArr" Center="-41.301378+173.218953">
     <Line>
       <!--Rwy02 BISE2A-->
       BISEB/SURID/QUAIL
@@ -162,7 +162,7 @@
       <Point>ESNED</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="02 RNP" Priority="1" Center="-41.301397+173.218922" CustomColourName="ProcArr">
+  <Map Type="System2" Name="02 RNP" Priority="1" Center="-41.301378+173.218953" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -183,16 +183,16 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">ELMAX/NOPEM/ORUBA/-411805.029+1731308.119</Line>
+    <Line Pattern="Solid">ELMAX/NOPEM/ORUBA/-411804.961+1731308.231</Line>
     <Line Pattern="Solid">KAPUA/ELMAX</Line>
     <Line Pattern="Solid">LIKMA/ELMAX</Line>
-    <Line Pattern="Solid">OTLIT/ISLOP/PATRU/-411805.029+1731308.119</Line>
+    <Line Pattern="Solid">OTLIT/ISLOP/PATRU/-411804.961+1731308.231</Line>
     <Line Pattern="Solid">MIBEV/OTLIT</Line>
     <Line Pattern="Solid">QUAIL/OTLIT</Line>
     <Line Pattern="Solid">TUMGO/ISLOP</Line>
     <Line Pattern="Solid">ESNED/TUMGO</Line>
   </Map>
-  <Map Type="System2" Name="02 RNP Labels" Priority="1" Center="-41.301397+173.218922" CustomColourName="ProcArr">
+  <Map Type="System2" Name="02 RNP Labels" Priority="1" Center="-41.301378+173.218953" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>ELMAX</Point>
       <Point>KAPUA</Point>
@@ -206,10 +206,10 @@
       <Point>ISLOP</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="20 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.301397+173.218922">
+  <Map Type="System2" Name="20 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.301378+173.218953">
     <Line Pattern="Dashed">
       <!--Rwy20 BISE1Q-->
-      -41.301397+173.218922/NS20T/POTIR/ANITU/BISEB
+      -41.301378+173.218953/NS20T/POTIR/ANITU/BISEB
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy20 CONO1Q-->
@@ -221,7 +221,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy20 LUSR2Q-->
-      -41.301397+173.218922/NS02T/NS20T/-41.365000+173.093056/-41.396944+173.109444/PUDIG/IKITO/LUSRA
+      -41.301378+173.218953/NS02T/NS20T/-41.365000+173.093056/-41.396944+173.109444/PUDIG/IKITO/LUSRA
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy20 LUSR2S-->
@@ -302,7 +302,7 @@
       <Point>SNAPA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="20 STARs" Priority="1" CustomColourName="ProcArr" Center="-41.292228+173.229461">
+  <Map Type="System2" Name="20 STARs" Priority="1" CustomColourName="ProcArr" Center="-41.292214+173.229486">
     <Line>
       <!--Rwy20 CONO1B-->
       CONOR/NS VOR/DUGOL/IRNUX/KAPUA
@@ -365,7 +365,7 @@
       <Point>ELMAX</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="20 RNP" Priority="1" Center="-41.292228+173.229461" CustomColourName="ProcArr">
+  <Map Type="System2" Name="20 RNP" Priority="1" Center="-41.292214+173.229486" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -380,11 +380,11 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">ELMAX/NOPEM/ORUBA/-411732.021+1731346.060</Line>
+    <Line Pattern="Solid">ELMAX/NOPEM/ORUBA/-411731.970+1731346.150</Line>
     <Line Pattern="Solid">KAPUA/ELMAX</Line>
     <Line Pattern="Solid">LIKMA/ELMAX</Line>
   </Map>
-  <Map Type="System2" Name="20 RNP Labels" Priority="1" Center="-41.292228+173.229461" CustomColourName="ProcArr">
+  <Map Type="System2" Name="20 RNP Labels" Priority="1" Center="-41.292214+173.229486" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>ELMAX</Point>
       <Point>KAPUA</Point>

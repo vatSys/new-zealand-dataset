@@ -77,10 +77,12 @@
       <!--Rwy02 NZCH5A-->
       CH20T/-43.423889+172.580556
     </Line>
+    <Symbol Type="SolidStar">
+      <Point>RINKO</Point>
+    </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>CH02T</Point>
       <Point>CH20T</Point>
-      <Point>RINKO</Point>
       <Point>BAVEM</Point>
       <Point>AVOCA</Point>
       <Point>ABAXO</Point>
@@ -412,7 +414,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy20 PEDM1Q-->
-      CH02T/MEBMU/ANULU/RUTOR/PEDMI
+      -43.497631+172.522114/CH02T/MEBMU/ANULU/RUTOR/PEDMI
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy20 PEDM1Q.GLENN-->
@@ -434,6 +436,9 @@
       <!--Rwy20 PEDM1Q.PORAM-->
       PEDMI/PORAM
     </Line>
+    <Symbol Type="SolidStar">
+      <Point>MEBMU</Point>
+    </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>CH20T</Point>
       <Point>CH02T</Point>
@@ -452,7 +457,6 @@
       <Point>KIDAL</Point>
       <Point>MOLGI</Point>
       <Point>VANDA</Point>
-      <Point>MEBMU</Point>
       <Point>ANULU</Point>
       <Point>RUTOR</Point>
       <Point>PEDMI</Point>

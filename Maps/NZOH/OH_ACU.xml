@@ -50,7 +50,7 @@
   </Map>
   <Map Type="System2" Name="09 STARs" Priority="1" CustomColourName="ProcArr" Center="-40.202656+175.374325">
     <Line>
-      <!--Rwy09 BINI1H-->
+      <!--Rwy09 BINI2H-->
       BINIT/DOTGO
     </Line>
     <Line>
@@ -152,11 +152,11 @@
   </Map>
   <Map Type="System2" Name="27 STARs" Priority="1" CustomColourName="ProcArr" Center="-40.209364+175.399772">
     <Line>
-      <!--Rwy27 BINI1G-->
+      <!--Rwy27 BINI2G-->
       BINIT/UPRIX/AVGUV/TERIL/LUXUL
     </Line>
     <Line>
-      <!--Rwy27 IDLU1G-->
+      <!--Rwy27 IDLU2G-->
       IDLUR/MOSDO/ENDIX
     </Line>
     <Symbol Type="HollowTriangle">

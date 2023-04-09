@@ -50,19 +50,19 @@
       XELAN/BELRA/DADLA/SALAG
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R BROK2Q-->
+      <!--Rwy05R BROK3Q-->
       AA05R/-36.988056+174.856389/BROOK
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R BROK2Q.KAPAI-->
+      <!--Rwy05R BROK3Q.KAPAI-->
       BROOK/KAPAI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R BROK2Q.KARRL-->
+      <!--Rwy05R BROK3Q.KARRL-->
       BROOK/LIMES/KARRL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R EMRA2B-->
+      <!--Rwy05R EMRA1Q-->
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05R KADM2Q-->
@@ -168,32 +168,39 @@
       REKIS/TULMI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R SATL2Q-->
+      <!--Rwy05R SATL3Q-->
       EMRAG/SATLA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R SATL2Q.AGEDU-->
+      <!--Rwy05R SATL3Q.AGEDU-->
       SATLA/AGEDU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R SATL2Q.AKLOM-->
+      <!--Rwy05R SATL3Q.AKLOM-->
       SATLA/AKLOM
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R SATL2Q.DABAS-->
+      <!--Rwy05R SATL3Q.DABAS-->
       SATLA/DABAS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R SATL2Q.IDSEM-->
+      <!--Rwy05R SATL3Q.IBESO-->
+      SATLA/IBESO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R SATL3Q.IDSEM-->
       SATLA/IDSEM
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R SATL2Q.OLBEX-->
+      <!--Rwy05R SATL3Q.OLBEX-->
       SATLA/OLBEX
     </Line>
+    <Symbol Type="SolidStar">
+      <Point>EMRAG</Point>
+      <Point>PAGLA</Point>
+    </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>AA05R</Point>
-      <Point>EMRAG</Point>
       <Point>POLIS</Point>
       <Point>IDEMA</Point>
       <Point>BROOK</Point>
@@ -226,7 +233,6 @@
       <Point>ADKUM</Point>
       <Point>MADVI</Point>
       <Point>VINOD</Point>
-      <Point>PAGLA</Point>
       <Point>IPDIN</Point>
       <Point>NUTRA</Point>
       <Point>LESDI</Point>
@@ -243,6 +249,7 @@
       <Point>AGEDU</Point>
       <Point>AKLOM</Point>
       <Point>DABAS</Point>
+      <Point>IBESO</Point>
       <Point>IDSEM</Point>
       <Point>OLBEX</Point>
     </Symbol>
@@ -281,6 +288,7 @@
       <Point>AGEDU</Point>
       <Point>AKLOM</Point>
       <Point>DABAS</Point>
+      <Point>IBESO</Point>
       <Point>IDSEM</Point>
       <Point>OLBEX</Point>
     </Label>
@@ -321,6 +329,10 @@
     <Line>
       <!--Rwy05R BASI9B-->
       BASIV/BIGUL/XMOND/ORUKI/LENGU
+    </Line>
+    <Line>
+      <!--Rwy05R BOVR1A-->
+      BOVRU/AKBAM/LENGU
     </Line>
     <Line>
       <!--Rwy05R DAVE7B-->
@@ -368,7 +380,7 @@
     </Line>
     <Line>
       <!--Rwy05R EXOP1B-->
-      EXOPI/DIPPU/ANKIL/LOSGA/AKBAM/LENGU
+      EXOPI/DIPPU/ANKIL/LOSGA/AKBAM
     </Line>
     <Line Pattern="Solid">
       <!--Rwy05R EXOP7D.AGEDU-->
@@ -402,12 +414,19 @@
       ANKIL/VIRIS
     </Line>
     <Line>
+      <!--Rwy05R IBES1B-->
+      IBESO/MERAS/AA503/VINCE
+    </Line>
+    <Line>
+      <!--Rwy05R IBES1D-->
+      VINCE/STEAL
+    </Line>
+    <Line>
       <!--Rwy05R NOBA9B-->
-      NOBAR/MERAS/AA503/VINCE
+      NOBAR/MERAS
     </Line>
     <Line>
       <!--Rwy05R NOBA9D-->
-      VINCE/STEAL
     </Line>
     <Line>
       <!--Rwy05R PEPE6B-->
@@ -525,6 +544,8 @@
       <Point>BIGUL</Point>
       <Point>XMOND</Point>
       <Point>ORUKI</Point>
+      <Point>BOVRU</Point>
+      <Point>AKBAM</Point>
       <Point>DAVEE</Point>
       <Point>VINCE</Point>
       <Point>GITUK</Point>
@@ -544,10 +565,10 @@
       <Point>DIPPU</Point>
       <Point>ANKIL</Point>
       <Point>LOSGA</Point>
-      <Point>AKBAM</Point>
-      <Point>NOBAR</Point>
+      <Point>IBESO</Point>
       <Point>MERAS</Point>
       <Point>AA503</Point>
+      <Point>NOBAR</Point>
       <Point>PEPPE</Point>
       <Point>IGABI</Point>
       <Point>RIKDI</Point>
@@ -562,8 +583,10 @@
     <Label HasLeader="true">
       <Point>ARADI</Point>
       <Point>BASIV</Point>
+      <Point>BOVRU</Point>
       <Point>DAVEE</Point>
       <Point>EXOPI</Point>
+      <Point>IBESO</Point>
       <Point>NOBAR</Point>
       <Point>PEPPE</Point>
       <Point>RIKDI</Point>
@@ -692,42 +715,39 @@
       ELSAB/WP VOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L FIRT2P-->
+      <!--Rwy23L FIRT3P-->
       LENGU/MAGLO/BROOK/FIRTH
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L FIRT2P.AGEDU-->
+      <!--Rwy23L FIRT3P.AGEDU-->
       FIRTH/AGEDU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L FIRT2P.AKLOM-->
+      <!--Rwy23L FIRT3P.AKLOM-->
       FIRTH/AKLOM
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L FIRT2P.DABAS-->
+      <!--Rwy23L FIRT3P.DABAS-->
       FIRTH/DABAS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L FIRT2P.IDSEM-->
+      <!--Rwy23L FIRT3P.IBESO-->
+      FIRTH/IBESO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L FIRT3P.IDSEM-->
       FIRTH/IDSEM
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L FIRT2P.OLBEX-->
+      <!--Rwy23L FIRT3P.OLBEX-->
       FIRTH/OLBEX
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23L LENG2A-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L LENG3P-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy23L LENG3P.NUTRA-->
+      <!--Rwy23L LENG4P-->
       LENGU/ENSAX/IPDIN/NUTRA
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy23L LENG3P.WP-->
-      LENGU/WYTAK/WP VOR
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23L LEVR1P-->
@@ -811,7 +831,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23L STEA1P.NUTRA-->
-      STEAL/IPDIN
+      STEAL/IPDIN/NUTRA
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23L STEA1P.TULMI-->
@@ -841,6 +861,7 @@
       <Point>AGEDU</Point>
       <Point>AKLOM</Point>
       <Point>DABAS</Point>
+      <Point>IBESO</Point>
       <Point>IDSEM</Point>
       <Point>OLBEX</Point>
       <Point>ENSAX</Point>
@@ -881,6 +902,7 @@
       <Point>ELSAB</Point>
       <Point>FIRTH</Point>
       <Point>LENGU</Point>
+      <Point>NUTRA</Point>
       <Point>LEVRA</Point>
       <Point>MEMOR</Point>
       <Point>OSRAP</Point>
@@ -896,9 +918,9 @@
       <Point>AGEDU</Point>
       <Point>AKLOM</Point>
       <Point>DABAS</Point>
+      <Point>IBESO</Point>
       <Point>IDSEM</Point>
       <Point>OLBEX</Point>
-      <Point>NUTRA</Point>
       <Point>KAPAI</Point>
       <Point>KARRL</Point>
       <Point>LAKES</Point>
@@ -1022,17 +1044,21 @@
       <!--Rwy23L BASI5E-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L BASI1N.ELNOS-->
+      <!--Rwy23L BASI2N.ELNOS-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L BASI1N.SALAG-->
+      <!--Rwy23L BASI2N.SALAG-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L BASI1N.UPLAR-->
+      <!--Rwy23L BASI2N.UPLAR-->
     </Line>
     <Line>
-      <!--Rwy23L BASI1N-->
+      <!--Rwy23L BASI2N-->
       BASIV/PAKVI/BAYES/VIBAG
+    </Line>
+    <Line>
+      <!--Rwy23L BOVR1A-->
+      BOVRU/EMRAG
     </Line>
     <Line>
       <!--Rwy23L DAVE6A-->
@@ -1090,11 +1116,15 @@
       EXOPI/AA417/STORK/AA418/EMRAG
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L FOKR2A.OLBEX-->
+      <!--Rwy23L FOKR3A.IBESO-->
+      IBESO/FOKRE
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy23L FOKR3A.OLBEX-->
       OLBEX/FOKRE
     </Line>
     <Line>
-      <!--Rwy23L FOKR2A-->
+      <!--Rwy23L FOKR3A-->
       FOKRE/AA416/AA426/AA419/EMRAG
     </Line>
     <Line>
@@ -1123,20 +1153,26 @@
       <!--Rwy23L SKEP2A-->
       SKEPY/AA415/SABAV
     </Line>
-    <Line>
-      <!--Rwy23L TAZE2E-->
-      TAZEY/ZORBA
-    </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L TAZE1N.PEBLU-->
+      <!--Rwy23L TAZE3E.PEBLU-->
       PEBLU/TAZEY
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L TAZE1N.VELMO-->
+      <!--Rwy23L TAZE3E.VELMO-->
       VELMO/TAZEY
     </Line>
     <Line>
-      <!--Rwy23L TAZE1N-->
+      <!--Rwy23L TAZE3E-->
+      TAZEY/ZORBA
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy23L TAZE2N.PEBLU-->
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy23L TAZE2N.VELMO-->
+    </Line>
+    <Line>
+      <!--Rwy23L TAZE2N-->
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>EMRAG</Point>
@@ -1147,6 +1183,10 @@
       <Point>ZORBA</Point>
       <Point>TEVUC</Point>
       <Point>KETOB</Point>
+    </Symbol>
+    <Symbol Type="SolidStar">
+      <Point>EAGIL</Point>
+      <Point>FOKRE</Point>
     </Symbol>
     <Symbol Type="Circle">
       <Point>KK NDB</Point>
@@ -1176,13 +1216,13 @@
       <Point>BONKO</Point>
       <Point>PAKVI</Point>
       <Point>BAYES</Point>
+      <Point>BOVRU</Point>
       <Point>DAVEE</Point>
       <Point>OSAKU</Point>
       <Point>ANSER</Point>
       <Point>SABAV</Point>
       <Point>ELBOP</Point>
       <Point>AKLOM</Point>
-      <Point>EAGIL</Point>
       <Point>AA421</Point>
       <Point>AA425</Point>
       <Point>AA420</Point>
@@ -1199,8 +1239,8 @@
       <Point>AA417</Point>
       <Point>STORK</Point>
       <Point>AA418</Point>
+      <Point>IBESO</Point>
       <Point>OLBEX</Point>
-      <Point>FOKRE</Point>
       <Point>AA416</Point>
       <Point>AA426</Point>
       <Point>AA419</Point>
@@ -1217,6 +1257,7 @@
       <Point>APABO</Point>
       <Point>ARADI</Point>
       <Point>BASIV</Point>
+      <Point>BOVRU</Point>
       <Point>DAVEE</Point>
       <Point>EAGIL</Point>
       <Point>EXOPI</Point>
@@ -1242,6 +1283,7 @@
       <Point>KALAG</Point>
       <Point>SELKA</Point>
       <Point>TARIB</Point>
+      <Point>IBESO</Point>
       <Point>OLBEX</Point>
       <Point>HN VOR</Point>
       <Point>EMRAG</Point>
@@ -1353,6 +1395,7 @@
       <Point Name="CORNWALLIS">-370042.200+1743618.500</Point>
       <Point Name="COROMANDEL TOWN">-364520.500+1753003.000</Point>
       <Point Name="DRURY">-370613.500+1745649.700</Point>
+      <Point Name="GLASSHOUSE">-370113.020+1750233.760</Point>
       <Point Name="GLENBROOK">-371223.500+1744346.600</Point>
       <Point Name="GORDONTON">-374013.400+1751818.200</Point>
       <Point Name="GREEN SHED">-371327.000+1750152.000</Point>
@@ -1421,6 +1464,7 @@
       <Point Name="CORNWALLIS">-370042.200+1743618.500</Point>
       <Point Name="COROMANDEL TOWN">-364520.500+1753003.000</Point>
       <Point Name="DRURY">-370613.500+1745649.700</Point>
+      <Point Name="GLASSHOUSE">-370113.020+1750233.760</Point>
       <Point Name="GLENBROOK">-371223.500+1744346.600</Point>
       <Point Name="GORDONTON">-374013.400+1751818.200</Point>
       <Point Name="GREEN SHED">-371327.000+1750152.000</Point>

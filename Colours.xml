@@ -29,9 +29,9 @@
   <Colour id="Custom">
     <Use>Aerodrome IFR Departure Procedures</Use>
     <Name>VFRPoint</Name>
-    <R>31</R>
-    <G>77</G>
-    <B>101</B>
+    <R>76</R>
+    <G>129</G>
+    <B>158</B>
   </Colour>
 
   <Colour id="Custom">

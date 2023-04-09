@@ -49,10 +49,7 @@
     <Volumes>ATMA</Volumes>
     <ResponsibleSectors>AARR,ADEP</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Auckland Departures" Frequency="118.000" Callsign="NZAA_DEP" Name="ADEP">
-    <Volumes>ATMA</Volumes>
-  </Sector>
-  <Sector FullName="Auckland Finals" Frequency="129.600" Callsign="NZAA-F_APP" Name="AARR">
+  <Sector FullName="Auckland Departures" Frequency="129.600" Callsign="NZAA_DEP" Name="ADEP">
     <Volumes>ATMA</Volumes>
   </Sector>
   <Sector FullName="Bay Approach (NZHN)" Frequency="125.300" Callsign="NZHN_APP" Name="HTMA">

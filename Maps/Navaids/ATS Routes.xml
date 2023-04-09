@@ -117,6 +117,7 @@
     <Line Name="W104">NV VOR.W104.QN VOR</Line>
     <Line Name="W115">AP NDB.W115.AA VOR</Line>
     <Line Name="W118">NV VOR.W118.CH VOR</Line>
+    <Line Name="W139">OH VOR.W139.ENTIM</Line>
     <Line Name="W143">HK NDB.W143.WS NDB</Line>
     <Line Name="W166">NS VOR.W166.TM NDB</Line>
     <Line Name="W180">WP VOR.W180.KT NDB</Line>
@@ -135,8 +136,8 @@
     <Line Name="KQ361">OSTEL.KQ361.ELNEG</Line>
     <Line Name="KQ373">VEBTU.KQ373.VARMA</Line>
     <Line Name="KQ417">ELNOR.KQ417.REVMU</Line>
-    <Line Name="KQ427">ERVIT.KQ427.PAVDO</Line>
-    <Line Name="KQ440">TAYLA.KQ440.VARGU</Line>
+    <Line Name="KQ427">ERVIT.KQ427.NOVTO</Line>
+    <Line Name="KQ440">TAYLA.KQ440.NOMAP</Line>
     <Line Name="KQ461">LEGIK.KQ461.EMSID</Line>
     <Line Name="KQ492">LEKUL.KQ492.DUBIP</Line>
     <Line Name="KQ514">NZUB.KQ514.NP VOR</Line>
@@ -153,6 +154,7 @@
     <Line Name="KQ653">NZMX.KQ653.NZUA</Line>
     <Line Name="KQ656">SELNA.KQ656.LUPMA</Line>
     <Line Name="KQ673">MANGA.KQ673.UPDAL</Line>
+    <Line Name="KQ717">EKENU.KQ717.PAVDO</Line>
     <Line Name="KQ721">MESOS.KQ721.NP VOR</Line>
     <Line Name="KQ734">KIMAN.KQ734.MANGO</Line>
     <Line Name="KQ743">NZMX.KQ743.COAST</Line>
@@ -365,6 +367,7 @@
     <Line Name="Z172">TPAPA.Z172.RIWUT</Line>
     <Line Name="Z187">AKAVI.Z187.WAPOU</Line>
     <Line Name="Z258">WAPOU.Z258.NP VOR</Line>
+    <Line Name="Z305">OH VOR.Z305.IDLUR</Line>
     <Line Name="Z500">BIKOT.Z500.MERAS</Line>
     <Line Name="Z515">NUKTO.Z515.MANGA</Line>
     <Line Name="Z630">MANGA.Z630.OPABI</Line>
@@ -770,6 +773,7 @@
       <Point>ATHOL</Point>
       <Point>KELSO</Point>
       <Point>DABIN</Point>
+      <Point>ENTIM</Point>
       <Point>DAMIL</Point>
       <Point>ELDAK</Point>
       <Point>KALDI</Point>
@@ -816,12 +820,19 @@
       <Point>IDVEX</Point>
       <Point>LEGIK</Point>
       <Point>PAVDO</Point>
+      <Point>NURLA</Point>
+      <Point>TUSVI</Point>
+      <Point>AVGAM</Point>
+      <Point>IDIXI</Point>
+      <Point>NOVTO</Point>
       <Point>KAKRI</Point>
       <Point>ISVEK</Point>
       <Point>LUXET</Point>
       <Point>ATKUK</Point>
       <Point>POPUP</Point>
       <Point>APORO</Point>
+      <Point>ESKOD</Point>
+      <Point>NOMAP</Point>
       <Point>EMSID</Point>
       <Point>LEKUL</Point>
       <Point>KABGO</Point>
@@ -847,7 +858,6 @@
       <Point>MASDA</Point>
       <Point>SUNPA</Point>
       <Point>BUDPA</Point>
-      <Point>NOVTO</Point>
       <Point>NODIK</Point>
       <Point>SAMVO</Point>
       <Point>MAPTO</Point>
@@ -865,12 +875,13 @@
       <Point>TUIHU</Point>
       <Point>VANSA</Point>
       <Point>UPDAL</Point>
+      <Point>EKENU</Point>
+      <Point>RUROD</Point>
       <Point>OBDAD</Point>
       <Point>OSPIX</Point>
       <Point>ARROW</Point>
       <Point>MANGO</Point>
       <Point>BORVA</Point>
-      <Point>NOMAP</Point>
       <Point>NZKU</Point>
       <Point>WAPOU</Point>
       <Point>BRETT</Point>
@@ -1051,7 +1062,6 @@
       <Point>APIDO</Point>
       <Point>ATABU</Point>
       <Point>ATSUN</Point>
-      <Point>ENTIM</Point>
       <Point>DAGOM</Point>
       <Point>AKBAP</Point>
       <Point>GUMKO</Point>
@@ -1162,6 +1172,8 @@
       <Point>UPVAP</Point>
       <Point>RIWUT</Point>
       <Point>ATNUV</Point>
+      <Point>IDGEB</Point>
+      <Point>BENSE</Point>
       <Point>UKLAV</Point>
       <Point>NUKTO</Point>
       <Point>ERVAX</Point>
@@ -1570,6 +1582,7 @@
       <Point>ATHOL</Point>
       <Point>KELSO</Point>
       <Point>DABIN</Point>
+      <Point>ENTIM</Point>
       <Point>DAMIL</Point>
       <Point>ELDAK</Point>
       <Point>KALDI</Point>
@@ -1616,12 +1629,19 @@
       <Point>IDVEX</Point>
       <Point>LEGIK</Point>
       <Point>PAVDO</Point>
+      <Point>NURLA</Point>
+      <Point>TUSVI</Point>
+      <Point>AVGAM</Point>
+      <Point>IDIXI</Point>
+      <Point>NOVTO</Point>
       <Point>KAKRI</Point>
       <Point>ISVEK</Point>
       <Point>LUXET</Point>
       <Point>ATKUK</Point>
       <Point>POPUP</Point>
       <Point>APORO</Point>
+      <Point>ESKOD</Point>
+      <Point>NOMAP</Point>
       <Point>EMSID</Point>
       <Point>LEKUL</Point>
       <Point>KABGO</Point>
@@ -1647,7 +1667,6 @@
       <Point>MASDA</Point>
       <Point>SUNPA</Point>
       <Point>BUDPA</Point>
-      <Point>NOVTO</Point>
       <Point>NODIK</Point>
       <Point>SAMVO</Point>
       <Point>MAPTO</Point>
@@ -1665,12 +1684,13 @@
       <Point>TUIHU</Point>
       <Point>VANSA</Point>
       <Point>UPDAL</Point>
+      <Point>EKENU</Point>
+      <Point>RUROD</Point>
       <Point>OBDAD</Point>
       <Point>OSPIX</Point>
       <Point>ARROW</Point>
       <Point>MANGO</Point>
       <Point>BORVA</Point>
-      <Point>NOMAP</Point>
       <Point>NZKU</Point>
       <Point>WAPOU</Point>
       <Point>BRETT</Point>
@@ -1851,7 +1871,6 @@
       <Point>APIDO</Point>
       <Point>ATABU</Point>
       <Point>ATSUN</Point>
-      <Point>ENTIM</Point>
       <Point>DAGOM</Point>
       <Point>AKBAP</Point>
       <Point>GUMKO</Point>
@@ -1962,6 +1981,8 @@
       <Point>UPVAP</Point>
       <Point>RIWUT</Point>
       <Point>ATNUV</Point>
+      <Point>IDGEB</Point>
+      <Point>BENSE</Point>
       <Point>UKLAV</Point>
       <Point>NUKTO</Point>
       <Point>ERVAX</Point>

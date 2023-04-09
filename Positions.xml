@@ -218,7 +218,6 @@
     <Position Name="Auckland ACU" Type="ASD" DefaultCenter="-370020.413+1744725.105" DefaultRange="300" MagneticVariation="-21">
       <Sectors>
         <Sector Name="ATMA" />
-        <Sector Name="AARR" />
         <Sector Name="ADEP" />
       </Sectors>
       <Maps>
@@ -250,12 +249,6 @@
       <ControllerInfo Callsign="NZAA_DEP">
         <Line>Auckland Departures</Line>
         <Line>Controls outbound aircraft within the AA TMA.</Line>
-        <Line>Need local charts? - vats.im/nz/charts</Line>
-        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
-      </ControllerInfo>
-      <ControllerInfo Callsign="NZAA-F_APP">
-        <Line>Auckland Finals</Line>
-        <Line>Controls inbound aircraft under 5000ft within the AA TMA.</Line>
         <Line>Need local charts? - vats.im/nz/charts</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
