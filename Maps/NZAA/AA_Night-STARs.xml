@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="05R NIGHT STARs" Priority="1" CustomColourName="ProcArr" Center="-37.016317+174.770783">
+    <Line Pattern="Solid">
+      <!--Rwy05R RIKD1N.AGEDU-->
+      AGEDU/OKTUB/RIKDI
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy05R RIKD1N.AGREX-->
+      AGREX/RIKDI
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy05R RIKD1N.AKLOM-->
+      AKLOM/RIKDI
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy05R RIKD1N.DABAS-->
+      DABAS/OKTUB
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy05R RIKD1N.IDSEM-->
+      IDSEM/OKTUB
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy05R RIKD1N.KALAG-->
+      KALAG/RIKDI
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy05R RIKD1N.OLBEX-->
+      OLBEX/RIKDI
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy05R RIKD1N.SELKA-->
+      SELKA/RIKDI
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy05R RIKD1N.TARIB-->
+      TARIB/RIKDI
+    </Line>
+    <Line>
+      <!--Rwy05R RIKD1N-->
+      RIKDI/WYTAK/OSIVO/LENGU
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>LENGU</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>AGEDU</Point>
+      <Point>OKTUB</Point>
+      <Point>RIKDI</Point>
+      <Point>AGREX</Point>
+      <Point>AKLOM</Point>
+      <Point>DABAS</Point>
+      <Point>IDSEM</Point>
+      <Point>KALAG</Point>
+      <Point>OLBEX</Point>
+      <Point>SELKA</Point>
+      <Point>TARIB</Point>
+      <Point>WYTAK</Point>
+      <Point>OSIVO</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>RIKDI</Point>
+      <Point>AGEDU</Point>
+      <Point>AGREX</Point>
+      <Point>AKLOM</Point>
+      <Point>DABAS</Point>
+      <Point>IDSEM</Point>
+      <Point>KALAG</Point>
+      <Point>OLBEX</Point>
+      <Point>SELKA</Point>
+      <Point>TARIB</Point>
+      <Point>LENGU</Point>
+    </Label>
+  </Map>
+
+  <Map Type="System2" Name="23L NIGHT STARs" Priority="1" CustomColourName="ProcArr" Center="-37.006656+174.805742">
+    <Line Pattern="Solid">
+      <!--Rwy23L BASI2N.ELNOS-->
+      ELNOS/BASIV
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy23L BASI2N.SALAG-->
+      SALAG/BASIV
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy23L BASI2N.UPLAR-->
+      UPLAR/BASIV
+    </Line>
+    <Line>
+      <!--Rwy23L BASI2N-->
+      BASIV/PAKVI/BAYES/VIBAG/EMRAG
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>EMRAG</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>ELNOS</Point>
+      <Point>BASIV</Point>
+      <Point>SALAG</Point>
+      <Point>UPLAR</Point>
+      <Point>PAKVI</Point>
+      <Point>BAYES</Point>
+      <Point>VIBAG</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>BASIV</Point>
+      <Point>ELNOS</Point>
+      <Point>SALAG</Point>
+      <Point>UPLAR</Point>
+      <Point>EMRAG</Point>
+    </Label>
+
+    <!-- LUNBI 1N -->
+    <Line>
+      <!--Rwy23L LUNB1N-->
+      LUNBI/ARADI/GEWNY/DOMRI/LOSGA/VIBAG/EMRAG
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>EMRAG</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>LUNBI</Point>
+      <Point>ARADI</Point>
+      <Point>GEWNY</Point>
+      <Point>DOMRI</Point>
+      <Point>LOSGA</Point>
+      <Point>VIBAG</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>LUNBI</Point>
+      <Point>EMRAG</Point>
+    </Label>
+
+    <!-- TAZEY 2N -->
+    <Line Pattern="Solid">
+      <!--Rwy23L TAZE2N.PEBLU-->
+      PEBLU/TAZEY
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy23L TAZE2N.VELMO-->
+      VELMO/TAZEY
+    </Line>
+    <Line>
+      <!--Rwy23L TAZE2N-->
+      TAZEY/ZORBA/SABAV/EMRAG
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>EMRAG</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>PEBLU</Point>
+      <Point>TAZEY</Point>
+      <Point>VELMO</Point>
+      <Point>ZORBA</Point>
+      <Point>SABAV</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>TAZEY</Point>
+      <Point>PEBLU</Point>
+      <Point>VELMO</Point>
+      <Point>EMRAG</Point>
+    </Label>
+  </Map>
+</Maps>
