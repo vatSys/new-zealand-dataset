@@ -331,7 +331,7 @@
       BASIV/BIGUL/XMOND/ORUKI/LENGU
     </Line>
     <Line>
-      <!--Rwy05R BOVR1A-->
+      <!--Rwy05R BOVR1B-->
       BOVRU/AKBAM/LENGU
     </Line>
     <Line>
@@ -1128,6 +1128,10 @@
       FOKRE/AA416/AA426/AA419/EMRAG
     </Line>
     <Line>
+      <!--Rwy23L LUNB1N-->
+      LUNBI/ARADI
+    </Line>
+    <Line>
       <!--Rwy23L NOBA6A-->
       NOBAR/SAMII/TEVUC/EMRAG
     </Line>
@@ -1262,13 +1266,13 @@
       <Point>EAGIL</Point>
       <Point>EXOPI</Point>
       <Point>FOKRE</Point>
+      <Point>LUNBI</Point>
       <Point>NOBAR</Point>
       <Point>PEPPE</Point>
       <Point>SKEPY</Point>
       <Point>TAZEY</Point>
       <Point>KK NDB</Point>
       <Point>PERAS</Point>
-      <Point>LUNBI</Point>
       <Point>PEBLU</Point>
       <Point>VELMO</Point>
       <Point>ELNOS</Point>

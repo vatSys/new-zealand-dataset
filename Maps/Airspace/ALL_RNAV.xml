@@ -224,8 +224,10 @@
     <Label HasLeader="true">
       <Point>LENGU</Point>
       <Point>EMRAG</Point>
+      <Point>OBLIV</Point>
       <Point>GUMAN</Point>
       <Point>KALGO</Point>
+      <Point>AP506</Point>
       <Point>AKABA</Point>
       <Point>EMSAR</Point>
       <Point>MASKU</Point>
@@ -327,7 +329,11 @@
       <Point>ENDIX</Point>
       <Point>LUXUL</Point>
       <Point>PAMOA</Point>
+      <Point>AMOKO</Point>
+      <Point>SAMBU</Point>
       <Point>ORBEL</Point>
+      <Point>ALMAN</Point>
+      <Point>KAURU</Point>
       <Point>ADGOP</Point>
       <Point>EKODU</Point>
       <Point>GUTNI</Point>
@@ -441,6 +447,8 @@
       <Point>DOXIN</Point>
       <Point>VELSU</Point>
       <Point>PEDBA</Point>
+      <Point>PEXOP</Point>
+      <Point>UGREN</Point>
       <Point>RULVU</Point>
       <Point>LERSO</Point>
       <Point>IVREP</Point>
@@ -472,8 +480,6 @@
       <Point>WS411</Point>
       <Point>VETUM</Point>
       <Point>BUSBI</Point>
-      <Point>AP706</Point>
-      <Point>AP506</Point>
       <Point>ALBAD</Point>
       <Point>OMGET</Point>
       <Point>PAROA</Point>
@@ -495,8 +501,6 @@
     <Symbol Type="HollowTriangle">
       <Point>UGRUS</Point>
       <Point>ORESO</Point>
-      <Point>AP701</Point>
-      <Point>AP501</Point>
       <Point>AR409</Point>
       <Point>AR401</Point>
       <Point>CH20T</Point>
@@ -541,8 +545,10 @@
     <Symbol Type="HollowTriangle">
       <Point>LENGU</Point>
       <Point>EMRAG</Point>
+      <Point>OBLIV</Point>
       <Point>GUMAN</Point>
       <Point>KALGO</Point>
+      <Point>AP506</Point>
       <Point>AKABA</Point>
       <Point>EMSAR</Point>
       <Point>MASKU</Point>
@@ -644,7 +650,11 @@
       <Point>ENDIX</Point>
       <Point>LUXUL</Point>
       <Point>PAMOA</Point>
+      <Point>AMOKO</Point>
+      <Point>SAMBU</Point>
       <Point>ORBEL</Point>
+      <Point>ALMAN</Point>
+      <Point>KAURU</Point>
       <Point>ADGOP</Point>
       <Point>EKODU</Point>
       <Point>GUTNI</Point>
@@ -767,8 +777,8 @@
       <Point>DOXIN</Point>
       <Point>VELSU</Point>
       <Point>PEDBA</Point>
-      <Point>-44.887389+171.137850</Point>
-      <Point>-45.046594+171.025025</Point>
+      <Point>PEXOP</Point>
+      <Point>UGREN</Point>
       <Point>RULVU</Point>
       <Point>LERSO</Point>
       <Point>IVREP</Point>
@@ -806,8 +816,6 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
-      <Point>AP706</Point>
-      <Point>AP506</Point>
       <Point>ALBAD</Point>
       <Point>OMGET</Point>
       <Point>PAROA</Point>
@@ -827,9 +835,9 @@
     </Symbol>
     <Line Pattern="Solid">LENGU/UGRUS/IGPOL/-370058.741+1744614.819</Line>
     <Line Pattern="Solid">EMRAG/ORESO/UGOMU/-370023.962+1744820.671</Line>
-    <Line Pattern="Solid">AP706/OLSEK/AP701/-384404.981+1760513.020</Line>
-    <Line Pattern="Solid">GUMAN/AP706</Line>
-    <Line Pattern="Solid">KALGO/AP706</Line>
+    <Line Pattern="Solid">OBLIV/OLSEK/AP701/-384404.981+1760513.020</Line>
+    <Line Pattern="Solid">GUMAN/OBLIV</Line>
+    <Line Pattern="Solid">KALGO/OBLIV</Line>
     <Line Pattern="Solid">AP506/UBLUT/AP501/-384448.440+1760458.238</Line>
     <Line Pattern="Solid">AKABA/AP506</Line>
     <Line Pattern="Solid">EMSAR/AP506</Line>
@@ -950,8 +958,12 @@
     <Line Pattern="Solid">VARNO/SOSLA</Line>
     <Line Pattern="Solid">ENDIX/SAKOG/PEDBA/-401233.710+1752359.179</Line>
     <Line Pattern="Solid">LUXUL/PEDBA</Line>
-    <Line Pattern="Solid">PAMOA/-44.887389+171.137850/-445742.660+1710506.619</Line>
-    <Line Pattern="Solid">ORBEL/-45.046594+171.025025/-445819.801+1710440.300</Line>
+    <Line Pattern="Solid">PAMOA/PEXOP/-445742.660+1710506.619</Line>
+    <Line Pattern="Solid">AMOKO/PAMOA</Line>
+    <Line Pattern="Solid">SAMBU/PAMOA</Line>
+    <Line Pattern="Solid">ORBEL/UGREN/-445819.801+1710440.300</Line>
+    <Line Pattern="Solid">ALMAN/ORBEL</Line>
+    <Line Pattern="Solid">KAURU/ORBEL</Line>
     <Line Pattern="Solid">OLNAN/RULVU/OX701/-360835.498+1752510.589</Line>
     <Line Pattern="Solid">ADGOP/OLNAN</Line>
     <Line Pattern="Solid">EKODU/OLNAN</Line>

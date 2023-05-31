@@ -6,18 +6,25 @@
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>PAMOA</Point>
+      <Point>AMOKO</Point>
+      <Point>SAMBU</Point>
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>-44.887389+171.137850</Point>
+      <Point>PEXOP</Point>
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">PAMOA/-44.887389+171.137850/-445742.660+1710506.619</Line>
+    <Line Pattern="Solid">PAMOA/PEXOP/-445742.660+1710506.619</Line>
+    <Line Pattern="Solid">AMOKO/PAMOA</Line>
+    <Line Pattern="Solid">SAMBU/PAMOA</Line>
   </Map>
   <Map Type="System2" Name="18 RNP Labels" Priority="1" Center="-44.961850+171.085172" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>PAMOA</Point>
+      <Point>AMOKO</Point>
+      <Point>SAMBU</Point>
+      <Point>PEXOP</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="36 RNP" Priority="1" Center="-44.972167+171.077861" CustomColourName="ProcArr">
@@ -26,18 +33,25 @@
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>ORBEL</Point>
+      <Point>ALMAN</Point>
+      <Point>KAURU</Point>
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>-45.046594+171.025025</Point>
+      <Point>UGREN</Point>
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">ORBEL/-45.046594+171.025025/-445819.801+1710440.300</Line>
+    <Line Pattern="Solid">ORBEL/UGREN/-445819.801+1710440.300</Line>
+    <Line Pattern="Solid">ALMAN/ORBEL</Line>
+    <Line Pattern="Solid">KAURU/ORBEL</Line>
   </Map>
   <Map Type="System2" Name="36 RNP Labels" Priority="1" Center="-44.972167+171.077861" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>ORBEL</Point>
+      <Point>ALMAN</Point>
+      <Point>KAURU</Point>
+      <Point>UGREN</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-44.970000+171.081667">

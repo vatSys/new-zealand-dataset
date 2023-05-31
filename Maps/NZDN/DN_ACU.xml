@@ -145,6 +145,10 @@
       <!--Rwy03 MIPA4A-->
       MIPAK/IPKUG/ADBAD/RELEK/ANBIG/BIPUV/AKLAR
     </Line>
+    <Line>
+      <!--Rwy03 MIPA1C-->
+      ADBAD/IVTOP/ELNEK
+    </Line>
     <Symbol Type="HollowTriangle">
       <Point>AKLAR</Point>
     </Symbol>
@@ -175,6 +179,7 @@
       <Point>RELEK</Point>
       <Point>ANBIG</Point>
       <Point>BIPUV</Point>
+      <Point>IVTOP</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>BASOS</Point>
