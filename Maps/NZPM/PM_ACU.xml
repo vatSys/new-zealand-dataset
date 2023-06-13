@@ -2,119 +2,121 @@
 <Maps>
   <Map Type="System2" Name="07 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.319836+175.624669">
     <Line Pattern="Dashed">
-      <!--Rwy07 DADL2Q-->
-      -40.319836+175.624669/PM07T/PM25T/DADLI
+      <!--Rwy07 DADL3Q-->
+      -40.319836+175.624669/PM25T/DADLI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 DADL2Q.APITI-->
+      <!--Rwy07 DADL3Q.APITI-->
       DADLI/OVRUN/LULKO/APITI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 DADL2Q.IRMIX-->
+      <!--Rwy07 DADL3Q.IRMIX-->
       DADLI/IRMIX
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 DADL3S-->
+      <!--Rwy07 DADL4S-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 DADL3S.OMBUB-->
-      DADLI/ENRUL/RUGVI/ADRAD/OMBUB
+      <!--Rwy07 DADL4S.AVKAB-->
+      DADLI/ENRUL/AVKAB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 DADL3S.RUGVI-->
+      <!--Rwy07 DADL4S.OMBUB-->
+      AVKAB/ADRAD/OMBUB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 DADL3T-->
+      <!--Rwy07 DADL4T-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 DADL3T.OMBUB-->
+      <!--Rwy07 DADL4T.OMBUB-->
       DADLI/LAPUN/DUKUT/GULBA/OMBUB
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy07 NZPM1H-->
-      -40.319836+175.624669/PM25T/-40.320778+175.725175
+      PM25T/-40.320778+175.725175
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 RUXO3Q-->
+      <!--Rwy07 RUXO4Q-->
       PM25T/VEPUR/RUXOX
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 RUXO3Q.ABTOL-->
+      <!--Rwy07 RUXO4Q.ABTOL-->
       RUXOX/ABTOL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 RUXO3Q.BINIT-->
+      <!--Rwy07 RUXO4Q.BINIT-->
       RUXOX/BINIT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 RUXO3Q.LIMPA-->
+      <!--Rwy07 RUXO4Q.LIMPA-->
       RUXOX/LIMPA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 RUXO3Q.MIBUS-->
+      <!--Rwy07 RUXO4Q.MIBUS-->
       RUXOX/RINRI/MIBUS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 RUXO3Q.OKEVO-->
+      <!--Rwy07 RUXO4Q.OKEVO-->
       RUXOX/OKEVO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 RUXO3Q.SAKBA-->
+      <!--Rwy07 RUXO4Q.SAKBA-->
       RINRI/SAKBA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 RUXO3Q.VIROL-->
+      <!--Rwy07 RUXO4Q.VIROL-->
       RINRI/ANPUG/KEVEL/VIROL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 RUXO4S-->
-      PM25T/PM07T/VEPUR
+      <!--Rwy07 RUXO5S-->
+      -40.319836+175.624669/PM07T/VEPUR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 RUXO4S.OMBUB-->
-      RUXOX/OLMUX/OH VOR/RUGVI
+      <!--Rwy07 RUXO5S.AVKAB-->
+      RUXOX/OLMUX/OH VOR/AVKAB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 RUXO4S.RUGVI-->
+      <!--Rwy07 RUXO5S.OMBUB-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 TERO3Q-->
+      <!--Rwy07 TERO4Q-->
       PM07T/-40.321389+175.716111/TEROT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 TERO3Q.OMBUB-->
+      <!--Rwy07 TERO4Q.AVKAB-->
       TEROT/ENRUL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 TERO3Q.RUGVI-->
+      <!--Rwy07 TERO4Q.OMBUB-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 TERO3S-->
+      <!--Rwy07 TERO4S-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 TERO3S.OMBUB-->
+      <!--Rwy07 TERO4S.OMBUB-->
       TEROT/LAPUN
     </Line>
+    <Symbol Type="SolidStar">
+      <Point>DADLI</Point>
+      <Point>VEPUR</Point>
+      <Point>RUXOX</Point>
+    </Symbol>
     <Symbol Type="Circle">
       <Point>OH VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
-      <Point>PM07T</Point>
       <Point>PM25T</Point>
-      <Point>DADLI</Point>
       <Point>OVRUN</Point>
       <Point>LULKO</Point>
       <Point>APITI</Point>
       <Point>IRMIX</Point>
       <Point>ENRUL</Point>
-      <Point>RUGVI</Point>
+      <Point>AVKAB</Point>
       <Point>ADRAD</Point>
       <Point>OMBUB</Point>
       <Point>LAPUN</Point>
       <Point>DUKUT</Point>
       <Point>GULBA</Point>
-      <Point>VEPUR</Point>
-      <Point>RUXOX</Point>
       <Point>ABTOL</Point>
       <Point>BINIT</Point>
       <Point>LIMPA</Point>
@@ -125,6 +127,7 @@
       <Point>ANPUG</Point>
       <Point>KEVEL</Point>
       <Point>VIROL</Point>
+      <Point>PM07T</Point>
       <Point>OLMUX</Point>
       <Point>TEROT</Point>
     </Symbol>
@@ -134,8 +137,8 @@
       <Point>TEROT</Point>
       <Point>APITI</Point>
       <Point>IRMIX</Point>
+      <Point>AVKAB</Point>
       <Point>OMBUB</Point>
-      <Point>RUGVI</Point>
       <Point>ABTOL</Point>
       <Point>BINIT</Point>
       <Point>LIMPA</Point>
@@ -159,7 +162,7 @@
       BUVLI/NIRUB
     </Line>
     <Line>
-      <!--Rwy07 IRMI1B-->
+      <!--Rwy07 IRMI2B-->
       IRMIX/UDODI/PM727/AKNIN
     </Line>
     <Line>
@@ -269,74 +272,76 @@
   </Map>
   <Map Type="System2" Name="25 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.319864+175.604869">
     <Line Pattern="Dashed">
-      <!--Rwy25 GUTN2P-->
-      -40.319864+175.604869/PM25T/GUTNI/-40.381389+175.417500
+      <!--Rwy25 GUTN3P-->
+      -40.319864+175.604869/PM25T/GUTNI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 GUTN2P.ABTOL-->
-      -40.381389+175.417500/ABTOL
+      <!--Rwy25 GUTN3P.ABTOL-->
+      GUTNI/ABTOL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 GUTN2P.IRMIX-->
-      -40.381389+175.417500/TERIL/IVREP/IRMIX
+      <!--Rwy25 GUTN3P.IRMIX-->
+      GUTNI/TERIL/IVREP/IRMIX
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 GUTN2P.LIMPA-->
-      -40.381389+175.417500/LIMPA
+      <!--Rwy25 GUTN3P.LIMPA-->
+      GUTNI/LIMPA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 GUTN2P.OKEVO-->
-      -40.381389+175.417500/OKEVO
+      <!--Rwy25 GUTN3P.OKEVO-->
+      GUTNI/OKEVO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 GUTN3R-->
+      <!--Rwy25 GUTN4R-->
       -40.319864+175.604869/PM07T/GUTNI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 GUTN3R.APITI-->
+      <!--Rwy25 GUTN4R.APITI-->
       GUTNI/LULKO/APITI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 GUTN3R.OMBUB-->
-      GUTNI/RUGVI/ADRAD/OMBUB
+      <!--Rwy25 GUTN4R.OMBUB-->
+      GUTNI/AVKAB/ADRAD/OMBUB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 GUTN3T-->
+      <!--Rwy25 GUTN4T-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 GUTN3T.APITI-->
-      GUTNI/TERIL/LULKO
+      <!--Rwy25 GUTN4T.APITI-->
+      IVREP/LULKO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 GUTN3T.OMBUB-->
+      <!--Rwy25 GUTN4T.OMBUB-->
       GUTNI/ANPUG/BEDUL/DAGOM/OMBUB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 GUTN2U-->
+      <!--Rwy25 GUTN3U-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 GUTN2U.BINIT-->
+      <!--Rwy25 GUTN3U.BINIT-->
       GUTNI/RINRI/BINIT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 GUTN2U.MIBUS-->
+      <!--Rwy25 GUTN3U.MIBUS-->
       GUTNI/MIBUS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 GUTN2U.SAKBA-->
+      <!--Rwy25 GUTN3U.SAKBA-->
       RINRI/SAKBA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 GUTN2U.VIROL-->
+      <!--Rwy25 GUTN3U.VIROL-->
       GUTNI/LUNBA/RINRI/ANPUG/KEVEL/VIROL
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy25 NZPM3A-->
       PM25T/-40.319444+175.506944
     </Line>
+    <Symbol Type="SolidStar">
+      <Point>GUTNI</Point>
+    </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>PM25T</Point>
-      <Point>GUTNI</Point>
       <Point>ABTOL</Point>
       <Point>TERIL</Point>
       <Point>IVREP</Point>
@@ -346,7 +351,7 @@
       <Point>PM07T</Point>
       <Point>LULKO</Point>
       <Point>APITI</Point>
-      <Point>RUGVI</Point>
+      <Point>AVKAB</Point>
       <Point>ADRAD</Point>
       <Point>OMBUB</Point>
       <Point>ANPUG</Point>

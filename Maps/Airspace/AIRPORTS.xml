@@ -157,6 +157,7 @@
       <Point>NZQW</Point>
       <Point>NZRA</Point>
       <Point>NZRC</Point>
+      <Point>NZRD</Point>
       <Point>NZRI</Point>
       <Point>NZRK</Point>
       <Point>NZRL</Point>
@@ -374,6 +375,7 @@
       <Point Name="QW">NZQW</Point>
       <Point Name="RA">NZRA</Point>
       <Point Name="RC">NZRC</Point>
+      <Point Name="RD">NZRD</Point>
       <Point Name="RI">NZRI</Point>
       <Point Name="RK">NZRK</Point>
       <Point Name="RL">NZRL</Point>

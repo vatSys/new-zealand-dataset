@@ -9,61 +9,63 @@
       <!--Rwy17 LAKE6-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy17 MINEK2-->
+      <!--Rwy17 MINEK3-->
       -38.746789+176.082844/AP17T/-38.769722+176.067778/MINEK
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy17 MINEK2.AKNES-->
+      <!--Rwy17 MINEK3.AKNES-->
       MINEK/AKNES
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy17 MINEK2.DOGMO-->
+      <!--Rwy17 MINEK3.DOGMO-->
       MINEK/RUNUP/DOGMO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy17 MINEK2.DUDUS-->
+      <!--Rwy17 MINEK3.DUDUS-->
       MINEK/PEBSO/DUDUS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy17 MINEK2.ISGIT-->
+      <!--Rwy17 MINEK3.GOSTI-->
+      PEBSO/GOSTI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy17 MINEK3.ISGIT-->
       PEBSO/ISGIT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy17 MINEK2.KARBA-->
-      PEBSO/KARBA
+      <!--Rwy17 MINEK3.OBDEV-->
+      RUNUP/OBDEV
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy17 MINEK2.SULFA-->
+      <!--Rwy17 MINEK3.ONAGO-->
+      MINEK/ONAGO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy17 MINEK3.SULFA-->
       MINEK/SULFA
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy17 MINEK2.TAIKI-->
-      RUNUP/TAIKI
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy17 MINEK2.TM-->
-      MINEK/TM NDB
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy17 TAIKO5-->
     </Line>
+    <Symbol Type="SolidStar">
+      <Point>MINEK</Point>
+      <Point>RUNUP</Point>
+      <Point>PEBSO</Point>
+    </Symbol>
     <Symbol Type="Circle">
       <Point>AP NDB</Point>
-      <Point>TM NDB</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>AP35T</Point>
       <Point>AP17T</Point>
-      <Point>MINEK</Point>
       <Point>AKNES</Point>
-      <Point>RUNUP</Point>
       <Point>DOGMO</Point>
-      <Point>PEBSO</Point>
       <Point>DUDUS</Point>
+      <Point>GOSTI</Point>
       <Point>ISGIT</Point>
-      <Point>KARBA</Point>
+      <Point>OBDEV</Point>
+      <Point>ONAGO</Point>
       <Point>SULFA</Point>
-      <Point>TAIKI</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>AP NDB</Point>
@@ -71,24 +73,24 @@
       <Point>AKNES</Point>
       <Point>DOGMO</Point>
       <Point>DUDUS</Point>
+      <Point>GOSTI</Point>
       <Point>ISGIT</Point>
-      <Point>KARBA</Point>
+      <Point>OBDEV</Point>
+      <Point>ONAGO</Point>
       <Point>SULFA</Point>
-      <Point>TAIKI</Point>
-      <Point>TM NDB</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="17 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.734717+176.086950">
     <Line>
-      <!--Rwy17 GOST2A-->
+      <!--Rwy17 GOST3A-->
       GOSTI/GUSAG/KALGO
     </Line>
     <Line>
-      <!--Rwy17 ISGI1A-->
+      <!--Rwy17 ISGI2A-->
       ISGIT/GUMAN
     </Line>
     <Line>
-      <!--Rwy17 SULF2A-->
+      <!--Rwy17 SULF3A-->
       SULFA/MEXIS/GUSAG
     </Line>
     <Symbol Type="HollowTriangle">
@@ -112,11 +114,10 @@
   </Map>
   <Map Type="System2" Name="17 RNP" Priority="1" Center="-38.734717+176.086950" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>AP701</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>OBLIV</Point>
       <Point>GUMAN</Point>
       <Point>KALGO</Point>
     </Symbol>
@@ -125,19 +126,17 @@
       <Point>OLSEK</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>AP706</Point>
-    </Symbol>
-    <Line Pattern="Solid">AP706/OLSEK/AP701/-384404.981+1760513.020</Line>
-    <Line Pattern="Solid">GUMAN/AP706</Line>
-    <Line Pattern="Solid">KALGO/AP706</Line>
+    <Symbol Type="SolidTriangle" />
+    <Line Pattern="Solid">OBLIV/OLSEK/AP701/-384404.981+1760513.020</Line>
+    <Line Pattern="Solid">GUMAN/OBLIV</Line>
+    <Line Pattern="Solid">KALGO/OBLIV</Line>
   </Map>
   <Map Type="System2" Name="17 RNP Labels" Priority="1" Center="-38.734717+176.086950" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>OBLIV</Point>
       <Point>GUMAN</Point>
       <Point>KALGO</Point>
       <Point>OLSEK</Point>
-      <Point>AP706</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="35 SIDs" Priority="1" CustomColourName="ProcDep" Center="-38.734717+176.086950">
@@ -153,56 +152,59 @@
       -38.714481+176.094117/AP NDB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy35 TEREG2-->
+      <!--Rwy35 TEREG3-->
       AP17T/TEREG
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy35 TEREG2.AKNES-->
+      <!--Rwy35 TEREG3.AKNES-->
       TEREG/VEKPO/AKNES
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy35 TEREG2.DOGMO-->
+      <!--Rwy35 TEREG3.DOGMO-->
       VEKPO/DOGMO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy35 TEREG2.DUDUS-->
+      <!--Rwy35 TEREG3.DUDUS-->
       TEREG/DUDUS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy35 TEREG2.ISGIT-->
+      <!--Rwy35 TEREG3.GOSTI-->
+      TEREG/GOSTI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy35 TEREG3.ISGIT-->
       TEREG/ISGIT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy35 TEREG2.KARBA-->
-      TEREG/KARBA
+      <!--Rwy35 TEREG3.OBDEV-->
+      VEKPO/OBDEV
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy35 TEREG2.SULFA-->
-      TEREG/SULFA
+      <!--Rwy35 TEREG3.ONAGO-->
+      TEREG/PEBSO/ONAGO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy35 TEREG2.TAIKI-->
-      VEKPO/TAIKI
+      <!--Rwy35 TEREG3.SULFA-->
+      PEBSO/SULFA
     </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy35 TEREG2.TM-->
-      TEREG/TM NDB
-    </Line>
+    <Symbol Type="SolidStar">
+      <Point>TEREG</Point>
+      <Point>VEKPO</Point>
+      <Point>PEBSO</Point>
+    </Symbol>
     <Symbol Type="Circle">
       <Point>AP NDB</Point>
-      <Point>TM NDB</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>AP17T</Point>
-      <Point>TEREG</Point>
-      <Point>VEKPO</Point>
       <Point>AKNES</Point>
       <Point>DOGMO</Point>
       <Point>DUDUS</Point>
+      <Point>GOSTI</Point>
       <Point>ISGIT</Point>
-      <Point>KARBA</Point>
+      <Point>OBDEV</Point>
+      <Point>ONAGO</Point>
       <Point>SULFA</Point>
-      <Point>TAIKI</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>AP NDB</Point>
@@ -210,16 +212,16 @@
       <Point>AKNES</Point>
       <Point>DOGMO</Point>
       <Point>DUDUS</Point>
+      <Point>GOSTI</Point>
       <Point>ISGIT</Point>
-      <Point>KARBA</Point>
+      <Point>OBDEV</Point>
+      <Point>ONAGO</Point>
       <Point>SULFA</Point>
-      <Point>TAIKI</Point>
-      <Point>TM NDB</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="35 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.746789+176.082844">
     <Line>
-      <!--Rwy35 GOST2B-->
+      <!--Rwy35 GOST3B-->
       GOSTI/GUSAG/EMSAR
     </Line>
     <Line>
@@ -227,7 +229,11 @@
       GUMAN/GUSAG
     </Line>
     <Line>
-      <!--Rwy35 SULF2B-->
+      <!--Rwy35 ISGI1B-->
+      ISGIT/GUMAN
+    </Line>
+    <Line>
+      <!--Rwy35 SULF3B-->
       SULFA/AKABA
     </Line>
     <Symbol Type="HollowTriangle">
@@ -238,11 +244,13 @@
       <Point>GOSTI</Point>
       <Point>GUSAG</Point>
       <Point>GUMAN</Point>
+      <Point>ISGIT</Point>
       <Point>SULFA</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>GOSTI</Point>
       <Point>GUMAN</Point>
+      <Point>ISGIT</Point>
       <Point>SULFA</Point>
       <Point>EMSAR</Point>
       <Point>AKABA</Point>
@@ -250,11 +258,10 @@
   </Map>
   <Map Type="System2" Name="35 RNP" Priority="1" Center="-38.746789+176.082844" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>AP501</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>AP506</Point>
       <Point>AKABA</Point>
       <Point>EMSAR</Point>
       <Point>MASKU</Point>
@@ -264,9 +271,7 @@
       <Point>UBLUT</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>AP506</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">AP506/UBLUT/AP501/-384448.440+1760458.238</Line>
     <Line Pattern="Solid">AKABA/AP506</Line>
     <Line Pattern="Solid">EMSAR/AP506</Line>
@@ -274,11 +279,11 @@
   </Map>
   <Map Type="System2" Name="35 RNP Labels" Priority="1" Center="-38.746789+176.082844" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>AP506</Point>
       <Point>AKABA</Point>
       <Point>EMSAR</Point>
       <Point>MASKU</Point>
       <Point>UBLUT</Point>
-      <Point>AP506</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-38.739722+176.084444">
