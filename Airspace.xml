@@ -3540,7 +3540,6 @@ RILEY
     <Point Name="BASIV" Type="Fix">-362348.080+1734152.330</Point>
     <Point Name="BASOS" Type="Fix">-453220.950+1691922.130</Point>
     <Point Name="BASOT" Type="Fix">-412831.350+1734324.370</Point>
-    <Point Name="BATAT" Type="Fix">-374440.220+1755516.130</Point>
     <Point Name="BATOS" Type="Fix">-365327.790+1735938.660</Point>
     <Point Name="BATUP" Type="Fix">-365036.150+1754913.870</Point>
     <Point Name="BAVEK" Type="Fix">-212406.150-1591828.620</Point>
@@ -4423,8 +4422,8 @@ RILEY
     <Point Name="LINPI" Type="Fix">-374542.550+1760319.260</Point>
     <Point Name="LOSGA" Type="Fix">-365403.800+1744427.210</Point>
     <Point Name="LOSKO" Type="Fix">-454801.700+1701800.760</Point>
-    <Point Name="LOSTI" Type="Fix">-450430.850+1682250.870</Point>
     <Point Name="LOSTI" Type="Fix">-450431.000+1682251.000</Point>
+    <Point Name="LOSTI" Type="Fix">-450430.850+1682250.870</Point>
     <Point Name="LOTRA" Type="Fix">-201358.750-1590554.080</Point>
     <Point Name="LOVTA" Type="Fix">-415913.950+1713635.160</Point>
     <Point Name="LUBSI" Type="Fix">-412748.620+1734135.210</Point>
@@ -4528,6 +4527,7 @@ RILEY
     <Point Name="MEXEB" Type="Fix">-365840.480+1750556.970</Point>
     <Point Name="MEXIP" Type="Fix">-315000.770-1750000.000</Point>
     <Point Name="MEXIS" Type="Fix">-384625.860+1754800.990</Point>
+    <Point Name="MEZZO" Type="Fix">-374433.540+1755601.670</Point>
     <Point Name="MIBAD" Type="Fix">-550000.000+1722700.000</Point>
     <Point Name="MIBEV" Type="Fix">-412236.730+1725341.370</Point>
     <Point Name="MIBOR" Type="Fix">-205949.550-1610140.090</Point>
@@ -4747,6 +4747,7 @@ RILEY
     <Point Name="OMUBO" Type="Fix">-450356.600+1683730.650</Point>
     <Point Name="OMUKO" Type="Fix">-411714.060+1730346.520</Point>
     <Point Name="OMULI" Type="Fix">-440730.170+1703022.530</Point>
+    <Point Name="OMUNU" Type="Fix">-393811.090+1741822.920</Point>
     <Point Name="ONADU" Type="Fix">-445455.180+1690436.000</Point>
     <Point Name="ONAGO" Type="Fix">-385232.240+1753042.870</Point>
     <Point Name="ONETU" Type="Fix">-164131.680-1713720.590</Point>
@@ -5321,6 +5322,7 @@ RILEY
     <Point Name="UNTET" Type="Fix">-401101.620+1634403.510</Point>
     <Point Name="UPDAL" Type="Fix">-385704.400+1742024.200</Point>
     <Point Name="UPDIG" Type="Fix">-194816.260-1740935.870</Point>
+    <Point Name="UPGUM" Type="Fix">-453324.440+1674849.810</Point>
     <Point Name="UPKIK" Type="Fix">-462538.960+1682940.920</Point>
     <Point Name="UPKIV" Type="Fix">-374856.100+1750546.550</Point>
     <Point Name="UPLAR" Type="Fix">-353355.220+1710535.290</Point>
@@ -6011,8 +6013,8 @@ RILEY
     <Point Name="KAI IWI BEACH" Type="Fix">-395310.900+1745401.170</Point>
     <Point Name="KAINGAROA" Type="Fix">-382430.600+1763356.500</Point>
     <Point Name="KAIPO SADDLE" Type="Fix">-442703.800+1675925.200</Point>
-    <Point Name="KAITUNA BRIDGE" Type="Fix">-374446.800+1762115.500</Point>
     <Point Name="KAITUNA BRIDGE" Type="Fix">-412842.400+1734844.400</Point>
+    <Point Name="KAITUNA BRIDGE" Type="Fix">-374446.800+1762115.500</Point>
     <Point Name="KARAKA" Type="Fix">-370437.500+1745541.700</Point>
     <Point Name="KARANGAHAPE" Type="Fix">-384742.700+1754801.700</Point>
     <Point Name="KAREWA ISLAND" Type="Fix">-373146.800+1760754.500</Point>
@@ -9843,6 +9845,7 @@ RILEY
       <Runway Name="15" Position="-401158.931+1752309.751" />
       <Runway Name="33" Position="-401302.039+1752325.789" />
     </Airport>
+    <Airport ICAO="NZOI" FullName="Ongaio Island" Position="-404025.000+1723952.000" />
     <Airport ICAO="NZOM" FullName="Omaka" Position="-413224.000+1735519.000">
       <Runway Name="01" Position="-413242.410+1735514.030" />
       <Runway Name="19" Position="-413217.149+1735538.640" />

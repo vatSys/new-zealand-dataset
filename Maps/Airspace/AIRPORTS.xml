@@ -134,6 +134,7 @@
       <Point>NZOF</Point>
       <Point>NZOG</Point>
       <Point>NZOH</Point>
+      <Point>NZOI</Point>
       <Point>NZOM</Point>
       <Point>NZON</Point>
       <Point>NZOP</Point>
@@ -352,6 +353,7 @@
       <Point Name="OF">NZOF</Point>
       <Point Name="OG">NZOG</Point>
       <Point Name="OH">NZOH</Point>
+      <Point Name="OI">NZOI</Point>
       <Point Name="OM">NZOM</Point>
       <Point Name="ON">NZON</Point>
       <Point Name="OP">NZOP</Point>
