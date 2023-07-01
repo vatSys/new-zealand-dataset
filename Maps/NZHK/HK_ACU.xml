@@ -119,6 +119,7 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>MAKOS</Point>
       <Point>AGTUR</Point>
       <Point>EKVIL</Point>
     </Symbol>
@@ -127,19 +128,17 @@
       <Point>HK407</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>MAKOS</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">MAKOS/HK407/-424227.950+1705931.448</Line>
     <Line Pattern="Solid">AGTUR/MAKOS</Line>
     <Line Pattern="Solid">EKVIL/MAKOS</Line>
   </Map>
   <Map Type="System2" Name="21 RNP Labels" Priority="1" Center="-42.707764+170.992069" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>MAKOS</Point>
       <Point>AGTUR</Point>
       <Point>EKVIL</Point>
       <Point>HK407</Point>
-      <Point>MAKOS</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-42.713611+170.985278">

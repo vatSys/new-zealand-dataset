@@ -69,11 +69,10 @@
   </Map>
   <Map Type="System2" Name="01 RNP" Priority="1" Center="-42.466061+171.187208" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>GM483</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>PAROA</Point>
       <Point>ELPAM</Point>
       <Point>PAKSA</Point>
     </Symbol>
@@ -82,19 +81,17 @@
       <Point>AGRIP</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>PAROA</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">PAROA/AGRIP/GM483/-422757.820+1711113.949</Line>
     <Line Pattern="Solid">ELPAM/PAROA</Line>
     <Line Pattern="Solid">PAKSA/PAROA</Line>
   </Map>
   <Map Type="System2" Name="01 RNP Labels" Priority="1" Center="-42.466061+171.187208" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>PAROA</Point>
       <Point>ELPAM</Point>
       <Point>PAKSA</Point>
       <Point>AGRIP</Point>
-      <Point>PAROA</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="19 SIDs" Priority="1" CustomColourName="ProcDep" Center="-42.466061+171.187208">
