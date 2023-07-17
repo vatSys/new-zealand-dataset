@@ -5,10 +5,11 @@
     <TAF url="https://aviationweather.gov/adds/dataserver_current/httpparam?dataSource=tafs&amp;requestType=retrieve&amp;format=xml&amp;stationString=%ICAO&amp;hoursBeforeNow=0&amp;timeType=valid&amp;mostRecent=true" xmlDataTag="raw_text" mostRecent="true" />
   </ProductTypes>
   <Browsers>
+    <VATNZ url="https://www.vatnz.net/" />
+    <SOPs url="https://sops.vatnz.net" />
+    <Feedback url="https://www.vatnz.net/feedback/" />
+    <Changelog url="https://sops.vatnz.net/changelog/" />
     <AIP url="http://www.aip.net.nz/" />
     <GoPreflight url="https://gopreflight.co.nz/app" />
-    <SkyVector url="https://skyvector.com/" />
-    <VATNZ url="https://www.vatnz.net/" />
-    <Feedback url="https://www.vatnz.net/feedback/" />
   </Browsers>
 </MET>
