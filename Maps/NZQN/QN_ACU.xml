@@ -278,28 +278,34 @@
       OMLEL/SUNGU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 VAPLI1-->
+      <!--Rwy23 VAPLI2-->
       -45.020000+168.735689/ENKUV/OLREK/TULVU/VAPLI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 VAPLI1.ADKOS-->
+      <!--Rwy23 VAPLI2.ADKOS-->
       VAPLI/IPNOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 VAPLI1.ADLUP-->
+      <!--Rwy23 VAPLI2.ADLUP-->
       VAPLI/IBVUK/SUNGU/BASOS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 VAPLI1.LIBLA-->
+      <!--Rwy23 VAPLI2.LIBLA-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 VAPLI1.SAVLA-->
+      <!--Rwy23 VAPLI2.SAVLA-->
       VAPLI/AVDEK/DULUL/ANPOV
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 VAPLI1.TIMJO-->
+      <!--Rwy23 VAPLI2.SUNGU-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23 VAPLI2.TIMJO-->
       ANPOV/EPDEX/ATVOR
     </Line>
+    <Symbol Type="SolidStar">
+      <Point>ENKUV</Point>
+    </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>QN05T</Point>
       <Point>QN727</Point>
@@ -311,7 +317,6 @@
       <Point>BUGSA</Point>
       <Point>DUGAK</Point>
       <Point>QN817</Point>
-      <Point>ENKUV</Point>
       <Point>METUX</Point>
       <Point>ANPOV</Point>
       <Point>AKMAD</Point>

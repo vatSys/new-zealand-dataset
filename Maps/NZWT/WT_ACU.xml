@@ -29,11 +29,10 @@
   </Map>
   <Map Type="System2" Name="04 RNP" Priority="1" Center="-36.832306+175.676317" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>WT423</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>UGSAP</Point>
       <Point>IGOVU</Point>
       <Point>OLVOL</Point>
     </Symbol>
@@ -42,28 +41,25 @@
       <Point>VETUM</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>UGSAP</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">UGSAP/VETUM/WT423/-364956.302+1754034.741</Line>
     <Line Pattern="Solid">IGOVU/UGSAP</Line>
     <Line Pattern="Solid">OLVOL/UGSAP</Line>
   </Map>
   <Map Type="System2" Name="04 RNP Labels" Priority="1" Center="-36.832306+175.676317" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>UGSAP</Point>
       <Point>IGOVU</Point>
       <Point>OLVOL</Point>
       <Point>VETUM</Point>
-      <Point>UGSAP</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="22 RNP" Priority="1" Center="-36.825625+175.688550" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>WT423</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>UGSAP</Point>
       <Point>IGOVU</Point>
       <Point>OLVOL</Point>
     </Symbol>
@@ -72,28 +68,25 @@
       <Point>VETUM</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>UGSAP</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">UGSAP/VETUM/WT423/-364932.250+1754118.780</Line>
     <Line Pattern="Solid">IGOVU/UGSAP</Line>
     <Line Pattern="Solid">OLVOL/UGSAP</Line>
   </Map>
   <Map Type="System2" Name="22 RNP Labels" Priority="1" Center="-36.825625+175.688550" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>UGSAP</Point>
       <Point>IGOVU</Point>
       <Point>OLVOL</Point>
       <Point>VETUM</Point>
-      <Point>UGSAP</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="16 RNP" Priority="1" Center="-36.825436+175.679925" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>WT423</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>UGSAP</Point>
       <Point>IGOVU</Point>
       <Point>OLVOL</Point>
     </Symbol>
@@ -102,28 +95,25 @@
       <Point>VETUM</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>UGSAP</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">UGSAP/VETUM/WT423/-364931.570+1754047.730</Line>
     <Line Pattern="Solid">IGOVU/UGSAP</Line>
     <Line Pattern="Solid">OLVOL/UGSAP</Line>
   </Map>
   <Map Type="System2" Name="16 RNP Labels" Priority="1" Center="-36.825436+175.679925" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>UGSAP</Point>
       <Point>IGOVU</Point>
       <Point>OLVOL</Point>
       <Point>VETUM</Point>
-      <Point>UGSAP</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="34 RNP" Priority="1" Center="-36.831206+175.680208" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>WT423</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>UGSAP</Point>
       <Point>IGOVU</Point>
       <Point>OLVOL</Point>
     </Symbol>
@@ -132,19 +122,17 @@
       <Point>VETUM</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>UGSAP</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">UGSAP/VETUM/WT423/-364952.342+1754048.749</Line>
     <Line Pattern="Solid">IGOVU/UGSAP</Line>
     <Line Pattern="Solid">OLVOL/UGSAP</Line>
   </Map>
   <Map Type="System2" Name="34 RNP Labels" Priority="1" Center="-36.831206+175.680208" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>UGSAP</Point>
       <Point>IGOVU</Point>
       <Point>OLVOL</Point>
       <Point>VETUM</Point>
-      <Point>UGSAP</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-36.831667+175.678611">

@@ -5,27 +5,26 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>WAPOU</Point>
       <Point>NUKTO</Point>
       <Point>UPVOK</Point>
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>HA906</Point>
+      <Point>OMUNU</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>WAPOU</Point>
-    </Symbol>
-    <Line Pattern="Solid">WAPOU/HA906/-393328.181+1741610.988</Line>
+    <Symbol Type="SolidTriangle" />
+    <Line Pattern="Solid">WAPOU/OMUNU/-393328.181+1741610.988</Line>
     <Line Pattern="Solid">NUKTO/WAPOU</Line>
     <Line Pattern="Solid">UPVOK/WAPOU</Line>
   </Map>
   <Map Type="System2" Name="32 RNP Labels" Priority="1" Center="-39.557828+174.269719" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>WAPOU</Point>
       <Point>NUKTO</Point>
       <Point>UPVOK</Point>
-      <Point>HA906</Point>
-      <Point>WAPOU</Point>
+      <Point>OMUNU</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-39.553333+174.266944">

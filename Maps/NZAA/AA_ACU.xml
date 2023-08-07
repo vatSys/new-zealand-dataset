@@ -144,27 +144,27 @@
       RAXIN/TARIB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R REKI3Q-->
+      <!--Rwy05R REKI4Q-->
       AA05R/-36.991111+174.855000/VINOD/-37.118611+174.868889/BUDLU/REKIS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R REKI3Q.KAPAI-->
+      <!--Rwy05R REKI4Q.KAPAI-->
       REKIS/KAPAI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R REKI3Q.KARRL-->
+      <!--Rwy05R REKI4Q.KARRL-->
       REKIS/LIMES
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R REKI3Q.LAKES-->
+      <!--Rwy05R REKI4Q.LAKES-->
       REKIS/LAKES
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R REKI3Q.NUTRA-->
+      <!--Rwy05R REKI4Q.NUTRA-->
       REKIS/IPDIN
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R REKI3Q.TULMI-->
+      <!--Rwy05R REKI4Q.TULMI-->
       REKIS/TULMI
     </Line>
     <Line Pattern="Dashed">
@@ -818,23 +818,23 @@
       POSUX/VELMO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L STEA1P-->
+      <!--Rwy23L STEA2P-->
       -37.031667+174.709444/STEAL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L STEA1P.KARRL-->
+      <!--Rwy23L STEA2P.KARRL-->
       STEAL/LIMES/KARRL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L STEA1P.LAKES-->
+      <!--Rwy23L STEA2P.LAKES-->
       STEAL/LAMOG/ONISU/OVSIT/LAKES
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L STEA1P.NUTRA-->
+      <!--Rwy23L STEA2P.NUTRA-->
       STEAL/IPDIN/NUTRA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L STEA1P.TULMI-->
+      <!--Rwy23L STEA2P.TULMI-->
       OVSIT/TULMI
     </Line>
     <Symbol Type="Circle">

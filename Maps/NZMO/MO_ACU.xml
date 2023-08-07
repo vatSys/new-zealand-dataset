@@ -2,76 +2,68 @@
 <Maps>
   <Map Type="System2" Name="08 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.534492+167.662997">
     <Line Pattern="Dashed">
-      <!--Rwy08 GULAN2-->
+      <!--Rwy08 GULAN3-->
       -45.534492+167.662997/MO552/GULAN
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy08 GULAN2.AFTON-->
+      <!--Rwy08 GULAN3.AFTON-->
       GULAN/AFTON
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy08 GULAN2.ANOPA-->
+      <!--Rwy08 GULAN3.ANOPA-->
       GULAN/ANOPA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy08 GULAN2.ENKUV-->
+      <!--Rwy08 GULAN3.ENKUV-->
       GULAN/ENKUV
     </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy08 GULAN2.SUNGU-->
-      GULAN/SUNGU
-    </Line>
-    <Symbol Type="HollowTriangle">
+    <Symbol Type="SolidStar">
       <Point>MO552</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
       <Point>GULAN</Point>
       <Point>AFTON</Point>
       <Point>ANOPA</Point>
       <Point>ENKUV</Point>
-      <Point>SUNGU</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>GULAN</Point>
       <Point>AFTON</Point>
       <Point>ANOPA</Point>
       <Point>ENKUV</Point>
-      <Point>SUNGU</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="26 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.531567+167.643186">
     <Line Pattern="Dashed">
-      <!--Rwy26 GULAN2-->
+      <!--Rwy26 GULAN3-->
       -45.531567+167.643186/MO552/GULAN
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy26 GULAN2.AFTON-->
+      <!--Rwy26 GULAN3.AFTON-->
       GULAN/AFTON
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy26 GULAN2.ANOPA-->
+      <!--Rwy26 GULAN3.ANOPA-->
       GULAN/ANOPA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy26 GULAN2.ENKUV-->
+      <!--Rwy26 GULAN3.ENKUV-->
       GULAN/ENKUV
     </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy26 GULAN2.SUNGU-->
-      GULAN/SUNGU
-    </Line>
-    <Symbol Type="HollowTriangle">
+    <Symbol Type="SolidStar">
       <Point>MO552</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
       <Point>GULAN</Point>
       <Point>AFTON</Point>
       <Point>ANOPA</Point>
       <Point>ENKUV</Point>
-      <Point>SUNGU</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>GULAN</Point>
       <Point>AFTON</Point>
       <Point>ANOPA</Point>
       <Point>ENKUV</Point>
-      <Point>SUNGU</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="26 STARs" Priority="1" CustomColourName="ProcArr" Center="-45.534492+167.662997">
@@ -109,11 +101,11 @@
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>-45.557250+167.813570</Point>
+      <Point>UPGUM</Point>
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">GULAN/-45.557250+167.813570/-453204.171+1673946.789</Line>
+    <Line Pattern="Solid">GULAN/UPGUM/MO401/-453204.171+1673946.789</Line>
     <Line Pattern="Solid">ALDEV/GULAN</Line>
     <Line Pattern="Solid">ENSOV/GULAN</Line>
   </Map>
@@ -122,80 +114,73 @@
       <Point>GULAN</Point>
       <Point>ALDEV</Point>
       <Point>ENSOV</Point>
+      <Point>UPGUM</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="14 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.538742+167.648619">
     <Line Pattern="Dashed">
-      <!--Rwy14 GULAN2-->
+      <!--Rwy14 GULAN3-->
       -45.538742+167.648619/MO552/GULAN
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 GULAN2.AFTON-->
+      <!--Rwy14 GULAN3.AFTON-->
       GULAN/AFTON
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 GULAN2.ANOPA-->
+      <!--Rwy14 GULAN3.ANOPA-->
       GULAN/ANOPA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 GULAN2.ENKUV-->
+      <!--Rwy14 GULAN3.ENKUV-->
       GULAN/ENKUV
     </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy14 GULAN2.SUNGU-->
-      GULAN/SUNGU
-    </Line>
-    <Symbol Type="HollowTriangle">
+    <Symbol Type="SolidStar">
       <Point>MO552</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
       <Point>GULAN</Point>
       <Point>AFTON</Point>
       <Point>ANOPA</Point>
       <Point>ENKUV</Point>
-      <Point>SUNGU</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>GULAN</Point>
       <Point>AFTON</Point>
       <Point>ANOPA</Point>
       <Point>ENKUV</Point>
-      <Point>SUNGU</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="32 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.528525+167.643922">
     <Line Pattern="Dashed">
-      <!--Rwy32 GULAN2-->
+      <!--Rwy32 GULAN3-->
       -45.528525+167.643922/MO552/GULAN
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 GULAN2.AFTON-->
+      <!--Rwy32 GULAN3.AFTON-->
       GULAN/AFTON
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 GULAN2.ANOPA-->
+      <!--Rwy32 GULAN3.ANOPA-->
       GULAN/ANOPA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 GULAN2.ENKUV-->
+      <!--Rwy32 GULAN3.ENKUV-->
       GULAN/ENKUV
     </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy32 GULAN2.SUNGU-->
-      GULAN/SUNGU
-    </Line>
-    <Symbol Type="HollowTriangle">
+    <Symbol Type="SolidStar">
       <Point>MO552</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
       <Point>GULAN</Point>
       <Point>AFTON</Point>
       <Point>ANOPA</Point>
       <Point>ENKUV</Point>
-      <Point>SUNGU</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>GULAN</Point>
       <Point>AFTON</Point>
       <Point>ANOPA</Point>
       <Point>ENKUV</Point>
-      <Point>SUNGU</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-45.533056+167.650000">

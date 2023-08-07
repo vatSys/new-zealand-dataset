@@ -58,7 +58,7 @@
   </Map>
   <Map Type="System2" Name="07 STARs" Priority="1" CustomColourName="ProcArr" Center="-37.672750+176.188389">
     <Line>
-      <!--Rwy07 BIKO1A-->
+      <!--Rwy07 BIKO2A-->
       BIKOT/BERPI/RUSTA
     </Line>
     <Line>
@@ -66,15 +66,15 @@
       FALLS/VIDOB/MORTA
     </Line>
     <Line>
-      <!--Rwy07 GOBU1A-->
+      <!--Rwy07 GOBU2A-->
       GOBUK/MORTA
     </Line>
     <Line>
-      <!--Rwy07 OLDO1A-->
-      OLDON/BATAT/MORTA
+      <!--Rwy07 OLDO2A-->
+      OLDON/MEZZO/MORTA
     </Line>
     <Line>
-      <!--Rwy07 OROP1A-->
+      <!--Rwy07 OROP2A-->
       OROPI/MORTA
     </Line>
     <Line>
@@ -82,7 +82,7 @@
       PIBOV/TODAN/MORTA
     </Line>
     <Line>
-      <!--Rwy07 URBU1A-->
+      <!--Rwy07 URBU2A-->
       URBUX/APUNO/KIMAR/RUSTA
     </Line>
     <Symbol Type="HollowTriangle">
@@ -96,7 +96,7 @@
       <Point>VIDOB</Point>
       <Point>GOBUK</Point>
       <Point>OLDON</Point>
-      <Point>BATAT</Point>
+      <Point>MEZZO</Point>
       <Point>OROPI</Point>
       <Point>PIBOV</Point>
       <Point>TODAN</Point>
@@ -203,7 +203,7 @@
   </Map>
   <Map Type="System2" Name="25 STARs" Priority="1" CustomColourName="ProcArr" Center="-37.673806+176.209056">
     <Line>
-      <!--Rwy25 BIKO1B-->
+      <!--Rwy25 BIKO2B-->
       BIKOT/BERPI/RUSTA/UBSET
     </Line>
     <Line>
@@ -215,7 +215,7 @@
       GOBUK/TODAN
     </Line>
     <Line>
-      <!--Rwy25 OLDO1B-->
+      <!--Rwy25 OLDO2B-->
       OLDON/LINPI/TODAN
     </Line>
     <Line>
@@ -227,7 +227,7 @@
       PIBOV/TODAN
     </Line>
     <Line>
-      <!--Rwy25 URBU1B-->
+      <!--Rwy25 URBU2B-->
       URBUX/APUNO/KIMAR/RUSTA
     </Line>
     <Symbol Type="HollowTriangle">
