@@ -52,7 +52,7 @@
   </Map>
   <Map Type="System2" Name="04 STARs" Priority="1" CustomColourName="ProcArr" Center="-46.418411+168.302258">
     <Line>
-      <!--Rwy04 AKPI3A-->
+      <!--Rwy04 AKPI4A-->
       AKPIN/BIDKU/VIKIP/DOTLU/EGAMU
     </Line>
     <Line>
@@ -211,7 +211,7 @@
   </Map>
   <Map Type="System2" Name="22 STARs" Priority="1" CustomColourName="ProcArr" Center="-46.411100+168.324744">
     <Line>
-      <!--Rwy22 AKPI4B-->
+      <!--Rwy22 AKPI5B-->
       AKPIN/BIDKU/MASGO/DUNAX
     </Line>
     <Line>

@@ -5,6 +5,7 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>WAIPA</Point>
       <Point>KARBA</Point>
       <Point>LALAN</Point>
       <Point>MIKER</Point>
@@ -14,9 +15,7 @@
       <Point>-38.167164+175.830969</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>WAIPA</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">WAIPA/-38.167164+175.830969/-381407.530+1755330.278</Line>
     <Line Pattern="Solid">KARBA/WAIPA</Line>
     <Line Pattern="Solid">LALAN/WAIPA</Line>
@@ -24,10 +23,10 @@
   </Map>
   <Map Type="System2" Name="13 RNP Labels" Priority="1" Center="-38.235425+175.891744" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>WAIPA</Point>
       <Point>KARBA</Point>
       <Point>LALAN</Point>
       <Point>MIKER</Point>
-      <Point>WAIPA</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="31 RNP" Priority="1" Center="-38.241714+175.897350" CustomColourName="ProcArr">

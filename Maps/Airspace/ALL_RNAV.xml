@@ -72,6 +72,7 @@
       <Point>ESMON</Point>
       <Point>AKROV</Point>
       <Point>AA509</Point>
+      <Point>LURLU</Point>
       <Point>AA409</Point>
       <Point>CH832</Point>
       <Point>CH793</Point>
@@ -197,7 +198,7 @@
     <Line Pattern="Solid">VIRIS/SADOS/QUINA/NIPAS/LAMEL/IBOKI/-370058.741+1744614.819</Line>
     <Line Pattern="Solid">KIDAG/LOSGA/LAGUT/GOBOB/ESMON/AKROV/DUNAD/-370023.962+1744820.671</Line>
     <Line Pattern="Solid">ATAMA/PORAR/AA509/-370058.741+1744614.819</Line>
-    <Line Pattern="Solid">ESNAX/NOKAM/AA409/-370023.962+1744820.671</Line>
+    <Line Pattern="Solid">ESNAX/NOKAM/LURLU/AA409/-370023.962+1744820.671</Line>
     <Line Pattern="Solid">ERVAX/CH832/CH793/CH755/PEBVI/BEKTI/-432951.472+1723119.610</Line>
     <Line Pattern="Solid">BOLUB/CH963/SULMO/CH697/NISOM/-432951.472+1723119.610</Line>
     <Line Pattern="Solid">BIXIX/CH827/CH428/RUSON/ENLAT/-432829.960+1723253.830</Line>
@@ -293,6 +294,7 @@
       <Point>ALDEV</Point>
       <Point>ENSOV</Point>
       <Point>MAMOD</Point>
+      <Point>SADUN</Point>
       <Point>ATVOX</Point>
       <Point>URDAL</Point>
       <Point>LIBKO</Point>
@@ -362,6 +364,7 @@
       <Point>TODAN</Point>
       <Point>UBSET</Point>
       <Point>MARKO</Point>
+      <Point>WAIPA</Point>
       <Point>KARBA</Point>
       <Point>LALAN</Point>
       <Point>MIKER</Point>
@@ -378,7 +381,10 @@
       <Point>ARIGU</Point>
       <Point>PASMU</Point>
       <Point>SUPIM</Point>
+      <Point>ELBEV</Point>
+      <Point>BESMA</Point>
       <Point>LAVIS</Point>
+      <Point>REGAT</Point>
       <Point>POTOP</Point>
       <Point>UMAGA</Point>
       <Point>WITBY</Point>
@@ -402,7 +408,6 @@
       <Point>BURKI</Point>
       <Point>AVMAK</Point>
       <Point>GUNOM</Point>
-      <Point>WS408</Point>
       <Point>ANSIS</Point>
       <Point>PILUP</Point>
       <Point>UGSAP</Point>
@@ -471,8 +476,8 @@
       <Point>REKID</Point>
       <Point>EMTEP</Point>
       <Point>ENPIP</Point>
-      <Point>WK401</Point>
-      <Point>WK402</Point>
+      <Point>UKBIR</Point>
+      <Point>OVSUM</Point>
       <Point>ROZAN</Point>
       <Point>OLBIN</Point>
       <Point>RITPU</Point>
@@ -484,19 +489,16 @@
       <Point>ADKES</Point>
       <Point>DUDAP</Point>
       <Point>MONSU</Point>
-      <Point>WS404</Point>
-      <Point>WS411</Point>
+      <Point>ISPEB</Point>
+      <Point>UDIRI</Point>
       <Point>VETUM</Point>
       <Point>BUSBI</Point>
       <Point>ALBAD</Point>
-      <Point>SADUN</Point>
       <Point>OLNAN</Point>
-      <Point>WAIPA</Point>
       <Point>AMURI</Point>
-      <Point>ELBEV</Point>
-      <Point>REGAT</Point>
       <Point>AVMEB</Point>
       <Point>MARKS</Point>
+      <Point>WS408</Point>
     </Label>
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
@@ -518,8 +520,6 @@
       <Point>KT501</Point>
       <Point>LX407</Point>
       <Point>MS603</Point>
-      <Point>MS818</Point>
-      <Point>MS572</Point>
       <Point>-36.667425+174.640756</Point>
       <Point>-39.449436+176.869419</Point>
       <Point>SAKOG</Point>
@@ -538,8 +538,6 @@
       <Point>WN403</Point>
       <Point>WO411</Point>
       <Point>WR601</Point>
-      <Point>WR431</Point>
-      <Point>WR983</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
@@ -614,6 +612,7 @@
       <Point>ALDEV</Point>
       <Point>ENSOV</Point>
       <Point>MAMOD</Point>
+      <Point>SADUN</Point>
       <Point>ATVOX</Point>
       <Point>URDAL</Point>
       <Point>LIBKO</Point>
@@ -683,6 +682,7 @@
       <Point>TODAN</Point>
       <Point>UBSET</Point>
       <Point>MARKO</Point>
+      <Point>WAIPA</Point>
       <Point>KARBA</Point>
       <Point>LALAN</Point>
       <Point>MIKER</Point>
@@ -699,7 +699,10 @@
       <Point>ARIGU</Point>
       <Point>PASMU</Point>
       <Point>SUPIM</Point>
+      <Point>ELBEV</Point>
+      <Point>BESMA</Point>
       <Point>LAVIS</Point>
+      <Point>REGAT</Point>
       <Point>POTOP</Point>
       <Point>UMAGA</Point>
       <Point>WITBY</Point>
@@ -723,7 +726,6 @@
       <Point>BURKI</Point>
       <Point>AVMAK</Point>
       <Point>GUNOM</Point>
-      <Point>WS408</Point>
       <Point>ANSIS</Point>
       <Point>PILUP</Point>
       <Point>UGSAP</Point>
@@ -802,8 +804,8 @@
       <Point>REKID</Point>
       <Point>EMTEP</Point>
       <Point>ENPIP</Point>
-      <Point>WK401</Point>
-      <Point>WK402</Point>
+      <Point>UKBIR</Point>
+      <Point>OVSUM</Point>
       <Point>ROZAN</Point>
       <Point>OLBIN</Point>
       <Point>RITPU</Point>
@@ -815,8 +817,8 @@
       <Point>ADKES</Point>
       <Point>DUDAP</Point>
       <Point>MONSU</Point>
-      <Point>WS404</Point>
-      <Point>WS411</Point>
+      <Point>ISPEB</Point>
+      <Point>UDIRI</Point>
       <Point>VETUM</Point>
       <Point>-39.914692+174.940081</Point>
       <Point>BUSBI</Point>
@@ -824,14 +826,11 @@
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>ALBAD</Point>
-      <Point>SADUN</Point>
       <Point>OLNAN</Point>
-      <Point>WAIPA</Point>
       <Point>AMURI</Point>
-      <Point>ELBEV</Point>
-      <Point>REGAT</Point>
       <Point>AVMEB</Point>
       <Point>MARKS</Point>
+      <Point>WS408</Point>
     </Symbol>
     <Line Pattern="Solid">LENGU/UGRUS/IGPOL/-370058.741+1744614.819</Line>
     <Line Pattern="Solid">EMRAG/ORESO/UGOMU/-370023.962+1744820.671</Line>
@@ -1010,9 +1009,10 @@
     <Line Pattern="Solid">ARIGU/KAKVA</Line>
     <Line Pattern="Solid">PASMU/KAKVA</Line>
     <Line Pattern="Solid">SUPIM/KAKVA</Line>
-    <Line Pattern="Solid">ELBEV/WK401/-375511.780+1765435.899</Line>
+    <Line Pattern="Solid">ELBEV/UKBIR/-375511.780+1765435.899</Line>
+    <Line Pattern="Solid">BESMA/ELBEV</Line>
     <Line Pattern="Solid">LAVIS/ELBEV</Line>
-    <Line Pattern="Solid">REGAT/WK402/-375527.541+1765524.420</Line>
+    <Line Pattern="Solid">REGAT/OVSUM/-375527.541+1765524.420</Line>
     <Line Pattern="Solid">POTOP/REGAT</Line>
     <Line Pattern="Solid">UMAGA/BUTIN/WN402/ROZAN/-412005.780+1744822.889</Line>
     <Line Pattern="Solid">WITBY/CANES/OLBIN/-411907.039+1744826.849</Line>
@@ -1043,10 +1043,10 @@
     <Line Pattern="Solid">WR983/-354611.798+1742133.368</Line>
     <Line Pattern="Solid">WR983/-354606.139+1742211.341</Line>
     <Line Pattern="Solid">WR983/-354625.831+1742140.511</Line>
-    <Line Pattern="Solid">BURKI/WS404/-414424.922+1713421.389</Line>
+    <Line Pattern="Solid">BURKI/ISPEB/-414424.922+1713421.389</Line>
     <Line Pattern="Solid">AVMAK/BURKI</Line>
     <Line Pattern="Solid">GUNOM/BURKI</Line>
-    <Line Pattern="Solid">WS408/WS411/-414402.069+1713507.681</Line>
+    <Line Pattern="Solid">WS408/UDIRI/-414402.069+1713507.681</Line>
     <Line Pattern="Solid">ANSIS/WS408</Line>
     <Line Pattern="Solid">PILUP/WS408</Line>
     <Line Pattern="Solid">UGSAP/VETUM/WT423/-364956.302+1754034.741</Line>

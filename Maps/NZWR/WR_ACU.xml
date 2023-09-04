@@ -70,8 +70,6 @@
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>WR601</Point>
-      <Point>WR431</Point>
-      <Point>WR983</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
@@ -173,10 +171,7 @@
   </Map>
   <Map Type="System2" Name="24 RNP" Priority="1" Center="-35.768372+174.369817" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>WR431</Point>
-      <Point>WR983</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>BIRAX</Point>
@@ -200,10 +195,7 @@
   </Map>
   <Map Type="System2" Name="14 RNP" Priority="1" Center="-35.769944+174.359269" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>WR431</Point>
-      <Point>WR983</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>BIRAX</Point>
@@ -227,10 +219,7 @@
   </Map>
   <Map Type="System2" Name="32 RNP" Priority="1" Center="-35.773842+174.361253" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>WR431</Point>
-      <Point>WR983</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>BIRAX</Point>

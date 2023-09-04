@@ -13,11 +13,13 @@
       <!--Rwy01 RILE1Q.OSOLO-->
       RILEY/OSOLO
     </Line>
+    <Symbol Type="SolidStar">
+      <Point>MUDUT</Point>
+    </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>GM01T</Point>
       <Point>DAMIL</Point>
       <Point>GM19T</Point>
-      <Point>MUDUT</Point>
       <Point>RILEY</Point>
       <Point>OSOLO</Point>
     </Symbol>

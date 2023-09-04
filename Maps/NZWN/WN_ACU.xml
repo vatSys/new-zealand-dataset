@@ -126,7 +126,6 @@
       <Point>URBEM</Point>
       <Point>AGROR</Point>
       <Point>ATVEV</Point>
-      <Point>ADLAK</Point>
     </Symbol>
     <Symbol Type="Circle">
       <Point>PP NDB</Point>
@@ -161,6 +160,7 @@
       <Point>EMSUT</Point>
       <Point>UPVAP</Point>
       <Point>OBGID</Point>
+      <Point>ADLAK</Point>
       <Point>UPROG</Point>
       <Point>MELAD</Point>
     </Symbol>
@@ -508,6 +508,7 @@
     </Line>
     <Symbol Type="SolidStar">
       <Point>GANJI</Point>
+      <Point>UDOSO</Point>
       <Point>COUBY</Point>
       <Point>UPLUD</Point>
       <Point>URGEV</Point>
@@ -526,7 +527,6 @@
       <Point>RUVUM</Point>
       <Point>NULKO</Point>
       <Point>UPVAP</Point>
-      <Point>UDOSO</Point>
       <Point>ATSUN</Point>
       <Point>OLSUS</Point>
       <Point>HHOOT</Point>

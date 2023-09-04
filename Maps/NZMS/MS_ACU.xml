@@ -74,7 +74,6 @@
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>MS603</Point>
-      <Point>MS818</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
@@ -166,11 +165,10 @@
   </Map>
   <Map Type="System2" Name="24 RNP" Priority="1" Center="-40.973622+175.640547" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>MS572</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>SADUN</Point>
       <Point>ATVOX</Point>
       <Point>URDAL</Point>
     </Symbol>
@@ -179,19 +177,17 @@
       <Point>MS402</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>SADUN</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">SADUN/MS402/MS572/-405825.039+1753825.969</Line>
     <Line Pattern="Solid">ATVOX/SADUN</Line>
     <Line Pattern="Solid">URDAL/SADUN</Line>
   </Map>
   <Map Type="System2" Name="24 RNP Labels" Priority="1" Center="-40.973622+175.640547" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>SADUN</Point>
       <Point>ATVOX</Point>
       <Point>URDAL</Point>
       <Point>MS402</Point>
-      <Point>SADUN</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-40.973333+175.633611">

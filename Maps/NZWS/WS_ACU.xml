@@ -2,7 +2,7 @@
 <Maps>
   <Map Type="System2" Name="04 STARs" Priority="1" CustomColourName="ProcArr" Center="-41.740256+171.572608">
     <Line>
-      <!--Rwy04 AKSE1E-->
+      <!--Rwy04 AKSE2E-->
       AKSEM/AREDU/KAKOM/AVMAK
     </Line>
     <Line>
@@ -10,11 +10,11 @@
       DAMIL/BURKI
     </Line>
     <Line>
-      <!--Rwy04 ESDA1E-->
+      <!--Rwy04 ESDA2E-->
       ESDAK/WS401/WS406/AVMAK
     </Line>
     <Line>
-      <!--Rwy04 KAKE1E-->
+      <!--Rwy04 KAKE2E-->
       KAKET/GUNOM
     </Line>
     <Symbol Type="HollowTriangle">
@@ -53,11 +53,11 @@
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>WS404</Point>
+      <Point>ISPEB</Point>
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">BURKI/WS404/-414424.922+1713421.389</Line>
+    <Line Pattern="Solid">BURKI/ISPEB/-414424.922+1713421.389</Line>
     <Line Pattern="Solid">AVMAK/BURKI</Line>
     <Line Pattern="Solid">GUNOM/BURKI</Line>
   </Map>
@@ -66,12 +66,12 @@
       <Point>BURKI</Point>
       <Point>AVMAK</Point>
       <Point>GUNOM</Point>
-      <Point>WS404</Point>
+      <Point>ISPEB</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="22 STARs" Priority="1" CustomColourName="ProcArr" Center="-41.733908+171.585467">
     <Line>
-      <!--Rwy22 AKSE1F-->
+      <!--Rwy22 AKSE2F-->
       AKSEM/WS501/PILUP
     </Line>
     <Line>
@@ -79,7 +79,7 @@
       DAMIL/ANSIS
     </Line>
     <Line>
-      <!--Rwy22 ESDA1F-->
+      <!--Rwy22 ESDA2F-->
       ESDAK/WS501
     </Line>
     <Symbol Type="HollowTriangle">
@@ -105,26 +105,27 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
-      <Point>WS408</Point>
       <Point>ANSIS</Point>
       <Point>PILUP</Point>
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>WS411</Point>
+      <Point>UDIRI</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">WS408/WS411/-414402.069+1713507.681</Line>
+    <Symbol Type="SolidTriangle">
+      <Point>WS408</Point>
+    </Symbol>
+    <Line Pattern="Solid">WS408/UDIRI/-414402.069+1713507.681</Line>
     <Line Pattern="Solid">ANSIS/WS408</Line>
     <Line Pattern="Solid">PILUP/WS408</Line>
   </Map>
   <Map Type="System2" Name="22 RNP Labels" Priority="1" Center="-41.733908+171.585467" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>WS408</Point>
       <Point>ANSIS</Point>
       <Point>PILUP</Point>
-      <Point>WS411</Point>
+      <Point>UDIRI</Point>
+      <Point>WS408</Point>
     </Label>
   </Map>
 </Maps>
