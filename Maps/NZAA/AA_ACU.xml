@@ -762,9 +762,6 @@
       FIRTH/OLBEX
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L LENG2A-->
-    </Line>
-    <Line Pattern="Dashed">
       <!--Rwy23L LENG4P-->
       LENGU/ENSAX/IPDIN/NUTRA
     </Line>
@@ -922,10 +919,10 @@
       <Point>BELRA</Point>
       <Point>ELSAB</Point>
       <Point>FIRTH</Point>
-      <Point>LENGU</Point>
       <Point>NUTRA</Point>
       <Point>LEVRA</Point>
       <Point>MEMOR</Point>
+      <Point>LENGU</Point>
       <Point>OSRAP</Point>
       <Point>STEAL</Point>
       <Point>DUGAN</Point>

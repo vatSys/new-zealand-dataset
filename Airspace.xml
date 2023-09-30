@@ -40,7 +40,6 @@
         <SID Name="BELR2P" />
         <SID Name="ELSA2P" />
         <SID Name="FIRT3P" />
-        <SID Name="LENG2A" />
         <SID Name="LENG4P" />
         <SID Name="LEVR1P" />
         <SID Name="MEMO2P" />
@@ -6505,9 +6504,6 @@ RILEY
       <Route Runway="05R">EMRAG/XELAN/KADMA</Route>
       <Transition Name="DUGAN">DUGAN</Transition>
       <Transition Name="ELNOS">ELNOS</Transition>
-    </SID>
-    <SID Name="LENG2A" Airport="NZAA" Runways="23L">
-      <Route Runway="23L">LENGU</Route>
     </SID>
     <SID Name="LENG4P" Airport="NZAA" Runways="23L">
       <Route Runway="23L">LENGU/ENSAX/IPDIN/NUTRA</Route>
