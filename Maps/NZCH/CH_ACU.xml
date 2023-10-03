@@ -743,47 +743,47 @@
   </Map>
   <Map Type="System2" Name="11 STARs" Priority="1" CustomColourName="ProcArr" Center="-43.484278+172.524414">
     <Line Pattern="Solid">
-      <!--Rwy11 BLUN1D.AVOCA-->
+      <!--Rwy11 BLUN2D.AVOCA-->
       AVOCA/SAVKU/BLUNT
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy11 BLUN1D.IGEGA-->
+      <!--Rwy11 BLUN2D.IGEGA-->
       IGEGA/BLUNT
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy11 BLUN1D.KABKA-->
+      <!--Rwy11 BLUN2D.KABKA-->
       KABKA/NURNI/SAVKU
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy11 BLUN1D.PEAKS-->
+      <!--Rwy11 BLUN2D.PEAKS-->
       PEAKS/BLUNT
     </Line>
     <Line>
-      <!--Rwy11 BLUN1D-->
+      <!--Rwy11 BLUN2D-->
       BLUNT/TARUM/IGLIS
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy11 HODE2D.ELDAK-->
+      <!--Rwy11 HODE3D.ELDAK-->
       ELDAK/HODDE
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy11 HODE2D.LADIS-->
+      <!--Rwy11 HODE3D.KABIN-->
+      KABIN/MOLGI/POROS/REBUR/HODDE
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy11 HODE3D.LADIS-->
       LADIS/HODDE
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy11 HODE2D.MOLGI-->
-      MOLGI/POROS/REBUR/HODDE
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy11 HODE2D.VANDA-->
+      <!--Rwy11 HODE3D.VANDA-->
       VANDA/POROS
     </Line>
     <Line>
-      <!--Rwy11 HODE2D-->
+      <!--Rwy11 HODE3D-->
       HODDE/AVDID
     </Line>
     <Line>
-      <!--Rwy11 MESI2D-->
+      <!--Rwy11 MESI3D-->
       MESIX/KABGO/GUKAM/LATIP/PABRA/AVDID
     </Line>
     <Symbol Type="HollowTriangle">
@@ -801,10 +801,11 @@
       <Point>TARUM</Point>
       <Point>ELDAK</Point>
       <Point>HODDE</Point>
-      <Point>LADIS</Point>
+      <Point>KABIN</Point>
       <Point>MOLGI</Point>
       <Point>POROS</Point>
       <Point>REBUR</Point>
+      <Point>LADIS</Point>
       <Point>VANDA</Point>
       <Point>MESIX</Point>
       <Point>KABGO</Point>
@@ -821,8 +822,8 @@
       <Point>KABKA</Point>
       <Point>PEAKS</Point>
       <Point>ELDAK</Point>
+      <Point>KABIN</Point>
       <Point>LADIS</Point>
-      <Point>MOLGI</Point>
       <Point>VANDA</Point>
       <Point>IGLIS</Point>
       <Point>AVDID</Point>
@@ -983,115 +984,120 @@
     </Label>
   </Map>
   <Map Type="System2" Name="29 STARs" Priority="1" CustomColourName="ProcArr" Center="-43.494381+172.540883">
-    <Line>
-      <!--Rwy29 AVOC5G-->
-      AVOCA/BISUP/CHARR/IDUBU/SUPSO
+    <Line Pattern="Solid">
+      <!--Rwy29 AKAM1G.LADIS-->
+      LADIS/AKAMO
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy29 BELE5G.KABKA-->
+      <!--Rwy29 AKAM1G.PEHRR-->
+      PEHRR/AKAMO
+    </Line>
+    <Line>
+      <!--Rwy29 AKAM1G-->
+      AKAMO/IDUBU/SUPSO
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy29 BELE6G.KABKA-->
       KABKA/BELEE
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy29 BELE5G.VANDA-->
+      <!--Rwy29 BELE6G.VANDA-->
       VANDA/BELEE
     </Line>
     <Line>
-      <!--Rwy29 BELE5G-->
-      BELEE/AVOCA
+      <!--Rwy29 BELE6G-->
+      BELEE/AVOCA/BISUP/CHARR/IDUBU
     </Line>
-    <Line>
-      <!--Rwy29 DOPK4G-->
-      DOPKI/HODDE/IDUBU
+    <Line Pattern="Solid">
+      <!--Rwy29 BLUN1G.IGEGA-->
+      IGEGA/BLUNT
     </Line>
-    <Line>
-      <!--Rwy29 ELDA4G-->
-      ELDAK/HODDE
-    </Line>
-    <Line>
-      <!--Rwy29 IGEG4G-->
-      IGEGA/BLUNT/NODEL/ABVIM
-    </Line>
-    <Line>
-      <!--Rwy29 KIDA4G-->
+    <Line Pattern="Solid">
+      <!--Rwy29 BLUN1G.KIDAL-->
       KIDAL/BLUNT
     </Line>
-    <Line>
-      <!--Rwy29 LADI3G-->
-      LADIS/AKAMO/IDUBU
-    </Line>
-    <Line>
-      <!--Rwy29 MESI3G-->
-      MESIX/KABGO/ABVIM
-    </Line>
-    <Line>
-      <!--Rwy29 MOLG4G-->
-      MOLGI/CH739/DOVEM/CH429/HODDE
-    </Line>
-    <Line>
-      <!--Rwy29 PEAK4G-->
+    <Line Pattern="Solid">
+      <!--Rwy29 BLUN1G.PEAKS-->
       PEAKS/BLUNT
     </Line>
     <Line>
-      <!--Rwy29 PEHR3G-->
-      PEHRR/AKAMO
+      <!--Rwy29 BLUN1G-->
+      BLUNT/NODEL/ABVIM
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy29 REPA2G.LALAP-->
-      LALAP/CH789/REPAP
+      <!--Rwy29 HODE1G.DOPKI-->
+      DOPKI/HODDE
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy29 HODE1G.ELDAK-->
+      ELDAK/HODDE
     </Line>
     <Line>
-      <!--Rwy29 REPA2G-->
-      REPAP/ABVIM
+      <!--Rwy29 HODE1G-->
+      HODDE/IDUBU
+    </Line>
+    <Line>
+      <!--Rwy29 LALA1G-->
+      LALAP/CH789/REPAP/ABVIM
+    </Line>
+    <Line>
+      <!--Rwy29 MESI4G-->
+      MESIX/KABGO/ABVIM
+    </Line>
+    <Line>
+      <!--Rwy29 MOLG5G-->
+      MOLGI/CH739/DOVEM/CH429/HODDE
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>SUPSO</Point>
       <Point>ABVIM</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
-      <Point>AVOCA</Point>
-      <Point>BISUP</Point>
-      <Point>CHARR</Point>
+      <Point>LADIS</Point>
+      <Point>AKAMO</Point>
+      <Point>PEHRR</Point>
       <Point>IDUBU</Point>
       <Point>KABKA</Point>
       <Point>BELEE</Point>
       <Point>VANDA</Point>
+      <Point>AVOCA</Point>
+      <Point>BISUP</Point>
+      <Point>CHARR</Point>
+      <Point>IGEGA</Point>
+      <Point>BLUNT</Point>
+      <Point>KIDAL</Point>
+      <Point>PEAKS</Point>
+      <Point>NODEL</Point>
       <Point>DOPKI</Point>
       <Point>HODDE</Point>
       <Point>ELDAK</Point>
-      <Point>IGEGA</Point>
-      <Point>BLUNT</Point>
-      <Point>NODEL</Point>
-      <Point>KIDAL</Point>
-      <Point>LADIS</Point>
-      <Point>AKAMO</Point>
+      <Point>LALAP</Point>
+      <Point>CH789</Point>
+      <Point>REPAP</Point>
       <Point>MESIX</Point>
       <Point>KABGO</Point>
       <Point>MOLGI</Point>
       <Point>CH739</Point>
       <Point>DOVEM</Point>
       <Point>CH429</Point>
-      <Point>PEAKS</Point>
-      <Point>PEHRR</Point>
-      <Point>LALAP</Point>
-      <Point>CH789</Point>
-      <Point>REPAP</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>AVOCA</Point>
+      <Point>AKAMO</Point>
       <Point>BELEE</Point>
-      <Point>DOPKI</Point>
-      <Point>ELDAK</Point>
-      <Point>IGEGA</Point>
-      <Point>KIDAL</Point>
-      <Point>LADIS</Point>
+      <Point>BLUNT</Point>
+      <Point>HODDE</Point>
+      <Point>LALAP</Point>
       <Point>MESIX</Point>
       <Point>MOLGI</Point>
-      <Point>PEAKS</Point>
+      <Point>LADIS</Point>
       <Point>PEHRR</Point>
-      <Point>REPAP</Point>
       <Point>KABKA</Point>
       <Point>VANDA</Point>
-      <Point>LALAP</Point>
+      <Point>IGEGA</Point>
+      <Point>KIDAL</Point>
+      <Point>PEAKS</Point>
+      <Point>DOPKI</Point>
+      <Point>ELDAK</Point>
       <Point>SUPSO</Point>
       <Point>ABVIM</Point>
     </Label>

@@ -18,19 +18,15 @@
       AKELA/VELMO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R AVDA1Q-->
+      <!--Rwy05R AVDA2Q-->
       AA05R/-36.986944+174.856944/DOVON/AVDAT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R AVDA1Q.BOVRU-->
-      AVDAT/BOVRU
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy05R AVDA1Q.KAWAU-->
+      <!--Rwy05R AVDA2Q.KAWAU-->
       AVDAT/KAWAU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R AVDA1Q.PUHOI-->
+      <!--Rwy05R AVDA2Q.PUHOI-->
       AVDAT/PUHOI
     </Line>
     <Line Pattern="Dashed">
@@ -62,6 +58,18 @@
       BROOK/LIMES/KARRL
     </Line>
     <Line Pattern="Dashed">
+      <!--Rwy05R DOVO1Q-->
+      -37.006656+174.805742/AA23L/-36.986944+174.856944
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R DOVO1Q.BOVRU-->
+      DOVON/BOVRU
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R DOVO1Q.HOOKS-->
+      DOVON/HOOKS
+    </Line>
+    <Line Pattern="Dashed">
       <!--Rwy05R EMRA1Q-->
     </Line>
     <Line Pattern="Dashed">
@@ -78,7 +86,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05R NZAA4B-->
-      -37.006656+174.805742/AA23L/EMRAG
+      AA23L/EMRAG
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05R PAGL3Q-->
@@ -145,7 +153,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05R REKI4Q-->
-      AA05R/-36.991111+174.855000/VINOD/-37.118611+174.868889/BUDLU/REKIS
+      -36.986944+174.856944/VINOD/-37.118611+174.868889/BUDLU/REKIS
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05R REKI4Q.KAPAI-->
@@ -210,7 +218,6 @@
       <Point>VELMO</Point>
       <Point>DOVON</Point>
       <Point>AVDAT</Point>
-      <Point>BOVRU</Point>
       <Point>KAWAU</Point>
       <Point>PUHOI</Point>
       <Point>XELAN</Point>
@@ -226,10 +233,12 @@
       <Point>KAPAI</Point>
       <Point>LIMES</Point>
       <Point>KARRL</Point>
+      <Point>AA23L</Point>
+      <Point>BOVRU</Point>
+      <Point>HOOKS</Point>
       <Point>KADMA</Point>
       <Point>DUGAN</Point>
       <Point>ELNOS</Point>
-      <Point>AA23L</Point>
       <Point>ADKUM</Point>
       <Point>MADVI</Point>
       <Point>VINOD</Point>
@@ -259,6 +268,7 @@
       <Point>BATOS</Point>
       <Point>SALAG</Point>
       <Point>BROOK</Point>
+      <Point>DOVON</Point>
       <Point>EMRAG</Point>
       <Point>KADMA</Point>
       <Point>PAGLA</Point>
@@ -269,13 +279,14 @@
       <Point>GULUT</Point>
       <Point>PEBLU</Point>
       <Point>VELMO</Point>
-      <Point>BOVRU</Point>
       <Point>KAWAU</Point>
       <Point>PUHOI</Point>
       <Point>MADEP</Point>
       <Point>UPLAR</Point>
       <Point>KAPAI</Point>
       <Point>KARRL</Point>
+      <Point>BOVRU</Point>
+      <Point>HOOKS</Point>
       <Point>DUGAN</Point>
       <Point>ELNOS</Point>
       <Point>NUTRA</Point>
@@ -691,27 +702,35 @@
       BELRA/DADLA/SALAG
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L ELSA1P-->
+      <!--Rwy23L ELSA2P-->
       AA23L/-37.031667+174.709444/PEEHA/ELSAB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L ELSA1P.BOVRU-->
+      <!--Rwy23L ELSA2P.BOVRU-->
       ELSAB/BOVRU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L ELSA1P.KOPPA-->
+      <!--Rwy23L ELSA2P.HOOKS-->
+      ELSAB/HOOKS
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L ELSA2P.KAWAU-->
+      ELSAB/KAWAU
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L ELSA2P.KOPPA-->
       ELSAB/KOPPA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L ELSA1P.KYPRA-->
+      <!--Rwy23L ELSA2P.KYPRA-->
       ELSAB/KYPRA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L ELSA1P.OTATA-->
+      <!--Rwy23L ELSA2P.OTATA-->
       ELSAB/OTATA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L ELSA1P.WP-->
+      <!--Rwy23L ELSA2P.WP-->
       ELSAB/WP VOR
     </Line>
     <Line Pattern="Dashed">
@@ -741,9 +760,6 @@
     <Line Pattern="Dashed">
       <!--Rwy23L FIRT3P.OLBEX-->
       FIRTH/OLBEX
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy23L LENG2A-->
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23L LENG4P-->
@@ -852,6 +868,8 @@
       <Point>PEEHA</Point>
       <Point>ELSAB</Point>
       <Point>BOVRU</Point>
+      <Point>HOOKS</Point>
+      <Point>KAWAU</Point>
       <Point>KOPPA</Point>
       <Point>KYPRA</Point>
       <Point>OTATA</Point>
@@ -901,16 +919,18 @@
       <Point>BELRA</Point>
       <Point>ELSAB</Point>
       <Point>FIRTH</Point>
-      <Point>LENGU</Point>
       <Point>NUTRA</Point>
       <Point>LEVRA</Point>
       <Point>MEMOR</Point>
+      <Point>LENGU</Point>
       <Point>OSRAP</Point>
       <Point>STEAL</Point>
       <Point>DUGAN</Point>
       <Point>ELNOS</Point>
       <Point>SALAG</Point>
       <Point>BOVRU</Point>
+      <Point>HOOKS</Point>
+      <Point>KAWAU</Point>
       <Point>KOPPA</Point>
       <Point>KYPRA</Point>
       <Point>OTATA</Point>
@@ -1340,6 +1360,7 @@
       <Point>GOBOB</Point>
       <Point>ESMON</Point>
       <Point>AKROV</Point>
+      <Point>LURLU</Point>
       <Point>AA409</Point>
     </Symbol>
     <!--IAF Symbols-->
@@ -1368,7 +1389,7 @@
     <Line Pattern="Solid">VABTI/AA521/AA428/AA516/TUSLO/-370023.962+1744820.671</Line>
     <Line Pattern="Solid">TEVUC/SUBUN/AA513/AA412</Line>
     <Line Pattern="Solid">KIDAG/LOSGA/LAGUT/GOBOB/ESMON/AKROV/DUNAD/-370023.962+1744820.671</Line>
-    <Line Pattern="Solid">ESNAX/NOKAM/AA409/-370023.962+1744820.671</Line>
+    <Line Pattern="Solid">ESNAX/NOKAM/LURLU/AA409/-370023.962+1744820.671</Line>
   </Map>
   <Map Type="System2" Name="23L RNP-AR Labels" Priority="1" Center="-37.006656+174.805742" CustomColourName="ProcArr">
     <Label HasLeader="true">
