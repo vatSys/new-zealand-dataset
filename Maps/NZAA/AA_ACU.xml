@@ -498,30 +498,9 @@
     <Line>
       <!--Rwy05R SCAR3D-->
     </Line>
-    <Line Pattern="Solid">
-      <!--Rwy05R UKAP3B.KK-->
-      KK NDB/UKAPA
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy05R UKAP3B.PERAS-->
-      PERAS/UKAPA
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy05R UKAP3B.SF-->
-      SF NDB/UKAPA
-    </Line>
     <Line>
       <!--Rwy05R UKAP3B-->
       UKAPA/SHILI/AKBAM
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy05R UKAP2D.KK-->
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy05R UKAP2D.PERAS-->
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy05R UKAP2D.SF-->
     </Line>
     <Line>
       <!--Rwy05R UKAP2D-->
@@ -535,8 +514,6 @@
     </Symbol>
     <Symbol Type="Circle">
       <Point>HN VOR</Point>
-      <Point>KK NDB</Point>
-      <Point>SF NDB</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>LUNBI</Point>
@@ -587,7 +564,6 @@
       <Point>OSIVO</Point>
       <Point>SCARY</Point>
       <Point>UKAPA</Point>
-      <Point>PERAS</Point>
       <Point>SHILI</Point>
       <Point>MUDEE</Point>
     </Symbol>
@@ -620,9 +596,6 @@
       <Point>SELKA</Point>
       <Point>TARIB</Point>
       <Point>HN VOR</Point>
-      <Point>KK NDB</Point>
-      <Point>PERAS</Point>
-      <Point>SF NDB</Point>
       <Point>LENGU</Point>
       <Point>ATAMA</Point>
       <Point>VIRIS</Point>
@@ -957,23 +930,9 @@
     </Label>
   </Map>
   <Map Type="System2" Name="23L STARs" Priority="1" CustomColourName="ProcArr" Center="-37.006656+174.805742">
-    <Line Pattern="Solid">
-      <!--Rwy23L APAB3A.KK-->
-      KK NDB/SF NDB/APABO
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy23L APAB3A.PERAS-->
-      PERAS/APABO
-    </Line>
     <Line>
       <!--Rwy23L APAB3A-->
       APABO/OMAHA/AA423/VIBAG/EMRAG
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy23L APAB3C.KK-->
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy23L APAB3C.PERAS-->
     </Line>
     <Line>
       <!--Rwy23L APAB3C-->
@@ -1213,13 +1172,10 @@
       <Point>FOKRE</Point>
     </Symbol>
     <Symbol Type="Circle">
-      <Point>KK NDB</Point>
-      <Point>SF NDB</Point>
       <Point>HN VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>APABO</Point>
-      <Point>PERAS</Point>
       <Point>OMAHA</Point>
       <Point>AA423</Point>
       <Point>VIBAG</Point>
@@ -1291,8 +1247,6 @@
       <Point>PEPPE</Point>
       <Point>SKEPY</Point>
       <Point>TAZEY</Point>
-      <Point>KK NDB</Point>
-      <Point>PERAS</Point>
       <Point>PEBLU</Point>
       <Point>VELMO</Point>
       <Point>ELNOS</Point>

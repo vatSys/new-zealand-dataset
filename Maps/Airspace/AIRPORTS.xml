@@ -189,6 +189,7 @@
       <Point>NZTT</Point>
       <Point>NZTU</Point>
       <Point>NZTW</Point>
+      <Point>NZTX</Point>
       <Point>NZTZ</Point>
       <Point>NZUA</Point>
       <Point>NZUB</Point>
@@ -408,6 +409,7 @@
       <Point Name="TT">NZTT</Point>
       <Point Name="TU">NZTU</Point>
       <Point Name="TW">NZTW</Point>
+      <Point Name="TX">NZTX</Point>
       <Point Name="TZ">NZTZ</Point>
       <Point Name="UA">NZUA</Point>
       <Point Name="UB">NZUB</Point>

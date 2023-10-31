@@ -1,277 +1,472 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
+  <Map Type="System2" Name="03 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.666069+177.971878">
+    <Line>
+      <!--Rwy03 GS1E-->
+      GS VOR/VASNI
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>VASNI</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>VASNI</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>GS VOR</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>GS VOR</Point>
+      <Point>VASNI</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="21 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.659011+177.981889">
+    <Line>
+      <!--Rwy21 GS1E-->
+      GS VOR/VASNI
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>VASNI</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>VASNI</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>GS VOR</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>GS VOR</Point>
+      <Point>VASNI</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="09 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.659603+177.970047">
+    <Line>
+      <!--Rwy09 GS1E-->
+      GS VOR/VASNI
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>VASNI</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>VASNI</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>GS VOR</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>GS VOR</Point>
+      <Point>VASNI</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="27 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.663958+177.982314">
+    <Line>
+      <!--Rwy27 GS1E-->
+      GS VOR/VASNI
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>VASNI</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>VASNI</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>GS VOR</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>GS VOR</Point>
+      <Point>VASNI</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="14 SIDs" Priority="1" CustomColourName="ProcDep" Center="-38.669686+177.979039">
     <Line Pattern="Dashed">
-      <!--Rwy14 GAN1-->
-      -38.669686+177.979039/GS14T/-38.678162+177.982151
+      <!--Rwy14 MIGE1Q-->
+      -38.669686+177.979039/GS14T/-38.678162+177.982151/OMLIK/VENAL/PAVRI/MIGEN
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 NIC3-->
+      <!--Rwy14 MIGE1Q.DABIP-->
+      MIGEN/DABIP
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 NUH3-->
+      <!--Rwy14 MIGE1Q.KEEPA-->
+      MIGEN/KEEPA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 POPAD2-->
-      GS14T/POPAD/-38.678162+177.982151
+      <!--Rwy14 MIGE1S-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 POPAD2.COOKS-->
+      <!--Rwy14 MIGE1S.DABIP-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy14 MIGE1S.KEEPA-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy14 NIC4-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy14 NIC4.COOKS-->
       -38.678162+177.982151/COOKS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 POPAD2.CREEK-->
-      -38.678162+177.982151/ADLIB/CREEK
+      <!--Rwy14 NIC4.DABIP-->
+      -38.678162+177.982151/DABIP
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 POPAD2.ELMER-->
+      <!--Rwy14 NIC4.ELMER-->
       -38.678162+177.982151/ELMER
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 POPAD2.HAWKE-->
-      -38.678162+177.982151/HAWKE
+      <!--Rwy14 NIC4.KEEPA-->
+      -38.678162+177.982151/KEEPA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 POPAD2.OTOKO-->
-      ADLIB/EWOOD/OTOKO
+      <!--Rwy14 NIC4.RULSI-->
+      -38.678162+177.982151/RULSI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 POPAD2.WARIK-->
-      EWOOD/WARIK
+      <!--Rwy14 NUH4-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 TUN2-->
+      <!--Rwy14 NUH4.COOKS-->
     </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy14 NUH4.DABIP-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy14 NUH4.ELMER-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy14 NUH4.KEEPA-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy14 NUH4.RULSI-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy14 OLDE1Q-->
+      GS14T/OLDEB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy14 OLDE1Q.COOKS-->
+      OLDEB/COOKS
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy14 OLDE1Q.RULSI-->
+      OLDEB/VADGO/POPOV/RULSI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy14 TUN3-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy14 TUN3.DABIP-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy14 TUN3.ELMER-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy14 TUN3.KEEPA-->
+    </Line>
+    <Symbol Type="SolidStar">
+      <Point>-38.678162+177.982151</Point>
+    </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>GS14T</Point>
-      <Point>POPAD</Point>
+      <Point>OMLIK</Point>
+      <Point>VENAL</Point>
+      <Point>PAVRI</Point>
+      <Point>MIGEN</Point>
+      <Point>DABIP</Point>
+      <Point>KEEPA</Point>
       <Point>COOKS</Point>
-      <Point>ADLIB</Point>
-      <Point>CREEK</Point>
       <Point>ELMER</Point>
-      <Point>HAWKE</Point>
-      <Point>EWOOD</Point>
-      <Point>OTOKO</Point>
-      <Point>WARIK</Point>
+      <Point>RULSI</Point>
+      <Point>OLDEB</Point>
+      <Point>VADGO</Point>
+      <Point>POPOV</Point>
     </Symbol>
     <Label HasLeader="true">
+      <Point>MIGEN</Point>
+      <Point>OLDEB</Point>
+      <Point>DABIP</Point>
+      <Point>KEEPA</Point>
       <Point>COOKS</Point>
-      <Point>CREEK</Point>
       <Point>ELMER</Point>
-      <Point>HAWKE</Point>
-      <Point>OTOKO</Point>
-      <Point>WARIK</Point>
+      <Point>RULSI</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="14 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.658300+177.974975">
     <Line>
-      <!--Rwy14 ELME1A-->
-      ELMER/EWOOD
+      <!--Rwy14 COKS1A-->
+      COOKS/ERVET/OMLIK/UPTER/MALSA/AVBIX
     </Line>
     <Line>
-      <!--Rwy14 GS3A-->
-      GS VOR/XEPEP/EWOOD
+      <!--Rwy14 DABI1A-->
+      DABIP/LEKON/GS414/OLGEG/GUDRU
     </Line>
     <Line>
-      <!--Rwy14 HAWK3A-->
-      HAWKE/EWOOD
+      <!--Rwy14 GS2D-->
+      GS VOR/-38.509490+178.070860
     </Line>
     <Line>
-      <!--Rwy14 KOPU3A-->
-      KOPUA/XEPEP
+      <!--Rwy14 GS1E-->
+      GS VOR/VASNI
+    </Line>
+    <Line>
+      <!--Rwy14 KEPA1A-->
+      KEEPA/INVOT/GS541/ISMIM/GUDRU
+    </Line>
+    <Line>
+      <!--Rwy14 RULS1A-->
+      RULSI/HAWKE/LIPRI/GUDRU
+    </Line>
+    <Line>
+      <!--Rwy14 VASN1A-->
+      VASNI/UPTER
     </Line>
     <Symbol Type="HollowTriangle">
-      <Point>EWOOD</Point>
+      <Point>AVBIX</Point>
+      <Point>GUDRU</Point>
+      <Point>VASNI</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>VASNI</Point>
     </Symbol>
     <Symbol Type="Circle">
       <Point>GS VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
-      <Point>ELMER</Point>
-      <Point>XEPEP</Point>
+      <Point>COOKS</Point>
+      <Point>ERVET</Point>
+      <Point>OMLIK</Point>
+      <Point>UPTER</Point>
+      <Point>MALSA</Point>
+      <Point>DABIP</Point>
+      <Point>LEKON</Point>
+      <Point>GS414</Point>
+      <Point>OLGEG</Point>
+      <Point>KEEPA</Point>
+      <Point>INVOT</Point>
+      <Point>GS541</Point>
+      <Point>ISMIM</Point>
+      <Point>RULSI</Point>
       <Point>HAWKE</Point>
-      <Point>KOPUA</Point>
+      <Point>LIPRI</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>ELMER</Point>
+      <Point>COOKS</Point>
+      <Point>DABIP</Point>
       <Point>GS VOR</Point>
-      <Point>HAWKE</Point>
-      <Point>KOPUA</Point>
-      <Point>EWOOD</Point>
+      <Point>KEEPA</Point>
+      <Point>RULSI</Point>
+      <Point>VASNI</Point>
+      <Point>AVBIX</Point>
+      <Point>GUDRU</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="14 RNP" Priority="1" Center="-38.658300+177.974975" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle" />
-    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
-      <Point>RUGRU</Point>
-      <Point>CREEK</Point>
-      <Point>EWOOD</Point>
-      <Point>OTOKO</Point>
-      <Point>WARIK</Point>
-    </Symbol>
-    <!--FAF Symbols-->
-    <Symbol Type="MalteseCross">
       <Point>SALEK</Point>
     </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>AVBIX</Point>
+      <Point>GUDRU</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross" />
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">RUGRU/SALEK/-383929.880+1775829.910</Line>
-    <Line Pattern="Solid">CREEK/RUGRU</Line>
-    <Line Pattern="Solid">EWOOD/RUGRU</Line>
-    <Line Pattern="Solid">OTOKO/RUGRU</Line>
-    <Line Pattern="Solid">WARIK/RUGRU</Line>
+    <Line Pattern="Solid">AVBIX/SALEK/-383929.880+1775829.910</Line>
+    <Line Pattern="Solid">GUDRU/AVBIX</Line>
   </Map>
   <Map Type="System2" Name="14 RNP Labels" Priority="1" Center="-38.658300+177.974975" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>RUGRU</Point>
-      <Point>CREEK</Point>
-      <Point>EWOOD</Point>
-      <Point>OTOKO</Point>
-      <Point>WARIK</Point>
-      <Point>SALEK</Point>
+      <Point>AVBIX</Point>
+      <Point>GUDRU</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="32 SIDs" Priority="1" CustomColourName="ProcDep" Center="-38.658300+177.974975">
     <Line Pattern="Dashed">
-      <!--Rwy32 CIT3-->
-      -38.658300+177.974975/GS32T/-38.653182+177.973461/-38.652302+177.980511/GS VOR
+      <!--Rwy32 COKS1P-->
+      -38.658300+177.974975/GS32T/-38.653182+177.973461/OMLIK/ERVET/COOKS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 CRA3-->
+      <!--Rwy32 COKS1P.RULSI-->
+      COOKS/DOXOR/POPOV/RULSI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 NODEX2-->
-      GS32T/NODEX
+      <!--Rwy32 COKS1R-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 NODEX2.COOKS-->
-      NODEX/COOKS
+      <!--Rwy32 COKS1R.RULSI-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 NODEX2.CREEK-->
-      NODEX/CREEK
+      <!--Rwy32 CRA4-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 NODEX2.ELMER-->
-      NODEX/MABRI/ELMER
+      <!--Rwy32 CRA4.COOKS-->
+      -38.653182+177.973461/COOKS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 NODEX2.EWOOD-->
-      NODEX/EWOOD
+      <!--Rwy32 CRA4.DABIP-->
+      -38.653182+177.973461/DABIP
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 NODEX2.HAWKE-->
-      NODEX/HAWKE
+      <!--Rwy32 CRA4.ELMER-->
+      -38.653182+177.973461/ELMER
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 NODEX2.OTOKO-->
-      NODEX/OTOKO
+      <!--Rwy32 CRA4.KEEPA-->
+      -38.653182+177.973461/KEEPA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 PUA3-->
+      <!--Rwy32 CRA4.RULSI-->
+      -38.653182+177.973461/RULSI
     </Line>
-    <Symbol Type="Circle">
-      <Point>GS VOR</Point>
+    <Line Pattern="Dashed">
+      <!--Rwy32 MIGE1P-->
+      GS32T/BEGAG/MIGEN
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy32 MIGE1P.DABIP-->
+      MIGEN/DABIP
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy32 MIGE1P.KEEPA-->
+      MIGEN/KEEPA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy32 PUA4-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy32 PUA4.COOKS-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy32 PUA4.DABIP-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy32 PUA4.ELMER-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy32 PUA4.KEEPA-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy32 PUA4.RULSI-->
+    </Line>
+    <Symbol Type="SolidStar">
+      <Point>-38.653182+177.973461</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>GS32T</Point>
-      <Point>NODEX</Point>
+      <Point>OMLIK</Point>
+      <Point>ERVET</Point>
       <Point>COOKS</Point>
-      <Point>CREEK</Point>
-      <Point>MABRI</Point>
+      <Point>DOXOR</Point>
+      <Point>POPOV</Point>
+      <Point>RULSI</Point>
+      <Point>DABIP</Point>
       <Point>ELMER</Point>
-      <Point>EWOOD</Point>
-      <Point>HAWKE</Point>
-      <Point>OTOKO</Point>
+      <Point>KEEPA</Point>
+      <Point>BEGAG</Point>
+      <Point>MIGEN</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>GS VOR</Point>
-      <Point>NODEX</Point>
       <Point>COOKS</Point>
-      <Point>CREEK</Point>
+      <Point>MIGEN</Point>
+      <Point>RULSI</Point>
+      <Point>DABIP</Point>
       <Point>ELMER</Point>
-      <Point>EWOOD</Point>
-      <Point>HAWKE</Point>
-      <Point>OTOKO</Point>
+      <Point>KEEPA</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="32 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.669686+177.979039">
     <Line>
-      <!--Rwy32 CREK2B-->
-      CREEK/UKLIP
+      <!--Rwy32 COKS1B-->
+      COOKS/TUMDU
     </Line>
     <Line>
-      <!--Rwy32 ELME2B-->
-      ELMER/UKLIP
+      <!--Rwy32 DABI1B-->
+      DABIP/LEKON/GS582/GS621/SOSGI/ISDIS
     </Line>
     <Line>
-      <!--Rwy32 GS2B-->
-      GS VOR/KOPUA
+      <!--Rwy32 GS1C-->
+      GS VOR/-38.739090+178.166310
     </Line>
     <Line>
-      <!--Rwy32 HAWK2B-->
-      HAWKE/UKLIP
+      <!--Rwy32 GS1E-->
+      GS VOR/VASNI
     </Line>
     <Line>
-      <!--Rwy32 OTOK3B-->
-      OTOKO/UKLIP
+      <!--Rwy32 KEPA1B-->
+      KEEPA/INVOT/GS533/GS684/LELOS/ISDIS
     </Line>
     <Line>
-      <!--Rwy32 WARI3B-->
-      WARIK/UKLIP
+      <!--Rwy32 RULS1B-->
+      RULSI/HAWKE/LESNU/ISDIS
+    </Line>
+    <Line>
+      <!--Rwy32 VASN1B-->
+      VASNI/GS452/EMTOK/TUMDU
     </Line>
     <Symbol Type="HollowTriangle">
-      <Point>UKLIP</Point>
-      <Point>KOPUA</Point>
+      <Point>TUMDU</Point>
+      <Point>ISDIS</Point>
+      <Point>VASNI</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>VASNI</Point>
     </Symbol>
     <Symbol Type="Circle">
       <Point>GS VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
-      <Point>CREEK</Point>
-      <Point>ELMER</Point>
+      <Point>COOKS</Point>
+      <Point>DABIP</Point>
+      <Point>LEKON</Point>
+      <Point>GS582</Point>
+      <Point>GS621</Point>
+      <Point>SOSGI</Point>
+      <Point>KEEPA</Point>
+      <Point>INVOT</Point>
+      <Point>GS533</Point>
+      <Point>GS684</Point>
+      <Point>LELOS</Point>
+      <Point>RULSI</Point>
       <Point>HAWKE</Point>
-      <Point>OTOKO</Point>
-      <Point>WARIK</Point>
+      <Point>LESNU</Point>
+      <Point>GS452</Point>
+      <Point>EMTOK</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>CREEK</Point>
-      <Point>ELMER</Point>
+      <Point>COOKS</Point>
+      <Point>DABIP</Point>
       <Point>GS VOR</Point>
-      <Point>HAWKE</Point>
-      <Point>OTOKO</Point>
-      <Point>WARIK</Point>
-      <Point>UKLIP</Point>
-      <Point>KOPUA</Point>
+      <Point>KEEPA</Point>
+      <Point>RULSI</Point>
+      <Point>VASNI</Point>
+      <Point>TUMDU</Point>
+      <Point>ISDIS</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="32 RNP" Priority="1" Center="-38.669686+177.979039" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle" />
-    <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
-      <Point>KOPUA</Point>
-      <Point>COOKS</Point>
-      <Point>UKLIP</Point>
-    </Symbol>
-    <!--FAF Symbols-->
-    <Symbol Type="MalteseCross">
       <Point>VESAV</Point>
     </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>TUMDU</Point>
+      <Point>ISDIS</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross" />
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">KOPUA/VESAV/-384010.870+1775844.540</Line>
-    <Line Pattern="Solid">COOKS/KOPUA</Line>
-    <Line Pattern="Solid">UKLIP/KOPUA</Line>
+    <Line Pattern="Solid">TUMDU/VESAV/-384010.870+1775844.540</Line>
+    <Line Pattern="Solid">ISDIS/TUMDU</Line>
   </Map>
   <Map Type="System2" Name="32 RNP Labels" Priority="1" Center="-38.669686+177.979039" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>KOPUA</Point>
-      <Point>COOKS</Point>
-      <Point>UKLIP</Point>
-      <Point>VESAV</Point>
+      <Point>TUMDU</Point>
+      <Point>ISDIS</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-38.663333+177.978333">

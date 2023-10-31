@@ -2,17 +2,17 @@
 <Maps>
   <Map Type="System2" Name="03 STARs" Priority="1" CustomColourName="ProcArr" Center="-36.658144+174.653108">
     <Line>
-      <!--Rwy03 SF1B-->
-      SF NDB/PANGO
+      <!--Rwy03 KOPPA1-->
+      KOPPA/PANGO
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>PANGO</Point>
     </Symbol>
-    <Symbol Type="Circle">
-      <Point>SF NDB</Point>
+    <Symbol Type="HollowTriangle">
+      <Point>KOPPA</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>SF NDB</Point>
+      <Point>KOPPA</Point>
       <Point>PANGO</Point>
     </Label>
   </Map>
@@ -44,29 +44,18 @@
   </Map>
   <Map Type="System2" Name="21 STARs" Priority="1" CustomColourName="ProcArr" Center="-36.654272+174.658264">
     <Line>
-      <!--Rwy21 DOST1A-->
-      DOSTU/SUNEL/UPLIN
-    </Line>
-    <Line>
-      <!--Rwy21 SF1A-->
-      SF NDB/BOLOR
+      <!--Rwy21 APAB1B-->
+      APABO/AVMOL
     </Line>
     <Symbol Type="HollowTriangle">
-      <Point>UPLIN</Point>
-      <Point>BOLOR</Point>
-    </Symbol>
-    <Symbol Type="Circle">
-      <Point>SF NDB</Point>
+      <Point>AVMOL</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
-      <Point>DOSTU</Point>
-      <Point>SUNEL</Point>
+      <Point>APABO</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>DOSTU</Point>
-      <Point>SF NDB</Point>
-      <Point>UPLIN</Point>
-      <Point>BOLOR</Point>
+      <Point>APABO</Point>
+      <Point>AVMOL</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="21 RNP" Priority="1" Center="-36.654272+174.658264" CustomColourName="ProcArr">
@@ -75,21 +64,22 @@
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>UPLIN</Point>
-      <Point>BOLOR</Point>
+      <Point>AVMOL</Point>
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>-36.597019+174.734392</Point>
+      <Point>IPKAT</Point>
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">UPLIN/-36.597019+174.734392/-363915.379+1743929.750</Line>
-    <Line Pattern="Solid">BOLOR/UPLIN</Line>
+    <Line Pattern="Solid">UPLIN/IPKAT/-363915.379+1743929.750</Line>
+    <Line Pattern="Solid">AVMOL/UPLIN</Line>
   </Map>
   <Map Type="System2" Name="21 RNP Labels" Priority="1" Center="-36.654272+174.658264" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>UPLIN</Point>
-      <Point>BOLOR</Point>
+      <Point>AVMOL</Point>
+      <Point>IPKAT</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-36.656667+174.655278">

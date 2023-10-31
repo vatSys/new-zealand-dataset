@@ -354,6 +354,30 @@
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
+    <RestrictedArea Type="Restricted" Name="M307 MARTON" AltitudeFloor="8000" AltitudeCeiling="20000" DAIWEnabled="true" LinePattern="Solid">
+      <Area>
+-394150.700+1752210.300/
+-401357.500+1752550.400/
+-400247.300+1750709.300/
+-394716.400+1750655.800/
+-394143.900+1751306.400/
+-394150.700+1752210.300</Area>
+      <Activations>
+        <Activation H24="false" Start="1800" End="0800" />
+      </Activations>
+    </RestrictedArea>
+    <RestrictedArea Type="Restricted" Name="M308 RONGOTEA" AltitudeFloor="13000" AltitudeCeiling="20000" DAIWEnabled="true" LinePattern="Solid">
+      <Area>
+-401357.500+1752550.400/
+-401838.900+1752622.900/
+-402405.000+1751707.400/
+-402421.700+1750728.400/
+-400247.300+1750709.300/
+-401357.500+1752550.400</Area>
+      <Activations>
+        <Activation H24="false" Start="1800" End="0800" />
+      </Activations>
+    </RestrictedArea>
     <RestrictedArea Type="Restricted" Name="M309 OHAKEA" AltitudeFloor="0" AltitudeCeiling="1500" DAIWEnabled="true" LinePattern="Solid">
       <Area>
 -401301.900+1753230.500/

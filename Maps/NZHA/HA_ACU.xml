@@ -47,7 +47,6 @@
       <Point Name="URENUI">-385950.700+1742324.600</Point>
       <Point Name="WAITARA VALLEY PLANT">-390137.200+1741456.500</Point>
       <Point Name="WATER TOWER">-395535.710+1750409.220</Point>
-      <Point Name="WHANGAEHU RIVER MOUTH">-400224.100+1750553.400</Point>
       <Point Name="WHANGANUI PORT">-395642.920+1745922.860</Point>
     </Symbol>
     <Label HasLeader="true">
@@ -69,7 +68,6 @@
       <Point Name="URENUI">-385950.700+1742324.600</Point>
       <Point Name="WAITARA VALLEY PLANT">-390137.200+1741456.500</Point>
       <Point Name="WATER TOWER">-395535.710+1750409.220</Point>
-      <Point Name="WHANGAEHU RIVER MOUTH">-400224.100+1750553.400</Point>
       <Point Name="WHANGANUI PORT">-395642.920+1745922.860</Point>
     </Label>
   </Map>
