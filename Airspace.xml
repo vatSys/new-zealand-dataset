@@ -324,7 +324,7 @@
       <Runway Name="12" DataRunway="12" />
       <Runway Name="21" DataRunway="21">
         <STAR Name="BELE1M" ApproachName="RNP" />
-        <STAR Name="IDER3B" ApproachName="RNP" />
+        <STAR Name="IDER1M" ApproachName="RNP" />
         <STAR Name="IGNO1M" ApproachName="RNP" />
         <STAR Name="OSRI1M" ApproachName="RNP" />
       </Runway>
@@ -763,7 +763,7 @@
         <SID Name="MORT3R" />
         <SID Name="RUST3R" />
         <STAR Name="BIKO2B" ApproachName="RNP" />
-        <STAR Name="FALS1B" ApproachName="RNP" />
+        <STAR Name="FALS2B" ApproachName="RNP" />
         <STAR Name="GOBU1B" ApproachName="RNP" />
         <STAR Name="OLDO2B" ApproachName="RNP" />
         <STAR Name="OROP1B" ApproachName="RNP" />
@@ -8341,11 +8341,11 @@ RILEY
     <STAR Name="BELE1M" Airport="NZHK" Runways="21">
       <Route Runway="21">BELEE/HK417/HK411/AGTUR</Route>
     </STAR>
-    <STAR Name="IDER3B" Airport="NZHK" Runways="21">
-      <Route Runway="21">IDERO/HK412/HK462/HK409/EKVIL</Route>
-    </STAR>
     <STAR Name="IDER1L" Airport="NZHK" Runways="03">
       <Route Runway="03">IDERO/HK471/HK453/HK404/ANDEP</Route>
+    </STAR>
+    <STAR Name="IDER1M" Airport="NZHK" Runways="21">
+      <Route Runway="21">IDERO/HK412/HK462/HK409/EKVIL</Route>
     </STAR>
     <STAR Name="IGNO1L" Airport="NZHK" Runways="03">
       <Route Runway="03">IGNOK/EKVIL/BEDAV</Route>
@@ -8852,7 +8852,7 @@ RILEY
     <STAR Name="FALS1A" Airport="NZTG" Runways="07">
       <Route Runway="07">FALLS/VIDOB/MORTA</Route>
     </STAR>
-    <STAR Name="FALS1B" Airport="NZTG" Runways="25">
+    <STAR Name="FALS2B" Airport="NZTG" Runways="25">
       <Route Runway="25">FALLS/RUMRA/TODAN</Route>
     </STAR>
     <STAR Name="GOBU2A" Airport="NZTG" Runways="07">
