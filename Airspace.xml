@@ -258,12 +258,8 @@
       </Runway>
     </Airport>
     <Airport Name="NZGS">
-      <Runway Name="03" DataRunway="03">
-        <STAR Name="GS1E" />
-      </Runway>
-      <Runway Name="09" DataRunway="09">
-        <STAR Name="GS1E" />
-      </Runway>
+      <Runway Name="03" DataRunway="03" />
+      <Runway Name="09" DataRunway="09" />
       <Runway Name="14" DataRunway="14">
         <SID Name="MIGE1Q" />
         <SID Name="MIGE1S" />
@@ -279,12 +275,8 @@
         <STAR Name="RULS1A" ApproachName="RNPV" />
         <STAR Name="VASN1A" ApproachName="RNPV" />
       </Runway>
-      <Runway Name="21" DataRunway="21">
-        <STAR Name="GS1E" />
-      </Runway>
-      <Runway Name="27" DataRunway="27">
-        <STAR Name="GS1E" />
-      </Runway>
+      <Runway Name="21" DataRunway="21" />
+      <Runway Name="27" DataRunway="27" />
       <Runway Name="32" DataRunway="32">
         <SID Name="COKS1P" />
         <SID Name="COKS1R" />
@@ -8309,12 +8301,8 @@ RILEY
     <STAR Name="GS2D" Airport="NZGS" Runways="14">
       <Route Runway="14">GS VOR</Route>
     </STAR>
-    <STAR Name="GS1E" Airport="NZGS" Runways="03,09,14,21,27,32">
-      <Route Runway="03">GS VOR/VASNI</Route>
-      <Route Runway="09">GS VOR/VASNI</Route>
+    <STAR Name="GS1E" Airport="NZGS" Runways="14,32">
       <Route Runway="14">GS VOR/VASNI</Route>
-      <Route Runway="21">GS VOR/VASNI</Route>
-      <Route Runway="27">GS VOR/VASNI</Route>
       <Route Runway="32">GS VOR/VASNI</Route>
     </STAR>
     <STAR Name="KEPA1A" Airport="NZGS" Runways="14">
