@@ -2,24 +2,20 @@
 <Maps>
   <Map Type="System2" Name="01 SIDs" Priority="1" CustomColourName="ProcDep" Center="-39.640650+176.769653">
     <Line Pattern="Dashed">
-      <!--Rwy01 VICTO2-->
+      <!--Rwy01 VICTO3-->
       -39.640650+176.769653/HS01T/HS19T/-39.624960+176.778240
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy01 VICTO2.NR-->
+      <!--Rwy01 VICTO3.NR-->
       -39.624960+176.778240/NR VOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy01 VICTO2.OPAPA-->
+      <!--Rwy01 VICTO3.OPAPA-->
       -39.624960+176.778240/-39.619720+176.758530/OPAPA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy01 VICTO2.RIDLA-->
+      <!--Rwy01 VICTO3.RIDLA-->
       -39.619720+176.758530/ADGIN/RIDLA
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy01 VICTO2.YARRO-->
-      -39.619720+176.758530/YARRO
     </Line>
     <Symbol Type="Circle">
       <Point>NR VOR</Point>
@@ -30,13 +26,11 @@
       <Point>OPAPA</Point>
       <Point>ADGIN</Point>
       <Point>RIDLA</Point>
-      <Point>YARRO</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>NR VOR</Point>
       <Point>OPAPA</Point>
       <Point>RIDLA</Point>
-      <Point>YARRO</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="01 RNP" Priority="1" Center="-39.648272+176.764161" CustomColourName="ProcArr">
@@ -62,20 +56,20 @@
   </Map>
   <Map Type="System2" Name="19 SIDs" Priority="1" CustomColourName="ProcDep" Center="-39.648272+176.764161">
     <Line Pattern="Dashed">
-      <!--Rwy19 WHISK2-->
+      <!--Rwy19 WHISK3-->
       -39.648272+176.764161/HS19T/HS01T/-39.662880+176.753680
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy19 WHISK2.NR-->
+      <!--Rwy19 WHISK3.NR-->
       -39.662880+176.753680/-39.659840+176.742940/NR VOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy19 WHISK2.OPAPA-->
+      <!--Rwy19 WHISK3.OPAPA-->
       -39.662880+176.753680/OPAPA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy19 WHISK2.RIDLA-->
-      -39.662880+176.753680/ADGIN/RIDLA
+      <!--Rwy19 WHISK3.RIDLA-->
+      -39.662880+176.753680/NIXOT/RIDLA
     </Line>
     <Symbol Type="Circle">
       <Point>NR VOR</Point>
@@ -84,7 +78,7 @@
       <Point>HS19T</Point>
       <Point>HS01T</Point>
       <Point>OPAPA</Point>
-      <Point>ADGIN</Point>
+      <Point>NIXOT</Point>
       <Point>RIDLA</Point>
     </Symbol>
     <Label HasLeader="true">

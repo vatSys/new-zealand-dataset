@@ -2,20 +2,20 @@
 <Maps>
   <Map Type="System2" Name="03 STARs" Priority="1" CustomColourName="ProcArr" Center="-42.713394+170.980258">
     <Line>
-      <!--Rwy03 BELE2A-->
+      <!--Rwy03 BELE1L-->
       BELEE/HK414/HK401/ANDEP
     </Line>
     <Line>
-      <!--Rwy03 BOSL3A-->
-      BOSLA/EKVIL/BEDAV
+      <!--Rwy03 IDER1L-->
+      IDERO/HK471/HK453/HK404/ANDEP
     </Line>
     <Line>
-      <!--Rwy03 DAMI2A-->
-      DAMIL/BEDAV
+      <!--Rwy03 IGNO1L-->
+      IGNOK/EKVIL/BEDAV
     </Line>
     <Line>
-      <!--Rwy03 DUBO3A-->
-      DUBON/HK418/HK416/HK408/ANDEP
+      <!--Rwy03 OSRI1L-->
+      OSRIB/BEDAV
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>ANDEP</Point>
@@ -25,19 +25,19 @@
       <Point>BELEE</Point>
       <Point>HK414</Point>
       <Point>HK401</Point>
-      <Point>BOSLA</Point>
+      <Point>IDERO</Point>
+      <Point>HK471</Point>
+      <Point>HK453</Point>
+      <Point>HK404</Point>
+      <Point>IGNOK</Point>
       <Point>EKVIL</Point>
-      <Point>DAMIL</Point>
-      <Point>DUBON</Point>
-      <Point>HK418</Point>
-      <Point>HK416</Point>
-      <Point>HK408</Point>
+      <Point>OSRIB</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>BELEE</Point>
-      <Point>BOSLA</Point>
-      <Point>DAMIL</Point>
-      <Point>DUBON</Point>
+      <Point>IDERO</Point>
+      <Point>IGNOK</Point>
+      <Point>OSRIB</Point>
       <Point>ANDEP</Point>
       <Point>BEDAV</Point>
     </Label>
@@ -71,47 +71,47 @@
   </Map>
   <Map Type="System2" Name="21 STARs" Priority="1" CustomColourName="ProcArr" Center="-42.707764+170.992069">
     <Line>
-      <!--Rwy21 BELE2B-->
+      <!--Rwy21 BELE1M-->
       BELEE/HK417/HK411/AGTUR
     </Line>
     <Line>
-      <!--Rwy21 BOSL3B-->
-      BOSLA/HK419/HK422/MAKOS
+      <!--Rwy21 IDER1M-->
+      IDERO/HK412/HK462/HK409/EKVIL
     </Line>
     <Line>
-      <!--Rwy21 DAMI2B-->
-      DAMIL/EKVIL
+      <!--Rwy21 IGNO1M-->
+      IGNOK/HK419/HK422/MAKOS
     </Line>
     <Line>
-      <!--Rwy21 DUBO3B-->
-      DUBON/HK412/HK413/HK409/EKVIL
+      <!--Rwy21 OSRI1M-->
+      OSRIB/EKVIL
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>AGTUR</Point>
-      <Point>MAKOS</Point>
       <Point>EKVIL</Point>
+      <Point>MAKOS</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>BELEE</Point>
       <Point>HK417</Point>
       <Point>HK411</Point>
-      <Point>BOSLA</Point>
+      <Point>IDERO</Point>
+      <Point>HK412</Point>
+      <Point>HK462</Point>
+      <Point>HK409</Point>
+      <Point>IGNOK</Point>
       <Point>HK419</Point>
       <Point>HK422</Point>
-      <Point>DAMIL</Point>
-      <Point>DUBON</Point>
-      <Point>HK412</Point>
-      <Point>HK413</Point>
-      <Point>HK409</Point>
+      <Point>OSRIB</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>BELEE</Point>
-      <Point>BOSLA</Point>
-      <Point>DAMIL</Point>
-      <Point>DUBON</Point>
+      <Point>IDERO</Point>
+      <Point>IGNOK</Point>
+      <Point>OSRIB</Point>
       <Point>AGTUR</Point>
-      <Point>MAKOS</Point>
       <Point>EKVIL</Point>
+      <Point>MAKOS</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="21 RNP" Priority="1" Center="-42.707764+170.992069" CustomColourName="ProcArr">

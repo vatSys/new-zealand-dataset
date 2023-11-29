@@ -1,313 +1,324 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="07 STARs" Priority="1" CustomColourName="ProcArr" Center="-39.464539+176.857611">
-    <Line>
-      <!--Rwy07 OPAP1C-->
-      OPAPA/NR VOR
-    </Line>
-    <Symbol Type="Circle">
-      <Point>NR VOR</Point>
-    </Symbol>
-    <Symbol Type="HollowTriangle">
-      <Point>OPAPA</Point>
-    </Symbol>
-    <Label HasLeader="true">
-      <Point>OPAPA</Point>
-    </Label>
-  </Map>
-  <Map Type="System2" Name="25 STARs" Priority="1" CustomColourName="ProcArr" Center="-39.464353+176.871542">
-    <Line>
-      <!--Rwy25 OPAP1C-->
-      OPAPA/NR VOR
-    </Line>
-    <Symbol Type="Circle">
-      <Point>NR VOR</Point>
-    </Symbol>
-    <Symbol Type="HollowTriangle">
-      <Point>OPAPA</Point>
-    </Symbol>
-    <Label HasLeader="true">
-      <Point>OPAPA</Point>
-    </Label>
-  </Map>
   <Map Type="System2" Name="16 SIDs" Priority="1" CustomColourName="ProcDep" Center="-39.477694+176.866311">
     <Line Pattern="Dashed">
-      <!--Rwy16 LEDIV2-->
-      -39.477694+176.866311/NR16T/LEDIV
+      <!--Rwy16 COAST1-->
+      -39.477694+176.866311/NR16T/-39.481111+176.865833
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 LEDIV2.GENDA-->
-      LEDIV/PINES/GENDA
+      <!--Rwy16 HILL1-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 LEDIV2.MOOSE-->
-      GENDA/MOOSE
+      <!--Rwy16 LEDI3P-->
+      -39.477694+176.866311/NR34T/LEDIV
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 LEDIV2.NOSAM-->
-      LEDIV/NOSAM
+      <!--Rwy16 LEDI3P.BITIL-->
+      LEDIV/UNVIX/VEPKU/BITIL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 LIM3-->
-      NR16T/-39.481111+176.865833/-39.483333+176.874444/NR VOR
+      <!--Rwy16 LEDI3P.NIXOT-->
+      UNVIX/NIXOT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 MIKE4-->
+      <!--Rwy16 LEDI3P.OPAPA-->
+      LEDIV/IGBEL/OPAPA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 MOOSE1-->
-      LEDIV/ISNOS/SUPUK/MOOSE
+      <!--Rwy16 TUKN1P-->
+      NR34T/-39.481111+176.865833/ANUDU/TUKNE
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 NVBR3-->
+      <!--Rwy16 TUKN1P.BOVSA-->
+      TUKNE/IPNEV/LAVAD/OMGUK/BOVSA
     </Line>
-    <Symbol Type="Circle">
-      <Point>NR VOR</Point>
+    <Line Pattern="Dashed">
+      <!--Rwy16 TUKN1P.POTEX-->
+      TUKNE/POTEX
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 TUKN1R-->
+      NR34T/-39.644290+176.847500/TUKNE
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 TUKN1R.BOVSA-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 TUKN1R.POTEX-->
+    </Line>
+    <Symbol Type="SolidStar">
+      <Point>LEDIV</Point>
+      <Point>-39.481111+176.865833</Point>
+      <Point>ANUDU</Point>
+      <Point>-39.644290+176.847500</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>NR16T</Point>
-      <Point>LEDIV</Point>
-      <Point>PINES</Point>
-      <Point>GENDA</Point>
-      <Point>MOOSE</Point>
-      <Point>NOSAM</Point>
-      <Point>ISNOS</Point>
-      <Point>SUPUK</Point>
+      <Point>NR34T</Point>
+      <Point>UNVIX</Point>
+      <Point>VEPKU</Point>
+      <Point>BITIL</Point>
+      <Point>NIXOT</Point>
+      <Point>IGBEL</Point>
+      <Point>OPAPA</Point>
+      <Point>TUKNE</Point>
+      <Point>IPNEV</Point>
+      <Point>LAVAD</Point>
+      <Point>OMGUK</Point>
+      <Point>BOVSA</Point>
+      <Point>POTEX</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>LEDIV</Point>
-      <Point>NR VOR</Point>
-      <Point>MOOSE</Point>
-      <Point>GENDA</Point>
-      <Point>NOSAM</Point>
+      <Point>TUKNE</Point>
+      <Point>BITIL</Point>
+      <Point>NIXOT</Point>
+      <Point>OPAPA</Point>
+      <Point>BOVSA</Point>
+      <Point>POTEX</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="16 STARs" Priority="1" CustomColourName="ProcArr" Center="-39.461989+176.868039">
     <Line>
-      <!--Rwy16 ADGI1A-->
-      ADGIN/PANIA/NANUA
+      <!--Rwy16 BITI1A-->
+      BITIL/SUDBU/RISBU
     </Line>
     <Line>
-      <!--Rwy16 GEND1A-->
-      GENDA/OKURA/ELBOW
+      <!--Rwy16 GEND2A-->
+      GENDA/INVUR/RISBU
     </Line>
     <Line>
-      <!--Rwy16 MOKE1A-->
-      MOKER/BERRY/ELBOW
+      <!--Rwy16 NR1A-->
+      NR VOR/TARER/REMEV
     </Line>
     <Line>
-      <!--Rwy16 NR2C-->
+      <!--Rwy16 NR1F-->
       NR VOR/-39.401610+177.074330/-39.352240+177.039200/-39.314670+176.986050/AROPA
     </Line>
     <Line>
-      <!--Rwy16 NR2D-->
-      NR VOR/PANIA/-39.428710+177.080600/-39.401610+177.074330
+      <!--Rwy16 OPAP3A-->
+      OPAPA/IGBEL/ATKAD/RISBU
     </Line>
     <Line>
-      <!--Rwy16 OPAP2A-->
-      OPAPA/PINES/ELBOW
+      <!--Rwy16 PANI2A-->
+      PANIA/REMEV
     </Line>
     <Line>
-      <!--Rwy16 OPAP1C-->
-      OPAPA/NR VOR
-    </Line>
-    <Line>
-      <!--Rwy16 PANI1A-->
-    </Line>
-    <Line>
-      <!--Rwy16 YARO2A-->
-      YARRO/PINES
+      <!--Rwy16 POTE1A-->
+      POTEX/REMEV
     </Line>
     <Symbol Type="HollowTriangle">
-      <Point>NANUA</Point>
-      <Point>ELBOW</Point>
+      <Point>RISBU</Point>
+      <Point>REMEV</Point>
       <Point>AROPA</Point>
     </Symbol>
     <Symbol Type="Circle">
       <Point>NR VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
-      <Point>ADGIN</Point>
-      <Point>PANIA</Point>
+      <Point>BITIL</Point>
+      <Point>SUDBU</Point>
       <Point>GENDA</Point>
-      <Point>OKURA</Point>
-      <Point>MOKER</Point>
-      <Point>BERRY</Point>
+      <Point>INVUR</Point>
+      <Point>TARER</Point>
       <Point>OPAPA</Point>
-      <Point>PINES</Point>
-      <Point>YARRO</Point>
+      <Point>IGBEL</Point>
+      <Point>ATKAD</Point>
+      <Point>PANIA</Point>
+      <Point>POTEX</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>ADGIN</Point>
+      <Point>BITIL</Point>
       <Point>GENDA</Point>
-      <Point>MOKER</Point>
       <Point>NR VOR</Point>
       <Point>OPAPA</Point>
       <Point>PANIA</Point>
-      <Point>YARRO</Point>
-      <Point>NANUA</Point>
-      <Point>ELBOW</Point>
+      <Point>POTEX</Point>
+      <Point>RISBU</Point>
+      <Point>REMEV</Point>
       <Point>AROPA</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="16 RNP" Priority="1" Center="-39.461989+176.868039" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>-39.449436+176.869419</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
-      <Point>AROPA</Point>
-      <Point>ELBOW</Point>
-      <Point>NANUA</Point>
+      <Point>PAGRO</Point>
+      <Point>REMEV</Point>
+      <Point>RISBU</Point>
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>-39.378392+176.915156</Point>
+      <Point>RUPLI</Point>
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">AROPA/-39.378392+176.915156/-39.449436+176.869419/-392743.160+1765204.940</Line>
-    <Line Pattern="Solid">ELBOW/AROPA</Line>
-    <Line Pattern="Solid">NANUA/AROPA</Line>
+    <Line Pattern="Solid">PAGRO/RUPLI/-392743.160+1765204.940</Line>
+    <Line Pattern="Solid">REMEV/PAGRO</Line>
+    <Line Pattern="Solid">RISBU/PAGRO</Line>
   </Map>
   <Map Type="System2" Name="16 RNP Labels" Priority="1" Center="-39.461989+176.868039" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>AROPA</Point>
-      <Point>ELBOW</Point>
-      <Point>NANUA</Point>
+      <Point>PAGRO</Point>
+      <Point>REMEV</Point>
+      <Point>RISBU</Point>
+      <Point>RUPLI</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="34 SIDs" Priority="1" CustomColourName="ProcDep" Center="-39.461989+176.868039">
     <Line Pattern="Dashed">
-      <!--Rwy34 LIM3-->
-      -39.461989+176.868039/NR34T/-39.457500+176.868611/NR VOR
+      <!--Rwy34 GUGT1Q-->
+      -39.461989+176.868039/NR16T/-39.395610+176.875410/TUKNE/TAVUX/IRTOR/ANLUX/GUGTO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 MIKE4-->
+      <!--Rwy34 GUGT1Q.BITIL-->
+      GUGTO/BITIL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 NVBR4-->
+      <!--Rwy34 GUGT1Q.NIXOT-->
+      GUGTO/NIXOT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 OBLOX2-->
-      NR34T/OBLOX
+      <!--Rwy34 GUGT1Q.OPAPA-->
+      GUGTO/OPAPA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 OBLOX2.GENDA-->
-      OBLOX/GENDA
+      <!--Rwy34 OBLO3Q-->
+      -39.461989+176.868039/OBLOX
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 OBLOX2.MOKER-->
-      OBLOX/MOKER
+      <!--Rwy34 OBLO3Q.BOVSA-->
+      OBLOX/BOVSA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 OBLOX2.NOSAM-->
-      OBLOX/POSOL/NOSAM
+      <!--Rwy34 OBLO3Q.POTEX-->
+      OBLOX/POTEX
     </Line>
-    <Symbol Type="Circle">
-      <Point>NR VOR</Point>
+    <Line Pattern="Dashed">
+      <!--Rwy34 OCEAN1-->
+      -39.461989+176.868039/NR34T/-39.457500+176.868611
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 WEST1-->
+    </Line>
+    <Symbol Type="SolidStar">
+      <Point>-39.395610+176.875410</Point>
+      <Point>OBLOX</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>NR16T</Point>
+      <Point>TUKNE</Point>
+      <Point>TAVUX</Point>
+      <Point>IRTOR</Point>
+      <Point>ANLUX</Point>
+      <Point>GUGTO</Point>
+      <Point>BITIL</Point>
+      <Point>NIXOT</Point>
+      <Point>OPAPA</Point>
+      <Point>BOVSA</Point>
+      <Point>POTEX</Point>
       <Point>NR34T</Point>
-      <Point>OBLOX</Point>
-      <Point>GENDA</Point>
-      <Point>MOKER</Point>
-      <Point>POSOL</Point>
-      <Point>NOSAM</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>NR VOR</Point>
+      <Point>GUGTO</Point>
       <Point>OBLOX</Point>
-      <Point>GENDA</Point>
-      <Point>MOKER</Point>
-      <Point>NOSAM</Point>
+      <Point>BITIL</Point>
+      <Point>NIXOT</Point>
+      <Point>OPAPA</Point>
+      <Point>BOVSA</Point>
+      <Point>POTEX</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="34 STARs" Priority="1" CustomColourName="ProcArr" Center="-39.477694+176.866311">
     <Line>
-      <!--Rwy34 ADGI1B-->
-      ADGIN/OHITI
+      <!--Rwy34 GEND3B-->
+      GENDA/OVLER/VETAB
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy34 LUVT1B.BITIL-->
+      BITIL/PAPDU/LUVTU
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy34 LUVT1B.OPAPA-->
+      OPAPA/LUVTU
     </Line>
     <Line>
-      <!--Rwy34 GEND2B-->
-      GENDA/OHITI
+      <!--Rwy34 LUVT1B-->
+      LUVTU/VETAB
     </Line>
     <Line>
-      <!--Rwy34 MOKE1B-->
-      MOKER/ELAND/PINES/OHITI
+      <!--Rwy34 NR1B-->
+      NR VOR/UPSEG/EPGUM
     </Line>
     <Line>
-      <!--Rwy34 NR2A-->
-      NR VOR/-39.541920+177.052860/-39.585230+177.002440/-39.615400+176.921890/AKINA
+      <!--Rwy34 NR1E-->
+      NR VOR/-39.585230+177.002440/-39.615400+176.921890/AKINA
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy34 PANI2B.POTEX-->
+      POTEX/PANIA
     </Line>
     <Line>
-      <!--Rwy34 NR2B-->
-      NR VOR/-39.585230+177.002440
-    </Line>
-    <Line>
-      <!--Rwy34 OPAP1B-->
-      OPAPA/AKINA
-    </Line>
-    <Line>
-      <!--Rwy34 OPAP1C-->
-      OPAPA/NR VOR
-    </Line>
-    <Line>
-      <!--Rwy34 YARO2B-->
-      YARRO/OHITI
+      <!--Rwy34 PANI2B-->
+      PANIA/EPGUM
     </Line>
     <Symbol Type="HollowTriangle">
-      <Point>OHITI</Point>
+      <Point>VETAB</Point>
+      <Point>EPGUM</Point>
       <Point>AKINA</Point>
     </Symbol>
     <Symbol Type="Circle">
       <Point>NR VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
-      <Point>ADGIN</Point>
       <Point>GENDA</Point>
-      <Point>MOKER</Point>
-      <Point>ELAND</Point>
-      <Point>PINES</Point>
+      <Point>OVLER</Point>
+      <Point>BITIL</Point>
+      <Point>PAPDU</Point>
+      <Point>LUVTU</Point>
       <Point>OPAPA</Point>
-      <Point>YARRO</Point>
+      <Point>UPSEG</Point>
+      <Point>POTEX</Point>
+      <Point>PANIA</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>ADGIN</Point>
       <Point>GENDA</Point>
-      <Point>MOKER</Point>
+      <Point>LUVTU</Point>
       <Point>NR VOR</Point>
+      <Point>PANIA</Point>
+      <Point>BITIL</Point>
       <Point>OPAPA</Point>
-      <Point>YARRO</Point>
-      <Point>OHITI</Point>
+      <Point>POTEX</Point>
+      <Point>VETAB</Point>
+      <Point>EPGUM</Point>
       <Point>AKINA</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="34 RNP" Priority="1" Center="-39.477694+176.866311" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>KAGDU</Point>
+    </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
-      <Point>AKINA</Point>
-      <Point>MILLA</Point>
-      <Point>OHITI</Point>
+      <Point>DAGIS</Point>
+      <Point>EPGUM</Point>
+      <Point>VETAB</Point>
     </Symbol>
     <!--FAF Symbols-->
-    <Symbol Type="MalteseCross">
-      <Point>-39.536822+176.859764</Point>
-    </Symbol>
+    <Symbol Type="MalteseCross" />
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">AKINA/-39.536822+176.859764/-392839.698+1765158.720</Line>
-    <Line Pattern="Solid">MILLA/AKINA</Line>
-    <Line Pattern="Solid">OHITI/AKINA</Line>
+    <Line Pattern="Solid">DAGIS/KAGDU/-392839.698+1765158.720</Line>
+    <Line Pattern="Solid">EPGUM/DAGIS</Line>
+    <Line Pattern="Solid">VETAB/DAGIS</Line>
   </Map>
   <Map Type="System2" Name="34 RNP Labels" Priority="1" Center="-39.477694+176.866311" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>AKINA</Point>
-      <Point>MILLA</Point>
-      <Point>OHITI</Point>
+      <Point>DAGIS</Point>
+      <Point>EPGUM</Point>
+      <Point>VETAB</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-39.465833+176.870000">

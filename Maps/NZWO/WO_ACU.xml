@@ -10,30 +10,30 @@
       -39.049050+177.407320/GOVDU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 HAWK1P-->
-      -39.049050+177.407320/HAWKE
-    </Line>
-    <Line Pattern="Dashed">
       <!--Rwy16 IGME1P-->
       -39.049050+177.407320/IRMUV/IGMEK
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy16 IRMU1P-->
     </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 RULS1P-->
+      -39.049050+177.407320/RULSI
+    </Line>
     <Symbol Type="HollowTriangle">
       <Point>WO16T</Point>
       <Point>DOMON</Point>
       <Point>GOVDU</Point>
-      <Point>HAWKE</Point>
       <Point>IRMUV</Point>
       <Point>IGMEK</Point>
+      <Point>RULSI</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>DOMON</Point>
       <Point>GOVDU</Point>
-      <Point>HAWKE</Point>
       <Point>IGMEK</Point>
       <Point>IRMUV</Point>
+      <Point>RULSI</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="16 STARs" Priority="1" CustomColourName="ProcArr" Center="-39.007550+177.404069">

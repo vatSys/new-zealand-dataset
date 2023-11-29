@@ -258,7 +258,7 @@
       <Point>VELSU</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-40.206667+175.386944">
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-40.206689+175.386897">
     <Symbol Type="HollowSquare">
       <Point Name="AOKAUTERE">-402154.400+1753949.800</Point>
       <Point Name="ASHHURST">-401719.000+1754518.500</Point>
@@ -303,9 +303,9 @@
       <Point Name="THE PONDS">-405935.000+1754100.000</Point>
       <Point Name="TIMBER MILL">-405802.900+1753609.700</Point>
       <Point Name="TOKOMARU">-402829.000+1753035.200</Point>
+      <Point Name="TURAKINA RIVER MOUTH">-400429.000+1750811.000</Point>
       <Point Name="UNIVERSITY">-402307.200+1753706.500</Point>
       <Point Name="WATER TOWER">-395535.710+1750409.220</Point>
-      <Point Name="WHANGAEHU RIVER MOUTH">-400224.100+1750553.400</Point>
       <Point Name="WHANGANUI PORT">-395642.920+1745922.860</Point>
       <Point Name="WOODVILLE">-402013.200+1755159.600</Point>
     </Symbol>
@@ -353,9 +353,9 @@
       <Point Name="THE PONDS">-405935.000+1754100.000</Point>
       <Point Name="TIMBER MILL">-405802.900+1753609.700</Point>
       <Point Name="TOKOMARU">-402829.000+1753035.200</Point>
+      <Point Name="TURAKINA RIVER MOUTH">-400429.000+1750811.000</Point>
       <Point Name="UNIVERSITY">-402307.200+1753706.500</Point>
       <Point Name="WATER TOWER">-395535.710+1750409.220</Point>
-      <Point Name="WHANGAEHU RIVER MOUTH">-400224.100+1750553.400</Point>
       <Point Name="WHANGANUI PORT">-395642.920+1745922.860</Point>
       <Point Name="WOODVILLE">-402013.200+1755159.600</Point>
     </Label>
