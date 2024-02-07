@@ -258,8 +258,12 @@
       </Runway>
     </Airport>
     <Airport Name="NZGS">
-      <Runway Name="03" DataRunway="03" />
-      <Runway Name="09" DataRunway="09" />
+      <Runway Name="03" DataRunway="03">
+        <STAR Name="GS1E" />
+      </Runway>
+      <Runway Name="09" DataRunway="09">
+        <STAR Name="GS1E" />
+      </Runway>
       <Runway Name="14" DataRunway="14">
         <SID Name="MIGE1Q" />
         <SID Name="MIGE1S" />
@@ -275,8 +279,12 @@
         <STAR Name="RULS1A" ApproachName="RNPV" />
         <STAR Name="VASN1A" ApproachName="RNPV" />
       </Runway>
-      <Runway Name="21" DataRunway="21" />
-      <Runway Name="27" DataRunway="27" />
+      <Runway Name="21" DataRunway="21">
+        <STAR Name="GS1E" />
+      </Runway>
+      <Runway Name="27" DataRunway="27">
+        <STAR Name="GS1E" />
+      </Runway>
       <Runway Name="32" DataRunway="32">
         <SID Name="COKS1P" />
         <SID Name="COKS1R" />
@@ -405,16 +413,20 @@
     </Airport>
     <Airport Name="NZLX">
       <Runway Name="01" DataRunway="01">
-        <SID Name="LUGDU2" />
+        <SID Name="LUGDU3" />
+        <SID Name="PORUT1" />
       </Runway>
       <Runway Name="14" DataRunway="14">
-        <SID Name="LUGDU2" />
+        <SID Name="LUGDU3" />
+        <SID Name="PORUT1" />
       </Runway>
       <Runway Name="19" DataRunway="19">
-        <SID Name="LUGDU2" />
+        <SID Name="LUGDU3" />
+        <SID Name="PORUT1" />
       </Runway>
       <Runway Name="32" DataRunway="32">
-        <SID Name="LUGDU2" />
+        <SID Name="LUGDU3" />
+        <SID Name="PORUT1" />
       </Runway>
     </Airport>
     <Airport Name="NZMF">
@@ -7082,17 +7094,22 @@ RILEY
     <SID Name="VLY2" Airport="NZKT" Runways="12">
       <Route Runway="12">KAROA</Route>
     </SID>
-    <SID Name="LUGDU2" Airport="NZLX" Runways="01,14,19,32">
+    <SID Name="LUGDU3" Airport="NZLX" Runways="01,14,19,32">
       <Route Runway="01">PORUT/LUGDU</Route>
       <Route Runway="14">PORUT/LUGDU</Route>
       <Route Runway="19">PORUT/LUGDU</Route>
       <Route Runway="32">PORUT/LUGDU</Route>
-      <Transition Name="BE">PORUT/BE NDB</Transition>
-      <Transition Name="NV">PORUT/NV VOR</Transition>
-      <Transition Name="PORUT">PORUT</Transition>
-      <Transition Name="QN">PORUT/QN VOR</Transition>
-      <Transition Name="SW">PORUT/SW VOR</Transition>
+      <Transition Name="ASIMA">ASIMA</Transition>
       <Transition Name="TOMID">TOMID</Transition>
+    </SID>
+    <SID Name="PORUT1" Airport="NZLX" Runways="01,14,19,32">
+      <Route Runway="01">PORUT/LUGDU/PORUT</Route>
+      <Route Runway="14">PORUT/LUGDU/PORUT</Route>
+      <Route Runway="19">PORUT/LUGDU/PORUT</Route>
+      <Route Runway="32">PORUT/LUGDU/PORUT</Route>
+      <Transition Name="IVSIM">IVSIM</Transition>
+      <Transition Name="LANIB">LANIB</Transition>
+      <Transition Name="PAMKA">PAMKA</Transition>
     </SID>
     <SID Name="GULAN3" Airport="NZMO" Runways="08,14,26,32">
       <Route Runway="08">MO552/GULAN</Route>
@@ -8301,8 +8318,12 @@ RILEY
     <STAR Name="GS2D" Airport="NZGS" Runways="14">
       <Route Runway="14">GS VOR</Route>
     </STAR>
-    <STAR Name="GS1E" Airport="NZGS" Runways="14,32">
+    <STAR Name="GS1E" Airport="NZGS" Runways="03,09,14,21,27,32">
+      <Route Runway="03">GS VOR/VASNI</Route>
+      <Route Runway="09">GS VOR/VASNI</Route>
       <Route Runway="14">GS VOR/VASNI</Route>
+      <Route Runway="21">GS VOR/VASNI</Route>
+      <Route Runway="27">GS VOR/VASNI</Route>
       <Route Runway="32">GS VOR/VASNI</Route>
     </STAR>
     <STAR Name="KEPA1A" Airport="NZGS" Runways="14">
