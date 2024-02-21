@@ -1,5 +1,81 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
+  <Map Type="System2" Name="03 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.666069+177.971878">
+    <Line>
+      <!--Rwy03 GS1E-->
+      GS VOR/VASNI
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>VASNI</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>VASNI</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>GS VOR</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>GS VOR</Point>
+      <Point>VASNI</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="21 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.659011+177.981889">
+    <Line>
+      <!--Rwy21 GS1E-->
+      GS VOR/VASNI
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>VASNI</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>VASNI</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>GS VOR</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>GS VOR</Point>
+      <Point>VASNI</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="09 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.659603+177.970047">
+    <Line>
+      <!--Rwy09 GS1E-->
+      GS VOR/VASNI
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>VASNI</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>VASNI</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>GS VOR</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>GS VOR</Point>
+      <Point>VASNI</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="27 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.663958+177.982314">
+    <Line>
+      <!--Rwy27 GS1E-->
+      GS VOR/VASNI
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>VASNI</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>VASNI</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>GS VOR</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>GS VOR</Point>
+      <Point>VASNI</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="14 SIDs" Priority="1" CustomColourName="ProcDep" Center="-38.669686+177.979039">
     <Line Pattern="Dashed">
       <!--Rwy14 MIGE1Q-->

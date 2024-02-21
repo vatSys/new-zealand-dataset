@@ -2,60 +2,57 @@
 <Maps>
   <Map Type="System2" Name="01 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.209167+169.372058">
     <Line Pattern="Dashed">
-      <!--Rwy01 LUGDU2-->
+      <!--Rwy01 LUGDU3-->
       -45.209167+169.372058/PORUT/LUGDU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy01 LUGDU2.BE-->
-      LUGDU/PORUT/BE NDB
+      <!--Rwy01 LUGDU3.ASIMA-->
+      LUGDU/ASIMA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy01 LUGDU2.NV-->
-      PORUT/NV VOR
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy01 LUGDU2.PORUT-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy01 LUGDU2.QN-->
-      PORUT/QN VOR
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy01 LUGDU2.SW-->
-      PORUT/SW VOR
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy01 LUGDU2.TOMID-->
+      <!--Rwy01 LUGDU3.TOMID-->
       LUGDU/TOMID
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy01 PORUT1-->
+      LUGDU/PORUT
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy01 PORUT1.IVSIM-->
+      PORUT/IVSIM
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy01 PORUT1.LANIB-->
+      PORUT/LANIB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy01 PORUT1.PAMKA-->
+      PORUT/PAMKA
     </Line>
     <Symbol Type="SolidStar">
       <Point>PORUT</Point>
-    </Symbol>
-    <Symbol Type="Circle">
-      <Point>BE NDB</Point>
-      <Point>NV VOR</Point>
-      <Point>QN VOR</Point>
-      <Point>SW VOR</Point>
+      <Point>LUGDU</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
-      <Point>LUGDU</Point>
+      <Point>ASIMA</Point>
       <Point>TOMID</Point>
+      <Point>IVSIM</Point>
+      <Point>LANIB</Point>
+      <Point>PAMKA</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>LUGDU</Point>
-      <Point>BE NDB</Point>
-      <Point>NV VOR</Point>
       <Point>PORUT</Point>
-      <Point>QN VOR</Point>
-      <Point>SW VOR</Point>
+      <Point>ASIMA</Point>
       <Point>TOMID</Point>
+      <Point>IVSIM</Point>
+      <Point>LANIB</Point>
+      <Point>PAMKA</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="01 RNP" Priority="1" Center="-45.213739+169.368483" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>LX407</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>LUGDU</Point>
@@ -82,60 +79,57 @@
   </Map>
   <Map Type="System2" Name="19 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.213739+169.368483">
     <Line Pattern="Dashed">
-      <!--Rwy19 LUGDU2-->
+      <!--Rwy19 LUGDU3-->
       -45.213739+169.368483/PORUT/LUGDU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy19 LUGDU2.BE-->
-      LUGDU/PORUT/BE NDB
+      <!--Rwy19 LUGDU3.ASIMA-->
+      LUGDU/ASIMA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy19 LUGDU2.NV-->
-      PORUT/NV VOR
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy19 LUGDU2.PORUT-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy19 LUGDU2.QN-->
-      PORUT/QN VOR
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy19 LUGDU2.SW-->
-      PORUT/SW VOR
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy19 LUGDU2.TOMID-->
+      <!--Rwy19 LUGDU3.TOMID-->
       LUGDU/TOMID
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy19 PORUT1-->
+      LUGDU/PORUT
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy19 PORUT1.IVSIM-->
+      PORUT/IVSIM
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy19 PORUT1.LANIB-->
+      PORUT/LANIB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy19 PORUT1.PAMKA-->
+      PORUT/PAMKA
     </Line>
     <Symbol Type="SolidStar">
       <Point>PORUT</Point>
-    </Symbol>
-    <Symbol Type="Circle">
-      <Point>BE NDB</Point>
-      <Point>NV VOR</Point>
-      <Point>QN VOR</Point>
-      <Point>SW VOR</Point>
+      <Point>LUGDU</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
-      <Point>LUGDU</Point>
+      <Point>ASIMA</Point>
       <Point>TOMID</Point>
+      <Point>IVSIM</Point>
+      <Point>LANIB</Point>
+      <Point>PAMKA</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>LUGDU</Point>
-      <Point>BE NDB</Point>
-      <Point>NV VOR</Point>
       <Point>PORUT</Point>
-      <Point>QN VOR</Point>
-      <Point>SW VOR</Point>
+      <Point>ASIMA</Point>
       <Point>TOMID</Point>
+      <Point>IVSIM</Point>
+      <Point>LANIB</Point>
+      <Point>PAMKA</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="19 RNP" Priority="1" Center="-45.209167+169.372058" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>LX407</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>LUGDU</Point>
@@ -162,60 +156,57 @@
   </Map>
   <Map Type="System2" Name="14 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.216444+169.374331">
     <Line Pattern="Dashed">
-      <!--Rwy14 LUGDU2-->
+      <!--Rwy14 LUGDU3-->
       -45.216444+169.374331/PORUT/LUGDU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 LUGDU2.BE-->
-      LUGDU/PORUT/BE NDB
+      <!--Rwy14 LUGDU3.ASIMA-->
+      LUGDU/ASIMA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 LUGDU2.NV-->
-      PORUT/NV VOR
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy14 LUGDU2.PORUT-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy14 LUGDU2.QN-->
-      PORUT/QN VOR
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy14 LUGDU2.SW-->
-      PORUT/SW VOR
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy14 LUGDU2.TOMID-->
+      <!--Rwy14 LUGDU3.TOMID-->
       LUGDU/TOMID
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy14 PORUT1-->
+      LUGDU/PORUT
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy14 PORUT1.IVSIM-->
+      PORUT/IVSIM
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy14 PORUT1.LANIB-->
+      PORUT/LANIB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy14 PORUT1.PAMKA-->
+      PORUT/PAMKA
     </Line>
     <Symbol Type="SolidStar">
       <Point>PORUT</Point>
-    </Symbol>
-    <Symbol Type="Circle">
-      <Point>BE NDB</Point>
-      <Point>NV VOR</Point>
-      <Point>QN VOR</Point>
-      <Point>SW VOR</Point>
+      <Point>LUGDU</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
-      <Point>LUGDU</Point>
+      <Point>ASIMA</Point>
       <Point>TOMID</Point>
+      <Point>IVSIM</Point>
+      <Point>LANIB</Point>
+      <Point>PAMKA</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>LUGDU</Point>
-      <Point>BE NDB</Point>
-      <Point>NV VOR</Point>
       <Point>PORUT</Point>
-      <Point>QN VOR</Point>
-      <Point>SW VOR</Point>
+      <Point>ASIMA</Point>
       <Point>TOMID</Point>
+      <Point>IVSIM</Point>
+      <Point>LANIB</Point>
+      <Point>PAMKA</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="14 RNP" Priority="1" Center="-45.206325+169.368986" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>LX407</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>LUGDU</Point>
@@ -242,60 +233,57 @@
   </Map>
   <Map Type="System2" Name="32 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.206325+169.368986">
     <Line Pattern="Dashed">
-      <!--Rwy32 LUGDU2-->
+      <!--Rwy32 LUGDU3-->
       -45.206325+169.368986/PORUT/LUGDU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 LUGDU2.BE-->
-      LUGDU/PORUT/BE NDB
+      <!--Rwy32 LUGDU3.ASIMA-->
+      LUGDU/ASIMA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 LUGDU2.NV-->
-      PORUT/NV VOR
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy32 LUGDU2.PORUT-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy32 LUGDU2.QN-->
-      PORUT/QN VOR
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy32 LUGDU2.SW-->
-      PORUT/SW VOR
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy32 LUGDU2.TOMID-->
+      <!--Rwy32 LUGDU3.TOMID-->
       LUGDU/TOMID
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy32 PORUT1-->
+      LUGDU/PORUT
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy32 PORUT1.IVSIM-->
+      PORUT/IVSIM
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy32 PORUT1.LANIB-->
+      PORUT/LANIB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy32 PORUT1.PAMKA-->
+      PORUT/PAMKA
     </Line>
     <Symbol Type="SolidStar">
       <Point>PORUT</Point>
-    </Symbol>
-    <Symbol Type="Circle">
-      <Point>BE NDB</Point>
-      <Point>NV VOR</Point>
-      <Point>QN VOR</Point>
-      <Point>SW VOR</Point>
+      <Point>LUGDU</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
-      <Point>LUGDU</Point>
+      <Point>ASIMA</Point>
       <Point>TOMID</Point>
+      <Point>IVSIM</Point>
+      <Point>LANIB</Point>
+      <Point>PAMKA</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>LUGDU</Point>
-      <Point>BE NDB</Point>
-      <Point>NV VOR</Point>
       <Point>PORUT</Point>
-      <Point>QN VOR</Point>
-      <Point>SW VOR</Point>
+      <Point>ASIMA</Point>
       <Point>TOMID</Point>
+      <Point>IVSIM</Point>
+      <Point>LANIB</Point>
+      <Point>PAMKA</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="32 RNP" Priority="1" Center="-45.216444+169.374331" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>LX407</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>LUGDU</Point>
