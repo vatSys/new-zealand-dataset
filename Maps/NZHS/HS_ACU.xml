@@ -2,8 +2,28 @@
 <Maps>
   <Map Type="System2" Name="01 SIDs" Priority="1" CustomColourName="ProcDep" Center="-39.640650+176.769653">
     <Line Pattern="Dashed">
+      <!--Rwy01 OPAP1U-->
+      -39.640650+176.769653/HS19T/-39.626580+176.779460/EKEDO/KIGIB/OPAPA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy01 TUKN1U-->
+      EKEDO/IRTOR/TAVUX/TUKNE
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy01 TUKN1U.BOVSA-->
+      TUKNE/IPNEV/LAVAD/OMGUK/BOVSA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy01 TUKN1U.POTEX-->
+      TUKNE/POTEX
+    </Line>
+    <Line Pattern="Dashed">
       <!--Rwy01 VICTO3-->
       -39.640650+176.769653/HS01T/HS19T/-39.624960+176.778240
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy01 VICTO3.NIXOT-->
+      -39.624960+176.778240/-39.619720+176.758530/ADGIN/NIXOT
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy01 VICTO3.NR-->
@@ -11,33 +31,41 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy01 VICTO3.OPAPA-->
-      -39.624960+176.778240/-39.619720+176.758530/OPAPA
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy01 VICTO3.RIDLA-->
-      -39.619720+176.758530/ADGIN/RIDLA
+      -39.619720+176.758530/OPAPA
     </Line>
     <Symbol Type="Circle">
       <Point>NR VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
-      <Point>HS01T</Point>
       <Point>HS19T</Point>
+      <Point>EKEDO</Point>
+      <Point>KIGIB</Point>
       <Point>OPAPA</Point>
+      <Point>IRTOR</Point>
+      <Point>TAVUX</Point>
+      <Point>TUKNE</Point>
+      <Point>IPNEV</Point>
+      <Point>LAVAD</Point>
+      <Point>OMGUK</Point>
+      <Point>BOVSA</Point>
+      <Point>POTEX</Point>
+      <Point>HS01T</Point>
       <Point>ADGIN</Point>
-      <Point>RIDLA</Point>
+      <Point>NIXOT</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>NR VOR</Point>
       <Point>OPAPA</Point>
-      <Point>RIDLA</Point>
+      <Point>TUKNE</Point>
+      <Point>BOVSA</Point>
+      <Point>POTEX</Point>
+      <Point>NIXOT</Point>
+      <Point>NR VOR</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="01 RNP" Priority="1" Center="-39.648272+176.764161" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
-      <Point>-39.722220+176.710770</Point>
-      <Point>-39.649380+176.763350</Point>
+      <Point>AVBUL</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
@@ -47,7 +75,7 @@
     <Symbol Type="MalteseCross" />
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">OPAPA/-39.722220+176.710770/-39.649380+176.763350/-393853.779+1764550.980</Line>
+    <Line Pattern="Solid">OPAPA/AVBUL/-393853.779+1764550.980</Line>
   </Map>
   <Map Type="System2" Name="01 RNP Labels" Priority="1" Center="-39.648272+176.764161" CustomColourName="ProcArr">
     <Label HasLeader="true">
@@ -56,8 +84,24 @@
   </Map>
   <Map Type="System2" Name="19 SIDs" Priority="1" CustomColourName="ProcDep" Center="-39.648272+176.764161">
     <Line Pattern="Dashed">
+      <!--Rwy19 TUKN1T-->
+      -39.648272+176.764161/HS01T/-39.662960+176.753310/EKEDO/IRTOR/TAVUX/TUKNE
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy19 TUKN1T.BOVSA-->
+      TUKNE/IPNEV/LAVAD/OMGUK/BOVSA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy19 TUKN1T.POTEX-->
+      TUKNE/POTEX
+    </Line>
+    <Line Pattern="Dashed">
       <!--Rwy19 WHISK3-->
       -39.648272+176.764161/HS19T/HS01T/-39.662880+176.753680
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy19 WHISK3.NIXOT-->
+      -39.662880+176.753680/NIXOT
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy19 WHISK3.NR-->
@@ -67,31 +111,37 @@
       <!--Rwy19 WHISK3.OPAPA-->
       -39.662880+176.753680/OPAPA
     </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy19 WHISK3.RIDLA-->
-      -39.662880+176.753680/NIXOT/RIDLA
-    </Line>
     <Symbol Type="Circle">
       <Point>NR VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
-      <Point>HS19T</Point>
       <Point>HS01T</Point>
-      <Point>OPAPA</Point>
+      <Point>EKEDO</Point>
+      <Point>IRTOR</Point>
+      <Point>TAVUX</Point>
+      <Point>TUKNE</Point>
+      <Point>IPNEV</Point>
+      <Point>LAVAD</Point>
+      <Point>OMGUK</Point>
+      <Point>BOVSA</Point>
+      <Point>POTEX</Point>
+      <Point>HS19T</Point>
       <Point>NIXOT</Point>
-      <Point>RIDLA</Point>
+      <Point>OPAPA</Point>
     </Symbol>
     <Label HasLeader="true">
+      <Point>TUKNE</Point>
+      <Point>BOVSA</Point>
+      <Point>POTEX</Point>
+      <Point>NIXOT</Point>
       <Point>NR VOR</Point>
       <Point>OPAPA</Point>
-      <Point>RIDLA</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="19 RNP" Priority="1" Center="-39.640650+176.769653" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
-      <Point>-39.582160+176.811770</Point>
-      <Point>-39.640450+176.769780</Point>
+      <Point>EMVES</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
@@ -101,14 +151,14 @@
     <Symbol Type="MalteseCross" />
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">NR VOR/-39.582160+176.811770/-39.640450+176.769780/-393826.340+1764610.751</Line>
+    <Line Pattern="Solid">NR VOR/EMVES/-393826.340+1764610.751</Line>
   </Map>
   <Map Type="System2" Name="19 RNP Labels" Priority="1" Center="-39.640650+176.769653" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>NR VOR</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-39.646667+176.766944">
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-39.646522+176.766733">
     <Symbol Type="HollowSquare">
       <Point Name="AWATOTO">-393312.700+1765520.700</Point>
       <Point Name="CLIVE">-393505.700+1765447.700</Point>

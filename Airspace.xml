@@ -367,10 +367,13 @@
     </Airport>
     <Airport Name="NZHS">
       <Runway Name="01" DataRunway="01">
+        <SID Name="OPAP1U" />
+        <SID Name="TUKN1U" />
         <SID Name="VICTO3" Type="NonJet" />
       </Runway>
       <Runway Name="11" DataRunway="11" />
       <Runway Name="19" DataRunway="19">
+        <SID Name="TUKN1T" />
         <SID Name="WHISK3" Type="NonJet" />
       </Runway>
       <Runway Name="29" DataRunway="29" />
@@ -506,7 +509,7 @@
         <SID Name="TUKN1P" />
         <SID Name="TUKN1R" />
         <STAR Name="BITI1A" ApproachName="RNP" />
-        <STAR Name="GEND2A" ApproachName="RNP" />
+        <STAR Name="GEND3A" ApproachName="RNP" />
         <STAR Name="NR1A" ApproachName="RNP" />
         <STAR Name="NR1F" />
         <STAR Name="OPAP3A" ApproachName="RNP" />
@@ -796,7 +799,7 @@
     </Airport>
     <Airport Name="NZTU">
       <Runway Name="02" DataRunway="02">
-        <SID Name="BIDN1P" />
+        <SID Name="BIDN2P" />
         <STAR Name="DUBO2J" ApproachName="RNP" />
         <STAR Name="ELDA1J" ApproachName="RNP" />
         <STAR Name="MAMU2J" ApproachName="RNP" />
@@ -804,7 +807,7 @@
       </Runway>
       <Runway Name="11" DataRunway="11" />
       <Runway Name="20" DataRunway="20">
-        <SID Name="MUKE1Q" />
+        <SID Name="MUKE2Q" />
         <STAR Name="DOPO1K" ApproachName="RNP" />
         <STAR Name="DUBO1K" ApproachName="RNP" />
         <STAR Name="ELDA1K" ApproachName="RNP" />
@@ -1075,8 +1078,7 @@ BIGEK/
 GOTSO/
 FA VOR/
 IKENA/
-KETUS/
-FU NDB
+KETUS
 </Airway>
     <Airway Name="A592">
 TBU VOR/
@@ -1982,12 +1984,44 @@ VARGU
 LEGIK/
 EMSID
 </Airway>
+    <Airway Name="KQ491">
+WAIMA/
+OMDOX/
+SULRI/
+AVPOD/
+UGEXO/
+JONAH/
+UMAGA
+</Airway>
     <Airway Name="KQ492">
 LEKUL/
 KABGO/
 LIDLO/
 GUVEN/
-DUBIP
+DUBIP/
+WAIMA
+</Airway>
+    <Airway Name="KQ493">
+WAIMA/
+SABDA/
+UMAGA
+</Airway>
+    <Airway Name="KQ494">
+SULRI/
+UMAGA
+</Airway>
+    <Airway Name="KQ495">
+SABDA/
+SULRI/
+IGMUL/
+UGEXO/
+FICAN/
+UPVAP
+</Airway>
+    <Airway Name="KQ498">
+FICAN/
+HUWIT/
+WITBY
 </Airway>
     <Airway Name="KQ514">
 NZUB/
@@ -2030,6 +2064,7 @@ MAGEX
     <Airway Name="KQ560">
 SUNPA/
 BUDPA/
+OVSOB/
 NOVTO
 </Airway>
     <Airway Name="KQ589">
@@ -2049,7 +2084,7 @@ TANIG
 </Airway>
     <Airway Name="KQ637">
 IVRON/
-DOXUD/
+PAION/
 NOVTO
 </Airway>
     <Airway Name="KQ648">
@@ -3427,6 +3462,7 @@ RILEY
     <Point Name="AMURI" Type="Fix">-382241.320+1760109.260</Point>
     <Point Name="AMVIX" Type="Fix">-463630.800+1682217.220</Point>
     <Point Name="ANBAT" Type="Fix">-164146.000-1781604.000</Point>
+    <Point Name="ANBEN" Type="Fix">-381001.790+1754951.490</Point>
     <Point Name="ANBIG" Type="Fix">-455643.700+1695929.430</Point>
     <Point Name="ANDEP" Type="Fix">-425226.910+1705102.840</Point>
     <Point Name="ANDOM" Type="Fix">-391447.120+1742026.530</Point>
@@ -3493,6 +3529,7 @@ RILEY
     <Point Name="ATAPO" Type="Fix">-413739.730+1724312.380</Point>
     <Point Name="ATBUB" Type="Fix">-425500.800+1733610.200</Point>
     <Point Name="ATBUX" Type="Fix">-460422.800+1685853.120</Point>
+    <Point Name="ATGEP" Type="Fix">-435920.800+1720427.650</Point>
     <Point Name="ATGUB" Type="Fix">-455707.930+1702027.640</Point>
     <Point Name="ATHOL" Type="Fix">-453558.510+1683506.420</Point>
     <Point Name="ATIKI" Type="Fix">-440437.570+1704827.360</Point>
@@ -3527,6 +3564,7 @@ RILEY
     <Point Name="AVBAS" Type="Fix">-455825.750+1685540.790</Point>
     <Point Name="AVBES" Type="Fix">-362219.520+1743329.650</Point>
     <Point Name="AVBIX" Type="Fix">-383123.990+1775446.590</Point>
+    <Point Name="AVBUL" Type="Fix">-394319.980+1764238.770</Point>
     <Point Name="AVDAT" Type="Fix">-364728.600+1745255.570</Point>
     <Point Name="AVDEK" Type="Fix">-445854.070+1682645.110</Point>
     <Point Name="AVDID" Type="Fix">-432625.370+1721632.350</Point>
@@ -3835,7 +3873,6 @@ RILEY
     <Point Name="DOXIN" Type="Fix">-400803.310+1752209.780</Point>
     <Point Name="DOXOB" Type="Fix">-452159.920+1674947.440</Point>
     <Point Name="DOXOR" Type="Fix">-385652.180+1775106.230</Point>
-    <Point Name="DOXUD" Type="Fix">-434617.560+1721217.250</Point>
     <Point Name="DOXUS" Type="Fix">-183601.770-1734905.240</Point>
     <Point Name="DRAWN" Type="Fix">-143750.160-1705358.490</Point>
     <Point Name="DROPT" Type="Fix">-381315.400+1751947.920</Point>
@@ -3888,6 +3925,7 @@ RILEY
     <Point Name="EKALI" Type="Fix">-382053.950+1741911.780</Point>
     <Point Name="EKASO" Type="Fix">-375345.210+1751402.420</Point>
     <Point Name="EKEDI" Type="Fix">-201032.920-1742617.070</Point>
+    <Point Name="EKEDO" Type="Fix">-394032.930+1765135.070</Point>
     <Point Name="EKENU" Type="Fix">-451855.410+1703515.840</Point>
     <Point Name="EKEPA" Type="Fix">-441629.260+1695939.240</Point>
     <Point Name="EKILU" Type="Fix">-365013.340+1745046.030</Point>
@@ -3923,7 +3961,6 @@ RILEY
     <Point Name="ELPAM" Type="Fix">-423406.270+1705912.750</Point>
     <Point Name="ELPEL" Type="Fix">-400415.910+1763233.790</Point>
     <Point Name="ELPIT" Type="Fix">-414315.850+1740459.130</Point>
-    <Point Name="ELRAR" Type="Fix">-365606.290+1754537.750</Point>
     <Point Name="ELRAS" Type="Fix">-440716.180+1710749.970</Point>
     <Point Name="ELRUV" Type="Fix">-443701.880+1694957.380</Point>
     <Point Name="ELSAB" Type="Fix">-365243.460+1743408.400</Point>
@@ -3944,6 +3981,7 @@ RILEY
     <Point Name="EMTOX" Type="Fix">-453736.670+1702106.150</Point>
     <Point Name="EMTUD" Type="Fix">-451735.870+1691916.190</Point>
     <Point Name="EMVAN" Type="Fix">-350652.740+1732054.650</Point>
+    <Point Name="EMVES" Type="Fix">-393455.770+1764842.340</Point>
     <Point Name="ENBAR" Type="Fix">-404206.540+1745501.610</Point>
     <Point Name="ENBUG" Type="Fix">-391152.400+1744828.410</Point>
     <Point Name="ENDAK" Type="Fix">-195904.750-1573036.450</Point>
@@ -3978,7 +4016,6 @@ RILEY
     <Point Name="ESDAK" Type="Fix">-421232.730+1714920.030</Point>
     <Point Name="ESDOX" Type="Fix">-183149.030-1765849.630</Point>
     <Point Name="ESDUN" Type="Fix">-435015.420-1761210.860</Point>
-    <Point Name="ESGEK" Type="Fix">-352529.360+1742337.240</Point>
     <Point Name="ESGUB" Type="Fix">-380637.210+1751341.960</Point>
     <Point Name="ESKAT" Type="Fix">-454828.020+1702717.380</Point>
     <Point Name="ESKER" Type="Fix">-374620.770+1755059.940</Point>
@@ -4199,6 +4236,7 @@ RILEY
     <Point Name="IGBIX" Type="Fix">-443856.960+1691030.700</Point>
     <Point Name="IGBOS" Type="Fix">-390221.110+1740207.280</Point>
     <Point Name="IGBUM" Type="Fix">-435433.550+1691044.520</Point>
+    <Point Name="IGDAB" Type="Fix">-381835.800+1755729.650</Point>
     <Point Name="IGDAR" Type="Fix">-461622.140+1700849.000</Point>
     <Point Name="IGDIL" Type="Fix">-385349.340+1741709.090</Point>
     <Point Name="IGDOT" Type="Fix">-392042.460+1743918.960</Point>
@@ -4280,6 +4318,7 @@ RILEY
     <Point Name="ISPEB" Type="Fix">-414710.080+1712846.500</Point>
     <Point Name="ISPOT" Type="Fix">-374729.990+1752133.850</Point>
     <Point Name="ISRET" Type="Fix">-391221.450+1755143.340</Point>
+    <Point Name="ISRUR" Type="Fix">-434821.970+1722128.730</Point>
     <Point Name="ISTIK" Type="Fix">-455517.020+1684555.820</Point>
     <Point Name="ISTOS" Type="Fix">-190142.000+1782348.000</Point>
     <Point Name="ISVEK" Type="Fix">-372631.020+1754607.720</Point>
@@ -4364,6 +4403,7 @@ RILEY
     <Point Name="KIDAG" Type="Fix">-365508.180+1744033.980</Point>
     <Point Name="KIDAL" Type="Fix">-425131.050+1721709.550</Point>
     <Point Name="KIDIR" Type="Fix">-370137.220+1752521.920</Point>
+    <Point Name="KIGIB" Type="Fix">-394249.750+1765048.460</Point>
     <Point Name="KIKAP" Type="Fix">-393718.260+1732331.090</Point>
     <Point Name="KIKEK" Type="Fix">-375436.870+1770929.410</Point>
     <Point Name="KILAL" Type="Fix">-381855.810+1760506.680</Point>
@@ -4872,6 +4912,7 @@ RILEY
     <Point Name="OVSAN" Type="Fix">-373022.390+1750025.190</Point>
     <Point Name="OVSED" Type="Fix">-460050.680+1700058.810</Point>
     <Point Name="OVSIT" Type="Fix">-372521.200+1750147.100</Point>
+    <Point Name="OVSOB" Type="Fix">-434704.430+1722010.670</Point>
     <Point Name="OVSUM" Type="Fix">-375721.320+1770115.390</Point>
     <Point Name="OVTAP" Type="Fix">-364753.410+1754700.200</Point>
     <Point Name="OVTEL" Type="Fix">-465307.410+1681028.850</Point>
@@ -4886,6 +4927,7 @@ RILEY
     <Point Name="PAGRA" Type="Fix">-182411.000-1781551.000</Point>
     <Point Name="PAGRO" Type="Fix">-391944.940+1765257.480</Point>
     <Point Name="PAHWA" Type="Fix">-410615.340+1745542.570</Point>
+    <Point Name="PAION" Type="Fix">-434502.080+1721900.980</Point>
     <Point Name="PAKNO" Type="Fix">-351238.980+1740549.950</Point>
     <Point Name="PAKNU" Type="Fix">-413036.950+1740038.590</Point>
     <Point Name="PAKSA" Type="Fix">-424041.650+1710924.290</Point>
@@ -4896,6 +4938,7 @@ RILEY
     <Point Name="PAMKA" Type="Fix">-450447.770+1690854.090</Point>
     <Point Name="PAMOA" Type="Fix">-444846.450+1711125.400</Point>
     <Point Name="PAMPU" Type="Fix">-444012.290+1694200.360</Point>
+    <Point Name="PANBU" Type="Fix">-364929.930+1750119.790</Point>
     <Point Name="PANGO" Type="Fix">-363644.090+1742834.650</Point>
     <Point Name="PANIA" Type="Fix">-392726.490+1770502.610</Point>
     <Point Name="PANPA" Type="Fix">-352541.070+1742700.870</Point>
@@ -5360,6 +5403,7 @@ RILEY
     <Point Name="UBMET" Type="Fix">-450159.990+1693021.650</Point>
     <Point Name="UBMIP" Type="Fix">-440719.690+1691932.810</Point>
     <Point Name="UBNAS" Type="Fix">-444343.500+1693945.890</Point>
+    <Point Name="UBNIR" Type="Fix">-391543.000+1764144.350</Point>
     <Point Name="UBRAX" Type="Fix">-200000.000-1753600.000</Point>
     <Point Name="UBROK" Type="Fix">-454708.950+1685433.100</Point>
     <Point Name="UBRUD" Type="Fix">-434946.910+1690042.640</Point>
@@ -5386,6 +5430,7 @@ RILEY
     <Point Name="UGSIM" Type="Fix">-370935.380+1750536.960</Point>
     <Point Name="UGTOV" Type="Fix">-411109.160+1743244.010</Point>
     <Point Name="UGVAV" Type="Fix">-440820.800+1705910.190</Point>
+    <Point Name="UGVUG" Type="Fix">-394132.040+1764745.860</Point>
     <Point Name="UKANO" Type="Fix">-413618.680+1743210.880</Point>
     <Point Name="UKAPA" Type="Fix">-361743.930+1741419.580</Point>
     <Point Name="UKASU" Type="Fix">-461214.430+1695538.630</Point>
@@ -5596,7 +5641,6 @@ RILEY
     <Point Name="CI" Type="Navaid" NavaidType="NDB" Frequency="322">-435725.300-1763358.800</Point>
     <Point Name="FA" Type="Navaid" NavaidType="NDB" Frequency="270">-134934.520-1720103.420</Point>
     <Point Name="FM" Type="Navaid" NavaidType="NDB" Frequency="245">-211459.400-1750841.000</Point>
-    <Point Name="FU" Type="Navaid" NavaidType="NDB" Frequency="0">-083129.000+1791152.000</Point>
     <Point Name="HK" Type="Navaid" NavaidType="NDB" Frequency="310">-424345.600+1705722.400</Point>
     <Point Name="HL" Type="Navaid" NavaidType="NDB" Frequency="378">-455645.200+1700943.000</Point>
     <Point Name="KI" Type="Navaid" NavaidType="NDB" Frequency="350">-422513.400+1734143.900</Point>
@@ -6100,8 +6144,8 @@ RILEY
     <Point Name="KAI IWI BEACH" Type="Fix">-395310.900+1745401.170</Point>
     <Point Name="KAINGAROA" Type="Fix">-382430.600+1763356.500</Point>
     <Point Name="KAIPO SADDLE" Type="Fix">-442703.800+1675925.200</Point>
-    <Point Name="KAITUNA BRIDGE" Type="Fix">-374446.800+1762115.500</Point>
     <Point Name="KAITUNA BRIDGE" Type="Fix">-412842.400+1734844.400</Point>
+    <Point Name="KAITUNA BRIDGE" Type="Fix">-374446.800+1762115.500</Point>
     <Point Name="KARAKA" Type="Fix">-370437.500+1745541.700</Point>
     <Point Name="KARANGAHAPE" Type="Fix">-384742.700+1754801.700</Point>
     <Point Name="KAREWA ISLAND" Type="Fix">-373146.800+1760754.500</Point>
@@ -7035,17 +7079,30 @@ RILEY
     <SID Name="TAYL3V" Airport="NZHN" Runways="36R">
       <Route Runway="36R">TAYLA</Route>
     </SID>
+    <SID Name="OPAP1U" Airport="NZHS" Runways="01">
+      <Route Runway="01">EKEDO/KIGIB/OPAPA</Route>
+    </SID>
+    <SID Name="TUKN1T" Airport="NZHS" Runways="19">
+      <Route Runway="19">EKEDO/IRTOR/TAVUX/TUKNE</Route>
+      <Transition Name="BOVSA">IPNEV/LAVAD/OMGUK/BOVSA</Transition>
+      <Transition Name="POTEX">POTEX</Transition>
+    </SID>
+    <SID Name="TUKN1U" Airport="NZHS" Runways="01">
+      <Route Runway="01">EKEDO/IRTOR/TAVUX/TUKNE</Route>
+      <Transition Name="BOVSA">IPNEV/LAVAD/OMGUK/BOVSA</Transition>
+      <Transition Name="POTEX">POTEX</Transition>
+    </SID>
     <SID Name="VICTO3" Airport="NZHS" Runways="01">
       <Route Runway="01" />
+      <Transition Name="NIXOT">ADGIN/NIXOT</Transition>
       <Transition Name="NR">NR VOR</Transition>
       <Transition Name="OPAPA">OPAPA</Transition>
-      <Transition Name="RIDLA">ADGIN/RIDLA</Transition>
     </SID>
     <SID Name="WHISK3" Airport="NZHS" Runways="19">
       <Route Runway="19" />
+      <Transition Name="NIXOT">NIXOT</Transition>
       <Transition Name="NR">NR VOR</Transition>
       <Transition Name="OPAPA">OPAPA</Transition>
-      <Transition Name="RIDLA">NIXOT/RIDLA</Transition>
     </SID>
     <SID Name="HOBSO2" Airport="NZKK" Runways="33">
       <Route Runway="33" />
@@ -7570,7 +7627,7 @@ RILEY
       <Route Runway="29">BENVU/MARKO</Route>
       <Route Runway="36">BENVU/MARKO</Route>
     </SID>
-    <SID Name="BIDN1P" Airport="NZTU" Runways="02">
+    <SID Name="BIDN2P" Airport="NZTU" Runways="02">
       <Route Runway="02">BIDNI</Route>
       <Transition Name="DUBON">DALUM/DUBON</Transition>
       <Transition Name="ELDAK">ELDAK</Transition>
@@ -7578,7 +7635,7 @@ RILEY
       <Transition Name="OLGAL">ATSOK/DOPOP/OLGAL</Transition>
       <Transition Name="OMARU">ATSOK/OMARU</Transition>
     </SID>
-    <SID Name="MUKE1Q" Airport="NZTU" Runways="20">
+    <SID Name="MUKE2Q" Airport="NZTU" Runways="20">
       <Route Runway="20">MUKEN</Route>
       <Transition Name="DUBON">DUBON</Transition>
       <Transition Name="ELDAK">BIDNI/ELDAK</Transition>
@@ -8539,8 +8596,8 @@ RILEY
     <STAR Name="BITI1A" Airport="NZNR" Runways="16">
       <Route Runway="16">BITIL/SUDBU/RISBU</Route>
     </STAR>
-    <STAR Name="GEND2A" Airport="NZNR" Runways="16">
-      <Route Runway="16">GENDA/INVUR/RISBU</Route>
+    <STAR Name="GEND3A" Airport="NZNR" Runways="16">
+      <Route Runway="16">GENDA/UBNIR/INVUR/RISBU</Route>
     </STAR>
     <STAR Name="GEND3B" Airport="NZNR" Runways="34">
       <Route Runway="34">GENDA/OVLER/VETAB</Route>
@@ -9523,7 +9580,6 @@ RILEY
       <Runway Name="23L" Position="-370023.962+1744820.671" />
     </Airport>
     <Airport ICAO="NZAH" FullName="Taharoa Ironsands" Position="-381015.000+1744216.000" />
-    <Airport ICAO="NZAL" FullName="Avalon" Position="-411112.000+1745638.000" />
     <Airport ICAO="NZAM" FullName="Ashburton Medical Centre" Position="-435339.070+1714452.710" />
     <Airport ICAO="NZAN" FullName="Anama" Position="-434737.490+1712338.180">
       <Runway Name="03" Position="-434737.489+1712338.180" />
@@ -9731,7 +9787,7 @@ RILEY
       <Runway Name="11" Position="-423555.241+1714144.329" />
       <Runway Name="29" Position="-423611.570+1714211.362" />
     </Airport>
-    <Airport ICAO="NZHS" FullName="Hastings" Position="-393848.000+1764601.000">
+    <Airport ICAO="NZHS" FullName="Hastings" Position="-393847.480+1764600.240">
       <Runway Name="01" Position="-393853.779+1764550.980" />
       <Runway Name="19" Position="-393826.340+1764610.751" />
       <Runway Name="11" Position="-393838.490+1764543.560" />
@@ -9981,6 +10037,7 @@ RILEY
       <Runway Name="18" Position="-445742.660+1710506.619" />
       <Runway Name="36" Position="-445819.801+1710440.300" />
     </Airport>
+    <Airport ICAO="NZOW" FullName="Onetangi" Position="-364818.300+1750415.040" />
     <Airport ICAO="NZOX" FullName="Okiwi Station" Position="-360847.000+1752507.000">
       <Runway Name="18" Position="-360835.498+1752510.589" />
       <Runway Name="36" Position="-360857.970+1752459.101" />
@@ -10038,7 +10095,7 @@ RILEY
       <Runway Name="22" Position="-465354.460+1680617.482" />
     </Airport>
     <Airport ICAO="NZRD" FullName="Rosedale" Position="-364433.310+1744257.360" />
-    <Airport ICAO="NZRI" FullName="Rangitata Island" Position="-440506.000+1712457.000">
+    <Airport ICAO="NZRI" FullName="Rakitata Island" Position="-440506.000+1712457.000">
       <Runway Name="03" Position="-440516.609+1712500.131" />
       <Runway Name="21" Position="-440505.161+1712521.112" />
       <Runway Name="12" Position="-440447.842+1712439.200" />

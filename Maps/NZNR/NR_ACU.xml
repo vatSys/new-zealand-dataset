@@ -84,8 +84,8 @@
       BITIL/SUDBU/RISBU
     </Line>
     <Line>
-      <!--Rwy16 GEND2A-->
-      GENDA/INVUR/RISBU
+      <!--Rwy16 GEND3A-->
+      GENDA/UBNIR/INVUR/RISBU
     </Line>
     <Line>
       <!--Rwy16 NR1A-->
@@ -119,6 +119,7 @@
       <Point>BITIL</Point>
       <Point>SUDBU</Point>
       <Point>GENDA</Point>
+      <Point>UBNIR</Point>
       <Point>INVUR</Point>
       <Point>TARER</Point>
       <Point>OPAPA</Point>

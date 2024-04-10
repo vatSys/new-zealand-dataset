@@ -4,7 +4,6 @@
     <Symbol Type="HollowTriangle">
       <Point>NZAA</Point>
       <Point>NZAH</Point>
-      <Point>NZAL</Point>
       <Point>NZAM</Point>
       <Point>NZAN</Point>
       <Point>NZAP</Point>
@@ -142,6 +141,7 @@
       <Point>NZOS</Point>
       <Point>NZOT</Point>
       <Point>NZOU</Point>
+      <Point>NZOW</Point>
       <Point>NZOX</Point>
       <Point>NZPA</Point>
       <Point>NZPH</Point>
@@ -224,7 +224,6 @@
     <Label HasLeader="false" LabelOrientation="NW">
       <Point Name="AA">NZAA</Point>
       <Point Name="AH">NZAH</Point>
-      <Point Name="AL">NZAL</Point>
       <Point Name="AM">NZAM</Point>
       <Point Name="AN">NZAN</Point>
       <Point Name="AP">NZAP</Point>
@@ -362,6 +361,7 @@
       <Point Name="OS">NZOS</Point>
       <Point Name="OT">NZOT</Point>
       <Point Name="OU">NZOU</Point>
+      <Point Name="OW">NZOW</Point>
       <Point Name="OX">NZOX</Point>
       <Point Name="PA">NZPA</Point>
       <Point Name="PH">NZPH</Point>
