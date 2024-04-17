@@ -2,27 +2,27 @@
 <Maps>
   <Map Type="System2" Name="02 SIDs" Priority="1" CustomColourName="ProcDep" Center="-44.294633+171.231261">
     <Line Pattern="Dashed">
-      <!--Rwy02 BIDN1P-->
+      <!--Rwy02 BIDN2P-->
       -44.294633+171.231261/TU20T/-44.278194+171.251250/BIDNI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 BIDN1P.DUBON-->
+      <!--Rwy02 BIDN2P.DUBON-->
       BIDNI/DALUM/DUBON
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 BIDN1P.ELDAK-->
+      <!--Rwy02 BIDN2P.ELDAK-->
       BIDNI/ELDAK
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 BIDN1P.MAMUS-->
-      DALUM/-44.252772+170.935364/MAMUS
+      <!--Rwy02 BIDN2P.MAMUS-->
+      DALUM/MAMUS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 BIDN1P.OLGAL-->
+      <!--Rwy02 BIDN2P.OLGAL-->
       BIDNI/ATSOK/DOPOP/OLGAL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 BIDN1P.OMARU-->
+      <!--Rwy02 BIDN2P.OMARU-->
       ATSOK/OMARU
     </Line>
     <Symbol Type="HollowTriangle">
@@ -113,32 +113,34 @@
   </Map>
   <Map Type="System2" Name="20 SIDs" Priority="1" CustomColourName="ProcDep" Center="-44.303272+171.220639">
     <Line Pattern="Dashed">
-      <!--Rwy20 MUKE1Q-->
+      <!--Rwy20 MUKE2Q-->
       -44.303272+171.220639/TU02T/MUKEN
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 MUKE1Q.DUBON-->
+      <!--Rwy20 MUKE2Q.DUBON-->
       MUKEN/DUBON
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 MUKE1Q.ELDAK-->
+      <!--Rwy20 MUKE2Q.ELDAK-->
       MUKEN/BIDNI/ELDAK
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 MUKE1Q.MAMUS-->
+      <!--Rwy20 MUKE2Q.MAMUS-->
       MUKEN/MAMUS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 MUKE1Q.OLGAL-->
+      <!--Rwy20 MUKE2Q.OLGAL-->
       MUKEN/OLGAL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 MUKE1Q.OMARU-->
+      <!--Rwy20 MUKE2Q.OMARU-->
       MUKEN/OMARU
     </Line>
+    <Symbol Type="SolidStar">
+      <Point>MUKEN</Point>
+    </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>TU02T</Point>
-      <Point>MUKEN</Point>
       <Point>DUBON</Point>
       <Point>BIDNI</Point>
       <Point>ELDAK</Point>

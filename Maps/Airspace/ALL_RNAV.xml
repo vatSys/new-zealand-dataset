@@ -364,6 +364,7 @@
       <Point>KARBA</Point>
       <Point>LALAN</Point>
       <Point>MIKER</Point>
+      <Point>AMURI</Point>
       <Point>ARIKA</Point>
       <Point>GOSTI</Point>
       <Point>TU593</Point>
@@ -469,6 +470,8 @@
       <Point>RIPSA</Point>
       <Point>UKDAS</Point>
       <Point>BENVU</Point>
+      <Point>ANBEN</Point>
+      <Point>IGDAB</Point>
       <Point>REKID</Point>
       <Point>EMTEP</Point>
       <Point>ENPIP</Point>
@@ -491,7 +494,6 @@
       <Point>BUSBI</Point>
       <Point>ALBAD</Point>
       <Point>OLNAN</Point>
-      <Point>AMURI</Point>
       <Point>AVMEB</Point>
       <Point>MARKS</Point>
       <Point>WS408</Point>
@@ -508,15 +510,12 @@
       <Point>SALEK</Point>
       <Point>VESAV</Point>
       <Point>GT403</Point>
-      <Point>-39.722220+176.710770</Point>
-      <Point>-39.649380+176.763350</Point>
-      <Point>-39.582160+176.811770</Point>
-      <Point>-39.640450+176.769780</Point>
+      <Point>AVBUL</Point>
+      <Point>EMVES</Point>
       <Point>-35.244333+173.907978</Point>
       <Point>-35.270886+173.916278</Point>
       <Point>KT401</Point>
       <Point>KT501</Point>
-      <Point>LX407</Point>
       <Point>MS603</Point>
       <Point>-36.667425+174.640756</Point>
       <Point>KAGDU</Point>
@@ -680,6 +679,7 @@
       <Point>KARBA</Point>
       <Point>LALAN</Point>
       <Point>MIKER</Point>
+      <Point>AMURI</Point>
       <Point>ARIKA</Point>
       <Point>GOSTI</Point>
       <Point>TU593</Point>
@@ -790,8 +790,8 @@
       <Point>RIPSA</Point>
       <Point>UKDAS</Point>
       <Point>BENVU</Point>
-      <Point>-38.167164+175.830969</Point>
-      <Point>-38.309944+175.958236</Point>
+      <Point>ANBEN</Point>
+      <Point>IGDAB</Point>
       <Point>REKID</Point>
       <Point>EMTEP</Point>
       <Point>ENPIP</Point>
@@ -818,7 +818,6 @@
     <Symbol Type="SolidTriangle">
       <Point>ALBAD</Point>
       <Point>OLNAN</Point>
-      <Point>AMURI</Point>
       <Point>AVMEB</Point>
       <Point>MARKS</Point>
       <Point>WS408</Point>
@@ -884,8 +883,8 @@
     <Line Pattern="Solid">BUDEN/NITAK/-375225.140+1751946.942</Line>
     <Line Pattern="Solid">VATNA/ISPOT/HN VOR/-375120.902+1752010.219</Line>
     <Line Pattern="Solid">GUNDA/IKERI/-375225.140+1751946.942</Line>
-    <Line Pattern="Solid">OPAPA/-39.722220+176.710770/-39.649380+176.763350/-393853.779+1764550.980</Line>
-    <Line Pattern="Solid">NR VOR/-39.582160+176.811770/-39.640450+176.769780/-393826.340+1764610.751</Line>
+    <Line Pattern="Solid">OPAPA/AVBUL/-393853.779+1764550.980</Line>
+    <Line Pattern="Solid">NR VOR/EMVES/-393826.340+1764610.751</Line>
     <Line Pattern="Solid">OTAHA/-35.171564+173.885264/-35.244333+173.907978/-351508.701+1735437.822</Line>
     <Line Pattern="Solid">OPARE/-35.343650+173.939047/-35.270886+173.916278/-351546.091+1735449.500</Line>
     <Line Pattern="Solid">STEED/DAKTA/KT401/-350352.330+1731651.650</Line>
@@ -977,11 +976,11 @@
     <Line Pattern="Solid">TODAN/PATMO</Line>
     <Line Pattern="Solid">UBSET/PATMO</Line>
     <Line Pattern="Solid">MARKO/TK401/BENVU/TK407/-404840.252+1724639.112</Line>
-    <Line Pattern="Solid">WAIPA/-38.167164+175.830969/-381407.530+1755330.278</Line>
+    <Line Pattern="Solid">WAIPA/ANBEN/-381407.530+1755330.278</Line>
     <Line Pattern="Solid">KARBA/WAIPA</Line>
     <Line Pattern="Solid">LALAN/WAIPA</Line>
     <Line Pattern="Solid">MIKER/WAIPA</Line>
-    <Line Pattern="Solid">AMURI/-38.309944+175.958236/-381430.170+1755350.460</Line>
+    <Line Pattern="Solid">AMURI/IGDAB/-381430.170+1755350.460</Line>
     <Line Pattern="Solid">ARIKA/AMURI</Line>
     <Line Pattern="Solid">GOSTI/AMURI</Line>
     <Line Pattern="Solid">GUMAN/AMURI</Line>
