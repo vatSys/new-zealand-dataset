@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="NZGS Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="GSAA3" Pattern="Broken">GS VOR/KEEPA/WK NDB/PIBOV/TG NDB/NOBAR/OSNUM/MERAS/AA VOR</Line>
+    <Line Name="GSHN3" Pattern="Broken">GS VOR/DABIP/LUMSO/RO VOR/FALLS/GODOK/HN VOR</Line>
+    <Line Name="GSHN4" Pattern="Broken">GS VOR/DABIP/LUMSO/RO VOR/LALAN/MIKER/HN VOR</Line>
+    <Line Name="GSNR1" Pattern="Broken">GS VOR/RULSI/GOTNO/DOMON/POTEX/NR VOR</Line>
+    <Line Name="GSNR4" Pattern="Broken">GS VOR/COOKS/MAHIA/BEVER/NR VOR</Line>
+    <Line Name="GSWO3" Pattern="Broken">GS VOR/RULSI/GOTNO/DOMON</Line>
+    <Line Name="GSWN3" Pattern="Broken">GS VOR/RULSI/GOTNO/DOMON/POTEX/NR VOR/NIXOT/RIDLA/PM VOR/LIMPA/DOGAD/WN VOR</Line>
+  </Map>
+</Maps>

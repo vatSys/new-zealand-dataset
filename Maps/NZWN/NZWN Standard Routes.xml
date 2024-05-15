@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="NZWN Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="WNAA2" Pattern="Broken">WN VOR/RUSIL/ENBUG/OPABI/POKOM/DAVEE/BROOK/AA VOR</Line>
+    <Line Name="WNAA5" Pattern="Broken">WN VOR/ATVIN/MEVAX/OPABI/LIKTU/DADUK/AKDOL/PEPPE/IGABI/AA VOR</Line>
+    <Line Name="WNAA7" Pattern="Broken">KAMET/BINIT/FOXTN/OH VOR/AVKAB/ARETI/PARRA/OROPI/TG NDB/NOBAR</Line>
+    <Line Name="WNCI2" Pattern="Broken">WN VOR/ATSUN/ATABU/APIDO/APOTO/CI NDB</Line>
+    <Line Name="WNCH3" Pattern="Broken">WN VOR/SABDA/MESIX/CH VOR</Line>
+    <Line Name="WNCH5" Pattern="Broken">WN VOR/VENAM/ATBUB/MESIX/CH VOR</Line>
+    <Line Name="WNDN1" Pattern="Broken">WN VOR/SABDA/MESIX/IDARA/MIPAK</Line>
+    <Line Name="WNDN8" Pattern="Broken">WN VOR/VENAM/ATBUB/MESIX/CH VOR/IDARA/MIPAK/SW VOR</Line>
+    <Line Name="WNGS1" Pattern="Broken">KAMET/BINIT/PM VOR/SELDU/BITIL/NR VOR/POTEX/DOMON/GOTNO/RULSI/GS VOR</Line>
+    <Line Name="WNHN2" Pattern="Broken">KAPTI/OVKOX/BEDUL/DAGOM/OMBUB/ELDIB/LIKTU/UPTIK/DABKA/HN VOR</Line>
+    <Line Name="WNHN7" Pattern="Broken">KAPTI/OVKOX/BEDUL/DAGOM/ARETI/PARRA/INTOX/RO VOR/FALLS/GODOK</Line>
+    <Line Name="WNHS2" Pattern="Broken">KAMET/BINIT/PM VOR/RIDLA/OPAPA</Line>
+    <Line Name="WNNV2" Pattern="Broken">WN VOR/SABDA/MESIX/IDARA/DUKOP/NV VOR</Line>
+    <Line Name="WNNV5" Pattern="Broken">WN VOR/VENAM/ATBUB/MESIX/IDARA/DUKOP/NV VOR</Line>
+    <Line Name="WNNR2" Pattern="Broken">KAMET/BINIT/PM VOR/SELDU/BITIL/NR VOR</Line>
+    <Line Name="WNNS1-34" Pattern="Broken">NULKO/BOLOX/GUSDU/RILDO/ELMAX/NS VOR</Line>
+    <Line Name="WNNS1-16" Pattern="Broken">LUBSI/NS VOR</Line>
+    <Line Name="WNNP1" Pattern="Broken">WN VOR/ATVIN/MEVAX/SUNIK/OMKUN/SELTA/NP VOR</Line>
+    <Line Name="WNOH2" Pattern="Broken">KAMET/BINIT</Line>
+    <Line Name="WNPM1" Pattern="Broken">KAMET/BINIT/PM VOR</Line>
+    <Line Name="WNPN3-34" Pattern="Broken">AVPOD</Line>
+    <Line Name="WNPN3-16" Pattern="Broken">WN VOR/IGMUL/LUTKA</Line>
+    <Line Name="WNQN3" Pattern="Broken">WN VOR/SABDA/MESIX/CH VOR/GUPUT/SUNAR/UPNIX/ELRUV/QN VOR</Line>
+    <Line Name="WNQN5" Pattern="Broken">WN VOR/VENAM/ATBUB/MESIX/CH VOR/GUPUT/SUNAR/UPNIX/ELRUV/QN VOR</Line>
+    <Line Name="WNRO1" Pattern="Broken">KAPTI/OVKOX/BEDUL/DAGOM/ARETI/PARRA/INTOX/RO VOR</Line>
+    <Line Name="WNAP3" Pattern="Broken">KAPTI/OVKOX/BEDUL/DAGOM/ARETI/SULFA/AP NDB</Line>
+    <Line Name="WNTG1" Pattern="Broken">KAPTI/OVKOX/BEDUL/DAGOM/ARETI/PARRA/OROPI/TG NDB</Line>
+    <Line Name="WNTU3" Pattern="Broken">WN VOR/VENAM/ATBUB/MESIX/CH VOR/IVRON/ELDAK/BUDPA/TU NDB</Line>
+    <Line Name="WNWU3" Pattern="Broken">KAPTI/WU NDB</Line>
+    <Line Name="WNWS1-34" Pattern="Broken">NULKO/BOLOX/NS VOR/CONOR/IGLOB/AKSEM/WS NDB</Line>
+    <Line Name="WNWS1-16" Pattern="Broken">LUBSI/NS VOR/CONOR/IGLOB/AKSEM/WS NDB</Line>
+    <Line Name="WNWK3" Pattern="Broken">KAPTI/OVKOX/BEDUL/DAGOM/ARETI/PARRA/INTOX/RO VOR/WK NDB</Line>
+    <Line Name="WNWR2" Pattern="Broken">WN VOR/ATVIN/MEVAX/OPABI/LIKTU/DADUK/AKDOL/PEPPE/IGABI/AA VOR/PUHOI/SF NDB</Line>
+    <Line Name="WNWP2" Pattern="Broken">WN VOR/RUSIL/ENBUG/OPABI/POKOM/DAVEE/BROOK/AA VOR/WP VOR</Line>
+    <Line Name="WNWP4" Pattern="Broken">WN VOR/ATVIN/MEVAX/OPABI/LIKTU/DADUK/AKDOL/PEPPE/IGABI/AA VOR/WP VOR</Line>
+    <Line Name="WNWP9" Pattern="Broken">KAMET/BINIT/FOXTN/OH VOR/AVKAB/ARETI/PARRA/OROPI/TG NDB/NOBAR/OSNUM/MERAS/AA VOR/WP VOR</Line>
+    <Line Name="WNWB3-34" Pattern="Broken">AVPOD</Line>
+    <Line Name="WNWB3-16" Pattern="Broken">WN VOR/IGMUL/LUTKA/WB VOR</Line>
+  </Map>
+</Maps>

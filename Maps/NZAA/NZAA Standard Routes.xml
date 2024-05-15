@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="NZAA Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="AACH1" Pattern="Hash">KARRL/NP VOR/RUPNU/TONUS/TELIM/MENOV/KUNVO/NS VOR/PEAKS/CH VOR</Line>
+    <Line Name="AACH6" Pattern="Hash">KARRL/NP VOR/VELGA/PEDPO/ALADA/IGEGA/CH VOR</Line>
+    <Line Name="AADN3" Pattern="Hash">KAPAI/LAKAR/LAPIM/MIPAK</Line>
+    <Line Name="AAGS3" Pattern="Hash">TULMI/DABIP/GS VOR</Line>
+    <Line Name="AAGS4" Pattern="Hash">TULMI/ESKER/RO VOR/LUMSO/DABIP/GS VOR</Line>
+    <Line Name="AAGB2" Pattern="Hash">BOVRU/BETKI/DOSTU</Line>
+    <Line Name="AAHN1" Pattern="Hash">LAKES/URKAS/HN VOR</Line>
+    <Line Name="AAKT1-23L" Pattern="Hash">KYPRA/UKAPA/PERAS/KT NDB</Line>
+    <Line Name="AAKT1-05R" Pattern="Hash">KAWAU/APABO/PERAS/KT NDB</Line>
+    <Line Name="AAKK1-23L" Pattern="Hash">KYPRA/UKAPA/KK NDB</Line>
+    <Line Name="AAKK1-05R" Pattern="Hash">KAWAU/APABO/SF NDB/KK NDB</Line>
+    <Line Name="AANR2" Pattern="Hash">LAKES/URKAS/HN VOR/EMSAR/GORGA/GENDA/NR VOR</Line>
+    <Line Name="AANR5" Pattern="Hash">LAKES/URKAS/HN VOR/KARBA/GOSTI/AP NDB/OBDEV/GENDA/NR VOR</Line>
+    <Line Name="AANS2" Pattern="Hash">KARRL/NP VOR/RUPNU/TONUS/TELIM/MENOV/KUNVO/NS VOR</Line>
+    <Line Name="AANP1" Pattern="Hash">KARRL/EKALI/DOBBO/NP VOR</Line>
+    <Line Name="AANV1" Pattern="Hash">KAPAI/LAKAR/MIDUB/DOVOT/QN VOR/SUNGU/ANOPA/NV VOR</Line>
+    <Line Name="AANV5" Pattern="Hash">KAPAI/LAKAR/DUBON/UPNIX/DUKOP/NV VOR</Line>
+    <Line Name="AAPM2" Pattern="Hash">LAKES/DROPT/IDVIG/IDLUR/PM VOR</Line>
+    <Line Name="AAPM5" Pattern="Hash">LAKES/URKAS/HN VOR/DROPT/POURO/TM NDB/ARETI/AVKAB/PM VOR</Line>
+    <Line Name="AAPP3" Pattern="Hash">KARRL/SILVO/TPAPA/PP NDB</Line>
+    <Line Name="AAQN2" Pattern="Hash">KAPAI/LAKAR/MIDUB/DOVOT/QN VOR</Line>
+    <Line Name="AAQN4" Pattern="Hash">KAPAI/LAKAR/DUBON/UPNIX/ELRUV/QN VOR</Line>
+    <Line Name="AARO1" Pattern="Hash">TULMI/ESKER/RO VOR</Line>
+    <Line Name="AAAP1" Pattern="Hash">LAKES/URKAS/HN VOR/KARBA/GOSTI/AP NDB</Line>
+    <Line Name="AATG1" Pattern="Hash">TULMI/URBUX/TG NDB</Line>
+    <Line Name="AAWU2" Pattern="Hash">LAKES/URKAS/HN VOR/DROPT/POURO/TM NDB/ADRAD/TENUR/WU NDB</Line>
+    <Line Name="AAWN1" Pattern="Hash">KARRL/SILVO/TPAPA/WN VOR</Line>
+    <Line Name="AAWK3" Pattern="Hash">TULMI/URBUX/TG NDB/PIBOV/WK NDB</Line>
+    <Line Name="AAWR3-23L" Pattern="Hash">KOPPA/SF NDB</Line>
+    <Line Name="AAWR3-05R" Pattern="Hash">PUHOI/SF NDB</Line>
+    <Line Name="AAWB3" Pattern="Hash">KARRL/NP VOR/DAPNO/PADMU/AKAVI/SWUTH/IPMIR/WB VOR</Line>
+  </Map>
+</Maps>

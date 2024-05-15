@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="NZNV Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="NVAA1" Pattern="Broken">NV VOR/ANOPA/SUNGU/QN VOR/SAVLA/LOVTA/SEBRU/OMKUN/LEBOX/POKOM/DAVEE/BROOK/AA VOR</Line>
+    <Line Name="NVAA4" Pattern="Broken">NV VOR/ADLUP/ELDAK/IVRON/CH VOR/GLENN/GULOV/IGUTA/AKAVI/OMKUN/LEBOX/POKOM/DAVEE/BROOK/AA VOR</Line>
+    <Line Name="NVCH2" Pattern="Broken">NV VOR/ADLUP/ELDAK/IVRON/CH VOR</Line>
+    <Line Name="NVDN2" Pattern="Broken">EPDAB</Line>
+    <Line Name="NVDN4" Pattern="Broken">NV VOR/BIMAX/OREXI/BE NDB</Line>
+    <Line Name="NVWN3" Pattern="Broken">NV VOR/ADLUP/ELDAK/IVRON/CH VOR/GRETA/LUXEV/KAKUR/WARDS/OMDOX/WN VOR</Line>
+  </Map>
+</Maps>

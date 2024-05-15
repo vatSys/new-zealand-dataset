@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="NZTU Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="TUCH1" Pattern="Broken">TU NDB/BUDPA/ELDAK/IVRON/CH VOR</Line>
+    <Line Name="TUWN2" Pattern="Broken">TU NDB/BUDPA/ELDAK/IVRON/CH VOR/GRETA/LUXEV/KAKUR/WARDS/OMDOX/WN VOR</Line>
+  </Map>
+</Maps>

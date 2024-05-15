@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="NZPP Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="PPAA3" Pattern="Broken">PP NDB/GOPRO/KAPTI/OVKOX/BEDUL/DAGOM/OMBUB/ELDIB/LIKTU/DADUK/AKDOL/PEPPE/IGABI/AA VOR</Line>
+    <Line Name="PPCH1" Pattern="Broken">PP NDB/WN VOR/SABDA/MESIX/CH VOR</Line>
+    <Line Name="PPNS2" Pattern="Broken">PP NDB/AVKEX/NULKO/BOLOX/GUSDU/RILDO/ELMAX/NS VOR</Line>
+    <Line Name="PPPM1" Pattern="Broken">PP NDB/KAMET/BINIT/FOXTN/PM VOR</Line>
+    <Line Name="PPWB1" Pattern="Broken">PP NDB/AVKEX/AVPOD/WB VOR</Line>
+  </Map>
+</Maps>

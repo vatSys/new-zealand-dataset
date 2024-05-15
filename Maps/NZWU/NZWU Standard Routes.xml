@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="NZWU Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="WUAA1" Pattern="Broken">WU NDB/ENTIM/DAGOM/OMBUB/ELDIB/LIKTU/DADUK/AKDOL/PEPPE/IGABI/AA VOR</Line>
+    <Line Name="WUHN3" Pattern="Broken">WU NDB/ENTIM/DAGOM/OMBUB/ELDIB/LIKTU/UPTIK/DABKA/HN VOR</Line>
+    <Line Name="WUPM3" Pattern="Broken">WU NDB/AVKAB/PM VOR</Line>
+    <Line Name="WUNS1" Pattern="Broken">WU NDB/LEDOR/DUMOT/DALKI/NS VOR</Line>
+    <Line Name="WUNP1" Pattern="Broken">WU NDB/MEVAX/SUNIK/OMKUN/SELTA/NP VOR</Line>
+    <Line Name="WUWN3" Pattern="Broken">WU NDB/LEDOR/TPAPA/WN VOR</Line>
+  </Map>
+</Maps>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="NZDN Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="DNAA1" Pattern="Broken">BIDEL/LADIS/CH VOR/GLENN/GULOV/IGUTA/AKAVI/OMKUN/LEBOX/POKOM/DAVEE/BROOK/AA VOR</Line>
+    <Line Name="DNAA4" Pattern="Broken">BIDEL/LADIS/CH VOR/PORAM/RIVTA/GULOV/IGUTA/AKAVI/OMKUN/ZUKKY/DADUK/AKDOL/PEPPE/IGABI/AA VOR</Line>
+    <Line Name="DNCH2" Pattern="Broken">BIDEL/LADIS/CH VOR</Line>
+    <Line Name="DNNV2" Pattern="Broken">AKPIN</Line>
+    <Line Name="DNNV5" Pattern="Broken">BE NDB/OREXI/BIMAX/NV VOR</Line>
+    <Line Name="DNWN3" Pattern="Broken">BIDEL/LADIS/WARDS/OMDOX/WN VOR</Line>
+    <Line Name="DNWN5" Pattern="Broken">BIDEL/LADIS/CH VOR/GRETA/LUXEV/KAKUR/WARDS/OMDOX/WN VOR</Line>
+  </Map>
+</Maps>

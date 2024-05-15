@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="NZNR Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="NRAA2" Pattern="Broken">NR VOR/BOVSA/MOOSE/NOBAR/OSNUM/MERAS/AA VOR</Line>
+    <Line Name="NRCH3" Pattern="Broken">NR VOR/NIXOT/RIDLA/UVUSI/ABTOL/ANOKU/GURBO/VENAM/ATBUB/MESIX/CH VOR</Line>
+    <Line Name="NRGS3" Pattern="Broken">NR VOR/POTEX/DOMON/GOTNO/RULSI/GS VOR</Line>
+    <Line Name="NRGS5" Pattern="Broken">NR VOR/BEVER/MAHIA/COOKS/GS VOR</Line>
+    <Line Name="NRHN1" Pattern="Broken">NR VOR/BOVSA/MOOSE/LUXAS/ELAGA/RO VOR/FALLS/GODOK/HN VOR</Line>
+    <Line Name="NRPM3" Pattern="Broken">NR VOR/NIXOT/RIDLA/IRMIX/PM VOR</Line>
+    <Line Name="NRPM4" Pattern="Broken">NR VOR/OPAPA/ELPEL/WEBER/IRMIX/PM VOR</Line>
+    <Line Name="NRWO1" Pattern="Broken">NR VOR/POTEX/DOMON</Line>
+    <Line Name="NRWN1" Pattern="Broken">NR VOR/NIXOT/RIDLA/PM VOR/LIMPA/DOGAD/WN VOR</Line>
+  </Map>
+</Maps>

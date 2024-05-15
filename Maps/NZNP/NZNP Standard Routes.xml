@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="NZNP Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="NPAA3" Pattern="Broken">NP VOR/HARVO/IRMOD/DADUK/AKDOL/PEPPE/IGABI/AA VOR</Line>
+    <Line Name="NPCH1-05" Pattern="Broken">NP VOR/DAPNO/TONUS/PEDPO/ALADA/IGEGA/CH VOR</Line>
+    <Line Name="NPCH1-23" Pattern="Broken">NP VOR/VELGA/PEDPO/ALADA/IGEGA/CH VOR</Line>
+    <Line Name="NPHN2" Pattern="Broken">NP VOR/HARVO/IRMOD/DADUK/HN VOR</Line>
+    <Line Name="NPPM1" Pattern="Broken">NP VOR/IGDOT/UPREM/AVKAB/PM VOR</Line>
+    <Line Name="NPPM4" Pattern="Broken">NP VOR/SELTA/OMKUN/SUNIK/MEVAX/VIROL</Line>
+    <Line Name="NPPM7" Pattern="Broken">VELGA/PADMU/MEVAX/VIROL</Line>
+    <Line Name="NPWU1" Pattern="Broken">NP VOR/SELTA/OMKUN/SUNIK/MEVAX/WU NDB</Line>
+    <Line Name="NPWN1" Pattern="Broken">NP VOR/DAPNO/PADMU/TPAPA/WN VOR</Line>
+    <Line Name="NPWN5" Pattern="Broken">VELGA/PADMU/TPAPA/WN VOR</Line>
+    <Line Name="NPWU4" Pattern="Broken">VELGA/PADMU/MEVAX/WU NDB</Line>
+  </Map>
+</Maps>

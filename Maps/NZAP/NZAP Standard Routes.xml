@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="NZAP Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="APAA3" Pattern="Broken">AP NDB/DUDUS/LEGER/PEPPE/IGABI/AA VOR</Line>
+    <Line Name="APAA5" Pattern="Broken">AP NDB/GOSTI/KARBA/HN VOR/URKAS/LAKES/AA VOR</Line>
+    <Line Name="APWN2" Pattern="Broken">AP NDB/AKNES/TARUA/RUAHI/APITI/PM VOR/LIMPA/DOGAD/WN VOR</Line>
+    <Line Name="APWN6" Pattern="Broken">AP NDB/ONAGO/TM NDB/ADRAD/TENUR/WU NDB/LEDOR/TPAPA/WN VOR</Line>
+  </Map>
+</Maps>

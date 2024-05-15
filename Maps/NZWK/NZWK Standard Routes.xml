@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="NZWK Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="WKAA2" Pattern="Broken">WK NDB/PIBOV/TG NDB/NOBAR/OSNUM/MERAS/AA VOR</Line>
+    <Line Name="WKHN3" Pattern="Broken">WK NDB/RO VOR/FALLS/GODOK/HN VOR</Line>
+    <Line Name="WKWN1" Pattern="Broken">WK NDB/CHUTE/TARUA/RUAHI/APITI/PM VOR/LIMPA/DOGAD/WN VOR</Line>
+  </Map>
+</Maps>

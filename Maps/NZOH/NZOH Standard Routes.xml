@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="NZOH Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="OHAA1" Pattern="Broken">OH VOR/WU NDB/ENTIM/DAGOM/OMBUB/OPABI/POKOM/DAVEE/BROOK/AA VOR</Line>
+    <Line Name="OHAA4" Pattern="Broken">OH VOR/WU NDB/ENTIM/DAGOM/OMBUB/ELDIB/LIKTU/DADUK/AKDOL/PEPPE/IGABI/AA VOR</Line>
+    <Line Name="OHCH2" Pattern="Broken">OH VOR/ABTOL/ANOKU/GURBO/VENAM/ATBUB/MESIX/CH VOR</Line>
+    <Line Name="OHWN2" Pattern="Broken">OH VOR/ESMUK/DOGAD/WN VOR</Line>
+    <Line Name="OHWN5" Pattern="Broken">OH VOR/PORIG/KAPTI/ENBAR/AVKEX/BAXOV/WN VOR</Line>
+    <Line Name="OHWP1" Pattern="Broken">OH VOR/WU NDB/ENTIM/DAGOM/OMBUB/OPABI/POKOM/DAVEE/BROOK/AA VOR/WP VOR</Line>
+    <Line Name="OHWP6" Pattern="Broken">OH VOR/WU NDB/ENTIM/DAGOM/OMBUB/ELDIB/LIKTU/DADUK/AKDOL/PEPPE/IGABI/AA VOR/WP VOR</Line>
+    <Line Name="OHWB1" Pattern="Broken">OH VOR/PORIG/KAPTI/ENBAR/AVKEX/IPMIR/WB VOR</Line>
+  </Map>
+</Maps>

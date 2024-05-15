@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="NZWF Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="WFCH2" Pattern="Broken">TIMJO/DOPKI/CH VOR</Line>
+  </Map>
+</Maps>

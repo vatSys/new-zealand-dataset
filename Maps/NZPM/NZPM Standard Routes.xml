@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="NZPM Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="PMAA2" Pattern="Broken">OMBUB/ELDIB/LIKTU/DADUK/AKDOL/PEPPE/IGABI/AA VOR</Line>
+    <Line Name="PMAA6" Pattern="Broken">PM VOR/AVKAB/ARETI/TM NDB/DABKA/LEGER/PEPPE/IGABI/AA VOR</Line>
+    <Line Name="PMCH3" Pattern="Broken">PM VOR/ABTOL/ANOKU/GURBO/VENAM/ATBUB/MESIX/CH VOR</Line>
+    <Line Name="PMCH4" Pattern="Broken">PM VOR/MIBUS/DUMOT/DALKI/NS VOR/PEAKS/CH VOR</Line>
+    <Line Name="PMHN3" Pattern="Broken">OMBUB/ELDIB/LIKTU/UPTIK/DABKA/HN VOR</Line>
+    <Line Name="PMNR1" Pattern="Broken">PM VOR/APITI/SELDU/BITIL/NR VOR</Line>
+    <Line Name="PMNS3" Pattern="Broken">PM VOR/MIBUS/DUMOT/DALKI/NS VOR</Line>
+    <Line Name="PMNP2" Pattern="Broken">PM VOR/AVKAB/UPREM/IGDOT/NP VOR</Line>
+    <Line Name="PMNP5" Pattern="Broken">VIROL/MEVAX/SUNIK/OMKUN/SELTA/NP VOR</Line>
+    <Line Name="PMPP2" Pattern="Broken">PM VOR/FOXTN/BINIT/KAMET/PP NDB</Line>
+    <Line Name="PMWU1" Pattern="Broken">PM VOR/AVKAB/WU NDB</Line>
+    <Line Name="PMWN1" Pattern="Broken">PM VOR/LIMPA/DOGAD/WN VOR</Line>
+    <Line Name="PMWN4" Pattern="Broken">PM VOR/SAKBA/KAPTI/ENBAR/AVKEX/BAXOV/WN VOR</Line>
+    <Line Name="PMWB3" Pattern="Broken">PM VOR/SAKBA/KAPTI/ENBAR/AVKEX/IPMIR/WB VOR</Line>
+  </Map>
+</Maps>

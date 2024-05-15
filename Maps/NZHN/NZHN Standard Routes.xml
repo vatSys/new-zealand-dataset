@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="NZHN Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="HNCH3" Pattern="Broken">HN VOR/DADUK/IRMOD/HARVO/NP VOR/RUPNU/TONUS/TELIM/MENOV/KUNVO/NS VOR/PEAKS/CH VOR</Line>
+    <Line Name="HNCH5" Pattern="Broken">HN VOR/DABKA/UPTIK/LIKTU/SILVO/ALADA/IGEGA/CH VOR</Line>
+    <Line Name="HNGS1" Pattern="Broken">HN VOR/MIKER/LALAN/RO VOR/LUMSO/DABIP/GS VOR</Line>
+    <Line Name="HNNE3-03" Pattern="Broken">HN VOR/ATOLI/TAZEY/TOONA/SURFY/GILET/LIBKO</Line>
+    <Line Name="HNNE3-21" Pattern="Broken">HN VOR/ATPUL/MERAS/FIRTH/SATLA/HOOKS/UPLIN</Line>
+    <Line Name="HNNR1" Pattern="Broken">HN VOR/KARBA/GOSTI/AP NDB/OBDEV/GENDA/NR VOR</Line>
+    <Line Name="HNNS3" Pattern="Broken">HN VOR/DADUK/IRMOD/HARVO/NP VOR/RUPNU/TONUS/TELIM/MENOV/KUNVO/NS VOR</Line>
+    <Line Name="HNNP2" Pattern="Broken">HN VOR/DADUK/IRMOD/HARVO/NP VOR</Line>
+    <Line Name="HNPM1" Pattern="Broken">HN VOR/DROPT/IDVIG/IDLUR/PM VOR</Line>
+    <Line Name="HNPM5" Pattern="Broken">HN VOR/DROPT/POURO/TM NDB/ARETI/AVKAB/PM VOR</Line>
+    <Line Name="HNRO2" Pattern="Broken">HN VOR/MIKER/LALAN/RO VOR</Line>
+    <Line Name="HNTG1" Pattern="Broken">HN VOR/OLDON/TG NDB</Line>
+    <Line Name="HNTG4" Pattern="Broken">HN VOR/GODOK/FALLS/TG NDB</Line>
+    <Line Name="HNWK3" Pattern="Broken">HN VOR/MIKER/LALAN/RO VOR/WK NDB</Line>
+    <Line Name="HNWU2" Pattern="Broken">HN VOR/DROPT/POURO/TM NDB/ADRAD/TENUR/WU NDB</Line>
+    <Line Name="HNWN3" Pattern="Broken">HN VOR/DROPT/POURO/TM NDB/PM VOR/LIMPA/DOGAD/WN VOR</Line>
+    <Line Name="HNWN6" Pattern="Broken">HN VOR/DROPT/POURO/TM NDB/ADRAD/TENUR/WU NDB/LEDOR/TPAPA/WN VOR</Line>
+    <Line Name="HNWP2-03" Pattern="Broken">HN VOR/ATOLI/TAZEY/TOONA/SURFY/WYTAK/WP VOR</Line>
+    <Line Name="HNWP2-21" Pattern="Broken">HN VOR/ATPUL/MERAS/FIRTH/SATLA/HOOKS/BAYES/WP VOR</Line>
+  </Map>
+</Maps>

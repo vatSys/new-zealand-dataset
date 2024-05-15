@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="NZQN Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="QNAA1" Pattern="Broken">QN VOR/SAVLA/LOVTA/SEBRU/OMKUN/LEBOX/POKOM/DAVEE/BROOK/AA VOR</Line>
+    <Line Name="QNAA4" Pattern="Broken">NS VOR/SNAPA/IGUTA/AKAVI/OMKUN/ZUKKY/DADUK/AKDOL/PEPPE/IGABI/AA VOR</Line>
+    <Line Name="QNCH1" Pattern="Broken">QN VOR/TIMJO/DOPKI/CH VOR</Line>
+    <Line Name="QNCH5" Pattern="Broken">ADLUP/ELDAK/IVRON/CH VOR</Line>
+    <Line Name="QNWN1" Pattern="Broken">QN VOR/TIMJO/DOPKI/GRETA/LUXEV/KAKUR/WARDS/OMDOX/WN VOR</Line>
+    <Line Name="QNWN6" Pattern="Broken">QN VOR/TIMJO/DOPKI/CH VOR/GRETA/LUXEV/KAKUR/WARDS/OMDOX/WN VOR</Line>
+    <Line Name="QNWN7" Pattern="Broken">ADLUP/ELDAK/IVRON/CH VOR/GRETA/LUXEV/KAKUR/WARDS/OMDOX/WN VOR</Line>
+  </Map>
+</Maps>

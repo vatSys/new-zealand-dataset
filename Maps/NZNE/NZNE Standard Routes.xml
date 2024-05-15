@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="NZNE Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="NEHN3-03" Pattern="Broken">UPLIN/HOOKS/SATLA/FIRTH/MERAS/ATPUL/HN VOR</Line>
+    <Line Name="NEHN3-21" Pattern="Broken">LIBKO/GILET/SURFY/TOONA/TAZEY/ATOLI/HN VOR</Line>
+  </Map>
+</Maps>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="NZWS Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="WSWN2" Pattern="Broken">WS NDB/AKSEM/IGLOB/CONOR/NS VOR/LUSRA/SIMZI/WN VOR</Line>
+  </Map>
+</Maps>

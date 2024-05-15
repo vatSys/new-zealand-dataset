@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="NZNS Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="NSAA1-02" Pattern="Broken">NS VOR/SNAPA/IGUTA/AKAVI/OMKUN/ZUKKY/DADUK/AKDOL/PEPPE/IGABI/AA VOR</Line>
+    <Line Name="NSAA1-20" Pattern="Broken">BIVER/SEBRU/OMKUN/ZUKKY/DADUK/AKDOL/PEPPE/IGABI/AA VOR</Line>
+    <Line Name="NSCH2" Pattern="Broken">ALADA/IGEGA/CH VOR</Line>
+    <Line Name="NSHN1-02" Pattern="Broken">NS VOR/SNAPA/IGUTA/AKAVI/OMKUN/OPABI/LIKTU/UPTIK/DABKA/HN VOR</Line>
+    <Line Name="NSHN1-20" Pattern="Broken">BIVER/SEBRU/OMKUN/OPABI/LIKTU/UPTIK/DABKA/HN VOR</Line>
+    <Line Name="NSPM2" Pattern="Broken">NS VOR/SNAPA/DUMOT/MIBUS/PM VOR</Line>
+    <Line Name="NSPP3" Pattern="Broken">NS VOR/LUSRA/SIMZI/AVKEX/PP NDB</Line>
+    <Line Name="NSWU2-02" Pattern="Broken">NS VOR/DALKI/DUMOT/LEDOR/WU NDB</Line>
+    <Line Name="NSWU2-20" Pattern="Broken">NS VOR/SNAPA/DUMOT/LEDOR/WU NDB</Line>
+    <Line Name="NSWN2" Pattern="Broken">NS VOR/LUSRA/SIMZI/WN VOR</Line>
+    <Line Name="NSWB3" Pattern="Broken">NS VOR/LUBSI/WB VOR</Line>
+  </Map>
+</Maps>

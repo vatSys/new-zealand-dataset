@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="NZWR Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="WRAA3-23L" Pattern="Broken">SF NDB/APABO</Line>
+    <Line Name="WRAA3-05R" Pattern="Broken">SF NDB/UKAPA</Line>
+    <Line Name="WRWN3" Pattern="Broken">SF NDB/PUHOI/AA VOR/KARRL/SILVO/TPAPA/WN VOR</Line>
+  </Map>
+</Maps>
