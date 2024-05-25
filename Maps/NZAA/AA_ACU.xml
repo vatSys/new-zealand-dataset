@@ -132,23 +132,23 @@
       POLIS/TULMI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R RAXI2Q-->
+      <!--Rwy05R RAXI3Q-->
       EMRAG/RAXIN
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R RAXI2Q.AGREX-->
+      <!--Rwy05R RAXI3Q.AGREX-->
       RAXIN/AGREX
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R RAXI2Q.KALAG-->
+      <!--Rwy05R RAXI3Q.ELPAK-->
+      RAXIN/ELPAK
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R RAXI3Q.KALAG-->
       RAXIN/KALAG
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R RAXI2Q.SELKA-->
-      RAXIN/SELKA
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy05R RAXI2Q.TARIB-->
+      <!--Rwy05R RAXI3Q.TARIB-->
       RAXIN/TARIB
     </Line>
     <Line Pattern="Dashed">
@@ -249,8 +249,8 @@
       <Point>TULMI</Point>
       <Point>RAXIN</Point>
       <Point>AGREX</Point>
+      <Point>ELPAK</Point>
       <Point>KALAG</Point>
-      <Point>SELKA</Point>
       <Point>TARIB</Point>
       <Point>BUDLU</Point>
       <Point>REKIS</Point>
@@ -293,8 +293,8 @@
       <Point>LAKES</Point>
       <Point>TULMI</Point>
       <Point>AGREX</Point>
+      <Point>ELPAK</Point>
       <Point>KALAG</Point>
-      <Point>SELKA</Point>
       <Point>TARIB</Point>
       <Point>AGEDU</Point>
       <Point>AKLOM</Point>
@@ -353,91 +353,91 @@
       <!--Rwy05R DAVE7D-->
       DAVEE/AA507/STEAL/ATAMA
     </Line>
+    <Line>
+      <!--Rwy05R DODK1B-->
+      DODKU/MERAS/AA503/VINCE
+    </Line>
+    <Line>
+      <!--Rwy05R DODK1D-->
+      VINCE/STEAL
+    </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R EXOP1B.AGEDU-->
+      <!--Rwy05R EXOP2B.AGEDU-->
       AGEDU/OKTUB/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R EXOP1B.AGREX-->
+      <!--Rwy05R EXOP2B.AGREX-->
       AGREX/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R EXOP1B.AKLOM-->
+      <!--Rwy05R EXOP2B.AKLOM-->
       AKLOM/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R EXOP1B.DABAS-->
+      <!--Rwy05R EXOP2B.DABAS-->
       DABAS/OKTUB
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R EXOP1B.IDSEM-->
+      <!--Rwy05R EXOP2B.ELPAK-->
+      ELPAK/OKTUB
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy05R EXOP2B.IDSEM-->
       IDSEM/OKTUB
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R EXOP1B.KALAG-->
+      <!--Rwy05R EXOP2B.KALAG-->
       KALAG/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R EXOP1B.OLBEX-->
+      <!--Rwy05R EXOP2B.OLBEX-->
       OLBEX/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R EXOP1B.SELKA-->
-      SELKA/OKTUB
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy05R EXOP1B.TARIB-->
+      <!--Rwy05R EXOP2B.TARIB-->
       TARIB/EXOPI
     </Line>
     <Line>
-      <!--Rwy05R EXOP1B-->
+      <!--Rwy05R EXOP2B-->
       EXOPI/DIPPU/ANKIL/LOSGA/AKBAM
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R EXOP7D.AGEDU-->
+      <!--Rwy05R EXOP8D.AGEDU-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R EXOP7D.AGREX-->
+      <!--Rwy05R EXOP8D.AGREX-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R EXOP7D.AKLOM-->
+      <!--Rwy05R EXOP8D.AKLOM-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R EXOP7D.DABAS-->
+      <!--Rwy05R EXOP8D.DABAS-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R EXOP7D.IDSEM-->
+      <!--Rwy05R EXOP8D.ELPAK-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R EXOP7D.KALAG-->
+      <!--Rwy05R EXOP8D.IDSEM-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R EXOP7D.OLBEX-->
+      <!--Rwy05R EXOP8D.KALAG-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R EXOP7D.SELKA-->
+      <!--Rwy05R EXOP8D.OLBEX-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R EXOP7D.TARIB-->
+      <!--Rwy05R EXOP8D.TARIB-->
     </Line>
     <Line>
-      <!--Rwy05R EXOP7D-->
+      <!--Rwy05R EXOP8D-->
       ANKIL/VIRIS
     </Line>
     <Line>
       <!--Rwy05R IBES1B-->
-      IBESO/MERAS/AA503/VINCE
+      IBESO/MERAS
     </Line>
     <Line>
       <!--Rwy05R IBES1D-->
-      VINCE/STEAL
-    </Line>
-    <Line>
-      <!--Rwy05R NOBA9B-->
-      NOBAR/MERAS
-    </Line>
-    <Line>
-      <!--Rwy05R NOBA9D-->
     </Line>
     <Line>
       <!--Rwy05R PEPE6B-->
@@ -447,41 +447,41 @@
       <!--Rwy05R PEPE9D-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R RIKD1N.AGEDU-->
+      <!--Rwy05R RIKD2N.AGEDU-->
       OKTUB/RIKDI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R RIKD1N.AGREX-->
+      <!--Rwy05R RIKD2N.AGREX-->
       AGREX/RIKDI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R RIKD1N.AKLOM-->
+      <!--Rwy05R RIKD2N.AKLOM-->
       AKLOM/RIKDI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R RIKD1N.DABAS-->
+      <!--Rwy05R RIKD2N.DABAS-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R RIKD1N.IDSEM-->
+      <!--Rwy05R RIKD2N.ELPAK-->
+      ELPAK/RIKDI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R RIKD1N.KALAG-->
+      <!--Rwy05R RIKD2N.IDSEM-->
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy05R RIKD2N.KALAG-->
       KALAG/RIKDI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R RIKD1N.OLBEX-->
+      <!--Rwy05R RIKD2N.OLBEX-->
       OLBEX/RIKDI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R RIKD1N.SELKA-->
-      SELKA/RIKDI
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy05R RIKD1N.TARIB-->
+      <!--Rwy05R RIKD2N.TARIB-->
       TARIB/RIKDI
     </Line>
     <Line>
-      <!--Rwy05R RIKD1N-->
+      <!--Rwy05R RIKD2N-->
       RIKDI/WYTAK/OSIVO/LENGU
     </Line>
     <Line Pattern="Solid">
@@ -539,24 +539,24 @@
       <Point>GITUK</Point>
       <Point>AA507</Point>
       <Point>STEAL</Point>
+      <Point>DODKU</Point>
+      <Point>MERAS</Point>
+      <Point>AA503</Point>
       <Point>AGEDU</Point>
       <Point>OKTUB</Point>
       <Point>EXOPI</Point>
       <Point>AGREX</Point>
       <Point>AKLOM</Point>
       <Point>DABAS</Point>
+      <Point>ELPAK</Point>
       <Point>IDSEM</Point>
       <Point>KALAG</Point>
       <Point>OLBEX</Point>
-      <Point>SELKA</Point>
       <Point>TARIB</Point>
       <Point>DIPPU</Point>
       <Point>ANKIL</Point>
       <Point>LOSGA</Point>
       <Point>IBESO</Point>
-      <Point>MERAS</Point>
-      <Point>AA503</Point>
-      <Point>NOBAR</Point>
       <Point>PEPPE</Point>
       <Point>IGABI</Point>
       <Point>RIKDI</Point>
@@ -572,9 +572,9 @@
       <Point>BASIV</Point>
       <Point>BOVRU</Point>
       <Point>DAVEE</Point>
+      <Point>DODKU</Point>
       <Point>EXOPI</Point>
       <Point>IBESO</Point>
-      <Point>NOBAR</Point>
       <Point>PEPPE</Point>
       <Point>RIKDI</Point>
       <Point>SCARY</Point>
@@ -590,10 +590,10 @@
       <Point>AGREX</Point>
       <Point>AKLOM</Point>
       <Point>DABAS</Point>
+      <Point>ELPAK</Point>
       <Point>IDSEM</Point>
       <Point>KALAG</Point>
       <Point>OLBEX</Point>
-      <Point>SELKA</Point>
       <Point>TARIB</Point>
       <Point>HN VOR</Point>
       <Point>LENGU</Point>
@@ -759,23 +759,23 @@
       LAKES/TULMI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L MEMO2P-->
+      <!--Rwy23L MEMO3P-->
       WYTAK/MEMOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L MEMO2P.AGREX-->
+      <!--Rwy23L MEMO3P.AGREX-->
       MEMOR/AGREX
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L MEMO2P.KALAG-->
+      <!--Rwy23L MEMO3P.ELPAK-->
+      MEMOR/ELPAK
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23L MEMO3P.KALAG-->
       MEMOR/KALAG
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23L MEMO2P.SELKA-->
-      MEMOR/SELKA
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy23L MEMO2P.TARIB-->
+      <!--Rwy23L MEMO3P.TARIB-->
       MEMOR/TARIB
     </Line>
     <Line Pattern="Dashed">
@@ -868,8 +868,8 @@
       <Point>TULMI</Point>
       <Point>MEMOR</Point>
       <Point>AGREX</Point>
+      <Point>ELPAK</Point>
       <Point>KALAG</Point>
-      <Point>SELKA</Point>
       <Point>TARIB</Point>
       <Point>AA05R</Point>
       <Point>OSRAP</Point>
@@ -919,8 +919,8 @@
       <Point>LAKES</Point>
       <Point>TULMI</Point>
       <Point>AGREX</Point>
+      <Point>ELPAK</Point>
       <Point>KALAG</Point>
-      <Point>SELKA</Point>
       <Point>TARIB</Point>
       <Point>GULUT</Point>
       <Point>MADEP</Point>
@@ -1050,6 +1050,13 @@
     <Line>
       <!--Rwy23L DAVE3E-->
     </Line>
+    <Line>
+      <!--Rwy23L DODK1A-->
+      DODKU/SAMII/TEVUC/EMRAG
+    </Line>
+    <Line>
+      <!--Rwy23L DODK1E-->
+    </Line>
     <Line Pattern="Solid">
       <!--Rwy23L EAGI2A.AKLOM-->
       AKLOM/EAGIL
@@ -1059,39 +1066,39 @@
       EAGIL/AA421/AA425/AA420/EMRAG
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L EXOP8A.AGEDU-->
+      <!--Rwy23L EXOP9A.AGEDU-->
       AGEDU/OKTUB/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L EXOP8A.AGREX-->
+      <!--Rwy23L EXOP9A.AGREX-->
       AGREX/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L EXOP8A.DABAS-->
+      <!--Rwy23L EXOP9A.DABAS-->
       DABAS/OKTUB
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L EXOP8A.DUGAN-->
+      <!--Rwy23L EXOP9A.DUGAN-->
       DUGAN/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L EXOP8A.IDSEM-->
+      <!--Rwy23L EXOP9A.ELPAK-->
+      ELPAK/OKTUB
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy23L EXOP9A.IDSEM-->
       IDSEM/OKTUB
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L EXOP8A.KALAG-->
+      <!--Rwy23L EXOP9A.KALAG-->
       KALAG/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L EXOP8A.SELKA-->
-      SELKA/OKTUB
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy23L EXOP8A.TARIB-->
+      <!--Rwy23L EXOP9A.TARIB-->
       TARIB/EXOPI
     </Line>
     <Line>
-      <!--Rwy23L EXOP8A-->
+      <!--Rwy23L EXOP9A-->
       EXOPI/AA417/STORK/AA418/EMRAG
     </Line>
     <Line Pattern="Solid">
@@ -1109,13 +1116,6 @@
     <Line>
       <!--Rwy23L LUNB1N-->
       LUNBI/ARADI
-    </Line>
-    <Line>
-      <!--Rwy23L NOBA6A-->
-      NOBAR/SAMII/TEVUC/EMRAG
-    </Line>
-    <Line>
-      <!--Rwy23L NOBA1E-->
     </Line>
     <Line>
       <!--Rwy23L PEPE5A-->
@@ -1202,6 +1202,8 @@
       <Point>ANSER</Point>
       <Point>SABAV</Point>
       <Point>ELBOP</Point>
+      <Point>DODKU</Point>
+      <Point>SAMII</Point>
       <Point>AKLOM</Point>
       <Point>AA421</Point>
       <Point>AA425</Point>
@@ -1212,9 +1214,9 @@
       <Point>AGREX</Point>
       <Point>DABAS</Point>
       <Point>DUGAN</Point>
+      <Point>ELPAK</Point>
       <Point>IDSEM</Point>
       <Point>KALAG</Point>
-      <Point>SELKA</Point>
       <Point>TARIB</Point>
       <Point>AA417</Point>
       <Point>STORK</Point>
@@ -1224,8 +1226,6 @@
       <Point>AA416</Point>
       <Point>AA426</Point>
       <Point>AA419</Point>
-      <Point>NOBAR</Point>
-      <Point>SAMII</Point>
       <Point>PEPPE</Point>
       <Point>ONISU</Point>
       <Point>UPTIB</Point>
@@ -1239,11 +1239,11 @@
       <Point>BASIV</Point>
       <Point>BOVRU</Point>
       <Point>DAVEE</Point>
+      <Point>DODKU</Point>
       <Point>EAGIL</Point>
       <Point>EXOPI</Point>
       <Point>FOKRE</Point>
       <Point>LUNBI</Point>
-      <Point>NOBAR</Point>
       <Point>PEPPE</Point>
       <Point>SKEPY</Point>
       <Point>TAZEY</Point>
@@ -1257,9 +1257,9 @@
       <Point>AGREX</Point>
       <Point>DABAS</Point>
       <Point>DUGAN</Point>
+      <Point>ELPAK</Point>
       <Point>IDSEM</Point>
       <Point>KALAG</Point>
-      <Point>SELKA</Point>
       <Point>TARIB</Point>
       <Point>IBESO</Point>
       <Point>OLBEX</Point>

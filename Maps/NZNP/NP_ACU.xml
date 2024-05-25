@@ -348,19 +348,19 @@
       HARVO/ATRUG/UPDAL
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23 NP2.IGDOT-->
+      <!--Rwy23 NP3.IGDOT-->
       IGDOT/NP VOR
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23 NP2.RUPNU-->
+      <!--Rwy23 NP3.RUPNU-->
       RUPNU/NP VOR
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23 NP2.SELTA-->
+      <!--Rwy23 NP3.SELTA-->
       SELTA/NP VOR
     </Line>
     <Line>
-      <!--Rwy23 NP2-->
+      <!--Rwy23 NP3-->
       NP VOR/-38.881839+174.324865
     </Line>
     <Line>

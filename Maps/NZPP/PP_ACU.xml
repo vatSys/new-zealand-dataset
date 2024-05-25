@@ -2,63 +2,80 @@
 <Maps>
   <Map Type="System2" Name="16 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.910642+174.987931">
     <Line Pattern="Dashed">
-      <!--Rwy16 AGAXA4-->
+      <!--Rwy16 AGAXA5-->
       -40.910642+174.987931/PP16T/-40.928889+175.000000/AGAXA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 AGAXA4.AVKEX-->
+      <!--Rwy16 AGAXA5.AVKEX-->
       AGAXA/FICAN/AVKEX
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 AGAXA4.BRUDA-->
+      <!--Rwy16 AGAXA5.BRUDA-->
       AGAXA/BRUDA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 AGAXA4.KAMET-->
-      AGAXA/-40.958889+174.766389/KAMET
+      <!--Rwy16 AGAXA5.PP-->
+      AGAXA/-40.958889+174.766389/PP NDB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 AGAXA4.KAPTI-->
-      -40.958889+174.766389/KAPTI
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy16 AGAXA4.PP-->
-      -40.958889+174.766389/PP NDB
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy16 AGAXA4.WITBY-->
+      <!--Rwy16 AGAXA5.WITBY-->
       AGAXA/WITBY
     </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 KRUEN1-->
+      -40.910642+174.987931/PP34T/-40.928889+175.000000/PP432/KRUEN
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 KRUEN1.BINIT-->
+      KRUEN/KAMET/BINIT
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 KRUEN1.KAPTI-->
+      KRUEN/KAPTI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 KRUEN1.OVKOX-->
+      KAPTI/OVKOX
+    </Line>
+    <Symbol Type="SolidStar">
+      <Point>AGAXA</Point>
+    </Symbol>
     <Symbol Type="Circle">
       <Point>PP NDB</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>PP16T</Point>
-      <Point>AGAXA</Point>
       <Point>FICAN</Point>
       <Point>AVKEX</Point>
       <Point>BRUDA</Point>
-      <Point>KAMET</Point>
-      <Point>KAPTI</Point>
       <Point>WITBY</Point>
+      <Point>PP34T</Point>
+      <Point>PP432</Point>
+      <Point>KRUEN</Point>
+      <Point>KAMET</Point>
+      <Point>BINIT</Point>
+      <Point>KAPTI</Point>
+      <Point>OVKOX</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>AGAXA</Point>
+      <Point>KRUEN</Point>
       <Point>AVKEX</Point>
       <Point>BRUDA</Point>
-      <Point>KAMET</Point>
-      <Point>KAPTI</Point>
       <Point>PP NDB</Point>
       <Point>WITBY</Point>
+      <Point>BINIT</Point>
+      <Point>KAPTI</Point>
+      <Point>OVKOX</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="16 STARs" Priority="1" CustomColourName="ProcArr" Center="-40.901261+174.987925">
     <Line>
-      <!--Rwy16 AGSO1H-->
+      <!--Rwy16 AGSO2H-->
       AGSOP/GUDSA/ENBAR
     </Line>
     <Line>
-      <!--Rwy16 AVKE1H-->
+      <!--Rwy16 AVKE2H-->
       AVKEX/PP401/ENBAR
     </Line>
     <Line>
@@ -66,19 +83,19 @@
       IPKEP/GUDSA
     </Line>
     <Line>
-      <!--Rwy16 KAME1H-->
+      <!--Rwy16 KAME2H-->
       KAMET/NOKIX
     </Line>
     <Line>
-      <!--Rwy16 KAPT1H-->
+      <!--Rwy16 KAPT2H-->
       KAPTI/NOKIX
     </Line>
     <Line>
-      <!--Rwy16 PP1H-->
+      <!--Rwy16 PP2H-->
       PP NDB/NOKIX
     </Line>
     <Line>
-      <!--Rwy16 TPAP1H-->
+      <!--Rwy16 TPAP2H-->
       TPAPA/FIRST/XEDES/ENBAR
     </Line>
     <Symbol Type="HollowTriangle">
@@ -114,9 +131,7 @@
   </Map>
   <Map Type="System2" Name="16 RNP" Priority="1" Center="-40.901261+174.987925" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>PP414</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>NOKIX</Point>
@@ -140,55 +155,68 @@
   </Map>
   <Map Type="System2" Name="34 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.901261+174.987925">
     <Line Pattern="Dashed">
-      <!--Rwy34 GUGAK5-->
+      <!--Rwy34 GUGAK6-->
       -40.901261+174.987925/PP34T/GUGAK
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 GUGAK5.AVKEX-->
+      <!--Rwy34 GUGAK6.AVKEX-->
       GUGAK/-40.708611+174.938056/-40.735278+174.883611/BRUDA/AVKEX
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 GUGAK5.BRUDA-->
+      <!--Rwy34 GUGAK6.BINIT-->
+      GUGAK/KAMET/BINIT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 GUGAK5.KAMET-->
-      GUGAK/KAMET
+      <!--Rwy34 GUGAK6.BRUDA-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 GUGAK5.KAPTI-->
+      <!--Rwy34 GUGAK6.KAMET-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 GUGAK6.KAPTI-->
       GUGAK/KAPTI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 GUGAK5.PEGPU-->
+      <!--Rwy34 GUGAK6.OVKOX-->
+      KAPTI/OVKOX
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 GUGAK6.PEGPU-->
       -40.735278+174.883611/PEGPU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 GUGAK5.PP-->
+      <!--Rwy34 GUGAK6.PP-->
       -40.735278+174.883611/PP NDB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 GUGAK5.WITBY-->
+      <!--Rwy34 GUGAK6.WITBY-->
       -40.735278+174.883611/WITBY
     </Line>
+    <Symbol Type="SolidStar">
+      <Point>GUGAK</Point>
+    </Symbol>
     <Symbol Type="Circle">
       <Point>PP NDB</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>PP34T</Point>
-      <Point>GUGAK</Point>
       <Point>BRUDA</Point>
       <Point>AVKEX</Point>
       <Point>KAMET</Point>
+      <Point>BINIT</Point>
       <Point>KAPTI</Point>
+      <Point>OVKOX</Point>
       <Point>PEGPU</Point>
       <Point>WITBY</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>GUGAK</Point>
       <Point>AVKEX</Point>
+      <Point>BINIT</Point>
       <Point>BRUDA</Point>
       <Point>KAMET</Point>
       <Point>KAPTI</Point>
+      <Point>OVKOX</Point>
       <Point>PEGPU</Point>
       <Point>PP NDB</Point>
       <Point>WITBY</Point>
@@ -196,32 +224,32 @@
   </Map>
   <Map Type="System2" Name="34 STARs" Priority="1" CustomColourName="ProcArr" Center="-40.910642+174.987931">
     <Line>
-      <!--Rwy34 AGSO1G-->
+      <!--Rwy34 AGSO2G-->
       AGSOP/DABGU
     </Line>
     <Line>
-      <!--Rwy34 AVKE1G-->
-      AVKEX/PP401/AKADU/NILID
+      <!--Rwy34 AVKE2G-->
+      AVKEX/PP401/AKADU/PP427/NILID
     </Line>
     <Line>
       <!--Rwy34 IPKE1G-->
       IPKEP/DABGU
     </Line>
     <Line>
-      <!--Rwy34 KAME1G-->
+      <!--Rwy34 KAME2G-->
       KAMET/NOKIX/NILID
     </Line>
     <Line>
-      <!--Rwy34 KAPT1G-->
+      <!--Rwy34 KAPT2G-->
       KAPTI/NILID
     </Line>
     <Line>
-      <!--Rwy34 PP1G-->
+      <!--Rwy34 PP2G-->
       PP NDB/NILID
     </Line>
     <Line>
-      <!--Rwy34 TPAP1G-->
-      TPAPA/FIRST/VEKDA/AKADU
+      <!--Rwy34 TPAP2G-->
+      TPAPA/FIRST/VEKDA/AKADU/NILID
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>DABGU</Point>
@@ -235,6 +263,7 @@
       <Point>AVKEX</Point>
       <Point>PP401</Point>
       <Point>AKADU</Point>
+      <Point>PP427</Point>
       <Point>IPKEP</Point>
       <Point>KAMET</Point>
       <Point>NOKIX</Point>
@@ -257,9 +286,7 @@
   </Map>
   <Map Type="System2" Name="34 RNP" Priority="1" Center="-40.910642+174.987931" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>PP421</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>LEVBI</Point>

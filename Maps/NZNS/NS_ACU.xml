@@ -41,11 +41,11 @@
       LEMUT/VENDO/TUPGU/LUSRA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 YANKE1-->
+      <!--Rwy02 YANKE2-->
       NS20T/-41.279750+173.243550/-41.270790+173.226820/-41.336860+173.154740/-41.324080+173.181460
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 ZULU2-->
+      <!--Rwy02 ZULU3-->
       NS20T/NS02T/-41.279750+173.243550/-40.998670+173.386370
     </Line>
     <Symbol Type="HollowTriangle">
@@ -256,7 +256,7 @@
       NS02T/-41.324080+173.181460/-41.321130+173.168080/-41.310860+173.169100/NS VOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 XRAY2-->
+      <!--Rwy20 XRAY3-->
     </Line>
     <Symbol Type="Circle">
       <Point>NS VOR</Point>

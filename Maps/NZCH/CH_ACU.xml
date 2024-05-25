@@ -131,158 +131,206 @@
     </Label>
   </Map>
   <Map Type="System2" Name="02 STARs" Priority="1" CustomColourName="ProcArr" Center="-43.497631+172.522114">
-    <Line>
-      <!--Rwy02 AVOC6A-->
-      AVOCA/BISUP/CH414/UBDAN/ALBAD
+    <Line Pattern="Solid">
+      <!--Rwy02 AKAM1A.LADIS-->
+      LADIS/AKAMO
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy02 BELE5A.KABKA-->
-      KABKA/BELEE
+      <!--Rwy02 AKAM1A.PEHRR-->
+      PEHRR/AKAMO
+    </Line>
+    <Line>
+      <!--Rwy02 AKAM1A-->
+      AKAMO/CH419/IDUBU
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy02 BELE5A.VANDA-->
-      VANDA/BELEE
-    </Line>
-    <Line>
-      <!--Rwy02 BELE5A-->
-      BELEE/AVOCA/CH426/CHARR/IDUBU
+      <!--Rwy02 AVNO1A.IGEGA-->
+      IGEGA/CH412/AVNOP
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy02 BELE3E.KABKA-->
+      <!--Rwy02 AVNO1A.IPRAK-->
+      IPRAK/UPVES/AVNOP
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy02 BELE3E.VANDA-->
-    </Line>
-    <Line>
-      <!--Rwy02 BELE3E-->
-      CH414/LEVGO
-    </Line>
-    <Line>
-      <!--Rwy02 DOPK4A-->
-      DOPKI/HODDE/CH621/IDUBU
-    </Line>
-    <Line>
-      <!--Rwy02 ELDA3A-->
-      ELDAK/CH418/CH506/IDUBU
-    </Line>
-    <Line>
-      <!--Rwy02 IGEG6A-->
-      IGEGA/CH412/AVNOP/ERVAX/UBDAN
-    </Line>
-    <Line>
-      <!--Rwy02 IGEG2E-->
-    </Line>
-    <Line>
-      <!--Rwy02 KIDA5A-->
-      KIDAL/CH412
-    </Line>
-    <Line>
-      <!--Rwy02 KIDA2E-->
+      <!--Rwy02 AVNO1A.KIDAL-->
       KIDAL/CH413/AVNOP
     </Line>
     <Line>
-      <!--Rwy02 LADI6A-->
-      LADIS/AKAMO/CH419/IDUBU
+      <!--Rwy02 AVNO1A-->
+      AVNOP/ERVAX/UBDAN/ALBAD
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy02 AVNO1E.IGEGA-->
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy02 AVNO1E.IPRAK-->
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy02 AVNO1E.KIDAL-->
     </Line>
     <Line>
-      <!--Rwy02 MESI7A-->
-      MESIX/KABGO/GUKAM/GOMPI/ALBAD
+      <!--Rwy02 AVNO1E-->
     </Line>
     <Line>
-      <!--Rwy02 MESI1E-->
+      <!--Rwy02 AVOC6A-->
+      AVOCA/BISUP/CH414/UBDAN
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy02 BELE6A.KABKA-->
+      KABKA/BELEE
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy02 BELE6A.OSOLO-->
+      OSOLO/BELEE
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy02 BELE6A.VANDA-->
+      VANDA/BELEE
+    </Line>
+    <Line>
+      <!--Rwy02 BELE6A-->
+      BELEE/AVOCA/CH426/UGEKI/IDUBU
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy02 BELE4E.KABKA-->
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy02 BELE4E.OSOLO-->
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy02 BELE4E.VANDA-->
+    </Line>
+    <Line>
+      <!--Rwy02 BELE4E-->
+      CH414/LEVGO
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy02 BELE1J.KABKA-->
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy02 BELE1J.OSOLO-->
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy02 BELE1J.VANDA-->
+    </Line>
+    <Line>
+      <!--Rwy02 BELE1J-->
+    </Line>
+    <Line>
+      <!--Rwy02 ELDA1C-->
+      ELDAK/HODDE/ANLIL/UGEKI
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy02 GUKA1A.LALAP-->
+      LALAP/CH789/REPAP/GUKAM
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy02 GUKA1A.MESIX-->
+      MESIX/KABGO/GUKAM
+    </Line>
+    <Line>
+      <!--Rwy02 GUKA1A-->
+      GUKAM/GOMPI/ALBAD
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy02 GUKA1E.MESIX-->
+    </Line>
+    <Line>
+      <!--Rwy02 GUKA1E-->
       GUKAM/BOLUB
     </Line>
-    <Line>
-      <!--Rwy02 MOLG4A-->
+    <Line Pattern="Solid">
+      <!--Rwy02 HODE1A.DOPKI-->
+      DOPKI/HODDE
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy02 HODE1A.ELDAK-->
+      ELDAK/HODDE
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy02 HODE1A.MOLGI-->
       MOLGI/CH739/DOVEM/CH503/CH416/HODDE
     </Line>
     <Line>
-      <!--Rwy02 PEAK7A-->
-      PEAKS/BLUNT/AVNOP
-    </Line>
-    <Line>
-      <!--Rwy02 PEAK2E-->
-    </Line>
-    <Line>
-      <!--Rwy02 PEHR4A-->
-      PEHRR/AKAMO
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy02 REPA3A.LALAP-->
-      LALAP/CH789/REPAP
-    </Line>
-    <Line>
-      <!--Rwy02 REPA3A-->
-      REPAP/GUKAM
+      <!--Rwy02 HODE1A-->
+      HODDE/CH621/IDUBU
     </Line>
     <Symbol Type="HollowTriangle">
-      <Point>ALBAD</Point>
       <Point>IDUBU</Point>
-      <Point>LEVGO</Point>
       <Point>UBDAN</Point>
+      <Point>ALBAD</Point>
       <Point>ERVAX</Point>
+      <Point>LEVGO</Point>
+      <Point>UGEKI</Point>
       <Point>GOMPI</Point>
       <Point>BOLUB</Point>
     </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>ALBAD</Point>
+    </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>LADIS</Point>
+      <Point>AKAMO</Point>
+      <Point>PEHRR</Point>
+      <Point>CH419</Point>
+      <Point>IGEGA</Point>
+      <Point>CH412</Point>
+      <Point>AVNOP</Point>
+      <Point>IPRAK</Point>
+      <Point>UPVES</Point>
+      <Point>KIDAL</Point>
+      <Point>CH413</Point>
       <Point>AVOCA</Point>
       <Point>BISUP</Point>
       <Point>CH414</Point>
       <Point>KABKA</Point>
       <Point>BELEE</Point>
+      <Point>OSOLO</Point>
       <Point>VANDA</Point>
       <Point>CH426</Point>
-      <Point>CHARR</Point>
-      <Point>DOPKI</Point>
-      <Point>HODDE</Point>
-      <Point>CH621</Point>
       <Point>ELDAK</Point>
-      <Point>CH418</Point>
-      <Point>CH506</Point>
-      <Point>IGEGA</Point>
-      <Point>CH412</Point>
-      <Point>AVNOP</Point>
-      <Point>KIDAL</Point>
-      <Point>CH413</Point>
-      <Point>LADIS</Point>
-      <Point>AKAMO</Point>
-      <Point>CH419</Point>
+      <Point>HODDE</Point>
+      <Point>ANLIL</Point>
+      <Point>LALAP</Point>
+      <Point>CH789</Point>
+      <Point>REPAP</Point>
+      <Point>GUKAM</Point>
       <Point>MESIX</Point>
       <Point>KABGO</Point>
-      <Point>GUKAM</Point>
+      <Point>DOPKI</Point>
       <Point>MOLGI</Point>
       <Point>CH739</Point>
       <Point>DOVEM</Point>
       <Point>CH503</Point>
       <Point>CH416</Point>
-      <Point>PEAKS</Point>
-      <Point>BLUNT</Point>
-      <Point>PEHRR</Point>
-      <Point>LALAP</Point>
-      <Point>CH789</Point>
-      <Point>REPAP</Point>
+      <Point>CH621</Point>
     </Symbol>
     <Label HasLeader="true">
+      <Point>AKAMO</Point>
+      <Point>AVNOP</Point>
       <Point>AVOCA</Point>
       <Point>BELEE</Point>
-      <Point>DOPKI</Point>
       <Point>ELDAK</Point>
-      <Point>IGEGA</Point>
-      <Point>KIDAL</Point>
+      <Point>GUKAM</Point>
+      <Point>HODDE</Point>
       <Point>LADIS</Point>
-      <Point>MESIX</Point>
-      <Point>MOLGI</Point>
-      <Point>PEAKS</Point>
       <Point>PEHRR</Point>
-      <Point>REPAP</Point>
+      <Point>IGEGA</Point>
+      <Point>IPRAK</Point>
+      <Point>KIDAL</Point>
       <Point>KABKA</Point>
+      <Point>OSOLO</Point>
       <Point>VANDA</Point>
       <Point>LALAP</Point>
-      <Point>ALBAD</Point>
+      <Point>MESIX</Point>
+      <Point>DOPKI</Point>
+      <Point>MOLGI</Point>
       <Point>IDUBU</Point>
-      <Point>LEVGO</Point>
       <Point>UBDAN</Point>
+      <Point>ALBAD</Point>
       <Point>ERVAX</Point>
+      <Point>LEVGO</Point>
+      <Point>UGEKI</Point>
       <Point>GOMPI</Point>
       <Point>BOLUB</Point>
     </Label>
@@ -496,96 +544,133 @@
       AVOCA/RIVPI/CH422/OBDOR/ODISI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy20 BELE5B.KABKA-->
+      <!--Rwy20 BELE6B.KABKA-->
       KABKA/BELEE
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy20 BELE5B.VANDA-->
+      <!--Rwy20 BELE6B.OSOLO-->
+      OSOLO/BELEE
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy20 BELE6B.VANDA-->
       VANDA/BELEE
     </Line>
     <Line>
-      <!--Rwy20 BELE5B-->
-      BELEE/AVOCA/CH511/CH406/BIDEV/DIVSU
+      <!--Rwy20 BELE6B-->
+      BELEE/AVOCA
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy20 BELE3F.KABKA-->
+      <!--Rwy20 BELE4F.KABKA-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy20 BELE3F.VANDA-->
+      <!--Rwy20 BELE4F.OSOLO-->
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy20 BELE4F.VANDA-->
     </Line>
     <Line>
-      <!--Rwy20 BELE3F-->
-      RIVPI/CH511/SUSAL
+      <!--Rwy20 BELE4F-->
+      RIVPI/CH511/CH406/SUSAL
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy20 BELE1K.KABKA-->
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy20 BELE1K.OSOLO-->
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy20 BELE1K.VANDA-->
     </Line>
     <Line>
-      <!--Rwy20 DOPK3B-->
-      DOPKI/SADEM/ERVAX/BIDEV
+      <!--Rwy20 BELE1K-->
+      CH406/IDRUX/DIVSU
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy20 IDPE1B.DOPKI-->
+      DOPKI/IDPER
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy20 IDPE1B.ELDAK-->
+      ELDAK/IDPER
     </Line>
     <Line>
-      <!--Rwy20 DOPK2F-->
+      <!--Rwy20 IDPE1B-->
+      IDPER/ERVAX/IDRUX
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy20 IDPE1F.DOPKI-->
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy20 IDPE1F.ELDAK-->
     </Line>
     <Line>
-      <!--Rwy20 ELDA3B-->
-      ELDAK/SADEM
+      <!--Rwy20 IDPE1F-->
     </Line>
     <Line>
-      <!--Rwy20 ELDA2F-->
+      <!--Rwy20 LALA1B-->
+      LALAP/CH789/REPAP/VIKEX/ODISI
     </Line>
     <Line>
-      <!--Rwy20 IGEG8B-->
-      IGEGA/BOMTU/BLUNT/CH404/ODISI
-    </Line>
-    <Line>
-      <!--Rwy20 KIDA7B-->
-      KIDAL/BOMTU
-    </Line>
-    <Line>
-      <!--Rwy20 LADI6B-->
-      LADIS/VEPLO/CH408/MABAK/DIVSU
-    </Line>
-    <Line>
-      <!--Rwy20 LADI2F-->
-      VEPLO/BIXIX
-    </Line>
-    <Line>
-      <!--Rwy20 MESI7B-->
+      <!--Rwy20 MESI8B-->
       MESIX/KABGO/CH409/ODISI
     </Line>
     <Line>
-      <!--Rwy20 MOLG6B-->
+      <!--Rwy20 MOLG7B-->
       MOLGI/CH739/DOVEM/KAMGI/POPIS/CH407/OBDOR
     </Line>
     <Line>
-      <!--Rwy20 MOLG2F-->
+      <!--Rwy20 MOLG3F-->
       POPIS/RUMBI/SUSAL
     </Line>
-    <Line>
-      <!--Rwy20 PEAK8B-->
-      PEAKS/BLUNT
+    <Line Pattern="Solid">
+      <!--Rwy20 UPVE1B.IGEGA-->
+      IGEGA/BOMTU/UPVES
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy20 UPVE1B.IPRAK-->
+      IPRAK/UPVES
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy20 UPVE1B.KIDAL-->
+      KIDAL/BOMTU
     </Line>
     <Line>
-      <!--Rwy20 PEHR4B-->
+      <!--Rwy20 UPVE1B-->
+      UPVES/CH404/ODISI
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy20 VEPL1B.LADIS-->
+      LADIS/VEPLO
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy20 VEPL1B.PEHRR-->
       PEHRR/VEPLO
     </Line>
     <Line>
-      <!--Rwy20 PEHR2F-->
+      <!--Rwy20 VEPL1B-->
+      VEPLO/CH408/MABAK/DIVSU
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy20 REPA2B.LALAP-->
-      LALAP/CH789/REPAP
+      <!--Rwy20 VEPL1F.LADIS-->
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy20 VEPL1F.PEHRR-->
     </Line>
     <Line>
-      <!--Rwy20 REPA2B-->
-      REPAP/VIKEX/ODISI
+      <!--Rwy20 VEPL1F-->
+      VEPLO/BIXIX
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>ODISI</Point>
-      <Point>DIVSU</Point>
       <Point>SUSAL</Point>
-      <Point>BIDEV</Point>
+      <Point>IDRUX</Point>
+      <Point>DIVSU</Point>
       <Point>ERVAX</Point>
       <Point>MABAK</Point>
       <Point>BIXIX</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>DIVSU</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>AVOCA</Point>
@@ -594,20 +679,17 @@
       <Point>OBDOR</Point>
       <Point>KABKA</Point>
       <Point>BELEE</Point>
+      <Point>OSOLO</Point>
       <Point>VANDA</Point>
       <Point>CH511</Point>
       <Point>CH406</Point>
       <Point>DOPKI</Point>
-      <Point>SADEM</Point>
+      <Point>IDPER</Point>
       <Point>ELDAK</Point>
-      <Point>IGEGA</Point>
-      <Point>BOMTU</Point>
-      <Point>BLUNT</Point>
-      <Point>CH404</Point>
-      <Point>KIDAL</Point>
-      <Point>LADIS</Point>
-      <Point>VEPLO</Point>
-      <Point>CH408</Point>
+      <Point>LALAP</Point>
+      <Point>CH789</Point>
+      <Point>REPAP</Point>
+      <Point>VIKEX</Point>
       <Point>MESIX</Point>
       <Point>KABGO</Point>
       <Point>CH409</Point>
@@ -618,33 +700,40 @@
       <Point>POPIS</Point>
       <Point>CH407</Point>
       <Point>RUMBI</Point>
-      <Point>PEAKS</Point>
+      <Point>IGEGA</Point>
+      <Point>BOMTU</Point>
+      <Point>UPVES</Point>
+      <Point>IPRAK</Point>
+      <Point>KIDAL</Point>
+      <Point>CH404</Point>
+      <Point>LADIS</Point>
+      <Point>VEPLO</Point>
       <Point>PEHRR</Point>
-      <Point>LALAP</Point>
-      <Point>CH789</Point>
-      <Point>REPAP</Point>
-      <Point>VIKEX</Point>
+      <Point>CH408</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>AVOCA</Point>
       <Point>BELEE</Point>
+      <Point>IDPER</Point>
+      <Point>LALAP</Point>
+      <Point>MESIX</Point>
+      <Point>MOLGI</Point>
+      <Point>UPVES</Point>
+      <Point>VEPLO</Point>
+      <Point>KABKA</Point>
+      <Point>OSOLO</Point>
+      <Point>VANDA</Point>
       <Point>DOPKI</Point>
       <Point>ELDAK</Point>
       <Point>IGEGA</Point>
+      <Point>IPRAK</Point>
       <Point>KIDAL</Point>
       <Point>LADIS</Point>
-      <Point>MESIX</Point>
-      <Point>MOLGI</Point>
-      <Point>PEAKS</Point>
       <Point>PEHRR</Point>
-      <Point>REPAP</Point>
-      <Point>KABKA</Point>
-      <Point>VANDA</Point>
-      <Point>LALAP</Point>
       <Point>ODISI</Point>
-      <Point>DIVSU</Point>
       <Point>SUSAL</Point>
-      <Point>BIDEV</Point>
+      <Point>IDRUX</Point>
+      <Point>DIVSU</Point>
       <Point>ERVAX</Point>
       <Point>MABAK</Point>
       <Point>BIXIX</Point>
@@ -657,7 +746,6 @@
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
-      <Point>DIVSU</Point>
       <Point>BIDEV</Point>
       <Point>MABAK</Point>
       <Point>ODISI</Point>
@@ -667,7 +755,9 @@
       <Point>PEDMI</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle" />
+    <Symbol Type="SolidTriangle">
+      <Point>DIVSU</Point>
+    </Symbol>
     <Line Pattern="Solid">DIVSU/PEDMI/CH20T/-432829.960+1723253.830</Line>
     <Line Pattern="Solid">BIDEV/DIVSU</Line>
     <Line Pattern="Solid">MABAK/DIVSU</Line>
@@ -675,11 +765,11 @@
   </Map>
   <Map Type="System2" Name="20 RNP Labels" Priority="1" Center="-43.474989+172.548286" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>DIVSU</Point>
       <Point>BIDEV</Point>
       <Point>MABAK</Point>
       <Point>ODISI</Point>
       <Point>PEDMI</Point>
+      <Point>DIVSU</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="20 RNP-AR" Priority="1" Center="-43.474989+172.548286" CustomColourName="ProcArr">
@@ -743,26 +833,6 @@
   </Map>
   <Map Type="System2" Name="11 STARs" Priority="1" CustomColourName="ProcArr" Center="-43.484278+172.524414">
     <Line Pattern="Solid">
-      <!--Rwy11 BLUN2D.AVOCA-->
-      AVOCA/SAVKU/BLUNT
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy11 BLUN2D.IGEGA-->
-      IGEGA/BLUNT
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy11 BLUN2D.KABKA-->
-      KABKA/NURNI/SAVKU
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy11 BLUN2D.PEAKS-->
-      PEAKS/BLUNT
-    </Line>
-    <Line>
-      <!--Rwy11 BLUN2D-->
-      BLUNT/TARUM/IGLIS
-    </Line>
-    <Line Pattern="Solid">
       <!--Rwy11 HODE3D.ELDAK-->
       ELDAK/HODDE
     </Line>
@@ -786,19 +856,31 @@
       <!--Rwy11 MESI3D-->
       MESIX/KABGO/GUKAM/LATIP/PABRA/AVDID
     </Line>
+    <Line Pattern="Solid">
+      <!--Rwy11 UPVE1D.IGEGA-->
+      IGEGA/UPVES
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy11 UPVE1D.IPRAK-->
+      IPRAK/UPVES
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy11 UPVE1D.KABKA-->
+      KABKA/NURNI/SAVKU/UPVES
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy11 UPVE1D.OSOLO-->
+      OSOLO/BELEE/AVOCA/SAVKU
+    </Line>
+    <Line>
+      <!--Rwy11 UPVE1D-->
+      UPVES/TARUM/IGLIS
+    </Line>
     <Symbol Type="HollowTriangle">
-      <Point>IGLIS</Point>
       <Point>AVDID</Point>
+      <Point>IGLIS</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
-      <Point>AVOCA</Point>
-      <Point>SAVKU</Point>
-      <Point>BLUNT</Point>
-      <Point>IGEGA</Point>
-      <Point>KABKA</Point>
-      <Point>NURNI</Point>
-      <Point>PEAKS</Point>
-      <Point>TARUM</Point>
       <Point>ELDAK</Point>
       <Point>HODDE</Point>
       <Point>KABIN</Point>
@@ -812,21 +894,31 @@
       <Point>GUKAM</Point>
       <Point>LATIP</Point>
       <Point>PABRA</Point>
+      <Point>IGEGA</Point>
+      <Point>UPVES</Point>
+      <Point>IPRAK</Point>
+      <Point>KABKA</Point>
+      <Point>NURNI</Point>
+      <Point>SAVKU</Point>
+      <Point>OSOLO</Point>
+      <Point>BELEE</Point>
+      <Point>AVOCA</Point>
+      <Point>TARUM</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>BLUNT</Point>
       <Point>HODDE</Point>
       <Point>MESIX</Point>
-      <Point>AVOCA</Point>
-      <Point>IGEGA</Point>
-      <Point>KABKA</Point>
-      <Point>PEAKS</Point>
+      <Point>UPVES</Point>
       <Point>ELDAK</Point>
       <Point>KABIN</Point>
       <Point>LADIS</Point>
       <Point>VANDA</Point>
-      <Point>IGLIS</Point>
+      <Point>IGEGA</Point>
+      <Point>IPRAK</Point>
+      <Point>KABKA</Point>
+      <Point>OSOLO</Point>
       <Point>AVDID</Point>
+      <Point>IGLIS</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="11 RNP" Priority="1" Center="-43.484278+172.524414" CustomColourName="ProcArr">
@@ -997,32 +1089,20 @@
       AKAMO/IDUBU/SUPSO
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy29 BELE6G.KABKA-->
+      <!--Rwy29 BELE7G.KABKA-->
       KABKA/BELEE
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy29 BELE6G.VANDA-->
+      <!--Rwy29 BELE7G.OSOLO-->
+      OSOLO/BELEE
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy29 BELE7G.VANDA-->
       VANDA/BELEE
     </Line>
     <Line>
-      <!--Rwy29 BELE6G-->
-      BELEE/AVOCA/BISUP/CHARR/IDUBU
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy29 BLUN1G.IGEGA-->
-      IGEGA/BLUNT
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy29 BLUN1G.KIDAL-->
-      KIDAL/BLUNT
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy29 BLUN1G.PEAKS-->
-      PEAKS/BLUNT
-    </Line>
-    <Line>
-      <!--Rwy29 BLUN1G-->
-      BLUNT/NODEL/ABVIM
+      <!--Rwy29 BELE7G-->
+      BELEE/AVOCA/BISUP/UGEKI/IDUBU
     </Line>
     <Line Pattern="Solid">
       <!--Rwy29 HODE1G.DOPKI-->
@@ -1048,6 +1128,22 @@
       <!--Rwy29 MOLG5G-->
       MOLGI/CH739/DOVEM/CH429/HODDE
     </Line>
+    <Line Pattern="Solid">
+      <!--Rwy29 UPVE1G.IGEGA-->
+      IGEGA/UPVES
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy29 UPVE1G.IPRAK-->
+      IPRAK/UPVES
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy29 UPVE1G.KIDAL-->
+      KIDAL/UPVES
+    </Line>
+    <Line>
+      <!--Rwy29 UPVE1G-->
+      UPVES/NODEL/ABVIM
+    </Line>
     <Symbol Type="HollowTriangle">
       <Point>SUPSO</Point>
       <Point>ABVIM</Point>
@@ -1059,15 +1155,11 @@
       <Point>IDUBU</Point>
       <Point>KABKA</Point>
       <Point>BELEE</Point>
+      <Point>OSOLO</Point>
       <Point>VANDA</Point>
       <Point>AVOCA</Point>
       <Point>BISUP</Point>
-      <Point>CHARR</Point>
-      <Point>IGEGA</Point>
-      <Point>BLUNT</Point>
-      <Point>KIDAL</Point>
-      <Point>PEAKS</Point>
-      <Point>NODEL</Point>
+      <Point>UGEKI</Point>
       <Point>DOPKI</Point>
       <Point>HODDE</Point>
       <Point>ELDAK</Point>
@@ -1080,24 +1172,30 @@
       <Point>CH739</Point>
       <Point>DOVEM</Point>
       <Point>CH429</Point>
+      <Point>IGEGA</Point>
+      <Point>UPVES</Point>
+      <Point>IPRAK</Point>
+      <Point>KIDAL</Point>
+      <Point>NODEL</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>AKAMO</Point>
       <Point>BELEE</Point>
-      <Point>BLUNT</Point>
       <Point>HODDE</Point>
       <Point>LALAP</Point>
       <Point>MESIX</Point>
       <Point>MOLGI</Point>
+      <Point>UPVES</Point>
       <Point>LADIS</Point>
       <Point>PEHRR</Point>
       <Point>KABKA</Point>
+      <Point>OSOLO</Point>
       <Point>VANDA</Point>
-      <Point>IGEGA</Point>
-      <Point>KIDAL</Point>
-      <Point>PEAKS</Point>
       <Point>DOPKI</Point>
       <Point>ELDAK</Point>
+      <Point>IGEGA</Point>
+      <Point>IPRAK</Point>
+      <Point>KIDAL</Point>
       <Point>SUPSO</Point>
       <Point>ABVIM</Point>
     </Label>
@@ -1113,6 +1211,7 @@
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>ABVIM</Point>
+      <Point>SUPSO</Point>
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
@@ -1120,18 +1219,16 @@
       <Point>VEKMU</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>SUPSO</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">ABVIM/CH437/UBLES/CH917/-432939.772+1723227.179</Line>
     <Line Pattern="Solid">SUPSO/CH434/VEKMU/CH438/CH917</Line>
   </Map>
   <Map Type="System2" Name="29 RNP-AR Labels" Priority="1" Center="-43.494381+172.540883" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>ABVIM</Point>
+      <Point>SUPSO</Point>
       <Point>UBLES</Point>
       <Point>VEKMU</Point>
-      <Point>SUPSO</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-43.489444+172.534444">

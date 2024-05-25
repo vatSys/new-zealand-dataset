@@ -16,6 +16,7 @@
       <Point>ABVIM</Point>
       <Point>LEVGO</Point>
       <Point>SUSAL</Point>
+      <Point>SUPSO</Point>
       <Point>LEKED</Point>
       <Point>IBABU</Point>
       <Point>ATKIL</Point>
@@ -47,7 +48,6 @@
       <Point>RIDGE</Point>
       <Point>SULAB</Point>
       <Point>AA427</Point>
-      <Point>SUPSO</Point>
       <Point>WN416</Point>
       <Point>WN412</Point>
     </Label>
@@ -149,6 +149,7 @@
       <Point>ABVIM</Point>
       <Point>LEVGO</Point>
       <Point>SUSAL</Point>
+      <Point>SUPSO</Point>
       <Point>LEKED</Point>
       <Point>IBABU</Point>
       <Point>ATKIL</Point>
@@ -186,7 +187,6 @@
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>AA427</Point>
-      <Point>SUPSO</Point>
       <Point>WN416</Point>
       <Point>WN412</Point>
     </Symbol>
@@ -246,7 +246,6 @@
       <Point>GOMPI</Point>
       <Point>IDUBU</Point>
       <Point>UBDAN</Point>
-      <Point>DIVSU</Point>
       <Point>BIDEV</Point>
       <Point>MABAK</Point>
       <Point>ODISI</Point>
@@ -279,8 +278,13 @@
       <Point>GUNDA</Point>
       <Point>OPAPA</Point>
       <Point>NR VOR</Point>
+      <Point>KABUV</Point>
+      <Point>LUPDO</Point>
       <Point>OTAHA</Point>
       <Point>OPARE</Point>
+      <Point>APIGO</Point>
+      <Point>UBRAV</Point>
+      <Point>UXOMA</Point>
       <Point>STEED</Point>
       <Point>PERIA</Point>
       <Point>LUGDU</Point>
@@ -289,7 +293,9 @@
       <Point>GULAN</Point>
       <Point>ALDEV</Point>
       <Point>ENSOV</Point>
-      <Point>MAMOD</Point>
+      <Point>TARAX</Point>
+      <Point>NIPUV</Point>
+      <Point>UBKUG</Point>
       <Point>SADUN</Point>
       <Point>ATVOX</Point>
       <Point>URDAL</Point>
@@ -438,12 +444,14 @@
       <Point>NITAK</Point>
       <Point>ISPOT</Point>
       <Point>IKERI</Point>
+      <Point>UPGEK</Point>
+      <Point>UGTER</Point>
       <Point>DAKTA</Point>
       <Point>EMVAN</Point>
       <Point>PORUT</Point>
       <Point>UPGUM</Point>
-      <Point>MS488</Point>
-      <Point>MS402</Point>
+      <Point>UKLUL</Point>
+      <Point>UPDEX</Point>
       <Point>RIKDI</Point>
       <Point>IPKAT</Point>
       <Point>LUTUX</Point>
@@ -493,6 +501,9 @@
       <Point>VETUM</Point>
       <Point>BUSBI</Point>
       <Point>ALBAD</Point>
+      <Point>DIVSU</Point>
+      <Point>OREVU</Point>
+      <Point>MS877</Point>
       <Point>OLNAN</Point>
       <Point>AVMEB</Point>
       <Point>MARKS</Point>
@@ -516,12 +527,9 @@
       <Point>-35.270886+173.916278</Point>
       <Point>KT401</Point>
       <Point>KT501</Point>
-      <Point>MS603</Point>
       <Point>-36.667425+174.640756</Point>
       <Point>KAGDU</Point>
       <Point>SAKOG</Point>
-      <Point>PP414</Point>
-      <Point>PP421</Point>
       <Point>TK401</Point>
       <Point>TK407</Point>
       <Point>TU402</Point>
@@ -561,7 +569,6 @@
       <Point>GOMPI</Point>
       <Point>IDUBU</Point>
       <Point>UBDAN</Point>
-      <Point>DIVSU</Point>
       <Point>BIDEV</Point>
       <Point>MABAK</Point>
       <Point>ODISI</Point>
@@ -594,8 +601,13 @@
       <Point>GUNDA</Point>
       <Point>OPAPA</Point>
       <Point>NR VOR</Point>
+      <Point>KABUV</Point>
+      <Point>LUPDO</Point>
       <Point>OTAHA</Point>
       <Point>OPARE</Point>
+      <Point>APIGO</Point>
+      <Point>UBRAV</Point>
+      <Point>UXOMA</Point>
       <Point>STEED</Point>
       <Point>PERIA</Point>
       <Point>LUGDU</Point>
@@ -604,7 +616,9 @@
       <Point>GULAN</Point>
       <Point>ALDEV</Point>
       <Point>ENSOV</Point>
-      <Point>MAMOD</Point>
+      <Point>TARAX</Point>
+      <Point>NIPUV</Point>
+      <Point>UBKUG</Point>
       <Point>SADUN</Point>
       <Point>ATVOX</Point>
       <Point>URDAL</Point>
@@ -756,14 +770,16 @@
       <Point>NITAK</Point>
       <Point>ISPOT</Point>
       <Point>IKERI</Point>
+      <Point>UPGEK</Point>
       <Point>-35.171564+173.885264</Point>
       <Point>-35.343650+173.939047</Point>
+      <Point>UGTER</Point>
       <Point>DAKTA</Point>
       <Point>EMVAN</Point>
       <Point>PORUT</Point>
       <Point>UPGUM</Point>
-      <Point>MS488</Point>
-      <Point>MS402</Point>
+      <Point>UKLUL</Point>
+      <Point>UPDEX</Point>
       <Point>RIKDI</Point>
       <Point>IPKAT</Point>
       <Point>LUTUX</Point>
@@ -817,6 +833,9 @@
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>ALBAD</Point>
+      <Point>DIVSU</Point>
+      <Point>OREVU</Point>
+      <Point>MS877</Point>
       <Point>OLNAN</Point>
       <Point>AVMEB</Point>
       <Point>MARKS</Point>
@@ -885,8 +904,18 @@
     <Line Pattern="Solid">GUNDA/IKERI/-375225.140+1751946.942</Line>
     <Line Pattern="Solid">OPAPA/AVBUL/-393853.779+1764550.980</Line>
     <Line Pattern="Solid">NR VOR/EMVES/-393826.340+1764610.751</Line>
+    <Line Pattern="Solid">OREVU/UPGEK/HT405/-435148.719+1690224.140</Line>
+    <Line Pattern="Solid">KABUV/OREVU</Line>
+    <Line Pattern="Solid">LUPDO/OREVU</Line>
+    <Line Pattern="Solid">HT405/-435211.129+1690228.972</Line>
     <Line Pattern="Solid">OTAHA/-35.171564+173.885264/-35.244333+173.907978/-351508.701+1735437.822</Line>
     <Line Pattern="Solid">OPARE/-35.343650+173.939047/-35.270886+173.916278/-351546.091+1735449.500</Line>
+    <Line Pattern="Solid">APIGO/UGTER/KM412/-411426.851+1720611.610</Line>
+    <Line Pattern="Solid">UBRAV/APIGO</Line>
+    <Line Pattern="Solid">UXOMA/APIGO</Line>
+    <Line Pattern="Solid">KM412/-411406.472+1720617.978</Line>
+    <Line Pattern="Solid">KM412/-411400.758+1720630.290</Line>
+    <Line Pattern="Solid">KM412/-411427.229+1720612.161</Line>
     <Line Pattern="Solid">STEED/DAKTA/KT401/-350352.330+1731651.650</Line>
     <Line Pattern="Solid">PERIA/EMVAN/KT501/-350428.229+1731725.660</Line>
     <Line Pattern="Solid">LUGDU/PORUT/LX407/-451249.460+1692206.539</Line>
@@ -898,8 +927,10 @@
     <Line Pattern="Solid">GULAN/UPGUM/MO401/-453204.171+1673946.789</Line>
     <Line Pattern="Solid">ALDEV/GULAN</Line>
     <Line Pattern="Solid">ENSOV/GULAN</Line>
-    <Line Pattern="Solid">MAMOD/MS603/MS488/MS818/-405833.121+1753739.180</Line>
-    <Line Pattern="Solid">SADUN/MS402/MS572/-405825.039+1753825.969</Line>
+    <Line Pattern="Solid">TARAX/MS877/UKLUL/-405833.121+1753739.180</Line>
+    <Line Pattern="Solid">NIPUV/TARAX</Line>
+    <Line Pattern="Solid">UBKUG/TARAX</Line>
+    <Line Pattern="Solid">SADUN/UPDEX/UKLUL/-405825.039+1753825.969</Line>
     <Line Pattern="Solid">ATVOX/SADUN</Line>
     <Line Pattern="Solid">URDAL/SADUN</Line>
     <Line Pattern="Solid">LIBKO/RIKDI/-36.667425+174.640756/-363929.318+1743911.189</Line>

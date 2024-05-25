@@ -2,170 +2,159 @@
 <Maps>
   <Map Type="System2" Name="06 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.973622+175.640547">
     <Line Pattern="Dashed">
-      <!--Rwy06 LADI3B-->
-      -40.973622+175.640547/MS06T/OLNOL/-40.941667+175.746389/-40.916667+175.758611/-40.889444+175.749167/-40.870000+175.725278/-40.865556+175.693056/-40.878056+175.651111/LADIT
+      <!--Rwy06 OLNO1P-->
+      -40.973622+175.640547/OLNOL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy06 MAMO5B-->
-      -40.878056+175.651111/MAMOD
+      <!--Rwy06 OLNO1P.GURBO-->
+      OLNOL/MS424/GURBO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy06 MAMO5B.PP-->
-      MAMOD/PP NDB
+      <!--Rwy06 OLNO1P.KHOAI-->
+      OLNOL/MS747/URDAL/KHOAI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy06 MAMO5B.WITBY-->
-      MAMOD/WITBY
+      <!--Rwy06 OLNO1P.LADIT-->
+      GURBO/LADIT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy06 MAMO5B.WN-->
-      MAMOD/WN VOR
+      <!--Rwy06 OLNO1P.UBKUG-->
+      OLNOL/MS421/UBKUG
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy06 URDA4B-->
-      MS06T/SADUN/URDAL
+      <!--Rwy06 OLNO1P.URDAL-->
     </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy06 URDA4B.KAMET-->
-      URDAL/KAMET
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy06 URDA4B.PM-->
-      URDAL/OKEVO/PM VOR
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy06 URDA4B.PP-->
-      URDAL/PP NDB
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy06 URDA4B.WEBER-->
-      URDAL/WEBER
-    </Line>
-    <Symbol Type="Circle">
-      <Point>PP NDB</Point>
-      <Point>WN VOR</Point>
-      <Point>PM VOR</Point>
+    <Symbol Type="SolidStar">
+      <Point>OLNOL</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
-      <Point>MS06T</Point>
-      <Point>OLNOL</Point>
-      <Point>LADIT</Point>
-      <Point>MAMOD</Point>
-      <Point>WITBY</Point>
-      <Point>SADUN</Point>
+      <Point>MS424</Point>
+      <Point>GURBO</Point>
+      <Point>MS747</Point>
       <Point>URDAL</Point>
-      <Point>KAMET</Point>
-      <Point>OKEVO</Point>
-      <Point>WEBER</Point>
+      <Point>KHOAI</Point>
+      <Point>LADIT</Point>
+      <Point>MS421</Point>
+      <Point>UBKUG</Point>
     </Symbol>
     <Label HasLeader="true">
+      <Point>OLNOL</Point>
+      <Point>GURBO</Point>
+      <Point>KHOAI</Point>
       <Point>LADIT</Point>
-      <Point>MAMOD</Point>
+      <Point>UBKUG</Point>
       <Point>URDAL</Point>
-      <Point>PP NDB</Point>
-      <Point>WITBY</Point>
-      <Point>WN VOR</Point>
-      <Point>KAMET</Point>
-      <Point>PM VOR</Point>
-      <Point>WEBER</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="06 STARs" Priority="1" CustomColourName="ProcArr" Center="-40.975867+175.627550">
+    <Line>
+      <!--Rwy06 OREU1A-->
+      OREUM/TARAX
+    </Line>
+    <Line>
+      <!--Rwy06 UGIP1A-->
+      UGIPU/PUPOB/AKTEK/NIPUV
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>TARAX</Point>
+      <Point>NIPUV</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>OREUM</Point>
+      <Point>UGIPU</Point>
+      <Point>PUPOB</Point>
+      <Point>AKTEK</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>OREUM</Point>
+      <Point>UGIPU</Point>
+      <Point>TARAX</Point>
+      <Point>NIPUV</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="06 RNP" Priority="1" Center="-40.975867+175.627550" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>MS603</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
-      <Point>MAMOD</Point>
+      <Point>TARAX</Point>
+      <Point>NIPUV</Point>
+      <Point>UBKUG</Point>
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>MS488</Point>
+      <Point>UKLUL</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">MAMOD/MS603/MS488/MS818/-405833.121+1753739.180</Line>
+    <Symbol Type="SolidTriangle">
+      <Point>MS877</Point>
+    </Symbol>
+    <Line Pattern="Solid">TARAX/MS877/UKLUL/-405833.121+1753739.180</Line>
+    <Line Pattern="Solid">NIPUV/TARAX</Line>
+    <Line Pattern="Solid">UBKUG/TARAX</Line>
   </Map>
   <Map Type="System2" Name="06 RNP Labels" Priority="1" Center="-40.975867+175.627550" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>MAMOD</Point>
-      <Point>MS488</Point>
+      <Point>TARAX</Point>
+      <Point>NIPUV</Point>
+      <Point>UBKUG</Point>
+      <Point>UKLUL</Point>
+      <Point>MS877</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="24 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.975867+175.627550">
     <Line Pattern="Dashed">
-      <!--Rwy24 LADI3A-->
-      -40.975867+175.627550/MS24T/NIPIR/LADIT
+      <!--Rwy24 NIPI1Q-->
+      -40.975867+175.627550/NIPIR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy24 MAMO6A-->
-      NIPIR/MAMOD
+      <!--Rwy24 NIPI1Q.GURBO-->
+      NIPIR/GURBO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy24 MAMO6A.PP-->
-      MAMOD/PP NDB
+      <!--Rwy24 NIPI1Q.LADIT-->
+      GURBO/LADIT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy24 MAMO6A.WITBY-->
-      MAMOD/WITBY
+      <!--Rwy24 NIPI1Q.OREUM-->
+      NIPIR/VEMKA/OREUM
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy24 MAMO6A.WN-->
-      MAMOD/WN VOR
+      <!--Rwy24 NIPI1Q.PP-->
+      VEMKA/PP NDB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy24 URDA4A-->
-      NIPIR/-40.004444+175.518333/-41.031944+175.503333/-41.070278+175.515278/-41.088056+175.543333/-41.092778+175.583611/-41.081111+175.620556/SADUN/URDAL
+      <!--Rwy24 URDA1Q-->
+      -40.975867+175.627550/OMBIV/URDAL
     </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy24 URDA4A.KAMET-->
-      URDAL/KAMET
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy24 URDA4A.PM-->
-      URDAL/OKEVO/PM VOR
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy24 URDA4A.PP-->
-      URDAL/PP NDB
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy24 URDA4A.WEBER-->
-      URDAL/WEBER
-    </Line>
+    <Symbol Type="SolidStar">
+      <Point>NIPIR</Point>
+    </Symbol>
     <Symbol Type="Circle">
       <Point>PP NDB</Point>
-      <Point>WN VOR</Point>
-      <Point>PM VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
-      <Point>MS24T</Point>
-      <Point>NIPIR</Point>
+      <Point>GURBO</Point>
       <Point>LADIT</Point>
-      <Point>MAMOD</Point>
-      <Point>WITBY</Point>
-      <Point>SADUN</Point>
+      <Point>VEMKA</Point>
+      <Point>OREUM</Point>
+      <Point>OMBIV</Point>
       <Point>URDAL</Point>
-      <Point>KAMET</Point>
-      <Point>OKEVO</Point>
-      <Point>WEBER</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>LADIT</Point>
-      <Point>MAMOD</Point>
+      <Point>NIPIR</Point>
       <Point>URDAL</Point>
+      <Point>GURBO</Point>
+      <Point>LADIT</Point>
+      <Point>OREUM</Point>
       <Point>PP NDB</Point>
-      <Point>WITBY</Point>
-      <Point>WN VOR</Point>
-      <Point>KAMET</Point>
-      <Point>PM VOR</Point>
-      <Point>WEBER</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="24 RNP" Priority="1" Center="-40.973622+175.640547" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>UKLUL</Point>
+    </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>SADUN</Point>
@@ -174,11 +163,11 @@
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>MS402</Point>
+      <Point>UPDEX</Point>
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">SADUN/MS402/MS572/-405825.039+1753825.969</Line>
+    <Line Pattern="Solid">SADUN/UPDEX/UKLUL/-405825.039+1753825.969</Line>
     <Line Pattern="Solid">ATVOX/SADUN</Line>
     <Line Pattern="Solid">URDAL/SADUN</Line>
   </Map>
@@ -187,7 +176,7 @@
       <Point>SADUN</Point>
       <Point>ATVOX</Point>
       <Point>URDAL</Point>
-      <Point>MS402</Point>
+      <Point>UPDEX</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-40.973333+175.633611">
