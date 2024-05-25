@@ -1,12 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System2" Name="NZTG Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
-    <Line Name="TGAA3" Pattern="Broken">TG NDB/NOBAR/OSNUM/MERAS/AA VOR</Line>
-    <Line Name="TGCH3" Pattern="Broken">TG NDB/GOBUK/RO VOR/SUDAM/CHUTE/TARUA/ABTOL/ANOKU/GURBO/VENAM/ATBUB/MESIX/CH VOR</Line>
-    <Line Name="TGGS3" Pattern="Broken">TG NDB/PIBOV/WK NDB/KEEPA/GS VOR</Line>
-    <Line Name="TGHN3" Pattern="Broken">TG NDB/FALLS/GODOK/HN VOR</Line>
-    <Line Name="TGRO2" Pattern="Broken">TG NDB/GOBUK/RO VOR</Line>
-    <Line Name="TGWN1" Pattern="Broken">TG NDB/GOBUK/RO VOR/SUDAM/CHUTE/TARUA/RUAHI/APITI/PM VOR/LIMPA/DOGAD/WN VOR</Line>
-    <Line Name="TGWN5" Pattern="Broken">TG NDB/GOBUK/RO VOR/IBAMU/TM NDB/ADRAD/TENUR/WU NDB/LEDOR/TPAPA/WN VOR</Line>
+    <Line Name="TGAA3" Pattern="Broken">NOBAR/OSNUM/MERAS/AA VOR</Line>
+    <Line Name="TGCH3" Pattern="Broken">GOBUK/RO VOR/SUDAM/CHUTE/TARUA/ABTOL/ANOKU/GURBO/VENAM/ATBUB/MESIX/CH VOR</Line>
+    <Line Name="TGGS3" Pattern="Broken">PIBOV/WK NDB/KEEPA/GS VOR</Line>
+    <Line Name="TGHN3" Pattern="Broken">FALLS/GODOK/HN VOR</Line>
+    <Line Name="TGRO2" Pattern="Broken">GOBUK/RO VOR</Line>
+    <Line Name="TGWN1" Pattern="Broken">GOBUK/RO VOR/SUDAM/CHUTE/TARUA/RUAHI/APITI/PM VOR/LIMPA/DOGAD/WN VOR</Line>
+    <Line Name="TGWN5" Pattern="Broken">GOBUK/RO VOR/IBAMU/TM NDB/ADRAD/TENUR/WU NDB/LEDOR/TPAPA/WN VOR</Line>
+    <Label LabelOrientation="NW">
+      <Point>NOBAR</Point>
+      <Point>GOBUK</Point>
+      <Point>PIBOV</Point>
+      <Point>FALLS</Point>
+    </Label>
+    <Label LabelOrientation="NE">
+      <Point Name="AA3">NOBAR</Point>
+      <Point Name="CH3 RO2 WN1 WN5">GOBUK</Point>
+      <Point Name="GS3">PIBOV</Point>
+      <Point Name="HN3">FALLS</Point>
+    </Label>
+    <Label LabelOrientation="SE" VerticalAlignment="Bottom"/>
+    <Symbol Type="SolidTriangle">
+      <Point>NOBAR</Point>
+      <Point>GOBUK</Point>
+      <Point>PIBOV</Point>
+      <Point>FALLS</Point>
+    </Symbol>
   </Map>
 </Maps>

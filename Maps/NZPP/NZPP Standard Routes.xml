@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System2" Name="NZPP Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
-    <Line Name="PPAA3" Pattern="Broken">PP NDB/GOPRO/KAPTI/OVKOX/BEDUL/DAGOM/OMBUB/ELDIB/LIKTU/DADUK/AKDOL/PEPPE/IGABI/AA VOR</Line>
-    <Line Name="PPCH1" Pattern="Broken">PP NDB/WN VOR/SABDA/MESIX/CH VOR</Line>
-    <Line Name="PPNS2" Pattern="Broken">PP NDB/AVKEX/NULKO/BOLOX/GUSDU/RILDO/ELMAX/NS VOR</Line>
-    <Line Name="PPPM1" Pattern="Broken">PP NDB/KAMET/BINIT/FOXTN/PM VOR</Line>
-    <Line Name="PPWB1" Pattern="Broken">PP NDB/AVKEX/AVPOD/WB VOR</Line>
+    <Line Name="PPAA3" Pattern="Broken">GOPRO/KAPTI/OVKOX/BEDUL/DAGOM/OMBUB/ELDIB/LIKTU/DADUK/AKDOL/PEPPE/IGABI/AA VOR</Line>
+    <Line Name="PPCH1" Pattern="Broken">WN VOR/SABDA/MESIX/CH VOR</Line>
+    <Line Name="PPNS2" Pattern="Broken">AVKEX/NULKO/BOLOX/GUSDU/RILDO/ELMAX/NS VOR</Line>
+    <Line Name="PPPM1" Pattern="Broken">KAMET/BINIT/FOXTN/PM VOR</Line>
+    <Line Name="PPWB1" Pattern="Broken">AVKEX/AVPOD/WB VOR</Line>
+    <Label LabelOrientation="NW">
+      <Point>GOPRO</Point>
+      <Point>WN VOR</Point>
+      <Point>AVKEX</Point>
+      <Point>KAMET</Point>
+    </Label>
+    <Label LabelOrientation="NE">
+      <Point Name="AA3">GOPRO</Point>
+      <Point Name="CH1">WN VOR</Point>
+      <Point Name="NS2 WB1">AVKEX</Point>
+      <Point Name="PM1">KAMET</Point>
+    </Label>
+    <Label LabelOrientation="SE" VerticalAlignment="Bottom"/>
+    <Symbol Type="SolidTriangle">
+      <Point>GOPRO</Point>
+      <Point>WN VOR</Point>
+      <Point>AVKEX</Point>
+      <Point>KAMET</Point>
+    </Symbol>
   </Map>
 </Maps>

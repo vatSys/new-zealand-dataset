@@ -1,14 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System2" Name="NZRO Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
-    <Line Name="ROAA1" Pattern="Broken">RO VOR/KAMLA/NOBAR/OSNUM/MERAS/AA VOR</Line>
-    <Line Name="ROAA6" Pattern="Broken">RO VOR/VEMRO/MOSPU/MERAS/AA VOR</Line>
-    <Line Name="ROCH1" Pattern="Broken">RO VOR/SUDAM/CHUTE/TARUA/ABTOL/ANOKU/GURBO/VENAM/ATBUB/MESIX/CH VOR</Line>
-    <Line Name="ROCH4" Pattern="Broken">RO VOR/IBAMU/TM NDB/MEVAX/IGUTA/SNAPA/NS VOR/ALADA/IGEGA/CH VOR</Line>
-    <Line Name="ROGS3" Pattern="Broken">RO VOR/LUMSO/DABIP/GS VOR</Line>
-    <Line Name="ROHN3" Pattern="Broken">RO VOR/FALLS/GODOK/HN VOR</Line>
-    <Line Name="ROTG2" Pattern="Broken">RO VOR/GOBUK/TG NDB</Line>
-    <Line Name="ROWN1" Pattern="Broken">RO VOR/SUDAM/CHUTE/TARUA/RUAHI/APITI/PM VOR/LIMPA/DOGAD/WN VOR</Line>
-    <Line Name="ROWN5" Pattern="Broken">RO VOR/IBAMU/TM NDB/ADRAD/TENUR/WU NDB/LEDOR/TPAPA/WN VOR</Line>
+    <Line Name="ROAA1" Pattern="Broken">KAMLA/NOBAR/OSNUM/MERAS/AA VOR</Line>
+    <Line Name="ROAA6" Pattern="Broken">VEMRO/MOSPU/MERAS/AA VOR</Line>
+    <Line Name="ROCH1" Pattern="Broken">SUDAM/CHUTE/TARUA/ABTOL/ANOKU/GURBO/VENAM/ATBUB/MESIX/CH VOR</Line>
+    <Line Name="ROCH4" Pattern="Broken">IBAMU/TM NDB/MEVAX/IGUTA/SNAPA/NS VOR/ALADA/IGEGA/CH VOR</Line>
+    <Line Name="ROGS3" Pattern="Broken">LUMSO/DABIP/GS VOR</Line>
+    <Line Name="ROHN3" Pattern="Broken">FALLS/GODOK/HN VOR</Line>
+    <Line Name="ROTG2" Pattern="Broken">GOBUK/TG NDB</Line>
+    <Line Name="ROWN1" Pattern="Broken">SUDAM/CHUTE/TARUA/RUAHI/APITI/PM VOR/LIMPA/DOGAD/WN VOR</Line>
+    <Line Name="ROWN5" Pattern="Broken">IBAMU/TM NDB/ADRAD/TENUR/WU NDB/LEDOR/TPAPA/WN VOR</Line>
+    <Label LabelOrientation="NW">
+      <Point>KAMLA</Point>
+      <Point>VEMRO</Point>
+      <Point>SUDAM</Point>
+      <Point>IBAMU</Point>
+      <Point>LUMSO</Point>
+      <Point>FALLS</Point>
+      <Point>GOBUK</Point>
+    </Label>
+    <Label LabelOrientation="NE">
+      <Point Name="AA1">KAMLA</Point>
+      <Point Name="AA6">VEMRO</Point>
+      <Point Name="CH1 WN1">SUDAM</Point>
+      <Point Name="CH4 WN5">IBAMU</Point>
+      <Point Name="GS3">LUMSO</Point>
+      <Point Name="HN3">FALLS</Point>
+      <Point Name="TG2">GOBUK</Point>
+    </Label>
+    <Label LabelOrientation="SE" VerticalAlignment="Bottom"/>
+    <Symbol Type="SolidTriangle">
+      <Point>KAMLA</Point>
+      <Point>VEMRO</Point>
+      <Point>SUDAM</Point>
+      <Point>IBAMU</Point>
+      <Point>LUMSO</Point>
+      <Point>FALLS</Point>
+      <Point>GOBUK</Point>
+    </Symbol>
   </Map>
 </Maps>

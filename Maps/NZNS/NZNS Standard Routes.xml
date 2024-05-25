@@ -1,16 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System2" Name="NZNS Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
-    <Line Name="NSAA1-02" Pattern="Broken">NS VOR/SNAPA/IGUTA/AKAVI/OMKUN/ZUKKY/DADUK/AKDOL/PEPPE/IGABI/AA VOR</Line>
+    <Line Name="NSAA1-02" Pattern="Broken">SNAPA/IGUTA/AKAVI/OMKUN/ZUKKY/DADUK/AKDOL/PEPPE/IGABI/AA VOR</Line>
     <Line Name="NSAA1-20" Pattern="Broken">BIVER/SEBRU/OMKUN/ZUKKY/DADUK/AKDOL/PEPPE/IGABI/AA VOR</Line>
     <Line Name="NSCH2" Pattern="Broken">ALADA/IGEGA/CH VOR</Line>
-    <Line Name="NSHN1-02" Pattern="Broken">NS VOR/SNAPA/IGUTA/AKAVI/OMKUN/OPABI/LIKTU/UPTIK/DABKA/HN VOR</Line>
+    <Line Name="NSHN1-02" Pattern="Broken">SNAPA/IGUTA/AKAVI/OMKUN/OPABI/LIKTU/UPTIK/DABKA/HN VOR</Line>
     <Line Name="NSHN1-20" Pattern="Broken">BIVER/SEBRU/OMKUN/OPABI/LIKTU/UPTIK/DABKA/HN VOR</Line>
-    <Line Name="NSPM2" Pattern="Broken">NS VOR/SNAPA/DUMOT/MIBUS/PM VOR</Line>
-    <Line Name="NSPP3" Pattern="Broken">NS VOR/LUSRA/SIMZI/AVKEX/PP NDB</Line>
-    <Line Name="NSWU2-02" Pattern="Broken">NS VOR/DALKI/DUMOT/LEDOR/WU NDB</Line>
-    <Line Name="NSWU2-20" Pattern="Broken">NS VOR/SNAPA/DUMOT/LEDOR/WU NDB</Line>
-    <Line Name="NSWN2" Pattern="Broken">NS VOR/LUSRA/SIMZI/WN VOR</Line>
-    <Line Name="NSWB3" Pattern="Broken">NS VOR/LUBSI/WB VOR</Line>
+    <Line Name="NSPM2" Pattern="Broken">SNAPA/DUMOT/MIBUS/PM VOR</Line>
+    <Line Name="NSPP3" Pattern="Broken">LUSRA/SIMZI/AVKEX/PP NDB</Line>
+    <Line Name="NSWU2-02" Pattern="Broken">DALKI/DUMOT/LEDOR/WU NDB</Line>
+    <Line Name="NSWU2-20" Pattern="Broken">SNAPA/DUMOT/LEDOR/WU NDB</Line>
+    <Line Name="NSWN2" Pattern="Broken">LUSRA/SIMZI/WN VOR</Line>
+    <Line Name="NSWB3" Pattern="Broken">LUBSI/WB VOR</Line>
+    <Label LabelOrientation="NW">
+      <Point>SNAPA</Point>
+      <Point>BIVER</Point>
+      <Point>ALADA</Point>
+      <Point>LUSRA</Point>
+      <Point>DALKI</Point>
+      <Point>LUBSI</Point>
+    </Label>
+    <Label LabelOrientation="NE">
+      <Point Name="AA1-02 HN1-02 PM2 WU2-20">SNAPA</Point>
+      <Point Name="AA1-20 HN1-20">BIVER</Point>
+      <Point Name="CH2">ALADA</Point>
+      <Point Name="PP3 WN2">LUSRA</Point>
+      <Point Name="WU2-02">DALKI</Point>
+      <Point Name="WB3">LUBSI</Point>
+    </Label>
+    <Label LabelOrientation="SE" VerticalAlignment="Bottom"/>
+    <Symbol Type="SolidTriangle">
+      <Point>SNAPA</Point>
+      <Point>BIVER</Point>
+      <Point>ALADA</Point>
+      <Point>LUSRA</Point>
+      <Point>DALKI</Point>
+      <Point>LUBSI</Point>
+    </Symbol>
   </Map>
 </Maps>

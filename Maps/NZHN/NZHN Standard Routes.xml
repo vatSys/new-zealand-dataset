@@ -1,24 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System2" Name="NZHN Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
-    <Line Name="HNCH3" Pattern="Broken">HN VOR/DADUK/IRMOD/HARVO/NP VOR/RUPNU/TONUS/TELIM/MENOV/KUNVO/NS VOR/PEAKS/CH VOR</Line>
-    <Line Name="HNCH5" Pattern="Broken">HN VOR/DABKA/UPTIK/LIKTU/SILVO/ALADA/IGEGA/CH VOR</Line>
-    <Line Name="HNGS1" Pattern="Broken">HN VOR/MIKER/LALAN/RO VOR/LUMSO/DABIP/GS VOR</Line>
-    <Line Name="HNNE3-03" Pattern="Broken">HN VOR/ATOLI/TAZEY/TOONA/SURFY/GILET/LIBKO</Line>
-    <Line Name="HNNE3-21" Pattern="Broken">HN VOR/ATPUL/MERAS/FIRTH/SATLA/HOOKS/UPLIN</Line>
-    <Line Name="HNNR1" Pattern="Broken">HN VOR/KARBA/GOSTI/AP NDB/OBDEV/GENDA/NR VOR</Line>
-    <Line Name="HNNS3" Pattern="Broken">HN VOR/DADUK/IRMOD/HARVO/NP VOR/RUPNU/TONUS/TELIM/MENOV/KUNVO/NS VOR</Line>
-    <Line Name="HNNP2" Pattern="Broken">HN VOR/DADUK/IRMOD/HARVO/NP VOR</Line>
-    <Line Name="HNPM1" Pattern="Broken">HN VOR/DROPT/IDVIG/IDLUR/PM VOR</Line>
-    <Line Name="HNPM5" Pattern="Broken">HN VOR/DROPT/POURO/TM NDB/ARETI/AVKAB/PM VOR</Line>
-    <Line Name="HNRO2" Pattern="Broken">HN VOR/MIKER/LALAN/RO VOR</Line>
-    <Line Name="HNTG1" Pattern="Broken">HN VOR/OLDON/TG NDB</Line>
-    <Line Name="HNTG4" Pattern="Broken">HN VOR/GODOK/FALLS/TG NDB</Line>
-    <Line Name="HNWK3" Pattern="Broken">HN VOR/MIKER/LALAN/RO VOR/WK NDB</Line>
-    <Line Name="HNWU2" Pattern="Broken">HN VOR/DROPT/POURO/TM NDB/ADRAD/TENUR/WU NDB</Line>
-    <Line Name="HNWN3" Pattern="Broken">HN VOR/DROPT/POURO/TM NDB/PM VOR/LIMPA/DOGAD/WN VOR</Line>
-    <Line Name="HNWN6" Pattern="Broken">HN VOR/DROPT/POURO/TM NDB/ADRAD/TENUR/WU NDB/LEDOR/TPAPA/WN VOR</Line>
-    <Line Name="HNWP2-03" Pattern="Broken">HN VOR/ATOLI/TAZEY/TOONA/SURFY/WYTAK/WP VOR</Line>
-    <Line Name="HNWP2-21" Pattern="Broken">HN VOR/ATPUL/MERAS/FIRTH/SATLA/HOOKS/BAYES/WP VOR</Line>
+    <Line Name="HNCH3" Pattern="Broken">DADUK/IRMOD/HARVO/NP VOR/RUPNU/TONUS/TELIM/MENOV/KUNVO/NS VOR/PEAKS/CH VOR</Line>
+    <Line Name="HNCH5" Pattern="Broken">DABKA/UPTIK/LIKTU/SILVO/ALADA/IGEGA/CH VOR</Line>
+    <Line Name="HNGS1" Pattern="Broken">MIKER/LALAN/RO VOR/LUMSO/DABIP/GS VOR</Line>
+    <Line Name="HNNE3-03" Pattern="Broken">ATOLI/TAZEY/TOONA/SURFY/GILET/LIBKO</Line>
+    <Line Name="HNNE3-21" Pattern="Broken">ATPUL/MERAS/FIRTH/SATLA/HOOKS/UPLIN</Line>
+    <Line Name="HNNR1" Pattern="Broken">KARBA/GOSTI/AP NDB/OBDEV/GENDA/NR VOR</Line>
+    <Line Name="HNNS3" Pattern="Broken">DADUK/IRMOD/HARVO/NP VOR/RUPNU/TONUS/TELIM/MENOV/KUNVO/NS VOR</Line>
+    <Line Name="HNNP2" Pattern="Broken">DADUK/IRMOD/HARVO/NP VOR</Line>
+    <Line Name="HNPM1" Pattern="Broken">DROPT/IDVIG/IDLUR/PM VOR</Line>
+    <Line Name="HNPM5" Pattern="Broken">DROPT/POURO/TM NDB/ARETI/AVKAB/PM VOR</Line>
+    <Line Name="HNRO2" Pattern="Broken">MIKER/LALAN/RO VOR</Line>
+    <Line Name="HNTG1" Pattern="Broken">OLDON/TG NDB</Line>
+    <Line Name="HNTG4" Pattern="Broken">GODOK/FALLS/TG NDB</Line>
+    <Line Name="HNWK3" Pattern="Broken">MIKER/LALAN/RO VOR/WK NDB</Line>
+    <Line Name="HNWU2" Pattern="Broken">DROPT/POURO/TM NDB/ADRAD/TENUR/WU NDB</Line>
+    <Line Name="HNWN3" Pattern="Broken">DROPT/POURO/TM NDB/PM VOR/LIMPA/DOGAD/WN VOR</Line>
+    <Line Name="HNWN6" Pattern="Broken">DROPT/POURO/TM NDB/ADRAD/TENUR/WU NDB/LEDOR/TPAPA/WN VOR</Line>
+    <Line Name="HNWP2-03" Pattern="Broken">ATOLI/TAZEY/TOONA/SURFY/WYTAK/WP VOR</Line>
+    <Line Name="HNWP2-21" Pattern="Broken">ATPUL/MERAS/FIRTH/SATLA/HOOKS/BAYES/WP VOR</Line>
+    <Label LabelOrientation="NW">
+      <Point>DADUK</Point>
+      <Point>DABKA</Point>
+      <Point>MIKER</Point>
+      <Point>ATOLI</Point>
+      <Point>ATPUL</Point>
+      <Point>KARBA</Point>
+      <Point>DROPT</Point>
+      <Point>OLDON</Point>
+      <Point>GODOK</Point>
+    </Label>
+    <Label LabelOrientation="NE">
+      <Point Name="CH3 NS3 NP2">DADUK</Point>
+      <Point Name="CH5">DABKA</Point>
+      <Point Name="GS1 RO2 WK3">MIKER</Point>
+      <Point Name="NE3-03 WP2-03">ATOLI</Point>
+      <Point Name="NE3-21 WP2-21">ATPUL</Point>
+      <Point Name="NR1">KARBA</Point>
+      <Point Name="PM1 PM5 WU2 WN3">DROPT</Point>
+      <Point Name="TG1">OLDON</Point>
+      <Point Name="TG4">GODOK</Point>
+    </Label>
+    <Label LabelOrientation="SE" VerticalAlignment="Bottom">
+      <Point Name="WN6">DROPT</Point>
+    </Label>
+    <Symbol Type="SolidTriangle">
+      <Point>DADUK</Point>
+      <Point>DABKA</Point>
+      <Point>MIKER</Point>
+      <Point>ATOLI</Point>
+      <Point>ATPUL</Point>
+      <Point>KARBA</Point>
+      <Point>DROPT</Point>
+      <Point>OLDON</Point>
+      <Point>GODOK</Point>
+    </Symbol>
   </Map>
 </Maps>

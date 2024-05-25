@@ -2,18 +2,52 @@
 <Maps>
   <Map Type="System2" Name="NZPM Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
     <Line Name="PMAA2" Pattern="Broken">OMBUB/ELDIB/LIKTU/DADUK/AKDOL/PEPPE/IGABI/AA VOR</Line>
-    <Line Name="PMAA6" Pattern="Broken">PM VOR/AVKAB/ARETI/TM NDB/DABKA/LEGER/PEPPE/IGABI/AA VOR</Line>
-    <Line Name="PMCH3" Pattern="Broken">PM VOR/ABTOL/ANOKU/GURBO/VENAM/ATBUB/MESIX/CH VOR</Line>
-    <Line Name="PMCH4" Pattern="Broken">PM VOR/MIBUS/DUMOT/DALKI/NS VOR/PEAKS/CH VOR</Line>
+    <Line Name="PMAA6" Pattern="Broken">AVKAB/ARETI/TM NDB/DABKA/LEGER/PEPPE/IGABI/AA VOR</Line>
+    <Line Name="PMCH3" Pattern="Broken">ABTOL/ANOKU/GURBO/VENAM/ATBUB/MESIX/CH VOR</Line>
+    <Line Name="PMCH4" Pattern="Broken">MIBUS/DUMOT/DALKI/NS VOR/PEAKS/CH VOR</Line>
     <Line Name="PMHN3" Pattern="Broken">OMBUB/ELDIB/LIKTU/UPTIK/DABKA/HN VOR</Line>
-    <Line Name="PMNR1" Pattern="Broken">PM VOR/APITI/SELDU/BITIL/NR VOR</Line>
-    <Line Name="PMNS3" Pattern="Broken">PM VOR/MIBUS/DUMOT/DALKI/NS VOR</Line>
-    <Line Name="PMNP2" Pattern="Broken">PM VOR/AVKAB/UPREM/IGDOT/NP VOR</Line>
+    <Line Name="PMNR1" Pattern="Broken">APITI/SELDU/BITIL/NR VOR</Line>
+    <Line Name="PMNS3" Pattern="Broken">MIBUS/DUMOT/DALKI/NS VOR</Line>
+    <Line Name="PMNP2" Pattern="Broken">AVKAB/UPREM/IGDOT/NP VOR</Line>
     <Line Name="PMNP5" Pattern="Broken">VIROL/MEVAX/SUNIK/OMKUN/SELTA/NP VOR</Line>
-    <Line Name="PMPP2" Pattern="Broken">PM VOR/FOXTN/BINIT/KAMET/PP NDB</Line>
-    <Line Name="PMWU1" Pattern="Broken">PM VOR/AVKAB/WU NDB</Line>
-    <Line Name="PMWN1" Pattern="Broken">PM VOR/LIMPA/DOGAD/WN VOR</Line>
-    <Line Name="PMWN4" Pattern="Broken">PM VOR/SAKBA/KAPTI/ENBAR/AVKEX/BAXOV/WN VOR</Line>
-    <Line Name="PMWB3" Pattern="Broken">PM VOR/SAKBA/KAPTI/ENBAR/AVKEX/IPMIR/WB VOR</Line>
+    <Line Name="PMPP2" Pattern="Broken">FOXTN/BINIT/KAMET/PP NDB</Line>
+    <Line Name="PMWU1" Pattern="Broken">AVKAB/WU NDB</Line>
+    <Line Name="PMWN1" Pattern="Broken">LIMPA/DOGAD/WN VOR</Line>
+    <Line Name="PMWN4" Pattern="Broken">SAKBA/KAPTI/ENBAR/AVKEX/BAXOV/WN VOR</Line>
+    <Line Name="PMWB3" Pattern="Broken">SAKBA/KAPTI/ENBAR/AVKEX/IPMIR/WB VOR</Line>
+    <Label LabelOrientation="NW">
+      <Point>OMBUB</Point>
+      <Point>AVKAB</Point>
+      <Point>ABTOL</Point>
+      <Point>MIBUS</Point>
+      <Point>APITI</Point>
+      <Point>VIROL</Point>
+      <Point>FOXTN</Point>
+      <Point>LIMPA</Point>
+      <Point>SAKBA</Point>
+    </Label>
+    <Label LabelOrientation="NE">
+      <Point Name="AA2 HN3">OMBUB</Point>
+      <Point Name="AA6 NP2 WU1">AVKAB</Point>
+      <Point Name="CH3">ABTOL</Point>
+      <Point Name="CH4 NS3">MIBUS</Point>
+      <Point Name="NR1">APITI</Point>
+      <Point Name="NP5">VIROL</Point>
+      <Point Name="PP2">FOXTN</Point>
+      <Point Name="WN1">LIMPA</Point>
+      <Point Name="WN4 WB3">SAKBA</Point>
+    </Label>
+    <Label LabelOrientation="SE" VerticalAlignment="Bottom"/>
+    <Symbol Type="SolidTriangle">
+      <Point>OMBUB</Point>
+      <Point>AVKAB</Point>
+      <Point>ABTOL</Point>
+      <Point>MIBUS</Point>
+      <Point>APITI</Point>
+      <Point>VIROL</Point>
+      <Point>FOXTN</Point>
+      <Point>LIMPA</Point>
+      <Point>SAKBA</Point>
+    </Symbol>
   </Map>
 </Maps>

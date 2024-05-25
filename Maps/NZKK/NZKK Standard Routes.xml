@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System2" Name="NZKK Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
-    <Line Name="KKAA2-23L" Pattern="Broken">KK NDB/SF NDB/APABO</Line>
-    <Line Name="KKAA2-05R" Pattern="Broken">KK NDB/UKAPA</Line>
+    <Line Name="KKAA2-23L" Pattern="Broken">SF NDB/APABO</Line>
+    <Line Name="KKAA2-05R" Pattern="Broken">UKAPA</Line>
+    <Label LabelOrientation="NW">
+      <Point>SF NDB</Point>
+      <Point>UKAPA</Point>
+    </Label>
+    <Label LabelOrientation="NE">
+      <Point Name="AA2-23L">SF NDB</Point>
+      <Point Name="AA2-05R">UKAPA</Point>
+    </Label>
+    <Label LabelOrientation="SE" VerticalAlignment="Bottom"/>
+    <Symbol Type="SolidTriangle">
+      <Point>SF NDB</Point>
+      <Point>UKAPA</Point>
+    </Symbol>
   </Map>
 </Maps>

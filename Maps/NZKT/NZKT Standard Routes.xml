@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System2" Name="NZKT Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
-    <Line Name="KTAA3-23L" Pattern="Broken">KT NDB/PERAS/APABO</Line>
-    <Line Name="KTAA3-05R" Pattern="Broken">KT NDB/PERAS/UKAPA</Line>
+    <Line Name="KTAA3-23L" Pattern="Broken">PERAS/APABO</Line>
+    <Line Name="KTAA3-05R" Pattern="Broken">PERAS/UKAPA</Line>
+    <Label LabelOrientation="NW">
+      <Point>PERAS</Point>
+    </Label>
+    <Label LabelOrientation="NE">
+      <Point Name="AA3-23L AA3-05R">PERAS</Point>
+    </Label>
+    <Label LabelOrientation="SE" VerticalAlignment="Bottom"/>
+    <Symbol Type="SolidTriangle">
+      <Point>PERAS</Point>
+    </Symbol>
   </Map>
 </Maps>

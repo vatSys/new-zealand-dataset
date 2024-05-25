@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System2" Name="NZWB Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
-    <Line Name="WBAA1" Pattern="Broken">WB VOR/IPMIR/SWUTH/AKAVI/OMKUN/ZUKKY/DADUK/AKDOL/PEPPE/IGABI/AA VOR</Line>
-    <Line Name="WBCH3" Pattern="Broken">WB VOR/ELPIT/WAIMA/ONOLA/GOOSE/ATBUB/MESIX/CH VOR</Line>
-    <Line Name="WBNS1" Pattern="Broken">WB VOR/LUBSI/NS VOR</Line>
-    <Line Name="WBOH3" Pattern="Broken">WB VOR/IPMIR/AVKEX/ENBAR/KAPTI/BINIT/FOXTN/OH VOR</Line>
-    <Line Name="WBPM2" Pattern="Broken">WB VOR/IPMIR/AVKEX/ENBAR/KAPTI/SAKBA/PM VOR</Line>
-    <Line Name="WBPP1" Pattern="Broken">WB VOR/AVPOD/AVKEX/PP NDB</Line>
+    <Line Name="WBAA1" Pattern="Broken">IPMIR/SWUTH/AKAVI/OMKUN/ZUKKY/DADUK/AKDOL/PEPPE/IGABI/AA VOR</Line>
+    <Line Name="WBCH3" Pattern="Broken">ELPIT/WAIMA/ONOLA/GOOSE/ATBUB/MESIX/CH VOR</Line>
+    <Line Name="WBNS1" Pattern="Broken">LUBSI/NS VOR</Line>
+    <Line Name="WBOH3" Pattern="Broken">IPMIR/AVKEX/ENBAR/KAPTI/BINIT/FOXTN/OH VOR</Line>
+    <Line Name="WBPM2" Pattern="Broken">IPMIR/AVKEX/ENBAR/KAPTI/SAKBA/PM VOR</Line>
+    <Line Name="WBPP1" Pattern="Broken">AVPOD/AVKEX/PP NDB</Line>
+    <Label LabelOrientation="NW">
+      <Point>IPMIR</Point>
+      <Point>ELPIT</Point>
+      <Point>LUBSI</Point>
+      <Point>AVPOD</Point>
+    </Label>
+    <Label LabelOrientation="NE">
+      <Point Name="AA1 OH3 PM2">IPMIR</Point>
+      <Point Name="CH3">ELPIT</Point>
+      <Point Name="NS1">LUBSI</Point>
+      <Point Name="PP1">AVPOD</Point>
+    </Label>
+    <Label LabelOrientation="SE" VerticalAlignment="Bottom"/>
+    <Symbol Type="SolidTriangle">
+      <Point>IPMIR</Point>
+      <Point>ELPIT</Point>
+      <Point>LUBSI</Point>
+      <Point>AVPOD</Point>
+    </Symbol>
   </Map>
 </Maps>

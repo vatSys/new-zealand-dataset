@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System2" Name="NZTU Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
-    <Line Name="TUCH1" Pattern="Broken">TU NDB/BUDPA/ELDAK/IVRON/CH VOR</Line>
-    <Line Name="TUWN2" Pattern="Broken">TU NDB/BUDPA/ELDAK/IVRON/CH VOR/GRETA/LUXEV/KAKUR/WARDS/OMDOX/WN VOR</Line>
+    <Line Name="TUCH1" Pattern="Broken">BUDPA/ELDAK/IVRON/CH VOR</Line>
+    <Line Name="TUWN2" Pattern="Broken">BUDPA/ELDAK/IVRON/CH VOR/GRETA/LUXEV/KAKUR/WARDS/OMDOX/WN VOR</Line>
+    <Label LabelOrientation="NW">
+      <Point>BUDPA</Point>
+    </Label>
+    <Label LabelOrientation="NE">
+      <Point Name="CH1 WN2">BUDPA</Point>
+    </Label>
+    <Label LabelOrientation="SE" VerticalAlignment="Bottom"/>
+    <Symbol Type="SolidTriangle">
+      <Point>BUDPA</Point>
+    </Symbol>
   </Map>
 </Maps>

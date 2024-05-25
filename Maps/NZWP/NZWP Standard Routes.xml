@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System2" Name="NZWP Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
-    <Line Name="WPCH1" Pattern="Broken">WP VOR/AA VOR/KARRL/NP VOR/RUPNU/TONUS/TELIM/MENOV/KUNVO/NS VOR/PEAKS/CH VOR</Line>
-    <Line Name="WPCH6" Pattern="Broken">WP VOR/AA VOR/KARRL/NP VOR/VELGA/PEDPO/ALADA/IGEGA/CH VOR</Line>
-    <Line Name="WPHN2-03" Pattern="Broken">WP VOR/BAYES/HOOKS/SATLA/FIRTH/MERAS/ATPUL/HN VOR</Line>
-    <Line Name="WPHN2-21" Pattern="Broken">WP VOR/WYTAK/SURFY/TOONA/TAZEY/ATOLI/HN VOR</Line>
-    <Line Name="WPOH3" Pattern="Broken">WP VOR/AA VOR/LAKES/DROPT/IDVIG/IDLUR</Line>
-    <Line Name="WPWN1" Pattern="Broken">WP VOR/AA VOR/KARRL/SILVO/TPAPA/WN VOR</Line>
+    <Line Name="WPCH1" Pattern="Broken">AA VOR/KARRL/NP VOR/RUPNU/TONUS/TELIM/MENOV/KUNVO/NS VOR/PEAKS/CH VOR</Line>
+    <Line Name="WPCH6" Pattern="Broken">AA VOR/KARRL/NP VOR/VELGA/PEDPO/ALADA/IGEGA/CH VOR</Line>
+    <Line Name="WPHN2-03" Pattern="Broken">BAYES/HOOKS/SATLA/FIRTH/MERAS/ATPUL/HN VOR</Line>
+    <Line Name="WPHN2-21" Pattern="Broken">WYTAK/SURFY/TOONA/TAZEY/ATOLI/HN VOR</Line>
+    <Line Name="WPOH3" Pattern="Broken">AA VOR/LAKES/DROPT/IDVIG/IDLUR</Line>
+    <Line Name="WPWN1" Pattern="Broken">AA VOR/KARRL/SILVO/TPAPA/WN VOR</Line>
+    <Label LabelOrientation="NW">
+      <Point>AA VOR</Point>
+      <Point>BAYES</Point>
+      <Point>WYTAK</Point>
+    </Label>
+    <Label LabelOrientation="NE">
+      <Point Name="CH1 CH6 OH3 WN1">AA VOR</Point>
+      <Point Name="HN2-03">BAYES</Point>
+      <Point Name="HN2-21">WYTAK</Point>
+    </Label>
+    <Label LabelOrientation="SE" VerticalAlignment="Bottom"/>
+    <Symbol Type="SolidTriangle">
+      <Point>AA VOR</Point>
+      <Point>BAYES</Point>
+      <Point>WYTAK</Point>
+    </Symbol>
   </Map>
 </Maps>
