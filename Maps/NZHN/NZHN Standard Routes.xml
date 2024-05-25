@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System2" Name="NZHN Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
-    <Line Name="HNCH3" Pattern="Broken">DADUK/IRMOD/HARVO/NP VOR/RUPNU/TONUS/TELIM/MENOV/KUNVO/NS VOR/PEAKS/CH VOR</Line>
+    <Line Name="HNCH3" Pattern="Broken">DADUK/IRMOD/HARVO/NP VOR/RUPNU/TONUS/TELIM/MENOV/KUNVO/NS VOR/IPRAK/CH VOR</Line>
     <Line Name="HNCH5" Pattern="Broken">DABKA/UPTIK/LIKTU/SILVO/ALADA/IGEGA/CH VOR</Line>
     <Line Name="HNGS1" Pattern="Broken">MIKER/LALAN/RO VOR/LUMSO/DABIP/GS VOR</Line>
     <Line Name="HNNE3-03" Pattern="Broken">ATOLI/TAZEY/TOONA/SURFY/GILET/LIBKO</Line>

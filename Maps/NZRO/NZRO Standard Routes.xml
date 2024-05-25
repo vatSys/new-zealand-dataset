@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System2" Name="NZRO Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
-    <Line Name="ROAA1" Pattern="Broken">KAMLA/NOBAR/OSNUM/MERAS/AA VOR</Line>
+    <Line Name="ROAA2" Pattern="Broken">KAMLA/DODKU/OSNUM/MERAS/AA VOR</Line>
     <Line Name="ROAA6" Pattern="Broken">VEMRO/MOSPU/MERAS/AA VOR</Line>
     <Line Name="ROCH1" Pattern="Broken">SUDAM/CHUTE/TARUA/ABTOL/ANOKU/GURBO/VENAM/ATBUB/MESIX/CH VOR</Line>
-    <Line Name="ROCH4" Pattern="Broken">IBAMU/TM NDB/MEVAX/IGUTA/SNAPA/NS VOR/ALADA/IGEGA/CH VOR</Line>
+    <Line Name="ROCH4" Pattern="Broken">IBAMU/TM NDB/MEVAX/IGUTA/SNAPA/NS VOR/NESTA/ALADA/IGEGA/CH VOR</Line>
     <Line Name="ROGS3" Pattern="Broken">LUMSO/DABIP/GS VOR</Line>
     <Line Name="ROHN3" Pattern="Broken">FALLS/GODOK/HN VOR</Line>
     <Line Name="ROTG2" Pattern="Broken">GOBUK/TG NDB</Line>
@@ -20,7 +20,7 @@
       <Point>GOBUK</Point>
     </Label>
     <Label LabelOrientation="NE">
-      <Point Name="AA1">KAMLA</Point>
+      <Point Name="AA2">KAMLA</Point>
       <Point Name="AA6">VEMRO</Point>
       <Point Name="CH1 WN1">SUDAM</Point>
       <Point Name="CH4 WN5">IBAMU</Point>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System2" Name="NZAA Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
-    <Line Name="AACH1" Pattern="Broken">KARRL/NP VOR/RUPNU/TONUS/TELIM/MENOV/KUNVO/NS VOR/PEAKS/CH VOR</Line>
+    <Line Name="AACH1" Pattern="Broken">KARRL/NP VOR/RUPNU/TONUS/TELIM/MENOV/KUNVO/NS VOR/IPRAK/CH VOR</Line>
     <Line Name="AACH6" Pattern="Broken">KARRL/NP VOR/VELGA/PEDPO/ALADA/IGEGA/CH VOR</Line>
     <Line Name="AADN3" Pattern="Broken">KAPAI/LAKAR/LAPIM/MIPAK</Line>
     <Line Name="AAGS3" Pattern="Broken">TULMI/DABIP/GS VOR</Line>

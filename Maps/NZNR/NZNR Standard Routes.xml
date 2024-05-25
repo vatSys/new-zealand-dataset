@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System2" Name="NZNR Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
-    <Line Name="NRAA2" Pattern="Broken">BOVSA/MOOSE/NOBAR/OSNUM/MERAS/AA VOR</Line>
+    <Line Name="NRAA3" Pattern="Broken">BOVSA/MOOSE/DODKU/OSNUM/MERAS/AA VOR</Line>
     <Line Name="NRCH3" Pattern="Broken">NIXOT/RIDLA/UVUSI/ABTOL/ANOKU/GURBO/VENAM/ATBUB/MESIX/CH VOR</Line>
     <Line Name="NRGS3" Pattern="Broken">POTEX/DOMON/GOTNO/RULSI/GS VOR</Line>
     <Line Name="NRGS5" Pattern="Broken">BEVER/MAHIA/COOKS/GS VOR</Line>
@@ -18,7 +18,7 @@
       <Point>OPAPA</Point>
     </Label>
     <Label LabelOrientation="NE">
-      <Point Name="AA2 HN1">BOVSA</Point>
+      <Point Name="AA3 HN1">BOVSA</Point>
       <Point Name="CH3 PM3 WN1">NIXOT</Point>
       <Point Name="GS3 WO1">POTEX</Point>
       <Point Name="GS5">BEVER</Point>

@@ -3,8 +3,9 @@
   <Map Type="System2" Name="NZCH Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
     <Line Name="CHAA1" Pattern="Broken">GLENN/GULOV/IGUTA/AKAVI/OMKUN/LEBOX/POKOM/DAVEE/BROOK/AA VOR</Line>
     <Line Name="CHAA6" Pattern="Broken">PORAM/RIVTA/GULOV/IGUTA/AKAVI/OMKUN/ZUKKY/DADUK/AKDOL/PEPPE/IGABI/AA VOR</Line>
-    <Line Name="CHCI1" Pattern="Broken">LALAP/DOPOM/DABAP/CI NDB</Line>
+    <Line Name="CHCI1" Pattern="Broken">LALAP/DOPOM/LOTLO/CI NDB</Line>
     <Line Name="CHDN1" Pattern="Broken">IDARA/MIPAK</Line>
+    <Line Name="CHGM1" Pattern="Broken">AVOCA/BELEE/OSOLO/LOCIY/APASA</Line>
     <Line Name="CHHN3" Pattern="Broken">GLENN/GULOV/IGUTA/AKAVI/OMKUN/OPABI/LIKTU/UPTIK/DABKA/HN VOR</Line>
     <Line Name="CHHN5" Pattern="Broken">PORAM/RIVTA/GULOV/IGUTA/AKAVI/OMKUN/OPABI/LIKTU/UPTIK/DABKA/HN VOR</Line>
     <Line Name="CHHK3" Pattern="Broken">AVOCA/BELEE/OSOLO/LOCIY/APASA/HK NDB</Line>
@@ -49,7 +50,7 @@
       <Point Name="AA6 HN5 NS2-02 NS2-20">PORAM</Point>
       <Point Name="CI1">LALAP</Point>
       <Point Name="DN1 NV3">IDARA</Point>
-      <Point Name="HK3">AVOCA</Point>
+      <Point Name="GM1 HK3">AVOCA</Point>
       <Point Name="MC1 QN3 WF2">GUPUT</Point>
       <Point Name="NR2 OH3 PM3 RO2">GRETA</Point>
       <Point Name="NR4 OH5 PM5 PP2">ODOWD</Point>
