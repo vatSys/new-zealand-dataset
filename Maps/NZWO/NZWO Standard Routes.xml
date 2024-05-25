@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="NZWO Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="WOGS2" Pattern="Broken">RULSI/GS VOR</Line>
+    <Label LabelOrientation="NW">
+      <Point>RULSI</Point>
+    </Label>
+    <Label LabelOrientation="NE">
+      <Point Name="GS2">RULSI</Point>
+    </Label>
+    <Label LabelOrientation="SE" VerticalAlignment="Bottom"/>
+    <Symbol Type="SolidTriangle">
+      <Point>RULSI</Point>
+    </Symbol>
+  </Map>
+</Maps>

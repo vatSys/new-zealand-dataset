@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="NZWS Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="WSWN2" Pattern="Broken">AKSEM/IGLOB/CONOR/NS VOR/LUSRA/SIMZI/WN VOR</Line>
+    <Label LabelOrientation="NW">
+      <Point>AKSEM</Point>
+    </Label>
+    <Label LabelOrientation="NE">
+      <Point Name="WN2">AKSEM</Point>
+    </Label>
+    <Label LabelOrientation="SE" VerticalAlignment="Bottom"/>
+    <Symbol Type="SolidTriangle">
+      <Point>AKSEM</Point>
+    </Symbol>
+  </Map>
+</Maps>

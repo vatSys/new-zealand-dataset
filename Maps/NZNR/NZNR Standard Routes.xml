@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="NZNR Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="NRAA3" Pattern="Broken">BOVSA/MOOSE/DODKU/OSNUM/MERAS/AA VOR</Line>
+    <Line Name="NRCH3" Pattern="Broken">NIXOT/RIDLA/UVUSI/ABTOL/ANOKU/GURBO/VENAM/ATBUB/MESIX/CH VOR</Line>
+    <Line Name="NRGS3" Pattern="Broken">POTEX/DOMON/GOTNO/RULSI/GS VOR</Line>
+    <Line Name="NRGS5" Pattern="Broken">BEVER/MAHIA/COOKS/GS VOR</Line>
+    <Line Name="NRHN1" Pattern="Broken">BOVSA/MOOSE/LUXAS/ELAGA/RO VOR/FALLS/GODOK/HN VOR</Line>
+    <Line Name="NRPM3" Pattern="Broken">NIXOT/RIDLA/IRMIX/PM VOR</Line>
+    <Line Name="NRPM4" Pattern="Broken">OPAPA/ELPEL/WEBER/IRMIX/PM VOR</Line>
+    <Line Name="NRWO1" Pattern="Broken">POTEX/DOMON</Line>
+    <Line Name="NRWN1" Pattern="Broken">NIXOT/RIDLA/PM VOR/LIMPA/DOGAD/WN VOR</Line>
+    <Label LabelOrientation="NW">
+      <Point>BOVSA</Point>
+      <Point>NIXOT</Point>
+      <Point>POTEX</Point>
+      <Point>BEVER</Point>
+      <Point>OPAPA</Point>
+    </Label>
+    <Label LabelOrientation="NE">
+      <Point Name="AA3 HN1">BOVSA</Point>
+      <Point Name="CH3 PM3 WN1">NIXOT</Point>
+      <Point Name="GS3 WO1">POTEX</Point>
+      <Point Name="GS5">BEVER</Point>
+      <Point Name="PM4">OPAPA</Point>
+    </Label>
+    <Label LabelOrientation="SE" VerticalAlignment="Bottom"/>
+    <Symbol Type="SolidTriangle">
+      <Point>BOVSA</Point>
+      <Point>NIXOT</Point>
+      <Point>POTEX</Point>
+      <Point>BEVER</Point>
+      <Point>OPAPA</Point>
+    </Symbol>
+  </Map>
+</Maps>

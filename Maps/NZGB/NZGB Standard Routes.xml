@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="NZGB Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="GBAA2" Pattern="Broken">DOSTU/BETKI/BOVRU/AA VOR</Line>
+    <Label LabelOrientation="NW">
+      <Point>DOSTU</Point>
+    </Label>
+    <Label LabelOrientation="NE">
+      <Point Name="AA2">DOSTU</Point>
+    </Label>
+    <Label LabelOrientation="SE" VerticalAlignment="Bottom"/>
+    <Symbol Type="SolidTriangle">
+      <Point>DOSTU</Point>
+    </Symbol>
+  </Map>
+</Maps>

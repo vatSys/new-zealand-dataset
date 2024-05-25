@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="NZNV Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="NVAA1" Pattern="Broken">ANOPA/SUNGU/QN VOR/SAVLA/LOVTA/SEBRU/OMKUN/LEBOX/POKOM/DAVEE/BROOK/AA VOR</Line>
+    <Line Name="NVAA4" Pattern="Broken">ADLUP/ELDAK/IVRON/CH VOR/GLENN/GULOV/IGUTA/AKAVI/OMKUN/LEBOX/POKOM/DAVEE/BROOK/AA VOR</Line>
+    <Line Name="NVCH2" Pattern="Broken">ADLUP/ELDAK/IVRON/CH VOR</Line>
+    <Line Name="NVDN2" Pattern="Broken">EPDAB</Line>
+    <Line Name="NVDN4" Pattern="Broken">BIMAX/OREXI/BE NDB</Line>
+    <Line Name="NVWN3" Pattern="Broken">ADLUP/ELDAK/IVRON/CH VOR/GRETA/LUXEV/KAKUR/WARDS/OMDOX/WN VOR</Line>
+    <Label LabelOrientation="NW">
+      <Point>ANOPA</Point>
+      <Point>ADLUP</Point>
+      <Point>EPDAB</Point>
+      <Point>BIMAX</Point>
+    </Label>
+    <Label LabelOrientation="NE">
+      <Point Name="AA1">ANOPA</Point>
+      <Point Name="AA4 CH2 WN3">ADLUP</Point>
+      <Point Name="DN2">EPDAB</Point>
+      <Point Name="DN4">BIMAX</Point>
+    </Label>
+    <Label LabelOrientation="SE" VerticalAlignment="Bottom"/>
+    <Symbol Type="SolidTriangle">
+      <Point>ANOPA</Point>
+      <Point>ADLUP</Point>
+      <Point>EPDAB</Point>
+      <Point>BIMAX</Point>
+    </Symbol>
+  </Map>
+</Maps>

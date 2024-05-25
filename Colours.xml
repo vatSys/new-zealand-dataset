@@ -11,6 +11,14 @@
   <!-- Custom Procedure Colours -->
 
   <Colour id="Custom">
+    <Use>Aerodrome Standard Routes</Use>
+    <Name>STDRte</Name>
+    <R>213</R>
+    <G>219</G>
+    <B>40</B>
+  </Colour>
+
+  <Colour id="Custom">
     <Use>Aerodrome IFR Departure Procedures</Use>
     <Name>ProcDep</Name>
     <R>75</R>

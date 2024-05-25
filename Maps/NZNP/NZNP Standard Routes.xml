@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="NZNP Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="NPAA3" Pattern="Broken">HARVO/IRMOD/DADUK/AKDOL/PEPPE/IGABI/AA VOR</Line>
+    <Line Name="NPCH1-05" Pattern="Broken">DAPNO/TONUS/PEDPO/ALADA/IGEGA/CH VOR</Line>
+    <Line Name="NPCH1-23" Pattern="Broken">VELGA/PEDPO/ALADA/IGEGA/CH VOR</Line>
+    <Line Name="NPHN2" Pattern="Broken">HARVO/IRMOD/DADUK/HN VOR</Line>
+    <Line Name="NPPM1" Pattern="Broken">IGDOT/UPREM/AVKAB/PM VOR</Line>
+    <Line Name="NPPM4" Pattern="Broken">SELTA/OMKUN/SUNIK/MEVAX/VIROL</Line>
+    <Line Name="NPPM7" Pattern="Broken">VELGA/PADMU/MEVAX/VIROL</Line>
+    <Line Name="NPWU1" Pattern="Broken">SELTA/OMKUN/SUNIK/MEVAX/WU NDB</Line>
+    <Line Name="NPWN1" Pattern="Broken">DAPNO/PADMU/TPAPA/WN VOR</Line>
+    <Line Name="NPWN5" Pattern="Broken">VELGA/PADMU/TPAPA/WN VOR</Line>
+    <Line Name="NPWU4" Pattern="Broken">VELGA/PADMU/MEVAX/WU NDB</Line>
+    <Label LabelOrientation="NW">
+      <Point>HARVO</Point>
+      <Point>DAPNO</Point>
+      <Point>VELGA</Point>
+      <Point>IGDOT</Point>
+      <Point>SELTA</Point>
+    </Label>
+    <Label LabelOrientation="NE">
+      <Point Name="AA3 HN2">HARVO</Point>
+      <Point Name="CH1-05 WN1">DAPNO</Point>
+      <Point Name="CH1-23 PM7 WN5 WU4">VELGA</Point>
+      <Point Name="PM1">IGDOT</Point>
+      <Point Name="PM4 WU1">SELTA</Point>
+    </Label>
+    <Label LabelOrientation="SE" VerticalAlignment="Bottom"/>
+    <Symbol Type="SolidTriangle">
+      <Point>HARVO</Point>
+      <Point>DAPNO</Point>
+      <Point>VELGA</Point>
+      <Point>IGDOT</Point>
+      <Point>SELTA</Point>
+    </Symbol>
+  </Map>
+</Maps>

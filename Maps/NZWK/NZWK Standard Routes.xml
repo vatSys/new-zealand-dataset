@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="NZWK Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="WKAA3" Pattern="Broken">PIBOV/TG NDB/DODKU/OSNUM/MERAS/AA VOR</Line>
+    <Line Name="WKHN3" Pattern="Broken">RO VOR/FALLS/GODOK/HN VOR</Line>
+    <Line Name="WKWN1" Pattern="Broken">CHUTE/TARUA/RUAHI/APITI/PM VOR/LIMPA/DOGAD/WN VOR</Line>
+    <Label LabelOrientation="NW">
+      <Point>PIBOV</Point>
+      <Point>RO VOR</Point>
+      <Point>CHUTE</Point>
+    </Label>
+    <Label LabelOrientation="NE">
+      <Point Name="AA3">PIBOV</Point>
+      <Point Name="HN3">RO VOR</Point>
+      <Point Name="WN1">CHUTE</Point>
+    </Label>
+    <Label LabelOrientation="SE" VerticalAlignment="Bottom"/>
+    <Symbol Type="SolidTriangle">
+      <Point>PIBOV</Point>
+      <Point>RO VOR</Point>
+      <Point>CHUTE</Point>
+    </Symbol>
+  </Map>
+</Maps>

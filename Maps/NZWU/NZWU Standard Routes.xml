@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="NZWU Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="WUAA1" Pattern="Broken">ENTIM/DAGOM/OMBUB/ELDIB/LIKTU/DADUK/AKDOL/PEPPE/IGABI/AA VOR</Line>
+    <Line Name="WUHN3" Pattern="Broken">ENTIM/DAGOM/OMBUB/ELDIB/LIKTU/UPTIK/DABKA/HN VOR</Line>
+    <Line Name="WUPM3" Pattern="Broken">AVKAB/PM VOR</Line>
+    <Line Name="WUNS1" Pattern="Broken">LEDOR/DUMOT/DALKI/NS VOR</Line>
+    <Line Name="WUNP1" Pattern="Broken">MEVAX/SUNIK/OMKUN/SELTA/NP VOR</Line>
+    <Line Name="WUWN3" Pattern="Broken">LEDOR/TPAPA/WN VOR</Line>
+    <Label LabelOrientation="NW">
+      <Point>ENTIM</Point>
+      <Point>AVKAB</Point>
+      <Point>LEDOR</Point>
+      <Point>MEVAX</Point>
+    </Label>
+    <Label LabelOrientation="NE">
+      <Point Name="AA1 HN3">ENTIM</Point>
+      <Point Name="PM3">AVKAB</Point>
+      <Point Name="NS1 WN3">LEDOR</Point>
+      <Point Name="NP1">MEVAX</Point>
+    </Label>
+    <Label LabelOrientation="SE" VerticalAlignment="Bottom"/>
+    <Symbol Type="SolidTriangle">
+      <Point>ENTIM</Point>
+      <Point>AVKAB</Point>
+      <Point>LEDOR</Point>
+      <Point>MEVAX</Point>
+    </Symbol>
+  </Map>
+</Maps>
