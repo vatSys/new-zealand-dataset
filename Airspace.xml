@@ -369,10 +369,10 @@
     </Airport>
     <Airport Name="NZHT">
       <Runway Name="16" DataRunway="16">
-        <SID Name="DALTU1" />
+        <SID Name="KABUV1" />
       </Runway>
       <Runway Name="34" DataRunway="34">
-        <SID Name="DALTU1" />
+        <SID Name="KABUV1" />
       </Runway>
     </Airport>
     <Airport Name="NZKI">
@@ -7198,7 +7198,7 @@ RILEY
       <Transition Name="NR">NR VOR</Transition>
       <Transition Name="OPAPA">OPAPA</Transition>
     </SID>
-    <SID Name="DALTU1" Airport="NZHT" Runways="16,34">
+    <SID Name="KABUV1" Airport="NZHT" Runways="16,34">
       <Route Runway="16">HT518/OMBIL/KABUV</Route>
       <Route Runway="34">HT518/OMBIL/KABUV</Route>
       <Transition Name="UBRAV">UBRAV</Transition>

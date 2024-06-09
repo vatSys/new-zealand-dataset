@@ -2,11 +2,11 @@
 <Maps>
   <Map Type="System2" Name="16 SIDs" Priority="1" CustomColourName="ProcDep" Center="-43.869758+169.041381">
     <Line Pattern="Dashed">
-      <!--Rwy16 DALTU1-->
+      <!--Rwy16 KABUV1-->
       -43.869758+169.041381/HT518/OMBIL/KABUV
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 DALTU1.UBRAV-->
+      <!--Rwy16 KABUV1.UBRAV-->
       KABUV/UBRAV
     </Line>
     <Symbol Type="HollowTriangle">
@@ -50,11 +50,11 @@
   </Map>
   <Map Type="System2" Name="34 SIDs" Priority="1" CustomColourName="ProcDep" Center="-43.863533+169.040039">
     <Line Pattern="Dashed">
-      <!--Rwy34 DALTU1-->
+      <!--Rwy34 KABUV1-->
       -43.863533+169.040039/HT518/OMBIL/KABUV
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 DALTU1.UBRAV-->
+      <!--Rwy34 KABUV1.UBRAV-->
       KABUV/UBRAV
     </Line>
     <Symbol Type="HollowTriangle">
