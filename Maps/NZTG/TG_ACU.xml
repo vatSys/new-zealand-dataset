@@ -26,12 +26,12 @@
       TODAN/PIBOV
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 UBSE3P-->
+      <!--Rwy07 UBSE4P-->
       PATMO/UBSET
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 UBSE3P.NOBAR-->
-      UBSET/NOBAR
+      <!--Rwy07 UBSE4P.DODKU-->
+      UBSET/DODKU
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>TG07T</Point>
@@ -43,7 +43,7 @@
       <Point>OLDON</Point>
       <Point>PIBOV</Point>
       <Point>UBSET</Point>
-      <Point>NOBAR</Point>
+      <Point>DODKU</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>BELET</Point>
@@ -53,7 +53,7 @@
       <Point>GOBUK</Point>
       <Point>OLDON</Point>
       <Point>PIBOV</Point>
-      <Point>NOBAR</Point>
+      <Point>DODKU</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="07 STARs" Priority="1" CustomColourName="ProcArr" Center="-37.672750+176.188389">
@@ -169,12 +169,12 @@
       MORTA/TODAN/PIBOV
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 RUST3R-->
+      <!--Rwy25 RUST4R-->
       TENIX/RUSTA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 RUST3R.NOBAR-->
-      RUSTA/NOBAR
+      <!--Rwy25 RUST4R.DODKU-->
+      RUSTA/DODKU
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>TG25T</Point>
@@ -188,7 +188,7 @@
       <Point>TODAN</Point>
       <Point>PIBOV</Point>
       <Point>RUSTA</Point>
-      <Point>NOBAR</Point>
+      <Point>DODKU</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>DOTAR</Point>
@@ -198,7 +198,7 @@
       <Point>GOBUK</Point>
       <Point>OLDON</Point>
       <Point>PIBOV</Point>
-      <Point>NOBAR</Point>
+      <Point>DODKU</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="25 STARs" Priority="1" CustomColourName="ProcArr" Center="-37.673806+176.209056">

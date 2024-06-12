@@ -2,43 +2,43 @@
 <Maps>
   <Map Type="System2" Name="05R NIGHT STARs" Priority="1" CustomColourName="ProcArr" Center="-37.016317+174.770783">
     <Line Pattern="Solid">
-      <!--Rwy05R RIKD1N.AGEDU-->
+      <!--Rwy05R RIKD2N.AGEDU-->
       AGEDU/OKTUB/RIKDI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R RIKD1N.AGREX-->
+      <!--Rwy05R RIKD2N.AGREX-->
       AGREX/RIKDI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R RIKD1N.AKLOM-->
+      <!--Rwy05R RIKD2N.AKLOM-->
       AKLOM/RIKDI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R RIKD1N.DABAS-->
+      <!--Rwy05R RIKD2N.DABAS-->
       DABAS/OKTUB
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R RIKD1N.IDSEM-->
+      <!--Rwy05R RIKD2N.ELPAK-->
+      ELPAK/RIKDI
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy05R RIKD2N.IDSEM-->
       IDSEM/OKTUB
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R RIKD1N.KALAG-->
+      <!--Rwy05R RIKD2N.KALAG-->
       KALAG/RIKDI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R RIKD1N.OLBEX-->
+      <!--Rwy05R RIKD2N.OLBEX-->
       OLBEX/RIKDI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05R RIKD1N.SELKA-->
-      SELKA/RIKDI
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy05R RIKD1N.TARIB-->
+      <!--Rwy05R RIKD2N.TARIB-->
       TARIB/RIKDI
     </Line>
     <Line>
-      <!--Rwy05R RIKD1N-->
+      <!--Rwy05R RIKD2N-->
       RIKDI/WYTAK/OSIVO/LENGU
     </Line>
     <Symbol Type="HollowTriangle">
@@ -51,10 +51,10 @@
       <Point>AGREX</Point>
       <Point>AKLOM</Point>
       <Point>DABAS</Point>
+      <Point>ELPAK</Point>
       <Point>IDSEM</Point>
       <Point>KALAG</Point>
       <Point>OLBEX</Point>
-      <Point>SELKA</Point>
       <Point>TARIB</Point>
       <Point>WYTAK</Point>
       <Point>OSIVO</Point>
@@ -65,10 +65,10 @@
       <Point>AGREX</Point>
       <Point>AKLOM</Point>
       <Point>DABAS</Point>
+      <Point>ELPAK</Point>
       <Point>IDSEM</Point>
       <Point>KALAG</Point>
       <Point>OLBEX</Point>
-      <Point>SELKA</Point>
       <Point>TARIB</Point>
       <Point>LENGU</Point>
     </Label>

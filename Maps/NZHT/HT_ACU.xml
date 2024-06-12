@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="16 SIDs" Priority="1" CustomColourName="ProcDep" Center="-43.869758+169.041381">
+    <Line Pattern="Dashed">
+      <!--Rwy16 KABUV1-->
+      -43.869758+169.041381/HT518/OMBIL/KABUV
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 KABUV1.UBRAV-->
+      KABUV/UBRAV
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>HT518</Point>
+      <Point>OMBIL</Point>
+      <Point>KABUV</Point>
+      <Point>UBRAV</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>KABUV</Point>
+      <Point>UBRAV</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="16 RNP" Priority="1" Center="-43.863533+169.040039" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>KABUV</Point>
+      <Point>LUPDO</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>UPGEK</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>OREVU</Point>
+    </Symbol>
+    <Line Pattern="Solid">OREVU/UPGEK/HT405/-435148.719+1690224.140</Line>
+    <Line Pattern="Solid">KABUV/OREVU</Line>
+    <Line Pattern="Solid">LUPDO/OREVU</Line>
+  </Map>
+  <Map Type="System2" Name="16 RNP Labels" Priority="1" Center="-43.863533+169.040039" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>KABUV</Point>
+      <Point>LUPDO</Point>
+      <Point>UPGEK</Point>
+      <Point>OREVU</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="34 SIDs" Priority="1" CustomColourName="ProcDep" Center="-43.863533+169.040039">
+    <Line Pattern="Dashed">
+      <!--Rwy34 KABUV1-->
+      -43.863533+169.040039/HT518/OMBIL/KABUV
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 KABUV1.UBRAV-->
+      KABUV/UBRAV
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>HT518</Point>
+      <Point>OMBIL</Point>
+      <Point>KABUV</Point>
+      <Point>UBRAV</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>KABUV</Point>
+      <Point>UBRAV</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="34 RNP" Priority="1" Center="-43.869758+169.041381" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>KABUV</Point>
+      <Point>LUPDO</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>UPGEK</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>OREVU</Point>
+    </Symbol>
+    <Line Pattern="Solid">OREVU/UPGEK/HT405/-435211.129+1690228.972</Line>
+    <Line Pattern="Solid">KABUV/OREVU</Line>
+    <Line Pattern="Solid">LUPDO/OREVU</Line>
+  </Map>
+  <Map Type="System2" Name="34 RNP Labels" Priority="1" Center="-43.869758+169.041381" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>KABUV</Point>
+      <Point>LUPDO</Point>
+      <Point>UPGEK</Point>
+      <Point>OREVU</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-43.866667+169.040278">
+    <Symbol Type="HollowSquare">
+      <Point Name="ALBERT TOWN BRIDGE">-444052.450+1691126.560</Point>
+      <Point Name="AWARUA POINT">-441536.000+1680306.200</Point>
+      <Point Name="BLUE LAKES">-434140.000+1700953.300</Point>
+      <Point Name="CAMERON BRIDGE">-441324.100+1700300.300</Point>
+      <Point Name="CONE ROCK">-432954.000+1700234.300</Point>
+      <Point Name="FERINTOSH">-435733.100+1700739.600</Point>
+      <Point Name="FOX TERMINAL">-433004.000+1700334.300</Point>
+      <Point Name="GLENDHU BAY">-443952.380+1690125.490</Point>
+      <Point Name="HEAD OF THE BUSH">-435024.000+1700058.400</Point>
+      <Point Name="HEAD OF THE GLADSTONE">-440405.200+1695751.100</Point>
+      <Point Name="HEAD OF THE IRISHMAN">-435931.600+1700259.600</Point>
+      <Point Name="HOOKER BRIDGE">-434426.000+1700740.300</Point>
+      <Point Name="JOLLIE RIVER MOUTH">-435117.600+1701100.700</Point>
+      <Point Name="MOUNT ASPIRING HOMESTEAD">-442943.100+1685011.500</Point>
+      <Point Name="MOUNT GLENMARY">-435835.100+1695241.300</Point>
+      <Point Name="MOUTH OF THE DUNCAN">-440404.200+1700401.300</Point>
+      <Point Name="MOUTH OF THE GORILLA">-434445.200+1701014.700</Point>
+      <Point Name="MOU WAHO">-443320.380+1690452.230</Point>
+      <Point Name="MUELLER HUT">-434254.000+1700345.300</Point>
+      <Point Name="PUKAKI DOWNS">-440926.000+1700652.300</Point>
+      <Point Name="RHOBORO DOWNS">-441124.000+1700510.300</Point>
+      <Point Name="RICHARDSON GLACIER">-434754.000+1695800.300</Point>
+      <Point Name="ROTTEN TOMMY">-434754.000+1700855.300</Point>
+      <Point Name="ROUND HILL">-435040.800+1700529.600</Point>
+      <Point Name="TIMARU RIVER MOUTH">-443224.700+1691849.500</Point>
+      <Point Name="TREBLE CONE SKI FIELD">-443759.600+1685344.300</Point>
+      <Point Name="WEST RIDGE LA PEROUSE">-433545.000+1700500.300</Point>
+      <Point Name="WILMOT">-442336.600+1681254.900</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point Name="ALBERT TOWN BRIDGE">-444052.450+1691126.560</Point>
+      <Point Name="AWARUA POINT">-441536.000+1680306.200</Point>
+      <Point Name="BLUE LAKES">-434140.000+1700953.300</Point>
+      <Point Name="CAMERON BRIDGE">-441324.100+1700300.300</Point>
+      <Point Name="CONE ROCK">-432954.000+1700234.300</Point>
+      <Point Name="FERINTOSH">-435733.100+1700739.600</Point>
+      <Point Name="FOX TERMINAL">-433004.000+1700334.300</Point>
+      <Point Name="GLENDHU BAY">-443952.380+1690125.490</Point>
+      <Point Name="HEAD OF THE BUSH">-435024.000+1700058.400</Point>
+      <Point Name="HEAD OF THE GLADSTONE">-440405.200+1695751.100</Point>
+      <Point Name="HEAD OF THE IRISHMAN">-435931.600+1700259.600</Point>
+      <Point Name="HOOKER BRIDGE">-434426.000+1700740.300</Point>
+      <Point Name="JOLLIE RIVER MOUTH">-435117.600+1701100.700</Point>
+      <Point Name="MOUNT ASPIRING HOMESTEAD">-442943.100+1685011.500</Point>
+      <Point Name="MOUNT GLENMARY">-435835.100+1695241.300</Point>
+      <Point Name="MOUTH OF THE DUNCAN">-440404.200+1700401.300</Point>
+      <Point Name="MOUTH OF THE GORILLA">-434445.200+1701014.700</Point>
+      <Point Name="MOU WAHO">-443320.380+1690452.230</Point>
+      <Point Name="MUELLER HUT">-434254.000+1700345.300</Point>
+      <Point Name="PUKAKI DOWNS">-440926.000+1700652.300</Point>
+      <Point Name="RHOBORO DOWNS">-441124.000+1700510.300</Point>
+      <Point Name="RICHARDSON GLACIER">-434754.000+1695800.300</Point>
+      <Point Name="ROTTEN TOMMY">-434754.000+1700855.300</Point>
+      <Point Name="ROUND HILL">-435040.800+1700529.600</Point>
+      <Point Name="TIMARU RIVER MOUTH">-443224.700+1691849.500</Point>
+      <Point Name="TREBLE CONE SKI FIELD">-443759.600+1685344.300</Point>
+      <Point Name="WEST RIDGE LA PEROUSE">-433545.000+1700500.300</Point>
+      <Point Name="WILMOT">-442336.600+1681254.900</Point>
+    </Label>
+  </Map>
+</Maps>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="NZAR Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="ARWR1" Pattern="Broken">SATLA/HOOKS/UPLIN/KAWAU/APABO/SF NDB</Line>
+    <Label LabelOrientation="NW">
+      <Point>SATLA</Point>
+    </Label>
+    <Label LabelOrientation="NE">
+      <Point Name="WR1">SATLA</Point>
+    </Label>
+    <Label LabelOrientation="SE" VerticalAlignment="Bottom"/>
+    <Symbol Type="SolidTriangle">
+      <Point>SATLA</Point>
+    </Symbol>
+  </Map>
+</Maps>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="NZMS Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="MSCH1" Pattern="Broken">GURBO/VENAM/ATBUB/MESIX/CH VOR</Line>
+    <Line Name="MSWN1" Pattern="Broken">LADIT/WN VOR</Line>
+    <Label LabelOrientation="NW">
+      <Point>GURBO</Point>
+      <Point>LADIT</Point>
+    </Label>
+    <Label LabelOrientation="NE">
+      <Point Name="CH1">GURBO</Point>
+      <Point Name="WN1">LADIT</Point>
+    </Label>
+    <Label LabelOrientation="SE" VerticalAlignment="Bottom"/>
+    <Symbol Type="SolidTriangle">
+      <Point>GURBO</Point>
+      <Point>LADIT</Point>
+    </Symbol>
+  </Map>
+</Maps>

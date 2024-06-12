@@ -153,27 +153,27 @@
   </Map>
   <Map Type="System2" Name="05 STARs" Priority="1" CustomColourName="ProcArr" Center="-45.020000+168.735689">
     <Line>
-      <!--Rwy05 ELRU2A-->
-      ELRUV/EKVOX/KASLU/MABGA/GOSPA/AVGER/IBABU
+      <!--Rwy05 ELRU3A-->
+      ELRUV/EKVOX/KASLU/MABGA/OLBUK/AVGER/IBABU
     </Line>
     <Line>
-      <!--Rwy05 SUNG3A-->
-      SUNGU/ENKUV/GOSPA
+      <!--Rwy05 SUNG4A-->
+      SUNGU/ENKUV/OLBUK
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05 UBDA3A.ADKOS-->
+      <!--Rwy05 UBDA4A.ADKOS-->
       ADKOS/BEVKO/IGNET/UBDAM
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05 UBDA3A.DOVOT-->
+      <!--Rwy05 UBDA4A.DOVOT-->
       DOVOT/POPON/UBDAM
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy05 UBDA3A.LIBLA-->
+      <!--Rwy05 UBDA4A.LIBLA-->
       LIBLA/AKBOB/DULIG/UBDAM
     </Line>
     <Line>
-      <!--Rwy05 UBDA3A-->
+      <!--Rwy05 UBDA4A-->
       UBDAM/LADIP/AVGER
     </Line>
     <Symbol Type="HollowTriangle">
@@ -184,7 +184,7 @@
       <Point>EKVOX</Point>
       <Point>KASLU</Point>
       <Point>MABGA</Point>
-      <Point>GOSPA</Point>
+      <Point>OLBUK</Point>
       <Point>AVGER</Point>
       <Point>SUNGU</Point>
       <Point>ENKUV</Point>
@@ -254,6 +254,18 @@
       ANPOV/ATVOR/TIMJO
     </Line>
     <Line Pattern="Dashed">
+      <!--Rwy23 FKN8-->
+      -45.020000+168.735689/QN23T/-45.028450+168.682860/-45.045550+168.642440
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23 FKN8.ATHOL-->
+      -45.045550+168.642440/ATHOL
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23 FKN8.QN-->
+      -45.045550+168.642440/QN VOR
+    </Line>
+    <Line Pattern="Dashed">
       <!--Rwy23 IPNO4B-->
       DUGAK/VAPLI/LOSTI/IPNOR
     </Line>
@@ -267,7 +279,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23 REDO2B-->
-      -45.020000+168.735689/QN23T/QN602/UPTIN/DUGET/GOLEG/PIPOG/QN628/QN632/ASULA/QN648/TUMTA/BUGSA/OMLEL
+      QN23T/QN602/UPTIN/DUGET/GOLEG/PIPOG/QN628/QN632/ASULA/QN648/TUMTA/BUGSA/OMLEL
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23 REDO2B.ADLUP-->
@@ -306,6 +318,9 @@
     <Symbol Type="SolidStar">
       <Point>ENKUV</Point>
     </Symbol>
+    <Symbol Type="Circle">
+      <Point>QN VOR</Point>
+    </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>QN05T</Point>
       <Point>QN727</Point>
@@ -324,6 +339,8 @@
       <Point>SAVLA</Point>
       <Point>ATVOR</Point>
       <Point>TIMJO</Point>
+      <Point>QN23T</Point>
+      <Point>ATHOL</Point>
       <Point>VAPLI</Point>
       <Point>LOSTI</Point>
       <Point>IPNOR</Point>
@@ -331,7 +348,6 @@
       <Point>ADKOS</Point>
       <Point>BIKOS</Point>
       <Point>LIBLA</Point>
-      <Point>QN23T</Point>
       <Point>QN602</Point>
       <Point>UPTIN</Point>
       <Point>DUGET</Point>
@@ -361,6 +377,8 @@
       <Point>VAPLI</Point>
       <Point>SAVLA</Point>
       <Point>TIMJO</Point>
+      <Point>ATHOL</Point>
+      <Point>QN VOR</Point>
       <Point>ADKOS</Point>
       <Point>LIBLA</Point>
       <Point>ADLUP</Point>
@@ -369,28 +387,28 @@
   </Map>
   <Map Type="System2" Name="23 STARs" Priority="1" CustomColourName="ProcArr" Center="-45.016544+168.757728">
     <Line>
-      <!--Rwy23 ELRU4B-->
+      <!--Rwy23 ELRU5B-->
       ELRUV/PAMPU/EKVOX/ATKIL
     </Line>
     <Line>
-      <!--Rwy23 SUNG4B-->
-      SUNGU/ENKUV/GOSPA/MABGA/UGPED
+      <!--Rwy23 SUNG5B-->
+      SUNGU/ENKUV/OLBUK/MABGA/UGPED
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23 UBDA4B.ADKOS-->
+      <!--Rwy23 UBDA5B.ADKOS-->
       ADKOS/BEVKO/IGNET/UBDAM
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23 UBDA4B.DOVOT-->
+      <!--Rwy23 UBDA5B.DOVOT-->
       DOVOT/POPON/UBDAM
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23 UBDA4B.LIBLA-->
+      <!--Rwy23 UBDA5B.LIBLA-->
       LIBLA/AKBOB/DULIG/UBDAM
     </Line>
     <Line>
-      <!--Rwy23 UBDA4B-->
-      UBDAM/LADIP/GOSPA
+      <!--Rwy23 UBDA5B-->
+      UBDAM/LADIP/OLBUK
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>ATKIL</Point>
@@ -402,7 +420,7 @@
       <Point>EKVOX</Point>
       <Point>SUNGU</Point>
       <Point>ENKUV</Point>
-      <Point>GOSPA</Point>
+      <Point>OLBUK</Point>
       <Point>MABGA</Point>
       <Point>ADKOS</Point>
       <Point>BEVKO</Point>

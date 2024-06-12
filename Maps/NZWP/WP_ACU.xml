@@ -86,31 +86,31 @@
       BASIV/WYTAK
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy03 EXOP1K.AGREX-->
+      <!--Rwy03 EXOP2K.AGREX-->
       AGREX/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy03 EXOP1K.AKLOM-->
+      <!--Rwy03 EXOP2K.AKLOM-->
       AKLOM/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy03 EXOP1K.KALAG-->
+      <!--Rwy03 EXOP2K.ELPAK-->
+      ELPAK/OKTUB/EXOPI
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy03 EXOP2K.KALAG-->
       KALAG/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy03 EXOP1K.OLBEX-->
+      <!--Rwy03 EXOP2K.OLBEX-->
       OLBEX/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy03 EXOP1K.SELKA-->
-      SELKA/OKTUB/EXOPI
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy03 EXOP1K.TARIB-->
+      <!--Rwy03 EXOP2K.TARIB-->
       TARIB/EXOPI
     </Line>
     <Line>
-      <!--Rwy03 EXOP1K-->
+      <!--Rwy03 EXOP2K-->
       EXOPI/RUTLO/VASBO/WYTAK
     </Line>
     <Line>
@@ -142,10 +142,10 @@
       <Point>AGREX</Point>
       <Point>EXOPI</Point>
       <Point>AKLOM</Point>
+      <Point>ELPAK</Point>
+      <Point>OKTUB</Point>
       <Point>KALAG</Point>
       <Point>OLBEX</Point>
-      <Point>SELKA</Point>
-      <Point>OKTUB</Point>
       <Point>TARIB</Point>
       <Point>RUTLO</Point>
       <Point>VASBO</Point>
@@ -168,9 +168,9 @@
       <Point>UPLAR</Point>
       <Point>AGREX</Point>
       <Point>AKLOM</Point>
+      <Point>ELPAK</Point>
       <Point>KALAG</Point>
       <Point>OLBEX</Point>
-      <Point>SELKA</Point>
       <Point>TARIB</Point>
       <Point>WYTAK</Point>
     </Label>
@@ -290,31 +290,31 @@
       BASIV/RUTLO
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy21 EXOP2J.AGREX-->
+      <!--Rwy21 EXOP3J.AGREX-->
       AGREX/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy21 EXOP2J.AKLOM-->
+      <!--Rwy21 EXOP3J.AKLOM-->
       AKLOM/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy21 EXOP2J.KALAG-->
+      <!--Rwy21 EXOP3J.ELPAK-->
+      ELPAK/OKTUB/EXOPI
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy21 EXOP3J.KALAG-->
       KALAG/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy21 EXOP2J.OLBEX-->
+      <!--Rwy21 EXOP3J.OLBEX-->
       OLBEX/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy21 EXOP2J.SELKA-->
-      SELKA/OKTUB/EXOPI
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy21 EXOP2J.TARIB-->
+      <!--Rwy21 EXOP3J.TARIB-->
       TARIB/EXOPI
     </Line>
     <Line>
-      <!--Rwy21 EXOP2J-->
+      <!--Rwy21 EXOP3J-->
       EXOPI/BAYES
     </Line>
     <Line>
@@ -348,10 +348,10 @@
       <Point>AGREX</Point>
       <Point>EXOPI</Point>
       <Point>AKLOM</Point>
+      <Point>ELPAK</Point>
+      <Point>OKTUB</Point>
       <Point>KALAG</Point>
       <Point>OLBEX</Point>
-      <Point>SELKA</Point>
-      <Point>OKTUB</Point>
       <Point>TARIB</Point>
       <Point>LUPRU</Point>
       <Point>OMLEN</Point>
@@ -372,9 +372,9 @@
       <Point>UPLAR</Point>
       <Point>AGREX</Point>
       <Point>AKLOM</Point>
+      <Point>ELPAK</Point>
       <Point>KALAG</Point>
       <Point>OLBEX</Point>
-      <Point>SELKA</Point>
       <Point>TARIB</Point>
       <Point>BAYES</Point>
     </Label>
