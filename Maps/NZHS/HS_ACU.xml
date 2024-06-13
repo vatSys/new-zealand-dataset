@@ -23,7 +23,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy01 VICTO3.NIXOT-->
-      -39.624960+176.778240/-39.619720+176.758530/ADGIN/NIXOT
+      -39.624960+176.778240/-39.619720+176.758530/NIXOT
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy01 VICTO3.NR-->
@@ -50,7 +50,6 @@
       <Point>BOVSA</Point>
       <Point>POTEX</Point>
       <Point>HS01T</Point>
-      <Point>ADGIN</Point>
       <Point>NIXOT</Point>
     </Symbol>
     <Label HasLeader="true">

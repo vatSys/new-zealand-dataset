@@ -246,7 +246,7 @@
       <Point>GOMPI</Point>
       <Point>IDUBU</Point>
       <Point>UBDAN</Point>
-      <Point>BIDEV</Point>
+      <Point>IDRUX</Point>
       <Point>MABAK</Point>
       <Point>ODISI</Point>
       <Point>AKLAR</Point>
@@ -569,7 +569,7 @@
       <Point>GOMPI</Point>
       <Point>IDUBU</Point>
       <Point>UBDAN</Point>
-      <Point>BIDEV</Point>
+      <Point>IDRUX</Point>
       <Point>MABAK</Point>
       <Point>ODISI</Point>
       <Point>AKLAR</Point>
@@ -868,7 +868,7 @@
     <Line Pattern="Solid">IDUBU/ALBAD</Line>
     <Line Pattern="Solid">UBDAN/ALBAD</Line>
     <Line Pattern="Solid">DIVSU/PEDMI/CH20T/-432829.960+1723253.830</Line>
-    <Line Pattern="Solid">BIDEV/DIVSU</Line>
+    <Line Pattern="Solid">IDRUX/DIVSU</Line>
     <Line Pattern="Solid">MABAK/DIVSU</Line>
     <Line Pattern="Solid">ODISI/DIVSU</Line>
     <Line Pattern="Solid">AKLAR/OVSED/AGESO/-455602.130+1701114.899</Line>

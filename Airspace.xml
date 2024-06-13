@@ -7188,7 +7188,7 @@ RILEY
     </SID>
     <SID Name="VICTO3" Airport="NZHS" Runways="01">
       <Route Runway="01" />
-      <Transition Name="NIXOT">ADGIN/NIXOT</Transition>
+      <Transition Name="NIXOT">NIXOT</Transition>
       <Transition Name="NR">NR VOR</Transition>
       <Transition Name="OPAPA">OPAPA</Transition>
     </SID>
@@ -7702,7 +7702,7 @@ RILEY
       <Route Runway="25">TENIX/MORTA</Route>
       <Transition Name="FALLS">FALLS</Transition>
       <Transition Name="GOBUK">GOBUK</Transition>
-      <Transition Name="OLDON">BATAT/OLDON</Transition>
+      <Transition Name="OLDON">OLDON</Transition>
       <Transition Name="PIBOV">TODAN/PIBOV</Transition>
     </SID>
     <SID Name="RUST4R" Airport="NZTG" Runways="25">
@@ -9402,7 +9402,7 @@ RILEY
       <Route>ALBAD/NISOM/-432951.472+1723119.610</Route>
     </Approach>
     <Approach Name="RNPZ" Airport="NZCH" Runway="20">
-      <Transition Name="BIDEV">BIDEV</Transition>
+      <Transition Name="IDRUX">IDRUX</Transition>
       <Transition Name="MABAK">MABAK</Transition>
       <Transition Name="ODISI">ODISI</Transition>
       <Route>DIVSU/PEDMI/CH20T/-432829.960+1723253.830</Route>

@@ -746,7 +746,7 @@
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
-      <Point>BIDEV</Point>
+      <Point>IDRUX</Point>
       <Point>MABAK</Point>
       <Point>ODISI</Point>
     </Symbol>
@@ -759,13 +759,13 @@
       <Point>DIVSU</Point>
     </Symbol>
     <Line Pattern="Solid">DIVSU/PEDMI/CH20T/-432829.960+1723253.830</Line>
-    <Line Pattern="Solid">BIDEV/DIVSU</Line>
+    <Line Pattern="Solid">IDRUX/DIVSU</Line>
     <Line Pattern="Solid">MABAK/DIVSU</Line>
     <Line Pattern="Solid">ODISI/DIVSU</Line>
   </Map>
   <Map Type="System2" Name="20 RNP Labels" Priority="1" Center="-43.474989+172.548286" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>BIDEV</Point>
+      <Point>IDRUX</Point>
       <Point>MABAK</Point>
       <Point>ODISI</Point>
       <Point>PEDMI</Point>

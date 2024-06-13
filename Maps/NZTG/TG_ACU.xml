@@ -162,7 +162,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy25 MORT3R.OLDON-->
-      MORTA/BATAT/OLDON
+      MORTA/OLDON
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy25 MORT3R.PIBOV-->
@@ -183,7 +183,6 @@
       <Point>MORTA</Point>
       <Point>FALLS</Point>
       <Point>GOBUK</Point>
-      <Point>BATAT</Point>
       <Point>OLDON</Point>
       <Point>TODAN</Point>
       <Point>PIBOV</Point>
