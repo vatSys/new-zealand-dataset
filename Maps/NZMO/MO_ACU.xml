@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="08 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.534492+167.662997">
+  <Map Type="System2" Name="08 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.534503+167.663075">
     <Line Pattern="Dashed">
       <!--Rwy08 GULAN4-->
-      -45.534492+167.662997/MO552/GULAN
+      -45.534503+167.663075/MO552/GULAN
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy08 GULAN4.ANOPA-->
@@ -66,7 +66,7 @@
       <Point>SUNGU</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="26 STARs" Priority="1" CustomColourName="ProcArr" Center="-45.534492+167.662997">
+  <Map Type="System2" Name="26 STARs" Priority="1" CustomColourName="ProcArr" Center="-45.534503+167.663075">
     <Line>
       <!--Rwy26 ANGU1G-->
       ANGUL/ALDEV
@@ -90,7 +90,7 @@
       <Point>ENSOV</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="26 RNP" Priority="1" Center="-45.534492+167.662997" CustomColourName="ProcArr">
+  <Map Type="System2" Name="26 RNP" Priority="1" Center="-45.534503+167.663075" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -105,11 +105,11 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">GULAN/UPGUM/MO401/-453204.171+1673946.789</Line>
+    <Line Pattern="Solid">GULAN/UPGUM/MO401/-453204.211+1673947.070</Line>
     <Line Pattern="Solid">ALDEV/GULAN</Line>
     <Line Pattern="Solid">ENSOV/GULAN</Line>
   </Map>
-  <Map Type="System2" Name="26 RNP Labels" Priority="1" Center="-45.534492+167.662997" CustomColourName="ProcArr">
+  <Map Type="System2" Name="26 RNP Labels" Priority="1" Center="-45.534503+167.663075" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>GULAN</Point>
       <Point>ALDEV</Point>
@@ -117,10 +117,10 @@
       <Point>UPGUM</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="14 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.538742+167.648619">
+  <Map Type="System2" Name="14 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.538731+167.648681">
     <Line Pattern="Dashed">
       <!--Rwy14 GULAN4-->
-      -45.538742+167.648619/MO552/GULAN
+      -45.538731+167.648681/MO552/GULAN
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy14 GULAN4.ANOPA-->
@@ -150,10 +150,10 @@
       <Point>SUNGU</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="32 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.528525+167.643922">
+  <Map Type="System2" Name="32 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.528531+167.643922">
     <Line Pattern="Dashed">
       <!--Rwy32 GULAN4-->
-      -45.528525+167.643922/MO552/GULAN
+      -45.528531+167.643922/MO552/GULAN
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy32 GULAN4.ANOPA-->

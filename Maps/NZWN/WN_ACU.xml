@@ -198,7 +198,7 @@
       AVPOD/HUWIT/WITBY
     </Line>
     <Line>
-      <!--Rwy16 AVPO2D-->
+      <!--Rwy16 AVPO3D-->
     </Line>
     <Line>
       <!--Rwy16 DOGA5B-->
@@ -224,30 +224,30 @@
       SIMZI/KABUS/RUSKI/HUWIT
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy16 SIMZ2D.GOPLU-->
+      <!--Rwy16 SIMZ3D.GOPLU-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy16 SIMZ2D.GULUT-->
+      <!--Rwy16 SIMZ3D.GULUT-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy16 SIMZ2D.TANEN-->
+      <!--Rwy16 SIMZ3D.TANEN-->
     </Line>
     <Line>
-      <!--Rwy16 SIMZ2D-->
+      <!--Rwy16 SIMZ3D-->
     </Line>
     <Line>
       <!--Rwy16 TPAP4B-->
       TPAPA/BRUDA/HUWIT
     </Line>
     <Line>
-      <!--Rwy16 TPAP2D-->
+      <!--Rwy16 TPAP3D-->
     </Line>
     <Line>
       <!--Rwy16 WARD4B-->
       WARDS/OMDOX/UPMOM/AGVEG/UDIVA/PHNIX/OLVIR/HUWIT
     </Line>
     <Line>
-      <!--Rwy16 WARD3D-->
+      <!--Rwy16 WARD4D-->
       PHNIX/DORBU
     </Line>
     <Symbol Type="HollowTriangle">
@@ -333,13 +333,13 @@
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>RIDGE</Point>
+      <Point>ATRAB</Point>
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>WN416</Point>
     </Symbol>
-    <Line Pattern="Solid">WN416/RIDGE/-411907.039+1744826.849</Line>
+    <Line Pattern="Solid">WN416/ATRAB/-411907.039+1744826.849</Line>
     <Line Pattern="Solid">DORBU/WN509/WN416</Line>
     <Line Pattern="Solid">HUWIT/WN513/WN416</Line>
   </Map>
@@ -347,7 +347,7 @@
     <Label HasLeader="true">
       <Point>DORBU</Point>
       <Point>HUWIT</Point>
-      <Point>RIDGE</Point>
+      <Point>ATRAB</Point>
       <Point>WN416</Point>
     </Label>
   </Map>
@@ -595,46 +595,46 @@
       <!--Rwy34 LADI7A-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy34 SIMZ7A.GOPLU-->
+      <!--Rwy34 SIMZ8A.GOPLU-->
       GOPLU/SIMZI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy34 SIMZ7A.GULUT-->
+      <!--Rwy34 SIMZ8A.GULUT-->
       GULUT/SIMZI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy34 SIMZ7A.TANEN-->
+      <!--Rwy34 SIMZ8A.TANEN-->
       TANEN/SIMZI
     </Line>
     <Line>
-      <!--Rwy34 SIMZ7A-->
+      <!--Rwy34 SIMZ8A-->
       SIMZI/KRAKA/MEEDA
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy34 SIMZ3C.GOPLU-->
+      <!--Rwy34 SIMZ4C.GOPLU-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy34 SIMZ3C.GULUT-->
+      <!--Rwy34 SIMZ4C.GULUT-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy34 SIMZ3C.TANEN-->
+      <!--Rwy34 SIMZ4C.TANEN-->
     </Line>
     <Line>
-      <!--Rwy34 SIMZ3C-->
+      <!--Rwy34 SIMZ4C-->
     </Line>
     <Line>
       <!--Rwy34 SULR4A-->
       SULRI/MEEDA
     </Line>
     <Line>
-      <!--Rwy34 SULR3C-->
+      <!--Rwy34 SULR4C-->
     </Line>
     <Line>
-      <!--Rwy34 TPAP4A-->
+      <!--Rwy34 TPAP5A-->
       TPAPA/BRUDA/PEGPU/UGTOV/UKLEB/RIPPA/JONAH
     </Line>
     <Line>
-      <!--Rwy34 TPAP2C-->
+      <!--Rwy34 TPAP3C-->
     </Line>
     <Line>
       <!--Rwy34 WARD6A-->

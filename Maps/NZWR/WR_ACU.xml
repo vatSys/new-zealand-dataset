@@ -193,7 +193,7 @@
       <Point>MONSU</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="14 RNP" Priority="1" Center="-35.769944+174.359269" CustomColourName="ProcArr">
+  <Map Type="System2" Name="14 RNP" Priority="1" Center="-35.769628+174.359069" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -207,17 +207,17 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">SF NDB/DUDAP/WR431/-354611.798+1742133.368</Line>
-    <Line Pattern="Solid">BIRAX/MONSU/WR983/-354611.798+1742133.368</Line>
+    <Line Pattern="Solid">SF NDB/DUDAP/WR431/-354610.661+1742132.648</Line>
+    <Line Pattern="Solid">BIRAX/MONSU/WR983/-354610.661+1742132.648</Line>
   </Map>
-  <Map Type="System2" Name="14 RNP Labels" Priority="1" Center="-35.769944+174.359269" CustomColourName="ProcArr">
+  <Map Type="System2" Name="14 RNP Labels" Priority="1" Center="-35.769628+174.359069" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>BIRAX</Point>
       <Point>DUDAP</Point>
       <Point>MONSU</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="32 RNP" Priority="1" Center="-35.773842+174.361253" CustomColourName="ProcArr">
+  <Map Type="System2" Name="32 RNP" Priority="1" Center="-35.773617+174.360961" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -231,10 +231,10 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">SF NDB/DUDAP/WR431/-354625.831+1742140.511</Line>
-    <Line Pattern="Solid">BIRAX/MONSU/WR983/-354625.831+1742140.511</Line>
+    <Line Pattern="Solid">SF NDB/DUDAP/WR431/-354625.021+1742139.460</Line>
+    <Line Pattern="Solid">BIRAX/MONSU/WR983/-354625.021+1742139.460</Line>
   </Map>
-  <Map Type="System2" Name="32 RNP Labels" Priority="1" Center="-35.773842+174.361253" CustomColourName="ProcArr">
+  <Map Type="System2" Name="32 RNP Labels" Priority="1" Center="-35.773617+174.360961" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>BIRAX</Point>
       <Point>DUDAP</Point>

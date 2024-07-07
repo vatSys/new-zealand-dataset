@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="09 STARs" Priority="1" CustomColourName="ProcArr" Center="-37.919939+176.909972">
+  <Map Type="System2" Name="09 STARs" Priority="1" CustomColourName="ProcArr" Center="-37.919942+176.909981">
     <Line>
       <!--Rwy09 KEPA3E-->
       KEEPA/WK406/LAVIS
@@ -17,7 +17,7 @@
       <Point>LAVIS</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="09 RNP" Priority="1" Center="-37.919939+176.909972" CustomColourName="ProcArr">
+  <Map Type="System2" Name="09 RNP" Priority="1" Center="-37.919942+176.909981" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -32,11 +32,11 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">ELBEV/UKBIR/-375511.780+1765435.899</Line>
+    <Line Pattern="Solid">ELBEV/UKBIR/-375511.791+1765435.932</Line>
     <Line Pattern="Solid">BESMA/ELBEV</Line>
     <Line Pattern="Solid">LAVIS/ELBEV</Line>
   </Map>
-  <Map Type="System2" Name="09 RNP Labels" Priority="1" Center="-37.919939+176.909972" CustomColourName="ProcArr">
+  <Map Type="System2" Name="09 RNP Labels" Priority="1" Center="-37.919942+176.909981" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>ELBEV</Point>
       <Point>BESMA</Point>
@@ -44,10 +44,10 @@
       <Point>UKBIR</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="27 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.919939+176.909972">
+  <Map Type="System2" Name="27 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.919942+176.909981">
     <Line Pattern="Dashed">
       <!--Rwy27 MATAT2-->
-      -37.919939+176.909972/WK09T/-37.901490+176.851880
+      -37.919942+176.909981/WK09T/-37.901490+176.851880
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy27 OHOPE4-->
@@ -108,7 +108,7 @@
       <Point>TG NDB</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="27 STARs" Priority="1" CustomColourName="ProcArr" Center="-37.924317+176.923450">
+  <Map Type="System2" Name="27 STARs" Priority="1" CustomColourName="ProcArr" Center="-37.924322+176.923458">
     <Line>
       <!--Rwy27 KEPA3F-->
       KEEPA/WK404/WK403/REGAT
@@ -126,7 +126,7 @@
       <Point>REGAT</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="27 RNP" Priority="1" Center="-37.924317+176.923450" CustomColourName="ProcArr">
+  <Map Type="System2" Name="27 RNP" Priority="1" Center="-37.924322+176.923458" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -140,10 +140,10 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">REGAT/OVSUM/-375527.541+1765524.420</Line>
+    <Line Pattern="Solid">REGAT/OVSUM/-375527.559+1765524.449</Line>
     <Line Pattern="Solid">POTOP/REGAT</Line>
   </Map>
-  <Map Type="System2" Name="27 RNP Labels" Priority="1" Center="-37.924317+176.923450" CustomColourName="ProcArr">
+  <Map Type="System2" Name="27 RNP Labels" Priority="1" Center="-37.924322+176.923458" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>REGAT</Point>
       <Point>POTOP</Point>

@@ -42,43 +42,43 @@
       OMLEL/SUNGU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05 GIXEL1-->
+      <!--Rwy05 GIXEL2-->
       -45.016544+168.757728/QN VOR/AGTAM/GIXEL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05 GIXEL1.ADKOS-->
+      <!--Rwy05 GIXEL2.ADKOS-->
       GIXEL/ENRAT/ADKOS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05 GIXEL1.BASOS-->
+      <!--Rwy05 GIXEL2.BASOS-->
       GIXEL/PORUT/BASOS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05 GIXEL1.LIBLA-->
+      <!--Rwy05 GIXEL2.LIBLA-->
       GIXEL/BIKOS/LIBLA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05 GIXEL1.PORUT-->
+      <!--Rwy05 GIXEL2.PORUT-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05 GIXEL1.SAVLA-->
+      <!--Rwy05 GIXEL2.SAVLA-->
       GIXEL/EPDEX/AKMAD
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05 GIXEL1.TIMJO-->
+      <!--Rwy05 GIXEL2.TIMJO-->
       EPDEX/ATVOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05 IPNO4A-->
+      <!--Rwy05 IPNO5A-->
       LEMAK/QN862/QN864/QN866/QN872/VAPLI/LOSTI/IPNOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05 IPNO4A.ADKOS-->
+      <!--Rwy05 IPNO5A.ADKOS-->
       IPNOR/ENRAT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05 IPNO4A.LIBLA-->
-      IPNOR/BIKOS
+      <!--Rwy05 IPNO5A.LIBLA-->
+      IPNOR/RIBDU/LIBLA
     </Line>
     <Symbol Type="SolidStar">
       <Point>GIXEL</Point>
@@ -133,6 +133,7 @@
       <Point>VAPLI</Point>
       <Point>LOSTI</Point>
       <Point>IPNOR</Point>
+      <Point>RIBDU</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>ANPOV</Point>
@@ -242,15 +243,15 @@
   </Map>
   <Map Type="System2" Name="23 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.020000+168.735689">
     <Line Pattern="Dashed">
-      <!--Rwy23 ANPO4B-->
+      <!--Rwy23 ANPO5B-->
       -45.020000+168.735689/QN05T/QN727/KABAP/NOLUV/QN732/RUXAK/BELPI/BUGSA/DUGAK/QN817/ENKUV/METUX/ANPOV
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 ANPO4B.SAVLA-->
+      <!--Rwy23 ANPO5B.SAVLA-->
       ANPOV/AKMAD/NONAN/SAVLA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 ANPO4B.TIMJO-->
+      <!--Rwy23 ANPO5B.TIMJO-->
       ANPOV/ATVOR/TIMJO
     </Line>
     <Line Pattern="Dashed">
@@ -266,53 +267,54 @@
       -45.045550+168.642440/QN VOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 IPNO4B-->
+      <!--Rwy23 IPNO5B-->
       DUGAK/VAPLI/LOSTI/IPNOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 IPNO4B.ADKOS-->
+      <!--Rwy23 IPNO5B.ADKOS-->
       IPNOR/ENRAT/ADKOS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 IPNO4B.LIBLA-->
-      IPNOR/BIKOS/LIBLA
+      <!--Rwy23 IPNO5B.LIBLA-->
+      IPNOR/RIBDU/LIBLA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 REDO2B-->
+      <!--Rwy23 REDO3B-->
       QN23T/QN602/UPTIN/DUGET/GOLEG/PIPOG/QN628/QN632/ASULA/QN648/TUMTA/BUGSA/OMLEL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 REDO2B.ADLUP-->
+      <!--Rwy23 REDO3B.ADLUP-->
       OMLEL/REDOL/BASOS/ADLUP
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 REDO2B.SUNGU-->
+      <!--Rwy23 REDO3B.SUNGU-->
       OMLEL/SUNGU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 VAPLI2-->
+      <!--Rwy23 VAPLI3-->
       -45.020000+168.735689/ENKUV/OLREK/TULVU/VAPLI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 VAPLI2.ADKOS-->
+      <!--Rwy23 VAPLI3.ADKOS-->
       VAPLI/IPNOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 VAPLI2.ADLUP-->
+      <!--Rwy23 VAPLI3.ADLUP-->
       VAPLI/IBVUK/SUNGU/BASOS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 VAPLI2.LIBLA-->
+      <!--Rwy23 VAPLI3.LIBLA-->
+      IPNOR/BIKOS/LIBLA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 VAPLI2.SAVLA-->
+      <!--Rwy23 VAPLI3.SAVLA-->
       VAPLI/AVDEK/DULUL/ANPOV
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 VAPLI2.SUNGU-->
+      <!--Rwy23 VAPLI3.SUNGU-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy23 VAPLI2.TIMJO-->
+      <!--Rwy23 VAPLI3.TIMJO-->
       ANPOV/EPDEX/ATVOR
     </Line>
     <Symbol Type="SolidStar">
@@ -346,7 +348,7 @@
       <Point>IPNOR</Point>
       <Point>ENRAT</Point>
       <Point>ADKOS</Point>
-      <Point>BIKOS</Point>
+      <Point>RIBDU</Point>
       <Point>LIBLA</Point>
       <Point>QN602</Point>
       <Point>UPTIN</Point>
@@ -366,6 +368,7 @@
       <Point>OLREK</Point>
       <Point>TULVU</Point>
       <Point>IBVUK</Point>
+      <Point>BIKOS</Point>
       <Point>AVDEK</Point>
       <Point>DULUL</Point>
       <Point>EPDEX</Point>
