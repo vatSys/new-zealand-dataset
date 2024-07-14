@@ -793,7 +793,7 @@
     <Airport Name="NZTK">
       <Runway Name="11" DataRunway="11" />
       <Runway Name="18" DataRunway="18">
-        <SID Name="MARKO3" Default="True" />
+        <SID Name="MARKO3" />
       </Runway>
       <Runway Name="29" DataRunway="29" />
       <Runway Name="36" DataRunway="36">
@@ -2817,7 +2817,8 @@ MAMUS/
 DUBON/
 BELEE/
 ALADA/
-NESTA
+NESTA/
+NS VOR
 </Airway>
     <Airway Name="Q789">
 SURFY/
@@ -6443,8 +6444,8 @@ RILEY
     <Point Name="QUEENSBERRY PONDS" Type="Fix">-444648.160+1691823.210</Point>
     <Point Name="QUEENSTOWN HILL" Type="Fix">-445948.600+1684206.700</Point>
     <Point Name="RABBIT ISLAND BRIDGE" Type="Fix">-411702.800+1730755.500</Point>
-    <Point Name="RACECOURSE" Type="Fix">-374355.600+1760719.700</Point>
     <Point Name="RACECOURSE" Type="Fix">-412004.800+1731050.500</Point>
+    <Point Name="RACECOURSE" Type="Fix">-374355.600+1760719.700</Point>
     <Point Name="RAETIHI" Type="Fix">-392539.800+1751654.900</Point>
     <Point Name="RAINBOW SKIFIELD" Type="Fix">-415229.400+1725138.800</Point>
     <Point Name="RANGATIRA POINT" Type="Fix">-384417.600+1760100.700</Point>
