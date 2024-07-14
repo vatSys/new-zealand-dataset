@@ -3,7 +3,7 @@
   <Map Type="System2" Name="NZNS Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
     <Line Name="NSAA1-02" Pattern="Broken">SNAPA/IGUTA/AKAVI/OMKUN/ZUKKY/DADUK/AKDOL/PEPPE/IGABI/AA VOR</Line>
     <Line Name="NSAA1-20" Pattern="Broken">BIVER/SEBRU/OMKUN/ZUKKY/DADUK/AKDOL/PEPPE/IGABI/AA VOR</Line>
-    <Line Name="NSCH2" Pattern="Broken">NESTA/ALADA/IGEGA/CH VOR</Line>
+    <Line Name="NSCH2" Pattern="Broken">ALADA/IGEGA/CH VOR</Line>
     <Line Name="NSHN1-02" Pattern="Broken">SNAPA/IGUTA/AKAVI/OMKUN/OPABI/LIKTU/UPTIK/DABKA/HN VOR</Line>
     <Line Name="NSHN1-20" Pattern="Broken">BIVER/SEBRU/OMKUN/OPABI/LIKTU/UPTIK/DABKA/HN VOR</Line>
     <Line Name="NSPM2" Pattern="Broken">SNAPA/DUMOT/MIBUS/PM VOR</Line>
@@ -15,7 +15,7 @@
     <Label LabelOrientation="NW">
       <Point>SNAPA</Point>
       <Point>BIVER</Point>
-      <Point>NESTA</Point>
+      <Point>ALADA</Point>
       <Point>LUSRA</Point>
       <Point>DALKI</Point>
       <Point>LUBSI</Point>
@@ -23,7 +23,7 @@
     <Label LabelOrientation="NE">
       <Point Name="AA1-02 HN1-02 PM2 WU2-20">SNAPA</Point>
       <Point Name="AA1-20 HN1-20">BIVER</Point>
-      <Point Name="CH2">NESTA</Point>
+      <Point Name="CH2">ALADA</Point>
       <Point Name="PP3 WN2">LUSRA</Point>
       <Point Name="WU2-02">DALKI</Point>
       <Point Name="WB3">LUBSI</Point>
@@ -32,7 +32,7 @@
     <Symbol Type="SolidTriangle">
       <Point>SNAPA</Point>
       <Point>BIVER</Point>
-      <Point>NESTA</Point>
+      <Point>ALADA</Point>
       <Point>LUSRA</Point>
       <Point>DALKI</Point>
       <Point>LUBSI</Point>
