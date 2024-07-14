@@ -2,7 +2,7 @@
 <Maps>
   <Map Type="System2" Name="NZQN Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
     <Line Name="QNAA1" Pattern="Broken">SAVLA/LOVTA/SEBRU/OMKUN/LEBOX/POKOM/DAVEE/BROOK/AA VOR</Line>
-    <Line Name="QNAA4" Pattern="Broken">SNAPA/IGUTA/AKAVI/OMKUN/ZUKKY/DADUK/AKDOL/PEPPE/IGABI/AA VOR</Line>
+    <Line Name="QNAA4" Pattern="Broken">TIMJO/MAMUS/DUBON/BELEE/ALADA/NESTA/NS VOR/SNAPA/IGUTA/AKAVI/OMKUN/ZUKKY/DADUK/AKDOL/PEPPE/IGABI/AA VOR</Line>
     <Line Name="QNCH1" Pattern="Broken">TIMJO/DOPKI/CH VOR</Line>
     <Line Name="QNCH5" Pattern="Broken">ADLUP/ELDAK/IVRON/CH VOR</Line>
     <Line Name="QNWN1" Pattern="Broken">TIMJO/DOPKI/GRETA/LUXEV/KAKUR/WARDS/OMDOX/WN VOR</Line>
@@ -10,20 +10,17 @@
     <Line Name="QNWN7" Pattern="Broken">ADLUP/ELDAK/IVRON/CH VOR/GRETA/LUXEV/KAKUR/WARDS/OMDOX/WN VOR</Line>
     <Label LabelOrientation="NW">
       <Point>SAVLA</Point>
-      <Point>SNAPA</Point>
       <Point>TIMJO</Point>
       <Point>ADLUP</Point>
     </Label>
     <Label LabelOrientation="NE">
       <Point Name="AA1">SAVLA</Point>
-      <Point Name="AA4">SNAPA</Point>
-      <Point Name="CH1 WN1 WN6">TIMJO</Point>
+      <Point Name="AA4 CH1 WN1 WN6">TIMJO</Point>
       <Point Name="CH5 WN7">ADLUP</Point>
     </Label>
     <Label LabelOrientation="SE" VerticalAlignment="Bottom"/>
     <Symbol Type="SolidTriangle">
       <Point>SAVLA</Point>
-      <Point>SNAPA</Point>
       <Point>TIMJO</Point>
       <Point>ADLUP</Point>
     </Symbol>
