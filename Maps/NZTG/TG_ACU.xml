@@ -70,7 +70,7 @@
       GOBUK/MORTA
     </Line>
     <Line>
-      <!--Rwy07 OLDO2A-->
+      <!--Rwy07 OLDO1D-->
       OLDON/MEZZO/MORTA
     </Line>
     <Line>
@@ -219,7 +219,7 @@
     </Line>
     <Line>
       <!--Rwy25 OROP1B-->
-      OROPI/TODAN
+      OROPI/SALOL/TODAN
     </Line>
     <Line>
       <!--Rwy25 PIBO1B-->
@@ -243,6 +243,7 @@
       <Point>OLDON</Point>
       <Point>LINPI</Point>
       <Point>OROPI</Point>
+      <Point>SALOL</Point>
       <Point>PIBOV</Point>
       <Point>URBUX</Point>
       <Point>APUNO</Point>

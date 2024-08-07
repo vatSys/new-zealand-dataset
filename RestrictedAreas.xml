@@ -791,30 +791,6 @@
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Danger" Name="D718 TOTARA FLAT" AltitudeFloor="0" AltitudeCeiling="6000" DAIWEnabled="true" LinePattern="Dotted">
-      <Area>
--421803.300+1714025.600/
--422051.000+1714052.200/
--422216.100+1713827.300/
--422132.600+1713518.600/
--421851.300+1713524.000/
--421803.300+1714025.600</Area>
-      <Activations>
-        <Activation H24="true" Start="0000" End="0000" />
-      </Activations>
-    </RestrictedArea>
-    <RestrictedArea Type="Danger" Name="D719 MACKLEY" AltitudeFloor="0" AltitudeCeiling="5000" DAIWEnabled="true" LinePattern="Dotted">
-      <Area>
--414442.700+1715914.400/
--415004.400+1715810.800/
--414916.800+1715224.800/
--414714.800+1715154.900/
--414510.500+1715534.400/
--414442.700+1715914.400</Area>
-      <Activations>
-        <Activation H24="true" Start="0000" End="0000" />
-      </Activations>
-    </RestrictedArea>
     <RestrictedArea Type="Danger" Name="D721 PAPAROA FOREST" AltitudeFloor="0" AltitudeCeiling="3500" DAIWEnabled="true" LinePattern="Dotted">
       <Area>
 -421212.900+1713322.800/
@@ -825,64 +801,6 @@
 -421423.700+1712618.200/
 -421147.800+1712750.400/
 -421212.900+1713322.800</Area>
-      <Activations>
-        <Activation H24="true" Start="0000" End="0000" />
-      </Activations>
-    </RestrictedArea>
-    <RestrictedArea Type="Danger" Name="D726 EYRE FOREST" AltitudeFloor="0" AltitudeCeiling="4500" DAIWEnabled="true" LinePattern="Dotted">
-      <Area>
--453014.410+1681754.000/
--453016.378+1681826.111/
--453022.221+1681857.247/
--453031.763+1681926.466/
--453044.714+1681952.879/
--453100.680+1682015.686/
--453119.179+1682034.193/
--453139.648+1682047.837/
--453201.465+1682056.203/
--453223.969+1682059.034/
--453246.475+1682056.243/
--453308.299+1682047.913/
--453328.779+1682034.296/
--453347.291+1682015.803/
--453403.272+1681952.996/
--453416.237+1681926.568/
--453425.789+1681857.324/
--453431.640+1681826.151/
--453433.610+1681754.000/
--453431.640+1681721.849/
--453425.789+1681650.676/
--453416.237+1681621.432/
--453403.272+1681555.004/
--453347.291+1681532.197/
--453328.779+1681513.704/
--453308.299+1681500.087/
--453246.475+1681451.757/
--453223.969+1681448.966/
--453201.465+1681451.797/
--453139.648+1681500.163/
--453119.179+1681513.807/
--453100.680+1681532.314/
--453044.714+1681555.121/
--453031.763+1681621.534/
--453022.221+1681650.753/
--453016.378+1681721.889/
--453014.410+1681754.000</Area>
-      <Activations>
-        <Activation H24="true" Start="0000" End="0000" />
-      </Activations>
-    </RestrictedArea>
-    <RestrictedArea Type="Danger" Name="D727 KAWHAKA" AltitudeFloor="0" AltitudeCeiling="6500" DAIWEnabled="true" LinePattern="Dotted">
-      <Area>
--424544.800+1711715.900/
--424622.600+1711838.700/
--424812.000+1712045.100/
--425053.900+1711853.100/
--424954.000+1711615.500/
--424845.000+1711437.700/
--424709.700+1711259.800/
--424536.900+1711427.200/
--424544.800+1711715.900</Area>
       <Activations>
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
@@ -899,19 +817,6 @@
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Danger" Name="D821 MATAKITAKI" AltitudeFloor="0" AltitudeCeiling="4500" DAIWEnabled="true" LinePattern="Dotted">
-      <Area>
--415753.900+1723100.500/
--420008.900+1723030.500/
--415953.900+1722612.500/
--415844.900+1722518.500/
--415726.900+1722618.500/
--415720.900+1722736.500/
--415753.900+1723100.500</Area>
-      <Activations>
-        <Activation H24="true" Start="0000" End="0000" />
-      </Activations>
-    </RestrictedArea>
     <RestrictedArea Type="Danger" Name="D822 RETREAT CREEK" AltitudeFloor="0" AltitudeCeiling="5000" DAIWEnabled="true" LinePattern="Dotted">
       <Area>
 -425628.700+1722403.800/
@@ -919,19 +824,6 @@
 -425918.000+1721635.200/
 -425617.100+1721621.300/
 -425628.700+1722403.800</Area>
-      <Activations>
-        <Activation H24="true" Start="0000" End="0000" />
-      </Activations>
-    </RestrictedArea>
-    <RestrictedArea Type="Danger" Name="D823 AHAURA RIVER" AltitudeFloor="0" AltitudeCeiling="3500" DAIWEnabled="true" LinePattern="Dotted">
-      <Area>
--423044.500+1720123.000/
--423521.800+1720358.900/
--423615.000+1715738.100/
--423526.800+1715312.600/
--423347.200+1715257.500/
--422950.500+1715658.000/
--423044.500+1720123.000</Area>
       <Activations>
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>

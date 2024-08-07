@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="16 SIDs" Priority="1" CustomColourName="ProcDep" Center="-43.869758+169.041381">
+  <Map Type="System2" Name="16 SIDs" Priority="1" CustomColourName="ProcDep" Center="-43.868539+169.041328">
     <Line Pattern="Dashed">
       <!--Rwy16 KABUV1-->
-      -43.869758+169.041381/HT518/OMBIL/KABUV
+      -43.868539+169.041328/HT518/OMBIL/KABUV
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy16 KABUV1.UBRAV-->
@@ -20,7 +20,7 @@
       <Point>UBRAV</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="16 RNP" Priority="1" Center="-43.863533+169.040039" CustomColourName="ProcArr">
+  <Map Type="System2" Name="16 RNP" Priority="1" Center="-43.862611+169.040889" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -36,11 +36,11 @@
     <Symbol Type="SolidTriangle">
       <Point>OREVU</Point>
     </Symbol>
-    <Line Pattern="Solid">OREVU/UPGEK/HT405/-435148.719+1690224.140</Line>
+    <Line Pattern="Solid">OREVU/UPGEK/HT405/-435145.400+1690227.200</Line>
     <Line Pattern="Solid">KABUV/OREVU</Line>
     <Line Pattern="Solid">LUPDO/OREVU</Line>
   </Map>
-  <Map Type="System2" Name="16 RNP Labels" Priority="1" Center="-43.863533+169.040039" CustomColourName="ProcArr">
+  <Map Type="System2" Name="16 RNP Labels" Priority="1" Center="-43.862611+169.040889" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>KABUV</Point>
       <Point>LUPDO</Point>
@@ -48,10 +48,10 @@
       <Point>OREVU</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="34 SIDs" Priority="1" CustomColourName="ProcDep" Center="-43.863533+169.040039">
+  <Map Type="System2" Name="34 SIDs" Priority="1" CustomColourName="ProcDep" Center="-43.862611+169.040889">
     <Line Pattern="Dashed">
       <!--Rwy34 KABUV1-->
-      -43.863533+169.040039/HT518/OMBIL/KABUV
+      -43.862611+169.040889/HT518/OMBIL/KABUV
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy34 KABUV1.UBRAV-->
@@ -68,7 +68,7 @@
       <Point>UBRAV</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="34 RNP" Priority="1" Center="-43.869758+169.041381" CustomColourName="ProcArr">
+  <Map Type="System2" Name="34 RNP" Priority="1" Center="-43.868539+169.041328" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -84,11 +84,11 @@
     <Symbol Type="SolidTriangle">
       <Point>OREVU</Point>
     </Symbol>
-    <Line Pattern="Solid">OREVU/UPGEK/HT405/-435211.129+1690228.972</Line>
+    <Line Pattern="Solid">OREVU/UPGEK/HT405/-435206.740+1690228.781</Line>
     <Line Pattern="Solid">KABUV/OREVU</Line>
     <Line Pattern="Solid">LUPDO/OREVU</Line>
   </Map>
-  <Map Type="System2" Name="34 RNP Labels" Priority="1" Center="-43.869758+169.041381" CustomColourName="ProcArr">
+  <Map Type="System2" Name="34 RNP Labels" Priority="1" Center="-43.868539+169.041328" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>KABUV</Point>
       <Point>LUPDO</Point>

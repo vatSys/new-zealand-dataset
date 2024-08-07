@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="32 RNP" Priority="1" Center="-39.557828+174.269719" CustomColourName="ProcArr">
+  <Map Type="System2" Name="32 RNP" Priority="1" Center="-39.557953+174.269817" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -15,11 +15,11 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">WAPOU/OMUNU/-393328.181+1741610.988</Line>
+    <Line Pattern="Solid">WAPOU/OMUNU/-393328.631+1741611.341</Line>
     <Line Pattern="Solid">NUKTO/WAPOU</Line>
     <Line Pattern="Solid">UPVOK/WAPOU</Line>
   </Map>
-  <Map Type="System2" Name="32 RNP Labels" Priority="1" Center="-39.557828+174.269719" CustomColourName="ProcArr">
+  <Map Type="System2" Name="32 RNP Labels" Priority="1" Center="-39.557953+174.269817" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>WAPOU</Point>
       <Point>NUKTO</Point>

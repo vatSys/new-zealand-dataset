@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="01 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.233544+172.108414">
+  <Map Type="System2" Name="01 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.233475+172.108553">
     <Line Pattern="Dashed">
       <!--Rwy01 DALTU1-->
-      -41.233544+172.108414/KM563/DALTU
+      -41.233475+172.108553/KM563/DALTU
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy01 DALTU1.KAKET-->
@@ -27,7 +27,7 @@
       <Point>UBRAV</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="01 RNP" Priority="1" Center="-41.240792+172.103225" CustomColourName="ProcArr">
+  <Map Type="System2" Name="01 RNP" Priority="1" Center="-41.240836+172.103242" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -42,11 +42,11 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">APIGO/UGTER/KM412/-411426.851+1720611.610</Line>
+    <Line Pattern="Solid">APIGO/UGTER/KM412/-411427.010+1720611.671</Line>
     <Line Pattern="Solid">UBRAV/APIGO</Line>
     <Line Pattern="Solid">UXOMA/APIGO</Line>
   </Map>
-  <Map Type="System2" Name="01 RNP Labels" Priority="1" Center="-41.240792+172.103225" CustomColourName="ProcArr">
+  <Map Type="System2" Name="01 RNP Labels" Priority="1" Center="-41.240836+172.103242" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>APIGO</Point>
       <Point>UBRAV</Point>
@@ -54,10 +54,10 @@
       <Point>UGTER</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="19 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.240792+172.103225">
+  <Map Type="System2" Name="19 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.240836+172.103242">
     <Line Pattern="Dashed">
       <!--Rwy19 DALTU1-->
-      -41.240792+172.103225/KM563/DALTU
+      -41.240836+172.103242/KM563/DALTU
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy19 DALTU1.KAKET-->
@@ -81,7 +81,7 @@
       <Point>UBRAV</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="19 RNP" Priority="1" Center="-41.233544+172.108414" CustomColourName="ProcArr">
+  <Map Type="System2" Name="19 RNP" Priority="1" Center="-41.233475+172.108553" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -96,11 +96,11 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">APIGO/UGTER/KM412/-411400.758+1720630.290</Line>
+    <Line Pattern="Solid">APIGO/UGTER/KM412/-411400.510+1720630.791</Line>
     <Line Pattern="Solid">UBRAV/APIGO</Line>
     <Line Pattern="Solid">UXOMA/APIGO</Line>
   </Map>
-  <Map Type="System2" Name="19 RNP Labels" Priority="1" Center="-41.233544+172.108414" CustomColourName="ProcArr">
+  <Map Type="System2" Name="19 RNP Labels" Priority="1" Center="-41.233475+172.108553" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>APIGO</Point>
       <Point>UBRAV</Point>
@@ -108,10 +108,10 @@
       <Point>UGTER</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="17 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.240897+172.103378">
+  <Map Type="System2" Name="17 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.240886+172.103944">
     <Line Pattern="Dashed">
       <!--Rwy17 DALTU1-->
-      -41.240897+172.103378/KM563/DALTU
+      -41.240886+172.103944/KM563/DALTU
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy17 DALTU1.KAKET-->
@@ -135,7 +135,7 @@
       <Point>UBRAV</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="17 RNP" Priority="1" Center="-41.235131+172.104994" CustomColourName="ProcArr">
+  <Map Type="System2" Name="17 RNP" Priority="1" Center="-41.236219+172.104517" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -150,11 +150,11 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">APIGO/UGTER/KM412/-411406.472+1720617.978</Line>
+    <Line Pattern="Solid">APIGO/UGTER/KM412/-411410.388+1720616.261</Line>
     <Line Pattern="Solid">UBRAV/APIGO</Line>
     <Line Pattern="Solid">UXOMA/APIGO</Line>
   </Map>
-  <Map Type="System2" Name="17 RNP Labels" Priority="1" Center="-41.235131+172.104994" CustomColourName="ProcArr">
+  <Map Type="System2" Name="17 RNP Labels" Priority="1" Center="-41.236219+172.104517" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>APIGO</Point>
       <Point>UBRAV</Point>
@@ -162,10 +162,10 @@
       <Point>UGTER</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="35 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.235131+172.104994">
+  <Map Type="System2" Name="35 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.236219+172.104517">
     <Line Pattern="Dashed">
       <!--Rwy35 DALTU1-->
-      -41.235131+172.104994/KM563/DALTU
+      -41.236219+172.104517/KM563/DALTU
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy35 DALTU1.KAKET-->
@@ -189,7 +189,7 @@
       <Point>UBRAV</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="35 RNP" Priority="1" Center="-41.240897+172.103378" CustomColourName="ProcArr">
+  <Map Type="System2" Name="35 RNP" Priority="1" Center="-41.240886+172.103944" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -204,11 +204,11 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">APIGO/UGTER/KM412/-411427.229+1720612.161</Line>
+    <Line Pattern="Solid">APIGO/UGTER/KM412/-411427.190+1720614.198</Line>
     <Line Pattern="Solid">UBRAV/APIGO</Line>
     <Line Pattern="Solid">UXOMA/APIGO</Line>
   </Map>
-  <Map Type="System2" Name="35 RNP Labels" Priority="1" Center="-41.240897+172.103378" CustomColourName="ProcArr">
+  <Map Type="System2" Name="35 RNP Labels" Priority="1" Center="-41.240886+172.103944" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>APIGO</Point>
       <Point>UBRAV</Point>

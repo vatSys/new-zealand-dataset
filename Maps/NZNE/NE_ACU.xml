@@ -42,7 +42,7 @@
       <Point>RIKDI</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="21 STARs" Priority="1" CustomColourName="ProcArr" Center="-36.654272+174.658264">
+  <Map Type="System2" Name="21 STARs" Priority="1" CustomColourName="ProcArr" Center="-36.654278+174.658258">
     <Line>
       <!--Rwy21 APAB1B-->
       APABO/AVMOL
@@ -58,7 +58,7 @@
       <Point>AVMOL</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="21 RNP" Priority="1" Center="-36.654272+174.658264" CustomColourName="ProcArr">
+  <Map Type="System2" Name="21 RNP" Priority="1" Center="-36.654278+174.658258" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -72,10 +72,10 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">UPLIN/IPKAT/-363915.379+1743929.750</Line>
+    <Line Pattern="Solid">UPLIN/IPKAT/-363915.401+1743929.729</Line>
     <Line Pattern="Solid">AVMOL/UPLIN</Line>
   </Map>
-  <Map Type="System2" Name="21 RNP Labels" Priority="1" Center="-36.654272+174.658264" CustomColourName="ProcArr">
+  <Map Type="System2" Name="21 RNP Labels" Priority="1" Center="-36.654278+174.658258" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>UPLIN</Point>
       <Point>AVMOL</Point>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="03 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.666069+177.971878">
+  <Map Type="System2" Name="03 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.666008+177.971969">
     <Line>
       <!--Rwy03 GS1E-->
       GS VOR/VASNI
@@ -19,7 +19,7 @@
       <Point>VASNI</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="21 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.659011+177.981889">
+  <Map Type="System2" Name="21 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.658975+177.982011">
     <Line>
       <!--Rwy21 GS1E-->
       GS VOR/VASNI
@@ -38,7 +38,7 @@
       <Point>VASNI</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="09 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.659603+177.970047">
+  <Map Type="System2" Name="09 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.659611+177.970139">
     <Line>
       <!--Rwy09 GS1E-->
       GS VOR/VASNI
@@ -57,7 +57,7 @@
       <Point>VASNI</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="27 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.663958+177.982314">
+  <Map Type="System2" Name="27 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.663997+177.982436">
     <Line>
       <!--Rwy27 GS1E-->
       GS VOR/VASNI
@@ -201,7 +201,7 @@
       DABIP/LEKON/GS414/OLGEG/GUDRU
     </Line>
     <Line>
-      <!--Rwy14 GS2D-->
+      <!--Rwy14 GS4A-->
       GS VOR/-38.509490+178.070860
     </Line>
     <Line>
@@ -387,7 +387,7 @@
       DABIP/LEKON/GS582/GS621/SOSGI/ISDIS
     </Line>
     <Line>
-      <!--Rwy32 GS1C-->
+      <!--Rwy32 GS3B-->
       GS VOR/-38.739090+178.166310
     </Line>
     <Line>
