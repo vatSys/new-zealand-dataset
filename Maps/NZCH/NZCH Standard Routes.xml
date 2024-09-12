@@ -8,7 +8,7 @@
     <Line Name="CHGM1" Pattern="Broken">AVOCA/BELEE/OSOLO/LOCIY/APASA</Line>
     <Line Name="CHHN3" Pattern="Broken">GLENN/GULOV/IGUTA/AKAVI/OMKUN/OPABI/LIKTU/UPTIK/DABKA/HN VOR</Line>
     <Line Name="CHHN5" Pattern="Broken">PORAM/RIVTA/GULOV/IGUTA/AKAVI/OMKUN/OPABI/LIKTU/UPTIK/DABKA/HN VOR</Line>
-    <Line Name="CHHK3" Pattern="Broken">AVOCA/BELEE/OSOLO/LOCIY/APASA/HK NDB</Line>
+    <Line Name="CHHK1" Pattern="Broken">AVOCA/BELEE/OSOLO/LOCIY/APASA</Line>
     <Line Name="CHNV3" Pattern="Broken">IDARA/DUKOP/NV VOR</Line>
     <Line Name="CHMC1" Pattern="Broken">GUPUT/SUNAR/MAMUS</Line>
     <Line Name="CHNR2" Pattern="Broken">GRETA/LUXEV/KAKUR/WARDS/OMDOX/KAMET/BINIT/PM VOR/SELDU/BITIL/NR VOR</Line>
@@ -50,7 +50,7 @@
       <Point Name="AA6 HN5 NS2-02 NS2-20">PORAM</Point>
       <Point Name="CI1">LALAP</Point>
       <Point Name="DN1 NV3">IDARA</Point>
-      <Point Name="GM1 HK3">AVOCA</Point>
+      <Point Name="GM1 HK1">AVOCA</Point>
       <Point Name="MC1 QN3 WF2">GUPUT</Point>
       <Point Name="NR2 OH3 PM3 RO2">GRETA</Point>
       <Point Name="NR4 OH5 PM5 PP2">ODOWD</Point>
