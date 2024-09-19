@@ -807,17 +807,19 @@
     <Airport Name="NZTU">
       <Runway Name="02" DataRunway="02">
         <SID Name="BIDN2P" />
+        <SID Name="ELDA1T" />
         <STAR Name="DUBO2J" ApproachName="RNP" />
-        <STAR Name="ELDA1J" ApproachName="RNP" />
+        <STAR Name="ELDA2J" ApproachName="RNP" />
         <STAR Name="MAMU2J" ApproachName="RNP" />
         <STAR Name="PORU2J" ApproachName="RNP" />
       </Runway>
       <Runway Name="11" DataRunway="11" />
       <Runway Name="20" DataRunway="20">
         <SID Name="MUKE2Q" />
-        <STAR Name="DOPO1K" ApproachName="RNP" />
+        <STAR Name="DOPO2K" ApproachName="RNP" />
         <STAR Name="DUBO1K" ApproachName="RNP" />
-        <STAR Name="ELDA1K" ApproachName="RNP" />
+        <STAR Name="ELDA2K" ApproachName="RNP" />
+        <STAR Name="ELDA1L" ApproachName="RNP" />
         <STAR Name="MAMU1K" ApproachName="RNP" />
         <STAR Name="PORU1K" ApproachName="RNP" />
       </Runway>
@@ -5209,7 +5211,14 @@ RILEY
     <Point Name="RO276" Type="Fix">-380829.310+1763349.709</Point>
     <Point Name="RO364" Type="Fix">-380835.851+1761742.151</Point>
     <Point Name="RO366" Type="Fix">-380922.010+1761650.830</Point>
+    <Point Name="RO401" Type="Fix">-381139.590+1761010.940</Point>
+    <Point Name="RO521" Type="Fix">-380854.150+1761612.050</Point>
     <Point Name="RO563" Type="Fix">-380730.684+1761738.220</Point>
+    <Point Name="RO634" Type="Fix">-380816.660+1761749.970</Point>
+    <Point Name="RO636" Type="Fix">-380922.010+1761650.830</Point>
+    <Point Name="RO764" Type="Fix">-380954.850+1761214.510</Point>
+    <Point Name="RO767" Type="Fix">-380835.850+1761742.150</Point>
+    <Point Name="RO862" Type="Fix">-380656.110+1761842.010</Point>
     <Point Name="ROCKS" Type="Fix">-462922.150+1680617.630</Point>
     <Point Name="ROCKY" Type="Fix">-345227.080+1732857.360</Point>
     <Point Name="RONGO" Type="Fix">-413009.690+1745421.910</Point>
@@ -7718,6 +7727,9 @@ RILEY
       <Transition Name="OLGAL">ATSOK/DOPOP/OLGAL</Transition>
       <Transition Name="OMARU">ATSOK/OMARU</Transition>
     </SID>
+    <SID Name="ELDA1T" Airport="NZTU" Runways="02">
+      <Route Runway="02">SUNPA/ELDAK</Route>
+    </SID>
     <SID Name="MUKE2Q" Airport="NZTU" Runways="20">
       <Route Runway="20">MUKEN</Route>
       <Transition Name="DUBON">DUBON</Transition>
@@ -9041,7 +9053,7 @@ RILEY
     <STAR Name="URBU2B" Airport="NZTG" Runways="25">
       <Route Runway="25">URBUX/APUNO/KIMAR/RUSTA/UBSET</Route>
     </STAR>
-    <STAR Name="DOPO1K" Airport="NZTU" Runways="20">
+    <STAR Name="DOPO2K" Airport="NZTU" Runways="20">
       <Route Runway="20">DOPOP/BIDNI</Route>
     </STAR>
     <STAR Name="DUBO2J" Airport="NZTU" Runways="02">
@@ -9050,11 +9062,14 @@ RILEY
     <STAR Name="DUBO1K" Airport="NZTU" Runways="20">
       <Route Runway="20">DUBON/MOVBO/ANGAX/IDKOV/LUVAB</Route>
     </STAR>
-    <STAR Name="ELDA1J" Airport="NZTU" Runways="02">
+    <STAR Name="ELDA2J" Airport="NZTU" Runways="02">
       <Route Runway="02">ELDAK/BIDNI/DOPOP</Route>
     </STAR>
-    <STAR Name="ELDA1K" Airport="NZTU" Runways="20">
+    <STAR Name="ELDA2K" Airport="NZTU" Runways="20">
       <Route Runway="20">ELDAK/BIDNI</Route>
+    </STAR>
+    <STAR Name="ELDA1L" Airport="NZTU" Runways="20">
+      <Route Runway="20">ELDAK/SUNPA</Route>
     </STAR>
     <STAR Name="MAMU2J" Airport="NZTU" Runways="02">
       <Route Runway="02">MAMUS/TU411/DOPOP</Route>
@@ -9570,7 +9585,7 @@ RILEY
       <Route>OKERE/BONLI/TUSGA/-380601.598+1761913.238</Route>
     </Approach>
     <Approach Name="RNP-ARY" Airport="NZRO" Runway="36">
-      <Route>TOTRA/ADKAG/SEKBU/RO366/RO364/-380655.750+1761841.170</Route>
+      <Route>TOTRA/ADKAG/SEKBU/RO636/RO767/-380655.750+1761841.170</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZTG" Runway="07">
       <Transition Name="MORTA">MORTA</Transition>

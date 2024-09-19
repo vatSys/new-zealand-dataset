@@ -45,6 +45,7 @@
       <Point>LARAV</Point>
       <Point>TUSGA</Point>
       <Point>SEKBU</Point>
+      <Point>OTKOS</Point>
       <Point>ATRAB</Point>
       <Point>SULAB</Point>
       <Point>AA427</Point>
@@ -123,8 +124,12 @@
       <Point>QN774</Point>
       <Point>BONLI</Point>
       <Point>ADKAG</Point>
-      <Point>RO366</Point>
-      <Point>RO364</Point>
+      <Point>RO636</Point>
+      <Point>RO767</Point>
+      <Point>RO401</Point>
+      <Point>RO764</Point>
+      <Point>RO521</Point>
+      <Point>RO634</Point>
       <Point>WN509</Point>
       <Point>WN513</Point>
       <Point>WN508</Point>
@@ -181,6 +186,7 @@
       <Point>LARAV</Point>
       <Point>TUSGA</Point>
       <Point>SEKBU</Point>
+      <Point>OTKOS</Point>
       <Point>ATRAB</Point>
       <Point>SULAB</Point>
     </Symbol>
@@ -213,7 +219,8 @@
     <Line Pattern="Solid">ATKIL/QN780/TOGOX/QN770/ATVUP</Line>
     <Line Pattern="Solid">UGPED/OSOPU/QN774/ATVUP</Line>
     <Line Pattern="Solid">OKERE/BONLI/TUSGA/-380601.598+1761913.238</Line>
-    <Line Pattern="Solid">TOTRA/ADKAG/SEKBU/RO366/RO364/-380655.750+1761841.170</Line>
+    <Line Pattern="Solid">TOTRA/ADKAG/SEKBU/RO636/RO767/-380655.750+1761841.170</Line>
+    <Line Pattern="Solid">TOTRA/RO401/RO764/OTKOS/RO521/RO634/RO862/-380655.750+1761841.170</Line>
     <Line Pattern="Solid">WN416/ATRAB/-411907.039+1744826.849</Line>
     <Line Pattern="Solid">DORBU/WN509/WN416</Line>
     <Line Pattern="Solid">HUWIT/WN513/WN416</Line>
