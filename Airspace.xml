@@ -5212,13 +5212,18 @@ RILEY
     <Point Name="RO364" Type="Fix">-380835.851+1761742.151</Point>
     <Point Name="RO366" Type="Fix">-380922.010+1761650.830</Point>
     <Point Name="RO401" Type="Fix">-381139.590+1761010.940</Point>
+    <Point Name="RO402" Type="Fix">-380036.630+1762224.360</Point>
+    <Point Name="RO413" Type="Fix">-380050.650+1762238.170</Point>
     <Point Name="RO521" Type="Fix">-380854.150+1761612.050</Point>
     <Point Name="RO563" Type="Fix">-380730.684+1761738.220</Point>
     <Point Name="RO634" Type="Fix">-380816.660+1761749.970</Point>
     <Point Name="RO636" Type="Fix">-380922.010+1761650.830</Point>
+    <Point Name="RO636" Type="Fix">-380922.010+1761650.830</Point>
     <Point Name="RO764" Type="Fix">-380954.850+1761214.510</Point>
     <Point Name="RO767" Type="Fix">-380835.850+1761742.150</Point>
+    <Point Name="RO767" Type="Fix">-380835.850+1761742.150</Point>
     <Point Name="RO862" Type="Fix">-380656.110+1761842.010</Point>
+    <Point Name="RO936" Type="Fix">-380557.320+1761920.120</Point>
     <Point Name="ROCKS" Type="Fix">-462922.150+1680617.630</Point>
     <Point Name="ROCKY" Type="Fix">-345227.080+1732857.360</Point>
     <Point Name="RONGO" Type="Fix">-413009.690+1745421.910</Point>
