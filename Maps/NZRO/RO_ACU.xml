@@ -389,8 +389,12 @@
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>ADKAG</Point>
-      <Point>RO366</Point>
-      <Point>RO364</Point>
+      <Point>RO636</Point>
+      <Point>RO767</Point>
+      <Point>RO401</Point>
+      <Point>RO764</Point>
+      <Point>RO521</Point>
+      <Point>RO634</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
@@ -399,15 +403,18 @@
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>SEKBU</Point>
+      <Point>OTKOS</Point>
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">TOTRA/ADKAG/SEKBU/RO366/RO364/-380655.750+1761841.170</Line>
+    <Line Pattern="Solid">TOTRA/ADKAG/SEKBU/RO636/RO767/-380655.750+1761841.170</Line>
+    <Line Pattern="Solid">TOTRA/RO401/RO764/OTKOS/RO521/RO634/RO862/-380655.750+1761841.170</Line>
   </Map>
   <Map Type="System2" Name="36 RNP-AR Labels" Priority="1" Center="-38.115486+176.311436" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>TOTRA</Point>
       <Point>SEKBU</Point>
+      <Point>OTKOS</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-38.109167+176.317222">

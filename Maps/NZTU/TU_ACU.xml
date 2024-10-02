@@ -25,6 +25,10 @@
       <!--Rwy02 BIDN2P.OMARU-->
       ATSOK/OMARU
     </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy02 ELDA1T-->
+      TU20T/SUNPA/ELDAK
+    </Line>
     <Symbol Type="HollowTriangle">
       <Point>TU20T</Point>
       <Point>BIDNI</Point>
@@ -36,11 +40,12 @@
       <Point>DOPOP</Point>
       <Point>OLGAL</Point>
       <Point>OMARU</Point>
+      <Point>SUNPA</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>BIDNI</Point>
-      <Point>DUBON</Point>
       <Point>ELDAK</Point>
+      <Point>DUBON</Point>
       <Point>MAMUS</Point>
       <Point>OLGAL</Point>
       <Point>OMARU</Point>
@@ -52,7 +57,7 @@
       DUBON/TU426/DOPOP
     </Line>
     <Line>
-      <!--Rwy02 ELDA1J-->
+      <!--Rwy02 ELDA2J-->
       ELDAK/BIDNI/DOPOP
     </Line>
     <Line>
@@ -159,7 +164,7 @@
   </Map>
   <Map Type="System2" Name="20 STARs" Priority="1" CustomColourName="ProcArr" Center="-44.294633+171.231261">
     <Line>
-      <!--Rwy20 DOPO1K-->
+      <!--Rwy20 DOPO2K-->
       DOPOP/BIDNI
     </Line>
     <Line>
@@ -167,8 +172,12 @@
       DUBON/MOVBO/ANGAX/IDKOV/LUVAB
     </Line>
     <Line>
-      <!--Rwy20 ELDA1K-->
+      <!--Rwy20 ELDA2K-->
       ELDAK/BIDNI
+    </Line>
+    <Line>
+      <!--Rwy20 ELDA1L-->
+      ELDAK/SUNPA
     </Line>
     <Line>
       <!--Rwy20 MAMU1K-->
@@ -181,6 +190,7 @@
     <Symbol Type="HollowTriangle">
       <Point>BIDNI</Point>
       <Point>LUVAB</Point>
+      <Point>SUNPA</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>DOPOP</Point>
@@ -202,6 +212,7 @@
       <Point>PORUT</Point>
       <Point>BIDNI</Point>
       <Point>LUVAB</Point>
+      <Point>SUNPA</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="20 RNP" Priority="1" Center="-44.294633+171.231261" CustomColourName="ProcArr">

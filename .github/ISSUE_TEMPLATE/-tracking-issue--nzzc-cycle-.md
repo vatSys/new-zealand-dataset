@@ -18,6 +18,11 @@ assignees: ''
 - [ ] Duplicate procedure changes in SFG, as per the relevant project ticket.
 - [ ] Implement any other changes required as a part of the AIP cycle.
 - [ ] Implement any backlog features.
+  
+### Mapping Data Changes
+- [ ] Make necessary changes to the Standard Routes, as defined in [the SRC repository](https://github.com/vatnz-dev/vatSys-SRC-Reader/blob/dev/Routes/Routes.xml)
+- [ ] Using the Standard Route mapper, generate the vatSys Map Layers and copy to the dataset repository.
+- [ ] Using the Standard Route mapper, generate the public `stdRoutes.json` file for external use and commit to the [std-rte-public repository](https://github.com/vatnz-dev/std-rte-public).  Notify Navigraph that the export has been made.
 
 ### Testing
 - [ ] Test vatSys and EuroScope using the sweatbox environment.
@@ -26,5 +31,4 @@ assignees: ''
 ### Release
 - [ ] Merge content into Master Release Repo
 - [ ] Publish Client Data Release.
-- [ ] If necessary, publish Standard Route Changes.
 - [ ] If necessary, publish SOP changes.

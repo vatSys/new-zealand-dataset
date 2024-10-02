@@ -807,17 +807,19 @@
     <Airport Name="NZTU">
       <Runway Name="02" DataRunway="02">
         <SID Name="BIDN2P" />
+        <SID Name="ELDA1T" />
         <STAR Name="DUBO2J" ApproachName="RNP" />
-        <STAR Name="ELDA1J" ApproachName="RNP" />
+        <STAR Name="ELDA2J" ApproachName="RNP" />
         <STAR Name="MAMU2J" ApproachName="RNP" />
         <STAR Name="PORU2J" ApproachName="RNP" />
       </Runway>
       <Runway Name="11" DataRunway="11" />
       <Runway Name="20" DataRunway="20">
         <SID Name="MUKE2Q" />
-        <STAR Name="DOPO1K" ApproachName="RNP" />
+        <STAR Name="DOPO2K" ApproachName="RNP" />
         <STAR Name="DUBO1K" ApproachName="RNP" />
-        <STAR Name="ELDA1K" ApproachName="RNP" />
+        <STAR Name="ELDA2K" ApproachName="RNP" />
+        <STAR Name="ELDA1L" ApproachName="RNP" />
         <STAR Name="MAMU1K" ApproachName="RNP" />
         <STAR Name="PORU1K" ApproachName="RNP" />
       </Runway>
@@ -3495,7 +3497,6 @@ RILEY
     <Point Name="ANDEP" Type="Fix">-425226.910+1705102.840</Point>
     <Point Name="ANDOM" Type="Fix">-391447.120+1742026.530</Point>
     <Point Name="ANGAI" Type="Fix">-211209.310-1593701.220</Point>
-    <Point Name="ANGAX" Type="Fix">-435646.070+1711036.650</Point>
     <Point Name="ANGEB" Type="Fix">-465258.130+1680901.260</Point>
     <Point Name="ANGIR" Type="Fix">-432932.800+1724113.900</Point>
     <Point Name="ANGOR" Type="Fix">-211123.820-1751413.500</Point>
@@ -4250,7 +4251,6 @@ RILEY
     <Point Name="IDIMU" Type="Fix">-393150.210+1662602.450</Point>
     <Point Name="IDISA" Type="Fix">-212624.440-1601612.610</Point>
     <Point Name="IDIXI" Type="Fix">-442424.670+1712457.500</Point>
-    <Point Name="IDKOV" Type="Fix">-440047.170+1711228.900</Point>
     <Point Name="IDLIK" Type="Fix">-460256.290+1701808.540</Point>
     <Point Name="IDLUR" Type="Fix">-394923.850+1753346.640</Point>
     <Point Name="IDMAT" Type="Fix">-385957.610+1740345.360</Point>
@@ -4717,7 +4717,6 @@ RILEY
     <Point Name="MOSDO" Type="Fix">-395321.670+1753429.850</Point>
     <Point Name="MOSPU" Type="Fix">-375132.560+1760201.710</Point>
     <Point Name="MOTKO" Type="Fix">-390727.120+1713838.240</Point>
-    <Point Name="MOVBO" Type="Fix">-434555.220+1710534.940</Point>
     <Point Name="MOVSA" Type="Fix">-455728.330+1682811.830</Point>
     <Point Name="MOXET" Type="Fix">-451647.210+1684135.280</Point>
     <Point Name="MS402" Type="Fix">-405703.701+1754614.588</Point>
@@ -4795,7 +4794,7 @@ RILEY
     <Point Name="NOTSE" Type="Fix">-141640.660-1703648.460</Point>
     <Point Name="NOVTO" Type="Fix">-434301.320+1722942.000</Point>
     <Point Name="NOVTU" Type="Fix">-411311.310+1740223.630</Point>
-    <Point Name="NU" Type="Fix">-190428.980-1695454.950</Point>
+    <Point Name="NU" Type="Fix">-190428.981-1695454.950</Point>
     <Point Name="NUGLI" Type="Fix">-243251.440-1700000.000</Point>
     <Point Name="NUKTO" Type="Fix">-394112.720+1742640.840</Point>
     <Point Name="NULKO" Type="Fix">-410913.030+1740421.010</Point>
@@ -4962,6 +4961,7 @@ RILEY
     <Point Name="OTAKI" Type="Fix">-404609.340+1751644.730</Point>
     <Point Name="OTATA" Type="Fix">-363851.230+1745109.250</Point>
     <Point Name="OTKIS" Type="Fix">-460204.510+1695245.360</Point>
+    <Point Name="OTKOS" Type="Fix">-380855.250+1761425.960</Point>
     <Point Name="OTLIT" Type="Fix">-412652.230+1725710.910</Point>
     <Point Name="OTUHI" Type="Fix">-354912.150+1740616.600</Point>
     <Point Name="OTURI" Type="Fix">-100000.000-1591805.990</Point>
@@ -5211,7 +5211,14 @@ RILEY
     <Point Name="RO276" Type="Fix">-380829.310+1763349.709</Point>
     <Point Name="RO364" Type="Fix">-380835.851+1761742.151</Point>
     <Point Name="RO366" Type="Fix">-380922.010+1761650.830</Point>
+    <Point Name="RO401" Type="Fix">-381139.590+1761010.940</Point>
+    <Point Name="RO521" Type="Fix">-380854.150+1761612.050</Point>
     <Point Name="RO563" Type="Fix">-380730.684+1761738.220</Point>
+    <Point Name="RO634" Type="Fix">-380816.660+1761749.970</Point>
+    <Point Name="RO636" Type="Fix">-380922.010+1761650.830</Point>
+    <Point Name="RO764" Type="Fix">-380954.850+1761214.510</Point>
+    <Point Name="RO767" Type="Fix">-380835.850+1761742.150</Point>
+    <Point Name="RO862" Type="Fix">-380656.110+1761842.010</Point>
     <Point Name="ROCKS" Type="Fix">-462922.150+1680617.630</Point>
     <Point Name="ROCKY" Type="Fix">-345227.080+1732857.360</Point>
     <Point Name="RONGO" Type="Fix">-413009.690+1745421.910</Point>
@@ -5505,7 +5512,6 @@ RILEY
     <Point Name="UGTOV" Type="Fix">-411109.160+1743244.010</Point>
     <Point Name="UGUDA" Type="Fix">-412322.460+1721158.440</Point>
     <Point Name="UGUKU" Type="Fix">-402500.370+1725102.380</Point>
-    <Point Name="UGVAV" Type="Fix">-440820.800+1705910.190</Point>
     <Point Name="UGVUG" Type="Fix">-394132.040+1764745.860</Point>
     <Point Name="UKANO" Type="Fix">-413618.680+1743210.880</Point>
     <Point Name="UKAPA" Type="Fix">-361743.930+1741419.580</Point>
@@ -5548,7 +5554,6 @@ RILEY
     <Point Name="UPSEG" Type="Fix">-393130.950+1765650.840</Point>
     <Point Name="UPSOD" Type="Fix">-393530.950+1742145.040</Point>
     <Point Name="UPSUV" Type="Fix">-385012.400+1772834.280</Point>
-    <Point Name="UPTAX" Type="Fix">-441830.780+1705849.150</Point>
     <Point Name="UPTER" Type="Fix">-383434.290+1780201.650</Point>
     <Point Name="UPTIB" Type="Fix">-372107.510+1745753.420</Point>
     <Point Name="UPTIK" Type="Fix">-382048.330+1750407.090</Point>
@@ -7722,6 +7727,9 @@ RILEY
       <Transition Name="OLGAL">ATSOK/DOPOP/OLGAL</Transition>
       <Transition Name="OMARU">ATSOK/OMARU</Transition>
     </SID>
+    <SID Name="ELDA1T" Airport="NZTU" Runways="02">
+      <Route Runway="02">SUNPA/ELDAK</Route>
+    </SID>
     <SID Name="MUKE2Q" Airport="NZTU" Runways="20">
       <Route Runway="20">MUKEN</Route>
       <Transition Name="DUBON">DUBON</Transition>
@@ -9045,7 +9053,7 @@ RILEY
     <STAR Name="URBU2B" Airport="NZTG" Runways="25">
       <Route Runway="25">URBUX/APUNO/KIMAR/RUSTA/UBSET</Route>
     </STAR>
-    <STAR Name="DOPO1K" Airport="NZTU" Runways="20">
+    <STAR Name="DOPO2K" Airport="NZTU" Runways="20">
       <Route Runway="20">DOPOP/BIDNI</Route>
     </STAR>
     <STAR Name="DUBO2J" Airport="NZTU" Runways="02">
@@ -9054,11 +9062,14 @@ RILEY
     <STAR Name="DUBO1K" Airport="NZTU" Runways="20">
       <Route Runway="20">DUBON/MOVBO/ANGAX/IDKOV/LUVAB</Route>
     </STAR>
-    <STAR Name="ELDA1J" Airport="NZTU" Runways="02">
+    <STAR Name="ELDA2J" Airport="NZTU" Runways="02">
       <Route Runway="02">ELDAK/BIDNI/DOPOP</Route>
     </STAR>
-    <STAR Name="ELDA1K" Airport="NZTU" Runways="20">
+    <STAR Name="ELDA2K" Airport="NZTU" Runways="20">
       <Route Runway="20">ELDAK/BIDNI</Route>
+    </STAR>
+    <STAR Name="ELDA1L" Airport="NZTU" Runways="20">
+      <Route Runway="20">ELDAK/SUNPA</Route>
     </STAR>
     <STAR Name="MAMU2J" Airport="NZTU" Runways="02">
       <Route Runway="02">MAMUS/TU411/DOPOP</Route>
@@ -9574,7 +9585,7 @@ RILEY
       <Route>OKERE/BONLI/TUSGA/-380601.598+1761913.238</Route>
     </Approach>
     <Approach Name="RNP-ARY" Airport="NZRO" Runway="36">
-      <Route>TOTRA/ADKAG/SEKBU/RO366/RO364/-380655.750+1761841.170</Route>
+      <Route>TOTRA/ADKAG/SEKBU/RO636/RO767/-380655.750+1761841.170</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZTG" Runway="07">
       <Transition Name="MORTA">MORTA</Transition>
