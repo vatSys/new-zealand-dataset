@@ -9184,7 +9184,7 @@ RILEY
       <Route Runway="25">OLDON/LINPI/TODAN</Route>
     </STAR>
     <STAR Name="OLDO1D" Airport="NZTG" Runways="07">
-      <Route Runway="07">OLDON/MEZZO/MORTA</Route>
+      <Route Runway="07">OLDON/UKMIT/MORTA</Route>
     </STAR>
     <STAR Name="OROP2A" Airport="NZTG" Runways="07">
       <Route Runway="07">OROPI/MORTA</Route>

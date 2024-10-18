@@ -71,7 +71,7 @@
     </Line>
     <Line>
       <!--Rwy07 OLDO1D-->
-      OLDON/MEZZO/MORTA
+      OLDON/UKMIT/MORTA
     </Line>
     <Line>
       <!--Rwy07 OROP2A-->
@@ -96,7 +96,7 @@
       <Point>VIDOB</Point>
       <Point>GOBUK</Point>
       <Point>OLDON</Point>
-      <Point>MEZZO</Point>
+      <Point>UKMIT</Point>
       <Point>OROPI</Point>
       <Point>PIBOV</Point>
       <Point>TODAN</Point>
