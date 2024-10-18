@@ -81,7 +81,6 @@
   <Sector FullName="Gisborne Tower" Frequency="127.300" Callsign="NZGS_TWR" Name="TGS">
     <Volumes>TGS</Volumes>
   </Sector>
-  <Sector FullName="Hamilton Delivery" Frequency="122.900" Callsign="NZHN_DEL" Name="DHN" DisplayInHandoffWindow="False" />
   <Sector FullName="Hamilton Tower" Frequency="126.800" Callsign="NZHN_TWR" Name="THN" DisplayInHandoffWindow="False" />
   <Sector FullName="Invercargill Tower" Frequency="118.500" Callsign="NZNV_TWR" Name="TNV">
     <Volumes>TNV</Volumes>
