@@ -29,7 +29,7 @@
     <Line Name="CHTU3" Pattern="Broken">IVRON/ELDAK/BUDPA/TU NDB</Line>
     <Line Name="CHWF2" Pattern="Broken">GUPUT/SUNAR/UPNIX/ELRUV</Line>
     <Line Name="CHWN1" Pattern="Broken">GRETA/LUXEV/KAKUR/WARDS/OMDOX/WN VOR</Line>
-    <Line Name="CHWN9" Pattern="Broken">MANUI/GOOSE/ONOLA/WAIMA/OMDOX/WN VOR</Line>
+    <Line Name="CHWN7" Pattern="Broken">MANUI/IDGIV/ONOLA/WAIMA/OMDOX/WN VOR</Line>
     <Line Name="CHWP1" Pattern="Broken">GLENN/GULOV/IGUTA/AKAVI/OMKUN/LEBOX/POKOM/DAVEE/BROOK/AA VOR/WP VOR</Line>
     <Line Name="CHWP6" Pattern="Broken">PORAM/RIVTA/GULOV/IGUTA/AKAVI/OMKUN/ZUKKY/DADUK/AKDOL/PEPPE/IGABI/AA VOR/WP VOR</Line>
     <Line Name="CHWB1" Pattern="Broken">ODOWD/GOGUK/SAMEN/ELPIT/WB VOR</Line>
@@ -55,7 +55,7 @@
       <Point Name="NR2 OH3 PM3 RO2">GRETA</Point>
       <Point Name="NR4 OH5 PM5 PP2">ODOWD</Point>
       <Point Name="TU3">IVRON</Point>
-      <Point Name="WN9">MANUI</Point>
+      <Point Name="WN7">MANUI</Point>
     </Label>
     <Label LabelOrientation="SE" VerticalAlignment="Bottom">
       <Point Name="NP1 WP6">PORAM</Point>
