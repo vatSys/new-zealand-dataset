@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Group Name="Enroute">
     <Position Name="Taranaki" Type="ASD" DefaultCenter="-403738.000+1734050.000" DefaultRange="500" MagneticVariation="-21">
       <Sectors>
@@ -214,8 +215,8 @@
       </ControllerInfo>
     </Position>
   </Group>
-  <Group Name="ACU">
-    <Position Name="Auckland ACU" Type="ASD" DefaultCenter="-370020.413+1744725.105" DefaultRange="300" MagneticVariation="-21">
+  <Group Name="TMA">
+    <Position Name="Auckland TMA" Type="ASD" DefaultCenter="-370020.413+1744725.105" DefaultRange="300" MagneticVariation="-21">
       <Sectors>
         <Sector Name="ATMA" />
         <Sector Name="ADEP" />
@@ -273,7 +274,7 @@
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Wellington ACU" Type="ASD" DefaultCenter="-411937.999+1744819.001" DefaultRange="300" MagneticVariation="-21">
+    <Position Name="Wellington TMA" Type="ASD" DefaultCenter="-411937.999+1744819.001" DefaultRange="300" MagneticVariation="-21">
       <Sectors>
         <Sector Name="WTMA" />
         <Sector Name="WDEP" />
@@ -332,7 +333,7 @@
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Christchurch ACU" Type="ASD" DefaultCenter="-432909.351+1723216.287" DefaultRange="300" MagneticVariation="-21">
+    <Position Name="Christchurch TMA" Type="ASD" DefaultCenter="-432909.351+1723216.287" DefaultRange="300" MagneticVariation="-21">
       <Sectors>
         <Sector Name="CTMA" />
         <Sector Name="CDEP" />
@@ -383,7 +384,7 @@
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Queenstown ACU" Type="ASD" DefaultCenter="-450124.250+1684456.277" DefaultRange="300" MagneticVariation="-21">
+    <Position Name="Queenstown TMA" Type="ASD" DefaultCenter="-450124.250+1684456.277" DefaultRange="300" MagneticVariation="-21">
       <Sectors>
         <Sector Name="QTMA" />
       </Sectors>
@@ -427,7 +428,7 @@
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Hamilton ACU" Type="ASD" DefaultCenter="-375159.980+1751955.402" DefaultRange="160" MagneticVariation="-21">
+    <Position Name="Hamilton TMA" Type="ASD" DefaultCenter="-375159.980+1751955.402" DefaultRange="160" MagneticVariation="-21">
       <Sectors>
         <Sector Name="HTMA" />
       </Sectors>
@@ -466,7 +467,7 @@
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Ohakea ACU" Type="ASD" DefaultCenter="-401229.628+1752314.936" DefaultRange="200" MagneticVariation="-21">
+    <Position Name="Ohakea TMA" Type="ASD" DefaultCenter="-401229.628+1752314.936" DefaultRange="200" MagneticVariation="-21">
       <Sectors>
         <Sector Name="OTMA" />
       </Sectors>
