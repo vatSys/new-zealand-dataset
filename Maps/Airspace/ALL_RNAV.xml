@@ -29,8 +29,8 @@
       <Point>RIPPA</Point>
       <Point>TEGIK</Point>
       <Point>TUSLO</Point>
-      <Point>LAMEL</Point>
-      <Point>DUNAD</Point>
+      <Point>OLDUR</Point>
+      <Point>AKROV</Point>
       <Point>PORAR</Point>
       <Point>NOKAM</Point>
       <Point>PEBVI</Point>
@@ -63,15 +63,16 @@
       <Point>AA516</Point>
       <Point>SUBUN</Point>
       <Point>AA513</Point>
+      <Point>ADLIB</Point>
       <Point>SADOS</Point>
       <Point>QUINA</Point>
-      <Point>NIPAS</Point>
-      <Point>IBOKI</Point>
-      <Point>LOSGA</Point>
+      <Point>LEPGO</Point>
+      <Point>ELBAD</Point>
+      <Point>SAMUR</Point>
       <Point>LAGUT</Point>
       <Point>GOBOB</Point>
       <Point>ESMON</Point>
-      <Point>AKROV</Point>
+      <Point>DUNAD</Point>
       <Point>AA509</Point>
       <Point>LURLU</Point>
       <Point>AA409</Point>
@@ -170,8 +171,8 @@
     <Symbol Type="MalteseCross">
       <Point>TEGIK</Point>
       <Point>TUSLO</Point>
-      <Point>LAMEL</Point>
-      <Point>DUNAD</Point>
+      <Point>OLDUR</Point>
+      <Point>AKROV</Point>
       <Point>PORAR</Point>
       <Point>NOKAM</Point>
       <Point>PEBVI</Point>
@@ -201,8 +202,8 @@
     <Line Pattern="Solid">ZORBA/AA411/AA407</Line>
     <Line Pattern="Solid">VABTI/AA521/AA428/AA516/TUSLO/-370023.962+1744820.671</Line>
     <Line Pattern="Solid">TEVUC/SUBUN/AA513/AA412</Line>
-    <Line Pattern="Solid">VIRIS/SADOS/QUINA/NIPAS/LAMEL/IBOKI/-370058.741+1744614.819</Line>
-    <Line Pattern="Solid">KIDAG/LOSGA/LAGUT/GOBOB/ESMON/AKROV/DUNAD/-370023.962+1744820.671</Line>
+    <Line Pattern="Solid">VIRIS/ADLIB/SADOS/QUINA/LEPGO/OLDUR/ELBAD/-370058.741+1744614.819</Line>
+    <Line Pattern="Solid">KIDAG/SAMUR/LAGUT/GOBOB/ESMON/AKROV/DUNAD/-370023.962+1744820.671</Line>
     <Line Pattern="Solid">ATAMA/PORAR/AA509/-370058.741+1744614.819</Line>
     <Line Pattern="Solid">ESNAX/NOKAM/LURLU/AA409/-370023.962+1744820.671</Line>
     <Line Pattern="Solid">ERVAX/CH832/CH793/CH755/PEBVI/BEKTI/-432951.472+1723119.610</Line>
@@ -287,8 +288,12 @@
       <Point>NR VOR</Point>
       <Point>KABUV</Point>
       <Point>LUPDO</Point>
-      <Point>OTAHA</Point>
-      <Point>OPARE</Point>
+      <Point>DUKEG</Point>
+      <Point>KALVA</Point>
+      <Point>MAVNU</Point>
+      <Point>ESMAV</Point>
+      <Point>POLAB</Point>
+      <Point>SAMKU</Point>
       <Point>APIGO</Point>
       <Point>UBRAV</Point>
       <Point>UXOMA</Point>
@@ -452,6 +457,8 @@
       <Point>ISPOT</Point>
       <Point>IKERI</Point>
       <Point>UPGEK</Point>
+      <Point>OLPIM</Point>
+      <Point>IVRIP</Point>
       <Point>UGTER</Point>
       <Point>DAKTA</Point>
       <Point>EMVAN</Point>
@@ -530,8 +537,6 @@
       <Point>GT403</Point>
       <Point>AVBUL</Point>
       <Point>EMVES</Point>
-      <Point>-35.244333+173.907978</Point>
-      <Point>-35.270886+173.916278</Point>
       <Point>KT401</Point>
       <Point>KT501</Point>
       <Point>-36.667425+174.640756</Point>
@@ -610,8 +615,12 @@
       <Point>NR VOR</Point>
       <Point>KABUV</Point>
       <Point>LUPDO</Point>
-      <Point>OTAHA</Point>
-      <Point>OPARE</Point>
+      <Point>DUKEG</Point>
+      <Point>KALVA</Point>
+      <Point>MAVNU</Point>
+      <Point>ESMAV</Point>
+      <Point>POLAB</Point>
+      <Point>SAMKU</Point>
       <Point>APIGO</Point>
       <Point>UBRAV</Point>
       <Point>UXOMA</Point>
@@ -778,8 +787,8 @@
       <Point>ISPOT</Point>
       <Point>IKERI</Point>
       <Point>UPGEK</Point>
-      <Point>-35.171564+173.885264</Point>
-      <Point>-35.343650+173.939047</Point>
+      <Point>OLPIM</Point>
+      <Point>IVRIP</Point>
       <Point>UGTER</Point>
       <Point>DAKTA</Point>
       <Point>EMVAN</Point>
@@ -915,8 +924,12 @@
     <Line Pattern="Solid">KABUV/OREVU</Line>
     <Line Pattern="Solid">LUPDO/OREVU</Line>
     <Line Pattern="Solid">HT405/-435206.740+1690228.781</Line>
-    <Line Pattern="Solid">OTAHA/-35.171564+173.885264/-35.244333+173.907978/-351508.701+1735437.822</Line>
-    <Line Pattern="Solid">OPARE/-35.343650+173.939047/-35.270886+173.916278/-351546.091+1735449.500</Line>
+    <Line Pattern="Solid">DUKEG/OLPIM/-351508.701+1735437.822</Line>
+    <Line Pattern="Solid">KALVA/DUKEG</Line>
+    <Line Pattern="Solid">MAVNU/DUKEG</Line>
+    <Line Pattern="Solid">ESMAV/IVRIP/-351546.091+1735449.500</Line>
+    <Line Pattern="Solid">POLAB/ESMAV</Line>
+    <Line Pattern="Solid">SAMKU/ESMAV</Line>
     <Line Pattern="Solid">APIGO/UGTER/KM412/-411427.010+1720611.671</Line>
     <Line Pattern="Solid">UBRAV/APIGO</Line>
     <Line Pattern="Solid">UXOMA/APIGO</Line>

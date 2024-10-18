@@ -10,12 +10,16 @@
       -35.284800+173.920720/SF NDB
     </Line>
     <Line Pattern="Dashed">
+      <!--Rwy15 OBKO1P-->
+      KK33T/-35.316520+173.930040/SAKIM/OBKOP
+    </Line>
+    <Line Pattern="Dashed">
       <!--Rwy15 PAKAR2-->
       -35.284800+173.920720/KOPPA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy15 UKAP2A-->
-      -35.262803+173.913750/KK15T/-35.284800+173.920720/UKAPA
+      <!--Rwy15 UPGA1P-->
+      -35.316520+173.930040/KK412/URGAR/UPGAM
     </Line>
     <Symbol Type="Circle">
       <Point>SF NDB</Point>
@@ -23,37 +27,73 @@
     <Symbol Type="HollowTriangle">
       <Point>KK33T</Point>
       <Point>KAROA</Point>
+      <Point>SAKIM</Point>
+      <Point>OBKOP</Point>
       <Point>KOPPA</Point>
-      <Point>KK15T</Point>
-      <Point>UKAPA</Point>
+      <Point>KK412</Point>
+      <Point>URGAR</Point>
+      <Point>UPGAM</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>KAROA</Point>
       <Point>SF NDB</Point>
+      <Point>OBKOP</Point>
       <Point>KOPPA</Point>
-      <Point>UKAPA</Point>
+      <Point>UPGAM</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="15 STARs" Priority="1" CustomColourName="ProcArr" Center="-35.252417+173.910506">
+    <Line>
+      <!--Rwy15 SAKI1A-->
+      SAKIM/KK NDB/KK611/KALVA
+    </Line>
+    <Line>
+      <!--Rwy15 URGA1A-->
+      URGAR/KK527/KALVA
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>KALVA</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>KK NDB</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>SAKIM</Point>
+      <Point>KK611</Point>
+      <Point>URGAR</Point>
+      <Point>KK527</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>SAKIM</Point>
+      <Point>URGAR</Point>
+      <Point>KALVA</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="15 RNP" Priority="1" Center="-35.252417+173.910506" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>-35.244333+173.907978</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
-      <Point>OTAHA</Point>
+      <Point>DUKEG</Point>
+      <Point>KALVA</Point>
+      <Point>MAVNU</Point>
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>-35.171564+173.885264</Point>
+      <Point>OLPIM</Point>
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">OTAHA/-35.171564+173.885264/-35.244333+173.907978/-351508.701+1735437.822</Line>
+    <Line Pattern="Solid">DUKEG/OLPIM/-351508.701+1735437.822</Line>
+    <Line Pattern="Solid">KALVA/DUKEG</Line>
+    <Line Pattern="Solid">MAVNU/DUKEG</Line>
   </Map>
   <Map Type="System2" Name="15 RNP Labels" Priority="1" Center="-35.252417+173.910506" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>OTAHA</Point>
+      <Point>DUKEG</Point>
+      <Point>KALVA</Point>
+      <Point>MAVNU</Point>
+      <Point>OLPIM</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="33 SIDs" Priority="1" CustomColourName="ProcDep" Center="-35.252417+173.910506">
@@ -70,8 +110,12 @@
       -35.230180+173.903640/SF NDB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy33 UKAP1B-->
-      -35.230180+173.903640/-35.257880+173.934040/UKAPA
+      <!--Rwy33 OBKO1Q-->
+      KK15T/-35.187280+173.890430/KK726/KK877/SAKIM/OBKOP
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy33 UPGA1Q-->
+      -35.187280+173.890430/KK738/NUKBI/URGAR/UPGAM
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy33 WAIHU2-->
@@ -83,36 +127,81 @@
     <Symbol Type="HollowTriangle">
       <Point>KK15T</Point>
       <Point>KOPPA</Point>
-      <Point>UKAPA</Point>
+      <Point>KK726</Point>
+      <Point>KK877</Point>
+      <Point>SAKIM</Point>
+      <Point>OBKOP</Point>
+      <Point>KK738</Point>
+      <Point>NUKBI</Point>
+      <Point>URGAR</Point>
+      <Point>UPGAM</Point>
       <Point>KAROA</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>UKAPA</Point>
+      <Point>OBKOP</Point>
+      <Point>UPGAM</Point>
       <Point>KAROA</Point>
       <Point>KOPPA</Point>
       <Point>SF NDB</Point>
     </Label>
   </Map>
+  <Map Type="System2" Name="33 STARs" Priority="1" CustomColourName="ProcArr" Center="-35.262803+173.913750">
+    <Line>
+      <!--Rwy33 DUKE1B-->
+      DUKEG/KK388/SAMKU
+    </Line>
+    <Line>
+      <!--Rwy33 SAKI1B-->
+      SAKIM/VEDNA/ESMAV
+    </Line>
+    <Line>
+      <!--Rwy33 URGA1B-->
+      URGAR/VEDNA
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>SAMKU</Point>
+      <Point>ESMAV</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>DUKEG</Point>
+      <Point>KK388</Point>
+      <Point>SAKIM</Point>
+      <Point>VEDNA</Point>
+      <Point>URGAR</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>DUKEG</Point>
+      <Point>SAKIM</Point>
+      <Point>URGAR</Point>
+      <Point>SAMKU</Point>
+      <Point>ESMAV</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="33 RNP" Priority="1" Center="-35.262803+173.913750" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>-35.270886+173.916278</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
-      <Point>OPARE</Point>
+      <Point>ESMAV</Point>
+      <Point>POLAB</Point>
+      <Point>SAMKU</Point>
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>-35.343650+173.939047</Point>
+      <Point>IVRIP</Point>
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">OPARE/-35.343650+173.939047/-35.270886+173.916278/-351546.091+1735449.500</Line>
+    <Line Pattern="Solid">ESMAV/IVRIP/-351546.091+1735449.500</Line>
+    <Line Pattern="Solid">POLAB/ESMAV</Line>
+    <Line Pattern="Solid">SAMKU/ESMAV</Line>
   </Map>
   <Map Type="System2" Name="33 RNP Labels" Priority="1" Center="-35.262803+173.913750" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>OPARE</Point>
+      <Point>ESMAV</Point>
+      <Point>POLAB</Point>
+      <Point>SAMKU</Point>
+      <Point>IVRIP</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-35.262778+173.911944">

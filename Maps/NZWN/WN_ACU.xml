@@ -889,7 +889,7 @@
       <Point Name="16-TURA-DEP">-41.355940+174.804000</Point>
       <Point Name="34-KELB-DEP">-41.295220+174.809140</Point>
       <Point Name="34-SINCLAR-DEP">-41.295220+174.809140</Point>
-      <Point Name="34-TURA-DEP">-41.295220+174.809140</Point>
+      <Point Name="34-TURAKIRAE-DEP">-41.295220+174.809140</Point>
       <Point Name="34-WEST-DEP">-41.295220+174.809140</Point>
     </Label>
     <!--16-EAST-ARR-->
@@ -936,13 +936,13 @@
     <Line Pattern="Dotted">
       -41.295220+174.809140/OBSERVATORY/ISLAND BAY/SINCLAIR HEAD
     </Line>
-    <!--34-TURA-DEP-->
-    <Line Pattern="Dotted">
-      -41.295220+174.809140/POINT GORDON/WARD ISLAND/PENCARROW/BARING/TURAKIRAE
-    </Line>
     <!--34-TURAKIRAE-ARR-->
     <Line Pattern="Dotted">
       TURAKIRAE/BARING/PENCARROW
+    </Line>
+    <!--34-TURAKIRAE-DEP-->
+    <Line Pattern="Dotted">
+      -41.295220+174.809140/POINT GORDON/WARD ISLAND/PENCARROW/BARING/TURAKIRAE
     </Line>
     <!--34-WEST-DEP-->
     <Line Pattern="Dotted">

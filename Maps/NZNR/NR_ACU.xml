@@ -376,4 +376,45 @@
       <Point Name="WHIRINAKI">-392238.100+1765316.300</Point>
     </Label>
   </Map>
+  <Map Type="System2" Name="VFRProc" Priority="1" CustomColourName="VFRPoint" Center="-39.465833+176.870000">
+    <Label HasLeader="true" LabelOrientation="NW">
+      <Point Name="16CITY_DEP">NR34T</Point>
+      <Point Name="34CITY_DEP">NR16T</Point>
+      <Point Name="ESKDALE_ARR">-39.333770+176.671810</Point>
+      <Point Name="PORAITI_ARR">-39.535290+176.661000</Point>
+      <Point Name="SEAPORT_ARR">-39.649060+176.977370</Point>
+    </Label>
+    <Label HasLeader="true" LabelOrientation="SE">
+      <Point Name="16WEST_DEP">NR34T</Point>
+      <Point Name="34WEST_DEP">NR16T</Point>
+    </Label>
+    <!--16CITY_DEP-->
+    <Line Pattern="Dotted">
+      NR34T/AWATOTO/HAUMOANA
+    </Line>
+    <!--16WEST_DEP-->
+    <Line Pattern="Dotted">
+      NR34T/PUKETAPU/-39.535290+176.661000
+    </Line>
+    <!--34CITY_DEP-->
+    <Line Pattern="Dotted">
+      NR16T/SEAPORT/AWATOTO/HAUMOANA
+    </Line>
+    <!--34WEST_DEP-->
+    <Line Pattern="Dotted">
+      NR16T/RISSINGTON
+    </Line>
+    <!--ESKDALE_ARR-->
+    <Line Pattern="Dotted">
+      -39.333770+176.671810/-39.419490+176.805020
+    </Line>
+    <!--PORAITI_ARR-->
+    <Line Pattern="Dotted">
+      -39.535290+176.661000/-39.503250+176.828190
+    </Line>
+    <!--SEAPORT_ARR-->
+    <Line Pattern="Dotted">
+      -39.649060+176.977370/-39.473440+176.948350
+    </Line>
+  </Map>
 </Maps>

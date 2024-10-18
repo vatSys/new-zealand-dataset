@@ -176,45 +176,45 @@
       AVOCA/BISUP/CH414/UBDAN
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy02 BELE6A.KABKA-->
+      <!--Rwy02 BELE7A.KABKA-->
       KABKA/BELEE
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy02 BELE6A.OSOLO-->
+      <!--Rwy02 BELE7A.OSOLO-->
       OSOLO/BELEE
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy02 BELE6A.VANDA-->
+      <!--Rwy02 BELE7A.VANDA-->
       VANDA/BELEE
     </Line>
     <Line>
-      <!--Rwy02 BELE6A-->
+      <!--Rwy02 BELE7A-->
       BELEE/AVOCA/CH426/UGEKI/IDUBU
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy02 BELE4E.KABKA-->
+      <!--Rwy02 BELE5E.KABKA-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy02 BELE4E.OSOLO-->
+      <!--Rwy02 BELE5E.OSOLO-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy02 BELE4E.VANDA-->
+      <!--Rwy02 BELE5E.VANDA-->
     </Line>
     <Line>
-      <!--Rwy02 BELE4E-->
+      <!--Rwy02 BELE5E-->
       CH414/LEVGO
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy02 BELE1J.KABKA-->
+      <!--Rwy02 BELE2J.KABKA-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy02 BELE1J.OSOLO-->
+      <!--Rwy02 BELE2J.OSOLO-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy02 BELE1J.VANDA-->
+      <!--Rwy02 BELE2J.VANDA-->
     </Line>
     <Line>
-      <!--Rwy02 BELE1J-->
+      <!--Rwy02 BELE2J-->
     </Line>
     <Line>
       <!--Rwy02 ELDA1C-->
@@ -544,45 +544,45 @@
       AVOCA/RIVPI/CH422/OBDOR/ODISI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy20 BELE6B.KABKA-->
+      <!--Rwy20 BELE7B.KABKA-->
       KABKA/BELEE
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy20 BELE6B.OSOLO-->
+      <!--Rwy20 BELE7B.OSOLO-->
       OSOLO/BELEE
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy20 BELE6B.VANDA-->
+      <!--Rwy20 BELE7B.VANDA-->
       VANDA/BELEE
     </Line>
     <Line>
-      <!--Rwy20 BELE6B-->
+      <!--Rwy20 BELE7B-->
       BELEE/AVOCA
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy20 BELE4F.KABKA-->
+      <!--Rwy20 BELE5F.KABKA-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy20 BELE4F.OSOLO-->
+      <!--Rwy20 BELE5F.OSOLO-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy20 BELE4F.VANDA-->
+      <!--Rwy20 BELE5F.VANDA-->
     </Line>
     <Line>
-      <!--Rwy20 BELE4F-->
+      <!--Rwy20 BELE5F-->
       RIVPI/CH511/CH406/SUSAL
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy20 BELE1K.KABKA-->
+      <!--Rwy20 BELE2K.KABKA-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy20 BELE1K.OSOLO-->
+      <!--Rwy20 BELE2K.OSOLO-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy20 BELE1K.VANDA-->
+      <!--Rwy20 BELE2K.VANDA-->
     </Line>
     <Line>
-      <!--Rwy20 BELE1K-->
+      <!--Rwy20 BELE2K-->
       CH406/IDRUX/DIVSU
     </Line>
     <Line Pattern="Solid">
@@ -857,23 +857,23 @@
       MESIX/KABGO/GUKAM/LATIP/PABRA/AVDID
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy11 UPVE1D.IGEGA-->
+      <!--Rwy11 UPVE2D.IGEGA-->
       IGEGA/UPVES
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy11 UPVE1D.IPRAK-->
+      <!--Rwy11 UPVE2D.IPRAK-->
       IPRAK/UPVES
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy11 UPVE1D.KABKA-->
+      <!--Rwy11 UPVE2D.KABKA-->
       KABKA/NURNI/SAVKU/UPVES
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy11 UPVE1D.OSOLO-->
+      <!--Rwy11 UPVE2D.OSOLO-->
       OSOLO/BELEE/AVOCA/SAVKU
     </Line>
     <Line>
-      <!--Rwy11 UPVE1D-->
+      <!--Rwy11 UPVE2D-->
       UPVES/TARUM/IGLIS
     </Line>
     <Symbol Type="HollowTriangle">
@@ -1089,19 +1089,19 @@
       AKAMO/IDUBU/SUPSO
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy29 BELE7G.KABKA-->
+      <!--Rwy29 BELE8G.KABKA-->
       KABKA/BELEE
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy29 BELE7G.OSOLO-->
+      <!--Rwy29 BELE8G.OSOLO-->
       OSOLO/BELEE
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy29 BELE7G.VANDA-->
+      <!--Rwy29 BELE8G.VANDA-->
       VANDA/BELEE
     </Line>
     <Line>
-      <!--Rwy29 BELE7G-->
+      <!--Rwy29 BELE8G-->
       BELEE/AVOCA/BISUP/UGEKI/IDUBU
     </Line>
     <Line Pattern="Solid">
