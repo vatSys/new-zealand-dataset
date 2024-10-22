@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Profile Name="New Zealand" FullName="Lockheed Martin SkyLine NZZC">
+<Profile Name="New Zealand" FullName="VATNZ Domestic (NZZC)">
 	<Version AIRAC="2412" Revision="a" PublishDate="20241128" UpdateURL="https://vatsys.sawbe.com/downloads/data/New%20Zealand/" />
 	<Servers>
 		<VATSIMStatus url="https://status.vatsim.net/" />
