@@ -111,11 +111,15 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy33 OBKO1Q-->
-      KK15T/-35.187280+173.890430/KK726/KK877/SAKIM/OBKOP
+      KK15T/-35.187280+173.890430/KK738/NUKBI/VEDNA/SAKIM/OBKOP
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy33 OBKO1R-->
+      -35.187280+173.890430/KK726/KK877/SAKIM
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy33 UPGA1Q-->
-      -35.187280+173.890430/KK738/NUKBI/URGAR/UPGAM
+      NUKBI/URGAR/UPGAM
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy33 WAIHU2-->
@@ -127,12 +131,13 @@
     <Symbol Type="HollowTriangle">
       <Point>KK15T</Point>
       <Point>KOPPA</Point>
-      <Point>KK726</Point>
-      <Point>KK877</Point>
-      <Point>SAKIM</Point>
-      <Point>OBKOP</Point>
       <Point>KK738</Point>
       <Point>NUKBI</Point>
+      <Point>VEDNA</Point>
+      <Point>SAKIM</Point>
+      <Point>OBKOP</Point>
+      <Point>KK726</Point>
+      <Point>KK877</Point>
       <Point>URGAR</Point>
       <Point>UPGAM</Point>
       <Point>KAROA</Point>

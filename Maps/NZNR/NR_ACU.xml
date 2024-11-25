@@ -254,7 +254,7 @@
     </Line>
     <Line>
       <!--Rwy34 NR1E-->
-      NR VOR/-39.585230+177.002440/-39.615400+176.921890/AKINA
+      NR VOR/-39.585230+177.002440/-39.615400+176.921890/SANON
     </Line>
     <Line Pattern="Solid">
       <!--Rwy34 PANI2B.POTEX-->
@@ -267,7 +267,7 @@
     <Symbol Type="HollowTriangle">
       <Point>VETAB</Point>
       <Point>EPGUM</Point>
-      <Point>AKINA</Point>
+      <Point>SANON</Point>
     </Symbol>
     <Symbol Type="Circle">
       <Point>NR VOR</Point>
@@ -293,7 +293,7 @@
       <Point>POTEX</Point>
       <Point>VETAB</Point>
       <Point>EPGUM</Point>
-      <Point>AKINA</Point>
+      <Point>SANON</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="34 RNP" Priority="1" Center="-39.477694+176.866311" CustomColourName="ProcArr">
