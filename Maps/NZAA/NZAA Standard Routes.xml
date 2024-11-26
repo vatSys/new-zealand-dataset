@@ -27,7 +27,7 @@
     <Line Name="AAAP1" Pattern="Broken">ORIDI/URKAS/HN VOR/KARBA/GOSTI/AP NDB</Line>
     <Line Name="AATG1" Pattern="Broken">TULMI/URBUX/TG NDB</Line>
     <Line Name="AAWU2" Pattern="Broken">ORIDI/URKAS/HN VOR/DROPT/POURO/TM NDB/ADRAD/TENUR/WU NDB</Line>
-    <Line Name="AAWN3" Pattern="Broken">IGBAT/SILVO/TPAPA/WN VOR</Line>
+    <Line Name="AAWN2" Pattern="Broken">IGBAT/SILVO/TPAPA/WN VOR</Line>
     <Line Name="AAWK3" Pattern="Broken">TULMI/URBUX/TG NDB/PIBOV/WK NDB</Line>
     <Line Name="AAWR3-23L" Pattern="Broken">KOPPA/SF NDB</Line>
     <Line Name="AAWR3-05R" Pattern="Broken">PUHOI/SF NDB</Line>
@@ -55,7 +55,7 @@
       <Point Name="WR3-05R">PUHOI</Point>
     </Label>
     <Label LabelOrientation="SE" VerticalAlignment="Bottom">
-      <Point Name="PP1 WN3 WB3">IGBAT</Point>
+      <Point Name="PP1 WN2 WB3">IGBAT</Point>
       <Point Name="QN4">KAPAI</Point>
       <Point Name="WK3">TULMI</Point>
       <Point Name="PM5 AP1 WU2">ORIDI</Point>
