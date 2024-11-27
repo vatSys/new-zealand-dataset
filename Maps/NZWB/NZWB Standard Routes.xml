@@ -2,7 +2,7 @@
 <Maps>
   <Map Type="System2" Name="NZWB Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
     <Line Name="WBAA1" Pattern="Broken">IPMIR/SWUTH/AKAVI/OMKUN/ZUKKY/DADUK/AKDOL/PEPPE/IGABI/AA VOR</Line>
-    <Line Name="WBCH3" Pattern="Broken">ELPIT/WAIMA/ONOLA/GOOSE/ATBUB/MESIX/CH VOR</Line>
+    <Line Name="WBCH3" Pattern="Broken">ELPIT/WAIMA/ONOLA/IDGIV/ATBUB/MESIX/CH VOR</Line>
     <Line Name="WBNS1" Pattern="Broken">LUBSI/NS VOR</Line>
     <Line Name="WBOH3" Pattern="Broken">IPMIR/AVKEX/ENBAR/KAPTI/BINIT/FOXTN/OH VOR</Line>
     <Line Name="WBPM2" Pattern="Broken">IPMIR/AVKEX/ENBAR/KAPTI/SAKBA/PM VOR</Line>

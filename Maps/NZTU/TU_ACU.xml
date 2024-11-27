@@ -2,91 +2,32 @@
 <Maps>
   <Map Type="System2" Name="02 SIDs" Priority="1" CustomColourName="ProcDep" Center="-44.294633+171.231261">
     <Line Pattern="Dashed">
-      <!--Rwy02 BIDN2P-->
-      -44.294633+171.231261/TU20T/-44.278194+171.251250/BIDNI
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy02 BIDN2P.DUBON-->
-      BIDNI/DALUM/DUBON
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy02 BIDN2P.ELDAK-->
-      BIDNI/ELDAK
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy02 BIDN2P.MAMUS-->
-      DALUM/MAMUS
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy02 BIDN2P.OLGAL-->
-      BIDNI/ATSOK/DOPOP/OLGAL
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy02 BIDN2P.OMARU-->
-      ATSOK/OMARU
-    </Line>
-    <Line Pattern="Dashed">
       <!--Rwy02 ELDA1T-->
-      TU20T/SUNPA/ELDAK
+      -44.294633+171.231261/TU20T/SUNPA/ELDAK
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>TU20T</Point>
-      <Point>BIDNI</Point>
-      <Point>DALUM</Point>
-      <Point>DUBON</Point>
-      <Point>ELDAK</Point>
-      <Point>MAMUS</Point>
-      <Point>ATSOK</Point>
-      <Point>DOPOP</Point>
-      <Point>OLGAL</Point>
-      <Point>OMARU</Point>
       <Point>SUNPA</Point>
+      <Point>ELDAK</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>BIDNI</Point>
       <Point>ELDAK</Point>
-      <Point>DUBON</Point>
-      <Point>MAMUS</Point>
-      <Point>OLGAL</Point>
-      <Point>OMARU</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="02 STARs" Priority="1" CustomColourName="ProcArr" Center="-44.303272+171.220639">
     <Line>
-      <!--Rwy02 DUBO2J-->
-      DUBON/TU426/DOPOP
-    </Line>
-    <Line>
       <!--Rwy02 ELDA2J-->
       ELDAK/BIDNI/DOPOP
-    </Line>
-    <Line>
-      <!--Rwy02 MAMU2J-->
-      MAMUS/TU411/DOPOP
-    </Line>
-    <Line>
-      <!--Rwy02 PORU2J-->
-      PORUT/TU537/TU479/DOPOP
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>DOPOP</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
-      <Point>DUBON</Point>
-      <Point>TU426</Point>
       <Point>ELDAK</Point>
       <Point>BIDNI</Point>
-      <Point>MAMUS</Point>
-      <Point>TU411</Point>
-      <Point>PORUT</Point>
-      <Point>TU537</Point>
-      <Point>TU479</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>DUBON</Point>
       <Point>ELDAK</Point>
-      <Point>MAMUS</Point>
-      <Point>PORUT</Point>
       <Point>DOPOP</Point>
     </Label>
   </Map>
@@ -168,10 +109,6 @@
       DOPOP/BIDNI
     </Line>
     <Line>
-      <!--Rwy20 DUBO1K-->
-      DUBON/MOVBO/ANGAX/IDKOV/LUVAB
-    </Line>
-    <Line>
       <!--Rwy20 ELDA2K-->
       ELDAK/BIDNI
     </Line>
@@ -179,39 +116,18 @@
       <!--Rwy20 ELDA1L-->
       ELDAK/SUNPA
     </Line>
-    <Line>
-      <!--Rwy20 MAMU1K-->
-      MAMUS/UGVAV/LUVAB
-    </Line>
-    <Line>
-      <!--Rwy20 PORU1K-->
-      PORUT/UPTAX/LUVAB
-    </Line>
     <Symbol Type="HollowTriangle">
       <Point>BIDNI</Point>
-      <Point>LUVAB</Point>
       <Point>SUNPA</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>DOPOP</Point>
-      <Point>DUBON</Point>
-      <Point>MOVBO</Point>
-      <Point>ANGAX</Point>
-      <Point>IDKOV</Point>
       <Point>ELDAK</Point>
-      <Point>MAMUS</Point>
-      <Point>UGVAV</Point>
-      <Point>PORUT</Point>
-      <Point>UPTAX</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>DOPOP</Point>
-      <Point>DUBON</Point>
       <Point>ELDAK</Point>
-      <Point>MAMUS</Point>
-      <Point>PORUT</Point>
       <Point>BIDNI</Point>
-      <Point>LUVAB</Point>
       <Point>SUNPA</Point>
     </Label>
   </Map>

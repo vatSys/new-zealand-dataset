@@ -805,6 +805,26 @@
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
+    <RestrictedArea Type="Danger" Name="D723 STOCKTON" AltitudeFloor="0" AltitudeCeiling="5000" DAIWEnabled="true" LinePattern="Dotted">
+      <Area>
+-413741.880+1715507.320/
+-413857.120+1715423.040/
+-414135.160+1715515.240/
+-414225.920+1715442.120/
+-414314.520+1715332.280/
+-414323.880+1715103.600/
+-414237.440+1714959.160/
+-414148.120+1714954.120/
+-413830.840+1715053.880/
+-413727.840+1715137.800/
+-413630.240+1715237.200/
+-413636.000+1715258.440/
+-413722.080+1715332.280/
+-413741.880+1715507.320</Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
+    </RestrictedArea>
     <RestrictedArea Type="Danger" Name="D820 MARUIA" AltitudeFloor="0" AltitudeCeiling="6500" DAIWEnabled="true" LinePattern="Dotted">
       <Area>
 -420856.900+1722003.500/

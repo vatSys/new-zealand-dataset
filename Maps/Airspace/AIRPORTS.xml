@@ -29,6 +29,7 @@
       <Point>NZDY</Point>
       <Point>NZES</Point>
       <Point>NZEV</Point>
+      <Point>NZFA</Point>
       <Point>NZFE</Point>
       <Point>NZFF</Point>
       <Point>NZFG</Point>
@@ -63,7 +64,6 @@
       <Point>NZJA</Point>
       <Point>NZJB</Point>
       <Point>NZJC</Point>
-      <Point>NZJD</Point>
       <Point>NZJE</Point>
       <Point>NZJF</Point>
       <Point>NZJG</Point>
@@ -177,6 +177,7 @@
       <Point>NZTG</Point>
       <Point>NZTH</Point>
       <Point>NZTI</Point>
+      <Point>NZTJ</Point>
       <Point>NZTK</Point>
       <Point>NZTL</Point>
       <Point>NZTM</Point>
@@ -249,6 +250,7 @@
       <Point Name="DY">NZDY</Point>
       <Point Name="ES">NZES</Point>
       <Point Name="EV">NZEV</Point>
+      <Point Name="FA">NZFA</Point>
       <Point Name="FE">NZFE</Point>
       <Point Name="FF">NZFF</Point>
       <Point Name="FG">NZFG</Point>
@@ -283,7 +285,6 @@
       <Point Name="JA">NZJA</Point>
       <Point Name="JB">NZJB</Point>
       <Point Name="JC">NZJC</Point>
-      <Point Name="JD">NZJD</Point>
       <Point Name="JE">NZJE</Point>
       <Point Name="JF">NZJF</Point>
       <Point Name="JG">NZJG</Point>
@@ -397,6 +398,7 @@
       <Point Name="TG">NZTG</Point>
       <Point Name="TH">NZTH</Point>
       <Point Name="TI">NZTI</Point>
+      <Point Name="TJ">NZTJ</Point>
       <Point Name="TK">NZTK</Point>
       <Point Name="TL">NZTL</Point>
       <Point Name="TM">NZTM</Point>

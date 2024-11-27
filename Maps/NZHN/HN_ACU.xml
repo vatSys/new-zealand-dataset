@@ -154,16 +154,16 @@
       <!--Rwy18L KICK3C-->
     </Line>
     <Line>
-      <!--Rwy18L LAKE3C-->
-      LAKES/VATNA
-    </Line>
-    <Line>
       <!--Rwy18L OLDO3A-->
       OLDON/NILUS
     </Line>
     <Line>
       <!--Rwy18L OLDO4C-->
       OLDON/TONID/NILUS
+    </Line>
+    <Line>
+      <!--Rwy18L ORID1C-->
+      ORIDI/VATNA
     </Line>
     <Line Pattern="Solid">
       <!--Rwy18L YOGI2A.DABKA-->
@@ -213,9 +213,9 @@
       <Point>DROPT</Point>
       <Point>GODOK</Point>
       <Point>KARBA</Point>
-      <Point>LAKES</Point>
       <Point>OLDON</Point>
       <Point>TONID</Point>
+      <Point>ORIDI</Point>
       <Point>DABKA</Point>
       <Point>BOLOG</Point>
       <Point>EKASO</Point>
@@ -229,8 +229,8 @@
       <Point>ATPUL</Point>
       <Point>BUDEN</Point>
       <Point>KICKE</Point>
-      <Point>LAKES</Point>
       <Point>OLDON</Point>
+      <Point>ORIDI</Point>
       <Point>YOGIT</Point>
       <Point>DROPT</Point>
       <Point>GODOK</Point>
@@ -452,39 +452,39 @@
       KICKE/EGORI/GUNDA
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy36R YOGI2B.ATPUL-->
+      <!--Rwy36R YOGI3B.ATPUL-->
       ATPUL/CHESE/YOGIT
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy36R YOGI2B.LAKES-->
-      LAKES/YOGIT
+      <!--Rwy36R YOGI3B.ORIDI-->
+      ORIDI/YOGIT
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy36R YOGI2B.POKOM-->
+      <!--Rwy36R YOGI3B.POKOM-->
       POKOM/YOGIT
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy36R YOGI2B.TAYLA-->
+      <!--Rwy36R YOGI3B.TAYLA-->
       TAYLA/CHESE
     </Line>
     <Line>
-      <!--Rwy36R YOGI2B-->
+      <!--Rwy36R YOGI3B-->
       YOGIT/DAIRY/BUDEN
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy36R YOGI2D.ATPUL-->
+      <!--Rwy36R YOGI3D.ATPUL-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy36R YOGI2D.LAKES-->
+      <!--Rwy36R YOGI3D.ORIDI-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy36R YOGI2D.POKOM-->
+      <!--Rwy36R YOGI3D.POKOM-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy36R YOGI2D.TAYLA-->
+      <!--Rwy36R YOGI3D.TAYLA-->
     </Line>
     <Line>
-      <!--Rwy36R YOGI2D-->
+      <!--Rwy36R YOGI3D-->
       YOGIT/BOLOG/GUNDA
     </Line>
     <Symbol Type="HollowTriangle">
@@ -510,7 +510,7 @@
       <Point>ATPUL</Point>
       <Point>CHESE</Point>
       <Point>YOGIT</Point>
-      <Point>LAKES</Point>
+      <Point>ORIDI</Point>
       <Point>POKOM</Point>
       <Point>TAYLA</Point>
       <Point>DAIRY</Point>
@@ -528,7 +528,7 @@
       <Point>HN VOR</Point>
       <Point>OLDON</Point>
       <Point>ATPUL</Point>
-      <Point>LAKES</Point>
+      <Point>ORIDI</Point>
       <Point>POKOM</Point>
       <Point>TAYLA</Point>
       <Point>BUDEN</Point>
@@ -631,6 +631,7 @@
       <Point Name="WAIPA SAWMILL">-381046.200+1761600.900</Point>
       <Point Name="WAITOA">-373554.700+1753754.200</Point>
       <Point Name="WELCOME BAY">-374327.600+1761126.700</Point>
+      <Point Name="WHAKATIWAI">-370528.700+1751811.400</Point>
       <Point Name="WHANGAMATA">-371253.500+1755230.700</Point>
     </Symbol>
     <Label HasLeader="true">
@@ -702,43 +703,44 @@
       <Point Name="WAIPA SAWMILL">-381046.200+1761600.900</Point>
       <Point Name="WAITOA">-373554.700+1753754.200</Point>
       <Point Name="WELCOME BAY">-374327.600+1761126.700</Point>
+      <Point Name="WHAKATIWAI">-370528.700+1751811.400</Point>
       <Point Name="WHANGAMATA">-371253.500+1755230.700</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRProc" Priority="1" CustomColourName="VFRPoint" Center="-37.866389+175.335278">
     <Label HasLeader="true" LabelOrientation="NW">
-      <Point Name="18EAST_DEP">HN36R</Point>
-      <Point Name="36EAST_DEP">HN18L</Point>
-      <Point Name="EAST_ARR">ST PETERS SCHOOL</Point>
-      <Point Name="WEST_ARR">TEMPLE VIEW</Point>
+      <Point Name="18-EAST_DEP">HN36R</Point>
+      <Point Name="1836-EAST_ARR">ST PETERS SCHOOL</Point>
+      <Point Name="1836-WEST_ARR">TEMPLE VIEW</Point>
+      <Point Name="36-EAST_DEP">HN18L</Point>
     </Label>
     <Label HasLeader="true" LabelOrientation="SE">
-      <Point Name="18WEST_DEP">HN36R</Point>
-      <Point Name="36WEST_DEP">HN18L</Point>
+      <Point Name="18-WEST_DEP">HN36R</Point>
+      <Point Name="36-WEST_DEP">HN18L</Point>
     </Label>
-    <!--18EAST_DEP-->
+    <!--18-EAST_DEP-->
     <Line Pattern="Dotted">
-      HN36R/-37.890290+175.323390/-37.908350+175.394040
+      HN36R/-37.885150+175.325590/-37.899380+175.388640
     </Line>
-    <!--18WEST_DEP-->
+    <!--18-WEST_DEP-->
     <Line Pattern="Dotted">
-      HN36R/-37.890290+175.323390/-37.874300+175.257710
+      HN36R/-37.885150+175.325590/-37.871870+175.265120
     </Line>
-    <!--36EAST_DEP-->
-    <Line Pattern="Dotted">
-      HN18L/-37.838870+175.341810/HAUTAPU
-    </Line>
-    <!--36WEST_DEP-->
-    <Line Pattern="Dotted">
-      HN18L/-37.838870+175.341810/TEMPLE VIEW
-    </Line>
-    <!--EAST_ARR-->
+    <!--1836-EAST_ARR-->
     <Line Pattern="Dotted">
       ST PETERS SCHOOL/MYSTERY CREEK
     </Line>
-    <!--WEST_ARR-->
+    <!--1836-WEST_ARR-->
     <Line Pattern="Dotted">
       TEMPLE VIEW/RUKUHIA
+    </Line>
+    <!--36-EAST_DEP-->
+    <Line Pattern="Dotted">
+      HN18L/-37.845410+175.339800/-37.859000+175.399800
+    </Line>
+    <!--36-WEST_DEP-->
+    <Line Pattern="Dotted">
+      HN18L/-37.845410+175.339800/-37.831480+175.278610
     </Line>
   </Map>
 </Maps>

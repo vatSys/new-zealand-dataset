@@ -6,24 +6,28 @@
       -36.785153+174.639053/WP03T/BAYES
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy03 BAYE1R-->
+      <!--Rwy03 BAYE2R-->
       -36.785153+174.639053/WP21T/BAYES
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy03 BAYE1R.AA-->
+      <!--Rwy03 BAYE2R.AA-->
       BAYES/AA VOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy03 BAYE1R.LAKES-->
-      BAYES/LAKES
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy03 BAYE1R.LUPRU-->
+      <!--Rwy03 BAYE2R.LUPRU-->
       BAYES/LUPRU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy03 BAYE1R.OMLEN-->
+      <!--Rwy03 BAYE2R.OMLEN-->
       BAYES/OMLEN
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy03 BAYE2R.ORIDI-->
+      BAYES/ORIDI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy03 NZWP1A-->
+      WP21T/-36.735310+174.721530
     </Line>
     <Symbol Type="Circle">
       <Point>AA VOR</Point>
@@ -32,16 +36,16 @@
       <Point>WP03T</Point>
       <Point>BAYES</Point>
       <Point>WP21T</Point>
-      <Point>LAKES</Point>
       <Point>LUPRU</Point>
       <Point>OMLEN</Point>
+      <Point>ORIDI</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>BAYES</Point>
       <Point>AA VOR</Point>
-      <Point>LAKES</Point>
       <Point>LUPRU</Point>
       <Point>OMLEN</Point>
+      <Point>ORIDI</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="03 STARs" Priority="1" CustomColourName="ProcArr" Center="-36.796181+174.620886">
@@ -198,6 +202,10 @@
   </Map>
   <Map Type="System2" Name="21 SIDs" Priority="1" CustomColourName="ProcDep" Center="-36.796181+174.620886">
     <Line Pattern="Dashed">
+      <!--Rwy21 NZWP1B-->
+      -36.796181+174.620886/NZWP/-36.847070+174.537870
+    </Line>
+    <Line Pattern="Dashed">
       <!--Rwy21 WYTA2A-->
       -36.796181+174.620886/WP21T/WYTAK
     </Line>
@@ -231,6 +239,7 @@
       <Point>AA VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>NZWP</Point>
       <Point>WP21T</Point>
       <Point>KAPAI</Point>
       <Point>LIMES</Point>
@@ -515,6 +524,7 @@
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-36.787769+174.630258">
     <Symbol Type="HollowSquare">
       <Point Name="ALBANY STADIUM">-364337.000+1744208.000</Point>
+      <Point Name="AMBURY PARK">-365654.000+1744558.000</Point>
       <Point Name="AVONDALE RACECOURSE">-365353.500+1744124.600</Point>
       <Point Name="BLOCKHOUSE BAY">-365533.600+1744224.700</Point>
       <Point Name="BREAMTAIL HEAD">-360253.500+1743500.700</Point>
@@ -541,6 +551,7 @@
       <Point Name="KINGSEAT">-370748.800+1744800.500</Point>
       <Point Name="LAKE PUPUKE">-364650.500+1744557.400</Point>
       <Point Name="LAKE WAIKARE">-372608.100+1751156.400</Point>
+      <Point Name="LITTLE CREEK">-365912.000+1744620.000</Point>
       <Point Name="LPG TERMINAL">-370212.520+1744941.310</Point>
       <Point Name="MANGAWHAI HEADS">-360523.500+1743500.700</Point>
       <Point Name="MANGERE BRIDGE">-365602.500+1744718.500</Point>
@@ -561,6 +572,7 @@
       <Point Name="PAPAKURA">-370403.500+1745649.700</Point>
       <Point Name="POINT CHEVALIER">-365104.000+1744212.700</Point>
       <Point Name="PUKETUTU ISLAND">-365750.500+1744429.600</Point>
+      <Point Name="QUARRY">-365941.300+1744451.300</Point>
       <Point Name="QUARRY LAKE">-371607.000+1750959.500</Point>
       <Point Name="RED HILL">-370402.000+1745857.000</Point>
       <Point Name="RED HORN">-363123.000+1742556.000</Point>
@@ -570,6 +582,7 @@
       <Point Name="TAIHIKI RIVER ESTUARY">-370955.500+1744728.600</Point>
       <Point Name="TAPU">-365858.500+1753006.400</Point>
       <Point Name="TE ATATU">-364929.500+1743857.600</Point>
+      <Point Name="THE MALL">-365949.600+1744807.400</Point>
       <Point Name="WAIMAUKU">-364546.500+1742931.600</Point>
       <Point Name="WAINUI SHED">-363548.000+1743459.000</Point>
       <Point Name="WAIROA RIVER MOUTH">-365715.000+1750430.000</Point>
@@ -578,10 +591,12 @@
       <Point Name="WATERWORKS">-370234.500+1750122.700</Point>
       <Point Name="WELLSFORD">-361745.900+1743123.600</Point>
       <Point Name="WEYMOUTH">-370254.500+1745143.700</Point>
+      <Point Name="WHAKATIWAI">-370528.700+1751811.400</Point>
       <Point Name="WHITFORD TOWN">-365643.500+1745749.700</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point Name="ALBANY STADIUM">-364337.000+1744208.000</Point>
+      <Point Name="AMBURY PARK">-365654.000+1744558.000</Point>
       <Point Name="AVONDALE RACECOURSE">-365353.500+1744124.600</Point>
       <Point Name="BLOCKHOUSE BAY">-365533.600+1744224.700</Point>
       <Point Name="BREAMTAIL HEAD">-360253.500+1743500.700</Point>
@@ -608,6 +623,7 @@
       <Point Name="KINGSEAT">-370748.800+1744800.500</Point>
       <Point Name="LAKE PUPUKE">-364650.500+1744557.400</Point>
       <Point Name="LAKE WAIKARE">-372608.100+1751156.400</Point>
+      <Point Name="LITTLE CREEK">-365912.000+1744620.000</Point>
       <Point Name="LPG TERMINAL">-370212.520+1744941.310</Point>
       <Point Name="MANGAWHAI HEADS">-360523.500+1743500.700</Point>
       <Point Name="MANGERE BRIDGE">-365602.500+1744718.500</Point>
@@ -628,6 +644,7 @@
       <Point Name="PAPAKURA">-370403.500+1745649.700</Point>
       <Point Name="POINT CHEVALIER">-365104.000+1744212.700</Point>
       <Point Name="PUKETUTU ISLAND">-365750.500+1744429.600</Point>
+      <Point Name="QUARRY">-365941.300+1744451.300</Point>
       <Point Name="QUARRY LAKE">-371607.000+1750959.500</Point>
       <Point Name="RED HILL">-370402.000+1745857.000</Point>
       <Point Name="RED HORN">-363123.000+1742556.000</Point>
@@ -637,6 +654,7 @@
       <Point Name="TAIHIKI RIVER ESTUARY">-370955.500+1744728.600</Point>
       <Point Name="TAPU">-365858.500+1753006.400</Point>
       <Point Name="TE ATATU">-364929.500+1743857.600</Point>
+      <Point Name="THE MALL">-365949.600+1744807.400</Point>
       <Point Name="WAIMAUKU">-364546.500+1742931.600</Point>
       <Point Name="WAINUI SHED">-363548.000+1743459.000</Point>
       <Point Name="WAIROA RIVER MOUTH">-365715.000+1750430.000</Point>
@@ -645,6 +663,7 @@
       <Point Name="WATERWORKS">-370234.500+1750122.700</Point>
       <Point Name="WELLSFORD">-361745.900+1743123.600</Point>
       <Point Name="WEYMOUTH">-370254.500+1745143.700</Point>
+      <Point Name="WHAKATIWAI">-370528.700+1751811.400</Point>
       <Point Name="WHITFORD TOWN">-365643.500+1745749.700</Point>
     </Label>
   </Map>

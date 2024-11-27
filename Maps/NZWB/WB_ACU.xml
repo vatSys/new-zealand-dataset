@@ -2,6 +2,10 @@
 <Maps>
   <Map Type="System2" Name="06 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.517417+173.877906">
     <Line Pattern="Dashed">
+      <!--Rwy06 BEAVE1-->
+      -41.517417+173.877906/WB24T/WB601/MARLO
+    </Line>
+    <Line Pattern="Dashed">
       <!--Rwy06 DOTU2Q-->
       -41.517417+173.877906/WB06T/-41.511111+173.990000/DOTUT
     </Line>
@@ -34,10 +38,13 @@
       SEDSI/IPMIR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy06 VLY3-->
+      <!--Rwy06 VLY4-->
       WB06T/MARLO
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>WB24T</Point>
+      <Point>WB601</Point>
+      <Point>MARLO</Point>
       <Point>WB06T</Point>
       <Point>DOTUT</Point>
       <Point>LAPOK</Point>
@@ -50,14 +57,13 @@
       <Point>LUTKA</Point>
       <Point>AVPOD</Point>
       <Point>IPMIR</Point>
-      <Point>MARLO</Point>
     </Symbol>
     <Label HasLeader="true">
+      <Point>MARLO</Point>
       <Point>DOTUT</Point>
       <Point>LUBSI</Point>
       <Point>LUTKA</Point>
       <Point>SEDSI</Point>
-      <Point>MARLO</Point>
       <Point>ELPIT</Point>
       <Point>SULRI</Point>
       <Point>AVPOD</Point>
@@ -185,8 +191,8 @@
       WB24T/WB VOR/MARLO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy24 VINES3-->
-      WB24T/-41.522778+173.791667/-41.554167+173.782500/-41.511389+173.939722/MARLO
+      <!--Rwy24 VINES5-->
+      WB24T/-41.522778+173.791667/-41.554167+173.782500/WB VOR
     </Line>
     <Symbol Type="Circle">
       <Point>WB VOR</Point>

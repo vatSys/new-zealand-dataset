@@ -1,5 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
+  <Map Type="System2" Name="03 SIDs" Priority="1" CustomColourName="ProcDep" Center="-42.707764+170.992069">
+    <Line Pattern="Dashed">
+      <!--Rwy03 DOPA1R-->
+      -42.707764+170.992069/HK21T/-42.669280+171.069350/DOPAX
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy03 OSOL1R-->
+      -42.669280+171.069350/-42.629410+171.149520/OSOLO
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>HK21T</Point>
+      <Point>DOPAX</Point>
+      <Point>OSOLO</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>DOPAX</Point>
+      <Point>OSOLO</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="03 STARs" Priority="1" CustomColourName="ProcArr" Center="-42.713394+170.980258">
     <Line>
       <!--Rwy03 BELE1L-->
@@ -67,6 +86,25 @@
       <Point>ANDEP</Point>
       <Point>BEDAV</Point>
       <Point>HK406</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="21 SIDs" Priority="1" CustomColourName="ProcDep" Center="-42.713394+170.980258">
+    <Line Pattern="Dashed">
+      <!--Rwy21 DOPA1S-->
+      -42.713394+170.980258/HK03T/-42.728350+170.949920/DOPAX
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy21 OSOL1S-->
+      -42.728350+170.949920/-42.769070+170.864960/OSOLO
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>HK03T</Point>
+      <Point>DOPAX</Point>
+      <Point>OSOLO</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>DOPAX</Point>
+      <Point>OSOLO</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="21 STARs" Priority="1" CustomColourName="ProcArr" Center="-42.707764+170.992069">
