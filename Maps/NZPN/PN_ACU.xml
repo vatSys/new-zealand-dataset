@@ -2,19 +2,19 @@
 <Maps>
   <Map Type="System2" Name="18 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.349311+173.954389">
     <Line Pattern="Dashed">
-      <!--Rwy18 SEDS2R-->
+      <!--Rwy18 SEDS3R-->
       -41.349311+173.954389/NZPN/-41.440900+173.969350/VASLU/SEDSI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18 SEDS2R.AVPOD-->
+      <!--Rwy18 SEDS3R.AVPOD-->
       SEDSI/AVPOD
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18 SEDS2R.IGMUL-->
+      <!--Rwy18 SEDS3R.IGMUL-->
       SEDSI/IGMUL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18 SEDS2R.IPMIR-->
+      <!--Rwy18 SEDS3R.IPMIR-->
       SEDSI/IPMIR
     </Line>
     <Symbol Type="HollowTriangle">
@@ -34,19 +34,19 @@
   </Map>
   <Map Type="System2" Name="36 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.344122+173.958497">
     <Line Pattern="Dashed">
-      <!--Rwy36 SEDS2R-->
+      <!--Rwy36 SEDS3R-->
       -41.344122+173.958497/NZPN/-41.440900+173.969350/VASLU/SEDSI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy36 SEDS2R.AVPOD-->
+      <!--Rwy36 SEDS3R.AVPOD-->
       SEDSI/AVPOD
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy36 SEDS2R.IGMUL-->
+      <!--Rwy36 SEDS3R.IGMUL-->
       SEDSI/IGMUL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy36 SEDS2R.IPMIR-->
+      <!--Rwy36 SEDS3R.IPMIR-->
       SEDSI/IPMIR
     </Line>
     <Symbol Type="HollowTriangle">

@@ -142,11 +142,11 @@
       EPDAB/ALBOX/MANOP/AKLAR
     </Line>
     <Line>
-      <!--Rwy03 MIPA4A-->
+      <!--Rwy03 MIPA5A-->
       MIPAK/IPKUG/ADBAD/RELEK/ANBIG/BIPUV/AKLAR
     </Line>
     <Line>
-      <!--Rwy03 MIPA1C-->
+      <!--Rwy03 MIPA2C-->
       ADBAD/IVTOP/ELNEK
     </Line>
     <Symbol Type="HollowTriangle">
@@ -347,7 +347,7 @@
       EPDAB/ALBOX/MANOP/BIPUV
     </Line>
     <Line>
-      <!--Rwy21 MIPA2B-->
+      <!--Rwy21 MIPA3B-->
       MIPAK/IPKUG/ADBAD
     </Line>
     <Symbol Type="HollowTriangle">

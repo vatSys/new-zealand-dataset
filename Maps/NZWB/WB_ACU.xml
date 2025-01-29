@@ -6,19 +6,19 @@
       -41.517417+173.877906/WB24T/WB601/MARLO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy06 DOTU2Q-->
+      <!--Rwy06 DOTU3Q-->
       -41.517417+173.877906/WB06T/-41.511111+173.990000/DOTUT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy06 DOTU2Q.ELPIT-->
+      <!--Rwy06 DOTU3Q.ELPIT-->
       DOTUT/LAPOK/ELPIT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy06 DOTU2Q.SULRI-->
+      <!--Rwy06 DOTU3Q.SULRI-->
       DOTUT/SULRI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy06 LUBS1Q-->
+      <!--Rwy06 LUBS2Q-->
       WB06T/-41.513611+173.943889/VASLU/SEDSI/SADBO/LUBSI
     </Line>
     <Line Pattern="Dashed">
@@ -26,15 +26,15 @@
       WB06T/LUTKA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy06 SEDS2Q-->
+      <!--Rwy06 SEDS3Q-->
       WB06T/-41.514167+173.944167/VASLU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy06 SEDS2Q.AVPOD-->
+      <!--Rwy06 SEDS3Q.AVPOD-->
       SEDSI/AVPOD
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy06 SEDS2Q.IPMIR-->
+      <!--Rwy06 SEDS3Q.IPMIR-->
       SEDSI/IPMIR
     </Line>
     <Line Pattern="Dashed">
@@ -72,61 +72,61 @@
   </Map>
   <Map Type="System2" Name="06 STARs" Priority="1" CustomColourName="ProcArr" Center="-41.518322+173.860875">
     <Line>
-      <!--Rwy06 AVPO1K-->
+      <!--Rwy06 AVPO2K-->
       AVPOD/LUTKA
     </Line>
     <Line>
-      <!--Rwy06 AVPO1M-->
+      <!--Rwy06 AVPO2M-->
       LUTKA/WB VOR
     </Line>
+    <Line Pattern="Solid">
+      <!--Rwy06 EXOT1K.ELPIT-->
+      ELPIT/EXOTA
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy06 EXOT1K.OMDOX-->
+      OMDOX/EXOTA
+    </Line>
     <Line>
-      <!--Rwy06 IGMU1K-->
+      <!--Rwy06 EXOT1K-->
+      EXOTA/LUTKA
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy06 EXOT1M.ELPIT-->
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy06 EXOT1M.OMDOX-->
+    </Line>
+    <Line>
+      <!--Rwy06 EXOT1M-->
+    </Line>
+    <Line>
+      <!--Rwy06 IGMU2K-->
       IGMUL/LUTKA
     </Line>
     <Line>
-      <!--Rwy06 IGMU1M-->
+      <!--Rwy06 IGMU2M-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy06 JAMI2K.ELPIT-->
-      ELPIT/JAMIE
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy06 JAMI2K.OMDOX-->
-      OMDOX/JAMIE
-    </Line>
-    <Line>
-      <!--Rwy06 JAMI2K-->
-      JAMIE/LUTKA
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy06 JAMI2M.ELPIT-->
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy06 JAMI2M.OMDOX-->
-    </Line>
-    <Line>
-      <!--Rwy06 JAMI2M-->
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy06 SUPE2K.IPMIR-->
+      <!--Rwy06 SUPE3K.IPMIR-->
       IPMIR/SUPEN
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy06 SUPE2K.LUBSI-->
+      <!--Rwy06 SUPE3K.LUBSI-->
       LUBSI/VASLU/SUPEN
     </Line>
     <Line>
-      <!--Rwy06 SUPE2K-->
+      <!--Rwy06 SUPE3K-->
       SUPEN/LUTKA
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy06 SUPE2M.IPMIR-->
+      <!--Rwy06 SUPE3M.IPMIR-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy06 SUPE2M.LUBSI-->
+      <!--Rwy06 SUPE3M.LUBSI-->
     </Line>
     <Line>
-      <!--Rwy06 SUPE2M-->
+      <!--Rwy06 SUPE3M-->
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>LUTKA</Point>
@@ -136,10 +136,10 @@
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>AVPOD</Point>
-      <Point>IGMUL</Point>
       <Point>ELPIT</Point>
-      <Point>JAMIE</Point>
+      <Point>EXOTA</Point>
       <Point>OMDOX</Point>
+      <Point>IGMUL</Point>
       <Point>IPMIR</Point>
       <Point>SUPEN</Point>
       <Point>LUBSI</Point>
@@ -147,8 +147,8 @@
     </Symbol>
     <Label HasLeader="true">
       <Point>AVPOD</Point>
+      <Point>EXOTA</Point>
       <Point>IGMUL</Point>
-      <Point>JAMIE</Point>
       <Point>SUPEN</Point>
       <Point>ELPIT</Point>
       <Point>OMDOX</Point>
@@ -159,31 +159,31 @@
   </Map>
   <Map Type="System2" Name="24 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.518322+173.860875">
     <Line Pattern="Dashed">
-      <!--Rwy24 BODI2P-->
+      <!--Rwy24 BODI3P-->
       -41.518322+173.860875/WB24T/ADBOM/-41.554167+173.782500/URGUN/BODIM
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy24 BODI2P.ELPIT-->
+      <!--Rwy24 BODI3P.ELPIT-->
       BODIM/ELPIT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy24 BODI2P.SULRI-->
+      <!--Rwy24 BODI3P.SULRI-->
       BODIM/DOTUT/SULRI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy24 SEDS2P-->
-      WB24T/-41.554167+173.782500/VASLU/SEDSI
+      <!--Rwy24 SEDS3P-->
+      URGUN/VASLU/SEDSI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy24 SEDS2P.AVPOD-->
+      <!--Rwy24 SEDS3P.AVPOD-->
       SEDSI/AVPOD
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy24 SEDS2P.IPMIR-->
+      <!--Rwy24 SEDS3P.IPMIR-->
       SEDSI/IPMIR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy24 SEDS2P.LUBSI-->
+      <!--Rwy24 SEDS3P.LUBSI-->
       SEDSI/SADBO/LUBSI
     </Line>
     <Line Pattern="Dashed">
@@ -226,35 +226,35 @@
   </Map>
   <Map Type="System2" Name="24 STARs" Priority="1" CustomColourName="ProcArr" Center="-41.517417+173.877906">
     <Line>
-      <!--Rwy24 AVPO1J-->
+      <!--Rwy24 AVPO2J-->
       AVPOD/LUTKA
     </Line>
+    <Line Pattern="Solid">
+      <!--Rwy24 EXOT1J.ELPIT-->
+      ELPIT/EXOTA
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy24 EXOT1J.OMDOX-->
+      OMDOX/EXOTA
+    </Line>
     <Line>
-      <!--Rwy24 IGMU1J-->
+      <!--Rwy24 EXOT1J-->
+      EXOTA/LUTKA
+    </Line>
+    <Line>
+      <!--Rwy24 IGMU2J-->
       IGMUL/LUTKA
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy24 JAMI2J.ELPIT-->
-      ELPIT/JAMIE
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy24 JAMI2J.OMDOX-->
-      OMDOX/JAMIE
-    </Line>
-    <Line>
-      <!--Rwy24 JAMI2J-->
-      JAMIE/LUTKA
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy24 SUPE2J.IPMIR-->
+      <!--Rwy24 SUPE3J.IPMIR-->
       IPMIR/SUPEN
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy24 SUPE2J.LUBSI-->
+      <!--Rwy24 SUPE3J.LUBSI-->
       LUBSI/VASLU/SUPEN
     </Line>
     <Line>
-      <!--Rwy24 SUPE2J-->
+      <!--Rwy24 SUPE3J-->
       SUPEN/LUTKA
     </Line>
     <Symbol Type="HollowTriangle">
@@ -262,10 +262,10 @@
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>AVPOD</Point>
-      <Point>IGMUL</Point>
       <Point>ELPIT</Point>
-      <Point>JAMIE</Point>
+      <Point>EXOTA</Point>
       <Point>OMDOX</Point>
+      <Point>IGMUL</Point>
       <Point>IPMIR</Point>
       <Point>SUPEN</Point>
       <Point>LUBSI</Point>
@@ -273,8 +273,8 @@
     </Symbol>
     <Label HasLeader="true">
       <Point>AVPOD</Point>
+      <Point>EXOTA</Point>
       <Point>IGMUL</Point>
-      <Point>JAMIE</Point>
       <Point>SUPEN</Point>
       <Point>ELPIT</Point>
       <Point>OMDOX</Point>

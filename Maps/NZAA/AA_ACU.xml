@@ -128,8 +128,8 @@
       POLIS/KAPAI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R POLI3Q.LAKES-->
-      POLIS/LAKES
+      <!--Rwy05R POLI3Q.ORIDI-->
+      POLIS/ORIDI
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05R POLI3Q.TULMI-->
@@ -248,7 +248,7 @@
       <Point>KADMA</Point>
       <Point>DUGAN</Point>
       <Point>ELNOS</Point>
-      <Point>LAKES</Point>
+      <Point>ORIDI</Point>
       <Point>TULMI</Point>
       <Point>RAXIN</Point>
       <Point>AGREX</Point>
@@ -259,7 +259,6 @@
       <Point>AKPIS</Point>
       <Point>BUDLU</Point>
       <Point>REKIS</Point>
-      <Point>ORIDI</Point>
       <Point>SATLA</Point>
       <Point>AGEDU</Point>
       <Point>AKLOM</Point>
@@ -295,13 +294,12 @@
       <Point>PUHOI</Point>
       <Point>DUGAN</Point>
       <Point>ELNOS</Point>
-      <Point>LAKES</Point>
+      <Point>ORIDI</Point>
       <Point>TULMI</Point>
       <Point>AGREX</Point>
       <Point>ELPAK</Point>
       <Point>KALAG</Point>
       <Point>TARIB</Point>
-      <Point>ORIDI</Point>
       <Point>AGEDU</Point>
       <Point>AKLOM</Point>
       <Point>DABAS</Point>
@@ -638,6 +636,7 @@
       <Point>SADOS</Point>
       <Point>QUINA</Point>
       <Point>LEPGO</Point>
+      <Point>AA744</Point>
       <Point>ELBAD</Point>
       <Point>AA509</Point>
     </Symbol>
@@ -653,7 +652,7 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">VIRIS/ADLIB/SADOS/QUINA/LEPGO/OLDUR/ELBAD/-370058.741+1744614.819</Line>
+    <Line Pattern="Solid">VIRIS/ADLIB/SADOS/QUINA/LEPGO/OLDUR/AA744/ELBAD/-370058.741+1744614.819</Line>
     <Line Pattern="Solid">ATAMA/PORAR/AA509/-370058.741+1744614.819</Line>
   </Map>
   <Map Type="System2" Name="05R RNP-AR Labels" Priority="1" Center="-37.016317+174.770783" CustomColourName="ProcArr">
@@ -730,7 +729,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23L LEVR2P.TULMI-->
-      OSAKU/LAKES/TULMI
+      ORIDI/TULMI
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23L MEMO3P-->
@@ -867,7 +866,6 @@
       <Point>GULED</Point>
       <Point>OSAKU</Point>
       <Point>ORIDI</Point>
-      <Point>LAKES</Point>
       <Point>TULMI</Point>
       <Point>MEMOR</Point>
       <Point>AGREX</Point>
@@ -994,6 +992,13 @@
       DOMRI/VABTI
     </Line>
     <Line Pattern="Solid">
+      <!--Rwy23L ARAD1N.LUNBI-->
+    </Line>
+    <Line>
+      <!--Rwy23L ARAD1N-->
+      GEWNY/LENGU/ZORBA/SABAV/EMRAG
+    </Line>
+    <Line Pattern="Solid">
       <!--Rwy23L BASI9A.ELNOS-->
       ELNOS/BASIV
     </Line>
@@ -1054,7 +1059,7 @@
     </Line>
     <Line>
       <!--Rwy23L DAVE6A-->
-      DAVEE/OSAKU/ANSER/ZORBA/SABAV/EMRAG
+      DAVEE/OSAKU/ANSER/ZORBA
     </Line>
     <Line>
       <!--Rwy23L DAVE7C-->
@@ -1202,6 +1207,8 @@
       <Point>GEWNY</Point>
       <Point>DOMRI</Point>
       <Point>LOSGA</Point>
+      <Point>LENGU</Point>
+      <Point>SABAV</Point>
       <Point>ELNOS</Point>
       <Point>BASIV</Point>
       <Point>SALAG</Point>
@@ -1213,7 +1220,6 @@
       <Point>DAVEE</Point>
       <Point>OSAKU</Point>
       <Point>ANSER</Point>
-      <Point>SABAV</Point>
       <Point>ELBOP</Point>
       <Point>DODKU</Point>
       <Point>SAMII</Point>
@@ -1315,6 +1321,7 @@
     <Symbol Type="HollowTriangle">
       <Point>BUBKU</Point>
       <Point>AA412</Point>
+      <Point>AA745</Point>
       <Point>AA407</Point>
       <Point>AA411</Point>
       <Point>AA521</Point>
@@ -1326,8 +1333,11 @@
       <Point>LAGUT</Point>
       <Point>GOBOB</Point>
       <Point>ESMON</Point>
+      <Point>AA741</Point>
+      <Point>AA742</Point>
       <Point>DUNAD</Point>
       <Point>LURLU</Point>
+      <Point>AA743</Point>
       <Point>AA409</Point>
     </Symbol>
     <!--IAF Symbols-->
@@ -1350,13 +1360,13 @@
     <Symbol Type="SolidTriangle">
       <Point>AA427</Point>
     </Symbol>
-    <Line Pattern="Solid">AA427/BUBKU/AA412/TEGIK/-370023.962+1744820.671</Line>
+    <Line Pattern="Solid">AA427/BUBKU/AA412/TEGIK/AA745/-370023.962+1744820.671</Line>
     <Line Pattern="Solid">KETOB/AA407/AA427</Line>
     <Line Pattern="Solid">ZORBA/AA411/AA407</Line>
-    <Line Pattern="Solid">VABTI/AA521/AA428/AA516/TUSLO/-370023.962+1744820.671</Line>
+    <Line Pattern="Solid">VABTI/AA521/AA428/AA516/TUSLO/AA745</Line>
     <Line Pattern="Solid">TEVUC/SUBUN/AA513/AA412</Line>
-    <Line Pattern="Solid">KIDAG/SAMUR/LAGUT/GOBOB/ESMON/AKROV/DUNAD/-370023.962+1744820.671</Line>
-    <Line Pattern="Solid">ESNAX/NOKAM/LURLU/AA409/-370023.962+1744820.671</Line>
+    <Line Pattern="Solid">KIDAG/SAMUR/LAGUT/GOBOB/ESMON/AKROV/AA741/AA742/DUNAD/-370023.962+1744820.671</Line>
+    <Line Pattern="Solid">ESNAX/NOKAM/LURLU/AA743/AA409/-370023.962+1744820.671</Line>
   </Map>
   <Map Type="System2" Name="23L RNP-AR Labels" Priority="1" Center="-37.006656+174.805742" CustomColourName="ProcArr">
     <Label HasLeader="true">

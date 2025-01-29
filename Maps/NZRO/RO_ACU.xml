@@ -2,48 +2,49 @@
 <Maps>
   <Map Type="System2" Name="18 SIDs" Priority="1" CustomColourName="ProcDep" Center="-38.115486+176.311436">
     <Line Pattern="Dashed">
-      <!--Rwy18 ORAK3P-->
-      -38.115486+176.311436/RO18T/RO36T/MADRO/TOTRA/ORAKA
+      <!--Rwy18 ORAK4P-->
+      -38.115486+176.311436/RO18T/RO36T/MADRO/RO411/TOTRA/ORAKA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18 ORAK3P.FALLS-->
+      <!--Rwy18 ORAK4P.FALLS-->
       ORAKA/FALLS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18 ORAK3P.GOBUK-->
+      <!--Rwy18 ORAK4P.GOBUK-->
       ORAKA/GOBUK
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18 ORAK3P.KAMLA-->
+      <!--Rwy18 ORAK4P.KAMLA-->
       ORAKA/KAMLA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18 TOTR4P-->
+      <!--Rwy18 TOTR5P-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18 TOTR4P.AKMAG-->
+      <!--Rwy18 TOTR5P.AKMAG-->
       TOTRA/SURKA/SABID/AKMAG
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18 TOTR4P.IBAMU-->
+      <!--Rwy18 TOTR5P.IBAMU-->
       TOTRA/IBAMU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18 TOTR4P.ISGIT-->
+      <!--Rwy18 TOTR5P.ISGIT-->
       TOTRA/ISGIT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18 TOTR4P.LUMSO-->
+      <!--Rwy18 TOTR5P.LUMSO-->
       SURKA/LUMSO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy18 TOTR4P.SUDAM-->
+      <!--Rwy18 TOTR5P.SUDAM-->
       ISGIT/SUDAM
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>RO18T</Point>
       <Point>RO36T</Point>
       <Point>MADRO</Point>
+      <Point>RO411</Point>
       <Point>TOTRA</Point>
       <Point>ORAKA</Point>
       <Point>FALLS</Point>

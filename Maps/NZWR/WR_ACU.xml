@@ -34,7 +34,7 @@
       -35.846270+174.443360/WP VOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy06 SF1P-->
+      <!--Rwy06 SF2P-->
       -35.768372+174.369817/WR06T/WR24T/-35.762990+174.410400/SF NDB
     </Line>
     <Line Pattern="Dashed">
@@ -141,7 +141,7 @@
       WR06T/-35.821950+174.359540/SF NDB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy24 SF1Q-->
+      <!--Rwy24 SF2Q-->
       -35.769875+174.357825/WR24T/WR06T/-35.774790+174.317200/SF NDB
     </Line>
     <Symbol Type="Circle">
