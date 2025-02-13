@@ -183,17 +183,19 @@
     </Line>
     <Line Pattern="Solid">
       <!--Rwy18L YOGI3C.DABKA-->
-      EKASO/ATPUL
+     DABKA/BOLOG/EKASO/YOGIT
     </Line>
     <Line Pattern="Solid">
       <!--Rwy18L YOGI3C.DADUK-->
+      DADUK/BOLOG/EKASO/YOGIT
     </Line>
     <Line Pattern="Solid">
       <!--Rwy18L YOGI3C.POKOM-->
-      POKOM/ATPUL
+      POKOM/YOGIT
     </Line>
     <Line>
       <!--Rwy18L YOGI3C-->
+      YOGIT/ADBET/VATNA
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>TAYLA</Point>

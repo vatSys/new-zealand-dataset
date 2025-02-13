@@ -6833,7 +6833,7 @@ RILEY
       <Transition Name="IGBAT">KAPAI/IGBAT</Transition>
       <Transition Name="KAPAI">KAPAI</Transition>
       <Transition Name="ORIDI">GULED/OSAKU/ORIDI</Transition>
-      <Transition Name="TULMI">GULED/OSAKU/LAKES/TULMI</Transition>
+      <Transition Name="TULMI">GULED/OSAKU/ORIDI/TULMI</Transition>
     </SID>
     <SID Name="MEMO3P" Airport="NZAA" Runways="23L">
       <Route Runway="23L">LENGU/WYTAK/MEMOR</Route>
@@ -6871,7 +6871,7 @@ RILEY
       <Route Runway="05R">EMRAG/POLIS</Route>
       <Transition Name="IGBAT">LIMES/IGBAT</Transition>
       <Transition Name="KAPAI">KAPAI</Transition>
-      <Transition Name="LAKES">LAKES</Transition>
+      <Transition Name="ORIDI">ORIDI</Transition>
       <Transition Name="TULMI">TULMI</Transition>
     </SID>
     <SID Name="RAXI3Q" Airport="NZAA" Runways="05R">
@@ -8721,7 +8721,7 @@ RILEY
       <Transition Name="TAYLA">TAYLA/CHESE</Transition>
     </STAR>
     <STAR Name="YOGI3C" Airport="NZHN" Runways="18L">
-      <Route Runway="18L">ATPUL/TAYLA/VATNA</Route>
+      <Route Runway="18L">YOGIT/ADBET/VATNA</Route>
       <Transition Name="DABKA">DABKA/BOLOG/EKASO</Transition>
       <Transition Name="DADUK">DADUK/BOLOG/EKASO</Transition>
       <Transition Name="POKOM">POKOM</Transition>

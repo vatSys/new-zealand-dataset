@@ -128,8 +128,8 @@
       POLIS/KAPAI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R POLI3Q.LAKES-->
-      POLIS/LAKES
+      <!--Rwy05R POLI3Q.ORIDI-->
+      POLIS/ORIDI
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05R POLI3Q.TULMI-->
@@ -248,7 +248,6 @@
       <Point>KADMA</Point>
       <Point>DUGAN</Point>
       <Point>ELNOS</Point>
-      <Point>LAKES</Point>
       <Point>TULMI</Point>
       <Point>RAXIN</Point>
       <Point>AGREX</Point>
@@ -295,7 +294,6 @@
       <Point>PUHOI</Point>
       <Point>DUGAN</Point>
       <Point>ELNOS</Point>
-      <Point>LAKES</Point>
       <Point>TULMI</Point>
       <Point>AGREX</Point>
       <Point>ELPAK</Point>
@@ -730,7 +728,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23L LEVR2P.TULMI-->
-      OSAKU/LAKES/TULMI
+      OSAKU/ORIDI/TULMI
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23L MEMO3P-->
@@ -867,7 +865,6 @@
       <Point>GULED</Point>
       <Point>OSAKU</Point>
       <Point>ORIDI</Point>
-      <Point>LAKES</Point>
       <Point>TULMI</Point>
       <Point>MEMOR</Point>
       <Point>AGREX</Point>
