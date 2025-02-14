@@ -8720,7 +8720,7 @@ RILEY
       <Transition Name="POKOM">POKOM</Transition>
     </STAR>
     <STAR Name="YOGI3C" Airport="NZHN" Runways="18L">
-      <Route Runway="18L">ATPUL/TAYLA/VATNA</Route>
+      <Route Runway="18L">YOGIT/ADBET/VATNA</Route>
       <Transition Name="DABKA">DABKA/BOLOG/EKASO</Transition>
       <Transition Name="DADUK">DADUK/BOLOG/EKASO</Transition>
       <Transition Name="POKOM">POKOM</Transition>

@@ -183,18 +183,16 @@
     </Line>
     <Line Pattern="Solid">
       <!--Rwy18L YOGI3C.DABKA-->
-      EKASO/ATPUL
     </Line>
     <Line Pattern="Solid">
       <!--Rwy18L YOGI3C.DADUK-->
     </Line>
     <Line Pattern="Solid">
       <!--Rwy18L YOGI3C.POKOM-->
-      POKOM/ATPUL
     </Line>
     <Line>
       <!--Rwy18L YOGI3C-->
-      ATPUL/TAYLA/VATNA
+      ADBET/VATNA
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>DULUV</Point>
@@ -225,7 +223,6 @@
       <Point>POKOM</Point>
       <Point>ADBET</Point>
       <Point>CHESE</Point>
-      <Point>TAYLA</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>ATPUL</Point>
