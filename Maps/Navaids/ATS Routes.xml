@@ -133,12 +133,12 @@
     <Line Name="KQ282">GUMPI.KQ282.ELNOR</Line>
     <Line Name="KQ312">ERVIT.KQ312.TARIT</Line>
     <Line Name="KQ357">WU NDB.KQ357.MESOS</Line>
-    <Line Name="KQ359">TAYLA.KQ359.XELAN</Line>
+    <Line Name="KQ359">DULUV.KQ359.XELAN</Line>
     <Line Name="KQ361">OSTEL.KQ361.ELNEG</Line>
     <Line Name="KQ373">VEBTU.KQ373.VARMA</Line>
     <Line Name="KQ417">ELNOR.KQ417.REVMU</Line>
     <Line Name="KQ427">ERVIT.KQ427.NOVTO</Line>
-    <Line Name="KQ440">TAYLA.KQ440.NOMAP</Line>
+    <Line Name="KQ440">DULUV.KQ440.NOMAP</Line>
     <Line Name="KQ461">LEGIK.KQ461.EMSID</Line>
     <Line Name="KQ491">WAIMA.KQ491.UMAGA</Line>
     <Line Name="KQ492">LEKUL.KQ492.WAIMA</Line>
@@ -439,8 +439,8 @@
       <Point>IBOBA</Point>
       <Point>BIGEK</Point>
       <Point>IKENA</Point>
-      <Point>GOTSO</Point>
       <Point>KETUS</Point>
+      <Point>GOTSO</Point>
       <Point>FU NDB</Point>
       <Point>GOBIL</Point>
       <Point>ISDOT</Point>
@@ -814,7 +814,7 @@
       <Point>RUFFY</Point>
       <Point>DULOT</Point>
       <Point>MESOS</Point>
-      <Point>TAYLA</Point>
+      <Point>DULUV</Point>
       <Point>OSTEL</Point>
       <Point>KEXAV</Point>
       <Point>MAGEX</Point>
@@ -1290,8 +1290,8 @@
       <Point>IBOBA</Point>
       <Point>BIGEK</Point>
       <Point>IKENA</Point>
-      <Point>GOTSO</Point>
       <Point>KETUS</Point>
+      <Point>GOTSO</Point>
       <Point>FU NDB</Point>
       <Point>GOBIL</Point>
       <Point>ISDOT</Point>
@@ -1665,7 +1665,7 @@
       <Point>RUFFY</Point>
       <Point>DULOT</Point>
       <Point>MESOS</Point>
-      <Point>TAYLA</Point>
+      <Point>DULUV</Point>
       <Point>OSTEL</Point>
       <Point>KEXAV</Point>
       <Point>MAGEX</Point>
