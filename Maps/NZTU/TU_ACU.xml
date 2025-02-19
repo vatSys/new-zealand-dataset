@@ -2,7 +2,7 @@
 <Maps>
   <Map Type="System2" Name="02 SIDs" Priority="1" CustomColourName="ProcDep" Center="-44.294633+171.231261">
     <Line Pattern="Dashed">
-      <!--Rwy02 ELDA1T-->
+      <!--Rwy02 ELDA2T-->
       -44.294633+171.231261/TU20T/SUNPA/ELDAK
     </Line>
     <Symbol Type="HollowTriangle">
@@ -59,48 +59,19 @@
   </Map>
   <Map Type="System2" Name="20 SIDs" Priority="1" CustomColourName="ProcDep" Center="-44.303272+171.220639">
     <Line Pattern="Dashed">
-      <!--Rwy20 MUKE2Q-->
-      -44.303272+171.220639/TU02T/MUKEN
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy20 MUKE2Q.DUBON-->
-      MUKEN/DUBON
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy20 MUKE2Q.ELDAK-->
-      MUKEN/BIDNI/ELDAK
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy20 MUKE2Q.MAMUS-->
-      MUKEN/MAMUS
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy20 MUKE2Q.OLGAL-->
-      MUKEN/OLGAL
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy20 MUKE2Q.OMARU-->
-      MUKEN/OMARU
+      <!--Rwy20 ELDA2T-->
+      -44.303272+171.220639/TU02T/MUKEN/LUVAB/ELDAK
     </Line>
     <Symbol Type="SolidStar">
       <Point>MUKEN</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>TU02T</Point>
-      <Point>DUBON</Point>
-      <Point>BIDNI</Point>
+      <Point>LUVAB</Point>
       <Point>ELDAK</Point>
-      <Point>MAMUS</Point>
-      <Point>OLGAL</Point>
-      <Point>OMARU</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>MUKEN</Point>
-      <Point>DUBON</Point>
       <Point>ELDAK</Point>
-      <Point>MAMUS</Point>
-      <Point>OLGAL</Point>
-      <Point>OMARU</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="20 STARs" Priority="1" CustomColourName="ProcArr" Center="-44.294633+171.231261">

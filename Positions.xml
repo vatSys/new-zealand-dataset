@@ -761,6 +761,7 @@
         <Map Name="NZAA/ASMGCS_NZAA_APR" />
         <Map Name="NZAA/ASMGCS_NZAA_TWY" />
         <Map Name="NZAA/ASMGCS_NZAA_BLD" />
+        <Map Name="NZAA/ASMGCS_NZAA_closedTw" />
         <Map Name="NZAA/ASMGCS_NZAA_yellowHS" />
         <Map Name="NZAA/ASMGCS_NZAA_yellowHA" />
         <Map Name="NZAA/ASMGCS_NZAA_white" />

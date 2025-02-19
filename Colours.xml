@@ -555,6 +555,14 @@
     <B>26</B>
   </Colour>
 
+  <Colour id="Custom">
+    <Use>Shows closed Taxiways on A-SMGCS Maps</Use>
+    <Name>closedTw</Name>
+    <R>200</R>
+    <G>0</G>
+    <B>0</B>
+  </Colour>
+
 
 
   <!-- Colours added due to changes in the vatSys application -->
@@ -653,5 +661,5 @@
 
 
 
-  
+
 </Colours>

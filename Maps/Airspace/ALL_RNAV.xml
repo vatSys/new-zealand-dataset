@@ -56,6 +56,7 @@
     <Symbol Type="HollowTriangle">
       <Point>BUBKU</Point>
       <Point>AA412</Point>
+      <Point>AA745</Point>
       <Point>AA407</Point>
       <Point>AA411</Point>
       <Point>AA521</Point>
@@ -67,14 +68,18 @@
       <Point>SADOS</Point>
       <Point>QUINA</Point>
       <Point>LEPGO</Point>
+      <Point>AA744</Point>
       <Point>ELBAD</Point>
       <Point>SAMUR</Point>
       <Point>LAGUT</Point>
       <Point>GOBOB</Point>
       <Point>ESMON</Point>
+      <Point>AA741</Point>
+      <Point>AA742</Point>
       <Point>DUNAD</Point>
       <Point>AA509</Point>
       <Point>LURLU</Point>
+      <Point>AA743</Point>
       <Point>AA409</Point>
       <Point>CH832</Point>
       <Point>CH793</Point>
@@ -197,15 +202,15 @@
       <Point>WN416</Point>
       <Point>WN412</Point>
     </Symbol>
-    <Line Pattern="Solid">AA427/BUBKU/AA412/TEGIK/-370023.962+1744820.671</Line>
+    <Line Pattern="Solid">AA427/BUBKU/AA412/TEGIK/AA745/-370023.962+1744820.671</Line>
     <Line Pattern="Solid">KETOB/AA407/AA427</Line>
     <Line Pattern="Solid">ZORBA/AA411/AA407</Line>
-    <Line Pattern="Solid">VABTI/AA521/AA428/AA516/TUSLO/-370023.962+1744820.671</Line>
+    <Line Pattern="Solid">VABTI/AA521/AA428/AA516/TUSLO/AA745</Line>
     <Line Pattern="Solid">TEVUC/SUBUN/AA513/AA412</Line>
-    <Line Pattern="Solid">VIRIS/ADLIB/SADOS/QUINA/LEPGO/OLDUR/ELBAD/-370058.741+1744614.819</Line>
-    <Line Pattern="Solid">KIDAG/SAMUR/LAGUT/GOBOB/ESMON/AKROV/DUNAD/-370023.962+1744820.671</Line>
+    <Line Pattern="Solid">VIRIS/ADLIB/SADOS/QUINA/LEPGO/OLDUR/AA744/ELBAD/-370058.741+1744614.819</Line>
+    <Line Pattern="Solid">KIDAG/SAMUR/LAGUT/GOBOB/ESMON/AKROV/AA741/AA742/DUNAD/-370023.962+1744820.671</Line>
     <Line Pattern="Solid">ATAMA/PORAR/AA509/-370058.741+1744614.819</Line>
-    <Line Pattern="Solid">ESNAX/NOKAM/LURLU/AA409/-370023.962+1744820.671</Line>
+    <Line Pattern="Solid">ESNAX/NOKAM/LURLU/AA743/AA409/-370023.962+1744820.671</Line>
     <Line Pattern="Solid">ERVAX/CH832/CH793/CH755/PEBVI/BEKTI/-432951.472+1723119.610</Line>
     <Line Pattern="Solid">BOLUB/CH963/SULMO/CH697/NISOM/-432951.472+1723119.610</Line>
     <Line Pattern="Solid">BIXIX/CH827/CH428/RUSON/ENLAT/-432829.960+1723253.830</Line>
@@ -280,7 +285,7 @@
       <Point>MAKOS</Point>
       <Point>AGTUR</Point>
       <Point>EKVIL</Point>
-      <Point>TAYLA</Point>
+      <Point>DULUV</Point>
       <Point>BUDEN</Point>
       <Point>VATNA</Point>
       <Point>GUNDA</Point>
@@ -607,7 +612,7 @@
       <Point>MAKOS</Point>
       <Point>AGTUR</Point>
       <Point>EKVIL</Point>
-      <Point>TAYLA</Point>
+      <Point>DULUV</Point>
       <Point>BUDEN</Point>
       <Point>VATNA</Point>
       <Point>GUNDA</Point>
@@ -914,7 +919,7 @@
     <Line Pattern="Solid">MAKOS/HK407/-424227.950+1705931.448</Line>
     <Line Pattern="Solid">AGTUR/MAKOS</Line>
     <Line Pattern="Solid">EKVIL/MAKOS</Line>
-    <Line Pattern="Solid">TAYLA/LAXOD/-375120.902+1752010.219</Line>
+    <Line Pattern="Solid">DULUV/LAXOD/-375120.902+1752010.219</Line>
     <Line Pattern="Solid">BUDEN/NITAK/-375225.140+1751946.942</Line>
     <Line Pattern="Solid">VATNA/ISPOT/HN VOR/-375120.902+1752010.219</Line>
     <Line Pattern="Solid">GUNDA/IKERI/-375225.140+1751946.942</Line>

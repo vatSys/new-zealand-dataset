@@ -104,39 +104,39 @@
   </Map>
   <Map Type="System2" Name="18L STARs" Priority="1" CustomColourName="ProcArr" Center="-37.855806+175.336172">
     <Line>
-      <!--Rwy18L ATPU1A-->
-      ATPUL/TAYLA
+      <!--Rwy18L ATPU2A-->
+      ATPUL/DULUV
     </Line>
     <Line>
-      <!--Rwy18L ATPU3C-->
-      TAYLA/VATNA
+      <!--Rwy18L ATPU4C-->
+      DULUV/VATNA
     </Line>
     <Line>
-      <!--Rwy18L BUDE2A-->
-      BUDEN/PASSE/KEVID/KICKE/NILUS/THROW/TAYLA
+      <!--Rwy18L BUDE3A-->
+      BUDEN/PASSE/KEVID/KICKE/NILUS/THROW/DULUV
     </Line>
     <Line>
       <!--Rwy18L BUDE3C-->
       NILUS/VATNA
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy18L KICK2A.DROPT-->
+      <!--Rwy18L KICK3A.DROPT-->
       DROPT/PASSE/KEVID/KICKE
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy18L KICK2A.GODOK-->
+      <!--Rwy18L KICK3A.GODOK-->
       GODOK/KICKE
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy18L KICK2A.HN-->
+      <!--Rwy18L KICK3A.HN-->
       HN VOR/KICKE
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy18L KICK2A.KARBA-->
+      <!--Rwy18L KICK3A.KARBA-->
       KARBA/PASSE
     </Line>
     <Line>
-      <!--Rwy18L KICK2A-->
+      <!--Rwy18L KICK3A-->
     </Line>
     <Line Pattern="Solid">
       <!--Rwy18L KICK3C.DROPT-->
@@ -154,7 +154,7 @@
       <!--Rwy18L KICK3C-->
     </Line>
     <Line>
-      <!--Rwy18L OLDO3A-->
+      <!--Rwy18L OLDO4A-->
       OLDON/NILUS
     </Line>
     <Line>
@@ -166,37 +166,36 @@
       ORIDI/VATNA
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy18L YOGI2A.DABKA-->
+      <!--Rwy18L YOGI3A.DABKA-->
       DABKA/BOLOG/EKASO/YOGIT
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy18L YOGI2A.DADUK-->
+      <!--Rwy18L YOGI3A.DADUK-->
       DADUK/BOLOG
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy18L YOGI2A.POKOM-->
+      <!--Rwy18L YOGI3A.POKOM-->
       POKOM/YOGIT
     </Line>
     <Line>
-      <!--Rwy18L YOGI2A-->
-      YOGIT/ADBET/CHESE/TAYLA
+      <!--Rwy18L YOGI3A-->
+      YOGIT/ADBET/CHESE/DULUV
     </Line>
     <Line Pattern="Solid">
       <!--Rwy18L YOGI3C.DABKA-->
-      EKASO/ATPUL
     </Line>
     <Line Pattern="Solid">
       <!--Rwy18L YOGI3C.DADUK-->
     </Line>
     <Line Pattern="Solid">
       <!--Rwy18L YOGI3C.POKOM-->
-      POKOM/ATPUL
     </Line>
     <Line>
       <!--Rwy18L YOGI3C-->
+      ADBET/VATNA
     </Line>
     <Symbol Type="HollowTriangle">
-      <Point>TAYLA</Point>
+      <Point>DULUV</Point>
       <Point>VATNA</Point>
     </Symbol>
     <Symbol Type="Circle">
@@ -239,7 +238,7 @@
       <Point>DABKA</Point>
       <Point>DADUK</Point>
       <Point>POKOM</Point>
-      <Point>TAYLA</Point>
+      <Point>DULUV</Point>
       <Point>VATNA</Point>
     </Label>
   </Map>
@@ -248,7 +247,7 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
-      <Point>TAYLA</Point>
+      <Point>DULUV</Point>
       <Point>VATNA</Point>
     </Symbol>
     <!--FAF Symbols-->
@@ -258,12 +257,12 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">TAYLA/LAXOD/-375120.902+1752010.219</Line>
+    <Line Pattern="Solid">DULUV/LAXOD/-375120.902+1752010.219</Line>
     <Line Pattern="Solid">VATNA/ISPOT/HN VOR/-375120.902+1752010.219</Line>
   </Map>
   <Map Type="System2" Name="18L RNP Labels" Priority="1" Center="-37.855806+175.336172" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>TAYLA</Point>
+      <Point>DULUV</Point>
       <Point>VATNA</Point>
       <Point>LAXOD</Point>
       <Point>ISPOT</Point>
@@ -334,8 +333,8 @@
       TEPOX/OLDON
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy36R TAYL3V-->
-      HN18L/TAYLA
+      <!--Rwy36R DULU1V-->
+      HN18L/DULUV
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>HN18L</Point>
@@ -361,12 +360,12 @@
       <Point>KARBA</Point>
       <Point>MIKER</Point>
       <Point>OLDON</Point>
-      <Point>TAYLA</Point>
+      <Point>DULUV</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>AGULA</Point>
       <Point>BIDKO</Point>
-      <Point>TAYLA</Point>
+      <Point>DULUV</Point>
       <Point>ATOLI</Point>
       <Point>ATPUL</Point>
       <Point>DABKA</Point>
@@ -452,39 +451,39 @@
       KICKE/EGORI/GUNDA
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy36R YOGI3B.ATPUL-->
+      <!--Rwy36R YOGI4B.ATPUL-->
       ATPUL/CHESE/YOGIT
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy36R YOGI3B.ORIDI-->
+      <!--Rwy36R YOGI4B.DULUV-->
+      DULUV/CHESE
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy36R YOGI4B.ORIDI-->
       ORIDI/YOGIT
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy36R YOGI3B.POKOM-->
+      <!--Rwy36R YOGI4B.POKOM-->
       POKOM/YOGIT
     </Line>
-    <Line Pattern="Solid">
-      <!--Rwy36R YOGI3B.TAYLA-->
-      TAYLA/CHESE
-    </Line>
     <Line>
-      <!--Rwy36R YOGI3B-->
+      <!--Rwy36R YOGI4B-->
       YOGIT/DAIRY/BUDEN
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy36R YOGI3D.ATPUL-->
+      <!--Rwy36R YOGI4D.ATPUL-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy36R YOGI3D.ORIDI-->
+      <!--Rwy36R YOGI4D.DULUV-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy36R YOGI3D.POKOM-->
+      <!--Rwy36R YOGI4D.ORIDI-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy36R YOGI3D.TAYLA-->
+      <!--Rwy36R YOGI4D.POKOM-->
     </Line>
     <Line>
-      <!--Rwy36R YOGI3D-->
+      <!--Rwy36R YOGI4D-->
       YOGIT/BOLOG/GUNDA
     </Line>
     <Symbol Type="HollowTriangle">
@@ -510,9 +509,9 @@
       <Point>ATPUL</Point>
       <Point>CHESE</Point>
       <Point>YOGIT</Point>
+      <Point>DULUV</Point>
       <Point>ORIDI</Point>
       <Point>POKOM</Point>
-      <Point>TAYLA</Point>
       <Point>DAIRY</Point>
       <Point>BOLOG</Point>
     </Symbol>
@@ -528,9 +527,9 @@
       <Point>HN VOR</Point>
       <Point>OLDON</Point>
       <Point>ATPUL</Point>
+      <Point>DULUV</Point>
       <Point>ORIDI</Point>
       <Point>POKOM</Point>
-      <Point>TAYLA</Point>
       <Point>BUDEN</Point>
       <Point>GUNDA</Point>
     </Label>
