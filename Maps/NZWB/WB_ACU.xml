@@ -286,13 +286,12 @@
   <Map Type="System2" Name="24 RNP" Priority="1" Center="-41.517417+173.877906" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
-      <Point>ELKUB</Point>
+      <Point>WB724</Point>
       <Point>WB401</Point>
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>LUTKA</Point>
-      <Point>JAMIE</Point>
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
@@ -300,13 +299,11 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">LUTKA/ELKUB/ENPIP/WB401/-413102.701+1735240.462</Line>
-    <Line Pattern="Solid">JAMIE/LUTKA</Line>
+    <Line Pattern="Solid">LUTKA/WB724/ENPIP/WB401/-413102.701+1735240.462</Line>
   </Map>
   <Map Type="System2" Name="24 RNP Labels" Priority="1" Center="-41.517417+173.877906" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>LUTKA</Point>
-      <Point>JAMIE</Point>
       <Point>ENPIP</Point>
     </Label>
   </Map>
