@@ -5774,6 +5774,7 @@ RILEY
     <Point Name="WARDS" Type="Fix">-415032.320+1741006.050</Point>
     <Point Name="WB401" Type="Fix">-413100.862+1735304.690</Point>
     <Point Name="WB601" Type="Fix">-413111.000+1735146.000</Point>
+    <Point Name="WB724" Type="Fix">-413007.700+1740437.700</Point>
     <Point Name="WEBER" Type="Fix">-401333.300+1762735.880</Point>
     <Point Name="WELLS" Type="Fix">-361738.830+1742957.640</Point>
     <Point Name="WILKI" Type="Fix">-411831.370+1742318.220</Point>
@@ -9730,8 +9731,7 @@ RILEY
       <Route>SUNPA/EMTEP/-441740.679+1711352.540</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZWB" Runway="24">
-      <Transition Name="JAMIE">JAMIE</Transition>
-      <Route>LUTKA/ELKUB/ENPIP/WB401/-413102.701+1735240.462</Route>
+      <Route>LUTKA/WB724/ENPIP/WB401/-413102.701+1735240.462</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZWF" Runway="29">
       <Transition Name="ARIGU">ARIGU</Transition>
