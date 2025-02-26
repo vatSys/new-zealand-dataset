@@ -396,7 +396,6 @@
       <Point>BIDNI</Point>
       <Point>LUVAB</Point>
       <Point>LUTKA</Point>
-      <Point>JAMIE</Point>
       <Point>KAKVA</Point>
       <Point>ARIGU</Point>
       <Point>PASMU</Point>
@@ -550,7 +549,7 @@
       <Point>TK401</Point>
       <Point>TK407</Point>
       <Point>TU402</Point>
-      <Point>ELKUB</Point>
+      <Point>WB724</Point>
       <Point>WB401</Point>
       <Point>PILAD</Point>
       <Point>SAGEM</Point>
@@ -723,7 +722,6 @@
       <Point>BIDNI</Point>
       <Point>LUVAB</Point>
       <Point>LUTKA</Point>
-      <Point>JAMIE</Point>
       <Point>KAKVA</Point>
       <Point>ARIGU</Point>
       <Point>PASMU</Point>
@@ -1045,8 +1043,7 @@
     <Line Pattern="Solid">SUNPA/EMTEP/-441740.679+1711352.540</Line>
     <Line Pattern="Solid">BIDNI/SUNPA</Line>
     <Line Pattern="Solid">LUVAB/SUNPA</Line>
-    <Line Pattern="Solid">LUTKA/ELKUB/ENPIP/WB401/-413102.701+1735240.462</Line>
-    <Line Pattern="Solid">JAMIE/LUTKA</Line>
+    <Line Pattern="Solid">LUTKA/WB724/ENPIP/WB401/-413102.701+1735240.462</Line>
     <Line Pattern="Solid">KAKVA/PILAD/SAGEM/-444334.000+1691505.000</Line>
     <Line Pattern="Solid">ARIGU/KAKVA</Line>
     <Line Pattern="Solid">PASMU/KAKVA</Line>
