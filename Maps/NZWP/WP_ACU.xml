@@ -50,71 +50,71 @@
   </Map>
   <Map Type="System2" Name="03 STARs" Priority="1" CustomColourName="ProcArr" Center="-36.796181+174.620886">
     <Line>
-      <!--Rwy03 AA1K-->
+      <!--Rwy03 AA2K-->
       AA VOR/GUTLA/OMKOL/WYTAK
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy03 ARAD2K.LUNBI-->
+      <!--Rwy03 ARAD3K.LUNBI-->
       LUNBI/ARADI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy03 ARAD2K.PEBLU-->
+      <!--Rwy03 ARAD3K.PEBLU-->
       PEBLU/ARADI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy03 ARAD2K.VELMO-->
+      <!--Rwy03 ARAD3K.VELMO-->
       VELMO/ARADI
     </Line>
     <Line>
-      <!--Rwy03 ARAD2K-->
+      <!--Rwy03 ARAD3K-->
       ARADI/WYTAK
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy03 BASI2K.DUGAN-->
+      <!--Rwy03 BASI3K.DUGAN-->
       DUGAN/BASIV
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy03 BASI2K.ELNOS-->
+      <!--Rwy03 BASI3K.ELNOS-->
       ELNOS/BASIV
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy03 BASI2K.SALAG-->
+      <!--Rwy03 BASI3K.SALAG-->
       SALAG/BASIV
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy03 BASI2K.UPLAR-->
+      <!--Rwy03 BASI3K.UPLAR-->
       UPLAR/BASIV
     </Line>
     <Line>
-      <!--Rwy03 BASI2K-->
+      <!--Rwy03 BASI3K-->
       BASIV/WYTAK
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy03 EXOP2K.AGREX-->
+      <!--Rwy03 EXOP3K.AGREX-->
       AGREX/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy03 EXOP2K.AKLOM-->
+      <!--Rwy03 EXOP3K.AKLOM-->
       AKLOM/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy03 EXOP2K.ELPAK-->
+      <!--Rwy03 EXOP3K.ELPAK-->
       ELPAK/OKTUB/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy03 EXOP2K.KALAG-->
+      <!--Rwy03 EXOP3K.KALAG-->
       KALAG/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy03 EXOP2K.OLBEX-->
+      <!--Rwy03 EXOP3K.OLBEX-->
       OLBEX/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy03 EXOP2K.TARIB-->
+      <!--Rwy03 EXOP3K.TARIB-->
       TARIB/EXOPI
     </Line>
     <Line>
-      <!--Rwy03 EXOP2K-->
+      <!--Rwy03 EXOP3K-->
       EXOPI/RUTLO/VASBO/WYTAK
     </Line>
     <Line>
@@ -122,7 +122,7 @@
       LUPRU/RUTLO
     </Line>
     <Line>
-      <!--Rwy03 OMLE1K-->
+      <!--Rwy03 OMLE2K-->
       OMLEN/WYTAK
     </Line>
     <Symbol Type="HollowTriangle">
@@ -259,71 +259,71 @@
   </Map>
   <Map Type="System2" Name="21 STARs" Priority="1" CustomColourName="ProcArr" Center="-36.785153+174.639053">
     <Line>
-      <!--Rwy21 AA1J-->
+      <!--Rwy21 AA2J-->
       AA VOR/GUTLA/EMSAK/BAYES
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy21 ARAD1J.LUNBI-->
+      <!--Rwy21 ARAD2J.LUNBI-->
       LUNBI/ARADI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy21 ARAD1J.PEBLU-->
+      <!--Rwy21 ARAD2J.PEBLU-->
       PEBLU/ARADI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy21 ARAD1J.VELMO-->
+      <!--Rwy21 ARAD2J.VELMO-->
       VELMO/ARADI
     </Line>
     <Line>
-      <!--Rwy21 ARAD1J-->
+      <!--Rwy21 ARAD2J-->
       ARADI/VASBO/RUTLO/BAYES
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy21 BASI2J.DUGAN-->
+      <!--Rwy21 BASI3J.DUGAN-->
       DUGAN/BASIV
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy21 BASI2J.ELNOS-->
+      <!--Rwy21 BASI3J.ELNOS-->
       ELNOS/BASIV
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy21 BASI2J.SALAG-->
+      <!--Rwy21 BASI3J.SALAG-->
       SALAG/BASIV
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy21 BASI2J.UPLAR-->
+      <!--Rwy21 BASI3J.UPLAR-->
       UPLAR/BASIV
     </Line>
     <Line>
-      <!--Rwy21 BASI2J-->
+      <!--Rwy21 BASI3J-->
       BASIV/RUTLO
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy21 EXOP3J.AGREX-->
+      <!--Rwy21 EXOP4J.AGREX-->
       AGREX/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy21 EXOP3J.AKLOM-->
+      <!--Rwy21 EXOP4J.AKLOM-->
       AKLOM/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy21 EXOP3J.ELPAK-->
+      <!--Rwy21 EXOP4J.ELPAK-->
       ELPAK/OKTUB/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy21 EXOP3J.KALAG-->
+      <!--Rwy21 EXOP4J.KALAG-->
       KALAG/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy21 EXOP3J.OLBEX-->
+      <!--Rwy21 EXOP4J.OLBEX-->
       OLBEX/EXOPI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy21 EXOP3J.TARIB-->
+      <!--Rwy21 EXOP4J.TARIB-->
       TARIB/EXOPI
     </Line>
     <Line>
-      <!--Rwy21 EXOP3J-->
+      <!--Rwy21 EXOP4J-->
       EXOPI/BAYES
     </Line>
     <Line>
