@@ -80,8 +80,8 @@
   </Map>
   <Map Type="System2" Name="16 STARs" Priority="1" CustomColourName="ProcArr" Center="-39.461989+176.868039">
     <Line>
-      <!--Rwy16 BITI1A-->
-      BITIL/SUDBU/RISBU
+      <!--Rwy16 BITI2A-->
+      BITIL/DAKSO/SUDBU/RISBU
     </Line>
     <Line>
       <!--Rwy16 GEND3A-->
@@ -117,6 +117,7 @@
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>BITIL</Point>
+      <Point>DAKSO</Point>
       <Point>SUDBU</Point>
       <Point>GENDA</Point>
       <Point>UBNIR</Point>

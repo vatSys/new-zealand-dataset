@@ -2,39 +2,39 @@
 <Maps>
   <Map Type="System2" Name="12 SIDs" Priority="1" CustomColourName="ProcDep" Center="-35.074508+173.290461">
     <Line Pattern="Dashed">
-      <!--Rwy12 BROA3A-->
+      <!--Rwy12 BROA4A-->
       -35.074508+173.290461/KT30T/-35.091060+173.305680
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy12 BROA3A.PERAS-->
+      <!--Rwy12 BROA4A.PERAS-->
       -35.091060+173.305680/PERAS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy12 BROA3A.WP-->
+      <!--Rwy12 BROA4A.WP-->
       -35.091060+173.305680/WP VOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy12 BROA2B-->
+      <!--Rwy12 BROA3B-->
       -35.091060+173.305680/RUATO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy12 HOBBS3-->
+      <!--Rwy12 HOBBS4-->
       -35.091060+173.305680/-35.092490+173.383730/HOBBS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy12 HOBBS3.PERAS-->
+      <!--Rwy12 HOBBS4.PERAS-->
       HOBBS/PERAS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy12 HOBBS3.RUATO-->
+      <!--Rwy12 HOBBS4.RUATO-->
       HOBBS/RUATO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy12 HOBBS3.WP-->
+      <!--Rwy12 HOBBS4.WP-->
       HOBBS/WP VOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy12 VLY2-->
+      <!--Rwy12 VALEY3-->
       -35.091060+173.305680/KAROA
     </Line>
     <Symbol Type="Circle">
@@ -96,23 +96,23 @@
   </Map>
   <Map Type="System2" Name="30 SIDs" Priority="1" CustomColourName="ProcDep" Center="-35.064536+173.281014">
     <Line Pattern="Dashed">
-      <!--Rwy30 HARBO3-->
+      <!--Rwy30 HARBO4-->
       -35.064536+173.281014/KT12T/-35.051030+173.267940
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy30 HARBO3.KAROA-->
+      <!--Rwy30 HARBO4.KAROA-->
       -35.051030+173.267940/KAROA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy30 HARBO3.PERAS-->
+      <!--Rwy30 HARBO4.PERAS-->
       -35.051030+173.267940/PERAS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy30 HARBO3.RUATO-->
+      <!--Rwy30 HARBO4.RUATO-->
       -35.051030+173.267940/RUATO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy30 HARBO3.WP-->
+      <!--Rwy30 HARBO4.WP-->
       -35.051030+173.267940/WP VOR
     </Line>
     <Symbol Type="Circle">

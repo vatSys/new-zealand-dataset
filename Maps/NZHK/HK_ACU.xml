@@ -9,14 +9,20 @@
       <!--Rwy03 OSOL1R-->
       -42.669280+171.069350/-42.629410+171.149520/OSOLO
     </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy03 RILE1R-->
+      -42.669280+171.069350/RILEY
+    </Line>
     <Symbol Type="HollowTriangle">
       <Point>HK21T</Point>
       <Point>DOPAX</Point>
       <Point>OSOLO</Point>
+      <Point>RILEY</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>DOPAX</Point>
       <Point>OSOLO</Point>
+      <Point>RILEY</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="03 STARs" Priority="1" CustomColourName="ProcArr" Center="-42.713394+170.980258">
@@ -97,14 +103,20 @@
       <!--Rwy21 OSOL1S-->
       -42.728350+170.949920/-42.769070+170.864960/OSOLO
     </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy21 RILE1S-->
+      -42.728350+170.949920/RILEY
+    </Line>
     <Symbol Type="HollowTriangle">
       <Point>HK03T</Point>
       <Point>DOPAX</Point>
       <Point>OSOLO</Point>
+      <Point>RILEY</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>DOPAX</Point>
       <Point>OSOLO</Point>
+      <Point>RILEY</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="21 STARs" Priority="1" CustomColourName="ProcArr" Center="-42.707764+170.992069">
