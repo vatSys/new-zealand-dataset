@@ -10,7 +10,7 @@
     <Line Name="CHHN5" Pattern="Broken">PORAM/RIVTA/GULOV/IGUTA/AKAVI/OMKUN/OPABI/LIKTU/UPTIK/DABKA/HN VOR</Line>
     <Line Name="CHHK1" Pattern="Broken">AVOCA/BELEE/OSOLO/LOCIY/APASA</Line>
     <Line Name="CHNV3" Pattern="Broken">IDARA/DUKOP/NV VOR</Line>
-    <Line Name="CHMC1" Pattern="Broken">GUPUT/SUNAR/MAMUS</Line>
+    <Line Name="CHMC1" Pattern="Broken">UKALI/GUPUT/SUNAR/MAMUS</Line>
     <Line Name="CHNR2" Pattern="Broken">GRETA/LUXEV/KAKUR/WARDS/OMDOX/KAMET/BINIT/PM VOR/SELDU/BITIL/NR VOR</Line>
     <Line Name="CHNR4" Pattern="Broken">ODOWD/GOGUK/SAMEN/ELPIT/AGSOP/GOPRO/BINIT/PM VOR/SELDU/BITIL/NR VOR</Line>
     <Line Name="CHNS2-02" Pattern="Broken">PORAM/RIVTA/MILON/BISEB</Line>
@@ -21,13 +21,13 @@
     <Line Name="CHPM3" Pattern="Broken">GRETA/LUXEV/KAKUR/WARDS/OMDOX/KAMET/BINIT/PM VOR</Line>
     <Line Name="CHPM5" Pattern="Broken">ODOWD/GOGUK/SAMEN/ELPIT/AGSOP/GOPRO/BINIT/PM VOR</Line>
     <Line Name="CHPP2" Pattern="Broken">ODOWD/GOGUK/SAMEN/ELPIT/AGSOP/PP NDB</Line>
-    <Line Name="CHQN3" Pattern="Broken">GUPUT/SUNAR/UPNIX/ELRUV/QN VOR</Line>
+    <Line Name="CHQN3" Pattern="Broken">UKALI/GUPUT/SUNAR/UPNIX/ELRUV/QN VOR</Line>
     <Line Name="CHRO2" Pattern="Broken">GRETA/LUXEV/KAKUR/WARDS/OMDOX/KAMET/BINIT/FOXTN/OH VOR/AVKAB/ARETI/PARRA/INTOX/RO VOR</Line>
     <Line Name="CHRO6" Pattern="Broken">ODOWD/GOGUK/SAMEN/ELPIT/AGSOP/GOPRO/KAPTI/OVKOX/BEDUL/DAGOM/ARETI/PARRA/INTOX/RO VOR</Line>
     <Line Name="CHTG1" Pattern="Broken">GRETA/LUXEV/KAKUR/WARDS/OMDOX/KAMET/BINIT/FOXTN/OH VOR/AVKAB/ARETI/PARRA/OROPI/TG NDB</Line>
     <Line Name="CHTG6" Pattern="Broken">ODOWD/GOGUK/SAMEN/ELPIT/AGSOP/GOPRO/KAPTI/OVKOX/BEDUL/DAGOM/ARETI/PARRA/OROPI/TG NDB</Line>
     <Line Name="CHTU3" Pattern="Broken">IVRON/ELDAK/BUDPA/TU NDB</Line>
-    <Line Name="CHWF2" Pattern="Broken">GUPUT/SUNAR/UPNIX/ELRUV</Line>
+    <Line Name="CHWF2" Pattern="Broken">UKALI/GUPUT/SUNAR/UPNIX/ELRUV</Line>
     <Line Name="CHWN1" Pattern="Broken">GRETA/LUXEV/KAKUR/WARDS/OMDOX/WN VOR</Line>
     <Line Name="CHWN7" Pattern="Broken">MANUI/IDGIV/ONOLA/WAIMA/OMDOX/WN VOR</Line>
     <Line Name="CHWP1" Pattern="Broken">GLENN/GULOV/IGUTA/AKAVI/OMKUN/LEBOX/POKOM/DAVEE/BROOK/AA VOR/WP VOR</Line>
@@ -39,7 +39,7 @@
       <Point>LALAP</Point>
       <Point>IDARA</Point>
       <Point>AVOCA</Point>
-      <Point>GUPUT</Point>
+      <Point>UKALI</Point>
       <Point>GRETA</Point>
       <Point>ODOWD</Point>
       <Point>IVRON</Point>
@@ -51,7 +51,7 @@
       <Point Name="CI1">LALAP</Point>
       <Point Name="DN1 NV3">IDARA</Point>
       <Point Name="GM1 HK1">AVOCA</Point>
-      <Point Name="MC1 QN3 WF2">GUPUT</Point>
+      <Point Name="MC1 QN3 WF2">UKALI</Point>
       <Point Name="NR2 OH3 PM3 RO2">GRETA</Point>
       <Point Name="NR4 OH5 PM5 PP2">ODOWD</Point>
       <Point Name="TU3">IVRON</Point>
@@ -68,7 +68,7 @@
       <Point>LALAP</Point>
       <Point>IDARA</Point>
       <Point>AVOCA</Point>
-      <Point>GUPUT</Point>
+      <Point>UKALI</Point>
       <Point>GRETA</Point>
       <Point>ODOWD</Point>
       <Point>IVRON</Point>

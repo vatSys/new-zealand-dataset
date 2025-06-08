@@ -558,6 +558,23 @@
 -395736.600+1772545.100</Area>
       <Activations />
     </RestrictedArea>
+    <RestrictedArea Type="Restricted" Name="M602 TRENTHAM" AltitudeFloor="0" AltitudeCeiling="1500" DAIWEnabled="true" LinePattern="Solid">
+      <Area>
+-410827.470+1750244.240/
+-410902.810+1750310.110/
+-410938.990+1750250.700/
+-410950.560+1750224.460/
+-410933.760+1750217.220/
+-410919.440+1750220.270/
+-410911.350+1750218.110/
+-410837.810+1750149.610/
+-410828.240+1750211.860/
+-410835.680+1750219.780/
+-410827.470+1750244.240</Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
+    </RestrictedArea>
     <RestrictedArea Type="Restricted" Name="M800 GLENTUNNEL" AltitudeFloor="0" AltitudeCeiling="3500" DAIWEnabled="true" LinePattern="Solid">
       <Area>
 -432851.600+1715212.400/
@@ -747,22 +764,6 @@
 -402610.100+1754221.100/
 -402544.400+1754717.600/
 -402644.700+1754848.800</Area>
-      <Activations>
-        <Activation H24="true" Start="0000" End="0000" />
-      </Activations>
-    </RestrictedArea>
-    <RestrictedArea Type="Danger" Name="D621 TRENTHAM" AltitudeFloor="0" AltitudeCeiling="1500" DAIWEnabled="true" LinePattern="Dotted">
-      <Area>
--410836.500+1750244.790/
--410902.810+1750310.110/
--410950.560+1750224.460/
--410933.760+1750217.220/
--410919.440+1750220.270/
--410851.490+1750212.360/
--410847.790+1750210.020/
--410846.070+1750212.440/
--410847.240+1750220.020/
--410836.500+1750244.790</Area>
       <Activations>
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>

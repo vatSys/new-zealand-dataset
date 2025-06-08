@@ -2,32 +2,32 @@
 <Maps>
   <Map Type="System2" Name="03 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.924378+170.207786">
     <Line Pattern="Dashed">
-      <!--Rwy03 AKPI4P-->
-      -45.924378+170.207786/DN03T/DUKES/IVTOP/LEKOD/DABCA/AKPIN
+      <!--Rwy03 AKPI5P-->
+      -45.924378+170.207786/DN03T/GUTED/IVTOP/LEKOD/DABCA/AKPIN
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy03 BASO3P-->
-      -45.924378+170.207786/DN21T/DUKES/KADSU/ANGOT/BASOS
+      <!--Rwy03 BASO4P-->
+      -45.924378+170.207786/DN21T/GUTED/KADSU/ANGOT/BASOS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy03 BASO3P.ADKOS-->
-      BASOS/MOXET/AKBUM/ADKOS
+      <!--Rwy03 BASO4P.ADKOS-->
+      BASOS/MESOG/AKBUM/ADKOS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy03 BASO3P.LIBLA-->
+      <!--Rwy03 BASO4P.LIBLA-->
       BASOS/ATRAG/BOKAV/LIBLA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy03 BASO3P.SUNGU-->
+      <!--Rwy03 BASO4P.SUNGU-->
       BASOS/SUNGU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy03 BIDE3P-->
-      DUKES/ESKAT/NOMUG/DOTVA/BIDEL
+      <!--Rwy03 BIDE4P-->
+      GUTED/ESKAT/NOMUG/BIDEL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy03 BIDE2R-->
-      DUKES/ADNAV/RULOL/LUTSA/BIDEL
+      <!--Rwy03 BIDE3R-->
+      GUTED/ADNAV/KAMVU/BIDEL
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy03 SOUTH5-->
@@ -72,7 +72,7 @@
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>DN03T</Point>
-      <Point>DUKES</Point>
+      <Point>GUTED</Point>
       <Point>IVTOP</Point>
       <Point>LEKOD</Point>
       <Point>DABCA</Point>
@@ -81,7 +81,7 @@
       <Point>KADSU</Point>
       <Point>ANGOT</Point>
       <Point>BASOS</Point>
-      <Point>MOXET</Point>
+      <Point>MESOG</Point>
       <Point>AKBUM</Point>
       <Point>ADKOS</Point>
       <Point>ATRAG</Point>
@@ -90,11 +90,9 @@
       <Point>SUNGU</Point>
       <Point>ESKAT</Point>
       <Point>NOMUG</Point>
-      <Point>DOTVA</Point>
       <Point>BIDEL</Point>
       <Point>ADNAV</Point>
-      <Point>RULOL</Point>
-      <Point>LUTSA</Point>
+      <Point>KAMVU</Point>
       <Point>OREXI</Point>
       <Point>PORUT</Point>
       <Point>MEGUG</Point>
@@ -118,35 +116,35 @@
   </Map>
   <Map Type="System2" Name="03 STARs" Priority="1" CustomColourName="ProcArr" Center="-45.933925+170.187472">
     <Line Pattern="Solid">
-      <!--Rwy03 BASO4A.ADKOS-->
-      ADKOS/AKBUM/GOGES/MOXET/BASOS
+      <!--Rwy03 BASO5A.ADKOS-->
+      ADKOS/AKBUM/GOGES/MESOG/BASOS
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy03 BASO4A.LIBLA-->
+      <!--Rwy03 BASO5A.LIBLA-->
       LIBLA/BOKAV/MIMEG/ATRAG/BASOS
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy03 BASO4A.SUNGU-->
+      <!--Rwy03 BASO5A.SUNGU-->
       SUNGU/BASOS
     </Line>
     <Line>
-      <!--Rwy03 BASO4A-->
+      <!--Rwy03 BASO5A-->
       BASOS/VELBI/ANGOT/KAKAX/DAGNU/OTKIS/AKLAR
     </Line>
     <Line>
-      <!--Rwy03 DABC2A-->
+      <!--Rwy03 DABC3A-->
       DABCA/ELNEK/AKLAR
     </Line>
     <Line>
-      <!--Rwy03 EPDA2A-->
+      <!--Rwy03 EPDA3A-->
       EPDAB/ALBOX/MANOP/AKLAR
     </Line>
     <Line>
-      <!--Rwy03 MIPA5A-->
+      <!--Rwy03 MIPA6A-->
       MIPAK/IPKUG/ADBAD/RELEK/ANBIG/BIPUV/AKLAR
     </Line>
     <Line>
-      <!--Rwy03 MIPA2C-->
+      <!--Rwy03 MIPA3C-->
       ADBAD/IVTOP/ELNEK
     </Line>
     <Symbol Type="HollowTriangle">
@@ -156,7 +154,7 @@
       <Point>ADKOS</Point>
       <Point>AKBUM</Point>
       <Point>GOGES</Point>
-      <Point>MOXET</Point>
+      <Point>MESOG</Point>
       <Point>BASOS</Point>
       <Point>LIBLA</Point>
       <Point>BOKAV</Point>
@@ -217,27 +215,27 @@
   </Map>
   <Map Type="System2" Name="21 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.933925+170.187472">
     <Line Pattern="Dashed">
-      <!--Rwy21 AKPI2Q-->
+      <!--Rwy21 AKPI3Q-->
       -45.933925+170.187472/DN03T/AKLAR/IDADO/AKPIN
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy21 ALBO2Q-->
+      <!--Rwy21 ALBO3Q-->
       AKLAR/ALBOX
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy21 BASO2Q-->
+      <!--Rwy21 BASO3Q-->
       AKLAR/ANGOT/BASOS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy21 BASO2Q.ADKOS-->
-      BASOS/MOXET/AKBUM/ADKOS
+      <!--Rwy21 BASO3Q.ADKOS-->
+      BASOS/MESOG/AKBUM/ADKOS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy21 BASO2Q.LIBLA-->
+      <!--Rwy21 BASO3Q.LIBLA-->
       BASOS/ATRAG/BOKAV/LIBLA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy21 BASO2Q.SUNGU-->
+      <!--Rwy21 BASO3Q.SUNGU-->
       BASOS/SUNGU
     </Line>
     <Line Pattern="Dashed">
@@ -249,12 +247,12 @@
       -45.933925+170.187472/DN21T/BE NDB/PORUT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy21 BIDE3Q-->
-      DN03T/AGESO/OKAPO/ATGUB/TEBIV/NOMUG/DOTVA/BIDEL
+      <!--Rwy21 BIDE4Q-->
+      DN03T/AGESO/OKAPO/ATGUB/TEBIV/BIDEL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy21 BIDE4S-->
-      AGESO/MANRA/ENDUR/IDLIK/PIBEX/RULOL/LUTSA/BIDEL
+      <!--Rwy21 BIDE5S-->
+      DN03T/MANRA/ENDUR/IDLIK/PIBEX/KAMVU/BIDEL
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy21 OCEAN6-->
@@ -279,7 +277,7 @@
       <Point>ALBOX</Point>
       <Point>ANGOT</Point>
       <Point>BASOS</Point>
-      <Point>MOXET</Point>
+      <Point>MESOG</Point>
       <Point>AKBUM</Point>
       <Point>ADKOS</Point>
       <Point>ATRAG</Point>
@@ -293,15 +291,12 @@
       <Point>OKAPO</Point>
       <Point>ATGUB</Point>
       <Point>TEBIV</Point>
-      <Point>NOMUG</Point>
-      <Point>DOTVA</Point>
       <Point>BIDEL</Point>
       <Point>MANRA</Point>
       <Point>ENDUR</Point>
       <Point>IDLIK</Point>
       <Point>PIBEX</Point>
-      <Point>RULOL</Point>
-      <Point>LUTSA</Point>
+      <Point>KAMVU</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>AKPIN</Point>
@@ -319,35 +314,35 @@
   </Map>
   <Map Type="System2" Name="21 STARs" Priority="1" CustomColourName="ProcArr" Center="-45.924378+170.207786">
     <Line>
-      <!--Rwy21 AKLA2B-->
+      <!--Rwy21 AKLA3B-->
       AKLAR/BIPUV/LOSKO/AKDAS/BIGAR/ESKAT
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy21 BASO3B.ADKOS-->
-      ADKOS/AKBUM/GOGES/MOXET/BASOS
+      <!--Rwy21 BASO4B.ADKOS-->
+      ADKOS/AKBUM/GOGES/MESOG/BASOS
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy21 BASO3B.LIBLA-->
+      <!--Rwy21 BASO4B.LIBLA-->
       LIBLA/BOKAV/MIMEG/ATRAG/BASOS
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy21 BASO3B.SUNGU-->
+      <!--Rwy21 BASO4B.SUNGU-->
       SUNGU/BASOS
     </Line>
     <Line>
-      <!--Rwy21 BASO3B-->
+      <!--Rwy21 BASO4B-->
       BASOS/VELBI/ANGOT/EMTOX/ADBAD/BIGAR
     </Line>
     <Line>
-      <!--Rwy21 DABC2B-->
+      <!--Rwy21 DABC3B-->
       DABCA/BIPUV
     </Line>
     <Line>
-      <!--Rwy21 EPDA2B-->
+      <!--Rwy21 EPDA3B-->
       EPDAB/ALBOX/MANOP/BIPUV
     </Line>
     <Line>
-      <!--Rwy21 MIPA3B-->
+      <!--Rwy21 MIPA4B-->
       MIPAK/IPKUG/ADBAD
     </Line>
     <Symbol Type="HollowTriangle">
@@ -362,7 +357,7 @@
       <Point>ADKOS</Point>
       <Point>AKBUM</Point>
       <Point>GOGES</Point>
-      <Point>MOXET</Point>
+      <Point>MESOG</Point>
       <Point>BASOS</Point>
       <Point>LIBLA</Point>
       <Point>BOKAV</Point>
