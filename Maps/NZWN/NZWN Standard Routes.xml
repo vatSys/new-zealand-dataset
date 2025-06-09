@@ -13,7 +13,7 @@
     <Line Name="WNHN2" Pattern="Broken">KAPTI/OVKOX/BEDUL/DAGOM/OMBUB/ELDIB/LIKTU/UPTIK/DABKA/HN VOR</Line>
     <Line Name="WNHN7" Pattern="Broken">KAPTI/OVKOX/BEDUL/DAGOM/ARETI/PARRA/INTOX/RO VOR/FALLS/GODOK</Line>
     <Line Name="WNHS2" Pattern="Broken">KAMET/BINIT/PM VOR/RIDLA/OPAPA</Line>
-    <Line Name="WNMS1" Pattern="Broken"/>
+    <Line Name="WNMS1" Pattern="Broken">AKTAN/OREUM/UBKUG</Line>
     <Line Name="WNNV2" Pattern="Broken">SABDA/MESIX/IDARA/DUKOP/NV VOR</Line>
     <Line Name="WNNV5" Pattern="Broken">VENAM/ATBUB/MESIX/IDARA/DUKOP/NV VOR</Line>
     <Line Name="WNNR2" Pattern="Broken">KAMET/BINIT/PM VOR/SELDU/BITIL/NR VOR</Line>
@@ -48,7 +48,7 @@
       <Point>SABDA</Point>
       <Point>VENAM</Point>
       <Point>KAPTI</Point>
-      <Point>undefined</Point>
+      <Point>AKTAN</Point>
       <Point>NULKO</Point>
       <Point>LUBSI</Point>
       <Point>AVPOD</Point>
@@ -62,7 +62,7 @@
       <Point Name="CH3 DN1 NV2 QN3">SABDA</Point>
       <Point Name="CH5 DN8 NV5 QN5">VENAM</Point>
       <Point Name="HN2 HN7 RO1 AP3">KAPTI</Point>
-      <Point Name="MS1">undefined</Point>
+      <Point Name="MS1">AKTAN</Point>
       <Point Name="NS1-34 WS1-34">NULKO</Point>
       <Point Name="NS1-16 WS1-16">LUBSI</Point>
       <Point Name="PN3-34 WB3-34">AVPOD</Point>
@@ -81,7 +81,7 @@
       <Point>SABDA</Point>
       <Point>VENAM</Point>
       <Point>KAPTI</Point>
-      <Point>undefined</Point>
+      <Point>AKTAN</Point>
       <Point>NULKO</Point>
       <Point>LUBSI</Point>
       <Point>AVPOD</Point>
