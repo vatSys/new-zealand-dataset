@@ -186,15 +186,15 @@
       RINRI/GUTNI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy07 TUTS2B.APITI-->
+      <!--Rwy07 TUTS3B.APITI-->
       APITI/TUTSI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy07 TUTS2B.IDLUR-->
+      <!--Rwy07 TUTS3B.IDLUR-->
       IDLUR/TUTSI
     </Line>
     <Line>
-      <!--Rwy07 TUTS2B-->
+      <!--Rwy07 TUTS3B-->
       TUTSI/LEKED/OLMUX/AKNIN
     </Line>
     <Line>

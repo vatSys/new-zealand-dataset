@@ -248,7 +248,7 @@
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZAA_DEP">
-        <Line>Auckland Departures</Line>
+        <Line>Auckland Approach</Line>
         <Line>Controls outbound aircraft within the AA TMA.</Line>
         <Line>Need local charts? - vats.im/nz/charts</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
@@ -307,7 +307,7 @@
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZWN_DEP">
-        <Line>Wellington Departures</Line>
+        <Line>Wellington Approach</Line>
         <Line>Controls outbound aircraft within the WN TMA.</Line>
         <Line>Need local charts? - vats.im/nz/charts</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
@@ -363,7 +363,7 @@
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZCH_DEP">
-        <Line>Christchurch Departures</Line>
+        <Line>Christchurch Approach</Line>
         <Line>Controls outbound aircraft within the CH TMA.</Line>
         <Line>Need local charts? - vats.im/nz/charts</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>

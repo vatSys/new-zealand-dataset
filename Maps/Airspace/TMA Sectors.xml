@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-    <Map Type="System2" Name="TMA Sectors" Priority="2">
-        <!--Auckland Approach-->
-        <Line Name="NZAA_APP" Pattern="Dashed">
+  <Map Type="System2" Name="TMA Sectors" Priority="2">
+    <!--Auckland Approach-->
+    <Line Name="NZAA_APP" Pattern="Dashed">
 -365906.720+1734005.304/
 -365850.088+1735007.512/
 -365359.050+1734836.851/
@@ -76,8 +76,8 @@
 -370444.541+1734008.394/
 -365956.809+1733957.004/
 -365906.720+1734005.304</Line>
-        <!--Christchurch Approach-->
-        <Line Name="NZCH_APP" Pattern="Dashed">
+    <!--Christchurch Approach-->
+    <Line Name="NZCH_APP" Pattern="Dashed">
 -434354.012+1723500.420/
 -440920.304+1724247.448/
 -441005.561+1723544.275/
@@ -134,8 +134,8 @@
 -431309.697+1732037.510/
 -431453.592+1732144.172/
 -434354.012+1723500.420</Line>
-        <!--Hamilton Approach-->
-        <Line Name="NZHN_APP" Pattern="Dashed">
+    <!--Hamilton Approach-->
+    <Line Name="NZHN_APP" Pattern="Dashed">
 -373424.024+1745852.212/
 -373342.624+1750929.700/
 -373047.628+1751914.988/
@@ -149,8 +149,8 @@
 -380649.500+1750100.876/
 -374923.304+1745823.664/
 -373424.024+1745852.212</Line>
-        <!--Ohakea Approach-->
-        <Line Name="NZOH_APP" Pattern="Dashed">
+    <!--Ohakea Approach-->
+    <Line Name="NZOH_APP" Pattern="Dashed">
 -394745.276+1744601.344/
 -394127.240+1745504.476/
 -394150.100+1752210.884/
@@ -180,8 +180,8 @@
 -403752.680+1745947.544/
 -403754.012+1745453.820/
 -394745.276+1744601.344</Line>
-        <!--Queenstown Approach-->
-        <Line Name="NZQN_APP" Pattern="Dashed">
+    <!--Queenstown Approach-->
+    <Line Name="NZQN_APP" Pattern="Dashed">
 -442805.592+1674952.896/
 -441108.700+1682153.100/
 -443247.292+1691003.108/
@@ -203,8 +203,8 @@
 -445622.380+1680548.912/
 -443758.404+1680006.444/
 -442805.592+1674952.896</Line>
-        <!--Wellington Approach-->
-        <Line Name="NZWN_APP" Pattern="Dashed">
+    <!--Wellington Approach-->
+    <Line Name="NZWN_APP" Pattern="Dashed">
 -404238.484+1751622.188/
 -405706.804+1751656.604/
 -411118.420+1751850.976/
@@ -251,5 +251,5 @@
 -403753.796+1745231.584/
 -403753.796+1745948.012/
 -404238.484+1751622.188</Line>
-    </Map>
+  </Map>
 </Maps>

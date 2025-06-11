@@ -22,7 +22,15 @@
       SOTVO/PORIG
     </Line>
     <Line Pattern="Dashed">
+      <!--Rwy09 IGBU1T-->
+      -40.209364+175.399772/OH27T/IGLAM/PATBI/POSOL/IGBUD
+    </Line>
+    <Line Pattern="Dashed">
       <!--Rwy09 OH1R-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy09 RIML1T-->
+      IGLAM/MABEK/RIMLU
     </Line>
     <Symbol Type="SolidStar">
       <Point>DANPO</Point>
@@ -38,10 +46,18 @@
       <Point>ENTIM</Point>
       <Point>ESMUK</Point>
       <Point>PORIG</Point>
+      <Point>IGLAM</Point>
+      <Point>PATBI</Point>
+      <Point>POSOL</Point>
+      <Point>IGBUD</Point>
+      <Point>MABEK</Point>
+      <Point>RIMLU</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>DANPO</Point>
+      <Point>IGBUD</Point>
       <Point>OH27T</Point>
+      <Point>RIMLU</Point>
       <Point>ABTOL</Point>
       <Point>ENTIM</Point>
       <Point>ESMUK</Point>
@@ -124,8 +140,16 @@
       IDSEN/PORIG
     </Line>
     <Line Pattern="Dashed">
+      <!--Rwy27 IGBU1T-->
+      -40.202656+175.374325/OH09T/IGLAM/PATBI/POSOL/IGBUD
+    </Line>
+    <Line Pattern="Dashed">
       <!--Rwy27 OH1S-->
       OH27T/OH09T
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy27 RIML1T-->
+      IGLAM/MABEK/RIMLU
     </Line>
     <Symbol Type="SolidStar">
       <Point>ENGOK</Point>
@@ -140,10 +164,18 @@
       <Point>ESMUK</Point>
       <Point>PORIG</Point>
       <Point>OH09T</Point>
+      <Point>IGLAM</Point>
+      <Point>PATBI</Point>
+      <Point>POSOL</Point>
+      <Point>IGBUD</Point>
+      <Point>MABEK</Point>
+      <Point>RIMLU</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>ENGOK</Point>
+      <Point>IGBUD</Point>
       <Point>OH09T</Point>
+      <Point>RIMLU</Point>
       <Point>ABTOL</Point>
       <Point>ENTIM</Point>
       <Point>ESMUK</Point>
@@ -204,6 +236,29 @@
       <Point>PEDBA</Point>
     </Label>
   </Map>
+  <Map Type="System2" Name="15 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.217233+175.390497">
+    <Line Pattern="Dashed">
+      <!--Rwy15 IGBU1T-->
+      -40.217233+175.390497/OH33T/IGLAM/PATBI/POSOL/IGBUD
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy15 RIML1T-->
+      IGLAM/MABEK/RIMLU
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>OH33T</Point>
+      <Point>IGLAM</Point>
+      <Point>PATBI</Point>
+      <Point>POSOL</Point>
+      <Point>IGBUD</Point>
+      <Point>MABEK</Point>
+      <Point>RIMLU</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>IGBUD</Point>
+      <Point>RIMLU</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="15 RNP" Priority="1" Center="-40.199703+175.386042" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
@@ -229,6 +284,29 @@
       <Point>ADKIS</Point>
       <Point>BOBIT</Point>
       <Point>DOXIN</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="33 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.199703+175.386042">
+    <Line Pattern="Dashed">
+      <!--Rwy33 IGBU1T-->
+      -40.199703+175.386042/OH15T/IGLAM/PATBI/POSOL/IGBUD
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy33 RIML1T-->
+      IGLAM/MABEK/RIMLU
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>OH15T</Point>
+      <Point>IGLAM</Point>
+      <Point>PATBI</Point>
+      <Point>POSOL</Point>
+      <Point>IGBUD</Point>
+      <Point>MABEK</Point>
+      <Point>RIMLU</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>IGBUD</Point>
+      <Point>RIMLU</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="33 RNP" Priority="1" Center="-40.217233+175.390497" CustomColourName="ProcArr">
