@@ -2,8 +2,12 @@
 <Maps>
   <Map Type="System2" Name="15 SIDs" Priority="1" CustomColourName="ProcDep" Center="-35.262803+173.913750">
     <Line Pattern="Dashed">
+      <!--Rwy15 KARO1P-->
+      -35.262803+173.913750/KK33T/-35.316520+173.930040/KAROA
+    </Line>
+    <Line Pattern="Dashed">
       <!--Rwy15 LAKE2-->
-      -35.262803+173.913750/KK33T/-35.284800+173.920720/KAROA
+      KK33T/-35.284800+173.920720/KAROA
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy15 MOERE2-->
@@ -11,7 +15,11 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy15 OBKO1P-->
-      KK33T/-35.316520+173.930040/SAKIM/OBKOP
+      -35.316520+173.930040/SAKIM/OBKOP
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy15 OVMI1P-->
+      -35.316520+173.930040/ELGAV/OVMIL
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy15 PAKAR2-->
@@ -29,6 +37,8 @@
       <Point>KAROA</Point>
       <Point>SAKIM</Point>
       <Point>OBKOP</Point>
+      <Point>ELGAV</Point>
+      <Point>OVMIL</Point>
       <Point>KOPPA</Point>
       <Point>KK412</Point>
       <Point>URGAR</Point>
@@ -38,14 +48,15 @@
       <Point>KAROA</Point>
       <Point>SF NDB</Point>
       <Point>OBKOP</Point>
+      <Point>OVMIL</Point>
       <Point>KOPPA</Point>
       <Point>UPGAM</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="15 STARs" Priority="1" CustomColourName="ProcArr" Center="-35.252417+173.910506">
     <Line>
-      <!--Rwy15 SAKI1A-->
-      SAKIM/KK NDB/KK611/KALVA
+      <!--Rwy15 SAKI2A-->
+      SAKIM/OMBAL/KK611/KALVA
     </Line>
     <Line>
       <!--Rwy15 URGA1A-->
@@ -54,11 +65,9 @@
     <Symbol Type="HollowTriangle">
       <Point>KALVA</Point>
     </Symbol>
-    <Symbol Type="Circle">
-      <Point>KK NDB</Point>
-    </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>SAKIM</Point>
+      <Point>OMBAL</Point>
       <Point>KK611</Point>
       <Point>URGAR</Point>
       <Point>KK527</Point>
@@ -110,12 +119,20 @@
       -35.230180+173.903640/SF NDB
     </Line>
     <Line Pattern="Dashed">
+      <!--Rwy33 KARO1R-->
+      KK15T/-35.187280+173.890430/KAROA
+    </Line>
+    <Line Pattern="Dashed">
       <!--Rwy33 OBKO2Q-->
       KK15T/-35.222222+173.900544/KK738/NUKBI/VEDNA/SAKIM/OBKOP
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy33 OBKO1R-->
-      KK15T/-35.187280+173.890430/KK726/KK877/SAKIM
+      -35.187280+173.890430/KK726/KK877/SAKIM
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy33 OVMI1Q-->
+      -35.187280+173.890430/KK738/ELGAV/OVMIL
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy33 UPGA2Q-->
@@ -131,6 +148,7 @@
     <Symbol Type="HollowTriangle">
       <Point>KK15T</Point>
       <Point>KOPPA</Point>
+      <Point>KAROA</Point>
       <Point>KK738</Point>
       <Point>NUKBI</Point>
       <Point>VEDNA</Point>
@@ -138,14 +156,16 @@
       <Point>OBKOP</Point>
       <Point>KK726</Point>
       <Point>KK877</Point>
+      <Point>ELGAV</Point>
+      <Point>OVMIL</Point>
       <Point>URGAR</Point>
       <Point>UPGAM</Point>
-      <Point>KAROA</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>OBKOP</Point>
-      <Point>UPGAM</Point>
       <Point>KAROA</Point>
+      <Point>OBKOP</Point>
+      <Point>OVMIL</Point>
+      <Point>UPGAM</Point>
       <Point>KOPPA</Point>
       <Point>SF NDB</Point>
     </Label>

@@ -22,8 +22,8 @@
       WB06T/-41.513611+173.943889/VASLU/SEDSI/SADBO/LUBSI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy06 NZWB1A-->
-      WB06T/LUTKA
+      <!--Rwy06 NZWB2A-->
+      WB06T/-41.500300+174.130600
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy06 SEDS3Q-->
@@ -54,7 +54,6 @@
       <Point>SEDSI</Point>
       <Point>SADBO</Point>
       <Point>LUBSI</Point>
-      <Point>LUTKA</Point>
       <Point>AVPOD</Point>
       <Point>IPMIR</Point>
     </Symbol>
@@ -62,7 +61,6 @@
       <Point>MARLO</Point>
       <Point>DOTUT</Point>
       <Point>LUBSI</Point>
-      <Point>LUTKA</Point>
       <Point>SEDSI</Point>
       <Point>ELPIT</Point>
       <Point>SULRI</Point>

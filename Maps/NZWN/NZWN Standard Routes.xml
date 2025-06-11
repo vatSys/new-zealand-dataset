@@ -24,8 +24,8 @@
     <Line Name="WNPM1" Pattern="Broken">KAMET/BINIT/PM VOR</Line>
     <Line Name="WNPN3-34" Pattern="Broken">AVPOD</Line>
     <Line Name="WNPN3-16" Pattern="Broken">IGMUL/LUTKA</Line>
-    <Line Name="WNQN3" Pattern="Broken">SABDA/MESIX/CH VOR/GUPUT/SUNAR/UPNIX/ELRUV/QN VOR</Line>
-    <Line Name="WNQN5" Pattern="Broken">VENAM/ATBUB/MESIX/CH VOR/GUPUT/SUNAR/UPNIX/ELRUV/QN VOR</Line>
+    <Line Name="WNQN3" Pattern="Broken">SABDA/MESIX/CH VOR/UKALI/GUPUT/SUNAR/UPNIX/ELRUV/QN VOR</Line>
+    <Line Name="WNQN5" Pattern="Broken">VENAM/ATBUB/MESIX/CH VOR/UKALI/GUPUT/SUNAR/UPNIX/ELRUV/QN VOR</Line>
     <Line Name="WNRO1" Pattern="Broken">KAPTI/OVKOX/BEDUL/DAGOM/ARETI/PARRA/INTOX/RO VOR</Line>
     <Line Name="WNAP3" Pattern="Broken">KAPTI/OVKOX/BEDUL/DAGOM/ARETI/SULFA/AP NDB</Line>
     <Line Name="WNTG1" Pattern="Broken">KAPTI/OVKOX/BEDUL/DAGOM/ARETI/PARRA/OROPI/TG NDB</Line>
