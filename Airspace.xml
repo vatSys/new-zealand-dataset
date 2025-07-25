@@ -2258,7 +2258,7 @@ SF NDB
 AVNAT/
 KUSMI/
 GOVDI/
-IDVUD/
+UKMEG/
 KABUV
 </Airway>
     <Airway Name="KQ893">
@@ -2687,7 +2687,7 @@ ISVOV/
 UPMUS/
 OLPUK/
 VAVDI/
-WK NDB
+WK VOR
 </Airway>
     <Airway Name="Q359">
 GS VOR/
@@ -3852,7 +3852,7 @@ RILEY
     <Point Name="BLUJA" Type="Fix">-142331.750-1704842.910</Point>
     <Point Name="BOBIT" Type="Fix">-400506.330+1751435.370</Point>
     <Point Name="BODEM" Type="Fix">-373345.690+1783712.250</Point>
-    <Point Name="BODER" Type="Fix">-155400.300-1754940.500</Point>
+    <Point Name="BODER" Type="Fix">-155400.300-1754941.000</Point>
     <Point Name="BODIM" Type="Fix">-413422.990+1740138.860</Point>
     <Point Name="BODOX" Type="Fix">-133911.250-1714636.990</Point>
     <Point Name="BODUG" Type="Fix">-370442.300+1750414.800</Point>
@@ -4096,7 +4096,7 @@ RILEY
     <Point Name="EAGIL" Type="Fix">-364017.730+1753805.820</Point>
     <Point Name="EBEBE" Type="Fix">+023511.004-1643719.020</Point>
     <Point Name="EGAMU" Type="Fix">-463206.460+1681006.560</Point>
-    <Point Name="EGATO" Type="Fix">-250000.000+1771957.780</Point>
+    <Point Name="EGATO" Type="Fix">-250000.000+1771957.000</Point>
     <Point Name="EGEVI" Type="Fix">-392414.130+1743434.830</Point>
     <Point Name="EGILI" Type="Fix">-370032.660+1755741.410</Point>
     <Point Name="EGINO" Type="Fix">-411624.650+1730502.000</Point>
@@ -4414,7 +4414,7 @@ RILEY
     <Point Name="IDMAT" Type="Fix">-385957.610+1740345.360</Point>
     <Point Name="IDMUB" Type="Fix">-403729.800+1721651.910</Point>
     <Point Name="IDNIM" Type="Fix">-412244.610+1724728.820</Point>
-    <Point Name="IDNIP" Type="Fix">-151330.490-1753137.730</Point>
+    <Point Name="IDNIP" Type="Fix">-151330.000-1753138.000</Point>
     <Point Name="IDONO" Type="Fix">-371954.030+1745349.310</Point>
     <Point Name="IDPAX" Type="Fix">-440426.410+1700949.220</Point>
     <Point Name="IDPER" Type="Fix">-433332.270+1715900.850</Point>
@@ -5154,7 +5154,7 @@ RILEY
     <Point Name="OSTEL" Type="Fix">-371954.790+1753120.730</Point>
     <Point Name="OSTOG" Type="Fix">-384702.910+1743109.380</Point>
     <Point Name="OSUGA" Type="Fix">-200000.000-1651906.000</Point>
-    <Point Name="OSVAR" Type="Fix">-280753.220+1674126.260</Point>
+    <Point Name="OSVAR" Type="Fix">-280753.000+1674126.000</Point>
     <Point Name="OTAKI" Type="Fix">-404609.340+1751644.730</Point>
     <Point Name="OTATA" Type="Fix">-363851.230+1745109.250</Point>
     <Point Name="OTKIS" Type="Fix">-460204.510+1695245.360</Point>
@@ -5532,9 +5532,7 @@ RILEY
     <Point Name="SELTA" Type="Fix">-392425.210+1742647.950</Point>
     <Point Name="SEMBA" Type="Fix">-413131.080+1734340.780</Point>
     <Point Name="SETTS" Type="Fix">-142608.910-1710205.920</Point>
-    <Point Name="SHELL" Type="Fix">-393546.390+1732352.700</Point>
     <Point Name="SHILI" Type="Fix">-362242.290+1741610.630</Point>
-    <Point Name="SHORE" Type="Fix">-411231.170+1744535.310</Point>
     <Point Name="SILVO" Type="Fix">-390341.320+1742135.890</Point>
     <Point Name="SIMZI" Type="Fix">-411914.700+1735715.250</Point>
     <Point Name="SKEET" Type="Fix">-412120.710+1723622.530</Point>
@@ -5625,7 +5623,7 @@ RILEY
     <Point Name="TEREN" Type="Fix">-183707.270-1595034.860</Point>
     <Point Name="TERIL" Type="Fix">-402347.080+1753720.080</Point>
     <Point Name="TEROT" Type="Fix">-401211.740+1753901.000</Point>
-    <Point Name="TERUX" Type="Fix">-250000.000+1714354.200</Point>
+    <Point Name="TERUX" Type="Fix">-250000.000+1714354.000</Point>
     <Point Name="TESAS" Type="Fix">-332050.590+1594932.470</Point>
     <Point Name="TEVUC" Type="Fix">-370228.090+1751044.710</Point>
     <Point Name="THANG" Type="Fix">-365745.250+1750316.720</Point>
@@ -5962,7 +5960,6 @@ RILEY
     <Point Name="KT" Type="Navaid" NavaidType="NDB" Frequency="238">-350142.900+1731432.500</Point>
     <Point Name="LHI" Type="Navaid" NavaidType="NDB" Frequency="0">-313144.101+1590422.598</Point>
     <Point Name="LOG" Type="Navaid" NavaidType="NDB" Frequency="242">-142113.500-1704456.200</Point>
-    <Point Name="LX" Type="Navaid" NavaidType="NDB" Frequency="386">-450955.900+1692847.500</Point>
     <Point Name="MH" Type="Navaid" NavaidType="NDB" Frequency="380">-102246.800-1610009.000</Point>
     <Point Name="MI" Type="Navaid" NavaidType="NDB" Frequency="358">-455217.000+1701912.600</Point>
     <Point Name="NA" Type="Navaid" NavaidType="NDB" Frequency="0">-180250.791+1783332.821</Point>
@@ -6460,8 +6457,8 @@ RILEY
     <Point Name="KAI IWI BEACH" Type="Fix">-395310.900+1745401.170</Point>
     <Point Name="KAINGAROA" Type="Fix">-382430.600+1763356.500</Point>
     <Point Name="KAIPO SADDLE" Type="Fix">-442703.800+1675925.200</Point>
-    <Point Name="KAITUNA BRIDGE" Type="Fix">-374446.800+1762115.500</Point>
     <Point Name="KAITUNA BRIDGE" Type="Fix">-412842.400+1734844.400</Point>
+    <Point Name="KAITUNA BRIDGE" Type="Fix">-374446.800+1762115.500</Point>
     <Point Name="KARAKA" Type="Fix">-370437.500+1745541.700</Point>
     <Point Name="KARANGAHAPE" Type="Fix">-384742.700+1754801.700</Point>
     <Point Name="KAREWA ISLAND" Type="Fix">-373146.800+1760754.500</Point>
@@ -6678,8 +6675,8 @@ RILEY
     <Point Name="QUEENSBERRY PONDS" Type="Fix">-444648.160+1691823.210</Point>
     <Point Name="QUEENSTOWN HILL" Type="Fix">-445948.600+1684206.700</Point>
     <Point Name="RABBIT ISLAND BRIDGE" Type="Fix">-411702.800+1730755.500</Point>
-    <Point Name="RACECOURSE" Type="Fix">-374355.600+1760719.700</Point>
     <Point Name="RACECOURSE" Type="Fix">-412004.800+1731050.500</Point>
+    <Point Name="RACECOURSE" Type="Fix">-374355.600+1760719.700</Point>
     <Point Name="RAETIHI" Type="Fix">-392539.800+1751654.900</Point>
     <Point Name="RAINBOW SKIFIELD" Type="Fix">-415229.400+1725138.800</Point>
     <Point Name="RANGATIRA POINT" Type="Fix">-384417.600+1760100.700</Point>
@@ -6892,6 +6889,7 @@ RILEY
     <Point Name="TBU" Type="Navaid" NavaidType="VOR" Frequency="114.5">-211439.000-1750854.920</Point>
     <Point Name="TUT" Type="Navaid" NavaidType="VOR" Frequency="112.5">-141957.320-1704229.800</Point>
     <Point Name="WB" Type="Navaid" NavaidType="VOR" Frequency="115.6">-413110.830+1735145.650</Point>
+    <Point Name="WK" Type="Navaid" NavaidType="VOR" Frequency="0">-375527.221+1765455.350</Point>
     <Point Name="WN" Type="Navaid" NavaidType="VOR" Frequency="112.3">-412014.020+1744901.060</Point>
     <Point Name="WP" Type="Navaid" NavaidType="VOR" Frequency="116.4">-364712.450+1743752.450</Point>
   </Intersections>
