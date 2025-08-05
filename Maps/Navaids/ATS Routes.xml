@@ -244,7 +244,7 @@
     <Line Name="Q307">HK NDB.Q307.NS VOR</Line>
     <Line Name="Q309">CH VOR.Q309.HK NDB</Line>
     <Line Name="Q335">PEDPO.Q335.DAPNO</Line>
-    <Line Name="Q350">COOKS.Q350.WK VOR</Line>
+    <Line Name="Q350">COOKS.Q350.WK NDB</Line>
     <Line Name="Q359">GS VOR.Q359.OLRUD</Line>
     <Line Name="Q360">MAMUS.Q360.ELDAK</Line>
     <Line Name="Q367">DUMOT.Q367.WU NDB</Line>
@@ -1107,7 +1107,6 @@
       <Point>UPMUS</Point>
       <Point>OLPUK</Point>
       <Point>VAVDI</Point>
-      <Point>WK VOR</Point>
       <Point>VASNI</Point>
       <Point>MAMUS</Point>
       <Point>SUNAR</Point>
@@ -1988,7 +1987,6 @@
       <Point>UPMUS</Point>
       <Point>OLPUK</Point>
       <Point>VAVDI</Point>
-      <Point>WK VOR</Point>
       <Point>VASNI</Point>
       <Point>MAMUS</Point>
       <Point>SUNAR</Point>
