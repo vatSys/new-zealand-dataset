@@ -754,16 +754,16 @@
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Danger" Name="D522 MANGAHAO" AltitudeFloor="0" AltitudeCeiling="2500" DAIWEnabled="true" LinePattern="Dotted">
+    <RestrictedArea Type="Danger" Name="D523 MANGAHAO" AltitudeFloor="0" AltitudeCeiling="2500" DAIWEnabled="true" LinePattern="Dotted">
       <Area>
--402644.700+1754848.800/
+-402801.850+1754722.110/
 -402928.000+1754552.000/
 -402910.200+1754341.700/
 -402800.300+1754059.200/
 -402640.800+1754130.500/
 -402610.100+1754221.100/
--402544.400+1754717.600/
--402644.700+1754848.800</Area>
+-402612.500+1754410.160/
+-402801.850+1754722.110</Area>
       <Activations>
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
@@ -923,7 +923,7 @@
 -435504.000+1702603.000</Area>
       <Activations />
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="R100 MARSDEN POINT" AltitudeFloor="0" AltitudeCeiling="3500" DAIWEnabled="true" LinePattern="Dotted">
+    <RestrictedArea Type="Restricted" Name="R101 MARSDEN POINT" AltitudeFloor="0" AltitudeCeiling="1500" DAIWEnabled="true" LinePattern="Dotted">
       <Area>
 -355003.000+1742935.500/
 -355003.492+1742942.440/
@@ -1354,15 +1354,24 @@
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="R902 KAITORETE SPIT" AltitudeFloor="0" AltitudeCeiling="1500" DAIWEnabled="true" LinePattern="Dotted">
+    <RestrictedArea Type="Restricted" Name="R903 KAITORETE SPIT" AltitudeFloor="0" AltitudeCeiling="3500" DAIWEnabled="true" LinePattern="Dotted">
       <Area>
--434802.100+1724112.900/
--434937.300+1724152.400/
--434939.100+1724509.000/
--435313.200+1724509.000/
--435313.200+1723504.700/
--434802.100+1723314.900/
--434802.100+1724112.900</Area>
+-434835.890+1722919.210/
+-435212.720+1722504.480/
+-435312.350+1722348.180/
+-435134.360+1722248.710/
+-435037.720+1722416.900/
+-434835.890+1722919.210</Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
+    </RestrictedArea>
+    <RestrictedArea Type="Restricted" Name="R904 KAITORETE SPIT" AltitudeFloor="0" AltitudeCeiling="6000" DAIWEnabled="true" LinePattern="Dotted">
+      <Area>
+-434835.890+1722919.210/
+-435141.450+1722936.950/
+-435212.720+1722504.480/
+-434835.890+1722919.210</Area>
       <Activations>
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
@@ -1406,6 +1415,59 @@
 -454553.754+1704326.415/
 -454552.292+1704334.235/
 -454551.800+1704342.300</Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
+    </RestrictedArea>
+    <RestrictedArea Type="Restricted" Name="R906 KAITORETE SPIT" AltitudeFloor="0" AltitudeCeiling="6000" DAIWEnabled="true" LinePattern="Dotted">
+      <Area>
+-434822.910+1723439.550/
+-435100.200+1723539.090/
+-435141.450+1722936.950/
+-434835.890+1722919.210/
+-434822.910+1723439.550</Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
+    </RestrictedArea>
+    <RestrictedArea Type="Restricted" Name="R907 KAITORETE SPIT" AltitudeFloor="0" AltitudeCeiling="6000" DAIWEnabled="true" LinePattern="Dotted">
+      <Area>
+-434745.840+1723847.300/
+-434854.370+1723952.130/
+-434856.000+1724114.020/
+-435015.700+1724204.060/
+-435100.200+1723539.090/
+-434822.910+1723439.550/
+-434745.840+1723847.300</Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
+    </RestrictedArea>
+    <RestrictedArea Type="Restricted" Name="R908 CANTERBURY BIGHT" AltitudeFloor="0" AltitudeCeiling="6000" DAIWEnabled="true" LinePattern="Dotted">
+      <Area>
+-435141.450+1722936.950/
+-440230.470+1723039.010/
+-440319.890+1722354.040/
+-440502.250+1721853.850/
+-440003.200+1721921.180/
+-435312.350+1722348.180/
+-435212.720+1722504.480/
+-435141.450+1722936.950</Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
+    </RestrictedArea>
+    <RestrictedArea Type="Restricted" Name="R909 CANTERBURY BIGHT" AltitudeFloor="0" AltitudeCeiling="6000" DAIWEnabled="true" LinePattern="Dotted">
+      <Area>
+-435630.540+1730601.180/
+-440602.820+1725542.290/
+-440144.550+1723719.890/
+-440230.470+1723039.010/
+-435141.450+1722936.950/
+-435100.200+1723539.090/
+-435015.700+1724204.060/
+-435336.030+1724926.330/
+-435630.540+1730601.180</Area>
       <Activations>
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
