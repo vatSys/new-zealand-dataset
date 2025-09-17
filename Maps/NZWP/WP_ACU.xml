@@ -6,35 +6,37 @@
       -36.785153+174.639053/WP03T/BAYES
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy03 BAYE2R-->
+      <!--Rwy03 BAYE3R-->
       -36.785153+174.639053/WP21T/BAYES
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy03 BAYE2R.AA-->
+      <!--Rwy03 BAYE3R.AA-->
       BAYES/AA VOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy03 BAYE2R.LUPRU-->
+      <!--Rwy03 BAYE3R.LUPRU-->
       BAYES/LUPRU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy03 BAYE2R.OMLEN-->
+      <!--Rwy03 BAYE3R.OMLEN-->
       BAYES/OMLEN
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy03 BAYE2R.ORIDI-->
+      <!--Rwy03 BAYE3R.ORIDI-->
       BAYES/ORIDI
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy03 NZWP1A-->
       WP21T/-36.735310+174.721530
     </Line>
+    <Symbol Type="SolidStar">
+      <Point>BAYES</Point>
+    </Symbol>
     <Symbol Type="Circle">
       <Point>AA VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>WP03T</Point>
-      <Point>BAYES</Point>
       <Point>WP21T</Point>
       <Point>LUPRU</Point>
       <Point>OMLEN</Point>
@@ -210,26 +212,26 @@
       -36.796181+174.620886/WP21T/WYTAK
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy21 WYTA1Q-->
+      <!--Rwy21 WYTA2Q-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy21 WYTA1Q.AA-->
+      <!--Rwy21 WYTA2Q.AA-->
       WYTAK/AA VOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy21 WYTA1Q.KAPAI-->
+      <!--Rwy21 WYTA2Q.KAPAI-->
       WYTAK/KAPAI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy21 WYTA1Q.LIMES-->
+      <!--Rwy21 WYTA2Q.LIMES-->
       WYTAK/LIMES
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy21 WYTA1Q.LUPRU-->
+      <!--Rwy21 WYTA2Q.LUPRU-->
       WYTAK/KANVI/RUTLO/LUPRU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy21 WYTA1Q.OMLEN-->
+      <!--Rwy21 WYTA2Q.OMLEN-->
       WYTAK/OMLEN
     </Line>
     <Symbol Type="SolidStar">
