@@ -776,6 +776,7 @@
         <Map Name="NZWN/ASMGCS_NZWN_APR" />
         <Map Name="NZWN/ASMGCS_NZWN_TWY" />
         <Map Name="NZWN/ASMGCS_NZWN_BLD" />
+        <Map Name="NZWN/ASMGCS_NZWN_closedTw" />
         <Map Name="NZWN/ASMGCS_NZWN_yellowHS" />
         <Map Name="NZWN/ASMGCS_NZWN_yellowHA" />
         <Map Name="NZWN/ASMGCS_NZWN_white" />
