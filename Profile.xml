@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Profile Name="New Zealand" FullName="VATNZ Domestic (NZZC)">
-	<Version AIRAC="2508" Revision="a" PublishDate="20250807" UpdateURL="https://vatsys.sawbe.com/downloads/data/New%20Zealand/" />
+	<Version AIRAC="2510" Revision="a" PublishDate="20251002" UpdateURL="https://vatsys.sawbe.com/downloads/data/New%20Zealand/" />
 	<Servers>
 		<VATSIMStatus url="https://status.vatsim.net/" />
 		<GRIB url="http://sawbe.com/GRIB/" />

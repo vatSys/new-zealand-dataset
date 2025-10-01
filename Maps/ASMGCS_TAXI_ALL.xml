@@ -17,7 +17,6 @@
       <Point Name="A7">-41.329635+174.807290</Point>
       <Point Name="A8">-41.331232+174.807266</Point>
       <Point Name="A9">-41.332861+174.807191</Point>
-      <Point Name="A10">-41.335168+174.807043</Point>
       <Point Name="A11">-41.335680+174.807036</Point>
       <Point Name="A">-41.333534+174.807741</Point>
       <Point Name="M4">-41.325160+174.806329</Point>
@@ -76,6 +75,8 @@
       <Point Name="K">-37.007068+174.780260</Point>
       <Point Name="L">-37.012031+174.777403</Point>
       <Point Name="L">-37.008992+174.776081</Point>
+      <Point Name="L">-37.005278+174.774444</Point>
+      <Point Name="L1">-37.002778+174.776667</Point>
       <Point Name="M">-37.012303+174.776352</Point>
 
       <Point Name="A3A">-370029.000+1744751.000</Point>
@@ -363,8 +364,6 @@
       <!-- NZGS -->
       <Point Name="32">-38.670034+177.979201</Point>
       <Point Name="14">-38.657932+177.974830</Point>
-      <Point Name="GR/03">-38.666236+177.971654</Point>
-      <Point Name="GR/21">-38.658889+177.982086</Point>
       <Point Name="GR/09">-38.659524+177.969807</Point>
       <Point Name="GR/27">-38.664089+177.982712</Point>
       <Point Name="GR/14">-38.658091+177.978373</Point>
@@ -375,11 +374,9 @@
       <Point Name="B2">-38.663805+177.977851</Point>
       <Point Name="B3">-38.663044+177.981326</Point>
       <Point Name="C1">-38.661191+177.980400</Point>
-      <Point Name="D1">-38.659909+177.981886</Point>
       <Point Name="E1">-38.658807+177.976531</Point>
       <Point Name="E2">-38.658542+177.977833</Point>
       <Point Name="F1">-38.660718+177.973335</Point>
-      <Point Name="G1">-38.664132+177.974643</Point>
 
       <Point Name="TERM">-38.662114+177.982426</Point>
       <!-- NZGS END -->

@@ -2,39 +2,40 @@
 <Maps>
   <Map Type="System2" Name="04 SIDs" Priority="1" CustomColourName="ProcDep" Center="-46.411100+168.324744">
     <Line Pattern="Dashed">
-      <!--Rwy04 ADLU2P-->
-      -46.411100+168.324744/NV04T/NV404/GURAD/KELSO/ADLUP
+      <!--Rwy04 ADLU3P-->
+      -46.411100+168.324744/NV04T/NV404/GURAD/KATGU/ADLUP
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy04 AMVI2P-->
+      <!--Rwy04 AMVI3P-->
       NV404/AMVIX
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy04 ANOP2P-->
-      NV404/MOMPI/ANOPA/SUNGU
+      <!--Rwy04 ANOP3P-->
+      NV404/MOMPI/ANOPA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy04 EPDA2P-->
+      <!--Rwy04 EPDA3P-->
       NV404/EPDAB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy04 INTU1P-->
+      <!--Rwy04 INTU2P-->
       NV404/INTUS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy04 PEXE1P-->
+      <!--Rwy04 PEXE2P-->
       NV404/TUVDA/POTAB/PEXED
     </Line>
+    <Symbol Type="SolidStar">
+      <Point>NV404</Point>
+    </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>NV04T</Point>
-      <Point>NV404</Point>
       <Point>GURAD</Point>
-      <Point>KELSO</Point>
+      <Point>KATGU</Point>
       <Point>ADLUP</Point>
       <Point>AMVIX</Point>
       <Point>MOMPI</Point>
       <Point>ANOPA</Point>
-      <Point>SUNGU</Point>
       <Point>EPDAB</Point>
       <Point>INTUS</Point>
       <Point>TUVDA</Point>
@@ -44,7 +45,7 @@
     <Label HasLeader="true">
       <Point>ADLUP</Point>
       <Point>AMVIX</Point>
-      <Point>SUNGU</Point>
+      <Point>ANOPA</Point>
       <Point>EPDAB</Point>
       <Point>INTUS</Point>
       <Point>PEXED</Point>
@@ -52,31 +53,27 @@
   </Map>
   <Map Type="System2" Name="04 STARs" Priority="1" CustomColourName="ProcArr" Center="-46.418411+168.302258">
     <Line>
-      <!--Rwy04 AKPI4A-->
+      <!--Rwy04 AKPI5A-->
       AKPIN/BIDKU/VIKIP/DOTLU/EGAMU
     </Line>
     <Line>
-      <!--Rwy04 AMVI1A-->
+      <!--Rwy04 AMVI2A-->
       AMVIX/EGAMU
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy04 ANOP5A.INTUS-->
+      <!--Rwy04 ANOP6A.INTUS-->
       INTUS/ANOPA
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy04 ANOP5A.PEXED-->
+      <!--Rwy04 ANOP6A.PEXED-->
       PEXED/ANOPA
     </Line>
-    <Line Pattern="Solid">
-      <!--Rwy04 ANOP5A.SUNGU-->
-      SUNGU/ANOPA
-    </Line>
     <Line>
-      <!--Rwy04 ANOP5A-->
+      <!--Rwy04 ANOP6A-->
       ANOPA/NV423/MIMIV/ESNUP
     </Line>
     <Line>
-      <!--Rwy04 DUKO5A-->
+      <!--Rwy04 DUKO6A-->
       DUKOP/UKETA/VENIR/BIDKU
     </Line>
     <Line>
@@ -88,7 +85,7 @@
       NV VOR/-46.313550+168.122500/-46.379520+168.079960/-46.454440+168.084760
     </Line>
     <Line>
-      <!--Rwy04 PEXE1A-->
+      <!--Rwy04 PEXE2A-->
       PEXED/LUXER/ESNUP
     </Line>
     <Symbol Type="HollowTriangle">
@@ -107,7 +104,6 @@
       <Point>INTUS</Point>
       <Point>ANOPA</Point>
       <Point>PEXED</Point>
-      <Point>SUNGU</Point>
       <Point>NV423</Point>
       <Point>MIMIV</Point>
       <Point>DUKOP</Point>
@@ -123,7 +119,6 @@
       <Point>NV VOR</Point>
       <Point>PEXED</Point>
       <Point>INTUS</Point>
-      <Point>SUNGU</Point>
       <Point>EGAMU</Point>
       <Point>ESNUP</Point>
     </Label>
@@ -157,43 +152,40 @@
   </Map>
   <Map Type="System2" Name="22 SIDs" Priority="1" CustomColourName="ProcDep" Center="-46.418411+168.302258">
     <Line Pattern="Dashed">
-      <!--Rwy22 ADLU2Q-->
-      -46.418411+168.302258/NV22T/NV422/RUVGI/KELSO/ADLUP
+      <!--Rwy22 ADLU3Q-->
+      -46.418411+168.302258/NV22T/NV422/RUVGI/KATGU/ADLUP
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy22 AMVI2Q-->
+      <!--Rwy22 AMVI3Q-->
       NV422/AMVIX
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy22 ANOP2Q-->
+      <!--Rwy22 ANOP3Q-->
       RUVGI/NV423/ANOPA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy22 ANOP2Q.SUNGU-->
-      ANOPA/SUNGU
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy22 EPDA4Q-->
+      <!--Rwy22 EPDA5Q-->
       NV422/BIDIS/EPDAB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy22 INTU1Q-->
+      <!--Rwy22 INTU2Q-->
       RUVGI/INTUS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy22 PEXE1Q-->
+      <!--Rwy22 PEXE2Q-->
       NV422/PEXED
     </Line>
+    <Symbol Type="SolidStar">
+      <Point>NV422</Point>
+    </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>NV22T</Point>
-      <Point>NV422</Point>
       <Point>RUVGI</Point>
-      <Point>KELSO</Point>
+      <Point>KATGU</Point>
       <Point>ADLUP</Point>
       <Point>AMVIX</Point>
       <Point>NV423</Point>
       <Point>ANOPA</Point>
-      <Point>SUNGU</Point>
       <Point>BIDIS</Point>
       <Point>EPDAB</Point>
       <Point>INTUS</Point>
@@ -206,36 +198,31 @@
       <Point>EPDAB</Point>
       <Point>INTUS</Point>
       <Point>PEXED</Point>
-      <Point>SUNGU</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="22 STARs" Priority="1" CustomColourName="ProcArr" Center="-46.411100+168.324744">
     <Line>
-      <!--Rwy22 AKPI5B-->
+      <!--Rwy22 AKPI6B-->
       AKPIN/BIDKU/MASGO/DUNAX
     </Line>
     <Line>
-      <!--Rwy22 AMVI2B-->
+      <!--Rwy22 AMVI3B-->
       AMVIX/DOTLU
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy22 ANOP6B.INTUS-->
+      <!--Rwy22 ANOP7B.INTUS-->
       INTUS/ANOPA
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy22 ANOP6B.PEXED-->
+      <!--Rwy22 ANOP7B.PEXED-->
       PEXED/ANOPA
     </Line>
-    <Line Pattern="Solid">
-      <!--Rwy22 ANOP6B.SUNGU-->
-      SUNGU/OGAVO/MOVSA/ANOPA
-    </Line>
     <Line>
-      <!--Rwy22 ANOP6B-->
+      <!--Rwy22 ANOP7B-->
       ANOPA/MOMPI/LALEV
     </Line>
     <Line>
-      <!--Rwy22 DUKO6B-->
+      <!--Rwy22 DUKO7B-->
       DUKOP/UKETA/VENIR/BIDKU
     </Line>
     <Line>
@@ -262,9 +249,6 @@
       <Point>INTUS</Point>
       <Point>ANOPA</Point>
       <Point>PEXED</Point>
-      <Point>SUNGU</Point>
-      <Point>OGAVO</Point>
-      <Point>MOVSA</Point>
       <Point>MOMPI</Point>
       <Point>DUKOP</Point>
       <Point>UKETA</Point>
@@ -278,7 +262,6 @@
       <Point>NV VOR</Point>
       <Point>INTUS</Point>
       <Point>PEXED</Point>
-      <Point>SUNGU</Point>
       <Point>DUNAX</Point>
       <Point>DOTLU</Point>
       <Point>LALEV</Point>
