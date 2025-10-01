@@ -115,6 +115,12 @@
 -432941.534+1723225.047
 </Point>
     </Line>
+    <Line Name="Rwy29_0220">
+      <Point>
+-432922.973+1723158.303/
+-432921.783+1723159.678
+</Point>
+    </Line>
   </Map>
   <Map Type="Ground_INF" Name="ASMGCS_NZCH_yellowHA" Priority="0" Center="-43.489444+172.534444" CustomColourName="yellowHA">
     <Line Name="A7toRwy">

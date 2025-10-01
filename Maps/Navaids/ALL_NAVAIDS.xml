@@ -61,7 +61,6 @@
       <Point Name="TBU">-211439.000-1750854.920</Point>
       <Point Name="TUT">-141957.320-1704229.800</Point>
       <Point Name="WB">-413110.830+1735145.650</Point>
-      <Point Name="WK">-375527.221+1765455.350</Point>
       <Point Name="WN">-412014.020+1744901.060</Point>
       <Point Name="WP">-364712.450+1743752.450</Point>
     </Label>
@@ -127,7 +126,6 @@
       <Point>-211439.000-1750854.920</Point>
       <Point>-141957.320-1704229.800</Point>
       <Point>-413110.830+1735145.650</Point>
-      <Point>-375527.221+1765455.350</Point>
       <Point>-412014.020+1744901.060</Point>
       <Point>-364712.450+1743752.450</Point>
     </Symbol>
