@@ -392,6 +392,38 @@
       <Point>NOPEM</Point>
     </Label>
   </Map>
+  <Map Type="System2" Name="20 RNP-AR" Priority="1" Center="-41.292214+173.229486" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>NS596</Point>
+      <Point>NS932</Point>
+      <Point>NS654</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>KAPUA</Point>
+      <Point>LIKMA</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>VETUG</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>ELMAX</Point>
+    </Symbol>
+    <Line Pattern="Solid">ELMAX/NS596/VETUG/NS932/NS654/-411731.970+1731346.150</Line>
+    <Line Pattern="Solid">KAPUA/ELMAX</Line>
+    <Line Pattern="Solid">LIKMA/ELMAX</Line>
+  </Map>
+  <Map Type="System2" Name="20 RNP-AR Labels" Priority="1" Center="-41.292214+173.229486" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>KAPUA</Point>
+      <Point>LIKMA</Point>
+      <Point>VETUG</Point>
+      <Point>ELMAX</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="06 RNP" Priority="1" Center="-41.296131+173.216994" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />

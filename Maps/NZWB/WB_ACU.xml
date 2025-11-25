@@ -90,6 +90,22 @@
       IGMUL/LUTKA
     </Line>
     <Line Pattern="Solid">
+      <!--Rwy06 LUTK1L.AVPOD-->
+      AVPOD/LUTKA
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy06 LUTK1L.IGMUL-->
+      IGMUL/LUTKA
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy06 LUTK1L.IPMIR-->
+      IPMIR/LUTKA
+    </Line>
+    <Line>
+      <!--Rwy06 LUTK1L-->
+      LUTKA/URGAP
+    </Line>
+    <Line Pattern="Solid">
       <!--Rwy06 SUPE3M.IPMIR-->
       IPMIR/SUPEN
     </Line>
@@ -101,6 +117,9 @@
       <!--Rwy06 SUPE3M-->
       SUPEN/LUTKA
     </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>URGAP</Point>
+    </Symbol>
     <Symbol Type="Circle">
       <Point>WB VOR</Point>
     </Symbol>
@@ -120,11 +139,38 @@
       <Point>AVPOD</Point>
       <Point>EXOTA</Point>
       <Point>IGMUL</Point>
+      <Point>LUTKA</Point>
       <Point>SUPEN</Point>
       <Point>ELPIT</Point>
       <Point>OMDOX</Point>
       <Point>IPMIR</Point>
       <Point>LUBSI</Point>
+      <Point>URGAP</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="06 RNP-AR" Priority="1" Center="-41.518322+173.860875" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>WB726</Point>
+      <Point>WB732</Point>
+      <Point>WB744</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>BEDOG</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>URGAP</Point>
+    </Symbol>
+    <Line Pattern="Solid">URGAP/WB726/WB732/WB744/BEDOG/-413105.959+1735139.150</Line>
+  </Map>
+  <Map Type="System2" Name="06 RNP-AR Labels" Priority="1" Center="-41.518322+173.860875" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>BEDOG</Point>
+      <Point>URGAP</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="24 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.518322+173.860875">
