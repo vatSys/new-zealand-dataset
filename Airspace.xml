@@ -4,7 +4,7 @@
     <Airport Name="NZAA">
       <Runway Name="05R" DataRunway="05R">
         <SID Name="AKEL2Q" />
-        <SID Name="AVNA1Q" />
+        <SID Name="AVNA2Q" />
         <SID Name="BATO4Q" />
         <SID Name="BELR2Q" />
         <SID Name="BROK4Q" />
@@ -129,52 +129,52 @@
     </Airport>
     <Airport Name="NZCH">
       <Runway Name="02" DataRunway="02">
-        <SID Name="BAVE6P" />
-        <SID Name="GUTB1P" />
-        <SID Name="MUKV1P" />
-        <SID Name="NZCH5A" />
+        <SID Name="BAVE7P" />
+        <SID Name="GUTB2P" />
+        <SID Name="MUKV2P" />
+        <SID Name="NZCH6A" />
         <STAR Name="AKAM1A" ApproachName="RNPZ" />
-        <STAR Name="AVNO1A" ApproachName="RNPZ" />
+        <STAR Name="AVNO2A" ApproachName="RNPZ" />
         <STAR Name="AVNO1E" ApproachName="RNP-ARV" />
         <STAR Name="BELE7A" ApproachName="RNPZ" />
         <STAR Name="BELE5E" ApproachName="RNP-ARY" />
         <STAR Name="BELE2J" ApproachName="RNPZ" />
         <STAR Name="ELDA1C" />
-        <STAR Name="GUKA1A" ApproachName="RNPZ" />
+        <STAR Name="GUKA2A" ApproachName="RNPZ" />
         <STAR Name="GUKA1E" ApproachName="RNP-ARW" />
         <STAR Name="HODE1A" ApproachName="RNPZ" />
       </Runway>
       <Runway Name="11" DataRunway="11">
-        <SID Name="ALBA2B" />
-        <SID Name="DIVS2B" />
+        <SID Name="ALBA3B" />
+        <SID Name="DIVS3B" />
         <STAR Name="HODE3D" ApproachName="RNP" />
         <STAR Name="MESI3D" ApproachName="RNP" />
         <STAR Name="UPVE2D" ApproachName="RNP" />
       </Runway>
       <Runway Name="20" DataRunway="20">
-        <SID Name="ATSA1Q" />
-        <SID Name="KADE6Q" />
-        <SID Name="NZCH5B" />
-        <SID Name="PEDM1Q" />
+        <SID Name="ATSA2Q" />
+        <SID Name="KADE7Q" />
+        <SID Name="NZCH6B" />
+        <SID Name="PEDM2Q" />
         <STAR Name="BELE7B" ApproachName="RNPZ" />
         <STAR Name="BELE5F" ApproachName="RNP-ARY" />
-        <STAR Name="BELE2K" ApproachName="RNPZ" />
-        <STAR Name="IDPE1B" ApproachName="RNPZ" />
+        <STAR Name="BELE3K" ApproachName="RNPZ" />
+        <STAR Name="IDPE2B" ApproachName="RNPZ" />
         <STAR Name="IDPE1F" ApproachName="RNP-ARX" />
         <STAR Name="LALA1B" ApproachName="RNPZ" />
         <STAR Name="MESI8B" ApproachName="RNPZ" />
         <STAR Name="MOLG7B" ApproachName="RNPZ" />
         <STAR Name="MOLG3F" ApproachName="RNP-ARY" />
         <STAR Name="UPVE1B" ApproachName="RNPZ" />
-        <STAR Name="VEPL1B" ApproachName="RNPZ" />
+        <STAR Name="VEPL2B" ApproachName="RNPZ" />
         <STAR Name="VEPL1F" ApproachName="RNP-ARW" />
       </Runway>
       <Runway Name="29" DataRunway="29">
-        <SID Name="KABO5R" />
-        <SID Name="LUNT1R" />
-        <SID Name="NZCH4C" />
-        <SID Name="PALS1R" />
-        <SID Name="REPA2R" />
+        <SID Name="KABO6R" />
+        <SID Name="LUNT2R" />
+        <SID Name="NZCH6C" />
+        <SID Name="PALS2R" />
+        <SID Name="REPA3R" />
         <STAR Name="AKAM1G" ApproachName="RNP-ARY" />
         <STAR Name="BELE8G" ApproachName="RNP-ARY" />
         <STAR Name="HODE1G" ApproachName="RNP-ARY" />
@@ -582,12 +582,12 @@
         <SID Name="PAVN2Q" />
         <SID Name="VICTO2" />
         <SID Name="XRAY3" />
-        <STAR Name="CONO1B" ApproachName="RNPB" />
-        <STAR Name="GUNE1B" ApproachName="RNPB" />
-        <STAR Name="GUSD1B" ApproachName="RNPB" />
-        <STAR Name="KUNV1B" ApproachName="RNPB" />
-        <STAR Name="LUBS1B" ApproachName="RNPB" />
-        <STAR Name="MUKR1B" ApproachName="RNPB" />
+        <STAR Name="CONO1B" ApproachName="RNP-ARZ" />
+        <STAR Name="GUNE1B" ApproachName="RNP-ARZ" />
+        <STAR Name="GUSD1B" ApproachName="RNP-ARZ" />
+        <STAR Name="KUNV1B" ApproachName="RNP-ARZ" />
+        <STAR Name="LUBS1B" ApproachName="RNP-ARZ" />
+        <STAR Name="MUKR1B" ApproachName="RNP-ARZ" />
       </Runway>
       <Runway Name="24" DataRunway="24" />
     </Airport>
@@ -860,6 +860,7 @@
         <STAR Name="AVPO2M" />
         <STAR Name="EXOT1M" />
         <STAR Name="IGMU2M" />
+        <STAR Name="LUTK1L" ApproachName="RNP-AR" />
         <STAR Name="SUPE3M" />
       </Runway>
       <Runway Name="10" DataRunway="10" />
@@ -1426,6 +1427,8 @@ NS VOR
 </Airway>
     <Airway Name="H140">
 SF NDB/
+OMBEP/
+BUVDO/
 RUATO/
 KT NDB
 </Airway>
@@ -1662,6 +1665,7 @@ ELMAX
     <Airway Name="H379">
 AA VOR/
 PUHOI/
+EPDUN/
 SF NDB
 </Airway>
     <Airway Name="H384">
@@ -1702,6 +1706,7 @@ TULMI
     <Airway Name="H441">
 WP VOR/
 KOPPA/
+BILEL/
 SF NDB
 </Airway>
     <Airway Name="H447">
@@ -2078,6 +2083,7 @@ OPEKU
 WP VOR/
 VEGTA/
 WELLS/
+EPDUN/
 WR NDB/
 KIMAN/
 ZEDEE/
@@ -2790,6 +2796,7 @@ VELGA
 AA VOR/
 KAWAU/
 APABO/
+ISBUP/
 SF NDB
 </Airway>
     <Airway Name="Q537">
@@ -3667,6 +3674,7 @@ RILEY
     <Point Name="APEKO" Type="Fix">-434713.280-1764400.820</Point>
     <Point Name="APENI" Type="Fix">-441002.700+1702246.990</Point>
     <Point Name="APENU" Type="Fix">-374719.290+1783844.050</Point>
+    <Point Name="APESA" Type="Fix">-413025.960+1740359.660</Point>
     <Point Name="APEXA" Type="Fix">-450137.550+1685643.910</Point>
     <Point Name="APIDO" Type="Fix">-423831.360+1784500.020</Point>
     <Point Name="APIGO" Type="Fix">-410821.930+1715606.160</Point>
@@ -3787,6 +3795,7 @@ RILEY
     <Point Name="BEBOB" Type="Fix">-442512.700+1655122.340</Point>
     <Point Name="BEDAS" Type="Fix">-211700.730-1751541.700</Point>
     <Point Name="BEDAV" Type="Fix">-424402.180+1704341.840</Point>
+    <Point Name="BEDOG" Type="Fix">-413122.760+1734620.330</Point>
     <Point Name="BEDUL" Type="Fix">-401044.180+1745926.440</Point>
     <Point Name="BEGAG" Type="Fix">-382522.990+1775328.520</Point>
     <Point Name="BEGAT" Type="Fix">-455505.320+1703135.040</Point>
@@ -3831,6 +3840,7 @@ RILEY
     <Point Name="BIGEK" Type="Fix">-143815.380-1714049.610</Point>
     <Point Name="BIGUL" Type="Fix">-363622.290+1735709.880</Point>
     <Point Name="BIKOT" Type="Fix">-372741.810+1754434.150</Point>
+    <Point Name="BILEL" Type="Fix">-361414.310+1742748.330</Point>
     <Point Name="BILOK" Type="Fix">-380442.520+1752551.230</Point>
     <Point Name="BIMAX" Type="Fix">-461216.650+1691354.320</Point>
     <Point Name="BINGA" Type="Fix">-444246.570+1691558.310</Point>
@@ -3905,6 +3915,7 @@ RILEY
     <Point Name="BUSKU" Type="Fix">-432236.260+1722058.330</Point>
     <Point Name="BUTIN" Type="Fix">-412754.710+1744751.230</Point>
     <Point Name="BUVAR" Type="Fix">-144936.240-1740657.830</Point>
+    <Point Name="BUVDO" Type="Fix">-354030.080+1740448.020</Point>
     <Point Name="BUVIK" Type="Fix">-392314.580+1733246.530</Point>
     <Point Name="BUVLI" Type="Fix">-400726.910+1752550.630</Point>
     <Point Name="BUVOB" Type="Fix">-455936.660+1701639.350</Point>
@@ -4196,6 +4207,7 @@ RILEY
     <Point Name="ENVAG" Type="Fix">-391418.630+1741657.400</Point>
     <Point Name="EPDAB" Type="Fix">-462351.180+1684754.430</Point>
     <Point Name="EPDEX" Type="Fix">-443914.490+1690648.100</Point>
+    <Point Name="EPDUN" Type="Fix">-360750.900+1742722.040</Point>
     <Point Name="EPGON" Type="Fix">-393749.600+1742729.450</Point>
     <Point Name="EPGUM" Type="Fix">-393658.200+1765615.190</Point>
     <Point Name="EPKOT" Type="Fix">-365546.850+1751418.430</Point>
@@ -4225,7 +4237,6 @@ RILEY
     <Point Name="EXOTA" Type="Fix">-413433.620+1741216.820</Point>
     <Point Name="FALLS" Type="Fix">-375637.710+1755843.960</Point>
     <Point Name="FAROA" Type="Fix">-250000.000-1750218.540</Point>
-    <Point Name="FERNS" Type="Fix">-431716.030+1723156.960</Point>
     <Point Name="FF05R" Type="Fix">-370236.532+1744020.359</Point>
     <Point Name="FF23L" Type="Fix">-365845.721+1745414.558</Point>
     <Point Name="FICAN" Type="Fix">-410636.700+1743141.210</Point>
@@ -4520,6 +4531,7 @@ RILEY
     <Point Name="IRVOS" Type="Fix">-444500.480+1691915.930</Point>
     <Point Name="ISBAK" Type="Fix">-365111.580+1745837.700</Point>
     <Point Name="ISBEG" Type="Fix">-371457.010+1753534.730</Point>
+    <Point Name="ISBUP" Type="Fix">-355733.110+1742419.650</Point>
     <Point Name="ISDEM" Type="Fix">-413856.700+1731425.960</Point>
     <Point Name="ISDIS" Type="Fix">-384857.330+1775634.860</Point>
     <Point Name="ISDOT" Type="Fix">-154843.060-1724834.220</Point>
@@ -4750,8 +4762,8 @@ RILEY
     <Point Name="LOCSO" Type="Fix">-425302.250+1725928.000</Point>
     <Point Name="LOSGA" Type="Fix">-365403.800+1744427.210</Point>
     <Point Name="LOSKO" Type="Fix">-454801.700+1701800.760</Point>
-    <Point Name="LOSTI" Type="Fix">-450431.000+1682251.000</Point>
     <Point Name="LOSTI" Type="Fix">-450430.850+1682250.870</Point>
+    <Point Name="LOSTI" Type="Fix">-450431.000+1682251.000</Point>
     <Point Name="LOTLO" Type="Fix">-435646.230-1785226.520</Point>
     <Point Name="LOTRA" Type="Fix">-201358.750-1590554.080</Point>
     <Point Name="LOVTA" Type="Fix">-415913.950+1713635.160</Point>
@@ -4977,6 +4989,9 @@ RILEY
     <Point Name="NOTSE" Type="Fix">-141640.660-1703648.460</Point>
     <Point Name="NOVTO" Type="Fix">-434301.320+1722942.000</Point>
     <Point Name="NOVTU" Type="Fix">-411311.310+1740223.630</Point>
+    <Point Name="NS596" Type="Fix">-410751.697+1731848.659</Point>
+    <Point Name="NS654" Type="Fix">-411531.093+1731604.965</Point>
+    <Point Name="NS932" Type="Fix">-411358.075+1731625.793</Point>
     <Point Name="NU" Type="Fix">-190428.981-1695454.950</Point>
     <Point Name="NUGLI" Type="Fix">-243251.440-1700000.000</Point>
     <Point Name="NUGMU" Type="Fix">-380947.280+1783111.240</Point>
@@ -5083,6 +5098,7 @@ RILEY
     <Point Name="OMARU" Type="Fix">-445811.750+1710454.350</Point>
     <Point Name="OMBAL" Type="Fix">-351543.300+1735440.000</Point>
     <Point Name="OMBAM" Type="Fix">-450634.280+1710313.290</Point>
+    <Point Name="OMBEP" Type="Fix">-354406.650+1740932.540</Point>
     <Point Name="OMBIL" Type="Fix">-434611.880+1685629.690</Point>
     <Point Name="OMBIV" Type="Fix">-405211.200+1754446.090</Point>
     <Point Name="OMBOL" Type="Fix">-213755.190-1605742.970</Point>
@@ -5115,6 +5131,7 @@ RILEY
     <Point Name="ONODA" Type="Fix">-365256.950+1743445.620</Point>
     <Point Name="ONOKI" Type="Fix">-411639.300+1750808.060</Point>
     <Point Name="ONOLA" Type="Fix">-420557.950+1741437.010</Point>
+    <Point Name="ONONU" Type="Fix">-413051.050+1735618.090</Point>
     <Point Name="OPABI" Type="Fix">-384935.840+1744823.860</Point>
     <Point Name="OPAPA" Type="Fix">-394737.400+1764124.390</Point>
     <Point Name="OPEKU" Type="Fix">-362132.740+1745428.840</Point>
@@ -5791,6 +5808,7 @@ RILEY
     <Point Name="URDOR" Type="Fix">-365755.690+1751047.520</Point>
     <Point Name="URDUD" Type="Fix">-364940.780+1751826.410</Point>
     <Point Name="URGAB" Type="Fix">-460545.180+1691651.590</Point>
+    <Point Name="URGAP" Type="Fix">-413210.500+1735154.200</Point>
     <Point Name="URGAR" Type="Fix">-353303.210+1740700.580</Point>
     <Point Name="URGEV" Type="Fix">-411323.490+1745303.250</Point>
     <Point Name="URGUN" Type="Fix">-413509.780+1735125.570</Point>
@@ -5860,6 +5878,7 @@ RILEY
     <Point Name="VETAB" Type="Fix">-393617.400+1764556.930</Point>
     <Point Name="VETEV" Type="Fix">-425219.460+1713807.060</Point>
     <Point Name="VETIR" Type="Fix">-342956.610+1730527.540</Point>
+    <Point Name="VETUG" Type="Fix">-411226.520+1731625.560</Point>
     <Point Name="VETUM" Type="Fix">-364617.040+1755200.330</Point>
     <Point Name="VEVOM" Type="Fix">-362605.900+1744244.010</Point>
     <Point Name="VIBAG" Type="Fix">-365147.460+1750015.660</Point>
@@ -5896,6 +5915,9 @@ RILEY
     <Point Name="WB401" Type="Fix">-413100.862+1735304.690</Point>
     <Point Name="WB601" Type="Fix">-413111.000+1735146.000</Point>
     <Point Name="WB724" Type="Fix">-413007.700+1740437.700</Point>
+    <Point Name="WB726" Type="Fix">-413334.180+1735154.199</Point>
+    <Point Name="WB732" Type="Fix">-413334.180+1734742.579</Point>
+    <Point Name="WB744" Type="Fix">-413202.855+1734444.317</Point>
     <Point Name="WEBER" Type="Fix">-401333.300+1762735.880</Point>
     <Point Name="WELLS" Type="Fix">-361738.830+1742957.640</Point>
     <Point Name="WILKI" Type="Fix">-411831.370+1742318.220</Point>
@@ -5951,7 +5973,6 @@ RILEY
     <Point Name="AT" Type="Navaid" NavaidType="NDB" Frequency="388">-200012.000-1580624.000</Point>
     <Point Name="BE" Type="Navaid" NavaidType="NDB" Frequency="394">-460140.200+1695859.600</Point>
     <Point Name="CI" Type="Navaid" NavaidType="NDB" Frequency="322">-435725.300-1763358.800</Point>
-    <Point Name="FA" Type="Navaid" NavaidType="NDB" Frequency="270">-134934.520-1720103.420</Point>
     <Point Name="FM" Type="Navaid" NavaidType="NDB" Frequency="245">-211459.400-1750841.000</Point>
     <Point Name="FU" Type="Navaid" NavaidType="NDB" Frequency="0">-083129.000+1791152.000</Point>
     <Point Name="HK" Type="Navaid" NavaidType="NDB" Frequency="310">-424345.600+1705722.400</Point>
@@ -6899,7 +6920,7 @@ RILEY
       <Transition Name="PEBLU">PEBLU</Transition>
       <Transition Name="VELMO">VELMO</Transition>
     </SID>
-    <SID Name="AVNA1Q" Airport="NZAA" Runways="05R">
+    <SID Name="AVNA2Q" Airport="NZAA" Runways="05R">
       <Route Runway="05R">ADKUM/TAVEB/OLBUM/AVNAR</Route>
       <Transition Name="IGBAT">LIMES/IGBAT</Transition>
       <Transition Name="KAPAI">KAPAI</Transition>
@@ -7109,17 +7130,17 @@ RILEY
       <Transition Name="WP">BAYES/WP VOR</Transition>
       <Transition Name="XELAN">XELAN</Transition>
     </SID>
-    <SID Name="ALBA2B" Airport="NZCH" Runways="11">
+    <SID Name="ALBA3B" Airport="NZCH" Runways="11">
       <Route Runway="11">ALBAD</Route>
     </SID>
-    <SID Name="ATSA1Q" Airport="NZCH" Runways="20">
+    <SID Name="ATSA2Q" Airport="NZCH" Runways="20">
       <Route Runway="20">ATSAT</Route>
       <Transition Name="ELDAK">ELDAK</Transition>
       <Transition Name="GUPUT">GUPUT</Transition>
       <Transition Name="IDARA">IDARA</Transition>
       <Transition Name="PEHRR">PEHRR</Transition>
     </SID>
-    <SID Name="BAVE6P" Airport="NZCH" Runways="02">
+    <SID Name="BAVE7P" Airport="NZCH" Runways="02">
       <Route Runway="02">RINKO/BAVEM</Route>
       <Transition Name="AVOCA">AVOCA</Transition>
       <Transition Name="KABIN">ABAXO/KABIN</Transition>
@@ -7128,10 +7149,10 @@ RILEY
       <Transition Name="MOLGI">ABAXO/MOLGI</Transition>
       <Transition Name="VANDA">VETEV/VANDA</Transition>
     </SID>
-    <SID Name="DIVS2B" Airport="NZCH" Runways="11">
+    <SID Name="DIVS3B" Airport="NZCH" Runways="11">
       <Route Runway="11">LATIP/DIVSU</Route>
     </SID>
-    <SID Name="GUTB1P" Airport="NZCH" Runways="02">
+    <SID Name="GUTB2P" Airport="NZCH" Runways="02">
       <Route Runway="02">GUTBU</Route>
       <Transition Name="GLENN">GLENN</Transition>
       <Transition Name="GRETA">GRETA</Transition>
@@ -7139,14 +7160,14 @@ RILEY
       <Transition Name="ODOWD">ODOWD</Transition>
       <Transition Name="PORAM">PORAM</Transition>
     </SID>
-    <SID Name="KABO5R" Airport="NZCH" Runways="29">
+    <SID Name="KABO6R" Airport="NZCH" Runways="29">
       <Route Runway="29">NITEG/KABOD</Route>
       <Transition Name="GLENN">GLENN</Transition>
       <Transition Name="GRETA">GRETA</Transition>
       <Transition Name="ODOWD">ODOWD</Transition>
       <Transition Name="PORAM">PORAM</Transition>
     </SID>
-    <SID Name="KADE6Q" Airport="NZCH" Runways="20">
+    <SID Name="KADE7Q" Airport="NZCH" Runways="20">
       <Route Runway="20">AGRAL/KADET</Route>
       <Transition Name="AVOCA">AVOCA</Transition>
       <Transition Name="KABIN">ABAXO/KABIN</Transition>
@@ -7155,7 +7176,7 @@ RILEY
       <Transition Name="MOLGI">ABAXO/MOLGI</Transition>
       <Transition Name="VANDA">ABAXO/VANDA</Transition>
     </SID>
-    <SID Name="LUNT1R" Airport="NZCH" Runways="29">
+    <SID Name="LUNT2R" Airport="NZCH" Runways="29">
       <Route Runway="29">NITEG/LUNTI</Route>
       <Transition Name="AVOCA">AVOCA</Transition>
       <Transition Name="KABIN">ABAXO/KABIN</Transition>
@@ -7163,30 +7184,30 @@ RILEY
       <Transition Name="KIDAL">KIDAL</Transition>
       <Transition Name="MOLGI">ABAXO/MOLGI</Transition>
     </SID>
-    <SID Name="MUKV1P" Airport="NZCH" Runways="02">
+    <SID Name="MUKV2P" Airport="NZCH" Runways="02">
       <Route Runway="02">OVLAM/ISGAN/DAMRU/MUKVO</Route>
       <Transition Name="ELDAK">ELDAK</Transition>
       <Transition Name="GUPUT">GUPUT</Transition>
       <Transition Name="IDARA">IDARA</Transition>
       <Transition Name="PEHRR">PEHRR</Transition>
     </SID>
-    <SID Name="NZCH5A" Airport="NZCH" Runways="02">
+    <SID Name="NZCH6A" Airport="NZCH" Runways="02">
       <Route Runway="02" />
     </SID>
-    <SID Name="NZCH5B" Airport="NZCH" Runways="20">
+    <SID Name="NZCH6B" Airport="NZCH" Runways="20">
       <Route Runway="20" />
     </SID>
-    <SID Name="NZCH4C" Airport="NZCH" Runways="29">
+    <SID Name="NZCH6C" Airport="NZCH" Runways="29">
       <Route Runway="29" />
     </SID>
-    <SID Name="PALS1R" Airport="NZCH" Runways="29">
+    <SID Name="PALS2R" Airport="NZCH" Runways="29">
       <Route Runway="29">IGPIK/PALSO</Route>
       <Transition Name="ELDAK">ELDAK</Transition>
       <Transition Name="GUPUT">GUPUT</Transition>
       <Transition Name="IDARA">MAGLA/IDARA</Transition>
       <Transition Name="PEHRR">MAGLA/PEHRR</Transition>
     </SID>
-    <SID Name="PEDM1Q" Airport="NZCH" Runways="20">
+    <SID Name="PEDM2Q" Airport="NZCH" Runways="20">
       <Route Runway="20">MEBMU/ANULU/RUTOR/PEDMI</Route>
       <Transition Name="GLENN">GLENN</Transition>
       <Transition Name="GRETA">GRETA</Transition>
@@ -7194,7 +7215,7 @@ RILEY
       <Transition Name="ODOWD">ODOWD</Transition>
       <Transition Name="PORAM">PORAM</Transition>
     </SID>
-    <SID Name="REPA2R" Airport="NZCH" Runways="29">
+    <SID Name="REPA3R" Airport="NZCH" Runways="29">
       <Route Runway="29">NITEG/DIVSU/REPAP</Route>
       <Transition Name="LALAP">CH789/LALAP</Transition>
     </SID>
@@ -8525,7 +8546,7 @@ RILEY
       <Transition Name="LADIS">LADIS</Transition>
       <Transition Name="PEHRR">PEHRR</Transition>
     </STAR>
-    <STAR Name="AVNO1A" Airport="NZCH" Runways="02">
+    <STAR Name="AVNO2A" Airport="NZCH" Runways="02">
       <Route Runway="02">AVNOP/ERVAX/UBDAN/ALBAD</Route>
       <Transition Name="IGEGA">IGEGA/CH412</Transition>
       <Transition Name="IPRAK">IPRAK/UPVES</Transition>
@@ -8573,7 +8594,7 @@ RILEY
       <Transition Name="OSOLO">OSOLO</Transition>
       <Transition Name="VANDA">VANDA</Transition>
     </STAR>
-    <STAR Name="BELE2K" Airport="NZCH" Runways="20">
+    <STAR Name="BELE3K" Airport="NZCH" Runways="20">
       <Route Runway="20">BELEE/AVOCA/RIVPI/CH511/CH406/IDRUX/DIVSU</Route>
       <Transition Name="KABKA">KABKA</Transition>
       <Transition Name="OSOLO">OSOLO</Transition>
@@ -8582,7 +8603,7 @@ RILEY
     <STAR Name="ELDA1C" Airport="NZCH" Runways="02">
       <Route Runway="02">ELDAK/HODDE/ANLIL/UGEKI</Route>
     </STAR>
-    <STAR Name="GUKA1A" Airport="NZCH" Runways="02">
+    <STAR Name="GUKA2A" Airport="NZCH" Runways="02">
       <Route Runway="02">GUKAM/GOMPI/ALBAD</Route>
       <Transition Name="LALAP">LALAP/CH789/REPAP</Transition>
       <Transition Name="MESIX">MESIX/KABGO</Transition>
@@ -8609,7 +8630,7 @@ RILEY
       <Transition Name="DOPKI">DOPKI</Transition>
       <Transition Name="ELDAK">ELDAK</Transition>
     </STAR>
-    <STAR Name="IDPE1B" Airport="NZCH" Runways="20">
+    <STAR Name="IDPE2B" Airport="NZCH" Runways="20">
       <Route Runway="20">IDPER/ERVAX/IDRUX/DIVSU</Route>
       <Transition Name="DOPKI">DOPKI</Transition>
       <Transition Name="ELDAK">ELDAK</Transition>
@@ -8662,7 +8683,7 @@ RILEY
       <Transition Name="IPRAK">IPRAK</Transition>
       <Transition Name="KIDAL">KIDAL</Transition>
     </STAR>
-    <STAR Name="VEPL1B" Airport="NZCH" Runways="20">
+    <STAR Name="VEPL2B" Airport="NZCH" Runways="20">
       <Route Runway="20">VEPLO/CH408/MABAK/DIVSU</Route>
       <Transition Name="LADIS">LADIS</Transition>
       <Transition Name="PEHRR">PEHRR</Transition>
@@ -9367,6 +9388,12 @@ RILEY
     <STAR Name="IGMU2M" Airport="NZWB" Runways="06">
       <Route Runway="06">IGMUL/LUTKA/WB VOR</Route>
     </STAR>
+    <STAR Name="LUTK1L" Airport="NZWB" Runways="06">
+      <Route Runway="06">LUTKA/URGAP</Route>
+      <Transition Name="AVPOD">AVPOD</Transition>
+      <Transition Name="IGMUL">IGMUL</Transition>
+      <Transition Name="IPMIR">IPMIR</Transition>
+    </STAR>
     <STAR Name="SUPE3J" Airport="NZWB" Runways="24">
       <Route Runway="24">SUPEN/LUTKA</Route>
       <Transition Name="IPMIR">IPMIR</Transition>
@@ -9767,11 +9794,6 @@ RILEY
       <Transition Name="VETAB">VETAB</Transition>
       <Route>DAGIS/KAGDU/-392839.698+1765158.720</Route>
     </Approach>
-    <Approach Name="RNPB" Airport="NZNS" Runway="20">
-      <Transition Name="KAPUA">KAPUA</Transition>
-      <Transition Name="LIKMA">LIKMA</Transition>
-      <Route>ELMAX/NOPEM/ORUBA/-411731.970+1731346.150</Route>
-    </Approach>
     <Approach Name="RNPY" Airport="NZNS" Runway="02">
       <Transition Name="ENKIN">ENKIN</Transition>
       <Transition Name="MIBEV">MIBEV</Transition>
@@ -9780,6 +9802,11 @@ RILEY
     <Approach Name="RNPZ" Airport="NZNS" Runway="02">
       <Transition Name="ESNED">ESNED</Transition>
       <Route>TUMGO/ISLOP/PATRU/-411804.961+1731308.231</Route>
+    </Approach>
+    <Approach Name="RNP-ARZ" Airport="NZNS" Runway="20">
+      <Transition Name="KAPUA">KAPUA</Transition>
+      <Transition Name="LIKMA">LIKMA</Transition>
+      <Route>ELMAX/NS596/VETUG/NS932/NS654/-411731.970+1731346.150</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZNV" Runway="04">
       <Transition Name="EGAMU">EGAMU</Transition>
@@ -9864,6 +9891,9 @@ RILEY
     </Approach>
     <Approach Name="RNP" Airport="NZWB" Runway="24">
       <Route>LUTKA/WB724/ENPIP/WB401/-413102.701+1735240.462</Route>
+    </Approach>
+    <Approach Name="RNP-AR" Airport="NZWB" Runway="06">
+      <Route>URGAP/WB726/WB732/WB744/BEDOG/-413105.959+1735139.150</Route>
     </Approach>
     <Approach Name="RNP" Airport="NZWF" Runway="29">
       <Transition Name="ARIGU">ARIGU</Transition>

@@ -17,6 +17,8 @@
       <Point>LEVGO</Point>
       <Point>SUSAL</Point>
       <Point>SUPSO</Point>
+      <Point>KAPUA</Point>
+      <Point>LIKMA</Point>
       <Point>LEKED</Point>
       <Point>IBABU</Point>
       <Point>ATKIL</Point>
@@ -40,15 +42,19 @@
       <Point>ENLAT</Point>
       <Point>GUNLO</Point>
       <Point>VEKMU</Point>
+      <Point>VETUG</Point>
       <Point>DANLU</Point>
       <Point>OMUBO</Point>
       <Point>LARAV</Point>
       <Point>TUSGA</Point>
       <Point>SEKBU</Point>
       <Point>OTKOS</Point>
+      <Point>BEDOG</Point>
       <Point>ATRAB</Point>
       <Point>SULAB</Point>
       <Point>AA427</Point>
+      <Point>ELMAX</Point>
+      <Point>URGAP</Point>
       <Point>WN416</Point>
       <Point>WN412</Point>
     </Label>
@@ -104,6 +110,9 @@
       <Point>CH653</Point>
       <Point>CH434</Point>
       <Point>CH438</Point>
+      <Point>NS596</Point>
+      <Point>NS932</Point>
+      <Point>NS654</Point>
       <Point>SEKNI</Point>
       <Point>PM482</Point>
       <Point>QN577</Point>
@@ -136,6 +145,9 @@
       <Point>RO764</Point>
       <Point>RO521</Point>
       <Point>RO634</Point>
+      <Point>WB726</Point>
+      <Point>WB732</Point>
+      <Point>WB744</Point>
       <Point>WN509</Point>
       <Point>WN513</Point>
       <Point>WN508</Point>
@@ -161,6 +173,8 @@
       <Point>LEVGO</Point>
       <Point>SUSAL</Point>
       <Point>SUPSO</Point>
+      <Point>KAPUA</Point>
+      <Point>LIKMA</Point>
       <Point>LEKED</Point>
       <Point>IBABU</Point>
       <Point>ATKIL</Point>
@@ -187,18 +201,22 @@
       <Point>ENLAT</Point>
       <Point>GUNLO</Point>
       <Point>VEKMU</Point>
+      <Point>VETUG</Point>
       <Point>DANLU</Point>
       <Point>OMUBO</Point>
       <Point>LARAV</Point>
       <Point>TUSGA</Point>
       <Point>SEKBU</Point>
       <Point>OTKOS</Point>
+      <Point>BEDOG</Point>
       <Point>ATRAB</Point>
       <Point>SULAB</Point>
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
       <Point>AA427</Point>
+      <Point>ELMAX</Point>
+      <Point>URGAP</Point>
       <Point>WN416</Point>
       <Point>WN412</Point>
     </Symbol>
@@ -219,6 +237,9 @@
     <Line Pattern="Solid">LEVGO/CH846/CH801/CH878/GUNLO/-432951.472+1723119.610</Line>
     <Line Pattern="Solid">SUSAL/CH946/CH813/CH653/CH928</Line>
     <Line Pattern="Solid">SUPSO/CH434/VEKMU/CH438/CH917</Line>
+    <Line Pattern="Solid">ELMAX/NS596/VETUG/NS932/NS654/-411731.970+1731346.150</Line>
+    <Line Pattern="Solid">KAPUA/ELMAX</Line>
+    <Line Pattern="Solid">LIKMA/ELMAX</Line>
     <Line Pattern="Solid">LEKED/SEKNI/DANLU/PM482/-401911.410+1753728.808</Line>
     <Line Pattern="Solid">IBABU/QN577/SARDA/TEPEG/PANTO/DUBEG/MOPGA/OMUBO/QN555/QN550/QN545/-450112.000+1684408.480</Line>
     <Line Pattern="Solid">ATVUP/QN760/APEXA/LARAV/QN745/QN741/QN735/QN731/QN725/-450059.558+1684527.821</Line>
@@ -227,6 +248,7 @@
     <Line Pattern="Solid">OKERE/BONLI/TUSGA/-380601.598+1761913.238</Line>
     <Line Pattern="Solid">TOTRA/ADKAG/SEKBU/RO636/RO767/-380655.750+1761841.170</Line>
     <Line Pattern="Solid">TOTRA/RO401/RO764/OTKOS/RO521/RO634/RO862/-380655.750+1761841.170</Line>
+    <Line Pattern="Solid">URGAP/WB726/WB732/WB744/BEDOG/-413105.959+1735139.150</Line>
     <Line Pattern="Solid">WN416/ATRAB/-411907.039+1744826.849</Line>
     <Line Pattern="Solid">DORBU/WN509/WN416</Line>
     <Line Pattern="Solid">HUWIT/WN513/WN416</Line>

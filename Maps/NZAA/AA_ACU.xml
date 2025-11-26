@@ -18,27 +18,27 @@
       AKELA/VELMO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R AVNA1Q-->
+      <!--Rwy05R AVNA2Q-->
       AA05R/ADKUM/TAVEB/OLBUM/AVNAR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R AVNA1Q.IGBAT-->
+      <!--Rwy05R AVNA2Q.IGBAT-->
       AVNAR/LIMES/IGBAT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R AVNA1Q.KAPAI-->
+      <!--Rwy05R AVNA2Q.KAPAI-->
       AVNAR/KAPAI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R AVNA1Q.NUTRA-->
+      <!--Rwy05R AVNA2Q.NUTRA-->
       AVNAR/IPDIN/NUTRA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R AVNA1Q.PEBLU-->
+      <!--Rwy05R AVNA2Q.PEBLU-->
       AVNAR/LESDI/PEBLU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy05R AVNA1Q.VELMO-->
+      <!--Rwy05R AVNA2Q.VELMO-->
       LESDI/VELMO
     </Line>
     <Line Pattern="Dashed">

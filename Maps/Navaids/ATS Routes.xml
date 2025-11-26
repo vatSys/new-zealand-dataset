@@ -637,6 +637,8 @@
       <Point>WB VOR</Point>
       <Point>LUBSI</Point>
       <Point>SF NDB</Point>
+      <Point>OMBEP</Point>
+      <Point>BUVDO</Point>
       <Point>RUATO</Point>
       <Point>WAIMA</Point>
       <Point>ELPIT</Point>
@@ -734,6 +736,7 @@
       <Point>TULMI</Point>
       <Point>ELMAX</Point>
       <Point>PUHOI</Point>
+      <Point>EPDUN</Point>
       <Point>IGBAT</Point>
       <Point>BEVER</Point>
       <Point>MAHIA</Point>
@@ -744,6 +747,7 @@
       <Point>QN VOR</Point>
       <Point>URBUX</Point>
       <Point>KOPPA</Point>
+      <Point>BILEL</Point>
       <Point>OTAKI</Point>
       <Point>BOLOX</Point>
       <Point>KAMET</Point>
@@ -1131,6 +1135,7 @@
       <Point>PADMU</Point>
       <Point>KAWAU</Point>
       <Point>APABO</Point>
+      <Point>ISBUP</Point>
       <Point>LEKUS</Point>
       <Point>OMARU</Point>
       <Point>SEBRU</Point>
@@ -1517,6 +1522,8 @@
       <Point>WB VOR</Point>
       <Point>LUBSI</Point>
       <Point>SF NDB</Point>
+      <Point>OMBEP</Point>
+      <Point>BUVDO</Point>
       <Point>RUATO</Point>
       <Point>WAIMA</Point>
       <Point>ELPIT</Point>
@@ -1614,6 +1621,7 @@
       <Point>TULMI</Point>
       <Point>ELMAX</Point>
       <Point>PUHOI</Point>
+      <Point>EPDUN</Point>
       <Point>IGBAT</Point>
       <Point>BEVER</Point>
       <Point>MAHIA</Point>
@@ -1624,6 +1632,7 @@
       <Point>QN VOR</Point>
       <Point>URBUX</Point>
       <Point>KOPPA</Point>
+      <Point>BILEL</Point>
       <Point>OTAKI</Point>
       <Point>BOLOX</Point>
       <Point>KAMET</Point>
@@ -2011,6 +2020,7 @@
       <Point>PADMU</Point>
       <Point>KAWAU</Point>
       <Point>APABO</Point>
+      <Point>ISBUP</Point>
       <Point>LEKUS</Point>
       <Point>OMARU</Point>
       <Point>SEBRU</Point>
