@@ -2,79 +2,79 @@
 <Maps>
   <Map Type="System2" Name="02 SIDs" Priority="1" CustomColourName="ProcDep" Center="-43.474989+172.548286">
     <Line Pattern="Dashed">
-      <!--Rwy02 BAVE6P-->
+      <!--Rwy02 BAVE7P-->
       -43.474989+172.548286/CH02T/CH20T/RINKO/BAVEM
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 BAVE6P.AVOCA-->
+      <!--Rwy02 BAVE7P.AVOCA-->
       BAVEM/AVOCA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 BAVE6P.KABIN-->
+      <!--Rwy02 BAVE7P.KABIN-->
       BAVEM/ABAXO/KABIN
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 BAVE6P.KABKA-->
+      <!--Rwy02 BAVE7P.KABKA-->
       BAVEM/VETEV/KABKA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 BAVE6P.KIDAL-->
+      <!--Rwy02 BAVE7P.KIDAL-->
       BAVEM/KIDAL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 BAVE6P.MOLGI-->
+      <!--Rwy02 BAVE7P.MOLGI-->
       ABAXO/MOLGI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 BAVE6P.VANDA-->
+      <!--Rwy02 BAVE7P.VANDA-->
       VETEV/VANDA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 GUTB1P-->
+      <!--Rwy02 GUTB2P-->
       CH20T/GUTBU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 GUTB1P.GLENN-->
+      <!--Rwy02 GUTB2P.GLENN-->
       GUTBU/GLENN
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 GUTB1P.GRETA-->
+      <!--Rwy02 GUTB2P.GRETA-->
       GUTBU/GRETA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 GUTB1P.LALAP-->
+      <!--Rwy02 GUTB2P.LALAP-->
       GUTBU/REPAP/CH789/LALAP
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 GUTB1P.ODOWD-->
+      <!--Rwy02 GUTB2P.ODOWD-->
       GUTBU/ODOWD
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 GUTB1P.PORAM-->
+      <!--Rwy02 GUTB2P.PORAM-->
       GUTBU/PORAM
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 MUKV1P-->
+      <!--Rwy02 MUKV2P-->
       CH20T/OVLAM/ISGAN/DAMRU/MUKVO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 MUKV1P.ELDAK-->
+      <!--Rwy02 MUKV2P.ELDAK-->
       MUKVO/ELDAK
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 MUKV1P.GUPUT-->
+      <!--Rwy02 MUKV2P.GUPUT-->
       MUKVO/GUPUT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 MUKV1P.IDARA-->
+      <!--Rwy02 MUKV2P.IDARA-->
       MUKVO/IDARA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 MUKV1P.PEHRR-->
+      <!--Rwy02 MUKV2P.PEHRR-->
       MUKVO/PEHRR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 NZCH5A-->
+      <!--Rwy02 NZCH6A-->
       CH20T/-43.423889+172.580556
     </Line>
     <Symbol Type="SolidStar">
@@ -144,19 +144,19 @@
       AKAMO/CH419/IDUBU
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy02 AVNO1A.IGEGA-->
+      <!--Rwy02 AVNO2A.IGEGA-->
       IGEGA/CH412/AVNOP
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy02 AVNO1A.IPRAK-->
+      <!--Rwy02 AVNO2A.IPRAK-->
       IPRAK/UPVES/AVNOP
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy02 AVNO1A.KIDAL-->
+      <!--Rwy02 AVNO2A.KIDAL-->
       KIDAL/CH413/AVNOP
     </Line>
     <Line>
-      <!--Rwy02 AVNO1A-->
+      <!--Rwy02 AVNO2A-->
       AVNOP/ERVAX/UBDAN/ALBAD
     </Line>
     <Line Pattern="Solid">
@@ -218,15 +218,15 @@
       ELDAK/HODDE/ANLIL/UGEKI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy02 GUKA1A.LALAP-->
+      <!--Rwy02 GUKA2A.LALAP-->
       LALAP/CH789/REPAP/GUKAM
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy02 GUKA1A.MESIX-->
+      <!--Rwy02 GUKA2A.MESIX-->
       MESIX/KABGO/GUKAM
     </Line>
     <Line>
-      <!--Rwy02 GUKA1A-->
+      <!--Rwy02 GUKA2A-->
       GUKAM/GOMPI/ALBAD
     </Line>
     <Line Pattern="Solid">
@@ -254,12 +254,11 @@
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>IDUBU</Point>
-      <Point>UBDAN</Point>
       <Point>ALBAD</Point>
       <Point>ERVAX</Point>
       <Point>LEVGO</Point>
+      <Point>UBDAN</Point>
       <Point>UGEKI</Point>
-      <Point>GOMPI</Point>
       <Point>BOLUB</Point>
     </Symbol>
     <Symbol Type="SolidTriangle">
@@ -294,6 +293,7 @@
       <Point>GUKAM</Point>
       <Point>MESIX</Point>
       <Point>KABGO</Point>
+      <Point>GOMPI</Point>
       <Point>DOPKI</Point>
       <Point>MOLGI</Point>
       <Point>CH739</Point>
@@ -322,12 +322,11 @@
       <Point>DOPKI</Point>
       <Point>MOLGI</Point>
       <Point>IDUBU</Point>
-      <Point>UBDAN</Point>
       <Point>ALBAD</Point>
       <Point>ERVAX</Point>
       <Point>LEVGO</Point>
+      <Point>UBDAN</Point>
       <Point>UGEKI</Point>
-      <Point>GOMPI</Point>
       <Point>BOLUB</Point>
     </Label>
   </Map>
@@ -406,79 +405,79 @@
   </Map>
   <Map Type="System2" Name="20 SIDs" Priority="1" CustomColourName="ProcDep" Center="-43.497631+172.522114">
     <Line Pattern="Dashed">
-      <!--Rwy20 ATSA1Q-->
+      <!--Rwy20 ATSA2Q-->
       -43.497631+172.522114/CH20T/CH02T/ATSAT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 ATSA1Q.ELDAK-->
+      <!--Rwy20 ATSA2Q.ELDAK-->
       ATSAT/ELDAK
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 ATSA1Q.GUPUT-->
+      <!--Rwy20 ATSA2Q.GUPUT-->
       ATSAT/GUPUT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 ATSA1Q.IDARA-->
+      <!--Rwy20 ATSA2Q.IDARA-->
       ATSAT/IDARA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 ATSA1Q.PEHRR-->
+      <!--Rwy20 ATSA2Q.PEHRR-->
       ATSAT/PEHRR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 KADE6Q-->
+      <!--Rwy20 KADE7Q-->
       CH02T/AGRAL/KADET
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 KADE6Q.AVOCA-->
+      <!--Rwy20 KADE7Q.AVOCA-->
       KADET/AVOCA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 KADE6Q.KABIN-->
+      <!--Rwy20 KADE7Q.KABIN-->
       KADET/ABAXO/KABIN
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 KADE6Q.KABKA-->
+      <!--Rwy20 KADE7Q.KABKA-->
       KADET/VETEV/KABKA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 KADE6Q.KIDAL-->
+      <!--Rwy20 KADE7Q.KIDAL-->
       KADET/KIDAL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 KADE6Q.MOLGI-->
+      <!--Rwy20 KADE7Q.MOLGI-->
       ABAXO/MOLGI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 KADE6Q.VANDA-->
+      <!--Rwy20 KADE7Q.VANDA-->
       ABAXO/VANDA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 NZCH5B-->
+      <!--Rwy20 NZCH6B-->
       CH02T/-43.534444+172.445556
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 PEDM1Q-->
+      <!--Rwy20 PEDM2Q-->
       -43.497631+172.522114/CH02T/MEBMU/ANULU/RUTOR/PEDMI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 PEDM1Q.GLENN-->
+      <!--Rwy20 PEDM2Q.GLENN-->
       PEDMI/GLENN
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 PEDM1Q.GRETA-->
+      <!--Rwy20 PEDM2Q.GRETA-->
       PEDMI/GRETA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 PEDM1Q.LALAP-->
+      <!--Rwy20 PEDM2Q.LALAP-->
       PEDMI/REPAP/CH789/LALAP
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 PEDM1Q.ODOWD-->
+      <!--Rwy20 PEDM2Q.ODOWD-->
       PEDMI/ODOWD
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 PEDM1Q.PORAM-->
+      <!--Rwy20 PEDM2Q.PORAM-->
       PEDMI/PORAM
     </Line>
     <Symbol Type="SolidStar">
@@ -565,28 +564,28 @@
       RIVPI/CH511/CH406/SUSAL
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy20 BELE2K.KABKA-->
+      <!--Rwy20 BELE3K.KABKA-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy20 BELE2K.OSOLO-->
+      <!--Rwy20 BELE3K.OSOLO-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy20 BELE2K.VANDA-->
+      <!--Rwy20 BELE3K.VANDA-->
     </Line>
     <Line>
-      <!--Rwy20 BELE2K-->
+      <!--Rwy20 BELE3K-->
       CH406/IDRUX/DIVSU
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy20 IDPE1B.DOPKI-->
+      <!--Rwy20 IDPE2B.DOPKI-->
       DOPKI/IDPER
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy20 IDPE1B.ELDAK-->
+      <!--Rwy20 IDPE2B.ELDAK-->
       ELDAK/IDPER
     </Line>
     <Line>
-      <!--Rwy20 IDPE1B-->
+      <!--Rwy20 IDPE2B-->
       IDPER/ERVAX/IDRUX
     </Line>
     <Line Pattern="Solid">
@@ -631,15 +630,15 @@
       UPVES/CH404/ODISI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy20 VEPL1B.LADIS-->
+      <!--Rwy20 VEPL2B.LADIS-->
       LADIS/VEPLO
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy20 VEPL1B.PEHRR-->
+      <!--Rwy20 VEPL2B.PEHRR-->
       PEHRR/VEPLO
     </Line>
     <Line>
-      <!--Rwy20 VEPL1B-->
+      <!--Rwy20 VEPL2B-->
       VEPLO/CH408/MABAK/DIVSU
     </Line>
     <Line Pattern="Solid">
@@ -655,10 +654,8 @@
     <Symbol Type="HollowTriangle">
       <Point>ODISI</Point>
       <Point>SUSAL</Point>
-      <Point>IDRUX</Point>
       <Point>DIVSU</Point>
       <Point>ERVAX</Point>
-      <Point>MABAK</Point>
       <Point>BIXIX</Point>
     </Symbol>
     <Symbol Type="SolidTriangle">
@@ -675,6 +672,7 @@
       <Point>OBDOR</Point>
       <Point>CH511</Point>
       <Point>CH406</Point>
+      <Point>IDRUX</Point>
       <Point>DOPKI</Point>
       <Point>IDPER</Point>
       <Point>ELDAK</Point>
@@ -702,6 +700,7 @@
       <Point>VEPLO</Point>
       <Point>PEHRR</Point>
       <Point>CH408</Point>
+      <Point>MABAK</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>BELEE</Point>
@@ -723,10 +722,8 @@
       <Point>PEHRR</Point>
       <Point>ODISI</Point>
       <Point>SUSAL</Point>
-      <Point>IDRUX</Point>
       <Point>DIVSU</Point>
       <Point>ERVAX</Point>
-      <Point>MABAK</Point>
       <Point>BIXIX</Point>
     </Label>
   </Map>
@@ -804,11 +801,11 @@
   </Map>
   <Map Type="System2" Name="11 SIDs" Priority="1" CustomColourName="ProcDep" Center="-43.494381+172.540883">
     <Line Pattern="Dashed">
-      <!--Rwy11 ALBA2B-->
+      <!--Rwy11 ALBA3B-->
       -43.494381+172.540883/CH11T/-43.509722+172.567500/ALBAD
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy11 DIVS2B-->
+      <!--Rwy11 DIVS3B-->
       CH11T/LATIP/DIVSU
     </Line>
     <Symbol Type="HollowTriangle">
@@ -941,79 +938,79 @@
   </Map>
   <Map Type="System2" Name="29 SIDs" Priority="1" CustomColourName="ProcDep" Center="-43.484278+172.524414">
     <Line Pattern="Dashed">
-      <!--Rwy29 KABO5R-->
+      <!--Rwy29 KABO6R-->
       -43.484278+172.524414/CH29T/-43.482561+172.521363/NITEG/KABOD
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy29 KABO5R.GLENN-->
+      <!--Rwy29 KABO6R.GLENN-->
       KABOD/GLENN
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy29 KABO5R.GRETA-->
+      <!--Rwy29 KABO6R.GRETA-->
       KABOD/GRETA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy29 KABO5R.ODOWD-->
+      <!--Rwy29 KABO6R.ODOWD-->
       KABOD/ODOWD
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy29 KABO5R.PORAM-->
+      <!--Rwy29 KABO6R.PORAM-->
       KABOD/PORAM
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy29 LUNT1R-->
+      <!--Rwy29 LUNT2R-->
       NITEG/LUNTI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy29 LUNT1R.AVOCA-->
+      <!--Rwy29 LUNT2R.AVOCA-->
       LUNTI/AVOCA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy29 LUNT1R.KABIN-->
+      <!--Rwy29 LUNT2R.KABIN-->
       LUNTI/ABAXO/KABIN
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy29 LUNT1R.KABKA-->
+      <!--Rwy29 LUNT2R.KABKA-->
       LUNTI/VETEV/KABKA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy29 LUNT1R.KIDAL-->
+      <!--Rwy29 LUNT2R.KIDAL-->
       LUNTI/KIDAL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy29 LUNT1R.MOLGI-->
+      <!--Rwy29 LUNT2R.MOLGI-->
       ABAXO/MOLGI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy29 NZCH4C-->
+      <!--Rwy29 NZCH6C-->
       CH29T/CH11T/-43.448056+172.466667
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy29 PALS1R-->
+      <!--Rwy29 PALS2R-->
       -43.482561+172.521363/IGPIK/PALSO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy29 PALS1R.ELDAK-->
+      <!--Rwy29 PALS2R.ELDAK-->
       PALSO/ELDAK
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy29 PALS1R.GUPUT-->
+      <!--Rwy29 PALS2R.GUPUT-->
       PALSO/GUPUT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy29 PALS1R.IDARA-->
+      <!--Rwy29 PALS2R.IDARA-->
       PALSO/MAGLA/IDARA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy29 PALS1R.PEHRR-->
+      <!--Rwy29 PALS2R.PEHRR-->
       MAGLA/PEHRR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy29 REPA2R-->
+      <!--Rwy29 REPA3R-->
       NITEG/DIVSU/REPAP
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy29 REPA2R.LALAP-->
+      <!--Rwy29 REPA3R.LALAP-->
       REPAP/CH789/LALAP
     </Line>
     <Symbol Type="HollowTriangle">
