@@ -156,21 +156,21 @@
       <Point>WB744</Point>
     </Symbol>
     <!--IAF Symbols-->
-    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>URGAP</Point>
+    </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>BEDOG</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>URGAP</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">URGAP/WB726/WB732/WB744/BEDOG/-413105.959+1735139.150</Line>
   </Map>
   <Map Type="System2" Name="06 RNP-AR Labels" Priority="1" Center="-41.518322+173.860875" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>BEDOG</Point>
       <Point>URGAP</Point>
+      <Point>BEDOG</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="24 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.518322+173.860875">
