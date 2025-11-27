@@ -25,6 +25,7 @@
       <Point>UGPED</Point>
       <Point>OKERE</Point>
       <Point>TOTRA</Point>
+      <Point>URGAP</Point>
       <Point>DORBU</Point>
       <Point>HUWIT</Point>
       <Point>MEEDA</Point>
@@ -54,7 +55,6 @@
       <Point>SULAB</Point>
       <Point>AA427</Point>
       <Point>ELMAX</Point>
-      <Point>URGAP</Point>
       <Point>WN416</Point>
       <Point>WN412</Point>
     </Label>
@@ -181,6 +181,7 @@
       <Point>UGPED</Point>
       <Point>OKERE</Point>
       <Point>TOTRA</Point>
+      <Point>URGAP</Point>
       <Point>DORBU</Point>
       <Point>HUWIT</Point>
       <Point>MEEDA</Point>
@@ -216,7 +217,6 @@
     <Symbol Type="SolidTriangle">
       <Point>AA427</Point>
       <Point>ELMAX</Point>
-      <Point>URGAP</Point>
       <Point>WN416</Point>
       <Point>WN412</Point>
     </Symbol>
