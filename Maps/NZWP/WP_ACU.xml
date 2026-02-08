@@ -261,7 +261,7 @@
   </Map>
   <Map Type="System2" Name="21 STARs" Priority="1" CustomColourName="ProcArr" Center="-36.785153+174.639053">
     <Line>
-      <!--Rwy21 AA2J-->
+      <!--Rwy21 AA3J-->
       AA VOR/GUTLA/EMSAK/BAYES
     </Line>
     <Line Pattern="Solid">
