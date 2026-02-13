@@ -8,9 +8,9 @@
     <Line Name="NPPM1" Pattern="Broken">IGDOT/UPREM/AVKAB/PM VOR</Line>
     <Line Name="NPPM4" Pattern="Broken">SELTA/OMKUN/SUNIK/MEVAX/VIROL</Line>
     <Line Name="NPPM7" Pattern="Broken">VELGA/PADMU/MEVAX/VIROL</Line>
-    <Line Name="NPWU1" Pattern="Broken">SELTA/OMKUN/SUNIK/MEVAX/WU NDB</Line>
     <Line Name="NPWN1" Pattern="Broken">DAPNO/PADMU/TPAPA/WN VOR</Line>
     <Line Name="NPWN5" Pattern="Broken">VELGA/PADMU/TPAPA/WN VOR</Line>
+    <Line Name="NPWU1" Pattern="Broken">SELTA/OMKUN/SUNIK/MEVAX/WU NDB</Line>
     <Line Name="NPWU4" Pattern="Broken">VELGA/PADMU/MEVAX/WU NDB</Line>
     <Label LabelOrientation="NW">
       <Point>HARVO</Point>

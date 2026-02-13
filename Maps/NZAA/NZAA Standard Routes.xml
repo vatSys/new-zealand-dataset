@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System2" Name="NZAA Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
+    <Line Name="AAAP1" Pattern="Broken">ORIDI/URKAS/HN VOR/KARBA/GOSTI/AP NDB</Line>
     <Line Name="AACH1" Pattern="Broken">IGBAT/NP VOR/RUPNU/TONUS/TELIM/MENOV/KUNVO/NS VOR/IPRAK/CH VOR</Line>
     <Line Name="AACH6" Pattern="Broken">IGBAT/NP VOR/VELGA/PEDPO/ALADA/IGEGA/CH VOR</Line>
     <Line Name="AADN3" Pattern="Broken">KAPAI/LAKAR/LAPIM/MIPAK</Line>
+    <Line Name="AAGB2" Pattern="Broken">BOVRU/BETKI/DOSTU</Line>
     <Line Name="AAGS3" Pattern="Broken">TULMI/DABIP/GS VOR</Line>
     <Line Name="AAGS4" Pattern="Broken">TULMI/ESKER/RO VOR/LUMSO/DABIP/GS VOR</Line>
-    <Line Name="AAGB2" Pattern="Broken">BOVRU/BETKI/DOSTU</Line>
     <Line Name="AAHN1" Pattern="Broken">ORIDI/URKAS/HN VOR</Line>
+    <Line Name="AAKK2-23L" Pattern="Broken">KYPRA/UKAPA</Line>
+    <Line Name="AAKK2-05R" Pattern="Broken">KAWAU/APABO/ISBUP/SF NDB</Line>
     <Line Name="AAKT1-23L" Pattern="Broken">KYPRA/UKAPA/PERAS/KT NDB</Line>
     <Line Name="AAKT1-05R" Pattern="Broken">KAWAU/APABO/PERAS/KT NDB</Line>
-    <Line Name="AAKK2-23L" Pattern="Broken">KYPRA/UKAPA</Line>
-    <Line Name="AAKK2-05R" Pattern="Broken">KAWAU/APABO/SF NDB</Line>
+    <Line Name="AANP2" Pattern="Broken">IGBAT/EKALI/DOBBO/NP VOR</Line>
     <Line Name="AANR2" Pattern="Broken">ORIDI/URKAS/HN VOR/EMSAR/GORGA/GENDA/NR VOR</Line>
     <Line Name="AANR5" Pattern="Broken">ORIDI/URKAS/HN VOR/KARBA/GOSTI/AP NDB/OBDEV/GENDA/NR VOR</Line>
     <Line Name="AANS2" Pattern="Broken">IGBAT/NP VOR/RUPNU/TONUS/TELIM/MENOV/KUNVO/NS VOR</Line>
-    <Line Name="AANP2" Pattern="Broken">IGBAT/EKALI/DOBBO/NP VOR</Line>
     <Line Name="AANV1" Pattern="Broken">KAPAI/LAKAR/MIDUB/DOVOT/QN VOR/SUNGU/ANOPA/NV VOR</Line>
     <Line Name="AANV5" Pattern="Broken">KAPAI/LAKAR/DUBON/UPNIX/DUKOP/NV VOR</Line>
     <Line Name="AAPM3" Pattern="Broken">ORIDI/DROPT/IDVIG/IDLUR/PM VOR</Line>
@@ -24,48 +25,47 @@
     <Line Name="AAQN2" Pattern="Broken">KAPAI/LAKAR/MIDUB/DOVOT/QN VOR</Line>
     <Line Name="AAQN4" Pattern="Broken">KAPAI/LAKAR/DUBON/UPNIX/ELRUV/QN VOR</Line>
     <Line Name="AARO1" Pattern="Broken">TULMI/ESKER/RO VOR</Line>
-    <Line Name="AAAP1" Pattern="Broken">ORIDI/URKAS/HN VOR/KARBA/GOSTI/AP NDB</Line>
     <Line Name="AATG1" Pattern="Broken">TULMI/URBUX/TG NDB</Line>
-    <Line Name="AAWU2" Pattern="Broken">ORIDI/URKAS/HN VOR/DROPT/POURO/TM NDB/ADRAD/TENUR/WU NDB</Line>
-    <Line Name="AAWN2" Pattern="Broken">IGBAT/SILVO/TPAPA/WN VOR</Line>
-    <Line Name="AAWK3" Pattern="Broken">TULMI/URBUX/TG NDB/PIBOV/WK NDB</Line>
-    <Line Name="AAWR1-23L" Pattern="Broken">KOPPA/SF NDB</Line>
-    <Line Name="AAWR1-05R" Pattern="Broken">PUHOI/SF NDB</Line>
     <Line Name="AAWB3" Pattern="Broken">IGBAT/NP VOR/DAPNO/PADMU/AKAVI/SWUTH/IPMIR/WB VOR</Line>
+    <Line Name="AAWK3" Pattern="Broken">TULMI/URBUX/TG NDB/PIBOV/WK NDB</Line>
+    <Line Name="AAWN2" Pattern="Broken">IGBAT/SILVO/TPAPA/WN VOR</Line>
+    <Line Name="AAWR1-23L" Pattern="Broken">KOPPA/BILEL/SF NDB</Line>
+    <Line Name="AAWR1-05R" Pattern="Broken">PUHOI/EPDUN/SF NDB</Line>
+    <Line Name="AAWU2" Pattern="Broken">ORIDI/URKAS/HN VOR/DROPT/POURO/TM NDB/ADRAD/TENUR/WU NDB</Line>
     <Label LabelOrientation="NW">
+      <Point>ORIDI</Point>
       <Point>IGBAT</Point>
       <Point>KAPAI</Point>
-      <Point>TULMI</Point>
       <Point>BOVRU</Point>
-      <Point>ORIDI</Point>
+      <Point>TULMI</Point>
       <Point>KYPRA</Point>
       <Point>KAWAU</Point>
       <Point>KOPPA</Point>
       <Point>PUHOI</Point>
     </Label>
     <Label LabelOrientation="NE">
-      <Point Name="CH1 CH6 NS2 NP2">IGBAT</Point>
+      <Point Name="AP1 HN1 NR2 NR5">ORIDI</Point>
+      <Point Name="CH1 CH6 NP2 NS2">IGBAT</Point>
       <Point Name="DN3 NV1 NV5 QN2">KAPAI</Point>
-      <Point Name="GS3 GS4 RO1 TG1">TULMI</Point>
       <Point Name="GB2">BOVRU</Point>
-      <Point Name="HN1 NR2 NR5 PM3">ORIDI</Point>
-      <Point Name="KT1-23L KK2-23L">KYPRA</Point>
-      <Point Name="KT1-05R KK2-05R">KAWAU</Point>
+      <Point Name="GS3 GS4 RO1 TG1">TULMI</Point>
+      <Point Name="KK2-23L KT1-23L">KYPRA</Point>
+      <Point Name="KK2-05R KT1-05R">KAWAU</Point>
       <Point Name="WR1-23L">KOPPA</Point>
       <Point Name="WR1-05R">PUHOI</Point>
     </Label>
     <Label LabelOrientation="SE" VerticalAlignment="Bottom">
-      <Point Name="PP1 WN2 WB3">IGBAT</Point>
+      <Point Name="PM3 PM5 WU2">ORIDI</Point>
+      <Point Name="PP1 WB3 WN2">IGBAT</Point>
       <Point Name="QN4">KAPAI</Point>
       <Point Name="WK3">TULMI</Point>
-      <Point Name="PM5 AP1 WU2">ORIDI</Point>
     </Label>
     <Symbol Type="SolidTriangle">
+      <Point>ORIDI</Point>
       <Point>IGBAT</Point>
       <Point>KAPAI</Point>
-      <Point>TULMI</Point>
       <Point>BOVRU</Point>
-      <Point>ORIDI</Point>
+      <Point>TULMI</Point>
       <Point>KYPRA</Point>
       <Point>KAWAU</Point>
       <Point>KOPPA</Point>

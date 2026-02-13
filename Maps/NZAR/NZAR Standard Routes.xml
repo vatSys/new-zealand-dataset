@@ -2,7 +2,7 @@
 <Maps>
   <Map Type="System2" Name="NZAR Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
     <Line Name="ARHN1" Pattern="Broken">ORIDI</Line>
-    <Line Name="ARWR1" Pattern="Broken">SATLA/HOOKS/UPLIN/KAWAU/APABO/SF NDB</Line>
+    <Line Name="ARWR1" Pattern="Broken">SATLA/HOOKS/UPLIN/KAWAU/APABO/ISBUP/SF NDB</Line>
     <Label LabelOrientation="NW">
       <Point>ORIDI</Point>
       <Point>SATLA</Point>
