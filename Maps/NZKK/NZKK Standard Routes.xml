@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System2" Name="NZKK Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
-    <Line Name="KKAA3-23L" Pattern="Broken">UPGAM/SF NDB/APABO</Line>
+    <Line Name="KKAA3-23L" Pattern="Broken">UPGAM/SF NDB/ISBUP/APABO</Line>
     <Line Name="KKAA3-05R" Pattern="Broken">SAKIM/OBKOP/UKAPA</Line>
     <Label LabelOrientation="NW">
       <Point>UPGAM</Point>

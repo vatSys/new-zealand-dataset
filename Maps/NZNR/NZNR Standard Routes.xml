@@ -8,8 +8,8 @@
     <Line Name="NRHN1" Pattern="Broken">BOVSA/MOOSE/LUXAS/ELAGA/RO VOR/FALLS/GODOK/HN VOR</Line>
     <Line Name="NRPM3" Pattern="Broken">NIXOT/RIDLA/IRMIX/PM VOR</Line>
     <Line Name="NRPM4" Pattern="Broken">OPAPA/ELPEL/WEBER/IRMIX/PM VOR</Line>
-    <Line Name="NRWO1" Pattern="Broken">POTEX/DOMON</Line>
     <Line Name="NRWN1" Pattern="Broken">NIXOT/RIDLA/PM VOR/LIMPA/DOGAD/WN VOR</Line>
+    <Line Name="NRWO1" Pattern="Broken">POTEX/DOMON</Line>
     <Label LabelOrientation="NW">
       <Point>BOVSA</Point>
       <Point>NIXOT</Point>

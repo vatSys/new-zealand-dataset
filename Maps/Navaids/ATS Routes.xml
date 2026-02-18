@@ -31,7 +31,7 @@
     <Line Name="G591">AA VOR.G591.SCUBA</Line>
     <Line Name="G593">RG VOR.G593.PAGRA</Line>
     <Line Name="G594">AA VOR.G594.MAITO</Line>
-    <Line Name="G595">TESAS.G595.SABUB</Line>
+    <Line Name="G595">SARAP.G595.SABUB</Line>
     <Line Name="G599">AA VOR.G599.TEKOT</Line>
     <Line Name="H1">TBU VOR.H1.TLARP</Line>
     <Line Name="H103">RIDLA.H103.NR VOR</Line>
@@ -191,7 +191,7 @@
     <Line Name="KZ862">TUHUA.KZ862.RO VOR</Line>
     <Line Name="KZ877">ELDIB.KZ877.TASAM</Line>
     <Line Name="L326">CH VOR.L326.NF VOR</Line>
-    <Line Name="L503">CH VOR.L503.TESAS</Line>
+    <Line Name="L503">CH VOR.L503.RUNOD</Line>
     <Line Name="L508">KAGRI.L508.RG VOR</Line>
     <Line Name="L513">AA VOR.L513.TUVBI</Line>
     <Line Name="L521">AA VOR.L521.REPUD</Line>
@@ -592,12 +592,11 @@
       <Point>DALUN</Point>
       <Point>KRILL</Point>
       <Point>MAITO</Point>
+      <Point>SARAP</Point>
       <Point>NIMOD</Point>
       <Point>ODUTI</Point>
       <Point>PAVSI</Point>
       <Point>RAXER</Point>
-      <Point>TESAS</Point>
-      <Point>SARAP</Point>
       <Point>SABUB</Point>
       <Point>OLBEX</Point>
       <Point>IGETO</Point>
@@ -1477,12 +1476,11 @@
       <Point>DALUN</Point>
       <Point>KRILL</Point>
       <Point>MAITO</Point>
+      <Point>SARAP</Point>
       <Point>NIMOD</Point>
       <Point>ODUTI</Point>
       <Point>PAVSI</Point>
       <Point>RAXER</Point>
-      <Point>TESAS</Point>
-      <Point>SARAP</Point>
       <Point>SABUB</Point>
       <Point>OLBEX</Point>
       <Point>IGETO</Point>
