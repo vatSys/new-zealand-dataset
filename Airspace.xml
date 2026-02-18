@@ -977,7 +977,7 @@
         <SID Name="NZWP1B" />
         <SID Name="WYTA2A" />
         <SID Name="WYTA2Q" />
-        <STAR Name="AA2J" ApproachName="RNP" />
+        <STAR Name="AA3J" ApproachName="RNP" />
         <STAR Name="ARAD2J" ApproachName="RNP" />
         <STAR Name="BASI3J" ApproachName="RNP" />
         <STAR Name="EXOP4J" ApproachName="RNP" />
@@ -1344,7 +1344,6 @@ KRILL/
 MAITO
 </Airway>
     <Airway Name="G595">
-TESAS/
 SARAP/
 IGLET/
 MUGEN/
@@ -2327,8 +2326,7 @@ NF VOR
     <Airway Name="L503">
 CH VOR/
 KABKA/
-RUNOD/
-TESAS
+RUNOD
 </Airway>
     <Airway Name="L508">
 KAGRI/
@@ -4762,8 +4760,8 @@ RILEY
     <Point Name="LOCSO" Type="Fix">-425302.250+1725928.000</Point>
     <Point Name="LOSGA" Type="Fix">-365403.800+1744427.210</Point>
     <Point Name="LOSKO" Type="Fix">-454801.700+1701800.760</Point>
-    <Point Name="LOSTI" Type="Fix">-450430.850+1682250.870</Point>
     <Point Name="LOSTI" Type="Fix">-450431.000+1682251.000</Point>
+    <Point Name="LOSTI" Type="Fix">-450430.850+1682250.870</Point>
     <Point Name="LOTLO" Type="Fix">-435646.230-1785226.520</Point>
     <Point Name="LOTRA" Type="Fix">-201358.750-1590554.080</Point>
     <Point Name="LOVTA" Type="Fix">-415913.950+1713635.160</Point>
@@ -5641,7 +5639,6 @@ RILEY
     <Point Name="TERIL" Type="Fix">-402347.080+1753720.080</Point>
     <Point Name="TEROT" Type="Fix">-401211.740+1753901.000</Point>
     <Point Name="TERUX" Type="Fix">-250000.000+1714354.000</Point>
-    <Point Name="TESAS" Type="Fix">-332050.590+1594932.470</Point>
     <Point Name="TEVUC" Type="Fix">-370228.090+1751044.710</Point>
     <Point Name="THANG" Type="Fix">-365745.250+1750316.720</Point>
     <Point Name="THROW" Type="Fix">-374030.580+1752919.660</Point>
@@ -6478,8 +6475,8 @@ RILEY
     <Point Name="KAI IWI BEACH" Type="Fix">-395310.900+1745401.170</Point>
     <Point Name="KAINGAROA" Type="Fix">-382430.600+1763356.500</Point>
     <Point Name="KAIPO SADDLE" Type="Fix">-442703.800+1675925.200</Point>
-    <Point Name="KAITUNA BRIDGE" Type="Fix">-412842.400+1734844.400</Point>
     <Point Name="KAITUNA BRIDGE" Type="Fix">-374446.800+1762115.500</Point>
+    <Point Name="KAITUNA BRIDGE" Type="Fix">-412842.400+1734844.400</Point>
     <Point Name="KARAKA" Type="Fix">-370437.500+1745541.700</Point>
     <Point Name="KARANGAHAPE" Type="Fix">-384742.700+1754801.700</Point>
     <Point Name="KAREWA ISLAND" Type="Fix">-373146.800+1760754.500</Point>
@@ -9505,7 +9502,7 @@ RILEY
       <Transition Name="DOMON">DOMON</Transition>
       <Transition Name="MARKS">MARKS</Transition>
     </STAR>
-    <STAR Name="AA2J" Airport="NZWP" Runways="21">
+    <STAR Name="AA3J" Airport="NZWP" Runways="21">
       <Route Runway="21">AA VOR/GUTLA/EMSAK/BAYES</Route>
     </STAR>
     <STAR Name="AA2K" Airport="NZWP" Runways="03">
@@ -10035,6 +10032,7 @@ RILEY
       <Runway Name="18" Position="-450233.410+1691029.849" />
       <Runway Name="36" Position="-450254.859+1691015.780" />
     </Airport>
+    <Airport ICAO="NZCV" FullName="Cheviot" Position="-424831.690+1731555.650" />
     <Airport ICAO="NZCW" FullName="Cromwell" Position="-445848.000+1691306.000">
       <Runway Name="18" Position="-445821.209+1691315.301" />
       <Runway Name="36" Position="-445908.279+1691251.131" />
@@ -10085,7 +10083,7 @@ RILEY
       <Runway Name="36" Position="-432309.000+1722138.000" />
     </Airport>
     <Airport ICAO="NZFG" FullName="Fern Gully" Position="-465342.000+1680642.000" />
-    <Airport ICAO="NZFH" FullName="Fox" Position="-432747.000+1695959.000" />
+    <Airport ICAO="NZFH" FullName="Fox" Position="-432819.160+1700014.160" />
     <Airport ICAO="NZFI" FullName="Feilding" Position="-401521.340+1753621.310">
       <Runway Name="10" Position="-401513.849+1753604.061" />
       <Runway Name="28" Position="-401528.778+1753638.549" />
@@ -10093,10 +10091,6 @@ RILEY
     <Airport ICAO="NZFJ" FullName="Franz Josef" Position="-432147.000+1700804.000">
       <Runway Name="10" Position="-432136.691+1700742.190" />
       <Runway Name="28" Position="-432151.030+1700810.100" />
-    </Airport>
-    <Airport ICAO="NZFL" FullName="Flat Hills" Position="-395344.000+1753912.000">
-      <Runway Name="03" Position="-395353.700+1753857.340" />
-      <Runway Name="21" Position="-395334.940+1753926.129" />
     </Airport>
     <Airport ICAO="NZFO" FullName="Fox Glacier" Position="-432742.920+1700108.370">
       <Runway Name="09" Position="-432737.771+1700054.709" />
@@ -10129,6 +10123,7 @@ RILEY
       <Runway Name="12" Position="-460913.129+1685351.900" />
       <Runway Name="30" Position="-460928.019+1685405.198" />
     </Airport>
+    <Airport ICAO="NZGD" FullName="Geraldine" Position="-440549.300+1711434.200" />
     <Airport ICAO="NZGH" FullName="Glacier Country" Position="-432314.000+1701048.000" />
     <Airport ICAO="NZGM" FullName="Greymouth" Position="-422742.000+1711124.000">
       <Runway Name="01" Position="-422757.820+1711113.949" />
@@ -10183,6 +10178,7 @@ RILEY
       <Runway Name="11" Position="-423555.939+1714144.441" />
       <Runway Name="29" Position="-423610.141+1714208.611" />
     </Airport>
+    <Airport ICAO="NZHR" FullName="Hanmer Medical Centre" Position="-423112.610+1724922.510" />
     <Airport ICAO="NZHS" FullName="Hastings" Position="-393847.480+1764600.240">
       <Runway Name="01" Position="-393853.779+1764550.980" />
       <Runway Name="19" Position="-393826.340+1764610.751" />
@@ -10196,6 +10192,7 @@ RILEY
     <Airport ICAO="NZJA" FullName="Tauranga Hospital" Position="-374225.000+1760853.000" />
     <Airport ICAO="NZJB" FullName="Wairau Hospital" Position="-413212.000+1735637.000" />
     <Airport ICAO="NZJC" FullName="Christchurch Hospital" Position="-433158.590+1723726.010" />
+    <Airport ICAO="NZJD" FullName="Thames Hospital" Position="-370809.000+1753240.300" />
     <Airport ICAO="NZJE" FullName="Dargaville Hospital" Position="-355544.000+1735232.000" />
     <Airport ICAO="NZJF" FullName="Whakatane Hospital" Position="-375756.000+1765836.000" />
     <Airport ICAO="NZJG" FullName="Gisborne Hospital" Position="-383819.000+1780013.000" />
@@ -10322,6 +10319,7 @@ RILEY
       <Runway Name="09" Position="-432113.000+1701127.000" />
       <Runway Name="27" Position="-432113.000+1701127.000" />
     </Airport>
+    <Airport ICAO="NZMM" FullName="Middlemore Hospital" Position="-365748.000+1745043.000" />
     <Airport ICAO="NZMO" FullName="Te Anau / Manapouri" Position="-453159.000+1673900.000">
       <Runway Name="08" Position="-453153.641+1673835.470" />
       <Runway Name="26" Position="-453204.211+1673947.070" />
@@ -10338,6 +10336,7 @@ RILEY
       <Runway Name="10" Position="-405820.701+1753737.859" />
       <Runway Name="28" Position="-405838.032+1753813.340" />
     </Airport>
+    <Airport ICAO="NZMV" FullName="Methven" Position="-433805.400+1713916.100" />
     <Airport ICAO="NZMW" FullName="Makarora" Position="-441354.000+1691349.000">
       <Runway Name="17" Position="-441354.000+1691349.000" />
       <Runway Name="35" Position="-441354.000+1691349.000" />
@@ -10601,7 +10600,7 @@ RILEY
       <Runway Name="31" Position="-381430.170+1755350.460" />
     </Airport>
     <Airport ICAO="NZTP" FullName="Tekapo / Mackenzie" Position="-440046.000+1702424.000" />
-    <Airport ICAO="NZTQ" FullName="Te Kuiti Hospital" Position="-382001.640+1750906.530" />
+    <Airport ICAO="NZTQ" FullName="Te Kuiti Hospital" Position="-382002.200+1750906.320" />
     <Airport ICAO="NZTR" FullName="Te Araroa" Position="-373745.000+1782051.000">
       <Runway Name="10" Position="-373745.000+1782051.000" />
       <Runway Name="28" Position="-373745.000+1782051.000" />
