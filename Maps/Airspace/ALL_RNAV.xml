@@ -526,7 +526,7 @@
       <Point>UKBIR</Point>
       <Point>OVSUM</Point>
       <Point>ROZAN</Point>
-      <Point>OLBIN</Point>
+      <Point>WN407</Point>
       <Point>RITPU</Point>
       <Point>WO422</Point>
       <Point>MESUD</Point>
@@ -576,7 +576,7 @@
       <Point>PILAD</Point>
       <Point>SAGEM</Point>
       <Point>BUTIN</Point>
-      <Point>WN402</Point>
+      <Point>WN401</Point>
       <Point>CANES</Point>
       <Point>WN403</Point>
       <Point>WO411</Point>
@@ -855,7 +855,7 @@
       <Point>UKBIR</Point>
       <Point>OVSUM</Point>
       <Point>ROZAN</Point>
-      <Point>OLBIN</Point>
+      <Point>WN407</Point>
       <Point>RITPU</Point>
       <Point>WO422</Point>
       <Point>MESUD</Point>
@@ -1075,8 +1075,8 @@
     <Line Pattern="Solid">LAVIS/ELBEV</Line>
     <Line Pattern="Solid">REGAT/OVSUM/-375527.559+1765524.449</Line>
     <Line Pattern="Solid">POTOP/REGAT</Line>
-    <Line Pattern="Solid">UMAGA/BUTIN/WN402/ROZAN/-412005.780+1744822.889</Line>
-    <Line Pattern="Solid">WITBY/CANES/OLBIN/-411907.039+1744826.849</Line>
+    <Line Pattern="Solid">UMAGA/BUTIN/WN401/ROZAN/-412005.780+1744822.889</Line>
+    <Line Pattern="Solid">WITBY/CANES/WN407/-411907.039+1744826.849</Line>
     <Line Pattern="Solid">ROZAN/WN403/-412005.780+1744822.889</Line>
     <Line Pattern="Solid">AVMEB/RITPU/-390027.180+1772414.648</Line>
     <Line Pattern="Solid">AGTID/AVMEB</Line>
