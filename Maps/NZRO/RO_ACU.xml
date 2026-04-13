@@ -128,9 +128,6 @@
       <!--Rwy18 LEDA3C-->
       LEDAK/NIKOR
     </Line>
-    <Line>
-      <!--Rwy18 REVE1A-->
-    </Line>
     <Symbol Type="HollowTriangle">
       <Point>OKERE</Point>
       <Point>NIKOR</Point>
@@ -153,7 +150,6 @@
     <Label HasLeader="true">
       <Point>ABTUV</Point>
       <Point>LEDAK</Point>
-      <Point>REEVE</Point>
       <Point>ELAGA</Point>
       <Point>LUMSO</Point>
       <Point>ESKER</Point>
@@ -426,6 +422,7 @@
       <Point Name="BOAT HARBOUR">-384112.600+1760351.700</Point>
       <Point Name="CAMBRIDGE">-375341.300+1752812.000</Point>
       <Point Name="EAST JUNCTION">-374251.000+1761651.500</Point>
+      <Point Name="FERGUSSON PARK">-373939.000+1760737.000</Point>
       <Point Name="GREEN LAKE">-381230.600+1762043.700</Point>
       <Point Name="HAMURANA">-380200.000+1761518.200</Point>
       <Point Name="HAPARANGI">-381417.100+1761207.200</Point>
@@ -496,6 +493,7 @@
       <Point Name="BOAT HARBOUR">-384112.600+1760351.700</Point>
       <Point Name="CAMBRIDGE">-375341.300+1752812.000</Point>
       <Point Name="EAST JUNCTION">-374251.000+1761651.500</Point>
+      <Point Name="FERGUSSON PARK">-373939.000+1760737.000</Point>
       <Point Name="GREEN LAKE">-381230.600+1762043.700</Point>
       <Point Name="HAMURANA">-380200.000+1761518.200</Point>
       <Point Name="HAPARANGI">-381417.100+1761207.200</Point>

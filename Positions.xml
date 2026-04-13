@@ -123,6 +123,11 @@
         <Line>Need local charts? - vats.im/nz/charts</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="NZTG_GND">
+        <Line>Tauranga Ground - ATIS 123.400</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
+      </ControllerInfo>
       <ControllerInfo Callsign="NZRO_TWR">
         <Line>Rotorua Tower - ATIS 128.800</Line>
         <Line>Need local charts? - vats.im/nz/charts</Line>

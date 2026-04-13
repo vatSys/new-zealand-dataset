@@ -109,6 +109,7 @@
   <Sector FullName="Queenstown Ground" Frequency="128.300" Callsign="NZQN_GND" Name="GQN" DisplayInHandoffWindow="False" />
   <Sector FullName="Queenstown Tower" Frequency="118.100" Callsign="NZQN_TWR" Name="TQN" DisplayInHandoffWindow="False" />
   <Sector FullName="Rotorua Tower" Frequency="121.200" Callsign="NZRO_TWR" Name="TRO" DisplayInHandoffWindow="False" />
+  <Sector FullName="Tauranga Ground" Frequency="123.400" Callsign="NZTG_GND" Name="GTG" DisplayInHandoffWindow="False" />
   <Sector FullName="Tauranga Tower" Frequency="118.300" Callsign="NZTG_TWR" Name="TTG" DisplayInHandoffWindow="False" />
   <Sector FullName="Wellington Delivery" Frequency="128.200" Callsign="NZWN_DEL" Name="DWN" DisplayInHandoffWindow="False" />
   <Sector FullName="Wellington Ground" Frequency="121.900" Callsign="NZWN_GND" Name="GWN" DisplayInHandoffWindow="False" />

@@ -2,52 +2,66 @@
 <Maps>
   <Map Type="System2" Name="16 SIDs" Priority="1" CustomColourName="ProcDep" Center="-39.477694+176.866311">
     <Line Pattern="Dashed">
-      <!--Rwy16 COAST1-->
+      <!--Rwy16 COAST2-->
       -39.477694+176.866311/NR16T/-39.481111+176.865833
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 HILL1-->
+      <!--Rwy16 HILL2-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 LEDI3P-->
+      <!--Rwy16 LEDI4P-->
       -39.477694+176.866311/NR34T/LEDIV
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 LEDI3P.BITIL-->
+      <!--Rwy16 LEDI4P.BITIL-->
       LEDIV/UNVIX/VEPKU/BITIL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 LEDI3P.NIXOT-->
+      <!--Rwy16 LEDI4P.NIXOT-->
       UNVIX/NIXOT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 LEDI3P.OPAPA-->
+      <!--Rwy16 LEDI4P.OPAPA-->
       LEDIV/IGBEL/OPAPA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 TUKN1P-->
+      <!--Rwy16 SUPV1P-->
+      NR34T/LAKIB/SUPVI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 SUPV1P.BOVSA-->
+      SUPVI/OLSIX/OMGUK/BOVSA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 SUPV1P.POTEX-->
+      SUPVI/POTEX
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy16 TUKN2P-->
       NR34T/-39.481111+176.865833/ANUDU/TUKNE
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 TUKN1P.BOVSA-->
-      TUKNE/IPNEV/LAVAD/OMGUK/BOVSA
+      <!--Rwy16 TUKN2P.BOVSA-->
+      TUKNE/IPNEV/LAVAD/OMGUK
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 TUKN1P.POTEX-->
+      <!--Rwy16 TUKN2P.POTEX-->
       TUKNE/POTEX
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 TUKN1R-->
+      <!--Rwy16 TUKN2R-->
       NR34T/-39.644290+176.847500/TUKNE
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 TUKN1R.BOVSA-->
+      <!--Rwy16 TUKN2R.BOVSA-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 TUKN1R.POTEX-->
+      <!--Rwy16 TUKN2R.POTEX-->
     </Line>
     <Symbol Type="SolidStar">
       <Point>LEDIV</Point>
+      <Point>LAKIB</Point>
+      <Point>SUPVI</Point>
       <Point>-39.481111+176.865833</Point>
       <Point>ANUDU</Point>
       <Point>-39.644290+176.847500</Point>
@@ -61,15 +75,17 @@
       <Point>NIXOT</Point>
       <Point>IGBEL</Point>
       <Point>OPAPA</Point>
-      <Point>TUKNE</Point>
-      <Point>IPNEV</Point>
-      <Point>LAVAD</Point>
+      <Point>OLSIX</Point>
       <Point>OMGUK</Point>
       <Point>BOVSA</Point>
       <Point>POTEX</Point>
+      <Point>TUKNE</Point>
+      <Point>IPNEV</Point>
+      <Point>LAVAD</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>LEDIV</Point>
+      <Point>SUPVI</Point>
       <Point>TUKNE</Point>
       <Point>BITIL</Point>
       <Point>NIXOT</Point>
@@ -170,43 +186,66 @@
   </Map>
   <Map Type="System2" Name="34 SIDs" Priority="1" CustomColourName="ProcDep" Center="-39.461989+176.868039">
     <Line Pattern="Dashed">
-      <!--Rwy34 GUGT1Q-->
+      <!--Rwy34 GUGT2Q-->
       -39.461989+176.868039/NR16T/-39.395610+176.875410/TUKNE/TAVUX/IRTOR/ANLUX/GUGTO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 GUGT1Q.BITIL-->
+      <!--Rwy34 GUGT2Q.BITIL-->
       GUGTO/BITIL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 GUGT1Q.NIXOT-->
+      <!--Rwy34 GUGT2Q.NIXOT-->
       GUGTO/NIXOT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 GUGT1Q.OPAPA-->
+      <!--Rwy34 GUGT2Q.OPAPA-->
       GUGTO/OPAPA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 OBLO3Q-->
+      <!--Rwy34 GUGT1S-->
+      NR16T/ONEGA/BOPKO/OLTAM/IRTOR/GUGTO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 GUGT1S.BITIL-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 GUGT1S.NIXOT-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 GUGT1S.OPAPA-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 OBLO4Q-->
       -39.461989+176.868039/OBLOX
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 OBLO3Q.BOVSA-->
+      <!--Rwy34 OBLO4Q.BOVSA-->
       OBLOX/BOVSA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 OBLO3Q.POTEX-->
+      <!--Rwy34 OBLO4Q.POTEX-->
       OBLOX/POTEX
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 OCEAN1-->
+      <!--Rwy34 OCEAN2-->
       -39.461989+176.868039/NR34T/-39.457500+176.868611
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 WEST1-->
+      <!--Rwy34 OLSI1Q-->
+      NR16T/OBLOX/NR401/OLSIX
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 OLSI1Q.BOVSA-->
+      OLSIX/OMGUK/BOVSA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy34 WEST2-->
     </Line>
     <Symbol Type="SolidStar">
       <Point>-39.395610+176.875410</Point>
+      <Point>ONEGA</Point>
       <Point>OBLOX</Point>
+      <Point>NR401</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>NR16T</Point>
@@ -218,13 +257,18 @@
       <Point>BITIL</Point>
       <Point>NIXOT</Point>
       <Point>OPAPA</Point>
+      <Point>BOPKO</Point>
+      <Point>OLTAM</Point>
       <Point>BOVSA</Point>
       <Point>POTEX</Point>
       <Point>NR34T</Point>
+      <Point>OLSIX</Point>
+      <Point>OMGUK</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>GUGTO</Point>
       <Point>OBLOX</Point>
+      <Point>OLSIX</Point>
       <Point>BITIL</Point>
       <Point>NIXOT</Point>
       <Point>OPAPA</Point>
@@ -336,6 +380,7 @@
       <Point Name="MARAEKAKAHO">-393901.700+1763727.700</Point>
       <Point Name="MOHAKA RIVER MOUTH">-390731.700+1771130.700</Point>
       <Point Name="NUHAKA">-390247.700+1774421.800</Point>
+      <Point Name="PAKIPAKI ROUNDABOUT">-394129.700+1764736.700</Point>
       <Point Name="PATOKA">-392047.700+1763616.700</Point>
       <Point Name="PORAITI">-392934.200+1765021.000</Point>
       <Point Name="PUKETAPU">-393042.700+1764717.700</Point>
@@ -362,6 +407,7 @@
       <Point Name="MARAEKAKAHO">-393901.700+1763727.700</Point>
       <Point Name="MOHAKA RIVER MOUTH">-390731.700+1771130.700</Point>
       <Point Name="NUHAKA">-390247.700+1774421.800</Point>
+      <Point Name="PAKIPAKI ROUNDABOUT">-394129.700+1764736.700</Point>
       <Point Name="PATOKA">-392047.700+1763616.700</Point>
       <Point Name="PORAITI">-392934.200+1765021.000</Point>
       <Point Name="PUKETAPU">-393042.700+1764717.700</Point>

@@ -68,6 +68,7 @@
       <Point Name="BOAT HARBOUR">-384112.600+1760351.700</Point>
       <Point Name="CAMBRIDGE">-375341.300+1752812.000</Point>
       <Point Name="EAST JUNCTION">-374251.000+1761651.500</Point>
+      <Point Name="FERGUSSON PARK">-373939.000+1760737.000</Point>
       <Point Name="GORDONTON">-374013.400+1751818.200</Point>
       <Point Name="GREEN LAKE">-381230.600+1762043.700</Point>
       <Point Name="HAMILTON LAKE">-374754.580+1751625.520</Point>
@@ -148,6 +149,7 @@
       <Point Name="BOAT HARBOUR">-384112.600+1760351.700</Point>
       <Point Name="CAMBRIDGE">-375341.300+1752812.000</Point>
       <Point Name="EAST JUNCTION">-374251.000+1761651.500</Point>
+      <Point Name="FERGUSSON PARK">-373939.000+1760737.000</Point>
       <Point Name="GORDONTON">-374013.400+1751818.200</Point>
       <Point Name="GREEN LAKE">-381230.600+1762043.700</Point>
       <Point Name="HAMILTON LAKE">-374754.580+1751625.520</Point>

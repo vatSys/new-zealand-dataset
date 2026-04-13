@@ -11,6 +11,7 @@
       <Point>NZAS</Point>
       <Point>NZAW</Point>
       <Point>NZBA</Point>
+      <Point>NZBG</Point>
       <Point>NZBW</Point>
       <Point>NZCB</Point>
       <Point>NZCG</Point>
@@ -237,6 +238,7 @@
       <Point Name="AS">NZAS</Point>
       <Point Name="AW">NZAW</Point>
       <Point Name="BA">NZBA</Point>
+      <Point Name="BG">NZBG</Point>
       <Point Name="BW">NZBW</Point>
       <Point Name="CB">NZCB</Point>
       <Point Name="CG">NZCG</Point>
