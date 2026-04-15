@@ -2,33 +2,33 @@
 <Maps>
   <Map Type="System2" Name="07 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.319836+175.624669">
     <Line Pattern="Dashed">
-      <!--Rwy07 DADL3Q-->
+      <!--Rwy07 DADL4Q-->
       -40.319836+175.624669/PM25T/DADLI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 DADL3Q.APITI-->
+      <!--Rwy07 DADL4Q.APITI-->
       DADLI/OVRUN/LULKO/APITI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 DADL3Q.IRMIX-->
+      <!--Rwy07 DADL4Q.IRMIX-->
       DADLI/IRMIX
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 DADL4S-->
+      <!--Rwy07 DADL5S-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 DADL4S.AVKAB-->
+      <!--Rwy07 DADL5S.AVKAB-->
       DADLI/ENRUL/AVKAB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 DADL4S.OMBUB-->
+      <!--Rwy07 DADL5S.OMBUB-->
       AVKAB/ADRAD/OMBUB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 DADL4T-->
+      <!--Rwy07 DADL5T-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 DADL4T.OMBUB-->
+      <!--Rwy07 DADL5T.OMBUB-->
       DADLI/LAPUN/DUKUT/GULBA/OMBUB
     </Line>
     <Line Pattern="Dashed">
@@ -444,33 +444,32 @@
       LUNBA/OLMUX
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy25 LUNB1E.BINIT-->
-      BINIT/BINIT
+      <!--Rwy25 LUNB2E.BINIT-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy25 LUNB1E.MIBUS-->
+      <!--Rwy25 LUNB2E.MIBUS-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy25 LUNB1E.SAKBA-->
+      <!--Rwy25 LUNB2E.SAKBA-->
     </Line>
     <Line>
-      <!--Rwy25 LUNB1E-->
-      LUNBA/GUTNI/LEKED
+      <!--Rwy25 LUNB2E-->
+      LUNBA/OTLAG/GUTNI/LEKED
     </Line>
     <Line>
       <!--Rwy25 OKEV1A-->
       OKEVO/NIKIP
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy25 TUTS2E.APITI-->
+      <!--Rwy25 TUTS3E.APITI-->
       APITI/TUTSI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy25 TUTS2E.IDLUR-->
+      <!--Rwy25 TUTS3E.IDLUR-->
       IDLUR/TUTSI
     </Line>
     <Line>
-      <!--Rwy25 TUTS2E-->
+      <!--Rwy25 TUTS3E-->
       TUTSI/LEKED
     </Line>
     <Symbol Type="HollowTriangle">
@@ -498,6 +497,7 @@
       <Point>OVRUN</Point>
       <Point>IRMIX</Point>
       <Point>LUNBA</Point>
+      <Point>OTLAG</Point>
       <Point>GUTNI</Point>
       <Point>OKEVO</Point>
     </Symbol>

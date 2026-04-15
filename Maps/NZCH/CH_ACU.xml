@@ -201,16 +201,16 @@
       BISUP/CH414/LEVGO
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy02 BELE2J.KABKA-->
+      <!--Rwy02 BELE3J.KABKA-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy02 BELE2J.OSOLO-->
+      <!--Rwy02 BELE3J.OSOLO-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy02 BELE2J.VANDA-->
+      <!--Rwy02 BELE3J.VANDA-->
     </Line>
     <Line>
-      <!--Rwy02 BELE2J-->
+      <!--Rwy02 BELE3J-->
       CH414/UBDAN
     </Line>
     <Line>
@@ -257,7 +257,6 @@
       <Point>ALBAD</Point>
       <Point>ERVAX</Point>
       <Point>LEVGO</Point>
-      <Point>UBDAN</Point>
       <Point>UGEKI</Point>
       <Point>BOLUB</Point>
     </Symbol>
@@ -276,6 +275,7 @@
       <Point>UPVES</Point>
       <Point>KIDAL</Point>
       <Point>CH413</Point>
+      <Point>UBDAN</Point>
       <Point>KABKA</Point>
       <Point>BELEE</Point>
       <Point>OSOLO</Point>
@@ -325,7 +325,6 @@
       <Point>ALBAD</Point>
       <Point>ERVAX</Point>
       <Point>LEVGO</Point>
-      <Point>UBDAN</Point>
       <Point>UGEKI</Point>
       <Point>BOLUB</Point>
     </Label>

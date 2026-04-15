@@ -34,9 +34,24 @@
       HOBBS/WP VOR
     </Line>
     <Line Pattern="Dashed">
+      <!--Rwy12 KARO1P-->
+      KT30T/KT601/KAROA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy12 PERA1P-->
+      KT601/PERAS
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy12 RUAT1P-->
+      KT601/RUATO
+    </Line>
+    <Line Pattern="Dashed">
       <!--Rwy12 VALEY3-->
       -35.091060+173.305680/KAROA
     </Line>
+    <Symbol Type="SolidStar">
+      <Point>KT601</Point>
+    </Symbol>
     <Symbol Type="Circle">
       <Point>WP VOR</Point>
     </Symbol>
@@ -57,41 +72,63 @@
   </Map>
   <Map Type="System2" Name="12 STARs" Priority="1" CustomColourName="ProcArr" Center="-35.064536+173.281014">
     <Line>
-      <!--Rwy12 KT1-->
-      KT NDB/STEED
+      <!--Rwy12 KARO1B-->
+      KAROA/KT422/AVLOS
+    </Line>
+    <Line>
+      <!--Rwy12 PERA1B-->
+      PERAS/KT424/KINTO
+    </Line>
+    <Line>
+      <!--Rwy12 RUAT1B-->
+      RUATO/PERIA/KT408/AVLOS
     </Line>
     <Symbol Type="HollowTriangle">
-      <Point>STEED</Point>
+      <Point>AVLOS</Point>
+      <Point>KINTO</Point>
     </Symbol>
-    <Symbol Type="Circle">
-      <Point>KT NDB</Point>
+    <Symbol Type="HollowTriangle">
+      <Point>KAROA</Point>
+      <Point>KT422</Point>
+      <Point>PERAS</Point>
+      <Point>KT424</Point>
+      <Point>RUATO</Point>
+      <Point>PERIA</Point>
+      <Point>KT408</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>KT NDB</Point>
-      <Point>STEED</Point>
+      <Point>KAROA</Point>
+      <Point>PERAS</Point>
+      <Point>RUATO</Point>
+      <Point>AVLOS</Point>
+      <Point>KINTO</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="12 RNP" Priority="1" Center="-35.064536+173.281014" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>KT401</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
-      <Point>STEED</Point>
+      <Point>ENSOP</Point>
+      <Point>AVLOS</Point>
+      <Point>KINTO</Point>
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>DAKTA</Point>
+      <Point>LANEV</Point>
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">STEED/DAKTA/KT401/-350352.330+1731651.650</Line>
+    <Line Pattern="Solid">ENSOP/LANEV/-350352.330+1731651.650</Line>
+    <Line Pattern="Solid">AVLOS/ENSOP</Line>
+    <Line Pattern="Solid">KINTO/ENSOP</Line>
   </Map>
   <Map Type="System2" Name="12 RNP Labels" Priority="1" Center="-35.064536+173.281014" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>STEED</Point>
-      <Point>DAKTA</Point>
+      <Point>ENSOP</Point>
+      <Point>AVLOS</Point>
+      <Point>KINTO</Point>
+      <Point>LANEV</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="30 SIDs" Priority="1" CustomColourName="ProcDep" Center="-35.064536+173.281014">
@@ -115,6 +152,21 @@
       <!--Rwy30 HARBO4.WP-->
       -35.051030+173.267940/WP VOR
     </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy30 HOBI1Q-->
+      KT12T/-35.058611+173.276167/PERIA/RUATO/HOBIN
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy30 KARO1Q-->
+      -35.058611+173.276167/KT603/KAROA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy30 PERA1Q-->
+      KT12T/-35.026317+173.234949/KT608/PERAS
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy30 RUAT1Q-->
+    </Line>
     <Symbol Type="Circle">
       <Point>WP VOR</Point>
     </Symbol>
@@ -123,8 +175,13 @@
       <Point>KAROA</Point>
       <Point>PERAS</Point>
       <Point>RUATO</Point>
+      <Point>PERIA</Point>
+      <Point>HOBIN</Point>
+      <Point>KT603</Point>
+      <Point>KT608</Point>
     </Symbol>
     <Label HasLeader="true">
+      <Point>HOBIN</Point>
       <Point>KAROA</Point>
       <Point>PERAS</Point>
       <Point>RUATO</Point>
@@ -133,53 +190,66 @@
   </Map>
   <Map Type="System2" Name="30 STARs" Priority="1" CustomColourName="ProcArr" Center="-35.074508+173.290461">
     <Line>
-      <!--Rwy30 KAROA1-->
-      KAROA/PERIA
+      <!--Rwy30 ENSO1A-->
+      ENSOP/PERIA/BUTGO
     </Line>
     <Line>
-      <!--Rwy30 PERAS1-->
-      PERAS/PERIA
+      <!--Rwy30 KARO1A-->
+      KAROA/BUTGO
     </Line>
     <Line>
-      <!--Rwy30 RUATO1-->
-      RUATO/PERIA
+      <!--Rwy30 PERA1A-->
+      PERAS/VIKUG
+    </Line>
+    <Line>
+      <!--Rwy30 RUAT1A-->
+      RUATO/VIKUG
     </Line>
     <Symbol Type="HollowTriangle">
-      <Point>PERIA</Point>
+      <Point>BUTGO</Point>
+      <Point>VIKUG</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>ENSOP</Point>
+      <Point>PERIA</Point>
       <Point>KAROA</Point>
       <Point>PERAS</Point>
       <Point>RUATO</Point>
     </Symbol>
     <Label HasLeader="true">
+      <Point>ENSOP</Point>
       <Point>KAROA</Point>
       <Point>PERAS</Point>
       <Point>RUATO</Point>
-      <Point>PERIA</Point>
+      <Point>BUTGO</Point>
+      <Point>VIKUG</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="30 RNP" Priority="1" Center="-35.074508+173.290461" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>KT501</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
-      <Point>PERIA</Point>
+      <Point>VIKUG</Point>
+      <Point>BUTGO</Point>
+      <Point>KALUB</Point>
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>EMVAN</Point>
+      <Point>SAGPO</Point>
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">PERIA/EMVAN/KT501/-350428.229+1731725.660</Line>
+    <Line Pattern="Solid">VIKUG/SAGPO/-350428.229+1731725.660</Line>
+    <Line Pattern="Solid">BUTGO/VIKUG</Line>
+    <Line Pattern="Solid">KALUB/VIKUG</Line>
   </Map>
   <Map Type="System2" Name="30 RNP Labels" Priority="1" Center="-35.074508+173.290461" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>PERIA</Point>
-      <Point>EMVAN</Point>
+      <Point>VIKUG</Point>
+      <Point>BUTGO</Point>
+      <Point>KALUB</Point>
+      <Point>SAGPO</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-35.070000+173.285278">
