@@ -78,15 +78,15 @@
   </Map>
   <Map Type="System2" Name="14 SIDs" Priority="1" CustomColourName="ProcDep" Center="-38.669686+177.979039">
     <Line Pattern="Dashed">
-      <!--Rwy14 MIGE1Q-->
+      <!--Rwy14 MIGE2Q-->
       -38.669686+177.979039/GS14T/-38.678162+177.982151/OMLIK/VENAL/PAVRI/MIGEN
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 MIGE1Q.DABIP-->
+      <!--Rwy14 MIGE2Q.DABIP-->
       MIGEN/DABIP
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 MIGE1Q.KEEPA-->
+      <!--Rwy14 MIGE2Q.KEEPA-->
       MIGEN/KEEPA
     </Line>
     <Line Pattern="Dashed">
@@ -285,11 +285,11 @@
   </Map>
   <Map Type="System2" Name="32 SIDs" Priority="1" CustomColourName="ProcDep" Center="-38.658300+177.974975">
     <Line Pattern="Dashed">
-      <!--Rwy32 COKS1P-->
+      <!--Rwy32 COKS2P-->
       -38.658300+177.974975/GS32T/-38.653182+177.973461/OMLIK/ERVET/COOKS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 COKS1P.RULSI-->
+      <!--Rwy32 COKS2P.RULSI-->
       COOKS/DOXOR/POPOV/RULSI
     </Line>
     <Line Pattern="Dashed">

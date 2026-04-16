@@ -2,43 +2,51 @@
 <Maps>
   <Map Type="System2" Name="06 SIDs" Priority="1" CustomColourName="ProcDep" Center="-35.768372+174.369817">
     <Line Pattern="Dashed">
-      <!--Rwy06 BREAM5-->
+      <!--Rwy06 BREAM6-->
       -35.768372+174.369817/WR24T/-35.809640+174.403060/-35.846270+174.443360
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy06 BREAM5.AA VOR-->
+      <!--Rwy06 BREAM6.AA VOR-->
       -35.846270+174.443360/AA VOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy06 BREAM5.APABO-->
+      <!--Rwy06 BREAM6.APABO-->
       -35.846270+174.443360/APABO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy06 BREAM5.DOSTU-->
+      <!--Rwy06 BREAM6.DOSTU-->
       -35.846270+174.443360/DOSTU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy06 BREAM5.KK NDB-->
+      <!--Rwy06 BREAM6.KK NDB-->
       -35.846270+174.443360/KK NDB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy06 BREAM5.KT NDB-->
+      <!--Rwy06 BREAM6.KT NDB-->
       -35.846270+174.443360/KT NDB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy06 BREAM5.UKAPA-->
+      <!--Rwy06 BREAM6.UKAPA-->
       -35.846270+174.443360/UKAPA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy06 BREAM5.WP VOR-->
+      <!--Rwy06 BREAM6.WP VOR-->
       -35.846270+174.443360/WP VOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy06 SF2P-->
-      -35.768372+174.369817/WR06T/WR24T/-35.762990+174.410400/SF NDB
+      <!--Rwy06 BUVD1S-->
+      WR24T/-35.762990+174.410400/BUVDO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy06 WAIPU3-->
+      <!--Rwy06 SF2P-->
+      -35.768372+174.369817/WR06T/WR24T/SF NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy06 UPGA1S-->
+      -35.762990+174.410400/UPGAM
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy06 WAIPU4-->
       WR24T/-35.821950+174.359540/SF NDB
     </Line>
     <Symbol Type="Circle">
@@ -53,10 +61,14 @@
       <Point>APABO</Point>
       <Point>DOSTU</Point>
       <Point>UKAPA</Point>
+      <Point>BUVDO</Point>
       <Point>WR06T</Point>
+      <Point>UPGAM</Point>
     </Symbol>
     <Label HasLeader="true">
+      <Point>BUVDO</Point>
       <Point>SF NDB</Point>
+      <Point>UPGAM</Point>
       <Point>AA VOR</Point>
       <Point>APABO</Point>
       <Point>DOSTU</Point>
@@ -66,83 +78,123 @@
       <Point>WP VOR</Point>
     </Label>
   </Map>
+  <Map Type="System2" Name="06 STARs" Priority="1" CustomColourName="ProcArr" Center="-35.769875+174.357825">
+    <Line>
+      <!--Rwy06 BILE1B-->
+      BILEL/UBREB
+    </Line>
+    <Line>
+      <!--Rwy06 EPDU1B-->
+      EPDUN/WR406/UBREB
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>UBREB</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>BILEL</Point>
+      <Point>EPDUN</Point>
+      <Point>WR406</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>BILEL</Point>
+      <Point>EPDUN</Point>
+      <Point>UBREB</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="06 RNP" Priority="1" Center="-35.769875+174.357825" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle">
-      <Point>WR601</Point>
-    </Symbol>
+    <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
-      <Point>OMANA</Point>
-      <Point>LEECH</Point>
-      <Point>OTUHI</Point>
-      <Point>BIRAX</Point>
+      <Point>UGENO</Point>
+      <Point>ISBUP</Point>
+      <Point>VIPIT</Point>
+      <Point>GULAP</Point>
+      <Point>OMBEP</Point>
+      <Point>UBREB</Point>
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>ADKES</Point>
       <Point>DUDAP</Point>
-      <Point>MONSU</Point>
+      <Point>ISVAL</Point>
+      <Point>AVGAS</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">OMANA/ADKES/WR601/-354611.550+1742128.170</Line>
-    <Line Pattern="Solid">LEECH/OMANA</Line>
-    <Line Pattern="Solid">OTUHI/OMANA</Line>
+    <Symbol Type="SolidTriangle">
+      <Point>IKIRA</Point>
+    </Symbol>
     <Line Pattern="Solid">SF NDB/DUDAP/WR431/-354611.550+1742128.170</Line>
-    <Line Pattern="Solid">BIRAX/MONSU/WR983/-354611.550+1742128.170</Line>
+    <Line Pattern="Solid">UGENO/ISVAL/WR403/-354611.550+1742128.170</Line>
+    <Line Pattern="Solid">ISBUP/UGENO</Line>
+    <Line Pattern="Solid">VIPIT/UGENO</Line>
+    <Line Pattern="Solid">IKIRA/AVGAS/WR404/-354611.550+1742128.170</Line>
+    <Line Pattern="Solid">GULAP/IKIRA</Line>
+    <Line Pattern="Solid">OMBEP/IKIRA</Line>
+    <Line Pattern="Solid">UBREB/IKIRA</Line>
+    <Line Pattern="Solid">AVGAS/-354611.550+1742128.170</Line>
   </Map>
   <Map Type="System2" Name="06 RNP Labels" Priority="1" Center="-35.769875+174.357825" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>OMANA</Point>
-      <Point>LEECH</Point>
-      <Point>OTUHI</Point>
-      <Point>BIRAX</Point>
-      <Point>ADKES</Point>
+      <Point>UGENO</Point>
+      <Point>ISBUP</Point>
+      <Point>VIPIT</Point>
+      <Point>GULAP</Point>
+      <Point>OMBEP</Point>
+      <Point>UBREB</Point>
       <Point>DUDAP</Point>
-      <Point>MONSU</Point>
+      <Point>ISVAL</Point>
+      <Point>AVGAS</Point>
+      <Point>IKIRA</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="24 SIDs" Priority="1" CustomColourName="ProcDep" Center="-35.769875+174.357825">
     <Line Pattern="Dashed">
-      <!--Rwy24 HARBO5-->
-      -35.769875+174.357825/WR06T/-35.809640+174.403060/-35.846270+174.443360
+      <!--Rwy24 BUVD1T-->
+      -35.769875+174.357825/WR06T/-35.774790+174.317200/BUVDO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy24 HARBO5.AA VOR-->
+      <!--Rwy24 HARBO6-->
+      WR06T/-35.809640+174.403060/-35.846270+174.443360
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy24 HARBO6.AA VOR-->
       -35.846270+174.443360/AA VOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy24 HARBO5.APABO-->
+      <!--Rwy24 HARBO6.APABO-->
       -35.846270+174.443360/APABO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy24 HARBO5.DOSTU-->
+      <!--Rwy24 HARBO6.DOSTU-->
       -35.846270+174.443360/DOSTU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy24 HARBO5.KK NDB-->
+      <!--Rwy24 HARBO6.KK NDB-->
       -35.846270+174.443360/KK NDB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy24 HARBO5.KT NDB-->
+      <!--Rwy24 HARBO6.KT NDB-->
       -35.846270+174.443360/KT NDB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy24 HARBO5.UKAPA-->
+      <!--Rwy24 HARBO6.UKAPA-->
       -35.846270+174.443360/UKAPA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy24 HARBO5.WP VOR-->
+      <!--Rwy24 HARBO6.WP VOR-->
       -35.846270+174.443360/WP VOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy24 PORTL3-->
+      <!--Rwy24 PORTL4-->
       WR06T/-35.821950+174.359540/SF NDB
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy24 SF2Q-->
-      -35.769875+174.357825/WR24T/WR06T/-35.774790+174.317200/SF NDB
+      -35.769875+174.357825/WR24T/WR06T/SF NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy24 UPGA1T-->
+      -35.774790+174.317200/UPGAM
     </Line>
     <Symbol Type="Circle">
       <Point>AA VOR</Point>
@@ -153,13 +205,17 @@
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>WR06T</Point>
+      <Point>BUVDO</Point>
       <Point>APABO</Point>
       <Point>DOSTU</Point>
       <Point>UKAPA</Point>
       <Point>WR24T</Point>
+      <Point>UPGAM</Point>
     </Symbol>
     <Label HasLeader="true">
+      <Point>BUVDO</Point>
       <Point>SF NDB</Point>
+      <Point>UPGAM</Point>
       <Point>AA VOR</Point>
       <Point>APABO</Point>
       <Point>DOSTU</Point>
@@ -169,28 +225,57 @@
       <Point>WP VOR</Point>
     </Label>
   </Map>
+  <Map Type="System2" Name="24 STARs" Priority="1" CustomColourName="ProcArr" Center="-35.768372+174.369817">
+    <Line>
+      <!--Rwy24 BILE1A-->
+      BILEL/WR424/UGENO
+    </Line>
+    <Line>
+      <!--Rwy24 EPDU1A-->
+      EPDUN/UGENO
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>UGENO</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>BILEL</Point>
+      <Point>WR424</Point>
+      <Point>EPDUN</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>BILEL</Point>
+      <Point>EPDUN</Point>
+      <Point>UGENO</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="24 RNP" Priority="1" Center="-35.768372+174.369817" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
-      <Point>BIRAX</Point>
+      <Point>UGENO</Point>
+      <Point>ISBUP</Point>
+      <Point>VIPIT</Point>
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>DUDAP</Point>
-      <Point>MONSU</Point>
+      <Point>ISVAL</Point>
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">SF NDB/DUDAP/WR431/-354606.139+1742211.341</Line>
-    <Line Pattern="Solid">BIRAX/MONSU/WR983/-354606.139+1742211.341</Line>
+    <Line Pattern="Solid">UGENO/ISVAL/WR403/-354606.139+1742211.341</Line>
+    <Line Pattern="Solid">ISBUP/UGENO</Line>
+    <Line Pattern="Solid">VIPIT/UGENO</Line>
   </Map>
   <Map Type="System2" Name="24 RNP Labels" Priority="1" Center="-35.768372+174.369817" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>BIRAX</Point>
+      <Point>UGENO</Point>
+      <Point>ISBUP</Point>
+      <Point>VIPIT</Point>
       <Point>DUDAP</Point>
-      <Point>MONSU</Point>
+      <Point>ISVAL</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="14 RNP" Priority="1" Center="-35.769628+174.359069" CustomColourName="ProcArr">
@@ -198,23 +283,29 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
-      <Point>BIRAX</Point>
+      <Point>UGENO</Point>
+      <Point>ISBUP</Point>
+      <Point>VIPIT</Point>
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>DUDAP</Point>
-      <Point>MONSU</Point>
+      <Point>ISVAL</Point>
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">SF NDB/DUDAP/WR431/-354610.661+1742132.648</Line>
-    <Line Pattern="Solid">BIRAX/MONSU/WR983/-354610.661+1742132.648</Line>
+    <Line Pattern="Solid">UGENO/ISVAL/WR403/-354610.661+1742132.648</Line>
+    <Line Pattern="Solid">ISBUP/UGENO</Line>
+    <Line Pattern="Solid">VIPIT/UGENO</Line>
   </Map>
   <Map Type="System2" Name="14 RNP Labels" Priority="1" Center="-35.769628+174.359069" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>BIRAX</Point>
+      <Point>UGENO</Point>
+      <Point>ISBUP</Point>
+      <Point>VIPIT</Point>
       <Point>DUDAP</Point>
-      <Point>MONSU</Point>
+      <Point>ISVAL</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="32 RNP" Priority="1" Center="-35.773617+174.360961" CustomColourName="ProcArr">
@@ -222,23 +313,29 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
-      <Point>BIRAX</Point>
+      <Point>UGENO</Point>
+      <Point>ISBUP</Point>
+      <Point>VIPIT</Point>
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>DUDAP</Point>
-      <Point>MONSU</Point>
+      <Point>ISVAL</Point>
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">SF NDB/DUDAP/WR431/-354625.021+1742139.460</Line>
-    <Line Pattern="Solid">BIRAX/MONSU/WR983/-354625.021+1742139.460</Line>
+    <Line Pattern="Solid">UGENO/ISVAL/WR403/-354625.021+1742139.460</Line>
+    <Line Pattern="Solid">ISBUP/UGENO</Line>
+    <Line Pattern="Solid">VIPIT/UGENO</Line>
   </Map>
   <Map Type="System2" Name="32 RNP Labels" Priority="1" Center="-35.773617+174.360961" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>BIRAX</Point>
+      <Point>UGENO</Point>
+      <Point>ISBUP</Point>
+      <Point>VIPIT</Point>
       <Point>DUDAP</Point>
-      <Point>MONSU</Point>
+      <Point>ISVAL</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-35.768333+174.365000">

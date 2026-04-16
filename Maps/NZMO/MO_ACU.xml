@@ -193,6 +193,7 @@
       <Point Name="BLIGH">-444512.100+1672948.200</Point>
       <Point Name="BOBS COVE">-450421.600+1683047.900</Point>
       <Point Name="CATSEYE BAY">-444853.800+1672341.000</Point>
+      <Point Name="CATTLE STOP">-450112.000+1683425.000</Point>
       <Point Name="CLINTON FORKS">-445257.100+1675318.200</Point>
       <Point Name="CREIGHTON SADDLE">-450006.100+1682930.200</Point>
       <Point Name="DEEP COVE">-452757.000+1670942.300</Point>
@@ -206,8 +207,8 @@
       <Point Name="HOMER">-444552.100+1675859.200</Point>
       <Point Name="JANE PEAK">-451939.100+1681923.200</Point>
       <Point Name="KAY CREEK">-445053.900+1681336.500</Point>
+      <Point Name="KIRKS">-450333.400+1683441.400</Point>
       <Point Name="KNOBS FLAT">-445839.100+1680103.200</Point>
-      <Point Name="LAKE DISPUTE">-450309.400+1683245.200</Point>
       <Point Name="LAKE GUNN">-445330.000+1680445.500</Point>
       <Point Name="LAKE ICEBERG">-444906.300+1675235.300</Point>
       <Point Name="MONKEY FLAT">-444712.100+1680100.200</Point>
@@ -218,6 +219,7 @@
       <Point Name="SHALLOW BAY">-452935.900+1673644.600</Point>
       <Point Name="SOUTH MAVORA LAKE">-451903.100+1681042.200</Point>
       <Point Name="STREAM">-450712.100+1682922.700</Point>
+      <Point Name="TABLE BAY">-450618.400+1683446.200</Point>
       <Point Name="TE ANAU DOWNS">-451106.100+1674942.200</Point>
       <Point Name="THORNBURY">-461719.400+1680542.400</Point>
       <Point Name="WALTER PEAK">-450641.100+1683235.200</Point>
@@ -232,6 +234,7 @@
       <Point Name="BLIGH">-444512.100+1672948.200</Point>
       <Point Name="BOBS COVE">-450421.600+1683047.900</Point>
       <Point Name="CATSEYE BAY">-444853.800+1672341.000</Point>
+      <Point Name="CATTLE STOP">-450112.000+1683425.000</Point>
       <Point Name="CLINTON FORKS">-445257.100+1675318.200</Point>
       <Point Name="CREIGHTON SADDLE">-450006.100+1682930.200</Point>
       <Point Name="DEEP COVE">-452757.000+1670942.300</Point>
@@ -245,8 +248,8 @@
       <Point Name="HOMER">-444552.100+1675859.200</Point>
       <Point Name="JANE PEAK">-451939.100+1681923.200</Point>
       <Point Name="KAY CREEK">-445053.900+1681336.500</Point>
+      <Point Name="KIRKS">-450333.400+1683441.400</Point>
       <Point Name="KNOBS FLAT">-445839.100+1680103.200</Point>
-      <Point Name="LAKE DISPUTE">-450309.400+1683245.200</Point>
       <Point Name="LAKE GUNN">-445330.000+1680445.500</Point>
       <Point Name="LAKE ICEBERG">-444906.300+1675235.300</Point>
       <Point Name="MONKEY FLAT">-444712.100+1680100.200</Point>
@@ -257,6 +260,7 @@
       <Point Name="SHALLOW BAY">-452935.900+1673644.600</Point>
       <Point Name="SOUTH MAVORA LAKE">-451903.100+1681042.200</Point>
       <Point Name="STREAM">-450712.100+1682922.700</Point>
+      <Point Name="TABLE BAY">-450618.400+1683446.200</Point>
       <Point Name="TE ANAU DOWNS">-451106.100+1674942.200</Point>
       <Point Name="THORNBURY">-461719.400+1680542.400</Point>
       <Point Name="WALTER PEAK">-450641.100+1683235.200</Point>

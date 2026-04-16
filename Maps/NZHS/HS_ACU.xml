@@ -6,15 +6,15 @@
       -39.640650+176.769653/HS19T/-39.626580+176.779460/EKEDO/KIGIB/OPAPA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy01 TUKN1U-->
+      <!--Rwy01 TUKN2U-->
       EKEDO/IRTOR/TAVUX/TUKNE
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy01 TUKN1U.BOVSA-->
+      <!--Rwy01 TUKN2U.BOVSA-->
       TUKNE/IPNEV/LAVAD/OMGUK/BOVSA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy01 TUKN1U.POTEX-->
+      <!--Rwy01 TUKN2U.POTEX-->
       TUKNE/POTEX
     </Line>
     <Line Pattern="Dashed">
@@ -83,15 +83,15 @@
   </Map>
   <Map Type="System2" Name="19 SIDs" Priority="1" CustomColourName="ProcDep" Center="-39.648272+176.764161">
     <Line Pattern="Dashed">
-      <!--Rwy19 TUKN1T-->
+      <!--Rwy19 TUKN2T-->
       -39.648272+176.764161/HS01T/-39.662960+176.753310/EKEDO/IRTOR/TAVUX/TUKNE
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy19 TUKN1T.BOVSA-->
+      <!--Rwy19 TUKN2T.BOVSA-->
       TUKNE/IPNEV/LAVAD/OMGUK/BOVSA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy19 TUKN1T.POTEX-->
+      <!--Rwy19 TUKN2T.POTEX-->
       TUKNE/POTEX
     </Line>
     <Line Pattern="Dashed">
@@ -169,6 +169,7 @@
       <Point Name="LAKE POUKAWA">-394653.700+1764200.700</Point>
       <Point Name="MARAEKAKAHO">-393901.700+1763727.700</Point>
       <Point Name="MOHAKA RIVER MOUTH">-390731.700+1771130.700</Point>
+      <Point Name="PAKIPAKI ROUNDABOUT">-394129.700+1764736.700</Point>
       <Point Name="PATOKA">-392047.700+1763616.700</Point>
       <Point Name="PORAITI">-392934.200+1765021.000</Point>
       <Point Name="PUKETAPU">-393042.700+1764717.700</Point>
@@ -193,6 +194,7 @@
       <Point Name="LAKE POUKAWA">-394653.700+1764200.700</Point>
       <Point Name="MARAEKAKAHO">-393901.700+1763727.700</Point>
       <Point Name="MOHAKA RIVER MOUTH">-390731.700+1771130.700</Point>
+      <Point Name="PAKIPAKI ROUNDABOUT">-394129.700+1764736.700</Point>
       <Point Name="PATOKA">-392047.700+1763616.700</Point>
       <Point Name="PORAITI">-392934.200+1765021.000</Point>
       <Point Name="PUKETAPU">-393042.700+1764717.700</Point>
