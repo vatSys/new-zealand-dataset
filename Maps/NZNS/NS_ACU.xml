@@ -2,42 +2,42 @@
 <Maps>
   <Map Type="System2" Name="02 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.292214+173.229486">
     <Line Pattern="Dashed">
-      <!--Rwy02 DUMI1P-->
+      <!--Rwy02 DUMI2P-->
       -41.292214+173.229486/NS20T/-41.255556+173.258889/RIKRU/DUMIK
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 IDNI2P-->
+      <!--Rwy02 IDNI3P-->
       -41.255556+173.258889/SALIR/DAZSA/IDNIM
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 IDNI2P.BISEB-->
+      <!--Rwy02 IDNI3P.BISEB-->
       IDNIM/NESTA/BISEB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 IDNI2P.CONOR-->
+      <!--Rwy02 IDNI3P.CONOR-->
       IDNIM/CONOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 IDNI2P.NESTA-->
+      <!--Rwy02 IDNI3P.NESTA-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 LEMU2P-->
+      <!--Rwy02 LEMU3P-->
       -41.292214+173.229486/NS02T/NS20T/GUSMI/LEMUT
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 LEMU2P.DALKI-->
+      <!--Rwy02 LEMU3P.DALKI-->
       LEMUT/SEBGI/DALKI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 LEMU2P.SNAPA-->
+      <!--Rwy02 LEMU3P.SNAPA-->
       LEMUT/SNAPA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 LUSR2P-->
+      <!--Rwy02 LUSR3P-->
       NS20T/-41.199817+173.288815/PUDIG/IKITO/LUSRA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy02 LUSR2R-->
+      <!--Rwy02 LUSR3R-->
       LEMUT/VENDO/TUPGU/LUSRA
     </Line>
     <Line Pattern="Dashed">
@@ -84,39 +84,43 @@
   </Map>
   <Map Type="System2" Name="02 STARs" Priority="1" CustomColourName="ProcArr" Center="-41.301378+173.218953">
     <Line>
-      <!--Rwy02 BISE3A-->
+      <!--Rwy02 BISE4A-->
       BISEB/SURID/ENKIN
     </Line>
     <Line>
-      <!--Rwy02 CONO1A-->
+      <!--Rwy02 CONO2A-->
       CONOR/KEVUT/MIBEV
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy02 GUSD2A.DALKI-->
-      DALKI/GUSDU
+      <!--Rwy02 GUSD3A.BOLOX-->
+      BOLOX/GUSDU
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy02 GUSD3A.DUMOT-->
+      DUMOT/DALKI/GUSDU
     </Line>
     <Line>
-      <!--Rwy02 GUSD2A-->
+      <!--Rwy02 GUSD3A-->
       GUSDU/RILDO/ATRES/GUDKI/BEPNI/ESNED
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy02 KAPU2A.KUNVO-->
+      <!--Rwy02 KAPU3A.KUNVO-->
       KUNVO/KAPUA
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy02 KAPU2A.MUKRA-->
+      <!--Rwy02 KAPU3A.MUKRA-->
       MUKRA/KAPUA
     </Line>
     <Line>
-      <!--Rwy02 KAPU2A-->
+      <!--Rwy02 KAPU3A-->
       KAPUA/GUDKI
     </Line>
     <Line>
-      <!--Rwy02 LUBS2A-->
+      <!--Rwy02 LUBS3A-->
       LUBSI/NS VOR/GUDKI
     </Line>
     <Line>
-      <!--Rwy02 LUBS3C-->
+      <!--Rwy02 LUBS4C-->
       LUBSI/VATKU/LERTI/ISDEM/GUNEL/RISMO/ENKIN
     </Line>
     <Symbol Type="HollowTriangle">
@@ -132,8 +136,10 @@
       <Point>SURID</Point>
       <Point>CONOR</Point>
       <Point>KEVUT</Point>
-      <Point>DALKI</Point>
+      <Point>BOLOX</Point>
       <Point>GUSDU</Point>
+      <Point>DUMOT</Point>
+      <Point>DALKI</Point>
       <Point>RILDO</Point>
       <Point>ATRES</Point>
       <Point>GUDKI</Point>
@@ -154,7 +160,8 @@
       <Point>GUSDU</Point>
       <Point>KAPUA</Point>
       <Point>LUBSI</Point>
-      <Point>DALKI</Point>
+      <Point>BOLOX</Point>
+      <Point>DUMOT</Point>
       <Point>KUNVO</Point>
       <Point>MUKRA</Point>
       <Point>ENKIN</Point>
@@ -208,47 +215,47 @@
   </Map>
   <Map Type="System2" Name="20 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.301378+173.218953">
     <Line Pattern="Dashed">
-      <!--Rwy20 BISE1Q-->
+      <!--Rwy20 BISE2Q-->
       -41.301378+173.218953/NS20T/POTIR/ANITU/BISEB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 CONO1Q-->
+      <!--Rwy20 CONO2Q-->
       ANITU/CONOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 DUMI2Q-->
+      <!--Rwy20 DUMI3Q-->
       NS20T/NS02T/-41.325556+173.190278/-41.320000+173.152778/ANPAR/DUMIK
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 LUSR2Q-->
+      <!--Rwy20 LUSR3Q-->
       -41.301378+173.218953/NS02T/NS20T/-41.365000+173.093056/-41.396944+173.109444/PUDIG/IKITO/LUSRA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 LUSR2S-->
+      <!--Rwy20 LUSR3S-->
       NS02T/POTIR/-41.384722+173.098056/OMUKO/SADVA/VINUL/VEGRI/ESBEX/LUSRA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 LUSR3U-->
+      <!--Rwy20 LUSR4U-->
       -41.384722+173.098056/EGINO/VEMSI/MERUT/PUDIG
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 NEST1Q-->
+      <!--Rwy20 NEST2Q-->
       ANITU/NESTA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 PAVN2Q-->
+      <!--Rwy20 PAVN3Q-->
       ANPAR/SAGVU/PAVNI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 PAVN2Q.BIVER-->
+      <!--Rwy20 PAVN3Q.BIVER-->
       PAVNI/BIVER
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 PAVN2Q.DUGUP-->
+      <!--Rwy20 PAVN3Q.DUGUP-->
       PAVNI/DUGUP
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy20 PAVN2Q.SNAPA-->
+      <!--Rwy20 PAVN3Q.SNAPA-->
       PAVNI/PIPIG/SNAPA
     </Line>
     <Line Pattern="Dashed">
@@ -304,31 +311,39 @@
   </Map>
   <Map Type="System2" Name="20 STARs" Priority="1" CustomColourName="ProcArr" Center="-41.292214+173.229486">
     <Line>
-      <!--Rwy20 CONO1B-->
-      CONOR/NS VOR/DUGOL/IRNUX/KAPUA
+      <!--Rwy20 BISE1B-->
+      BISEB/GUNEL/NS VOR/DUGOL/IRNUX/KAPUA
     </Line>
     <Line>
-      <!--Rwy20 GUNE1B-->
-      GUNEL/NS VOR
+      <!--Rwy20 CONO2B-->
+      CONOR/NS VOR
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy20 GUSD1B.DALKI-->
+      <!--Rwy20 GUSD2B.BOLOX-->
+      BOLOX/GUSDU
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy20 GUSD2B.DALKI-->
       DALKI/GUSDU
     </Line>
+    <Line Pattern="Solid">
+      <!--Rwy20 GUSD2B.DUMOT-->
+      DUMOT/DALKI
+    </Line>
     <Line>
-      <!--Rwy20 GUSD1B-->
+      <!--Rwy20 GUSD2B-->
       GUSDU/RILDO/LIKMA
     </Line>
     <Line>
-      <!--Rwy20 KUNV1B-->
+      <!--Rwy20 KUNV2B-->
       KUNVO/OSTAS/ELMAX
     </Line>
     <Line>
-      <!--Rwy20 LUBS1B-->
+      <!--Rwy20 LUBS2B-->
       LUBSI/NS VOR
     </Line>
     <Line>
-      <!--Rwy20 MUKR1B-->
+      <!--Rwy20 MUKR2B-->
       MUKRA/KAPUA
     </Line>
     <Symbol Type="HollowTriangle">
@@ -340,12 +355,15 @@
       <Point>NS VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
-      <Point>CONOR</Point>
+      <Point>BISEB</Point>
+      <Point>GUNEL</Point>
       <Point>DUGOL</Point>
       <Point>IRNUX</Point>
-      <Point>GUNEL</Point>
-      <Point>DALKI</Point>
+      <Point>CONOR</Point>
+      <Point>BOLOX</Point>
       <Point>GUSDU</Point>
+      <Point>DALKI</Point>
+      <Point>DUMOT</Point>
       <Point>RILDO</Point>
       <Point>KUNVO</Point>
       <Point>OSTAS</Point>
@@ -353,13 +371,15 @@
       <Point>MUKRA</Point>
     </Symbol>
     <Label HasLeader="true">
+      <Point>BISEB</Point>
       <Point>CONOR</Point>
-      <Point>GUNEL</Point>
       <Point>GUSDU</Point>
       <Point>KUNVO</Point>
       <Point>LUBSI</Point>
       <Point>MUKRA</Point>
+      <Point>BOLOX</Point>
       <Point>DALKI</Point>
+      <Point>DUMOT</Point>
       <Point>KAPUA</Point>
       <Point>LIKMA</Point>
       <Point>ELMAX</Point>

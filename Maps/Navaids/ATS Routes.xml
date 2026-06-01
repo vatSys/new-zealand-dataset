@@ -31,7 +31,7 @@
     <Line Name="G591">AA VOR.G591.SCUBA</Line>
     <Line Name="G593">RG VOR.G593.PAGRA</Line>
     <Line Name="G594">AA VOR.G594.MAITO</Line>
-    <Line Name="G595">SARAP.G595.SABUB</Line>
+    <Line Name="G595">SARAP.G595.RAXER</Line>
     <Line Name="G599">AA VOR.G599.TEKOT</Line>
     <Line Name="H1">TBU VOR.H1.TLARP</Line>
     <Line Name="H103">RIDLA.H103.NR VOR</Line>
@@ -226,6 +226,7 @@
     <Line Name="Q155">TULMI.Q155.MERAS</Line>
     <Line Name="Q162">UGSAP.Q162.AA VOR</Line>
     <Line Name="Q169">AVKEX.Q169.OH VOR</Line>
+    <Line Name="Q170">MESIX.Q170.WAIMA</Line>
     <Line Name="Q171">GOTNO.Q171.RO VOR</Line>
     <Line Name="Q188">NV VOR.Q188.QN VOR</Line>
     <Line Name="Q193">DOSTU.Q193.SF NDB</Line>
@@ -317,6 +318,7 @@
     <Line Name="Y153">TIMJO.Y153.CH VOR</Line>
     <Line Name="Y175">CH VOR.Y175.OPABI</Line>
     <Line Name="Y198">AKAVI.Y198.PADMU</Line>
+    <Line Name="Y215">BIDEL.Y215.OMARU</Line>
     <Line Name="Y226">GURBO.Y226.PM VOR</Line>
     <Line Name="Y228">ADRAD.Y228.IDVIG</Line>
     <Line Name="Y242">WN VOR.Y242.DOGAD</Line>
@@ -595,7 +597,6 @@
       <Point>ODUTI</Point>
       <Point>PAVSI</Point>
       <Point>RAXER</Point>
-      <Point>SABUB</Point>
       <Point>OLBEX</Point>
       <Point>IGETO</Point>
       <Point>MUKLU</Point>
@@ -1046,6 +1047,10 @@
       <Point>HOOKS</Point>
       <Point>ENBAR</Point>
       <Point>PORIG</Point>
+      <Point>LUSER</Point>
+      <Point>APORI</Point>
+      <Point>IBONO</Point>
+      <Point>IDATO</Point>
       <Point>IGMEK</Point>
       <Point>LUKMI</Point>
       <Point>TUVDA</Point>
@@ -1175,6 +1180,7 @@
       <Point>BAYES</Point>
       <Point>MUKRA</Point>
       <Point>DUGUP</Point>
+      <Point>OGAVO</Point>
       <Point>SUNGU</Point>
       <Point>TIMJO</Point>
       <Point>DUBON</Point>
@@ -1217,6 +1223,7 @@
       <Point>ENBUG</Point>
       <Point>GLENN</Point>
       <Point>GULOV</Point>
+      <Point>BIDEL</Point>
       <Point>GURBO</Point>
       <Point>ANOKU</Point>
       <Point>IDVIG</Point>
@@ -1240,7 +1247,6 @@
       <Point>KAKUR</Point>
       <Point>GORGA</Point>
       <Point>CHUTE</Point>
-      <Point>BIDEL</Point>
       <Point>LADIS</Point>
       <Point>DUKOP</Point>
       <Point>VENAM</Point>
@@ -1478,7 +1484,6 @@
       <Point>ODUTI</Point>
       <Point>PAVSI</Point>
       <Point>RAXER</Point>
-      <Point>SABUB</Point>
       <Point>OLBEX</Point>
       <Point>IGETO</Point>
       <Point>MUKLU</Point>
@@ -1929,6 +1934,10 @@
       <Point>HOOKS</Point>
       <Point>ENBAR</Point>
       <Point>PORIG</Point>
+      <Point>LUSER</Point>
+      <Point>APORI</Point>
+      <Point>IBONO</Point>
+      <Point>IDATO</Point>
       <Point>IGMEK</Point>
       <Point>LUKMI</Point>
       <Point>TUVDA</Point>
@@ -2058,6 +2067,7 @@
       <Point>BAYES</Point>
       <Point>MUKRA</Point>
       <Point>DUGUP</Point>
+      <Point>OGAVO</Point>
       <Point>SUNGU</Point>
       <Point>TIMJO</Point>
       <Point>DUBON</Point>
@@ -2100,6 +2110,7 @@
       <Point>ENBUG</Point>
       <Point>GLENN</Point>
       <Point>GULOV</Point>
+      <Point>BIDEL</Point>
       <Point>GURBO</Point>
       <Point>ANOKU</Point>
       <Point>IDVIG</Point>
@@ -2123,7 +2134,6 @@
       <Point>KAKUR</Point>
       <Point>GORGA</Point>
       <Point>CHUTE</Point>
-      <Point>BIDEL</Point>
       <Point>LADIS</Point>
       <Point>DUKOP</Point>
       <Point>VENAM</Point>
