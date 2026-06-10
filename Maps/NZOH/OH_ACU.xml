@@ -2,23 +2,23 @@
 <Maps>
   <Map Type="System2" Name="09 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.209364+175.399772">
     <Line Pattern="Dashed">
-      <!--Rwy09 DANP2Q-->
+      <!--Rwy09 DANP3Q-->
       -40.209364+175.399772/OH09T/OH27T/DANPO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy09 DANP2Q.ABTOL-->
+      <!--Rwy09 DANP3Q.ABTOL-->
       DANPO/SOTVO/ABTOL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy09 DANP2Q.ENTIM-->
-      DANPO/NUNGI/IGNUT/PONER/ENTIM
+      <!--Rwy09 DANP3Q.ENTIM-->
+      DANPO/OH401/IGNUT/PONER/ENTIM
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy09 DANP2Q.ESMUK-->
+      <!--Rwy09 DANP3Q.ESMUK-->
       SOTVO/ESMUK
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy09 DANP2Q.PORIG-->
+      <!--Rwy09 DANP3Q.PORIG-->
       SOTVO/PORIG
     </Line>
     <Line Pattern="Dashed">
@@ -40,7 +40,7 @@
       <Point>OH27T</Point>
       <Point>SOTVO</Point>
       <Point>ABTOL</Point>
-      <Point>NUNGI</Point>
+      <Point>OH401</Point>
       <Point>IGNUT</Point>
       <Point>PONER</Point>
       <Point>ENTIM</Point>
@@ -120,23 +120,23 @@
   </Map>
   <Map Type="System2" Name="27 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.202656+175.374325">
     <Line Pattern="Dashed">
-      <!--Rwy27 ENGO2P-->
+      <!--Rwy27 ENGO3P-->
       -40.202656+175.374325/OH27T/ENGOK
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy27 ENGO2P.ABTOL-->
+      <!--Rwy27 ENGO3P.ABTOL-->
       ENGOK/IDSEN/ABTOL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy27 ENGO2P.ENTIM-->
+      <!--Rwy27 ENGO3P.ENTIM-->
       ENGOK/SANUB/AGUPI/ENTIM
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy27 ENGO2P.ESMUK-->
+      <!--Rwy27 ENGO3P.ESMUK-->
       IDSEN/ESMUK
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy27 ENGO2P.PORIG-->
+      <!--Rwy27 ENGO3P.PORIG-->
       IDSEN/PORIG
     </Line>
     <Line Pattern="Dashed">

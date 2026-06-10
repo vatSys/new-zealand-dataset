@@ -26,8 +26,8 @@
       GUTED/ESKAT/NOMUG/BIDEL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy03 BIDE3R-->
-      GUTED/ADNAV/KAMVU/BIDEL
+      <!--Rwy03 BIDE4R-->
+      GUTED/ADNAV/KAMVU/RUSUK/BIDEL
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy03 SOUTH5-->
@@ -93,6 +93,7 @@
       <Point>BIDEL</Point>
       <Point>ADNAV</Point>
       <Point>KAMVU</Point>
+      <Point>RUSUK</Point>
       <Point>OREXI</Point>
       <Point>PORUT</Point>
       <Point>MEGUG</Point>
@@ -251,8 +252,8 @@
       DN03T/AGESO/OKAPO/ATGUB/TEBIV/BIDEL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy21 BIDE5S-->
-      DN03T/MANRA/ENDUR/IDLIK/PIBEX/KAMVU/BIDEL
+      <!--Rwy21 BIDE6S-->
+      DN03T/MANRA/ENDUR/IDLIK/PIBEX/KAMVU/TURPI/BIDEL
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy21 OCEAN6-->
@@ -297,6 +298,7 @@
       <Point>IDLIK</Point>
       <Point>PIBEX</Point>
       <Point>KAMVU</Point>
+      <Point>TURPI</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>AKPIN</Point>
