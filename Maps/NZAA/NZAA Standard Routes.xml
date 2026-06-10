@@ -11,13 +11,13 @@
     <Line Name="AAHN1" Pattern="Broken">ORIDI/URKAS/HN VOR</Line>
     <Line Name="AAKK2-23L" Pattern="Broken">KYPRA/UKAPA</Line>
     <Line Name="AAKK2-05R" Pattern="Broken">KAWAU/APABO/ISBUP/SF NDB</Line>
-    <Line Name="AAKT1-23L" Pattern="Broken">KYPRA/UKAPA/PERAS/KT NDB</Line>
+    <Line Name="AAKT1-23L" Pattern="Broken">KYPRA/UKAPA/HOBIN/PERAS/KT NDB</Line>
     <Line Name="AAKT1-05R" Pattern="Broken">KAWAU/APABO/PERAS/KT NDB</Line>
     <Line Name="AANP2" Pattern="Broken">IGBAT/EKALI/DOBBO/NP VOR</Line>
     <Line Name="AANR2" Pattern="Broken">ORIDI/URKAS/HN VOR/EMSAR/GORGA/GENDA/NR VOR</Line>
     <Line Name="AANR5" Pattern="Broken">ORIDI/URKAS/HN VOR/KARBA/GOSTI/AP NDB/OBDEV/GENDA/NR VOR</Line>
     <Line Name="AANS2" Pattern="Broken">IGBAT/NP VOR/RUPNU/TONUS/TELIM/MENOV/KUNVO/NS VOR</Line>
-    <Line Name="AANV1" Pattern="Broken">KAPAI/LAKAR/MIDUB/DOVOT/QN VOR/SUNGU/ANOPA/NV VOR</Line>
+    <Line Name="AANV1" Pattern="Broken">KAPAI/LAKAR/MIDUB/DOVOT/QN VOR/SUNGU/OGAVO/ANOPA/NV VOR</Line>
     <Line Name="AANV5" Pattern="Broken">KAPAI/LAKAR/DUBON/UPNIX/DUKOP/NV VOR</Line>
     <Line Name="AAPM3" Pattern="Broken">ORIDI/DROPT/IDVIG/IDLUR/PM VOR</Line>
     <Line Name="AAPM5" Pattern="Broken">ORIDI/URKAS/HN VOR/DROPT/POURO/TM NDB/ARETI/AVKAB/PM VOR</Line>

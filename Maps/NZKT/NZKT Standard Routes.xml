@@ -2,7 +2,7 @@
 <Maps>
   <Map Type="System2" Name="NZKT Standard Routes" Priority="1" CustomColourName="STDRte" Center="-42.000+172.000">
     <Line Name="KTAA3-23L" Pattern="Broken">PERAS/APABO</Line>
-    <Line Name="KTAA3-05R" Pattern="Broken">PERAS/UKAPA</Line>
+    <Line Name="KTAA3-05R" Pattern="Broken">PERAS/HOBIN/UKAPA</Line>
     <Label LabelOrientation="NW">
       <Point>PERAS</Point>
     </Label>

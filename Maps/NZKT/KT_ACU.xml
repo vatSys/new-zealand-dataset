@@ -34,15 +34,15 @@
       HOBBS/WP VOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy12 KARO1P-->
+      <!--Rwy12 KARO1S-->
       KT30T/KT601/KAROA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy12 PERA1P-->
+      <!--Rwy12 PERA1S-->
       KT601/PERAS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy12 RUAT1P-->
+      <!--Rwy12 RUAT1S-->
       KT601/RUATO
     </Line>
     <Line Pattern="Dashed">
