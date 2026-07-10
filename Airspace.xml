@@ -6028,6 +6028,7 @@ RILEY
     <Point Name="XELAN" Type="Fix">-365005.650+1745514.950</Point>
     <Point Name="XMOND" Type="Fix">-365037.350+1741439.220</Point>
     <Point Name="YOGIT" Type="Fix">-375052.070+1751505.400</Point>
+    <Point Name="YSWS" Type="Fix">-335327.000+1504306.000</Point>
     <Point Name="ZEDEE" Type="Fix">-352139.490+1735226.140</Point>
     <Point Name="ZOCCA" Type="Fix">-370628.640+1740719.910</Point>
     <Point Name="ZORBA" Type="Fix">-370855.580+1745619.870</Point>
@@ -6546,8 +6547,8 @@ RILEY
     <Point Name="KAI IWI BEACH" Type="Fix">-395310.900+1745401.170</Point>
     <Point Name="KAINGAROA" Type="Fix">-382430.600+1763356.500</Point>
     <Point Name="KAIPO SADDLE" Type="Fix">-442703.800+1675925.200</Point>
-    <Point Name="KAITUNA BRIDGE" Type="Fix">-412842.400+1734844.400</Point>
     <Point Name="KAITUNA BRIDGE" Type="Fix">-374446.800+1762115.500</Point>
+    <Point Name="KAITUNA BRIDGE" Type="Fix">-412842.400+1734844.400</Point>
     <Point Name="KARAKA" Type="Fix">-370437.500+1745541.700</Point>
     <Point Name="KARANGAHAPE" Type="Fix">-384742.700+1754801.700</Point>
     <Point Name="KAREWA ISLAND" Type="Fix">-373146.800+1760754.500</Point>
@@ -6767,8 +6768,8 @@ RILEY
     <Point Name="QUEENSBERRY PONDS" Type="Fix">-444648.160+1691823.210</Point>
     <Point Name="QUEENSTOWN HILL" Type="Fix">-445948.600+1684206.700</Point>
     <Point Name="RABBIT ISLAND BRIDGE" Type="Fix">-411702.800+1730755.500</Point>
-    <Point Name="RACECOURSE" Type="Fix">-412004.800+1731050.500</Point>
     <Point Name="RACECOURSE" Type="Fix">-374355.600+1760719.700</Point>
+    <Point Name="RACECOURSE" Type="Fix">-412004.800+1731050.500</Point>
     <Point Name="RAETIHI" Type="Fix">-392539.800+1751654.900</Point>
     <Point Name="RAINBOW SKIFIELD" Type="Fix">-415229.400+1725138.800</Point>
     <Point Name="RANGATIRA POINT" Type="Fix">-384417.600+1760100.700</Point>
