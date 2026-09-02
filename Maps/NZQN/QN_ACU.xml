@@ -303,7 +303,6 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23 VAPLI3.LIBLA-->
-      IPNOR/BIKOS/LIBLA
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23 VAPLI3.SAVLA-->
@@ -367,7 +366,6 @@
       <Point>OLREK</Point>
       <Point>TULVU</Point>
       <Point>IBVUK</Point>
-      <Point>BIKOS</Point>
       <Point>AVDEK</Point>
       <Point>DULUL</Point>
       <Point>EPDEX</Point>

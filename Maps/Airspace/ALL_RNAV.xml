@@ -4,7 +4,6 @@
     <Label HasLeader="true">
       <Point>AKDER</Point>
       <Point>KETOB</Point>
-      <Point>ZORBA</Point>
       <Point>VABTI</Point>
       <Point>APIPO</Point>
       <Point>VIRIS</Point>
@@ -65,8 +64,8 @@
       <Point>BUBKU</Point>
       <Point>AA412</Point>
       <Point>AA745</Point>
-      <Point>AA407</Point>
       <Point>AA411</Point>
+      <Point>AA407</Point>
       <Point>AA521</Point>
       <Point>AA428</Point>
       <Point>AA516</Point>
@@ -161,7 +160,6 @@
     <Symbol Type="HollowTriangle">
       <Point>AKDER</Point>
       <Point>KETOB</Point>
-      <Point>ZORBA</Point>
       <Point>VABTI</Point>
       <Point>APIPO</Point>
       <Point>VIRIS</Point>
@@ -223,9 +221,9 @@
       <Point>WN416</Point>
       <Point>WN412</Point>
     </Symbol>
-    <Line Pattern="Solid">AKDER/AA427/BUBKU/AA412/TEGIK/AA745/-370023.962+1744820.671</Line>
-    <Line Pattern="Solid">KETOB/AA407/AKDER</Line>
-    <Line Pattern="Solid">ZORBA/AA411/AA407</Line>
+    <Line Pattern="Solid">AA427/BUBKU/AA412/TEGIK/AA745/-370023.962+1744820.671</Line>
+    <Line Pattern="Solid">AKDER/AA411/AA427</Line>
+    <Line Pattern="Solid">KETOB/AA407/AA427</Line>
     <Line Pattern="Solid">VABTI/AA521/AA428/AA516/TUSLO/AA745</Line>
     <Line Pattern="Solid">APIPO/SUBUN/AA513/AA412</Line>
     <Line Pattern="Solid">VIRIS/ADLIB/SADOS/QUINA/LEPGO/OLDUR/AA744/ELBAD/-370058.741+1744614.819</Line>

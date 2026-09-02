@@ -464,44 +464,6 @@
     <Line>
       <!--Rwy05R PEPE9D-->
     </Line>
-    <Line Pattern="Solid">
-      <!--Rwy05R RIKD2N.AGEDU-->
-      OKTUB/RIKDI
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy05R RIKD2N.AGREX-->
-      AGREX/RIKDI
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy05R RIKD2N.AKLOM-->
-      AKLOM/RIKDI
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy05R RIKD2N.DABAS-->
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy05R RIKD2N.ELPAK-->
-      ELPAK/RIKDI
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy05R RIKD2N.IDSEM-->
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy05R RIKD2N.KALAG-->
-      KALAG/RIKDI
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy05R RIKD2N.OLBEX-->
-      OLBEX/RIKDI
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy05R RIKD2N.TARIB-->
-      TARIB/RIKDI
-    </Line>
-    <Line>
-      <!--Rwy05R RIKD2N-->
-      RIKDI/WYTAK/OSIVO/LENGU
-    </Line>
     <Line>
       <!--Rwy05R UKAP3B-->
       UKAPA/SHILI/AKBAM
@@ -564,9 +526,6 @@
       <Point>LEBIP</Point>
       <Point>IGABI</Point>
       <Point>PEPPE</Point>
-      <Point>RIKDI</Point>
-      <Point>WYTAK</Point>
-      <Point>OSIVO</Point>
       <Point>UKAPA</Point>
       <Point>SHILI</Point>
       <Point>MUDEE</Point>
@@ -581,7 +540,6 @@
       <Point>IBESO</Point>
       <Point>LEBIP</Point>
       <Point>PEPPE</Point>
-      <Point>RIKDI</Point>
       <Point>UKAPA</Point>
       <Point>LUNBI</Point>
       <Point>PEBLU</Point>
@@ -604,6 +562,79 @@
       <Point>ATAMA</Point>
       <Point>VIRIS</Point>
       <Point>UDUMO</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="05R NIGHT STARs" Priority="1" CustomColourName="ProcArr" Center="-37.016317+174.770783">
+    <Line Pattern="Solid">
+      <!--Rwy05R RIKD2N.AGEDU-->
+      AGEDU/OKTUB/RIKDI
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy05R RIKD2N.AGREX-->
+      AGREX/RIKDI
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy05R RIKD2N.AKLOM-->
+      AKLOM/RIKDI
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy05R RIKD2N.DABAS-->
+      DABAS/OKTUB
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy05R RIKD2N.ELPAK-->
+      ELPAK/RIKDI
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy05R RIKD2N.IDSEM-->
+      IDSEM/OKTUB
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy05R RIKD2N.KALAG-->
+      KALAG/RIKDI
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy05R RIKD2N.OLBEX-->
+      OLBEX/RIKDI
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy05R RIKD2N.TARIB-->
+      TARIB/RIKDI
+    </Line>
+    <Line>
+      <!--Rwy05R RIKD2N-->
+      RIKDI/WYTAK/OSIVO/LENGU
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>LENGU</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>AGEDU</Point>
+      <Point>OKTUB</Point>
+      <Point>RIKDI</Point>
+      <Point>AGREX</Point>
+      <Point>AKLOM</Point>
+      <Point>DABAS</Point>
+      <Point>ELPAK</Point>
+      <Point>IDSEM</Point>
+      <Point>KALAG</Point>
+      <Point>OLBEX</Point>
+      <Point>TARIB</Point>
+      <Point>WYTAK</Point>
+      <Point>OSIVO</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>RIKDI</Point>
+      <Point>AGEDU</Point>
+      <Point>AGREX</Point>
+      <Point>AKLOM</Point>
+      <Point>DABAS</Point>
+      <Point>ELPAK</Point>
+      <Point>IDSEM</Point>
+      <Point>KALAG</Point>
+      <Point>OLBEX</Point>
+      <Point>TARIB</Point>
+      <Point>LENGU</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="05R RNP" Priority="1" Center="-37.016317+174.770783" CustomColourName="ProcArr">
@@ -992,13 +1023,6 @@
       DOMRI/VABTI
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy23L ARAD2N.LUNBI-->
-    </Line>
-    <Line>
-      <!--Rwy23L ARAD2N-->
-      GEWNY/LENGU/AKDER/SABAV/EMRAG
-    </Line>
-    <Line Pattern="Solid">
       <!--Rwy23L BASI9A.ELNOS-->
       ELNOS/BASIV
     </Line>
@@ -1039,26 +1063,13 @@
     <Line>
       <!--Rwy23L BASI5E-->
     </Line>
-    <Line Pattern="Solid">
-      <!--Rwy23L BASI2N.ELNOS-->
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy23L BASI2N.SALAG-->
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy23L BASI2N.UPLAR-->
-    </Line>
-    <Line>
-      <!--Rwy23L BASI2N-->
-      BASIV/PAKVI/BAYES/VIBAG
-    </Line>
     <Line>
       <!--Rwy23L BOVR1A-->
       BOVRU/EMRAG
     </Line>
     <Line>
       <!--Rwy23L DAVE7A-->
-      DAVEE/OSAKU/ANSER/AKDER
+      DAVEE/OSAKU/ANSER/AKDER/SABAV/EMRAG
     </Line>
     <Line>
       <!--Rwy23L DAVE7C-->
@@ -1131,10 +1142,6 @@
       FOKRE/AA416/AA426/AA419/EMRAG
     </Line>
     <Line>
-      <!--Rwy23L LUNB1N-->
-      LUNBI/ARADI
-    </Line>
-    <Line>
       <!--Rwy23L PEPE5A-->
       PEPPE/ONISU/UPTIB/KETOB/SABAV
     </Line>
@@ -1164,15 +1171,6 @@
     <Line>
       <!--Rwy23L TAZE4E-->
       TAZEY/AKDER
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy23L TAZE3N.PEBLU-->
-    </Line>
-    <Line Pattern="Solid">
-      <!--Rwy23L TAZE3N.VELMO-->
-    </Line>
-    <Line>
-      <!--Rwy23L TAZE3N-->
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>EMRAG</Point>
@@ -1206,19 +1204,16 @@
       <Point>GEWNY</Point>
       <Point>DOMRI</Point>
       <Point>LOSGA</Point>
-      <Point>LENGU</Point>
-      <Point>SABAV</Point>
       <Point>ELNOS</Point>
       <Point>BASIV</Point>
       <Point>SALAG</Point>
       <Point>UPLAR</Point>
       <Point>BONKO</Point>
-      <Point>PAKVI</Point>
-      <Point>BAYES</Point>
       <Point>BOVRU</Point>
       <Point>DAVEE</Point>
       <Point>OSAKU</Point>
       <Point>ANSER</Point>
+      <Point>SABAV</Point>
       <Point>ELBOP</Point>
       <Point>DODKU</Point>
       <Point>SAMII</Point>
@@ -1261,10 +1256,10 @@
       <Point>EAGIL</Point>
       <Point>EXOPI</Point>
       <Point>FOKRE</Point>
-      <Point>LUNBI</Point>
       <Point>PEPPE</Point>
       <Point>SKEPY</Point>
       <Point>TAZEY</Point>
+      <Point>LUNBI</Point>
       <Point>PEBLU</Point>
       <Point>VELMO</Point>
       <Point>ELNOS</Point>
@@ -1290,6 +1285,83 @@
       <Point>AKDER</Point>
       <Point>APIPO</Point>
       <Point>KETOB</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="23L NIGHT STARs" Priority="1" CustomColourName="ProcArr" Center="-37.006656+174.805742">
+    <Line Pattern="Solid">
+      <!--Rwy23L ARAD2N.LUNBI-->
+      LUNBI/ARADI
+    </Line>
+    <Line>
+      <!--Rwy23L ARAD2N-->
+      ARADI/GEWNY/LENGU/AKDER/SABAV/EMRAG
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy23L BASI2N.ELNOS-->
+      ELNOS/BASIV
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy23L BASI2N.SALAG-->
+      SALAG/BASIV
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy23L BASI2N.UPLAR-->
+      UPLAR/BASIV
+    </Line>
+    <Line>
+      <!--Rwy23L BASI2N-->
+      BASIV/PAKVI/BAYES/VIBAG/EMRAG
+    </Line>
+    <Line>
+      <!--Rwy23L LUNB1N-->
+      LUNBI/ARADI/DOMRI/LOSGA/VIBAG
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy23L TAZE3N.PEBLU-->
+      PEBLU/TAZEY
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy23L TAZE3N.VELMO-->
+      VELMO/TAZEY
+    </Line>
+    <Line>
+      <!--Rwy23L TAZE3N-->
+      TAZEY/AKDER
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>EMRAG</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>LUNBI</Point>
+      <Point>ARADI</Point>
+      <Point>GEWNY</Point>
+      <Point>LENGU</Point>
+      <Point>AKDER</Point>
+      <Point>SABAV</Point>
+      <Point>ELNOS</Point>
+      <Point>BASIV</Point>
+      <Point>SALAG</Point>
+      <Point>UPLAR</Point>
+      <Point>PAKVI</Point>
+      <Point>BAYES</Point>
+      <Point>VIBAG</Point>
+      <Point>DOMRI</Point>
+      <Point>LOSGA</Point>
+      <Point>PEBLU</Point>
+      <Point>TAZEY</Point>
+      <Point>VELMO</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>ARADI</Point>
+      <Point>BASIV</Point>
+      <Point>LUNBI</Point>
+      <Point>TAZEY</Point>
+      <Point>ELNOS</Point>
+      <Point>SALAG</Point>
+      <Point>UPLAR</Point>
+      <Point>PEBLU</Point>
+      <Point>VELMO</Point>
+      <Point>EMRAG</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="23L RNP" Priority="1" Center="-37.006656+174.805742" CustomColourName="ProcArr">
@@ -1321,8 +1393,8 @@
       <Point>BUBKU</Point>
       <Point>AA412</Point>
       <Point>AA745</Point>
-      <Point>AA407</Point>
       <Point>AA411</Point>
+      <Point>AA407</Point>
       <Point>AA521</Point>
       <Point>AA428</Point>
       <Point>AA516</Point>
@@ -1342,7 +1414,6 @@
     <Symbol Type="HollowTriangle">
       <Point>AKDER</Point>
       <Point>KETOB</Point>
-      <Point>ZORBA</Point>
       <Point>VABTI</Point>
       <Point>APIPO</Point>
       <Point>KIDAG</Point>
@@ -1360,9 +1431,9 @@
       <Point>AA427</Point>
       <Point>SUBUN</Point>
     </Symbol>
-    <Line Pattern="Solid">AKDER/AA427/BUBKU/AA412/TEGIK/AA745/-370023.962+1744820.671</Line>
-    <Line Pattern="Solid">KETOB/AA407/AKDER</Line>
-    <Line Pattern="Solid">ZORBA/AA411/AA407</Line>
+    <Line Pattern="Solid">AA427/BUBKU/AA412/TEGIK/AA745/-370023.962+1744820.671</Line>
+    <Line Pattern="Solid">AKDER/AA411/AA427</Line>
+    <Line Pattern="Solid">KETOB/AA407/AA427</Line>
     <Line Pattern="Solid">VABTI/AA521/AA428/AA516/TUSLO/AA745</Line>
     <Line Pattern="Solid">APIPO/SUBUN/AA513/AA412</Line>
     <Line Pattern="Solid">KIDAG/SAMUR/LAGUT/GOBOB/ESMON/AKROV/AA741/AA742/DUNAD/-370023.962+1744820.671</Line>
@@ -1372,7 +1443,6 @@
     <Label HasLeader="true">
       <Point>AKDER</Point>
       <Point>KETOB</Point>
-      <Point>ZORBA</Point>
       <Point>VABTI</Point>
       <Point>APIPO</Point>
       <Point>KIDAG</Point>

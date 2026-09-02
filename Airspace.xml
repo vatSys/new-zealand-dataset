@@ -8069,7 +8069,7 @@ RILEY
       <Route Runway="23">ENKUV/OLREK/TULVU/VAPLI</Route>
       <Transition Name="ADKOS">IPNOR/ENRAT/ADKOS</Transition>
       <Transition Name="ADLUP">IBVUK/SUNGU/BASOS/ADLUP</Transition>
-      <Transition Name="LIBLA">IPNOR/BIKOS/LIBLA</Transition>
+      <Transition Name="LIBLA">IPNOR/RIBDU/LIBLA</Transition>
       <Transition Name="SAVLA">AVDEK/DULUL/ANPOV/AKMAD/NONAN/SAVLA</Transition>
       <Transition Name="SUNGU">IBVUK/SUNGU</Transition>
       <Transition Name="TIMJO">AVDEK/DULUL/ANPOV/EPDEX/ATVOR/TIMJO</Transition>
@@ -9768,9 +9768,9 @@ RILEY
       <Route>EMRAG/ORESO/UGOMU/-370023.962+1744820.671</Route>
     </Approach>
     <Approach Name="RNP-ARS" Airport="NZAA" Runway="23L">
+      <Transition Name="AKDER">AKDER/AA411</Transition>
       <Transition Name="KETOB">KETOB/AA407</Transition>
-      <Transition Name="ZORBA">ZORBA/AA411/AA407</Transition>
-      <Route>AKDER/AA427/BUBKU/AA412/TEGIK/AA745/-370023.962+1744820.671</Route>
+      <Route>AA427/BUBKU/AA412/TEGIK/AA745/-370023.962+1744820.671</Route>
     </Approach>
     <Approach Name="RNP-ARU" Airport="NZAA" Runway="23L">
       <Route>VABTI/AA521/AA428/AA516/TUSLO/AA745/-370023.962+1744820.671</Route>
