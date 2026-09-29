@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="05 SIDs" Priority="1" CustomColourName="ProcDep" Center="-42.423875+173.608017">
+    <Line Pattern="Dashed">
+      <!--Rwy05 DUBAV1-->
+      -42.423875+173.608017/KI811/DUBAV
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05 DUBAV1.IDATO-->
+      DUBAV/KI952/IDATO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05 DUBAV1.LUSER-->
+      DUBAV/LUSER
+    </Line>
+    <Symbol Type="SolidStar">
+      <Point>DUBAV</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>KI811</Point>
+      <Point>KI952</Point>
+      <Point>IDATO</Point>
+      <Point>LUSER</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>DUBAV</Point>
+      <Point>IDATO</Point>
+      <Point>LUSER</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="05 RNP" Priority="1" Center="-42.426317+173.600297" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>APORI</Point>
+      <Point>IBONO</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>URBAS</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>IBASA</Point>
+    </Symbol>
+    <Line Pattern="Solid">IBASA/URBAS/KI751/-422534.741+1733601.069</Line>
+    <Line Pattern="Solid">APORI/IBASA</Line>
+    <Line Pattern="Solid">IBONO/IBASA</Line>
+  </Map>
+  <Map Type="System2" Name="05 RNP Labels" Priority="1" Center="-42.426317+173.600297" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>APORI</Point>
+      <Point>IBONO</Point>
+      <Point>URBAS</Point>
+      <Point>IBASA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="23 SIDs" Priority="1" CustomColourName="ProcDep" Center="-42.426317+173.600297">
+    <Line Pattern="Dashed">
+      <!--Rwy23 DUBAV1-->
+      -42.426317+173.600297/KI811/DUBAV
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23 DUBAV1.IDATO-->
+      DUBAV/KI952/IDATO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy23 DUBAV1.LUSER-->
+      DUBAV/LUSER
+    </Line>
+    <Symbol Type="SolidStar">
+      <Point>DUBAV</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>KI811</Point>
+      <Point>KI952</Point>
+      <Point>IDATO</Point>
+      <Point>LUSER</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>DUBAV</Point>
+      <Point>IDATO</Point>
+      <Point>LUSER</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="23 RNP" Priority="1" Center="-42.423875+173.608017" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>APORI</Point>
+      <Point>IBONO</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>URBAS</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>IBASA</Point>
+    </Symbol>
+    <Line Pattern="Solid">IBASA/URBAS/KI751/-422525.950+1733628.861</Line>
+    <Line Pattern="Solid">APORI/IBASA</Line>
+    <Line Pattern="Solid">IBONO/IBASA</Line>
+  </Map>
+  <Map Type="System2" Name="23 RNP Labels" Priority="1" Center="-42.423875+173.608017" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>APORI</Point>
+      <Point>IBONO</Point>
+      <Point>URBAS</Point>
+      <Point>IBASA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-42.425000+173.605278">
+    <Symbol Type="HollowSquare">
+      <Point Name="DIP FLAT">-415333.000+1725511.500</Point>
+      <Point Name="MOLESWORTH STATION">-420506.400+1731539.200</Point>
+      <Point Name="MOTUNAU ISLAND">-430342.000+1730427.500</Point>
+      <Point Name="RAINBOW SKIFIELD">-415229.400+1725138.800</Point>
+      <Point Name="SEDDON">-414021.900+1740427.600</Point>
+      <Point Name="THE NED">-413837.200+1735516.000</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point Name="DIP FLAT">-415333.000+1725511.500</Point>
+      <Point Name="MOLESWORTH STATION">-420506.400+1731539.200</Point>
+      <Point Name="MOTUNAU ISLAND">-430342.000+1730427.500</Point>
+      <Point Name="RAINBOW SKIFIELD">-415229.400+1725138.800</Point>
+      <Point Name="SEDDON">-414021.900+1740427.600</Point>
+      <Point Name="THE NED">-413837.200+1735516.000</Point>
+    </Label>
+  </Map>
+</Maps>

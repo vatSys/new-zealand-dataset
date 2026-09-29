@@ -229,7 +229,7 @@
     </Line>
     <Line>
       <!--Rwy34 AVKE2G-->
-      AVKEX/PP401/AKADU/PP427/NILID
+      AVKEX/PP401/PP427/NILID
     </Line>
     <Line>
       <!--Rwy34 IPKE1G-->
@@ -245,7 +245,7 @@
     </Line>
     <Line>
       <!--Rwy34 PP2G-->
-      PP NDB/NILID
+      PP NDB/PP424/NILID
     </Line>
     <Line>
       <!--Rwy34 TPAP2G-->
@@ -262,15 +262,16 @@
       <Point>AGSOP</Point>
       <Point>AVKEX</Point>
       <Point>PP401</Point>
-      <Point>AKADU</Point>
       <Point>PP427</Point>
       <Point>IPKEP</Point>
       <Point>KAMET</Point>
       <Point>NOKIX</Point>
       <Point>KAPTI</Point>
+      <Point>PP424</Point>
       <Point>TPAPA</Point>
       <Point>FIRST</Point>
       <Point>VEKDA</Point>
+      <Point>AKADU</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>AGSOP</Point>

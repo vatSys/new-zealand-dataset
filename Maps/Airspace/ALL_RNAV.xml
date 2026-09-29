@@ -315,6 +315,8 @@
       <Point>NR VOR</Point>
       <Point>KABUV</Point>
       <Point>LUPDO</Point>
+      <Point>APORI</Point>
+      <Point>IBONO</Point>
       <Point>DUKEG</Point>
       <Point>KALVA</Point>
       <Point>MAVNU</Point>
@@ -402,6 +404,8 @@
       <Point>TOTRA</Point>
       <Point>NIKOR</Point>
       <Point>OKERE</Point>
+      <Point>APENU</Point>
+      <Point>BODEM</Point>
       <Point>TENIX</Point>
       <Point>MORTA</Point>
       <Point>RUSTA</Point>
@@ -489,6 +493,7 @@
       <Point>ISPOT</Point>
       <Point>IKERI</Point>
       <Point>UPGEK</Point>
+      <Point>URBAS</Point>
       <Point>OLPIM</Point>
       <Point>IVRIP</Point>
       <Point>UGTER</Point>
@@ -521,6 +526,7 @@
       <Point>ANGEB</Point>
       <Point>IGOBA</Point>
       <Point>ELKOB</Point>
+      <Point>AGRAK</Point>
       <Point>RIPSA</Point>
       <Point>UKDAS</Point>
       <Point>BENVU</Point>
@@ -550,8 +556,10 @@
       <Point>ALBAD</Point>
       <Point>DIVSU</Point>
       <Point>OREVU</Point>
+      <Point>IBASA</Point>
       <Point>MS877</Point>
       <Point>OLNAN</Point>
+      <Point>AKSOB</Point>
       <Point>AVMEB</Point>
       <Point>MARKS</Point>
       <Point>IKIRA</Point>
@@ -645,6 +653,8 @@
       <Point>NR VOR</Point>
       <Point>KABUV</Point>
       <Point>LUPDO</Point>
+      <Point>APORI</Point>
+      <Point>IBONO</Point>
       <Point>DUKEG</Point>
       <Point>KALVA</Point>
       <Point>MAVNU</Point>
@@ -732,6 +742,8 @@
       <Point>TOTRA</Point>
       <Point>NIKOR</Point>
       <Point>OKERE</Point>
+      <Point>APENU</Point>
+      <Point>BODEM</Point>
       <Point>TENIX</Point>
       <Point>MORTA</Point>
       <Point>RUSTA</Point>
@@ -822,6 +834,7 @@
       <Point>ISPOT</Point>
       <Point>IKERI</Point>
       <Point>UPGEK</Point>
+      <Point>URBAS</Point>
       <Point>OLPIM</Point>
       <Point>IVRIP</Point>
       <Point>UGTER</Point>
@@ -854,6 +867,7 @@
       <Point>ANGEB</Point>
       <Point>IGOBA</Point>
       <Point>ELKOB</Point>
+      <Point>AGRAK</Point>
       <Point>RIPSA</Point>
       <Point>UKDAS</Point>
       <Point>BENVU</Point>
@@ -887,8 +901,10 @@
       <Point>ALBAD</Point>
       <Point>DIVSU</Point>
       <Point>OREVU</Point>
+      <Point>IBASA</Point>
       <Point>MS877</Point>
       <Point>OLNAN</Point>
+      <Point>AKSOB</Point>
       <Point>AVMEB</Point>
       <Point>MARKS</Point>
       <Point>IKIRA</Point>
@@ -961,6 +977,10 @@
     <Line Pattern="Solid">KABUV/OREVU</Line>
     <Line Pattern="Solid">LUPDO/OREVU</Line>
     <Line Pattern="Solid">HT405/-435206.740+1690228.781</Line>
+    <Line Pattern="Solid">IBASA/URBAS/KI751/-422534.741+1733601.069</Line>
+    <Line Pattern="Solid">APORI/IBASA</Line>
+    <Line Pattern="Solid">IBONO/IBASA</Line>
+    <Line Pattern="Solid">KI751/-422525.950+1733628.861</Line>
     <Line Pattern="Solid">DUKEG/OLPIM/-351508.701+1735437.822</Line>
     <Line Pattern="Solid">KALVA/DUKEG</Line>
     <Line Pattern="Solid">MAVNU/DUKEG</Line>
@@ -1061,6 +1081,11 @@
     <Line Pattern="Solid">RO563/-380655.750+1761841.170</Line>
     <Line Pattern="Solid">NIKOR/ELKOB/-380601.598+1761913.238</Line>
     <Line Pattern="Solid">OKERE/NIKOR</Line>
+    <Line Pattern="Solid">AKSOB/AGRAK/OLRES/-375625.739+1760827.290</Line>
+    <Line Pattern="Solid">APENU/AKSOB</Line>
+    <Line Pattern="Solid">BODEM/AKSOB</Line>
+    <Line Pattern="Solid">OLRES/-375302.270+1781724.101</Line>
+    <Line Pattern="Solid">OLRES/-375627.000+1760832.240</Line>
     <Line Pattern="Solid">TENIX/RIPSA/-374021.900+1761118.200</Line>
     <Line Pattern="Solid">MORTA/TENIX</Line>
     <Line Pattern="Solid">RUSTA/TENIX</Line>

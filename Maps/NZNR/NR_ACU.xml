@@ -25,15 +25,15 @@
       LEDIV/IGBEL/OPAPA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 SUPV1P-->
+      <!--Rwy16 SUPV2P-->
       NR34T/LAKIB/SUPVI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 SUPV1P.BOVSA-->
+      <!--Rwy16 SUPV2P.BOVSA-->
       SUPVI/OLSIX/OMGUK/BOVSA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy16 SUPV1P.POTEX-->
+      <!--Rwy16 SUPV2P.POTEX-->
       SUPVI/POTEX
     </Line>
     <Line Pattern="Dashed">
@@ -202,17 +202,17 @@
       GUGTO/OPAPA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 GUGT1S-->
+      <!--Rwy34 GUGT2S-->
       NR16T/ONEGA/BOPKO/OLTAM/IRTOR/GUGTO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 GUGT1S.BITIL-->
+      <!--Rwy34 GUGT2S.BITIL-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 GUGT1S.NIXOT-->
+      <!--Rwy34 GUGT2S.NIXOT-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 GUGT1S.OPAPA-->
+      <!--Rwy34 GUGT2S.OPAPA-->
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy34 OBLO4Q-->
@@ -231,11 +231,11 @@
       -39.461989+176.868039/NR34T/-39.457500+176.868611
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 OLSI1Q-->
-      NR16T/OBLOX/NR401/OLSIX
+      <!--Rwy34 OLSI2Q-->
+      NR16T/OBLOX/ENRAV/OLSIX
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy34 OLSI1Q.BOVSA-->
+      <!--Rwy34 OLSI2Q.BOVSA-->
       OLSIX/OMGUK/BOVSA
     </Line>
     <Line Pattern="Dashed">
@@ -245,7 +245,7 @@
       <Point>-39.395610+176.875410</Point>
       <Point>ONEGA</Point>
       <Point>OBLOX</Point>
-      <Point>NR401</Point>
+      <Point>ENRAV</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>NR16T</Point>
