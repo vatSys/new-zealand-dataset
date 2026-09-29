@@ -807,11 +807,9 @@
       <Runway Name="09" DataRunway="09">
         <SID Name="OLRES1" Type="NonJet" />
       </Runway>
-      <Runway Name="10" DataRunway="10" />
       <Runway Name="27" DataRunway="27">
         <SID Name="OLRES1" Type="NonJet" />
       </Runway>
-      <Runway Name="28" DataRunway="28" />
     </Airport>
     <Airport Name="NZTG">
       <Runway Name="04" DataRunway="04" />
@@ -10710,10 +10708,8 @@ RILEY
       <Runway Name="36" Position="-380655.750+1761841.170" />
     </Airport>
     <Airport ICAO="NZRR" FullName="Ruatoria" Position="-375302.270+1781724.100">
-      <Runway Name="09" Position="-375625.739+1760827.290" />
-      <Runway Name="27" Position="-375627.000+1760832.240" />
-      <Runway Name="10" Position="-375302.270+1781724.101" />
-      <Runway Name="28" Position="-375302.270+1781724.101" />
+      <Runway Name="09" Position="-375251.000+1781708.000" />
+      <Runway Name="27" Position="-375308.000+1781740.000" />
     </Airport>
     <Airport ICAO="NZRT" FullName="Rangiora" Position="-431724.000+1723230.000">
       <Runway Name="03" Position="-431728.252+1723225.350" />

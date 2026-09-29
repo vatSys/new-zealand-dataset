@@ -1081,11 +1081,10 @@
     <Line Pattern="Solid">RO563/-380655.750+1761841.170</Line>
     <Line Pattern="Solid">NIKOR/ELKOB/-380601.598+1761913.238</Line>
     <Line Pattern="Solid">OKERE/NIKOR</Line>
-    <Line Pattern="Solid">AKSOB/AGRAK/OLRES/-375625.739+1760827.290</Line>
+    <Line Pattern="Solid">AKSOB/AGRAK/OLRES/-375251.000+1781708.000</Line>
     <Line Pattern="Solid">APENU/AKSOB</Line>
     <Line Pattern="Solid">BODEM/AKSOB</Line>
-    <Line Pattern="Solid">OLRES/-375302.270+1781724.101</Line>
-    <Line Pattern="Solid">OLRES/-375627.000+1760832.240</Line>
+    <Line Pattern="Solid">OLRES/-375308.000+1781740.000</Line>
     <Line Pattern="Solid">TENIX/RIPSA/-374021.900+1761118.200</Line>
     <Line Pattern="Solid">MORTA/TENIX</Line>
     <Line Pattern="Solid">RUSTA/TENIX</Line>
