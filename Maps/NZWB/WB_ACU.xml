@@ -2,7 +2,7 @@
 <Maps>
   <Map Type="System2" Name="06 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.517417+173.877906">
     <Line Pattern="Dashed">
-      <!--Rwy06 BEAVE1-->
+      <!--Rwy06 BVR2-->
       -41.517417+173.877906/WB24T/WB601/MARLO
     </Line>
     <Line Pattern="Dashed">
@@ -38,7 +38,7 @@
       SEDSI/IPMIR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy06 VLY4-->
+      <!--Rwy06 VLY5-->
       WB06T/MARLO
     </Line>
     <Symbol Type="HollowTriangle">
@@ -207,7 +207,7 @@
       WB24T/WB VOR/MARLO
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy24 VINES5-->
+      <!--Rwy24 VINES6-->
       WB24T/-41.522778+173.791667/-41.554167+173.782500/WB VOR
     </Line>
     <Symbol Type="Circle">

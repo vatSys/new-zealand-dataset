@@ -41,7 +41,6 @@
       <Point>NZFO</Point>
       <Point>NZFP</Point>
       <Point>NZFR</Point>
-      <Point>NZFT</Point>
       <Point>NZGA</Point>
       <Point>NZGB</Point>
       <Point>NZGC</Point>
@@ -176,6 +175,7 @@
       <Point>NZRX</Point>
       <Point>NZSD</Point>
       <Point>NZSF</Point>
+      <Point>NZSH</Point>
       <Point>NZSL</Point>
       <Point>NZSO</Point>
       <Point>NZTC</Point>
@@ -268,7 +268,6 @@
       <Point Name="FO">NZFO</Point>
       <Point Name="FP">NZFP</Point>
       <Point Name="FR">NZFR</Point>
-      <Point Name="FT">NZFT</Point>
       <Point Name="GA">NZGA</Point>
       <Point Name="GB">NZGB</Point>
       <Point Name="GC">NZGC</Point>
@@ -403,6 +402,7 @@
       <Point Name="RX">NZRX</Point>
       <Point Name="SD">NZSD</Point>
       <Point Name="SF">NZSF</Point>
+      <Point Name="SH">NZSH</Point>
       <Point Name="SL">NZSL</Point>
       <Point Name="SO">NZSO</Point>
       <Point Name="TC">NZTC</Point>

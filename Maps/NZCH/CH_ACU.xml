@@ -144,32 +144,32 @@
       AKAMO/CH419/IDUBU
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy02 AVNO2A.IGEGA-->
+      <!--Rwy02 AVNO3A.IGEGA-->
       IGEGA/CH412/AVNOP
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy02 AVNO2A.IPRAK-->
+      <!--Rwy02 AVNO3A.IPRAK-->
       IPRAK/UPVES/AVNOP
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy02 AVNO2A.KIDAL-->
+      <!--Rwy02 AVNO3A.KIDAL-->
       KIDAL/CH413/AVNOP
     </Line>
     <Line>
-      <!--Rwy02 AVNO2A-->
+      <!--Rwy02 AVNO3A-->
       AVNOP/ERVAX/UBDAN/ALBAD
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy02 AVNO1E.IGEGA-->
+      <!--Rwy02 AVNO2E.IGEGA-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy02 AVNO1E.IPRAK-->
+      <!--Rwy02 AVNO2E.IPRAK-->
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy02 AVNO1E.KIDAL-->
+      <!--Rwy02 AVNO2E.KIDAL-->
     </Line>
     <Line>
-      <!--Rwy02 AVNO1E-->
+      <!--Rwy02 AVNO2E-->
     </Line>
     <Line Pattern="Solid">
       <!--Rwy02 BELE7A.KABKA-->
