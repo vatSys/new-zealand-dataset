@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="09 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.885556+178.294444">
+    <Line Pattern="Dashed">
+      <!--Rwy09 OLRES1-->
+      -37.885556+178.294444/RR401/OLRES
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy09 OLRES1.BODEM-->
+      OLRES/BODEM
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy09 OLRES1.IDPIN-->
+      OLRES/IDPIN
+    </Line>
+    <Symbol Type="SolidStar">
+      <Point>OLRES</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>RR401</Point>
+      <Point>BODEM</Point>
+      <Point>IDPIN</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>OLRES</Point>
+      <Point>BODEM</Point>
+      <Point>IDPIN</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="09 RNP" Priority="1" Center="-37.880833+178.285556" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>APENU</Point>
+      <Point>BODEM</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>AGRAK</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>AKSOB</Point>
+    </Symbol>
+    <Line Pattern="Solid">AKSOB/AGRAK/OLRES/-375251.000+1781708.000</Line>
+    <Line Pattern="Solid">APENU/AKSOB</Line>
+    <Line Pattern="Solid">BODEM/AKSOB</Line>
+  </Map>
+  <Map Type="System2" Name="09 RNP Labels" Priority="1" Center="-37.880833+178.285556" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>APENU</Point>
+      <Point>BODEM</Point>
+      <Point>AGRAK</Point>
+      <Point>AKSOB</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="27 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.880833+178.285556">
+    <Line Pattern="Dashed">
+      <!--Rwy27 OLRES1-->
+      -37.880833+178.285556/RR401/OLRES
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy27 OLRES1.BODEM-->
+      OLRES/BODEM
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy27 OLRES1.IDPIN-->
+      OLRES/IDPIN
+    </Line>
+    <Symbol Type="SolidStar">
+      <Point>OLRES</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>RR401</Point>
+      <Point>BODEM</Point>
+      <Point>IDPIN</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>OLRES</Point>
+      <Point>BODEM</Point>
+      <Point>IDPIN</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="27 RNP" Priority="1" Center="-37.885556+178.294444" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>APENU</Point>
+      <Point>BODEM</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>AGRAK</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>AKSOB</Point>
+    </Symbol>
+    <Line Pattern="Solid">AKSOB/AGRAK/OLRES/-375308.000+1781740.000</Line>
+    <Line Pattern="Solid">APENU/AKSOB</Line>
+    <Line Pattern="Solid">BODEM/AKSOB</Line>
+  </Map>
+  <Map Type="System2" Name="27 RNP Labels" Priority="1" Center="-37.885556+178.294444" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>APENU</Point>
+      <Point>BODEM</Point>
+      <Point>AGRAK</Point>
+      <Point>AKSOB</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="VFRPoint" Priority="1" CustomColourName="VFRPoint" Center="-37.883964+178.290028">
+    <Symbol Type="HollowSquare">
+      <Point Name="GREYS BUSH">-383544.200+1775730.300</Point>
+      <Point Name="MAKORORI">-383900.700+1780732.800</Point>
+      <Point Name="ORMOND">-383317.700+1775519.800</Point>
+      <Point Name="PATUTAHI">-383734.700+1775328.800</Point>
+      <Point Name="TE KARAKA">-382816.600+1775230.600</Point>
+      <Point Name="THE LAKE">-383553.700+1775225.800</Point>
+      <Point Name="THE MILL">-384006.700+1775713.800</Point>
+      <Point Name="THE OLD WORKS">-383120.600+1775352.800</Point>
+      <Point Name="THE ROUNDABOUT">-383909.000+1775454.900</Point>
+      <Point Name="THE TRIG">-383546.100+1775918.000</Point>
+      <Point Name="WAIMATA">-383030.600+1780241.800</Point>
+      <Point Name="WAINUI">-384117.700+1780418.800</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point Name="GREYS BUSH">-383544.200+1775730.300</Point>
+      <Point Name="MAKORORI">-383900.700+1780732.800</Point>
+      <Point Name="ORMOND">-383317.700+1775519.800</Point>
+      <Point Name="PATUTAHI">-383734.700+1775328.800</Point>
+      <Point Name="TE KARAKA">-382816.600+1775230.600</Point>
+      <Point Name="THE LAKE">-383553.700+1775225.800</Point>
+      <Point Name="THE MILL">-384006.700+1775713.800</Point>
+      <Point Name="THE OLD WORKS">-383120.600+1775352.800</Point>
+      <Point Name="THE ROUNDABOUT">-383909.000+1775454.900</Point>
+      <Point Name="THE TRIG">-383546.100+1775918.000</Point>
+      <Point Name="WAIMATA">-383030.600+1780241.800</Point>
+      <Point Name="WAINUI">-384117.700+1780418.800</Point>
+    </Label>
+  </Map>
+</Maps>

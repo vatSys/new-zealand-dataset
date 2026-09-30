@@ -99,45 +99,45 @@
       <!--Rwy14 MIGE1S.KEEPA-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 NIC4-->
+      <!--Rwy14 NIC5-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 NIC4.COOKS-->
+      <!--Rwy14 NIC5.COOKS-->
       -38.678162+177.982151/COOKS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 NIC4.DABIP-->
+      <!--Rwy14 NIC5.DABIP-->
       -38.678162+177.982151/DABIP
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 NIC4.ELMER-->
+      <!--Rwy14 NIC5.ELMER-->
       -38.678162+177.982151/ELMER
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 NIC4.KEEPA-->
+      <!--Rwy14 NIC5.KEEPA-->
       -38.678162+177.982151/KEEPA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 NIC4.RULSI-->
+      <!--Rwy14 NIC5.RULSI-->
       -38.678162+177.982151/RULSI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 NUH4-->
+      <!--Rwy14 NUH5-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 NUH4.COOKS-->
+      <!--Rwy14 NUH5.COOKS-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 NUH4.DABIP-->
+      <!--Rwy14 NUH5.DABIP-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 NUH4.ELMER-->
+      <!--Rwy14 NUH5.ELMER-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 NUH4.KEEPA-->
+      <!--Rwy14 NUH5.KEEPA-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 NUH4.RULSI-->
+      <!--Rwy14 NUH5.RULSI-->
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy14 OLDE1Q-->
@@ -152,16 +152,16 @@
       OLDEB/VADGO/POPOV/RULSI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 TUN3-->
+      <!--Rwy14 TUN5-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 TUN3.DABIP-->
+      <!--Rwy14 TUN5.DABIP-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 TUN3.ELMER-->
+      <!--Rwy14 TUN5.ELMER-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy14 TUN3.KEEPA-->
+      <!--Rwy14 TUN5.KEEPA-->
     </Line>
     <Symbol Type="SolidStar">
       <Point>-38.678162+177.982151</Point>
@@ -285,40 +285,47 @@
   </Map>
   <Map Type="System2" Name="32 SIDs" Priority="1" CustomColourName="ProcDep" Center="-38.658300+177.974975">
     <Line Pattern="Dashed">
-      <!--Rwy32 COKS2P-->
+      <!--Rwy32 COKS3P-->
       -38.658300+177.974975/GS32T/-38.653182+177.973461/OMLIK/ERVET/COOKS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 COKS2P.RULSI-->
+      <!--Rwy32 COKS3P.MAHIA-->
+      COOKS/MAHIA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy32 COKS3P.RULSI-->
       COOKS/DOXOR/POPOV/RULSI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 COKS1R-->
+      <!--Rwy32 COKS2R-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 COKS1R.RULSI-->
+      <!--Rwy32 COKS2R.MAHIA-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 CRA4-->
+      <!--Rwy32 COKS2R.RULSI-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 CRA4.COOKS-->
+      <!--Rwy32 CRA5-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy32 CRA5.COOKS-->
       -38.653182+177.973461/COOKS
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 CRA4.DABIP-->
+      <!--Rwy32 CRA5.DABIP-->
       -38.653182+177.973461/DABIP
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 CRA4.ELMER-->
+      <!--Rwy32 CRA5.ELMER-->
       -38.653182+177.973461/ELMER
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 CRA4.KEEPA-->
+      <!--Rwy32 CRA5.KEEPA-->
       -38.653182+177.973461/KEEPA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 CRA4.RULSI-->
+      <!--Rwy32 CRA5.RULSI-->
       -38.653182+177.973461/RULSI
     </Line>
     <Line Pattern="Dashed">
@@ -334,22 +341,22 @@
       MIGEN/KEEPA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 PUA4-->
+      <!--Rwy32 PUA5-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 PUA4.COOKS-->
+      <!--Rwy32 PUA5.COOKS-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 PUA4.DABIP-->
+      <!--Rwy32 PUA5.DABIP-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 PUA4.ELMER-->
+      <!--Rwy32 PUA5.ELMER-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 PUA4.KEEPA-->
+      <!--Rwy32 PUA5.KEEPA-->
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy32 PUA4.RULSI-->
+      <!--Rwy32 PUA5.RULSI-->
     </Line>
     <Symbol Type="SolidStar">
       <Point>-38.653182+177.973461</Point>
@@ -359,6 +366,7 @@
       <Point>OMLIK</Point>
       <Point>ERVET</Point>
       <Point>COOKS</Point>
+      <Point>MAHIA</Point>
       <Point>DOXOR</Point>
       <Point>POPOV</Point>
       <Point>RULSI</Point>
@@ -371,6 +379,7 @@
     <Label HasLeader="true">
       <Point>COOKS</Point>
       <Point>MIGEN</Point>
+      <Point>MAHIA</Point>
       <Point>RULSI</Point>
       <Point>DABIP</Point>
       <Point>ELMER</Point>
