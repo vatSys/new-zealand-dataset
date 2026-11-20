@@ -18,10 +18,6 @@
       -35.846270+174.443360/DOSTU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy06 BREAM6.KK NDB-->
-      -35.846270+174.443360/KK NDB
-    </Line>
-    <Line Pattern="Dashed">
       <!--Rwy06 BREAM6.KT NDB-->
       -35.846270+174.443360/KT NDB
     </Line>
@@ -51,7 +47,6 @@
     </Line>
     <Symbol Type="Circle">
       <Point>AA VOR</Point>
-      <Point>KK NDB</Point>
       <Point>KT NDB</Point>
       <Point>WP VOR</Point>
       <Point>SF NDB</Point>
@@ -72,7 +67,6 @@
       <Point>AA VOR</Point>
       <Point>APABO</Point>
       <Point>DOSTU</Point>
-      <Point>KK NDB</Point>
       <Point>KT NDB</Point>
       <Point>UKAPA</Point>
       <Point>WP VOR</Point>
@@ -169,10 +163,6 @@
       -35.846270+174.443360/DOSTU
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy24 HARBO6.KK NDB-->
-      -35.846270+174.443360/KK NDB
-    </Line>
-    <Line Pattern="Dashed">
       <!--Rwy24 HARBO6.KT NDB-->
       -35.846270+174.443360/KT NDB
     </Line>
@@ -198,7 +188,6 @@
     </Line>
     <Symbol Type="Circle">
       <Point>AA VOR</Point>
-      <Point>KK NDB</Point>
       <Point>KT NDB</Point>
       <Point>WP VOR</Point>
       <Point>SF NDB</Point>
@@ -219,7 +208,6 @@
       <Point>AA VOR</Point>
       <Point>APABO</Point>
       <Point>DOSTU</Point>
-      <Point>KK NDB</Point>
       <Point>KT NDB</Point>
       <Point>UKAPA</Point>
       <Point>WP VOR</Point>
@@ -278,7 +266,7 @@
       <Point>ISVAL</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="14 RNP" Priority="1" Center="-35.769628+174.359069" CustomColourName="ProcArr">
+  <Map Type="System2" Name="14 RNP" Priority="1" Center="-35.769611+174.359086" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -294,12 +282,12 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">SF NDB/DUDAP/WR431/-354610.661+1742132.648</Line>
-    <Line Pattern="Solid">UGENO/ISVAL/WR403/-354610.661+1742132.648</Line>
+    <Line Pattern="Solid">SF NDB/DUDAP/WR431/-354610.600+1742132.710</Line>
+    <Line Pattern="Solid">UGENO/ISVAL/WR403/-354610.600+1742132.710</Line>
     <Line Pattern="Solid">ISBUP/UGENO</Line>
     <Line Pattern="Solid">VIPIT/UGENO</Line>
   </Map>
-  <Map Type="System2" Name="14 RNP Labels" Priority="1" Center="-35.769628+174.359069" CustomColourName="ProcArr">
+  <Map Type="System2" Name="14 RNP Labels" Priority="1" Center="-35.769611+174.359086" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>UGENO</Point>
       <Point>ISBUP</Point>
@@ -308,7 +296,7 @@
       <Point>ISVAL</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="32 RNP" Priority="1" Center="-35.773617+174.360961" CustomColourName="ProcArr">
+  <Map Type="System2" Name="32 RNP" Priority="1" Center="-35.773603+174.360978" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -324,12 +312,12 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">SF NDB/DUDAP/WR431/-354625.021+1742139.460</Line>
-    <Line Pattern="Solid">UGENO/ISVAL/WR403/-354625.021+1742139.460</Line>
+    <Line Pattern="Solid">SF NDB/DUDAP/WR431/-354624.971+1742139.521</Line>
+    <Line Pattern="Solid">UGENO/ISVAL/WR403/-354624.971+1742139.521</Line>
     <Line Pattern="Solid">ISBUP/UGENO</Line>
     <Line Pattern="Solid">VIPIT/UGENO</Line>
   </Map>
-  <Map Type="System2" Name="32 RNP Labels" Priority="1" Center="-35.773617+174.360961" CustomColourName="ProcArr">
+  <Map Type="System2" Name="32 RNP Labels" Priority="1" Center="-35.773603+174.360978" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>UGENO</Point>
       <Point>ISBUP</Point>

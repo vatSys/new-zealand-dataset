@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="18 RNP" Priority="1" Center="-40.811181+172.777531" CustomColourName="ProcArr">
+  <Map Type="System2" Name="18 RNP" Priority="1" Center="-40.811192+172.777533" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>TK401</Point>
@@ -16,9 +16,9 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">MARKO/TK401/BENVU/TK407/-404840.252+1724639.112</Line>
+    <Line Pattern="Solid">MARKO/TK401/BENVU/TK407/-404840.291+1724639.119</Line>
   </Map>
-  <Map Type="System2" Name="18 RNP Labels" Priority="1" Center="-40.811181+172.777531" CustomColourName="ProcArr">
+  <Map Type="System2" Name="18 RNP Labels" Priority="1" Center="-40.811192+172.777533" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>MARKO</Point>
       <Point>BENVU</Point>

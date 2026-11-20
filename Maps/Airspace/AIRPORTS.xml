@@ -12,6 +12,7 @@
       <Point>NZAW</Point>
       <Point>NZBA</Point>
       <Point>NZBG</Point>
+      <Point>NZBH</Point>
       <Point>NZBW</Point>
       <Point>NZCB</Point>
       <Point>NZCG</Point>
@@ -59,7 +60,6 @@
       <Point>NZHK</Point>
       <Point>NZHM</Point>
       <Point>NZHN</Point>
-      <Point>NZHP</Point>
       <Point>NZHR</Point>
       <Point>NZHS</Point>
       <Point>NZHT</Point>
@@ -176,7 +176,6 @@
       <Point>NZSD</Point>
       <Point>NZSF</Point>
       <Point>NZSH</Point>
-      <Point>NZSL</Point>
       <Point>NZSO</Point>
       <Point>NZTC</Point>
       <Point>NZTE</Point>
@@ -210,6 +209,7 @@
       <Point>NZWF</Point>
       <Point>NZWG</Point>
       <Point>NZWH</Point>
+      <Point>NZWI</Point>
       <Point>NZWJ</Point>
       <Point>NZWK</Point>
       <Point>NZWL</Point>
@@ -239,6 +239,7 @@
       <Point Name="AW">NZAW</Point>
       <Point Name="BA">NZBA</Point>
       <Point Name="BG">NZBG</Point>
+      <Point Name="BH">NZBH</Point>
       <Point Name="BW">NZBW</Point>
       <Point Name="CB">NZCB</Point>
       <Point Name="CG">NZCG</Point>
@@ -286,7 +287,6 @@
       <Point Name="HK">NZHK</Point>
       <Point Name="HM">NZHM</Point>
       <Point Name="HN">NZHN</Point>
-      <Point Name="HP">NZHP</Point>
       <Point Name="HR">NZHR</Point>
       <Point Name="HS">NZHS</Point>
       <Point Name="HT">NZHT</Point>
@@ -403,7 +403,6 @@
       <Point Name="SD">NZSD</Point>
       <Point Name="SF">NZSF</Point>
       <Point Name="SH">NZSH</Point>
-      <Point Name="SL">NZSL</Point>
       <Point Name="SO">NZSO</Point>
       <Point Name="TC">NZTC</Point>
       <Point Name="TE">NZTE</Point>
@@ -437,6 +436,7 @@
       <Point Name="WF">NZWF</Point>
       <Point Name="WG">NZWG</Point>
       <Point Name="WH">NZWH</Point>
+      <Point Name="WI">NZWI</Point>
       <Point Name="WJ">NZWJ</Point>
       <Point Name="WK">NZWK</Point>
       <Point Name="WL">NZWL</Point>

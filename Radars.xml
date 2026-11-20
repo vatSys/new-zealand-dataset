@@ -256,8 +256,36 @@
     <Lat>-13.6119611111111</Lat>
     <Long>187.557463888889</Long>
   </Radar>
-  <Radar Name="Antarctic ADSC" Type="SSR_ModeC" Elevation="50" MaxRange="4000">
+  <Radar Name="McMurdo ADSB" Type="SSR_ModeC" Elevation="50" MaxRange="2000">
     <Lat>-77.8492280555556</Lat>
     <Long>166.692285</Long>
+  </Radar>
+  <Radar Name="McMurdo ADSB" Type="ADSB" Elevation="17" MaxRange="750">
+    <Lat>-77.8492280555556</Lat>
+    <Long>166.692285</Long>
+  </Radar>
+  <Radar Name="Sturge Island ADSB" Type="SSR_ModeC" Elevation="50" MaxRange="1000">
+    <Lat>-67.4303611111111</Lat>
+    <Long>164.763055555556</Long>
+  </Radar>
+  <Radar Name="Sturge Island ADSB" Type="ADSB" Elevation="17" MaxRange="750">
+    <Lat>-67.4303611111111</Lat>
+    <Long>164.763055555556</Long>
+  </Radar>
+  <Radar Name="Mount Honey ADSB" Type="SSR_ModeC" Elevation="50" MaxRange="1000">
+    <Lat>-52.5705769444444</Lat>
+    <Long>169.162501944444</Long>
+  </Radar>
+  <Radar Name="Mount Honey ADSB" Type="ADSB" Elevation="17" MaxRange="750">
+    <Lat>-52.5705769444444</Lat>
+    <Long>169.162501944444</Long>
+  </Radar>
+  <Radar Name="Zucchelli Station ADSB" Type="SSR_ModeC" Elevation="50" MaxRange="1000">
+    <Lat>-74.6945380555556</Lat>
+    <Long>164.114421111111</Long>
+  </Radar>
+  <Radar Name="Zucchelli Station ADSB" Type="ADSB" Elevation="17" MaxRange="750">
+    <Lat>-74.6945380555556</Lat>
+    <Long>164.114421111111</Long>
   </Radar>
 </Radars>

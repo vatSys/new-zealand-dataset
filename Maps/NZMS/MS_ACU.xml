@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="06 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.973622+175.640547">
+  <Map Type="System2" Name="06 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.973614+175.640578">
     <Line Pattern="Dashed">
       <!--Rwy06 OLNO1P-->
-      -40.973622+175.640547/OLNOL
+      -40.973614+175.640578/OLNOL
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy06 OLNO1P.GURBO-->
@@ -46,7 +46,7 @@
       <Point>URDAL</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="06 STARs" Priority="1" CustomColourName="ProcArr" Center="-40.975867+175.627550">
+  <Map Type="System2" Name="06 STARs" Priority="1" CustomColourName="ProcArr" Center="-40.975864+175.627550">
     <Line>
       <!--Rwy06 OREU1A-->
       OREUM/TARAX
@@ -72,7 +72,7 @@
       <Point>NIPUV</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="06 RNP" Priority="1" Center="-40.975867+175.627550" CustomColourName="ProcArr">
+  <Map Type="System2" Name="06 RNP" Priority="1" Center="-40.975864+175.627550" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -89,11 +89,11 @@
     <Symbol Type="SolidTriangle">
       <Point>MS877</Point>
     </Symbol>
-    <Line Pattern="Solid">TARAX/MS877/UKLUL/-405833.121+1753739.180</Line>
+    <Line Pattern="Solid">TARAX/MS877/UKLUL/-405833.110+1753739.180</Line>
     <Line Pattern="Solid">NIPUV/TARAX</Line>
     <Line Pattern="Solid">UBKUG/TARAX</Line>
   </Map>
-  <Map Type="System2" Name="06 RNP Labels" Priority="1" Center="-40.975867+175.627550" CustomColourName="ProcArr">
+  <Map Type="System2" Name="06 RNP Labels" Priority="1" Center="-40.975864+175.627550" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>TARAX</Point>
       <Point>NIPUV</Point>
@@ -102,10 +102,10 @@
       <Point>MS877</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="24 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.975867+175.627550">
+  <Map Type="System2" Name="24 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.975864+175.627550">
     <Line Pattern="Dashed">
       <!--Rwy24 NIPI1Q-->
-      -40.975867+175.627550/NIPIR
+      -40.975864+175.627550/NIPIR
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy24 NIPI1Q.GURBO-->
@@ -125,7 +125,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy24 URDA1Q-->
-      -40.975867+175.627550/OMBIV/URDAL
+      -40.975864+175.627550/OMBIV/URDAL
     </Line>
     <Symbol Type="SolidStar">
       <Point>NIPIR</Point>
@@ -150,7 +150,7 @@
       <Point>PP NDB</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="24 RNP" Priority="1" Center="-40.973622+175.640547" CustomColourName="ProcArr">
+  <Map Type="System2" Name="24 RNP" Priority="1" Center="-40.973614+175.640578" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>UKLUL</Point>
@@ -167,11 +167,11 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">SADUN/UPDEX/UKLUL/-405825.039+1753825.969</Line>
+    <Line Pattern="Solid">SADUN/UPDEX/UKLUL/-405825.010+1753826.081</Line>
     <Line Pattern="Solid">ATVOX/SADUN</Line>
     <Line Pattern="Solid">URDAL/SADUN</Line>
   </Map>
-  <Map Type="System2" Name="24 RNP Labels" Priority="1" Center="-40.973622+175.640547" CustomColourName="ProcArr">
+  <Map Type="System2" Name="24 RNP Labels" Priority="1" Center="-40.973614+175.640578" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>SADUN</Point>
       <Point>ATVOX</Point>
