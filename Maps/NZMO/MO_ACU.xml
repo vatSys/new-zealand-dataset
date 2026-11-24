@@ -117,10 +117,10 @@
       <Point>UPGUM</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="14 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.538731+167.648681">
+  <Map Type="System2" Name="14 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.538722+167.648697">
     <Line Pattern="Dashed">
       <!--Rwy14 GULAN4-->
-      -45.538731+167.648681/MO552/GULAN
+      -45.538722+167.648697/MO552/GULAN
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy14 GULAN4.ANOPA-->
@@ -150,10 +150,10 @@
       <Point>SUNGU</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="32 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.528531+167.643922">
+  <Map Type="System2" Name="32 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.528522+167.643936">
     <Line Pattern="Dashed">
       <!--Rwy32 GULAN4-->
-      -45.528531+167.643922/MO552/GULAN
+      -45.528522+167.643936/MO552/GULAN
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy32 GULAN4.ANOPA-->

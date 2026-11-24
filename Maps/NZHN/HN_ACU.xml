@@ -102,7 +102,7 @@
       <Point>OLDON</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="18L STARs" Priority="1" CustomColourName="ProcArr" Center="-37.855806+175.336172">
+  <Map Type="System2" Name="18L STARs" Priority="1" CustomColourName="ProcArr" Center="-37.855806+175.336175">
     <Line>
       <!--Rwy18L ATPU2A-->
       ATPUL/DULUV
@@ -242,7 +242,7 @@
       <Point>VATNA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="18L RNP" Priority="1" Center="-37.855806+175.336172" CustomColourName="ProcArr">
+  <Map Type="System2" Name="18L RNP" Priority="1" Center="-37.855806+175.336175" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -257,10 +257,10 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">DULUV/LAXOD/-375120.902+1752010.219</Line>
-    <Line Pattern="Solid">VATNA/ISPOT/HN VOR/-375120.902+1752010.219</Line>
+    <Line Pattern="Solid">DULUV/LAXOD/-375120.902+1752010.230</Line>
+    <Line Pattern="Solid">VATNA/ISPOT/HN VOR/-375120.902+1752010.230</Line>
   </Map>
-  <Map Type="System2" Name="18L RNP Labels" Priority="1" Center="-37.855806+175.336172" CustomColourName="ProcArr">
+  <Map Type="System2" Name="18L RNP Labels" Priority="1" Center="-37.855806+175.336175" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>DULUV</Point>
       <Point>VATNA</Point>
@@ -268,10 +268,10 @@
       <Point>ISPOT</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="36R SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.855806+175.336172">
+  <Map Type="System2" Name="36R SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.855806+175.336175">
     <Line Pattern="Dashed">
       <!--Rwy36R AGULA2-->
-      -37.855806+175.336172/HN18L/AGULA
+      -37.855806+175.336175/HN18L/AGULA
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy36R AGULA2.ATOLI-->

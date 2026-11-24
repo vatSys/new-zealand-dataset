@@ -32,7 +32,7 @@
       DADLI/LAPUN/DUKUT/GULBA/OMBUB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 NZPM1H-->
+      <!--Rwy07 NZPM2H-->
       PM25T/-40.320778+175.725175
     </Line>
     <Line Pattern="Dashed">
@@ -334,7 +334,7 @@
       GUTNI/LUNBA/RINRI/ANPUG/KEVEL/VIROL
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 NZPM3A-->
+      <!--Rwy25 NZPM4A-->
       PM25T/-40.319444+175.506944
     </Line>
     <Symbol Type="SolidStar">

@@ -2,8 +2,23 @@
 <Maps>
   <Map Type="System2" Name="12 SIDs" Priority="1" CustomColourName="ProcDep" Center="-35.074508+173.290461">
     <Line Pattern="Dashed">
+      <!--Rwy12 BIGID1-->
+      -35.074508+173.290461/KT30T/-35.091060+173.305680/-35.092490+173.383730/BIGID
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy12 BIGID1.PERAS-->
+      BIGID/PERAS
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy12 BIGID1.RUATO-->
+      BIGID/RUATO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy12 BIGID1.WP-->
+      BIGID/WP VOR
+    </Line>
+    <Line Pattern="Dashed">
       <!--Rwy12 BROA4A-->
-      -35.074508+173.290461/KT30T/-35.091060+173.305680
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy12 BROA4A.PERAS-->
@@ -16,22 +31,6 @@
     <Line Pattern="Dashed">
       <!--Rwy12 BROA3B-->
       -35.091060+173.305680/RUATO
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy12 HOBBS4-->
-      -35.091060+173.305680/-35.092490+173.383730/HOBBS
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy12 HOBBS4.PERAS-->
-      HOBBS/PERAS
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy12 HOBBS4.RUATO-->
-      HOBBS/RUATO
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy12 HOBBS4.WP-->
-      HOBBS/WP VOR
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy12 KARO1S-->
@@ -57,14 +56,14 @@
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>KT30T</Point>
+      <Point>BIGID</Point>
       <Point>PERAS</Point>
       <Point>RUATO</Point>
-      <Point>HOBBS</Point>
       <Point>KAROA</Point>
     </Symbol>
     <Label HasLeader="true">
+      <Point>BIGID</Point>
       <Point>RUATO</Point>
-      <Point>HOBBS</Point>
       <Point>KAROA</Point>
       <Point>PERAS</Point>
       <Point>WP VOR</Point>

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="09 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.885556+178.294444">
+  <Map Type="System2" Name="09 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.885350+178.293664">
     <Line Pattern="Dashed">
       <!--Rwy09 OLRES1-->
-      -37.885556+178.294444/RR401/OLRES
+      -37.885350+178.293664/RR401/OLRES
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy09 OLRES1.BODEM-->
@@ -27,7 +27,7 @@
       <Point>IDPIN</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="09 RNP" Priority="1" Center="-37.880833+178.285556" CustomColourName="ProcArr">
+  <Map Type="System2" Name="09 RNP" Priority="1" Center="-37.880672+178.285289" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -43,11 +43,11 @@
     <Symbol Type="SolidTriangle">
       <Point>AKSOB</Point>
     </Symbol>
-    <Line Pattern="Solid">AKSOB/AGRAK/OLRES/-375251.000+1781708.000</Line>
+    <Line Pattern="Solid">AKSOB/AGRAK/OLRES/-375250.419+1781707.040</Line>
     <Line Pattern="Solid">APENU/AKSOB</Line>
     <Line Pattern="Solid">BODEM/AKSOB</Line>
   </Map>
-  <Map Type="System2" Name="09 RNP Labels" Priority="1" Center="-37.880833+178.285556" CustomColourName="ProcArr">
+  <Map Type="System2" Name="09 RNP Labels" Priority="1" Center="-37.880672+178.285289" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>APENU</Point>
       <Point>BODEM</Point>
@@ -55,10 +55,10 @@
       <Point>AKSOB</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="27 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.880833+178.285556">
+  <Map Type="System2" Name="27 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.880672+178.285289">
     <Line Pattern="Dashed">
       <!--Rwy27 OLRES1-->
-      -37.880833+178.285556/RR401/OLRES
+      -37.880672+178.285289/RR401/OLRES
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy27 OLRES1.BODEM-->
@@ -82,7 +82,7 @@
       <Point>IDPIN</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="27 RNP" Priority="1" Center="-37.885556+178.294444" CustomColourName="ProcArr">
+  <Map Type="System2" Name="27 RNP" Priority="1" Center="-37.885350+178.293664" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -98,11 +98,11 @@
     <Symbol Type="SolidTriangle">
       <Point>AKSOB</Point>
     </Symbol>
-    <Line Pattern="Solid">AKSOB/AGRAK/OLRES/-375308.000+1781740.000</Line>
+    <Line Pattern="Solid">AKSOB/AGRAK/OLRES/-375307.260+1781737.190</Line>
     <Line Pattern="Solid">APENU/AKSOB</Line>
     <Line Pattern="Solid">BODEM/AKSOB</Line>
   </Map>
-  <Map Type="System2" Name="27 RNP Labels" Priority="1" Center="-37.885556+178.294444" CustomColourName="ProcArr">
+  <Map Type="System2" Name="27 RNP Labels" Priority="1" Center="-37.885350+178.293664" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>APENU</Point>
       <Point>BODEM</Point>

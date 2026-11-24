@@ -38,7 +38,7 @@
       <Point>VASNI</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="09 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.659611+177.970139">
+  <Map Type="System2" Name="09 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.659622+177.970128">
     <Line>
       <!--Rwy09 GS1E-->
       GS VOR/VASNI
@@ -57,7 +57,7 @@
       <Point>VASNI</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="27 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.663997+177.982436">
+  <Map Type="System2" Name="27 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.663503+177.980981">
     <Line>
       <!--Rwy27 GS1E-->
       GS VOR/VASNI

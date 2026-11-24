@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="07 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.673806+176.209056">
+  <Map Type="System2" Name="07 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.673811+176.209053">
     <Line Pattern="Dashed">
       <!--Rwy07 BELET3-->
-      -37.673806+176.209056/TG07T/-37.677222+176.288889/BELET
+      -37.673811+176.209053/TG07T/-37.677222+176.288889/BELET
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy07 TODA3P-->
@@ -56,7 +56,7 @@
       <Point>DODKU</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="07 STARs" Priority="1" CustomColourName="ProcArr" Center="-37.672750+176.188389">
+  <Map Type="System2" Name="07 STARs" Priority="1" CustomColourName="ProcArr" Center="-37.672758+176.188381">
     <Line>
       <!--Rwy07 BIKO2A-->
       BIKOT/BERPI/RUSTA
@@ -116,7 +116,7 @@
       <Point>MORTA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="07 RNP" Priority="1" Center="-37.672750+176.188389" CustomColourName="ProcArr">
+  <Map Type="System2" Name="07 RNP" Priority="1" Center="-37.672758+176.188381" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -131,11 +131,11 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">TENIX/RIPSA/-374021.900+1761118.200</Line>
+    <Line Pattern="Solid">TENIX/RIPSA/-374021.929+1761118.172</Line>
     <Line Pattern="Solid">MORTA/TENIX</Line>
     <Line Pattern="Solid">RUSTA/TENIX</Line>
   </Map>
-  <Map Type="System2" Name="07 RNP Labels" Priority="1" Center="-37.672750+176.188389" CustomColourName="ProcArr">
+  <Map Type="System2" Name="07 RNP Labels" Priority="1" Center="-37.672758+176.188381" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>TENIX</Point>
       <Point>MORTA</Point>
@@ -143,10 +143,10 @@
       <Point>RIPSA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="25 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.672750+176.188389">
+  <Map Type="System2" Name="25 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.672758+176.188381">
     <Line Pattern="Dashed">
       <!--Rwy25 DOTAR3-->
-      -37.672750+176.188389/TG25T/-37.668333+176.112778/DOTAR
+      -37.672758+176.188381/TG25T/-37.668333+176.112778/DOTAR
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy25 MORT3R-->
@@ -200,7 +200,7 @@
       <Point>DODKU</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="25 STARs" Priority="1" CustomColourName="ProcArr" Center="-37.673806+176.209056">
+  <Map Type="System2" Name="25 STARs" Priority="1" CustomColourName="ProcArr" Center="-37.673811+176.209053">
     <Line>
       <!--Rwy25 BIKO2B-->
       BIKOT/BERPI/RUSTA/UBSET
@@ -261,7 +261,7 @@
       <Point>TODAN</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="25 RNP" Priority="1" Center="-37.673806+176.209056" CustomColourName="ProcArr">
+  <Map Type="System2" Name="25 RNP" Priority="1" Center="-37.673811+176.209053" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -276,11 +276,11 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">PATMO/UKDAS/-374025.702+1761232.602</Line>
+    <Line Pattern="Solid">PATMO/UKDAS/-374025.720+1761232.591</Line>
     <Line Pattern="Solid">TODAN/PATMO</Line>
     <Line Pattern="Solid">UBSET/PATMO</Line>
   </Map>
-  <Map Type="System2" Name="25 RNP Labels" Priority="1" Center="-37.673806+176.209056" CustomColourName="ProcArr">
+  <Map Type="System2" Name="25 RNP Labels" Priority="1" Center="-37.673811+176.209053" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>PATMO</Point>
       <Point>TODAN</Point>

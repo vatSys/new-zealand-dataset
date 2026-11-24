@@ -290,10 +290,10 @@
       <Point>MEXEB</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="07 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.028958+174.974044">
+  <Map Type="System2" Name="07 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.028989+174.975961">
     <Line Pattern="Dashed">
       <!--Rwy07 MERA2R-->
-      -37.028958+174.974044/BODUG/UGSIM/MERAS
+      -37.028989+174.975961/BODUG/UGSIM/MERAS
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy07 REKI3R-->
@@ -316,10 +316,10 @@
       <Point>ORIDI</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="25 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.028981+174.969131">
+  <Map Type="System2" Name="25 SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.028994+174.969236">
     <Line Pattern="Dashed">
       <!--Rwy25 MERA2R-->
-      -37.028981+174.969131/BODUG/UGSIM/MERAS
+      -37.028994+174.969236/BODUG/UGSIM/MERAS
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy25 REKI3R-->

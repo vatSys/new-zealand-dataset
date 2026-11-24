@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="06 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.517417+173.877906">
+  <Map Type="System2" Name="06 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.517400+173.877925">
     <Line Pattern="Dashed">
       <!--Rwy06 BVR2-->
-      -41.517417+173.877906/WB24T/WB601/MARLO
+      -41.517400+173.877925/WB24T/WB601/MARLO
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy06 DOTU3Q-->
-      -41.517417+173.877906/WB06T/-41.511111+173.990000/DOTUT
+      -41.517400+173.877925/WB06T/-41.511111+173.990000/DOTUT
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy06 DOTU3Q.ELPIT-->
@@ -68,7 +68,7 @@
       <Point>IPMIR</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="06 STARs" Priority="1" CustomColourName="ProcArr" Center="-41.518322+173.860875">
+  <Map Type="System2" Name="06 STARs" Priority="1" CustomColourName="ProcArr" Center="-41.518303+173.860897">
     <Line>
       <!--Rwy06 AVPO2M-->
       AVPOD/LUTKA/WB VOR
@@ -148,7 +148,7 @@
       <Point>URGAP</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="06 RNP-AR" Priority="1" Center="-41.518322+173.860875" CustomColourName="ProcArr">
+  <Map Type="System2" Name="06 RNP-AR" Priority="1" Center="-41.518303+173.860897" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>WB726</Point>
@@ -165,18 +165,18 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">URGAP/WB726/WB732/WB744/BEDOG/-413105.959+1735139.150</Line>
+    <Line Pattern="Solid">URGAP/WB726/WB732/WB744/BEDOG/-413105.891+1735139.229</Line>
   </Map>
-  <Map Type="System2" Name="06 RNP-AR Labels" Priority="1" Center="-41.518322+173.860875" CustomColourName="ProcArr">
+  <Map Type="System2" Name="06 RNP-AR Labels" Priority="1" Center="-41.518303+173.860897" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>URGAP</Point>
       <Point>BEDOG</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="24 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.518322+173.860875">
+  <Map Type="System2" Name="24 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.518303+173.860897">
     <Line Pattern="Dashed">
       <!--Rwy24 BODI3P-->
-      -41.518322+173.860875/WB24T/ADBOM/-41.554167+173.782500/URGUN/BODIM
+      -41.518303+173.860897/WB24T/ADBOM/-41.554167+173.782500/URGUN/BODIM
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy24 BODI3P.ELPIT-->
@@ -240,7 +240,7 @@
       <Point>LUBSI</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="24 STARs" Priority="1" CustomColourName="ProcArr" Center="-41.517417+173.877906">
+  <Map Type="System2" Name="24 STARs" Priority="1" CustomColourName="ProcArr" Center="-41.517400+173.877925">
     <Line>
       <!--Rwy24 AVPO2J-->
       AVPOD/LUTKA
@@ -299,7 +299,7 @@
       <Point>LUTKA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="24 RNP" Priority="1" Center="-41.517417+173.877906" CustomColourName="ProcArr">
+  <Map Type="System2" Name="24 RNP" Priority="1" Center="-41.517400+173.877925" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>WB724</Point>
@@ -315,9 +315,9 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">LUTKA/WB724/ENPIP/WB401/-413102.701+1735240.462</Line>
+    <Line Pattern="Solid">LUTKA/WB724/ENPIP/WB401/-413102.640+1735240.530</Line>
   </Map>
-  <Map Type="System2" Name="24 RNP Labels" Priority="1" Center="-41.517417+173.877906" CustomColourName="ProcArr">
+  <Map Type="System2" Name="24 RNP Labels" Priority="1" Center="-41.517400+173.877925" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>LUTKA</Point>
       <Point>ENPIP</Point>

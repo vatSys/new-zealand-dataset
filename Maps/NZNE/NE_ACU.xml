@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="03 STARs" Priority="1" CustomColourName="ProcArr" Center="-36.658144+174.653108">
+  <Map Type="System2" Name="03 STARs" Priority="1" CustomColourName="ProcArr" Center="-36.658144+174.653125">
     <Line>
       <!--Rwy03 KOPPA1-->
       KOPPA/PANGO
@@ -16,7 +16,7 @@
       <Point>PANGO</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="03 RNP" Priority="1" Center="-36.658144+174.653108" CustomColourName="ProcArr">
+  <Map Type="System2" Name="03 RNP" Priority="1" Center="-36.658144+174.653125" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>-36.667425+174.640756</Point>
@@ -32,10 +32,10 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">LIBKO/RIKDI/-36.667425+174.640756/-363929.318+1743911.189</Line>
+    <Line Pattern="Solid">LIBKO/RIKDI/-36.667425+174.640756/-363929.318+1743911.250</Line>
     <Line Pattern="Solid">PANGO/LIBKO</Line>
   </Map>
-  <Map Type="System2" Name="03 RNP Labels" Priority="1" Center="-36.658144+174.653108" CustomColourName="ProcArr">
+  <Map Type="System2" Name="03 RNP Labels" Priority="1" Center="-36.658144+174.653125" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>LIBKO</Point>
       <Point>PANGO</Point>
