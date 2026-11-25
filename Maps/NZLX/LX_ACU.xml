@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="01 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.209167+169.372058">
+  <Map Type="System2" Name="01 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.209014+169.372197">
     <Line Pattern="Dashed">
       <!--Rwy01 LUGDU3-->
-      -45.209167+169.372058/PORUT/LUGDU
+      -45.209014+169.372197/PORUT/LUGDU
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy01 LUGDU3.ASIMA-->
@@ -50,7 +50,7 @@
       <Point>PAMKA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="01 RNP" Priority="1" Center="-45.213739+169.368483" CustomColourName="ProcArr">
+  <Map Type="System2" Name="01 RNP" Priority="1" Center="-45.213892+169.368372" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -65,11 +65,11 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">LUGDU/PORUT/LX407/-451249.460+1692206.539</Line>
+    <Line Pattern="Solid">LUGDU/PORUT/LX407/-451250.011+1692206.139</Line>
     <Line Pattern="Solid">BESMO/LUGDU</Line>
     <Line Pattern="Solid">KAKIT/LUGDU</Line>
   </Map>
-  <Map Type="System2" Name="01 RNP Labels" Priority="1" Center="-45.213739+169.368483" CustomColourName="ProcArr">
+  <Map Type="System2" Name="01 RNP Labels" Priority="1" Center="-45.213892+169.368372" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>LUGDU</Point>
       <Point>BESMO</Point>
@@ -77,10 +77,10 @@
       <Point>PORUT</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="19 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.213739+169.368483">
+  <Map Type="System2" Name="19 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.213892+169.368372">
     <Line Pattern="Dashed">
       <!--Rwy19 LUGDU3-->
-      -45.213739+169.368483/PORUT/LUGDU
+      -45.213892+169.368372/PORUT/LUGDU
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy19 LUGDU3.ASIMA-->
@@ -127,7 +127,7 @@
       <Point>PAMKA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="19 RNP" Priority="1" Center="-45.209167+169.372058" CustomColourName="ProcArr">
+  <Map Type="System2" Name="19 RNP" Priority="1" Center="-45.209014+169.372197" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -142,11 +142,11 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">LUGDU/PORUT/LX407/-451233.000+1692219.409</Line>
+    <Line Pattern="Solid">LUGDU/PORUT/LX407/-451232.450+1692219.909</Line>
     <Line Pattern="Solid">BESMO/LUGDU</Line>
     <Line Pattern="Solid">KAKIT/LUGDU</Line>
   </Map>
-  <Map Type="System2" Name="19 RNP Labels" Priority="1" Center="-45.209167+169.372058" CustomColourName="ProcArr">
+  <Map Type="System2" Name="19 RNP Labels" Priority="1" Center="-45.209014+169.372197" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>LUGDU</Point>
       <Point>BESMO</Point>
@@ -154,10 +154,10 @@
       <Point>PORUT</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="14 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.216444+169.374331">
+  <Map Type="System2" Name="14 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.216408+169.374308">
     <Line Pattern="Dashed">
       <!--Rwy14 LUGDU3-->
-      -45.216444+169.374331/PORUT/LUGDU
+      -45.216408+169.374308/PORUT/LUGDU
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy14 LUGDU3.ASIMA-->
@@ -204,7 +204,7 @@
       <Point>PAMKA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="14 RNP" Priority="1" Center="-45.206325+169.368986" CustomColourName="ProcArr">
+  <Map Type="System2" Name="14 RNP" Priority="1" Center="-45.206283+169.368925" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -219,11 +219,11 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">LUGDU/PORUT/LX407/-451222.770+1692208.350</Line>
+    <Line Pattern="Solid">LUGDU/PORUT/LX407/-451222.619+1692208.130</Line>
     <Line Pattern="Solid">BESMO/LUGDU</Line>
     <Line Pattern="Solid">KAKIT/LUGDU</Line>
   </Map>
-  <Map Type="System2" Name="14 RNP Labels" Priority="1" Center="-45.206325+169.368986" CustomColourName="ProcArr">
+  <Map Type="System2" Name="14 RNP Labels" Priority="1" Center="-45.206283+169.368925" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>LUGDU</Point>
       <Point>BESMO</Point>
@@ -231,10 +231,10 @@
       <Point>PORUT</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="32 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.206325+169.368986">
+  <Map Type="System2" Name="32 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.206283+169.368925">
     <Line Pattern="Dashed">
       <!--Rwy32 LUGDU3-->
-      -45.206325+169.368986/PORUT/LUGDU
+      -45.206283+169.368925/PORUT/LUGDU
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy32 LUGDU3.ASIMA-->
@@ -281,7 +281,7 @@
       <Point>PAMKA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="32 RNP" Priority="1" Center="-45.216444+169.374331" CustomColourName="ProcArr">
+  <Map Type="System2" Name="32 RNP" Priority="1" Center="-45.216408+169.374308" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -296,11 +296,11 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">LUGDU/PORUT/LX407/-451259.198+1692227.592</Line>
+    <Line Pattern="Solid">LUGDU/PORUT/LX407/-451259.069+1692227.509</Line>
     <Line Pattern="Solid">BESMO/LUGDU</Line>
     <Line Pattern="Solid">KAKIT/LUGDU</Line>
   </Map>
-  <Map Type="System2" Name="32 RNP Labels" Priority="1" Center="-45.216444+169.374331" CustomColourName="ProcArr">
+  <Map Type="System2" Name="32 RNP Labels" Priority="1" Center="-45.216408+169.374308" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>LUGDU</Point>
       <Point>BESMO</Point>

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="05 SIDs" Priority="1" CustomColourName="ProcDep" Center="-42.423875+173.608017">
+  <Map Type="System2" Name="05 SIDs" Priority="1" CustomColourName="ProcDep" Center="-42.423406+173.609083">
     <Line Pattern="Dashed">
       <!--Rwy05 DUBAV1-->
-      -42.423875+173.608017/KI811/DUBAV
+      -42.423406+173.609083/KI811/DUBAV
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05 DUBAV1.IDATO-->
@@ -28,7 +28,7 @@
       <Point>LUSER</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="05 RNP" Priority="1" Center="-42.426317+173.600297" CustomColourName="ProcArr">
+  <Map Type="System2" Name="05 RNP" Priority="1" Center="-42.425506+173.602219" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -44,11 +44,11 @@
     <Symbol Type="SolidTriangle">
       <Point>IBASA</Point>
     </Symbol>
-    <Line Pattern="Solid">IBASA/URBAS/KI751/-422534.741+1733601.069</Line>
+    <Line Pattern="Solid">IBASA/URBAS/KI751/-422531.822+1733607.988</Line>
     <Line Pattern="Solid">APORI/IBASA</Line>
     <Line Pattern="Solid">IBONO/IBASA</Line>
   </Map>
-  <Map Type="System2" Name="05 RNP Labels" Priority="1" Center="-42.426317+173.600297" CustomColourName="ProcArr">
+  <Map Type="System2" Name="05 RNP Labels" Priority="1" Center="-42.425506+173.602219" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>APORI</Point>
       <Point>IBONO</Point>
@@ -56,10 +56,10 @@
       <Point>IBASA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="23 SIDs" Priority="1" CustomColourName="ProcDep" Center="-42.426317+173.600297">
+  <Map Type="System2" Name="23 SIDs" Priority="1" CustomColourName="ProcDep" Center="-42.425506+173.602219">
     <Line Pattern="Dashed">
       <!--Rwy23 DUBAV1-->
-      -42.426317+173.600297/KI811/DUBAV
+      -42.425506+173.602219/KI811/DUBAV
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy23 DUBAV1.IDATO-->
@@ -84,7 +84,7 @@
       <Point>LUSER</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="23 RNP" Priority="1" Center="-42.423875+173.608017" CustomColourName="ProcArr">
+  <Map Type="System2" Name="23 RNP" Priority="1" Center="-42.423406+173.609083" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -100,11 +100,11 @@
     <Symbol Type="SolidTriangle">
       <Point>IBASA</Point>
     </Symbol>
-    <Line Pattern="Solid">IBASA/URBAS/KI751/-422525.950+1733628.861</Line>
+    <Line Pattern="Solid">IBASA/URBAS/KI751/-422524.262+1733632.699</Line>
     <Line Pattern="Solid">APORI/IBASA</Line>
     <Line Pattern="Solid">IBONO/IBASA</Line>
   </Map>
-  <Map Type="System2" Name="23 RNP Labels" Priority="1" Center="-42.423875+173.608017" CustomColourName="ProcArr">
+  <Map Type="System2" Name="23 RNP Labels" Priority="1" Center="-42.423406+173.609083" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>APORI</Point>
       <Point>IBONO</Point>

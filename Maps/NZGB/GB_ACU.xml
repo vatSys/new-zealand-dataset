@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="06 RNP" Priority="1" Center="-36.241733+175.466400" CustomColourName="ProcArr">
+  <Map Type="System2" Name="06 RNP" Priority="1" Center="-36.241889+175.466106" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -15,11 +15,11 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">OMGET/AVKIN/GB678/-361430.239+1752759.040</Line>
+    <Line Pattern="Solid">OMGET/AVKIN/GB678/-361430.800+1752757.982</Line>
     <Line Pattern="Solid">LUVOG/OMGET</Line>
     <Line Pattern="Solid">VARSI/OMGET</Line>
   </Map>
-  <Map Type="System2" Name="06 RNP Labels" Priority="1" Center="-36.241733+175.466400" CustomColourName="ProcArr">
+  <Map Type="System2" Name="06 RNP Labels" Priority="1" Center="-36.241889+175.466106" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>OMGET</Point>
       <Point>LUVOG</Point>
@@ -27,7 +27,7 @@
       <Point>AVKIN</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="24 RNP" Priority="1" Center="-36.241131+175.472136" CustomColourName="ProcArr">
+  <Map Type="System2" Name="24 RNP" Priority="1" Center="-36.241014+175.473019" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -42,11 +42,11 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">OMGET/AVKIN/GB678/-361428.072+1752819.690</Line>
+    <Line Pattern="Solid">OMGET/AVKIN/GB678/-361427.650+1752822.868</Line>
     <Line Pattern="Solid">LUVOG/OMGET</Line>
     <Line Pattern="Solid">VARSI/OMGET</Line>
   </Map>
-  <Map Type="System2" Name="24 RNP Labels" Priority="1" Center="-36.241131+175.472136" CustomColourName="ProcArr">
+  <Map Type="System2" Name="24 RNP Labels" Priority="1" Center="-36.241014+175.473019" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>OMGET</Point>
       <Point>LUVOG</Point>
@@ -54,10 +54,10 @@
       <Point>AVKIN</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="10 SIDs" Priority="1" CustomColourName="ProcDep" Center="-36.243103+175.472969">
+  <Map Type="System2" Name="10 SIDs" Priority="1" CustomColourName="ProcDep" Center="-36.243211+175.473003">
     <Line Pattern="Dashed">
       <!--Rwy10 GB1P-->
-      -36.243103+175.472969/GB28T/GB408/UDUMA/-36.211960+175.583500/DOSTU
+      -36.243211+175.473003/GB28T/GB408/UDUMA/-36.211960+175.583500/DOSTU
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>GB28T</Point>
@@ -69,7 +69,7 @@
       <Point>DOSTU</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="10 RNP" Priority="1" Center="-36.238797+175.464031" CustomColourName="ProcArr">
+  <Map Type="System2" Name="10 RNP" Priority="1" Center="-36.239044+175.464139" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -84,11 +84,11 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">OMGET/AVKIN/GB678/-361419.669+1752750.512</Line>
+    <Line Pattern="Solid">OMGET/AVKIN/GB678/-361420.558+1752750.900</Line>
     <Line Pattern="Solid">LUVOG/OMGET</Line>
     <Line Pattern="Solid">VARSI/OMGET</Line>
   </Map>
-  <Map Type="System2" Name="10 RNP Labels" Priority="1" Center="-36.238797+175.464031" CustomColourName="ProcArr">
+  <Map Type="System2" Name="10 RNP Labels" Priority="1" Center="-36.239044+175.464139" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>OMGET</Point>
       <Point>LUVOG</Point>
@@ -96,7 +96,7 @@
       <Point>AVKIN</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="28 RNP" Priority="1" Center="-36.243103+175.472969" CustomColourName="ProcArr">
+  <Map Type="System2" Name="28 RNP" Priority="1" Center="-36.243211+175.473003" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -111,11 +111,11 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">OMGET/AVKIN/GB678/-361435.171+1752822.688</Line>
+    <Line Pattern="Solid">OMGET/AVKIN/GB678/-361435.560+1752822.811</Line>
     <Line Pattern="Solid">LUVOG/OMGET</Line>
     <Line Pattern="Solid">VARSI/OMGET</Line>
   </Map>
-  <Map Type="System2" Name="28 RNP Labels" Priority="1" Center="-36.243103+175.472969" CustomColourName="ProcArr">
+  <Map Type="System2" Name="28 RNP Labels" Priority="1" Center="-36.243211+175.473003" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>OMGET</Point>
       <Point>LUVOG</Point>

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="16 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.334939+174.806358">
+  <Map Type="System2" Name="16 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.335564+174.806317">
     <Line Pattern="Dashed">
       <!--Rwy16 AGRO2Q-->
-      -41.334939+174.806358/WN34T/URBEM/AGROR
+      -41.335564+174.806317/WN34T/URBEM/AGROR
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy16 AGRO2Q.AKTAN-->
@@ -19,7 +19,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy16 ATVE2Q-->
-      -41.334939+174.806358/WN16T/URBEM/ATVEV
+      -41.335564+174.806317/WN16T/URBEM/ATVEV
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy16 ATVE2Q.ATSUN-->
@@ -87,7 +87,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy16 IDVA2U-->
-      -41.334939+174.806358/OBGID/IDVAL
+      -41.335564+174.806317/OBGID/IDVAL
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy16 IDVA2U.IGMUL-->
@@ -188,7 +188,7 @@
       <Point>PP NDB</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="16 STARs" Priority="1" CustomColourName="ProcArr" Center="-41.318622+174.807458">
+  <Map Type="System2" Name="16 STARs" Priority="1" CustomColourName="ProcArr" Center="-41.318056+174.807494">
     <Line>
       <!--Rwy16 ATSU6B-->
       ATSUN/CHATS/ONOKI/PAHWA/WITBY
@@ -297,7 +297,7 @@
       <Point>DORBU</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="16 RNP" Priority="1" Center="-41.318622+174.807458" CustomColourName="ProcArr">
+  <Map Type="System2" Name="16 RNP" Priority="1" Center="-41.318056+174.807494" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>CANES</Point>
@@ -312,15 +312,15 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">WITBY/CANES/WN407/-411907.039+1744826.849</Line>
+    <Line Pattern="Solid">WITBY/CANES/WN407/-411905.000+1744826.978</Line>
   </Map>
-  <Map Type="System2" Name="16 RNP Labels" Priority="1" Center="-41.318622+174.807458" CustomColourName="ProcArr">
+  <Map Type="System2" Name="16 RNP Labels" Priority="1" Center="-41.318056+174.807494" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>WITBY</Point>
       <Point>WN407</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="16 RNP-AR" Priority="1" Center="-41.318622+174.807458" CustomColourName="ProcArr">
+  <Map Type="System2" Name="16 RNP-AR" Priority="1" Center="-41.318056+174.807494" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>WN509</Point>
@@ -339,11 +339,11 @@
     <Symbol Type="SolidTriangle">
       <Point>WN416</Point>
     </Symbol>
-    <Line Pattern="Solid">WN416/ATRAB/-411907.039+1744826.849</Line>
+    <Line Pattern="Solid">WN416/ATRAB/-411905.000+1744826.978</Line>
     <Line Pattern="Solid">DORBU/WN509/WN416</Line>
     <Line Pattern="Solid">HUWIT/WN513/WN416</Line>
   </Map>
-  <Map Type="System2" Name="16 RNP-AR Labels" Priority="1" Center="-41.318622+174.807458" CustomColourName="ProcArr">
+  <Map Type="System2" Name="16 RNP-AR Labels" Priority="1" Center="-41.318056+174.807494" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>DORBU</Point>
       <Point>HUWIT</Point>
@@ -351,10 +351,10 @@
       <Point>WN416</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="34 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.318622+174.807458">
+  <Map Type="System2" Name="34 SIDs" Priority="1" CustomColourName="ProcDep" Center="-41.318056+174.807494">
     <Line Pattern="Dashed">
       <!--Rwy34 IPKE2P-->
-      -41.318622+174.807458/WN34T/GANJI/IPKEP
+      -41.318056+174.807494/WN34T/GANJI/IPKEP
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy34 IPKE2P.ATVIN-->
@@ -374,7 +374,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy34 IPKE2T-->
-      -41.318622+174.807458/UDOSO/IPKEP
+      -41.318056+174.807494/UDOSO/IPKEP
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy34 IPKE2T.ATVIN-->
@@ -578,7 +578,7 @@
       <Point>VENAM</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="34 STARs" Priority="1" CustomColourName="ProcArr" Center="-41.334939+174.806358">
+  <Map Type="System2" Name="34 STARs" Priority="1" CustomColourName="ProcArr" Center="-41.335564+174.806317">
     <Line>
       <!--Rwy34 ATSU4A-->
       ATSUN/DONNY/RONGO/UMAGA
@@ -691,7 +691,7 @@
       <Point>RIPPA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="34 RNP" Priority="1" Center="-41.334939+174.806358" CustomColourName="ProcArr">
+  <Map Type="System2" Name="34 RNP" Priority="1" Center="-41.335564+174.806317" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>BUTIN</Point>
@@ -708,16 +708,16 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">UMAGA/BUTIN/WN401/ROZAN/-412005.780+1744822.889</Line>
-    <Line Pattern="Solid">ROZAN/WN403/-412005.780+1744822.889</Line>
+    <Line Pattern="Solid">UMAGA/BUTIN/WN401/ROZAN/-412008.030+1744822.741</Line>
+    <Line Pattern="Solid">ROZAN/WN403/-412008.030+1744822.741</Line>
   </Map>
-  <Map Type="System2" Name="34 RNP Labels" Priority="1" Center="-41.334939+174.806358" CustomColourName="ProcArr">
+  <Map Type="System2" Name="34 RNP Labels" Priority="1" Center="-41.335564+174.806317" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>UMAGA</Point>
       <Point>ROZAN</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="34 RNP-AR" Priority="1" Center="-41.334939+174.806358" CustomColourName="ProcArr">
+  <Map Type="System2" Name="34 RNP-AR" Priority="1" Center="-41.335564+174.806317" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>WN508</Point>
@@ -739,11 +739,11 @@
     <Symbol Type="SolidTriangle">
       <Point>WN412</Point>
     </Symbol>
-    <Line Pattern="Solid">WN412/WN508/SULAB/-412005.780+1744822.889</Line>
+    <Line Pattern="Solid">WN412/WN508/SULAB/-412008.030+1744822.741</Line>
     <Line Pattern="Solid">MEEDA/WN514/WN423/WN412</Line>
     <Line Pattern="Solid">RIPPA/WN411/WN506/WN412</Line>
   </Map>
-  <Map Type="System2" Name="34 RNP-AR Labels" Priority="1" Center="-41.334939+174.806358" CustomColourName="ProcArr">
+  <Map Type="System2" Name="34 RNP-AR Labels" Priority="1" Center="-41.335564+174.806317" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>MEEDA</Point>
       <Point>RIPPA</Point>

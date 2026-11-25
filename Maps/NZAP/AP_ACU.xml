@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="17 SIDs" Priority="1" CustomColourName="ProcDep" Center="-38.746789+176.082844">
+  <Map Type="System2" Name="17 SIDs" Priority="1" CustomColourName="ProcDep" Center="-38.746792+176.082844">
     <Line Pattern="Dashed">
       <!--Rwy17 BAY8-->
-      -38.746789+176.082844/AP35T/-38.767206+176.075683/-38.761722+176.039078/AP NDB
+      -38.746792+176.082844/AP35T/-38.767206+176.075683/-38.761722+176.039078/AP NDB
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy17 LAKE6-->
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy17 MINEK3-->
-      -38.746789+176.082844/AP17T/-38.769722+176.067778/MINEK
+      -38.746792+176.082844/AP17T/-38.769722+176.067778/MINEK
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy17 MINEK3.AKNES-->
@@ -80,7 +80,7 @@
       <Point>SULFA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="17 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.734717+176.086950">
+  <Map Type="System2" Name="17 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.734717+176.086942">
     <Line>
       <!--Rwy17 GOST3A-->
       GOSTI/GUSAG/KALGO
@@ -112,7 +112,7 @@
       <Point>GUMAN</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="17 RNP" Priority="1" Center="-38.734717+176.086950" CustomColourName="ProcArr">
+  <Map Type="System2" Name="17 RNP" Priority="1" Center="-38.734717+176.086942" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -127,11 +127,11 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">OBLIV/OLSEK/AP701/-384404.981+1760513.020</Line>
+    <Line Pattern="Solid">OBLIV/OLSEK/AP701/-384404.981+1760512.991</Line>
     <Line Pattern="Solid">GUMAN/OBLIV</Line>
     <Line Pattern="Solid">KALGO/OBLIV</Line>
   </Map>
-  <Map Type="System2" Name="17 RNP Labels" Priority="1" Center="-38.734717+176.086950" CustomColourName="ProcArr">
+  <Map Type="System2" Name="17 RNP Labels" Priority="1" Center="-38.734717+176.086942" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>OBLIV</Point>
       <Point>GUMAN</Point>
@@ -139,10 +139,10 @@
       <Point>OLSEK</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="35 SIDs" Priority="1" CustomColourName="ProcDep" Center="-38.734717+176.086950">
+  <Map Type="System2" Name="35 SIDs" Priority="1" CustomColourName="ProcDep" Center="-38.734717+176.086942">
     <Line Pattern="Dashed">
       <!--Rwy35 MOKAI4-->
-      -38.734717+176.086950/AP17T/-38.714481+176.094117
+      -38.734717+176.086942/AP17T/-38.714481+176.094117
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy35 PAERO5-->
@@ -219,7 +219,7 @@
       <Point>SULFA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="35 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.746789+176.082844">
+  <Map Type="System2" Name="35 STARs" Priority="1" CustomColourName="ProcArr" Center="-38.746792+176.082844">
     <Line>
       <!--Rwy35 GOST3B-->
       GOSTI/GUSAG/EMSAR
@@ -256,7 +256,7 @@
       <Point>AKABA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="35 RNP" Priority="1" Center="-38.746789+176.082844" CustomColourName="ProcArr">
+  <Map Type="System2" Name="35 RNP" Priority="1" Center="-38.746792+176.082844" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -273,12 +273,12 @@
     <Symbol Type="SolidTriangle">
       <Point>AP506</Point>
     </Symbol>
-    <Line Pattern="Solid">AP506/UBLUT/AP501/-384448.440+1760458.238</Line>
+    <Line Pattern="Solid">AP506/UBLUT/AP501/-384448.451+1760458.238</Line>
     <Line Pattern="Solid">AKABA/AP506</Line>
     <Line Pattern="Solid">EMSAR/AP506</Line>
     <Line Pattern="Solid">PEDVI/AP506</Line>
   </Map>
-  <Map Type="System2" Name="35 RNP Labels" Priority="1" Center="-38.746789+176.082844" CustomColourName="ProcArr">
+  <Map Type="System2" Name="35 RNP Labels" Priority="1" Center="-38.746792+176.082844" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>AKABA</Point>
       <Point>EMSAR</Point>

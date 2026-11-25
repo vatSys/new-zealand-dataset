@@ -117,19 +117,19 @@
   </Map>
   <Map Type="System2" Name="03 STARs" Priority="1" CustomColourName="ProcArr" Center="-45.933925+170.187472">
     <Line Pattern="Solid">
-      <!--Rwy03 BASO5A.ADKOS-->
+      <!--Rwy03 BASO6A.ADKOS-->
       ADKOS/AKBUM/GOGES/MESOG/BASOS
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy03 BASO5A.LIBLA-->
+      <!--Rwy03 BASO6A.LIBLA-->
       LIBLA/BOKAV/MIMEG/ATRAG/BASOS
     </Line>
     <Line Pattern="Solid">
-      <!--Rwy03 BASO5A.SUNGU-->
+      <!--Rwy03 BASO6A.SUNGU-->
       SUNGU/BASOS
     </Line>
     <Line>
-      <!--Rwy03 BASO5A-->
+      <!--Rwy03 BASO6A-->
       BASOS/VELBI/ANGOT/KAKAX/DAGNU/OTKIS/AKLAR
     </Line>
     <Line>
@@ -145,7 +145,7 @@
       MIPAK/IPKUG/IPMUL/RELEK/ANBIG/BIPUV/AKLAR
     </Line>
     <Line>
-      <!--Rwy03 MIPA4C-->
+      <!--Rwy03 MIPA5C-->
       IPMUL/IVTOP/ELNEK
     </Line>
     <Symbol Type="HollowTriangle">
@@ -216,7 +216,7 @@
   </Map>
   <Map Type="System2" Name="21 SIDs" Priority="1" CustomColourName="ProcDep" Center="-45.933925+170.187472">
     <Line Pattern="Dashed">
-      <!--Rwy21 AKPI3Q-->
+      <!--Rwy21 AKPI4Q-->
       -45.933925+170.187472/DN03T/AKLAR/IDADO/AKPIN
     </Line>
     <Line Pattern="Dashed">
@@ -316,7 +316,7 @@
   </Map>
   <Map Type="System2" Name="21 STARs" Priority="1" CustomColourName="ProcArr" Center="-45.924378+170.207786">
     <Line>
-      <!--Rwy21 AKLA3B-->
+      <!--Rwy21 AKLA4B-->
       AKLAR/BIPUV/LOSKO/AKDAS/BIGAR/ESKAT
     </Line>
     <Line Pattern="Solid">
@@ -336,7 +336,7 @@
       BASOS/VELBI/ANGOT/EMTOX/IPMUL/BIGAR
     </Line>
     <Line>
-      <!--Rwy21 DABC3B-->
+      <!--Rwy21 DABC4B-->
       DABCA/BIPUV
     </Line>
     <Line>

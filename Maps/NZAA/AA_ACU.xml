@@ -2,24 +2,8 @@
 <Maps>
   <Map Type="System2" Name="05R SIDs" Priority="1" CustomColourName="ProcDep" Center="-37.006656+174.805742">
     <Line Pattern="Dashed">
-      <!--Rwy05R AKEL2Q-->
-      -37.006656+174.805742/AA05R/EMRAG/POLIS/IDEMA/BROOK/AKELA
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy05R AKEL2Q.GULUT-->
-      AKELA/GULUT
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy05R AKEL2Q.PEBLU-->
-      AKELA/PEBLU
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy05R AKEL2Q.VELMO-->
-      AKELA/VELMO
-    </Line>
-    <Line Pattern="Dashed">
       <!--Rwy05R AVNA2Q-->
-      AA05R/ADKUM/TAVEB/OLBUM/AVNAR
+      -37.006656+174.805742/AA05R/ADKUM/TAVEB/OLBUM/AVNAR
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05R AVNA2Q.IGBAT-->
@@ -43,7 +27,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05R BATO4Q-->
-      EMRAG/XELAN/URBIG/BATOS
+      AA05R/EMRAG/XELAN/URBIG/BATOS
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05R BATO4Q.MADEP-->
@@ -118,6 +102,7 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05R POLI3Q-->
+      EMRAG/POLIS
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy05R POLI3Q.IGBAT-->
@@ -207,19 +192,28 @@
       <!--Rwy05R SATL3Q.OLBEX-->
       SATLA/OLBEX
     </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R URKI1Q-->
+      POLIS/IDEMA/BROOK/URKID
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R URKI1Q.GULUT-->
+      URKID/GULUT
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R URKI1Q.PEBLU-->
+      URKID/PEBLU
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy05R URKI1Q.VELMO-->
+      URKID/VELMO
+    </Line>
     <Symbol Type="SolidStar">
       <Point>AVNAR</Point>
       <Point>EMRAG</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>AA05R</Point>
-      <Point>POLIS</Point>
-      <Point>IDEMA</Point>
-      <Point>BROOK</Point>
-      <Point>AKELA</Point>
-      <Point>GULUT</Point>
-      <Point>PEBLU</Point>
-      <Point>VELMO</Point>
       <Point>ADKUM</Point>
       <Point>TAVEB</Point>
       <Point>OLBUM</Point>
@@ -229,6 +223,8 @@
       <Point>IPDIN</Point>
       <Point>NUTRA</Point>
       <Point>LESDI</Point>
+      <Point>PEBLU</Point>
+      <Point>VELMO</Point>
       <Point>XELAN</Point>
       <Point>URBIG</Point>
       <Point>BATOS</Point>
@@ -239,6 +235,7 @@
       <Point>BELRA</Point>
       <Point>DADLA</Point>
       <Point>SALAG</Point>
+      <Point>BROOK</Point>
       <Point>AA23L</Point>
       <Point>IDUGU</Point>
       <Point>BOVRU</Point>
@@ -248,6 +245,7 @@
       <Point>KADMA</Point>
       <Point>DUGAN</Point>
       <Point>ELNOS</Point>
+      <Point>POLIS</Point>
       <Point>ORIDI</Point>
       <Point>TULMI</Point>
       <Point>RAXIN</Point>
@@ -266,9 +264,11 @@
       <Point>IBESO</Point>
       <Point>IDSEM</Point>
       <Point>OLBEX</Point>
+      <Point>IDEMA</Point>
+      <Point>URKID</Point>
+      <Point>GULUT</Point>
     </Symbol>
     <Label HasLeader="true">
-      <Point>AKELA</Point>
       <Point>AVNAR</Point>
       <Point>BATOS</Point>
       <Point>SALAG</Point>
@@ -280,12 +280,12 @@
       <Point>RAXIN</Point>
       <Point>REKIS</Point>
       <Point>SATLA</Point>
-      <Point>GULUT</Point>
-      <Point>PEBLU</Point>
-      <Point>VELMO</Point>
+      <Point>URKID</Point>
       <Point>IGBAT</Point>
       <Point>KAPAI</Point>
       <Point>NUTRA</Point>
+      <Point>PEBLU</Point>
+      <Point>VELMO</Point>
       <Point>MADEP</Point>
       <Point>UPLAR</Point>
       <Point>BOVRU</Point>
@@ -306,6 +306,7 @@
       <Point>IBESO</Point>
       <Point>IDSEM</Point>
       <Point>OLBEX</Point>
+      <Point>GULUT</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="05R STARs" Priority="1" CustomColourName="ProcArr" Center="-37.016317+174.770783">

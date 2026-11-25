@@ -236,14 +236,14 @@
       <Point>PEDBA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="15 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.217233+175.390497">
+  <Map Type="System2" Name="15 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.217225+175.390494">
     <Line Pattern="Dashed">
       <!--Rwy15 IGBU1T-->
-      -40.217233+175.390497/OH33T/IGLAM/PATBI/POSOL/IGBUD
+      -40.217225+175.390494/OH33T/IGLAM/PATBI/POSOL/IGBUD
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy15 OH2-->
-      -40.217233+175.390497/OH15T/OH33T
+      -40.217225+175.390494/OH15T/OH33T
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy15 RIML1T-->
@@ -265,7 +265,7 @@
       <Point>RIMLU</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="15 RNP" Priority="1" Center="-40.199703+175.386042" CustomColourName="ProcArr">
+  <Map Type="System2" Name="15 RNP" Priority="1" Center="-40.199697+175.386039" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -280,11 +280,11 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">GUPIL/DOXIN/-401158.931+1752309.751</Line>
+    <Line Pattern="Solid">GUPIL/DOXIN/-401158.909+1752309.740</Line>
     <Line Pattern="Solid">ADKIS/GUPIL</Line>
     <Line Pattern="Solid">BOBIT/GUPIL</Line>
   </Map>
-  <Map Type="System2" Name="15 RNP Labels" Priority="1" Center="-40.199703+175.386042" CustomColourName="ProcArr">
+  <Map Type="System2" Name="15 RNP Labels" Priority="1" Center="-40.199697+175.386039" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>GUPIL</Point>
       <Point>ADKIS</Point>
@@ -292,14 +292,14 @@
       <Point>DOXIN</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="33 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.199703+175.386042">
+  <Map Type="System2" Name="33 SIDs" Priority="1" CustomColourName="ProcDep" Center="-40.199697+175.386039">
     <Line Pattern="Dashed">
       <!--Rwy33 IGBU1T-->
-      -40.199703+175.386042/OH15T/IGLAM/PATBI/POSOL/IGBUD
+      -40.199697+175.386039/OH15T/IGLAM/PATBI/POSOL/IGBUD
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy33 OH2-->
-      -40.199703+175.386042/OH33T/OH15T
+      -40.199697+175.386039/OH33T/OH15T
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy33 RIML1T-->
@@ -321,7 +321,7 @@
       <Point>RIMLU</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="33 RNP" Priority="1" Center="-40.217233+175.390497" CustomColourName="ProcArr">
+  <Map Type="System2" Name="33 RNP" Priority="1" Center="-40.217225+175.390494" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -336,11 +336,11 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">SOSLA/VELSU/-401302.039+1752325.789</Line>
+    <Line Pattern="Solid">SOSLA/VELSU/-401302.010+1752325.778</Line>
     <Line Pattern="Solid">NOBED/SOSLA</Line>
     <Line Pattern="Solid">VARNO/SOSLA</Line>
   </Map>
-  <Map Type="System2" Name="33 RNP Labels" Priority="1" Center="-40.217233+175.390497" CustomColourName="ProcArr">
+  <Map Type="System2" Name="33 RNP Labels" Priority="1" Center="-40.217225+175.390494" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>SOSLA</Point>
       <Point>NOBED</Point>

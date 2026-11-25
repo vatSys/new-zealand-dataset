@@ -36,7 +36,7 @@
   <Sector FullName="Auckland Radio (East)" Frequency="131.500" Callsign="NZZO-E_FSS" Name="ARE" DisplayInSectorsWindow="False">
     <Volumes>ARE</Volumes>
   </Sector>
-  <Sector FullName="Auckland Radio (Tasman)" Frequency="129.500" Callsign="NZZO-TSN_FSS" Name="ART" DisplayInSectorsWindow="False">
+  <Sector FullName="Auckland Radio (Tasman)" Frequency="129.550" Callsign="NZZO-TSN_FSS" Name="ART" DisplayInSectorsWindow="False">
     <Volumes>ART</Volumes>
   </Sector>
   <Sector FullName="Auckland Approach" Frequency="124.300" Callsign="NZAA_APP" Name="ATMA">

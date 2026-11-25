@@ -444,7 +444,7 @@
       <Point>ELMAX</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="06 RNP" Priority="1" Center="-41.296131+173.216994" CustomColourName="ProcArr">
+  <Map Type="System2" Name="06 RNP" Priority="1" Center="-41.296108+173.217700" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -459,11 +459,11 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">ELMAX/NOPEM/ORUBA/-411746.072+1731301.178</Line>
+    <Line Pattern="Solid">ELMAX/NOPEM/ORUBA/-411745.989+1731303.720</Line>
     <Line Pattern="Solid">KAPUA/ELMAX</Line>
     <Line Pattern="Solid">LIKMA/ELMAX</Line>
   </Map>
-  <Map Type="System2" Name="06 RNP Labels" Priority="1" Center="-41.296131+173.216994" CustomColourName="ProcArr">
+  <Map Type="System2" Name="06 RNP Labels" Priority="1" Center="-41.296108+173.217700" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>ELMAX</Point>
       <Point>KAPUA</Point>
@@ -471,7 +471,7 @@
       <Point>NOPEM</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="24 RNP" Priority="1" Center="-41.295453+173.224167" CustomColourName="ProcArr">
+  <Map Type="System2" Name="24 RNP" Priority="1" Center="-41.295589+173.223422" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -486,11 +486,11 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">ELMAX/NOPEM/ORUBA/-411743.631+1731327.000</Line>
+    <Line Pattern="Solid">ELMAX/NOPEM/ORUBA/-411744.120+1731324.319</Line>
     <Line Pattern="Solid">KAPUA/ELMAX</Line>
     <Line Pattern="Solid">LIKMA/ELMAX</Line>
   </Map>
-  <Map Type="System2" Name="24 RNP Labels" Priority="1" Center="-41.295453+173.224167" CustomColourName="ProcArr">
+  <Map Type="System2" Name="24 RNP Labels" Priority="1" Center="-41.295589+173.223422" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>ELMAX</Point>
       <Point>KAPUA</Point>
